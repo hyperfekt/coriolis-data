@@ -6,6 +6,7 @@
     "burstrof": {"id": 41, "name": "burstrof", "type": "percentage", "method": "multiplicative"},
     "clip": {"id": 4, "name": "clip", "type": "percentage", "method": "multiplicative"},
     "damage": {"id": 5, "name": "damage", "type": "percentage", "method": "multiplicative"},
+    "damagedist": {"id": 40, "name": "damage", "type": "hidden", "method": "overwrite"},
     "distdraw": {"id": 6, "name": "distdraw", "type": "percentage", "method": "multiplicative"},
     "duration": {"id": 7, "name": "duration", "type": "percentage", "method": "multiplicative"},
     "eff": {"id": 8, "name": "eff", "type": "percentage", "method": "multiplicative"},
@@ -40,6 +41,5 @@
     "thermres": {"id": 36, "name": "thermres", "type": "percentage", "method": "additive"},
     "wepcap": {"id": 37, "name": "wepcap", "type": "percentage", "method": "multiplicative"},
     "weprate": {"id": 38, "name": "weprate", "type": "percentage", "method": "multiplicative"},
-    "shieldreinforcement": {"id": 39, "name": "shieldreinforcement", "type": "percentage", "method": "multiplicative"},
-    "type": {"id": 40, "name": "type", "type": "alphabetic", "method": "overwrite"}
+    "shieldreinforcement": {"id": 39, "name": "shieldreinforcement", "type": "percentage", "method": "multiplicative"}
 }
