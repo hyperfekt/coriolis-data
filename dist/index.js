@@ -14818,7 +14818,43 @@ module.exports = {
       },
       Weapon_HighCapacity: {
         id: 85,
-        features: {},
+        features: {
+          "1": {
+            ammo: [ .17, .66 ],
+            clip: [ .1, .61 ],
+            mass: [ .25, .1 ],
+            reload: [ .2, 0 ],
+            power: [ .2, .1 ]
+          },
+          "2": {
+            ammo: [ .24, .75 ],
+            clip: [ .2, .7 ],
+            mass: [ .5, .2 ],
+            reload: [ .39, .1 ],
+            power: [ .25, .14 ]
+          },
+          "3": {
+            ammo: [ .34, .83 ],
+            clip: [ .31, .81 ],
+            mass: [ .75, .25 ],
+            reload: [ .61, .2 ],
+            power: [ .31, .2 ]
+          },
+          "4": {
+            ammo: [ .41, .91 ],
+            clip: [ .4, .9 ],
+            mass: [ 1, .39 ],
+            reload: [ .81, .31 ],
+            power: [ .35, .25 ]
+          },
+          "5": {
+            ammo: [ .5, 1 ],
+            clip: [ .5, 1 ],
+            mass: [ 1.25, .5 ],
+            reload: [ 1, .39 ],
+            power: [ .39, .31 ]
+          }
+        },
         name: "High capacity"
       },
       Weapon_LightWeight: {
