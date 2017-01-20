@@ -14168,7 +14168,7 @@ module.exports = {
         },
         name: "Shielded"
       },
-      Armour_Advanced: {
+      Armour_Kinetic: {
         id: 4,
         features: {
           "1": {
@@ -14230,7 +14230,7 @@ module.exports = {
         },
         name: "Blast Resistant"
       },
-      Armour_LightWeight: {
+      Armour_Advanced: {
         id: 6,
         features: {
           "1": {

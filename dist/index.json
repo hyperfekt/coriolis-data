@@ -16699,7 +16699,7 @@
 				},
 				"name": "Shielded"
 			},
-			"Armour_Advanced": {
+			"Armour_Kinetic": {
 				"id": 4,
 				"features": {
 					"1": {
@@ -16851,7 +16851,7 @@
 				},
 				"name": "Blast Resistant"
 			},
-			"Armour_LightWeight": {
+			"Armour_Advanced": {
 				"id": 6,
 				"features": {
 					"1": {
