@@ -41,9 +41,9 @@ describe('JSON Data', function() {
         expect(ids[id]).toBeFalsy('ID already exists: ' + id);
         expect(group[i].edID > 0).toBeTruthy('Standard module ' + id + ' is missing E:D ID');
         expect(group[i].eddbID > 0 || group[i].pp).toBeTruthy('Standard module ' + id + ' is missing EDDB ID');
-	if (s != 'ft' && s != 'pas' ) {
+        if (s != 'ft' && s != 'pas' ) {
           expect(group[i].integrity).toBeDefined('Standard module ' + id + ' is missing integrity');
-	}
+        }
         expect(group[i].grp).toBeDefined(`No group defined, Type: ${s}, ID: ${id}, Index: ${i}`);
         expect(eddbIDs[group[i].eddbID]).toBeFalsy(`EDDB ID [${group[i].eddbID}] already exists for ID: ${id}, Index: ${i}`);
         expect(edIDs[group[i].edID]).toBeFalsy(`E:D ID [${group[i].edID}] already exists for ID: ${id}, Index: ${i}`);
@@ -79,7 +79,7 @@ describe('JSON Data', function() {
         if (group[i].edID) {
           edIDs[group[i].edID] = true;
         }
-	if (group[i].damage) {
+        if (group[i].damage) {
           expect(group[i].damage).toBeDefined(`Hardpoint ${group[i].grp}:${id} ${group[i].name ? group[i].name : ''} is missing damage`);
           expect(group[i].damagedist).toBeDefined(`Hardpoint ${group[i].grp}:${id} ${group[i].name ? group[i].name : ''} is missing damage distribution`);
           if (group[i].grp != 'po') {
@@ -91,7 +91,7 @@ describe('JSON Data', function() {
             expect(group[i].distdraw).toBeDefined(`Hardpoint ${group[i].grp}:${id} ${group[i].name ? group[i].name : ''} is missing distdraw`);
           }
         }
-	if ((group[i].ammo || group[i].reload || group[i].clip) && g != 'hs' && g != 'ec') {
+        if ((group[i].ammo || group[i].reload || group[i].clip) && g != 'hs' && g != 'ec') {
           expect(group[i].ammo).toBeDefined(`Hardpoint ${group[i].grp}:${id} ${group[i].name ? group[i].name : ''} is missing ammo`);
           expect(group[i].clip).toBeDefined(`Hardpoint ${group[i].grp}:${id} ${group[i].name ? group[i].name : ''} is missing clip`);
           expect(group[i].reload).toBeDefined(`Hardpoint ${group[i].grp}:${id} ${group[i].name ? group[i].name : ''} is missing reload`);
@@ -174,6 +174,17 @@ describe('JSON Data', function() {
       const blueprint = Modifications.blueprints[k];
       expect(ids[blueprint.id]).toBeFalsy('ID already exists: ' + blueprint.id);
       expect(blueprint.name).toBeDefined('Blueprint has no name, ID:' + blueprint.id);
+
+      for (var x in blueprint.features) {
+        var b = blueprint.features[x];
+        var bfs = {};
+        for (var bf in b) {
+          expect(bfs[bf]).toBeFalsy(`Blueprint feature [${bf}] already exists: ${blueprint.name}`);
+          expect(Modifications.modifications[bf]).toBeDefined(`Blueprint feature [${bf}] uknown: ${blueprint.name}`);
+          bfs[bf] = true;
+        }
+      }
+
       ids[blueprint.id] = true;
     }
   });
@@ -189,6 +200,7 @@ describe('JSON Data', function() {
       expect(modification.method).toBeDefined('Modification has no method, ID:' + modification.id);
       ids[modification.id] = true;
     }
+
   });
 
   it('has valid specials', function() {
