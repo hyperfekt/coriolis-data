@@ -15,7 +15,7 @@
       "Armour_Advanced": [1, 2, 3, 4, 5],
       "Armour_Explosive": [1, 2, 3, 4, 5],
       "Armour_HeavyDuty": [1, 2, 3, 4, 5],
-      "Armour_LightWeight": [1, 2, 3, 4, 5],
+      "Armour_Kinetic": [1, 2, 3, 4, 5],
       "Armour_Thermic": [1, 2, 3, 4, 5]
     },
     "modifications": [
