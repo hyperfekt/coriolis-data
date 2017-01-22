@@ -15,7 +15,7 @@
       "Armour_Advanced": [1, 2, 3, 4, 5],
       "Armour_Explosive": [1, 2, 3, 4, 5],
       "Armour_HeavyDuty": [1, 2, 3, 4, 5],
-      "Armour_LightWeight": [1, 2, 3, 4, 5],
+      "Armour_Kinetic": [1, 2, 3, 4, 5],
       "Armour_Thermic": [1, 2, 3, 4, 5]
     },
     "modifications": [
@@ -135,9 +135,9 @@
   },
   "cs": {
     "blueprints": {
-      "ManifestScanner_LightWeight": [1, 2, 3, 4, 5],
-      "ManifestScanner_Reinforced": [1, 2, 3, 4, 5],
-      "ManifestScanner_Shielded": [1, 2, 3, 4, 5]
+      "CargoScanner_LightWeight": [1, 2, 3, 4, 5],
+      "CargoScanner_Reinforced": [1, 2, 3, 4, 5],
+      "CargoScanner_Shielded": [1, 2, 3, 4, 5]
     },
     "modifications": [
       "boot",
@@ -217,7 +217,7 @@
   },
   "fs": {
     "blueprints": {
-      "FuelScoop_Shielded": [1, 2, 3, 4, 5]
+      "FuelScoop_Shielded": [1, 2, 3, 4]
     },
     "modifications": [
       "integrity",
@@ -273,9 +273,9 @@
   "hr": {
     "blueprints": {
       "HullReinforcement_Advanced": [1, 2, 3, 4, 5],
+      "HullReinforcement_Explosive": [1, 2, 3, 4, 5],
       "HullReinforcement_HeavyDuty": [1, 2, 3, 4, 5],
       "HullReinforcement_Kinetic": [1, 2, 3, 4, 5],
-      "HullReinforcement_Lightweight": [1, 2, 3, 4, 5],
       "HullReinforcement_Thermic": [1, 2, 3, 4, 5]
     },
     "modifications": [
@@ -595,6 +595,7 @@
   },
   "rf": {
     "blueprints": {
+      "Refineries_Shielded": [1, 2, 3, 4]
     },
     "modifications": [
       "integrity",
