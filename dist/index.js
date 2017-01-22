@@ -14147,19 +14147,19 @@ module.exports = {
         features: {
           "1": {
             integrity: [ .2, .5 ],
-            power: [ .3, .2 ]
+            power: [ .31, .2 ]
           },
           "2": {
-            integrity: [ .4, 1 ],
-            power: [ .6, .4 ]
+            integrity: [ .39, 1 ],
+            power: [ .61, .4 ]
           },
           "3": {
-            integrity: [ .6, 1.5 ],
-            power: [ .9, .6 ]
+            integrity: [ .61, 1.5 ],
+            power: [ .89, .61 ]
           },
           "4": {
-            integrity: [ .8, 2 ],
-            power: [ 1.2, .8 ]
+            integrity: [ .81, 2 ],
+            power: [ 1.2, .79 ]
           },
           "5": {
             integrity: [ 1, 2.5 ],
@@ -14172,59 +14172,59 @@ module.exports = {
         id: 4,
         features: {
           "1": {
-            explres: [ -.04, -.02 ],
-            kinres: [ .05, .08 ],
+            explres: [ -.056, -.028 ],
+            kinres: [ .06, .096 ],
             thermres: [ -.04, -.02 ]
           },
           "2": {
-            explres: [ -.08, -.04 ],
-            kinres: [ .1, .16 ],
+            explres: [ -.112, -.056 ],
+            kinres: [ .12, .192 ],
             thermres: [ -.08, -.04 ]
           },
           "3": {
-            explres: [ -.12, -.06 ],
-            kinres: [ .15, .24 ],
+            explres: [ -.168, -.084 ],
+            kinres: [ .18, .288 ],
             thermres: [ -.12, -.06 ]
           },
           "4": {
-            explres: [ -.16, -.08 ],
-            kinres: [ .2, .32 ],
+            explres: [ -.224, -.112 ],
+            kinres: [ .24, .384 ],
             thermres: [ -.16, -.08 ]
           },
           "5": {
-            explres: [ -.2, -.1 ],
-            kinres: [ .25, .4 ],
+            explres: [ -.28, -.14 ],
+            kinres: [ .3, .48 ],
             thermres: [ -.2, -.1 ]
           }
         },
-        name: "Kinetic resistant"
+        name: "Kinetic Resistant"
       },
       Armour_Explosive: {
         id: 5,
         features: {
           "1": {
-            explres: [ .05, .08 ],
-            kinres: [ -.04, -.02 ],
+            explres: [ .07, .112 ],
+            kinres: [ -.048, -.024 ],
             thermres: [ -.04, -.02 ]
           },
           "2": {
-            explres: [ .1, .16 ],
-            kinres: [ -.08, -.04 ],
+            explres: [ .14, .224 ],
+            kinres: [ -.096, -.048 ],
             thermres: [ -.08, -.04 ]
           },
           "3": {
-            explres: [ .15, .24 ],
-            kinres: [ -.12, -.06 ],
+            explres: [ .21, .336 ],
+            kinres: [ -.144, -.072 ],
             thermres: [ -.12, -.06 ]
           },
           "4": {
-            explres: [ .2, .32 ],
-            kinres: [ -.16, -.08 ],
+            explres: [ .28, .448 ],
+            kinres: [ -.192, -.096 ],
             thermres: [ -.16, -.08 ]
           },
           "5": {
-            explres: [ .25, .4 ],
-            kinres: [ -.2, -.1 ],
+            explres: [ .35, .56 ],
+            kinres: [ -.24, -.12 ],
             thermres: [ -.2, -.1 ]
           }
         },
@@ -14234,37 +14234,37 @@ module.exports = {
         id: 6,
         features: {
           "1": {
-            explres: [ 0, .02 ],
-            hullboost: [ -.01, 0 ],
-            kinres: [ 0, .02 ],
+            explres: [ 0, .028 ],
+            hullboost: [ -.03, 0 ],
+            kinres: [ 0, .024 ],
             mass: [ -.04, -.15 ],
             thermres: [ 0, .02 ]
           },
           "2": {
-            explres: [ .01, .04 ],
+            explres: [ .014, .056 ],
             hullboost: [ -.02, -.01 ],
-            kinres: [ .01, .04 ],
+            kinres: [ .012, .048 ],
             mass: [ -.08, -.25 ],
             thermres: [ .01, .04 ]
           },
           "3": {
-            explres: [ .02, .06 ],
-            hullboost: [ -.03, -.02 ],
-            kinres: [ .02, .06 ],
+            explres: [ .028, .084 ],
+            hullboost: [ -.07, -.05 ],
+            kinres: [ .024, .072 ],
             mass: [ -.12, -.35 ],
             thermres: [ .02, .06 ]
           },
           "4": {
-            explres: [ .03, .08 ],
-            hullboost: [ -.04, -.03 ],
-            kinres: [ .03, .08 ],
+            explres: [ .042, .112 ],
+            hullboost: [ -.09, -.07 ],
+            kinres: [ .036, .096 ],
             mass: [ -.16, -.45 ],
             thermres: [ .03, .08 ]
           },
           "5": {
-            explres: [ .04, .1 ],
-            hullboost: [ -.05, -.04 ],
-            kinres: [ .04, .1 ],
+            explres: [ .056, .14 ],
+            hullboost: [ -.12, -.09 ],
+            kinres: [ .048, .12 ],
             mass: [ -.2, -.55 ],
             thermres: [ .04, .1 ]
           }
@@ -14275,39 +14275,39 @@ module.exports = {
         id: 7,
         features: {
           "1": {
-            explres: [ 0, .01 ],
-            hullboost: [ .04, .01 ],
-            kinres: [ 0, .01 ],
+            explres: [ 0, .014 ],
+            hullboost: [ .08, .22 ],
+            kinres: [ 0, .012 ],
             mass: [ .08, 0 ],
             thermres: [ 0, .01 ]
           },
           "2": {
-            explres: [ .01, .02 ],
-            hullboost: [ .08, .15 ],
-            kinres: [ .01, .02 ],
-            mass: [ .16, .05 ],
+            explres: [ .014, .028 ],
+            hullboost: [ .18, .34 ],
+            kinres: [ .012, .024 ],
+            mass: [ .15, .04 ],
             thermres: [ .01, .02 ]
           },
           "3": {
-            explres: [ .02, .03 ],
-            hullboost: [ .12, .2 ],
-            kinres: [ .02, .03 ],
-            mass: [ .24, .1 ],
+            explres: [ .028, .042 ],
+            hullboost: [ .28, .45 ],
+            kinres: [ .024, .036 ],
+            mass: [ .23, .1 ],
             thermres: [ .02, .03 ]
           },
           "4": {
-            explres: [ .03, .04 ],
-            hullboost: [ .16, .25 ],
-            kinres: [ .03, .04 ],
-            mass: [ .32, .15 ],
+            explres: [ .042, .056 ],
+            hullboost: [ .35, .56 ],
+            kinres: [ .036, .048 ],
+            mass: [ .31, .14 ],
             thermres: [ .03, .04 ]
           },
           "5": {
-            explres: [ .04, .5 ],
-            hullboost: [ .2, .3 ],
-            kinres: [ .04, .5 ],
-            mass: [ .4, .2 ],
-            thermres: [ .04, .5 ]
+            explres: [ .056, .07 ],
+            hullboost: [ .45, .68 ],
+            kinres: [ .048, .06 ],
+            mass: [ .39, .2 ],
+            thermres: [ .04, .05 ]
           }
         },
         name: "Heavy Duty"
@@ -14316,28 +14316,28 @@ module.exports = {
         id: 8,
         features: {
           "1": {
-            explres: [ -.04, -.02 ],
-            kinres: [ -.04, -.02 ],
+            explres: [ -.056, -.028 ],
+            kinres: [ -.048, -.024 ],
             thermres: [ .05, .08 ]
           },
           "2": {
-            explres: [ -.08, -.04 ],
-            kinres: [ -.08, -.04 ],
+            explres: [ -.112, -.056 ],
+            kinres: [ -.096, -.048 ],
             thermres: [ .1, .16 ]
           },
           "3": {
-            explres: [ -.12, -.06 ],
-            kinres: [ -.12, -.06 ],
+            explres: [ -.168, -.084 ],
+            kinres: [ -.144, -.072 ],
             thermres: [ .15, .24 ]
           },
           "4": {
-            explres: [ -.16, -.08 ],
-            kinres: [ -.16, -.08 ],
+            explres: [ -.224, -.112 ],
+            kinres: [ -.192, -.096 ],
             thermres: [ .2, .32 ]
           },
           "5": {
-            explres: [ -.2, -.1 ],
-            kinres: [ -.2, -.1 ],
+            explres: [ -.28, -.14 ],
+            kinres: [ -.24, -.12 ],
             thermres: [ .25, .4 ]
           }
         },
@@ -14348,15 +14348,15 @@ module.exports = {
         features: {
           "1": {
             integrity: [ -.2, -.1 ],
-            mass: [ -.3, -.4 ]
+            mass: [ -.31, -.4 ]
           },
           "2": {
-            integrity: [ -.3, -.2 ],
+            integrity: [ -.31, -.2 ],
             mass: [ -.4, -.5 ]
           },
           "3": {
-            integrity: [ -.4, -.4 ],
-            mass: [ -.5, -.6 ]
+            integrity: [ -.4, -.31 ],
+            mass: [ -.5, -.61 ]
           },
           "4": {
             integrity: [ -.5, -.4 ],
@@ -14374,14 +14374,14 @@ module.exports = {
         features: {
           "1": {
             integrity: [ .2, .5 ],
-            mass: [ 1, .4 ]
+            mass: [ 1, .39 ]
           },
           "2": {
-            integrity: [ .4, 1 ],
-            mass: [ 1.5, .8 ]
+            integrity: [ .39, 1 ],
+            mass: [ 1.5, .79 ]
           },
           "3": {
-            integrity: [ .6, 1.5 ],
+            integrity: [ .61, 1.5 ],
             mass: [ 2, 1.2 ]
           },
           "4": {
@@ -14400,15 +14400,15 @@ module.exports = {
         features: {
           "1": {
             integrity: [ .2, .5 ],
-            power: [ .3, .2 ]
+            power: [ .29, .2 ]
           },
           "2": {
-            integrity: [ .4, 1 ],
-            power: [ .6, .4 ]
+            integrity: [ .39, 1 ],
+            power: [ .61, .39 ]
           },
           "3": {
-            integrity: [ .6, 1.5 ],
-            power: [ .9, .6 ]
+            integrity: [ .61, 1.5 ],
+            power: [ .89, .61 ]
           },
           "4": {
             integrity: [ .8, 2 ],
@@ -14947,23 +14947,19 @@ module.exports = {
         features: {
           "1": {
             integrity: [ .2, .5 ],
-            power: [ .3, .2 ]
+            power: [ .31, .2 ]
           },
           "2": {
-            integrity: [ .4, 1 ],
-            power: [ .6, .4 ]
+            integrity: [ .39, 1 ],
+            power: [ .61, .39 ]
           },
           "3": {
-            integrity: [ .6, 1.5 ],
-            power: [ .9, .6 ]
+            integrity: [ .61, 1.5 ],
+            power: [ .89, .61 ]
           },
           "4": {
-            integrity: [ .8, 2 ],
-            power: [ 1.2, .8 ]
-          },
-          "5": {
-            integrity: [ 1, 1.5 ],
-            power: [ 1.5, 1 ]
+            integrity: [ .79, 2 ],
+            power: [ 1.2, .81 ]
           }
         },
         name: "Shielded"
@@ -15215,28 +15211,168 @@ module.exports = {
       },
       HullReinforcement_Advanced: {
         id: 41,
-        features: {},
-        name: "Blast resistant"
+        features: {
+          "1": {
+            hullboost: [ .02, .06 ],
+            hullreinforcement: [ -.05, 0 ],
+            mass: [ 0, -.03 ]
+          },
+          "2": {
+            hullboost: [ .04, .09 ],
+            hullreinforcement: [ -.1, -.05 ],
+            mass: [ 0, -.06 ]
+          },
+          "3": {
+            hullboost: [ .06, .12 ],
+            hullreinforcement: [ -.15, -.1 ],
+            mass: [ 0, -.1 ]
+          },
+          "4": {
+            hullboost: [ .08, .15 ],
+            hullreinforcement: [ -.2, -.15 ],
+            mass: [ 0, -.12 ]
+          },
+          "5": {
+            hullboost: [ .1, .18 ],
+            hullreinforcement: [ -.25, -.2 ],
+            mass: [ 0, -.15 ]
+          }
+        },
+        name: "Lightweight"
+      },
+      HullReinforcement_Explosive: {
+        id: 43,
+        features: {
+          "1": {
+            explres: [ .0487, .078 ],
+            kinres: [ -.0293, -.0195 ],
+            thermres: [ -.0293, -.0195 ]
+          },
+          "2": {
+            explres: [ .0975, .156 ],
+            kinres: [ -.0585, -.039 ],
+            thermres: [ -.0484, -.039 ]
+          },
+          "3": {
+            explres: [ .1463, .234 ],
+            kinres: [ -.0878, -.0585 ],
+            thermres: [ -.0878, -.0585 ]
+          },
+          "4": {
+            explres: [ .195, .312 ],
+            kinres: [ -.117, -.078 ],
+            thermres: [ -.117, -.078 ]
+          },
+          "5": {
+            explres: [ .2437, .39 ],
+            kinres: [ -.1463, -.0975 ],
+            thermres: [ -.1463, -.0975 ]
+          }
+        },
+        name: "Blast Resistant"
       },
       HullReinforcement_HeavyDuty: {
         id: 42,
-        features: {},
+        features: {
+          "1": {
+            explres: [ 0, .0292 ],
+            hullreinforcement: [ .04, .2 ],
+            kinres: [ 0, .0292 ],
+            mass: [ .08, 0 ],
+            thermres: [ 0, .0292 ]
+          },
+          "2": {
+            explres: [ .098, .0585 ],
+            hullreinforcement: [ .1, .29 ],
+            kinres: [ .098, .0585 ],
+            mass: [ .15, .04 ],
+            thermres: [ .098, .0585 ]
+          },
+          "3": {
+            explres: [ .0195, .0878 ],
+            hullreinforcement: [ .14, .39 ],
+            kinres: [ .0195, .0878 ],
+            mass: [ .23, .1 ],
+            thermres: [ .0195, .0878 ]
+          },
+          "4": {
+            explres: [ .0292, .117 ],
+            hullreinforcement: [ .2, .5 ],
+            kinres: [ .0292, .117 ],
+            mass: [ .31, .14 ],
+            thermres: [ .0292, .117 ]
+          },
+          "5": {
+            explres: [ .039, .1463 ],
+            hullreinforcement: [ .25, .61 ],
+            kinres: [ .039, .1463 ],
+            mass: [ .39, .2 ],
+            thermres: [ .039, .1463 ]
+          }
+        },
         name: "Heavy duty"
-      },
-      HullReinforcement_Lightweight: {
-        id: 43,
-        features: {},
-        name: "Lightweight"
       },
       HullReinforcement_Kinetic: {
         id: 44,
-        features: {},
-        name: "Kinetic resistant"
+        features: {
+          "1": {
+            explres: [ -.0293, -.0195 ],
+            kinres: [ .0487, .078 ],
+            thermres: [ -.0293, -.0195 ]
+          },
+          "2": {
+            explres: [ -.0585, -.039 ],
+            kinres: [ .0975, .156 ],
+            thermres: [ -.0585, -.039 ]
+          },
+          "3": {
+            explres: [ -.0878, -.0585 ],
+            kinres: [ .1463, .234 ],
+            thermres: [ -.0878, -.0585 ]
+          },
+          "4": {
+            explres: [ -.117, -.078 ],
+            kinres: [ .195, .312 ],
+            thermres: [ -.117, -.078 ]
+          },
+          "5": {
+            explres: [ -.1463, -.0975 ],
+            kinres: [ .2437, .39 ],
+            thermres: [ -.1463, -.0975 ]
+          }
+        },
+        name: "Kinetic Resistant"
       },
       HullReinforcement_Thermic: {
         id: 45,
-        features: {},
-        name: "Thermal resistant"
+        features: {
+          "1": {
+            explres: [ -.0293, -.0195 ],
+            kinres: [ -.0293, -.0195 ],
+            thermres: [ .0487, .078 ]
+          },
+          "2": {
+            explres: [ -.0585, -.039 ],
+            kinres: [ -.0585, -.039 ],
+            thermres: [ .0975, .156 ]
+          },
+          "3": {
+            explres: [ -.0878, -.0585 ],
+            kinres: [ -.0878, -.0585 ],
+            thermres: [ .1463, .234 ]
+          },
+          "4": {
+            explres: [ -.117, -.078 ],
+            kinres: [ -.117, -.078 ],
+            thermres: [ .195, .312 ]
+          },
+          "5": {
+            explres: [ -.1463, -.0975 ],
+            kinres: [ -.1463, -.0975 ],
+            thermres: [ .2437, .39 ]
+          }
+        },
+        name: "Thermal Resistant"
       },
       KillWarrantScanner_LightWeight: {
         id: 46,
@@ -15757,6 +15893,16 @@ module.exports = {
         id: 64,
         features: {
           "1": {
+            eff: [ -.05, -.2 ],
+            mass: [ .05, 0 ],
+            pgen: [ -.06, 0 ]
+          },
+          "2": {
+            eff: [ -.1, -.3 ],
+            mass: [ .1, .05 ],
+            pgen: [ -.12, -.03 ]
+          },
+          "3": {
             eff: [ -.15, -.4 ],
             mass: [ .15, .1 ],
             pgen: [ -.18, -.06 ]
@@ -15842,30 +15988,197 @@ module.exports = {
         },
         name: "Shielded"
       },
+      Refineries_Shielded: {
+        id: 92,
+        features: {
+          "1": {
+            integrity: [ .2, .5 ],
+            power: [ .29, .2 ]
+          },
+          "2": {
+            integrity: [ .39, 1 ],
+            power: [ .61, .39 ]
+          },
+          "3": {
+            integrity: [ .61, 1.5 ],
+            power: [ .89, .61 ]
+          },
+          "4": {
+            integrity: [ .81, 2 ],
+            power: [ 1.2, .79 ]
+          }
+        },
+        name: "Shielded"
+      },
       ShieldBooster_Explosive: {
         id: 68,
-        features: {},
-        name: "Blast resistant"
+        features: {
+          "1": {
+            explres: [ .02, .05 ],
+            kinres: [ -.02, 0 ],
+            thermres: [ -.02, 0 ]
+          },
+          "2": {
+            explres: [ .07, -.1 ],
+            kinres: [ -.03, -.01 ],
+            thermres: [ -.03, -.01 ]
+          },
+          "3": {
+            explres: [ .12, .15 ],
+            kinres: [ -.04, -.04 ],
+            thermres: [ -.05, -.02 ]
+          },
+          "4": {
+            explres: [ .17, .2 ],
+            kinres: [ -.05, -.03 ],
+            thermres: [ -.05, -.03 ]
+          },
+          "5": {
+            explres: [ .22, .25 ],
+            kinres: [ -.06, -.04 ],
+            thermres: [ -.06, -.04 ]
+          }
+        },
+        name: "Blast Resistant"
       },
       ShieldBooster_HeavyDuty: {
         id: 69,
-        features: {},
+        features: {
+          "1": {
+            integrity: [ 0, .03 ],
+            mass: [ 1, .5 ],
+            power: [ .05, 0 ],
+            shieldboost: [ .03, .06 ]
+          },
+          "2": {
+            integrity: [ .03, .06 ],
+            mass: [ 1.5, 1 ],
+            power: [ .1, .05 ],
+            shieldboost: [ .08, .12 ]
+          },
+          "3": {
+            integrity: [ .06, .09 ],
+            mass: [ 2, 1.5 ],
+            power: [ .15, .1 ],
+            shieldboost: [ .13, .18 ]
+          },
+          "4": {
+            integrity: [ .09, .12 ],
+            mass: [ 2.5, 2 ],
+            power: [ .2, .15 ],
+            shieldboost: [ .18, .24 ]
+          },
+          "5": {
+            integrity: [ .12, .15 ],
+            mass: [ 3, 2.5 ],
+            power: [ .25, .2 ],
+            shieldboost: [ .23, .3 ]
+          }
+        },
         name: "Heavy duty"
       },
       ShieldBooster_Kinetic: {
         id: 70,
-        features: {},
-        name: "Kinetic resistant"
+        features: {
+          "1": {
+            explres: [ -.02, 0 ],
+            kinres: [ .02, .05 ],
+            thermres: [ -.02, 0 ]
+          },
+          "2": {
+            explres: [ -.03, -.01 ],
+            kinres: [ .07, .1 ],
+            thermres: [ -.03, -.01 ]
+          },
+          "3": {
+            explres: [ -.04, -.02 ],
+            kinres: [ .12, .15 ],
+            thermres: [ -.05, -.02 ]
+          },
+          "4": {
+            explres: [ -.05, -.03 ],
+            kinres: [ .17, -.2 ],
+            thermres: [ -.05, -.03 ]
+          },
+          "5": {
+            explres: [ -.06, -.04 ],
+            kinres: [ .22, .25 ],
+            thermres: [ -.06, -.04 ]
+          }
+        },
+        name: "Kinetic Resistant"
       },
       ShieldBooster_Resistive: {
         id: 71,
-        features: {},
+        features: {
+          "1": {
+            explres: [ .01, .03 ],
+            integrity: [ -.04, 0 ],
+            kinres: [ .01, .03 ],
+            power: [ .08, 0 ],
+            thermres: [ .01, .03 ]
+          },
+          "2": {
+            explres: [ .025, .06 ],
+            integrity: [ -.08, -.02 ],
+            kinres: [ .025, .06 ],
+            power: [ .16, .04 ],
+            thermres: [ .025, .06 ]
+          },
+          "3": {
+            explres: [ .06, .075 ],
+            integrity: [ -.12, -.04 ],
+            kinres: [ .06, .075 ],
+            power: [ .24, .08 ],
+            thermres: [ .06, .075 ]
+          },
+          "4": {
+            explres: [ .075, .11 ],
+            integrity: [ -.16, -.06 ],
+            kinres: [ .075, .11 ],
+            power: [ .32, .12 ],
+            thermres: [ .075, .11 ]
+          },
+          "5": {
+            explres: [ .1, .125 ],
+            integrity: [ -.2, -.08 ],
+            kinres: [ .1, .125 ],
+            power: [ .4, .16 ],
+            thermres: [ .1, .125 ]
+          }
+        },
         name: "Resistance augmented"
       },
       ShieldBooster_Thermic: {
         id: 72,
-        features: {},
-        name: "Thermal resistant"
+        features: {
+          "1": {
+            explres: [ -.02, 0 ],
+            kinres: [ -.02, 0 ],
+            thermres: [ .02, .05 ]
+          },
+          "2": {
+            explres: [ -.03, -.01 ],
+            kinres: [ -.03, -.01 ],
+            thermres: [ .07, .1 ]
+          },
+          "3": {
+            explres: [ -.04, -.02 ],
+            kinres: [ -.04, -.04 ],
+            thermres: [ .12, .15 ]
+          },
+          "4": {
+            explres: [ -.05, -.03 ],
+            kinres: [ -.05, -.03 ],
+            thermres: [ .17, .2 ]
+          },
+          "5": {
+            explres: [ -.06, -.04 ],
+            kinres: [ -.06, -.04 ],
+            thermres: [ .22, .25 ]
+          }
+        },
+        name: "Thermal Resistant"
       },
       ShieldCellBank_Rapid: {
         id: 73,
@@ -15956,7 +16269,7 @@ module.exports = {
             thermres: [ -.25, -.08 ]
           }
         },
-        name: "Kinetic resistant"
+        name: "Kinetic Resistant"
       },
       ShieldGenerator_Optimised: {
         id: 76,
@@ -16074,7 +16387,7 @@ module.exports = {
             thermres: [ .13, .5 ]
           }
         },
-        name: "Thermal resistant"
+        name: "Thermal Resistant"
       },
       WakeScanner_LightWeight: {
         id: 79,
@@ -17197,9 +17510,9 @@ module.exports = {
       },
       cs: {
         blueprints: {
-          ManifestScanner_LightWeight: [ 1, 2, 3, 4, 5 ],
-          ManifestScanner_Reinforced: [ 1, 2, 3, 4, 5 ],
-          ManifestScanner_Shielded: [ 1, 2, 3, 4, 5 ]
+          CargoScanner_LightWeight: [ 1, 2, 3, 4, 5 ],
+          CargoScanner_Reinforced: [ 1, 2, 3, 4, 5 ],
+          CargoScanner_Shielded: [ 1, 2, 3, 4, 5 ]
         },
         modifications: [ "boot", "integrity", "mass", "power" ]
       },
@@ -17241,7 +17554,7 @@ module.exports = {
       },
       fs: {
         blueprints: {
-          FuelScoop_Shielded: [ 1, 2, 3, 4, 5 ]
+          FuelScoop_Shielded: [ 1, 2, 3, 4 ]
         },
         modifications: [ "integrity", "power" ]
       },
@@ -17276,9 +17589,9 @@ module.exports = {
       hr: {
         blueprints: {
           HullReinforcement_Advanced: [ 1, 2, 3, 4, 5 ],
+          HullReinforcement_Explosive: [ 1, 2, 3, 4, 5 ],
           HullReinforcement_HeavyDuty: [ 1, 2, 3, 4, 5 ],
           HullReinforcement_Kinetic: [ 1, 2, 3, 4, 5 ],
-          HullReinforcement_Lightweight: [ 1, 2, 3, 4, 5 ],
           HullReinforcement_Thermic: [ 1, 2, 3, 4, 5 ]
         },
         modifications: [ "hullreinforcement", "explres", "hullboost", "kinres", "mass", "thermres" ]
@@ -17443,7 +17756,9 @@ module.exports = {
         modifications: []
       },
       rf: {
-        blueprints: {},
+        blueprints: {
+          Refineries_Shielded: [ 1, 2, 3, 4 ]
+        },
         modifications: [ "integrity", "power" ]
       },
       rg: {

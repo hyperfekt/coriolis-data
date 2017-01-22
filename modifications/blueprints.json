@@ -56,19 +56,19 @@
     "features": {
       "1": {
         "integrity": [ 0.2, 0.5 ],
-        "power": [ 0.3, 0.2 ]
+        "power": [ 0.31, 0.2 ]
       },
       "2": {
-        "integrity": [ 0.4, 1 ],
-        "power": [ 0.6, 0.4 ]
+        "integrity": [ 0.39, 1 ],
+        "power": [ 0.61, 0.4 ]
       },
       "3": {
-        "integrity": [ 0.6, 1.5 ],
-        "power": [ 0.9, 0.6 ]
+        "integrity": [ 0.61, 1.5 ],
+        "power": [ 0.89, 0.61 ]
       },
       "4": {
-        "integrity": [ 0.8, 2 ],
-        "power": [ 1.2, 0.8 ]
+        "integrity": [ 0.81, 2 ],
+        "power": [ 1.2, 0.79 ]
       },
       "5": {
         "integrity": [ 1, 2.5 ],
@@ -81,59 +81,59 @@
     "id": 4,
     "features": {
       "1": {
-        "explres": [ -0.04, -0.02 ],
-        "kinres": [ 0.05, 0.08 ],
+        "explres": [ -0.056, -0.028 ],
+        "kinres": [ 0.06, 0.096 ],
         "thermres": [ -0.04, -0.02 ]
       },
       "2": {
-        "explres": [ -0.08, -0.04 ],
-        "kinres": [ 0.1, 0.16 ],
+        "explres": [ -0.112, -0.056 ],
+        "kinres": [ 0.12, 0.192 ],
         "thermres": [ -0.08, -0.04 ]
       },
       "3": {
-        "explres": [ -0.12, -0.06 ],
-        "kinres": [ 0.15, 0.24 ],
+        "explres": [ -0.168, -0.084 ],
+        "kinres": [ 0.18, 0.288 ],
         "thermres": [ -0.12, -0.06 ]
       },
       "4": {
-        "explres": [ -0.16, -0.08 ],
-        "kinres": [ 0.2, 0.32 ],
+        "explres": [ -0.224, -0.112 ],
+        "kinres": [ 0.24, 0.384 ],
         "thermres": [ -0.16, -0.08 ]
       },
       "5": {
-        "explres": [ -0.2, -0.1 ],
-        "kinres": [ 0.25, 0.4 ],
+        "explres": [ -0.28, -0.14 ],
+        "kinres": [ 0.3, 0.48 ],
         "thermres": [ -0.2, -0.1 ]
       }
     },
-    "name": "Kinetic resistant"
+    "name": "Kinetic Resistant"
   },
   "Armour_Explosive": {
     "id": 5,
     "features": {
       "1": {
-        "explres": [ 0.05, 0.08 ],
-        "kinres": [ -0.04, -0.02 ],
+        "explres": [ 0.07, 0.112 ],
+        "kinres": [ -0.048, -0.024 ],
         "thermres": [ -0.04, -0.02 ]
       },
       "2": {
-        "explres": [ 0.1, 0.16 ],
-        "kinres": [ -0.08, -0.04 ],
+        "explres": [ 0.14, 0.224 ],
+        "kinres": [ -0.096, -0.048 ],
         "thermres": [ -0.08, -0.04 ]
       },
       "3": {
-        "explres": [ 0.15, 0.24 ],
-        "kinres": [ -0.12, -0.06 ],
+        "explres": [ 0.21, 0.336 ],
+        "kinres": [ -0.144, -0.072 ],
         "thermres": [ -0.12, -0.06 ]
       },
       "4": {
-        "explres": [ 0.2, 0.32 ],
-        "kinres": [ -0.16, -0.08 ],
+        "explres": [ 0.28, 0.448 ],
+        "kinres": [ -0.192, -0.096 ],
         "thermres": [ -0.16, -0.08 ]
       },
       "5": {
-        "explres": [ 0.25, 0.4 ],
-        "kinres": [ -0.2, -0.1 ],
+        "explres": [ 0.35, 0.56 ],
+        "kinres": [ -0.24, -0.12 ],
         "thermres": [ -0.2, -0.1 ]
       }
     },
@@ -143,37 +143,37 @@
     "id": 6,
     "features": {
       "1": {
-        "explres": [ 0, 0.02 ],
-        "hullboost": [ -0.01, 0 ],
-        "kinres": [ 0, 0.02 ],
+        "explres": [ 0, 0.028 ],
+        "hullboost": [ -0.03, 0 ],
+        "kinres": [ 0, 0.024 ],
         "mass": [ -0.04, -0.15 ],
         "thermres": [ 0, 0.02 ]
       },
       "2": {
-        "explres": [ 0.01, 0.04 ],
+        "explres": [ 0.014, 0.056 ],
         "hullboost": [ -0.02, -0.01 ],
-        "kinres": [ 0.01, 0.04 ],
+        "kinres": [ 0.012, 0.048 ],
         "mass": [ -0.08, -0.25 ],
         "thermres": [ 0.01, 0.04 ]
       },
       "3": {
-        "explres": [ 0.02, 0.06 ],
-        "hullboost": [ -0.03, -0.02 ],
-        "kinres": [ 0.02, 0.06 ],
+        "explres": [ 0.028, 0.084 ],
+        "hullboost": [ -0.07, -0.05 ],
+        "kinres": [ 0.024, 0.072 ],
         "mass": [ -0.12, -0.35 ],
         "thermres": [ 0.02, 0.06 ]
       },
       "4": {
-        "explres": [ 0.03, 0.08 ],
-        "hullboost": [ -0.04, -0.03 ],
-        "kinres": [ 0.03, 0.08 ],
+        "explres": [ 0.042, 0.112 ],
+        "hullboost": [ -0.09, -0.07 ],
+        "kinres": [ 0.036, 0.096 ],
         "mass": [ -0.16, -0.45 ],
         "thermres": [ 0.03, 0.08 ]
       },
       "5": {
-        "explres": [ 0.04, 0.1 ],
-        "hullboost": [ -0.05, -0.04 ],
-        "kinres": [ 0.04, 0.1 ],
+        "explres": [ 0.056, 0.14 ],
+        "hullboost": [ -0.12, -0.09 ],
+        "kinres": [ 0.048, 0.12 ],
         "mass": [ -0.2, -0.55 ],
         "thermres": [ 0.04, 0.1 ]
       }
@@ -184,39 +184,39 @@
     "id": 7,
     "features": {
       "1": {
-        "explres": [ 0, 0.01 ],
-        "hullboost": [ 0.04, 0.01 ],
-        "kinres": [ 0, 0.01 ],
+        "explres": [ 0, 0.014 ],
+        "hullboost": [ 0.08, 0.22 ],
+        "kinres": [ 0, 0.012 ],
         "mass": [ 0.08, 0 ],
         "thermres": [ 0, 0.01 ]
       },
       "2": {
-        "explres": [ 0.01, 0.02 ],
-        "hullboost": [ 0.08, 0.15 ],
-        "kinres": [ 0.01, 0.02 ],
-        "mass": [ 0.16, 0.05 ],
+        "explres": [ 0.014, 0.028 ],
+        "hullboost": [ 0.18, 0.34 ],
+        "kinres": [ 0.012, 0.024 ],
+        "mass": [ 0.15, 0.04 ],
         "thermres": [ 0.01, 0.02 ]
       },
       "3": {
-        "explres": [ 0.02, 0.03 ],
-        "hullboost": [ 0.12, 0.2 ],
-        "kinres": [ 0.02, 0.03 ],
-        "mass": [ 0.24, 0.1 ],
+        "explres": [ 0.028, 0.042 ],
+        "hullboost": [ 0.28, 0.45 ],
+        "kinres": [ 0.024, 0.036 ],
+        "mass": [ 0.23, 0.1 ],
         "thermres": [ 0.02, 0.03 ]
       },
       "4": {
-        "explres": [ 0.03, 0.04 ],
-        "hullboost": [ 0.16, 0.25 ],
-        "kinres": [ 0.03, 0.04 ],
-        "mass": [ 0.32, 0.15 ],
+        "explres": [ 0.042, 0.056 ],
+        "hullboost": [ 0.35, 0.56 ],
+        "kinres": [ 0.036, 0.048 ],
+        "mass": [ 0.31, 0.14 ],
         "thermres": [ 0.03, 0.04 ]
       },
       "5": {
-        "explres": [ 0.04, 0.5 ],
-        "hullboost": [ 0.2, 0.3 ],
-        "kinres": [ 0.04, 0.5 ],
-        "mass": [ 0.4, 0.2 ],
-        "thermres": [ 0.04, 0.5 ]
+        "explres": [ 0.056, 0.07 ],
+        "hullboost": [ 0.45, 0.68 ],
+        "kinres": [ 0.048, 0.06 ],
+        "mass": [ 0.39, 0.2 ],
+        "thermres": [ 0.04, 0.05 ]
       }
     },
     "name": "Heavy Duty"
@@ -225,28 +225,28 @@
     "id": 8,
     "features": {
       "1": {
-        "explres": [ -0.04, -0.02 ],
-        "kinres": [ -0.04, -0.02 ],
+        "explres": [ -0.056, -0.028 ],
+        "kinres": [ -0.048, -0.024 ],
         "thermres": [ 0.05, 0.08 ]
       },
       "2": {
-        "explres": [ -0.08, -0.04 ],
-        "kinres": [ -0.08, -0.04 ],
+        "explres": [ -0.112, -0.056 ],
+        "kinres": [ -0.096, -0.048 ],
         "thermres": [ 0.1, 0.16 ]
       },
       "3": {
-        "explres": [ -0.12, -0.06 ],
-        "kinres": [ -0.12, -0.06 ],
+        "explres": [ -0.168, -0.084 ],
+        "kinres": [ -0.144, -0.072 ],
         "thermres": [ 0.15, 0.24 ]
       },
       "4": {
-        "explres": [ -0.16, -0.08 ],
-        "kinres": [ -0.16, -0.08 ],
+        "explres": [ -0.224, -0.112 ],
+        "kinres": [ -0.192, -0.096 ],
         "thermres": [ 0.2, 0.32 ]
       },
       "5": {
-        "explres": [ -0.2, -0.1 ],
-        "kinres": [ -0.2, -0.1 ],
+        "explres": [ -0.28, -0.14 ],
+        "kinres": [ -0.24, -0.12 ],
         "thermres": [ 0.25, 0.4 ]
       }
     },
@@ -257,15 +257,15 @@
     "features": {
       "1": {
         "integrity": [ -0.2, -0.1 ],
-        "mass": [ -0.3, -0.4 ]
+        "mass": [ -0.31, -0.4 ]
       },
       "2": {
-        "integrity": [ -0.3, -0.2 ],
+        "integrity": [ -0.31, -0.2 ],
         "mass": [ -0.4, -0.5 ]
       },
       "3": {
-        "integrity": [ -0.4, -0.4 ],
-        "mass": [ -0.5, -0.6 ]
+        "integrity": [ -0.4, -0.31 ],
+        "mass": [ -0.5, -0.61 ]
       },
       "4": {
         "integrity": [ -0.5, -0.4 ],
@@ -283,14 +283,14 @@
     "features": {
       "1": {
         "integrity": [ 0.2, 0.5 ],
-        "mass": [ 1, 0.4 ]
+        "mass": [ 1, 0.39 ]
       },
       "2": {
-        "integrity": [ 0.4, 1 ],
-        "mass": [ 1.5, 0.8 ]
+        "integrity": [ 0.39, 1 ],
+        "mass": [ 1.5, 0.79 ]
       },
       "3": {
-        "integrity": [ 0.6, 1.5 ],
+        "integrity": [ 0.61, 1.5 ],
         "mass": [ 2, 1.2 ]
       },
       "4": {
@@ -309,15 +309,15 @@
     "features": {
       "1": {
         "integrity": [ 0.2, 0.5 ],
-        "power": [ 0.3, 0.2 ]
+        "power": [ 0.29, 0.2 ]
       },
       "2": {
-        "integrity": [ 0.4, 1 ],
-        "power": [ 0.6, 0.4 ]
+        "integrity": [ 0.39, 1 ],
+        "power": [ 0.61, 0.39 ]
       },
       "3": {
-        "integrity": [ 0.6, 1.5 ],
-        "power": [ 0.9, 0.6 ]
+        "integrity": [ 0.61, 1.5 ],
+        "power": [ 0.89, 0.61 ]
       },
       "4": {
         "integrity": [ 0.8, 2 ],
@@ -856,23 +856,19 @@
     "features": {
       "1": {
         "integrity": [ 0.2, 0.5 ],
-        "power": [ 0.3, 0.2 ]
+        "power": [ 0.31, 0.2 ]
       },
       "2": {
-        "integrity": [ 0.4, 1 ],
-        "power": [ 0.6, 0.4 ]
+        "integrity": [ 0.39, 1 ],
+        "power": [ 0.61, 0.39 ]
       },
       "3": {
-        "integrity": [ 0.6, 1.5 ],
-        "power": [ 0.9, 0.6 ]
+        "integrity": [ 0.61, 1.5 ],
+        "power": [ 0.89, 0.61 ]
       },
       "4": {
-        "integrity": [ 0.8, 2 ],
-        "power": [ 1.2, 0.8 ]
-      },
-      "5": {
-        "integrity": [ 1, 1.5 ],
-        "power": [ 1.5, 1 ]
+        "integrity": [ 0.79, 2 ],
+        "power": [ 1.2, 0.81 ]
       }
     },
     "name": "Shielded"
@@ -1125,32 +1121,167 @@
   "HullReinforcement_Advanced": {
     "id": 41,
     "features": {
+      "1": {
+        "hullboost": [ 0.02, 0.06 ],
+        "hullreinforcement": [ -0.05, 0 ],
+        "mass": [ 0, -0.03 ]
+      },
+      "2": {
+        "hullboost": [ 0.04, 0.09 ],
+        "hullreinforcement": [ -0.1, -0.05 ],
+        "mass": [ 0, -0.06 ]
+      },
+      "3": {
+        "hullboost": [ 0.06, 0.12 ],
+        "hullreinforcement": [ -0.15, -0.1 ],
+        "mass": [ 0, -0.1 ]
+      },
+      "4": {
+        "hullboost": [ 0.08, 0.15 ],
+        "hullreinforcement": [ -0.2, -0.15 ],
+        "mass": [ 0, -0.12 ]
+      },
+      "5": {
+        "hullboost": [ 0.1, 0.18 ],
+        "hullreinforcement": [ -0.25, -0.2 ],
+        "mass": [ 0, -0.15 ]
+      }
     },
-    "name": "Blast resistant"
+    "name": "Lightweight"
+  },
+  "HullReinforcement_Explosive": {
+    "id": 43,
+    "features": {
+      "1": {
+        "explres": [ 0.0487, 0.078 ],
+        "kinres": [ -0.0293, -0.0195 ],
+        "thermres": [ -0.0293, -0.0195 ]
+      },
+      "2": {
+        "explres": [ 0.0975, 0.156 ],
+        "kinres": [ -0.0585, -0.039 ],
+        "thermres": [ -0.0484, -0.039 ]
+      },
+      "3": {
+        "explres": [ 0.1463, 0.234 ],
+        "kinres": [ -0.0878, -0.0585 ],
+        "thermres": [ -0.0878, -0.0585 ]
+      },
+      "4": {
+        "explres": [ 0.195, 0.312 ],
+        "kinres": [ -0.117, -0.078 ],
+        "thermres": [ -0.117, -0.078 ]
+      },
+      "5": {
+        "explres": [ 0.2437, 0.39 ],
+        "kinres": [ -0.1463, -0.0975 ],
+        "thermres": [ -0.1463, -0.0975 ]
+      }
+    },
+    "name": "Blast Resistant"
   },
   "HullReinforcement_HeavyDuty": {
     "id": 42,
     "features": {
+      "1": {
+        "explres": [ 0, 0.0292 ],
+        "hullreinforcement": [ 0.04, 0.2 ],
+        "kinres": [ 0, 0.0292 ],
+        "mass": [ 0.08, 0 ],
+        "thermres": [ 0, 0.0292 ]
+      },
+      "2": {
+        "explres": [ 0.098, 0.0585 ],
+        "hullreinforcement": [ 0.1, 0.29 ],
+        "kinres": [ 0.098, 0.0585 ],
+        "mass": [ 0.15, 0.04 ],
+        "thermres": [ 0.098, 0.0585 ]
+      },
+      "3": {
+        "explres": [ 0.0195, 0.0878 ],
+        "hullreinforcement": [ 0.14, 0.39 ],
+        "kinres": [ 0.0195, 0.0878 ],
+        "mass": [ 0.23, 0.1 ],
+        "thermres": [ 0.0195, 0.0878 ]
+      },
+      "4": {
+        "explres": [ 0.0292, 0.117 ],
+        "hullreinforcement": [ 0.2, 0.5 ],
+        "kinres": [ 0.0292, 0.117 ],
+        "mass": [ 0.31, 0.14 ],
+        "thermres": [ 0.0292, 0.117 ]
+      },
+      "5": {
+        "explres": [ 0.039, 0.1463 ],
+        "hullreinforcement": [ 0.25, 0.61 ],
+        "kinres": [ 0.039, 0.1463 ],
+        "mass": [ 0.39, 0.2 ],
+        "thermres": [ 0.039, 0.1463 ]
+      }
     },
     "name": "Heavy duty"
-  },
-  "HullReinforcement_Lightweight": {
-    "id": 43,
-    "features": {
-    },
-    "name": "Lightweight"
   },
   "HullReinforcement_Kinetic": {
     "id": 44,
     "features": {
+      "1": {
+        "explres": [ -0.0293, -0.0195 ],
+        "kinres": [ 0.0487, 0.078 ],
+        "thermres": [ -0.0293, -0.0195 ]
+      },
+      "2": {
+        "explres": [ -0.0585, -0.039 ],
+        "kinres": [ 0.0975, 0.156 ],
+        "thermres": [ -0.0585, -0.039 ]
+      },
+      "3": {
+        "explres": [ -0.0878, -0.0585 ],
+        "kinres": [ 0.1463, 0.234 ],
+        "thermres": [ -0.0878, -0.0585 ]
+      },
+      "4": {
+        "explres": [ -0.117, -0.078 ],
+        "kinres": [ 0.195, 0.312 ],
+        "thermres": [ -0.117, -0.078 ]
+      },
+      "5": {
+        "explres": [ -0.1463, -0.0975 ],
+        "kinres": [ 0.2437, 0.39 ],
+        "thermres": [ -0.1463, -0.0975 ]
+      }
     },
-    "name": "Kinetic resistant"
+    "name": "Kinetic Resistant"
   },
   "HullReinforcement_Thermic": {
     "id": 45,
     "features": {
+      "1": {
+        "explres": [ -0.0293, -0.0195 ],
+        "kinres": [ -0.0293, -0.0195 ],
+        "thermres": [ 0.0487, 0.078 ]
+      },
+      "2": {
+        "explres": [ -0.0585, -0.039 ],
+        "kinres": [ -0.0585, -0.039 ],
+        "thermres": [ 0.0975, 0.156 ]
+      },
+      "3": {
+        "explres": [ -0.0878, -0.0585 ],
+        "kinres": [ -0.0878, -0.0585 ],
+        "thermres": [ 0.1463, 0.234 ]
+      },
+      "4": {
+        "explres": [ -0.117, -0.078 ],
+        "kinres": [ -0.117, -0.078 ],
+        "thermres": [ 0.195, 0.312 ]
+      },
+      "5": {
+        "explres": [ -0.1463, -0.0975 ],
+        "kinres": [ -0.1463, -0.0975 ],
+        "thermres": [ 0.2437, 0.39 ]
+      }
     },
-    "name": "Thermal resistant"
+    "name": "Thermal Resistant"
   },
   "KillWarrantScanner_LightWeight": {
     "id": 46,
@@ -1675,12 +1806,12 @@
         "mass": [ 0.05, 0 ],
         "pgen": [ -0.06, 0 ]
       },
-      "1": {
+      "2": {
         "eff": [ -0.1, -0.3 ],
         "mass": [ 0.1, 0.05 ],
         "pgen": [ -0.12, -0.03 ]
       },
-      "1": {
+      "3": {
         "eff": [ -0.15, -0.4 ],
         "mass": [ 0.15, 0.1 ],
         "pgen": [ -0.18, -0.06 ]
@@ -1766,35 +1897,197 @@
     },
     "name": "Shielded"
   },
+  "Refineries_Shielded": {
+    "id": 92,
+    "features": {
+      "1": {
+        "integrity": [ 0.2, 0.5 ],
+        "power": [ 0.29, 0.2 ]
+      },
+      "2": {
+        "integrity": [ 0.39, 1 ],
+        "power": [ 0.61, 0.39 ]
+      },
+      "3": {
+        "integrity": [ 0.61, 1.5 ],
+        "power": [ 0.89, 0.61 ]
+      },
+      "4": {
+        "integrity": [ 0.81, 2 ],
+        "power": [ 1.2, 0.79 ]
+      }
+    },
+    "name": "Shielded"
+  },
   "ShieldBooster_Explosive": {
     "id": 68,
     "features": {
+      "1": {
+        "explres": [ 0.02, 0.05 ],
+        "kinres": [ -0.02, 0 ],
+        "thermres": [ -0.02, 0 ]
+      },
+      "2": {
+        "explres": [ 0.07, -0.1 ],
+        "kinres": [ -0.03, -0.01 ],
+        "thermres": [ -0.03, -0.01 ]
+      },
+      "3": {
+        "explres": [ 0.12, 0.15 ],
+        "kinres": [ -0.04, -0.04 ],
+        "thermres": [ -0.05, -0.02 ]
+      },
+      "4": {
+        "explres": [ 0.17, 0.2 ],
+        "kinres": [ -0.05, -0.03 ],
+        "thermres": [ -0.05, -0.03 ]
+      },
+      "5": {
+        "explres": [ 0.22, 0.25 ],
+        "kinres": [ -0.06, -0.04 ],
+        "thermres": [ -0.06, -0.04 ]
+      }
     },
-    "name": "Blast resistant"
+    "name": "Blast Resistant"
   },
   "ShieldBooster_HeavyDuty": {
     "id": 69,
     "features": {
+      "1": {
+        "integrity": [ 0, 0.03 ],
+        "mass": [ 1, 0.5 ],
+        "power": [ 0.05, 0 ],
+        "shieldboost": [ 0.03, 0.06 ]
+      },
+      "2": {
+        "integrity": [ 0.03, 0.06 ],
+        "mass": [ 1.5, 1 ],
+        "power": [ 0.1, 0.05 ],
+        "shieldboost": [ 0.08, 0.12 ]
+      },
+      "3": {
+        "integrity": [ 0.06, 0.09 ],
+        "mass": [ 2, 1.5 ],
+        "power": [ 0.15, 0.1 ],
+        "shieldboost": [ 0.13, 0.18 ]
+      },
+      "4": {
+        "integrity": [ 0.09, 0.12 ],
+        "mass": [ 2.5, 2 ],
+        "power": [ 0.2, 0.15 ],
+        "shieldboost": [ 0.18, 0.24 ]
+      },
+      "5": {
+        "integrity": [ 0.12, 0.15 ],
+        "mass": [ 3, 2.5 ],
+        "power": [ 0.25, 0.2 ],
+        "shieldboost": [ 0.23, 0.3 ]
+      }
     },
     "name": "Heavy duty"
   },
   "ShieldBooster_Kinetic": {
     "id": 70,
     "features": {
+      "1": {
+        "explres": [ -0.02, 0 ],
+        "kinres": [ 0.02, 0.05 ],
+        "thermres": [ -0.02, 0 ]
+      },
+      "2": {
+        "explres": [ -0.03, -0.01 ],
+        "kinres": [ 0.07, 0.1 ],
+        "thermres": [ -0.03, -0.01 ]
+      },
+      "3": {
+        "explres": [ -0.04, -0.02 ],
+        "kinres": [ 0.12, 0.15 ],
+        "thermres": [ -0.05, -0.02 ]
+      },
+      "4": {
+        "explres": [ -0.05, -0.03 ],
+        "kinres": [ 0.17, -0.2 ],
+        "thermres": [ -0.05, -0.03 ]
+      },
+      "5": {
+        "explres": [ -0.06, -0.04 ],
+        "kinres": [ 0.22, 0.25 ],
+        "thermres": [ -0.06, -0.04 ]
+      }
     },
-    "name": "Kinetic resistant"
+    "name": "Kinetic Resistant"
   },
   "ShieldBooster_Resistive": {
     "id": 71,
     "features": {
+      "1": {
+        "explres": [ 0.01, 0.03 ],
+        "integrity": [ -0.04, 0 ],
+        "kinres": [ 0.01, 0.03 ],
+        "power": [ 0.08, 0 ],
+        "thermres": [ 0.01, 0.03 ]
+      },
+      "2": {
+        "explres": [ 0.025, 0.06 ],
+        "integrity": [ -0.08, -0.02 ],
+        "kinres": [ 0.025, 0.06 ],
+        "power": [ 0.16, 0.04 ],
+        "thermres": [ 0.025, 0.06 ]
+      },
+      "3": {
+        "explres": [ 0.06, 0.075 ],
+        "integrity": [ -0.12, -0.04 ],
+        "kinres": [ 0.06, 0.075 ],
+        "power": [ 0.24, 0.08 ],
+        "thermres": [ 0.06, 0.075 ]
+      },
+      "4": {
+        "explres": [ 0.075, 0.11 ],
+        "integrity": [ -0.16, -0.06 ],
+        "kinres": [ 0.075, 0.11 ],
+        "power": [ 0.32, 0.12 ],
+        "thermres": [ 0.075, 0.11 ]
+      },
+      "5": {
+        "explres": [ 0.1, 0.125 ],
+        "integrity": [ -0.2, -0.08 ],
+        "kinres": [ 0.1, 0.125],
+        "power": [ 0.4, 0.16 ],
+        "thermres": [ 0.1, 0.125 ]
+      }
     },
     "name": "Resistance augmented"
   },
   "ShieldBooster_Thermic": {
     "id": 72,
     "features": {
+      "1": {
+        "explres": [ -0.02, 0 ],
+        "kinres": [ -0.02, 0 ],
+        "thermres": [ 0.02, 0.05 ]
+      },
+      "2": {
+        "explres": [ -0.03, -0.01 ],
+        "kinres": [ -0.03, -0.01 ],
+        "thermres": [ 0.07, 0.1 ]
+      },
+      "3": {
+        "explres": [ -0.04, -0.02 ],
+        "kinres": [ -0.04, -0.04 ],
+        "thermres": [ 0.12, 0.15 ]
+      },
+      "4": {
+        "explres": [ -0.05, -0.03 ],
+        "kinres": [ -0.05, -0.03 ],
+        "thermres": [ 0.17, 0.2 ]
+      },
+      "5": {
+        "explres": [ -0.06, -0.04 ],
+        "kinres": [ -0.06, -0.04 ],
+        "thermres": [ 0.22, 0.25 ]
+      }
     },
-    "name": "Thermal resistant"
+    "name": "Thermal Resistant"
   },
   "ShieldCellBank_Rapid": {
     "id": 73,
@@ -1885,7 +2178,7 @@
         "thermres": [ -0.25, -0.08 ]
       }
     },
-    "name": "Kinetic resistant"
+    "name": "Kinetic Resistant"
   },
   "ShieldGenerator_Optimised": {
     "id": 76,
@@ -2003,7 +2296,7 @@
         "thermres": [ 0.13, 0.5 ]
       }
     },
-    "name": "Thermal resistant"
+    "name": "Thermal Resistant"
   },
   "WakeScanner_LightWeight": {
     "id": 79,
