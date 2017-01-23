@@ -27,7 +27,7 @@
       "rating": "F",
       "reload": 4,
       "rof": 7.69,
-      "speed": 1600,
+      "shotspeed": 1600,
       "thermload": 0.1
     },
     {
@@ -57,7 +57,7 @@
       "rating": "G",
       "reload": 5,
       "rof": 8.33,
-      "speed": 1600,
+      "shotspeed": 1600,
       "thermload": 0.1
     },
     {
@@ -87,7 +87,7 @@
       "rating": "G",
       "reload": 4,
       "rof": 7.14,
-      "speed": 1600,
+      "shotspeed": 1600,
       "thermload": 0
     },
     {
@@ -118,7 +118,7 @@
       "rating": "F",
       "reload": 4,
       "rof": 4.3,
-      "speed": 1800,
+      "shotspeed": 1800,
       "thermload": 0.2
     },
     {
@@ -148,7 +148,7 @@
       "rating": "E",
       "reload": 4,
       "rof": 7.14,
-      "speed": 1600,
+      "shotspeed": 1600,
       "thermload": 0.2
     },
     {
@@ -178,7 +178,7 @@
       "rating": "F",
       "reload": 5,
       "rof": 7.69,
-      "speed": 1600,
+      "shotspeed": 1600,
       "thermload": 0.2
     },
     {
@@ -208,7 +208,7 @@
       "rating": "F",
       "reload": 4,
       "rof": 6.25,
-      "speed": 1600,
+      "shotspeed": 1600,
       "thermload": 0.1
     },
     {
@@ -238,7 +238,7 @@
       "rating": "C",
       "reload": 4,
       "rof": 5.88,
-      "speed": 1600,
+      "shotspeed": 1600,
       "thermload": 0.3
     },
     {
@@ -268,7 +268,7 @@
       "rating": "C",
       "reload": 5,
       "rof": 6.665,
-      "speed": 1600,
+      "shotspeed": 1600,
       "thermload": 0.3
     },
     {
@@ -299,7 +299,7 @@
       "reload": 4,
       "rof": 3.03,
       "roundspershot": 2,
-      "speed": 1600,
+      "shotspeed": 1600,
       "thermload": 0.4
     },
     {
@@ -330,7 +330,7 @@
       "reload": 5,
       "rof": 3.365,
       "roundspershot": 2,
-      "speed": 1600,
+      "shotspeed": 1600,
       "thermload": 0.5
     }
   ]

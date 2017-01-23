@@ -29,7 +29,7 @@
       "reload": 2.5,
       "rof": 5.555,
       "roundspershot": 12,
-      "speed": 667,
+      "shotspeed": 667,
       "thermload": 0.4
     },
     {
@@ -61,7 +61,7 @@
       "reload": 2.5,
       "rof": 5.88,
       "roundspershot": 12,
-      "speed": 667,
+      "shotspeed": 667,
       "thermload": 0.4
     },
     {
@@ -93,7 +93,7 @@
       "reload": 2.5,
       "rof": 4.76,
       "roundspershot": 12,
-      "speed": 667,
+      "shotspeed": 667,
       "thermload": 0.2
     },
     {
@@ -125,7 +125,7 @@
       "reload": 2.5,
       "rof": 5,
       "roundspershot": 12,
-      "speed": 667,
+      "shotspeed": 667,
       "thermload": 0.7
     },
     {
@@ -157,7 +157,7 @@
       "reload": 2.5,
       "rof": 5.26,
       "roundspershot": 12,
-      "speed": 667,
+      "shotspeed": 667,
       "thermload": 0.8
     },
     {
@@ -189,7 +189,7 @@
       "reload": 2.5,
       "rof": 4.345,
       "roundspershot": 12,
-      "speed": 667,
+      "shotspeed": 667,
       "thermload": 0.4
     },
     {
@@ -221,7 +221,7 @@
       "reload": 2.5,
       "rof": 4.545,
       "roundspershot": 12,
-      "speed": 667,
+      "shotspeed": 667,
       "thermload": 1.1
     },
     {
@@ -253,7 +253,7 @@
       "reload": 2.5,
       "rof": 4.76,
       "roundspershot": 12,
-      "speed": 667,
+      "shotspeed": 667,
       "thermload": 1.4
     },
     {
@@ -285,7 +285,7 @@
       "reload": 2.5,
       "rof": 4,
       "roundspershot": 12,
-      "speed": 667,
+      "shotspeed": 667,
       "thermload": 0.7
     },
     {
@@ -318,7 +318,7 @@
       "reload": 2.5,
       "rof": 4.5,
       "roundspershot": 12,
-      "speed": 1000,
+      "shotspeed": 1000,
       "thermload": 1.1
     }
   ]

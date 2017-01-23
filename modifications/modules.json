@@ -41,6 +41,7 @@
       "distdraw",
       "fallofffromrange",
       "integrity",
+      "jitter",
       "mass",
       "piercing",
       "power",
@@ -97,6 +98,7 @@
       "range",
       "reload",
       "rof",
+      "shotspeed",
       "thermload"
     ]
   },
@@ -192,6 +194,7 @@
       "range",
       "reload",
       "rof",
+      "shotspeed",
       "thermload"
     ]
   },
@@ -354,6 +357,7 @@
       "range",
       "reload",
       "rof",
+      "shotspeed",
       "thermload"
     ]
   },
@@ -443,6 +447,7 @@
       "range",
       "reload",
       "rof",
+      "shotspeed",
       "thermload"
     ]
   },

@@ -34,6 +34,7 @@
     "rof": {"id": 29, "name": "rof", "type": "percentage", "method": "multiplicative"},
     "shield": {"id": 30, "name": "shield", "type": "percentage", "method": "multiplicative"},
     "shieldboost": {"id": 31, "name": "shieldboost", "type": "percentage", "method": "multiplicative"},
+    "shotspeed": {"id": 43, "name": "shotspeed", "type": "percentage", "method": "multiplicative"},
     "spinup": {"id": 32, "name": "spinup", "type": "percentage", "method": "multiplicative"},
     "syscap": {"id": 33, "name": "syscap", "type": "percentage", "method": "multiplicative"},
     "sysrate": {"id": 34, "name": "sysrate", "type": "percentage", "method": "multiplicative"},

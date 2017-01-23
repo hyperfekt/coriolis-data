@@ -7199,7 +7199,7 @@ module.exports = {
         rating: "F",
         reload: 4,
         rof: 7.69,
-        speed: 1600,
+        shotspeed: 1600,
         thermload: .1
       }, {
         ammo: 2100,
@@ -7228,7 +7228,7 @@ module.exports = {
         rating: "G",
         reload: 5,
         rof: 8.33,
-        speed: 1600,
+        shotspeed: 1600,
         thermload: .1
       }, {
         ammo: 2100,
@@ -7257,7 +7257,7 @@ module.exports = {
         rating: "G",
         reload: 4,
         rof: 7.14,
-        speed: 1600,
+        shotspeed: 1600,
         thermload: 0
       }, {
         ammo: 1e3,
@@ -7287,7 +7287,7 @@ module.exports = {
         rating: "F",
         reload: 4,
         rof: 4.3,
-        speed: 1800,
+        shotspeed: 1800,
         thermload: .2
       }, {
         ammo: 2100,
@@ -7316,7 +7316,7 @@ module.exports = {
         rating: "E",
         reload: 4,
         rof: 7.14,
-        speed: 1600,
+        shotspeed: 1600,
         thermload: .2
       }, {
         ammo: 2100,
@@ -7345,7 +7345,7 @@ module.exports = {
         rating: "F",
         reload: 5,
         rof: 7.69,
-        speed: 1600,
+        shotspeed: 1600,
         thermload: .2
       }, {
         ammo: 2100,
@@ -7374,7 +7374,7 @@ module.exports = {
         rating: "F",
         reload: 4,
         rof: 6.25,
-        speed: 1600,
+        shotspeed: 1600,
         thermload: .1
       }, {
         ammo: 2100,
@@ -7403,7 +7403,7 @@ module.exports = {
         rating: "C",
         reload: 4,
         rof: 5.88,
-        speed: 1600,
+        shotspeed: 1600,
         thermload: .3
       }, {
         ammo: 2100,
@@ -7432,7 +7432,7 @@ module.exports = {
         rating: "C",
         reload: 5,
         rof: 6.665,
-        speed: 1600,
+        shotspeed: 1600,
         thermload: .3
       }, {
         ammo: 2100,
@@ -7462,7 +7462,7 @@ module.exports = {
         reload: 4,
         rof: 3.03,
         roundspershot: 2,
-        speed: 1600,
+        shotspeed: 1600,
         thermload: .4
       }, {
         ammo: 2100,
@@ -7492,7 +7492,7 @@ module.exports = {
         reload: 5,
         rof: 3.365,
         roundspershot: 2,
-        speed: 1600,
+        shotspeed: 1600,
         thermload: .5
       } ],
       c: [ {
@@ -7522,7 +7522,7 @@ module.exports = {
         rating: "D",
         reload: 3,
         rof: .5,
-        speed: 1200,
+        shotspeed: 1200,
         thermload: 1.4
       }, {
         ammo: 100,
@@ -7551,7 +7551,7 @@ module.exports = {
         rating: "E",
         reload: 4,
         rof: .52,
-        speed: 1e3,
+        shotspeed: 1e3,
         thermload: 1.3
       }, {
         ammo: 100,
@@ -7580,7 +7580,7 @@ module.exports = {
         rating: "F",
         reload: 4,
         rof: .435,
-        speed: 1e3,
+        shotspeed: 1e3,
         thermload: .7
       }, {
         ammo: 120,
@@ -7609,7 +7609,7 @@ module.exports = {
         rating: "D",
         reload: 3,
         rof: .465,
-        speed: 1051,
+        shotspeed: 1051,
         thermload: 2.1
       }, {
         ammo: 100,
@@ -7638,7 +7638,7 @@ module.exports = {
         rating: "D",
         reload: 4,
         rof: .485,
-        speed: 875,
+        shotspeed: 875,
         thermload: 1.9
       }, {
         ammo: 100,
@@ -7667,7 +7667,7 @@ module.exports = {
         rating: "E",
         reload: 4,
         rof: .405,
-        speed: 875,
+        shotspeed: 875,
         thermload: 1
       }, {
         ammo: 120,
@@ -7696,7 +7696,7 @@ module.exports = {
         rating: "C",
         reload: 3,
         rof: .425,
-        speed: 959,
+        shotspeed: 959,
         thermload: 3.2
       }, {
         ammo: 100,
@@ -7727,7 +7727,7 @@ module.exports = {
         rating: "C",
         reload: 4,
         rof: .445,
-        speed: 800,
+        shotspeed: 800,
         thermload: 2.9
       }, {
         ammo: 100,
@@ -7756,7 +7756,7 @@ module.exports = {
         rating: "D",
         reload: 4,
         rof: .37,
-        speed: 800,
+        shotspeed: 800,
         thermload: 1.6
       }, {
         ammo: 120,
@@ -7787,7 +7787,7 @@ module.exports = {
         rating: "B",
         reload: 3,
         rof: .385,
-        speed: 900,
+        shotspeed: 900,
         thermload: 4.8
       }, {
         ammo: 100,
@@ -7818,7 +7818,7 @@ module.exports = {
         rating: "B",
         reload: 4,
         rof: .4,
-        speed: 750,
+        shotspeed: 750,
         thermload: 4.4
       } ],
       fc: [ {
@@ -7850,7 +7850,7 @@ module.exports = {
         reload: 2.5,
         rof: 5.555,
         roundspershot: 12,
-        speed: 667,
+        shotspeed: 667,
         thermload: .4
       }, {
         ammo: 180,
@@ -7881,7 +7881,7 @@ module.exports = {
         reload: 2.5,
         rof: 5.88,
         roundspershot: 12,
-        speed: 667,
+        shotspeed: 667,
         thermload: .4
       }, {
         ammo: 180,
@@ -7912,7 +7912,7 @@ module.exports = {
         reload: 2.5,
         rof: 4.76,
         roundspershot: 12,
-        speed: 667,
+        shotspeed: 667,
         thermload: .2
       }, {
         ammo: 180,
@@ -7943,7 +7943,7 @@ module.exports = {
         reload: 2.5,
         rof: 5,
         roundspershot: 12,
-        speed: 667,
+        shotspeed: 667,
         thermload: .7
       }, {
         ammo: 180,
@@ -7974,7 +7974,7 @@ module.exports = {
         reload: 2.5,
         rof: 5.26,
         roundspershot: 12,
-        speed: 667,
+        shotspeed: 667,
         thermload: .8
       }, {
         ammo: 180,
@@ -8005,7 +8005,7 @@ module.exports = {
         reload: 2.5,
         rof: 4.345,
         roundspershot: 12,
-        speed: 667,
+        shotspeed: 667,
         thermload: .4
       }, {
         ammo: 180,
@@ -8036,7 +8036,7 @@ module.exports = {
         reload: 2.5,
         rof: 4.545,
         roundspershot: 12,
-        speed: 667,
+        shotspeed: 667,
         thermload: 1.1
       }, {
         ammo: 180,
@@ -8067,7 +8067,7 @@ module.exports = {
         reload: 2.5,
         rof: 4.76,
         roundspershot: 12,
-        speed: 667,
+        shotspeed: 667,
         thermload: 1.4
       }, {
         ammo: 180,
@@ -8098,7 +8098,7 @@ module.exports = {
         reload: 2.5,
         rof: 4,
         roundspershot: 12,
-        speed: 667,
+        shotspeed: 667,
         thermload: .7
       }, {
         ammo: 180,
@@ -8130,7 +8130,7 @@ module.exports = {
         reload: 2.5,
         rof: 4.5,
         roundspershot: 12,
-        speed: 1e3,
+        shotspeed: 1e3,
         thermload: 1.1
       } ],
       rg: [ {
@@ -8254,7 +8254,7 @@ module.exports = {
         rating: "C",
         reload: 6,
         rof: .33,
-        speed: 875,
+        shotspeed: 875,
         thermload: 15.6
       }, {
         ammo: 100,
@@ -8285,7 +8285,7 @@ module.exports = {
         rating: "B",
         reload: 6,
         rof: .29,
-        speed: 875,
+        shotspeed: 875,
         thermload: 21.8
       }, {
         ammo: 300,
@@ -8318,7 +8318,7 @@ module.exports = {
         rating: "B",
         reload: 6,
         rof: .8,
-        speed: 875,
+        shotspeed: 875,
         thermload: 11
       }, {
         ammo: 100,
@@ -8349,7 +8349,7 @@ module.exports = {
         rating: "A",
         reload: 6,
         rof: .25,
-        speed: 875,
+        shotspeed: 875,
         thermload: 29.5
       } ],
       mr: [ {
@@ -8378,7 +8378,7 @@ module.exports = {
         rating: "B",
         reload: 5,
         rof: .5,
-        speed: 750,
+        shotspeed: 750,
         thermload: 3.6
       }, {
         ammo: 6,
@@ -8406,7 +8406,7 @@ module.exports = {
         rating: "B",
         reload: 12,
         rof: .333,
-        speed: 625,
+        shotspeed: 625,
         thermload: 3.6
       }, {
         ammo: 48,
@@ -8436,7 +8436,7 @@ module.exports = {
         rating: "B",
         reload: 5,
         rof: .5,
-        speed: 750,
+        shotspeed: 750,
         thermload: 3.6
       }, {
         ammo: 18,
@@ -8466,7 +8466,7 @@ module.exports = {
         rating: "B",
         reload: 12,
         rof: .333,
-        speed: 625,
+        shotspeed: 625,
         thermload: 3.6
       }, {
         ammo: 48,
@@ -8495,7 +8495,7 @@ module.exports = {
         rating: "B",
         reload: 5,
         rof: .333,
-        speed: 750,
+        shotspeed: 750,
         thermload: 3.6
       }, {
         ammo: 120,
@@ -8528,7 +8528,7 @@ module.exports = {
         reload: 5,
         rof: 2,
         roundspershot: 4,
-        speed: 600,
+        shotspeed: 600,
         thermload: 3.6
       } ],
       tp: [ {
@@ -8557,7 +8557,7 @@ module.exports = {
         rating: "I",
         reload: 5,
         rof: 1,
-        speed: 250,
+        shotspeed: 250,
         thermload: 45
       }, {
         ammo: 2,
@@ -8585,7 +8585,7 @@ module.exports = {
         rating: "I",
         reload: 5,
         rof: 1,
-        speed: 250,
+        shotspeed: 250,
         thermload: 50
       } ],
       nl: [ {
@@ -9099,7 +9099,7 @@ module.exports = {
         rating: "I",
         reload: .4,
         rof: 10,
-        speed: 1e3,
+        shotspeed: 1e3,
         thermload: .1
       } ]
     },
@@ -15670,43 +15670,43 @@ module.exports = {
         features: {
           "1": {
             engcap: [ -.03, 0 ],
-            engrate: [ -.25, -.16 ],
+            engrate: [ .25, .16 ],
             syscap: [ -.03, 0 ],
-            sysrate: [ -.25, -.16 ],
+            sysrate: [ .25, .16 ],
             wepcap: [ -.03, 0 ],
-            weprate: [ -.25, -.16 ]
+            weprate: [ .25, .16 ]
           },
           "2": {
             engcap: [ -.06, -.01 ],
-            engrate: [ -.25, -.16 ],
+            engrate: [ .25, .16 ],
             syscap: [ -.06, -.01 ],
-            sysrate: [ -.25, -.16 ],
+            sysrate: [ .25, .16 ],
             wepcap: [ -.06, -.01 ],
-            weprate: [ -.25, -.16 ]
+            weprate: [ .25, .16 ]
           },
           "3": {
             engcap: [ -.09, -.02 ],
-            engrate: [ -.25, -.16 ],
+            engrate: [ .25, .16 ],
             syscap: [ -.09, -.02 ],
-            sysrate: [ -.25, -.16 ],
+            sysrate: [ .25, .16 ],
             wepcap: [ -.09, -.02 ],
-            weprate: [ -.25, -.16 ]
+            weprate: [ .25, .16 ]
           },
           "4": {
             engcap: [ -.12, -.03 ],
-            engrate: [ -.25, -.16 ],
+            engrate: [ .25, -.16 ],
             syscap: [ -.12, -.03 ],
-            sysrate: [ -.25, -.16 ],
+            sysrate: [ .25, .16 ],
             wepcap: [ -.12, -.03 ],
-            weprate: [ -.25, -.16 ]
+            weprate: [ .25, .16 ]
           },
           "5": {
             engcap: [ -.15, -.04 ],
-            engrate: [ -.25, -.16 ],
+            engrate: [ .25, .16 ],
             syscap: [ -.15, -.04 ],
-            sysrate: [ -.25, -.16 ],
+            sysrate: [ .25, .16 ],
             wepcap: [ -.15, -.04 ],
-            weprate: [ -.25, -.16 ]
+            weprate: [ .25, .16 ]
           }
         },
         name: "Charge enhanced"
@@ -16469,6 +16469,26 @@ module.exports = {
       },
       Weapon_DoubleShot: {
         id: 82,
+        components: {
+          "1": {
+            Carbon: 1
+          },
+          "2": {
+            Carbon: 1,
+            "Mechanical Equipment": 1
+          },
+          "3": {
+            Carbon: 1,
+            "Cracked Industrial Firmware": 1,
+            "Mechanical Equipment": 1
+          },
+          "4": {
+            "Mechanical Components": 1,
+            "Security Firmware Patch": 1,
+            Vanadium: 1
+          },
+          "5": {}
+        },
         features: {
           "1": {
             ammo: [ .1, .2 ],
@@ -16505,39 +16525,87 @@ module.exports = {
       },
       Weapon_Efficient: {
         id: 83,
-        features: {
+        components: {
           "1": {
-            damage: [ 0, .05 ],
-            thermload: [ -.3, -.4 ]
+            Sulphur: 1
           },
           "2": {
-            damage: [ .01, .06 ],
-            power: [ 0, -.1 ],
-            thermload: [ -.35, -.45 ]
+            "Heat Dispersion Plate": 1,
+            Sulphur: 1
           },
           "3": {
-            damage: [ .02, .07 ],
+            Chromium: 1,
+            "Exceptional Scrambed Emission Data": 1,
+            "Heat Exchangers": 1
+          },
+          "4": {
+            "Heat Vanes": 1,
+            "Irregular Emission Data": 1,
+            Selenium: 1
+          },
+          "5": {
+            Cadmium: 1,
+            "Proto Heat Radiators": 1,
+            "Heatsink Interlink": 1
+          }
+        },
+        features: {
+          "1": {
+            damage: [ 0, .04 ],
+            thermload: [ -.31, -.4 ]
+          },
+          "2": {
+            damage: [ .01, .05 ],
+            power: [ 0, -.1 ],
+            thermload: [ -.36, -.45 ]
+          },
+          "3": {
+            damage: [ .01, .07 ],
             distdraw: [ -.15, -.25 ],
-            power: [ -.05, -.2 ],
+            power: [ -.06, -.2 ],
             thermload: [ -.4, -.5 ]
           },
           "4": {
             damage: [ .03, .08 ],
             distdraw: [ -.2, -.3 ],
-            power: [ -.1, -.3 ],
+            power: [ -.1, -.31 ],
             thermload: [ -.45, -.55 ]
           },
           "5": {
-            damage: [ .04, .09 ],
-            distdraw: [ -.25, -.35 ],
+            damage: [ .03, .09 ],
+            distdraw: [ -.25, -.36 ],
             power: [ -.14, -.4 ],
-            thermload: [ -.5, -.6 ]
+            thermload: [ -.5, -.61 ]
           }
         },
         name: "Efficient"
       },
       Weapon_Focused: {
         id: 84,
+        components: {
+          "1": {
+            Iron: 1
+          },
+          "2": {
+            "Conductive Components": 1,
+            Iron: 1
+          },
+          "3": {
+            Chromium: 1,
+            "Conductive Ceramics": 1,
+            Iron: 1
+          },
+          "4": {
+            "Focus Crystals": 1,
+            Germanium: 1,
+            "Polymer Capacitors": 1
+          },
+          "5": {
+            "Military Supercapacitors": 1,
+            Niobium: 1,
+            "Refined Focus Crystals": 1
+          }
+        },
         features: {
           "1": {
             burstrof: [ .2, .08 ],
@@ -16573,33 +16641,57 @@ module.exports = {
       },
       Weapon_HighCapacity: {
         id: 85,
+        components: {
+          "1": {
+            "Mechanical Scrap": 1
+          },
+          "2": {
+            "Mechanical Scrap": 1,
+            Vanadium: 1
+          },
+          "3": {
+            "Mechanical Scrap": 1,
+            Niobium: 1,
+            Vanadium: 1
+          },
+          "4": {
+            "High Density Composites": 1,
+            "Mechanical Equipment": 1,
+            Tin: 1
+          },
+          "5": {
+            "Mechanical Components": 1,
+            "Military Supercapacitors": 1,
+            "Proprietary Composites": 1
+          }
+        },
         features: {
           "1": {
-            ammo: [ .17, .66 ],
-            clip: [ .1, .61 ],
+            ammo: [ .1, .59 ],
+            clip: [ .1, .59 ],
             mass: [ .25, .1 ],
             reload: [ .2, 0 ],
             power: [ .2, .1 ]
           },
           "2": {
-            ammo: [ .24, .75 ],
-            clip: [ .2, .7 ],
+            ammo: [ .19, .69 ],
+            clip: [ .2, .69 ],
             mass: [ .5, .2 ],
             reload: [ .39, .1 ],
             power: [ .25, .14 ]
           },
           "3": {
-            ammo: [ .34, .83 ],
-            clip: [ .31, .81 ],
-            mass: [ .75, .25 ],
+            ammo: [ .29, .79 ],
+            clip: [ .29, .79 ],
+            mass: [ .75, .29 ],
             reload: [ .61, .2 ],
             power: [ .31, .2 ]
           },
           "4": {
-            ammo: [ .41, .91 ],
-            clip: [ .4, .9 ],
+            ammo: [ .39, .89 ],
+            clip: [ .39, .89 ],
             mass: [ 1, .39 ],
-            reload: [ .81, .31 ],
+            reload: [ .79, .29 ],
             power: [ .35, .25 ]
           },
           "5": {
@@ -16614,70 +16706,123 @@ module.exports = {
       },
       Weapon_LightWeight: {
         id: 86,
+        components: {
+          "1": {
+            Phosphorous: 1
+          },
+          "2": {
+            Manganese: 1,
+            "Salvaged Alloys": 1
+          },
+          "3": {
+            "Conductive Ceramics": 1,
+            Manganese: 1,
+            "Salvaged Alloys": 1
+          },
+          "4": {
+            "Conductive Components": 1,
+            "Phase Alloys": 1,
+            "Proto Light Alloys": 1
+          },
+          "5": {
+            "Conductive Ceramics": 1,
+            "Proto Light Alloys": 1,
+            "Proto Radiolic Alloys": 1
+          }
+        },
         features: {
           "1": {
             distdraw: [ -.02, -.04 ],
             integrity: [ -.2, 0 ],
-            mass: [ -.1, -.15 ],
+            mass: [ -.11, -.15 ],
             power: [ -.02, -.04 ]
           },
           "2": {
             distdraw: [ -.04, -.08 ],
-            integrity: [ -.3, -.1 ],
-            mass: [ -.2, -.35 ],
+            integrity: [ -.31, -.1 ],
+            mass: [ -.2, -.36 ],
             power: [ -.04, -.08 ]
           },
           "3": {
             distdraw: [ -.06, -.12 ],
             integrity: [ -.4, -.2 ],
-            mass: [ -.3, -.55 ],
+            mass: [ -.31, -.55 ],
             power: [ -.06, -.12 ]
           },
           "4": {
             distdraw: [ -.08, -.16 ],
-            integrity: [ -.5, -.3 ],
+            integrity: [ -.5, -.31 ],
             mass: [ -.4, -.75 ],
             power: [ -.08, -.16 ]
           },
           "5": {
             distdraw: [ -.1, -.2 ],
-            integrity: [ -.6, -.4 ],
+            integrity: [ -.61, -.4 ],
             mass: [ -.5, -.9 ],
-            power: [ -.12, -.2 ]
+            power: [ -.1, -.2 ]
           }
         },
         name: "Lightweight"
       },
       Weapon_LongRange: {
         id: 87,
+        components: {
+          "1": {
+            Sulphur: 1
+          },
+          "2": {
+            "Modified Consumer Firmware": 1,
+            Sulphur: 1
+          },
+          "3": {
+            "Focus Crystals": 1,
+            "Modified Consumer Firmware": 1,
+            Sulphur: 1
+          },
+          "4": {
+            "Conductive Polymers": 1,
+            "Focus Crystals": 1,
+            "Modified Consumer Firmware": 1
+          },
+          "5": {
+            "Biotech Conductors": 1,
+            "Cracked Industrial Firmware": 1,
+            "Thermic Alloys": 1
+          }
+        },
         features: {
           "1": {
             fallofffromrange: [ 1, 1 ],
             mass: [ .1, 0 ],
+            shotspeed: [ .1, .19 ],
             range: [ .1, .2 ]
           },
           "2": {
             fallofffromrange: [ 1, 1 ],
-            mass: [ .2, .05 ],
-            power: [ .05, 0 ],
+            mass: [ .2, .04 ],
+            power: [ .04, 0 ],
+            shotspeed: [ .19, .39 ],
             range: [ .2, .4 ]
           },
           "3": {
             fallofffromrange: [ 1, 1 ],
-            mass: [ .3, .1 ],
-            power: [ .1, .05 ],
-            range: [ .3, .6 ]
+            mass: [ .29, .1 ],
+            power: [ .1, .04 ],
+            shotspeed: [ .29, .59 ],
+            range: [ .31, .61 ]
           },
           "4": {
             fallofffromrange: [ 1, 1 ],
-            mass: [ .4, .15 ],
-            power: [ .15, .1 ],
-            range: [ .4, .8 ]
+            mass: [ .39, .14 ],
+            power: [ .14, .1 ],
+            shotspeed: [ .39, .79 ],
+            range: [ .4, .81 ]
           },
           "5": {
             fallofffromrange: [ 1, 1 ],
             mass: [ .5, .2 ],
-            power: [ .2, .15 ],
+            power: [ .2, .14 ],
+            shotspeed: [ .5, 1 ],
             range: [ .5, 1 ]
           }
         },
@@ -16685,36 +16830,60 @@ module.exports = {
       },
       Weapon_Overcharged: {
         id: 88,
-        features: {
+        components: {
           "1": {
-            clip: [ -.05, -.03 ],
-            damage: [ .15, .25 ],
-            distdraw: [ .9, .45 ],
-            jitter: [ 1, .4 ],
-            thermload: [ .45, .3 ]
+            Nickel: 1
           },
           "2": {
-            clip: [ -.1, -.06 ],
-            damage: [ .2, .3 ],
-            distdraw: [ .8, .4 ],
-            jitter: [ .8, .3 ],
-            thermload: [ .3, .15 ]
+            "Conductive Components": 1,
+            Nickel: 1
           },
           "3": {
-            clip: [ -.15, -.09 ],
+            "Conductive Components": 1,
+            "Electrochemical Arrays": 1,
+            Nickel: 1
+          },
+          "4": {
+            "Conductive Ceramics": 1,
+            "Polymer Capaciters": 1,
+            Zinc: 1
+          },
+          "5": {
+            "Conductive Polymers": 1,
+            "Modified Embedded Firmware": 1,
+            Zirconium: 1
+          }
+        },
+        features: {
+          "1": {
+            clip: [ -.05, -.04 ],
+            damage: [ .14, .25 ],
+            distdraw: [ .89, .45 ],
+            jitter: [ 1, .4 ],
+            thermload: [ .45, .29 ]
+          },
+          "2": {
+            clip: [ -.11, -.06 ],
+            damage: [ .2, .29 ],
+            distdraw: [ .81, .4 ],
+            jitter: [ .8, .3 ],
+            thermload: [ .29, .14 ]
+          },
+          "3": {
+            clip: [ -.16, -.1 ],
             damage: [ .25, .35 ],
             distdraw: [ .7, .35 ],
             jitter: [ .6, .2 ],
-            thermload: [ .15, 0 ]
+            thermload: [ .14, 0 ]
           },
           "4": {
-            clip: [ -.2, -.12 ],
-            damage: [ .3, .4 ],
-            distdraw: [ .6, .3 ],
+            clip: [ -.21, -.12 ],
+            damage: [ .29, .39 ],
+            distdraw: [ .61, .29 ],
             jitter: [ .4, .1 ]
           },
           "5": {
-            clip: [ -.25, -.15 ],
+            clip: [ -.25, -.16 ],
             damage: [ .35, .45 ],
             distdraw: [ .5, .25 ]
           }
@@ -16723,49 +16892,97 @@ module.exports = {
       },
       Weapon_RapidFire: {
         id: 89,
-        features: {
+        components: {
           "1": {
-            burstrof: [ -.15, -.2 ],
-            damage: [ -.07, -.05 ],
-            jitter: [ 2.5, 1.25 ],
-            reload: [ -.1, -.25 ]
+            "Mechanical Scrap": 1
           },
           "2": {
-            burstrof: [ -.2, -.25 ],
-            damage: [ -.09, -.07 ],
-            distdraw: [ -.1, -.2 ],
-            jitter: [ 2, 1 ],
-            reload: [ -.2, -.35 ]
+            "Heat Dispersion Plate": 1,
+            "Mechanical Scrap": 1
           },
           "3": {
-            burstrof: [ -.25, -.3 ],
-            damage: [ -.11, -.09 ],
-            distdraw: [ -.15, -.25 ],
-            jitter: [ 1.5, .75 ],
-            reload: [ -.3, -.45 ]
+            "Mechanical Equipment": 1,
+            "Precipitated Aloys": 1,
+            "Specialised Legacy Firmware": 1
           },
           "4": {
-            burstrof: [ -.3, -.35 ],
+            "Mechanical Components": 1,
+            "Modified Consumer Firmware": 1,
+            "Thermic Alloys": 1
+          },
+          "5": {
+            "Configurable Components": 1,
+            "Precipitated Alloys": 1,
+            Technetium: 1
+          }
+        },
+        features: {
+          "1": {
+            damage: [ -.07, -.06 ],
+            jitter: [ 2.5, 1.25 ],
+            reload: [ -.11, -.25 ],
+            rof: [ .17, .25 ]
+          },
+          "2": {
+            damage: [ -.1, -.07 ],
+            distdraw: [ -.1, -.2 ],
+            jitter: [ 2, 1 ],
+            reload: [ -.2, -.36 ],
+            rof: [ .25, .34 ]
+          },
+          "3": {
+            damage: [ -.11, -.1 ],
+            distdraw: [ -.15, -.25 ],
+            jitter: [ 1.5, .75 ],
+            reload: [ -.31, -.45 ],
+            rof: [ .34, .42 ]
+          },
+          "4": {
             damage: [ -.13, -.11 ],
             distdraw: [ -.2, -.3 ],
             jitter: [ 1, .5 ],
-            reload: [ -.4, -.55 ]
+            reload: [ -.4, -.55 ],
+            rof: [ .42, .53 ]
           },
           "5": {
-            burstrof: [ -.35, -.4 ],
             damage: [ -.15, -.13 ],
-            distdraw: [ -.25, -.35 ],
+            distdraw: [ -.25, -.36 ],
             jitter: [ .5, .25 ],
-            reload: [ -.5, -.65 ]
+            reload: [ -.5, -.65 ],
+            rof: [ .53, .66 ]
           }
         },
         name: "Rapid fire"
       },
       Weapon_ShortRange: {
         id: 90,
+        components: {
+          "1": {
+            Nickel: 1
+          },
+          "2": {
+            "Modified Consumer Firmware": 1,
+            Nickel: 1
+          },
+          "3": {
+            "Electrochemical Arrays": 1,
+            "Modified Consumer Firmware": 1,
+            Nickel: 1
+          },
+          "4": {
+            "Conductive Polymers": 1,
+            "Electrochemical Arrays": 1,
+            "Modified Consumer Firmware": 1
+          },
+          "5": {
+            "Biotech Conductors": 1,
+            "Configurable Components": 1,
+            "Cracked Industrial Firmware": 1
+          }
+        },
         features: {
           "1": {
-            damage: [ .04, .09 ],
+            damage: [ .03, .09 ],
             range: [ -.35, -.1 ]
           },
           "2": {
@@ -16774,28 +16991,52 @@ module.exports = {
             thermload: [ .2, .1 ]
           },
           "3": {
-            damage: [ .12, .27 ],
+            damage: [ .11, .26 ],
             integrity: [ -.2, -.1 ],
             range: [ -.55, -.3 ],
             thermload: [ .3, .2 ]
           },
           "4": {
-            damage: [ .16, .36 ],
-            integrity: [ -.3, -.2 ],
+            damage: [ .15, .35 ],
+            integrity: [ -.31, -.2 ],
             range: [ -.65, -.4 ],
-            thermload: [ .4, .3 ]
+            thermload: [ .39, .29 ]
           },
           "5": {
             damage: [ .2, .45 ],
-            integrity: [ -.4, -.3 ],
+            integrity: [ -.4, -.31 ],
             range: [ -.75, -.5 ],
-            thermload: [ .5, .4 ]
+            thermload: [ .5, .39 ]
           }
         },
         name: "Short range"
       },
       Weapon_Sturdy: {
         id: 91,
+        components: {
+          "1": {
+            Nickel: 1
+          },
+          "2": {
+            Nickel: 1,
+            "Shield Emitters": 1
+          },
+          "3": {
+            Nickel: 1,
+            "Shield Emitters": 1,
+            Tungsten: 1
+          },
+          "4": {
+            Molybdenum: 1,
+            Tungsten: 1,
+            Zinc: 1
+          },
+          "5": {
+            "High Density Composites": 1,
+            Molybdenum: 1,
+            Technetium: 1
+          }
+        },
         features: {
           "1": {
             integrity: [ .2, .5 ],
@@ -16803,21 +17044,27 @@ module.exports = {
             thermload: [ 0, -.1 ]
           },
           "2": {
-            integrity: [ .4, 1 ],
+            integrity: [ .39, 1 ],
             mass: [ 1, .5 ],
-            thermload: [ -.05, -.15 ]
+            thermload: [ -.06, -.15 ]
           },
           "3": {
-            integrity: [ .6, 1.5 ],
+            integrity: [ .61, 1.5 ],
             mass: [ 1.5, 1 ],
-            piercing: [ 0, .15 ],
-            thermload: [ -.1, -.2 ]
+            piercing: [ 0, .14 ],
+            thermload: [ -.11, -.2 ]
           },
           "4": {
+            integrity: [ .81, 2 ],
+            mass: [ 2, 1.5 ],
+            piercing: [ .1, .29 ],
+            thermload: [ -.15, -.25 ]
+          },
+          "5": {
             integrity: [ 1, 2.5 ],
             mass: [ 2.5, 2 ],
             piercing: [ .2, .45 ],
-            thermload: [ -.2, -.3 ]
+            thermload: [ -.2, -.31 ]
           }
         },
         name: "Sturdy"
@@ -17031,6 +17278,12 @@ module.exports = {
       shieldboost: {
         id: 31,
         name: "shieldboost",
+        type: "percentage",
+        method: "multiplicative"
+      },
+      shotspeed: {
+        id: 43,
+        name: "shotspeed",
         type: "percentage",
         method: "multiplicative"
       },
@@ -17463,7 +17716,7 @@ module.exports = {
           Weapon_ShortRange: [ 1, 2, 3, 4, 5 ],
           Weapon_Sturdy: [ 1, 2, 3, 4, 5 ]
         },
-        modifications: [ "damage", "damagedist", "distdraw", "fallofffromrange", "integrity", "mass", "piercing", "power", "range", "thermload" ]
+        modifications: [ "damage", "damagedist", "distdraw", "fallofffromrange", "integrity", "jitter", "mass", "piercing", "power", "range", "thermload" ]
       },
       bsg: {
         blueprints: {
@@ -17485,7 +17738,7 @@ module.exports = {
           Weapon_ShortRange: [ 1, 2, 3, 4, 5 ],
           Weapon_Sturdy: [ 1, 2, 3, 4, 5 ]
         },
-        modifications: [ "ammo", "clip", "damage", "damagedist", "distdraw", "fallofffromrange", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "thermload" ]
+        modifications: [ "ammo", "clip", "damage", "damagedist", "distdraw", "fallofffromrange", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "shotspeed", "thermload" ]
       },
       cc: {
         blueprints: {
@@ -17539,7 +17792,7 @@ module.exports = {
           Weapon_RapidFire: [ 1, 2, 3, 4, 5 ],
           Weapon_Sturdy: [ 1, 2, 3, 4, 5 ]
         },
-        modifications: [ "ammo", "burst", "burstrof", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "thermload" ]
+        modifications: [ "ammo", "burst", "burstrof", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "shotspeed", "thermload" ]
       },
       fh: {
         blueprints: {},
@@ -17632,7 +17885,7 @@ module.exports = {
           Weapon_ShortRange: [ 1, 2, 3, 4, 5 ],
           Weapon_Sturdy: [ 1, 2, 3, 4, 5 ]
         },
-        modifications: [ "ammo", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "thermload" ]
+        modifications: [ "ammo", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "shotspeed", "thermload" ]
       },
       ml: {
         blueprints: {},
@@ -17671,7 +17924,7 @@ module.exports = {
           Weapon_ShortRange: [ 1, 2, 3, 4, 5 ],
           Weapon_Sturdy: [ 1, 2, 3, 4, 5 ]
         },
-        modifications: [ "ammo", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "thermload" ]
+        modifications: [ "ammo", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "shotspeed", "thermload" ]
       },
       pas: {
         blueprints: {},

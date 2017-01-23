@@ -9165,7 +9165,7 @@
 					"rating": "F",
 					"reload": 4,
 					"rof": 7.69,
-					"speed": 1600,
+					"shotspeed": 1600,
 					"thermload": 0.1
 				},
 				{
@@ -9195,7 +9195,7 @@
 					"rating": "G",
 					"reload": 5,
 					"rof": 8.33,
-					"speed": 1600,
+					"shotspeed": 1600,
 					"thermload": 0.1
 				},
 				{
@@ -9225,7 +9225,7 @@
 					"rating": "G",
 					"reload": 4,
 					"rof": 7.14,
-					"speed": 1600,
+					"shotspeed": 1600,
 					"thermload": 0
 				},
 				{
@@ -9256,7 +9256,7 @@
 					"rating": "F",
 					"reload": 4,
 					"rof": 4.3,
-					"speed": 1800,
+					"shotspeed": 1800,
 					"thermload": 0.2
 				},
 				{
@@ -9286,7 +9286,7 @@
 					"rating": "E",
 					"reload": 4,
 					"rof": 7.14,
-					"speed": 1600,
+					"shotspeed": 1600,
 					"thermload": 0.2
 				},
 				{
@@ -9316,7 +9316,7 @@
 					"rating": "F",
 					"reload": 5,
 					"rof": 7.69,
-					"speed": 1600,
+					"shotspeed": 1600,
 					"thermload": 0.2
 				},
 				{
@@ -9346,7 +9346,7 @@
 					"rating": "F",
 					"reload": 4,
 					"rof": 6.25,
-					"speed": 1600,
+					"shotspeed": 1600,
 					"thermload": 0.1
 				},
 				{
@@ -9376,7 +9376,7 @@
 					"rating": "C",
 					"reload": 4,
 					"rof": 5.88,
-					"speed": 1600,
+					"shotspeed": 1600,
 					"thermload": 0.3
 				},
 				{
@@ -9406,7 +9406,7 @@
 					"rating": "C",
 					"reload": 5,
 					"rof": 6.665,
-					"speed": 1600,
+					"shotspeed": 1600,
 					"thermload": 0.3
 				},
 				{
@@ -9437,7 +9437,7 @@
 					"reload": 4,
 					"rof": 3.03,
 					"roundspershot": 2,
-					"speed": 1600,
+					"shotspeed": 1600,
 					"thermload": 0.4
 				},
 				{
@@ -9468,7 +9468,7 @@
 					"reload": 5,
 					"rof": 3.365,
 					"roundspershot": 2,
-					"speed": 1600,
+					"shotspeed": 1600,
 					"thermload": 0.5
 				}
 			],
@@ -9500,7 +9500,7 @@
 					"rating": "D",
 					"reload": 3,
 					"rof": 0.5,
-					"speed": 1200,
+					"shotspeed": 1200,
 					"thermload": 1.4
 				},
 				{
@@ -9530,7 +9530,7 @@
 					"rating": "E",
 					"reload": 4,
 					"rof": 0.52,
-					"speed": 1000,
+					"shotspeed": 1000,
 					"thermload": 1.3
 				},
 				{
@@ -9560,7 +9560,7 @@
 					"rating": "F",
 					"reload": 4,
 					"rof": 0.435,
-					"speed": 1000,
+					"shotspeed": 1000,
 					"thermload": 0.7
 				},
 				{
@@ -9590,7 +9590,7 @@
 					"rating": "D",
 					"reload": 3,
 					"rof": 0.465,
-					"speed": 1051,
+					"shotspeed": 1051,
 					"thermload": 2.1
 				},
 				{
@@ -9620,7 +9620,7 @@
 					"rating": "D",
 					"reload": 4,
 					"rof": 0.485,
-					"speed": 875,
+					"shotspeed": 875,
 					"thermload": 1.9
 				},
 				{
@@ -9650,7 +9650,7 @@
 					"rating": "E",
 					"reload": 4,
 					"rof": 0.405,
-					"speed": 875,
+					"shotspeed": 875,
 					"thermload": 1
 				},
 				{
@@ -9680,7 +9680,7 @@
 					"rating": "C",
 					"reload": 3,
 					"rof": 0.425,
-					"speed": 959,
+					"shotspeed": 959,
 					"thermload": 3.2
 				},
 				{
@@ -9712,7 +9712,7 @@
 					"rating": "C",
 					"reload": 4,
 					"rof": 0.445,
-					"speed": 800,
+					"shotspeed": 800,
 					"thermload": 2.9
 				},
 				{
@@ -9742,7 +9742,7 @@
 					"rating": "D",
 					"reload": 4,
 					"rof": 0.37,
-					"speed": 800,
+					"shotspeed": 800,
 					"thermload": 1.6
 				},
 				{
@@ -9774,7 +9774,7 @@
 					"rating": "B",
 					"reload": 3,
 					"rof": 0.385,
-					"speed": 900,
+					"shotspeed": 900,
 					"thermload": 4.8
 				},
 				{
@@ -9806,7 +9806,7 @@
 					"rating": "B",
 					"reload": 4,
 					"rof": 0.4,
-					"speed": 750,
+					"shotspeed": 750,
 					"thermload": 4.4
 				}
 			],
@@ -9840,7 +9840,7 @@
 					"reload": 2.5,
 					"rof": 5.555,
 					"roundspershot": 12,
-					"speed": 667,
+					"shotspeed": 667,
 					"thermload": 0.4
 				},
 				{
@@ -9872,7 +9872,7 @@
 					"reload": 2.5,
 					"rof": 5.88,
 					"roundspershot": 12,
-					"speed": 667,
+					"shotspeed": 667,
 					"thermload": 0.4
 				},
 				{
@@ -9904,7 +9904,7 @@
 					"reload": 2.5,
 					"rof": 4.76,
 					"roundspershot": 12,
-					"speed": 667,
+					"shotspeed": 667,
 					"thermload": 0.2
 				},
 				{
@@ -9936,7 +9936,7 @@
 					"reload": 2.5,
 					"rof": 5,
 					"roundspershot": 12,
-					"speed": 667,
+					"shotspeed": 667,
 					"thermload": 0.7
 				},
 				{
@@ -9968,7 +9968,7 @@
 					"reload": 2.5,
 					"rof": 5.26,
 					"roundspershot": 12,
-					"speed": 667,
+					"shotspeed": 667,
 					"thermload": 0.8
 				},
 				{
@@ -10000,7 +10000,7 @@
 					"reload": 2.5,
 					"rof": 4.345,
 					"roundspershot": 12,
-					"speed": 667,
+					"shotspeed": 667,
 					"thermload": 0.4
 				},
 				{
@@ -10032,7 +10032,7 @@
 					"reload": 2.5,
 					"rof": 4.545,
 					"roundspershot": 12,
-					"speed": 667,
+					"shotspeed": 667,
 					"thermload": 1.1
 				},
 				{
@@ -10064,7 +10064,7 @@
 					"reload": 2.5,
 					"rof": 4.76,
 					"roundspershot": 12,
-					"speed": 667,
+					"shotspeed": 667,
 					"thermload": 1.4
 				},
 				{
@@ -10096,7 +10096,7 @@
 					"reload": 2.5,
 					"rof": 4,
 					"roundspershot": 12,
-					"speed": 667,
+					"shotspeed": 667,
 					"thermload": 0.7
 				},
 				{
@@ -10129,7 +10129,7 @@
 					"reload": 2.5,
 					"rof": 4.5,
 					"roundspershot": 12,
-					"speed": 1000,
+					"shotspeed": 1000,
 					"thermload": 1.1
 				}
 			],
@@ -10259,7 +10259,7 @@
 					"rating": "C",
 					"reload": 6,
 					"rof": 0.33,
-					"speed": 875,
+					"shotspeed": 875,
 					"thermload": 15.6
 				},
 				{
@@ -10291,7 +10291,7 @@
 					"rating": "B",
 					"reload": 6,
 					"rof": 0.29,
-					"speed": 875,
+					"shotspeed": 875,
 					"thermload": 21.8
 				},
 				{
@@ -10325,7 +10325,7 @@
 					"rating": "B",
 					"reload": 6,
 					"rof": 0.8,
-					"speed": 875,
+					"shotspeed": 875,
 					"thermload": 11
 				},
 				{
@@ -10357,7 +10357,7 @@
 					"rating": "A",
 					"reload": 6,
 					"rof": 0.25,
-					"speed": 875,
+					"shotspeed": 875,
 					"thermload": 29.5
 				}
 			],
@@ -10388,7 +10388,7 @@
 					"rating": "B",
 					"reload": 5,
 					"rof": 0.5,
-					"speed": 750,
+					"shotspeed": 750,
 					"thermload": 3.6
 				},
 				{
@@ -10417,7 +10417,7 @@
 					"rating": "B",
 					"reload": 12,
 					"rof": 0.333,
-					"speed": 625,
+					"shotspeed": 625,
 					"thermload": 3.6
 				},
 				{
@@ -10448,7 +10448,7 @@
 					"rating": "B",
 					"reload": 5,
 					"rof": 0.5,
-					"speed": 750,
+					"shotspeed": 750,
 					"thermload": 3.6
 				},
 				{
@@ -10479,7 +10479,7 @@
 					"rating": "B",
 					"reload": 12,
 					"rof": 0.333,
-					"speed": 625,
+					"shotspeed": 625,
 					"thermload": 3.6
 				},
 				{
@@ -10509,7 +10509,7 @@
 					"rating": "B",
 					"reload": 5,
 					"rof": 0.333,
-					"speed": 750,
+					"shotspeed": 750,
 					"thermload": 3.6
 				},
 				{
@@ -10543,7 +10543,7 @@
 					"reload": 5,
 					"rof": 2,
 					"roundspershot": 4,
-					"speed": 600,
+					"shotspeed": 600,
 					"thermload": 3.6
 				}
 			],
@@ -10574,7 +10574,7 @@
 					"rating": "I",
 					"reload": 5,
 					"rof": 1,
-					"speed": 250,
+					"shotspeed": 250,
 					"thermload": 45
 				},
 				{
@@ -10603,7 +10603,7 @@
 					"rating": "I",
 					"reload": 5,
 					"rof": 1,
-					"speed": 250,
+					"shotspeed": 250,
 					"thermload": 50
 				}
 			],
@@ -11157,7 +11157,7 @@
 					"rating": "I",
 					"reload": 0.4,
 					"rof": 10,
-					"speed": 1000,
+					"shotspeed": 1000,
 					"thermload": 0.1
 				}
 			]
@@ -20248,24 +20248,24 @@
 							0
 						],
 						"engrate": [
-							-0.25,
-							-0.16
+							0.25,
+							0.16
 						],
 						"syscap": [
 							-0.03,
 							0
 						],
 						"sysrate": [
-							-0.25,
-							-0.16
+							0.25,
+							0.16
 						],
 						"wepcap": [
 							-0.03,
 							0
 						],
 						"weprate": [
-							-0.25,
-							-0.16
+							0.25,
+							0.16
 						]
 					},
 					"2": {
@@ -20274,24 +20274,24 @@
 							-0.01
 						],
 						"engrate": [
-							-0.25,
-							-0.16
+							0.25,
+							0.16
 						],
 						"syscap": [
 							-0.06,
 							-0.01
 						],
 						"sysrate": [
-							-0.25,
-							-0.16
+							0.25,
+							0.16
 						],
 						"wepcap": [
 							-0.06,
 							-0.01
 						],
 						"weprate": [
-							-0.25,
-							-0.16
+							0.25,
+							0.16
 						]
 					},
 					"3": {
@@ -20300,24 +20300,24 @@
 							-0.02
 						],
 						"engrate": [
-							-0.25,
-							-0.16
+							0.25,
+							0.16
 						],
 						"syscap": [
 							-0.09,
 							-0.02
 						],
 						"sysrate": [
-							-0.25,
-							-0.16
+							0.25,
+							0.16
 						],
 						"wepcap": [
 							-0.09,
 							-0.02
 						],
 						"weprate": [
-							-0.25,
-							-0.16
+							0.25,
+							0.16
 						]
 					},
 					"4": {
@@ -20326,7 +20326,7 @@
 							-0.03
 						],
 						"engrate": [
-							-0.25,
+							0.25,
 							-0.16
 						],
 						"syscap": [
@@ -20334,16 +20334,16 @@
 							-0.03
 						],
 						"sysrate": [
-							-0.25,
-							-0.16
+							0.25,
+							0.16
 						],
 						"wepcap": [
 							-0.12,
 							-0.03
 						],
 						"weprate": [
-							-0.25,
-							-0.16
+							0.25,
+							0.16
 						]
 					},
 					"5": {
@@ -20352,24 +20352,24 @@
 							-0.04
 						],
 						"engrate": [
-							-0.25,
-							-0.16
+							0.25,
+							0.16
 						],
 						"syscap": [
 							-0.15,
 							-0.04
 						],
 						"sysrate": [
-							-0.25,
-							-0.16
+							0.25,
+							0.16
 						],
 						"wepcap": [
 							-0.15,
 							-0.04
 						],
 						"weprate": [
-							-0.25,
-							-0.16
+							0.25,
+							0.16
 						]
 					}
 				},
@@ -22267,6 +22267,26 @@
 			},
 			"Weapon_DoubleShot": {
 				"id": 82,
+				"components": {
+					"1": {
+						"Carbon": 1
+					},
+					"2": {
+						"Carbon": 1,
+						"Mechanical Equipment": 1
+					},
+					"3": {
+						"Carbon": 1,
+						"Cracked Industrial Firmware": 1,
+						"Mechanical Equipment": 1
+					},
+					"4": {
+						"Mechanical Components": 1,
+						"Security Firmware Patch": 1,
+						"Vanadium": 1
+					},
+					"5": {}
+				},
 				"features": {
 					"1": {
 						"ammo": [
@@ -22363,34 +22383,58 @@
 			},
 			"Weapon_Efficient": {
 				"id": 83,
+				"components": {
+					"1": {
+						"Sulphur": 1
+					},
+					"2": {
+						"Heat Dispersion Plate": 1,
+						"Sulphur": 1
+					},
+					"3": {
+						"Chromium": 1,
+						"Exceptional Scrambed Emission Data": 1,
+						"Heat Exchangers": 1
+					},
+					"4": {
+						"Heat Vanes": 1,
+						"Irregular Emission Data": 1,
+						"Selenium": 1
+					},
+					"5": {
+						"Cadmium": 1,
+						"Proto Heat Radiators": 1,
+						"Heatsink Interlink": 1
+					}
+				},
 				"features": {
 					"1": {
 						"damage": [
 							0,
-							0.05
+							0.04
 						],
 						"thermload": [
-							-0.3,
+							-0.31,
 							-0.4
 						]
 					},
 					"2": {
 						"damage": [
 							0.01,
-							0.06
+							0.05
 						],
 						"power": [
 							0,
 							-0.1
 						],
 						"thermload": [
-							-0.35,
+							-0.36,
 							-0.45
 						]
 					},
 					"3": {
 						"damage": [
-							0.02,
+							0.01,
 							0.07
 						],
 						"distdraw": [
@@ -22398,7 +22442,7 @@
 							-0.25
 						],
 						"power": [
-							-0.05,
+							-0.06,
 							-0.2
 						],
 						"thermload": [
@@ -22417,7 +22461,7 @@
 						],
 						"power": [
 							-0.1,
-							-0.3
+							-0.31
 						],
 						"thermload": [
 							-0.45,
@@ -22426,12 +22470,12 @@
 					},
 					"5": {
 						"damage": [
-							0.04,
+							0.03,
 							0.09
 						],
 						"distdraw": [
 							-0.25,
-							-0.35
+							-0.36
 						],
 						"power": [
 							-0.14,
@@ -22439,7 +22483,7 @@
 						],
 						"thermload": [
 							-0.5,
-							-0.6
+							-0.61
 						]
 					}
 				},
@@ -22447,6 +22491,30 @@
 			},
 			"Weapon_Focused": {
 				"id": 84,
+				"components": {
+					"1": {
+						"Iron": 1
+					},
+					"2": {
+						"Conductive Components": 1,
+						"Iron": 1
+					},
+					"3": {
+						"Chromium": 1,
+						"Conductive Ceramics": 1,
+						"Iron": 1
+					},
+					"4": {
+						"Focus Crystals": 1,
+						"Germanium": 1,
+						"Polymer Capacitors": 1
+					},
+					"5": {
+						"Military Supercapacitors": 1,
+						"Niobium": 1,
+						"Refined Focus Crystals": 1
+					}
+				},
 				"features": {
 					"1": {
 						"burstrof": [
@@ -22539,15 +22607,39 @@
 			},
 			"Weapon_HighCapacity": {
 				"id": 85,
+				"components": {
+					"1": {
+						"Mechanical Scrap": 1
+					},
+					"2": {
+						"Mechanical Scrap": 1,
+						"Vanadium": 1
+					},
+					"3": {
+						"Mechanical Scrap": 1,
+						"Niobium": 1,
+						"Vanadium": 1
+					},
+					"4": {
+						"High Density Composites": 1,
+						"Mechanical Equipment": 1,
+						"Tin": 1
+					},
+					"5": {
+						"Mechanical Components": 1,
+						"Military Supercapacitors": 1,
+						"Proprietary Composites": 1
+					}
+				},
 				"features": {
 					"1": {
 						"ammo": [
-							0.17,
-							0.66
+							0.1,
+							0.59
 						],
 						"clip": [
 							0.1,
-							0.61
+							0.59
 						],
 						"mass": [
 							0.25,
@@ -22564,12 +22656,12 @@
 					},
 					"2": {
 						"ammo": [
-							0.24,
-							0.75
+							0.19,
+							0.69
 						],
 						"clip": [
 							0.2,
-							0.7
+							0.69
 						],
 						"mass": [
 							0.5,
@@ -22586,16 +22678,16 @@
 					},
 					"3": {
 						"ammo": [
-							0.34,
-							0.83
+							0.29,
+							0.79
 						],
 						"clip": [
-							0.31,
-							0.81
+							0.29,
+							0.79
 						],
 						"mass": [
 							0.75,
-							0.25
+							0.29
 						],
 						"reload": [
 							0.61,
@@ -22608,20 +22700,20 @@
 					},
 					"4": {
 						"ammo": [
-							0.41,
-							0.91
+							0.39,
+							0.89
 						],
 						"clip": [
-							0.4,
-							0.9
+							0.39,
+							0.89
 						],
 						"mass": [
 							1,
 							0.39
 						],
 						"reload": [
-							0.81,
-							0.31
+							0.79,
+							0.29
 						],
 						"power": [
 							0.35,
@@ -22655,6 +22747,30 @@
 			},
 			"Weapon_LightWeight": {
 				"id": 86,
+				"components": {
+					"1": {
+						"Phosphorous": 1
+					},
+					"2": {
+						"Manganese": 1,
+						"Salvaged Alloys": 1
+					},
+					"3": {
+						"Conductive Ceramics": 1,
+						"Manganese": 1,
+						"Salvaged Alloys": 1
+					},
+					"4": {
+						"Conductive Components": 1,
+						"Phase Alloys": 1,
+						"Proto Light Alloys": 1
+					},
+					"5": {
+						"Conductive Ceramics": 1,
+						"Proto Light Alloys": 1,
+						"Proto Radiolic Alloys": 1
+					}
+				},
 				"features": {
 					"1": {
 						"distdraw": [
@@ -22666,7 +22782,7 @@
 							0
 						],
 						"mass": [
-							-0.1,
+							-0.11,
 							-0.15
 						],
 						"power": [
@@ -22680,12 +22796,12 @@
 							-0.08
 						],
 						"integrity": [
-							-0.3,
+							-0.31,
 							-0.1
 						],
 						"mass": [
 							-0.2,
-							-0.35
+							-0.36
 						],
 						"power": [
 							-0.04,
@@ -22702,7 +22818,7 @@
 							-0.2
 						],
 						"mass": [
-							-0.3,
+							-0.31,
 							-0.55
 						],
 						"power": [
@@ -22717,7 +22833,7 @@
 						],
 						"integrity": [
 							-0.5,
-							-0.3
+							-0.31
 						],
 						"mass": [
 							-0.4,
@@ -22734,7 +22850,7 @@
 							-0.2
 						],
 						"integrity": [
-							-0.6,
+							-0.61,
 							-0.4
 						],
 						"mass": [
@@ -22742,7 +22858,7 @@
 							-0.9
 						],
 						"power": [
-							-0.12,
+							-0.1,
 							-0.2
 						]
 					}
@@ -22751,6 +22867,30 @@
 			},
 			"Weapon_LongRange": {
 				"id": 87,
+				"components": {
+					"1": {
+						"Sulphur": 1
+					},
+					"2": {
+						"Modified Consumer Firmware": 1,
+						"Sulphur": 1
+					},
+					"3": {
+						"Focus Crystals": 1,
+						"Modified Consumer Firmware": 1,
+						"Sulphur": 1
+					},
+					"4": {
+						"Conductive Polymers": 1,
+						"Focus Crystals": 1,
+						"Modified Consumer Firmware": 1
+					},
+					"5": {
+						"Biotech Conductors": 1,
+						"Cracked Industrial Firmware": 1,
+						"Thermic Alloys": 1
+					}
+				},
 				"features": {
 					"1": {
 						"fallofffromrange": [
@@ -22760,6 +22900,10 @@
 						"mass": [
 							0.1,
 							0
+						],
+						"shotspeed": [
+							0.1,
+							0.19
 						],
 						"range": [
 							0.1,
@@ -22773,11 +22917,15 @@
 						],
 						"mass": [
 							0.2,
-							0.05
+							0.04
 						],
 						"power": [
-							0.05,
+							0.04,
 							0
+						],
+						"shotspeed": [
+							0.19,
+							0.39
 						],
 						"range": [
 							0.2,
@@ -22790,16 +22938,20 @@
 							1
 						],
 						"mass": [
-							0.3,
+							0.29,
 							0.1
 						],
 						"power": [
 							0.1,
-							0.05
+							0.04
+						],
+						"shotspeed": [
+							0.29,
+							0.59
 						],
 						"range": [
-							0.3,
-							0.6
+							0.31,
+							0.61
 						]
 					},
 					"4": {
@@ -22808,16 +22960,20 @@
 							1
 						],
 						"mass": [
-							0.4,
-							0.15
+							0.39,
+							0.14
 						],
 						"power": [
-							0.15,
+							0.14,
 							0.1
+						],
+						"shotspeed": [
+							0.39,
+							0.79
 						],
 						"range": [
 							0.4,
-							0.8
+							0.81
 						]
 					},
 					"5": {
@@ -22831,7 +22987,11 @@
 						],
 						"power": [
 							0.2,
-							0.15
+							0.14
+						],
+						"shotspeed": [
+							0.5,
+							1
 						],
 						"range": [
 							0.5,
@@ -22843,18 +23003,42 @@
 			},
 			"Weapon_Overcharged": {
 				"id": 88,
+				"components": {
+					"1": {
+						"Nickel": 1
+					},
+					"2": {
+						"Conductive Components": 1,
+						"Nickel": 1
+					},
+					"3": {
+						"Conductive Components": 1,
+						"Electrochemical Arrays": 1,
+						"Nickel": 1
+					},
+					"4": {
+						"Conductive Ceramics": 1,
+						"Polymer Capaciters": 1,
+						"Zinc": 1
+					},
+					"5": {
+						"Conductive Polymers": 1,
+						"Modified Embedded Firmware": 1,
+						"Zirconium": 1
+					}
+				},
 				"features": {
 					"1": {
 						"clip": [
 							-0.05,
-							-0.03
+							-0.04
 						],
 						"damage": [
-							0.15,
+							0.14,
 							0.25
 						],
 						"distdraw": [
-							0.9,
+							0.89,
 							0.45
 						],
 						"jitter": [
@@ -22863,20 +23047,20 @@
 						],
 						"thermload": [
 							0.45,
-							0.3
+							0.29
 						]
 					},
 					"2": {
 						"clip": [
-							-0.1,
+							-0.11,
 							-0.06
 						],
 						"damage": [
 							0.2,
-							0.3
+							0.29
 						],
 						"distdraw": [
-							0.8,
+							0.81,
 							0.4
 						],
 						"jitter": [
@@ -22884,14 +23068,14 @@
 							0.3
 						],
 						"thermload": [
-							0.3,
-							0.15
+							0.29,
+							0.14
 						]
 					},
 					"3": {
 						"clip": [
-							-0.15,
-							-0.09
+							-0.16,
+							-0.1
 						],
 						"damage": [
 							0.25,
@@ -22906,22 +23090,22 @@
 							0.2
 						],
 						"thermload": [
-							0.15,
+							0.14,
 							0
 						]
 					},
 					"4": {
 						"clip": [
-							-0.2,
+							-0.21,
 							-0.12
 						],
 						"damage": [
-							0.3,
-							0.4
+							0.29,
+							0.39
 						],
 						"distdraw": [
-							0.6,
-							0.3
+							0.61,
+							0.29
 						],
 						"jitter": [
 							0.4,
@@ -22931,7 +23115,7 @@
 					"5": {
 						"clip": [
 							-0.25,
-							-0.15
+							-0.16
 						],
 						"damage": [
 							0.35,
@@ -22947,32 +23131,52 @@
 			},
 			"Weapon_RapidFire": {
 				"id": 89,
+				"components": {
+					"1": {
+						"Mechanical Scrap": 1
+					},
+					"2": {
+						"Heat Dispersion Plate": 1,
+						"Mechanical Scrap": 1
+					},
+					"3": {
+						"Mechanical Equipment": 1,
+						"Precipitated Aloys": 1,
+						"Specialised Legacy Firmware": 1
+					},
+					"4": {
+						"Mechanical Components": 1,
+						"Modified Consumer Firmware": 1,
+						"Thermic Alloys": 1
+					},
+					"5": {
+						"Configurable Components": 1,
+						"Precipitated Alloys": 1,
+						"Technetium": 1
+					}
+				},
 				"features": {
 					"1": {
-						"burstrof": [
-							-0.15,
-							-0.2
-						],
 						"damage": [
 							-0.07,
-							-0.05
+							-0.06
 						],
 						"jitter": [
 							2.5,
 							1.25
 						],
 						"reload": [
-							-0.1,
+							-0.11,
 							-0.25
+						],
+						"rof": [
+							0.17,
+							0.25
 						]
 					},
 					"2": {
-						"burstrof": [
-							-0.2,
-							-0.25
-						],
 						"damage": [
-							-0.09,
+							-0.1,
 							-0.07
 						],
 						"distdraw": [
@@ -22985,17 +23189,17 @@
 						],
 						"reload": [
 							-0.2,
-							-0.35
+							-0.36
+						],
+						"rof": [
+							0.25,
+							0.34
 						]
 					},
 					"3": {
-						"burstrof": [
-							-0.25,
-							-0.3
-						],
 						"damage": [
 							-0.11,
-							-0.09
+							-0.1
 						],
 						"distdraw": [
 							-0.15,
@@ -23006,15 +23210,15 @@
 							0.75
 						],
 						"reload": [
-							-0.3,
+							-0.31,
 							-0.45
+						],
+						"rof": [
+							0.34,
+							0.42
 						]
 					},
 					"4": {
-						"burstrof": [
-							-0.3,
-							-0.35
-						],
 						"damage": [
 							-0.13,
 							-0.11
@@ -23030,20 +23234,20 @@
 						"reload": [
 							-0.4,
 							-0.55
+						],
+						"rof": [
+							0.42,
+							0.53
 						]
 					},
 					"5": {
-						"burstrof": [
-							-0.35,
-							-0.4
-						],
 						"damage": [
 							-0.15,
 							-0.13
 						],
 						"distdraw": [
 							-0.25,
-							-0.35
+							-0.36
 						],
 						"jitter": [
 							0.5,
@@ -23052,6 +23256,10 @@
 						"reload": [
 							-0.5,
 							-0.65
+						],
+						"rof": [
+							0.53,
+							0.66
 						]
 					}
 				},
@@ -23059,10 +23267,34 @@
 			},
 			"Weapon_ShortRange": {
 				"id": 90,
+				"components": {
+					"1": {
+						"Nickel": 1
+					},
+					"2": {
+						"Modified Consumer Firmware": 1,
+						"Nickel": 1
+					},
+					"3": {
+						"Electrochemical Arrays": 1,
+						"Modified Consumer Firmware": 1,
+						"Nickel": 1
+					},
+					"4": {
+						"Conductive Polymers": 1,
+						"Electrochemical Arrays": 1,
+						"Modified Consumer Firmware": 1
+					},
+					"5": {
+						"Biotech Conductors": 1,
+						"Configurable Components": 1,
+						"Cracked Industrial Firmware": 1
+					}
+				},
 				"features": {
 					"1": {
 						"damage": [
-							0.04,
+							0.03,
 							0.09
 						],
 						"range": [
@@ -23086,8 +23318,8 @@
 					},
 					"3": {
 						"damage": [
-							0.12,
-							0.27
+							0.11,
+							0.26
 						],
 						"integrity": [
 							-0.2,
@@ -23104,11 +23336,11 @@
 					},
 					"4": {
 						"damage": [
-							0.16,
-							0.36
+							0.15,
+							0.35
 						],
 						"integrity": [
-							-0.3,
+							-0.31,
 							-0.2
 						],
 						"range": [
@@ -23116,8 +23348,8 @@
 							-0.4
 						],
 						"thermload": [
-							0.4,
-							0.3
+							0.39,
+							0.29
 						]
 					},
 					"5": {
@@ -23127,7 +23359,7 @@
 						],
 						"integrity": [
 							-0.4,
-							-0.3
+							-0.31
 						],
 						"range": [
 							-0.75,
@@ -23135,7 +23367,7 @@
 						],
 						"thermload": [
 							0.5,
-							0.4
+							0.39
 						]
 					}
 				},
@@ -23143,6 +23375,30 @@
 			},
 			"Weapon_Sturdy": {
 				"id": 91,
+				"components": {
+					"1": {
+						"Nickel": 1
+					},
+					"2": {
+						"Nickel": 1,
+						"Shield Emitters": 1
+					},
+					"3": {
+						"Nickel": 1,
+						"Shield Emitters": 1,
+						"Tungsten": 1
+					},
+					"4": {
+						"Molybdenum": 1,
+						"Tungsten": 1,
+						"Zinc": 1
+					},
+					"5": {
+						"High Density Composites": 1,
+						"Molybdenum": 1,
+						"Technetium": 1
+					}
+				},
 				"features": {
 					"1": {
 						"integrity": [
@@ -23160,7 +23416,7 @@
 					},
 					"2": {
 						"integrity": [
-							0.4,
+							0.39,
 							1
 						],
 						"mass": [
@@ -23168,13 +23424,13 @@
 							0.5
 						],
 						"thermload": [
-							-0.05,
+							-0.06,
 							-0.15
 						]
 					},
 					"3": {
 						"integrity": [
-							0.6,
+							0.61,
 							1.5
 						],
 						"mass": [
@@ -23183,14 +23439,32 @@
 						],
 						"piercing": [
 							0,
-							0.15
+							0.14
 						],
 						"thermload": [
-							-0.1,
+							-0.11,
 							-0.2
 						]
 					},
 					"4": {
+						"integrity": [
+							0.81,
+							2
+						],
+						"mass": [
+							2,
+							1.5
+						],
+						"piercing": [
+							0.1,
+							0.29
+						],
+						"thermload": [
+							-0.15,
+							-0.25
+						]
+					},
+					"5": {
 						"integrity": [
 							1,
 							2.5
@@ -23205,7 +23479,7 @@
 						],
 						"thermload": [
 							-0.2,
-							-0.3
+							-0.31
 						]
 					}
 				},
@@ -23420,6 +23694,12 @@
 			"shieldboost": {
 				"id": 31,
 				"name": "shieldboost",
+				"type": "percentage",
+				"method": "multiplicative"
+			},
+			"shotspeed": {
+				"id": 43,
+				"name": "shotspeed",
 				"type": "percentage",
 				"method": "multiplicative"
 			},
@@ -23951,6 +24231,7 @@
 					"distdraw",
 					"fallofffromrange",
 					"integrity",
+					"jitter",
 					"mass",
 					"piercing",
 					"power",
@@ -24079,6 +24360,7 @@
 					"range",
 					"reload",
 					"rof",
+					"shotspeed",
 					"thermload"
 				]
 			},
@@ -24296,6 +24578,7 @@
 					"range",
 					"reload",
 					"rof",
+					"shotspeed",
 					"thermload"
 				]
 			},
@@ -24656,6 +24939,7 @@
 					"range",
 					"reload",
 					"rof",
+					"shotspeed",
 					"thermload"
 				]
 			},
@@ -24837,6 +25121,7 @@
 					"range",
 					"reload",
 					"rof",
+					"shotspeed",
 					"thermload"
 				]
 			},
