@@ -26,7 +26,7 @@
       "rating": "I",
       "reload": 5,
       "rof": 1,
-      "speed": 250,
+      "shotspeed": 250,
       "thermload": 45
     },
     {
@@ -55,7 +55,7 @@
       "rating": "I",
       "reload": 5,
       "rof": 1,
-      "speed": 250,
+      "shotspeed": 250,
       "thermload": 50
     }
   ]

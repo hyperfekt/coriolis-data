@@ -29,7 +29,7 @@
       "rating": "C",
       "reload": 6,
       "rof": 0.33,
-      "speed": 875,
+      "shotspeed": 875,
       "thermload": 15.6
     },
     {
@@ -61,7 +61,7 @@
       "rating": "B",
       "reload": 6,
       "rof": 0.29,
-      "speed": 875,
+      "shotspeed": 875,
       "thermload": 21.8
     },
     {
@@ -95,7 +95,7 @@
       "rating": "B",
       "reload": 6,
       "rof": 0.8,
-      "speed": 875,
+      "shotspeed": 875,
       "thermload": 11
     },
     {
@@ -127,7 +127,7 @@
       "rating": "A",
       "reload": 6,
       "rof": 0.25,
-      "speed": 875,
+      "shotspeed": 875,
       "thermload": 29.5
     }
   ]

@@ -26,7 +26,7 @@
       "rating": "B",
       "reload": 5,
       "rof": 0.5,
-      "speed": 750,
+      "shotspeed": 750,
       "thermload": 3.6
     },
     {
@@ -55,7 +55,7 @@
       "rating": "B",
       "reload": 12,
       "rof": 0.333,
-      "speed": 625,
+      "shotspeed": 625,
       "thermload": 3.6
     },
     {
@@ -86,7 +86,7 @@
       "rating": "B",
       "reload": 5,
       "rof": 0.5,
-      "speed": 750,
+      "shotspeed": 750,
       "thermload": 3.6
     },
     {
@@ -117,7 +117,7 @@
       "rating": "B",
       "reload": 12,
       "rof": 0.333,
-      "speed": 625,
+      "shotspeed": 625,
       "thermload": 3.6
     },
     {
@@ -147,7 +147,7 @@
       "rating": "B",
       "reload": 5,
       "rof": 0.333,
-      "speed": 750,
+      "shotspeed": 750,
       "thermload": 3.6
     },
     {
@@ -181,7 +181,7 @@
       "reload": 5,
       "rof": 2,
       "roundspershot": 4,
-      "speed": 600,
+      "shotspeed": 600,
       "thermload": 3.6
     }
   ]
