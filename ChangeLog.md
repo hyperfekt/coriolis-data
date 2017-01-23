@@ -1,3 +1,10 @@
+#2.2.10
+  * Fix incorrect base shield values for Cutter and Corvette
+  * Update weapons to have %-based damage distributions
+  * Remove power draw for detailed surface scanner - although shown in outfitting it is not part of active power
+  * Fix incorrect names for lightweight and kinetic armour
+  * Add engineering blueprints
+
 #2.2.9
   * Add falloff metric for weapons
   * Add falloff from range modification

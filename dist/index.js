@@ -1069,7 +1069,7 @@ module.exports = {
         speed: 200,
         boost: 260,
         boostEnergy: 27,
-        baseShieldStrength: 610.5,
+        baseShieldStrength: 555,
         baseArmour: 370,
         hardness: 70,
         hullMass: 900,
@@ -1750,7 +1750,7 @@ module.exports = {
         speed: 200,
         boost: 320,
         boostEnergy: 23,
-        baseShieldStrength: 690,
+        baseShieldStrength: 600,
         baseArmour: 400,
         hardness: 70,
         hullMass: 1100,
@@ -6257,6 +6257,9 @@ module.exports = {
         class: 1,
         cost: 2200,
         damage: 2.04,
+        damagedist: {
+          T: 1
+        },
         distdraw: .3,
         edID: 128049381,
         eddbID: 823,
@@ -6271,8 +6274,7 @@ module.exports = {
         range: 3e3,
         rating: "F",
         rof: 3.847,
-        thermload: .3,
-        type: "T"
+        thermload: .3
       }, {
         breachdmg: 1.3,
         breachmax: .8,
@@ -6280,6 +6282,9 @@ module.exports = {
         class: 1,
         cost: 6600,
         damage: 1.56,
+        damagedist: {
+          T: 1
+        },
         distdraw: .31,
         edID: 128049385,
         eddbID: 826,
@@ -6294,8 +6299,7 @@ module.exports = {
         range: 3e3,
         rating: "G",
         rof: 3.987,
-        thermload: .3,
-        type: "T"
+        thermload: .3
       }, {
         breachdmg: 1,
         breachmax: .8,
@@ -6303,6 +6307,9 @@ module.exports = {
         class: 1,
         cost: 26e3,
         damage: 1.18,
+        damagedist: {
+          T: 1
+        },
         distdraw: .19,
         edID: 128049388,
         eddbID: 829,
@@ -6317,8 +6324,7 @@ module.exports = {
         range: 3e3,
         rating: "G",
         rof: 3.339,
-        thermload: .2,
-        type: "T"
+        thermload: .2
       }, {
         breachdmg: 3,
         breachmax: .8,
@@ -6326,6 +6332,9 @@ module.exports = {
         class: 2,
         cost: 17600,
         damage: 3.49,
+        damagedist: {
+          T: 1
+        },
         distdraw: .5,
         edID: 128049382,
         eddbID: 824,
@@ -6340,8 +6349,7 @@ module.exports = {
         range: 3e3,
         rating: "F",
         rof: 3.448,
-        thermload: .6,
-        type: "T"
+        thermload: .6
       }, {
         breachdmg: 2.3,
         breachmax: .8,
@@ -6349,6 +6357,9 @@ module.exports = {
         class: 2,
         cost: 35400,
         damage: 2.68,
+        damagedist: {
+          T: 1
+        },
         distdraw: .54,
         edID: 128049386,
         eddbID: 827,
@@ -6363,8 +6374,7 @@ module.exports = {
         range: 3e3,
         rating: "F",
         rof: 3.567,
-        thermload: .5,
-        type: "T"
+        thermload: .5
       }, {
         breachdmg: 1.7,
         breachmax: .8,
@@ -6372,6 +6382,9 @@ module.exports = {
         class: 2,
         cost: 132800,
         damage: 2.04,
+        damagedist: {
+          T: 1
+        },
         distdraw: .33,
         edID: 128049389,
         eddbID: 830,
@@ -6386,8 +6399,7 @@ module.exports = {
         range: 3e3,
         rating: "F",
         rof: 3.037,
-        thermload: .3,
-        type: "T"
+        thermload: .3
       }, {
         breachdmg: 2.4,
         breachmax: .8,
@@ -6395,6 +6407,9 @@ module.exports = {
         class: 2,
         cost: 26400,
         damage: 2.8,
+        damagedist: {
+          T: 1
+        },
         distdraw: .9,
         eddbID: 1483,
         falloff: 500,
@@ -6409,8 +6424,7 @@ module.exports = {
         pp: "Felicia Winters",
         rating: "E",
         rof: 1.664,
-        thermload: 1,
-        type: "T"
+        thermload: 1
       }, {
         breachdmg: 5.1,
         breachmax: .8,
@@ -6418,6 +6432,9 @@ module.exports = {
         class: 3,
         cost: 70400,
         damage: 5.98,
+        damagedist: {
+          T: 1
+        },
         distdraw: .86,
         edID: 128049383,
         eddbID: 825,
@@ -6432,8 +6449,7 @@ module.exports = {
         range: 3e3,
         rating: "D",
         rof: 3.3,
-        thermload: 1,
-        type: "T"
+        thermload: 1
       }, {
         breachdmg: 3.9,
         breachmax: .8,
@@ -6441,6 +6457,9 @@ module.exports = {
         class: 3,
         cost: 140600,
         damage: 4.58,
+        damagedist: {
+          T: 1
+        },
         distdraw: .92,
         edID: 128049387,
         eddbID: 828,
@@ -6455,8 +6474,7 @@ module.exports = {
         range: 3e3,
         rating: "E",
         rof: 3.223,
-        thermload: .9,
-        type: "T"
+        thermload: .9
       }, {
         breachdmg: 3,
         breachmax: .8,
@@ -6464,6 +6482,9 @@ module.exports = {
         class: 3,
         cost: 400400,
         damage: 3.49,
+        damagedist: {
+          T: 1
+        },
         distdraw: .56,
         edID: 128049390,
         eddbID: 831,
@@ -6478,8 +6499,7 @@ module.exports = {
         range: 3e3,
         rating: "F",
         rof: 2.705,
-        thermload: .6,
-        type: "T"
+        thermload: .6
       }, {
         breachdmg: 8.7,
         breachmax: .8,
@@ -6487,6 +6507,9 @@ module.exports = {
         class: 4,
         cost: 177600,
         damage: 10.23,
+        damagedist: {
+          T: 1
+        },
         distdraw: 1.48,
         edID: 128049384,
         eddbID: 1539,
@@ -6501,8 +6524,7 @@ module.exports = {
         range: 3e3,
         rating: "A",
         rof: 2.633,
-        thermload: 1.6,
-        type: "T"
+        thermload: 1.6
       }, {
         breachdmg: 6.6,
         breachmax: .8,
@@ -6510,6 +6532,9 @@ module.exports = {
         class: 4,
         cost: 877600,
         damage: 7.82,
+        damagedist: {
+          T: 1
+        },
         distdraw: 1.56,
         edID: 128681995,
         eddbID: 1545,
@@ -6524,8 +6549,7 @@ module.exports = {
         range: 3e3,
         rating: "A",
         rof: 2.777,
-        thermload: 1.6,
-        type: "T"
+        thermload: 1.6
       } ],
       ul: [ {
         breachdmg: 7.05,
@@ -6536,6 +6560,9 @@ module.exports = {
         class: 1,
         cost: 4400,
         damage: 1.72,
+        damagedist: {
+          T: 1
+        },
         distdraw: .24,
         edID: 128049400,
         eddbID: 832,
@@ -6550,8 +6577,7 @@ module.exports = {
         range: 3e3,
         rating: "F",
         rof: 2,
-        thermload: .4,
-        type: "T"
+        thermload: .4
       }, {
         breachdmg: 5.3,
         breachmax: .8,
@@ -6561,6 +6587,9 @@ module.exports = {
         class: 1,
         cost: 8600,
         damage: 1.2,
+        damagedist: {
+          T: 1
+        },
         distdraw: .23,
         edID: 128049404,
         eddbID: 835,
@@ -6575,8 +6604,7 @@ module.exports = {
         range: 3e3,
         rating: "G",
         rof: 2.23,
-        thermload: .3,
-        type: "T"
+        thermload: .3
       }, {
         breachdmg: 1.92,
         breachmax: .8,
@@ -6586,6 +6614,9 @@ module.exports = {
         class: 1,
         cost: 52800,
         damage: .87,
+        damagedist: {
+          T: 1
+        },
         distdraw: .136,
         edID: 128049407,
         eddbID: 838,
@@ -6600,8 +6631,7 @@ module.exports = {
         range: 3e3,
         rating: "G",
         rof: 1.92,
-        thermload: .2,
-        type: "T"
+        thermload: .2
       }, {
         breachdmg: 2,
         breachmax: 0,
@@ -6611,6 +6641,9 @@ module.exports = {
         class: 1,
         cost: 8800,
         damage: 2.4,
+        damagedist: {
+          T: 1
+        },
         distdraw: .31,
         edID: 128671449,
         eddbID: 1477,
@@ -6628,8 +6661,7 @@ module.exports = {
         range: 600,
         rating: "F",
         rof: 6.6,
-        thermload: .3,
-        type: "T"
+        thermload: .3
       }, {
         breachdmg: 11.1,
         breachmax: .8,
@@ -6639,6 +6671,9 @@ module.exports = {
         class: 2,
         cost: 23e3,
         damage: 3.5,
+        damagedist: {
+          T: 1
+        },
         distdraw: .482,
         edID: 128049401,
         eddbID: 833,
@@ -6653,8 +6688,7 @@ module.exports = {
         range: 3e3,
         rating: "E",
         rof: 1.6,
-        thermload: .8,
-        type: "T"
+        thermload: .8
       }, {
         breachdmg: 8.82,
         breachmax: .8,
@@ -6664,6 +6698,9 @@ module.exports = {
         class: 2,
         cost: 48500,
         damage: 2.45,
+        damagedist: {
+          T: 1
+        },
         distdraw: .468,
         edID: 128049405,
         eddbID: 836,
@@ -6678,8 +6715,7 @@ module.exports = {
         range: 3e3,
         rating: "F",
         rof: 1.78,
-        thermload: .7,
-        type: "T"
+        thermload: .7
       }, {
         breachdmg: 3.51,
         breachmax: .8,
@@ -6689,6 +6725,9 @@ module.exports = {
         class: 2,
         cost: 162800,
         damage: 1.74,
+        damagedist: {
+          T: 1
+        },
         distdraw: .26,
         edID: 128049408,
         eddbID: 839,
@@ -6703,8 +6742,7 @@ module.exports = {
         range: 3e3,
         rating: "F",
         rof: 1.57,
-        thermload: .4,
-        type: "T"
+        thermload: .4
       }, {
         breachdmg: 10.53,
         breachmax: .8,
@@ -6714,6 +6752,9 @@ module.exports = {
         class: 3,
         cost: 140400,
         damage: 7.75,
+        damagedist: {
+          T: 1
+        },
         distdraw: 1.06,
         edID: 128049402,
         eddbID: 834,
@@ -6728,8 +6769,7 @@ module.exports = {
         range: 3e3,
         rating: "D",
         rof: 1.2,
-        thermload: 1.7,
-        type: "T"
+        thermload: 1.7
       }, {
         breachdmg: 14.08,
         breachmax: .8,
@@ -6739,6 +6779,9 @@ module.exports = {
         class: 3,
         cost: 281600,
         damage: 5.18,
+        damagedist: {
+          T: 1
+        },
         distdraw: .986,
         edID: 128049406,
         eddbID: 837,
@@ -6753,8 +6796,7 @@ module.exports = {
         range: 3e3,
         rating: "E",
         rof: 1.4,
-        thermload: 1.4,
-        type: "T"
+        thermload: 1.4
       }, {
         breachdmg: 5.58,
         breachmax: .8,
@@ -6764,6 +6806,9 @@ module.exports = {
         class: 3,
         cost: 800400,
         damage: 3.54,
+        damagedist: {
+          T: 1
+        },
         distdraw: .536,
         edID: 128049409,
         eddbID: 840,
@@ -6778,8 +6823,7 @@ module.exports = {
         range: 3e3,
         rating: "E",
         rof: 1.272,
-        thermload: .8,
-        type: "T"
+        thermload: .8
       }, {
         breachdmg: 28,
         breachmax: .8,
@@ -6789,6 +6833,9 @@ module.exports = {
         class: 4,
         cost: 281600,
         damage: 20.6,
+        damagedist: {
+          T: 1
+        },
         distdraw: 2.84,
         edID: 128049403,
         eddbID: 1549,
@@ -6803,8 +6850,7 @@ module.exports = {
         range: 3e3,
         rating: "E",
         rof: .8,
-        thermload: 4.5,
-        type: "T"
+        thermload: 4.5
       }, {
         breachdmg: 21.63,
         breachmax: .8,
@@ -6814,6 +6860,9 @@ module.exports = {
         class: 4,
         cost: 1245600,
         damage: 12.1,
+        damagedist: {
+          T: 1
+        },
         distdraw: 2.31,
         edID: 128727920,
         eddbID: 1550,
@@ -6828,8 +6877,7 @@ module.exports = {
         range: 3e3,
         rating: "E",
         rof: 1,
-        thermload: 3.3,
-        type: "T"
+        thermload: 3.3
       } ],
       bl: [ {
         breachdmg: 7.9,
@@ -6838,6 +6886,9 @@ module.exports = {
         class: 1,
         cost: 37430,
         damage: 9.8,
+        damagedist: {
+          T: 1
+        },
         distdraw: 1.94,
         edID: 128049428,
         eddbID: 841,
@@ -6851,8 +6902,7 @@ module.exports = {
         power: .62,
         range: 3e3,
         rating: "E",
-        thermload: 3.5,
-        type: "T"
+        thermload: 3.5
       }, {
         breachdmg: 6.1,
         breachmax: .8,
@@ -6860,6 +6910,9 @@ module.exports = {
         class: 1,
         cost: 74650,
         damage: 7.66,
+        damagedist: {
+          T: 1
+        },
         distdraw: 2.11,
         edID: 128049432,
         eddbID: 844,
@@ -6873,8 +6926,7 @@ module.exports = {
         power: .6,
         range: 3e3,
         rating: "E",
-        thermload: 3.6,
-        type: "T"
+        thermload: 3.6
       }, {
         breachdmg: 4.3,
         breachmax: .8,
@@ -6882,6 +6934,9 @@ module.exports = {
         class: 1,
         cost: 5e5,
         damage: 5.4,
+        damagedist: {
+          T: 1
+        },
         distdraw: 1.32,
         edID: 128049435,
         eddbID: 847,
@@ -6897,8 +6952,7 @@ module.exports = {
         power: .57,
         range: 3e3,
         rating: "F",
-        thermload: 2.4,
-        type: "T"
+        thermload: 2.4
       }, {
         breachdmg: 3.9,
         breachmax: .8,
@@ -6906,6 +6960,9 @@ module.exports = {
         class: 1,
         cost: 56150,
         damage: 4.9,
+        damagedist: {
+          T: 1
+        },
         distdraw: 2.52,
         edID: 128671346,
         eddbID: 1476,
@@ -6921,8 +6978,7 @@ module.exports = {
         pp: "Edmund Mahon",
         range: 3e3,
         rating: "E",
-        thermload: 2.7,
-        type: "T"
+        thermload: 2.7
       }, {
         breachdmg: 12.8,
         breachmax: .8,
@@ -6930,6 +6986,9 @@ module.exports = {
         class: 2,
         cost: 299520,
         damage: 15.96,
+        damagedist: {
+          T: 1
+        },
         distdraw: 3.16,
         edID: 128049429,
         eddbID: 842,
@@ -6943,8 +7002,7 @@ module.exports = {
         power: 1.01,
         range: 3e3,
         rating: "D",
-        thermload: 5.1,
-        type: "T"
+        thermload: 5.1
       }, {
         breachdmg: 10,
         breachmax: .8,
@@ -6952,6 +7010,9 @@ module.exports = {
         class: 2,
         cost: 500600,
         damage: 12.52,
+        damagedist: {
+          T: 1
+        },
         distdraw: 3.44,
         edID: 128049433,
         eddbID: 845,
@@ -6965,8 +7026,7 @@ module.exports = {
         power: .99,
         range: 3e3,
         rating: "D",
-        thermload: 5.3,
-        type: "T"
+        thermload: 5.3
       }, {
         breachdmg: 7.1,
         breachmax: .8,
@@ -6974,6 +7034,9 @@ module.exports = {
         class: 2,
         cost: 2099900,
         damage: 8.82,
+        damagedist: {
+          T: 1
+        },
         distdraw: 2.16,
         edID: 128049436,
         eddbID: 848,
@@ -6987,8 +7050,7 @@ module.exports = {
         power: .93,
         range: 3e3,
         rating: "E",
-        thermload: 3.5,
-        type: "T"
+        thermload: 3.5
       }, {
         breachdmg: 20.6,
         breachmax: .8,
@@ -6996,6 +7058,9 @@ module.exports = {
         class: 3,
         cost: 1177600,
         damage: 25.78,
+        damagedist: {
+          T: 1
+        },
         distdraw: 5.1,
         edID: 128049430,
         eddbID: 843,
@@ -7009,8 +7074,7 @@ module.exports = {
         power: 1.62,
         range: 3e3,
         rating: "C",
-        thermload: 7.2,
-        type: "T"
+        thermload: 7.2
       }, {
         breachdmg: 16.2,
         breachmax: .8,
@@ -7018,6 +7082,9 @@ module.exports = {
         class: 3,
         cost: 2396160,
         damage: 20.28,
+        damagedist: {
+          T: 1
+        },
         distdraw: 5.58,
         edID: 128049434,
         eddbID: 846,
@@ -7031,8 +7098,7 @@ module.exports = {
         power: 1.6,
         range: 3e3,
         rating: "C",
-        thermload: 7.6,
-        type: "T"
+        thermload: 7.6
       }, {
         breachdmg: 11.5,
         breachmax: .8,
@@ -7040,6 +7106,9 @@ module.exports = {
         class: 3,
         cost: 19399600,
         damage: 14.34,
+        damagedist: {
+          T: 1
+        },
         distdraw: 3.51,
         edID: 128049437,
         eddbID: 849,
@@ -7053,8 +7122,7 @@ module.exports = {
         power: 1.51,
         range: 3e3,
         rating: "D",
-        thermload: 5.1,
-        type: "T"
+        thermload: 5.1
       }, {
         breachdmg: 33.1,
         breachmax: .8,
@@ -7062,6 +7130,9 @@ module.exports = {
         class: 4,
         cost: 2396160,
         damage: 41.38,
+        damagedist: {
+          T: 1
+        },
         distdraw: 8.19,
         edID: 128049431,
         eddbID: 1540,
@@ -7075,8 +7146,7 @@ module.exports = {
         power: 2.61,
         range: 3e3,
         rating: "A",
-        thermload: 9.9,
-        type: "T"
+        thermload: 9.9
       }, {
         breachdmg: 26.1,
         breachmax: .8,
@@ -7084,6 +7154,9 @@ module.exports = {
         class: 4,
         cost: 8746160,
         damage: 32.68,
+        damagedist: {
+          T: 1
+        },
         distdraw: 8.99,
         edID: 128681994,
         eddbID: 1544,
@@ -7097,8 +7170,7 @@ module.exports = {
         power: 2.57,
         range: 3e3,
         rating: "A",
-        thermload: 10.6,
-        type: "T"
+        thermload: 10.6
       } ],
       mc: [ {
         ammo: 2100,
@@ -7109,6 +7181,9 @@ module.exports = {
         clip: 100,
         cost: 9500,
         damage: 1.12,
+        damagedist: {
+          K: 1
+        },
         distdraw: .06,
         edID: 128049455,
         eddbID: 867,
@@ -7124,9 +7199,8 @@ module.exports = {
         rating: "F",
         reload: 4,
         rof: 7.69,
-        speed: 1600,
-        thermload: .1,
-        type: "K"
+        shotspeed: 1600,
+        thermload: .1
       }, {
         ammo: 2100,
         breachdmg: .7,
@@ -7136,6 +7210,9 @@ module.exports = {
         clip: 90,
         cost: 14250,
         damage: .82,
+        damagedist: {
+          K: 1
+        },
         distdraw: .07,
         edID: 128049459,
         eddbID: 869,
@@ -7151,9 +7228,8 @@ module.exports = {
         rating: "G",
         reload: 5,
         rof: 8.33,
-        speed: 1600,
-        thermload: .1,
-        type: "K"
+        shotspeed: 1600,
+        thermload: .1
       }, {
         ammo: 2100,
         breachdmg: .5,
@@ -7163,6 +7239,9 @@ module.exports = {
         clip: 90,
         cost: 81600,
         damage: .56,
+        damagedist: {
+          K: 1
+        },
         distdraw: .03,
         edID: 128049462,
         eddbID: 871,
@@ -7178,9 +7257,8 @@ module.exports = {
         rating: "G",
         reload: 4,
         rof: 7.14,
-        speed: 1600,
-        thermload: 0,
-        type: "K"
+        shotspeed: 1600,
+        thermload: 0
       }, {
         ammo: 1e3,
         breachdmg: 2.6,
@@ -7190,6 +7268,9 @@ module.exports = {
         clip: 60,
         cost: 13980,
         damage: 2.9,
+        damagedist: {
+          K: 1
+        },
         distdraw: .12,
         eddbID: 1481,
         falloff: 1800,
@@ -7206,9 +7287,8 @@ module.exports = {
         rating: "F",
         reload: 4,
         rof: 4.3,
-        speed: 1800,
-        thermload: .2,
-        type: "K"
+        shotspeed: 1800,
+        thermload: .2
       }, {
         ammo: 2100,
         breachdmg: 2,
@@ -7218,6 +7298,9 @@ module.exports = {
         clip: 100,
         cost: 38e3,
         damage: 2.19,
+        damagedist: {
+          K: 1
+        },
         distdraw: .11,
         edID: 128049456,
         eddbID: 868,
@@ -7233,9 +7316,8 @@ module.exports = {
         rating: "E",
         reload: 4,
         rof: 7.14,
-        speed: 1600,
-        thermload: .2,
-        type: "K"
+        shotspeed: 1600,
+        thermload: .2
       }, {
         ammo: 2100,
         breachdmg: 1.5,
@@ -7245,6 +7327,9 @@ module.exports = {
         clip: 90,
         cost: 57e3,
         damage: 1.64,
+        damagedist: {
+          K: 1
+        },
         distdraw: .14,
         edID: 128049460,
         eddbID: 870,
@@ -7260,9 +7345,8 @@ module.exports = {
         rating: "F",
         reload: 5,
         rof: 7.69,
-        speed: 1600,
-        thermload: .2,
-        type: "K"
+        shotspeed: 1600,
+        thermload: .2
       }, {
         ammo: 2100,
         breachdmg: 1.1,
@@ -7272,6 +7356,9 @@ module.exports = {
         clip: 90,
         cost: 1292800,
         damage: 1.17,
+        damagedist: {
+          K: 1
+        },
         distdraw: .06,
         edID: 128049463,
         eddbID: 872,
@@ -7287,9 +7374,8 @@ module.exports = {
         rating: "F",
         reload: 4,
         rof: 6.25,
-        speed: 1600,
-        thermload: .1,
-        type: "K"
+        shotspeed: 1600,
+        thermload: .1
       }, {
         ammo: 2100,
         breachdmg: 3.5,
@@ -7299,6 +7385,9 @@ module.exports = {
         clip: 100,
         cost: 140400,
         damage: 3.93,
+        damagedist: {
+          K: 1
+        },
         distdraw: .18,
         edID: 128049457,
         eddbID: 1541,
@@ -7314,9 +7403,8 @@ module.exports = {
         rating: "C",
         reload: 4,
         rof: 5.88,
-        speed: 1600,
-        thermload: .3,
-        type: "K"
+        shotspeed: 1600,
+        thermload: .3
       }, {
         ammo: 2100,
         breachdmg: 2.6,
@@ -7326,6 +7414,9 @@ module.exports = {
         clip: 90,
         cost: 578436,
         damage: 2.84,
+        damagedist: {
+          K: 1
+        },
         distdraw: .25,
         edID: 128049461,
         eddbID: 1543,
@@ -7341,9 +7432,8 @@ module.exports = {
         rating: "C",
         reload: 5,
         rof: 6.665,
-        speed: 1600,
-        thermload: .3,
-        type: "K"
+        shotspeed: 1600,
+        thermload: .3
       }, {
         ammo: 2100,
         breachdmg: 4.2,
@@ -7353,6 +7443,9 @@ module.exports = {
         clip: 100,
         cost: 1177600,
         damage: 4.62,
+        damagedist: {
+          K: 1
+        },
         distdraw: .24,
         edID: 128049458,
         eddbID: 1542,
@@ -7369,9 +7462,8 @@ module.exports = {
         reload: 4,
         rof: 3.03,
         roundspershot: 2,
-        speed: 1600,
-        thermload: .4,
-        type: "K"
+        shotspeed: 1600,
+        thermload: .4
       }, {
         ammo: 2100,
         breachdmg: 3.1,
@@ -7381,6 +7473,9 @@ module.exports = {
         clip: 90,
         cost: 6377600,
         damage: 3.46,
+        damagedist: {
+          K: 1
+        },
         distdraw: .37,
         edID: 128681996,
         eddbID: 1546,
@@ -7397,9 +7492,8 @@ module.exports = {
         reload: 5,
         rof: 3.365,
         roundspershot: 2,
-        speed: 1600,
-        thermload: .5,
-        type: "K"
+        shotspeed: 1600,
+        thermload: .5
       } ],
       c: [ {
         ammo: 120,
@@ -7410,6 +7504,9 @@ module.exports = {
         clip: 6,
         cost: 21100,
         damage: 22.5,
+        damagedist: {
+          K: 1
+        },
         distdraw: .46,
         edID: 128049438,
         eddbID: 850,
@@ -7425,9 +7522,8 @@ module.exports = {
         rating: "D",
         reload: 3,
         rof: .5,
-        speed: 1200,
-        thermload: 1.4,
-        type: "K"
+        shotspeed: 1200,
+        thermload: 1.4
       }, {
         ammo: 100,
         breachdmg: 13.2,
@@ -7437,6 +7533,9 @@ module.exports = {
         clip: 5,
         cost: 42200,
         damage: 16,
+        damagedist: {
+          K: 1
+        },
         distdraw: .48,
         edID: 128049442,
         eddbID: 854,
@@ -7452,9 +7551,8 @@ module.exports = {
         rating: "E",
         reload: 4,
         rof: .52,
-        speed: 1e3,
-        thermload: 1.3,
-        type: "K"
+        shotspeed: 1e3,
+        thermload: 1.3
       }, {
         ammo: 100,
         breachdmg: 10.6,
@@ -7464,6 +7562,9 @@ module.exports = {
         clip: 5,
         cost: 506400,
         damage: 12.75,
+        damagedist: {
+          K: 1
+        },
         distdraw: .22,
         edID: 128049445,
         eddbID: 857,
@@ -7479,9 +7580,8 @@ module.exports = {
         rating: "F",
         reload: 4,
         rof: .435,
-        speed: 1e3,
-        thermload: .7,
-        type: "K"
+        shotspeed: 1e3,
+        thermload: .7
       }, {
         ammo: 120,
         breachdmg: 28,
@@ -7491,6 +7591,9 @@ module.exports = {
         clip: 6,
         cost: 168430,
         damage: 36.5,
+        damagedist: {
+          K: 1
+        },
         distdraw: .7,
         edID: 128049439,
         eddbID: 851,
@@ -7506,9 +7609,8 @@ module.exports = {
         rating: "D",
         reload: 3,
         rof: .465,
-        speed: 1051,
-        thermload: 2.1,
-        type: "K"
+        shotspeed: 1051,
+        thermload: 2.1
       }, {
         ammo: 100,
         breachdmg: 20.3,
@@ -7518,6 +7620,9 @@ module.exports = {
         clip: 5,
         cost: 337600,
         damage: 24.5,
+        damagedist: {
+          K: 1
+        },
         distdraw: .75,
         edID: 128049443,
         eddbID: 855,
@@ -7533,9 +7638,8 @@ module.exports = {
         rating: "D",
         reload: 4,
         rof: .485,
-        speed: 875,
-        thermload: 1.9,
-        type: "K"
+        shotspeed: 875,
+        thermload: 1.9
       }, {
         ammo: 100,
         breachdmg: 16.3,
@@ -7545,6 +7649,9 @@ module.exports = {
         clip: 5,
         cost: 4051200,
         damage: 19.77,
+        damagedist: {
+          K: 1
+        },
         distdraw: .34,
         edID: 128049446,
         eddbID: 858,
@@ -7560,9 +7667,8 @@ module.exports = {
         rating: "E",
         reload: 4,
         rof: .405,
-        speed: 875,
-        thermload: 1,
-        type: "K"
+        shotspeed: 875,
+        thermload: 1
       }, {
         ammo: 120,
         breachdmg: 42.3,
@@ -7572,6 +7678,9 @@ module.exports = {
         clip: 6,
         cost: 675200,
         damage: 54.94,
+        damagedist: {
+          K: 1
+        },
         distdraw: 1.07,
         edID: 128049440,
         eddbID: 852,
@@ -7587,9 +7696,8 @@ module.exports = {
         rating: "C",
         reload: 3,
         rof: .425,
-        speed: 959,
-        thermload: 3.2,
-        type: "K"
+        shotspeed: 959,
+        thermload: 3.2
       }, {
         ammo: 100,
         breachdmg: 30.9,
@@ -7599,6 +7707,9 @@ module.exports = {
         clip: 5,
         cost: 1350400,
         damage: 37.39,
+        damagedist: {
+          K: 1
+        },
         distdraw: 1.14,
         edID: 128671120,
         eddbID: 1383,
@@ -7616,9 +7727,8 @@ module.exports = {
         rating: "C",
         reload: 4,
         rof: .445,
-        speed: 800,
-        thermload: 2.9,
-        type: "K"
+        shotspeed: 800,
+        thermload: 2.9
       }, {
         ammo: 100,
         breachdmg: 25.14,
@@ -7628,6 +7738,9 @@ module.exports = {
         clip: 5,
         cost: 16204800,
         damage: 30.4,
+        damagedist: {
+          K: 1
+        },
         distdraw: .53,
         edID: 128049447,
         eddbID: 859,
@@ -7643,9 +7756,8 @@ module.exports = {
         rating: "D",
         reload: 4,
         rof: .37,
-        speed: 800,
-        thermload: 1.6,
-        type: "K"
+        shotspeed: 800,
+        thermload: 1.6
       }, {
         ammo: 120,
         breachdmg: 63.2,
@@ -7655,6 +7767,9 @@ module.exports = {
         clip: 6,
         cost: 2700800,
         damage: 82.1,
+        damagedist: {
+          K: 1
+        },
         distdraw: 1.61,
         edID: 128049441,
         eddbID: 853,
@@ -7672,9 +7787,8 @@ module.exports = {
         rating: "B",
         reload: 3,
         rof: .385,
-        speed: 900,
-        thermload: 4.8,
-        type: "K"
+        shotspeed: 900,
+        thermload: 4.8
       }, {
         ammo: 100,
         breachdmg: 46.7,
@@ -7684,6 +7798,9 @@ module.exports = {
         clip: 5,
         cost: 5401600,
         damage: 56.58,
+        damagedist: {
+          K: 1
+        },
         distdraw: 1.72,
         edID: 128049444,
         eddbID: 856,
@@ -7701,9 +7818,8 @@ module.exports = {
         rating: "B",
         reload: 4,
         rof: .4,
-        speed: 750,
-        thermload: 4.4,
-        type: "K"
+        shotspeed: 750,
+        thermload: 4.4
       } ],
       fc: [ {
         ammo: 180,
@@ -7714,6 +7830,9 @@ module.exports = {
         clip: 3,
         cost: 36e3,
         damage: 1.43,
+        damagedist: {
+          K: 1
+        },
         distdraw: .21,
         edID: 128049448,
         eddbID: 860,
@@ -7731,9 +7850,8 @@ module.exports = {
         reload: 2.5,
         rof: 5.555,
         roundspershot: 12,
-        speed: 667,
-        thermload: .4,
-        type: "K"
+        shotspeed: 667,
+        thermload: .4
       }, {
         ammo: 180,
         breachdmg: .9,
@@ -7743,6 +7861,9 @@ module.exports = {
         clip: 3,
         cost: 54720,
         damage: 1.01,
+        damagedist: {
+          K: 1
+        },
         distdraw: .26,
         edID: 128049451,
         eddbID: 863,
@@ -7760,9 +7881,8 @@ module.exports = {
         reload: 2.5,
         rof: 5.88,
         roundspershot: 12,
-        speed: 667,
-        thermload: .4,
-        type: "K"
+        shotspeed: 667,
+        thermload: .4
       }, {
         ammo: 180,
         breachdmg: .5,
@@ -7772,6 +7892,9 @@ module.exports = {
         clip: 3,
         cost: 182400,
         damage: .69,
+        damagedist: {
+          K: 1
+        },
         distdraw: .1,
         edID: 128049453,
         eddbID: 865,
@@ -7789,9 +7912,8 @@ module.exports = {
         reload: 2.5,
         rof: 4.76,
         roundspershot: 12,
-        speed: 667,
-        thermload: .2,
-        type: "K"
+        shotspeed: 667,
+        thermload: .2
       }, {
         ammo: 180,
         breachdmg: 2.3,
@@ -7801,6 +7923,9 @@ module.exports = {
         clip: 3,
         cost: 291840,
         damage: 2.56,
+        damagedist: {
+          K: 1
+        },
         distdraw: .37,
         edID: 128049449,
         eddbID: 861,
@@ -7818,9 +7943,8 @@ module.exports = {
         reload: 2.5,
         rof: 5,
         roundspershot: 12,
-        speed: 667,
-        thermload: .7,
-        type: "K"
+        shotspeed: 667,
+        thermload: .7
       }, {
         ammo: 180,
         breachdmg: 1.8,
@@ -7830,6 +7954,9 @@ module.exports = {
         clip: 3,
         cost: 437800,
         damage: 1.95,
+        damagedist: {
+          K: 1
+        },
         distdraw: .49,
         edID: 128049452,
         eddbID: 864,
@@ -7847,9 +7974,8 @@ module.exports = {
         reload: 2.5,
         rof: 5.26,
         roundspershot: 12,
-        speed: 667,
-        thermload: .8,
-        type: "K"
+        shotspeed: 667,
+        thermload: .8
       }, {
         ammo: 180,
         breachdmg: 1.3,
@@ -7859,6 +7985,9 @@ module.exports = {
         clip: 3,
         cost: 1459200,
         damage: 1.43,
+        damagedist: {
+          K: 1
+        },
         distdraw: .21,
         edID: 128049454,
         eddbID: 866,
@@ -7876,9 +8005,8 @@ module.exports = {
         reload: 2.5,
         rof: 4.345,
         roundspershot: 12,
-        speed: 667,
-        thermload: .4,
-        type: "K"
+        shotspeed: 667,
+        thermload: .4
       }, {
         ammo: 180,
         breachdmg: 3.5,
@@ -7888,6 +8016,9 @@ module.exports = {
         clip: 3,
         cost: 1167360,
         damage: 3.92,
+        damagedist: {
+          K: 1
+        },
         distdraw: .57,
         edID: 128049450,
         eddbID: 862,
@@ -7905,9 +8036,8 @@ module.exports = {
         reload: 2.5,
         rof: 4.545,
         roundspershot: 12,
-        speed: 667,
-        thermload: 1.1,
-        type: "K"
+        shotspeed: 667,
+        thermload: 1.1
       }, {
         ammo: 180,
         breachdmg: 2.9,
@@ -7917,6 +8047,9 @@ module.exports = {
         clip: 3,
         cost: 1751040,
         damage: 3.23,
+        damagedist: {
+          K: 1
+        },
         distdraw: .81,
         edID: 128671321,
         eddbID: 1454,
@@ -7934,9 +8067,8 @@ module.exports = {
         reload: 2.5,
         rof: 4.76,
         roundspershot: 12,
-        speed: 667,
-        thermload: 1.4,
-        type: "K"
+        shotspeed: 667,
+        thermload: 1.4
       }, {
         ammo: 180,
         breachdmg: 2.3,
@@ -7946,6 +8078,9 @@ module.exports = {
         clip: 3,
         cost: 5836800,
         damage: 2.56,
+        damagedist: {
+          K: 1
+        },
         distdraw: .37,
         edID: 128671322,
         eddbID: 1455,
@@ -7963,9 +8098,8 @@ module.exports = {
         reload: 2.5,
         rof: 4,
         roundspershot: 12,
-        speed: 667,
-        thermload: .7,
-        type: "K"
+        shotspeed: 667,
+        thermload: .7
       }, {
         ammo: 180,
         breachdmg: 3.1,
@@ -7975,6 +8109,9 @@ module.exports = {
         clip: 3,
         cost: 1400830,
         damage: 3.4,
+        damagedist: {
+          K: 1
+        },
         distdraw: .57,
         edID: 128671343,
         eddbID: 1478,
@@ -7993,9 +8130,8 @@ module.exports = {
         reload: 2.5,
         rof: 4.5,
         roundspershot: 12,
-        speed: 1e3,
-        thermload: 1.1,
-        type: "K"
+        shotspeed: 1e3,
+        thermload: 1.1
       } ],
       rg: [ {
         ammo: 80,
@@ -8006,6 +8142,10 @@ module.exports = {
         clip: 1,
         cost: 51600,
         damage: 23.3,
+        damagedist: {
+          K: .5,
+          T: .5
+        },
         distdraw: 2.69,
         edID: 128049488,
         eddbID: 876,
@@ -8021,8 +8161,7 @@ module.exports = {
         rating: "D",
         reload: 1,
         rof: 1.6,
-        thermload: 17.8,
-        type: "KT"
+        thermload: 17.8
       }, {
         ammo: 80,
         breachdmg: 39.5,
@@ -8032,6 +8171,10 @@ module.exports = {
         clip: 1,
         cost: 412800,
         damage: 41.5,
+        damagedist: {
+          K: .5,
+          T: .5
+        },
         distdraw: 5.11,
         edID: 128049489,
         eddbID: 877,
@@ -8047,8 +8190,7 @@ module.exports = {
         rating: "B",
         reload: 1,
         rof: 1.2,
-        thermload: 30,
-        type: "KT"
+        thermload: 30
       }, {
         ammo: 90,
         breachdmg: 14.3,
@@ -8060,6 +8202,10 @@ module.exports = {
         clip: 3,
         cost: 619200,
         damage: 15,
+        damagedist: {
+          K: .5,
+          T: .5
+        },
         distdraw: 2,
         edID: 128671341,
         eddbID: 1484,
@@ -8077,8 +8223,7 @@ module.exports = {
         rating: "B",
         reload: 1,
         rof: 4.1,
-        thermload: 16,
-        type: "KT"
+        thermload: 16
       } ],
       pa: [ {
         ammo: 100,
@@ -8089,6 +8234,11 @@ module.exports = {
         clip: 5,
         cost: 834200,
         damage: 54.3,
+        damagedist: {
+          A: .6,
+          K: .2,
+          T: .2
+        },
         distdraw: 8.65,
         edID: 128049465,
         eddbID: 873,
@@ -8104,9 +8254,8 @@ module.exports = {
         rating: "C",
         reload: 6,
         rof: .33,
-        speed: 875,
-        thermload: 15.6,
-        type: "A"
+        shotspeed: 875,
+        thermload: 15.6
       }, {
         ammo: 100,
         breachdmg: 68,
@@ -8116,6 +8265,11 @@ module.exports = {
         clip: 5,
         cost: 3051200,
         damage: 83.4,
+        damagedist: {
+          A: .6,
+          K: .2,
+          T: .2
+        },
         distdraw: 13.6,
         edID: 128049466,
         eddbID: 874,
@@ -8131,9 +8285,8 @@ module.exports = {
         rating: "B",
         reload: 6,
         rof: .29,
-        speed: 875,
-        thermload: 21.8,
-        type: "A"
+        shotspeed: 875,
+        thermload: 21.8
       }, {
         ammo: 300,
         breachdmg: 30.9,
@@ -8143,6 +8296,11 @@ module.exports = {
         clip: 20,
         cost: 4119120,
         damage: 34.5,
+        damagedist: {
+          A: .6,
+          K: .2,
+          T: .2
+        },
         distdraw: 5.5,
         edID: 128671339,
         eddbID: 1482,
@@ -8160,9 +8318,8 @@ module.exports = {
         rating: "B",
         reload: 6,
         rof: .8,
-        speed: 875,
-        thermload: 11,
-        type: "A"
+        shotspeed: 875,
+        thermload: 11
       }, {
         ammo: 100,
         breachdmg: 102,
@@ -8172,6 +8329,11 @@ module.exports = {
         clip: 5,
         cost: 13793600,
         damage: 125.2,
+        damagedist: {
+          A: .6,
+          K: .2,
+          T: .2
+        },
         distdraw: 21.04,
         edID: 128049467,
         eddbID: 875,
@@ -8187,9 +8349,8 @@ module.exports = {
         rating: "A",
         reload: 6,
         rof: .25,
-        speed: 875,
-        thermload: 29.5,
-        type: "A"
+        shotspeed: 875,
+        thermload: 29.5
       } ],
       mr: [ {
         ammo: 16,
@@ -8200,6 +8361,9 @@ module.exports = {
         clip: 8,
         cost: 32180,
         damage: 50,
+        damagedist: {
+          E: 1
+        },
         distdraw: .24,
         edID: 128666724,
         eddbID: 1326,
@@ -8214,9 +8378,8 @@ module.exports = {
         rating: "B",
         reload: 5,
         rof: .5,
-        speed: 750,
-        thermload: 3.6,
-        type: "E"
+        shotspeed: 750,
+        thermload: 3.6
       }, {
         ammo: 6,
         breachdmg: 16,
@@ -8226,6 +8389,9 @@ module.exports = {
         clip: 6,
         cost: 72600,
         damage: 40,
+        damagedist: {
+          E: 1
+        },
         distdraw: .24,
         edID: 128049492,
         eddbID: 878,
@@ -8240,9 +8406,8 @@ module.exports = {
         rating: "B",
         reload: 12,
         rof: .333,
-        speed: 625,
-        thermload: 3.6,
-        type: "E"
+        shotspeed: 625,
+        thermload: 3.6
       }, {
         ammo: 48,
         breachdmg: 20,
@@ -8252,6 +8417,9 @@ module.exports = {
         clip: 12,
         cost: 240400,
         damage: 50,
+        damagedist: {
+          E: 1
+        },
         distdraw: .24,
         edID: 128666725,
         eddbID: 1327,
@@ -8268,9 +8436,8 @@ module.exports = {
         rating: "B",
         reload: 5,
         rof: .5,
-        speed: 750,
-        thermload: 3.6,
-        type: "E"
+        shotspeed: 750,
+        thermload: 3.6
       }, {
         ammo: 18,
         breachdmg: 16,
@@ -8280,6 +8447,9 @@ module.exports = {
         clip: 6,
         cost: 512400,
         damage: 40,
+        damagedist: {
+          E: 1
+        },
         distdraw: .24,
         edID: 128049493,
         eddbID: 879,
@@ -8296,9 +8466,8 @@ module.exports = {
         rating: "B",
         reload: 12,
         rof: .333,
-        speed: 625,
-        thermload: 3.6,
-        type: "E"
+        shotspeed: 625,
+        thermload: 3.6
       }, {
         ammo: 48,
         breachdmg: 16,
@@ -8308,6 +8477,9 @@ module.exports = {
         clip: 12,
         cost: 190227,
         damage: 40,
+        damagedist: {
+          E: 1
+        },
         distdraw: .24,
         eddbID: 1559,
         grp: "mr",
@@ -8323,9 +8495,8 @@ module.exports = {
         rating: "B",
         reload: 5,
         rof: .333,
-        speed: 750,
-        thermload: 3.6,
-        type: "E"
+        shotspeed: 750,
+        thermload: 3.6
       }, {
         ammo: 120,
         breachdmg: 3,
@@ -8335,6 +8506,9 @@ module.exports = {
         clip: 12,
         cost: 768600,
         damage: 7.5,
+        damagedist: {
+          E: 1
+        },
         distdraw: .24,
         edID: 128671344,
         eddbID: 1480,
@@ -8354,9 +8528,8 @@ module.exports = {
         reload: 5,
         rof: 2,
         roundspershot: 4,
-        speed: 600,
-        thermload: 3.6,
-        type: "E"
+        shotspeed: 600,
+        thermload: 3.6
       } ],
       tp: [ {
         ammo: 1,
@@ -8367,6 +8540,9 @@ module.exports = {
         clip: 1,
         cost: 11200,
         damage: 120,
+        damagedist: {
+          E: 1
+        },
         distdraw: 0,
         edID: 128049509,
         eddbID: 882,
@@ -8381,9 +8557,8 @@ module.exports = {
         rating: "I",
         reload: 5,
         rof: 1,
-        speed: 250,
-        thermload: 45,
-        type: "E"
+        shotspeed: 250,
+        thermload: 45
       }, {
         ammo: 2,
         breachdmg: 60,
@@ -8393,6 +8568,9 @@ module.exports = {
         clip: 1,
         cost: 44800,
         damage: 120,
+        damagedist: {
+          E: 1
+        },
         distdraw: 0,
         edID: 128049510,
         eddbID: 883,
@@ -8407,9 +8585,8 @@ module.exports = {
         rating: "I",
         reload: 5,
         rof: 1,
-        speed: 250,
-        thermload: 50,
-        type: "E"
+        shotspeed: 250,
+        thermload: 50
       } ],
       nl: [ {
         ammo: 36,
@@ -8420,6 +8597,10 @@ module.exports = {
         clip: 3,
         cost: 24260,
         damage: 44,
+        damagedist: {
+          E: .5,
+          T: .5
+        },
         distdraw: 0,
         edID: 128049500,
         eddbID: 880,
@@ -8433,8 +8614,7 @@ module.exports = {
         rating: "I",
         reload: 2,
         rof: 1,
-        thermload: 5,
-        type: "ET"
+        thermload: 5
       }, {
         ammo: 36,
         breachdmg: 0,
@@ -8444,6 +8624,10 @@ module.exports = {
         clip: 3,
         cost: 36400,
         damage: 32,
+        damagedist: {
+          E: .5,
+          T: .5
+        },
         distdraw: 0,
         edID: 128671448,
         eddbID: 1523,
@@ -8458,8 +8642,7 @@ module.exports = {
         rating: "I",
         reload: 2,
         rof: 1,
-        thermload: 5,
-        type: "ET"
+        thermload: 5
       }, {
         ammo: 36,
         breachdmg: 0,
@@ -8469,6 +8652,10 @@ module.exports = {
         clip: 3,
         cost: 294080,
         damage: 44,
+        damagedist: {
+          E: .5,
+          T: .5
+        },
         distdraw: 0,
         edID: 128049501,
         eddbID: 881,
@@ -8482,8 +8669,7 @@ module.exports = {
         rating: "I",
         reload: 2,
         rof: 1,
-        thermload: 7.5,
-        type: "ET"
+        thermload: 7.5
       } ],
       ml: [ {
         breachdmg: .3,
@@ -8492,6 +8678,7 @@ module.exports = {
         class: 1,
         cost: 6800,
         damage: 2,
+        damagedist: {},
         distdraw: 1.35,
         edID: 128049525,
         eddbID: 888,
@@ -8513,6 +8700,9 @@ module.exports = {
         class: 1,
         cost: 13600,
         damage: 8,
+        damagedist: {
+          T: 1
+        },
         distdraw: 1.75,
         eddbID: 1479,
         falloff: 400,
@@ -8527,8 +8717,7 @@ module.exports = {
         pp: "Zemina Torval",
         range: 2e3,
         rating: "D",
-        thermload: 6,
-        type: "T"
+        thermload: 6
       }, {
         breachdmg: 1.2,
         breachmax: .2,
@@ -8536,6 +8725,7 @@ module.exports = {
         class: 2,
         cost: 22580,
         damage: 8,
+        damagedist: {},
         distdraw: 1.75,
         edID: 128049526,
         eddbID: 889,
@@ -8889,25 +9079,28 @@ module.exports = {
         burst: 4,
         burstrof: 15,
         class: 0,
-        clip: 50,
+        clip: 12,
         cost: 18550,
+        damage: .2,
+        damagedist: {
+          K: 1
+        },
         edID: 128049522,
         eddbID: 887,
         grp: "po",
         id: "03",
         integrity: 30,
-        jitter: 1.5,
+        jitter: .75,
         mass: .5,
         name: "Point Defence",
         passive: 1,
         power: .2,
         range: 2500,
         rating: "I",
-        reload: 0,
+        reload: .4,
         rof: 10,
-        speed: 1e3,
-        thermload: .1,
-        type: "K"
+        shotspeed: 1e3,
+        thermload: .1
       } ]
     },
     internal: {
@@ -12336,7 +12529,7 @@ module.exports = {
         id: "2i",
         mass: 1.3,
         name: "Detailed Surface Scanner",
-        power: .6,
+        power: 0,
         rating: "C"
       } ],
       scb: [ {
@@ -13899,366 +14092,2981 @@ module.exports = {
     blueprints: {
       AFM_LightWeight: {
         id: 1,
+        features: {
+          "1": {
+            integrity: [ -.2, -.1 ],
+            mass: [ -.3, -.4 ]
+          },
+          "2": {
+            integrity: [ -.3, -.2 ],
+            mass: [ -.4, -.5 ]
+          },
+          "3": {
+            integrity: [ -.4, -.3 ],
+            mass: [ -.5, -.6 ]
+          },
+          "4": {
+            integrity: [ -.5, -.4 ],
+            mass: [ -.6, -.7 ]
+          },
+          "5": {
+            integrity: [ -.6, -.5 ],
+            mass: [ -.7, -.8 ]
+          }
+        },
         name: "Lightweight"
       },
       AFM_Reinforced: {
         id: 2,
+        features: {
+          "1": {
+            integrity: [ .2, .5 ],
+            mass: [ 1, .4 ]
+          },
+          "2": {
+            integrity: [ .4, 1 ],
+            mass: [ 1.5, .8 ]
+          },
+          "3": {
+            integrity: [ .6, 1.5 ],
+            mass: [ 2, 1.2 ]
+          },
+          "4": {
+            integrity: [ .8, 2 ],
+            mass: [ 2.5, 1.6 ]
+          },
+          "5": {
+            integrity: [ 1, 2.5 ],
+            mass: [ 3, 2 ]
+          }
+        },
         name: "Reinforced"
       },
       AFM_Shielded: {
         id: 3,
+        features: {
+          "1": {
+            integrity: [ .2, .5 ],
+            power: [ .31, .2 ]
+          },
+          "2": {
+            integrity: [ .39, 1 ],
+            power: [ .61, .4 ]
+          },
+          "3": {
+            integrity: [ .61, 1.5 ],
+            power: [ .89, .61 ]
+          },
+          "4": {
+            integrity: [ .81, 2 ],
+            power: [ 1.2, .79 ]
+          },
+          "5": {
+            integrity: [ 1, 2.5 ],
+            power: [ 1.5, 1 ]
+          }
+        },
         name: "Shielded"
       },
-      Armour_Advanced: {
+      Armour_Kinetic: {
         id: 4,
-        name: "Kinetic resistant"
+        features: {
+          "1": {
+            explres: [ -.056, -.028 ],
+            kinres: [ .06, .096 ],
+            thermres: [ -.04, -.02 ]
+          },
+          "2": {
+            explres: [ -.112, -.056 ],
+            kinres: [ .12, .192 ],
+            thermres: [ -.08, -.04 ]
+          },
+          "3": {
+            explres: [ -.168, -.084 ],
+            kinres: [ .18, .288 ],
+            thermres: [ -.12, -.06 ]
+          },
+          "4": {
+            explres: [ -.224, -.112 ],
+            kinres: [ .24, .384 ],
+            thermres: [ -.16, -.08 ]
+          },
+          "5": {
+            explres: [ -.28, -.14 ],
+            kinres: [ .3, .48 ],
+            thermres: [ -.2, -.1 ]
+          }
+        },
+        name: "Kinetic Resistant"
       },
       Armour_Explosive: {
         id: 5,
+        features: {
+          "1": {
+            explres: [ .07, .112 ],
+            kinres: [ -.048, -.024 ],
+            thermres: [ -.04, -.02 ]
+          },
+          "2": {
+            explres: [ .14, .224 ],
+            kinres: [ -.096, -.048 ],
+            thermres: [ -.08, -.04 ]
+          },
+          "3": {
+            explres: [ .21, .336 ],
+            kinres: [ -.144, -.072 ],
+            thermres: [ -.12, -.06 ]
+          },
+          "4": {
+            explres: [ .28, .448 ],
+            kinres: [ -.192, -.096 ],
+            thermres: [ -.16, -.08 ]
+          },
+          "5": {
+            explres: [ .35, .56 ],
+            kinres: [ -.24, -.12 ],
+            thermres: [ -.2, -.1 ]
+          }
+        },
         name: "Blast Resistant"
       },
-      Armour_LightWeight: {
+      Armour_Advanced: {
         id: 6,
+        features: {
+          "1": {
+            explres: [ 0, .028 ],
+            hullboost: [ -.03, 0 ],
+            kinres: [ 0, .024 ],
+            mass: [ -.04, -.15 ],
+            thermres: [ 0, .02 ]
+          },
+          "2": {
+            explres: [ .014, .056 ],
+            hullboost: [ -.02, -.01 ],
+            kinres: [ .012, .048 ],
+            mass: [ -.08, -.25 ],
+            thermres: [ .01, .04 ]
+          },
+          "3": {
+            explres: [ .028, .084 ],
+            hullboost: [ -.07, -.05 ],
+            kinres: [ .024, .072 ],
+            mass: [ -.12, -.35 ],
+            thermres: [ .02, .06 ]
+          },
+          "4": {
+            explres: [ .042, .112 ],
+            hullboost: [ -.09, -.07 ],
+            kinres: [ .036, .096 ],
+            mass: [ -.16, -.45 ],
+            thermres: [ .03, .08 ]
+          },
+          "5": {
+            explres: [ .056, .14 ],
+            hullboost: [ -.12, -.09 ],
+            kinres: [ .048, .12 ],
+            mass: [ -.2, -.55 ],
+            thermres: [ .04, .1 ]
+          }
+        },
         name: "Lightweight"
       },
       Armour_HeavyDuty: {
         id: 7,
+        features: {
+          "1": {
+            explres: [ 0, .014 ],
+            hullboost: [ .08, .22 ],
+            kinres: [ 0, .012 ],
+            mass: [ .08, 0 ],
+            thermres: [ 0, .01 ]
+          },
+          "2": {
+            explres: [ .014, .028 ],
+            hullboost: [ .18, .34 ],
+            kinres: [ .012, .024 ],
+            mass: [ .15, .04 ],
+            thermres: [ .01, .02 ]
+          },
+          "3": {
+            explres: [ .028, .042 ],
+            hullboost: [ .28, .45 ],
+            kinres: [ .024, .036 ],
+            mass: [ .23, .1 ],
+            thermres: [ .02, .03 ]
+          },
+          "4": {
+            explres: [ .042, .056 ],
+            hullboost: [ .35, .56 ],
+            kinres: [ .036, .048 ],
+            mass: [ .31, .14 ],
+            thermres: [ .03, .04 ]
+          },
+          "5": {
+            explres: [ .056, .07 ],
+            hullboost: [ .45, .68 ],
+            kinres: [ .048, .06 ],
+            mass: [ .39, .2 ],
+            thermres: [ .04, .05 ]
+          }
+        },
         name: "Heavy Duty"
       },
       Armour_Thermic: {
         id: 8,
+        features: {
+          "1": {
+            explres: [ -.056, -.028 ],
+            kinres: [ -.048, -.024 ],
+            thermres: [ .05, .08 ]
+          },
+          "2": {
+            explres: [ -.112, -.056 ],
+            kinres: [ -.096, -.048 ],
+            thermres: [ .1, .16 ]
+          },
+          "3": {
+            explres: [ -.168, -.084 ],
+            kinres: [ -.144, -.072 ],
+            thermres: [ .15, .24 ]
+          },
+          "4": {
+            explres: [ -.224, -.112 ],
+            kinres: [ -.192, -.096 ],
+            thermres: [ .2, .32 ]
+          },
+          "5": {
+            explres: [ -.28, -.14 ],
+            kinres: [ -.24, -.12 ],
+            thermres: [ .25, .4 ]
+          }
+        },
         name: "Thermal Resistant"
       },
       CargoScanner_LightWeight: {
         id: 9,
+        features: {
+          "1": {
+            integrity: [ -.2, -.1 ],
+            mass: [ -.31, -.4 ]
+          },
+          "2": {
+            integrity: [ -.31, -.2 ],
+            mass: [ -.4, -.5 ]
+          },
+          "3": {
+            integrity: [ -.4, -.31 ],
+            mass: [ -.5, -.61 ]
+          },
+          "4": {
+            integrity: [ -.5, -.4 ],
+            mass: [ -.6, -.7 ]
+          },
+          "5": {
+            integrity: [ -.6, -.5 ],
+            mass: [ -.7, -.8 ]
+          }
+        },
         name: "Lightweight"
       },
       CargoScanner_Reinforced: {
         id: 10,
+        features: {
+          "1": {
+            integrity: [ .2, .5 ],
+            mass: [ 1, .39 ]
+          },
+          "2": {
+            integrity: [ .39, 1 ],
+            mass: [ 1.5, .79 ]
+          },
+          "3": {
+            integrity: [ .61, 1.5 ],
+            mass: [ 2, 1.2 ]
+          },
+          "4": {
+            integrity: [ .8, 2 ],
+            mass: [ 2.5, 1.6 ]
+          },
+          "5": {
+            integrity: [ 1, 2.5 ],
+            mass: [ 3, 2 ]
+          }
+        },
         name: "Reinforced"
       },
       CargoScanner_Shielded: {
         id: 11,
+        features: {
+          "1": {
+            integrity: [ .2, .5 ],
+            power: [ .29, .2 ]
+          },
+          "2": {
+            integrity: [ .39, 1 ],
+            power: [ .61, .39 ]
+          },
+          "3": {
+            integrity: [ .61, 1.5 ],
+            power: [ .89, .61 ]
+          },
+          "4": {
+            integrity: [ .8, 2 ],
+            power: [ 1.2, .8 ]
+          },
+          "5": {
+            integrity: [ 1, 1.5 ],
+            power: [ 1.5, 1 ]
+          }
+        },
         name: "Shielded"
       },
       ChaffLauncher_ChaffCapacity: {
         id: 12,
+        features: {
+          "3": {
+            ammo: [ .2, .5 ],
+            mass: [ 2, 1 ],
+            reload: [ .3, .1 ]
+          }
+        },
         name: "Ammo capacity"
       },
       ChaffLauncher_LightWeight: {
         id: 13,
+        features: {
+          "1": {
+            integrity: [ -.2, -.1 ],
+            mass: [ -.3, -.4 ]
+          },
+          "2": {
+            integrity: [ -.3, -.2 ],
+            mass: [ -.4, -.5 ]
+          },
+          "3": {
+            integrity: [ -.4, -.4 ],
+            mass: [ -.5, -.6 ]
+          },
+          "4": {
+            integrity: [ -.5, -.4 ],
+            mass: [ -.6, -.7 ]
+          },
+          "5": {
+            integrity: [ -.6, -.5 ],
+            mass: [ -.7, -.8 ]
+          }
+        },
         name: "Lightweight"
       },
       ChaffLauncher_Reinforced: {
         id: 14,
+        features: {
+          "1": {
+            integrity: [ .2, .5 ],
+            mass: [ 1, .4 ]
+          },
+          "2": {
+            integrity: [ .4, 1 ],
+            mass: [ 1.5, .8 ]
+          },
+          "3": {
+            integrity: [ .6, 1.5 ],
+            mass: [ 2, 1.2 ]
+          },
+          "4": {
+            integrity: [ .8, 2 ],
+            mass: [ 2.5, 1.6 ]
+          },
+          "5": {
+            integrity: [ 1, 2.5 ],
+            mass: [ 3, 2 ]
+          }
+        },
         name: "Reinforced"
       },
       ChaffLauncher_Shielded: {
         id: 15,
+        features: {
+          "1": {
+            integrity: [ .2, .5 ],
+            power: [ .3, .2 ]
+          },
+          "2": {
+            integrity: [ .4, 1 ],
+            power: [ .6, .4 ]
+          },
+          "3": {
+            integrity: [ .6, 1.5 ],
+            power: [ .9, .6 ]
+          },
+          "4": {
+            integrity: [ .8, 2 ],
+            power: [ 1.2, .8 ]
+          },
+          "5": {
+            integrity: [ 1, 1.5 ],
+            power: [ 1.5, 1 ]
+          }
+        },
         name: "Shielded"
       },
       CollectionLimpet_LightWeight: {
         id: 16,
+        features: {
+          "1": {
+            integrity: [ -.2, -.1 ],
+            mass: [ -.3, -.4 ]
+          },
+          "2": {
+            integrity: [ -.3, -.2 ],
+            mass: [ -.4, -.5 ]
+          },
+          "3": {
+            integrity: [ -.4, -.3 ],
+            mass: [ -.5, -.6 ]
+          },
+          "4": {
+            integrity: [ -.5, -.4 ],
+            mass: [ -.6, -.7 ]
+          },
+          "5": {
+            integrity: [ -.6, -.5 ],
+            mass: [ -.7, -.8 ]
+          }
+        },
         name: "Lightweight"
       },
       CollectionLimpet_Reinforced: {
         id: 17,
+        features: {
+          "1": {
+            integrity: [ .2, .5 ],
+            mass: [ 1, .4 ]
+          },
+          "2": {
+            integrity: [ .4, 1 ],
+            mass: [ 1.5, .8 ]
+          },
+          "3": {
+            integrity: [ .6, 1.5 ],
+            mass: [ 2, 1.2 ]
+          },
+          "4": {
+            integrity: [ .8, 2 ],
+            mass: [ 2.5, 1.6 ]
+          },
+          "5": {
+            integrity: [ 1, 2.5 ],
+            mass: [ 3, 2 ]
+          }
+        },
         name: "Reinforced"
       },
       CollectionLimpet_Shielded: {
         id: 18,
+        features: {
+          "1": {
+            integrity: [ .2, .5 ],
+            power: [ .3, .2 ]
+          },
+          "2": {
+            integrity: [ .4, 1 ],
+            power: [ .6, .4 ]
+          },
+          "3": {
+            integrity: [ .6, 1.5 ],
+            power: [ .9, .6 ]
+          },
+          "4": {
+            integrity: [ .8, 2 ],
+            power: [ 1.2, .8 ]
+          },
+          "5": {
+            integrity: [ 1, 1.5 ],
+            power: [ 1.5, 1 ]
+          }
+        },
         name: "Shielded"
       },
       ECM_LightWeight: {
         id: 19,
+        features: {
+          "1": {
+            integrity: [ -.2, -.1 ],
+            mass: [ -.3, -.4 ]
+          },
+          "2": {
+            integrity: [ -.3, -.2 ],
+            mass: [ -.4, -.5 ]
+          },
+          "3": {
+            integrity: [ -.4, -.3 ],
+            mass: [ -.5, -.6 ]
+          },
+          "4": {
+            integrity: [ -.5, -.4 ],
+            mass: [ -.6, -.7 ]
+          },
+          "5": {
+            integrity: [ -.6, -.5 ],
+            mass: [ -.7, -.8 ]
+          }
+        },
         name: "Lightweight"
       },
       ECM_Reinforced: {
         id: 20,
+        features: {
+          "1": {
+            integrity: [ .2, .5 ],
+            mass: [ 1, .4 ]
+          },
+          "2": {
+            integrity: [ .4, 1 ],
+            mass: [ 1.5, .8 ]
+          },
+          "3": {
+            integrity: [ .6, 1.5 ],
+            mass: [ 2, 1.2 ]
+          },
+          "4": {
+            integrity: [ .8, 2 ],
+            mass: [ 2.5, 1.6 ]
+          },
+          "5": {
+            integrity: [ 1, 2.5 ],
+            mass: [ 3, 2 ]
+          }
+        },
         name: "Reinforced"
       },
       ECM_Shielded: {
         id: 21,
+        features: {
+          "1": {
+            integrity: [ .2, .5 ],
+            power: [ .3, .2 ]
+          },
+          "2": {
+            integrity: [ .4, 1 ],
+            power: [ .6, .4 ]
+          },
+          "3": {
+            integrity: [ .6, 1.5 ],
+            power: [ .9, .6 ]
+          },
+          "4": {
+            integrity: [ .8, 2 ],
+            power: [ 1.2, .8 ]
+          },
+          "5": {
+            integrity: [ 1, 1.5 ],
+            power: [ 1.5, 1 ]
+          }
+        },
         name: "Shielded"
       },
       Engine_Dirty: {
         id: 22,
+        features: {
+          "1": {
+            integrity: [ -.06, 0 ],
+            optmass: [ -.03, 0 ],
+            optmul: [ .05, .1 ],
+            power: [ -.04, 0 ],
+            thermload: [ -.2, 0 ]
+          },
+          "2": {
+            integrity: [ -.12, .02 ],
+            optmass: [ -.06, -.01 ],
+            optmul: [ .1, .15 ],
+            power: [ -.08, .02 ],
+            thermload: [ -.4, .1 ]
+          },
+          "3": {
+            integrity: [ -.18, .04 ],
+            optmass: [ -.09, -.02 ],
+            optmul: [ .15, .2 ],
+            power: [ -.12, .04 ],
+            thermload: [ -.6, .2 ]
+          },
+          "4": {
+            integrity: [ -.24, .06 ],
+            optmass: [ -.12, -.03 ],
+            optmul: [ .2, .25 ],
+            power: [ -.16, .06 ],
+            thermload: [ -.8, .3 ]
+          },
+          "5": {
+            integrity: [ -.3, .08 ],
+            optmass: [ -.15, -.04 ],
+            optmul: [ .25, .3 ],
+            power: [ -.2, .08 ],
+            thermload: [ -1, .4 ]
+          }
+        },
         name: "Dirty"
       },
       Engine_Reinforced: {
         id: 23,
+        features: {
+          "1": {
+            integrity: [ .15, .3 ],
+            mass: [ .1, 0 ],
+            optmul: [ -.02, 0 ],
+            thermload: [ 0, -.1 ]
+          },
+          "2": {
+            integrity: [ .3, .5 ],
+            mass: [ .2, .05 ],
+            optmul: [ -.04, -.01 ],
+            thermload: [ -.05, -.2 ]
+          },
+          "3": {
+            integrity: [ .45, .7 ],
+            mass: [ .3, .1 ],
+            optmul: [ -.06, -.02 ],
+            thermload: [ -.1, -.3 ]
+          },
+          "4": {
+            integrity: [ .6, .9 ],
+            mass: [ .4, .15 ],
+            optmul: [ -.08, -.04 ],
+            thermload: [ -.15, -.4 ]
+          },
+          "5": {
+            integrity: [ .75, 1.1 ],
+            mass: [ .5, .2 ],
+            optmul: [ -.1, -.04 ],
+            thermload: [ -.2, -.5 ]
+          }
+        },
         name: "Reinforced"
       },
       Engine_Tuned: {
         id: 24,
+        features: {
+          "1": {
+            integrity: [ -.05, 0 ],
+            optmass: [ -.02, 0 ],
+            optmul: [ .02, .06 ],
+            power: [ .05, 0 ],
+            thermload: [ -.05, -.2 ]
+          },
+          "2": {
+            integrity: [ -.1, -.04 ],
+            optmass: [ -.04, -.01 ],
+            optmul: [ .04, .09 ],
+            power: [ .1, .04 ],
+            thermload: [ -.1, -.3 ]
+          },
+          "3": {
+            integrity: [ -.15, -.08 ],
+            optmass: [ -.06, -.02 ],
+            optmul: [ .06, .12 ],
+            power: [ .15, .08 ],
+            thermload: [ -.15, -.4 ]
+          },
+          "4": {
+            integrity: [ -.2, -.12 ],
+            optmass: [ -.08, -.03 ],
+            optmul: [ .08, .15 ],
+            power: [ .2, .12 ],
+            thermload: [ -.2, -.5 ]
+          },
+          "5": {
+            integrity: [ -.25, -.16 ],
+            optmass: [ -.12, -.04 ],
+            optmul: [ .1, .18 ],
+            power: [ .25, .16 ],
+            thermload: [ -.25, -.6 ]
+          }
+        },
         name: "Clean"
       },
       FSD_FastBoot: {
         id: 25,
+        features: {
+          "1": {
+            boot: [ -.1, -.2 ],
+            integrity: [ -.05, 0 ],
+            power: [ .04, 0 ],
+            thermload: [ .05, 0 ]
+          },
+          "2": {
+            boot: [ -.2, -.35 ],
+            integrity: [ -.1, -.03 ],
+            power: [ .1, .02 ],
+            thermload: [ .1, .05 ]
+          },
+          "3": {
+            boot: [ -.3, -.5 ],
+            integrity: [ -.15, -.06 ],
+            power: [ .14, .05 ],
+            thermload: [ .15, .1 ]
+          },
+          "4": {
+            boot: [ -.4, -.65 ],
+            integrity: [ -.2, -.09 ],
+            power: [ .2, .09 ],
+            thermload: [ .2, .15 ]
+          },
+          "5": {
+            boot: [ -.5, -.8 ],
+            integrity: [ -.25, -.12 ],
+            power: [ .25, .11 ],
+            thermload: [ .25, .2 ]
+          }
+        },
         name: "Faster boot sequence"
       },
       FSD_LongRange: {
         id: 26,
+        features: {
+          "1": {
+            integrity: [ -.05, 0 ],
+            mass: [ .05, 0 ],
+            optmass: [ .04, .1 ],
+            power: [ .04, 0 ]
+          },
+          "2": {
+            integrity: [ -.1, -.03 ],
+            mass: [ .14, .05 ],
+            optmass: [ .08, .2 ],
+            power: [ .1, .02 ]
+          },
+          "3": {
+            integrity: [ -.15, -.06 ],
+            mass: [ .25, .1 ],
+            optmass: [ .12, .3 ],
+            power: [ .14, .05 ]
+          },
+          "4": {
+            integrity: [ -.2, -.09 ],
+            mass: [ .35, .14 ],
+            optmass: [ .16, .4 ],
+            power: [ .2, .09 ]
+          },
+          "5": {
+            integrity: [ -.25, -.12 ],
+            mass: [ .45, .2 ],
+            optmass: [ .2, .5 ],
+            power: [ .25, .11 ]
+          }
+        },
         name: "Increased range"
       },
       FSD_Shielded: {
         id: 27,
+        features: {
+          "1": {
+            integrity: [ .2, .25 ],
+            mass: [ .3, .25 ],
+            optmass: [ -.03, 0 ],
+            thermload: [ 0, -.05 ]
+          },
+          "2": {
+            integrity: [ .3, .5 ],
+            mass: [ .35, .2 ],
+            optmass: [ -.06, -.02 ],
+            thermload: [ -.05, -.1 ]
+          },
+          "3": {
+            integrity: [ .4, .75 ],
+            mass: [ .4, .15 ],
+            optmass: [ -.09, -.04 ],
+            thermload: [ -.1, -.15 ]
+          },
+          "4": {
+            integrity: [ .5, 1 ],
+            mass: [ .45, .1 ],
+            optmass: [ -.12, -.06 ],
+            thermload: [ -.15, -.2 ]
+          },
+          "5": {
+            integrity: [ .6, 1.25 ],
+            mass: [ .5, .05 ],
+            optmass: [ -.15, -.08 ],
+            thermload: [ -.2, -.25 ]
+          }
+        },
         name: "Shielded"
       },
       FSDinterdictor_Expanded: {
         id: 28,
+        features: {
+          "1": {
+            facinglimit: [ .1, .4 ],
+            power: [ .15, 0 ],
+            ranget: [ -.1, 0 ]
+          },
+          "2": {
+            facinglimit: [ .2, .6 ],
+            power: [ .3, .1 ],
+            ranget: [ -.2, -.05 ]
+          },
+          "3": {
+            facinglimit: [ .3, .8 ],
+            power: [ .45, .2 ],
+            ranget: [ -.3, -.1 ]
+          },
+          "4": {
+            facinglimit: [ .4, 1 ],
+            power: [ .6, .3 ],
+            ranget: [ -.4, -.15 ]
+          }
+        },
         name: "Expanded capture arc"
       },
       FSDinterdictor_LongRange: {
         id: 29,
+        features: {
+          "1": {
+            facinglimit: [ -.1, 0 ],
+            mass: [ .1, 0 ],
+            power: [ .15, 0 ],
+            ranget: [ .05, .2 ]
+          },
+          "2": {
+            facinglimit: [ -.2, -.05 ],
+            mass: [ .2, .05 ],
+            power: [ .3, .1 ],
+            ranget: [ .1, .3 ]
+          },
+          "3": {
+            facinglimit: [ -.3, -.1 ],
+            mass: [ .3, .1 ],
+            power: [ .45, .2 ],
+            ranget: [ .15, .4 ]
+          }
+        },
         name: "Longer range"
       },
       FuelScoop_Shielded: {
         id: 30,
+        features: {
+          "1": {
+            integrity: [ .2, .5 ],
+            power: [ .31, .2 ]
+          },
+          "2": {
+            integrity: [ .39, 1 ],
+            power: [ .61, .39 ]
+          },
+          "3": {
+            integrity: [ .61, 1.5 ],
+            power: [ .89, .61 ]
+          },
+          "4": {
+            integrity: [ .79, 2 ],
+            power: [ 1.2, .81 ]
+          }
+        },
         name: "Shielded"
       },
       FuelTransferLimpet_LightWeight: {
         id: 31,
+        features: {
+          "1": {
+            integrity: [ -.2, -.1 ],
+            mass: [ -.3, -.4 ]
+          },
+          "2": {
+            integrity: [ -.3, -.2 ],
+            mass: [ -.4, -.5 ]
+          },
+          "3": {
+            integrity: [ -.4, -.3 ],
+            mass: [ -.5, -.6 ]
+          },
+          "4": {
+            integrity: [ -.5, -.4 ],
+            mass: [ -.6, -.7 ]
+          },
+          "5": {
+            integrity: [ -.6, -.5 ],
+            mass: [ -.7, -.8 ]
+          }
+        },
         name: "Lightweight"
       },
       FuelTransferLimpet_Reinforced: {
         id: 32,
+        features: {
+          "1": {
+            integrity: [ .2, .5 ],
+            mass: [ 1, .4 ]
+          },
+          "2": {
+            integrity: [ .4, 1 ],
+            mass: [ 1.5, .8 ]
+          },
+          "3": {
+            integrity: [ .6, 1.5 ],
+            mass: [ 2, 1.2 ]
+          },
+          "4": {
+            integrity: [ .8, 2 ],
+            mass: [ 2.5, 1.6 ]
+          },
+          "5": {
+            integrity: [ 1, 2.5 ],
+            mass: [ 3, 2 ]
+          }
+        },
         name: "Reinforced"
       },
       FuelTransferLimpet_Shielded: {
         id: 33,
+        features: {
+          "1": {
+            integrity: [ .2, .5 ],
+            power: [ .3, .2 ]
+          },
+          "2": {
+            integrity: [ .4, 1 ],
+            power: [ .6, .4 ]
+          },
+          "3": {
+            integrity: [ .6, 1.5 ],
+            power: [ .9, .6 ]
+          },
+          "4": {
+            integrity: [ .8, 2 ],
+            power: [ 1.2, .8 ]
+          },
+          "5": {
+            integrity: [ 1, 1.5 ],
+            power: [ 1.5, 1 ]
+          }
+        },
         name: "Shielded"
       },
       HatchBreakerLimpet_LightWeight: {
         id: 34,
+        features: {
+          "1": {
+            integrity: [ -.2, -.1 ],
+            mass: [ -.3, -.4 ]
+          },
+          "2": {
+            integrity: [ -.3, -.2 ],
+            mass: [ -.4, -.5 ]
+          },
+          "3": {
+            integrity: [ -.4, -.3 ],
+            mass: [ -.5, -.6 ]
+          },
+          "4": {
+            integrity: [ -.5, -.4 ],
+            mass: [ -.6, -.7 ]
+          },
+          "5": {
+            integrity: [ -.6, -.5 ],
+            mass: [ -.7, -.8 ]
+          }
+        },
         name: "Lightweight"
       },
       HatchBreakerLimpet_Reinforced: {
         id: 35,
+        features: {
+          "1": {
+            integrity: [ .2, .5 ],
+            mass: [ 1, .4 ]
+          },
+          "2": {
+            integrity: [ .4, 1 ],
+            mass: [ 1.5, .8 ]
+          },
+          "3": {
+            integrity: [ .6, 1.5 ],
+            mass: [ 2, 1.2 ]
+          },
+          "4": {
+            integrity: [ .8, 2 ],
+            mass: [ 2.5, 1.6 ]
+          },
+          "5": {
+            integrity: [ 1, 2.5 ],
+            mass: [ 3, 2 ]
+          }
+        },
         name: "Reinforced"
       },
       HatchBreakerLimpet_Shielded: {
         id: 36,
+        features: {
+          "1": {
+            integrity: [ .2, .5 ],
+            power: [ .3, .2 ]
+          },
+          "2": {
+            integrity: [ .4, 1 ],
+            power: [ .6, .4 ]
+          },
+          "3": {
+            integrity: [ .6, 1.5 ],
+            power: [ .9, .6 ]
+          },
+          "4": {
+            integrity: [ .8, 2 ],
+            power: [ 1.2, .8 ]
+          },
+          "5": {
+            integrity: [ 1, 1.5 ],
+            power: [ 1.5, 1 ]
+          }
+        },
         name: "Shielded"
       },
       HeatSinkLauncher_HeatSinkCapacity: {
         id: 37,
+        features: {
+          "3": {
+            ammo: [ .5, .5 ],
+            mass: [ 2, 1 ],
+            reload: [ 1, .5 ]
+          }
+        },
         name: "Ammo capacity"
       },
       HeatSinkLauncher_LightWeight: {
         id: 38,
+        features: {
+          "1": {
+            integrity: [ -.2, -.1 ],
+            mass: [ -.3, -.4 ]
+          },
+          "2": {
+            integrity: [ -.3, -.2 ],
+            mass: [ -.4, -.5 ]
+          },
+          "3": {
+            integrity: [ -.4, -.3 ],
+            mass: [ -.5, -.6 ]
+          },
+          "4": {
+            integrity: [ -.5, -.4 ],
+            mass: [ -.6, -.7 ]
+          },
+          "5": {
+            integrity: [ -.6, -.5 ],
+            mass: [ -.7, -.8 ]
+          }
+        },
         name: "Lightweight"
       },
       HeatSinkLauncher_Reinforced: {
         id: 39,
+        features: {
+          "1": {
+            integrity: [ .2, .5 ],
+            mass: [ 1, .4 ]
+          },
+          "2": {
+            integrity: [ .4, 1 ],
+            mass: [ 1.5, .8 ]
+          },
+          "3": {
+            integrity: [ .6, 1.5 ],
+            mass: [ 2, 1.2 ]
+          },
+          "4": {
+            integrity: [ .8, 2 ],
+            mass: [ 2.5, 1.6 ]
+          },
+          "5": {
+            integrity: [ 1, 2.5 ],
+            mass: [ 3, 2 ]
+          }
+        },
         name: "Reinforced"
       },
       HeatSinkLauncher_Shielded: {
         id: 40,
+        features: {
+          "1": {
+            integrity: [ .2, .5 ],
+            power: [ .3, .2 ]
+          },
+          "2": {
+            integrity: [ .4, 1 ],
+            power: [ .6, .4 ]
+          },
+          "3": {
+            integrity: [ .6, 1.5 ],
+            power: [ .9, .6 ]
+          },
+          "4": {
+            integrity: [ .8, 2 ],
+            power: [ 1.2, .8 ]
+          },
+          "5": {
+            integrity: [ 1, 1.5 ],
+            power: [ 1.5, 1 ]
+          }
+        },
         name: "Shielded"
       },
       HullReinforcement_Advanced: {
         id: 41,
-        name: "Blast resistant"
+        features: {
+          "1": {
+            hullboost: [ .02, .06 ],
+            hullreinforcement: [ -.05, 0 ],
+            mass: [ 0, -.03 ]
+          },
+          "2": {
+            hullboost: [ .04, .09 ],
+            hullreinforcement: [ -.1, -.05 ],
+            mass: [ 0, -.06 ]
+          },
+          "3": {
+            hullboost: [ .06, .12 ],
+            hullreinforcement: [ -.15, -.1 ],
+            mass: [ 0, -.1 ]
+          },
+          "4": {
+            hullboost: [ .08, .15 ],
+            hullreinforcement: [ -.2, -.15 ],
+            mass: [ 0, -.12 ]
+          },
+          "5": {
+            hullboost: [ .1, .18 ],
+            hullreinforcement: [ -.25, -.2 ],
+            mass: [ 0, -.15 ]
+          }
+        },
+        name: "Lightweight"
+      },
+      HullReinforcement_Explosive: {
+        id: 43,
+        features: {
+          "1": {
+            explres: [ .0487, .078 ],
+            kinres: [ -.0293, -.0195 ],
+            thermres: [ -.0293, -.0195 ]
+          },
+          "2": {
+            explres: [ .0975, .156 ],
+            kinres: [ -.0585, -.039 ],
+            thermres: [ -.0484, -.039 ]
+          },
+          "3": {
+            explres: [ .1463, .234 ],
+            kinres: [ -.0878, -.0585 ],
+            thermres: [ -.0878, -.0585 ]
+          },
+          "4": {
+            explres: [ .195, .312 ],
+            kinres: [ -.117, -.078 ],
+            thermres: [ -.117, -.078 ]
+          },
+          "5": {
+            explres: [ .2437, .39 ],
+            kinres: [ -.1463, -.0975 ],
+            thermres: [ -.1463, -.0975 ]
+          }
+        },
+        name: "Blast Resistant"
       },
       HullReinforcement_HeavyDuty: {
         id: 42,
+        features: {
+          "1": {
+            explres: [ 0, .0292 ],
+            hullreinforcement: [ .04, .2 ],
+            kinres: [ 0, .0292 ],
+            mass: [ .08, 0 ],
+            thermres: [ 0, .0292 ]
+          },
+          "2": {
+            explres: [ .098, .0585 ],
+            hullreinforcement: [ .1, .29 ],
+            kinres: [ .098, .0585 ],
+            mass: [ .15, .04 ],
+            thermres: [ .098, .0585 ]
+          },
+          "3": {
+            explres: [ .0195, .0878 ],
+            hullreinforcement: [ .14, .39 ],
+            kinres: [ .0195, .0878 ],
+            mass: [ .23, .1 ],
+            thermres: [ .0195, .0878 ]
+          },
+          "4": {
+            explres: [ .0292, .117 ],
+            hullreinforcement: [ .2, .5 ],
+            kinres: [ .0292, .117 ],
+            mass: [ .31, .14 ],
+            thermres: [ .0292, .117 ]
+          },
+          "5": {
+            explres: [ .039, .1463 ],
+            hullreinforcement: [ .25, .61 ],
+            kinres: [ .039, .1463 ],
+            mass: [ .39, .2 ],
+            thermres: [ .039, .1463 ]
+          }
+        },
         name: "Heavy duty"
-      },
-      HullReinforcement_Lightweight: {
-        id: 43,
-        name: "Lightweight"
       },
       HullReinforcement_Kinetic: {
         id: 44,
-        name: "Kinetic resistant"
+        features: {
+          "1": {
+            explres: [ -.0293, -.0195 ],
+            kinres: [ .0487, .078 ],
+            thermres: [ -.0293, -.0195 ]
+          },
+          "2": {
+            explres: [ -.0585, -.039 ],
+            kinres: [ .0975, .156 ],
+            thermres: [ -.0585, -.039 ]
+          },
+          "3": {
+            explres: [ -.0878, -.0585 ],
+            kinres: [ .1463, .234 ],
+            thermres: [ -.0878, -.0585 ]
+          },
+          "4": {
+            explres: [ -.117, -.078 ],
+            kinres: [ .195, .312 ],
+            thermres: [ -.117, -.078 ]
+          },
+          "5": {
+            explres: [ -.1463, -.0975 ],
+            kinres: [ .2437, .39 ],
+            thermres: [ -.1463, -.0975 ]
+          }
+        },
+        name: "Kinetic Resistant"
       },
       HullReinforcement_Thermic: {
         id: 45,
-        name: "Thermal resistant"
+        features: {
+          "1": {
+            explres: [ -.0293, -.0195 ],
+            kinres: [ -.0293, -.0195 ],
+            thermres: [ .0487, .078 ]
+          },
+          "2": {
+            explres: [ -.0585, -.039 ],
+            kinres: [ -.0585, -.039 ],
+            thermres: [ .0975, .156 ]
+          },
+          "3": {
+            explres: [ -.0878, -.0585 ],
+            kinres: [ -.0878, -.0585 ],
+            thermres: [ .1463, .234 ]
+          },
+          "4": {
+            explres: [ -.117, -.078 ],
+            kinres: [ -.117, -.078 ],
+            thermres: [ .195, .312 ]
+          },
+          "5": {
+            explres: [ -.1463, -.0975 ],
+            kinres: [ -.1463, -.0975 ],
+            thermres: [ .2437, .39 ]
+          }
+        },
+        name: "Thermal Resistant"
       },
       KillWarrantScanner_LightWeight: {
         id: 46,
+        features: {
+          "1": {
+            integrity: [ -.2, -.1 ],
+            mass: [ -.3, -.4 ]
+          },
+          "2": {
+            integrity: [ -.3, -.2 ],
+            mass: [ -.4, -.5 ]
+          },
+          "3": {
+            integrity: [ -.4, -.3 ],
+            mass: [ -.5, -.6 ]
+          },
+          "4": {
+            integrity: [ -.5, -.4 ],
+            mass: [ -.6, -.7 ]
+          },
+          "5": {
+            integrity: [ -.6, -.5 ],
+            mass: [ -.7, -.8 ]
+          }
+        },
         name: "Lightweight"
       },
       KillWarrantScanner_Reinforced: {
         id: 47,
+        features: {
+          "1": {
+            integrity: [ .2, .5 ],
+            mass: [ 1, .4 ]
+          },
+          "2": {
+            integrity: [ .4, 1 ],
+            mass: [ 1.5, .8 ]
+          },
+          "3": {
+            integrity: [ .6, 1.5 ],
+            mass: [ 2, 1.2 ]
+          },
+          "4": {
+            integrity: [ .8, 2 ],
+            mass: [ 2.5, 1.6 ]
+          },
+          "5": {
+            integrity: [ 1, 2.5 ],
+            mass: [ 3, 2 ]
+          }
+        },
         name: "Reinforced"
       },
       KillWarrantScanner_Shielded: {
         id: 48,
+        features: {
+          "1": {
+            integrity: [ .2, .5 ],
+            power: [ .3, .2 ]
+          },
+          "2": {
+            integrity: [ .4, 1 ],
+            power: [ .6, .4 ]
+          },
+          "3": {
+            integrity: [ .6, 1.5 ],
+            power: [ .9, .6 ]
+          },
+          "4": {
+            integrity: [ .8, 2 ],
+            power: [ 1.2, .8 ]
+          },
+          "5": {
+            integrity: [ 1, 1.5 ],
+            power: [ 1.5, 1 ]
+          }
+        },
         name: "Shielded"
       },
       LifeSupport_LightWeight: {
         id: 49,
+        features: {
+          "1": {
+            integrity: [ -.2, -.1 ],
+            mass: [ -.3, -.4 ]
+          },
+          "2": {
+            integrity: [ -.3, -.2 ],
+            mass: [ -.4, -.5 ]
+          },
+          "3": {
+            integrity: [ -.4, -.3 ],
+            mass: [ -.5, -.6 ]
+          },
+          "4": {
+            integrity: [ -.5, -.4 ],
+            mass: [ -.6, -.7 ]
+          },
+          "5": {
+            integrity: [ -.6, -.5 ],
+            mass: [ -.7, -.8 ]
+          }
+        },
         name: "Lightweight"
       },
       LifeSupport_Reinforced: {
         id: 50,
+        features: {
+          "1": {
+            integrity: [ .2, .5 ],
+            mass: [ 1, .4 ]
+          },
+          "2": {
+            integrity: [ .4, 1 ],
+            mass: [ 1.5, .8 ]
+          },
+          "3": {
+            integrity: [ .6, 1.5 ],
+            mass: [ 2, 1.2 ]
+          },
+          "4": {
+            integrity: [ .8, 2 ],
+            mass: [ 2.5, 1.6 ]
+          },
+          "5": {
+            integrity: [ 1, 2.5 ],
+            mass: [ 3, 2 ]
+          }
+        },
         name: "Reinforced"
       },
       LifeSupport_Shielded: {
         id: 51,
+        features: {
+          "1": {
+            integrity: [ .2, .5 ],
+            power: [ .3, .2 ]
+          },
+          "2": {
+            integrity: [ .4, 1 ],
+            power: [ .6, .4 ]
+          },
+          "3": {
+            integrity: [ .6, 1.5 ],
+            power: [ .9, .6 ]
+          },
+          "4": {
+            integrity: [ .8, 2 ],
+            power: [ 1.2, .8 ]
+          },
+          "5": {
+            integrity: [ 1, 1.5 ],
+            power: [ 1.5, 1 ]
+          }
+        },
         name: "Shielded"
       },
       PointDefence_LightWeight: {
         id: 52,
+        features: {
+          "1": {
+            integrity: [ -.2, -.1 ],
+            mass: [ -.3, -.4 ]
+          },
+          "2": {
+            integrity: [ -.3, -.2 ],
+            mass: [ -.4, -.5 ]
+          },
+          "3": {
+            integrity: [ -.4, -.3 ],
+            mass: [ -.5, -.6 ]
+          },
+          "4": {
+            integrity: [ -.5, -.4 ],
+            mass: [ -.6, -.7 ]
+          },
+          "5": {
+            integrity: [ -.6, -.5 ],
+            mass: [ -.7, -.8 ]
+          }
+        },
         name: "Lightweight"
       },
       PointDefence_Reinforced: {
         id: 53,
+        features: {
+          "1": {
+            integrity: [ .2, .5 ],
+            mass: [ 1, .4 ]
+          },
+          "2": {
+            integrity: [ .4, 1 ],
+            mass: [ 1.5, .8 ]
+          },
+          "3": {
+            integrity: [ .6, 1.5 ],
+            mass: [ 2, 1.2 ]
+          },
+          "4": {
+            integrity: [ .8, 2 ],
+            mass: [ 2.5, 1.6 ]
+          },
+          "5": {
+            integrity: [ 1, 2.5 ],
+            mass: [ 3, 2 ]
+          }
+        },
         name: "Reinforced"
       },
       PointDefence_Shielded: {
         id: 54,
+        features: {
+          "1": {
+            integrity: [ .2, .5 ],
+            power: [ .3, .2 ]
+          },
+          "2": {
+            integrity: [ .4, 1 ],
+            power: [ .6, .4 ]
+          },
+          "3": {
+            integrity: [ .6, 1.5 ],
+            power: [ .9, .6 ]
+          },
+          "4": {
+            integrity: [ .8, 2 ],
+            power: [ 1.2, .8 ]
+          },
+          "5": {
+            integrity: [ 1, 1.5 ],
+            power: [ 1.5, 1 ]
+          }
+        },
         name: "Shielded"
       },
       PointDefence_PointDefenseCapacity: {
         id: 55,
+        features: {
+          "3": {
+            ammo: [ .2, .5 ],
+            mass: [ 2, 1 ],
+            reload: [ .3, .1 ]
+          }
+        },
         name: "Ammo capacity"
       },
       PowerDistributor_HighCapacity: {
         id: 56,
+        features: {
+          "1": {
+            engcap: [ .04, .1 ],
+            engrate: [ -.05, 0 ],
+            syscap: [ .04, .1 ],
+            sysrate: [ -.05, 0 ],
+            wepcap: [ .04, .1 ],
+            weprate: [ -.05, 0 ]
+          },
+          "2": {
+            engcap: [ .08, .15 ],
+            engrate: [ -.1, -.04 ],
+            syscap: [ .08, .1 ],
+            sysrate: [ -.1, 0 ],
+            wepcap: [ .08, .1 ],
+            weprate: [ -.1, 0 ]
+          },
+          "3": {
+            engcap: [ .12, .2 ],
+            engrate: [ -.15, -.08 ],
+            syscap: [ .12, .1 ],
+            sysrate: [ -.15, -.08 ],
+            wepcap: [ .12, .1 ],
+            weprate: [ -.15, -.08 ]
+          },
+          "4": {
+            engcap: [ .16, .25 ],
+            engrate: [ -.2, -.12 ],
+            syscap: [ .16, .1 ],
+            sysrate: [ -.2, -.12 ],
+            wepcap: [ .16, .1 ],
+            weprate: [ -.2, -.12 ]
+          },
+          "5": {
+            engcap: [ .2, .3 ],
+            engrate: [ -.25, -.16 ],
+            syscap: [ .2, .1 ],
+            sysrate: [ -.25, -.16 ],
+            wepcap: [ .2, .1 ],
+            weprate: [ -.25, -.16 ]
+          }
+        },
         name: "High charge capacity"
       },
       PowerDistributor_HighFrequency: {
         id: 57,
+        features: {
+          "1": {
+            engcap: [ -.03, 0 ],
+            engrate: [ .25, .16 ],
+            syscap: [ -.03, 0 ],
+            sysrate: [ .25, .16 ],
+            wepcap: [ -.03, 0 ],
+            weprate: [ .25, .16 ]
+          },
+          "2": {
+            engcap: [ -.06, -.01 ],
+            engrate: [ .25, .16 ],
+            syscap: [ -.06, -.01 ],
+            sysrate: [ .25, .16 ],
+            wepcap: [ -.06, -.01 ],
+            weprate: [ .25, .16 ]
+          },
+          "3": {
+            engcap: [ -.09, -.02 ],
+            engrate: [ .25, .16 ],
+            syscap: [ -.09, -.02 ],
+            sysrate: [ .25, .16 ],
+            wepcap: [ -.09, -.02 ],
+            weprate: [ .25, .16 ]
+          },
+          "4": {
+            engcap: [ -.12, -.03 ],
+            engrate: [ .25, -.16 ],
+            syscap: [ -.12, -.03 ],
+            sysrate: [ .25, .16 ],
+            wepcap: [ -.12, -.03 ],
+            weprate: [ .25, .16 ]
+          },
+          "5": {
+            engcap: [ -.15, -.04 ],
+            engrate: [ .25, .16 ],
+            syscap: [ -.15, -.04 ],
+            sysrate: [ .25, .16 ],
+            wepcap: [ -.15, -.04 ],
+            weprate: [ .25, .16 ]
+          }
+        },
         name: "Charge enhanced"
       },
       PowerDistributor_PriorityEngines: {
         id: 58,
+        features: {
+          "1": {
+            engcap: [ .05, .2 ],
+            engrate: [ .02, .1 ],
+            syscap: [ -.05, 0 ],
+            sysrate: [ -.02, 0 ],
+            wepcap: [ -.05, 0 ],
+            weprate: [ -.02, 0 ]
+          },
+          "2": {
+            engcap: [ .1, .3 ],
+            engrate: [ .04, .15 ],
+            syscap: [ -.1, -.02 ],
+            sysrate: [ -.04, -.01 ],
+            wepcap: [ -.1, -.02 ],
+            weprate: [ -.04, -.01 ]
+          },
+          "3": {
+            engcap: [ .15, .4 ],
+            engrate: [ .06, .2 ],
+            syscap: [ -.15, -.04 ],
+            sysrate: [ -.06, -.02 ],
+            wepcap: [ -.15, -.04 ],
+            weprate: [ -.06, -.02 ]
+          }
+        },
         name: "Engine focused"
       },
       PowerDistributor_PrioritySystems: {
         id: 59,
+        features: {
+          "1": {
+            engcap: [ -.05, 0 ],
+            engrate: [ -.02, 0 ],
+            syscap: [ .05, .2 ],
+            sysrate: [ .02, .1 ],
+            wepcap: [ -.05, 0 ],
+            weprate: [ -.02, 0 ]
+          },
+          "2": {
+            engcap: [ -.1, -.02 ],
+            engrate: [ -.04, -.01 ],
+            syscap: [ .1, .3 ],
+            sysrate: [ -.04, .15 ],
+            wepcap: [ -.1, -.02 ],
+            weprate: [ -.04, -.01 ]
+          },
+          "3": {
+            engcap: [ -.15, -.04 ],
+            engrate: [ -.06, -.02 ],
+            syscap: [ .15, .4 ],
+            sysrate: [ .06, .2 ],
+            wepcap: [ -.15, -.04 ],
+            weprate: [ -.06, -.02 ]
+          }
+        },
         name: "System focused"
       },
       PowerDistributor_PriorityWeapons: {
         id: 60,
+        features: {
+          "1": {
+            engcap: [ -.05, 0 ],
+            engrate: [ -.02, 0 ],
+            syscap: [ -.05, 0 ],
+            sysrate: [ -.02, 0 ],
+            wepcap: [ .05, .2 ],
+            weprate: [ .02, .1 ]
+          },
+          "2": {
+            engcap: [ -.1, -.02 ],
+            engrate: [ -.04, -.01 ],
+            syscap: [ -.1, -.02 ],
+            sysrate: [ -.04, -.01 ],
+            wepcap: [ .1, .3 ],
+            weprate: [ .04, .15 ]
+          },
+          "3": {
+            engcap: [ -.15, -.04 ],
+            engrate: [ -.06, -.02 ],
+            syscap: [ -.15, -.04 ],
+            sysrate: [ -.06, -.02 ],
+            wepcap: [ .15, .4 ],
+            weprate: [ .06, .2 ]
+          }
+        },
         name: "Weapon focused"
       },
       PowerDistributor_Shielded: {
         id: 61,
+        features: {
+          "1": {
+            integrity: [ .2, .5 ],
+            power: [ .3, .2 ]
+          },
+          "2": {
+            integrity: [ .4, 1 ],
+            power: [ .6, .4 ]
+          },
+          "3": {
+            integrity: [ .6, 1.5 ],
+            power: [ .9, .6 ]
+          },
+          "4": {
+            integrity: [ .8, 2 ],
+            power: [ 1.2, .8 ]
+          },
+          "5": {
+            integrity: [ 1, 1.5 ],
+            power: [ 1.5, 1 ]
+          }
+        },
         name: "Shielded"
       },
       PowerPlant_Armoured: {
         id: 62,
+        features: {
+          "1": {
+            eff: [ .05, -.05 ],
+            integrity: [ .2, .4 ],
+            mass: [ .08, 0 ]
+          },
+          "2": {
+            eff: [ .06, -.06 ],
+            integrity: [ .3, .6 ],
+            mass: [ .16, .04 ]
+          },
+          "3": {
+            eff: [ .07, -.07 ],
+            integrity: [ .4, .8 ],
+            mass: [ .24, .08 ]
+          },
+          "4": {
+            eff: [ .08, -.08 ],
+            integrity: [ .5, 1 ],
+            mass: [ .32, .12 ]
+          },
+          "5": {
+            eff: [ .09, -.09 ],
+            integrity: [ .6, 1.2 ],
+            mass: [ .4, .16 ]
+          }
+        },
         name: "Armoured"
       },
       PowerPlant_Boosted: {
         id: 63,
+        features: {
+          "1": {
+            eff: [ .1, 0 ],
+            integrity: [ -.1, 0 ],
+            pgen: [ .02, .12 ]
+          },
+          "2": {
+            eff: [ .2, .05 ],
+            integrity: [ -.2, -.05 ],
+            pgen: [ .04, .18 ]
+          },
+          "3": {
+            eff: [ .3, .1 ],
+            integrity: [ -.3, -.1 ],
+            pgen: [ .06, .24 ]
+          },
+          "4": {
+            eff: [ .4, .15 ],
+            integrity: [ -.4, -.15 ],
+            pgen: [ .08, .3 ]
+          },
+          "5": {
+            eff: [ .5, .2 ],
+            integrity: [ -.5, -.2 ],
+            pgen: [ .1, .36 ]
+          }
+        },
         name: "Overcharged"
       },
       PowerPlant_Stealth: {
         id: 64,
+        features: {
+          "1": {
+            eff: [ -.05, -.2 ],
+            mass: [ .05, 0 ],
+            pgen: [ -.06, 0 ]
+          },
+          "2": {
+            eff: [ -.1, -.3 ],
+            mass: [ .1, .05 ],
+            pgen: [ -.12, -.03 ]
+          },
+          "3": {
+            eff: [ -.15, -.4 ],
+            mass: [ .15, .1 ],
+            pgen: [ -.18, -.06 ]
+          }
+        },
         name: "Low emissions"
       },
       ProspectingLimpet_LightWeight: {
         id: 65,
+        features: {
+          "1": {
+            integrity: [ -.2, -.1 ],
+            mass: [ -.3, -.4 ]
+          },
+          "2": {
+            integrity: [ -.3, -.2 ],
+            mass: [ -.4, -.5 ]
+          },
+          "3": {
+            integrity: [ -.4, -.3 ],
+            mass: [ -.5, -.6 ]
+          },
+          "4": {
+            integrity: [ -.5, -.4 ],
+            mass: [ -.6, -.7 ]
+          },
+          "5": {
+            integrity: [ -.6, -.5 ],
+            mass: [ -.7, -.8 ]
+          }
+        },
         name: "Lightweight"
       },
       ProspectingLimpet_Reinforced: {
         id: 66,
+        features: {
+          "1": {
+            integrity: [ .2, .5 ],
+            mass: [ 1, .4 ]
+          },
+          "2": {
+            integrity: [ .4, 1 ],
+            mass: [ 1.5, .8 ]
+          },
+          "3": {
+            integrity: [ .6, 1.5 ],
+            mass: [ 2, 1.2 ]
+          },
+          "4": {
+            integrity: [ .8, 2 ],
+            mass: [ 2.5, 1.6 ]
+          },
+          "5": {
+            integrity: [ 1, 2.5 ],
+            mass: [ 3, 2 ]
+          }
+        },
         name: "Reinforced"
       },
       ProspectingLimpet_Shielded: {
         id: 67,
+        features: {
+          "1": {
+            integrity: [ .2, .5 ],
+            power: [ .3, .2 ]
+          },
+          "2": {
+            integrity: [ .4, 1 ],
+            power: [ .6, .4 ]
+          },
+          "3": {
+            integrity: [ .6, 1.5 ],
+            power: [ .9, .6 ]
+          },
+          "4": {
+            integrity: [ .8, 2 ],
+            power: [ 1.2, .8 ]
+          },
+          "5": {
+            integrity: [ 1, 1.5 ],
+            power: [ 1.5, 1 ]
+          }
+        },
+        name: "Shielded"
+      },
+      Refineries_Shielded: {
+        id: 92,
+        features: {
+          "1": {
+            integrity: [ .2, .5 ],
+            power: [ .29, .2 ]
+          },
+          "2": {
+            integrity: [ .39, 1 ],
+            power: [ .61, .39 ]
+          },
+          "3": {
+            integrity: [ .61, 1.5 ],
+            power: [ .89, .61 ]
+          },
+          "4": {
+            integrity: [ .81, 2 ],
+            power: [ 1.2, .79 ]
+          }
+        },
         name: "Shielded"
       },
       ShieldBooster_Explosive: {
         id: 68,
-        name: "Blast resistant"
+        features: {
+          "1": {
+            explres: [ .02, .05 ],
+            kinres: [ -.02, 0 ],
+            thermres: [ -.02, 0 ]
+          },
+          "2": {
+            explres: [ .07, -.1 ],
+            kinres: [ -.03, -.01 ],
+            thermres: [ -.03, -.01 ]
+          },
+          "3": {
+            explres: [ .12, .15 ],
+            kinres: [ -.04, -.04 ],
+            thermres: [ -.05, -.02 ]
+          },
+          "4": {
+            explres: [ .17, .2 ],
+            kinres: [ -.05, -.03 ],
+            thermres: [ -.05, -.03 ]
+          },
+          "5": {
+            explres: [ .22, .25 ],
+            kinres: [ -.06, -.04 ],
+            thermres: [ -.06, -.04 ]
+          }
+        },
+        name: "Blast Resistant"
       },
       ShieldBooster_HeavyDuty: {
         id: 69,
+        features: {
+          "1": {
+            integrity: [ 0, .03 ],
+            mass: [ 1, .5 ],
+            power: [ .05, 0 ],
+            shieldboost: [ .03, .06 ]
+          },
+          "2": {
+            integrity: [ .03, .06 ],
+            mass: [ 1.5, 1 ],
+            power: [ .1, .05 ],
+            shieldboost: [ .08, .12 ]
+          },
+          "3": {
+            integrity: [ .06, .09 ],
+            mass: [ 2, 1.5 ],
+            power: [ .15, .1 ],
+            shieldboost: [ .13, .18 ]
+          },
+          "4": {
+            integrity: [ .09, .12 ],
+            mass: [ 2.5, 2 ],
+            power: [ .2, .15 ],
+            shieldboost: [ .18, .24 ]
+          },
+          "5": {
+            integrity: [ .12, .15 ],
+            mass: [ 3, 2.5 ],
+            power: [ .25, .2 ],
+            shieldboost: [ .23, .3 ]
+          }
+        },
         name: "Heavy duty"
       },
       ShieldBooster_Kinetic: {
         id: 70,
-        name: "Kinetic resistant"
+        features: {
+          "1": {
+            explres: [ -.02, 0 ],
+            kinres: [ .02, .05 ],
+            thermres: [ -.02, 0 ]
+          },
+          "2": {
+            explres: [ -.03, -.01 ],
+            kinres: [ .07, .1 ],
+            thermres: [ -.03, -.01 ]
+          },
+          "3": {
+            explres: [ -.04, -.02 ],
+            kinres: [ .12, .15 ],
+            thermres: [ -.05, -.02 ]
+          },
+          "4": {
+            explres: [ -.05, -.03 ],
+            kinres: [ .17, -.2 ],
+            thermres: [ -.05, -.03 ]
+          },
+          "5": {
+            explres: [ -.06, -.04 ],
+            kinres: [ .22, .25 ],
+            thermres: [ -.06, -.04 ]
+          }
+        },
+        name: "Kinetic Resistant"
       },
       ShieldBooster_Resistive: {
         id: 71,
+        features: {
+          "1": {
+            explres: [ .01, .03 ],
+            integrity: [ -.04, 0 ],
+            kinres: [ .01, .03 ],
+            power: [ .08, 0 ],
+            thermres: [ .01, .03 ]
+          },
+          "2": {
+            explres: [ .025, .06 ],
+            integrity: [ -.08, -.02 ],
+            kinres: [ .025, .06 ],
+            power: [ .16, .04 ],
+            thermres: [ .025, .06 ]
+          },
+          "3": {
+            explres: [ .06, .075 ],
+            integrity: [ -.12, -.04 ],
+            kinres: [ .06, .075 ],
+            power: [ .24, .08 ],
+            thermres: [ .06, .075 ]
+          },
+          "4": {
+            explres: [ .075, .11 ],
+            integrity: [ -.16, -.06 ],
+            kinres: [ .075, .11 ],
+            power: [ .32, .12 ],
+            thermres: [ .075, .11 ]
+          },
+          "5": {
+            explres: [ .1, .125 ],
+            integrity: [ -.2, -.08 ],
+            kinres: [ .1, .125 ],
+            power: [ .4, .16 ],
+            thermres: [ .1, .125 ]
+          }
+        },
         name: "Resistance augmented"
       },
       ShieldBooster_Thermic: {
         id: 72,
-        name: "Thermal resistant"
+        features: {
+          "1": {
+            explres: [ -.02, 0 ],
+            kinres: [ -.02, 0 ],
+            thermres: [ .02, .05 ]
+          },
+          "2": {
+            explres: [ -.03, -.01 ],
+            kinres: [ -.03, -.01 ],
+            thermres: [ .07, .1 ]
+          },
+          "3": {
+            explres: [ -.04, -.02 ],
+            kinres: [ -.04, -.04 ],
+            thermres: [ .12, .15 ]
+          },
+          "4": {
+            explres: [ -.05, -.03 ],
+            kinres: [ -.05, -.03 ],
+            thermres: [ .17, .2 ]
+          },
+          "5": {
+            explres: [ -.06, -.04 ],
+            kinres: [ -.06, -.04 ],
+            thermres: [ .22, .25 ]
+          }
+        },
+        name: "Thermal Resistant"
       },
       ShieldCellBank_Rapid: {
         id: 73,
+        features: {
+          "1": {
+            boot: [ .1, 0 ],
+            duration: [ -.1, 0 ],
+            shieldreinforcement: [ 0, .03 ],
+            spinup: [ -.05, -.1 ]
+          },
+          "2": {
+            boot: [ .2, .05 ],
+            duration: [ -.2, -.05 ],
+            shieldreinforcement: [ .02, .06 ],
+            spinup: [ -.1, -.2 ]
+          },
+          "3": {
+            boot: [ .3, .1 ],
+            duration: [ -.3, -.1 ],
+            shieldreinforcement: [ .04, .09 ],
+            spinup: [ -.2, -.3 ]
+          },
+          "4": {
+            boot: [ .4, .15 ],
+            duration: [ -.4, -.15 ],
+            shieldreinforcement: [ .06, .12 ],
+            spinup: [ -.3, -.4 ]
+          }
+        },
         name: "Rapid charge"
       },
       ShieldCellBank_Specialised: {
         id: 74,
+        features: {
+          "1": {
+            boot: [ -.04, -.08 ],
+            integrity: [ -.1, 0 ],
+            power: [ .1, 0 ],
+            thermload: [ -.03, -.06 ]
+          },
+          "2": {
+            boot: [ -.08, -.16 ],
+            integrity: [ -.2, -.05 ],
+            power: [ .2, .05 ],
+            thermload: [ -.06, -.12 ]
+          },
+          "3": {
+            boot: [ -.12, -.26 ],
+            integrity: [ -.3, -.1 ],
+            power: [ .3, .1 ],
+            thermload: [ -.09, -.18 ]
+          },
+          "4": {
+            boot: [ -.16, -.32 ],
+            integrity: [ -.3, -.15 ],
+            power: [ .4, .15 ],
+            thermload: [ -.12, -.24 ]
+          }
+        },
         name: "Specialised"
       },
       ShieldGenerator_Kinetic: {
         id: 75,
-        name: "Kinetic resistant"
+        features: {
+          "1": {
+            integrity: [ 0, .2 ],
+            kinres: [ .05, .1 ],
+            thermres: [ -.05, 0 ]
+          },
+          "2": {
+            integrity: [ .05, .25 ],
+            kinres: [ .07, .2 ],
+            thermres: [ -.1, -.02 ]
+          },
+          "3": {
+            integrity: [ .1, .2 ],
+            kinres: [ .09, .2 ],
+            thermres: [ -.15, -.04 ]
+          },
+          "4": {
+            integrity: [ .15, .35 ],
+            kinres: [ .11, .2 ],
+            thermres: [ -.2, -.06 ]
+          },
+          "5": {
+            integrity: [ .2, .4 ],
+            kinres: [ .13, .5 ],
+            thermres: [ -.25, -.08 ]
+          }
+        },
+        name: "Kinetic Resistant"
       },
       ShieldGenerator_Optimised: {
         id: 76,
+        features: {
+          "1": {
+            integrity: [ -.1, -.05 ],
+            mass: [ 0, -.08 ],
+            optmass: [ -.03, 0 ],
+            power: [ -.12, -.2 ]
+          },
+          "2": {
+            integrity: [ -.2, -.1 ],
+            mass: [ -.04, -.16 ],
+            optmass: [ -.06, -.01 ],
+            power: [ -.14, -.25 ]
+          },
+          "3": {
+            integrity: [ -.3, -.15 ],
+            mass: [ -.08, -.24 ],
+            optmass: [ -.09, -.02 ],
+            optmul: [ 0, .02 ],
+            power: [ -.16, -.3 ]
+          },
+          "4": {
+            integrity: [ -.4, -.2 ],
+            mass: [ -.12, -.32 ],
+            optmass: [ -.12, -.03 ],
+            optmul: [ 0, .04 ],
+            power: [ -.18, -.35 ]
+          },
+          "5": {
+            integrity: [ -.5, -.25 ],
+            mass: [ -.16, -.4 ],
+            optmass: [ -.15, -.04 ],
+            optmul: [ 0, .06 ],
+            power: [ -.2, -.4 ]
+          }
+        },
         name: "Enhanced low power"
       },
       ShieldGenerator_Reinforced: {
         id: 77,
+        features: {
+          "1": {
+            brokenregen: [ -.21, -.15 ],
+            explres: [ 0, .03 ],
+            kinres: [ 0, .03 ],
+            optmul: [ .05, .1 ],
+            thermres: [ 0, .03 ]
+          },
+          "2": {
+            brokenregen: [ -.24, -.12 ],
+            explres: [ .02, .06 ],
+            kinres: [ .02, .06 ],
+            optmul: [ .07, .15 ],
+            regen: [ -.06, -.04 ],
+            thermres: [ .02, .06 ]
+          },
+          "3": {
+            brokenregen: [ -.27, -.09 ],
+            distdraw: [ .05, 0 ],
+            explres: [ .04, .09 ],
+            kinres: [ .04, .06 ],
+            optmul: [ .09, .2 ],
+            regen: [ -.09, -.03 ],
+            thermres: [ .04, .09 ]
+          },
+          "4": {
+            brokenregen: [ -.3, -.06 ],
+            distdraw: [ .1, .05 ],
+            explres: [ .06, .12 ],
+            kinres: [ .06, .12 ],
+            optmul: [ .11, .25 ],
+            regen: [ -.12, -.02 ],
+            thermres: [ .06, .12 ]
+          },
+          "5": {
+            brokenregen: [ -.33, -.03 ],
+            distdraw: [ .15, .1 ],
+            explres: [ .08, .15 ],
+            kinres: [ .08, .15 ],
+            optmul: [ .13, .3 ],
+            regen: [ -.15, -.01 ],
+            thermres: [ .08, .15 ]
+          }
+        },
         name: "Reinforced"
       },
       ShieldGenerator_Thermic: {
         id: 78,
-        name: "Thermal resistant"
+        features: {
+          "1": {
+            integrity: [ 0, .2 ],
+            kinres: [ -.05, 0 ],
+            thermres: [ .05, .1 ]
+          },
+          "2": {
+            integrity: [ .05, .25 ],
+            kinres: [ -.1, -.02 ],
+            thermres: [ .07, .2 ]
+          },
+          "3": {
+            integrity: [ .1, .3 ],
+            kinres: [ -.15, -.04 ],
+            thermres: [ .09, .3 ]
+          },
+          "4": {
+            integrity: [ .15, .35 ],
+            kinres: [ -.2, -.06 ],
+            thermres: [ .11, .4 ]
+          },
+          "5": {
+            integrity: [ .2, .4 ],
+            kinres: [ -.25, -.08 ],
+            thermres: [ .13, .5 ]
+          }
+        },
+        name: "Thermal Resistant"
       },
       WakeScanner_LightWeight: {
         id: 79,
+        features: {
+          "1": {
+            integrity: [ -.2, -.1 ],
+            mass: [ -.3, -.4 ]
+          },
+          "2": {
+            integrity: [ -.3, -.2 ],
+            mass: [ -.4, -.5 ]
+          },
+          "3": {
+            integrity: [ -.4, -.3 ],
+            mass: [ -.5, -.6 ]
+          },
+          "4": {
+            integrity: [ -.5, -.4 ],
+            mass: [ -.6, -.7 ]
+          },
+          "5": {
+            integrity: [ -.6, -.5 ],
+            mass: [ -.7, -.8 ]
+          }
+        },
         name: "Lightweight"
       },
       WakeScanner_Shielded: {
         id: 80,
+        features: {
+          "1": {
+            integrity: [ .2, .5 ],
+            power: [ .3, .2 ]
+          },
+          "2": {
+            integrity: [ .4, 1 ],
+            power: [ .6, .4 ]
+          },
+          "3": {
+            integrity: [ .6, 1.5 ],
+            power: [ .9, .6 ]
+          },
+          "4": {
+            integrity: [ .8, 2 ],
+            power: [ 1.2, .8 ]
+          },
+          "5": {
+            integrity: [ 1, 1.5 ],
+            power: [ 1.5, 1 ]
+          }
+        },
         name: "Shielded"
       },
       WakeScanner_Reinforced: {
         id: 81,
+        features: {
+          "1": {
+            integrity: [ .2, .5 ],
+            mass: [ 1, .4 ]
+          },
+          "2": {
+            integrity: [ .4, 1 ],
+            mass: [ 1.5, .8 ]
+          },
+          "3": {
+            integrity: [ .6, 1.5 ],
+            mass: [ 2, 1.2 ]
+          },
+          "4": {
+            integrity: [ .8, 2 ],
+            mass: [ 2.5, 1.6 ]
+          },
+          "5": {
+            integrity: [ 1, 2.5 ],
+            mass: [ 3, 2 ]
+          }
+        },
         name: "Reinforced"
       },
       Weapon_DoubleShot: {
         id: 82,
+        components: {
+          "1": {
+            Carbon: 1
+          },
+          "2": {
+            Carbon: 1,
+            "Mechanical Equipment": 1
+          },
+          "3": {
+            Carbon: 1,
+            "Cracked Industrial Firmware": 1,
+            "Mechanical Equipment": 1
+          },
+          "4": {
+            "Mechanical Components": 1,
+            "Security Firmware Patch": 1,
+            Vanadium: 1
+          },
+          "5": {}
+        },
+        features: {
+          "1": {
+            ammo: [ .1, .2 ],
+            burst: [ 2, 2 ],
+            burstrof: [ .1, .15 ],
+            range: [ -.25, -.1 ]
+          },
+          "2": {
+            ammo: [ .2, .3 ],
+            burst: [ 2, 2 ],
+            burstrof: [ .11, .16 ],
+            range: [ -.2, -.08 ]
+          },
+          "3": {
+            ammo: [ .3, .4 ],
+            burst: [ 2, 2 ],
+            burstrof: [ .12, .17 ],
+            range: [ -.15, -.06 ]
+          },
+          "4": {
+            ammo: [ .4, .5 ],
+            burst: [ 2, 2 ],
+            burstrof: [ .13, .18 ],
+            range: [ -.1, -.04 ]
+          },
+          "5": {
+            ammo: [ .5, .6 ],
+            burst: [ 2, 2 ],
+            burstrof: [ .14, .19 ],
+            range: [ -.5, -.02 ]
+          }
+        },
         name: "Double shot"
       },
       Weapon_Efficient: {
         id: 83,
+        components: {
+          "1": {
+            Sulphur: 1
+          },
+          "2": {
+            "Heat Dispersion Plate": 1,
+            Sulphur: 1
+          },
+          "3": {
+            Chromium: 1,
+            "Exceptional Scrambed Emission Data": 1,
+            "Heat Exchangers": 1
+          },
+          "4": {
+            "Heat Vanes": 1,
+            "Irregular Emission Data": 1,
+            Selenium: 1
+          },
+          "5": {
+            Cadmium: 1,
+            "Proto Heat Radiators": 1,
+            "Heatsink Interlink": 1
+          }
+        },
+        features: {
+          "1": {
+            damage: [ 0, .04 ],
+            thermload: [ -.31, -.4 ]
+          },
+          "2": {
+            damage: [ .01, .05 ],
+            power: [ 0, -.1 ],
+            thermload: [ -.36, -.45 ]
+          },
+          "3": {
+            damage: [ .01, .07 ],
+            distdraw: [ -.15, -.25 ],
+            power: [ -.06, -.2 ],
+            thermload: [ -.4, -.5 ]
+          },
+          "4": {
+            damage: [ .03, .08 ],
+            distdraw: [ -.2, -.3 ],
+            power: [ -.1, -.31 ],
+            thermload: [ -.45, -.55 ]
+          },
+          "5": {
+            damage: [ .03, .09 ],
+            distdraw: [ -.25, -.36 ],
+            power: [ -.14, -.4 ],
+            thermload: [ -.5, -.61 ]
+          }
+        },
         name: "Efficient"
       },
       Weapon_Focused: {
         id: 84,
+        components: {
+          "1": {
+            Iron: 1
+          },
+          "2": {
+            "Conductive Components": 1,
+            Iron: 1
+          },
+          "3": {
+            Chromium: 1,
+            "Conductive Ceramics": 1,
+            Iron: 1
+          },
+          "4": {
+            "Focus Crystals": 1,
+            Germanium: 1,
+            "Polymer Capacitors": 1
+          },
+          "5": {
+            "Military Supercapacitors": 1,
+            Niobium: 1,
+            "Refined Focus Crystals": 1
+          }
+        },
+        features: {
+          "1": {
+            burstrof: [ .2, .08 ],
+            range: [ .1, .2 ],
+            thermload: [ .5, .4 ]
+          },
+          "2": {
+            burstrof: [ .16, .06 ],
+            piercing: [ 0, .1 ],
+            range: [ .2, .4 ],
+            thermload: [ .4, .3 ]
+          },
+          "3": {
+            burstrof: [ .12, .04 ],
+            piercing: [ .1, .2 ],
+            range: [ .3, .6 ],
+            thermload: [ .3, .2 ]
+          },
+          "4": {
+            burstrof: [ .08, .02 ],
+            piercing: [ .2, .4 ],
+            range: [ .4, .8 ],
+            thermload: [ .2, .1 ]
+          },
+          "5": {
+            burstrof: [ .04, 0 ],
+            piercing: [ .3, .6 ],
+            range: [ .5, 1 ],
+            thermload: [ .1, 0 ]
+          }
+        },
         name: "Focused"
       },
       Weapon_HighCapacity: {
         id: 85,
+        components: {
+          "1": {
+            "Mechanical Scrap": 1
+          },
+          "2": {
+            "Mechanical Scrap": 1,
+            Vanadium: 1
+          },
+          "3": {
+            "Mechanical Scrap": 1,
+            Niobium: 1,
+            Vanadium: 1
+          },
+          "4": {
+            "High Density Composites": 1,
+            "Mechanical Equipment": 1,
+            Tin: 1
+          },
+          "5": {
+            "Mechanical Components": 1,
+            "Military Supercapacitors": 1,
+            "Proprietary Composites": 1
+          }
+        },
+        features: {
+          "1": {
+            ammo: [ .1, .59 ],
+            clip: [ .1, .59 ],
+            mass: [ .25, .1 ],
+            reload: [ .2, 0 ],
+            power: [ .2, .1 ]
+          },
+          "2": {
+            ammo: [ .19, .69 ],
+            clip: [ .2, .69 ],
+            mass: [ .5, .2 ],
+            reload: [ .39, .1 ],
+            power: [ .25, .14 ]
+          },
+          "3": {
+            ammo: [ .29, .79 ],
+            clip: [ .29, .79 ],
+            mass: [ .75, .29 ],
+            reload: [ .61, .2 ],
+            power: [ .31, .2 ]
+          },
+          "4": {
+            ammo: [ .39, .89 ],
+            clip: [ .39, .89 ],
+            mass: [ 1, .39 ],
+            reload: [ .79, .29 ],
+            power: [ .35, .25 ]
+          },
+          "5": {
+            ammo: [ .5, 1 ],
+            clip: [ .5, 1 ],
+            mass: [ 1.25, .5 ],
+            reload: [ 1, .39 ],
+            power: [ .39, .31 ]
+          }
+        },
         name: "High capacity"
       },
       Weapon_LightWeight: {
         id: 86,
+        components: {
+          "1": {
+            Phosphorous: 1
+          },
+          "2": {
+            Manganese: 1,
+            "Salvaged Alloys": 1
+          },
+          "3": {
+            "Conductive Ceramics": 1,
+            Manganese: 1,
+            "Salvaged Alloys": 1
+          },
+          "4": {
+            "Conductive Components": 1,
+            "Phase Alloys": 1,
+            "Proto Light Alloys": 1
+          },
+          "5": {
+            "Conductive Ceramics": 1,
+            "Proto Light Alloys": 1,
+            "Proto Radiolic Alloys": 1
+          }
+        },
+        features: {
+          "1": {
+            distdraw: [ -.02, -.04 ],
+            integrity: [ -.2, 0 ],
+            mass: [ -.11, -.15 ],
+            power: [ -.02, -.04 ]
+          },
+          "2": {
+            distdraw: [ -.04, -.08 ],
+            integrity: [ -.31, -.1 ],
+            mass: [ -.2, -.36 ],
+            power: [ -.04, -.08 ]
+          },
+          "3": {
+            distdraw: [ -.06, -.12 ],
+            integrity: [ -.4, -.2 ],
+            mass: [ -.31, -.55 ],
+            power: [ -.06, -.12 ]
+          },
+          "4": {
+            distdraw: [ -.08, -.16 ],
+            integrity: [ -.5, -.31 ],
+            mass: [ -.4, -.75 ],
+            power: [ -.08, -.16 ]
+          },
+          "5": {
+            distdraw: [ -.1, -.2 ],
+            integrity: [ -.61, -.4 ],
+            mass: [ -.5, -.9 ],
+            power: [ -.1, -.2 ]
+          }
+        },
         name: "Lightweight"
       },
       Weapon_LongRange: {
         id: 87,
+        components: {
+          "1": {
+            Sulphur: 1
+          },
+          "2": {
+            "Modified Consumer Firmware": 1,
+            Sulphur: 1
+          },
+          "3": {
+            "Focus Crystals": 1,
+            "Modified Consumer Firmware": 1,
+            Sulphur: 1
+          },
+          "4": {
+            "Conductive Polymers": 1,
+            "Focus Crystals": 1,
+            "Modified Consumer Firmware": 1
+          },
+          "5": {
+            "Biotech Conductors": 1,
+            "Cracked Industrial Firmware": 1,
+            "Thermic Alloys": 1
+          }
+        },
+        features: {
+          "1": {
+            fallofffromrange: [ 1, 1 ],
+            mass: [ .1, 0 ],
+            shotspeed: [ .1, .19 ],
+            range: [ .1, .2 ]
+          },
+          "2": {
+            fallofffromrange: [ 1, 1 ],
+            mass: [ .2, .04 ],
+            power: [ .04, 0 ],
+            shotspeed: [ .19, .39 ],
+            range: [ .2, .4 ]
+          },
+          "3": {
+            fallofffromrange: [ 1, 1 ],
+            mass: [ .29, .1 ],
+            power: [ .1, .04 ],
+            shotspeed: [ .29, .59 ],
+            range: [ .31, .61 ]
+          },
+          "4": {
+            fallofffromrange: [ 1, 1 ],
+            mass: [ .39, .14 ],
+            power: [ .14, .1 ],
+            shotspeed: [ .39, .79 ],
+            range: [ .4, .81 ]
+          },
+          "5": {
+            fallofffromrange: [ 1, 1 ],
+            mass: [ .5, .2 ],
+            power: [ .2, .14 ],
+            shotspeed: [ .5, 1 ],
+            range: [ .5, 1 ]
+          }
+        },
         name: "Long range"
       },
       Weapon_Overcharged: {
         id: 88,
+        components: {
+          "1": {
+            Nickel: 1
+          },
+          "2": {
+            "Conductive Components": 1,
+            Nickel: 1
+          },
+          "3": {
+            "Conductive Components": 1,
+            "Electrochemical Arrays": 1,
+            Nickel: 1
+          },
+          "4": {
+            "Conductive Ceramics": 1,
+            "Polymer Capaciters": 1,
+            Zinc: 1
+          },
+          "5": {
+            "Conductive Polymers": 1,
+            "Modified Embedded Firmware": 1,
+            Zirconium: 1
+          }
+        },
+        features: {
+          "1": {
+            clip: [ -.05, -.04 ],
+            damage: [ .14, .25 ],
+            distdraw: [ .89, .45 ],
+            jitter: [ 1, .4 ],
+            thermload: [ .45, .29 ]
+          },
+          "2": {
+            clip: [ -.11, -.06 ],
+            damage: [ .2, .29 ],
+            distdraw: [ .81, .4 ],
+            jitter: [ .8, .3 ],
+            thermload: [ .29, .14 ]
+          },
+          "3": {
+            clip: [ -.16, -.1 ],
+            damage: [ .25, .35 ],
+            distdraw: [ .7, .35 ],
+            jitter: [ .6, .2 ],
+            thermload: [ .14, 0 ]
+          },
+          "4": {
+            clip: [ -.21, -.12 ],
+            damage: [ .29, .39 ],
+            distdraw: [ .61, .29 ],
+            jitter: [ .4, .1 ]
+          },
+          "5": {
+            clip: [ -.25, -.16 ],
+            damage: [ .35, .45 ],
+            distdraw: [ .5, .25 ]
+          }
+        },
         name: "Overcharged"
       },
       Weapon_RapidFire: {
         id: 89,
+        components: {
+          "1": {
+            "Mechanical Scrap": 1
+          },
+          "2": {
+            "Heat Dispersion Plate": 1,
+            "Mechanical Scrap": 1
+          },
+          "3": {
+            "Mechanical Equipment": 1,
+            "Precipitated Aloys": 1,
+            "Specialised Legacy Firmware": 1
+          },
+          "4": {
+            "Mechanical Components": 1,
+            "Modified Consumer Firmware": 1,
+            "Thermic Alloys": 1
+          },
+          "5": {
+            "Configurable Components": 1,
+            "Precipitated Alloys": 1,
+            Technetium: 1
+          }
+        },
+        features: {
+          "1": {
+            damage: [ -.07, -.06 ],
+            jitter: [ 2.5, 1.25 ],
+            reload: [ -.11, -.25 ],
+            rof: [ .17, .25 ]
+          },
+          "2": {
+            damage: [ -.1, -.07 ],
+            distdraw: [ -.1, -.2 ],
+            jitter: [ 2, 1 ],
+            reload: [ -.2, -.36 ],
+            rof: [ .25, .34 ]
+          },
+          "3": {
+            damage: [ -.11, -.1 ],
+            distdraw: [ -.15, -.25 ],
+            jitter: [ 1.5, .75 ],
+            reload: [ -.31, -.45 ],
+            rof: [ .34, .42 ]
+          },
+          "4": {
+            damage: [ -.13, -.11 ],
+            distdraw: [ -.2, -.3 ],
+            jitter: [ 1, .5 ],
+            reload: [ -.4, -.55 ],
+            rof: [ .42, .53 ]
+          },
+          "5": {
+            damage: [ -.15, -.13 ],
+            distdraw: [ -.25, -.36 ],
+            jitter: [ .5, .25 ],
+            reload: [ -.5, -.65 ],
+            rof: [ .53, .66 ]
+          }
+        },
         name: "Rapid fire"
       },
       Weapon_ShortRange: {
         id: 90,
+        components: {
+          "1": {
+            Nickel: 1
+          },
+          "2": {
+            "Modified Consumer Firmware": 1,
+            Nickel: 1
+          },
+          "3": {
+            "Electrochemical Arrays": 1,
+            "Modified Consumer Firmware": 1,
+            Nickel: 1
+          },
+          "4": {
+            "Conductive Polymers": 1,
+            "Electrochemical Arrays": 1,
+            "Modified Consumer Firmware": 1
+          },
+          "5": {
+            "Biotech Conductors": 1,
+            "Configurable Components": 1,
+            "Cracked Industrial Firmware": 1
+          }
+        },
+        features: {
+          "1": {
+            damage: [ .03, .09 ],
+            range: [ -.35, -.1 ]
+          },
+          "2": {
+            damage: [ .08, .18 ],
+            range: [ -.45, -.2 ],
+            thermload: [ .2, .1 ]
+          },
+          "3": {
+            damage: [ .11, .26 ],
+            integrity: [ -.2, -.1 ],
+            range: [ -.55, -.3 ],
+            thermload: [ .3, .2 ]
+          },
+          "4": {
+            damage: [ .15, .35 ],
+            integrity: [ -.31, -.2 ],
+            range: [ -.65, -.4 ],
+            thermload: [ .39, .29 ]
+          },
+          "5": {
+            damage: [ .2, .45 ],
+            integrity: [ -.4, -.31 ],
+            range: [ -.75, -.5 ],
+            thermload: [ .5, .39 ]
+          }
+        },
         name: "Short range"
       },
       Weapon_Sturdy: {
         id: 91,
+        components: {
+          "1": {
+            Nickel: 1
+          },
+          "2": {
+            Nickel: 1,
+            "Shield Emitters": 1
+          },
+          "3": {
+            Nickel: 1,
+            "Shield Emitters": 1,
+            Tungsten: 1
+          },
+          "4": {
+            Molybdenum: 1,
+            Tungsten: 1,
+            Zinc: 1
+          },
+          "5": {
+            "High Density Composites": 1,
+            Molybdenum: 1,
+            Technetium: 1
+          }
+        },
+        features: {
+          "1": {
+            integrity: [ .2, .5 ],
+            mass: [ .5, 0 ],
+            thermload: [ 0, -.1 ]
+          },
+          "2": {
+            integrity: [ .39, 1 ],
+            mass: [ 1, .5 ],
+            thermload: [ -.06, -.15 ]
+          },
+          "3": {
+            integrity: [ .61, 1.5 ],
+            mass: [ 1.5, 1 ],
+            piercing: [ 0, .14 ],
+            thermload: [ -.11, -.2 ]
+          },
+          "4": {
+            integrity: [ .81, 2 ],
+            mass: [ 2, 1.5 ],
+            piercing: [ .1, .29 ],
+            thermload: [ -.15, -.25 ]
+          },
+          "5": {
+            integrity: [ 1, 2.5 ],
+            mass: [ 2.5, 2 ],
+            piercing: [ .2, .45 ],
+            thermload: [ -.2, -.31 ]
+          }
+        },
         name: "Sturdy"
       }
     },
@@ -14304,6 +17112,12 @@ module.exports = {
         name: "damage",
         type: "percentage",
         method: "multiplicative"
+      },
+      damagedist: {
+        id: 40,
+        name: "damage",
+        type: "hidden",
+        method: "overwrite"
       },
       distdraw: {
         id: 6,
@@ -14467,6 +17281,12 @@ module.exports = {
         type: "percentage",
         method: "multiplicative"
       },
+      shotspeed: {
+        id: 43,
+        name: "shotspeed",
+        type: "percentage",
+        method: "multiplicative"
+      },
       spinup: {
         id: 32,
         name: "spinup",
@@ -14514,12 +17334,6 @@ module.exports = {
         name: "shieldreinforcement",
         type: "percentage",
         method: "multiplicative"
-      },
-      type: {
-        id: 40,
-        name: "type",
-        type: "alphabetic",
-        method: "overwrite"
       }
     },
     modifierActions: {
@@ -14739,12 +17553,17 @@ module.exports = {
       special_incendiary_rounds: {
         rof: .05263157894736842,
         thermload: 2,
-        type: "T"
+        damagedist: {
+          T: 1
+        }
       },
       special_inertial_impact: {
         damage: .5,
         jitter: 1,
-        type: "KT"
+        damagedist: {
+          K: .5,
+          T: .5
+        }
       },
       special_overload_munitions: {},
       special_phasing_sequence: {
@@ -14867,6 +17686,413 @@ module.exports = {
       trade_weapon_hardness_weapon_heat: {
         piercing: .4,
         thermload: 1
+      }
+    },
+    modules: {
+      am: {
+        blueprints: {
+          AFM_LightWeight: [ 1, 2, 3, 4, 5 ],
+          AFM_Reinforced: [ 1, 2, 3, 4, 5 ],
+          AFM_Shielded: [ 1, 2, 3, 4, 5 ]
+        },
+        modifications: [ "integrity", "power" ]
+      },
+      bh: {
+        blueprints: {
+          Armour_Advanced: [ 1, 2, 3, 4, 5 ],
+          Armour_Explosive: [ 1, 2, 3, 4, 5 ],
+          Armour_HeavyDuty: [ 1, 2, 3, 4, 5 ],
+          Armour_Kinetic: [ 1, 2, 3, 4, 5 ],
+          Armour_Thermic: [ 1, 2, 3, 4, 5 ]
+        },
+        modifications: [ "explres", "hullboost", "kinres", "mass", "thermres" ]
+      },
+      bl: {
+        blueprints: {
+          Weapon_Efficient: [ 1, 2, 3, 4, 5 ],
+          Weapon_LightWeight: [ 1, 2, 3, 4, 5 ],
+          Weapon_LongRange: [ 1, 2, 3, 4, 5 ],
+          Weapon_Overcharged: [ 1, 2, 3, 4, 5 ],
+          Weapon_ShortRange: [ 1, 2, 3, 4, 5 ],
+          Weapon_Sturdy: [ 1, 2, 3, 4, 5 ]
+        },
+        modifications: [ "damage", "damagedist", "distdraw", "fallofffromrange", "integrity", "jitter", "mass", "piercing", "power", "range", "thermload" ]
+      },
+      bsg: {
+        blueprints: {
+          ShieldGenerator_Kinetic: [ 1, 2, 3, 4, 5 ],
+          ShieldGenerator_Optimised: [ 1, 2, 3, 4, 5 ],
+          ShieldGenerator_Reinforced: [ 1, 2, 3, 4, 5 ],
+          ShieldGenerator_Thermic: [ 1, 2, 3, 4, 5 ]
+        },
+        modifications: [ "boot", "brokenregen", "distdraw", "explres", "integrity", "kinres", "mass", "optmass", "optmul", "power", "regen", "thermload", "thermres" ]
+      },
+      c: {
+        blueprints: {
+          Weapon_Efficient: [ 1, 2, 3, 4, 5 ],
+          Weapon_HighCapacity: [ 1, 2, 3, 4, 5 ],
+          Weapon_LightWeight: [ 1, 2, 3, 4, 5 ],
+          Weapon_LongRange: [ 1, 2, 3, 4, 5 ],
+          Weapon_Overcharged: [ 1, 2, 3, 4, 5 ],
+          Weapon_RapidFire: [ 1, 2, 3, 4, 5 ],
+          Weapon_ShortRange: [ 1, 2, 3, 4, 5 ],
+          Weapon_Sturdy: [ 1, 2, 3, 4, 5 ]
+        },
+        modifications: [ "ammo", "clip", "damage", "damagedist", "distdraw", "fallofffromrange", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "shotspeed", "thermload" ]
+      },
+      cc: {
+        blueprints: {
+          CollectionLimpet_LightWeight: [ 1, 2, 3, 4, 5 ],
+          CollectionLimpet_Reinforced: [ 1, 2, 3, 4, 5 ],
+          CollectionLimpet_Shielded: [ 1, 2, 3, 4, 5 ]
+        },
+        modifications: [ "integrity", "mass", "power" ]
+      },
+      ch: {
+        blueprints: {
+          ChaffLauncher_ChaffCapacity: [ 1, 2, 3, 4, 5 ],
+          ChaffLauncher_LightWeight: [ 1, 2, 3, 4, 5 ],
+          ChaffLauncher_Reinforced: [ 1, 2, 3, 4, 5 ],
+          ChaffLauncher_Shielded: [ 1, 2, 3, 4, 5 ]
+        },
+        modifications: [ "ammo", "integrity", "mass", "power", "reload" ]
+      },
+      cr: {
+        blueprints: {},
+        modifications: []
+      },
+      cs: {
+        blueprints: {
+          CargoScanner_LightWeight: [ 1, 2, 3, 4, 5 ],
+          CargoScanner_Reinforced: [ 1, 2, 3, 4, 5 ],
+          CargoScanner_Shielded: [ 1, 2, 3, 4, 5 ]
+        },
+        modifications: [ "boot", "integrity", "mass", "power" ]
+      },
+      dc: {
+        blueprints: {},
+        modifications: []
+      },
+      ec: {
+        blueprints: {
+          ECM_LightWeight: [ 1, 2, 3, 4, 5 ],
+          ECM_Reinforced: [ 1, 2, 3, 4, 5 ],
+          ECM_Shielded: [ 1, 2, 3, 4, 5 ]
+        },
+        modifications: [ "integrity", "mass", "power" ]
+      },
+      fc: {
+        blueprints: {
+          Weapon_DoubleShot: [ 1, 2, 3, 4, 5 ],
+          Weapon_Efficient: [ 1, 2, 3, 4, 5 ],
+          Weapon_HighCapacity: [ 1, 2, 3, 4, 5 ],
+          Weapon_LightWeight: [ 1, 2, 3, 4, 5 ],
+          Weapon_LongRange: [ 1, 2, 3, 4, 5 ],
+          Weapon_Overcharged: [ 1, 2, 3, 4, 5 ],
+          Weapon_RapidFire: [ 1, 2, 3, 4, 5 ],
+          Weapon_Sturdy: [ 1, 2, 3, 4, 5 ]
+        },
+        modifications: [ "ammo", "burst", "burstrof", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "shotspeed", "thermload" ]
+      },
+      fh: {
+        blueprints: {},
+        modifications: []
+      },
+      fi: {
+        blueprints: {
+          FSDinterdictor_Expanded: [ 1, 2, 3, 4 ],
+          FSDinterdictor_LongRange: [ 1, 2, 3 ]
+        },
+        modifications: [ "boot", "facinglimit", "integrity", "mass", "power", "ranget" ]
+      },
+      fs: {
+        blueprints: {
+          FuelScoop_Shielded: [ 1, 2, 3, 4 ]
+        },
+        modifications: [ "integrity", "power" ]
+      },
+      fsd: {
+        blueprints: {
+          FSD_FastBoot: [ 1, 2, 3, 4, 5 ],
+          FSD_LongRange: [ 1, 2, 3, 4, 5 ],
+          FSD_Shielded: [ 1, 2, 3, 4, 5 ]
+        },
+        modifications: [ "boot", "integrity", "mass", "maxfuel", "optmass", "power", "thermload" ]
+      },
+      ft: {
+        blueprints: {},
+        modifications: []
+      },
+      fx: {
+        blueprints: {
+          FuelTransferLimpet_LightWeight: [ 1, 2, 3, 4, 5 ],
+          FuelTransferLimpet_Reinforced: [ 1, 2, 3, 4, 5 ],
+          FuelTransferLimpet_Shielded: [ 1, 2, 3, 4, 5 ]
+        },
+        modifications: [ "integrity", "mass", "power" ]
+      },
+      hb: {
+        blueprints: {
+          HatchBreakerLimpet_LightWeight: [ 1, 2, 3, 4, 5 ],
+          HatchBreakerLimpet_Reinforced: [ 1, 2, 3, 4, 5 ],
+          HatchBreakerLimpet_Shielded: [ 1, 2, 3, 4, 5 ]
+        },
+        modifications: [ "integrity", "mass", "power" ]
+      },
+      hr: {
+        blueprints: {
+          HullReinforcement_Advanced: [ 1, 2, 3, 4, 5 ],
+          HullReinforcement_Explosive: [ 1, 2, 3, 4, 5 ],
+          HullReinforcement_HeavyDuty: [ 1, 2, 3, 4, 5 ],
+          HullReinforcement_Kinetic: [ 1, 2, 3, 4, 5 ],
+          HullReinforcement_Thermic: [ 1, 2, 3, 4, 5 ]
+        },
+        modifications: [ "hullreinforcement", "explres", "hullboost", "kinres", "mass", "thermres" ]
+      },
+      hs: {
+        blueprints: {
+          HeatSinkLauncher_HeatSinkCapacity: [ 3 ],
+          HeatSinkLauncher_LightWeight: [ 1, 2, 3, 4, 5 ],
+          HeatSinkLauncher_Reinforced: [ 1, 2, 3, 4, 5 ],
+          HeatSinkLauncher_Shielded: [ 1, 2, 3, 4, 5 ]
+        },
+        modifications: [ "ammo", "integrity", "mass", "power", "reload" ]
+      },
+      kw: {
+        blueprints: {
+          KillWarrantScanner_LightWeight: [ 1, 2, 3, 4, 5 ],
+          KillWarrantScanner_Reinforced: [ 1, 2, 3, 4, 5 ],
+          KillWarrantScanner_Shielded: [ 1, 2, 3, 4, 5 ]
+        },
+        modifications: [ "boot", "integrity", "mass", "power" ]
+      },
+      ls: {
+        blueprints: {
+          LifeSupport_LightWeight: [ 1, 2, 3, 4, 5 ],
+          LifeSupport_Reinforced: [ 1, 2, 3, 4, 5 ],
+          LifeSupport_Shielded: [ 1, 2, 3, 4, 5 ]
+        },
+        modifications: [ "boot", "integrity", "mass", "power" ]
+      },
+      mc: {
+        blueprints: {
+          Weapon_Efficient: [ 1, 2, 3, 4, 5 ],
+          Weapon_HighCapacity: [ 1, 2, 3, 4, 5 ],
+          Weapon_LightWeight: [ 1, 2, 3, 4, 5 ],
+          Weapon_LongRange: [ 1, 2, 3, 4, 5 ],
+          Weapon_Overcharged: [ 1, 2, 3, 4, 5 ],
+          Weapon_RapidFire: [ 1, 2, 3, 4, 5 ],
+          Weapon_ShortRange: [ 1, 2, 3, 4, 5 ],
+          Weapon_Sturdy: [ 1, 2, 3, 4, 5 ]
+        },
+        modifications: [ "ammo", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "shotspeed", "thermload" ]
+      },
+      ml: {
+        blueprints: {},
+        modifications: []
+      },
+      mr: {
+        blueprints: {
+          Weapon_HighCapacity: [ 1, 2, 3, 4, 5 ],
+          Weapon_LightWeight: [ 1, 2, 3, 4, 5 ],
+          Weapon_RapidFire: [ 1, 2, 3, 4, 5 ],
+          Weapon_Sturdy: [ 1, 2, 3, 4, 5 ]
+        },
+        modifications: [ "ammo", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "reload", "rof", "thermload" ]
+      },
+      mrp: {
+        blueprints: {},
+        modifications: []
+      },
+      nl: {
+        blueprints: {
+          Weapon_HighCapacity: [ 1, 2, 3, 4, 5 ],
+          Weapon_LightWeight: [ 1, 2, 3, 4, 5 ],
+          Weapon_RapidFire: [ 1, 2, 3, 4, 5 ],
+          Weapon_Sturdy: [ 1, 2, 3, 4, 5 ]
+        },
+        modifications: [ "ammo", "boot", "clip", "damage", "damagedist", "fallofffromrange", "integrity", "jitter", "mass", "piercing", "power", "reload", "rof", "thermload" ]
+      },
+      pa: {
+        blueprints: {
+          Weapon_Efficient: [ 1, 2, 3, 4, 5 ],
+          Weapon_Focused: [ 1, 2, 3, 4, 5 ],
+          Weapon_LightWeight: [ 1, 2, 3, 4, 5 ],
+          Weapon_LongRange: [ 1, 2, 3, 4, 5 ],
+          Weapon_Overcharged: [ 1, 2, 3, 4, 5 ],
+          Weapon_RapidFire: [ 1, 2, 3, 4, 5 ],
+          Weapon_ShortRange: [ 1, 2, 3, 4, 5 ],
+          Weapon_Sturdy: [ 1, 2, 3, 4, 5 ]
+        },
+        modifications: [ "ammo", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "shotspeed", "thermload" ]
+      },
+      pas: {
+        blueprints: {},
+        modifications: []
+      },
+      pc: {
+        blueprints: {
+          ProspectingLimpet_LightWeight: [ 1, 2, 3, 4, 5 ],
+          ProspectingLimpet_Reinforced: [ 1, 2, 3, 4, 5 ],
+          ProspectingLimpet_Shielded: [ 1, 2, 3, 4, 5 ]
+        },
+        modifications: [ "integrity", "mass", "power" ]
+      },
+      pce: {
+        blueprints: {},
+        modifications: []
+      },
+      pci: {
+        blueprints: {},
+        modifications: []
+      },
+      pcm: {
+        blueprints: {},
+        modifications: []
+      },
+      pcq: {
+        blueprints: {},
+        modifications: []
+      },
+      pd: {
+        blueprints: {
+          PowerDistributor_HighFrequency: [ 1, 2, 3, 4, 5 ],
+          PowerDistributor_PriorityEngines: [ 1, 2, 3 ],
+          PowerDistributor_HighCapacity: [ 1, 2, 3, 4, 5 ],
+          PowerDistributor_Shielded: [ 1, 2, 3, 4, 5 ],
+          PowerDistributor_PrioritySystems: [ 1, 2, 3 ],
+          PowerDistributor_PriorityWeapons: [ 1, 2, 3 ]
+        },
+        modifications: [ "boot", "engcap", "engrate", "integrity", "mass", "power", "syscap", "sysrate", "wepcap", "weprate" ]
+      },
+      pl: {
+        blueprints: {
+          Weapon_Efficient: [ 1, 2, 3, 4, 5 ],
+          Weapon_Focused: [ 1, 2, 3, 4, 5 ],
+          Weapon_LightWeight: [ 1, 2, 3, 4, 5 ],
+          Weapon_LongRange: [ 1, 2, 3, 4, 5 ],
+          Weapon_Overcharged: [ 1, 2, 3, 4, 5 ],
+          Weapon_RapidFire: [ 1, 2, 3, 4, 5 ],
+          Weapon_ShortRange: [ 1, 2, 3, 4, 5 ],
+          Weapon_Sturdy: [ 1, 2, 3, 4, 5 ]
+        },
+        modifications: [ "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "rof", "thermload" ]
+      },
+      po: {
+        blueprints: {
+          PointDefence_PointDefenseCapacity: [ 3 ],
+          PointDefence_LightWeight: [ 1, 2, 3, 4, 5 ],
+          PointDefence_Reinforced: [ 1, 2, 3, 4, 5 ],
+          PointDefence_Shielded: [ 1, 2, 3, 4, 5 ]
+        },
+        modifications: [ "ammo", "integrity", "mass", "power", "reload" ]
+      },
+      pp: {
+        blueprints: {
+          PowerPlant_Armoured: [ 1, 2, 3, 4, 5 ],
+          PowerPlant_Stealth: [ 1, 2, 3 ],
+          PowerPlant_Boosted: [ 1, 2, 3, 4, 5 ]
+        },
+        modifications: [ "eff", "integrity", "mass", "pgen" ]
+      },
+      psg: {
+        blueprints: {
+          ShieldGenerator_Kinetic: [ 1, 2, 3, 4, 5 ],
+          ShieldGenerator_Optimised: [ 1, 2, 3, 4, 5 ],
+          ShieldGenerator_Reinforced: [ 1, 2, 3, 4, 5 ],
+          ShieldGenerator_Thermic: [ 1, 2, 3, 4, 5 ]
+        },
+        modifications: [ "boot", "brokenregen", "distdraw", "explres", "integrity", "kinres", "mass", "optmass", "optmul", "power", "regen", "thermload", "thermres" ]
+      },
+      pv: {
+        blueprints: {},
+        modifications: []
+      },
+      rf: {
+        blueprints: {
+          Refineries_Shielded: [ 1, 2, 3, 4 ]
+        },
+        modifications: [ "integrity", "power" ]
+      },
+      rg: {
+        blueprints: {
+          Weapon_HighCapacity: [ 1, 2, 3, 4, 5 ],
+          Weapon_LightWeight: [ 1, 2, 3, 4, 5 ],
+          Weapon_LongRange: [ 1, 2, 3, 4, 5 ],
+          Weapon_ShortRange: [ 1, 2, 3, 4, 5 ],
+          Weapon_Sturdy: [ 1, 2, 3, 4, 5 ]
+        },
+        modifications: [ "ammo", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "thermload" ]
+      },
+      s: {
+        blueprints: {},
+        modifications: []
+      },
+      sb: {
+        blueprints: {
+          ShieldBooster_Explosive: [ 1, 2, 3, 4, 5 ],
+          ShieldBooster_HeavyDuty: [ 1, 2, 3, 4, 5 ],
+          ShieldBooster_Kinetic: [ 1, 2, 3, 4, 5 ],
+          ShieldBooster_Resistive: [ 1, 2, 3, 4, 5 ],
+          ShieldBooster_Thermic: [ 1, 2, 3, 4, 5 ]
+        },
+        modifications: [ "explres", "integrity", "kinres", "mass", "power", "shieldboost", "thermres" ]
+      },
+      sc: {
+        blueprints: {},
+        modifications: []
+      },
+      scb: {
+        blueprints: {
+          ShieldCellBank_Rapid: [ 1, 2, 3, 4 ],
+          ShieldCellBank_Specialised: [ 1, 2, 3, 4 ]
+        },
+        modifications: [ "boot", "duration", "integrity", "power", "shieldreinforcement", "spinup", "thermload" ]
+      },
+      sg: {
+        blueprints: {
+          ShieldGenerator_Kinetic: [ 1, 2, 3, 4, 5 ],
+          ShieldGenerator_Optimised: [ 1, 2, 3, 4, 5 ],
+          ShieldGenerator_Reinforced: [ 1, 2, 3, 4, 5 ],
+          ShieldGenerator_Thermic: [ 1, 2, 3, 4, 5 ]
+        },
+        modifications: [ "boot", "brokenregen", "distdraw", "explres", "integrity", "kinres", "mass", "optmass", "optmul", "power", "regen", "thermload", "thermres" ]
+      },
+      t: {
+        blueprints: {
+          Engine_Dirty: [ 1, 2, 3, 4, 5 ],
+          Engine_Reinforced: [ 1, 2, 3, 4, 5 ],
+          Engine_Tuned: [ 1, 2, 3, 4, 5 ]
+        },
+        modifications: [ "integrity", "mass", "optmass", "optmul", "power", "thermload" ]
+      },
+      tp: {
+        blueprints: {
+          Weapon_LightWeight: [ 1, 2, 3, 4, 5 ],
+          Weapon_Sturdy: [ 1, 2, 3, 4, 5 ]
+        },
+        modifications: [ "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "rof", "thermload" ]
+      },
+      ul: {
+        blueprints: {
+          Weapon_Efficient: [ 1, 2, 3, 4, 5 ],
+          Weapon_Focused: [ 1, 2, 3, 4, 5 ],
+          Weapon_LightWeight: [ 1, 2, 3, 4, 5 ],
+          Weapon_LongRange: [ 1, 2, 3, 4, 5 ],
+          Weapon_Overcharged: [ 1, 2, 3, 4, 5 ],
+          Weapon_RapidFire: [ 1, 2, 3, 4, 5 ],
+          Weapon_ShortRange: [ 1, 2, 3, 4, 5 ],
+          Weapon_Sturdy: [ 1, 2, 3, 4, 5 ]
+        },
+        modifications: [ "burst", "burstrof", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "rof", "thermload" ]
+      },
+      ws: {
+        blueprints: {
+          WakeScanner_LightWeight: [ 1, 2, 3, 4, 5 ],
+          WakeScanner_Reinforced: [ 1, 2, 3, 4, 5 ],
+          WakeScanner_Shielded: [ 1, 2, 3, 4, 5 ]
+        },
+        modifications: [ "boot", "integrity", "mass", "power" ]
       }
     },
     specials: {
@@ -15002,46 +18228,6 @@ module.exports = {
         id: 31,
         name: "Thermal shock"
       }
-    },
-    validity: {
-      am: [ "integrity", "power" ],
-      bh: [ "explres", "hullboost", "kinres", "mass", "thermres" ],
-      bl: [ "damage", "distdraw", "fallofffromrange", "integrity", "mass", "piercing", "power", "range", "thermload" ],
-      bsg: [ "boot", "brokenregen", "distdraw", "explres", "integrity", "kinres", "mass", "optmass", "optmul", "power", "regen", "thermload", "thermres" ],
-      c: [ "ammo", "clip", "damage", "distdraw", "fallofffromrange", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "thermload" ],
-      cc: [ "integrity", "mass", "power" ],
-      ch: [ "ammo", "integrity", "mass", "power", "reload" ],
-      cs: [ "boot", "integrity", "mass", "power" ],
-      ec: [ "integrity", "mass", "power" ],
-      fc: [ "ammo", "burst", "burstrof", "clip", "damage", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "thermload", "type" ],
-      fi: [ "boot", "facinglimit", "integrity", "mass", "power", "ranget" ],
-      fs: [ "integrity", "power" ],
-      fsd: [ "boot", "integrity", "mass", "maxfuel", "optmass", "power", "thermload" ],
-      fx: [ "integrity", "mass", "power" ],
-      hb: [ "integrity", "mass", "power" ],
-      hr: [ "hullreinforcement", "explres", "hullboost", "kinres", "mass", "thermres" ],
-      hs: [ "ammo", "integrity", "mass", "power", "reload" ],
-      kw: [ "boot", "integrity", "mass", "power" ],
-      ls: [ "boot", "integrity", "mass", "power" ],
-      mc: [ "ammo", "clip", "damage", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "thermload", "type" ],
-      mr: [ "ammo", "clip", "damage", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "reload", "rof", "thermload" ],
-      nl: [ "ammo", "boot", "clip", "damage", "fallofffromrange", "integrity", "jitter", "mass", "piercing", "power", "reload", "rof", "thermload" ],
-      pa: [ "ammo", "clip", "damage", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "thermload" ],
-      pc: [ "integrity", "mass", "power" ],
-      pd: [ "boot", "engcap", "engrate", "integrity", "mass", "power", "syscap", "sysrate", "wepcap", "weprate" ],
-      pl: [ "damage", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "rof", "thermload" ],
-      po: [ "ammo", "integrity", "mass", "power", "reload" ],
-      pp: [ "eff", "integrity", "mass", "pgen" ],
-      psg: [ "boot", "brokenregen", "distdraw", "explres", "integrity", "kinres", "mass", "optmass", "optmul", "power", "regen", "thermload", "thermres" ],
-      rf: [ "integrity", "power" ],
-      rg: [ "ammo", "clip", "damage", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "thermload" ],
-      sb: [ "explres", "integrity", "kinres", "mass", "power", "shieldboost", "thermres" ],
-      scb: [ "boot", "duration", "integrity", "power", "shieldreinforcement", "spinup", "thermload" ],
-      sg: [ "boot", "brokenregen", "distdraw", "explres", "integrity", "kinres", "mass", "optmass", "optmul", "power", "regen", "thermload", "thermres" ],
-      t: [ "integrity", "mass", "optmass", "optmul", "power", "thermload" ],
-      tp: [ "damage", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "rof", "thermload" ],
-      ul: [ "burst", "burstrof", "damage", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "rof", "thermload" ],
-      ws: [ "boot", "integrity", "mass", "power" ]
     }
   }
 };

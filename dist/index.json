@@ -1683,7 +1683,7 @@
 				"speed": 200,
 				"boost": 260,
 				"boostEnergy": 27,
-				"baseShieldStrength": 610.5,
+				"baseShieldStrength": 555,
 				"baseArmour": 370,
 				"hardness": 70,
 				"hullMass": 900,
@@ -2778,7 +2778,7 @@
 				"speed": 200,
 				"boost": 320,
 				"boostEnergy": 23,
-				"baseShieldStrength": 690,
+				"baseShieldStrength": 600,
 				"baseArmour": 400,
 				"hardness": 70,
 				"hullMass": 1100,
@@ -8184,6 +8184,9 @@
 					"class": 1,
 					"cost": 2200,
 					"damage": 2.04,
+					"damagedist": {
+						"T": 1
+					},
 					"distdraw": 0.3,
 					"edID": 128049381,
 					"eddbID": 823,
@@ -8198,8 +8201,7 @@
 					"range": 3000,
 					"rating": "F",
 					"rof": 3.847,
-					"thermload": 0.3,
-					"type": "T"
+					"thermload": 0.3
 				},
 				{
 					"breachdmg": 1.3,
@@ -8208,6 +8210,9 @@
 					"class": 1,
 					"cost": 6600,
 					"damage": 1.56,
+					"damagedist": {
+						"T": 1
+					},
 					"distdraw": 0.31,
 					"edID": 128049385,
 					"eddbID": 826,
@@ -8222,8 +8227,7 @@
 					"range": 3000,
 					"rating": "G",
 					"rof": 3.987,
-					"thermload": 0.3,
-					"type": "T"
+					"thermload": 0.3
 				},
 				{
 					"breachdmg": 1,
@@ -8232,6 +8236,9 @@
 					"class": 1,
 					"cost": 26000,
 					"damage": 1.18,
+					"damagedist": {
+						"T": 1
+					},
 					"distdraw": 0.19,
 					"edID": 128049388,
 					"eddbID": 829,
@@ -8246,8 +8253,7 @@
 					"range": 3000,
 					"rating": "G",
 					"rof": 3.339,
-					"thermload": 0.2,
-					"type": "T"
+					"thermload": 0.2
 				},
 				{
 					"breachdmg": 3,
@@ -8256,6 +8262,9 @@
 					"class": 2,
 					"cost": 17600,
 					"damage": 3.49,
+					"damagedist": {
+						"T": 1
+					},
 					"distdraw": 0.5,
 					"edID": 128049382,
 					"eddbID": 824,
@@ -8270,8 +8279,7 @@
 					"range": 3000,
 					"rating": "F",
 					"rof": 3.448,
-					"thermload": 0.6,
-					"type": "T"
+					"thermload": 0.6
 				},
 				{
 					"breachdmg": 2.3,
@@ -8280,6 +8288,9 @@
 					"class": 2,
 					"cost": 35400,
 					"damage": 2.68,
+					"damagedist": {
+						"T": 1
+					},
 					"distdraw": 0.54,
 					"edID": 128049386,
 					"eddbID": 827,
@@ -8294,8 +8305,7 @@
 					"range": 3000,
 					"rating": "F",
 					"rof": 3.567,
-					"thermload": 0.5,
-					"type": "T"
+					"thermload": 0.5
 				},
 				{
 					"breachdmg": 1.7,
@@ -8304,6 +8314,9 @@
 					"class": 2,
 					"cost": 132800,
 					"damage": 2.04,
+					"damagedist": {
+						"T": 1
+					},
 					"distdraw": 0.33,
 					"edID": 128049389,
 					"eddbID": 830,
@@ -8318,8 +8331,7 @@
 					"range": 3000,
 					"rating": "F",
 					"rof": 3.037,
-					"thermload": 0.3,
-					"type": "T"
+					"thermload": 0.3
 				},
 				{
 					"breachdmg": 2.4,
@@ -8328,6 +8340,9 @@
 					"class": 2,
 					"cost": 26400,
 					"damage": 2.8,
+					"damagedist": {
+						"T": 1
+					},
 					"distdraw": 0.9,
 					"eddbID": 1483,
 					"falloff": 500,
@@ -8342,8 +8357,7 @@
 					"pp": "Felicia Winters",
 					"rating": "E",
 					"rof": 1.664,
-					"thermload": 1,
-					"type": "T"
+					"thermload": 1
 				},
 				{
 					"breachdmg": 5.1,
@@ -8352,6 +8366,9 @@
 					"class": 3,
 					"cost": 70400,
 					"damage": 5.98,
+					"damagedist": {
+						"T": 1
+					},
 					"distdraw": 0.86,
 					"edID": 128049383,
 					"eddbID": 825,
@@ -8366,8 +8383,7 @@
 					"range": 3000,
 					"rating": "D",
 					"rof": 3.3,
-					"thermload": 1,
-					"type": "T"
+					"thermload": 1
 				},
 				{
 					"breachdmg": 3.9,
@@ -8376,6 +8392,9 @@
 					"class": 3,
 					"cost": 140600,
 					"damage": 4.58,
+					"damagedist": {
+						"T": 1
+					},
 					"distdraw": 0.92,
 					"edID": 128049387,
 					"eddbID": 828,
@@ -8390,8 +8409,7 @@
 					"range": 3000,
 					"rating": "E",
 					"rof": 3.223,
-					"thermload": 0.9,
-					"type": "T"
+					"thermload": 0.9
 				},
 				{
 					"breachdmg": 3,
@@ -8400,6 +8418,9 @@
 					"class": 3,
 					"cost": 400400,
 					"damage": 3.49,
+					"damagedist": {
+						"T": 1
+					},
 					"distdraw": 0.56,
 					"edID": 128049390,
 					"eddbID": 831,
@@ -8414,8 +8435,7 @@
 					"range": 3000,
 					"rating": "F",
 					"rof": 2.705,
-					"thermload": 0.6,
-					"type": "T"
+					"thermload": 0.6
 				},
 				{
 					"breachdmg": 8.7,
@@ -8424,6 +8444,9 @@
 					"class": 4,
 					"cost": 177600,
 					"damage": 10.23,
+					"damagedist": {
+						"T": 1
+					},
 					"distdraw": 1.48,
 					"edID": 128049384,
 					"eddbID": 1539,
@@ -8438,8 +8461,7 @@
 					"range": 3000,
 					"rating": "A",
 					"rof": 2.633,
-					"thermload": 1.6,
-					"type": "T"
+					"thermload": 1.6
 				},
 				{
 					"breachdmg": 6.6,
@@ -8448,6 +8470,9 @@
 					"class": 4,
 					"cost": 877600,
 					"damage": 7.82,
+					"damagedist": {
+						"T": 1
+					},
 					"distdraw": 1.56,
 					"edID": 128681995,
 					"eddbID": 1545,
@@ -8462,8 +8487,7 @@
 					"range": 3000,
 					"rating": "A",
 					"rof": 2.777,
-					"thermload": 1.6,
-					"type": "T"
+					"thermload": 1.6
 				}
 			],
 			"ul": [
@@ -8476,6 +8500,9 @@
 					"class": 1,
 					"cost": 4400,
 					"damage": 1.72,
+					"damagedist": {
+						"T": 1
+					},
 					"distdraw": 0.24,
 					"edID": 128049400,
 					"eddbID": 832,
@@ -8490,8 +8517,7 @@
 					"range": 3000,
 					"rating": "F",
 					"rof": 2,
-					"thermload": 0.4,
-					"type": "T"
+					"thermload": 0.4
 				},
 				{
 					"breachdmg": 5.3,
@@ -8502,6 +8528,9 @@
 					"class": 1,
 					"cost": 8600,
 					"damage": 1.2,
+					"damagedist": {
+						"T": 1
+					},
 					"distdraw": 0.23,
 					"edID": 128049404,
 					"eddbID": 835,
@@ -8516,8 +8545,7 @@
 					"range": 3000,
 					"rating": "G",
 					"rof": 2.23,
-					"thermload": 0.3,
-					"type": "T"
+					"thermload": 0.3
 				},
 				{
 					"breachdmg": 1.92,
@@ -8528,6 +8556,9 @@
 					"class": 1,
 					"cost": 52800,
 					"damage": 0.87,
+					"damagedist": {
+						"T": 1
+					},
 					"distdraw": 0.136,
 					"edID": 128049407,
 					"eddbID": 838,
@@ -8542,8 +8573,7 @@
 					"range": 3000,
 					"rating": "G",
 					"rof": 1.92,
-					"thermload": 0.2,
-					"type": "T"
+					"thermload": 0.2
 				},
 				{
 					"breachdmg": 2,
@@ -8554,6 +8584,9 @@
 					"class": 1,
 					"cost": 8800,
 					"damage": 2.4,
+					"damagedist": {
+						"T": 1
+					},
 					"distdraw": 0.31,
 					"edID": 128671449,
 					"eddbID": 1477,
@@ -8571,8 +8604,7 @@
 					"range": 600,
 					"rating": "F",
 					"rof": 6.6,
-					"thermload": 0.3,
-					"type": "T"
+					"thermload": 0.3
 				},
 				{
 					"breachdmg": 11.1,
@@ -8583,6 +8615,9 @@
 					"class": 2,
 					"cost": 23000,
 					"damage": 3.5,
+					"damagedist": {
+						"T": 1
+					},
 					"distdraw": 0.482,
 					"edID": 128049401,
 					"eddbID": 833,
@@ -8597,8 +8632,7 @@
 					"range": 3000,
 					"rating": "E",
 					"rof": 1.6,
-					"thermload": 0.8,
-					"type": "T"
+					"thermload": 0.8
 				},
 				{
 					"breachdmg": 8.82,
@@ -8609,6 +8643,9 @@
 					"class": 2,
 					"cost": 48500,
 					"damage": 2.45,
+					"damagedist": {
+						"T": 1
+					},
 					"distdraw": 0.468,
 					"edID": 128049405,
 					"eddbID": 836,
@@ -8623,8 +8660,7 @@
 					"range": 3000,
 					"rating": "F",
 					"rof": 1.78,
-					"thermload": 0.7,
-					"type": "T"
+					"thermload": 0.7
 				},
 				{
 					"breachdmg": 3.51,
@@ -8635,6 +8671,9 @@
 					"class": 2,
 					"cost": 162800,
 					"damage": 1.74,
+					"damagedist": {
+						"T": 1
+					},
 					"distdraw": 0.26,
 					"edID": 128049408,
 					"eddbID": 839,
@@ -8649,8 +8688,7 @@
 					"range": 3000,
 					"rating": "F",
 					"rof": 1.57,
-					"thermload": 0.4,
-					"type": "T"
+					"thermload": 0.4
 				},
 				{
 					"breachdmg": 10.53,
@@ -8661,6 +8699,9 @@
 					"class": 3,
 					"cost": 140400,
 					"damage": 7.75,
+					"damagedist": {
+						"T": 1
+					},
 					"distdraw": 1.06,
 					"edID": 128049402,
 					"eddbID": 834,
@@ -8675,8 +8716,7 @@
 					"range": 3000,
 					"rating": "D",
 					"rof": 1.2,
-					"thermload": 1.7,
-					"type": "T"
+					"thermload": 1.7
 				},
 				{
 					"breachdmg": 14.08,
@@ -8687,6 +8727,9 @@
 					"class": 3,
 					"cost": 281600,
 					"damage": 5.18,
+					"damagedist": {
+						"T": 1
+					},
 					"distdraw": 0.986,
 					"edID": 128049406,
 					"eddbID": 837,
@@ -8701,8 +8744,7 @@
 					"range": 3000,
 					"rating": "E",
 					"rof": 1.4,
-					"thermload": 1.4,
-					"type": "T"
+					"thermload": 1.4
 				},
 				{
 					"breachdmg": 5.58,
@@ -8713,6 +8755,9 @@
 					"class": 3,
 					"cost": 800400,
 					"damage": 3.54,
+					"damagedist": {
+						"T": 1
+					},
 					"distdraw": 0.536,
 					"edID": 128049409,
 					"eddbID": 840,
@@ -8727,8 +8772,7 @@
 					"range": 3000,
 					"rating": "E",
 					"rof": 1.272,
-					"thermload": 0.8,
-					"type": "T"
+					"thermload": 0.8
 				},
 				{
 					"breachdmg": 28,
@@ -8739,6 +8783,9 @@
 					"class": 4,
 					"cost": 281600,
 					"damage": 20.6,
+					"damagedist": {
+						"T": 1
+					},
 					"distdraw": 2.84,
 					"edID": 128049403,
 					"eddbID": 1549,
@@ -8753,8 +8800,7 @@
 					"range": 3000,
 					"rating": "E",
 					"rof": 0.8,
-					"thermload": 4.5,
-					"type": "T"
+					"thermload": 4.5
 				},
 				{
 					"breachdmg": 21.63,
@@ -8765,6 +8811,9 @@
 					"class": 4,
 					"cost": 1245600,
 					"damage": 12.1,
+					"damagedist": {
+						"T": 1
+					},
 					"distdraw": 2.31,
 					"edID": 128727920,
 					"eddbID": 1550,
@@ -8779,8 +8828,7 @@
 					"range": 3000,
 					"rating": "E",
 					"rof": 1,
-					"thermload": 3.3,
-					"type": "T"
+					"thermload": 3.3
 				}
 			],
 			"bl": [
@@ -8791,6 +8839,9 @@
 					"class": 1,
 					"cost": 37430,
 					"damage": 9.8,
+					"damagedist": {
+						"T": 1
+					},
 					"distdraw": 1.94,
 					"edID": 128049428,
 					"eddbID": 841,
@@ -8804,8 +8855,7 @@
 					"power": 0.62,
 					"range": 3000,
 					"rating": "E",
-					"thermload": 3.5,
-					"type": "T"
+					"thermload": 3.5
 				},
 				{
 					"breachdmg": 6.1,
@@ -8814,6 +8864,9 @@
 					"class": 1,
 					"cost": 74650,
 					"damage": 7.66,
+					"damagedist": {
+						"T": 1
+					},
 					"distdraw": 2.11,
 					"edID": 128049432,
 					"eddbID": 844,
@@ -8827,8 +8880,7 @@
 					"power": 0.6,
 					"range": 3000,
 					"rating": "E",
-					"thermload": 3.6,
-					"type": "T"
+					"thermload": 3.6
 				},
 				{
 					"breachdmg": 4.3,
@@ -8837,6 +8889,9 @@
 					"class": 1,
 					"cost": 500000,
 					"damage": 5.4,
+					"damagedist": {
+						"T": 1
+					},
 					"distdraw": 1.32,
 					"edID": 128049435,
 					"eddbID": 847,
@@ -8852,8 +8907,7 @@
 					"power": 0.57,
 					"range": 3000,
 					"rating": "F",
-					"thermload": 2.4,
-					"type": "T"
+					"thermload": 2.4
 				},
 				{
 					"breachdmg": 3.9,
@@ -8862,6 +8916,9 @@
 					"class": 1,
 					"cost": 56150,
 					"damage": 4.9,
+					"damagedist": {
+						"T": 1
+					},
 					"distdraw": 2.52,
 					"edID": 128671346,
 					"eddbID": 1476,
@@ -8877,8 +8934,7 @@
 					"pp": "Edmund Mahon",
 					"range": 3000,
 					"rating": "E",
-					"thermload": 2.7,
-					"type": "T"
+					"thermload": 2.7
 				},
 				{
 					"breachdmg": 12.8,
@@ -8887,6 +8943,9 @@
 					"class": 2,
 					"cost": 299520,
 					"damage": 15.96,
+					"damagedist": {
+						"T": 1
+					},
 					"distdraw": 3.16,
 					"edID": 128049429,
 					"eddbID": 842,
@@ -8900,8 +8959,7 @@
 					"power": 1.01,
 					"range": 3000,
 					"rating": "D",
-					"thermload": 5.1,
-					"type": "T"
+					"thermload": 5.1
 				},
 				{
 					"breachdmg": 10,
@@ -8910,6 +8968,9 @@
 					"class": 2,
 					"cost": 500600,
 					"damage": 12.52,
+					"damagedist": {
+						"T": 1
+					},
 					"distdraw": 3.44,
 					"edID": 128049433,
 					"eddbID": 845,
@@ -8923,8 +8984,7 @@
 					"power": 0.99,
 					"range": 3000,
 					"rating": "D",
-					"thermload": 5.3,
-					"type": "T"
+					"thermload": 5.3
 				},
 				{
 					"breachdmg": 7.1,
@@ -8933,6 +8993,9 @@
 					"class": 2,
 					"cost": 2099900,
 					"damage": 8.82,
+					"damagedist": {
+						"T": 1
+					},
 					"distdraw": 2.16,
 					"edID": 128049436,
 					"eddbID": 848,
@@ -8946,8 +9009,7 @@
 					"power": 0.93,
 					"range": 3000,
 					"rating": "E",
-					"thermload": 3.5,
-					"type": "T"
+					"thermload": 3.5
 				},
 				{
 					"breachdmg": 20.6,
@@ -8956,6 +9018,9 @@
 					"class": 3,
 					"cost": 1177600,
 					"damage": 25.78,
+					"damagedist": {
+						"T": 1
+					},
 					"distdraw": 5.1,
 					"edID": 128049430,
 					"eddbID": 843,
@@ -8969,8 +9034,7 @@
 					"power": 1.62,
 					"range": 3000,
 					"rating": "C",
-					"thermload": 7.2,
-					"type": "T"
+					"thermload": 7.2
 				},
 				{
 					"breachdmg": 16.2,
@@ -8979,6 +9043,9 @@
 					"class": 3,
 					"cost": 2396160,
 					"damage": 20.28,
+					"damagedist": {
+						"T": 1
+					},
 					"distdraw": 5.58,
 					"edID": 128049434,
 					"eddbID": 846,
@@ -8992,8 +9059,7 @@
 					"power": 1.6,
 					"range": 3000,
 					"rating": "C",
-					"thermload": 7.6,
-					"type": "T"
+					"thermload": 7.6
 				},
 				{
 					"breachdmg": 11.5,
@@ -9002,6 +9068,9 @@
 					"class": 3,
 					"cost": 19399600,
 					"damage": 14.34,
+					"damagedist": {
+						"T": 1
+					},
 					"distdraw": 3.51,
 					"edID": 128049437,
 					"eddbID": 849,
@@ -9015,8 +9084,7 @@
 					"power": 1.51,
 					"range": 3000,
 					"rating": "D",
-					"thermload": 5.1,
-					"type": "T"
+					"thermload": 5.1
 				},
 				{
 					"breachdmg": 33.1,
@@ -9025,6 +9093,9 @@
 					"class": 4,
 					"cost": 2396160,
 					"damage": 41.38,
+					"damagedist": {
+						"T": 1
+					},
 					"distdraw": 8.19,
 					"edID": 128049431,
 					"eddbID": 1540,
@@ -9038,8 +9109,7 @@
 					"power": 2.61,
 					"range": 3000,
 					"rating": "A",
-					"thermload": 9.9,
-					"type": "T"
+					"thermload": 9.9
 				},
 				{
 					"breachdmg": 26.1,
@@ -9048,6 +9118,9 @@
 					"class": 4,
 					"cost": 8746160,
 					"damage": 32.68,
+					"damagedist": {
+						"T": 1
+					},
 					"distdraw": 8.99,
 					"edID": 128681994,
 					"eddbID": 1544,
@@ -9061,8 +9134,7 @@
 					"power": 2.57,
 					"range": 3000,
 					"rating": "A",
-					"thermload": 10.6,
-					"type": "T"
+					"thermload": 10.6
 				}
 			],
 			"mc": [
@@ -9075,6 +9147,9 @@
 					"clip": 100,
 					"cost": 9500,
 					"damage": 1.12,
+					"damagedist": {
+						"K": 1
+					},
 					"distdraw": 0.06,
 					"edID": 128049455,
 					"eddbID": 867,
@@ -9090,9 +9165,8 @@
 					"rating": "F",
 					"reload": 4,
 					"rof": 7.69,
-					"speed": 1600,
-					"thermload": 0.1,
-					"type": "K"
+					"shotspeed": 1600,
+					"thermload": 0.1
 				},
 				{
 					"ammo": 2100,
@@ -9103,6 +9177,9 @@
 					"clip": 90,
 					"cost": 14250,
 					"damage": 0.82,
+					"damagedist": {
+						"K": 1
+					},
 					"distdraw": 0.07,
 					"edID": 128049459,
 					"eddbID": 869,
@@ -9118,9 +9195,8 @@
 					"rating": "G",
 					"reload": 5,
 					"rof": 8.33,
-					"speed": 1600,
-					"thermload": 0.1,
-					"type": "K"
+					"shotspeed": 1600,
+					"thermload": 0.1
 				},
 				{
 					"ammo": 2100,
@@ -9131,6 +9207,9 @@
 					"clip": 90,
 					"cost": 81600,
 					"damage": 0.56,
+					"damagedist": {
+						"K": 1
+					},
 					"distdraw": 0.03,
 					"edID": 128049462,
 					"eddbID": 871,
@@ -9146,9 +9225,8 @@
 					"rating": "G",
 					"reload": 4,
 					"rof": 7.14,
-					"speed": 1600,
-					"thermload": 0,
-					"type": "K"
+					"shotspeed": 1600,
+					"thermload": 0
 				},
 				{
 					"ammo": 1000,
@@ -9159,6 +9237,9 @@
 					"clip": 60,
 					"cost": 13980,
 					"damage": 2.9,
+					"damagedist": {
+						"K": 1
+					},
 					"distdraw": 0.12,
 					"eddbID": 1481,
 					"falloff": 1800,
@@ -9175,9 +9256,8 @@
 					"rating": "F",
 					"reload": 4,
 					"rof": 4.3,
-					"speed": 1800,
-					"thermload": 0.2,
-					"type": "K"
+					"shotspeed": 1800,
+					"thermload": 0.2
 				},
 				{
 					"ammo": 2100,
@@ -9188,6 +9268,9 @@
 					"clip": 100,
 					"cost": 38000,
 					"damage": 2.19,
+					"damagedist": {
+						"K": 1
+					},
 					"distdraw": 0.11,
 					"edID": 128049456,
 					"eddbID": 868,
@@ -9203,9 +9286,8 @@
 					"rating": "E",
 					"reload": 4,
 					"rof": 7.14,
-					"speed": 1600,
-					"thermload": 0.2,
-					"type": "K"
+					"shotspeed": 1600,
+					"thermload": 0.2
 				},
 				{
 					"ammo": 2100,
@@ -9216,6 +9298,9 @@
 					"clip": 90,
 					"cost": 57000,
 					"damage": 1.64,
+					"damagedist": {
+						"K": 1
+					},
 					"distdraw": 0.14,
 					"edID": 128049460,
 					"eddbID": 870,
@@ -9231,9 +9316,8 @@
 					"rating": "F",
 					"reload": 5,
 					"rof": 7.69,
-					"speed": 1600,
-					"thermload": 0.2,
-					"type": "K"
+					"shotspeed": 1600,
+					"thermload": 0.2
 				},
 				{
 					"ammo": 2100,
@@ -9244,6 +9328,9 @@
 					"clip": 90,
 					"cost": 1292800,
 					"damage": 1.17,
+					"damagedist": {
+						"K": 1
+					},
 					"distdraw": 0.06,
 					"edID": 128049463,
 					"eddbID": 872,
@@ -9259,9 +9346,8 @@
 					"rating": "F",
 					"reload": 4,
 					"rof": 6.25,
-					"speed": 1600,
-					"thermload": 0.1,
-					"type": "K"
+					"shotspeed": 1600,
+					"thermload": 0.1
 				},
 				{
 					"ammo": 2100,
@@ -9272,6 +9358,9 @@
 					"clip": 100,
 					"cost": 140400,
 					"damage": 3.93,
+					"damagedist": {
+						"K": 1
+					},
 					"distdraw": 0.18,
 					"edID": 128049457,
 					"eddbID": 1541,
@@ -9287,9 +9376,8 @@
 					"rating": "C",
 					"reload": 4,
 					"rof": 5.88,
-					"speed": 1600,
-					"thermload": 0.3,
-					"type": "K"
+					"shotspeed": 1600,
+					"thermload": 0.3
 				},
 				{
 					"ammo": 2100,
@@ -9300,6 +9388,9 @@
 					"clip": 90,
 					"cost": 578436,
 					"damage": 2.84,
+					"damagedist": {
+						"K": 1
+					},
 					"distdraw": 0.25,
 					"edID": 128049461,
 					"eddbID": 1543,
@@ -9315,9 +9406,8 @@
 					"rating": "C",
 					"reload": 5,
 					"rof": 6.665,
-					"speed": 1600,
-					"thermload": 0.3,
-					"type": "K"
+					"shotspeed": 1600,
+					"thermload": 0.3
 				},
 				{
 					"ammo": 2100,
@@ -9328,6 +9418,9 @@
 					"clip": 100,
 					"cost": 1177600,
 					"damage": 4.62,
+					"damagedist": {
+						"K": 1
+					},
 					"distdraw": 0.24,
 					"edID": 128049458,
 					"eddbID": 1542,
@@ -9344,9 +9437,8 @@
 					"reload": 4,
 					"rof": 3.03,
 					"roundspershot": 2,
-					"speed": 1600,
-					"thermload": 0.4,
-					"type": "K"
+					"shotspeed": 1600,
+					"thermload": 0.4
 				},
 				{
 					"ammo": 2100,
@@ -9357,6 +9449,9 @@
 					"clip": 90,
 					"cost": 6377600,
 					"damage": 3.46,
+					"damagedist": {
+						"K": 1
+					},
 					"distdraw": 0.37,
 					"edID": 128681996,
 					"eddbID": 1546,
@@ -9373,9 +9468,8 @@
 					"reload": 5,
 					"rof": 3.365,
 					"roundspershot": 2,
-					"speed": 1600,
-					"thermload": 0.5,
-					"type": "K"
+					"shotspeed": 1600,
+					"thermload": 0.5
 				}
 			],
 			"c": [
@@ -9388,6 +9482,9 @@
 					"clip": 6,
 					"cost": 21100,
 					"damage": 22.5,
+					"damagedist": {
+						"K": 1
+					},
 					"distdraw": 0.46,
 					"edID": 128049438,
 					"eddbID": 850,
@@ -9403,9 +9500,8 @@
 					"rating": "D",
 					"reload": 3,
 					"rof": 0.5,
-					"speed": 1200,
-					"thermload": 1.4,
-					"type": "K"
+					"shotspeed": 1200,
+					"thermload": 1.4
 				},
 				{
 					"ammo": 100,
@@ -9416,6 +9512,9 @@
 					"clip": 5,
 					"cost": 42200,
 					"damage": 16,
+					"damagedist": {
+						"K": 1
+					},
 					"distdraw": 0.48,
 					"edID": 128049442,
 					"eddbID": 854,
@@ -9431,9 +9530,8 @@
 					"rating": "E",
 					"reload": 4,
 					"rof": 0.52,
-					"speed": 1000,
-					"thermload": 1.3,
-					"type": "K"
+					"shotspeed": 1000,
+					"thermload": 1.3
 				},
 				{
 					"ammo": 100,
@@ -9444,6 +9542,9 @@
 					"clip": 5,
 					"cost": 506400,
 					"damage": 12.75,
+					"damagedist": {
+						"K": 1
+					},
 					"distdraw": 0.22,
 					"edID": 128049445,
 					"eddbID": 857,
@@ -9459,9 +9560,8 @@
 					"rating": "F",
 					"reload": 4,
 					"rof": 0.435,
-					"speed": 1000,
-					"thermload": 0.7,
-					"type": "K"
+					"shotspeed": 1000,
+					"thermload": 0.7
 				},
 				{
 					"ammo": 120,
@@ -9472,6 +9572,9 @@
 					"clip": 6,
 					"cost": 168430,
 					"damage": 36.5,
+					"damagedist": {
+						"K": 1
+					},
 					"distdraw": 0.7,
 					"edID": 128049439,
 					"eddbID": 851,
@@ -9487,9 +9590,8 @@
 					"rating": "D",
 					"reload": 3,
 					"rof": 0.465,
-					"speed": 1051,
-					"thermload": 2.1,
-					"type": "K"
+					"shotspeed": 1051,
+					"thermload": 2.1
 				},
 				{
 					"ammo": 100,
@@ -9500,6 +9602,9 @@
 					"clip": 5,
 					"cost": 337600,
 					"damage": 24.5,
+					"damagedist": {
+						"K": 1
+					},
 					"distdraw": 0.75,
 					"edID": 128049443,
 					"eddbID": 855,
@@ -9515,9 +9620,8 @@
 					"rating": "D",
 					"reload": 4,
 					"rof": 0.485,
-					"speed": 875,
-					"thermload": 1.9,
-					"type": "K"
+					"shotspeed": 875,
+					"thermload": 1.9
 				},
 				{
 					"ammo": 100,
@@ -9528,6 +9632,9 @@
 					"clip": 5,
 					"cost": 4051200,
 					"damage": 19.77,
+					"damagedist": {
+						"K": 1
+					},
 					"distdraw": 0.34,
 					"edID": 128049446,
 					"eddbID": 858,
@@ -9543,9 +9650,8 @@
 					"rating": "E",
 					"reload": 4,
 					"rof": 0.405,
-					"speed": 875,
-					"thermload": 1,
-					"type": "K"
+					"shotspeed": 875,
+					"thermload": 1
 				},
 				{
 					"ammo": 120,
@@ -9556,6 +9662,9 @@
 					"clip": 6,
 					"cost": 675200,
 					"damage": 54.94,
+					"damagedist": {
+						"K": 1
+					},
 					"distdraw": 1.07,
 					"edID": 128049440,
 					"eddbID": 852,
@@ -9571,9 +9680,8 @@
 					"rating": "C",
 					"reload": 3,
 					"rof": 0.425,
-					"speed": 959,
-					"thermload": 3.2,
-					"type": "K"
+					"shotspeed": 959,
+					"thermload": 3.2
 				},
 				{
 					"ammo": 100,
@@ -9584,6 +9692,9 @@
 					"clip": 5,
 					"cost": 1350400,
 					"damage": 37.39,
+					"damagedist": {
+						"K": 1
+					},
 					"distdraw": 1.14,
 					"edID": 128671120,
 					"eddbID": 1383,
@@ -9601,9 +9712,8 @@
 					"rating": "C",
 					"reload": 4,
 					"rof": 0.445,
-					"speed": 800,
-					"thermload": 2.9,
-					"type": "K"
+					"shotspeed": 800,
+					"thermload": 2.9
 				},
 				{
 					"ammo": 100,
@@ -9614,6 +9724,9 @@
 					"clip": 5,
 					"cost": 16204800,
 					"damage": 30.4,
+					"damagedist": {
+						"K": 1
+					},
 					"distdraw": 0.53,
 					"edID": 128049447,
 					"eddbID": 859,
@@ -9629,9 +9742,8 @@
 					"rating": "D",
 					"reload": 4,
 					"rof": 0.37,
-					"speed": 800,
-					"thermload": 1.6,
-					"type": "K"
+					"shotspeed": 800,
+					"thermload": 1.6
 				},
 				{
 					"ammo": 120,
@@ -9642,6 +9754,9 @@
 					"clip": 6,
 					"cost": 2700800,
 					"damage": 82.1,
+					"damagedist": {
+						"K": 1
+					},
 					"distdraw": 1.61,
 					"edID": 128049441,
 					"eddbID": 853,
@@ -9659,9 +9774,8 @@
 					"rating": "B",
 					"reload": 3,
 					"rof": 0.385,
-					"speed": 900,
-					"thermload": 4.8,
-					"type": "K"
+					"shotspeed": 900,
+					"thermload": 4.8
 				},
 				{
 					"ammo": 100,
@@ -9672,6 +9786,9 @@
 					"clip": 5,
 					"cost": 5401600,
 					"damage": 56.58,
+					"damagedist": {
+						"K": 1
+					},
 					"distdraw": 1.72,
 					"edID": 128049444,
 					"eddbID": 856,
@@ -9689,9 +9806,8 @@
 					"rating": "B",
 					"reload": 4,
 					"rof": 0.4,
-					"speed": 750,
-					"thermload": 4.4,
-					"type": "K"
+					"shotspeed": 750,
+					"thermload": 4.4
 				}
 			],
 			"fc": [
@@ -9704,6 +9820,9 @@
 					"clip": 3,
 					"cost": 36000,
 					"damage": 1.43,
+					"damagedist": {
+						"K": 1
+					},
 					"distdraw": 0.21,
 					"edID": 128049448,
 					"eddbID": 860,
@@ -9721,9 +9840,8 @@
 					"reload": 2.5,
 					"rof": 5.555,
 					"roundspershot": 12,
-					"speed": 667,
-					"thermload": 0.4,
-					"type": "K"
+					"shotspeed": 667,
+					"thermload": 0.4
 				},
 				{
 					"ammo": 180,
@@ -9734,6 +9852,9 @@
 					"clip": 3,
 					"cost": 54720,
 					"damage": 1.01,
+					"damagedist": {
+						"K": 1
+					},
 					"distdraw": 0.26,
 					"edID": 128049451,
 					"eddbID": 863,
@@ -9751,9 +9872,8 @@
 					"reload": 2.5,
 					"rof": 5.88,
 					"roundspershot": 12,
-					"speed": 667,
-					"thermload": 0.4,
-					"type": "K"
+					"shotspeed": 667,
+					"thermload": 0.4
 				},
 				{
 					"ammo": 180,
@@ -9764,6 +9884,9 @@
 					"clip": 3,
 					"cost": 182400,
 					"damage": 0.69,
+					"damagedist": {
+						"K": 1
+					},
 					"distdraw": 0.1,
 					"edID": 128049453,
 					"eddbID": 865,
@@ -9781,9 +9904,8 @@
 					"reload": 2.5,
 					"rof": 4.76,
 					"roundspershot": 12,
-					"speed": 667,
-					"thermload": 0.2,
-					"type": "K"
+					"shotspeed": 667,
+					"thermload": 0.2
 				},
 				{
 					"ammo": 180,
@@ -9794,6 +9916,9 @@
 					"clip": 3,
 					"cost": 291840,
 					"damage": 2.56,
+					"damagedist": {
+						"K": 1
+					},
 					"distdraw": 0.37,
 					"edID": 128049449,
 					"eddbID": 861,
@@ -9811,9 +9936,8 @@
 					"reload": 2.5,
 					"rof": 5,
 					"roundspershot": 12,
-					"speed": 667,
-					"thermload": 0.7,
-					"type": "K"
+					"shotspeed": 667,
+					"thermload": 0.7
 				},
 				{
 					"ammo": 180,
@@ -9824,6 +9948,9 @@
 					"clip": 3,
 					"cost": 437800,
 					"damage": 1.95,
+					"damagedist": {
+						"K": 1
+					},
 					"distdraw": 0.49,
 					"edID": 128049452,
 					"eddbID": 864,
@@ -9841,9 +9968,8 @@
 					"reload": 2.5,
 					"rof": 5.26,
 					"roundspershot": 12,
-					"speed": 667,
-					"thermload": 0.8,
-					"type": "K"
+					"shotspeed": 667,
+					"thermload": 0.8
 				},
 				{
 					"ammo": 180,
@@ -9854,6 +9980,9 @@
 					"clip": 3,
 					"cost": 1459200,
 					"damage": 1.43,
+					"damagedist": {
+						"K": 1
+					},
 					"distdraw": 0.21,
 					"edID": 128049454,
 					"eddbID": 866,
@@ -9871,9 +10000,8 @@
 					"reload": 2.5,
 					"rof": 4.345,
 					"roundspershot": 12,
-					"speed": 667,
-					"thermload": 0.4,
-					"type": "K"
+					"shotspeed": 667,
+					"thermload": 0.4
 				},
 				{
 					"ammo": 180,
@@ -9884,6 +10012,9 @@
 					"clip": 3,
 					"cost": 1167360,
 					"damage": 3.92,
+					"damagedist": {
+						"K": 1
+					},
 					"distdraw": 0.57,
 					"edID": 128049450,
 					"eddbID": 862,
@@ -9901,9 +10032,8 @@
 					"reload": 2.5,
 					"rof": 4.545,
 					"roundspershot": 12,
-					"speed": 667,
-					"thermload": 1.1,
-					"type": "K"
+					"shotspeed": 667,
+					"thermload": 1.1
 				},
 				{
 					"ammo": 180,
@@ -9914,6 +10044,9 @@
 					"clip": 3,
 					"cost": 1751040,
 					"damage": 3.23,
+					"damagedist": {
+						"K": 1
+					},
 					"distdraw": 0.81,
 					"edID": 128671321,
 					"eddbID": 1454,
@@ -9931,9 +10064,8 @@
 					"reload": 2.5,
 					"rof": 4.76,
 					"roundspershot": 12,
-					"speed": 667,
-					"thermload": 1.4,
-					"type": "K"
+					"shotspeed": 667,
+					"thermload": 1.4
 				},
 				{
 					"ammo": 180,
@@ -9944,6 +10076,9 @@
 					"clip": 3,
 					"cost": 5836800,
 					"damage": 2.56,
+					"damagedist": {
+						"K": 1
+					},
 					"distdraw": 0.37,
 					"edID": 128671322,
 					"eddbID": 1455,
@@ -9961,9 +10096,8 @@
 					"reload": 2.5,
 					"rof": 4,
 					"roundspershot": 12,
-					"speed": 667,
-					"thermload": 0.7,
-					"type": "K"
+					"shotspeed": 667,
+					"thermload": 0.7
 				},
 				{
 					"ammo": 180,
@@ -9974,6 +10108,9 @@
 					"clip": 3,
 					"cost": 1400830,
 					"damage": 3.4,
+					"damagedist": {
+						"K": 1
+					},
 					"distdraw": 0.57,
 					"edID": 128671343,
 					"eddbID": 1478,
@@ -9992,9 +10129,8 @@
 					"reload": 2.5,
 					"rof": 4.5,
 					"roundspershot": 12,
-					"speed": 1000,
-					"thermload": 1.1,
-					"type": "K"
+					"shotspeed": 1000,
+					"thermload": 1.1
 				}
 			],
 			"rg": [
@@ -10007,6 +10143,10 @@
 					"clip": 1,
 					"cost": 51600,
 					"damage": 23.3,
+					"damagedist": {
+						"K": 0.5,
+						"T": 0.5
+					},
 					"distdraw": 2.69,
 					"edID": 128049488,
 					"eddbID": 876,
@@ -10022,8 +10162,7 @@
 					"rating": "D",
 					"reload": 1,
 					"rof": 1.6,
-					"thermload": 17.8,
-					"type": "KT"
+					"thermload": 17.8
 				},
 				{
 					"ammo": 80,
@@ -10034,6 +10173,10 @@
 					"clip": 1,
 					"cost": 412800,
 					"damage": 41.5,
+					"damagedist": {
+						"K": 0.5,
+						"T": 0.5
+					},
 					"distdraw": 5.11,
 					"edID": 128049489,
 					"eddbID": 877,
@@ -10049,8 +10192,7 @@
 					"rating": "B",
 					"reload": 1,
 					"rof": 1.2,
-					"thermload": 30,
-					"type": "KT"
+					"thermload": 30
 				},
 				{
 					"ammo": 90,
@@ -10063,6 +10205,10 @@
 					"clip": 3,
 					"cost": 619200,
 					"damage": 15,
+					"damagedist": {
+						"K": 0.5,
+						"T": 0.5
+					},
 					"distdraw": 2,
 					"edID": 128671341,
 					"eddbID": 1484,
@@ -10080,8 +10226,7 @@
 					"rating": "B",
 					"reload": 1,
 					"rof": 4.1,
-					"thermload": 16,
-					"type": "KT"
+					"thermload": 16
 				}
 			],
 			"pa": [
@@ -10094,6 +10239,11 @@
 					"clip": 5,
 					"cost": 834200,
 					"damage": 54.3,
+					"damagedist": {
+						"A": 0.6,
+						"K": 0.2,
+						"T": 0.2
+					},
 					"distdraw": 8.65,
 					"edID": 128049465,
 					"eddbID": 873,
@@ -10109,9 +10259,8 @@
 					"rating": "C",
 					"reload": 6,
 					"rof": 0.33,
-					"speed": 875,
-					"thermload": 15.6,
-					"type": "A"
+					"shotspeed": 875,
+					"thermload": 15.6
 				},
 				{
 					"ammo": 100,
@@ -10122,6 +10271,11 @@
 					"clip": 5,
 					"cost": 3051200,
 					"damage": 83.4,
+					"damagedist": {
+						"A": 0.6,
+						"K": 0.2,
+						"T": 0.2
+					},
 					"distdraw": 13.6,
 					"edID": 128049466,
 					"eddbID": 874,
@@ -10137,9 +10291,8 @@
 					"rating": "B",
 					"reload": 6,
 					"rof": 0.29,
-					"speed": 875,
-					"thermload": 21.8,
-					"type": "A"
+					"shotspeed": 875,
+					"thermload": 21.8
 				},
 				{
 					"ammo": 300,
@@ -10150,6 +10303,11 @@
 					"clip": 20,
 					"cost": 4119120,
 					"damage": 34.5,
+					"damagedist": {
+						"A": 0.6,
+						"K": 0.2,
+						"T": 0.2
+					},
 					"distdraw": 5.5,
 					"edID": 128671339,
 					"eddbID": 1482,
@@ -10167,9 +10325,8 @@
 					"rating": "B",
 					"reload": 6,
 					"rof": 0.8,
-					"speed": 875,
-					"thermload": 11,
-					"type": "A"
+					"shotspeed": 875,
+					"thermload": 11
 				},
 				{
 					"ammo": 100,
@@ -10180,6 +10337,11 @@
 					"clip": 5,
 					"cost": 13793600,
 					"damage": 125.2,
+					"damagedist": {
+						"A": 0.6,
+						"K": 0.2,
+						"T": 0.2
+					},
 					"distdraw": 21.04,
 					"edID": 128049467,
 					"eddbID": 875,
@@ -10195,9 +10357,8 @@
 					"rating": "A",
 					"reload": 6,
 					"rof": 0.25,
-					"speed": 875,
-					"thermload": 29.5,
-					"type": "A"
+					"shotspeed": 875,
+					"thermload": 29.5
 				}
 			],
 			"mr": [
@@ -10210,6 +10371,9 @@
 					"clip": 8,
 					"cost": 32180,
 					"damage": 50,
+					"damagedist": {
+						"E": 1
+					},
 					"distdraw": 0.24,
 					"edID": 128666724,
 					"eddbID": 1326,
@@ -10224,9 +10388,8 @@
 					"rating": "B",
 					"reload": 5,
 					"rof": 0.5,
-					"speed": 750,
-					"thermload": 3.6,
-					"type": "E"
+					"shotspeed": 750,
+					"thermload": 3.6
 				},
 				{
 					"ammo": 6,
@@ -10237,6 +10400,9 @@
 					"clip": 6,
 					"cost": 72600,
 					"damage": 40,
+					"damagedist": {
+						"E": 1
+					},
 					"distdraw": 0.24,
 					"edID": 128049492,
 					"eddbID": 878,
@@ -10251,9 +10417,8 @@
 					"rating": "B",
 					"reload": 12,
 					"rof": 0.333,
-					"speed": 625,
-					"thermload": 3.6,
-					"type": "E"
+					"shotspeed": 625,
+					"thermload": 3.6
 				},
 				{
 					"ammo": 48,
@@ -10264,6 +10429,9 @@
 					"clip": 12,
 					"cost": 240400,
 					"damage": 50,
+					"damagedist": {
+						"E": 1
+					},
 					"distdraw": 0.24,
 					"edID": 128666725,
 					"eddbID": 1327,
@@ -10280,9 +10448,8 @@
 					"rating": "B",
 					"reload": 5,
 					"rof": 0.5,
-					"speed": 750,
-					"thermload": 3.6,
-					"type": "E"
+					"shotspeed": 750,
+					"thermload": 3.6
 				},
 				{
 					"ammo": 18,
@@ -10293,6 +10460,9 @@
 					"clip": 6,
 					"cost": 512400,
 					"damage": 40,
+					"damagedist": {
+						"E": 1
+					},
 					"distdraw": 0.24,
 					"edID": 128049493,
 					"eddbID": 879,
@@ -10309,9 +10479,8 @@
 					"rating": "B",
 					"reload": 12,
 					"rof": 0.333,
-					"speed": 625,
-					"thermload": 3.6,
-					"type": "E"
+					"shotspeed": 625,
+					"thermload": 3.6
 				},
 				{
 					"ammo": 48,
@@ -10322,6 +10491,9 @@
 					"clip": 12,
 					"cost": 190227,
 					"damage": 40,
+					"damagedist": {
+						"E": 1
+					},
 					"distdraw": 0.24,
 					"eddbID": 1559,
 					"grp": "mr",
@@ -10337,9 +10509,8 @@
 					"rating": "B",
 					"reload": 5,
 					"rof": 0.333,
-					"speed": 750,
-					"thermload": 3.6,
-					"type": "E"
+					"shotspeed": 750,
+					"thermload": 3.6
 				},
 				{
 					"ammo": 120,
@@ -10350,6 +10521,9 @@
 					"clip": 12,
 					"cost": 768600,
 					"damage": 7.5,
+					"damagedist": {
+						"E": 1
+					},
 					"distdraw": 0.24,
 					"edID": 128671344,
 					"eddbID": 1480,
@@ -10369,9 +10543,8 @@
 					"reload": 5,
 					"rof": 2,
 					"roundspershot": 4,
-					"speed": 600,
-					"thermload": 3.6,
-					"type": "E"
+					"shotspeed": 600,
+					"thermload": 3.6
 				}
 			],
 			"tp": [
@@ -10384,6 +10557,9 @@
 					"clip": 1,
 					"cost": 11200,
 					"damage": 120,
+					"damagedist": {
+						"E": 1
+					},
 					"distdraw": 0,
 					"edID": 128049509,
 					"eddbID": 882,
@@ -10398,9 +10574,8 @@
 					"rating": "I",
 					"reload": 5,
 					"rof": 1,
-					"speed": 250,
-					"thermload": 45,
-					"type": "E"
+					"shotspeed": 250,
+					"thermload": 45
 				},
 				{
 					"ammo": 2,
@@ -10411,6 +10586,9 @@
 					"clip": 1,
 					"cost": 44800,
 					"damage": 120,
+					"damagedist": {
+						"E": 1
+					},
 					"distdraw": 0,
 					"edID": 128049510,
 					"eddbID": 883,
@@ -10425,9 +10603,8 @@
 					"rating": "I",
 					"reload": 5,
 					"rof": 1,
-					"speed": 250,
-					"thermload": 50,
-					"type": "E"
+					"shotspeed": 250,
+					"thermload": 50
 				}
 			],
 			"nl": [
@@ -10440,6 +10617,10 @@
 					"clip": 3,
 					"cost": 24260,
 					"damage": 44,
+					"damagedist": {
+						"E": 0.5,
+						"T": 0.5
+					},
 					"distdraw": 0,
 					"edID": 128049500,
 					"eddbID": 880,
@@ -10453,8 +10634,7 @@
 					"rating": "I",
 					"reload": 2,
 					"rof": 1,
-					"thermload": 5,
-					"type": "ET"
+					"thermload": 5
 				},
 				{
 					"ammo": 36,
@@ -10465,6 +10645,10 @@
 					"clip": 3,
 					"cost": 36400,
 					"damage": 32,
+					"damagedist": {
+						"E": 0.5,
+						"T": 0.5
+					},
 					"distdraw": 0,
 					"edID": 128671448,
 					"eddbID": 1523,
@@ -10479,8 +10663,7 @@
 					"rating": "I",
 					"reload": 2,
 					"rof": 1,
-					"thermload": 5,
-					"type": "ET"
+					"thermload": 5
 				},
 				{
 					"ammo": 36,
@@ -10491,6 +10674,10 @@
 					"clip": 3,
 					"cost": 294080,
 					"damage": 44,
+					"damagedist": {
+						"E": 0.5,
+						"T": 0.5
+					},
 					"distdraw": 0,
 					"edID": 128049501,
 					"eddbID": 881,
@@ -10504,8 +10691,7 @@
 					"rating": "I",
 					"reload": 2,
 					"rof": 1,
-					"thermload": 7.5,
-					"type": "ET"
+					"thermload": 7.5
 				}
 			],
 			"ml": [
@@ -10516,6 +10702,7 @@
 					"class": 1,
 					"cost": 6800,
 					"damage": 2,
+					"damagedist": {},
 					"distdraw": 1.35,
 					"edID": 128049525,
 					"eddbID": 888,
@@ -10538,6 +10725,9 @@
 					"class": 1,
 					"cost": 13600,
 					"damage": 8,
+					"damagedist": {
+						"T": 1
+					},
 					"distdraw": 1.75,
 					"eddbID": 1479,
 					"falloff": 400,
@@ -10552,8 +10742,7 @@
 					"pp": "Zemina Torval",
 					"range": 2000,
 					"rating": "D",
-					"thermload": 6,
-					"type": "T"
+					"thermload": 6
 				},
 				{
 					"breachdmg": 1.2,
@@ -10562,6 +10751,7 @@
 					"class": 2,
 					"cost": 22580,
 					"damage": 8,
+					"damagedist": {},
 					"distdraw": 1.75,
 					"edID": 128049526,
 					"eddbID": 889,
@@ -10947,25 +11137,28 @@
 					"burst": 4,
 					"burstrof": 15,
 					"class": 0,
-					"clip": 50,
+					"clip": 12,
 					"cost": 18550,
+					"damage": 0.2,
+					"damagedist": {
+						"K": 1
+					},
 					"edID": 128049522,
 					"eddbID": 887,
 					"grp": "po",
 					"id": "03",
 					"integrity": 30,
-					"jitter": 1.5,
+					"jitter": 0.75,
 					"mass": 0.5,
 					"name": "Point Defence",
 					"passive": 1,
 					"power": 0.2,
 					"range": 2500,
 					"rating": "I",
-					"reload": 0,
+					"reload": 0.4,
 					"rof": 10,
-					"speed": 1000,
-					"thermload": 0.1,
-					"type": "K"
+					"shotspeed": 1000,
+					"thermload": 0.1
 				}
 			]
 		},
@@ -14698,7 +14891,7 @@
 					"id": "2i",
 					"mass": 1.3,
 					"name": "Detailed Surface Scanner",
-					"power": 0.6,
+					"power": 0,
 					"rating": "C"
 				}
 			],
@@ -16340,366 +16533,6956 @@
 		"blueprints": {
 			"AFM_LightWeight": {
 				"id": 1,
+				"features": {
+					"1": {
+						"integrity": [
+							-0.2,
+							-0.1
+						],
+						"mass": [
+							-0.3,
+							-0.4
+						]
+					},
+					"2": {
+						"integrity": [
+							-0.3,
+							-0.2
+						],
+						"mass": [
+							-0.4,
+							-0.5
+						]
+					},
+					"3": {
+						"integrity": [
+							-0.4,
+							-0.3
+						],
+						"mass": [
+							-0.5,
+							-0.6
+						]
+					},
+					"4": {
+						"integrity": [
+							-0.5,
+							-0.4
+						],
+						"mass": [
+							-0.6,
+							-0.7
+						]
+					},
+					"5": {
+						"integrity": [
+							-0.6,
+							-0.5
+						],
+						"mass": [
+							-0.7,
+							-0.8
+						]
+					}
+				},
 				"name": "Lightweight"
 			},
 			"AFM_Reinforced": {
 				"id": 2,
+				"features": {
+					"1": {
+						"integrity": [
+							0.2,
+							0.5
+						],
+						"mass": [
+							1,
+							0.4
+						]
+					},
+					"2": {
+						"integrity": [
+							0.4,
+							1
+						],
+						"mass": [
+							1.5,
+							0.8
+						]
+					},
+					"3": {
+						"integrity": [
+							0.6,
+							1.5
+						],
+						"mass": [
+							2,
+							1.2
+						]
+					},
+					"4": {
+						"integrity": [
+							0.8,
+							2
+						],
+						"mass": [
+							2.5,
+							1.6
+						]
+					},
+					"5": {
+						"integrity": [
+							1,
+							2.5
+						],
+						"mass": [
+							3,
+							2
+						]
+					}
+				},
 				"name": "Reinforced"
 			},
 			"AFM_Shielded": {
 				"id": 3,
+				"features": {
+					"1": {
+						"integrity": [
+							0.2,
+							0.5
+						],
+						"power": [
+							0.31,
+							0.2
+						]
+					},
+					"2": {
+						"integrity": [
+							0.39,
+							1
+						],
+						"power": [
+							0.61,
+							0.4
+						]
+					},
+					"3": {
+						"integrity": [
+							0.61,
+							1.5
+						],
+						"power": [
+							0.89,
+							0.61
+						]
+					},
+					"4": {
+						"integrity": [
+							0.81,
+							2
+						],
+						"power": [
+							1.2,
+							0.79
+						]
+					},
+					"5": {
+						"integrity": [
+							1,
+							2.5
+						],
+						"power": [
+							1.5,
+							1
+						]
+					}
+				},
 				"name": "Shielded"
 			},
-			"Armour_Advanced": {
+			"Armour_Kinetic": {
 				"id": 4,
-				"name": "Kinetic resistant"
+				"features": {
+					"1": {
+						"explres": [
+							-0.056,
+							-0.028
+						],
+						"kinres": [
+							0.06,
+							0.096
+						],
+						"thermres": [
+							-0.04,
+							-0.02
+						]
+					},
+					"2": {
+						"explres": [
+							-0.112,
+							-0.056
+						],
+						"kinres": [
+							0.12,
+							0.192
+						],
+						"thermres": [
+							-0.08,
+							-0.04
+						]
+					},
+					"3": {
+						"explres": [
+							-0.168,
+							-0.084
+						],
+						"kinres": [
+							0.18,
+							0.288
+						],
+						"thermres": [
+							-0.12,
+							-0.06
+						]
+					},
+					"4": {
+						"explres": [
+							-0.224,
+							-0.112
+						],
+						"kinres": [
+							0.24,
+							0.384
+						],
+						"thermres": [
+							-0.16,
+							-0.08
+						]
+					},
+					"5": {
+						"explres": [
+							-0.28,
+							-0.14
+						],
+						"kinres": [
+							0.3,
+							0.48
+						],
+						"thermres": [
+							-0.2,
+							-0.1
+						]
+					}
+				},
+				"name": "Kinetic Resistant"
 			},
 			"Armour_Explosive": {
 				"id": 5,
+				"features": {
+					"1": {
+						"explres": [
+							0.07,
+							0.112
+						],
+						"kinres": [
+							-0.048,
+							-0.024
+						],
+						"thermres": [
+							-0.04,
+							-0.02
+						]
+					},
+					"2": {
+						"explres": [
+							0.14,
+							0.224
+						],
+						"kinres": [
+							-0.096,
+							-0.048
+						],
+						"thermres": [
+							-0.08,
+							-0.04
+						]
+					},
+					"3": {
+						"explres": [
+							0.21,
+							0.336
+						],
+						"kinres": [
+							-0.144,
+							-0.072
+						],
+						"thermres": [
+							-0.12,
+							-0.06
+						]
+					},
+					"4": {
+						"explres": [
+							0.28,
+							0.448
+						],
+						"kinres": [
+							-0.192,
+							-0.096
+						],
+						"thermres": [
+							-0.16,
+							-0.08
+						]
+					},
+					"5": {
+						"explres": [
+							0.35,
+							0.56
+						],
+						"kinres": [
+							-0.24,
+							-0.12
+						],
+						"thermres": [
+							-0.2,
+							-0.1
+						]
+					}
+				},
 				"name": "Blast Resistant"
 			},
-			"Armour_LightWeight": {
+			"Armour_Advanced": {
 				"id": 6,
+				"features": {
+					"1": {
+						"explres": [
+							0,
+							0.028
+						],
+						"hullboost": [
+							-0.03,
+							0
+						],
+						"kinres": [
+							0,
+							0.024
+						],
+						"mass": [
+							-0.04,
+							-0.15
+						],
+						"thermres": [
+							0,
+							0.02
+						]
+					},
+					"2": {
+						"explres": [
+							0.014,
+							0.056
+						],
+						"hullboost": [
+							-0.02,
+							-0.01
+						],
+						"kinres": [
+							0.012,
+							0.048
+						],
+						"mass": [
+							-0.08,
+							-0.25
+						],
+						"thermres": [
+							0.01,
+							0.04
+						]
+					},
+					"3": {
+						"explres": [
+							0.028,
+							0.084
+						],
+						"hullboost": [
+							-0.07,
+							-0.05
+						],
+						"kinres": [
+							0.024,
+							0.072
+						],
+						"mass": [
+							-0.12,
+							-0.35
+						],
+						"thermres": [
+							0.02,
+							0.06
+						]
+					},
+					"4": {
+						"explres": [
+							0.042,
+							0.112
+						],
+						"hullboost": [
+							-0.09,
+							-0.07
+						],
+						"kinres": [
+							0.036,
+							0.096
+						],
+						"mass": [
+							-0.16,
+							-0.45
+						],
+						"thermres": [
+							0.03,
+							0.08
+						]
+					},
+					"5": {
+						"explres": [
+							0.056,
+							0.14
+						],
+						"hullboost": [
+							-0.12,
+							-0.09
+						],
+						"kinres": [
+							0.048,
+							0.12
+						],
+						"mass": [
+							-0.2,
+							-0.55
+						],
+						"thermres": [
+							0.04,
+							0.1
+						]
+					}
+				},
 				"name": "Lightweight"
 			},
 			"Armour_HeavyDuty": {
 				"id": 7,
+				"features": {
+					"1": {
+						"explres": [
+							0,
+							0.014
+						],
+						"hullboost": [
+							0.08,
+							0.22
+						],
+						"kinres": [
+							0,
+							0.012
+						],
+						"mass": [
+							0.08,
+							0
+						],
+						"thermres": [
+							0,
+							0.01
+						]
+					},
+					"2": {
+						"explres": [
+							0.014,
+							0.028
+						],
+						"hullboost": [
+							0.18,
+							0.34
+						],
+						"kinres": [
+							0.012,
+							0.024
+						],
+						"mass": [
+							0.15,
+							0.04
+						],
+						"thermres": [
+							0.01,
+							0.02
+						]
+					},
+					"3": {
+						"explres": [
+							0.028,
+							0.042
+						],
+						"hullboost": [
+							0.28,
+							0.45
+						],
+						"kinres": [
+							0.024,
+							0.036
+						],
+						"mass": [
+							0.23,
+							0.1
+						],
+						"thermres": [
+							0.02,
+							0.03
+						]
+					},
+					"4": {
+						"explres": [
+							0.042,
+							0.056
+						],
+						"hullboost": [
+							0.35,
+							0.56
+						],
+						"kinres": [
+							0.036,
+							0.048
+						],
+						"mass": [
+							0.31,
+							0.14
+						],
+						"thermres": [
+							0.03,
+							0.04
+						]
+					},
+					"5": {
+						"explres": [
+							0.056,
+							0.07
+						],
+						"hullboost": [
+							0.45,
+							0.68
+						],
+						"kinres": [
+							0.048,
+							0.06
+						],
+						"mass": [
+							0.39,
+							0.2
+						],
+						"thermres": [
+							0.04,
+							0.05
+						]
+					}
+				},
 				"name": "Heavy Duty"
 			},
 			"Armour_Thermic": {
 				"id": 8,
+				"features": {
+					"1": {
+						"explres": [
+							-0.056,
+							-0.028
+						],
+						"kinres": [
+							-0.048,
+							-0.024
+						],
+						"thermres": [
+							0.05,
+							0.08
+						]
+					},
+					"2": {
+						"explres": [
+							-0.112,
+							-0.056
+						],
+						"kinres": [
+							-0.096,
+							-0.048
+						],
+						"thermres": [
+							0.1,
+							0.16
+						]
+					},
+					"3": {
+						"explres": [
+							-0.168,
+							-0.084
+						],
+						"kinres": [
+							-0.144,
+							-0.072
+						],
+						"thermres": [
+							0.15,
+							0.24
+						]
+					},
+					"4": {
+						"explres": [
+							-0.224,
+							-0.112
+						],
+						"kinres": [
+							-0.192,
+							-0.096
+						],
+						"thermres": [
+							0.2,
+							0.32
+						]
+					},
+					"5": {
+						"explres": [
+							-0.28,
+							-0.14
+						],
+						"kinres": [
+							-0.24,
+							-0.12
+						],
+						"thermres": [
+							0.25,
+							0.4
+						]
+					}
+				},
 				"name": "Thermal Resistant"
 			},
 			"CargoScanner_LightWeight": {
 				"id": 9,
+				"features": {
+					"1": {
+						"integrity": [
+							-0.2,
+							-0.1
+						],
+						"mass": [
+							-0.31,
+							-0.4
+						]
+					},
+					"2": {
+						"integrity": [
+							-0.31,
+							-0.2
+						],
+						"mass": [
+							-0.4,
+							-0.5
+						]
+					},
+					"3": {
+						"integrity": [
+							-0.4,
+							-0.31
+						],
+						"mass": [
+							-0.5,
+							-0.61
+						]
+					},
+					"4": {
+						"integrity": [
+							-0.5,
+							-0.4
+						],
+						"mass": [
+							-0.6,
+							-0.7
+						]
+					},
+					"5": {
+						"integrity": [
+							-0.6,
+							-0.5
+						],
+						"mass": [
+							-0.7,
+							-0.8
+						]
+					}
+				},
 				"name": "Lightweight"
 			},
 			"CargoScanner_Reinforced": {
 				"id": 10,
+				"features": {
+					"1": {
+						"integrity": [
+							0.2,
+							0.5
+						],
+						"mass": [
+							1,
+							0.39
+						]
+					},
+					"2": {
+						"integrity": [
+							0.39,
+							1
+						],
+						"mass": [
+							1.5,
+							0.79
+						]
+					},
+					"3": {
+						"integrity": [
+							0.61,
+							1.5
+						],
+						"mass": [
+							2,
+							1.2
+						]
+					},
+					"4": {
+						"integrity": [
+							0.8,
+							2
+						],
+						"mass": [
+							2.5,
+							1.6
+						]
+					},
+					"5": {
+						"integrity": [
+							1,
+							2.5
+						],
+						"mass": [
+							3,
+							2
+						]
+					}
+				},
 				"name": "Reinforced"
 			},
 			"CargoScanner_Shielded": {
 				"id": 11,
+				"features": {
+					"1": {
+						"integrity": [
+							0.2,
+							0.5
+						],
+						"power": [
+							0.29,
+							0.2
+						]
+					},
+					"2": {
+						"integrity": [
+							0.39,
+							1
+						],
+						"power": [
+							0.61,
+							0.39
+						]
+					},
+					"3": {
+						"integrity": [
+							0.61,
+							1.5
+						],
+						"power": [
+							0.89,
+							0.61
+						]
+					},
+					"4": {
+						"integrity": [
+							0.8,
+							2
+						],
+						"power": [
+							1.2,
+							0.8
+						]
+					},
+					"5": {
+						"integrity": [
+							1,
+							1.5
+						],
+						"power": [
+							1.5,
+							1
+						]
+					}
+				},
 				"name": "Shielded"
 			},
 			"ChaffLauncher_ChaffCapacity": {
 				"id": 12,
+				"features": {
+					"3": {
+						"ammo": [
+							0.2,
+							0.5
+						],
+						"mass": [
+							2,
+							1
+						],
+						"reload": [
+							0.3,
+							0.1
+						]
+					}
+				},
 				"name": "Ammo capacity"
 			},
 			"ChaffLauncher_LightWeight": {
 				"id": 13,
+				"features": {
+					"1": {
+						"integrity": [
+							-0.2,
+							-0.1
+						],
+						"mass": [
+							-0.3,
+							-0.4
+						]
+					},
+					"2": {
+						"integrity": [
+							-0.3,
+							-0.2
+						],
+						"mass": [
+							-0.4,
+							-0.5
+						]
+					},
+					"3": {
+						"integrity": [
+							-0.4,
+							-0.4
+						],
+						"mass": [
+							-0.5,
+							-0.6
+						]
+					},
+					"4": {
+						"integrity": [
+							-0.5,
+							-0.4
+						],
+						"mass": [
+							-0.6,
+							-0.7
+						]
+					},
+					"5": {
+						"integrity": [
+							-0.6,
+							-0.5
+						],
+						"mass": [
+							-0.7,
+							-0.8
+						]
+					}
+				},
 				"name": "Lightweight"
 			},
 			"ChaffLauncher_Reinforced": {
 				"id": 14,
+				"features": {
+					"1": {
+						"integrity": [
+							0.2,
+							0.5
+						],
+						"mass": [
+							1,
+							0.4
+						]
+					},
+					"2": {
+						"integrity": [
+							0.4,
+							1
+						],
+						"mass": [
+							1.5,
+							0.8
+						]
+					},
+					"3": {
+						"integrity": [
+							0.6,
+							1.5
+						],
+						"mass": [
+							2,
+							1.2
+						]
+					},
+					"4": {
+						"integrity": [
+							0.8,
+							2
+						],
+						"mass": [
+							2.5,
+							1.6
+						]
+					},
+					"5": {
+						"integrity": [
+							1,
+							2.5
+						],
+						"mass": [
+							3,
+							2
+						]
+					}
+				},
 				"name": "Reinforced"
 			},
 			"ChaffLauncher_Shielded": {
 				"id": 15,
+				"features": {
+					"1": {
+						"integrity": [
+							0.2,
+							0.5
+						],
+						"power": [
+							0.3,
+							0.2
+						]
+					},
+					"2": {
+						"integrity": [
+							0.4,
+							1
+						],
+						"power": [
+							0.6,
+							0.4
+						]
+					},
+					"3": {
+						"integrity": [
+							0.6,
+							1.5
+						],
+						"power": [
+							0.9,
+							0.6
+						]
+					},
+					"4": {
+						"integrity": [
+							0.8,
+							2
+						],
+						"power": [
+							1.2,
+							0.8
+						]
+					},
+					"5": {
+						"integrity": [
+							1,
+							1.5
+						],
+						"power": [
+							1.5,
+							1
+						]
+					}
+				},
 				"name": "Shielded"
 			},
 			"CollectionLimpet_LightWeight": {
 				"id": 16,
+				"features": {
+					"1": {
+						"integrity": [
+							-0.2,
+							-0.1
+						],
+						"mass": [
+							-0.3,
+							-0.4
+						]
+					},
+					"2": {
+						"integrity": [
+							-0.3,
+							-0.2
+						],
+						"mass": [
+							-0.4,
+							-0.5
+						]
+					},
+					"3": {
+						"integrity": [
+							-0.4,
+							-0.3
+						],
+						"mass": [
+							-0.5,
+							-0.6
+						]
+					},
+					"4": {
+						"integrity": [
+							-0.5,
+							-0.4
+						],
+						"mass": [
+							-0.6,
+							-0.7
+						]
+					},
+					"5": {
+						"integrity": [
+							-0.6,
+							-0.5
+						],
+						"mass": [
+							-0.7,
+							-0.8
+						]
+					}
+				},
 				"name": "Lightweight"
 			},
 			"CollectionLimpet_Reinforced": {
 				"id": 17,
+				"features": {
+					"1": {
+						"integrity": [
+							0.2,
+							0.5
+						],
+						"mass": [
+							1,
+							0.4
+						]
+					},
+					"2": {
+						"integrity": [
+							0.4,
+							1
+						],
+						"mass": [
+							1.5,
+							0.8
+						]
+					},
+					"3": {
+						"integrity": [
+							0.6,
+							1.5
+						],
+						"mass": [
+							2,
+							1.2
+						]
+					},
+					"4": {
+						"integrity": [
+							0.8,
+							2
+						],
+						"mass": [
+							2.5,
+							1.6
+						]
+					},
+					"5": {
+						"integrity": [
+							1,
+							2.5
+						],
+						"mass": [
+							3,
+							2
+						]
+					}
+				},
 				"name": "Reinforced"
 			},
 			"CollectionLimpet_Shielded": {
 				"id": 18,
+				"features": {
+					"1": {
+						"integrity": [
+							0.2,
+							0.5
+						],
+						"power": [
+							0.3,
+							0.2
+						]
+					},
+					"2": {
+						"integrity": [
+							0.4,
+							1
+						],
+						"power": [
+							0.6,
+							0.4
+						]
+					},
+					"3": {
+						"integrity": [
+							0.6,
+							1.5
+						],
+						"power": [
+							0.9,
+							0.6
+						]
+					},
+					"4": {
+						"integrity": [
+							0.8,
+							2
+						],
+						"power": [
+							1.2,
+							0.8
+						]
+					},
+					"5": {
+						"integrity": [
+							1,
+							1.5
+						],
+						"power": [
+							1.5,
+							1
+						]
+					}
+				},
 				"name": "Shielded"
 			},
 			"ECM_LightWeight": {
 				"id": 19,
+				"features": {
+					"1": {
+						"integrity": [
+							-0.2,
+							-0.1
+						],
+						"mass": [
+							-0.3,
+							-0.4
+						]
+					},
+					"2": {
+						"integrity": [
+							-0.3,
+							-0.2
+						],
+						"mass": [
+							-0.4,
+							-0.5
+						]
+					},
+					"3": {
+						"integrity": [
+							-0.4,
+							-0.3
+						],
+						"mass": [
+							-0.5,
+							-0.6
+						]
+					},
+					"4": {
+						"integrity": [
+							-0.5,
+							-0.4
+						],
+						"mass": [
+							-0.6,
+							-0.7
+						]
+					},
+					"5": {
+						"integrity": [
+							-0.6,
+							-0.5
+						],
+						"mass": [
+							-0.7,
+							-0.8
+						]
+					}
+				},
 				"name": "Lightweight"
 			},
 			"ECM_Reinforced": {
 				"id": 20,
+				"features": {
+					"1": {
+						"integrity": [
+							0.2,
+							0.5
+						],
+						"mass": [
+							1,
+							0.4
+						]
+					},
+					"2": {
+						"integrity": [
+							0.4,
+							1
+						],
+						"mass": [
+							1.5,
+							0.8
+						]
+					},
+					"3": {
+						"integrity": [
+							0.6,
+							1.5
+						],
+						"mass": [
+							2,
+							1.2
+						]
+					},
+					"4": {
+						"integrity": [
+							0.8,
+							2
+						],
+						"mass": [
+							2.5,
+							1.6
+						]
+					},
+					"5": {
+						"integrity": [
+							1,
+							2.5
+						],
+						"mass": [
+							3,
+							2
+						]
+					}
+				},
 				"name": "Reinforced"
 			},
 			"ECM_Shielded": {
 				"id": 21,
+				"features": {
+					"1": {
+						"integrity": [
+							0.2,
+							0.5
+						],
+						"power": [
+							0.3,
+							0.2
+						]
+					},
+					"2": {
+						"integrity": [
+							0.4,
+							1
+						],
+						"power": [
+							0.6,
+							0.4
+						]
+					},
+					"3": {
+						"integrity": [
+							0.6,
+							1.5
+						],
+						"power": [
+							0.9,
+							0.6
+						]
+					},
+					"4": {
+						"integrity": [
+							0.8,
+							2
+						],
+						"power": [
+							1.2,
+							0.8
+						]
+					},
+					"5": {
+						"integrity": [
+							1,
+							1.5
+						],
+						"power": [
+							1.5,
+							1
+						]
+					}
+				},
 				"name": "Shielded"
 			},
 			"Engine_Dirty": {
 				"id": 22,
+				"features": {
+					"1": {
+						"integrity": [
+							-0.06,
+							0
+						],
+						"optmass": [
+							-0.03,
+							0
+						],
+						"optmul": [
+							0.05,
+							0.1
+						],
+						"power": [
+							-0.04,
+							0
+						],
+						"thermload": [
+							-0.2,
+							0
+						]
+					},
+					"2": {
+						"integrity": [
+							-0.12,
+							0.02
+						],
+						"optmass": [
+							-0.06,
+							-0.01
+						],
+						"optmul": [
+							0.1,
+							0.15
+						],
+						"power": [
+							-0.08,
+							0.02
+						],
+						"thermload": [
+							-0.4,
+							0.1
+						]
+					},
+					"3": {
+						"integrity": [
+							-0.18,
+							0.04
+						],
+						"optmass": [
+							-0.09,
+							-0.02
+						],
+						"optmul": [
+							0.15,
+							0.2
+						],
+						"power": [
+							-0.12,
+							0.04
+						],
+						"thermload": [
+							-0.6,
+							0.2
+						]
+					},
+					"4": {
+						"integrity": [
+							-0.24,
+							0.06
+						],
+						"optmass": [
+							-0.12,
+							-0.03
+						],
+						"optmul": [
+							0.2,
+							0.25
+						],
+						"power": [
+							-0.16,
+							0.06
+						],
+						"thermload": [
+							-0.8,
+							0.3
+						]
+					},
+					"5": {
+						"integrity": [
+							-0.3,
+							0.08
+						],
+						"optmass": [
+							-0.15,
+							-0.04
+						],
+						"optmul": [
+							0.25,
+							0.3
+						],
+						"power": [
+							-0.2,
+							0.08
+						],
+						"thermload": [
+							-1,
+							0.4
+						]
+					}
+				},
 				"name": "Dirty"
 			},
 			"Engine_Reinforced": {
 				"id": 23,
+				"features": {
+					"1": {
+						"integrity": [
+							0.15,
+							0.3
+						],
+						"mass": [
+							0.1,
+							0
+						],
+						"optmul": [
+							-0.02,
+							0
+						],
+						"thermload": [
+							0,
+							-0.1
+						]
+					},
+					"2": {
+						"integrity": [
+							0.3,
+							0.5
+						],
+						"mass": [
+							0.2,
+							0.05
+						],
+						"optmul": [
+							-0.04,
+							-0.01
+						],
+						"thermload": [
+							-0.05,
+							-0.2
+						]
+					},
+					"3": {
+						"integrity": [
+							0.45,
+							0.7
+						],
+						"mass": [
+							0.3,
+							0.1
+						],
+						"optmul": [
+							-0.06,
+							-0.02
+						],
+						"thermload": [
+							-0.1,
+							-0.3
+						]
+					},
+					"4": {
+						"integrity": [
+							0.6,
+							0.9
+						],
+						"mass": [
+							0.4,
+							0.15
+						],
+						"optmul": [
+							-0.08,
+							-0.04
+						],
+						"thermload": [
+							-0.15,
+							-0.4
+						]
+					},
+					"5": {
+						"integrity": [
+							0.75,
+							1.1
+						],
+						"mass": [
+							0.5,
+							0.2
+						],
+						"optmul": [
+							-0.1,
+							-0.04
+						],
+						"thermload": [
+							-0.2,
+							-0.5
+						]
+					}
+				},
 				"name": "Reinforced"
 			},
 			"Engine_Tuned": {
 				"id": 24,
+				"features": {
+					"1": {
+						"integrity": [
+							-0.05,
+							0
+						],
+						"optmass": [
+							-0.02,
+							0
+						],
+						"optmul": [
+							0.02,
+							0.06
+						],
+						"power": [
+							0.05,
+							0
+						],
+						"thermload": [
+							-0.05,
+							-0.2
+						]
+					},
+					"2": {
+						"integrity": [
+							-0.1,
+							-0.04
+						],
+						"optmass": [
+							-0.04,
+							-0.01
+						],
+						"optmul": [
+							0.04,
+							0.09
+						],
+						"power": [
+							0.1,
+							0.04
+						],
+						"thermload": [
+							-0.1,
+							-0.3
+						]
+					},
+					"3": {
+						"integrity": [
+							-0.15,
+							-0.08
+						],
+						"optmass": [
+							-0.06,
+							-0.02
+						],
+						"optmul": [
+							0.06,
+							0.12
+						],
+						"power": [
+							0.15,
+							0.08
+						],
+						"thermload": [
+							-0.15,
+							-0.4
+						]
+					},
+					"4": {
+						"integrity": [
+							-0.2,
+							-0.12
+						],
+						"optmass": [
+							-0.08,
+							-0.03
+						],
+						"optmul": [
+							0.08,
+							0.15
+						],
+						"power": [
+							0.2,
+							0.12
+						],
+						"thermload": [
+							-0.2,
+							-0.5
+						]
+					},
+					"5": {
+						"integrity": [
+							-0.25,
+							-0.16
+						],
+						"optmass": [
+							-0.12,
+							-0.04
+						],
+						"optmul": [
+							0.1,
+							0.18
+						],
+						"power": [
+							0.25,
+							0.16
+						],
+						"thermload": [
+							-0.25,
+							-0.6
+						]
+					}
+				},
 				"name": "Clean"
 			},
 			"FSD_FastBoot": {
 				"id": 25,
+				"features": {
+					"1": {
+						"boot": [
+							-0.1,
+							-0.2
+						],
+						"integrity": [
+							-0.05,
+							0
+						],
+						"power": [
+							0.04,
+							0
+						],
+						"thermload": [
+							0.05,
+							0
+						]
+					},
+					"2": {
+						"boot": [
+							-0.2,
+							-0.35
+						],
+						"integrity": [
+							-0.1,
+							-0.03
+						],
+						"power": [
+							0.1,
+							0.02
+						],
+						"thermload": [
+							0.1,
+							0.05
+						]
+					},
+					"3": {
+						"boot": [
+							-0.3,
+							-0.5
+						],
+						"integrity": [
+							-0.15,
+							-0.06
+						],
+						"power": [
+							0.14,
+							0.05
+						],
+						"thermload": [
+							0.15,
+							0.1
+						]
+					},
+					"4": {
+						"boot": [
+							-0.4,
+							-0.65
+						],
+						"integrity": [
+							-0.2,
+							-0.09
+						],
+						"power": [
+							0.2,
+							0.09
+						],
+						"thermload": [
+							0.2,
+							0.15
+						]
+					},
+					"5": {
+						"boot": [
+							-0.5,
+							-0.8
+						],
+						"integrity": [
+							-0.25,
+							-0.12
+						],
+						"power": [
+							0.25,
+							0.11
+						],
+						"thermload": [
+							0.25,
+							0.2
+						]
+					}
+				},
 				"name": "Faster boot sequence"
 			},
 			"FSD_LongRange": {
 				"id": 26,
+				"features": {
+					"1": {
+						"integrity": [
+							-0.05,
+							0
+						],
+						"mass": [
+							0.05,
+							0
+						],
+						"optmass": [
+							0.04,
+							0.1
+						],
+						"power": [
+							0.04,
+							0
+						]
+					},
+					"2": {
+						"integrity": [
+							-0.1,
+							-0.03
+						],
+						"mass": [
+							0.14,
+							0.05
+						],
+						"optmass": [
+							0.08,
+							0.2
+						],
+						"power": [
+							0.1,
+							0.02
+						]
+					},
+					"3": {
+						"integrity": [
+							-0.15,
+							-0.06
+						],
+						"mass": [
+							0.25,
+							0.1
+						],
+						"optmass": [
+							0.12,
+							0.3
+						],
+						"power": [
+							0.14,
+							0.05
+						]
+					},
+					"4": {
+						"integrity": [
+							-0.2,
+							-0.09
+						],
+						"mass": [
+							0.35,
+							0.14
+						],
+						"optmass": [
+							0.16,
+							0.4
+						],
+						"power": [
+							0.2,
+							0.09
+						]
+					},
+					"5": {
+						"integrity": [
+							-0.25,
+							-0.12
+						],
+						"mass": [
+							0.45,
+							0.2
+						],
+						"optmass": [
+							0.2,
+							0.5
+						],
+						"power": [
+							0.25,
+							0.11
+						]
+					}
+				},
 				"name": "Increased range"
 			},
 			"FSD_Shielded": {
 				"id": 27,
+				"features": {
+					"1": {
+						"integrity": [
+							0.2,
+							0.25
+						],
+						"mass": [
+							0.3,
+							0.25
+						],
+						"optmass": [
+							-0.03,
+							0
+						],
+						"thermload": [
+							0,
+							-0.05
+						]
+					},
+					"2": {
+						"integrity": [
+							0.3,
+							0.5
+						],
+						"mass": [
+							0.35,
+							0.2
+						],
+						"optmass": [
+							-0.06,
+							-0.02
+						],
+						"thermload": [
+							-0.05,
+							-0.1
+						]
+					},
+					"3": {
+						"integrity": [
+							0.4,
+							0.75
+						],
+						"mass": [
+							0.4,
+							0.15
+						],
+						"optmass": [
+							-0.09,
+							-0.04
+						],
+						"thermload": [
+							-0.1,
+							-0.15
+						]
+					},
+					"4": {
+						"integrity": [
+							0.5,
+							1
+						],
+						"mass": [
+							0.45,
+							0.1
+						],
+						"optmass": [
+							-0.12,
+							-0.06
+						],
+						"thermload": [
+							-0.15,
+							-0.2
+						]
+					},
+					"5": {
+						"integrity": [
+							0.6,
+							1.25
+						],
+						"mass": [
+							0.5,
+							0.05
+						],
+						"optmass": [
+							-0.15,
+							-0.08
+						],
+						"thermload": [
+							-0.2,
+							-0.25
+						]
+					}
+				},
 				"name": "Shielded"
 			},
 			"FSDinterdictor_Expanded": {
 				"id": 28,
+				"features": {
+					"1": {
+						"facinglimit": [
+							0.1,
+							0.4
+						],
+						"power": [
+							0.15,
+							0
+						],
+						"ranget": [
+							-0.1,
+							0
+						]
+					},
+					"2": {
+						"facinglimit": [
+							0.2,
+							0.6
+						],
+						"power": [
+							0.3,
+							0.1
+						],
+						"ranget": [
+							-0.2,
+							-0.05
+						]
+					},
+					"3": {
+						"facinglimit": [
+							0.3,
+							0.8
+						],
+						"power": [
+							0.45,
+							0.2
+						],
+						"ranget": [
+							-0.3,
+							-0.1
+						]
+					},
+					"4": {
+						"facinglimit": [
+							0.4,
+							1
+						],
+						"power": [
+							0.6,
+							0.3
+						],
+						"ranget": [
+							-0.4,
+							-0.15
+						]
+					}
+				},
 				"name": "Expanded capture arc"
 			},
 			"FSDinterdictor_LongRange": {
 				"id": 29,
+				"features": {
+					"1": {
+						"facinglimit": [
+							-0.1,
+							0
+						],
+						"mass": [
+							0.1,
+							0
+						],
+						"power": [
+							0.15,
+							0
+						],
+						"ranget": [
+							0.05,
+							0.2
+						]
+					},
+					"2": {
+						"facinglimit": [
+							-0.2,
+							-0.05
+						],
+						"mass": [
+							0.2,
+							0.05
+						],
+						"power": [
+							0.3,
+							0.1
+						],
+						"ranget": [
+							0.1,
+							0.3
+						]
+					},
+					"3": {
+						"facinglimit": [
+							-0.3,
+							-0.1
+						],
+						"mass": [
+							0.3,
+							0.1
+						],
+						"power": [
+							0.45,
+							0.2
+						],
+						"ranget": [
+							0.15,
+							0.4
+						]
+					}
+				},
 				"name": "Longer range"
 			},
 			"FuelScoop_Shielded": {
 				"id": 30,
+				"features": {
+					"1": {
+						"integrity": [
+							0.2,
+							0.5
+						],
+						"power": [
+							0.31,
+							0.2
+						]
+					},
+					"2": {
+						"integrity": [
+							0.39,
+							1
+						],
+						"power": [
+							0.61,
+							0.39
+						]
+					},
+					"3": {
+						"integrity": [
+							0.61,
+							1.5
+						],
+						"power": [
+							0.89,
+							0.61
+						]
+					},
+					"4": {
+						"integrity": [
+							0.79,
+							2
+						],
+						"power": [
+							1.2,
+							0.81
+						]
+					}
+				},
 				"name": "Shielded"
 			},
 			"FuelTransferLimpet_LightWeight": {
 				"id": 31,
+				"features": {
+					"1": {
+						"integrity": [
+							-0.2,
+							-0.1
+						],
+						"mass": [
+							-0.3,
+							-0.4
+						]
+					},
+					"2": {
+						"integrity": [
+							-0.3,
+							-0.2
+						],
+						"mass": [
+							-0.4,
+							-0.5
+						]
+					},
+					"3": {
+						"integrity": [
+							-0.4,
+							-0.3
+						],
+						"mass": [
+							-0.5,
+							-0.6
+						]
+					},
+					"4": {
+						"integrity": [
+							-0.5,
+							-0.4
+						],
+						"mass": [
+							-0.6,
+							-0.7
+						]
+					},
+					"5": {
+						"integrity": [
+							-0.6,
+							-0.5
+						],
+						"mass": [
+							-0.7,
+							-0.8
+						]
+					}
+				},
 				"name": "Lightweight"
 			},
 			"FuelTransferLimpet_Reinforced": {
 				"id": 32,
+				"features": {
+					"1": {
+						"integrity": [
+							0.2,
+							0.5
+						],
+						"mass": [
+							1,
+							0.4
+						]
+					},
+					"2": {
+						"integrity": [
+							0.4,
+							1
+						],
+						"mass": [
+							1.5,
+							0.8
+						]
+					},
+					"3": {
+						"integrity": [
+							0.6,
+							1.5
+						],
+						"mass": [
+							2,
+							1.2
+						]
+					},
+					"4": {
+						"integrity": [
+							0.8,
+							2
+						],
+						"mass": [
+							2.5,
+							1.6
+						]
+					},
+					"5": {
+						"integrity": [
+							1,
+							2.5
+						],
+						"mass": [
+							3,
+							2
+						]
+					}
+				},
 				"name": "Reinforced"
 			},
 			"FuelTransferLimpet_Shielded": {
 				"id": 33,
+				"features": {
+					"1": {
+						"integrity": [
+							0.2,
+							0.5
+						],
+						"power": [
+							0.3,
+							0.2
+						]
+					},
+					"2": {
+						"integrity": [
+							0.4,
+							1
+						],
+						"power": [
+							0.6,
+							0.4
+						]
+					},
+					"3": {
+						"integrity": [
+							0.6,
+							1.5
+						],
+						"power": [
+							0.9,
+							0.6
+						]
+					},
+					"4": {
+						"integrity": [
+							0.8,
+							2
+						],
+						"power": [
+							1.2,
+							0.8
+						]
+					},
+					"5": {
+						"integrity": [
+							1,
+							1.5
+						],
+						"power": [
+							1.5,
+							1
+						]
+					}
+				},
 				"name": "Shielded"
 			},
 			"HatchBreakerLimpet_LightWeight": {
 				"id": 34,
+				"features": {
+					"1": {
+						"integrity": [
+							-0.2,
+							-0.1
+						],
+						"mass": [
+							-0.3,
+							-0.4
+						]
+					},
+					"2": {
+						"integrity": [
+							-0.3,
+							-0.2
+						],
+						"mass": [
+							-0.4,
+							-0.5
+						]
+					},
+					"3": {
+						"integrity": [
+							-0.4,
+							-0.3
+						],
+						"mass": [
+							-0.5,
+							-0.6
+						]
+					},
+					"4": {
+						"integrity": [
+							-0.5,
+							-0.4
+						],
+						"mass": [
+							-0.6,
+							-0.7
+						]
+					},
+					"5": {
+						"integrity": [
+							-0.6,
+							-0.5
+						],
+						"mass": [
+							-0.7,
+							-0.8
+						]
+					}
+				},
 				"name": "Lightweight"
 			},
 			"HatchBreakerLimpet_Reinforced": {
 				"id": 35,
+				"features": {
+					"1": {
+						"integrity": [
+							0.2,
+							0.5
+						],
+						"mass": [
+							1,
+							0.4
+						]
+					},
+					"2": {
+						"integrity": [
+							0.4,
+							1
+						],
+						"mass": [
+							1.5,
+							0.8
+						]
+					},
+					"3": {
+						"integrity": [
+							0.6,
+							1.5
+						],
+						"mass": [
+							2,
+							1.2
+						]
+					},
+					"4": {
+						"integrity": [
+							0.8,
+							2
+						],
+						"mass": [
+							2.5,
+							1.6
+						]
+					},
+					"5": {
+						"integrity": [
+							1,
+							2.5
+						],
+						"mass": [
+							3,
+							2
+						]
+					}
+				},
 				"name": "Reinforced"
 			},
 			"HatchBreakerLimpet_Shielded": {
 				"id": 36,
+				"features": {
+					"1": {
+						"integrity": [
+							0.2,
+							0.5
+						],
+						"power": [
+							0.3,
+							0.2
+						]
+					},
+					"2": {
+						"integrity": [
+							0.4,
+							1
+						],
+						"power": [
+							0.6,
+							0.4
+						]
+					},
+					"3": {
+						"integrity": [
+							0.6,
+							1.5
+						],
+						"power": [
+							0.9,
+							0.6
+						]
+					},
+					"4": {
+						"integrity": [
+							0.8,
+							2
+						],
+						"power": [
+							1.2,
+							0.8
+						]
+					},
+					"5": {
+						"integrity": [
+							1,
+							1.5
+						],
+						"power": [
+							1.5,
+							1
+						]
+					}
+				},
 				"name": "Shielded"
 			},
 			"HeatSinkLauncher_HeatSinkCapacity": {
 				"id": 37,
+				"features": {
+					"3": {
+						"ammo": [
+							0.5,
+							0.5
+						],
+						"mass": [
+							2,
+							1
+						],
+						"reload": [
+							1,
+							0.5
+						]
+					}
+				},
 				"name": "Ammo capacity"
 			},
 			"HeatSinkLauncher_LightWeight": {
 				"id": 38,
+				"features": {
+					"1": {
+						"integrity": [
+							-0.2,
+							-0.1
+						],
+						"mass": [
+							-0.3,
+							-0.4
+						]
+					},
+					"2": {
+						"integrity": [
+							-0.3,
+							-0.2
+						],
+						"mass": [
+							-0.4,
+							-0.5
+						]
+					},
+					"3": {
+						"integrity": [
+							-0.4,
+							-0.3
+						],
+						"mass": [
+							-0.5,
+							-0.6
+						]
+					},
+					"4": {
+						"integrity": [
+							-0.5,
+							-0.4
+						],
+						"mass": [
+							-0.6,
+							-0.7
+						]
+					},
+					"5": {
+						"integrity": [
+							-0.6,
+							-0.5
+						],
+						"mass": [
+							-0.7,
+							-0.8
+						]
+					}
+				},
 				"name": "Lightweight"
 			},
 			"HeatSinkLauncher_Reinforced": {
 				"id": 39,
+				"features": {
+					"1": {
+						"integrity": [
+							0.2,
+							0.5
+						],
+						"mass": [
+							1,
+							0.4
+						]
+					},
+					"2": {
+						"integrity": [
+							0.4,
+							1
+						],
+						"mass": [
+							1.5,
+							0.8
+						]
+					},
+					"3": {
+						"integrity": [
+							0.6,
+							1.5
+						],
+						"mass": [
+							2,
+							1.2
+						]
+					},
+					"4": {
+						"integrity": [
+							0.8,
+							2
+						],
+						"mass": [
+							2.5,
+							1.6
+						]
+					},
+					"5": {
+						"integrity": [
+							1,
+							2.5
+						],
+						"mass": [
+							3,
+							2
+						]
+					}
+				},
 				"name": "Reinforced"
 			},
 			"HeatSinkLauncher_Shielded": {
 				"id": 40,
+				"features": {
+					"1": {
+						"integrity": [
+							0.2,
+							0.5
+						],
+						"power": [
+							0.3,
+							0.2
+						]
+					},
+					"2": {
+						"integrity": [
+							0.4,
+							1
+						],
+						"power": [
+							0.6,
+							0.4
+						]
+					},
+					"3": {
+						"integrity": [
+							0.6,
+							1.5
+						],
+						"power": [
+							0.9,
+							0.6
+						]
+					},
+					"4": {
+						"integrity": [
+							0.8,
+							2
+						],
+						"power": [
+							1.2,
+							0.8
+						]
+					},
+					"5": {
+						"integrity": [
+							1,
+							1.5
+						],
+						"power": [
+							1.5,
+							1
+						]
+					}
+				},
 				"name": "Shielded"
 			},
 			"HullReinforcement_Advanced": {
 				"id": 41,
-				"name": "Blast resistant"
+				"features": {
+					"1": {
+						"hullboost": [
+							0.02,
+							0.06
+						],
+						"hullreinforcement": [
+							-0.05,
+							0
+						],
+						"mass": [
+							0,
+							-0.03
+						]
+					},
+					"2": {
+						"hullboost": [
+							0.04,
+							0.09
+						],
+						"hullreinforcement": [
+							-0.1,
+							-0.05
+						],
+						"mass": [
+							0,
+							-0.06
+						]
+					},
+					"3": {
+						"hullboost": [
+							0.06,
+							0.12
+						],
+						"hullreinforcement": [
+							-0.15,
+							-0.1
+						],
+						"mass": [
+							0,
+							-0.1
+						]
+					},
+					"4": {
+						"hullboost": [
+							0.08,
+							0.15
+						],
+						"hullreinforcement": [
+							-0.2,
+							-0.15
+						],
+						"mass": [
+							0,
+							-0.12
+						]
+					},
+					"5": {
+						"hullboost": [
+							0.1,
+							0.18
+						],
+						"hullreinforcement": [
+							-0.25,
+							-0.2
+						],
+						"mass": [
+							0,
+							-0.15
+						]
+					}
+				},
+				"name": "Lightweight"
+			},
+			"HullReinforcement_Explosive": {
+				"id": 43,
+				"features": {
+					"1": {
+						"explres": [
+							0.0487,
+							0.078
+						],
+						"kinres": [
+							-0.0293,
+							-0.0195
+						],
+						"thermres": [
+							-0.0293,
+							-0.0195
+						]
+					},
+					"2": {
+						"explres": [
+							0.0975,
+							0.156
+						],
+						"kinres": [
+							-0.0585,
+							-0.039
+						],
+						"thermres": [
+							-0.0484,
+							-0.039
+						]
+					},
+					"3": {
+						"explres": [
+							0.1463,
+							0.234
+						],
+						"kinres": [
+							-0.0878,
+							-0.0585
+						],
+						"thermres": [
+							-0.0878,
+							-0.0585
+						]
+					},
+					"4": {
+						"explres": [
+							0.195,
+							0.312
+						],
+						"kinres": [
+							-0.117,
+							-0.078
+						],
+						"thermres": [
+							-0.117,
+							-0.078
+						]
+					},
+					"5": {
+						"explres": [
+							0.2437,
+							0.39
+						],
+						"kinres": [
+							-0.1463,
+							-0.0975
+						],
+						"thermres": [
+							-0.1463,
+							-0.0975
+						]
+					}
+				},
+				"name": "Blast Resistant"
 			},
 			"HullReinforcement_HeavyDuty": {
 				"id": 42,
+				"features": {
+					"1": {
+						"explres": [
+							0,
+							0.0292
+						],
+						"hullreinforcement": [
+							0.04,
+							0.2
+						],
+						"kinres": [
+							0,
+							0.0292
+						],
+						"mass": [
+							0.08,
+							0
+						],
+						"thermres": [
+							0,
+							0.0292
+						]
+					},
+					"2": {
+						"explres": [
+							0.098,
+							0.0585
+						],
+						"hullreinforcement": [
+							0.1,
+							0.29
+						],
+						"kinres": [
+							0.098,
+							0.0585
+						],
+						"mass": [
+							0.15,
+							0.04
+						],
+						"thermres": [
+							0.098,
+							0.0585
+						]
+					},
+					"3": {
+						"explres": [
+							0.0195,
+							0.0878
+						],
+						"hullreinforcement": [
+							0.14,
+							0.39
+						],
+						"kinres": [
+							0.0195,
+							0.0878
+						],
+						"mass": [
+							0.23,
+							0.1
+						],
+						"thermres": [
+							0.0195,
+							0.0878
+						]
+					},
+					"4": {
+						"explres": [
+							0.0292,
+							0.117
+						],
+						"hullreinforcement": [
+							0.2,
+							0.5
+						],
+						"kinres": [
+							0.0292,
+							0.117
+						],
+						"mass": [
+							0.31,
+							0.14
+						],
+						"thermres": [
+							0.0292,
+							0.117
+						]
+					},
+					"5": {
+						"explres": [
+							0.039,
+							0.1463
+						],
+						"hullreinforcement": [
+							0.25,
+							0.61
+						],
+						"kinres": [
+							0.039,
+							0.1463
+						],
+						"mass": [
+							0.39,
+							0.2
+						],
+						"thermres": [
+							0.039,
+							0.1463
+						]
+					}
+				},
 				"name": "Heavy duty"
-			},
-			"HullReinforcement_Lightweight": {
-				"id": 43,
-				"name": "Lightweight"
 			},
 			"HullReinforcement_Kinetic": {
 				"id": 44,
-				"name": "Kinetic resistant"
+				"features": {
+					"1": {
+						"explres": [
+							-0.0293,
+							-0.0195
+						],
+						"kinres": [
+							0.0487,
+							0.078
+						],
+						"thermres": [
+							-0.0293,
+							-0.0195
+						]
+					},
+					"2": {
+						"explres": [
+							-0.0585,
+							-0.039
+						],
+						"kinres": [
+							0.0975,
+							0.156
+						],
+						"thermres": [
+							-0.0585,
+							-0.039
+						]
+					},
+					"3": {
+						"explres": [
+							-0.0878,
+							-0.0585
+						],
+						"kinres": [
+							0.1463,
+							0.234
+						],
+						"thermres": [
+							-0.0878,
+							-0.0585
+						]
+					},
+					"4": {
+						"explres": [
+							-0.117,
+							-0.078
+						],
+						"kinres": [
+							0.195,
+							0.312
+						],
+						"thermres": [
+							-0.117,
+							-0.078
+						]
+					},
+					"5": {
+						"explres": [
+							-0.1463,
+							-0.0975
+						],
+						"kinres": [
+							0.2437,
+							0.39
+						],
+						"thermres": [
+							-0.1463,
+							-0.0975
+						]
+					}
+				},
+				"name": "Kinetic Resistant"
 			},
 			"HullReinforcement_Thermic": {
 				"id": 45,
-				"name": "Thermal resistant"
+				"features": {
+					"1": {
+						"explres": [
+							-0.0293,
+							-0.0195
+						],
+						"kinres": [
+							-0.0293,
+							-0.0195
+						],
+						"thermres": [
+							0.0487,
+							0.078
+						]
+					},
+					"2": {
+						"explres": [
+							-0.0585,
+							-0.039
+						],
+						"kinres": [
+							-0.0585,
+							-0.039
+						],
+						"thermres": [
+							0.0975,
+							0.156
+						]
+					},
+					"3": {
+						"explres": [
+							-0.0878,
+							-0.0585
+						],
+						"kinres": [
+							-0.0878,
+							-0.0585
+						],
+						"thermres": [
+							0.1463,
+							0.234
+						]
+					},
+					"4": {
+						"explres": [
+							-0.117,
+							-0.078
+						],
+						"kinres": [
+							-0.117,
+							-0.078
+						],
+						"thermres": [
+							0.195,
+							0.312
+						]
+					},
+					"5": {
+						"explres": [
+							-0.1463,
+							-0.0975
+						],
+						"kinres": [
+							-0.1463,
+							-0.0975
+						],
+						"thermres": [
+							0.2437,
+							0.39
+						]
+					}
+				},
+				"name": "Thermal Resistant"
 			},
 			"KillWarrantScanner_LightWeight": {
 				"id": 46,
+				"features": {
+					"1": {
+						"integrity": [
+							-0.2,
+							-0.1
+						],
+						"mass": [
+							-0.3,
+							-0.4
+						]
+					},
+					"2": {
+						"integrity": [
+							-0.3,
+							-0.2
+						],
+						"mass": [
+							-0.4,
+							-0.5
+						]
+					},
+					"3": {
+						"integrity": [
+							-0.4,
+							-0.3
+						],
+						"mass": [
+							-0.5,
+							-0.6
+						]
+					},
+					"4": {
+						"integrity": [
+							-0.5,
+							-0.4
+						],
+						"mass": [
+							-0.6,
+							-0.7
+						]
+					},
+					"5": {
+						"integrity": [
+							-0.6,
+							-0.5
+						],
+						"mass": [
+							-0.7,
+							-0.8
+						]
+					}
+				},
 				"name": "Lightweight"
 			},
 			"KillWarrantScanner_Reinforced": {
 				"id": 47,
+				"features": {
+					"1": {
+						"integrity": [
+							0.2,
+							0.5
+						],
+						"mass": [
+							1,
+							0.4
+						]
+					},
+					"2": {
+						"integrity": [
+							0.4,
+							1
+						],
+						"mass": [
+							1.5,
+							0.8
+						]
+					},
+					"3": {
+						"integrity": [
+							0.6,
+							1.5
+						],
+						"mass": [
+							2,
+							1.2
+						]
+					},
+					"4": {
+						"integrity": [
+							0.8,
+							2
+						],
+						"mass": [
+							2.5,
+							1.6
+						]
+					},
+					"5": {
+						"integrity": [
+							1,
+							2.5
+						],
+						"mass": [
+							3,
+							2
+						]
+					}
+				},
 				"name": "Reinforced"
 			},
 			"KillWarrantScanner_Shielded": {
 				"id": 48,
+				"features": {
+					"1": {
+						"integrity": [
+							0.2,
+							0.5
+						],
+						"power": [
+							0.3,
+							0.2
+						]
+					},
+					"2": {
+						"integrity": [
+							0.4,
+							1
+						],
+						"power": [
+							0.6,
+							0.4
+						]
+					},
+					"3": {
+						"integrity": [
+							0.6,
+							1.5
+						],
+						"power": [
+							0.9,
+							0.6
+						]
+					},
+					"4": {
+						"integrity": [
+							0.8,
+							2
+						],
+						"power": [
+							1.2,
+							0.8
+						]
+					},
+					"5": {
+						"integrity": [
+							1,
+							1.5
+						],
+						"power": [
+							1.5,
+							1
+						]
+					}
+				},
 				"name": "Shielded"
 			},
 			"LifeSupport_LightWeight": {
 				"id": 49,
+				"features": {
+					"1": {
+						"integrity": [
+							-0.2,
+							-0.1
+						],
+						"mass": [
+							-0.3,
+							-0.4
+						]
+					},
+					"2": {
+						"integrity": [
+							-0.3,
+							-0.2
+						],
+						"mass": [
+							-0.4,
+							-0.5
+						]
+					},
+					"3": {
+						"integrity": [
+							-0.4,
+							-0.3
+						],
+						"mass": [
+							-0.5,
+							-0.6
+						]
+					},
+					"4": {
+						"integrity": [
+							-0.5,
+							-0.4
+						],
+						"mass": [
+							-0.6,
+							-0.7
+						]
+					},
+					"5": {
+						"integrity": [
+							-0.6,
+							-0.5
+						],
+						"mass": [
+							-0.7,
+							-0.8
+						]
+					}
+				},
 				"name": "Lightweight"
 			},
 			"LifeSupport_Reinforced": {
 				"id": 50,
+				"features": {
+					"1": {
+						"integrity": [
+							0.2,
+							0.5
+						],
+						"mass": [
+							1,
+							0.4
+						]
+					},
+					"2": {
+						"integrity": [
+							0.4,
+							1
+						],
+						"mass": [
+							1.5,
+							0.8
+						]
+					},
+					"3": {
+						"integrity": [
+							0.6,
+							1.5
+						],
+						"mass": [
+							2,
+							1.2
+						]
+					},
+					"4": {
+						"integrity": [
+							0.8,
+							2
+						],
+						"mass": [
+							2.5,
+							1.6
+						]
+					},
+					"5": {
+						"integrity": [
+							1,
+							2.5
+						],
+						"mass": [
+							3,
+							2
+						]
+					}
+				},
 				"name": "Reinforced"
 			},
 			"LifeSupport_Shielded": {
 				"id": 51,
+				"features": {
+					"1": {
+						"integrity": [
+							0.2,
+							0.5
+						],
+						"power": [
+							0.3,
+							0.2
+						]
+					},
+					"2": {
+						"integrity": [
+							0.4,
+							1
+						],
+						"power": [
+							0.6,
+							0.4
+						]
+					},
+					"3": {
+						"integrity": [
+							0.6,
+							1.5
+						],
+						"power": [
+							0.9,
+							0.6
+						]
+					},
+					"4": {
+						"integrity": [
+							0.8,
+							2
+						],
+						"power": [
+							1.2,
+							0.8
+						]
+					},
+					"5": {
+						"integrity": [
+							1,
+							1.5
+						],
+						"power": [
+							1.5,
+							1
+						]
+					}
+				},
 				"name": "Shielded"
 			},
 			"PointDefence_LightWeight": {
 				"id": 52,
+				"features": {
+					"1": {
+						"integrity": [
+							-0.2,
+							-0.1
+						],
+						"mass": [
+							-0.3,
+							-0.4
+						]
+					},
+					"2": {
+						"integrity": [
+							-0.3,
+							-0.2
+						],
+						"mass": [
+							-0.4,
+							-0.5
+						]
+					},
+					"3": {
+						"integrity": [
+							-0.4,
+							-0.3
+						],
+						"mass": [
+							-0.5,
+							-0.6
+						]
+					},
+					"4": {
+						"integrity": [
+							-0.5,
+							-0.4
+						],
+						"mass": [
+							-0.6,
+							-0.7
+						]
+					},
+					"5": {
+						"integrity": [
+							-0.6,
+							-0.5
+						],
+						"mass": [
+							-0.7,
+							-0.8
+						]
+					}
+				},
 				"name": "Lightweight"
 			},
 			"PointDefence_Reinforced": {
 				"id": 53,
+				"features": {
+					"1": {
+						"integrity": [
+							0.2,
+							0.5
+						],
+						"mass": [
+							1,
+							0.4
+						]
+					},
+					"2": {
+						"integrity": [
+							0.4,
+							1
+						],
+						"mass": [
+							1.5,
+							0.8
+						]
+					},
+					"3": {
+						"integrity": [
+							0.6,
+							1.5
+						],
+						"mass": [
+							2,
+							1.2
+						]
+					},
+					"4": {
+						"integrity": [
+							0.8,
+							2
+						],
+						"mass": [
+							2.5,
+							1.6
+						]
+					},
+					"5": {
+						"integrity": [
+							1,
+							2.5
+						],
+						"mass": [
+							3,
+							2
+						]
+					}
+				},
 				"name": "Reinforced"
 			},
 			"PointDefence_Shielded": {
 				"id": 54,
+				"features": {
+					"1": {
+						"integrity": [
+							0.2,
+							0.5
+						],
+						"power": [
+							0.3,
+							0.2
+						]
+					},
+					"2": {
+						"integrity": [
+							0.4,
+							1
+						],
+						"power": [
+							0.6,
+							0.4
+						]
+					},
+					"3": {
+						"integrity": [
+							0.6,
+							1.5
+						],
+						"power": [
+							0.9,
+							0.6
+						]
+					},
+					"4": {
+						"integrity": [
+							0.8,
+							2
+						],
+						"power": [
+							1.2,
+							0.8
+						]
+					},
+					"5": {
+						"integrity": [
+							1,
+							1.5
+						],
+						"power": [
+							1.5,
+							1
+						]
+					}
+				},
 				"name": "Shielded"
 			},
 			"PointDefence_PointDefenseCapacity": {
 				"id": 55,
+				"features": {
+					"3": {
+						"ammo": [
+							0.2,
+							0.5
+						],
+						"mass": [
+							2,
+							1
+						],
+						"reload": [
+							0.3,
+							0.1
+						]
+					}
+				},
 				"name": "Ammo capacity"
 			},
 			"PowerDistributor_HighCapacity": {
 				"id": 56,
+				"features": {
+					"1": {
+						"engcap": [
+							0.04,
+							0.1
+						],
+						"engrate": [
+							-0.05,
+							0
+						],
+						"syscap": [
+							0.04,
+							0.1
+						],
+						"sysrate": [
+							-0.05,
+							0
+						],
+						"wepcap": [
+							0.04,
+							0.1
+						],
+						"weprate": [
+							-0.05,
+							0
+						]
+					},
+					"2": {
+						"engcap": [
+							0.08,
+							0.15
+						],
+						"engrate": [
+							-0.1,
+							-0.04
+						],
+						"syscap": [
+							0.08,
+							0.1
+						],
+						"sysrate": [
+							-0.1,
+							0
+						],
+						"wepcap": [
+							0.08,
+							0.1
+						],
+						"weprate": [
+							-0.1,
+							0
+						]
+					},
+					"3": {
+						"engcap": [
+							0.12,
+							0.2
+						],
+						"engrate": [
+							-0.15,
+							-0.08
+						],
+						"syscap": [
+							0.12,
+							0.1
+						],
+						"sysrate": [
+							-0.15,
+							-0.08
+						],
+						"wepcap": [
+							0.12,
+							0.1
+						],
+						"weprate": [
+							-0.15,
+							-0.08
+						]
+					},
+					"4": {
+						"engcap": [
+							0.16,
+							0.25
+						],
+						"engrate": [
+							-0.2,
+							-0.12
+						],
+						"syscap": [
+							0.16,
+							0.1
+						],
+						"sysrate": [
+							-0.2,
+							-0.12
+						],
+						"wepcap": [
+							0.16,
+							0.1
+						],
+						"weprate": [
+							-0.2,
+							-0.12
+						]
+					},
+					"5": {
+						"engcap": [
+							0.2,
+							0.3
+						],
+						"engrate": [
+							-0.25,
+							-0.16
+						],
+						"syscap": [
+							0.2,
+							0.1
+						],
+						"sysrate": [
+							-0.25,
+							-0.16
+						],
+						"wepcap": [
+							0.2,
+							0.1
+						],
+						"weprate": [
+							-0.25,
+							-0.16
+						]
+					}
+				},
 				"name": "High charge capacity"
 			},
 			"PowerDistributor_HighFrequency": {
 				"id": 57,
+				"features": {
+					"1": {
+						"engcap": [
+							-0.03,
+							0
+						],
+						"engrate": [
+							0.25,
+							0.16
+						],
+						"syscap": [
+							-0.03,
+							0
+						],
+						"sysrate": [
+							0.25,
+							0.16
+						],
+						"wepcap": [
+							-0.03,
+							0
+						],
+						"weprate": [
+							0.25,
+							0.16
+						]
+					},
+					"2": {
+						"engcap": [
+							-0.06,
+							-0.01
+						],
+						"engrate": [
+							0.25,
+							0.16
+						],
+						"syscap": [
+							-0.06,
+							-0.01
+						],
+						"sysrate": [
+							0.25,
+							0.16
+						],
+						"wepcap": [
+							-0.06,
+							-0.01
+						],
+						"weprate": [
+							0.25,
+							0.16
+						]
+					},
+					"3": {
+						"engcap": [
+							-0.09,
+							-0.02
+						],
+						"engrate": [
+							0.25,
+							0.16
+						],
+						"syscap": [
+							-0.09,
+							-0.02
+						],
+						"sysrate": [
+							0.25,
+							0.16
+						],
+						"wepcap": [
+							-0.09,
+							-0.02
+						],
+						"weprate": [
+							0.25,
+							0.16
+						]
+					},
+					"4": {
+						"engcap": [
+							-0.12,
+							-0.03
+						],
+						"engrate": [
+							0.25,
+							-0.16
+						],
+						"syscap": [
+							-0.12,
+							-0.03
+						],
+						"sysrate": [
+							0.25,
+							0.16
+						],
+						"wepcap": [
+							-0.12,
+							-0.03
+						],
+						"weprate": [
+							0.25,
+							0.16
+						]
+					},
+					"5": {
+						"engcap": [
+							-0.15,
+							-0.04
+						],
+						"engrate": [
+							0.25,
+							0.16
+						],
+						"syscap": [
+							-0.15,
+							-0.04
+						],
+						"sysrate": [
+							0.25,
+							0.16
+						],
+						"wepcap": [
+							-0.15,
+							-0.04
+						],
+						"weprate": [
+							0.25,
+							0.16
+						]
+					}
+				},
 				"name": "Charge enhanced"
 			},
 			"PowerDistributor_PriorityEngines": {
 				"id": 58,
+				"features": {
+					"1": {
+						"engcap": [
+							0.05,
+							0.2
+						],
+						"engrate": [
+							0.02,
+							0.1
+						],
+						"syscap": [
+							-0.05,
+							0
+						],
+						"sysrate": [
+							-0.02,
+							0
+						],
+						"wepcap": [
+							-0.05,
+							0
+						],
+						"weprate": [
+							-0.02,
+							0
+						]
+					},
+					"2": {
+						"engcap": [
+							0.1,
+							0.3
+						],
+						"engrate": [
+							0.04,
+							0.15
+						],
+						"syscap": [
+							-0.1,
+							-0.02
+						],
+						"sysrate": [
+							-0.04,
+							-0.01
+						],
+						"wepcap": [
+							-0.1,
+							-0.02
+						],
+						"weprate": [
+							-0.04,
+							-0.01
+						]
+					},
+					"3": {
+						"engcap": [
+							0.15,
+							0.4
+						],
+						"engrate": [
+							0.06,
+							0.2
+						],
+						"syscap": [
+							-0.15,
+							-0.04
+						],
+						"sysrate": [
+							-0.06,
+							-0.02
+						],
+						"wepcap": [
+							-0.15,
+							-0.04
+						],
+						"weprate": [
+							-0.06,
+							-0.02
+						]
+					}
+				},
 				"name": "Engine focused"
 			},
 			"PowerDistributor_PrioritySystems": {
 				"id": 59,
+				"features": {
+					"1": {
+						"engcap": [
+							-0.05,
+							0
+						],
+						"engrate": [
+							-0.02,
+							0
+						],
+						"syscap": [
+							0.05,
+							0.2
+						],
+						"sysrate": [
+							0.02,
+							0.1
+						],
+						"wepcap": [
+							-0.05,
+							0
+						],
+						"weprate": [
+							-0.02,
+							0
+						]
+					},
+					"2": {
+						"engcap": [
+							-0.1,
+							-0.02
+						],
+						"engrate": [
+							-0.04,
+							-0.01
+						],
+						"syscap": [
+							0.1,
+							0.3
+						],
+						"sysrate": [
+							-0.04,
+							0.15
+						],
+						"wepcap": [
+							-0.1,
+							-0.02
+						],
+						"weprate": [
+							-0.04,
+							-0.01
+						]
+					},
+					"3": {
+						"engcap": [
+							-0.15,
+							-0.04
+						],
+						"engrate": [
+							-0.06,
+							-0.02
+						],
+						"syscap": [
+							0.15,
+							0.4
+						],
+						"sysrate": [
+							0.06,
+							0.2
+						],
+						"wepcap": [
+							-0.15,
+							-0.04
+						],
+						"weprate": [
+							-0.06,
+							-0.02
+						]
+					}
+				},
 				"name": "System focused"
 			},
 			"PowerDistributor_PriorityWeapons": {
 				"id": 60,
+				"features": {
+					"1": {
+						"engcap": [
+							-0.05,
+							0
+						],
+						"engrate": [
+							-0.02,
+							0
+						],
+						"syscap": [
+							-0.05,
+							0
+						],
+						"sysrate": [
+							-0.02,
+							0
+						],
+						"wepcap": [
+							0.05,
+							0.2
+						],
+						"weprate": [
+							0.02,
+							0.1
+						]
+					},
+					"2": {
+						"engcap": [
+							-0.1,
+							-0.02
+						],
+						"engrate": [
+							-0.04,
+							-0.01
+						],
+						"syscap": [
+							-0.1,
+							-0.02
+						],
+						"sysrate": [
+							-0.04,
+							-0.01
+						],
+						"wepcap": [
+							0.1,
+							0.3
+						],
+						"weprate": [
+							0.04,
+							0.15
+						]
+					},
+					"3": {
+						"engcap": [
+							-0.15,
+							-0.04
+						],
+						"engrate": [
+							-0.06,
+							-0.02
+						],
+						"syscap": [
+							-0.15,
+							-0.04
+						],
+						"sysrate": [
+							-0.06,
+							-0.02
+						],
+						"wepcap": [
+							0.15,
+							0.4
+						],
+						"weprate": [
+							0.06,
+							0.2
+						]
+					}
+				},
 				"name": "Weapon focused"
 			},
 			"PowerDistributor_Shielded": {
 				"id": 61,
+				"features": {
+					"1": {
+						"integrity": [
+							0.2,
+							0.5
+						],
+						"power": [
+							0.3,
+							0.2
+						]
+					},
+					"2": {
+						"integrity": [
+							0.4,
+							1
+						],
+						"power": [
+							0.6,
+							0.4
+						]
+					},
+					"3": {
+						"integrity": [
+							0.6,
+							1.5
+						],
+						"power": [
+							0.9,
+							0.6
+						]
+					},
+					"4": {
+						"integrity": [
+							0.8,
+							2
+						],
+						"power": [
+							1.2,
+							0.8
+						]
+					},
+					"5": {
+						"integrity": [
+							1,
+							1.5
+						],
+						"power": [
+							1.5,
+							1
+						]
+					}
+				},
 				"name": "Shielded"
 			},
 			"PowerPlant_Armoured": {
 				"id": 62,
+				"features": {
+					"1": {
+						"eff": [
+							0.05,
+							-0.05
+						],
+						"integrity": [
+							0.2,
+							0.4
+						],
+						"mass": [
+							0.08,
+							0
+						]
+					},
+					"2": {
+						"eff": [
+							0.06,
+							-0.06
+						],
+						"integrity": [
+							0.3,
+							0.6
+						],
+						"mass": [
+							0.16,
+							0.04
+						]
+					},
+					"3": {
+						"eff": [
+							0.07,
+							-0.07
+						],
+						"integrity": [
+							0.4,
+							0.8
+						],
+						"mass": [
+							0.24,
+							0.08
+						]
+					},
+					"4": {
+						"eff": [
+							0.08,
+							-0.08
+						],
+						"integrity": [
+							0.5,
+							1
+						],
+						"mass": [
+							0.32,
+							0.12
+						]
+					},
+					"5": {
+						"eff": [
+							0.09,
+							-0.09
+						],
+						"integrity": [
+							0.6,
+							1.2
+						],
+						"mass": [
+							0.4,
+							0.16
+						]
+					}
+				},
 				"name": "Armoured"
 			},
 			"PowerPlant_Boosted": {
 				"id": 63,
+				"features": {
+					"1": {
+						"eff": [
+							0.1,
+							0
+						],
+						"integrity": [
+							-0.1,
+							0
+						],
+						"pgen": [
+							0.02,
+							0.12
+						]
+					},
+					"2": {
+						"eff": [
+							0.2,
+							0.05
+						],
+						"integrity": [
+							-0.2,
+							-0.05
+						],
+						"pgen": [
+							0.04,
+							0.18
+						]
+					},
+					"3": {
+						"eff": [
+							0.3,
+							0.1
+						],
+						"integrity": [
+							-0.3,
+							-0.1
+						],
+						"pgen": [
+							0.06,
+							0.24
+						]
+					},
+					"4": {
+						"eff": [
+							0.4,
+							0.15
+						],
+						"integrity": [
+							-0.4,
+							-0.15
+						],
+						"pgen": [
+							0.08,
+							0.3
+						]
+					},
+					"5": {
+						"eff": [
+							0.5,
+							0.2
+						],
+						"integrity": [
+							-0.5,
+							-0.2
+						],
+						"pgen": [
+							0.1,
+							0.36
+						]
+					}
+				},
 				"name": "Overcharged"
 			},
 			"PowerPlant_Stealth": {
 				"id": 64,
+				"features": {
+					"1": {
+						"eff": [
+							-0.05,
+							-0.2
+						],
+						"mass": [
+							0.05,
+							0
+						],
+						"pgen": [
+							-0.06,
+							0
+						]
+					},
+					"2": {
+						"eff": [
+							-0.1,
+							-0.3
+						],
+						"mass": [
+							0.1,
+							0.05
+						],
+						"pgen": [
+							-0.12,
+							-0.03
+						]
+					},
+					"3": {
+						"eff": [
+							-0.15,
+							-0.4
+						],
+						"mass": [
+							0.15,
+							0.1
+						],
+						"pgen": [
+							-0.18,
+							-0.06
+						]
+					}
+				},
 				"name": "Low emissions"
 			},
 			"ProspectingLimpet_LightWeight": {
 				"id": 65,
+				"features": {
+					"1": {
+						"integrity": [
+							-0.2,
+							-0.1
+						],
+						"mass": [
+							-0.3,
+							-0.4
+						]
+					},
+					"2": {
+						"integrity": [
+							-0.3,
+							-0.2
+						],
+						"mass": [
+							-0.4,
+							-0.5
+						]
+					},
+					"3": {
+						"integrity": [
+							-0.4,
+							-0.3
+						],
+						"mass": [
+							-0.5,
+							-0.6
+						]
+					},
+					"4": {
+						"integrity": [
+							-0.5,
+							-0.4
+						],
+						"mass": [
+							-0.6,
+							-0.7
+						]
+					},
+					"5": {
+						"integrity": [
+							-0.6,
+							-0.5
+						],
+						"mass": [
+							-0.7,
+							-0.8
+						]
+					}
+				},
 				"name": "Lightweight"
 			},
 			"ProspectingLimpet_Reinforced": {
 				"id": 66,
+				"features": {
+					"1": {
+						"integrity": [
+							0.2,
+							0.5
+						],
+						"mass": [
+							1,
+							0.4
+						]
+					},
+					"2": {
+						"integrity": [
+							0.4,
+							1
+						],
+						"mass": [
+							1.5,
+							0.8
+						]
+					},
+					"3": {
+						"integrity": [
+							0.6,
+							1.5
+						],
+						"mass": [
+							2,
+							1.2
+						]
+					},
+					"4": {
+						"integrity": [
+							0.8,
+							2
+						],
+						"mass": [
+							2.5,
+							1.6
+						]
+					},
+					"5": {
+						"integrity": [
+							1,
+							2.5
+						],
+						"mass": [
+							3,
+							2
+						]
+					}
+				},
 				"name": "Reinforced"
 			},
 			"ProspectingLimpet_Shielded": {
 				"id": 67,
+				"features": {
+					"1": {
+						"integrity": [
+							0.2,
+							0.5
+						],
+						"power": [
+							0.3,
+							0.2
+						]
+					},
+					"2": {
+						"integrity": [
+							0.4,
+							1
+						],
+						"power": [
+							0.6,
+							0.4
+						]
+					},
+					"3": {
+						"integrity": [
+							0.6,
+							1.5
+						],
+						"power": [
+							0.9,
+							0.6
+						]
+					},
+					"4": {
+						"integrity": [
+							0.8,
+							2
+						],
+						"power": [
+							1.2,
+							0.8
+						]
+					},
+					"5": {
+						"integrity": [
+							1,
+							1.5
+						],
+						"power": [
+							1.5,
+							1
+						]
+					}
+				},
+				"name": "Shielded"
+			},
+			"Refineries_Shielded": {
+				"id": 92,
+				"features": {
+					"1": {
+						"integrity": [
+							0.2,
+							0.5
+						],
+						"power": [
+							0.29,
+							0.2
+						]
+					},
+					"2": {
+						"integrity": [
+							0.39,
+							1
+						],
+						"power": [
+							0.61,
+							0.39
+						]
+					},
+					"3": {
+						"integrity": [
+							0.61,
+							1.5
+						],
+						"power": [
+							0.89,
+							0.61
+						]
+					},
+					"4": {
+						"integrity": [
+							0.81,
+							2
+						],
+						"power": [
+							1.2,
+							0.79
+						]
+					}
+				},
 				"name": "Shielded"
 			},
 			"ShieldBooster_Explosive": {
 				"id": 68,
-				"name": "Blast resistant"
+				"features": {
+					"1": {
+						"explres": [
+							0.02,
+							0.05
+						],
+						"kinres": [
+							-0.02,
+							0
+						],
+						"thermres": [
+							-0.02,
+							0
+						]
+					},
+					"2": {
+						"explres": [
+							0.07,
+							-0.1
+						],
+						"kinres": [
+							-0.03,
+							-0.01
+						],
+						"thermres": [
+							-0.03,
+							-0.01
+						]
+					},
+					"3": {
+						"explres": [
+							0.12,
+							0.15
+						],
+						"kinres": [
+							-0.04,
+							-0.04
+						],
+						"thermres": [
+							-0.05,
+							-0.02
+						]
+					},
+					"4": {
+						"explres": [
+							0.17,
+							0.2
+						],
+						"kinres": [
+							-0.05,
+							-0.03
+						],
+						"thermres": [
+							-0.05,
+							-0.03
+						]
+					},
+					"5": {
+						"explres": [
+							0.22,
+							0.25
+						],
+						"kinres": [
+							-0.06,
+							-0.04
+						],
+						"thermres": [
+							-0.06,
+							-0.04
+						]
+					}
+				},
+				"name": "Blast Resistant"
 			},
 			"ShieldBooster_HeavyDuty": {
 				"id": 69,
+				"features": {
+					"1": {
+						"integrity": [
+							0,
+							0.03
+						],
+						"mass": [
+							1,
+							0.5
+						],
+						"power": [
+							0.05,
+							0
+						],
+						"shieldboost": [
+							0.03,
+							0.06
+						]
+					},
+					"2": {
+						"integrity": [
+							0.03,
+							0.06
+						],
+						"mass": [
+							1.5,
+							1
+						],
+						"power": [
+							0.1,
+							0.05
+						],
+						"shieldboost": [
+							0.08,
+							0.12
+						]
+					},
+					"3": {
+						"integrity": [
+							0.06,
+							0.09
+						],
+						"mass": [
+							2,
+							1.5
+						],
+						"power": [
+							0.15,
+							0.1
+						],
+						"shieldboost": [
+							0.13,
+							0.18
+						]
+					},
+					"4": {
+						"integrity": [
+							0.09,
+							0.12
+						],
+						"mass": [
+							2.5,
+							2
+						],
+						"power": [
+							0.2,
+							0.15
+						],
+						"shieldboost": [
+							0.18,
+							0.24
+						]
+					},
+					"5": {
+						"integrity": [
+							0.12,
+							0.15
+						],
+						"mass": [
+							3,
+							2.5
+						],
+						"power": [
+							0.25,
+							0.2
+						],
+						"shieldboost": [
+							0.23,
+							0.3
+						]
+					}
+				},
 				"name": "Heavy duty"
 			},
 			"ShieldBooster_Kinetic": {
 				"id": 70,
-				"name": "Kinetic resistant"
+				"features": {
+					"1": {
+						"explres": [
+							-0.02,
+							0
+						],
+						"kinres": [
+							0.02,
+							0.05
+						],
+						"thermres": [
+							-0.02,
+							0
+						]
+					},
+					"2": {
+						"explres": [
+							-0.03,
+							-0.01
+						],
+						"kinres": [
+							0.07,
+							0.1
+						],
+						"thermres": [
+							-0.03,
+							-0.01
+						]
+					},
+					"3": {
+						"explres": [
+							-0.04,
+							-0.02
+						],
+						"kinres": [
+							0.12,
+							0.15
+						],
+						"thermres": [
+							-0.05,
+							-0.02
+						]
+					},
+					"4": {
+						"explres": [
+							-0.05,
+							-0.03
+						],
+						"kinres": [
+							0.17,
+							-0.2
+						],
+						"thermres": [
+							-0.05,
+							-0.03
+						]
+					},
+					"5": {
+						"explres": [
+							-0.06,
+							-0.04
+						],
+						"kinres": [
+							0.22,
+							0.25
+						],
+						"thermres": [
+							-0.06,
+							-0.04
+						]
+					}
+				},
+				"name": "Kinetic Resistant"
 			},
 			"ShieldBooster_Resistive": {
 				"id": 71,
+				"features": {
+					"1": {
+						"explres": [
+							0.01,
+							0.03
+						],
+						"integrity": [
+							-0.04,
+							0
+						],
+						"kinres": [
+							0.01,
+							0.03
+						],
+						"power": [
+							0.08,
+							0
+						],
+						"thermres": [
+							0.01,
+							0.03
+						]
+					},
+					"2": {
+						"explres": [
+							0.025,
+							0.06
+						],
+						"integrity": [
+							-0.08,
+							-0.02
+						],
+						"kinres": [
+							0.025,
+							0.06
+						],
+						"power": [
+							0.16,
+							0.04
+						],
+						"thermres": [
+							0.025,
+							0.06
+						]
+					},
+					"3": {
+						"explres": [
+							0.06,
+							0.075
+						],
+						"integrity": [
+							-0.12,
+							-0.04
+						],
+						"kinres": [
+							0.06,
+							0.075
+						],
+						"power": [
+							0.24,
+							0.08
+						],
+						"thermres": [
+							0.06,
+							0.075
+						]
+					},
+					"4": {
+						"explres": [
+							0.075,
+							0.11
+						],
+						"integrity": [
+							-0.16,
+							-0.06
+						],
+						"kinres": [
+							0.075,
+							0.11
+						],
+						"power": [
+							0.32,
+							0.12
+						],
+						"thermres": [
+							0.075,
+							0.11
+						]
+					},
+					"5": {
+						"explres": [
+							0.1,
+							0.125
+						],
+						"integrity": [
+							-0.2,
+							-0.08
+						],
+						"kinres": [
+							0.1,
+							0.125
+						],
+						"power": [
+							0.4,
+							0.16
+						],
+						"thermres": [
+							0.1,
+							0.125
+						]
+					}
+				},
 				"name": "Resistance augmented"
 			},
 			"ShieldBooster_Thermic": {
 				"id": 72,
-				"name": "Thermal resistant"
+				"features": {
+					"1": {
+						"explres": [
+							-0.02,
+							0
+						],
+						"kinres": [
+							-0.02,
+							0
+						],
+						"thermres": [
+							0.02,
+							0.05
+						]
+					},
+					"2": {
+						"explres": [
+							-0.03,
+							-0.01
+						],
+						"kinres": [
+							-0.03,
+							-0.01
+						],
+						"thermres": [
+							0.07,
+							0.1
+						]
+					},
+					"3": {
+						"explres": [
+							-0.04,
+							-0.02
+						],
+						"kinres": [
+							-0.04,
+							-0.04
+						],
+						"thermres": [
+							0.12,
+							0.15
+						]
+					},
+					"4": {
+						"explres": [
+							-0.05,
+							-0.03
+						],
+						"kinres": [
+							-0.05,
+							-0.03
+						],
+						"thermres": [
+							0.17,
+							0.2
+						]
+					},
+					"5": {
+						"explres": [
+							-0.06,
+							-0.04
+						],
+						"kinres": [
+							-0.06,
+							-0.04
+						],
+						"thermres": [
+							0.22,
+							0.25
+						]
+					}
+				},
+				"name": "Thermal Resistant"
 			},
 			"ShieldCellBank_Rapid": {
 				"id": 73,
+				"features": {
+					"1": {
+						"boot": [
+							0.1,
+							0
+						],
+						"duration": [
+							-0.1,
+							0
+						],
+						"shieldreinforcement": [
+							0,
+							0.03
+						],
+						"spinup": [
+							-0.05,
+							-0.1
+						]
+					},
+					"2": {
+						"boot": [
+							0.2,
+							0.05
+						],
+						"duration": [
+							-0.2,
+							-0.05
+						],
+						"shieldreinforcement": [
+							0.02,
+							0.06
+						],
+						"spinup": [
+							-0.1,
+							-0.2
+						]
+					},
+					"3": {
+						"boot": [
+							0.3,
+							0.1
+						],
+						"duration": [
+							-0.3,
+							-0.1
+						],
+						"shieldreinforcement": [
+							0.04,
+							0.09
+						],
+						"spinup": [
+							-0.2,
+							-0.3
+						]
+					},
+					"4": {
+						"boot": [
+							0.4,
+							0.15
+						],
+						"duration": [
+							-0.4,
+							-0.15
+						],
+						"shieldreinforcement": [
+							0.06,
+							0.12
+						],
+						"spinup": [
+							-0.3,
+							-0.4
+						]
+					}
+				},
 				"name": "Rapid charge"
 			},
 			"ShieldCellBank_Specialised": {
 				"id": 74,
+				"features": {
+					"1": {
+						"boot": [
+							-0.04,
+							-0.08
+						],
+						"integrity": [
+							-0.1,
+							0
+						],
+						"power": [
+							0.1,
+							0
+						],
+						"thermload": [
+							-0.03,
+							-0.06
+						]
+					},
+					"2": {
+						"boot": [
+							-0.08,
+							-0.16
+						],
+						"integrity": [
+							-0.2,
+							-0.05
+						],
+						"power": [
+							0.2,
+							0.05
+						],
+						"thermload": [
+							-0.06,
+							-0.12
+						]
+					},
+					"3": {
+						"boot": [
+							-0.12,
+							-0.26
+						],
+						"integrity": [
+							-0.3,
+							-0.1
+						],
+						"power": [
+							0.3,
+							0.1
+						],
+						"thermload": [
+							-0.09,
+							-0.18
+						]
+					},
+					"4": {
+						"boot": [
+							-0.16,
+							-0.32
+						],
+						"integrity": [
+							-0.3,
+							-0.15
+						],
+						"power": [
+							0.4,
+							0.15
+						],
+						"thermload": [
+							-0.12,
+							-0.24
+						]
+					}
+				},
 				"name": "Specialised"
 			},
 			"ShieldGenerator_Kinetic": {
 				"id": 75,
-				"name": "Kinetic resistant"
+				"features": {
+					"1": {
+						"integrity": [
+							0,
+							0.2
+						],
+						"kinres": [
+							0.05,
+							0.1
+						],
+						"thermres": [
+							-0.05,
+							0
+						]
+					},
+					"2": {
+						"integrity": [
+							0.05,
+							0.25
+						],
+						"kinres": [
+							0.07,
+							0.2
+						],
+						"thermres": [
+							-0.1,
+							-0.02
+						]
+					},
+					"3": {
+						"integrity": [
+							0.1,
+							0.2
+						],
+						"kinres": [
+							0.09,
+							0.2
+						],
+						"thermres": [
+							-0.15,
+							-0.04
+						]
+					},
+					"4": {
+						"integrity": [
+							0.15,
+							0.35
+						],
+						"kinres": [
+							0.11,
+							0.2
+						],
+						"thermres": [
+							-0.2,
+							-0.06
+						]
+					},
+					"5": {
+						"integrity": [
+							0.2,
+							0.4
+						],
+						"kinres": [
+							0.13,
+							0.5
+						],
+						"thermres": [
+							-0.25,
+							-0.08
+						]
+					}
+				},
+				"name": "Kinetic Resistant"
 			},
 			"ShieldGenerator_Optimised": {
 				"id": 76,
+				"features": {
+					"1": {
+						"integrity": [
+							-0.1,
+							-0.05
+						],
+						"mass": [
+							0,
+							-0.08
+						],
+						"optmass": [
+							-0.03,
+							0
+						],
+						"power": [
+							-0.12,
+							-0.2
+						]
+					},
+					"2": {
+						"integrity": [
+							-0.2,
+							-0.1
+						],
+						"mass": [
+							-0.04,
+							-0.16
+						],
+						"optmass": [
+							-0.06,
+							-0.01
+						],
+						"power": [
+							-0.14,
+							-0.25
+						]
+					},
+					"3": {
+						"integrity": [
+							-0.3,
+							-0.15
+						],
+						"mass": [
+							-0.08,
+							-0.24
+						],
+						"optmass": [
+							-0.09,
+							-0.02
+						],
+						"optmul": [
+							0,
+							0.02
+						],
+						"power": [
+							-0.16,
+							-0.3
+						]
+					},
+					"4": {
+						"integrity": [
+							-0.4,
+							-0.2
+						],
+						"mass": [
+							-0.12,
+							-0.32
+						],
+						"optmass": [
+							-0.12,
+							-0.03
+						],
+						"optmul": [
+							0,
+							0.04
+						],
+						"power": [
+							-0.18,
+							-0.35
+						]
+					},
+					"5": {
+						"integrity": [
+							-0.5,
+							-0.25
+						],
+						"mass": [
+							-0.16,
+							-0.4
+						],
+						"optmass": [
+							-0.15,
+							-0.04
+						],
+						"optmul": [
+							0,
+							0.06
+						],
+						"power": [
+							-0.2,
+							-0.4
+						]
+					}
+				},
 				"name": "Enhanced low power"
 			},
 			"ShieldGenerator_Reinforced": {
 				"id": 77,
+				"features": {
+					"1": {
+						"brokenregen": [
+							-0.21,
+							-0.15
+						],
+						"explres": [
+							0,
+							0.03
+						],
+						"kinres": [
+							0,
+							0.03
+						],
+						"optmul": [
+							0.05,
+							0.1
+						],
+						"thermres": [
+							0,
+							0.03
+						]
+					},
+					"2": {
+						"brokenregen": [
+							-0.24,
+							-0.12
+						],
+						"explres": [
+							0.02,
+							0.06
+						],
+						"kinres": [
+							0.02,
+							0.06
+						],
+						"optmul": [
+							0.07,
+							0.15
+						],
+						"regen": [
+							-0.06,
+							-0.04
+						],
+						"thermres": [
+							0.02,
+							0.06
+						]
+					},
+					"3": {
+						"brokenregen": [
+							-0.27,
+							-0.09
+						],
+						"distdraw": [
+							0.05,
+							0
+						],
+						"explres": [
+							0.04,
+							0.09
+						],
+						"kinres": [
+							0.04,
+							0.06
+						],
+						"optmul": [
+							0.09,
+							0.2
+						],
+						"regen": [
+							-0.09,
+							-0.03
+						],
+						"thermres": [
+							0.04,
+							0.09
+						]
+					},
+					"4": {
+						"brokenregen": [
+							-0.3,
+							-0.06
+						],
+						"distdraw": [
+							0.1,
+							0.05
+						],
+						"explres": [
+							0.06,
+							0.12
+						],
+						"kinres": [
+							0.06,
+							0.12
+						],
+						"optmul": [
+							0.11,
+							0.25
+						],
+						"regen": [
+							-0.12,
+							-0.02
+						],
+						"thermres": [
+							0.06,
+							0.12
+						]
+					},
+					"5": {
+						"brokenregen": [
+							-0.33,
+							-0.03
+						],
+						"distdraw": [
+							0.15,
+							0.1
+						],
+						"explres": [
+							0.08,
+							0.15
+						],
+						"kinres": [
+							0.08,
+							0.15
+						],
+						"optmul": [
+							0.13,
+							0.3
+						],
+						"regen": [
+							-0.15,
+							-0.01
+						],
+						"thermres": [
+							0.08,
+							0.15
+						]
+					}
+				},
 				"name": "Reinforced"
 			},
 			"ShieldGenerator_Thermic": {
 				"id": 78,
-				"name": "Thermal resistant"
+				"features": {
+					"1": {
+						"integrity": [
+							0,
+							0.2
+						],
+						"kinres": [
+							-0.05,
+							0
+						],
+						"thermres": [
+							0.05,
+							0.1
+						]
+					},
+					"2": {
+						"integrity": [
+							0.05,
+							0.25
+						],
+						"kinres": [
+							-0.1,
+							-0.02
+						],
+						"thermres": [
+							0.07,
+							0.2
+						]
+					},
+					"3": {
+						"integrity": [
+							0.1,
+							0.3
+						],
+						"kinres": [
+							-0.15,
+							-0.04
+						],
+						"thermres": [
+							0.09,
+							0.3
+						]
+					},
+					"4": {
+						"integrity": [
+							0.15,
+							0.35
+						],
+						"kinres": [
+							-0.2,
+							-0.06
+						],
+						"thermres": [
+							0.11,
+							0.4
+						]
+					},
+					"5": {
+						"integrity": [
+							0.2,
+							0.4
+						],
+						"kinres": [
+							-0.25,
+							-0.08
+						],
+						"thermres": [
+							0.13,
+							0.5
+						]
+					}
+				},
+				"name": "Thermal Resistant"
 			},
 			"WakeScanner_LightWeight": {
 				"id": 79,
+				"features": {
+					"1": {
+						"integrity": [
+							-0.2,
+							-0.1
+						],
+						"mass": [
+							-0.3,
+							-0.4
+						]
+					},
+					"2": {
+						"integrity": [
+							-0.3,
+							-0.2
+						],
+						"mass": [
+							-0.4,
+							-0.5
+						]
+					},
+					"3": {
+						"integrity": [
+							-0.4,
+							-0.3
+						],
+						"mass": [
+							-0.5,
+							-0.6
+						]
+					},
+					"4": {
+						"integrity": [
+							-0.5,
+							-0.4
+						],
+						"mass": [
+							-0.6,
+							-0.7
+						]
+					},
+					"5": {
+						"integrity": [
+							-0.6,
+							-0.5
+						],
+						"mass": [
+							-0.7,
+							-0.8
+						]
+					}
+				},
 				"name": "Lightweight"
 			},
 			"WakeScanner_Shielded": {
 				"id": 80,
+				"features": {
+					"1": {
+						"integrity": [
+							0.2,
+							0.5
+						],
+						"power": [
+							0.3,
+							0.2
+						]
+					},
+					"2": {
+						"integrity": [
+							0.4,
+							1
+						],
+						"power": [
+							0.6,
+							0.4
+						]
+					},
+					"3": {
+						"integrity": [
+							0.6,
+							1.5
+						],
+						"power": [
+							0.9,
+							0.6
+						]
+					},
+					"4": {
+						"integrity": [
+							0.8,
+							2
+						],
+						"power": [
+							1.2,
+							0.8
+						]
+					},
+					"5": {
+						"integrity": [
+							1,
+							1.5
+						],
+						"power": [
+							1.5,
+							1
+						]
+					}
+				},
 				"name": "Shielded"
 			},
 			"WakeScanner_Reinforced": {
 				"id": 81,
+				"features": {
+					"1": {
+						"integrity": [
+							0.2,
+							0.5
+						],
+						"mass": [
+							1,
+							0.4
+						]
+					},
+					"2": {
+						"integrity": [
+							0.4,
+							1
+						],
+						"mass": [
+							1.5,
+							0.8
+						]
+					},
+					"3": {
+						"integrity": [
+							0.6,
+							1.5
+						],
+						"mass": [
+							2,
+							1.2
+						]
+					},
+					"4": {
+						"integrity": [
+							0.8,
+							2
+						],
+						"mass": [
+							2.5,
+							1.6
+						]
+					},
+					"5": {
+						"integrity": [
+							1,
+							2.5
+						],
+						"mass": [
+							3,
+							2
+						]
+					}
+				},
 				"name": "Reinforced"
 			},
 			"Weapon_DoubleShot": {
 				"id": 82,
+				"components": {
+					"1": {
+						"Carbon": 1
+					},
+					"2": {
+						"Carbon": 1,
+						"Mechanical Equipment": 1
+					},
+					"3": {
+						"Carbon": 1,
+						"Cracked Industrial Firmware": 1,
+						"Mechanical Equipment": 1
+					},
+					"4": {
+						"Mechanical Components": 1,
+						"Security Firmware Patch": 1,
+						"Vanadium": 1
+					},
+					"5": {}
+				},
+				"features": {
+					"1": {
+						"ammo": [
+							0.1,
+							0.2
+						],
+						"burst": [
+							2,
+							2
+						],
+						"burstrof": [
+							0.1,
+							0.15
+						],
+						"range": [
+							-0.25,
+							-0.1
+						]
+					},
+					"2": {
+						"ammo": [
+							0.2,
+							0.3
+						],
+						"burst": [
+							2,
+							2
+						],
+						"burstrof": [
+							0.11,
+							0.16
+						],
+						"range": [
+							-0.2,
+							-0.08
+						]
+					},
+					"3": {
+						"ammo": [
+							0.3,
+							0.4
+						],
+						"burst": [
+							2,
+							2
+						],
+						"burstrof": [
+							0.12,
+							0.17
+						],
+						"range": [
+							-0.15,
+							-0.06
+						]
+					},
+					"4": {
+						"ammo": [
+							0.4,
+							0.5
+						],
+						"burst": [
+							2,
+							2
+						],
+						"burstrof": [
+							0.13,
+							0.18
+						],
+						"range": [
+							-0.1,
+							-0.04
+						]
+					},
+					"5": {
+						"ammo": [
+							0.5,
+							0.6
+						],
+						"burst": [
+							2,
+							2
+						],
+						"burstrof": [
+							0.14,
+							0.19
+						],
+						"range": [
+							-0.5,
+							-0.02
+						]
+					}
+				},
 				"name": "Double shot"
 			},
 			"Weapon_Efficient": {
 				"id": 83,
+				"components": {
+					"1": {
+						"Sulphur": 1
+					},
+					"2": {
+						"Heat Dispersion Plate": 1,
+						"Sulphur": 1
+					},
+					"3": {
+						"Chromium": 1,
+						"Exceptional Scrambed Emission Data": 1,
+						"Heat Exchangers": 1
+					},
+					"4": {
+						"Heat Vanes": 1,
+						"Irregular Emission Data": 1,
+						"Selenium": 1
+					},
+					"5": {
+						"Cadmium": 1,
+						"Proto Heat Radiators": 1,
+						"Heatsink Interlink": 1
+					}
+				},
+				"features": {
+					"1": {
+						"damage": [
+							0,
+							0.04
+						],
+						"thermload": [
+							-0.31,
+							-0.4
+						]
+					},
+					"2": {
+						"damage": [
+							0.01,
+							0.05
+						],
+						"power": [
+							0,
+							-0.1
+						],
+						"thermload": [
+							-0.36,
+							-0.45
+						]
+					},
+					"3": {
+						"damage": [
+							0.01,
+							0.07
+						],
+						"distdraw": [
+							-0.15,
+							-0.25
+						],
+						"power": [
+							-0.06,
+							-0.2
+						],
+						"thermload": [
+							-0.4,
+							-0.5
+						]
+					},
+					"4": {
+						"damage": [
+							0.03,
+							0.08
+						],
+						"distdraw": [
+							-0.2,
+							-0.3
+						],
+						"power": [
+							-0.1,
+							-0.31
+						],
+						"thermload": [
+							-0.45,
+							-0.55
+						]
+					},
+					"5": {
+						"damage": [
+							0.03,
+							0.09
+						],
+						"distdraw": [
+							-0.25,
+							-0.36
+						],
+						"power": [
+							-0.14,
+							-0.4
+						],
+						"thermload": [
+							-0.5,
+							-0.61
+						]
+					}
+				},
 				"name": "Efficient"
 			},
 			"Weapon_Focused": {
 				"id": 84,
+				"components": {
+					"1": {
+						"Iron": 1
+					},
+					"2": {
+						"Conductive Components": 1,
+						"Iron": 1
+					},
+					"3": {
+						"Chromium": 1,
+						"Conductive Ceramics": 1,
+						"Iron": 1
+					},
+					"4": {
+						"Focus Crystals": 1,
+						"Germanium": 1,
+						"Polymer Capacitors": 1
+					},
+					"5": {
+						"Military Supercapacitors": 1,
+						"Niobium": 1,
+						"Refined Focus Crystals": 1
+					}
+				},
+				"features": {
+					"1": {
+						"burstrof": [
+							0.2,
+							0.08
+						],
+						"range": [
+							0.1,
+							0.2
+						],
+						"thermload": [
+							0.5,
+							0.4
+						]
+					},
+					"2": {
+						"burstrof": [
+							0.16,
+							0.06
+						],
+						"piercing": [
+							0,
+							0.1
+						],
+						"range": [
+							0.2,
+							0.4
+						],
+						"thermload": [
+							0.4,
+							0.3
+						]
+					},
+					"3": {
+						"burstrof": [
+							0.12,
+							0.04
+						],
+						"piercing": [
+							0.1,
+							0.2
+						],
+						"range": [
+							0.3,
+							0.6
+						],
+						"thermload": [
+							0.3,
+							0.2
+						]
+					},
+					"4": {
+						"burstrof": [
+							0.08,
+							0.02
+						],
+						"piercing": [
+							0.2,
+							0.4
+						],
+						"range": [
+							0.4,
+							0.8
+						],
+						"thermload": [
+							0.2,
+							0.1
+						]
+					},
+					"5": {
+						"burstrof": [
+							0.04,
+							0
+						],
+						"piercing": [
+							0.3,
+							0.6
+						],
+						"range": [
+							0.5,
+							1
+						],
+						"thermload": [
+							0.1,
+							0
+						]
+					}
+				},
 				"name": "Focused"
 			},
 			"Weapon_HighCapacity": {
 				"id": 85,
+				"components": {
+					"1": {
+						"Mechanical Scrap": 1
+					},
+					"2": {
+						"Mechanical Scrap": 1,
+						"Vanadium": 1
+					},
+					"3": {
+						"Mechanical Scrap": 1,
+						"Niobium": 1,
+						"Vanadium": 1
+					},
+					"4": {
+						"High Density Composites": 1,
+						"Mechanical Equipment": 1,
+						"Tin": 1
+					},
+					"5": {
+						"Mechanical Components": 1,
+						"Military Supercapacitors": 1,
+						"Proprietary Composites": 1
+					}
+				},
+				"features": {
+					"1": {
+						"ammo": [
+							0.1,
+							0.59
+						],
+						"clip": [
+							0.1,
+							0.59
+						],
+						"mass": [
+							0.25,
+							0.1
+						],
+						"reload": [
+							0.2,
+							0
+						],
+						"power": [
+							0.2,
+							0.1
+						]
+					},
+					"2": {
+						"ammo": [
+							0.19,
+							0.69
+						],
+						"clip": [
+							0.2,
+							0.69
+						],
+						"mass": [
+							0.5,
+							0.2
+						],
+						"reload": [
+							0.39,
+							0.1
+						],
+						"power": [
+							0.25,
+							0.14
+						]
+					},
+					"3": {
+						"ammo": [
+							0.29,
+							0.79
+						],
+						"clip": [
+							0.29,
+							0.79
+						],
+						"mass": [
+							0.75,
+							0.29
+						],
+						"reload": [
+							0.61,
+							0.2
+						],
+						"power": [
+							0.31,
+							0.2
+						]
+					},
+					"4": {
+						"ammo": [
+							0.39,
+							0.89
+						],
+						"clip": [
+							0.39,
+							0.89
+						],
+						"mass": [
+							1,
+							0.39
+						],
+						"reload": [
+							0.79,
+							0.29
+						],
+						"power": [
+							0.35,
+							0.25
+						]
+					},
+					"5": {
+						"ammo": [
+							0.5,
+							1
+						],
+						"clip": [
+							0.5,
+							1
+						],
+						"mass": [
+							1.25,
+							0.5
+						],
+						"reload": [
+							1,
+							0.39
+						],
+						"power": [
+							0.39,
+							0.31
+						]
+					}
+				},
 				"name": "High capacity"
 			},
 			"Weapon_LightWeight": {
 				"id": 86,
+				"components": {
+					"1": {
+						"Phosphorous": 1
+					},
+					"2": {
+						"Manganese": 1,
+						"Salvaged Alloys": 1
+					},
+					"3": {
+						"Conductive Ceramics": 1,
+						"Manganese": 1,
+						"Salvaged Alloys": 1
+					},
+					"4": {
+						"Conductive Components": 1,
+						"Phase Alloys": 1,
+						"Proto Light Alloys": 1
+					},
+					"5": {
+						"Conductive Ceramics": 1,
+						"Proto Light Alloys": 1,
+						"Proto Radiolic Alloys": 1
+					}
+				},
+				"features": {
+					"1": {
+						"distdraw": [
+							-0.02,
+							-0.04
+						],
+						"integrity": [
+							-0.2,
+							0
+						],
+						"mass": [
+							-0.11,
+							-0.15
+						],
+						"power": [
+							-0.02,
+							-0.04
+						]
+					},
+					"2": {
+						"distdraw": [
+							-0.04,
+							-0.08
+						],
+						"integrity": [
+							-0.31,
+							-0.1
+						],
+						"mass": [
+							-0.2,
+							-0.36
+						],
+						"power": [
+							-0.04,
+							-0.08
+						]
+					},
+					"3": {
+						"distdraw": [
+							-0.06,
+							-0.12
+						],
+						"integrity": [
+							-0.4,
+							-0.2
+						],
+						"mass": [
+							-0.31,
+							-0.55
+						],
+						"power": [
+							-0.06,
+							-0.12
+						]
+					},
+					"4": {
+						"distdraw": [
+							-0.08,
+							-0.16
+						],
+						"integrity": [
+							-0.5,
+							-0.31
+						],
+						"mass": [
+							-0.4,
+							-0.75
+						],
+						"power": [
+							-0.08,
+							-0.16
+						]
+					},
+					"5": {
+						"distdraw": [
+							-0.1,
+							-0.2
+						],
+						"integrity": [
+							-0.61,
+							-0.4
+						],
+						"mass": [
+							-0.5,
+							-0.9
+						],
+						"power": [
+							-0.1,
+							-0.2
+						]
+					}
+				},
 				"name": "Lightweight"
 			},
 			"Weapon_LongRange": {
 				"id": 87,
+				"components": {
+					"1": {
+						"Sulphur": 1
+					},
+					"2": {
+						"Modified Consumer Firmware": 1,
+						"Sulphur": 1
+					},
+					"3": {
+						"Focus Crystals": 1,
+						"Modified Consumer Firmware": 1,
+						"Sulphur": 1
+					},
+					"4": {
+						"Conductive Polymers": 1,
+						"Focus Crystals": 1,
+						"Modified Consumer Firmware": 1
+					},
+					"5": {
+						"Biotech Conductors": 1,
+						"Cracked Industrial Firmware": 1,
+						"Thermic Alloys": 1
+					}
+				},
+				"features": {
+					"1": {
+						"fallofffromrange": [
+							1,
+							1
+						],
+						"mass": [
+							0.1,
+							0
+						],
+						"shotspeed": [
+							0.1,
+							0.19
+						],
+						"range": [
+							0.1,
+							0.2
+						]
+					},
+					"2": {
+						"fallofffromrange": [
+							1,
+							1
+						],
+						"mass": [
+							0.2,
+							0.04
+						],
+						"power": [
+							0.04,
+							0
+						],
+						"shotspeed": [
+							0.19,
+							0.39
+						],
+						"range": [
+							0.2,
+							0.4
+						]
+					},
+					"3": {
+						"fallofffromrange": [
+							1,
+							1
+						],
+						"mass": [
+							0.29,
+							0.1
+						],
+						"power": [
+							0.1,
+							0.04
+						],
+						"shotspeed": [
+							0.29,
+							0.59
+						],
+						"range": [
+							0.31,
+							0.61
+						]
+					},
+					"4": {
+						"fallofffromrange": [
+							1,
+							1
+						],
+						"mass": [
+							0.39,
+							0.14
+						],
+						"power": [
+							0.14,
+							0.1
+						],
+						"shotspeed": [
+							0.39,
+							0.79
+						],
+						"range": [
+							0.4,
+							0.81
+						]
+					},
+					"5": {
+						"fallofffromrange": [
+							1,
+							1
+						],
+						"mass": [
+							0.5,
+							0.2
+						],
+						"power": [
+							0.2,
+							0.14
+						],
+						"shotspeed": [
+							0.5,
+							1
+						],
+						"range": [
+							0.5,
+							1
+						]
+					}
+				},
 				"name": "Long range"
 			},
 			"Weapon_Overcharged": {
 				"id": 88,
+				"components": {
+					"1": {
+						"Nickel": 1
+					},
+					"2": {
+						"Conductive Components": 1,
+						"Nickel": 1
+					},
+					"3": {
+						"Conductive Components": 1,
+						"Electrochemical Arrays": 1,
+						"Nickel": 1
+					},
+					"4": {
+						"Conductive Ceramics": 1,
+						"Polymer Capaciters": 1,
+						"Zinc": 1
+					},
+					"5": {
+						"Conductive Polymers": 1,
+						"Modified Embedded Firmware": 1,
+						"Zirconium": 1
+					}
+				},
+				"features": {
+					"1": {
+						"clip": [
+							-0.05,
+							-0.04
+						],
+						"damage": [
+							0.14,
+							0.25
+						],
+						"distdraw": [
+							0.89,
+							0.45
+						],
+						"jitter": [
+							1,
+							0.4
+						],
+						"thermload": [
+							0.45,
+							0.29
+						]
+					},
+					"2": {
+						"clip": [
+							-0.11,
+							-0.06
+						],
+						"damage": [
+							0.2,
+							0.29
+						],
+						"distdraw": [
+							0.81,
+							0.4
+						],
+						"jitter": [
+							0.8,
+							0.3
+						],
+						"thermload": [
+							0.29,
+							0.14
+						]
+					},
+					"3": {
+						"clip": [
+							-0.16,
+							-0.1
+						],
+						"damage": [
+							0.25,
+							0.35
+						],
+						"distdraw": [
+							0.7,
+							0.35
+						],
+						"jitter": [
+							0.6,
+							0.2
+						],
+						"thermload": [
+							0.14,
+							0
+						]
+					},
+					"4": {
+						"clip": [
+							-0.21,
+							-0.12
+						],
+						"damage": [
+							0.29,
+							0.39
+						],
+						"distdraw": [
+							0.61,
+							0.29
+						],
+						"jitter": [
+							0.4,
+							0.1
+						]
+					},
+					"5": {
+						"clip": [
+							-0.25,
+							-0.16
+						],
+						"damage": [
+							0.35,
+							0.45
+						],
+						"distdraw": [
+							0.5,
+							0.25
+						]
+					}
+				},
 				"name": "Overcharged"
 			},
 			"Weapon_RapidFire": {
 				"id": 89,
+				"components": {
+					"1": {
+						"Mechanical Scrap": 1
+					},
+					"2": {
+						"Heat Dispersion Plate": 1,
+						"Mechanical Scrap": 1
+					},
+					"3": {
+						"Mechanical Equipment": 1,
+						"Precipitated Aloys": 1,
+						"Specialised Legacy Firmware": 1
+					},
+					"4": {
+						"Mechanical Components": 1,
+						"Modified Consumer Firmware": 1,
+						"Thermic Alloys": 1
+					},
+					"5": {
+						"Configurable Components": 1,
+						"Precipitated Alloys": 1,
+						"Technetium": 1
+					}
+				},
+				"features": {
+					"1": {
+						"damage": [
+							-0.07,
+							-0.06
+						],
+						"jitter": [
+							2.5,
+							1.25
+						],
+						"reload": [
+							-0.11,
+							-0.25
+						],
+						"rof": [
+							0.17,
+							0.25
+						]
+					},
+					"2": {
+						"damage": [
+							-0.1,
+							-0.07
+						],
+						"distdraw": [
+							-0.1,
+							-0.2
+						],
+						"jitter": [
+							2,
+							1
+						],
+						"reload": [
+							-0.2,
+							-0.36
+						],
+						"rof": [
+							0.25,
+							0.34
+						]
+					},
+					"3": {
+						"damage": [
+							-0.11,
+							-0.1
+						],
+						"distdraw": [
+							-0.15,
+							-0.25
+						],
+						"jitter": [
+							1.5,
+							0.75
+						],
+						"reload": [
+							-0.31,
+							-0.45
+						],
+						"rof": [
+							0.34,
+							0.42
+						]
+					},
+					"4": {
+						"damage": [
+							-0.13,
+							-0.11
+						],
+						"distdraw": [
+							-0.2,
+							-0.3
+						],
+						"jitter": [
+							1,
+							0.5
+						],
+						"reload": [
+							-0.4,
+							-0.55
+						],
+						"rof": [
+							0.42,
+							0.53
+						]
+					},
+					"5": {
+						"damage": [
+							-0.15,
+							-0.13
+						],
+						"distdraw": [
+							-0.25,
+							-0.36
+						],
+						"jitter": [
+							0.5,
+							0.25
+						],
+						"reload": [
+							-0.5,
+							-0.65
+						],
+						"rof": [
+							0.53,
+							0.66
+						]
+					}
+				},
 				"name": "Rapid fire"
 			},
 			"Weapon_ShortRange": {
 				"id": 90,
+				"components": {
+					"1": {
+						"Nickel": 1
+					},
+					"2": {
+						"Modified Consumer Firmware": 1,
+						"Nickel": 1
+					},
+					"3": {
+						"Electrochemical Arrays": 1,
+						"Modified Consumer Firmware": 1,
+						"Nickel": 1
+					},
+					"4": {
+						"Conductive Polymers": 1,
+						"Electrochemical Arrays": 1,
+						"Modified Consumer Firmware": 1
+					},
+					"5": {
+						"Biotech Conductors": 1,
+						"Configurable Components": 1,
+						"Cracked Industrial Firmware": 1
+					}
+				},
+				"features": {
+					"1": {
+						"damage": [
+							0.03,
+							0.09
+						],
+						"range": [
+							-0.35,
+							-0.1
+						]
+					},
+					"2": {
+						"damage": [
+							0.08,
+							0.18
+						],
+						"range": [
+							-0.45,
+							-0.2
+						],
+						"thermload": [
+							0.2,
+							0.1
+						]
+					},
+					"3": {
+						"damage": [
+							0.11,
+							0.26
+						],
+						"integrity": [
+							-0.2,
+							-0.1
+						],
+						"range": [
+							-0.55,
+							-0.3
+						],
+						"thermload": [
+							0.3,
+							0.2
+						]
+					},
+					"4": {
+						"damage": [
+							0.15,
+							0.35
+						],
+						"integrity": [
+							-0.31,
+							-0.2
+						],
+						"range": [
+							-0.65,
+							-0.4
+						],
+						"thermload": [
+							0.39,
+							0.29
+						]
+					},
+					"5": {
+						"damage": [
+							0.2,
+							0.45
+						],
+						"integrity": [
+							-0.4,
+							-0.31
+						],
+						"range": [
+							-0.75,
+							-0.5
+						],
+						"thermload": [
+							0.5,
+							0.39
+						]
+					}
+				},
 				"name": "Short range"
 			},
 			"Weapon_Sturdy": {
 				"id": 91,
+				"components": {
+					"1": {
+						"Nickel": 1
+					},
+					"2": {
+						"Nickel": 1,
+						"Shield Emitters": 1
+					},
+					"3": {
+						"Nickel": 1,
+						"Shield Emitters": 1,
+						"Tungsten": 1
+					},
+					"4": {
+						"Molybdenum": 1,
+						"Tungsten": 1,
+						"Zinc": 1
+					},
+					"5": {
+						"High Density Composites": 1,
+						"Molybdenum": 1,
+						"Technetium": 1
+					}
+				},
+				"features": {
+					"1": {
+						"integrity": [
+							0.2,
+							0.5
+						],
+						"mass": [
+							0.5,
+							0
+						],
+						"thermload": [
+							0,
+							-0.1
+						]
+					},
+					"2": {
+						"integrity": [
+							0.39,
+							1
+						],
+						"mass": [
+							1,
+							0.5
+						],
+						"thermload": [
+							-0.06,
+							-0.15
+						]
+					},
+					"3": {
+						"integrity": [
+							0.61,
+							1.5
+						],
+						"mass": [
+							1.5,
+							1
+						],
+						"piercing": [
+							0,
+							0.14
+						],
+						"thermload": [
+							-0.11,
+							-0.2
+						]
+					},
+					"4": {
+						"integrity": [
+							0.81,
+							2
+						],
+						"mass": [
+							2,
+							1.5
+						],
+						"piercing": [
+							0.1,
+							0.29
+						],
+						"thermload": [
+							-0.15,
+							-0.25
+						]
+					},
+					"5": {
+						"integrity": [
+							1,
+							2.5
+						],
+						"mass": [
+							2.5,
+							2
+						],
+						"piercing": [
+							0.2,
+							0.45
+						],
+						"thermload": [
+							-0.2,
+							-0.31
+						]
+					}
+				},
 				"name": "Sturdy"
 			}
 		},
@@ -16745,6 +23528,12 @@
 				"name": "damage",
 				"type": "percentage",
 				"method": "multiplicative"
+			},
+			"damagedist": {
+				"id": 40,
+				"name": "damage",
+				"type": "hidden",
+				"method": "overwrite"
 			},
 			"distdraw": {
 				"id": 6,
@@ -16908,6 +23697,12 @@
 				"type": "percentage",
 				"method": "multiplicative"
 			},
+			"shotspeed": {
+				"id": 43,
+				"name": "shotspeed",
+				"type": "percentage",
+				"method": "multiplicative"
+			},
 			"spinup": {
 				"id": 32,
 				"name": "spinup",
@@ -16955,12 +23750,6 @@
 				"name": "shieldreinforcement",
 				"type": "percentage",
 				"method": "multiplicative"
-			},
-			"type": {
-				"id": 40,
-				"name": "type",
-				"type": "alphabetic",
-				"method": "overwrite"
 			}
 		},
 		"modifierActions": {
@@ -17180,12 +23969,17 @@
 			"special_incendiary_rounds": {
 				"rof": 0.05263157894736842,
 				"thermload": 2,
-				"type": "T"
+				"damagedist": {
+					"T": 1
+				}
 			},
 			"special_inertial_impact": {
 				"damage": 0.5,
 				"jitter": 1,
-				"type": "KT"
+				"damagedist": {
+					"K": 0.5,
+					"T": 0.5
+				}
 			},
 			"special_overload_munitions": {},
 			"special_phasing_sequence": {
@@ -17308,6 +24102,1689 @@
 			"trade_weapon_hardness_weapon_heat": {
 				"piercing": 0.4,
 				"thermload": 1
+			}
+		},
+		"modules": {
+			"am": {
+				"blueprints": {
+					"AFM_LightWeight": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"AFM_Reinforced": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"AFM_Shielded": [
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				"modifications": [
+					"integrity",
+					"power"
+				]
+			},
+			"bh": {
+				"blueprints": {
+					"Armour_Advanced": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Armour_Explosive": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Armour_HeavyDuty": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Armour_Kinetic": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Armour_Thermic": [
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				"modifications": [
+					"explres",
+					"hullboost",
+					"kinres",
+					"mass",
+					"thermres"
+				]
+			},
+			"bl": {
+				"blueprints": {
+					"Weapon_Efficient": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Weapon_LightWeight": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Weapon_LongRange": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Weapon_Overcharged": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Weapon_ShortRange": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Weapon_Sturdy": [
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				"modifications": [
+					"damage",
+					"damagedist",
+					"distdraw",
+					"fallofffromrange",
+					"integrity",
+					"jitter",
+					"mass",
+					"piercing",
+					"power",
+					"range",
+					"thermload"
+				]
+			},
+			"bsg": {
+				"blueprints": {
+					"ShieldGenerator_Kinetic": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"ShieldGenerator_Optimised": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"ShieldGenerator_Reinforced": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"ShieldGenerator_Thermic": [
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				"modifications": [
+					"boot",
+					"brokenregen",
+					"distdraw",
+					"explres",
+					"integrity",
+					"kinres",
+					"mass",
+					"optmass",
+					"optmul",
+					"power",
+					"regen",
+					"thermload",
+					"thermres"
+				]
+			},
+			"c": {
+				"blueprints": {
+					"Weapon_Efficient": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Weapon_HighCapacity": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Weapon_LightWeight": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Weapon_LongRange": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Weapon_Overcharged": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Weapon_RapidFire": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Weapon_ShortRange": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Weapon_Sturdy": [
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				"modifications": [
+					"ammo",
+					"clip",
+					"damage",
+					"damagedist",
+					"distdraw",
+					"fallofffromrange",
+					"integrity",
+					"jitter",
+					"mass",
+					"piercing",
+					"power",
+					"range",
+					"reload",
+					"rof",
+					"shotspeed",
+					"thermload"
+				]
+			},
+			"cc": {
+				"blueprints": {
+					"CollectionLimpet_LightWeight": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"CollectionLimpet_Reinforced": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"CollectionLimpet_Shielded": [
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				"modifications": [
+					"integrity",
+					"mass",
+					"power"
+				]
+			},
+			"ch": {
+				"blueprints": {
+					"ChaffLauncher_ChaffCapacity": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"ChaffLauncher_LightWeight": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"ChaffLauncher_Reinforced": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"ChaffLauncher_Shielded": [
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				"modifications": [
+					"ammo",
+					"integrity",
+					"mass",
+					"power",
+					"reload"
+				]
+			},
+			"cr": {
+				"blueprints": {},
+				"modifications": []
+			},
+			"cs": {
+				"blueprints": {
+					"CargoScanner_LightWeight": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"CargoScanner_Reinforced": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"CargoScanner_Shielded": [
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				"modifications": [
+					"boot",
+					"integrity",
+					"mass",
+					"power"
+				]
+			},
+			"dc": {
+				"blueprints": {},
+				"modifications": []
+			},
+			"ec": {
+				"blueprints": {
+					"ECM_LightWeight": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"ECM_Reinforced": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"ECM_Shielded": [
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				"modifications": [
+					"integrity",
+					"mass",
+					"power"
+				]
+			},
+			"fc": {
+				"blueprints": {
+					"Weapon_DoubleShot": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Weapon_Efficient": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Weapon_HighCapacity": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Weapon_LightWeight": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Weapon_LongRange": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Weapon_Overcharged": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Weapon_RapidFire": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Weapon_Sturdy": [
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				"modifications": [
+					"ammo",
+					"burst",
+					"burstrof",
+					"clip",
+					"damage",
+					"damagedist",
+					"fallofffromrange",
+					"distdraw",
+					"integrity",
+					"jitter",
+					"mass",
+					"piercing",
+					"power",
+					"range",
+					"reload",
+					"rof",
+					"shotspeed",
+					"thermload"
+				]
+			},
+			"fh": {
+				"blueprints": {},
+				"modifications": []
+			},
+			"fi": {
+				"blueprints": {
+					"FSDinterdictor_Expanded": [
+						1,
+						2,
+						3,
+						4
+					],
+					"FSDinterdictor_LongRange": [
+						1,
+						2,
+						3
+					]
+				},
+				"modifications": [
+					"boot",
+					"facinglimit",
+					"integrity",
+					"mass",
+					"power",
+					"ranget"
+				]
+			},
+			"fs": {
+				"blueprints": {
+					"FuelScoop_Shielded": [
+						1,
+						2,
+						3,
+						4
+					]
+				},
+				"modifications": [
+					"integrity",
+					"power"
+				]
+			},
+			"fsd": {
+				"blueprints": {
+					"FSD_FastBoot": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"FSD_LongRange": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"FSD_Shielded": [
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				"modifications": [
+					"boot",
+					"integrity",
+					"mass",
+					"maxfuel",
+					"optmass",
+					"power",
+					"thermload"
+				]
+			},
+			"ft": {
+				"blueprints": {},
+				"modifications": []
+			},
+			"fx": {
+				"blueprints": {
+					"FuelTransferLimpet_LightWeight": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"FuelTransferLimpet_Reinforced": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"FuelTransferLimpet_Shielded": [
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				"modifications": [
+					"integrity",
+					"mass",
+					"power"
+				]
+			},
+			"hb": {
+				"blueprints": {
+					"HatchBreakerLimpet_LightWeight": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"HatchBreakerLimpet_Reinforced": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"HatchBreakerLimpet_Shielded": [
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				"modifications": [
+					"integrity",
+					"mass",
+					"power"
+				]
+			},
+			"hr": {
+				"blueprints": {
+					"HullReinforcement_Advanced": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"HullReinforcement_Explosive": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"HullReinforcement_HeavyDuty": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"HullReinforcement_Kinetic": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"HullReinforcement_Thermic": [
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				"modifications": [
+					"hullreinforcement",
+					"explres",
+					"hullboost",
+					"kinres",
+					"mass",
+					"thermres"
+				]
+			},
+			"hs": {
+				"blueprints": {
+					"HeatSinkLauncher_HeatSinkCapacity": [
+						3
+					],
+					"HeatSinkLauncher_LightWeight": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"HeatSinkLauncher_Reinforced": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"HeatSinkLauncher_Shielded": [
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				"modifications": [
+					"ammo",
+					"integrity",
+					"mass",
+					"power",
+					"reload"
+				]
+			},
+			"kw": {
+				"blueprints": {
+					"KillWarrantScanner_LightWeight": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"KillWarrantScanner_Reinforced": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"KillWarrantScanner_Shielded": [
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				"modifications": [
+					"boot",
+					"integrity",
+					"mass",
+					"power"
+				]
+			},
+			"ls": {
+				"blueprints": {
+					"LifeSupport_LightWeight": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"LifeSupport_Reinforced": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"LifeSupport_Shielded": [
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				"modifications": [
+					"boot",
+					"integrity",
+					"mass",
+					"power"
+				]
+			},
+			"mc": {
+				"blueprints": {
+					"Weapon_Efficient": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Weapon_HighCapacity": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Weapon_LightWeight": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Weapon_LongRange": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Weapon_Overcharged": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Weapon_RapidFire": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Weapon_ShortRange": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Weapon_Sturdy": [
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				"modifications": [
+					"ammo",
+					"clip",
+					"damage",
+					"damagedist",
+					"fallofffromrange",
+					"distdraw",
+					"integrity",
+					"jitter",
+					"mass",
+					"piercing",
+					"power",
+					"range",
+					"reload",
+					"rof",
+					"shotspeed",
+					"thermload"
+				]
+			},
+			"ml": {
+				"blueprints": {},
+				"modifications": []
+			},
+			"mr": {
+				"blueprints": {
+					"Weapon_HighCapacity": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Weapon_LightWeight": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Weapon_RapidFire": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Weapon_Sturdy": [
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				"modifications": [
+					"ammo",
+					"clip",
+					"damage",
+					"damagedist",
+					"fallofffromrange",
+					"distdraw",
+					"integrity",
+					"jitter",
+					"mass",
+					"piercing",
+					"power",
+					"reload",
+					"rof",
+					"thermload"
+				]
+			},
+			"mrp": {
+				"blueprints": {},
+				"modifications": []
+			},
+			"nl": {
+				"blueprints": {
+					"Weapon_HighCapacity": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Weapon_LightWeight": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Weapon_RapidFire": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Weapon_Sturdy": [
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				"modifications": [
+					"ammo",
+					"boot",
+					"clip",
+					"damage",
+					"damagedist",
+					"fallofffromrange",
+					"integrity",
+					"jitter",
+					"mass",
+					"piercing",
+					"power",
+					"reload",
+					"rof",
+					"thermload"
+				]
+			},
+			"pa": {
+				"blueprints": {
+					"Weapon_Efficient": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Weapon_Focused": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Weapon_LightWeight": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Weapon_LongRange": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Weapon_Overcharged": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Weapon_RapidFire": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Weapon_ShortRange": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Weapon_Sturdy": [
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				"modifications": [
+					"ammo",
+					"clip",
+					"damage",
+					"damagedist",
+					"fallofffromrange",
+					"distdraw",
+					"integrity",
+					"jitter",
+					"mass",
+					"piercing",
+					"power",
+					"range",
+					"reload",
+					"rof",
+					"shotspeed",
+					"thermload"
+				]
+			},
+			"pas": {
+				"blueprints": {},
+				"modifications": []
+			},
+			"pc": {
+				"blueprints": {
+					"ProspectingLimpet_LightWeight": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"ProspectingLimpet_Reinforced": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"ProspectingLimpet_Shielded": [
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				"modifications": [
+					"integrity",
+					"mass",
+					"power"
+				]
+			},
+			"pce": {
+				"blueprints": {},
+				"modifications": []
+			},
+			"pci": {
+				"blueprints": {},
+				"modifications": []
+			},
+			"pcm": {
+				"blueprints": {},
+				"modifications": []
+			},
+			"pcq": {
+				"blueprints": {},
+				"modifications": []
+			},
+			"pd": {
+				"blueprints": {
+					"PowerDistributor_HighFrequency": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"PowerDistributor_PriorityEngines": [
+						1,
+						2,
+						3
+					],
+					"PowerDistributor_HighCapacity": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"PowerDistributor_Shielded": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"PowerDistributor_PrioritySystems": [
+						1,
+						2,
+						3
+					],
+					"PowerDistributor_PriorityWeapons": [
+						1,
+						2,
+						3
+					]
+				},
+				"modifications": [
+					"boot",
+					"engcap",
+					"engrate",
+					"integrity",
+					"mass",
+					"power",
+					"syscap",
+					"sysrate",
+					"wepcap",
+					"weprate"
+				]
+			},
+			"pl": {
+				"blueprints": {
+					"Weapon_Efficient": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Weapon_Focused": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Weapon_LightWeight": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Weapon_LongRange": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Weapon_Overcharged": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Weapon_RapidFire": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Weapon_ShortRange": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Weapon_Sturdy": [
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				"modifications": [
+					"damage",
+					"damagedist",
+					"fallofffromrange",
+					"distdraw",
+					"integrity",
+					"jitter",
+					"mass",
+					"piercing",
+					"power",
+					"range",
+					"rof",
+					"thermload"
+				]
+			},
+			"po": {
+				"blueprints": {
+					"PointDefence_PointDefenseCapacity": [
+						3
+					],
+					"PointDefence_LightWeight": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"PointDefence_Reinforced": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"PointDefence_Shielded": [
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				"modifications": [
+					"ammo",
+					"integrity",
+					"mass",
+					"power",
+					"reload"
+				]
+			},
+			"pp": {
+				"blueprints": {
+					"PowerPlant_Armoured": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"PowerPlant_Stealth": [
+						1,
+						2,
+						3
+					],
+					"PowerPlant_Boosted": [
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				"modifications": [
+					"eff",
+					"integrity",
+					"mass",
+					"pgen"
+				]
+			},
+			"psg": {
+				"blueprints": {
+					"ShieldGenerator_Kinetic": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"ShieldGenerator_Optimised": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"ShieldGenerator_Reinforced": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"ShieldGenerator_Thermic": [
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				"modifications": [
+					"boot",
+					"brokenregen",
+					"distdraw",
+					"explres",
+					"integrity",
+					"kinres",
+					"mass",
+					"optmass",
+					"optmul",
+					"power",
+					"regen",
+					"thermload",
+					"thermres"
+				]
+			},
+			"pv": {
+				"blueprints": {},
+				"modifications": []
+			},
+			"rf": {
+				"blueprints": {
+					"Refineries_Shielded": [
+						1,
+						2,
+						3,
+						4
+					]
+				},
+				"modifications": [
+					"integrity",
+					"power"
+				]
+			},
+			"rg": {
+				"blueprints": {
+					"Weapon_HighCapacity": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Weapon_LightWeight": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Weapon_LongRange": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Weapon_ShortRange": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Weapon_Sturdy": [
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				"modifications": [
+					"ammo",
+					"clip",
+					"damage",
+					"damagedist",
+					"fallofffromrange",
+					"distdraw",
+					"integrity",
+					"jitter",
+					"mass",
+					"piercing",
+					"power",
+					"range",
+					"reload",
+					"rof",
+					"thermload"
+				]
+			},
+			"s": {
+				"blueprints": {},
+				"modifications": []
+			},
+			"sb": {
+				"blueprints": {
+					"ShieldBooster_Explosive": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"ShieldBooster_HeavyDuty": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"ShieldBooster_Kinetic": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"ShieldBooster_Resistive": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"ShieldBooster_Thermic": [
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				"modifications": [
+					"explres",
+					"integrity",
+					"kinres",
+					"mass",
+					"power",
+					"shieldboost",
+					"thermres"
+				]
+			},
+			"sc": {
+				"blueprints": {},
+				"modifications": []
+			},
+			"scb": {
+				"blueprints": {
+					"ShieldCellBank_Rapid": [
+						1,
+						2,
+						3,
+						4
+					],
+					"ShieldCellBank_Specialised": [
+						1,
+						2,
+						3,
+						4
+					]
+				},
+				"modifications": [
+					"boot",
+					"duration",
+					"integrity",
+					"power",
+					"shieldreinforcement",
+					"spinup",
+					"thermload"
+				]
+			},
+			"sg": {
+				"blueprints": {
+					"ShieldGenerator_Kinetic": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"ShieldGenerator_Optimised": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"ShieldGenerator_Reinforced": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"ShieldGenerator_Thermic": [
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				"modifications": [
+					"boot",
+					"brokenregen",
+					"distdraw",
+					"explres",
+					"integrity",
+					"kinres",
+					"mass",
+					"optmass",
+					"optmul",
+					"power",
+					"regen",
+					"thermload",
+					"thermres"
+				]
+			},
+			"t": {
+				"blueprints": {
+					"Engine_Dirty": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Engine_Reinforced": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Engine_Tuned": [
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				"modifications": [
+					"integrity",
+					"mass",
+					"optmass",
+					"optmul",
+					"power",
+					"thermload"
+				]
+			},
+			"tp": {
+				"blueprints": {
+					"Weapon_LightWeight": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Weapon_Sturdy": [
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				"modifications": [
+					"damage",
+					"damagedist",
+					"fallofffromrange",
+					"distdraw",
+					"integrity",
+					"jitter",
+					"mass",
+					"piercing",
+					"power",
+					"range",
+					"rof",
+					"thermload"
+				]
+			},
+			"ul": {
+				"blueprints": {
+					"Weapon_Efficient": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Weapon_Focused": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Weapon_LightWeight": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Weapon_LongRange": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Weapon_Overcharged": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Weapon_RapidFire": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Weapon_ShortRange": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"Weapon_Sturdy": [
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				"modifications": [
+					"burst",
+					"burstrof",
+					"damage",
+					"damagedist",
+					"fallofffromrange",
+					"distdraw",
+					"integrity",
+					"jitter",
+					"mass",
+					"piercing",
+					"power",
+					"range",
+					"rof",
+					"thermload"
+				]
+			},
+			"ws": {
+				"blueprints": {
+					"WakeScanner_LightWeight": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"WakeScanner_Reinforced": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"WakeScanner_Shielded": [
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				"modifications": [
+					"boot",
+					"integrity",
+					"mass",
+					"power"
+				]
 			}
 		},
 		"specials": {
@@ -17443,377 +25920,6 @@
 				"id": 31,
 				"name": "Thermal shock"
 			}
-		},
-		"validity": {
-			"am": [
-				"integrity",
-				"power"
-			],
-			"bh": [
-				"explres",
-				"hullboost",
-				"kinres",
-				"mass",
-				"thermres"
-			],
-			"bl": [
-				"damage",
-				"distdraw",
-				"fallofffromrange",
-				"integrity",
-				"mass",
-				"piercing",
-				"power",
-				"range",
-				"thermload"
-			],
-			"bsg": [
-				"boot",
-				"brokenregen",
-				"distdraw",
-				"explres",
-				"integrity",
-				"kinres",
-				"mass",
-				"optmass",
-				"optmul",
-				"power",
-				"regen",
-				"thermload",
-				"thermres"
-			],
-			"c": [
-				"ammo",
-				"clip",
-				"damage",
-				"distdraw",
-				"fallofffromrange",
-				"integrity",
-				"jitter",
-				"mass",
-				"piercing",
-				"power",
-				"range",
-				"reload",
-				"rof",
-				"thermload"
-			],
-			"cc": [
-				"integrity",
-				"mass",
-				"power"
-			],
-			"ch": [
-				"ammo",
-				"integrity",
-				"mass",
-				"power",
-				"reload"
-			],
-			"cs": [
-				"boot",
-				"integrity",
-				"mass",
-				"power"
-			],
-			"ec": [
-				"integrity",
-				"mass",
-				"power"
-			],
-			"fc": [
-				"ammo",
-				"burst",
-				"burstrof",
-				"clip",
-				"damage",
-				"fallofffromrange",
-				"distdraw",
-				"integrity",
-				"jitter",
-				"mass",
-				"piercing",
-				"power",
-				"range",
-				"reload",
-				"rof",
-				"thermload",
-				"type"
-			],
-			"fi": [
-				"boot",
-				"facinglimit",
-				"integrity",
-				"mass",
-				"power",
-				"ranget"
-			],
-			"fs": [
-				"integrity",
-				"power"
-			],
-			"fsd": [
-				"boot",
-				"integrity",
-				"mass",
-				"maxfuel",
-				"optmass",
-				"power",
-				"thermload"
-			],
-			"fx": [
-				"integrity",
-				"mass",
-				"power"
-			],
-			"hb": [
-				"integrity",
-				"mass",
-				"power"
-			],
-			"hr": [
-				"hullreinforcement",
-				"explres",
-				"hullboost",
-				"kinres",
-				"mass",
-				"thermres"
-			],
-			"hs": [
-				"ammo",
-				"integrity",
-				"mass",
-				"power",
-				"reload"
-			],
-			"kw": [
-				"boot",
-				"integrity",
-				"mass",
-				"power"
-			],
-			"ls": [
-				"boot",
-				"integrity",
-				"mass",
-				"power"
-			],
-			"mc": [
-				"ammo",
-				"clip",
-				"damage",
-				"fallofffromrange",
-				"distdraw",
-				"integrity",
-				"jitter",
-				"mass",
-				"piercing",
-				"power",
-				"range",
-				"reload",
-				"rof",
-				"thermload",
-				"type"
-			],
-			"mr": [
-				"ammo",
-				"clip",
-				"damage",
-				"fallofffromrange",
-				"distdraw",
-				"integrity",
-				"jitter",
-				"mass",
-				"piercing",
-				"power",
-				"reload",
-				"rof",
-				"thermload"
-			],
-			"nl": [
-				"ammo",
-				"boot",
-				"clip",
-				"damage",
-				"fallofffromrange",
-				"integrity",
-				"jitter",
-				"mass",
-				"piercing",
-				"power",
-				"reload",
-				"rof",
-				"thermload"
-			],
-			"pa": [
-				"ammo",
-				"clip",
-				"damage",
-				"fallofffromrange",
-				"distdraw",
-				"integrity",
-				"jitter",
-				"mass",
-				"piercing",
-				"power",
-				"range",
-				"reload",
-				"rof",
-				"thermload"
-			],
-			"pc": [
-				"integrity",
-				"mass",
-				"power"
-			],
-			"pd": [
-				"boot",
-				"engcap",
-				"engrate",
-				"integrity",
-				"mass",
-				"power",
-				"syscap",
-				"sysrate",
-				"wepcap",
-				"weprate"
-			],
-			"pl": [
-				"damage",
-				"fallofffromrange",
-				"distdraw",
-				"integrity",
-				"jitter",
-				"mass",
-				"piercing",
-				"power",
-				"range",
-				"rof",
-				"thermload"
-			],
-			"po": [
-				"ammo",
-				"integrity",
-				"mass",
-				"power",
-				"reload"
-			],
-			"pp": [
-				"eff",
-				"integrity",
-				"mass",
-				"pgen"
-			],
-			"psg": [
-				"boot",
-				"brokenregen",
-				"distdraw",
-				"explres",
-				"integrity",
-				"kinres",
-				"mass",
-				"optmass",
-				"optmul",
-				"power",
-				"regen",
-				"thermload",
-				"thermres"
-			],
-			"rf": [
-				"integrity",
-				"power"
-			],
-			"rg": [
-				"ammo",
-				"clip",
-				"damage",
-				"fallofffromrange",
-				"distdraw",
-				"integrity",
-				"jitter",
-				"mass",
-				"piercing",
-				"power",
-				"range",
-				"reload",
-				"rof",
-				"thermload"
-			],
-			"sb": [
-				"explres",
-				"integrity",
-				"kinres",
-				"mass",
-				"power",
-				"shieldboost",
-				"thermres"
-			],
-			"scb": [
-				"boot",
-				"duration",
-				"integrity",
-				"power",
-				"shieldreinforcement",
-				"spinup",
-				"thermload"
-			],
-			"sg": [
-				"boot",
-				"brokenregen",
-				"distdraw",
-				"explres",
-				"integrity",
-				"kinres",
-				"mass",
-				"optmass",
-				"optmul",
-				"power",
-				"regen",
-				"thermload",
-				"thermres"
-			],
-			"t": [
-				"integrity",
-				"mass",
-				"optmass",
-				"optmul",
-				"power",
-				"thermload"
-			],
-			"tp": [
-				"damage",
-				"fallofffromrange",
-				"distdraw",
-				"integrity",
-				"jitter",
-				"mass",
-				"piercing",
-				"power",
-				"range",
-				"rof",
-				"thermload"
-			],
-			"ul": [
-				"burst",
-				"burstrof",
-				"damage",
-				"fallofffromrange",
-				"distdraw",
-				"integrity",
-				"jitter",
-				"mass",
-				"piercing",
-				"power",
-				"range",
-				"rof",
-				"thermload"
-			],
-			"ws": [
-				"boot",
-				"integrity",
-				"mass",
-				"power"
-			]
 		}
 	}
 }
