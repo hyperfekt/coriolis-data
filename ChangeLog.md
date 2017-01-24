@@ -1,3 +1,6 @@
+#2.2.11
+  * Remove non-existant chaff launcher capacity blueprint grades
+
 #2.2.10
   * Fix incorrect base shield values for Cutter and Corvette
   * Update weapons to have %-based damage distributions
