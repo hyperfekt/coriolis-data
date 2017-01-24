@@ -24397,11 +24397,7 @@
 			"ch": {
 				"blueprints": {
 					"ChaffLauncher_ChaffCapacity": [
-						1,
-						2,
-						3,
-						4,
-						5
+						3
 					],
 					"ChaffLauncher_LightWeight": [
 						1,

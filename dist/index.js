@@ -17750,7 +17750,7 @@ module.exports = {
       },
       ch: {
         blueprints: {
-          ChaffLauncher_ChaffCapacity: [ 1, 2, 3, 4, 5 ],
+          ChaffLauncher_ChaffCapacity: [ 3 ],
           ChaffLauncher_LightWeight: [ 1, 2, 3, 4, 5 ],
           ChaffLauncher_Reinforced: [ 1, 2, 3, 4, 5 ],
           ChaffLauncher_Shielded: [ 1, 2, 3, 4, 5 ]
