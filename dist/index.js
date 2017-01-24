@@ -15670,43 +15670,43 @@ module.exports = {
         features: {
           "1": {
             engcap: [ -.03, 0 ],
-            engrate: [ .25, .16 ],
+            engrate: [ .04, .12 ],
             syscap: [ -.03, 0 ],
-            sysrate: [ .25, .16 ],
+            sysrate: [ .04, .12 ],
             wepcap: [ -.03, 0 ],
-            weprate: [ .25, .16 ]
+            weprate: [ .04, .12 ]
           },
           "2": {
             engcap: [ -.06, -.01 ],
-            engrate: [ .25, .16 ],
+            engrate: [ .08, .18 ],
             syscap: [ -.06, -.01 ],
-            sysrate: [ .25, .16 ],
+            sysrate: [ .08, .18 ],
             wepcap: [ -.06, -.01 ],
-            weprate: [ .25, .16 ]
+            weprate: [ .08, .18 ]
           },
           "3": {
             engcap: [ -.09, -.02 ],
-            engrate: [ .25, .16 ],
+            engrate: [ .12, .24 ],
             syscap: [ -.09, -.02 ],
-            sysrate: [ .25, .16 ],
+            sysrate: [ .12, .24 ],
             wepcap: [ -.09, -.02 ],
-            weprate: [ .25, .16 ]
+            weprate: [ .12, .24 ]
           },
           "4": {
             engcap: [ -.12, -.03 ],
-            engrate: [ .25, -.16 ],
+            engrate: [ .16, .3 ],
             syscap: [ -.12, -.03 ],
-            sysrate: [ .25, .16 ],
+            sysrate: [ .16, .3 ],
             wepcap: [ -.12, -.03 ],
-            weprate: [ .25, .16 ]
+            weprate: [ .16, .3 ]
           },
           "5": {
             engcap: [ -.15, -.04 ],
-            engrate: [ .25, .16 ],
+            engrate: [ .2, .36 ],
             syscap: [ -.15, -.04 ],
-            sysrate: [ .25, .16 ],
+            sysrate: [ .2, .36 ],
             wepcap: [ -.15, -.04 ],
-            weprate: [ .25, .16 ]
+            weprate: [ .2, .36 ]
           }
         },
         name: "Charge enhanced"
