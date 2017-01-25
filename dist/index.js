@@ -6347,7 +6347,7 @@ module.exports = {
         piercing: 35,
         power: .6,
         range: 3e3,
-        rating: "F",
+        rating: "E",
         rof: 3.448,
         thermload: .6
       }, {
@@ -16560,32 +16560,32 @@ module.exports = {
         },
         features: {
           "1": {
-            burstrof: [ .2, .08 ],
             range: [ .1, .2 ],
-            thermload: [ .5, .4 ]
+            rof: [ -.17, -.08 ],
+            thermload: [ .5, .39 ]
           },
           "2": {
-            burstrof: [ .16, .06 ],
             piercing: [ 0, .1 ],
-            range: [ .2, .4 ],
-            thermload: [ .4, .3 ]
+            range: [ .2, .39 ],
+            rof: [ -.14, -.06 ],
+            thermload: [ .39, .31 ]
           },
           "3": {
-            burstrof: [ .12, .04 ],
             piercing: [ .1, .2 ],
-            range: [ .3, .6 ],
-            thermload: [ .3, .2 ]
+            range: [ .29, .61 ],
+            rof: [ -.11, -.04 ],
+            thermload: [ .31, .2 ]
           },
           "4": {
-            burstrof: [ .08, .02 ],
-            piercing: [ .2, .4 ],
-            range: [ .4, .8 ],
-            thermload: [ .2, .1 ]
+            piercing: [ .2, .39 ],
+            range: [ .39, .79 ],
+            rof: [ -.08, -.02 ],
+            thermload: [ -.2, -.1 ]
           },
           "5": {
-            burstrof: [ .04, 0 ],
-            piercing: [ .3, .6 ],
+            piercing: [ .29, .61 ],
             range: [ .5, 1 ],
+            rof: [ -.04, 0 ],
             thermload: [ .1, 0 ]
           }
         },

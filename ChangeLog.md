@@ -3,6 +3,7 @@
   * Fix incorrect values for charge enhanced power distributor
   * Remove incorrect AFMU blueprints
   * Correct fragment cannon Double Shot blueprint information
+  * Correct Focused weapon blueprint information
 
 #2.2.10
   * Fix incorrect base shield values for Cutter and Corvette

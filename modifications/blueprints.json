@@ -2469,32 +2469,32 @@
     },
     "features": {
       "1": {
-        "burstrof": [ 0.2, 0.08 ],
         "range": [ 0.1, 0.2 ],
-        "thermload": [ 0.5, 0.4 ]
+        "rof": [ -0.17, -0.08 ],
+        "thermload": [ 0.5, 0.39 ]
       },
       "2": {
-        "burstrof": [ 0.16, 0.06 ],
         "piercing": [ 0, 0.1 ],
-        "range": [ 0.2, 0.4 ],
-        "thermload": [ 0.4, 0.3 ]
+        "range": [ 0.2, 0.39 ],
+        "rof": [ -0.14, -0.06 ],
+        "thermload": [ 0.39, 0.31 ]
       },
       "3": {
-        "burstrof": [ 0.12, 0.04 ],
         "piercing": [ 0.1, 0.2 ],
-        "range": [ 0.3, 0.6 ],
-        "thermload": [ 0.3, 0.2 ]
+        "range": [ 0.29, 0.61 ],
+        "rof": [ -0.11, -0.04 ],
+        "thermload": [ 0.31, 0.2 ]
       },
       "4": {
-        "burstrof": [ 0.08, 0.02 ],
-        "piercing": [ 0.2, 0.4 ],
-        "range": [ 0.4, 0.8 ],
-        "thermload": [ 0.2, 0.1 ]
+        "piercing": [ 0.2, 0.39 ],
+        "range": [ 0.39, 0.79 ],
+        "rof": [ -0.08, -0.02 ],
+        "thermload": [ -0.2, -0.1 ]
       },
       "5": {
-        "burstrof": [ 0.04, 0 ],
-        "piercing": [ 0.3, 0.6 ],
+        "piercing": [ 0.29, 0.61 ],
         "range": [ 0.5, 1 ],
+        "rof": [ -0.04, 0 ],
         "thermload": [ 0.1, 0 ]
       }
     },
