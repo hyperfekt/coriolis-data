@@ -6347,7 +6347,7 @@ module.exports = {
         piercing: 35,
         power: .6,
         range: 3e3,
-        rating: "F",
+        rating: "E",
         rof: 3.448,
         thermload: .6
       }, {
@@ -14090,58 +14090,6 @@ module.exports = {
   },
   Modifications: {
     blueprints: {
-      AFM_LightWeight: {
-        id: 1,
-        features: {
-          "1": {
-            integrity: [ -.2, -.1 ],
-            mass: [ -.3, -.4 ]
-          },
-          "2": {
-            integrity: [ -.3, -.2 ],
-            mass: [ -.4, -.5 ]
-          },
-          "3": {
-            integrity: [ -.4, -.3 ],
-            mass: [ -.5, -.6 ]
-          },
-          "4": {
-            integrity: [ -.5, -.4 ],
-            mass: [ -.6, -.7 ]
-          },
-          "5": {
-            integrity: [ -.6, -.5 ],
-            mass: [ -.7, -.8 ]
-          }
-        },
-        name: "Lightweight"
-      },
-      AFM_Reinforced: {
-        id: 2,
-        features: {
-          "1": {
-            integrity: [ .2, .5 ],
-            mass: [ 1, .4 ]
-          },
-          "2": {
-            integrity: [ .4, 1 ],
-            mass: [ 1.5, .8 ]
-          },
-          "3": {
-            integrity: [ .6, 1.5 ],
-            mass: [ 2, 1.2 ]
-          },
-          "4": {
-            integrity: [ .8, 2 ],
-            mass: [ 2.5, 1.6 ]
-          },
-          "5": {
-            integrity: [ 1, 2.5 ],
-            mass: [ 3, 2 ]
-          }
-        },
-        name: "Reinforced"
-      },
       AFM_Shielded: {
         id: 3,
         features: {
@@ -15670,43 +15618,43 @@ module.exports = {
         features: {
           "1": {
             engcap: [ -.03, 0 ],
-            engrate: [ .25, .16 ],
+            engrate: [ .04, .12 ],
             syscap: [ -.03, 0 ],
-            sysrate: [ .25, .16 ],
+            sysrate: [ .04, .12 ],
             wepcap: [ -.03, 0 ],
-            weprate: [ .25, .16 ]
+            weprate: [ .04, .12 ]
           },
           "2": {
             engcap: [ -.06, -.01 ],
-            engrate: [ .25, .16 ],
+            engrate: [ .08, .18 ],
             syscap: [ -.06, -.01 ],
-            sysrate: [ .25, .16 ],
+            sysrate: [ .08, .18 ],
             wepcap: [ -.06, -.01 ],
-            weprate: [ .25, .16 ]
+            weprate: [ .08, .18 ]
           },
           "3": {
             engcap: [ -.09, -.02 ],
-            engrate: [ .25, .16 ],
+            engrate: [ .12, .24 ],
             syscap: [ -.09, -.02 ],
-            sysrate: [ .25, .16 ],
+            sysrate: [ .12, .24 ],
             wepcap: [ -.09, -.02 ],
-            weprate: [ .25, .16 ]
+            weprate: [ .12, .24 ]
           },
           "4": {
             engcap: [ -.12, -.03 ],
-            engrate: [ .25, -.16 ],
+            engrate: [ .16, .3 ],
             syscap: [ -.12, -.03 ],
-            sysrate: [ .25, .16 ],
+            sysrate: [ .16, .3 ],
             wepcap: [ -.12, -.03 ],
-            weprate: [ .25, .16 ]
+            weprate: [ .16, .3 ]
           },
           "5": {
             engcap: [ -.15, -.04 ],
-            engrate: [ .25, .16 ],
+            engrate: [ .2, .36 ],
             syscap: [ -.15, -.04 ],
-            sysrate: [ .25, .16 ],
+            sysrate: [ .2, .36 ],
             wepcap: [ -.15, -.04 ],
-            weprate: [ .25, .16 ]
+            weprate: [ .2, .36 ]
           }
         },
         name: "Charge enhanced"
@@ -16487,37 +16435,41 @@ module.exports = {
             "Security Firmware Patch": 1,
             Vanadium: 1
           },
-          "5": {}
+          "5": {
+            "Configurable Components": 1,
+            "High Density Composites": 1,
+            "Modified Embedded Firmware": 1
+          }
         },
         features: {
           "1": {
-            ammo: [ .1, .2 ],
             burst: [ 2, 2 ],
-            burstrof: [ .1, .15 ],
+            burstrof: [ 10, 15 ],
+            clip: [ .34, .34 ],
             range: [ -.25, -.1 ]
           },
           "2": {
-            ammo: [ .2, .3 ],
             burst: [ 2, 2 ],
-            burstrof: [ .11, .16 ],
+            burstrof: [ 11, 16 ],
+            clip: [ .34, .34 ],
             range: [ -.2, -.08 ]
           },
           "3": {
-            ammo: [ .3, .4 ],
             burst: [ 2, 2 ],
-            burstrof: [ .12, .17 ],
+            burstrof: [ 12, 17 ],
+            clip: [ .34, 1 ],
             range: [ -.15, -.06 ]
           },
           "4": {
-            ammo: [ .4, .5 ],
             burst: [ 2, 2 ],
-            burstrof: [ .13, .18 ],
+            burstrof: [ 13, 18 ],
+            clip: [ 1, 1 ],
             range: [ -.1, -.04 ]
           },
           "5": {
-            ammo: [ .5, .6 ],
             burst: [ 2, 2 ],
-            burstrof: [ .14, .19 ],
+            burstrof: [ 14, 19 ],
+            clip: [ 1, 1 ],
             range: [ -.5, -.02 ]
           }
         },
@@ -16608,32 +16560,32 @@ module.exports = {
         },
         features: {
           "1": {
-            burstrof: [ .2, .08 ],
             range: [ .1, .2 ],
-            thermload: [ .5, .4 ]
+            rof: [ -.17, -.08 ],
+            thermload: [ .5, .39 ]
           },
           "2": {
-            burstrof: [ .16, .06 ],
             piercing: [ 0, .1 ],
-            range: [ .2, .4 ],
-            thermload: [ .4, .3 ]
+            range: [ .2, .39 ],
+            rof: [ -.14, -.06 ],
+            thermload: [ .39, .31 ]
           },
           "3": {
-            burstrof: [ .12, .04 ],
             piercing: [ .1, .2 ],
-            range: [ .3, .6 ],
-            thermload: [ .3, .2 ]
+            range: [ .29, .61 ],
+            rof: [ -.11, -.04 ],
+            thermload: [ .31, .2 ]
           },
           "4": {
-            burstrof: [ .08, .02 ],
-            piercing: [ .2, .4 ],
-            range: [ .4, .8 ],
-            thermload: [ .2, .1 ]
+            piercing: [ .2, .39 ],
+            range: [ .39, .79 ],
+            rof: [ -.08, -.02 ],
+            thermload: [ -.2, -.1 ]
           },
           "5": {
-            burstrof: [ .04, 0 ],
-            piercing: [ .3, .6 ],
+            piercing: [ .29, .61 ],
             range: [ .5, 1 ],
+            rof: [ -.04, 0 ],
             thermload: [ .1, 0 ]
           }
         },
@@ -17093,13 +17045,13 @@ module.exports = {
         id: 3,
         name: "burst",
         type: "numeric",
-        method: "multiplicative"
+        method: "overwrite"
       },
       burstrof: {
         id: 41,
         name: "burstrof",
-        type: "percentage",
-        method: "multiplicative"
+        type: "numeric",
+        method: "overwrite"
       },
       clip: {
         id: 4,
@@ -17691,9 +17643,7 @@ module.exports = {
     modules: {
       am: {
         blueprints: {
-          AFM_LightWeight: [ 1, 2, 3, 4, 5 ],
-          AFM_Reinforced: [ 1, 2, 3, 4, 5 ],
-          AFM_Shielded: [ 1, 2, 3, 4, 5 ]
+          AFM_Shielded: [ 1, 2, 3, 4 ]
         },
         modifications: [ "integrity", "power" ]
       },
@@ -17750,7 +17700,7 @@ module.exports = {
       },
       ch: {
         blueprints: {
-          ChaffLauncher_ChaffCapacity: [ 1, 2, 3, 4, 5 ],
+          ChaffLauncher_ChaffCapacity: [ 3 ],
           ChaffLauncher_LightWeight: [ 1, 2, 3, 4, 5 ],
           ChaffLauncher_Reinforced: [ 1, 2, 3, 4, 5 ],
           ChaffLauncher_Shielded: [ 1, 2, 3, 4, 5 ]
