@@ -1,56 +1,4 @@
 {
-  "AFM_LightWeight": {
-    "id": 1,
-    "features": {
-      "1": {
-        "integrity": [ -0.2, -0.1 ],
-        "mass": [ -0.3, -0.4 ]
-      },
-      "2": {
-        "integrity": [ -0.3, -0.2 ],
-        "mass": [ -0.4, -0.5 ]
-      },
-      "3": {
-        "integrity": [ -0.4, -0.3 ],
-        "mass": [ -0.5, -0.6 ]
-      },
-      "4": {
-        "integrity": [ -0.5, -0.4 ],
-        "mass": [ -0.6, -0.7 ]
-      },
-      "5": {
-        "integrity": [ -0.6, -0.5 ],
-        "mass": [ -0.7, -0.8 ]
-      }
-    },
-    "name": "Lightweight"
-  },
-  "AFM_Reinforced": {
-    "id": 2,
-    "features": {
-      "1": {
-        "integrity": [ 0.2, 0.5 ],
-        "mass": [ 1, 0.4 ]
-      },
-      "2": {
-        "integrity": [ 0.4, 1 ],
-        "mass": [ 1.5, 0.8 ]
-      },
-      "3": {
-        "integrity": [ 0.6, 1.5 ],
-        "mass": [ 2.0, 1.2 ]
-      },
-      "4": {
-        "integrity": [ 0.8, 2 ],
-        "mass": [ 2.5, 1.6 ]
-      },
-      "5": {
-        "integrity": [ 1, 2.5 ],
-        "mass": [ 3.0, 2.0 ]
-      }
-    },
-    "name": "Reinforced"
-  },
   "AFM_Shielded": {
     "id": 3,
     "features": {
@@ -1579,43 +1527,43 @@
     "features": {
       "1": {
         "engcap": [ -0.03, 0 ],
-        "engrate": [ 0.25, 0.16 ],
+        "engrate": [ 0.04, 0.12 ],
         "syscap": [ -0.03, 0 ],
-        "sysrate": [ 0.25, 0.16 ],
+        "sysrate": [ 0.04, 0.12 ],
         "wepcap": [ -0.03, 0 ],
-        "weprate": [ 0.25, 0.16 ]
+        "weprate": [ 0.04, 0.12 ]
       },
       "2": {
         "engcap": [ -0.06, -0.01 ],
-        "engrate": [ 0.25, 0.16 ],
+        "engrate": [ 0.08, 0.18 ],
         "syscap": [ -0.06, -0.01 ],
-        "sysrate": [ 0.25, 0.16 ],
+        "sysrate": [ 0.08, 0.18 ],
         "wepcap": [ -0.06, -0.01 ],
-        "weprate": [ 0.25, 0.16 ]
+        "weprate": [ 0.08, 0.18 ]
       },
       "3": {
         "engcap": [ -0.09, -0.02 ],
-        "engrate": [ 0.25, 0.16 ],
+        "engrate": [ 0.12, 0.24 ],
         "syscap": [ -0.09, -0.02 ],
-        "sysrate": [ 0.25, 0.16 ],
+        "sysrate": [ 0.12, 0.24 ],
         "wepcap": [ -0.09, -0.02 ],
-        "weprate": [ 0.25, 0.16 ]
+        "weprate": [ 0.12, 0.24 ]
       },
       "4": {
         "engcap": [ -0.12, -0.03 ],
-        "engrate": [ 0.25,-0.16 ],
+        "engrate": [ 0.16, 0.3 ],
         "syscap": [ -0.12, -0.03 ],
-        "sysrate": [ 0.25, 0.16 ],
+        "sysrate": [ 0.16, 0.3 ],
         "wepcap": [ -0.12, -0.03 ],
-        "weprate": [ 0.25, 0.16 ]
+        "weprate": [ 0.16, 0.3 ]
       },
       "5": {
         "engcap": [ -0.15, -0.04 ],
-        "engrate": [ 0.25, 0.16 ],
+        "engrate": [ 0.2, 0.36 ],
         "syscap": [ -0.15, -0.04 ],
-        "sysrate": [ 0.25, 0.16 ],
+        "sysrate": [ 0.2, 0.36 ],
         "wepcap": [ -0.15, -0.04 ],
-        "weprate": [ 0.25, 0.16 ]
+        "weprate": [ 0.2, 0.36 ]
       }
     },
     "name": "Charge enhanced"
@@ -2397,37 +2345,40 @@
         "Vanadium": 1
       },
       "5": {
+        "Configurable Components": 1,
+        "High Density Composites": 1,
+        "Modified Embedded Firmware": 1
       }
     },
     "features": {
       "1": {
-        "ammo": [ 0.1, 0.2 ],
         "burst": [ 2, 2 ],
-        "burstrof": [ 0.1, 0.15 ],
+        "burstrof": [ 10, 15 ],
+        "clip": [ 0.34, 0.34 ],
         "range": [ -0.25, -0.1 ]
       },
       "2": {
-        "ammo": [ 0.2, 0.3 ],
         "burst": [ 2, 2 ],
-        "burstrof": [ 0.11, 0.16 ],
+        "burstrof": [ 11, 16 ],
+        "clip": [ 0.34, 0.34 ],
         "range": [ -0.2, -0.08 ]
       },
       "3": {
-        "ammo": [ 0.3, 0.4 ],
         "burst": [ 2, 2 ],
-        "burstrof": [ 0.12, 0.17 ],
+        "burstrof": [ 12, 17 ],
+        "clip": [ 0.34, 1 ],
         "range": [ -0.15, -0.06 ]
       },
       "4": {
-        "ammo": [ 0.4, 0.5 ],
         "burst": [ 2, 2 ],
-        "burstrof": [ 0.13, 0.18 ],
+        "burstrof": [ 13, 18 ],
+        "clip": [ 1, 1 ],
         "range": [ -0.1, -0.04 ]
       },
       "5": {
-        "ammo": [ 0.5, 0.6 ],
         "burst": [ 2, 2 ],
-        "burstrof": [ 0.14, 0.19 ],
+        "burstrof": [ 14, 19 ],
+        "clip": [ 1, 1 ],
         "range": [ -0.5, -0.02 ]
       }
     },
@@ -2518,32 +2469,32 @@
     },
     "features": {
       "1": {
-        "burstrof": [ 0.2, 0.08 ],
         "range": [ 0.1, 0.2 ],
-        "thermload": [ 0.5, 0.4 ]
+        "rof": [ -0.17, -0.08 ],
+        "thermload": [ 0.5, 0.39 ]
       },
       "2": {
-        "burstrof": [ 0.16, 0.06 ],
         "piercing": [ 0, 0.1 ],
-        "range": [ 0.2, 0.4 ],
-        "thermload": [ 0.4, 0.3 ]
+        "range": [ 0.2, 0.39 ],
+        "rof": [ -0.14, -0.06 ],
+        "thermload": [ 0.39, 0.31 ]
       },
       "3": {
-        "burstrof": [ 0.12, 0.04 ],
         "piercing": [ 0.1, 0.2 ],
-        "range": [ 0.3, 0.6 ],
-        "thermload": [ 0.3, 0.2 ]
+        "range": [ 0.29, 0.61 ],
+        "rof": [ -0.11, -0.04 ],
+        "thermload": [ 0.31, 0.2 ]
       },
       "4": {
-        "burstrof": [ 0.08, 0.02 ],
-        "piercing": [ 0.2, 0.4 ],
-        "range": [ 0.4, 0.8 ],
-        "thermload": [ 0.2, 0.1 ]
+        "piercing": [ 0.2, 0.39 ],
+        "range": [ 0.39, 0.79 ],
+        "rof": [ -0.08, -0.02 ],
+        "thermload": [ -0.2, -0.1 ]
       },
       "5": {
-        "burstrof": [ 0.04, 0 ],
-        "piercing": [ 0.3, 0.6 ],
+        "piercing": [ 0.29, 0.61 ],
         "range": [ 0.5, 1 ],
+        "rof": [ -0.04, 0 ],
         "thermload": [ 0.1, 0 ]
       }
     },
