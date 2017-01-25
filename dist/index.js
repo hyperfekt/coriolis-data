@@ -16435,37 +16435,41 @@ module.exports = {
             "Security Firmware Patch": 1,
             Vanadium: 1
           },
-          "5": {}
+          "5": {
+            "Configurable Components": 1,
+            "High Density Composites": 1,
+            "Modified Embedded Firmware": 1
+          }
         },
         features: {
           "1": {
-            ammo: [ .1, .2 ],
             burst: [ 2, 2 ],
-            burstrof: [ .1, .15 ],
+            burstrof: [ 10, 15 ],
+            clip: [ .34, .34 ],
             range: [ -.25, -.1 ]
           },
           "2": {
-            ammo: [ .2, .3 ],
             burst: [ 2, 2 ],
-            burstrof: [ .11, .16 ],
+            burstrof: [ 11, 16 ],
+            clip: [ .34, .34 ],
             range: [ -.2, -.08 ]
           },
           "3": {
-            ammo: [ .3, .4 ],
             burst: [ 2, 2 ],
-            burstrof: [ .12, .17 ],
+            burstrof: [ 12, 17 ],
+            clip: [ .34, 1 ],
             range: [ -.15, -.06 ]
           },
           "4": {
-            ammo: [ .4, .5 ],
             burst: [ 2, 2 ],
-            burstrof: [ .13, .18 ],
+            burstrof: [ 13, 18 ],
+            clip: [ 1, 1 ],
             range: [ -.1, -.04 ]
           },
           "5": {
-            ammo: [ .5, .6 ],
             burst: [ 2, 2 ],
-            burstrof: [ .14, .19 ],
+            burstrof: [ 14, 19 ],
+            clip: [ 1, 1 ],
             range: [ -.5, -.02 ]
           }
         },
@@ -17041,13 +17045,13 @@ module.exports = {
         id: 3,
         name: "burst",
         type: "numeric",
-        method: "multiplicative"
+        method: "overwrite"
       },
       burstrof: {
         id: 41,
         name: "burstrof",
-        type: "percentage",
-        method: "multiplicative"
+        type: "numeric",
+        method: "overwrite"
       },
       clip: {
         id: 4,

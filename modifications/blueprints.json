@@ -2345,37 +2345,40 @@
         "Vanadium": 1
       },
       "5": {
+        "Configurable Components": 1,
+        "High Density Composites": 1,
+        "Modified Embedded Firmware": 1
       }
     },
     "features": {
       "1": {
-        "ammo": [ 0.1, 0.2 ],
         "burst": [ 2, 2 ],
-        "burstrof": [ 0.1, 0.15 ],
+        "burstrof": [ 10, 15 ],
+        "clip": [ 0.34, 0.34 ],
         "range": [ -0.25, -0.1 ]
       },
       "2": {
-        "ammo": [ 0.2, 0.3 ],
         "burst": [ 2, 2 ],
-        "burstrof": [ 0.11, 0.16 ],
+        "burstrof": [ 11, 16 ],
+        "clip": [ 0.34, 0.34 ],
         "range": [ -0.2, -0.08 ]
       },
       "3": {
-        "ammo": [ 0.3, 0.4 ],
         "burst": [ 2, 2 ],
-        "burstrof": [ 0.12, 0.17 ],
+        "burstrof": [ 12, 17 ],
+        "clip": [ 0.34, 1 ],
         "range": [ -0.15, -0.06 ]
       },
       "4": {
-        "ammo": [ 0.4, 0.5 ],
         "burst": [ 2, 2 ],
-        "burstrof": [ 0.13, 0.18 ],
+        "burstrof": [ 13, 18 ],
+        "clip": [ 1, 1 ],
         "range": [ -0.1, -0.04 ]
       },
       "5": {
-        "ammo": [ 0.5, 0.6 ],
         "burst": [ 2, 2 ],
-        "burstrof": [ 0.14, 0.19 ],
+        "burstrof": [ 14, 19 ],
+        "clip": [ 1, 1 ],
         "range": [ -0.5, -0.02 ]
       }
     },

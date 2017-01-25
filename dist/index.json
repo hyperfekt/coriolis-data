@@ -22173,21 +22173,25 @@
 						"Security Firmware Patch": 1,
 						"Vanadium": 1
 					},
-					"5": {}
+					"5": {
+						"Configurable Components": 1,
+						"High Density Composites": 1,
+						"Modified Embedded Firmware": 1
+					}
 				},
 				"features": {
 					"1": {
-						"ammo": [
-							0.1,
-							0.2
-						],
 						"burst": [
 							2,
 							2
 						],
 						"burstrof": [
-							0.1,
-							0.15
+							10,
+							15
+						],
+						"clip": [
+							0.34,
+							0.34
 						],
 						"range": [
 							-0.25,
@@ -22195,17 +22199,17 @@
 						]
 					},
 					"2": {
-						"ammo": [
-							0.2,
-							0.3
-						],
 						"burst": [
 							2,
 							2
 						],
 						"burstrof": [
-							0.11,
-							0.16
+							11,
+							16
+						],
+						"clip": [
+							0.34,
+							0.34
 						],
 						"range": [
 							-0.2,
@@ -22213,17 +22217,17 @@
 						]
 					},
 					"3": {
-						"ammo": [
-							0.3,
-							0.4
-						],
 						"burst": [
 							2,
 							2
 						],
 						"burstrof": [
-							0.12,
-							0.17
+							12,
+							17
+						],
+						"clip": [
+							0.34,
+							1
 						],
 						"range": [
 							-0.15,
@@ -22231,17 +22235,17 @@
 						]
 					},
 					"4": {
-						"ammo": [
-							0.4,
-							0.5
-						],
 						"burst": [
 							2,
 							2
 						],
 						"burstrof": [
-							0.13,
-							0.18
+							13,
+							18
+						],
+						"clip": [
+							1,
+							1
 						],
 						"range": [
 							-0.1,
@@ -22249,17 +22253,17 @@
 						]
 					},
 					"5": {
-						"ammo": [
-							0.5,
-							0.6
-						],
 						"burst": [
 							2,
 							2
 						],
 						"burstrof": [
-							0.14,
-							0.19
+							14,
+							19
+						],
+						"clip": [
+							1,
+							1
 						],
 						"range": [
 							-0.5,
@@ -23397,13 +23401,13 @@
 				"id": 3,
 				"name": "burst",
 				"type": "numeric",
-				"method": "multiplicative"
+				"method": "overwrite"
 			},
 			"burstrof": {
 				"id": 41,
 				"name": "burstrof",
-				"type": "percentage",
-				"method": "multiplicative"
+				"type": "numeric",
+				"method": "overwrite"
 			},
 			"clip": {
 				"id": 4,
