@@ -1,9 +1,7 @@
 {
   "am": {
     "blueprints": {
-      "AFM_LightWeight": [1, 2, 3, 4, 5],
-      "AFM_Reinforced": [1, 2, 3, 4, 5],
-      "AFM_Shielded": [1, 2, 3, 4, 5]
+      "AFM_Shielded": [1, 2, 3, 4]
     },
     "modifications": [
       "integrity",

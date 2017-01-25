@@ -14090,58 +14090,6 @@ module.exports = {
   },
   Modifications: {
     blueprints: {
-      AFM_LightWeight: {
-        id: 1,
-        features: {
-          "1": {
-            integrity: [ -.2, -.1 ],
-            mass: [ -.3, -.4 ]
-          },
-          "2": {
-            integrity: [ -.3, -.2 ],
-            mass: [ -.4, -.5 ]
-          },
-          "3": {
-            integrity: [ -.4, -.3 ],
-            mass: [ -.5, -.6 ]
-          },
-          "4": {
-            integrity: [ -.5, -.4 ],
-            mass: [ -.6, -.7 ]
-          },
-          "5": {
-            integrity: [ -.6, -.5 ],
-            mass: [ -.7, -.8 ]
-          }
-        },
-        name: "Lightweight"
-      },
-      AFM_Reinforced: {
-        id: 2,
-        features: {
-          "1": {
-            integrity: [ .2, .5 ],
-            mass: [ 1, .4 ]
-          },
-          "2": {
-            integrity: [ .4, 1 ],
-            mass: [ 1.5, .8 ]
-          },
-          "3": {
-            integrity: [ .6, 1.5 ],
-            mass: [ 2, 1.2 ]
-          },
-          "4": {
-            integrity: [ .8, 2 ],
-            mass: [ 2.5, 1.6 ]
-          },
-          "5": {
-            integrity: [ 1, 2.5 ],
-            mass: [ 3, 2 ]
-          }
-        },
-        name: "Reinforced"
-      },
       AFM_Shielded: {
         id: 3,
         features: {
@@ -17691,9 +17639,7 @@ module.exports = {
     modules: {
       am: {
         blueprints: {
-          AFM_LightWeight: [ 1, 2, 3, 4, 5 ],
-          AFM_Reinforced: [ 1, 2, 3, 4, 5 ],
-          AFM_Shielded: [ 1, 2, 3, 4, 5 ]
+          AFM_Shielded: [ 1, 2, 3, 4 ]
         },
         modifications: [ "integrity", "power" ]
       },

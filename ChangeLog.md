@@ -1,6 +1,7 @@
 #2.2.11
   * Remove non-existant chaff launcher capacity blueprint grades
   * Fix incorrect values for charge enhanced power distributor
+  * Remove incorrect AFMU blueprints
 
 #2.2.10
   * Fix incorrect base shield values for Cutter and Corvette
