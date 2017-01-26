@@ -17113,6 +17113,12 @@ module.exports = {
         type: "percentage",
         method: "multiplicative"
       },
+      falloff: {
+        id: 45,
+        name: "falloff",
+        type: "percentage",
+        method: "multiplicative"
+      },
       fallofffromrange: {
         id: 42,
         name: "fallofffromrange",
@@ -17188,6 +17194,12 @@ module.exports = {
       power: {
         id: 24,
         name: "power",
+        type: "percentage",
+        method: "multiplicative"
+      },
+      protection: {
+        id: 44,
+        name: "protection",
         type: "percentage",
         method: "multiplicative"
       },
@@ -17666,7 +17678,8 @@ module.exports = {
           Weapon_ShortRange: [ 1, 2, 3, 4, 5 ],
           Weapon_Sturdy: [ 1, 2, 3, 4, 5 ]
         },
-        modifications: [ "damage", "damagedist", "distdraw", "fallofffromrange", "integrity", "jitter", "mass", "piercing", "power", "range", "thermload" ]
+        modifications: [ "damage", "damagedist", "distdraw", "fallofffromrange", "integrity", "jitter", "mass", "piercing", "power", "range", "thermload" ],
+        specials: [ "special_concordant_sequence", "special_regeneration_sequence", "special_thermal_conduit", "special_thermalshock", "special_thermal_vent" ]
       },
       bsg: {
         blueprints: {
@@ -17688,7 +17701,8 @@ module.exports = {
           Weapon_ShortRange: [ 1, 2, 3, 4, 5 ],
           Weapon_Sturdy: [ 1, 2, 3, 4, 5 ]
         },
-        modifications: [ "ammo", "clip", "damage", "damagedist", "distdraw", "fallofffromrange", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "shotspeed", "thermload" ]
+        modifications: [ "ammo", "clip", "damage", "damagedist", "distdraw", "fallofffromrange", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "shotspeed", "thermload" ],
+        specials: [ "special_auto_loader", "special_dispersal_field", "special_smart_rounds", "special_force_shell", "special_high_yield_shell", "special_thermal_cascade" ]
       },
       cc: {
         blueprints: {
@@ -17742,7 +17756,8 @@ module.exports = {
           Weapon_RapidFire: [ 1, 2, 3, 4, 5 ],
           Weapon_Sturdy: [ 1, 2, 3, 4, 5 ]
         },
-        modifications: [ "ammo", "burst", "burstrof", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "shotspeed", "thermload" ]
+        modifications: [ "ammo", "burst", "burstrof", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "shotspeed", "thermload" ],
+        specials: [ "special_corrosive_shell", "special_blinding_shell", "special_incendiary_rounds", "special_drag_munitions", "special_screening_shell" ]
       },
       fh: {
         blueprints: {},
@@ -17835,7 +17850,8 @@ module.exports = {
           Weapon_ShortRange: [ 1, 2, 3, 4, 5 ],
           Weapon_Sturdy: [ 1, 2, 3, 4, 5 ]
         },
-        modifications: [ "ammo", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "shotspeed", "thermload" ]
+        modifications: [ "ammo", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "shotspeed", "thermload" ],
+        specials: [ "special_auto_loader", "special_corrosive_shell", "special_emissive_munitions", "special_incendiary_rounds", "special_smart_rounds", "special_thermalshock" ]
       },
       ml: {
         blueprints: {},
@@ -17848,7 +17864,8 @@ module.exports = {
           Weapon_RapidFire: [ 1, 2, 3, 4, 5 ],
           Weapon_Sturdy: [ 1, 2, 3, 4, 5 ]
         },
-        modifications: [ "ammo", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "reload", "rof", "thermload" ]
+        modifications: [ "ammo", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "reload", "rof", "thermload" ],
+        specials: [ "special_drag_munitions", "special_emissive_munitions", "special_overload_munitions", "special_penetrator_payload", "special_thermal_cascade" ]
       },
       mrp: {
         blueprints: {},
@@ -17861,7 +17878,8 @@ module.exports = {
           Weapon_RapidFire: [ 1, 2, 3, 4, 5 ],
           Weapon_Sturdy: [ 1, 2, 3, 4, 5 ]
         },
-        modifications: [ "ammo", "boot", "clip", "damage", "damagedist", "fallofffromrange", "integrity", "jitter", "mass", "piercing", "power", "reload", "rof", "thermload" ]
+        modifications: [ "ammo", "boot", "clip", "damage", "damagedist", "fallofffromrange", "integrity", "jitter", "mass", "piercing", "power", "reload", "rof", "thermload" ],
+        specials: [ "special_ion_disruptor", "special_overload_munitions", "special_radiant_canister", "special_reverberating_cascade", "special_shiftlock_canister", "special_emissive_munitions" ]
       },
       pa: {
         blueprints: {
@@ -17874,7 +17892,8 @@ module.exports = {
           Weapon_ShortRange: [ 1, 2, 3, 4, 5 ],
           Weapon_Sturdy: [ 1, 2, 3, 4, 5 ]
         },
-        modifications: [ "ammo", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "shotspeed", "thermload" ]
+        modifications: [ "ammo", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "shotspeed", "thermload" ],
+        specials: [ "special_blinding_shell", "special_dispersal_field", "special_phasing_sequence", "special_target_lock_breaker", "special_thermal_conduit" ]
       },
       pas: {
         blueprints: {},
@@ -17926,7 +17945,8 @@ module.exports = {
           Weapon_ShortRange: [ 1, 2, 3, 4, 5 ],
           Weapon_Sturdy: [ 1, 2, 3, 4, 5 ]
         },
-        modifications: [ "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "rof", "thermload" ]
+        modifications: [ "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "rof", "thermload" ],
+        specials: [ "special_concordant_sequence", "special_emissive_munitions", "special_phasing_sequence", "special_scramble_spectrum", "special_thermalshock" ]
       },
       po: {
         blueprints: {
@@ -17972,7 +17992,8 @@ module.exports = {
           Weapon_ShortRange: [ 1, 2, 3, 4, 5 ],
           Weapon_Sturdy: [ 1, 2, 3, 4, 5 ]
         },
-        modifications: [ "ammo", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "thermload" ]
+        modifications: [ "ammo", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "thermload" ],
+        specials: [ "special_feedback_cascade", "special_plasma_slug", "special_super_penetrator" ]
       },
       s: {
         blueprints: {},
@@ -18021,7 +18042,8 @@ module.exports = {
           Weapon_LightWeight: [ 1, 2, 3, 4, 5 ],
           Weapon_Sturdy: [ 1, 2, 3, 4, 5 ]
         },
-        modifications: [ "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "rof", "thermload" ]
+        modifications: [ "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "rof", "thermload" ],
+        specials: [ "special_mass_lock_munition", "special_penetrator_payload", "special_reverberating_cascade" ]
       },
       ul: {
         blueprints: {
@@ -18034,7 +18056,8 @@ module.exports = {
           Weapon_ShortRange: [ 1, 2, 3, 4, 5 ],
           Weapon_Sturdy: [ 1, 2, 3, 4, 5 ]
         },
-        modifications: [ "burst", "burstrof", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "rof", "thermload" ]
+        modifications: [ "burst", "burstrof", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "rof", "thermload" ],
+        specials: [ "special_concordant_sequence", "special_inertial_impact", "special_phasing_sequence", "special_scramble_spectrum", "special_thermalshock" ]
       },
       ws: {
         blueprints: {
@@ -18048,134 +18071,167 @@ module.exports = {
     specials: {
       special_auto_loader: {
         id: 0,
+        edname: "special_auto_loader",
         name: "Auto loader"
       },
       special_choke_canister: {
         id: 1,
+        edname: "special_choke_canister",
         name: "Choke canister"
       },
       special_concordant_sequence: {
         id: 2,
+        edname: "special_concordant_sequence",
         name: "Concordant sequence"
       },
       special_corrosive_shell: {
         id: 3,
+        edname: "special_corrosive_shell",
         name: "Corrosive shell"
       },
       special_blinding_shell: {
         id: 4,
+        edname: "special_blinding_shell",
         name: "Dazzle shell"
       },
       special_dispersal_field: {
         id: 5,
+        edname: "special_dispersal_field",
         name: "Dispersal field"
       },
       special_distortion_field: {
         id: 6,
+        edname: "special_distortion_field",
         name: "Distortion field"
       },
       special_drag_munitions: {
         id: 7,
+        edname: "special_drag_munitions",
         name: "Drag munitions"
       },
       special_emissive_munitions: {
         id: 8,
+        edname: "special_emissive_munitions",
         name: "Emissive munitions"
       },
       special_feedback_cascade: {
         id: 9,
+        edname: "special_feedback_cascade",
         name: "Feedback cascade"
       },
       special_force_shell: {
         id: 10,
+        edname: "special_force_shell",
         name: "Force shell"
       },
       special_high_yield_shell: {
         id: 11,
+        edname: "special_high_yield_shell",
         name: "High yield shell"
       },
       special_incendiary_rounds: {
         id: 12,
+        edname: "special_incendiary_rounds",
         name: "Incendiary rounds"
       },
       special_inertial_impact: {
         id: 32,
+        edname: "special_inertial_impact",
         name: "Inertial impact"
       },
       special_ion_disruptor: {
         id: 13,
+        edname: "special_ion_disruptor",
         name: "Ion disruptor"
       },
       special_mass_lock_munition: {
         id: 14,
+        edname: "special_mass_lock_munition",
         name: "Mass lock munition"
       },
       special_overload_munitions: {
         id: 15,
+        edname: "special_overload_munitions",
         name: "Overload munitions"
       },
       special_penetrator_payload: {
         id: 16,
+        edname: "special_penetrator_payload",
         name: "Penetrator payload"
       },
       special_phasing_sequence: {
         id: 17,
+        edname: "special_phasing_sequence",
         name: "Phasing sequence"
       },
       special_plasma_slug: {
         id: 18,
+        edname: "special_plasma_slug",
         name: "Plasma slug"
       },
       special_radiant_canister: {
         id: 19,
+        edname: "special_radiant_canister",
         name: "Radiant Canister"
       },
       special_regeneration_sequence: {
         id: 20,
+        edname: "special_regeneration_sequence",
         name: "Regeneration sequence"
       },
       special_reverberating_cascade: {
         id: 21,
+        edname: "special_reverberating_cascade",
         name: "Reverberating cascade"
       },
       special_scramble_spectrum: {
         id: 22,
+        edname: "special_scramble_spectrum",
         name: "Scramble spectrum"
       },
       special_screening_shell: {
         id: 23,
+        edname: "special_screening_shell",
         name: "Screening shell"
       },
       special_shiftlock_canister: {
         id: 24,
+        edname: "special_shiftlock_canister",
         name: "Shift-lock canister"
       },
       special_smart_rounds: {
         id: 25,
+        edname: "special_smart_rounds",
         name: "Smart rounds"
       },
       special_super_penetrator: {
         id: 26,
+        edname: "special_super_penetrator",
         name: "Super penetrator"
       },
       special_target_lock_breaker: {
         id: 27,
+        edname: "special_target_lock_breaker",
         name: "Target lock breaker"
       },
       special_thermal_cascade: {
         id: 28,
+        edname: "special_thermal_cascade",
         name: "Thermal cascade"
       },
       special_thermal_conduit: {
         id: 29,
+        edname: "special_thermal_conduit",
         name: "Thermal conduit"
       },
       special_thermal_vent: {
         id: 30,
+        edname: "special_thermal_vent",
         name: "Thermal vent"
       },
       special_thermalshock: {
         id: 31,
+        edname: "special_thermalshock",
         name: "Thermal shock"
       }
     }
