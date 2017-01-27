@@ -14616,76 +14616,124 @@ module.exports = {
       },
       Engine_Dirty: {
         id: 22,
+        components: {
+          "1": {
+            "Specialised Legacy Firmware": 1
+          },
+          "2": {
+            "Mechanical Equipment": 1,
+            "Specialised Legacy Firmware": 1
+          },
+          "3": {
+            Chromium: 1,
+            "Mechanical Equipment": 1,
+            "Specialised Legacy Firmware": 1
+          },
+          "4": {
+            "Configurable Components": 1,
+            "Modified Consumer Firmware": 1,
+            Selenium: 1
+          },
+          "5": {
+            Cadmium: 1,
+            "Cracked Industrial Firmware": 1,
+            "Pharmaceutical Isolators": 1
+          }
+        },
         features: {
           "1": {
             integrity: [ -.06, 0 ],
-            optmass: [ -.03, 0 ],
-            optmul: [ .05, .1 ],
+            optmass: [ -.04, 0 ],
+            optmul: [ .04, .1 ],
             power: [ -.04, 0 ],
             thermload: [ -.2, 0 ]
           },
           "2": {
-            integrity: [ -.12, .02 ],
+            integrity: [ -.12, .01 ],
             optmass: [ -.06, -.01 ],
-            optmul: [ .1, .15 ],
+            optmul: [ .1, .14 ],
             power: [ -.08, .02 ],
-            thermload: [ -.4, .1 ]
+            thermload: [ -.39, .1 ]
           },
           "3": {
             integrity: [ -.18, .04 ],
-            optmass: [ -.09, -.02 ],
-            optmul: [ .15, .2 ],
-            power: [ -.12, .04 ],
-            thermload: [ -.6, .2 ]
+            optmass: [ -.1, -.02 ],
+            optmul: [ .14, .2 ],
+            power: [ -.11, .03 ],
+            thermload: [ -.61, .2 ]
           },
           "4": {
-            integrity: [ -.24, .06 ],
-            optmass: [ -.12, -.03 ],
+            integrity: [ -.24, .05 ],
+            optmass: [ -.12, -.04 ],
             optmul: [ .2, .25 ],
-            power: [ -.16, .06 ],
-            thermload: [ -.8, .3 ]
+            power: [ -.15, .05 ],
+            thermload: [ -.79, .29 ]
           },
           "5": {
-            integrity: [ -.3, .08 ],
-            optmass: [ -.15, -.04 ],
-            optmul: [ .25, .3 ],
+            integrity: [ -.31, .08 ],
+            optmass: [ -.16, -.05 ],
+            optmul: [ .25, .29 ],
             power: [ -.2, .08 ],
-            thermload: [ -1, .4 ]
+            thermload: [ -1, .39 ]
           }
         },
         name: "Dirty"
       },
       Engine_Reinforced: {
         id: 23,
-        features: {
+        components: {
           "1": {
-            integrity: [ .15, .3 ],
-            mass: [ .1, 0 ],
-            optmul: [ -.02, 0 ],
-            thermload: [ 0, -.1 ]
+            Carbon: 1
           },
           "2": {
-            integrity: [ .3, .5 ],
+            "Heat Conduction Wiring": 1,
+            Vanadium: 1
+          },
+          "3": {
+            "Heat Conduction Wiring": 1,
+            "Shielding Sensors": 1,
+            Vanadium: 1
+          },
+          "4": {
+            "Compound Shielding": 1,
+            "Heat Dispersion Plate": 1,
+            "High Density Composites": 1
+          },
+          "5": {
+            "Heat Exchangers": 1,
+            "Imperial Shielding": 1,
+            "Proprietary Composites": 1
+          }
+        },
+        features: {
+          "1": {
+            integrity: [ .14, .31 ],
+            mass: [ .1, 0 ],
+            optmul: [ -.03, 0 ],
+            thermload: [ 0, -.11 ]
+          },
+          "2": {
+            integrity: [ .31, .5 ],
             mass: [ .2, .05 ],
-            optmul: [ -.04, -.01 ],
-            thermload: [ -.05, -.2 ]
+            optmul: [ -.05, -.02 ],
+            thermload: [ -.06, -.2 ]
           },
           "3": {
             integrity: [ .45, .7 ],
-            mass: [ .3, .1 ],
-            optmul: [ -.06, -.02 ],
-            thermload: [ -.1, -.3 ]
+            mass: [ .31, .1 ],
+            optmul: [ -.06, -.03 ],
+            thermload: [ -.11, -.31 ]
           },
           "4": {
-            integrity: [ .6, .9 ],
-            mass: [ .4, .15 ],
-            optmul: [ -.08, -.04 ],
+            integrity: [ .61, .9 ],
+            mass: [ .39, .14 ],
+            optmul: [ -.09, -.04 ],
             thermload: [ -.15, -.4 ]
           },
           "5": {
-            integrity: [ .75, 1.1 ],
+            integrity: [ .75, 1.11 ],
             mass: [ .5, .2 ],
-            optmul: [ -.1, -.04 ],
+            optmul: [ -.11, -.05 ],
             thermload: [ -.2, -.5 ]
           }
         },
@@ -14693,41 +14741,65 @@ module.exports = {
       },
       Engine_Tuned: {
         id: 24,
+        components: {
+          "1": {
+            Sulphur: 1
+          },
+          "2": {
+            "Conductive Components": 1,
+            "Specialised Legacy Firmware": 1
+          },
+          "3": {
+            "Conductive Components": 1,
+            "Specialised Legacy Firmware": 1,
+            "Unexpected Emission Data": 1
+          },
+          "4": {
+            "Conductive Ceramics": 1,
+            "Decoded Emission Data": 1,
+            "Modified Consumer Firmware": 1
+          },
+          "5": {
+            "Abnormal Compact Emissions Data": 1,
+            "Conductive Ceramics": 1,
+            Tin: 1
+          }
+        },
         features: {
           "1": {
             integrity: [ -.05, 0 ],
             optmass: [ -.02, 0 ],
-            optmul: [ .02, .06 ],
-            power: [ .05, 0 ],
-            thermload: [ -.05, -.2 ]
+            optmul: [ .01, .05 ],
+            power: [ .04, 0 ],
+            thermload: [ -.06, -.2 ]
           },
           "2": {
             integrity: [ -.1, -.04 ],
-            optmass: [ -.04, -.01 ],
-            optmul: [ .04, .09 ],
-            power: [ .1, .04 ],
-            thermload: [ -.1, -.3 ]
+            optmass: [ -.05, -.01 ],
+            optmul: [ .03, .09 ],
+            power: [ .1, .03 ],
+            thermload: [ -.11, -.31 ]
           },
           "3": {
             integrity: [ -.15, -.08 ],
             optmass: [ -.06, -.02 ],
-            optmul: [ .06, .12 ],
-            power: [ .15, .08 ],
+            optmul: [ .05, .12 ],
+            power: [ .14, .08 ],
             thermload: [ -.15, -.4 ]
           },
           "4": {
             integrity: [ -.2, -.12 ],
-            optmass: [ -.08, -.03 ],
-            optmul: [ .08, .15 ],
-            power: [ .2, .12 ],
+            optmass: [ -.08, -.04 ],
+            optmul: [ .08, .14 ],
+            power: [ .2, .11 ],
             thermload: [ -.2, -.5 ]
           },
           "5": {
             integrity: [ -.25, -.16 ],
-            optmass: [ -.12, -.04 ],
+            optmass: [ -.11, -.05 ],
             optmul: [ .1, .18 ],
             power: [ .25, .16 ],
-            thermload: [ -.25, -.6 ]
+            thermload: [ -.25, -.61 ]
           }
         },
         name: "Clean"
