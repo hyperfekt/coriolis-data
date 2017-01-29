@@ -6411,6 +6411,7 @@ module.exports = {
           T: 1
         },
         distdraw: .9,
+        edID: 128671342,
         eddbID: 1483,
         falloff: 500,
         grp: "pl",
@@ -7272,6 +7273,7 @@ module.exports = {
           K: 1
         },
         distdraw: .12,
+        edID: 128671345,
         eddbID: 1481,
         falloff: 1800,
         grp: "mc",
@@ -8704,6 +8706,7 @@ module.exports = {
           T: 1
         },
         distdraw: 1.75,
+        edID: 128671347,
         eddbID: 1479,
         falloff: 400,
         grp: "ml",
@@ -14092,6 +14095,25 @@ module.exports = {
     blueprints: {
       AFM_Shielded: {
         id: 3,
+        components: {
+          "1": {
+            "Worn Shield Emitters": 1
+          },
+          "2": {
+            Carbon: 1,
+            "Shield Emitters": 1
+          },
+          "3": {
+            Carbon: 1,
+            "High Density Composites": 1,
+            "Shield Emitters": 1
+          },
+          "4": {
+            "Proprietary Composites": 1,
+            "Shielding Sensors": 1,
+            Vanadium: 1
+          }
+        },
         features: {
           "1": {
             integrity: [ .2, .5 ],
@@ -14118,6 +14140,30 @@ module.exports = {
       },
       Armour_Kinetic: {
         id: 4,
+        components: {
+          "1": {
+            Nickel: 1
+          },
+          "2": {
+            Nickel: 1,
+            Vanadium: 1
+          },
+          "3": {
+            "High Density Composites": 1,
+            "Salvaged Alloys": 1,
+            Vanadium: 1
+          },
+          "4": {
+            "Galvanising Alloys": 1,
+            "Proprietary Composites": 1,
+            Tungsten: 1
+          },
+          "5": {
+            "Core Dynamics Composites": 1,
+            Molybdenum: 1,
+            "Phase Alloys": 1
+          }
+        },
         features: {
           "1": {
             explres: [ -.056, -.028 ],
@@ -14149,6 +14195,29 @@ module.exports = {
       },
       Armour_Explosive: {
         id: 5,
+        components: {
+          "1": {
+            Nickel: 1
+          },
+          "2": {
+            Carbon: 1,
+            Zinc: 1
+          },
+          "3": {
+            "Salvaged Alloys": 1,
+            Vanadium: 1
+          },
+          "4": {
+            "Galvanising Alloys": 1,
+            Mercury: 1,
+            Tungsten: 1
+          },
+          "5": {
+            Molybdenum: 1,
+            "Phase Alloys": 1,
+            Ruthenium: 1
+          }
+        },
         features: {
           "1": {
             explres: [ .07, .112 ],
@@ -14180,6 +14249,20 @@ module.exports = {
       },
       Armour_Advanced: {
         id: 6,
+        components: {
+          "1": {
+            Iron: 1
+          },
+          "2": {
+            "Conductive Components": 1,
+            Iron: 1
+          },
+          "3": {
+            "Conductive Components": 1,
+            "High Density Composites": 1,
+            Iron: 1
+          }
+        },
         features: {
           "1": {
             explres: [ 0, .028 ],

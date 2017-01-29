@@ -1,5 +1,6 @@
 #2.2.12
   * Add special effects for each blueprint
+  * Add IDs for most Powerplay modules
 
 #2.2.11
   * Remove non-existant chaff launcher capacity blueprint grades
