@@ -40,7 +40,7 @@ describe('JSON Data', function() {
         var id = group[i].id;
         expect(ids[id]).toBeFalsy('ID already exists: ' + id);
         expect(group[i].edID > 0).toBeTruthy('Standard module ' + id + ' is missing E:D ID');
-        expect(group[i].eddbID > 0 || group[i].pp).toBeTruthy('Standard module ' + id + ' is missing EDDB ID');
+        expect(group[i].eddbID > 0).toBeTruthy('Standard module ' + id + ' is missing EDDB ID');
         if (s != 'ft' && s != 'pas' ) {
           expect(group[i].integrity).toBeDefined('Standard module ' + id + ' is missing integrity');
         }
@@ -70,7 +70,7 @@ describe('JSON Data', function() {
         expect(group[i].mass).toBeDefined(`Hardpoint ${group[i].grp}:${id} ${group[i].name ? group[i].name : ''} is missing mass`);
         expect(group[i].integrity).toBeDefined(`Hardpoint ${group[i].grp}:${id} ${group[i].name ? group[i].name : ''} is missing integrity`);
         expect(group[i].eddbID > 0).toBeTruthy(`Hardpoint ${group[i].grp}:${id} ${group[i].name ? group[i].name : ''} is missing EDDB ID`);
-        expect(group[i].edID > 0 || group[i].pp).toBeTruthy(`Hardpoint ${group[i].grp}:${id} ${group[i].name ? group[i].name : ''} is missing E:D ID`);
+        expect(group[i].edID > 0).toBeTruthy(`Hardpoint ${group[i].grp}:${id} ${group[i].name ? group[i].name : ''} is missing E:D ID`);
         expect(eddbIDs[group[i].eddbID]).toBeFalsy(`EDDB ID [${group[i].eddbID}] already exists: ${group[i].grp}:${id} ${group[i].name ? group[i].name : ''}`);
         expect(edIDs[group[i].edID]).toBeFalsy(`E:D ID [${group[i].edID}] already exists: ${group[i].grp}:${id} ${group[i].name ? group[i].name : ''}`);
         if (group[i].eddbID) {
@@ -110,7 +110,7 @@ describe('JSON Data', function() {
         var id = group[i].id;
         expect(group[i].grp).toBeDefined(`No group defined, ID: ${id}`);
         expect(ids[id]).toBeFalsy('ID already exists: ' + id);
-        expect(group[i].eddbID > 0 || group[i].pp).toBeTruthy(`${group[i].grp}:${id} ${group[i].name ? group[i].name : ''} is missing EDDB ID`);
+        expect(group[i].eddbID > 0).toBeTruthy(`${group[i].grp}:${id} ${group[i].name ? group[i].name : ''} is missing EDDB ID`);
         expect(group[i].edID > 0).toBeTruthy(`${group[i].grp}:${id} ${group[i].name ? group[i].name : ''} is missing E:D ID`);
         if (group[i].grp != 'ft') { // Standard and Internal Fuel tanks have the same IDs
           expect(eddbIDs[group[i].eddbID]).toBeFalsy(`EDDB ID [${group[i].eddbID}] already exists:  ${id}`);
