@@ -45,6 +45,13 @@
       "power",
       "range",
       "thermload"
+    ],
+    "specials": [
+      "special_concordant_sequence",
+      "special_regeneration_sequence",
+      "special_thermal_conduit",
+      "special_thermalshock",
+      "special_thermal_vent"
     ]
   },
   "bsg": {
@@ -98,6 +105,14 @@
       "rof",
       "shotspeed",
       "thermload"
+    ],
+    "specials": [
+      "special_auto_loader",
+      "special_dispersal_field",
+      "special_smart_rounds",
+      "special_force_shell",
+      "special_high_yield_shell",
+      "special_thermal_cascade"
     ]
   },
   "cc": {
@@ -194,6 +209,13 @@
       "rof",
       "shotspeed",
       "thermload"
+    ],
+    "specials": [
+      "special_corrosive_shell",
+      "special_blinding_shell",
+      "special_incendiary_rounds",
+      "special_drag_munitions",
+      "special_screening_shell"
     ]
   },
   "fh": {
@@ -357,6 +379,14 @@
       "rof",
       "shotspeed",
       "thermload"
+    ],
+    "specials": [
+      "special_auto_loader",
+      "special_corrosive_shell",
+      "special_emissive_munitions",
+      "special_incendiary_rounds",
+      "special_smart_rounds",
+      "special_thermalshock"
     ]
   },
   "ml": {
@@ -387,6 +417,13 @@
       "reload",
       "rof",
       "thermload"
+    ],
+    "specials": [
+      "special_drag_munitions",
+      "special_emissive_munitions",
+      "special_overload_munitions",
+      "special_penetrator_payload",
+      "special_thermal_cascade"
     ]
   },
   "mrp": {
@@ -417,6 +454,14 @@
       "reload",
       "rof",
       "thermload"
+    ],
+    "specials": [
+      "special_ion_disruptor",
+      "special_overload_munitions",
+      "special_radiant_canister",
+      "special_reverberating_cascade",
+      "special_shiftlock_canister",
+      "special_emissive_munitions"
     ]
   },
   "pa": {
@@ -447,6 +492,13 @@
       "rof",
       "shotspeed",
       "thermload"
+    ],
+    "specials": [
+      "special_blinding_shell",
+      "special_dispersal_field",
+      "special_phasing_sequence",
+      "special_target_lock_breaker",
+      "special_thermal_conduit"
     ]
   },
   "pas": {
@@ -537,6 +589,13 @@
       "range",
       "rof",
       "thermload"
+    ],
+    "specials": [
+      "special_concordant_sequence",
+      "special_emissive_munitions",
+      "special_phasing_sequence",
+      "special_scramble_spectrum",
+      "special_thermalshock"
     ]
   },
   "po": {
@@ -629,6 +688,11 @@
       "reload",
       "rof",
       "thermload"
+    ],
+    "specials": [
+      "special_feedback_cascade",
+      "special_plasma_slug",
+      "special_super_penetrator"
     ]
   },
   "s": {
@@ -732,6 +796,11 @@
       "range",
       "rof",
       "thermload"
+    ],
+    "specials": [
+      "special_mass_lock_munition",
+      "special_penetrator_payload",
+      "special_reverberating_cascade"
     ]
   },
   "ul": {
@@ -760,6 +829,13 @@
       "range",
       "rof",
       "thermload"
+    ],
+    "specials": [
+      "special_concordant_sequence",
+      "special_inertial_impact",
+      "special_phasing_sequence",
+      "special_scramble_spectrum",
+      "special_thermalshock"
     ]
   },
   "ws": {
