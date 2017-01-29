@@ -18048,7 +18048,7 @@ module.exports = {
           Weapon_Sturdy: [ 1, 2, 3, 4, 5 ]
         },
         modifications: [ "ammo", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "shotspeed", "thermload" ],
-        specials: [ "special_blinding_shell", "special_dispersal_field", "special_phasing_sequence", "special_target_lock_breaker", "special_thermal_conduit" ]
+        specials: [ "special_blinding_shell", "special_dispersal_field", "special_phasing_sequence", "special_plasma_slug", "special_target_lock_breaker", "special_thermal_conduit" ]
       },
       pas: {
         blueprints: {},

@@ -497,6 +497,7 @@
       "special_blinding_shell",
       "special_dispersal_field",
       "special_phasing_sequence",
+      "special_plasma_slug",
       "special_target_lock_breaker",
       "special_thermal_conduit"
     ]
