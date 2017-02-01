@@ -14130,10 +14130,6 @@ module.exports = {
           "4": {
             integrity: [ .81, 2 ],
             power: [ 1.2, .79 ]
-          },
-          "5": {
-            integrity: [ 1, 2.5 ],
-            power: [ 1.5, 1 ]
           }
         },
         name: "Shielded"
@@ -15557,6 +15553,25 @@ module.exports = {
       },
       LifeSupport_LightWeight: {
         id: 49,
+        components: {
+          "1": {
+            Phosphorus: 1
+          },
+          "2": {
+            Manganese: 1,
+            "Salvaged Alloys": 1
+          },
+          "3": {
+            "Conductive Ceramics": 1,
+            Manganese: 1,
+            "Salvaged Alloys": 1
+          },
+          "4": {
+            "Conductive Components": 1,
+            "Phase Alloys": 1,
+            "Proto Light Alloys": 1
+          }
+        },
         features: {
           "1": {
             integrity: [ -.2, -.1 ],
@@ -15573,16 +15588,31 @@ module.exports = {
           "4": {
             integrity: [ -.5, -.4 ],
             mass: [ -.6, -.7 ]
-          },
-          "5": {
-            integrity: [ -.6, -.5 ],
-            mass: [ -.7, -.8 ]
           }
         },
         name: "Lightweight"
       },
       LifeSupport_Reinforced: {
         id: 50,
+        components: {
+          "1": {
+            Nickel: 1
+          },
+          "2": {
+            Nickel: 1,
+            "Shield Emitters": 1
+          },
+          "3": {
+            Nickel: 1,
+            "Shield Emitters": 1,
+            Tungsten: 1
+          },
+          "4": {
+            Molybdenum: 1,
+            Tungsten: 1,
+            Zinc: 1
+          }
+        },
         features: {
           "1": {
             integrity: [ .2, .5 ],
@@ -15599,16 +15629,31 @@ module.exports = {
           "4": {
             integrity: [ .8, 2 ],
             mass: [ 2.5, 1.6 ]
-          },
-          "5": {
-            integrity: [ 1, 2.5 ],
-            mass: [ 3, 2 ]
           }
         },
         name: "Reinforced"
       },
       LifeSupport_Shielded: {
         id: 51,
+        components: {
+          "1": {
+            "Worn Shield Emitters": 1
+          },
+          "2": {
+            Carbon: 1,
+            "Shield Emitters": 1
+          },
+          "3": {
+            Carbon: 1,
+            "High Density Composites": 1,
+            "Shield Emitters": 1
+          },
+          "4": {
+            "Proprietary Composites": 1,
+            "Sielding Sensors": 1,
+            Vanadium: 1
+          }
+        },
         features: {
           "1": {
             integrity: [ .2, .5 ],
@@ -15625,10 +15670,6 @@ module.exports = {
           "4": {
             integrity: [ .8, 2 ],
             power: [ 1.2, .8 ]
-          },
-          "5": {
-            integrity: [ 1, 1.5 ],
-            power: [ 1.5, 1 ]
           }
         },
         name: "Shielded"
@@ -16093,6 +16134,25 @@ module.exports = {
       },
       Refineries_Shielded: {
         id: 92,
+        components: {
+          "1": {
+            "Worn Shield Emitters": 1
+          },
+          "2": {
+            Carbon: 1,
+            "Shield Emitters": 1
+          },
+          "3": {
+            Carbon: 1,
+            "High Density Composites": 1,
+            "Shield Emitters": 1
+          },
+          "4": {
+            "Proprietary Composites": 1,
+            "Shielding Sensors": 1,
+            Vanadium: 1
+          }
+        },
         features: {
           "1": {
             integrity: [ .2, .5 ],
@@ -16494,6 +16554,20 @@ module.exports = {
       },
       WakeScanner_LightWeight: {
         id: 79,
+        components: {
+          "1": {
+            Phosphorus: 1
+          },
+          "2": {
+            Manganese: 1,
+            "Salvaged Alloys": 1
+          },
+          "3": {
+            "Conductive Ceramics": 1,
+            Manganese: 1,
+            "Salvaged Alloys": 1
+          }
+        },
         features: {
           "1": {
             integrity: [ -.2, -.1 ],
@@ -16506,20 +16580,26 @@ module.exports = {
           "3": {
             integrity: [ -.4, -.3 ],
             mass: [ -.5, -.6 ]
-          },
-          "4": {
-            integrity: [ -.5, -.4 ],
-            mass: [ -.6, -.7 ]
-          },
-          "5": {
-            integrity: [ -.6, -.5 ],
-            mass: [ -.7, -.8 ]
           }
         },
         name: "Lightweight"
       },
       WakeScanner_Shielded: {
         id: 80,
+        components: {
+          "1": {
+            "Worn Shield Emitters": 1
+          },
+          "2": {
+            Carbon: 1,
+            "Shield Emitters": 1
+          },
+          "3": {
+            Carbon: 1,
+            "High Density Composites": 1,
+            "Shield Emitters": 1
+          }
+        },
         features: {
           "1": {
             integrity: [ .2, .5 ],
@@ -16532,20 +16612,26 @@ module.exports = {
           "3": {
             integrity: [ .6, 1.5 ],
             power: [ .9, .6 ]
-          },
-          "4": {
-            integrity: [ .8, 2 ],
-            power: [ 1.2, .8 ]
-          },
-          "5": {
-            integrity: [ 1, 1.5 ],
-            power: [ 1.5, 1 ]
           }
         },
         name: "Shielded"
       },
       WakeScanner_Reinforced: {
         id: 81,
+        components: {
+          "1": {
+            Nickel: 1
+          },
+          "2": {
+            Nickel: 1,
+            "Shield Emitters": 1
+          },
+          "3": {
+            Nickel: 1,
+            "Shield Emitters": 1,
+            Tungsten: 1
+          }
+        },
         features: {
           "1": {
             integrity: [ .2, .5 ],
@@ -16558,14 +16644,6 @@ module.exports = {
           "3": {
             integrity: [ .6, 1.5 ],
             mass: [ 2, 1.2 ]
-          },
-          "4": {
-            integrity: [ .8, 2 ],
-            mass: [ 2.5, 1.6 ]
-          },
-          "5": {
-            integrity: [ 1, 2.5 ],
-            mass: [ 3, 2 ]
           }
         },
         name: "Reinforced"
