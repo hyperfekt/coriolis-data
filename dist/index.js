@@ -1949,7 +1949,7 @@ module.exports = {
         name: "Keelback",
         manufacturer: "Lakon",
         class: 2,
-        hullCost: 2943880,
+        hullCost: 2943870,
         speed: 200,
         boost: 300,
         boostEnergy: 10,
@@ -2240,7 +2240,7 @@ module.exports = {
         name: "Sidewinder",
         manufacturer: "Faulcon DeLacy",
         class: 1,
-        hullCost: 12870,
+        hullCost: 4070,
         speed: 220,
         boost: 320,
         boostEnergy: 7,
@@ -2254,7 +2254,7 @@ module.exports = {
         roll: 110,
         yaw: 16
       },
-      retailCost: 40800,
+      retailCost: 32e3,
       bulkheads: [ {
         id: "b0",
         edID: 128049250,
