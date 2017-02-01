@@ -1,5 +1,6 @@
 #2.2.13
   * Add plasma slug special effect for plasma accelerator
+  * Tweak hull costs of ships
 
 #2.2.12
   * Add special effects for each blueprint

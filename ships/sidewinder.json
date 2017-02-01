@@ -6,7 +6,7 @@
       "name": "Sidewinder",
       "manufacturer": "Faulcon DeLacy",
       "class": 1,
-      "hullCost": 12870,
+      "hullCost": 4070,
       "speed": 220,
       "boost": 320,
       "boostEnergy": 7,
@@ -20,7 +20,7 @@
       "roll": 110,
       "yaw": 16
     },
-    "retailCost": 40800,
+    "retailCost": 32000,
     "bulkheads": [
       { "id": "b0", "edID": 128049250, "eddbID": 738, "grp": "bh", "cost": 0, "mass": 0, "explres": -0.4, "kinres": -0.2, "thermres": 0, "hullboost": 0.8 },
       { "id": "b1", "edID": 128049251, "eddbID": 739, "grp": "bh", "cost": 25600, "mass": 2, "explres": -0.4, "kinres": -0.2, "thermres": 0, "hullboost": 1.52 },
