@@ -18066,9 +18066,9 @@ module.exports = {
       },
       ls: {
         blueprints: {
-          LifeSupport_LightWeight: [ 1, 2, 3, 4, 5 ],
-          LifeSupport_Reinforced: [ 1, 2, 3, 4, 5 ],
-          LifeSupport_Shielded: [ 1, 2, 3, 4, 5 ]
+          LifeSupport_LightWeight: [ 1, 2, 3, 4 ],
+          LifeSupport_Reinforced: [ 1, 2, 3, 4 ],
+          LifeSupport_Shielded: [ 1, 2, 3, 4 ]
         },
         modifications: [ "boot", "integrity", "mass", "power" ]
       },
