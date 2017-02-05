@@ -728,8 +728,8 @@
   },
   "scb": {
     "blueprints": {
-      "ShieldCellBank_Rapid": [1, 2, 3, 4],
-      "ShieldCellBank_Specialised": [1, 2, 3, 4]
+      "ShieldCellBank_Rapid": [1, 2, 3],
+      "ShieldCellBank_Specialised": [1, 2, 3]
     },
     "modifications": [
       "boot",
