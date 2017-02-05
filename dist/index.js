@@ -1964,7 +1964,7 @@ module.exports = {
         roll: 100,
         yaw: 15
       },
-      retailCost: 3126160,
+      retailCost: 3126150,
       bulkheads: [ {
         id: "cb",
         edID: 128672271,
