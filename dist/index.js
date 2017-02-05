@@ -19386,7 +19386,8 @@ module.exports = {
       damagedist: {
         id: 40,
         name: "damage",
-        type: "hidden",
+        type: "object",
+        hidden: true,
         method: "overwrite"
       },
       distdraw: {
@@ -19440,7 +19441,8 @@ module.exports = {
       fallofffromrange: {
         id: 42,
         name: "fallofffromrange",
-        type: "hidden",
+        type: "numeric",
+        hidden: true,
         method: "overwrite"
       },
       hullboost: {
