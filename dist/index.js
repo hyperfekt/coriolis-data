@@ -1964,7 +1964,7 @@ module.exports = {
         roll: 100,
         yaw: 15
       },
-      retailCost: 3126160,
+      retailCost: 3126150,
       bulkheads: [ {
         id: "cb",
         edID: 128672271,
@@ -12185,7 +12185,7 @@ module.exports = {
       }, {
         class: 6,
         cost: 61420,
-        edID: 12872926,
+        edID: 128727926,
         eddbID: 1567,
         grp: "pce",
         id: "me",
@@ -14094,3164 +14094,5249 @@ module.exports = {
   Modifications: {
     blueprints: {
       AFM_Shielded: {
+        grades: {
+          "1": {
+            components: {
+              "Worn Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .2, .5 ],
+              power: [ .31, .2 ]
+            }
+          },
+          "2": {
+            components: {
+              Carbon: 1,
+              "Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .39, 1 ],
+              power: [ .61, .4 ]
+            }
+          },
+          "3": {
+            components: {
+              Carbon: 1,
+              "High Density Composites": 1,
+              "Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .61, 1.5 ],
+              power: [ .89, .61 ]
+            }
+          },
+          "4": {
+            components: {
+              "Proprietary Composites": 1,
+              "Shielding Sensors": 1,
+              Vanadium: 1
+            },
+            features: {
+              integrity: [ .81, 2 ],
+              power: [ 1.2, .79 ]
+            }
+          }
+        },
         id: 3,
-        components: {
-          "1": {
-            "Worn Shield Emitters": 1
-          },
-          "2": {
-            Carbon: 1,
-            "Shield Emitters": 1
-          },
-          "3": {
-            Carbon: 1,
-            "High Density Composites": 1,
-            "Shield Emitters": 1
-          },
-          "4": {
-            "Proprietary Composites": 1,
-            "Shielding Sensors": 1,
-            Vanadium: 1
-          }
-        },
-        features: {
-          "1": {
-            integrity: [ .2, .5 ],
-            power: [ .31, .2 ]
-          },
-          "2": {
-            integrity: [ .39, 1 ],
-            power: [ .61, .4 ]
-          },
-          "3": {
-            integrity: [ .61, 1.5 ],
-            power: [ .89, .61 ]
-          },
-          "4": {
-            integrity: [ .81, 2 ],
-            power: [ 1.2, .79 ]
-          }
-        },
         name: "Shielded"
       },
-      Armour_Kinetic: {
-        id: 4,
-        components: {
-          "1": {
-            Nickel: 1
-          },
-          "2": {
-            Nickel: 1,
-            Vanadium: 1
-          },
-          "3": {
-            "High Density Composites": 1,
-            "Salvaged Alloys": 1,
-            Vanadium: 1
-          },
-          "4": {
-            "Galvanising Alloys": 1,
-            "Proprietary Composites": 1,
-            Tungsten: 1
-          },
-          "5": {
-            "Core Dynamics Composites": 1,
-            Molybdenum: 1,
-            "Phase Alloys": 1
-          }
-        },
-        features: {
-          "1": {
-            explres: [ -.056, -.028 ],
-            kinres: [ .06, .096 ],
-            thermres: [ -.04, -.02 ]
-          },
-          "2": {
-            explres: [ -.112, -.056 ],
-            kinres: [ .12, .192 ],
-            thermres: [ -.08, -.04 ]
-          },
-          "3": {
-            explres: [ -.168, -.084 ],
-            kinres: [ .18, .288 ],
-            thermres: [ -.12, -.06 ]
-          },
-          "4": {
-            explres: [ -.224, -.112 ],
-            kinres: [ .24, .384 ],
-            thermres: [ -.16, -.08 ]
-          },
-          "5": {
-            explres: [ -.28, -.14 ],
-            kinres: [ .3, .48 ],
-            thermres: [ -.2, -.1 ]
-          }
-        },
-        name: "Kinetic Resistant"
-      },
-      Armour_Explosive: {
-        id: 5,
-        components: {
-          "1": {
-            Nickel: 1
-          },
-          "2": {
-            Carbon: 1,
-            Zinc: 1
-          },
-          "3": {
-            "Salvaged Alloys": 1,
-            Vanadium: 1
-          },
-          "4": {
-            "Galvanising Alloys": 1,
-            Mercury: 1,
-            Tungsten: 1
-          },
-          "5": {
-            Molybdenum: 1,
-            "Phase Alloys": 1,
-            Ruthenium: 1
-          }
-        },
-        features: {
-          "1": {
-            explres: [ .07, .112 ],
-            kinres: [ -.048, -.024 ],
-            thermres: [ -.04, -.02 ]
-          },
-          "2": {
-            explres: [ .14, .224 ],
-            kinres: [ -.096, -.048 ],
-            thermres: [ -.08, -.04 ]
-          },
-          "3": {
-            explres: [ .21, .336 ],
-            kinres: [ -.144, -.072 ],
-            thermres: [ -.12, -.06 ]
-          },
-          "4": {
-            explres: [ .28, .448 ],
-            kinres: [ -.192, -.096 ],
-            thermres: [ -.16, -.08 ]
-          },
-          "5": {
-            explres: [ .35, .56 ],
-            kinres: [ -.24, -.12 ],
-            thermres: [ -.2, -.1 ]
-          }
-        },
-        name: "Blast Resistant"
-      },
       Armour_Advanced: {
-        id: 6,
-        components: {
+        grades: {
           "1": {
-            Iron: 1
+            components: {
+              Iron: 1
+            },
+            features: {
+              explres: [ 0, .028 ],
+              hullboost: [ -.03, 0 ],
+              kinres: [ 0, .024 ],
+              mass: [ -.04, -.15 ],
+              thermres: [ 0, .02 ]
+            }
           },
           "2": {
-            "Conductive Components": 1,
-            Iron: 1
+            components: {
+              "Conductive Components": 1,
+              Iron: 1
+            },
+            features: {
+              explres: [ .014, .056 ],
+              hullboost: [ -.02, -.01 ],
+              kinres: [ .012, .048 ],
+              mass: [ -.08, -.25 ],
+              thermres: [ .01, .04 ]
+            }
           },
           "3": {
-            "Conductive Components": 1,
-            "High Density Composites": 1,
-            Iron: 1
-          }
-        },
-        features: {
-          "1": {
-            explres: [ 0, .028 ],
-            hullboost: [ -.03, 0 ],
-            kinres: [ 0, .024 ],
-            mass: [ -.04, -.15 ],
-            thermres: [ 0, .02 ]
-          },
-          "2": {
-            explres: [ .014, .056 ],
-            hullboost: [ -.02, -.01 ],
-            kinres: [ .012, .048 ],
-            mass: [ -.08, -.25 ],
-            thermres: [ .01, .04 ]
-          },
-          "3": {
-            explres: [ .028, .084 ],
-            hullboost: [ -.07, -.05 ],
-            kinres: [ .024, .072 ],
-            mass: [ -.12, -.35 ],
-            thermres: [ .02, .06 ]
+            components: {
+              "Conductive Components": 1,
+              "High Density Composites": 1,
+              Iron: 1
+            },
+            features: {
+              explres: [ .028, .084 ],
+              hullboost: [ -.07, -.05 ],
+              kinres: [ .024, .072 ],
+              mass: [ -.12, -.35 ],
+              thermres: [ .02, .06 ]
+            }
           },
           "4": {
-            explres: [ .042, .112 ],
-            hullboost: [ -.09, -.07 ],
-            kinres: [ .036, .096 ],
-            mass: [ -.16, -.45 ],
-            thermres: [ .03, .08 ]
+            components: {
+              "Conductive Ceramics": 1,
+              Germanium: 1,
+              "Proprietary Composites": 1
+            },
+            features: {
+              explres: [ .042, .112 ],
+              hullboost: [ -.09, -.07 ],
+              kinres: [ .036, .096 ],
+              mass: [ -.16, -.45 ],
+              thermres: [ .03, .08 ]
+            }
           },
           "5": {
-            explres: [ .056, .14 ],
-            hullboost: [ -.12, -.09 ],
-            kinres: [ .048, .12 ],
-            mass: [ -.2, -.55 ],
-            thermres: [ .04, .1 ]
+            components: {
+              "Conductive Ceramics": 1,
+              "Military Grade Alloys": 1,
+              Tin: 1
+            },
+            features: {
+              explres: [ .056, .14 ],
+              hullboost: [ -.12, -.09 ],
+              kinres: [ .048, .12 ],
+              mass: [ -.2, -.55 ],
+              thermres: [ .04, .1 ]
+            }
           }
         },
+        id: 6,
         name: "Lightweight"
       },
-      Armour_HeavyDuty: {
-        id: 7,
-        features: {
+      Armour_Explosive: {
+        grades: {
           "1": {
-            explres: [ 0, .014 ],
-            hullboost: [ .08, .22 ],
-            kinres: [ 0, .012 ],
-            mass: [ .08, 0 ],
-            thermres: [ 0, .01 ]
+            components: {
+              Nickel: 1
+            },
+            features: {
+              explres: [ .07, .112 ],
+              kinres: [ -.048, -.024 ],
+              thermres: [ -.04, -.02 ]
+            }
           },
           "2": {
-            explres: [ .014, .028 ],
-            hullboost: [ .18, .34 ],
-            kinres: [ .012, .024 ],
-            mass: [ .15, .04 ],
-            thermres: [ .01, .02 ]
+            components: {
+              Carbon: 1,
+              Zinc: 1
+            },
+            features: {
+              explres: [ .14, .224 ],
+              kinres: [ -.096, -.048 ],
+              thermres: [ -.08, -.04 ]
+            }
           },
           "3": {
-            explres: [ .028, .042 ],
-            hullboost: [ .28, .45 ],
-            kinres: [ .024, .036 ],
-            mass: [ .23, .1 ],
-            thermres: [ .02, .03 ]
+            components: {
+              "Salvaged Alloys": 1,
+              Vanadium: 1
+            },
+            features: {
+              explres: [ .21, .336 ],
+              kinres: [ -.144, -.072 ],
+              thermres: [ -.12, -.06 ]
+            }
           },
           "4": {
-            explres: [ .042, .056 ],
-            hullboost: [ .35, .56 ],
-            kinres: [ .036, .048 ],
-            mass: [ .31, .14 ],
-            thermres: [ .03, .04 ]
+            components: {
+              "Galvanising Alloys": 1,
+              Mercury: 1,
+              Tungsten: 1
+            },
+            features: {
+              explres: [ .28, .448 ],
+              kinres: [ -.192, -.096 ],
+              thermres: [ -.16, -.08 ]
+            }
           },
           "5": {
-            explres: [ .056, .07 ],
-            hullboost: [ .45, .68 ],
-            kinres: [ .048, .06 ],
-            mass: [ .39, .2 ],
-            thermres: [ .04, .05 ]
+            components: {
+              Molybdenum: 1,
+              "Phase Alloys": 1,
+              Ruthenium: 1
+            },
+            features: {
+              explres: [ .35, .56 ],
+              kinres: [ -.24, -.12 ],
+              thermres: [ -.2, -.1 ]
+            }
           }
         },
+        id: 5,
+        name: "Blast Resistant"
+      },
+      Armour_HeavyDuty: {
+        grades: {
+          "1": {
+            components: {
+              Carbon: 1
+            },
+            features: {
+              explres: [ 0, .014 ],
+              hullboost: [ .08, .22 ],
+              kinres: [ 0, .012 ],
+              mass: [ .08, 0 ],
+              thermres: [ 0, .01 ]
+            }
+          },
+          "2": {
+            components: {
+              Carbon: 1,
+              "Shield Emitters": 1
+            },
+            features: {
+              explres: [ .014, .028 ],
+              hullboost: [ .18, .34 ],
+              kinres: [ .012, .024 ],
+              mass: [ .15, .04 ],
+              thermres: [ .01, .02 ]
+            }
+          },
+          "3": {
+            components: {
+              Carbon: 1,
+              "High Density Composites": 1,
+              "Shield Emitters": 1
+            },
+            features: {
+              explres: [ .028, .042 ],
+              hullboost: [ .28, .45 ],
+              kinres: [ .024, .036 ],
+              mass: [ .23, .1 ],
+              thermres: [ .02, .03 ]
+            }
+          },
+          "4": {
+            components: {
+              "Proprietary Composites": 1,
+              "Shielding Sensors": 1,
+              Vanadium: 1
+            },
+            features: {
+              explres: [ .042, .056 ],
+              hullboost: [ .35, .56 ],
+              kinres: [ .036, .048 ],
+              mass: [ .31, .14 ],
+              thermres: [ .03, .04 ]
+            }
+          },
+          "5": {
+            components: {
+              "Compound Shielding": 1,
+              "Core Dynamics Composites": 1,
+              Tungsten: 1
+            },
+            features: {
+              explres: [ .056, .07 ],
+              hullboost: [ .45, .68 ],
+              kinres: [ .048, .06 ],
+              mass: [ .39, .2 ],
+              thermres: [ .04, .05 ]
+            }
+          }
+        },
+        id: 7,
         name: "Heavy Duty"
       },
-      Armour_Thermic: {
-        id: 8,
-        features: {
+      Armour_Kinetic: {
+        grades: {
           "1": {
-            explres: [ -.056, -.028 ],
-            kinres: [ -.048, -.024 ],
-            thermres: [ .05, .08 ]
+            components: {
+              Nickel: 1
+            },
+            features: {
+              explres: [ -.056, -.028 ],
+              kinres: [ .06, .096 ],
+              thermres: [ -.04, -.02 ]
+            }
           },
           "2": {
-            explres: [ -.112, -.056 ],
-            kinres: [ -.096, -.048 ],
-            thermres: [ .1, .16 ]
+            components: {
+              Nickel: 1,
+              Vanadium: 1
+            },
+            features: {
+              explres: [ -.112, -.056 ],
+              kinres: [ .12, .192 ],
+              thermres: [ -.08, -.04 ]
+            }
           },
           "3": {
-            explres: [ -.168, -.084 ],
-            kinres: [ -.144, -.072 ],
-            thermres: [ .15, .24 ]
+            components: {
+              "High Density Composites": 1,
+              "Salvaged Alloys": 1,
+              Vanadium: 1
+            },
+            features: {
+              explres: [ -.168, -.084 ],
+              kinres: [ .18, .288 ],
+              thermres: [ -.12, -.06 ]
+            }
           },
           "4": {
-            explres: [ -.224, -.112 ],
-            kinres: [ -.192, -.096 ],
-            thermres: [ .2, .32 ]
+            components: {
+              "Galvanising Alloys": 1,
+              "Proprietary Composites": 1,
+              Tungsten: 1
+            },
+            features: {
+              explres: [ -.224, -.112 ],
+              kinres: [ .24, .384 ],
+              thermres: [ -.16, -.08 ]
+            }
           },
           "5": {
-            explres: [ -.28, -.14 ],
-            kinres: [ -.24, -.12 ],
-            thermres: [ .25, .4 ]
+            components: {
+              "Core Dynamics Composites": 1,
+              Molybdenum: 1,
+              "Phase Alloys": 1
+            },
+            features: {
+              explres: [ -.28, -.14 ],
+              kinres: [ .3, .48 ],
+              thermres: [ -.2, -.1 ]
+            }
           }
         },
+        id: 4,
+        name: "Kinetic Resistant"
+      },
+      Armour_Thermic: {
+        grades: {
+          "1": {
+            components: {
+              "Heat Conduction Wiring": 1
+            },
+            features: {
+              explres: [ -.056, -.028 ],
+              kinres: [ -.048, -.024 ],
+              thermres: [ .05, .08 ]
+            }
+          },
+          "2": {
+            components: {
+              "Heat Dispersion Plate": 1,
+              Nickel: 1
+            },
+            features: {
+              explres: [ -.112, -.056 ],
+              kinres: [ -.096, -.048 ],
+              thermres: [ .1, .16 ]
+            }
+          },
+          "3": {
+            components: {
+              "Heat Exchangers": 1,
+              "Salvaged Alloys": 1,
+              Vanadium: 1
+            },
+            features: {
+              explres: [ -.168, -.084 ],
+              kinres: [ -.144, -.072 ],
+              thermres: [ .15, .24 ]
+            }
+          },
+          "4": {
+            components: {},
+            features: {
+              explres: [ -.224, -.112 ],
+              kinres: [ -.192, -.096 ],
+              thermres: [ .2, .32 ]
+            }
+          },
+          "5": {
+            components: {},
+            features: {
+              explres: [ -.28, -.14 ],
+              kinres: [ -.24, -.12 ],
+              thermres: [ .25, .4 ]
+            }
+          }
+        },
+        id: 8,
         name: "Thermal Resistant"
       },
       CargoScanner_LightWeight: {
-        id: 9,
-        features: {
+        grades: {
           "1": {
-            integrity: [ -.2, -.1 ],
-            mass: [ -.31, -.4 ]
+            components: {
+              Phosphorus: 1
+            },
+            features: {
+              integrity: [ -.2, -.1 ],
+              mass: [ -.31, -.4 ]
+            }
           },
           "2": {
-            integrity: [ -.31, -.2 ],
-            mass: [ -.4, -.5 ]
+            components: {
+              Manganese: 1,
+              "Salvaged Alloys": 1
+            },
+            features: {
+              integrity: [ -.31, -.2 ],
+              mass: [ -.4, -.5 ]
+            }
           },
           "3": {
-            integrity: [ -.4, -.31 ],
-            mass: [ -.5, -.61 ]
+            components: {
+              "Conductive Ceramics": 1,
+              Manganese: 1,
+              "Salvaged Alloys": 1
+            },
+            features: {
+              integrity: [ -.4, -.31 ],
+              mass: [ -.5, -.61 ]
+            }
           },
           "4": {
-            integrity: [ -.5, -.4 ],
-            mass: [ -.6, -.7 ]
+            components: {
+              "Conductive Components": 1,
+              "Phase Alloys": 1,
+              "Proto Light Alloys": 1
+            },
+            features: {
+              integrity: [ -.5, -.4 ],
+              mass: [ -.6, -.7 ]
+            }
           },
           "5": {
-            integrity: [ -.6, -.5 ],
-            mass: [ -.7, -.8 ]
+            components: {
+              "Conductive Ceramics": 1,
+              "Proto Light Alloys": 1,
+              "Proto Radiolic Alloys": 1
+            },
+            features: {
+              integrity: [ -.6, -.5 ],
+              mass: [ -.7, -.8 ]
+            }
           }
         },
+        id: 9,
         name: "Lightweight"
       },
       CargoScanner_Reinforced: {
-        id: 10,
-        features: {
+        grades: {
           "1": {
-            integrity: [ .2, .5 ],
-            mass: [ 1, .39 ]
+            components: {
+              Nickel: 1
+            },
+            features: {
+              integrity: [ .2, .5 ],
+              mass: [ 1, .39 ]
+            }
           },
           "2": {
-            integrity: [ .39, 1 ],
-            mass: [ 1.5, .79 ]
+            components: {
+              Nickel: 1,
+              "Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .39, 1 ],
+              mass: [ 1.5, .79 ]
+            }
           },
           "3": {
-            integrity: [ .61, 1.5 ],
-            mass: [ 2, 1.2 ]
+            components: {
+              Nickel: 1,
+              "Shield Emitters": 1,
+              Tungsten: 1
+            },
+            features: {
+              integrity: [ .61, 1.5 ],
+              mass: [ 2, 1.2 ]
+            }
           },
           "4": {
-            integrity: [ .8, 2 ],
-            mass: [ 2.5, 1.6 ]
+            components: {
+              Molybdenum: 1,
+              Tungsten: 1,
+              Zinc: 1
+            },
+            features: {
+              integrity: [ .8, 2 ],
+              mass: [ 2.5, 1.6 ]
+            }
           },
           "5": {
-            integrity: [ 1, 2.5 ],
-            mass: [ 3, 2 ]
+            components: {
+              "High Density Composites": 1,
+              Molybdenum: 1,
+              Technetium: 1
+            },
+            features: {
+              integrity: [ 1, 2.5 ],
+              mass: [ 3, 2 ]
+            }
           }
         },
+        id: 10,
         name: "Reinforced"
       },
       CargoScanner_Shielded: {
-        id: 11,
-        features: {
+        grades: {
           "1": {
-            integrity: [ .2, .5 ],
-            power: [ .29, .2 ]
+            components: {
+              "Worn Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .2, .5 ],
+              power: [ .29, .2 ]
+            }
           },
           "2": {
-            integrity: [ .39, 1 ],
-            power: [ .61, .39 ]
+            components: {
+              Carbon: 1,
+              "Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .39, 1 ],
+              power: [ .61, .39 ]
+            }
           },
           "3": {
-            integrity: [ .61, 1.5 ],
-            power: [ .89, .61 ]
+            components: {
+              Carbon: 1,
+              "High Density Composites": 1,
+              "Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .61, 1.5 ],
+              power: [ .89, .61 ]
+            }
           },
           "4": {
-            integrity: [ .8, 2 ],
-            power: [ 1.2, .8 ]
+            components: {
+              "Proprietary Composites": 1,
+              "Shielding Sensors": 1,
+              Vanadium: 1
+            },
+            features: {
+              integrity: [ .8, 2 ],
+              power: [ 1.2, .8 ]
+            }
           },
           "5": {
-            integrity: [ 1, 1.5 ],
-            power: [ 1.5, 1 ]
+            components: {
+              "Compound Shielding": 1,
+              "Core Dynamics Composites": 1,
+              Tungsten: 1
+            },
+            features: {
+              integrity: [ 1, 1.5 ],
+              power: [ 1.5, 1 ]
+            }
           }
         },
+        id: 11,
         name: "Shielded"
       },
       ChaffLauncher_ChaffCapacity: {
-        id: 12,
-        features: {
+        grades: {
           "3": {
-            ammo: [ .2, .5 ],
-            mass: [ 2, 1 ],
-            reload: [ .3, .1 ]
+            components: {
+              "Mechanical Scrap": 1,
+              Niobium: 1,
+              Vanadium: 1
+            },
+            features: {
+              ammo: [ .2, .5 ],
+              mass: [ 2, 1 ],
+              reload: [ .3, .1 ]
+            }
           }
         },
+        id: 12,
         name: "Ammo capacity"
       },
       ChaffLauncher_LightWeight: {
-        id: 13,
-        features: {
+        grades: {
           "1": {
-            integrity: [ -.2, -.1 ],
-            mass: [ -.3, -.4 ]
+            components: {
+              Phosphorus: 1
+            },
+            features: {
+              integrity: [ -.2, -.1 ],
+              mass: [ -.3, -.4 ]
+            }
           },
           "2": {
-            integrity: [ -.3, -.2 ],
-            mass: [ -.4, -.5 ]
+            components: {
+              Manganese: 1,
+              "Salvaged Alloys": 1
+            },
+            features: {
+              integrity: [ -.3, -.2 ],
+              mass: [ -.4, -.5 ]
+            }
           },
           "3": {
-            integrity: [ -.4, -.4 ],
-            mass: [ -.5, -.6 ]
+            components: {
+              "Conductive Ceramics": 1,
+              Manganese: 1,
+              "Salvaged Alloys": 1
+            },
+            features: {
+              integrity: [ -.4, -.4 ],
+              mass: [ -.5, -.6 ]
+            }
           },
           "4": {
-            integrity: [ -.5, -.4 ],
-            mass: [ -.6, -.7 ]
+            components: {
+              "Conductive Components": 1,
+              "Phase Alloys": 1,
+              "Proto Light Alloys": 1
+            },
+            features: {
+              integrity: [ -.5, -.4 ],
+              mass: [ -.6, -.7 ]
+            }
           },
           "5": {
-            integrity: [ -.6, -.5 ],
-            mass: [ -.7, -.8 ]
+            components: {
+              "Conductive Ceramics": 1,
+              "Proto Light Alloys": 1,
+              "Proto Radiolic Alloys": 1
+            },
+            features: {
+              integrity: [ -.6, -.5 ],
+              mass: [ -.7, -.8 ]
+            }
           }
         },
+        id: 13,
         name: "Lightweight"
       },
       ChaffLauncher_Reinforced: {
-        id: 14,
-        features: {
+        grades: {
           "1": {
-            integrity: [ .2, .5 ],
-            mass: [ 1, .4 ]
+            components: {
+              Nickel: 1
+            },
+            features: {
+              integrity: [ .2, .5 ],
+              mass: [ 1, .4 ]
+            }
           },
           "2": {
-            integrity: [ .4, 1 ],
-            mass: [ 1.5, .8 ]
+            components: {
+              Nickel: 1,
+              "Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .4, 1 ],
+              mass: [ 1.5, .8 ]
+            }
           },
           "3": {
-            integrity: [ .6, 1.5 ],
-            mass: [ 2, 1.2 ]
+            components: {
+              Nickel: 1,
+              "Shield Emitters": 1,
+              Tungsten: 1
+            },
+            features: {
+              integrity: [ .6, 1.5 ],
+              mass: [ 2, 1.2 ]
+            }
           },
           "4": {
-            integrity: [ .8, 2 ],
-            mass: [ 2.5, 1.6 ]
+            components: {
+              Molybdenum: 1,
+              Tungsten: 1,
+              Zinc: 1
+            },
+            features: {
+              integrity: [ .8, 2 ],
+              mass: [ 2.5, 1.6 ]
+            }
           },
           "5": {
-            integrity: [ 1, 2.5 ],
-            mass: [ 3, 2 ]
+            components: {
+              "High Density Composites": 1,
+              Molybdenum: 1,
+              Technetium: 1
+            },
+            features: {
+              integrity: [ 1, 2.5 ],
+              mass: [ 3, 2 ]
+            }
           }
         },
+        id: 14,
         name: "Reinforced"
       },
       ChaffLauncher_Shielded: {
-        id: 15,
-        features: {
+        grades: {
           "1": {
-            integrity: [ .2, .5 ],
-            power: [ .3, .2 ]
+            components: {
+              "Worn Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .2, .5 ],
+              power: [ .3, .2 ]
+            }
           },
           "2": {
-            integrity: [ .4, 1 ],
-            power: [ .6, .4 ]
+            components: {
+              Carbon: 1,
+              "Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .4, 1 ],
+              power: [ .6, .4 ]
+            }
           },
           "3": {
-            integrity: [ .6, 1.5 ],
-            power: [ .9, .6 ]
+            components: {
+              Carbon: 1,
+              "High Density Composites": 1,
+              "Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .6, 1.5 ],
+              power: [ .9, .6 ]
+            }
           },
           "4": {
-            integrity: [ .8, 2 ],
-            power: [ 1.2, .8 ]
+            components: {
+              "Proprietary Composites": 1,
+              "Shielding Sensors": 1,
+              Vanadium: 1
+            },
+            features: {
+              integrity: [ .8, 2 ],
+              power: [ 1.2, .8 ]
+            }
           },
           "5": {
-            integrity: [ 1, 1.5 ],
-            power: [ 1.5, 1 ]
+            components: {
+              "Compound Shielding": 1,
+              "Core Dynamics Composites": 1,
+              Tungsten: 1
+            },
+            features: {
+              integrity: [ 1, 1.5 ],
+              power: [ 1.5, 1 ]
+            }
           }
         },
+        id: 15,
         name: "Shielded"
       },
       CollectionLimpet_LightWeight: {
-        id: 16,
-        features: {
+        grades: {
           "1": {
-            integrity: [ -.2, -.1 ],
-            mass: [ -.3, -.4 ]
+            components: {
+              Phosphorus: 1
+            },
+            features: {
+              integrity: [ -.2, -.1 ],
+              mass: [ -.3, -.4 ]
+            }
           },
           "2": {
-            integrity: [ -.3, -.2 ],
-            mass: [ -.4, -.5 ]
+            components: {
+              Manganese: 1,
+              "Salvaged Alloys": 1
+            },
+            features: {
+              integrity: [ -.3, -.2 ],
+              mass: [ -.4, -.5 ]
+            }
           },
           "3": {
-            integrity: [ -.4, -.3 ],
-            mass: [ -.5, -.6 ]
+            components: {
+              "Conductive Ceramics": 1,
+              Manganese: 1,
+              "Salvaged Alloys": 1
+            },
+            features: {
+              integrity: [ -.4, -.3 ],
+              mass: [ -.5, -.6 ]
+            }
           },
           "4": {
-            integrity: [ -.5, -.4 ],
-            mass: [ -.6, -.7 ]
+            components: {
+              "Conductive Components": 1,
+              "Phase Alloys": 1,
+              "Proto Light Alloys": 1
+            },
+            features: {
+              integrity: [ -.5, -.4 ],
+              mass: [ -.6, -.7 ]
+            }
           },
           "5": {
-            integrity: [ -.6, -.5 ],
-            mass: [ -.7, -.8 ]
+            components: {
+              "Conductive Ceramics": 1,
+              "Proto Light Alloys": 1,
+              "Proto Radiolic Alloys": 1
+            },
+            features: {
+              integrity: [ -.6, -.5 ],
+              mass: [ -.7, -.8 ]
+            }
           }
         },
+        id: 16,
         name: "Lightweight"
       },
       CollectionLimpet_Reinforced: {
-        id: 17,
-        features: {
+        grades: {
           "1": {
-            integrity: [ .2, .5 ],
-            mass: [ 1, .4 ]
+            components: {
+              Nickel: 1
+            },
+            features: {
+              integrity: [ .2, .5 ],
+              mass: [ 1, .4 ]
+            }
           },
           "2": {
-            integrity: [ .4, 1 ],
-            mass: [ 1.5, .8 ]
+            components: {
+              Nickel: 1,
+              "Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .4, 1 ],
+              mass: [ 1.5, .8 ]
+            }
           },
           "3": {
-            integrity: [ .6, 1.5 ],
-            mass: [ 2, 1.2 ]
+            components: {
+              Nickel: 1,
+              "Shield Emitters": 1,
+              Tungsten: 1
+            },
+            features: {
+              integrity: [ .6, 1.5 ],
+              mass: [ 2, 1.2 ]
+            }
           },
           "4": {
-            integrity: [ .8, 2 ],
-            mass: [ 2.5, 1.6 ]
+            components: {
+              Molybdenum: 1,
+              Tungsten: 1,
+              Zinc: 1
+            },
+            features: {
+              integrity: [ .8, 2 ],
+              mass: [ 2.5, 1.6 ]
+            }
           },
           "5": {
-            integrity: [ 1, 2.5 ],
-            mass: [ 3, 2 ]
+            components: {
+              "High Density Composites": 1,
+              Molybdenum: 1,
+              Technetium: 1
+            },
+            features: {
+              integrity: [ 1, 2.5 ],
+              mass: [ 3, 2 ]
+            }
           }
         },
+        id: 17,
         name: "Reinforced"
       },
       CollectionLimpet_Shielded: {
-        id: 18,
-        features: {
+        grades: {
           "1": {
-            integrity: [ .2, .5 ],
-            power: [ .3, .2 ]
+            components: {
+              "Worn Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .2, .5 ],
+              power: [ .3, .2 ]
+            }
           },
           "2": {
-            integrity: [ .4, 1 ],
-            power: [ .6, .4 ]
+            components: {
+              Carbon: 1,
+              "Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .4, 1 ],
+              power: [ .6, .4 ]
+            }
           },
           "3": {
-            integrity: [ .6, 1.5 ],
-            power: [ .9, .6 ]
+            components: {
+              Carbon: 1,
+              "High Density Composites": 1,
+              "Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .6, 1.5 ],
+              power: [ .9, .6 ]
+            }
           },
           "4": {
-            integrity: [ .8, 2 ],
-            power: [ 1.2, .8 ]
+            components: {
+              "Proprietary Composites": 1,
+              "Shielding Sensors": 1,
+              Vanadium: 1
+            },
+            features: {
+              integrity: [ .8, 2 ],
+              power: [ 1.2, .8 ]
+            }
           },
           "5": {
-            integrity: [ 1, 1.5 ],
-            power: [ 1.5, 1 ]
+            components: {
+              "Compound Shielding": 1,
+              "Core Dynamics Composites": 1,
+              Tungsten: 1
+            },
+            features: {
+              integrity: [ 1, 1.5 ],
+              power: [ 1.5, 1 ]
+            }
           }
         },
+        id: 18,
         name: "Shielded"
       },
       ECM_LightWeight: {
-        id: 19,
-        features: {
+        grades: {
           "1": {
-            integrity: [ -.2, -.1 ],
-            mass: [ -.3, -.4 ]
+            components: {
+              Phosphorus: 1
+            },
+            features: {
+              integrity: [ -.2, -.1 ],
+              mass: [ -.3, -.4 ]
+            }
           },
           "2": {
-            integrity: [ -.3, -.2 ],
-            mass: [ -.4, -.5 ]
+            components: {
+              Manganese: 1,
+              "Salvaged Alloys": 1
+            },
+            features: {
+              integrity: [ -.3, -.2 ],
+              mass: [ -.4, -.5 ]
+            }
           },
           "3": {
-            integrity: [ -.4, -.3 ],
-            mass: [ -.5, -.6 ]
+            components: {
+              "Conductive Ceramics": 1,
+              Manganese: 1,
+              "Salvaged Alloys": 1
+            },
+            features: {
+              integrity: [ -.4, -.3 ],
+              mass: [ -.5, -.6 ]
+            }
           },
           "4": {
-            integrity: [ -.5, -.4 ],
-            mass: [ -.6, -.7 ]
+            components: {
+              "Conductive Components": 1,
+              "Phase Alloys": 1,
+              "Proto Light Alloys": 1
+            },
+            features: {
+              integrity: [ -.5, -.4 ],
+              mass: [ -.6, -.7 ]
+            }
           },
           "5": {
-            integrity: [ -.6, -.5 ],
-            mass: [ -.7, -.8 ]
+            components: {
+              "Conductive Ceramics": 1,
+              "Proto Light Alloys": 1,
+              "Proto Radiolic Alloys": 1
+            },
+            features: {
+              integrity: [ -.6, -.5 ],
+              mass: [ -.7, -.8 ]
+            }
           }
         },
+        id: 19,
         name: "Lightweight"
       },
       ECM_Reinforced: {
-        id: 20,
-        features: {
+        grades: {
           "1": {
-            integrity: [ .2, .5 ],
-            mass: [ 1, .4 ]
+            components: {
+              Nickel: 1
+            },
+            features: {
+              integrity: [ .2, .5 ],
+              mass: [ 1, .4 ]
+            }
           },
           "2": {
-            integrity: [ .4, 1 ],
-            mass: [ 1.5, .8 ]
+            components: {
+              Nickel: 1,
+              "Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .4, 1 ],
+              mass: [ 1.5, .8 ]
+            }
           },
           "3": {
-            integrity: [ .6, 1.5 ],
-            mass: [ 2, 1.2 ]
+            components: {
+              Nickel: 1,
+              "Shield Emitters": 1,
+              Tungsten: 1
+            },
+            features: {
+              integrity: [ .6, 1.5 ],
+              mass: [ 2, 1.2 ]
+            }
           },
           "4": {
-            integrity: [ .8, 2 ],
-            mass: [ 2.5, 1.6 ]
+            components: {
+              Molybdenum: 1,
+              Tungsten: 1,
+              Zinc: 1
+            },
+            features: {
+              integrity: [ .8, 2 ],
+              mass: [ 2.5, 1.6 ]
+            }
           },
           "5": {
-            integrity: [ 1, 2.5 ],
-            mass: [ 3, 2 ]
+            components: {
+              "High Density Composites": 1,
+              Molybdenum: 1,
+              Technetium: 1
+            },
+            features: {
+              integrity: [ 1, 2.5 ],
+              mass: [ 3, 2 ]
+            }
           }
         },
+        id: 20,
         name: "Reinforced"
       },
       ECM_Shielded: {
-        id: 21,
-        features: {
+        grades: {
           "1": {
-            integrity: [ .2, .5 ],
-            power: [ .3, .2 ]
+            components: {
+              "Worn Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .2, .5 ],
+              power: [ .3, .2 ]
+            }
           },
           "2": {
-            integrity: [ .4, 1 ],
-            power: [ .6, .4 ]
+            components: {
+              Carbon: 1,
+              "Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .4, 1 ],
+              power: [ .6, .4 ]
+            }
           },
           "3": {
-            integrity: [ .6, 1.5 ],
-            power: [ .9, .6 ]
+            components: {
+              Carbon: 1,
+              "High Density Composites": 1,
+              "Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .6, 1.5 ],
+              power: [ .9, .6 ]
+            }
           },
           "4": {
-            integrity: [ .8, 2 ],
-            power: [ 1.2, .8 ]
+            components: {
+              "Proprietary Composites": 1,
+              "Shielding Sensors": 1,
+              Vanadium: 1
+            },
+            features: {
+              integrity: [ .8, 2 ],
+              power: [ 1.2, .8 ]
+            }
           },
           "5": {
-            integrity: [ 1, 1.5 ],
-            power: [ 1.5, 1 ]
+            components: {
+              "Compound Shielding": 1,
+              "Core Dynamics Composites": 1,
+              Tungsten: 1
+            },
+            features: {
+              integrity: [ 1, 1.5 ],
+              power: [ 1.5, 1 ]
+            }
           }
         },
+        id: 21,
         name: "Shielded"
       },
       Engine_Dirty: {
+        grades: {
+          "1": {
+            components: {
+              "Specialised Legacy Firmware": 1
+            },
+            features: {
+              integrity: [ -.06, 0 ],
+              optmass: [ -.04, 0 ],
+              optmul: [ .04, .1 ],
+              power: [ -.04, 0 ],
+              thermload: [ -.2, 0 ]
+            }
+          },
+          "2": {
+            components: {
+              "Mechanical Equipment": 1,
+              "Specialised Legacy Firmware": 1
+            },
+            features: {
+              integrity: [ -.12, .01 ],
+              optmass: [ -.06, -.01 ],
+              optmul: [ .1, .14 ],
+              power: [ -.08, .02 ],
+              thermload: [ -.39, .1 ]
+            }
+          },
+          "3": {
+            components: {
+              Chromium: 1,
+              "Mechanical Equipment": 1,
+              "Specialised Legacy Firmware": 1
+            },
+            features: {
+              integrity: [ -.18, .04 ],
+              optmass: [ -.1, -.02 ],
+              optmul: [ .14, .2 ],
+              power: [ -.11, .03 ],
+              thermload: [ -.61, .2 ]
+            }
+          },
+          "4": {
+            components: {
+              "Configurable Components": 1,
+              "Modified Consumer Firmware": 1,
+              Selenium: 1
+            },
+            features: {
+              integrity: [ -.24, .05 ],
+              optmass: [ -.12, -.04 ],
+              optmul: [ .2, .25 ],
+              power: [ -.15, .05 ],
+              thermload: [ -.79, .29 ]
+            }
+          },
+          "5": {
+            components: {
+              Cadmium: 1,
+              "Cracked Industrial Firmware": 1,
+              "Pharmaceutical Isolators": 1
+            },
+            features: {
+              integrity: [ -.31, .08 ],
+              optmass: [ -.16, -.05 ],
+              optmul: [ .25, .29 ],
+              power: [ -.2, .08 ],
+              thermload: [ -1, .39 ]
+            }
+          }
+        },
         id: 22,
-        components: {
-          "1": {
-            "Specialised Legacy Firmware": 1
-          },
-          "2": {
-            "Mechanical Equipment": 1,
-            "Specialised Legacy Firmware": 1
-          },
-          "3": {
-            Chromium: 1,
-            "Mechanical Equipment": 1,
-            "Specialised Legacy Firmware": 1
-          },
-          "4": {
-            "Configurable Components": 1,
-            "Modified Consumer Firmware": 1,
-            Selenium: 1
-          },
-          "5": {
-            Cadmium: 1,
-            "Cracked Industrial Firmware": 1,
-            "Pharmaceutical Isolators": 1
-          }
-        },
-        features: {
-          "1": {
-            integrity: [ -.06, 0 ],
-            optmass: [ -.04, 0 ],
-            optmul: [ .04, .1 ],
-            power: [ -.04, 0 ],
-            thermload: [ -.2, 0 ]
-          },
-          "2": {
-            integrity: [ -.12, .01 ],
-            optmass: [ -.06, -.01 ],
-            optmul: [ .1, .14 ],
-            power: [ -.08, .02 ],
-            thermload: [ -.39, .1 ]
-          },
-          "3": {
-            integrity: [ -.18, .04 ],
-            optmass: [ -.1, -.02 ],
-            optmul: [ .14, .2 ],
-            power: [ -.11, .03 ],
-            thermload: [ -.61, .2 ]
-          },
-          "4": {
-            integrity: [ -.24, .05 ],
-            optmass: [ -.12, -.04 ],
-            optmul: [ .2, .25 ],
-            power: [ -.15, .05 ],
-            thermload: [ -.79, .29 ]
-          },
-          "5": {
-            integrity: [ -.31, .08 ],
-            optmass: [ -.16, -.05 ],
-            optmul: [ .25, .29 ],
-            power: [ -.2, .08 ],
-            thermload: [ -1, .39 ]
-          }
-        },
         name: "Dirty"
       },
       Engine_Reinforced: {
+        grades: {
+          "1": {
+            components: {
+              Carbon: 1
+            },
+            features: {
+              integrity: [ .14, .31 ],
+              mass: [ .1, 0 ],
+              optmul: [ -.03, 0 ],
+              thermload: [ 0, -.11 ]
+            }
+          },
+          "2": {
+            components: {
+              "Heat Conduction Wiring": 1,
+              Vanadium: 1
+            },
+            features: {
+              integrity: [ .31, .5 ],
+              mass: [ .2, .05 ],
+              optmul: [ -.05, -.02 ],
+              thermload: [ -.06, -.2 ]
+            }
+          },
+          "3": {
+            components: {
+              "Heat Conduction Wiring": 1,
+              "Shielding Sensors": 1,
+              Vanadium: 1
+            },
+            features: {
+              integrity: [ .45, .7 ],
+              mass: [ .31, .1 ],
+              optmul: [ -.06, -.03 ],
+              thermload: [ -.11, -.31 ]
+            }
+          },
+          "4": {
+            components: {
+              "Compound Shielding": 1,
+              "Heat Dispersion Plate": 1,
+              "High Density Composites": 1
+            },
+            features: {
+              integrity: [ .61, .9 ],
+              mass: [ .39, .14 ],
+              optmul: [ -.09, -.04 ],
+              thermload: [ -.15, -.4 ]
+            }
+          },
+          "5": {
+            components: {
+              "Heat Exchangers": 1,
+              "Imperial Shielding": 1,
+              "Proprietary Composites": 1
+            },
+            features: {
+              integrity: [ .75, 1.11 ],
+              mass: [ .5, .2 ],
+              optmul: [ -.11, -.05 ],
+              thermload: [ -.2, -.5 ]
+            }
+          }
+        },
         id: 23,
-        components: {
-          "1": {
-            Carbon: 1
-          },
-          "2": {
-            "Heat Conduction Wiring": 1,
-            Vanadium: 1
-          },
-          "3": {
-            "Heat Conduction Wiring": 1,
-            "Shielding Sensors": 1,
-            Vanadium: 1
-          },
-          "4": {
-            "Compound Shielding": 1,
-            "Heat Dispersion Plate": 1,
-            "High Density Composites": 1
-          },
-          "5": {
-            "Heat Exchangers": 1,
-            "Imperial Shielding": 1,
-            "Proprietary Composites": 1
-          }
-        },
-        features: {
-          "1": {
-            integrity: [ .14, .31 ],
-            mass: [ .1, 0 ],
-            optmul: [ -.03, 0 ],
-            thermload: [ 0, -.11 ]
-          },
-          "2": {
-            integrity: [ .31, .5 ],
-            mass: [ .2, .05 ],
-            optmul: [ -.05, -.02 ],
-            thermload: [ -.06, -.2 ]
-          },
-          "3": {
-            integrity: [ .45, .7 ],
-            mass: [ .31, .1 ],
-            optmul: [ -.06, -.03 ],
-            thermload: [ -.11, -.31 ]
-          },
-          "4": {
-            integrity: [ .61, .9 ],
-            mass: [ .39, .14 ],
-            optmul: [ -.09, -.04 ],
-            thermload: [ -.15, -.4 ]
-          },
-          "5": {
-            integrity: [ .75, 1.11 ],
-            mass: [ .5, .2 ],
-            optmul: [ -.11, -.05 ],
-            thermload: [ -.2, -.5 ]
-          }
-        },
         name: "Reinforced"
       },
       Engine_Tuned: {
+        grades: {
+          "1": {
+            components: {
+              Sulphur: 1
+            },
+            features: {
+              integrity: [ -.05, 0 ],
+              optmass: [ -.02, 0 ],
+              optmul: [ .01, .05 ],
+              power: [ .04, 0 ],
+              thermload: [ -.06, -.2 ]
+            }
+          },
+          "2": {
+            components: {
+              "Conductive Components": 1,
+              "Specialised Legacy Firmware": 1
+            },
+            features: {
+              integrity: [ -.1, -.04 ],
+              optmass: [ -.05, -.01 ],
+              optmul: [ .03, .09 ],
+              power: [ .1, .03 ],
+              thermload: [ -.11, -.31 ]
+            }
+          },
+          "3": {
+            components: {
+              "Conductive Components": 1,
+              "Specialised Legacy Firmware": 1,
+              "Unexpected Emission Data": 1
+            },
+            features: {
+              integrity: [ -.15, -.08 ],
+              optmass: [ -.06, -.02 ],
+              optmul: [ .05, .12 ],
+              power: [ .14, .08 ],
+              thermload: [ -.15, -.4 ]
+            }
+          },
+          "4": {
+            components: {
+              "Conductive Ceramics": 1,
+              "Decoded Emission Data": 1,
+              "Modified Consumer Firmware": 1
+            },
+            features: {
+              integrity: [ -.2, -.12 ],
+              optmass: [ -.08, -.04 ],
+              optmul: [ .08, .14 ],
+              power: [ .2, .11 ],
+              thermload: [ -.2, -.5 ]
+            }
+          },
+          "5": {
+            components: {
+              "Abnormal Compact Emissions Data": 1,
+              "Conductive Ceramics": 1,
+              Tin: 1
+            },
+            features: {
+              integrity: [ -.25, -.16 ],
+              optmass: [ -.11, -.05 ],
+              optmul: [ .1, .18 ],
+              power: [ .25, .16 ],
+              thermload: [ -.25, -.61 ]
+            }
+          }
+        },
         id: 24,
-        components: {
-          "1": {
-            Sulphur: 1
-          },
-          "2": {
-            "Conductive Components": 1,
-            "Specialised Legacy Firmware": 1
-          },
-          "3": {
-            "Conductive Components": 1,
-            "Specialised Legacy Firmware": 1,
-            "Unexpected Emission Data": 1
-          },
-          "4": {
-            "Conductive Ceramics": 1,
-            "Decoded Emission Data": 1,
-            "Modified Consumer Firmware": 1
-          },
-          "5": {
-            "Abnormal Compact Emissions Data": 1,
-            "Conductive Ceramics": 1,
-            Tin: 1
-          }
-        },
-        features: {
-          "1": {
-            integrity: [ -.05, 0 ],
-            optmass: [ -.02, 0 ],
-            optmul: [ .01, .05 ],
-            power: [ .04, 0 ],
-            thermload: [ -.06, -.2 ]
-          },
-          "2": {
-            integrity: [ -.1, -.04 ],
-            optmass: [ -.05, -.01 ],
-            optmul: [ .03, .09 ],
-            power: [ .1, .03 ],
-            thermload: [ -.11, -.31 ]
-          },
-          "3": {
-            integrity: [ -.15, -.08 ],
-            optmass: [ -.06, -.02 ],
-            optmul: [ .05, .12 ],
-            power: [ .14, .08 ],
-            thermload: [ -.15, -.4 ]
-          },
-          "4": {
-            integrity: [ -.2, -.12 ],
-            optmass: [ -.08, -.04 ],
-            optmul: [ .08, .14 ],
-            power: [ .2, .11 ],
-            thermload: [ -.2, -.5 ]
-          },
-          "5": {
-            integrity: [ -.25, -.16 ],
-            optmass: [ -.11, -.05 ],
-            optmul: [ .1, .18 ],
-            power: [ .25, .16 ],
-            thermload: [ -.25, -.61 ]
-          }
-        },
         name: "Clean"
       },
       FSD_FastBoot: {
-        id: 25,
-        features: {
+        grades: {
           "1": {
-            boot: [ -.1, -.2 ],
-            integrity: [ -.05, 0 ],
-            power: [ .04, 0 ],
-            thermload: [ .05, 0 ]
+            components: {
+              "Grid Resistors": 1
+            },
+            features: {
+              boot: [ -.1, -.2 ],
+              integrity: [ -.05, 0 ],
+              power: [ .04, 0 ],
+              thermload: [ .05, 0 ]
+            }
           },
           "2": {
-            boot: [ -.2, -.35 ],
-            integrity: [ -.1, -.03 ],
-            power: [ .1, .02 ],
-            thermload: [ .1, .05 ]
+            components: {
+              Chromium: 1,
+              "Grid Resistors": 1
+            },
+            features: {
+              boot: [ -.2, -.35 ],
+              integrity: [ -.1, -.03 ],
+              power: [ .1, .02 ],
+              thermload: [ .1, .05 ]
+            }
           },
           "3": {
-            boot: [ -.3, -.5 ],
-            integrity: [ -.15, -.06 ],
-            power: [ .14, .05 ],
-            thermload: [ .15, .1 ]
+            components: {
+              "Grid Resistors": 1,
+              "Heat Dispersion Plate": 1,
+              Selenium: 1
+            },
+            features: {
+              boot: [ -.3, -.5 ],
+              integrity: [ -.15, -.06 ],
+              power: [ .14, .05 ],
+              thermload: [ .15, .1 ]
+            }
           },
           "4": {
-            boot: [ -.4, -.65 ],
-            integrity: [ -.2, -.09 ],
-            power: [ .2, .09 ],
-            thermload: [ .2, .15 ]
+            components: {
+              Cadmium: 1,
+              "Heat Exchangers": 1,
+              "Hybrid Capacitors": 1
+            },
+            features: {
+              boot: [ -.4, -.65 ],
+              integrity: [ -.2, -.09 ],
+              power: [ .2, .09 ],
+              thermload: [ .2, .15 ]
+            }
           },
           "5": {
-            boot: [ -.5, -.8 ],
-            integrity: [ -.25, -.12 ],
-            power: [ .25, .11 ],
-            thermload: [ .25, .2 ]
+            components: {
+              "Electrochemical Arrays": 1,
+              "Heat Vanes": 1,
+              Tellurium: 1
+            },
+            features: {
+              boot: [ -.5, -.8 ],
+              integrity: [ -.25, -.12 ],
+              power: [ .25, .11 ],
+              thermload: [ .25, .2 ]
+            }
           }
         },
+        id: 25,
         name: "Faster boot sequence"
       },
       FSD_LongRange: {
-        id: 26,
-        features: {
+        grades: {
           "1": {
-            integrity: [ -.05, 0 ],
-            mass: [ .05, 0 ],
-            optmass: [ .04, .1 ],
-            power: [ .04, 0 ]
+            components: {
+              "Atypical Disrupted Wake Echoes": 1
+            },
+            features: {
+              integrity: [ -.05, 0 ],
+              mass: [ .05, 0 ],
+              optmass: [ .04, .1 ],
+              power: [ .04, 0 ]
+            }
           },
           "2": {
-            integrity: [ -.1, -.03 ],
-            mass: [ .14, .05 ],
-            optmass: [ .08, .2 ],
-            power: [ .1, .02 ]
+            components: {
+              "Atypical Disrupted Wake Echoes": 1,
+              "Chemical Processors": 1
+            },
+            features: {
+              integrity: [ -.1, -.03 ],
+              mass: [ .14, .05 ],
+              optmass: [ .08, .2 ],
+              power: [ .1, .02 ]
+            }
           },
           "3": {
-            integrity: [ -.15, -.06 ],
-            mass: [ .25, .1 ],
-            optmass: [ .12, .3 ],
-            power: [ .14, .05 ]
+            components: {
+              "Chemical Processors": 1,
+              Phosphorus: 1,
+              "Strange Wake Solutions": 1
+            },
+            features: {
+              integrity: [ -.15, -.06 ],
+              mass: [ .25, .1 ],
+              optmass: [ .12, .3 ],
+              power: [ .14, .05 ]
+            }
           },
           "4": {
-            integrity: [ -.2, -.09 ],
-            mass: [ .35, .14 ],
-            optmass: [ .16, .4 ],
-            power: [ .2, .09 ]
+            components: {
+              "Chemical Distillery": 1,
+              "Eccentric Hyperspace Trajectories": 1,
+              Manganese: 1
+            },
+            features: {
+              integrity: [ -.2, -.09 ],
+              mass: [ .35, .14 ],
+              optmass: [ .16, .4 ],
+              power: [ .2, .09 ]
+            }
           },
           "5": {
-            integrity: [ -.25, -.12 ],
-            mass: [ .45, .2 ],
-            optmass: [ .2, .5 ],
-            power: [ .25, .11 ]
+            components: {
+              Arsenic: 1,
+              "Chemical Manipulators": 1,
+              "Datamined Wake Exceptions": 1
+            },
+            features: {
+              integrity: [ -.25, -.12 ],
+              mass: [ .45, .2 ],
+              optmass: [ .2, .5 ],
+              power: [ .25, .11 ]
+            }
           }
         },
+        id: 26,
         name: "Increased range"
       },
       FSD_Shielded: {
-        id: 27,
-        features: {
+        grades: {
           "1": {
-            integrity: [ .2, .25 ],
-            mass: [ .3, .25 ],
-            optmass: [ -.03, 0 ],
-            thermload: [ 0, -.05 ]
+            components: {
+              Nickel: 1
+            },
+            features: {
+              integrity: [ .2, .25 ],
+              mass: [ .3, .25 ],
+              optmass: [ -.03, 0 ],
+              thermload: [ 0, -.05 ]
+            }
           },
           "2": {
-            integrity: [ .3, .5 ],
-            mass: [ .35, .2 ],
-            optmass: [ -.06, -.02 ],
-            thermload: [ -.05, -.1 ]
+            components: {
+              Carbon: 1,
+              "Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .3, .5 ],
+              mass: [ .35, .2 ],
+              optmass: [ -.06, -.02 ],
+              thermload: [ -.05, -.1 ]
+            }
           },
           "3": {
-            integrity: [ .4, .75 ],
-            mass: [ .4, .15 ],
-            optmass: [ -.09, -.04 ],
-            thermload: [ -.1, -.15 ]
+            components: {
+              Carbon: 1,
+              "Shielding Sensors": 1,
+              Zinc: 1
+            },
+            features: {
+              integrity: [ .4, .75 ],
+              mass: [ .4, .15 ],
+              optmass: [ -.09, -.04 ],
+              thermload: [ -.1, -.15 ]
+            }
           },
           "4": {
-            integrity: [ .5, 1 ],
-            mass: [ .45, .1 ],
-            optmass: [ -.12, -.06 ],
-            thermload: [ -.15, -.2 ]
+            components: {
+              "Compound Shielding": 1,
+              "High Density Composites": 1,
+              Vanadium: 1
+            },
+            features: {
+              integrity: [ .5, 1 ],
+              mass: [ .45, .1 ],
+              optmass: [ -.12, -.06 ],
+              thermload: [ -.15, -.2 ]
+            }
           },
           "5": {
-            integrity: [ .6, 1.25 ],
-            mass: [ .5, .05 ],
-            optmass: [ -.15, -.08 ],
-            thermload: [ -.2, -.25 ]
+            components: {
+              "Imperial Shielding": 1,
+              "Proprietary Composites": 1,
+              Tungsten: 1
+            },
+            features: {
+              integrity: [ .6, 1.25 ],
+              mass: [ .5, .05 ],
+              optmass: [ -.15, -.08 ],
+              thermload: [ -.2, -.25 ]
+            }
           }
         },
+        id: 27,
         name: "Shielded"
       },
       FSDinterdictor_Expanded: {
-        id: 28,
-        features: {
+        grades: {
           "1": {
-            facinglimit: [ .1, .4 ],
-            power: [ .15, 0 ],
-            ranget: [ -.1, 0 ]
+            components: {
+              "Mechanical Scrap": 1
+            },
+            features: {
+              facinglimit: [ .1, .4 ],
+              power: [ .15, 0 ],
+              ranget: [ -.1, 0 ]
+            }
           },
           "2": {
-            facinglimit: [ .2, .6 ],
-            power: [ .3, .1 ],
-            ranget: [ -.2, -.05 ]
+            components: {
+              "Mechanical Equipment": 1,
+              "Unusual Encrypted Files": 1
+            },
+            features: {
+              facinglimit: [ .2, .6 ],
+              power: [ .3, .1 ],
+              ranget: [ -.2, -.05 ]
+            }
           },
           "3": {
-            facinglimit: [ .3, .8 ],
-            power: [ .45, .2 ],
-            ranget: [ -.3, -.1 ]
+            components: {
+              "Grid Resistors": 1,
+              "Mechanical Components": 1,
+              "Tagged Encryption Codes": 1
+            },
+            features: {
+              facinglimit: [ .3, .8 ],
+              power: [ .45, .2 ],
+              ranget: [ -.3, -.1 ]
+            }
           },
           "4": {
-            facinglimit: [ .4, 1 ],
-            power: [ .6, .3 ],
-            ranget: [ -.4, -.15 ]
+            components: {
+              "Divergent Scan Data": 1,
+              "Mechanical Equipment": 1,
+              "Strange Wake Solutions": 1
+            },
+            features: {
+              facinglimit: [ .4, 1 ],
+              power: [ .6, .3 ],
+              ranget: [ -.4, -.15 ]
+            }
           }
         },
+        id: 28,
         name: "Expanded capture arc"
       },
       FSDinterdictor_LongRange: {
-        id: 29,
-        features: {
+        grades: {
           "1": {
-            facinglimit: [ -.1, 0 ],
-            mass: [ .1, 0 ],
-            power: [ .15, 0 ],
-            ranget: [ .05, .2 ]
+            components: {
+              "Unusual Encrypted Files": 1
+            },
+            features: {
+              facinglimit: [ -.1, 0 ],
+              mass: [ .1, 0 ],
+              power: [ .15, 0 ],
+              ranget: [ .05, .2 ]
+            }
           },
           "2": {
-            facinglimit: [ -.2, -.05 ],
-            mass: [ .2, .05 ],
-            power: [ .3, .1 ],
-            ranget: [ .1, .3 ]
+            components: {
+              "Atypical Disrupted Wake Echoes": 1,
+              "Tagged Encryption Codes": 1
+            },
+            features: {
+              facinglimit: [ -.2, -.05 ],
+              mass: [ .2, .05 ],
+              power: [ .3, .1 ],
+              ranget: [ .1, .3 ]
+            }
           },
           "3": {
-            facinglimit: [ -.3, -.1 ],
-            mass: [ .3, .1 ],
-            power: [ .45, .2 ],
-            ranget: [ .15, .4 ]
+            components: {
+              "Anomalous Bulk Scan Data": 1,
+              "Anomalous FSD Telemetry": 1,
+              "Open Symmetric Keys": 1
+            },
+            features: {
+              facinglimit: [ -.3, -.1 ],
+              mass: [ .3, .1 ],
+              power: [ .45, .2 ],
+              ranget: [ .15, .4 ]
+            }
           }
         },
+        id: 29,
         name: "Longer range"
       },
       FuelScoop_Shielded: {
-        id: 30,
-        features: {
+        grades: {
           "1": {
-            integrity: [ .2, .5 ],
-            power: [ .31, .2 ]
+            components: {
+              "Worn Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .2, .5 ],
+              power: [ .31, .2 ]
+            }
           },
           "2": {
-            integrity: [ .39, 1 ],
-            power: [ .61, .39 ]
+            components: {
+              Carbon: 1,
+              "Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .39, 1 ],
+              power: [ .61, .39 ]
+            }
           },
           "3": {
-            integrity: [ .61, 1.5 ],
-            power: [ .89, .61 ]
+            components: {
+              Carbon: 1,
+              "High Density Composites": 1,
+              "Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .61, 1.5 ],
+              power: [ .89, .61 ]
+            }
           },
           "4": {
-            integrity: [ .79, 2 ],
-            power: [ 1.2, .81 ]
+            components: {
+              "Proprietary Composites": 1,
+              "Shielding Sensors": 1,
+              Vanadium: 1
+            },
+            features: {
+              integrity: [ .79, 2 ],
+              power: [ 1.2, .81 ]
+            }
           }
         },
+        id: 30,
         name: "Shielded"
       },
       FuelTransferLimpet_LightWeight: {
-        id: 31,
-        features: {
+        grades: {
           "1": {
-            integrity: [ -.2, -.1 ],
-            mass: [ -.3, -.4 ]
+            components: {
+              Phosphorus: 1
+            },
+            features: {
+              integrity: [ -.2, -.1 ],
+              mass: [ -.3, -.4 ]
+            }
           },
           "2": {
-            integrity: [ -.3, -.2 ],
-            mass: [ -.4, -.5 ]
+            components: {
+              Manganese: 1,
+              "Salvaged Alloys": 1
+            },
+            features: {
+              integrity: [ -.3, -.2 ],
+              mass: [ -.4, -.5 ]
+            }
           },
           "3": {
-            integrity: [ -.4, -.3 ],
-            mass: [ -.5, -.6 ]
+            components: {
+              "Conductive Ceramics": 1,
+              Manganese: 1,
+              "Salvaged Alloys": 1
+            },
+            features: {
+              integrity: [ -.4, -.3 ],
+              mass: [ -.5, -.6 ]
+            }
           },
           "4": {
-            integrity: [ -.5, -.4 ],
-            mass: [ -.6, -.7 ]
+            components: {
+              "Conductive Components": 1,
+              "Phase Alloys": 1,
+              "Proto Light Alloys": 1
+            },
+            features: {
+              integrity: [ -.5, -.4 ],
+              mass: [ -.6, -.7 ]
+            }
           },
           "5": {
-            integrity: [ -.6, -.5 ],
-            mass: [ -.7, -.8 ]
+            components: {
+              "Conductive Ceramics": 1,
+              "Proto Light Alloys": 1,
+              "Proto Radiolic Alloys": 1
+            },
+            features: {
+              integrity: [ -.6, -.5 ],
+              mass: [ -.7, -.8 ]
+            }
           }
         },
+        id: 31,
         name: "Lightweight"
       },
       FuelTransferLimpet_Reinforced: {
-        id: 32,
-        features: {
+        grades: {
           "1": {
-            integrity: [ .2, .5 ],
-            mass: [ 1, .4 ]
+            components: {
+              Nickel: 1
+            },
+            features: {
+              integrity: [ .2, .5 ],
+              mass: [ 1, .4 ]
+            }
           },
           "2": {
-            integrity: [ .4, 1 ],
-            mass: [ 1.5, .8 ]
+            components: {
+              Nickel: 1,
+              "Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .4, 1 ],
+              mass: [ 1.5, .8 ]
+            }
           },
           "3": {
-            integrity: [ .6, 1.5 ],
-            mass: [ 2, 1.2 ]
+            components: {
+              Nickel: 1,
+              "Shield Emitters": 1,
+              Tungsten: 1
+            },
+            features: {
+              integrity: [ .6, 1.5 ],
+              mass: [ 2, 1.2 ]
+            }
           },
           "4": {
-            integrity: [ .8, 2 ],
-            mass: [ 2.5, 1.6 ]
+            components: {
+              Molybdenum: 1,
+              Tungsten: 1,
+              Zinc: 1
+            },
+            features: {
+              integrity: [ .8, 2 ],
+              mass: [ 2.5, 1.6 ]
+            }
           },
           "5": {
-            integrity: [ 1, 2.5 ],
-            mass: [ 3, 2 ]
+            components: {
+              "High Density Composites": 1,
+              Molybdenum: 1,
+              Technetium: 1
+            },
+            features: {
+              integrity: [ 1, 2.5 ],
+              mass: [ 3, 2 ]
+            }
           }
         },
+        id: 32,
         name: "Reinforced"
       },
       FuelTransferLimpet_Shielded: {
-        id: 33,
-        features: {
+        grades: {
           "1": {
-            integrity: [ .2, .5 ],
-            power: [ .3, .2 ]
+            components: {
+              "Worn Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .2, .5 ],
+              power: [ .3, .2 ]
+            }
           },
           "2": {
-            integrity: [ .4, 1 ],
-            power: [ .6, .4 ]
+            components: {
+              Carbon: 1,
+              "Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .4, 1 ],
+              power: [ .6, .4 ]
+            }
           },
           "3": {
-            integrity: [ .6, 1.5 ],
-            power: [ .9, .6 ]
+            components: {
+              Carbon: 1,
+              "High Density Composites": 1,
+              "Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .6, 1.5 ],
+              power: [ .9, .6 ]
+            }
           },
           "4": {
-            integrity: [ .8, 2 ],
-            power: [ 1.2, .8 ]
+            components: {
+              "Proprietary Composites": 1,
+              "Shielding Sensors": 1,
+              Vanadium: 1
+            },
+            features: {
+              integrity: [ .8, 2 ],
+              power: [ 1.2, .8 ]
+            }
           },
           "5": {
-            integrity: [ 1, 1.5 ],
-            power: [ 1.5, 1 ]
+            components: {
+              "Compound Shielding": 1,
+              "Core Dynamics Composites": 1,
+              Tungsten: 1
+            },
+            features: {
+              integrity: [ 1, 1.5 ],
+              power: [ 1.5, 1 ]
+            }
           }
         },
+        id: 33,
         name: "Shielded"
       },
       HatchBreakerLimpet_LightWeight: {
-        id: 34,
-        features: {
+        grades: {
           "1": {
-            integrity: [ -.2, -.1 ],
-            mass: [ -.3, -.4 ]
+            components: {
+              Phosphorus: 1
+            },
+            features: {
+              integrity: [ -.2, -.1 ],
+              mass: [ -.3, -.4 ]
+            }
           },
           "2": {
-            integrity: [ -.3, -.2 ],
-            mass: [ -.4, -.5 ]
+            components: {
+              Manganese: 1,
+              "Salvaged Alloys": 1
+            },
+            features: {
+              integrity: [ -.3, -.2 ],
+              mass: [ -.4, -.5 ]
+            }
           },
           "3": {
-            integrity: [ -.4, -.3 ],
-            mass: [ -.5, -.6 ]
+            components: {
+              "Conductive Ceramics": 1,
+              Manganese: 1,
+              "Salvaged Alloys": 1
+            },
+            features: {
+              integrity: [ -.4, -.3 ],
+              mass: [ -.5, -.6 ]
+            }
           },
           "4": {
-            integrity: [ -.5, -.4 ],
-            mass: [ -.6, -.7 ]
+            components: {
+              "Conductive Components": 1,
+              "Phase Alloys": 1,
+              "Proto Light Alloys": 1
+            },
+            features: {
+              integrity: [ -.5, -.4 ],
+              mass: [ -.6, -.7 ]
+            }
           },
           "5": {
-            integrity: [ -.6, -.5 ],
-            mass: [ -.7, -.8 ]
+            components: {
+              "Conductive Ceramics": 1,
+              "Proto Light Alloys": 1,
+              "Proto Radiolic Alloys": 1
+            },
+            features: {
+              integrity: [ -.6, -.5 ],
+              mass: [ -.7, -.8 ]
+            }
           }
         },
+        id: 34,
         name: "Lightweight"
       },
       HatchBreakerLimpet_Reinforced: {
-        id: 35,
-        features: {
+        grades: {
           "1": {
-            integrity: [ .2, .5 ],
-            mass: [ 1, .4 ]
+            components: {
+              Nickel: 1
+            },
+            features: {
+              integrity: [ .2, .5 ],
+              mass: [ 1, .4 ]
+            }
           },
           "2": {
-            integrity: [ .4, 1 ],
-            mass: [ 1.5, .8 ]
+            components: {
+              Nickel: 1,
+              "Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .4, 1 ],
+              mass: [ 1.5, .8 ]
+            }
           },
           "3": {
-            integrity: [ .6, 1.5 ],
-            mass: [ 2, 1.2 ]
+            components: {
+              Nickel: 1,
+              "Shield Emitters": 1,
+              Tungsten: 1
+            },
+            features: {
+              integrity: [ .6, 1.5 ],
+              mass: [ 2, 1.2 ]
+            }
           },
           "4": {
-            integrity: [ .8, 2 ],
-            mass: [ 2.5, 1.6 ]
+            components: {
+              Molybdenum: 1,
+              Tungsten: 1,
+              Zinc: 1
+            },
+            features: {
+              integrity: [ .8, 2 ],
+              mass: [ 2.5, 1.6 ]
+            }
           },
           "5": {
-            integrity: [ 1, 2.5 ],
-            mass: [ 3, 2 ]
+            components: {
+              "High Density Composites": 1,
+              Molybdenum: 1,
+              Technetium: 1
+            },
+            features: {
+              integrity: [ 1, 2.5 ],
+              mass: [ 3, 2 ]
+            }
           }
         },
+        id: 35,
         name: "Reinforced"
       },
       HatchBreakerLimpet_Shielded: {
-        id: 36,
-        features: {
+        grades: {
           "1": {
-            integrity: [ .2, .5 ],
-            power: [ .3, .2 ]
+            components: {
+              "Worn Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .2, .5 ],
+              power: [ .3, .2 ]
+            }
           },
           "2": {
-            integrity: [ .4, 1 ],
-            power: [ .6, .4 ]
+            components: {
+              Carbon: 1,
+              "Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .4, 1 ],
+              power: [ .6, .4 ]
+            }
           },
           "3": {
-            integrity: [ .6, 1.5 ],
-            power: [ .9, .6 ]
+            components: {
+              Carbon: 1,
+              "High Density Composites": 1,
+              "Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .6, 1.5 ],
+              power: [ .9, .6 ]
+            }
           },
           "4": {
-            integrity: [ .8, 2 ],
-            power: [ 1.2, .8 ]
+            components: {
+              "Proprietary Composites": 1,
+              "Shielding Sensors": 1,
+              Vanadium: 1
+            },
+            features: {
+              integrity: [ .8, 2 ],
+              power: [ 1.2, .8 ]
+            }
           },
           "5": {
-            integrity: [ 1, 1.5 ],
-            power: [ 1.5, 1 ]
+            components: {
+              "Compound Shielding": 1,
+              "Core Dynamics Composites": 1,
+              Tungsten: 1
+            },
+            features: {
+              integrity: [ 1, 1.5 ],
+              power: [ 1.5, 1 ]
+            }
           }
         },
+        id: 36,
         name: "Shielded"
       },
       HeatSinkLauncher_HeatSinkCapacity: {
-        id: 37,
-        features: {
+        grades: {
           "3": {
-            ammo: [ .5, .5 ],
-            mass: [ 2, 1 ],
-            reload: [ 1, .5 ]
+            components: {
+              "Mechanical Scrap": 1,
+              Niobium: 1,
+              Vanadium: 1
+            },
+            features: {
+              ammo: [ .5, .5 ],
+              mass: [ 2, 1 ],
+              reload: [ 1, .5 ]
+            }
           }
         },
+        id: 37,
         name: "Ammo capacity"
       },
       HeatSinkLauncher_LightWeight: {
-        id: 38,
-        features: {
+        grades: {
           "1": {
-            integrity: [ -.2, -.1 ],
-            mass: [ -.3, -.4 ]
+            components: {
+              Phosphorus: 1
+            },
+            features: {
+              integrity: [ -.2, -.1 ],
+              mass: [ -.3, -.4 ]
+            }
           },
           "2": {
-            integrity: [ -.3, -.2 ],
-            mass: [ -.4, -.5 ]
+            components: {
+              Manganese: 1,
+              "Salvaged Alloys": 1
+            },
+            features: {
+              integrity: [ -.3, -.2 ],
+              mass: [ -.4, -.5 ]
+            }
           },
           "3": {
-            integrity: [ -.4, -.3 ],
-            mass: [ -.5, -.6 ]
+            components: {
+              "Conductive Ceramics": 1,
+              Manganese: 1,
+              "Salvaged Alloys": 1
+            },
+            features: {
+              integrity: [ -.4, -.3 ],
+              mass: [ -.5, -.6 ]
+            }
           },
           "4": {
-            integrity: [ -.5, -.4 ],
-            mass: [ -.6, -.7 ]
+            components: {
+              "Conductive Components": 1,
+              "Phase Alloys": 1,
+              "Proto Light Alloys": 1
+            },
+            features: {
+              integrity: [ -.5, -.4 ],
+              mass: [ -.6, -.7 ]
+            }
           },
           "5": {
-            integrity: [ -.6, -.5 ],
-            mass: [ -.7, -.8 ]
+            components: {
+              "Conductive Ceramics": 1,
+              "Proto Light Alloys": 1,
+              "Proto Radiolic Alloys": 1
+            },
+            features: {
+              integrity: [ -.6, -.5 ],
+              mass: [ -.7, -.8 ]
+            }
           }
         },
+        id: 38,
         name: "Lightweight"
       },
       HeatSinkLauncher_Reinforced: {
-        id: 39,
-        features: {
+        grades: {
           "1": {
-            integrity: [ .2, .5 ],
-            mass: [ 1, .4 ]
+            components: {
+              Nickel: 1
+            },
+            features: {
+              integrity: [ .2, .5 ],
+              mass: [ 1, .4 ]
+            }
           },
           "2": {
-            integrity: [ .4, 1 ],
-            mass: [ 1.5, .8 ]
+            components: {
+              Nickel: 1,
+              "Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .4, 1 ],
+              mass: [ 1.5, .8 ]
+            }
           },
           "3": {
-            integrity: [ .6, 1.5 ],
-            mass: [ 2, 1.2 ]
+            components: {
+              Nickel: 1,
+              "Shield Emitters": 1,
+              Tungsten: 1
+            },
+            features: {
+              integrity: [ .6, 1.5 ],
+              mass: [ 2, 1.2 ]
+            }
           },
           "4": {
-            integrity: [ .8, 2 ],
-            mass: [ 2.5, 1.6 ]
+            components: {
+              Molybdenum: 1,
+              Tungsten: 1,
+              Zinc: 1
+            },
+            features: {
+              integrity: [ .8, 2 ],
+              mass: [ 2.5, 1.6 ]
+            }
           },
           "5": {
-            integrity: [ 1, 2.5 ],
-            mass: [ 3, 2 ]
+            components: {
+              "High Density Composites": 1,
+              Molybdenum: 1,
+              Technetium: 1
+            },
+            features: {
+              integrity: [ 1, 2.5 ],
+              mass: [ 3, 2 ]
+            }
           }
         },
+        id: 39,
         name: "Reinforced"
       },
       HeatSinkLauncher_Shielded: {
-        id: 40,
-        features: {
+        grades: {
           "1": {
-            integrity: [ .2, .5 ],
-            power: [ .3, .2 ]
+            components: {
+              "Worn Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .2, .5 ],
+              power: [ .3, .2 ]
+            }
           },
           "2": {
-            integrity: [ .4, 1 ],
-            power: [ .6, .4 ]
+            components: {
+              Carbon: 1,
+              "Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .4, 1 ],
+              power: [ .6, .4 ]
+            }
           },
           "3": {
-            integrity: [ .6, 1.5 ],
-            power: [ .9, .6 ]
+            components: {
+              Carbon: 1,
+              "High Density Composites": 1,
+              "Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .6, 1.5 ],
+              power: [ .9, .6 ]
+            }
           },
           "4": {
-            integrity: [ .8, 2 ],
-            power: [ 1.2, .8 ]
+            components: {
+              "Proprietary Composites": 1,
+              "Shielding Sensors": 1,
+              Vanadium: 1
+            },
+            features: {
+              integrity: [ .8, 2 ],
+              power: [ 1.2, .8 ]
+            }
           },
           "5": {
-            integrity: [ 1, 1.5 ],
-            power: [ 1.5, 1 ]
+            components: {
+              "Compound Shielding": 1,
+              "Core Dynamics Composites": 1,
+              Tungsten: 1
+            },
+            features: {
+              integrity: [ 1, 1.5 ],
+              power: [ 1.5, 1 ]
+            }
           }
         },
+        id: 40,
         name: "Shielded"
       },
       HullReinforcement_Advanced: {
-        id: 41,
-        features: {
+        grades: {
           "1": {
-            hullboost: [ .02, .06 ],
-            hullreinforcement: [ -.05, 0 ],
-            mass: [ 0, -.03 ]
+            components: {
+              Iron: 1
+            },
+            features: {
+              hullboost: [ .02, .06 ],
+              hullreinforcement: [ -.05, 0 ],
+              mass: [ 0, -.03 ]
+            }
           },
           "2": {
-            hullboost: [ .04, .09 ],
-            hullreinforcement: [ -.1, -.05 ],
-            mass: [ 0, -.06 ]
+            components: {
+              "Conductive Components": 1,
+              Iron: 1
+            },
+            features: {
+              hullboost: [ .04, .09 ],
+              hullreinforcement: [ -.1, -.05 ],
+              mass: [ 0, -.06 ]
+            }
           },
           "3": {
-            hullboost: [ .06, .12 ],
-            hullreinforcement: [ -.15, -.1 ],
-            mass: [ 0, -.1 ]
+            components: {
+              "Conductive Components": 1,
+              "High Density Composites": 1,
+              Iron: 1
+            },
+            features: {
+              hullboost: [ .06, .12 ],
+              hullreinforcement: [ -.15, -.1 ],
+              mass: [ 0, -.1 ]
+            }
           },
           "4": {
-            hullboost: [ .08, .15 ],
-            hullreinforcement: [ -.2, -.15 ],
-            mass: [ 0, -.12 ]
+            components: {
+              "Conductive Ceramics": 1,
+              Germanium: 1,
+              "Proprietary Composites": 1
+            },
+            features: {
+              hullboost: [ .08, .15 ],
+              hullreinforcement: [ -.2, -.15 ],
+              mass: [ 0, -.12 ]
+            }
           },
           "5": {
-            hullboost: [ .1, .18 ],
-            hullreinforcement: [ -.25, -.2 ],
-            mass: [ 0, -.15 ]
+            components: {
+              "Conductive Ceramics": 1,
+              "Military Grade Alloys": 1,
+              Tin: 1
+            },
+            features: {
+              hullboost: [ .1, .18 ],
+              hullreinforcement: [ -.25, -.2 ],
+              mass: [ 0, -.15 ]
+            }
           }
         },
+        id: 41,
         name: "Lightweight"
       },
       HullReinforcement_Explosive: {
-        id: 43,
-        features: {
+        grades: {
           "1": {
-            explres: [ .0487, .078 ],
-            kinres: [ -.0293, -.0195 ],
-            thermres: [ -.0293, -.0195 ]
+            components: {
+              Nickel: 1
+            },
+            features: {
+              explres: [ .0487, .078 ],
+              kinres: [ -.0293, -.0195 ],
+              thermres: [ -.0293, -.0195 ]
+            }
           },
           "2": {
-            explres: [ .0975, .156 ],
-            kinres: [ -.0585, -.039 ],
-            thermres: [ -.0484, -.039 ]
+            components: {
+              Carbon: 1,
+              Zinc: 1
+            },
+            features: {
+              explres: [ .0975, .156 ],
+              kinres: [ -.0585, -.039 ],
+              thermres: [ -.0484, -.039 ]
+            }
           },
           "3": {
-            explres: [ .1463, .234 ],
-            kinres: [ -.0878, -.0585 ],
-            thermres: [ -.0878, -.0585 ]
+            components: {
+              "Salvaged Alloys": 1,
+              Vanadium: 1,
+              Zirconium: 1
+            },
+            features: {
+              explres: [ .1463, .234 ],
+              kinres: [ -.0878, -.0585 ],
+              thermres: [ -.0878, -.0585 ]
+            }
           },
           "4": {
-            explres: [ .195, .312 ],
-            kinres: [ -.117, -.078 ],
-            thermres: [ -.117, -.078 ]
+            components: {
+              "Galvanising Alloys": 1,
+              Mercury: 1,
+              Tungsten: 1
+            },
+            features: {
+              explres: [ .195, .312 ],
+              kinres: [ -.117, -.078 ],
+              thermres: [ -.117, -.078 ]
+            }
           },
           "5": {
-            explres: [ .2437, .39 ],
-            kinres: [ -.1463, -.0975 ],
-            thermres: [ -.1463, -.0975 ]
+            components: {
+              Molybdenum: 1,
+              "Phase Alloys": 1,
+              Ruthenium: 1
+            },
+            features: {
+              explres: [ .2437, .39 ],
+              kinres: [ -.1463, -.0975 ],
+              thermres: [ -.1463, -.0975 ]
+            }
           }
         },
+        id: 43,
         name: "Blast Resistant"
       },
       HullReinforcement_HeavyDuty: {
-        id: 42,
-        features: {
+        grades: {
           "1": {
-            explres: [ 0, .0292 ],
-            hullreinforcement: [ .04, .2 ],
-            kinres: [ 0, .0292 ],
-            mass: [ .08, 0 ],
-            thermres: [ 0, .0292 ]
+            components: {
+              Carbon: 1
+            },
+            features: {
+              explres: [ 0, .0292 ],
+              hullreinforcement: [ .04, .2 ],
+              kinres: [ 0, .0292 ],
+              mass: [ .08, 0 ],
+              thermres: [ 0, .0292 ]
+            }
           },
           "2": {
-            explres: [ .098, .0585 ],
-            hullreinforcement: [ .1, .29 ],
-            kinres: [ .098, .0585 ],
-            mass: [ .15, .04 ],
-            thermres: [ .098, .0585 ]
+            components: {
+              Carbon: 1,
+              "Shield Emitters": 1
+            },
+            features: {
+              explres: [ .098, .0585 ],
+              hullreinforcement: [ .1, .29 ],
+              kinres: [ .098, .0585 ],
+              mass: [ .15, .04 ],
+              thermres: [ .098, .0585 ]
+            }
           },
           "3": {
-            explres: [ .0195, .0878 ],
-            hullreinforcement: [ .14, .39 ],
-            kinres: [ .0195, .0878 ],
-            mass: [ .23, .1 ],
-            thermres: [ .0195, .0878 ]
+            components: {
+              Carbon: 1,
+              "High Density Composites": 1,
+              "Shield Emitters": 1
+            },
+            features: {
+              explres: [ .0195, .0878 ],
+              hullreinforcement: [ .14, .39 ],
+              kinres: [ .0195, .0878 ],
+              mass: [ .23, .1 ],
+              thermres: [ .0195, .0878 ]
+            }
           },
           "4": {
-            explres: [ .0292, .117 ],
-            hullreinforcement: [ .2, .5 ],
-            kinres: [ .0292, .117 ],
-            mass: [ .31, .14 ],
-            thermres: [ .0292, .117 ]
+            components: {
+              "Proprietary Composites": 1,
+              "Shielding Sensors": 1,
+              Vanadium: 1
+            },
+            features: {
+              explres: [ .0292, .117 ],
+              hullreinforcement: [ .2, .5 ],
+              kinres: [ .0292, .117 ],
+              mass: [ .31, .14 ],
+              thermres: [ .0292, .117 ]
+            }
           },
           "5": {
-            explres: [ .039, .1463 ],
-            hullreinforcement: [ .25, .61 ],
-            kinres: [ .039, .1463 ],
-            mass: [ .39, .2 ],
-            thermres: [ .039, .1463 ]
+            components: {
+              "Compound Shielding": 1,
+              "Core Dynamics Composites": 1,
+              Tungsten: 1
+            },
+            features: {
+              explres: [ .039, .1463 ],
+              hullreinforcement: [ .25, .61 ],
+              kinres: [ .039, .1463 ],
+              mass: [ .39, .2 ],
+              thermres: [ .039, .1463 ]
+            }
           }
         },
+        id: 42,
         name: "Heavy duty"
       },
       HullReinforcement_Kinetic: {
-        id: 44,
-        features: {
+        grades: {
           "1": {
-            explres: [ -.0293, -.0195 ],
-            kinres: [ .0487, .078 ],
-            thermres: [ -.0293, -.0195 ]
+            components: {
+              Nickel: 1
+            },
+            features: {
+              explres: [ -.0293, -.0195 ],
+              kinres: [ .0487, .078 ],
+              thermres: [ -.0293, -.0195 ]
+            }
           },
           "2": {
-            explres: [ -.0585, -.039 ],
-            kinres: [ .0975, .156 ],
-            thermres: [ -.0585, -.039 ]
+            components: {
+              Nickel: 1,
+              Vanadium: 1
+            },
+            features: {
+              explres: [ -.0585, -.039 ],
+              kinres: [ .0975, .156 ],
+              thermres: [ -.0585, -.039 ]
+            }
           },
           "3": {
-            explres: [ -.0878, -.0585 ],
-            kinres: [ .1463, .234 ],
-            thermres: [ -.0878, -.0585 ]
+            components: {
+              "High Density Composites": 1,
+              "Salvaged Alloys": 1,
+              Vanadium: 1
+            },
+            features: {
+              explres: [ -.0878, -.0585 ],
+              kinres: [ .1463, .234 ],
+              thermres: [ -.0878, -.0585 ]
+            }
           },
           "4": {
-            explres: [ -.117, -.078 ],
-            kinres: [ .195, .312 ],
-            thermres: [ -.117, -.078 ]
+            components: {
+              "Galvanising Alloys": 1,
+              "Proprietary Composites": 1,
+              Tungsten: 1
+            },
+            features: {
+              explres: [ -.117, -.078 ],
+              kinres: [ .195, .312 ],
+              thermres: [ -.117, -.078 ]
+            }
           },
           "5": {
-            explres: [ -.1463, -.0975 ],
-            kinres: [ .2437, .39 ],
-            thermres: [ -.1463, -.0975 ]
+            components: {
+              "Core Dynamics Composites": 1,
+              Molybdenum: 1,
+              "Phase Alloys": 1
+            },
+            features: {
+              explres: [ -.1463, -.0975 ],
+              kinres: [ .2437, .39 ],
+              thermres: [ -.1463, -.0975 ]
+            }
           }
         },
+        id: 44,
         name: "Kinetic Resistant"
       },
       HullReinforcement_Thermic: {
-        id: 45,
-        features: {
+        grades: {
           "1": {
-            explres: [ -.0293, -.0195 ],
-            kinres: [ -.0293, -.0195 ],
-            thermres: [ .0487, .078 ]
+            components: {
+              "Heat Conduction Wiring": 1
+            },
+            features: {
+              explres: [ -.0293, -.0195 ],
+              kinres: [ -.0293, -.0195 ],
+              thermres: [ .0487, .078 ]
+            }
           },
           "2": {
-            explres: [ -.0585, -.039 ],
-            kinres: [ -.0585, -.039 ],
-            thermres: [ .0975, .156 ]
+            components: {
+              "Heat Dispersion Plate": 1,
+              Nickel: 1
+            },
+            features: {
+              explres: [ -.0585, -.039 ],
+              kinres: [ -.0585, -.039 ],
+              thermres: [ .0975, .156 ]
+            }
           },
           "3": {
-            explres: [ -.0878, -.0585 ],
-            kinres: [ -.0878, -.0585 ],
-            thermres: [ .1463, .234 ]
+            components: {
+              "Heat Exchangers": 1,
+              "Salvaged Alloys": 1,
+              Vanadium: 1
+            },
+            features: {
+              explres: [ -.0878, -.0585 ],
+              kinres: [ -.0878, -.0585 ],
+              thermres: [ .1463, .234 ]
+            }
           },
           "4": {
-            explres: [ -.117, -.078 ],
-            kinres: [ -.117, -.078 ],
-            thermres: [ .195, .312 ]
+            components: {
+              "Galvanisign Alloys": 1,
+              "Heat Vanes": 1,
+              Tungsten: 1
+            },
+            features: {
+              explres: [ -.117, -.078 ],
+              kinres: [ -.117, -.078 ],
+              thermres: [ .195, .312 ]
+            }
           },
           "5": {
-            explres: [ -.1463, -.0975 ],
-            kinres: [ -.1463, -.0975 ],
-            thermres: [ .2437, .39 ]
+            components: {
+              Molybdenum: 1,
+              "Phase Alloys": 1,
+              "Proto Heat Radiators": 1
+            },
+            features: {
+              explres: [ -.1463, -.0975 ],
+              kinres: [ -.1463, -.0975 ],
+              thermres: [ .2437, .39 ]
+            }
           }
         },
+        id: 45,
         name: "Thermal Resistant"
       },
       KillWarrantScanner_LightWeight: {
-        id: 46,
-        features: {
+        grades: {
           "1": {
-            integrity: [ -.2, -.1 ],
-            mass: [ -.3, -.4 ]
+            components: {
+              Phosphorus: 1
+            },
+            features: {
+              integrity: [ -.2, -.1 ],
+              mass: [ -.3, -.4 ]
+            }
           },
           "2": {
-            integrity: [ -.3, -.2 ],
-            mass: [ -.4, -.5 ]
+            components: {
+              Manganese: 1,
+              "Salvaged Alloys": 1
+            },
+            features: {
+              integrity: [ -.3, -.2 ],
+              mass: [ -.4, -.5 ]
+            }
           },
           "3": {
-            integrity: [ -.4, -.3 ],
-            mass: [ -.5, -.6 ]
+            components: {
+              "Conductive Ceramics": 1,
+              Manganese: 1,
+              "Salvaged Alloys": 1
+            },
+            features: {
+              integrity: [ -.4, -.3 ],
+              mass: [ -.5, -.6 ]
+            }
           },
           "4": {
-            integrity: [ -.5, -.4 ],
-            mass: [ -.6, -.7 ]
+            components: {
+              "Conductive Components": 1,
+              "Phase Alloys": 1,
+              "Proto Light Alloys": 1
+            },
+            features: {
+              integrity: [ -.5, -.4 ],
+              mass: [ -.6, -.7 ]
+            }
           },
           "5": {
-            integrity: [ -.6, -.5 ],
-            mass: [ -.7, -.8 ]
+            components: {
+              "Conductive Ceramics": 1,
+              "Proto Light Alloys": 1,
+              "Proto Radiolic Alloys": 1
+            },
+            features: {
+              integrity: [ -.6, -.5 ],
+              mass: [ -.7, -.8 ]
+            }
           }
         },
+        id: 46,
         name: "Lightweight"
       },
       KillWarrantScanner_Reinforced: {
-        id: 47,
-        features: {
+        grades: {
           "1": {
-            integrity: [ .2, .5 ],
-            mass: [ 1, .4 ]
+            components: {
+              Nickel: 1
+            },
+            features: {
+              integrity: [ .2, .5 ],
+              mass: [ 1, .4 ]
+            }
           },
           "2": {
-            integrity: [ .4, 1 ],
-            mass: [ 1.5, .8 ]
+            components: {
+              Nickel: 1,
+              "Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .4, 1 ],
+              mass: [ 1.5, .8 ]
+            }
           },
           "3": {
-            integrity: [ .6, 1.5 ],
-            mass: [ 2, 1.2 ]
+            components: {
+              Nickel: 1,
+              "Shield Emitters": 1,
+              Tungsten: 1
+            },
+            features: {
+              integrity: [ .6, 1.5 ],
+              mass: [ 2, 1.2 ]
+            }
           },
           "4": {
-            integrity: [ .8, 2 ],
-            mass: [ 2.5, 1.6 ]
+            components: {
+              Molybdenum: 1,
+              Tungsten: 1,
+              Zinc: 1
+            },
+            features: {
+              integrity: [ .8, 2 ],
+              mass: [ 2.5, 1.6 ]
+            }
           },
           "5": {
-            integrity: [ 1, 2.5 ],
-            mass: [ 3, 2 ]
+            components: {
+              "High Density Composites": 1,
+              Molybdenum: 1,
+              Technetium: 1
+            },
+            features: {
+              integrity: [ 1, 2.5 ],
+              mass: [ 3, 2 ]
+            }
           }
         },
+        id: 47,
         name: "Reinforced"
       },
       KillWarrantScanner_Shielded: {
-        id: 48,
-        features: {
+        grades: {
           "1": {
-            integrity: [ .2, .5 ],
-            power: [ .3, .2 ]
+            components: {
+              "Worn Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .2, .5 ],
+              power: [ .3, .2 ]
+            }
           },
           "2": {
-            integrity: [ .4, 1 ],
-            power: [ .6, .4 ]
+            components: {
+              Carbon: 1,
+              "Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .4, 1 ],
+              power: [ .6, .4 ]
+            }
           },
           "3": {
-            integrity: [ .6, 1.5 ],
-            power: [ .9, .6 ]
+            components: {
+              Carbon: 1,
+              "High Density Composites": 1,
+              "Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .6, 1.5 ],
+              power: [ .9, .6 ]
+            }
           },
           "4": {
-            integrity: [ .8, 2 ],
-            power: [ 1.2, .8 ]
+            components: {
+              "Proprietary Composites": 1,
+              "Shielding Sensors": 1,
+              Vanadium: 1
+            },
+            features: {
+              integrity: [ .8, 2 ],
+              power: [ 1.2, .8 ]
+            }
           },
           "5": {
-            integrity: [ 1, 1.5 ],
-            power: [ 1.5, 1 ]
+            components: {
+              "Compound Shielding": 1,
+              "Core Dynamics Composites": 1,
+              Tungsten: 1
+            },
+            features: {
+              integrity: [ 1, 1.5 ],
+              power: [ 1.5, 1 ]
+            }
           }
         },
+        id: 48,
         name: "Shielded"
       },
       LifeSupport_LightWeight: {
+        grades: {
+          "1": {
+            components: {
+              Phosphorus: 1
+            },
+            features: {
+              integrity: [ -.2, -.1 ],
+              mass: [ -.3, -.4 ]
+            }
+          },
+          "2": {
+            components: {
+              Manganese: 1,
+              "Salvaged Alloys": 1
+            },
+            features: {
+              integrity: [ -.3, -.2 ],
+              mass: [ -.4, -.5 ]
+            }
+          },
+          "3": {
+            components: {
+              "Conductive Ceramics": 1,
+              Manganese: 1,
+              "Salvaged Alloys": 1
+            },
+            features: {
+              integrity: [ -.4, -.3 ],
+              mass: [ -.5, -.6 ]
+            }
+          },
+          "4": {
+            components: {
+              "Conductive Components": 1,
+              "Phase Alloys": 1,
+              "Proto Light Alloys": 1
+            },
+            features: {
+              integrity: [ -.5, -.4 ],
+              mass: [ -.6, -.7 ]
+            }
+          }
+        },
         id: 49,
-        components: {
-          "1": {
-            Phosphorus: 1
-          },
-          "2": {
-            Manganese: 1,
-            "Salvaged Alloys": 1
-          },
-          "3": {
-            "Conductive Ceramics": 1,
-            Manganese: 1,
-            "Salvaged Alloys": 1
-          },
-          "4": {
-            "Conductive Components": 1,
-            "Phase Alloys": 1,
-            "Proto Light Alloys": 1
-          }
-        },
-        features: {
-          "1": {
-            integrity: [ -.2, -.1 ],
-            mass: [ -.3, -.4 ]
-          },
-          "2": {
-            integrity: [ -.3, -.2 ],
-            mass: [ -.4, -.5 ]
-          },
-          "3": {
-            integrity: [ -.4, -.3 ],
-            mass: [ -.5, -.6 ]
-          },
-          "4": {
-            integrity: [ -.5, -.4 ],
-            mass: [ -.6, -.7 ]
-          }
-        },
         name: "Lightweight"
       },
       LifeSupport_Reinforced: {
+        grades: {
+          "1": {
+            components: {
+              Nickel: 1
+            },
+            features: {
+              integrity: [ .2, .5 ],
+              mass: [ 1, .4 ]
+            }
+          },
+          "2": {
+            components: {
+              Nickel: 1,
+              "Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .4, 1 ],
+              mass: [ 1.5, .8 ]
+            }
+          },
+          "3": {
+            components: {
+              Nickel: 1,
+              "Shield Emitters": 1,
+              Tungsten: 1
+            },
+            features: {
+              integrity: [ .6, 1.5 ],
+              mass: [ 2, 1.2 ]
+            }
+          },
+          "4": {
+            components: {
+              Molybdenum: 1,
+              Tungsten: 1,
+              Zinc: 1
+            },
+            features: {
+              integrity: [ .8, 2 ],
+              mass: [ 2.5, 1.6 ]
+            }
+          }
+        },
         id: 50,
-        components: {
-          "1": {
-            Nickel: 1
-          },
-          "2": {
-            Nickel: 1,
-            "Shield Emitters": 1
-          },
-          "3": {
-            Nickel: 1,
-            "Shield Emitters": 1,
-            Tungsten: 1
-          },
-          "4": {
-            Molybdenum: 1,
-            Tungsten: 1,
-            Zinc: 1
-          }
-        },
-        features: {
-          "1": {
-            integrity: [ .2, .5 ],
-            mass: [ 1, .4 ]
-          },
-          "2": {
-            integrity: [ .4, 1 ],
-            mass: [ 1.5, .8 ]
-          },
-          "3": {
-            integrity: [ .6, 1.5 ],
-            mass: [ 2, 1.2 ]
-          },
-          "4": {
-            integrity: [ .8, 2 ],
-            mass: [ 2.5, 1.6 ]
-          }
-        },
         name: "Reinforced"
       },
       LifeSupport_Shielded: {
+        grades: {
+          "1": {
+            components: {
+              "Worn Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .2, .5 ],
+              power: [ .3, .2 ]
+            }
+          },
+          "2": {
+            components: {
+              Carbon: 1,
+              "Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .4, 1 ],
+              power: [ .6, .4 ]
+            }
+          },
+          "3": {
+            components: {
+              Carbon: 1,
+              "High Density Composites": 1,
+              "Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .6, 1.5 ],
+              power: [ .9, .6 ]
+            }
+          },
+          "4": {
+            components: {
+              "Proprietary Composites": 1,
+              "Shielding Sensors": 1,
+              Vanadium: 1
+            },
+            features: {
+              integrity: [ .8, 2 ],
+              power: [ 1.2, .8 ]
+            }
+          }
+        },
         id: 51,
-        components: {
-          "1": {
-            "Worn Shield Emitters": 1
-          },
-          "2": {
-            Carbon: 1,
-            "Shield Emitters": 1
-          },
-          "3": {
-            Carbon: 1,
-            "High Density Composites": 1,
-            "Shield Emitters": 1
-          },
-          "4": {
-            "Proprietary Composites": 1,
-            "Sielding Sensors": 1,
-            Vanadium: 1
-          }
-        },
-        features: {
-          "1": {
-            integrity: [ .2, .5 ],
-            power: [ .3, .2 ]
-          },
-          "2": {
-            integrity: [ .4, 1 ],
-            power: [ .6, .4 ]
-          },
-          "3": {
-            integrity: [ .6, 1.5 ],
-            power: [ .9, .6 ]
-          },
-          "4": {
-            integrity: [ .8, 2 ],
-            power: [ 1.2, .8 ]
-          }
-        },
         name: "Shielded"
       },
       PointDefence_LightWeight: {
-        id: 52,
-        features: {
+        grades: {
           "1": {
-            integrity: [ -.2, -.1 ],
-            mass: [ -.3, -.4 ]
+            components: {
+              Phosphorus: 1
+            },
+            features: {
+              integrity: [ -.2, -.1 ],
+              mass: [ -.3, -.4 ]
+            }
           },
           "2": {
-            integrity: [ -.3, -.2 ],
-            mass: [ -.4, -.5 ]
+            components: {
+              Manganese: 1,
+              "Salvaged Alloys": 1
+            },
+            features: {
+              integrity: [ -.3, -.2 ],
+              mass: [ -.4, -.5 ]
+            }
           },
           "3": {
-            integrity: [ -.4, -.3 ],
-            mass: [ -.5, -.6 ]
+            components: {
+              "Conductive Ceramics": 1,
+              Manganese: 1,
+              "Salvaged Alloys": 1
+            },
+            features: {
+              integrity: [ -.4, -.3 ],
+              mass: [ -.5, -.6 ]
+            }
           },
           "4": {
-            integrity: [ -.5, -.4 ],
-            mass: [ -.6, -.7 ]
+            components: {
+              "Conductive Components": 1,
+              "Phase Alloys": 1,
+              "Proto Light Alloys": 1
+            },
+            features: {
+              integrity: [ -.5, -.4 ],
+              mass: [ -.6, -.7 ]
+            }
           },
           "5": {
-            integrity: [ -.6, -.5 ],
-            mass: [ -.7, -.8 ]
+            components: {
+              "Conductive Ceramics": 1,
+              "Proto Light Alloys": 1,
+              "Proto Radiolic Alloys": 1
+            },
+            features: {
+              integrity: [ -.6, -.5 ],
+              mass: [ -.7, -.8 ]
+            }
           }
         },
+        id: 52,
         name: "Lightweight"
       },
-      PointDefence_Reinforced: {
-        id: 53,
-        features: {
-          "1": {
-            integrity: [ .2, .5 ],
-            mass: [ 1, .4 ]
-          },
-          "2": {
-            integrity: [ .4, 1 ],
-            mass: [ 1.5, .8 ]
-          },
+      PointDefence_PointDefenseCapacity: {
+        grades: {
           "3": {
-            integrity: [ .6, 1.5 ],
-            mass: [ 2, 1.2 ]
-          },
-          "4": {
-            integrity: [ .8, 2 ],
-            mass: [ 2.5, 1.6 ]
-          },
-          "5": {
-            integrity: [ 1, 2.5 ],
-            mass: [ 3, 2 ]
+            components: {
+              "Mechanical Scrap": 1,
+              Niobium: 1,
+              Vanadium: 1
+            },
+            features: {
+              ammo: [ .2, .5 ],
+              mass: [ 2, 1 ],
+              reload: [ .3, .1 ]
+            }
           }
         },
+        id: 55,
+        name: "Ammo capacity"
+      },
+      PointDefence_Reinforced: {
+        grades: {
+          "1": {
+            components: {
+              Nickel: 1
+            },
+            features: {
+              integrity: [ .2, .5 ],
+              mass: [ 1, .4 ]
+            }
+          },
+          "2": {
+            components: {
+              Nickel: 1,
+              "Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .4, 1 ],
+              mass: [ 1.5, .8 ]
+            }
+          },
+          "3": {
+            components: {
+              Nickel: 1,
+              "Shield Emitters": 1,
+              Tungsten: 1
+            },
+            features: {
+              integrity: [ .6, 1.5 ],
+              mass: [ 2, 1.2 ]
+            }
+          },
+          "4": {
+            components: {
+              Molybdenum: 1,
+              Tungsten: 1,
+              Zinc: 1
+            },
+            features: {
+              integrity: [ .8, 2 ],
+              mass: [ 2.5, 1.6 ]
+            }
+          },
+          "5": {
+            components: {
+              "High Density Composites": 1,
+              Molybdenum: 1,
+              Technetium: 1
+            },
+            features: {
+              integrity: [ 1, 2.5 ],
+              mass: [ 3, 2 ]
+            }
+          }
+        },
+        id: 53,
         name: "Reinforced"
       },
       PointDefence_Shielded: {
-        id: 54,
-        features: {
+        grades: {
           "1": {
-            integrity: [ .2, .5 ],
-            power: [ .3, .2 ]
+            components: {
+              "Worn Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .2, .5 ],
+              power: [ .3, .2 ]
+            }
           },
           "2": {
-            integrity: [ .4, 1 ],
-            power: [ .6, .4 ]
+            components: {
+              Carbon: 1,
+              "Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .4, 1 ],
+              power: [ .6, .4 ]
+            }
           },
           "3": {
-            integrity: [ .6, 1.5 ],
-            power: [ .9, .6 ]
+            components: {
+              Carbon: 1,
+              "High Density Composites": 1,
+              "Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .6, 1.5 ],
+              power: [ .9, .6 ]
+            }
           },
           "4": {
-            integrity: [ .8, 2 ],
-            power: [ 1.2, .8 ]
+            components: {
+              "Proprietary Composites": 1,
+              "Shielding Sensors": 1,
+              Vanadium: 1
+            },
+            features: {
+              integrity: [ .8, 2 ],
+              power: [ 1.2, .8 ]
+            }
           },
           "5": {
-            integrity: [ 1, 1.5 ],
-            power: [ 1.5, 1 ]
+            components: {
+              "Compound Shielding": 1,
+              "Core Dynamics Composites": 1,
+              Tungsten: 1
+            },
+            features: {
+              integrity: [ 1, 1.5 ],
+              power: [ 1.5, 1 ]
+            }
           }
         },
+        id: 54,
         name: "Shielded"
       },
-      PointDefence_PointDefenseCapacity: {
-        id: 55,
-        features: {
-          "3": {
-            ammo: [ .2, .5 ],
-            mass: [ 2, 1 ],
-            reload: [ .3, .1 ]
-          }
-        },
-        name: "Ammo capacity"
-      },
       PowerDistributor_HighCapacity: {
-        id: 56,
-        features: {
+        grades: {
           "1": {
-            engcap: [ .04, .1 ],
-            engrate: [ -.05, 0 ],
-            syscap: [ .04, .1 ],
-            sysrate: [ -.05, 0 ],
-            wepcap: [ .04, .1 ],
-            weprate: [ -.05, 0 ]
+            components: {
+              Sulphur: 1
+            },
+            features: {
+              engcap: [ .04, .1 ],
+              engrate: [ -.05, 0 ],
+              syscap: [ .04, .1 ],
+              sysrate: [ -.05, 0 ],
+              wepcap: [ .04, .1 ],
+              weprate: [ -.05, 0 ]
+            }
           },
           "2": {
-            engcap: [ .08, .15 ],
-            engrate: [ -.1, -.04 ],
-            syscap: [ .08, .1 ],
-            sysrate: [ -.1, 0 ],
-            wepcap: [ .08, .1 ],
-            weprate: [ -.1, 0 ]
+            components: {
+              Chromium: 1,
+              "Specialised Legacy Firmware": 1
+            },
+            features: {
+              engcap: [ .08, .15 ],
+              engrate: [ -.1, -.04 ],
+              syscap: [ .08, .1 ],
+              sysrate: [ -.1, 0 ],
+              wepcap: [ .08, .1 ],
+              weprate: [ -.1, 0 ]
+            }
           },
           "3": {
-            engcap: [ .12, .2 ],
-            engrate: [ -.15, -.08 ],
-            syscap: [ .12, .1 ],
-            sysrate: [ -.15, -.08 ],
-            wepcap: [ .12, .1 ],
-            weprate: [ -.15, -.08 ]
+            components: {
+              Chromium: 1,
+              "High Density Composites": 1,
+              "Specialised Legacy Firmware": 1
+            },
+            features: {
+              engcap: [ .12, .2 ],
+              engrate: [ -.15, -.08 ],
+              syscap: [ .12, .1 ],
+              sysrate: [ -.15, -.08 ],
+              wepcap: [ .12, .1 ],
+              weprate: [ -.15, -.08 ]
+            }
           },
           "4": {
-            engcap: [ .16, .25 ],
-            engrate: [ -.2, -.12 ],
-            syscap: [ .16, .1 ],
-            sysrate: [ -.2, -.12 ],
-            wepcap: [ .16, .1 ],
-            weprate: [ -.2, -.12 ]
+            components: {
+              "Modified Consumer Firmware": 1,
+              "Proprietary Composites": 1,
+              Selenium: 1
+            },
+            features: {
+              engcap: [ .16, .25 ],
+              engrate: [ -.2, -.12 ],
+              syscap: [ .16, .1 ],
+              sysrate: [ -.2, -.12 ],
+              wepcap: [ .16, .1 ],
+              weprate: [ -.2, -.12 ]
+            }
           },
           "5": {
-            engcap: [ .2, .3 ],
-            engrate: [ -.25, -.16 ],
-            syscap: [ .2, .1 ],
-            sysrate: [ -.25, -.16 ],
-            wepcap: [ .2, .1 ],
-            weprate: [ -.25, -.16 ]
+            components: {
+              "Cracked Industrial Firmware": 1,
+              "Military Supercapacitors": 1,
+              "Proprietary Composites": 1
+            },
+            features: {
+              engcap: [ .2, .3 ],
+              engrate: [ -.25, -.16 ],
+              syscap: [ .2, .1 ],
+              sysrate: [ -.25, -.16 ],
+              wepcap: [ .2, .1 ],
+              weprate: [ -.25, -.16 ]
+            }
           }
         },
+        id: 56,
         name: "High charge capacity"
       },
       PowerDistributor_HighFrequency: {
-        id: 57,
-        features: {
+        grades: {
           "1": {
-            engcap: [ -.03, 0 ],
-            engrate: [ .04, .12 ],
-            syscap: [ -.03, 0 ],
-            sysrate: [ .04, .12 ],
-            wepcap: [ -.03, 0 ],
-            weprate: [ .04, .12 ]
+            components: {
+              "Specialised Legacy Firmware": 1
+            },
+            features: {
+              engcap: [ -.03, 0 ],
+              engrate: [ .04, .12 ],
+              syscap: [ -.03, 0 ],
+              sysrate: [ .04, .12 ],
+              wepcap: [ -.03, 0 ],
+              weprate: [ .04, .12 ]
+            }
           },
           "2": {
-            engcap: [ -.06, -.01 ],
-            engrate: [ .08, .18 ],
-            syscap: [ -.06, -.01 ],
-            sysrate: [ .08, .18 ],
-            wepcap: [ -.06, -.01 ],
-            weprate: [ .08, .18 ]
+            components: {
+              "Chemical Processors": 1,
+              "Specialised Legacy Firmware": 1
+            },
+            features: {
+              engcap: [ -.06, -.01 ],
+              engrate: [ .08, .18 ],
+              syscap: [ -.06, -.01 ],
+              sysrate: [ .08, .18 ],
+              wepcap: [ -.06, -.01 ],
+              weprate: [ .08, .18 ]
+            }
           },
           "3": {
-            engcap: [ -.09, -.02 ],
-            engrate: [ .12, .24 ],
-            syscap: [ -.09, -.02 ],
-            sysrate: [ .12, .24 ],
-            wepcap: [ -.09, -.02 ],
-            weprate: [ .12, .24 ]
+            components: {
+              "Chemical Distillery": 1,
+              "Grid Resistors": 1,
+              "Modified Consumer Firmware": 1
+            },
+            features: {
+              engcap: [ -.09, -.02 ],
+              engrate: [ .12, .24 ],
+              syscap: [ -.09, -.02 ],
+              sysrate: [ .12, .24 ],
+              wepcap: [ -.09, -.02 ],
+              weprate: [ .12, .24 ]
+            }
           },
           "4": {
-            engcap: [ -.12, -.03 ],
-            engrate: [ .16, .3 ],
-            syscap: [ -.12, -.03 ],
-            sysrate: [ .16, .3 ],
-            wepcap: [ -.12, -.03 ],
-            weprate: [ .16, .3 ]
+            components: {
+              "Chemical Manipulators": 1,
+              "Cracked Industrial Firmware": 1,
+              "Hybrid Capacitors": 1
+            },
+            features: {
+              engcap: [ -.12, -.03 ],
+              engrate: [ .16, .3 ],
+              syscap: [ -.12, -.03 ],
+              sysrate: [ .16, .3 ],
+              wepcap: [ -.12, -.03 ],
+              weprate: [ .16, .3 ]
+            }
           },
           "5": {
-            engcap: [ -.15, -.04 ],
-            engrate: [ .2, .36 ],
-            syscap: [ -.15, -.04 ],
-            sysrate: [ .2, .36 ],
-            wepcap: [ -.15, -.04 ],
-            weprate: [ .2, .36 ]
+            components: {
+              "Chemical Manipulators": 1,
+              "Cracked Industrial Firmware": 1,
+              "Exquisite Focus Crystals": 1
+            },
+            features: {
+              engcap: [ -.15, -.04 ],
+              engrate: [ .2, .36 ],
+              syscap: [ -.15, -.04 ],
+              sysrate: [ .2, .36 ],
+              wepcap: [ -.15, -.04 ],
+              weprate: [ .2, .36 ]
+            }
           }
         },
+        id: 57,
         name: "Charge enhanced"
       },
       PowerDistributor_PriorityEngines: {
-        id: 58,
-        features: {
+        grades: {
           "1": {
-            engcap: [ .05, .2 ],
-            engrate: [ .02, .1 ],
-            syscap: [ -.05, 0 ],
-            sysrate: [ -.02, 0 ],
-            wepcap: [ -.05, 0 ],
-            weprate: [ -.02, 0 ]
+            components: {
+              Sulphur: 1
+            },
+            features: {
+              engcap: [ .05, .2 ],
+              engrate: [ .02, .1 ],
+              syscap: [ -.05, 0 ],
+              sysrate: [ -.02, 0 ],
+              wepcap: [ -.05, 0 ],
+              weprate: [ -.02, 0 ]
+            }
           },
           "2": {
-            engcap: [ .1, .3 ],
-            engrate: [ .04, .15 ],
-            syscap: [ -.1, -.02 ],
-            sysrate: [ -.04, -.01 ],
-            wepcap: [ -.1, -.02 ],
-            weprate: [ -.04, -.01 ]
+            components: {
+              "Conductive Components": 1,
+              Sulphur: 1
+            },
+            features: {
+              engcap: [ .1, .3 ],
+              engrate: [ .04, .15 ],
+              syscap: [ -.1, -.02 ],
+              sysrate: [ -.04, -.01 ],
+              wepcap: [ -.1, -.02 ],
+              weprate: [ -.04, -.01 ]
+            }
           },
           "3": {
-            engcap: [ .15, .4 ],
-            engrate: [ .06, .2 ],
-            syscap: [ -.15, -.04 ],
-            sysrate: [ -.06, -.02 ],
-            wepcap: [ -.15, -.04 ],
-            weprate: [ -.06, -.02 ]
+            components: {
+              "Anomalous Bulk Scan Data": 1,
+              Chromium: 1,
+              "Electrochemical Arrays": 1
+            },
+            features: {
+              engcap: [ .15, .4 ],
+              engrate: [ .06, .2 ],
+              syscap: [ -.15, -.04 ],
+              sysrate: [ -.06, -.02 ],
+              wepcap: [ -.15, -.04 ],
+              weprate: [ -.06, -.02 ]
+            }
           }
         },
+        id: 58,
         name: "Engine focused"
       },
       PowerDistributor_PrioritySystems: {
-        id: 59,
-        features: {
+        grades: {
           "1": {
-            engcap: [ -.05, 0 ],
-            engrate: [ -.02, 0 ],
-            syscap: [ .05, .2 ],
-            sysrate: [ .02, .1 ],
-            wepcap: [ -.05, 0 ],
-            weprate: [ -.02, 0 ]
+            components: {
+              Sulphur: 1
+            },
+            features: {
+              engcap: [ -.05, 0 ],
+              engrate: [ -.02, 0 ],
+              syscap: [ .05, .2 ],
+              sysrate: [ .02, .1 ],
+              wepcap: [ -.05, 0 ],
+              weprate: [ -.02, 0 ]
+            }
           },
           "2": {
-            engcap: [ -.1, -.02 ],
-            engrate: [ -.04, -.01 ],
-            syscap: [ .1, .3 ],
-            sysrate: [ -.04, .15 ],
-            wepcap: [ -.1, -.02 ],
-            weprate: [ -.04, -.01 ]
+            components: {
+              "Conductive Components": 1,
+              Sulphur: 1
+            },
+            features: {
+              engcap: [ -.1, -.02 ],
+              engrate: [ -.04, -.01 ],
+              syscap: [ .1, .3 ],
+              sysrate: [ -.04, .15 ],
+              wepcap: [ -.1, -.02 ],
+              weprate: [ -.04, -.01 ]
+            }
           },
           "3": {
-            engcap: [ -.15, -.04 ],
-            engrate: [ -.06, -.02 ],
-            syscap: [ .15, .4 ],
-            sysrate: [ .06, .2 ],
-            wepcap: [ -.15, -.04 ],
-            weprate: [ -.06, -.02 ]
+            components: {
+              "Anomalous Bulk Scan Data": 1,
+              Chromium: 1,
+              "Electrochemical Arrays": 1
+            },
+            features: {
+              engcap: [ -.15, -.04 ],
+              engrate: [ -.06, -.02 ],
+              syscap: [ .15, .4 ],
+              sysrate: [ .06, .2 ],
+              wepcap: [ -.15, -.04 ],
+              weprate: [ -.06, -.02 ]
+            }
           }
         },
+        id: 59,
         name: "System focused"
       },
       PowerDistributor_PriorityWeapons: {
-        id: 60,
-        features: {
+        grades: {
           "1": {
-            engcap: [ -.05, 0 ],
-            engrate: [ -.02, 0 ],
-            syscap: [ -.05, 0 ],
-            sysrate: [ -.02, 0 ],
-            wepcap: [ .05, .2 ],
-            weprate: [ .02, .1 ]
+            components: {
+              Sulphur: 1
+            },
+            features: {
+              engcap: [ -.05, 0 ],
+              engrate: [ -.02, 0 ],
+              syscap: [ -.05, 0 ],
+              sysrate: [ -.02, 0 ],
+              wepcap: [ .05, .2 ],
+              weprate: [ .02, .1 ]
+            }
           },
           "2": {
-            engcap: [ -.1, -.02 ],
-            engrate: [ -.04, -.01 ],
-            syscap: [ -.1, -.02 ],
-            sysrate: [ -.04, -.01 ],
-            wepcap: [ .1, .3 ],
-            weprate: [ .04, .15 ]
+            components: {
+              "Conductive Components": 1,
+              Sulphur: 1
+            },
+            features: {
+              engcap: [ -.1, -.02 ],
+              engrate: [ -.04, -.01 ],
+              syscap: [ -.1, -.02 ],
+              sysrate: [ -.04, -.01 ],
+              wepcap: [ .1, .3 ],
+              weprate: [ .04, .15 ]
+            }
           },
           "3": {
-            engcap: [ -.15, -.04 ],
-            engrate: [ -.06, -.02 ],
-            syscap: [ -.15, -.04 ],
-            sysrate: [ -.06, -.02 ],
-            wepcap: [ .15, .4 ],
-            weprate: [ .06, .2 ]
+            components: {
+              "Anomalous Bulk Scan Data": 1,
+              Chromium: 1,
+              "Electrochemical Arrays": 1
+            },
+            features: {
+              engcap: [ -.15, -.04 ],
+              engrate: [ -.06, -.02 ],
+              syscap: [ -.15, -.04 ],
+              sysrate: [ -.06, -.02 ],
+              wepcap: [ .15, .4 ],
+              weprate: [ .06, .2 ]
+            }
           }
         },
+        id: 60,
         name: "Weapon focused"
       },
       PowerDistributor_Shielded: {
-        id: 61,
-        features: {
+        grades: {
           "1": {
-            integrity: [ .2, .5 ],
-            power: [ .3, .2 ]
+            components: {
+              "Worn Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .2, .5 ],
+              power: [ .3, .2 ]
+            }
           },
           "2": {
-            integrity: [ .4, 1 ],
-            power: [ .6, .4 ]
+            components: {
+              Carbon: 1,
+              "Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .4, 1 ],
+              power: [ .6, .4 ]
+            }
           },
           "3": {
-            integrity: [ .6, 1.5 ],
-            power: [ .9, .6 ]
+            components: {
+              Carbon: 1,
+              "High Density Composites": 1,
+              "Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .6, 1.5 ],
+              power: [ .9, .6 ]
+            }
           },
           "4": {
-            integrity: [ .8, 2 ],
-            power: [ 1.2, .8 ]
+            components: {
+              "Proprietary Composites": 1,
+              "Shielding Sensors": 1,
+              Vanadium: 1
+            },
+            features: {
+              integrity: [ .8, 2 ],
+              power: [ 1.2, .8 ]
+            }
           },
           "5": {
-            integrity: [ 1, 1.5 ],
-            power: [ 1.5, 1 ]
+            components: {
+              "Compound Shielding": 1,
+              "Core Dynamics Composites": 1,
+              Tungsten: 1
+            },
+            features: {
+              integrity: [ 1, 1.5 ],
+              power: [ 1.5, 1 ]
+            }
           }
         },
+        id: 61,
         name: "Shielded"
       },
       PowerPlant_Armoured: {
-        id: 62,
-        features: {
+        grades: {
           "1": {
-            eff: [ .05, -.05 ],
-            integrity: [ .2, .4 ],
-            mass: [ .08, 0 ]
+            components: {
+              "Worn Shield Emitters": 1
+            },
+            features: {
+              eff: [ .05, -.05 ],
+              integrity: [ .2, .4 ],
+              mass: [ .08, 0 ]
+            }
           },
           "2": {
-            eff: [ .06, -.06 ],
-            integrity: [ .3, .6 ],
-            mass: [ .16, .04 ]
+            components: {
+              Carbon: 1,
+              "Shield Emitters": 1
+            },
+            features: {
+              eff: [ .06, -.06 ],
+              integrity: [ .3, .6 ],
+              mass: [ .16, .04 ]
+            }
           },
           "3": {
-            eff: [ .07, -.07 ],
-            integrity: [ .4, .8 ],
-            mass: [ .24, .08 ]
+            components: {
+              Carbon: 1,
+              "High Density Composites": 1,
+              "Shield Emitters": 1
+            },
+            features: {
+              eff: [ .07, -.07 ],
+              integrity: [ .4, .8 ],
+              mass: [ .24, .08 ]
+            }
           },
           "4": {
-            eff: [ .08, -.08 ],
-            integrity: [ .5, 1 ],
-            mass: [ .32, .12 ]
+            components: {
+              "Proprietary Composites": 1,
+              "Shielding Sensors": 1,
+              Vanadium: 1
+            },
+            features: {
+              eff: [ .08, -.08 ],
+              integrity: [ .5, 1 ],
+              mass: [ .32, .12 ]
+            }
           },
           "5": {
-            eff: [ .09, -.09 ],
-            integrity: [ .6, 1.2 ],
-            mass: [ .4, .16 ]
+            components: {
+              "Compound Shielding": 1,
+              "Core Dynamics Composites": 1,
+              Tungsten: 1
+            },
+            features: {
+              eff: [ .09, -.09 ],
+              integrity: [ .6, 1.2 ],
+              mass: [ .4, .16 ]
+            }
           }
         },
+        id: 62,
         name: "Armoured"
       },
       PowerPlant_Boosted: {
-        id: 63,
-        features: {
+        grades: {
           "1": {
-            eff: [ .1, 0 ],
-            integrity: [ -.1, 0 ],
-            pgen: [ .02, .12 ]
+            components: {
+              Sulphur: 1
+            },
+            features: {
+              eff: [ .1, 0 ],
+              integrity: [ -.1, 0 ],
+              pgen: [ .02, .12 ]
+            }
           },
           "2": {
-            eff: [ .2, .05 ],
-            integrity: [ -.2, -.05 ],
-            pgen: [ .04, .18 ]
+            components: {
+              "Conductive Components": 1,
+              "Heat Conduction Wiring": 1
+            },
+            features: {
+              eff: [ .2, .05 ],
+              integrity: [ -.2, -.05 ],
+              pgen: [ .04, .18 ]
+            }
           },
           "3": {
-            eff: [ .3, .1 ],
-            integrity: [ -.3, -.1 ],
-            pgen: [ .06, .24 ]
+            components: {
+              "Conductive Components": 1,
+              "Heat Conduction Wiring": 1,
+              Selenium: 1
+            },
+            features: {
+              eff: [ .3, .1 ],
+              integrity: [ -.3, -.1 ],
+              pgen: [ .06, .24 ]
+            }
           },
           "4": {
-            eff: [ .4, .15 ],
-            integrity: [ -.4, -.15 ],
-            pgen: [ .08, .3 ]
+            components: {
+              Cadmium: 1,
+              "Conductive Ceramics": 1,
+              "Heat Dispersion Plate": 1
+            },
+            features: {
+              eff: [ .4, .15 ],
+              integrity: [ -.4, -.15 ],
+              pgen: [ .08, .3 ]
+            }
           },
           "5": {
-            eff: [ .5, .2 ],
-            integrity: [ -.5, -.2 ],
-            pgen: [ .1, .36 ]
+            components: {
+              "Chemical Manipulators": 1,
+              "Conductive Ceramics": 1,
+              Tellurium: 1
+            },
+            features: {
+              eff: [ .5, .2 ],
+              integrity: [ -.5, -.2 ],
+              pgen: [ .1, .36 ]
+            }
           }
         },
+        id: 63,
         name: "Overcharged"
       },
       PowerPlant_Stealth: {
-        id: 64,
-        features: {
+        grades: {
           "1": {
-            eff: [ -.05, -.2 ],
-            mass: [ .05, 0 ],
-            pgen: [ -.06, 0 ]
+            components: {
+              Iron: 1
+            },
+            features: {
+              eff: [ -.05, -.2 ],
+              mass: [ .05, 0 ],
+              pgen: [ -.06, 0 ]
+            }
           },
           "2": {
-            eff: [ -.1, -.3 ],
-            mass: [ .1, .05 ],
-            pgen: [ -.12, -.03 ]
+            components: {
+              Iron: 1,
+              "Irregular Emission Data": 1
+            },
+            features: {
+              eff: [ -.1, -.3 ],
+              mass: [ .1, .05 ],
+              pgen: [ -.12, -.03 ]
+            }
           },
           "3": {
-            eff: [ -.15, -.4 ],
-            mass: [ .15, .1 ],
-            pgen: [ -.18, -.06 ]
+            components: {
+              "Heat Exchangers": 1,
+              Iron: 1,
+              "Irregular Emission Data": 1
+            },
+            features: {
+              eff: [ -.15, -.4 ],
+              mass: [ .15, .1 ],
+              pgen: [ -.18, -.06 ]
+            }
           }
         },
+        id: 64,
         name: "Low emissions"
       },
       ProspectingLimpet_LightWeight: {
-        id: 65,
-        features: {
+        grades: {
           "1": {
-            integrity: [ -.2, -.1 ],
-            mass: [ -.3, -.4 ]
+            components: {
+              Phosphorus: 1
+            },
+            features: {
+              integrity: [ -.2, -.1 ],
+              mass: [ -.3, -.4 ]
+            }
           },
           "2": {
-            integrity: [ -.3, -.2 ],
-            mass: [ -.4, -.5 ]
+            components: {
+              Manganese: 1,
+              "Salvaged Alloys": 1
+            },
+            features: {
+              integrity: [ -.3, -.2 ],
+              mass: [ -.4, -.5 ]
+            }
           },
           "3": {
-            integrity: [ -.4, -.3 ],
-            mass: [ -.5, -.6 ]
+            components: {
+              "Conductive Ceramics": 1,
+              Manganese: 1,
+              "Salvaged Alloys": 1
+            },
+            features: {
+              integrity: [ -.4, -.3 ],
+              mass: [ -.5, -.6 ]
+            }
           },
           "4": {
-            integrity: [ -.5, -.4 ],
-            mass: [ -.6, -.7 ]
+            components: {
+              "Conductive Components": 1,
+              "Phase Alloys": 1,
+              "Proto Light Alloys": 1
+            },
+            features: {
+              integrity: [ -.5, -.4 ],
+              mass: [ -.6, -.7 ]
+            }
           },
           "5": {
-            integrity: [ -.6, -.5 ],
-            mass: [ -.7, -.8 ]
+            components: {
+              "Conductive Ceramics": 1,
+              "Proto Light Alloys": 1,
+              "Proto Radiolic Alloys": 1
+            },
+            features: {
+              integrity: [ -.6, -.5 ],
+              mass: [ -.7, -.8 ]
+            }
           }
         },
+        id: 65,
         name: "Lightweight"
       },
       ProspectingLimpet_Reinforced: {
-        id: 66,
-        features: {
+        grades: {
           "1": {
-            integrity: [ .2, .5 ],
-            mass: [ 1, .4 ]
+            components: {
+              Nickel: 1
+            },
+            features: {
+              integrity: [ .2, .5 ],
+              mass: [ 1, .4 ]
+            }
           },
           "2": {
-            integrity: [ .4, 1 ],
-            mass: [ 1.5, .8 ]
+            components: {
+              Nickel: 1,
+              "Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .4, 1 ],
+              mass: [ 1.5, .8 ]
+            }
           },
           "3": {
-            integrity: [ .6, 1.5 ],
-            mass: [ 2, 1.2 ]
+            components: {
+              Nickel: 1,
+              "Shield Emitters": 1,
+              Tungsten: 1
+            },
+            features: {
+              integrity: [ .6, 1.5 ],
+              mass: [ 2, 1.2 ]
+            }
           },
           "4": {
-            integrity: [ .8, 2 ],
-            mass: [ 2.5, 1.6 ]
+            components: {
+              Molybdenum: 1,
+              Tungsten: 1,
+              Zinc: 1
+            },
+            features: {
+              integrity: [ .8, 2 ],
+              mass: [ 2.5, 1.6 ]
+            }
           },
           "5": {
-            integrity: [ 1, 2.5 ],
-            mass: [ 3, 2 ]
+            components: {
+              "High Density Composites": 1,
+              Molybdenum: 1,
+              Technetium: 1
+            },
+            features: {
+              integrity: [ 1, 2.5 ],
+              mass: [ 3, 2 ]
+            }
           }
         },
+        id: 66,
         name: "Reinforced"
       },
       ProspectingLimpet_Shielded: {
-        id: 67,
-        features: {
+        grades: {
           "1": {
-            integrity: [ .2, .5 ],
-            power: [ .3, .2 ]
+            components: {
+              "Worn Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .2, .5 ],
+              power: [ .3, .2 ]
+            }
           },
           "2": {
-            integrity: [ .4, 1 ],
-            power: [ .6, .4 ]
+            components: {
+              Carbon: 1,
+              "Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .4, 1 ],
+              power: [ .6, .4 ]
+            }
           },
           "3": {
-            integrity: [ .6, 1.5 ],
-            power: [ .9, .6 ]
+            components: {
+              Carbon: 1,
+              "High Density Composites": 1,
+              "Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .6, 1.5 ],
+              power: [ .9, .6 ]
+            }
           },
           "4": {
-            integrity: [ .8, 2 ],
-            power: [ 1.2, .8 ]
+            components: {
+              "Proprietary Composites": 1,
+              "Shielding Sensors": 1,
+              Vanadium: 1
+            },
+            features: {
+              integrity: [ .8, 2 ],
+              power: [ 1.2, .8 ]
+            }
           },
           "5": {
-            integrity: [ 1, 1.5 ],
-            power: [ 1.5, 1 ]
+            components: {
+              "Compound Shielding": 1,
+              "Core Dynamics Composites": 1,
+              Tungsten: 1
+            },
+            features: {
+              integrity: [ 1, 1.5 ],
+              power: [ 1.5, 1 ]
+            }
           }
         },
+        id: 67,
         name: "Shielded"
       },
       Refineries_Shielded: {
+        grades: {
+          "1": {
+            components: {
+              "Worn Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .2, .5 ],
+              power: [ .29, .2 ]
+            }
+          },
+          "2": {
+            components: {
+              Carbon: 1,
+              "Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .39, 1 ],
+              power: [ .61, .39 ]
+            }
+          },
+          "3": {
+            components: {
+              Carbon: 1,
+              "High Density Composites": 1,
+              "Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .61, 1.5 ],
+              power: [ .89, .61 ]
+            }
+          },
+          "4": {
+            components: {
+              "Proprietary Composites": 1,
+              "Shielding Sensors": 1,
+              Vanadium: 1
+            },
+            features: {
+              integrity: [ .81, 2 ],
+              power: [ 1.2, .79 ]
+            }
+          }
+        },
         id: 92,
-        components: {
-          "1": {
-            "Worn Shield Emitters": 1
-          },
-          "2": {
-            Carbon: 1,
-            "Shield Emitters": 1
-          },
-          "3": {
-            Carbon: 1,
-            "High Density Composites": 1,
-            "Shield Emitters": 1
-          },
-          "4": {
-            "Proprietary Composites": 1,
-            "Shielding Sensors": 1,
-            Vanadium: 1
-          }
-        },
-        features: {
-          "1": {
-            integrity: [ .2, .5 ],
-            power: [ .29, .2 ]
-          },
-          "2": {
-            integrity: [ .39, 1 ],
-            power: [ .61, .39 ]
-          },
-          "3": {
-            integrity: [ .61, 1.5 ],
-            power: [ .89, .61 ]
-          },
-          "4": {
-            integrity: [ .81, 2 ],
-            power: [ 1.2, .79 ]
-          }
-        },
         name: "Shielded"
       },
       ShieldBooster_Explosive: {
-        id: 68,
-        features: {
+        grades: {
           "1": {
-            explres: [ .02, .05 ],
-            kinres: [ -.02, 0 ],
-            thermres: [ -.02, 0 ]
+            components: {
+              Iron: 1
+            },
+            features: {
+              explres: [ .02, .05 ],
+              kinres: [ -.02, 0 ],
+              thermres: [ -.02, 0 ]
+            }
           },
           "2": {
-            explres: [ .07, -.1 ],
-            kinres: [ -.03, -.01 ],
-            thermres: [ -.03, -.01 ]
+            components: {
+              "Conductive Components": 1,
+              Iron: 1
+            },
+            features: {
+              explres: [ .07, -.1 ],
+              kinres: [ -.03, -.01 ],
+              thermres: [ -.03, -.01 ]
+            }
           },
           "3": {
-            explres: [ .12, .15 ],
-            kinres: [ -.04, -.04 ],
-            thermres: [ -.05, -.02 ]
+            components: {
+              "Conductive Components": 1,
+              "Focus Crystals": 1,
+              Iron: 1
+            },
+            features: {
+              explres: [ .12, .15 ],
+              kinres: [ -.04, -.04 ],
+              thermres: [ -.05, -.02 ]
+            }
           },
           "4": {
-            explres: [ .17, .2 ],
-            kinres: [ -.05, -.03 ],
-            thermres: [ -.05, -.03 ]
+            components: {
+              Germanium: 1,
+              "Refined Focus Crystals": 1,
+              "Untypical Shield Scans": 1
+            },
+            features: {
+              explres: [ .17, .2 ],
+              kinres: [ -.05, -.03 ],
+              thermres: [ -.05, -.03 ]
+            }
           },
           "5": {
-            explres: [ .22, .25 ],
-            kinres: [ -.06, -.04 ],
-            thermres: [ -.06, -.04 ]
+            components: {
+              "Aberrant Shield Pattern Analysis": 1,
+              "Exquisite Focus Crystals": 1,
+              Niobium: 1
+            },
+            features: {
+              explres: [ .22, .25 ],
+              kinres: [ -.06, -.04 ],
+              thermres: [ -.06, -.04 ]
+            }
           }
         },
+        id: 68,
         name: "Blast Resistant"
       },
       ShieldBooster_HeavyDuty: {
-        id: 69,
-        features: {
+        grades: {
           "1": {
-            integrity: [ 0, .03 ],
-            mass: [ 1, .5 ],
-            power: [ .05, 0 ],
-            shieldboost: [ .03, .06 ]
+            components: {
+              "Grid Resistors": 1
+            },
+            features: {
+              integrity: [ 0, .03 ],
+              mass: [ 1, .5 ],
+              power: [ .05, 0 ],
+              shieldboost: [ .03, .06 ]
+            }
           },
           "2": {
-            integrity: [ .03, .06 ],
-            mass: [ 1.5, 1 ],
-            power: [ .1, .05 ],
-            shieldboost: [ .08, .12 ]
+            components: {
+              "Distorted Shield Cycle Recordings": 1,
+              "Hybrid Capacitors": 1
+            },
+            features: {
+              integrity: [ .03, .06 ],
+              mass: [ 1.5, 1 ],
+              power: [ .1, .05 ],
+              shieldboost: [ .08, .12 ]
+            }
           },
           "3": {
-            integrity: [ .06, .09 ],
-            mass: [ 2, 1.5 ],
-            power: [ .15, .1 ],
-            shieldboost: [ .13, .18 ]
+            components: {
+              "Distorted Shield Cycle Recordings": 1,
+              "Hybrid Capacitors": 1,
+              Niobium: 1
+            },
+            features: {
+              integrity: [ .06, .09 ],
+              mass: [ 2, 1.5 ],
+              power: [ .15, .1 ],
+              shieldboost: [ .13, .18 ]
+            }
           },
           "4": {
-            integrity: [ .09, .12 ],
-            mass: [ 2.5, 2 ],
-            power: [ .2, .15 ],
-            shieldboost: [ .18, .24 ]
+            components: {
+              "Electrochemical Arrays": 1,
+              "Inconsistent Shield Soak Analysis": 1,
+              Tin: 1
+            },
+            features: {
+              integrity: [ .09, .12 ],
+              mass: [ 2.5, 2 ],
+              power: [ .2, .15 ],
+              shieldboost: [ .18, .24 ]
+            }
           },
           "5": {
-            integrity: [ .12, .15 ],
-            mass: [ 3, 2.5 ],
-            power: [ .25, .2 ],
-            shieldboost: [ .23, .3 ]
+            components: {
+              Antimony: 1,
+              "Polymer Capacitors": 1,
+              "Untypical Shield Scans": 1
+            },
+            features: {
+              integrity: [ .12, .15 ],
+              mass: [ 3, 2.5 ],
+              power: [ .25, .2 ],
+              shieldboost: [ .23, .3 ]
+            }
           }
         },
+        id: 69,
         name: "Heavy duty"
       },
       ShieldBooster_Kinetic: {
-        id: 70,
-        features: {
+        grades: {
           "1": {
-            explres: [ -.02, 0 ],
-            kinres: [ .02, .05 ],
-            thermres: [ -.02, 0 ]
+            components: {
+              Iron: 1
+            },
+            features: {
+              explres: [ -.02, 0 ],
+              kinres: [ .02, .05 ],
+              thermres: [ -.02, 0 ]
+            }
           },
           "2": {
-            explres: [ -.03, -.01 ],
-            kinres: [ .07, .1 ],
-            thermres: [ -.03, -.01 ]
+            components: {
+              Germanium: 1,
+              "Grid Resistors": 1
+            },
+            features: {
+              explres: [ -.03, -.01 ],
+              kinres: [ .07, .1 ],
+              thermres: [ -.03, -.01 ]
+            }
           },
           "3": {
-            explres: [ -.04, -.02 ],
-            kinres: [ .12, .15 ],
-            thermres: [ -.05, -.02 ]
+            components: {
+              "Focus Crystals": 1,
+              "Hybrid Capacitors": 1,
+              "Salvaged Alloys": 1
+            },
+            features: {
+              explres: [ -.04, -.02 ],
+              kinres: [ .12, .15 ],
+              thermres: [ -.05, -.02 ]
+            }
           },
           "4": {
-            explres: [ -.05, -.03 ],
-            kinres: [ .17, -.2 ],
-            thermres: [ -.05, -.03 ]
+            components: {
+              "Galvanising Alloys": 1,
+              "Refined Focus Crystals": 1,
+              "Untypical Shield Scans": 1
+            },
+            features: {
+              explres: [ -.05, -.03 ],
+              kinres: [ .17, -.2 ],
+              thermres: [ -.05, -.03 ]
+            }
           },
           "5": {
-            explres: [ -.06, -.04 ],
-            kinres: [ .22, .25 ],
-            thermres: [ -.06, -.04 ]
+            components: {
+              "Aberrant Shield Pattern Analysis": 1,
+              "Exquisite Focus Crystals": 1,
+              "Phase Alloys": 1
+            },
+            features: {
+              explres: [ -.06, -.04 ],
+              kinres: [ .22, .25 ],
+              thermres: [ -.06, -.04 ]
+            }
           }
         },
+        id: 70,
         name: "Kinetic Resistant"
       },
       ShieldBooster_Resistive: {
-        id: 71,
-        features: {
+        grades: {
           "1": {
-            explres: [ .01, .03 ],
-            integrity: [ -.04, 0 ],
-            kinres: [ .01, .03 ],
-            power: [ .08, 0 ],
-            thermres: [ .01, .03 ]
+            components: {
+              Phosphorus: 1
+            },
+            features: {
+              explres: [ .01, .03 ],
+              integrity: [ -.04, 0 ],
+              kinres: [ .01, .03 ],
+              power: [ .08, 0 ],
+              thermres: [ .01, .03 ]
+            }
           },
           "2": {
-            explres: [ .025, .06 ],
-            integrity: [ -.08, -.02 ],
-            kinres: [ .025, .06 ],
-            power: [ .16, .04 ],
-            thermres: [ .025, .06 ]
+            components: {
+              "Conductive Components": 1,
+              Phosphorus: 1
+            },
+            features: {
+              explres: [ .025, .06 ],
+              integrity: [ -.08, -.02 ],
+              kinres: [ .025, .06 ],
+              power: [ .16, .04 ],
+              thermres: [ .025, .06 ]
+            }
           },
           "3": {
-            explres: [ .06, .075 ],
-            integrity: [ -.12, -.04 ],
-            kinres: [ .06, .075 ],
-            power: [ .24, .08 ],
-            thermres: [ .06, .075 ]
+            components: {
+              "Conductive Components": 1,
+              "Focus Crystals": 1,
+              Phosphorus: 1
+            },
+            features: {
+              explres: [ .06, .075 ],
+              integrity: [ -.12, -.04 ],
+              kinres: [ .06, .075 ],
+              power: [ .24, .08 ],
+              thermres: [ .06, .075 ]
+            }
           },
           "4": {
-            explres: [ .075, .11 ],
-            integrity: [ -.16, -.06 ],
-            kinres: [ .075, .11 ],
-            power: [ .32, .12 ],
-            thermres: [ .075, .11 ]
+            components: {
+              "Conductive Ceramics": 1,
+              Manganese: 1,
+              "Refined Focus Crystals": 1
+            },
+            features: {
+              explres: [ .075, .11 ],
+              integrity: [ -.16, -.06 ],
+              kinres: [ .075, .11 ],
+              power: [ .32, .12 ],
+              thermres: [ .075, .11 ]
+            }
           },
           "5": {
-            explres: [ .1, .125 ],
-            integrity: [ -.2, -.08 ],
-            kinres: [ .1, .125 ],
-            power: [ .4, .16 ],
-            thermres: [ .1, .125 ]
+            components: {
+              "Conductive Ceramics": 1,
+              "Imperial Shielding": 1,
+              "Refined Focus Crystals": 1
+            },
+            features: {
+              explres: [ .1, .125 ],
+              integrity: [ -.2, -.08 ],
+              kinres: [ .1, .125 ],
+              power: [ .4, .16 ],
+              thermres: [ .1, .125 ]
+            }
           }
         },
+        id: 71,
         name: "Resistance augmented"
       },
       ShieldBooster_Thermic: {
-        id: 72,
-        features: {
+        grades: {
           "1": {
-            explres: [ -.02, 0 ],
-            kinres: [ -.02, 0 ],
-            thermres: [ .02, .05 ]
+            components: {
+              Iron: 1
+            },
+            features: {
+              explres: [ -.02, 0 ],
+              kinres: [ -.02, 0 ],
+              thermres: [ .02, .05 ]
+            }
           },
           "2": {
-            explres: [ -.03, -.01 ],
-            kinres: [ -.03, -.01 ],
-            thermres: [ .07, .1 ]
+            components: {
+              Germanium: 1,
+              "Heat Conduction Wiring": 1
+            },
+            features: {
+              explres: [ -.03, -.01 ],
+              kinres: [ -.03, -.01 ],
+              thermres: [ .07, .1 ]
+            }
           },
           "3": {
-            explres: [ -.04, -.02 ],
-            kinres: [ -.04, -.04 ],
-            thermres: [ .12, .15 ]
+            components: {
+              "Focus Crystals": 1,
+              "Heat Conduction Wiring": 1,
+              "Heat Dispersion Plate": 1
+            },
+            features: {
+              explres: [ -.04, -.02 ],
+              kinres: [ -.04, -.04 ],
+              thermres: [ .12, .15 ]
+            }
           },
           "4": {
-            explres: [ -.05, -.03 ],
-            kinres: [ -.05, -.03 ],
-            thermres: [ .17, .2 ]
+            components: {
+              "Heat Dispersion Plate": 1,
+              "Refined Focus Crystals": 1,
+              "Untypical Shield Scans": 1
+            },
+            features: {
+              explres: [ -.05, -.03 ],
+              kinres: [ -.05, -.03 ],
+              thermres: [ .17, .2 ]
+            }
           },
           "5": {
-            explres: [ -.06, -.04 ],
-            kinres: [ -.06, -.04 ],
-            thermres: [ .22, .25 ]
+            components: {
+              "Aberrant Shield Pattern Analysis": 1,
+              "Exquisite Focus Crystals": 1,
+              "Heat Exchangers": 1
+            },
+            features: {
+              explres: [ -.06, -.04 ],
+              kinres: [ -.06, -.04 ],
+              thermres: [ .22, .25 ]
+            }
           }
         },
+        id: 72,
         name: "Thermal Resistant"
       },
       ShieldCellBank_Rapid: {
-        id: 73,
-        features: {
+        grades: {
           "1": {
-            boot: [ .1, 0 ],
-            duration: [ -.1, 0 ],
-            shieldreinforcement: [ 0, .03 ],
-            spinup: [ -.05, -.1 ]
+            components: {
+              Sulphur: 1
+            },
+            features: {
+              boot: [ .1, 0 ],
+              duration: [ -.1, 0 ],
+              shieldreinforcement: [ 0, .03 ],
+              spinup: [ -.05, -.1 ]
+            }
           },
           "2": {
-            boot: [ .2, .05 ],
-            duration: [ -.2, -.05 ],
-            shieldreinforcement: [ .02, .06 ],
-            spinup: [ -.1, -.2 ]
+            components: {
+              Chromium: 1,
+              "Grid Resistors": 1
+            },
+            features: {
+              boot: [ .2, .05 ],
+              duration: [ -.2, -.05 ],
+              shieldreinforcement: [ .02, .06 ],
+              spinup: [ -.1, -.2 ]
+            }
           },
           "3": {
-            boot: [ .3, .1 ],
-            duration: [ -.3, -.1 ],
-            shieldreinforcement: [ .04, .09 ],
-            spinup: [ -.2, -.3 ]
-          },
-          "4": {
-            boot: [ .4, .15 ],
-            duration: [ -.4, -.15 ],
-            shieldreinforcement: [ .06, .12 ],
-            spinup: [ -.3, -.4 ]
+            components: {
+              "Hybrid Capacitors": 1,
+              "Precipitated Alloys": 1,
+              Sulphur: 1
+            },
+            features: {
+              boot: [ .3, .1 ],
+              duration: [ -.3, -.1 ],
+              shieldreinforcement: [ .04, .09 ],
+              spinup: [ -.2, -.3 ]
+            }
           }
         },
+        id: 73,
         name: "Rapid charge"
       },
       ShieldCellBank_Specialised: {
-        id: 74,
-        features: {
+        grades: {
           "1": {
-            boot: [ -.04, -.08 ],
-            integrity: [ -.1, 0 ],
-            power: [ .1, 0 ],
-            thermload: [ -.03, -.06 ]
+            components: {
+              Sulphur: 1
+            },
+            features: {
+              boot: [ -.04, -.08 ],
+              integrity: [ -.1, 0 ],
+              power: [ .1, 0 ],
+              thermload: [ -.03, -.06 ]
+            }
           },
           "2": {
-            boot: [ -.08, -.16 ],
-            integrity: [ -.2, -.05 ],
-            power: [ .2, .05 ],
-            thermload: [ -.06, -.12 ]
+            components: {
+              Chromium: 1,
+              "Grid Resistors": 1
+            },
+            features: {
+              boot: [ -.08, -.16 ],
+              integrity: [ -.2, -.05 ],
+              power: [ .2, .05 ],
+              thermload: [ -.06, -.12 ]
+            }
           },
           "3": {
-            boot: [ -.12, -.26 ],
-            integrity: [ -.3, -.1 ],
-            power: [ .3, .1 ],
-            thermload: [ -.09, -.18 ]
-          },
-          "4": {
-            boot: [ -.16, -.32 ],
-            integrity: [ -.3, -.15 ],
-            power: [ .4, .15 ],
-            thermload: [ -.12, -.24 ]
+            components: {
+              "Hybrid Capacitors": 1,
+              "Precipitated Alloys": 1,
+              Sulphur: 1
+            },
+            features: {
+              boot: [ -.12, -.26 ],
+              integrity: [ -.3, -.1 ],
+              power: [ .3, .1 ],
+              thermload: [ -.09, -.18 ]
+            }
           }
         },
+        id: 74,
         name: "Specialised"
       },
       ShieldGenerator_Kinetic: {
-        id: 75,
-        features: {
+        grades: {
           "1": {
-            integrity: [ 0, .2 ],
-            kinres: [ .05, .1 ],
-            thermres: [ -.05, 0 ]
+            components: {
+              "Distorted Shield Cycle Recordings": 1
+            },
+            features: {
+              integrity: [ 0, .2 ],
+              kinres: [ .05, .1 ],
+              thermres: [ -.05, 0 ]
+            }
           },
           "2": {
-            integrity: [ .05, .25 ],
-            kinres: [ .07, .2 ],
-            thermres: [ -.1, -.02 ]
+            components: {
+              "Distorted Shield Cycle Recordings": 1,
+              "Modified Consumer Firmware": 1
+            },
+            features: {
+              integrity: [ .05, .25 ],
+              kinres: [ .07, .2 ],
+              thermres: [ -.1, -.02 ]
+            }
           },
           "3": {
-            integrity: [ .1, .2 ],
-            kinres: [ .09, .2 ],
-            thermres: [ -.15, -.04 ]
+            components: {
+              "Distorted Shield Cycle Recordings": 1,
+              "Modified Consumer Firmware": 1,
+              Selenium: 1
+            },
+            features: {
+              integrity: [ .1, .2 ],
+              kinres: [ .09, .2 ],
+              thermres: [ -.15, -.04 ]
+            }
           },
           "4": {
-            integrity: [ .15, .35 ],
-            kinres: [ .11, .2 ],
-            thermres: [ -.2, -.06 ]
+            components: {
+              "Focus Crystals": 1,
+              "Inconsistent Shield Soak Analysis": 1,
+              Mercury: 1
+            },
+            features: {
+              integrity: [ .15, .35 ],
+              kinres: [ .11, .2 ],
+              thermres: [ -.2, -.06 ]
+            }
           },
           "5": {
-            integrity: [ .2, .4 ],
-            kinres: [ .13, .5 ],
-            thermres: [ -.25, -.08 ]
+            components: {
+              "Refined Focus Crystals": 1,
+              Ruthenium: 1,
+              "Untypical Shield Scans": 1
+            },
+            features: {
+              integrity: [ .2, .4 ],
+              kinres: [ .13, .5 ],
+              thermres: [ -.25, -.08 ]
+            }
           }
         },
+        id: 75,
         name: "Kinetic Resistant"
       },
       ShieldGenerator_Optimised: {
-        id: 76,
-        features: {
+        grades: {
           "1": {
-            integrity: [ -.1, -.05 ],
-            mass: [ 0, -.08 ],
-            optmass: [ -.03, 0 ],
-            power: [ -.12, -.2 ]
+            components: {
+              "Distorted Shield Cycle Recordings": 1
+            },
+            features: {
+              integrity: [ -.1, -.05 ],
+              mass: [ 0, -.08 ],
+              optmass: [ -.03, 0 ],
+              power: [ -.12, -.2 ]
+            }
           },
           "2": {
-            integrity: [ -.2, -.1 ],
-            mass: [ -.04, -.16 ],
-            optmass: [ -.06, -.01 ],
-            power: [ -.14, -.25 ]
+            components: {
+              "Distorted Shield Cycle Recordings": 1,
+              Germanium: 1
+            },
+            features: {
+              integrity: [ -.2, -.1 ],
+              mass: [ -.04, -.16 ],
+              optmass: [ -.06, -.01 ],
+              power: [ -.14, -.25 ]
+            }
           },
           "3": {
-            integrity: [ -.3, -.15 ],
-            mass: [ -.08, -.24 ],
-            optmass: [ -.09, -.02 ],
-            optmul: [ 0, .02 ],
-            power: [ -.16, -.3 ]
+            components: {
+              "Distorted Shield Cycle Recordings": 1,
+              Germanium: 1,
+              "Precipitated Alloys": 1
+            },
+            features: {
+              integrity: [ -.3, -.15 ],
+              mass: [ -.08, -.24 ],
+              optmass: [ -.09, -.02 ],
+              optmul: [ 0, .02 ],
+              power: [ -.16, -.3 ]
+            }
           },
           "4": {
-            integrity: [ -.4, -.2 ],
-            mass: [ -.12, -.32 ],
-            optmass: [ -.12, -.03 ],
-            optmul: [ 0, .04 ],
-            power: [ -.18, -.35 ]
+            components: {
+              "Inconsistent Shield Soak Analysis": 1,
+              Niobium: 1,
+              "Thermic Alloys": 1
+            },
+            features: {
+              integrity: [ -.4, -.2 ],
+              mass: [ -.12, -.32 ],
+              optmass: [ -.12, -.03 ],
+              optmul: [ 0, .04 ],
+              power: [ -.18, -.35 ]
+            }
           },
           "5": {
-            integrity: [ -.5, -.25 ],
-            mass: [ -.16, -.4 ],
-            optmass: [ -.15, -.04 ],
-            optmul: [ 0, .06 ],
-            power: [ -.2, -.4 ]
+            components: {
+              "Military Grade Alloys": 1,
+              Tin: 1,
+              "Untypical Shield Scans": 1
+            },
+            features: {
+              integrity: [ -.5, -.25 ],
+              mass: [ -.16, -.4 ],
+              optmass: [ -.15, -.04 ],
+              optmul: [ 0, .06 ],
+              power: [ -.2, -.4 ]
+            }
           }
         },
+        id: 76,
         name: "Enhanced low power"
       },
       ShieldGenerator_Reinforced: {
-        id: 77,
-        features: {
+        grades: {
           "1": {
-            brokenregen: [ -.21, -.15 ],
-            explres: [ 0, .03 ],
-            kinres: [ 0, .03 ],
-            optmul: [ .05, .1 ],
-            thermres: [ 0, .03 ]
+            components: {
+              Phosphorus: 1
+            },
+            features: {
+              brokenregen: [ -.21, -.15 ],
+              explres: [ 0, .03 ],
+              kinres: [ 0, .03 ],
+              optmul: [ .05, .1 ],
+              thermres: [ 0, .03 ]
+            }
           },
           "2": {
-            brokenregen: [ -.24, -.12 ],
-            explres: [ .02, .06 ],
-            kinres: [ .02, .06 ],
-            optmul: [ .07, .15 ],
-            regen: [ -.06, -.04 ],
-            thermres: [ .02, .06 ]
+            components: {
+              "Conductive Components": 1,
+              Phosphorus: 1
+            },
+            features: {
+              brokenregen: [ -.24, -.12 ],
+              explres: [ .02, .06 ],
+              kinres: [ .02, .06 ],
+              optmul: [ .07, .15 ],
+              regen: [ -.06, -.04 ],
+              thermres: [ .02, .06 ]
+            }
           },
           "3": {
-            brokenregen: [ -.27, -.09 ],
-            distdraw: [ .05, 0 ],
-            explres: [ .04, .09 ],
-            kinres: [ .04, .06 ],
-            optmul: [ .09, .2 ],
-            regen: [ -.09, -.03 ],
-            thermres: [ .04, .09 ]
+            components: {
+              "Conductive Components": 1,
+              "Mechanical Components": 1,
+              Phosphorus: 1
+            },
+            features: {
+              brokenregen: [ -.27, -.09 ],
+              distdraw: [ .05, 0 ],
+              explres: [ .04, .09 ],
+              kinres: [ .04, .06 ],
+              optmul: [ .09, .2 ],
+              regen: [ -.09, -.03 ],
+              thermres: [ .04, .09 ]
+            }
           },
           "4": {
-            brokenregen: [ -.3, -.06 ],
-            distdraw: [ .1, .05 ],
-            explres: [ .06, .12 ],
-            kinres: [ .06, .12 ],
-            optmul: [ .11, .25 ],
-            regen: [ -.12, -.02 ],
-            thermres: [ .06, .12 ]
+            components: {
+              "Conductive Ceramics": 1,
+              "Configurable Components": 1,
+              Manganese: 1
+            },
+            features: {
+              brokenregen: [ -.3, -.06 ],
+              distdraw: [ .1, .05 ],
+              explres: [ .06, .12 ],
+              kinres: [ .06, .12 ],
+              optmul: [ .11, .25 ],
+              regen: [ -.12, -.02 ],
+              thermres: [ .06, .12 ]
+            }
           },
           "5": {
-            brokenregen: [ -.33, -.03 ],
-            distdraw: [ .15, .1 ],
-            explres: [ .08, .15 ],
-            kinres: [ .08, .15 ],
-            optmul: [ .13, .3 ],
-            regen: [ -.15, -.01 ],
-            thermres: [ .08, .15 ]
+            components: {
+              Arsenic: 1,
+              "Conductive Polymers": 1,
+              "Improvised Components": 1
+            },
+            features: {
+              brokenregen: [ -.33, -.03 ],
+              distdraw: [ .15, .1 ],
+              explres: [ .08, .15 ],
+              kinres: [ .08, .15 ],
+              optmul: [ .13, .3 ],
+              regen: [ -.15, -.01 ],
+              thermres: [ .08, .15 ]
+            }
           }
         },
+        id: 77,
         name: "Reinforced"
       },
       ShieldGenerator_Thermic: {
-        id: 78,
-        features: {
+        grades: {
           "1": {
-            integrity: [ 0, .2 ],
-            kinres: [ -.05, 0 ],
-            thermres: [ .05, .1 ]
+            components: {
+              "Distorted Shield Cycle Recordings": 1
+            },
+            features: {
+              integrity: [ 0, .2 ],
+              kinres: [ -.05, 0 ],
+              thermres: [ .05, .1 ]
+            }
           },
           "2": {
-            integrity: [ .05, .25 ],
-            kinres: [ -.1, -.02 ],
-            thermres: [ .07, .2 ]
+            components: {
+              "Distorted Shield Cycle Recordings": 1,
+              Germanium: 1
+            },
+            features: {
+              integrity: [ .05, .25 ],
+              kinres: [ -.1, -.02 ],
+              thermres: [ .07, .2 ]
+            }
           },
           "3": {
-            integrity: [ .1, .3 ],
-            kinres: [ -.15, -.04 ],
-            thermres: [ .09, .3 ]
+            components: {
+              "Distorted Shield Cycle Recordings": 1,
+              Germanium: 1,
+              Selenium: 1
+            },
+            features: {
+              integrity: [ .1, .3 ],
+              kinres: [ -.15, -.04 ],
+              thermres: [ .09, .3 ]
+            }
           },
           "4": {
-            integrity: [ .15, .35 ],
-            kinres: [ -.2, -.06 ],
-            thermres: [ .11, .4 ]
+            components: {
+              "Focus Crystals": 1,
+              "Inconsistent Shield Soak Analysis": 1,
+              Mercury: 1
+            },
+            features: {
+              integrity: [ .15, .35 ],
+              kinres: [ -.2, -.06 ],
+              thermres: [ .11, .4 ]
+            }
           },
           "5": {
-            integrity: [ .2, .4 ],
-            kinres: [ -.25, -.08 ],
-            thermres: [ .13, .5 ]
+            components: {
+              "Refined Focus Crystals": 1,
+              Ruthenium: 1,
+              "Untypical Shield Scans": 1
+            },
+            features: {
+              integrity: [ .2, .4 ],
+              kinres: [ -.25, -.08 ],
+              thermres: [ .13, .5 ]
+            }
           }
         },
+        id: 78,
         name: "Thermal Resistant"
       },
       WakeScanner_LightWeight: {
+        grades: {
+          "1": {
+            components: {
+              Phosphorus: 1
+            },
+            features: {
+              integrity: [ -.2, -.1 ],
+              mass: [ -.3, -.4 ]
+            }
+          },
+          "2": {
+            components: {
+              Manganese: 1,
+              "Salvaged Alloys": 1
+            },
+            features: {
+              integrity: [ -.3, -.2 ],
+              mass: [ -.4, -.5 ]
+            }
+          },
+          "3": {
+            components: {
+              "Conductive Ceramics": 1,
+              Manganese: 1,
+              "Salvaged Alloys": 1
+            },
+            features: {
+              integrity: [ -.4, -.3 ],
+              mass: [ -.5, -.6 ]
+            }
+          }
+        },
         id: 79,
-        components: {
-          "1": {
-            Phosphorus: 1
-          },
-          "2": {
-            Manganese: 1,
-            "Salvaged Alloys": 1
-          },
-          "3": {
-            "Conductive Ceramics": 1,
-            Manganese: 1,
-            "Salvaged Alloys": 1
-          }
-        },
-        features: {
-          "1": {
-            integrity: [ -.2, -.1 ],
-            mass: [ -.3, -.4 ]
-          },
-          "2": {
-            integrity: [ -.3, -.2 ],
-            mass: [ -.4, -.5 ]
-          },
-          "3": {
-            integrity: [ -.4, -.3 ],
-            mass: [ -.5, -.6 ]
-          }
-        },
         name: "Lightweight"
       },
-      WakeScanner_Shielded: {
-        id: 80,
-        components: {
-          "1": {
-            "Worn Shield Emitters": 1
-          },
-          "2": {
-            Carbon: 1,
-            "Shield Emitters": 1
-          },
-          "3": {
-            Carbon: 1,
-            "High Density Composites": 1,
-            "Shield Emitters": 1
-          }
-        },
-        features: {
-          "1": {
-            integrity: [ .2, .5 ],
-            power: [ .3, .2 ]
-          },
-          "2": {
-            integrity: [ .4, 1 ],
-            power: [ .6, .4 ]
-          },
-          "3": {
-            integrity: [ .6, 1.5 ],
-            power: [ .9, .6 ]
-          }
-        },
-        name: "Shielded"
-      },
       WakeScanner_Reinforced: {
+        grades: {
+          "1": {
+            components: {
+              Nickel: 1
+            },
+            features: {
+              integrity: [ .2, .5 ],
+              mass: [ 1, .4 ]
+            }
+          },
+          "2": {
+            components: {
+              Nickel: 1,
+              "Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .4, 1 ],
+              mass: [ 1.5, .8 ]
+            }
+          },
+          "3": {
+            components: {
+              Nickel: 1,
+              "Shield Emitters": 1,
+              Tungsten: 1
+            },
+            features: {
+              integrity: [ .6, 1.5 ],
+              mass: [ 2, 1.2 ]
+            }
+          }
+        },
         id: 81,
-        components: {
-          "1": {
-            Nickel: 1
-          },
-          "2": {
-            Nickel: 1,
-            "Shield Emitters": 1
-          },
-          "3": {
-            Nickel: 1,
-            "Shield Emitters": 1,
-            Tungsten: 1
-          }
-        },
-        features: {
-          "1": {
-            integrity: [ .2, .5 ],
-            mass: [ 1, .4 ]
-          },
-          "2": {
-            integrity: [ .4, 1 ],
-            mass: [ 1.5, .8 ]
-          },
-          "3": {
-            integrity: [ .6, 1.5 ],
-            mass: [ 2, 1.2 ]
-          }
-        },
         name: "Reinforced"
       },
+      WakeScanner_Shielded: {
+        grades: {
+          "1": {
+            components: {
+              "Worn Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .2, .5 ],
+              power: [ .3, .2 ]
+            }
+          },
+          "2": {
+            components: {
+              Carbon: 1,
+              "Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .4, 1 ],
+              power: [ .6, .4 ]
+            }
+          },
+          "3": {
+            components: {
+              Carbon: 1,
+              "High Density Composites": 1,
+              "Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .6, 1.5 ],
+              power: [ .9, .6 ]
+            }
+          }
+        },
+        id: 80,
+        name: "Shielded"
+      },
       Weapon_DoubleShot: {
+        grades: {
+          "1": {
+            components: {
+              Carbon: 1
+            },
+            features: {
+              burst: [ 2, 2 ],
+              burstrof: [ 10, 15 ],
+              clip: [ .34, .34 ],
+              range: [ -.25, -.1 ]
+            }
+          },
+          "2": {
+            components: {
+              Carbon: 1,
+              "Mechanical Equipment": 1
+            },
+            features: {
+              burst: [ 2, 2 ],
+              burstrof: [ 11, 16 ],
+              clip: [ .34, .34 ],
+              range: [ -.2, -.08 ]
+            }
+          },
+          "3": {
+            components: {
+              Carbon: 1,
+              "Cracked Industrial Firmware": 1,
+              "Mechanical Equipment": 1
+            },
+            features: {
+              burst: [ 2, 2 ],
+              burstrof: [ 12, 17 ],
+              clip: [ .34, 1 ],
+              range: [ -.15, -.06 ]
+            }
+          },
+          "4": {
+            components: {
+              "Mechanical Components": 1,
+              "Security Firmware Patch": 1,
+              Vanadium: 1
+            },
+            features: {
+              burst: [ 2, 2 ],
+              burstrof: [ 13, 18 ],
+              clip: [ 1, 1 ],
+              range: [ -.1, -.04 ]
+            }
+          },
+          "5": {
+            components: {
+              "Configurable Components": 1,
+              "High Density Composites": 1,
+              "Modified Embedded Firmware": 1
+            },
+            features: {
+              burst: [ 2, 2 ],
+              burstrof: [ 14, 19 ],
+              clip: [ 1, 1 ],
+              range: [ -.5, -.02 ]
+            }
+          }
+        },
         id: 82,
-        components: {
-          "1": {
-            Carbon: 1
-          },
-          "2": {
-            Carbon: 1,
-            "Mechanical Equipment": 1
-          },
-          "3": {
-            Carbon: 1,
-            "Cracked Industrial Firmware": 1,
-            "Mechanical Equipment": 1
-          },
-          "4": {
-            "Mechanical Components": 1,
-            "Security Firmware Patch": 1,
-            Vanadium: 1
-          },
-          "5": {
-            "Configurable Components": 1,
-            "High Density Composites": 1,
-            "Modified Embedded Firmware": 1
-          }
-        },
-        features: {
-          "1": {
-            burst: [ 2, 2 ],
-            burstrof: [ 10, 15 ],
-            clip: [ .34, .34 ],
-            range: [ -.25, -.1 ]
-          },
-          "2": {
-            burst: [ 2, 2 ],
-            burstrof: [ 11, 16 ],
-            clip: [ .34, .34 ],
-            range: [ -.2, -.08 ]
-          },
-          "3": {
-            burst: [ 2, 2 ],
-            burstrof: [ 12, 17 ],
-            clip: [ .34, 1 ],
-            range: [ -.15, -.06 ]
-          },
-          "4": {
-            burst: [ 2, 2 ],
-            burstrof: [ 13, 18 ],
-            clip: [ 1, 1 ],
-            range: [ -.1, -.04 ]
-          },
-          "5": {
-            burst: [ 2, 2 ],
-            burstrof: [ 14, 19 ],
-            clip: [ 1, 1 ],
-            range: [ -.5, -.02 ]
-          }
-        },
         name: "Double shot"
       },
       Weapon_Efficient: {
+        grades: {
+          "1": {
+            components: {
+              Sulphur: 1
+            },
+            features: {
+              damage: [ 0, .04 ],
+              thermload: [ -.31, -.4 ]
+            }
+          },
+          "2": {
+            components: {
+              "Heat Dispersion Plate": 1,
+              Sulphur: 1
+            },
+            features: {
+              damage: [ .01, .05 ],
+              power: [ 0, -.1 ],
+              thermload: [ -.36, -.45 ]
+            }
+          },
+          "3": {
+            components: {
+              Chromium: 1,
+              "Exceptional Scrambed Emission Data": 1,
+              "Heat Exchangers": 1
+            },
+            features: {
+              damage: [ .01, .07 ],
+              distdraw: [ -.15, -.25 ],
+              power: [ -.06, -.2 ],
+              thermload: [ -.4, -.5 ]
+            }
+          },
+          "4": {
+            components: {
+              "Heat Vanes": 1,
+              "Irregular Emission Data": 1,
+              Selenium: 1
+            },
+            features: {
+              damage: [ .03, .08 ],
+              distdraw: [ -.2, -.3 ],
+              power: [ -.1, -.31 ],
+              thermload: [ -.45, -.55 ]
+            }
+          },
+          "5": {
+            components: {
+              Cadmium: 1,
+              "Heatsink Interlink": 1,
+              "Proto Heat Radiators": 1
+            },
+            features: {
+              damage: [ .03, .09 ],
+              distdraw: [ -.25, -.36 ],
+              power: [ -.14, -.4 ],
+              thermload: [ -.5, -.61 ]
+            }
+          }
+        },
         id: 83,
-        components: {
-          "1": {
-            Sulphur: 1
-          },
-          "2": {
-            "Heat Dispersion Plate": 1,
-            Sulphur: 1
-          },
-          "3": {
-            Chromium: 1,
-            "Exceptional Scrambed Emission Data": 1,
-            "Heat Exchangers": 1
-          },
-          "4": {
-            "Heat Vanes": 1,
-            "Irregular Emission Data": 1,
-            Selenium: 1
-          },
-          "5": {
-            Cadmium: 1,
-            "Proto Heat Radiators": 1,
-            "Heatsink Interlink": 1
-          }
-        },
-        features: {
-          "1": {
-            damage: [ 0, .04 ],
-            thermload: [ -.31, -.4 ]
-          },
-          "2": {
-            damage: [ .01, .05 ],
-            power: [ 0, -.1 ],
-            thermload: [ -.36, -.45 ]
-          },
-          "3": {
-            damage: [ .01, .07 ],
-            distdraw: [ -.15, -.25 ],
-            power: [ -.06, -.2 ],
-            thermload: [ -.4, -.5 ]
-          },
-          "4": {
-            damage: [ .03, .08 ],
-            distdraw: [ -.2, -.3 ],
-            power: [ -.1, -.31 ],
-            thermload: [ -.45, -.55 ]
-          },
-          "5": {
-            damage: [ .03, .09 ],
-            distdraw: [ -.25, -.36 ],
-            power: [ -.14, -.4 ],
-            thermload: [ -.5, -.61 ]
-          }
-        },
         name: "Efficient"
       },
       Weapon_Focused: {
+        grades: {
+          "1": {
+            components: {
+              Iron: 1
+            },
+            features: {
+              range: [ .1, .2 ],
+              rof: [ -.17, -.08 ],
+              thermload: [ .5, .39 ]
+            }
+          },
+          "2": {
+            components: {
+              "Conductive Components": 1,
+              Iron: 1
+            },
+            features: {
+              piercing: [ 0, .1 ],
+              range: [ .2, .39 ],
+              rof: [ -.14, -.06 ],
+              thermload: [ .39, .31 ]
+            }
+          },
+          "3": {
+            components: {
+              Chromium: 1,
+              "Conductive Ceramics": 1,
+              Iron: 1
+            },
+            features: {
+              piercing: [ .1, .2 ],
+              range: [ .29, .61 ],
+              rof: [ -.11, -.04 ],
+              thermload: [ .31, .2 ]
+            }
+          },
+          "4": {
+            components: {
+              "Focus Crystals": 1,
+              Germanium: 1,
+              "Polymer Capacitors": 1
+            },
+            features: {
+              piercing: [ .2, .39 ],
+              range: [ .39, .79 ],
+              rof: [ -.08, -.02 ],
+              thermload: [ -.2, -.1 ]
+            }
+          },
+          "5": {
+            components: {
+              "Military Supercapacitors": 1,
+              Niobium: 1,
+              "Refined Focus Crystals": 1
+            },
+            features: {
+              piercing: [ .29, .61 ],
+              range: [ .5, 1 ],
+              rof: [ -.04, 0 ],
+              thermload: [ .1, 0 ]
+            }
+          }
+        },
         id: 84,
-        components: {
-          "1": {
-            Iron: 1
-          },
-          "2": {
-            "Conductive Components": 1,
-            Iron: 1
-          },
-          "3": {
-            Chromium: 1,
-            "Conductive Ceramics": 1,
-            Iron: 1
-          },
-          "4": {
-            "Focus Crystals": 1,
-            Germanium: 1,
-            "Polymer Capacitors": 1
-          },
-          "5": {
-            "Military Supercapacitors": 1,
-            Niobium: 1,
-            "Refined Focus Crystals": 1
-          }
-        },
-        features: {
-          "1": {
-            range: [ .1, .2 ],
-            rof: [ -.17, -.08 ],
-            thermload: [ .5, .39 ]
-          },
-          "2": {
-            piercing: [ 0, .1 ],
-            range: [ .2, .39 ],
-            rof: [ -.14, -.06 ],
-            thermload: [ .39, .31 ]
-          },
-          "3": {
-            piercing: [ .1, .2 ],
-            range: [ .29, .61 ],
-            rof: [ -.11, -.04 ],
-            thermload: [ .31, .2 ]
-          },
-          "4": {
-            piercing: [ .2, .39 ],
-            range: [ .39, .79 ],
-            rof: [ -.08, -.02 ],
-            thermload: [ -.2, -.1 ]
-          },
-          "5": {
-            piercing: [ .29, .61 ],
-            range: [ .5, 1 ],
-            rof: [ -.04, 0 ],
-            thermload: [ .1, 0 ]
-          }
-        },
         name: "Focused"
       },
       Weapon_HighCapacity: {
+        grades: {
+          "1": {
+            components: {
+              "Mechanical Scrap": 1
+            },
+            features: {
+              ammo: [ .1, .59 ],
+              clip: [ .1, .59 ],
+              mass: [ .25, .1 ],
+              power: [ .2, .1 ],
+              reload: [ .2, 0 ]
+            }
+          },
+          "2": {
+            components: {
+              "Mechanical Scrap": 1,
+              Vanadium: 1
+            },
+            features: {
+              ammo: [ .19, .69 ],
+              clip: [ .2, .69 ],
+              mass: [ .5, .2 ],
+              power: [ .25, .14 ],
+              reload: [ .39, .1 ]
+            }
+          },
+          "3": {
+            components: {
+              "Mechanical Scrap": 1,
+              Niobium: 1,
+              Vanadium: 1
+            },
+            features: {
+              ammo: [ .29, .79 ],
+              clip: [ .29, .79 ],
+              mass: [ .75, .29 ],
+              power: [ .31, .2 ],
+              reload: [ .61, .2 ]
+            }
+          },
+          "4": {
+            components: {
+              "High Density Composites": 1,
+              "Mechanical Equipment": 1,
+              Tin: 1
+            },
+            features: {
+              ammo: [ .39, .89 ],
+              clip: [ .39, .89 ],
+              mass: [ 1, .39 ],
+              power: [ .35, .25 ],
+              reload: [ .79, .29 ]
+            }
+          },
+          "5": {
+            components: {
+              "Mechanical Components": 1,
+              "Military Supercapacitors": 1,
+              "Proprietary Composites": 1
+            },
+            features: {
+              ammo: [ .5, 1 ],
+              clip: [ .5, 1 ],
+              mass: [ 1.25, .5 ],
+              power: [ .39, .31 ],
+              reload: [ 1, .39 ]
+            }
+          }
+        },
         id: 85,
-        components: {
-          "1": {
-            "Mechanical Scrap": 1
-          },
-          "2": {
-            "Mechanical Scrap": 1,
-            Vanadium: 1
-          },
-          "3": {
-            "Mechanical Scrap": 1,
-            Niobium: 1,
-            Vanadium: 1
-          },
-          "4": {
-            "High Density Composites": 1,
-            "Mechanical Equipment": 1,
-            Tin: 1
-          },
-          "5": {
-            "Mechanical Components": 1,
-            "Military Supercapacitors": 1,
-            "Proprietary Composites": 1
-          }
-        },
-        features: {
-          "1": {
-            ammo: [ .1, .59 ],
-            clip: [ .1, .59 ],
-            mass: [ .25, .1 ],
-            reload: [ .2, 0 ],
-            power: [ .2, .1 ]
-          },
-          "2": {
-            ammo: [ .19, .69 ],
-            clip: [ .2, .69 ],
-            mass: [ .5, .2 ],
-            reload: [ .39, .1 ],
-            power: [ .25, .14 ]
-          },
-          "3": {
-            ammo: [ .29, .79 ],
-            clip: [ .29, .79 ],
-            mass: [ .75, .29 ],
-            reload: [ .61, .2 ],
-            power: [ .31, .2 ]
-          },
-          "4": {
-            ammo: [ .39, .89 ],
-            clip: [ .39, .89 ],
-            mass: [ 1, .39 ],
-            reload: [ .79, .29 ],
-            power: [ .35, .25 ]
-          },
-          "5": {
-            ammo: [ .5, 1 ],
-            clip: [ .5, 1 ],
-            mass: [ 1.25, .5 ],
-            reload: [ 1, .39 ],
-            power: [ .39, .31 ]
-          }
-        },
         name: "High capacity"
       },
       Weapon_LightWeight: {
+        grades: {
+          "1": {
+            components: {
+              Phosphorus: 1
+            },
+            features: {
+              distdraw: [ -.02, -.04 ],
+              integrity: [ -.2, 0 ],
+              mass: [ -.11, -.15 ],
+              power: [ -.02, -.04 ]
+            }
+          },
+          "2": {
+            components: {
+              Manganese: 1,
+              "Salvaged Alloys": 1
+            },
+            features: {
+              distdraw: [ -.04, -.08 ],
+              integrity: [ -.31, -.1 ],
+              mass: [ -.2, -.36 ],
+              power: [ -.04, -.08 ]
+            }
+          },
+          "3": {
+            components: {
+              "Conductive Ceramics": 1,
+              Manganese: 1,
+              "Salvaged Alloys": 1
+            },
+            features: {
+              distdraw: [ -.06, -.12 ],
+              integrity: [ -.4, -.2 ],
+              mass: [ -.31, -.55 ],
+              power: [ -.06, -.12 ]
+            }
+          },
+          "4": {
+            components: {
+              "Conductive Components": 1,
+              "Phase Alloys": 1,
+              "Proto Light Alloys": 1
+            },
+            features: {
+              distdraw: [ -.08, -.16 ],
+              integrity: [ -.5, -.31 ],
+              mass: [ -.4, -.75 ],
+              power: [ -.08, -.16 ]
+            }
+          },
+          "5": {
+            components: {
+              "Conductive Ceramics": 1,
+              "Proto Light Alloys": 1,
+              "Proto Radiolic Alloys": 1
+            },
+            features: {
+              distdraw: [ -.1, -.2 ],
+              integrity: [ -.61, -.4 ],
+              mass: [ -.5, -.9 ],
+              power: [ -.1, -.2 ]
+            }
+          }
+        },
         id: 86,
-        components: {
-          "1": {
-            Phosphorous: 1
-          },
-          "2": {
-            Manganese: 1,
-            "Salvaged Alloys": 1
-          },
-          "3": {
-            "Conductive Ceramics": 1,
-            Manganese: 1,
-            "Salvaged Alloys": 1
-          },
-          "4": {
-            "Conductive Components": 1,
-            "Phase Alloys": 1,
-            "Proto Light Alloys": 1
-          },
-          "5": {
-            "Conductive Ceramics": 1,
-            "Proto Light Alloys": 1,
-            "Proto Radiolic Alloys": 1
-          }
-        },
-        features: {
-          "1": {
-            distdraw: [ -.02, -.04 ],
-            integrity: [ -.2, 0 ],
-            mass: [ -.11, -.15 ],
-            power: [ -.02, -.04 ]
-          },
-          "2": {
-            distdraw: [ -.04, -.08 ],
-            integrity: [ -.31, -.1 ],
-            mass: [ -.2, -.36 ],
-            power: [ -.04, -.08 ]
-          },
-          "3": {
-            distdraw: [ -.06, -.12 ],
-            integrity: [ -.4, -.2 ],
-            mass: [ -.31, -.55 ],
-            power: [ -.06, -.12 ]
-          },
-          "4": {
-            distdraw: [ -.08, -.16 ],
-            integrity: [ -.5, -.31 ],
-            mass: [ -.4, -.75 ],
-            power: [ -.08, -.16 ]
-          },
-          "5": {
-            distdraw: [ -.1, -.2 ],
-            integrity: [ -.61, -.4 ],
-            mass: [ -.5, -.9 ],
-            power: [ -.1, -.2 ]
-          }
-        },
         name: "Lightweight"
       },
       Weapon_LongRange: {
+        grades: {
+          "1": {
+            components: {
+              Sulphur: 1
+            },
+            features: {
+              fallofffromrange: [ 1, 1 ],
+              mass: [ .1, 0 ],
+              range: [ .1, .2 ],
+              shotspeed: [ .1, .19 ]
+            }
+          },
+          "2": {
+            components: {
+              "Modified Consumer Firmware": 1,
+              Sulphur: 1
+            },
+            features: {
+              fallofffromrange: [ 1, 1 ],
+              mass: [ .2, .04 ],
+              power: [ .04, 0 ],
+              range: [ .2, .4 ],
+              shotspeed: [ .19, .39 ]
+            }
+          },
+          "3": {
+            components: {
+              "Focus Crystals": 1,
+              "Modified Consumer Firmware": 1,
+              Sulphur: 1
+            },
+            features: {
+              fallofffromrange: [ 1, 1 ],
+              mass: [ .29, .1 ],
+              power: [ .1, .04 ],
+              range: [ .31, .61 ],
+              shotspeed: [ .29, .59 ]
+            }
+          },
+          "4": {
+            components: {
+              "Conductive Polymers": 1,
+              "Focus Crystals": 1,
+              "Modified Consumer Firmware": 1
+            },
+            features: {
+              fallofffromrange: [ 1, 1 ],
+              mass: [ .39, .14 ],
+              power: [ .14, .1 ],
+              range: [ .4, .81 ],
+              shotspeed: [ .39, .79 ]
+            }
+          },
+          "5": {
+            components: {
+              "Biotech Conductors": 1,
+              "Cracked Industrial Firmware": 1,
+              "Thermic Alloys": 1
+            },
+            features: {
+              fallofffromrange: [ 1, 1 ],
+              mass: [ .5, .2 ],
+              power: [ .2, .14 ],
+              range: [ .5, 1 ],
+              shotspeed: [ .5, 1 ]
+            }
+          }
+        },
         id: 87,
-        components: {
-          "1": {
-            Sulphur: 1
-          },
-          "2": {
-            "Modified Consumer Firmware": 1,
-            Sulphur: 1
-          },
-          "3": {
-            "Focus Crystals": 1,
-            "Modified Consumer Firmware": 1,
-            Sulphur: 1
-          },
-          "4": {
-            "Conductive Polymers": 1,
-            "Focus Crystals": 1,
-            "Modified Consumer Firmware": 1
-          },
-          "5": {
-            "Biotech Conductors": 1,
-            "Cracked Industrial Firmware": 1,
-            "Thermic Alloys": 1
-          }
-        },
-        features: {
-          "1": {
-            fallofffromrange: [ 1, 1 ],
-            mass: [ .1, 0 ],
-            shotspeed: [ .1, .19 ],
-            range: [ .1, .2 ]
-          },
-          "2": {
-            fallofffromrange: [ 1, 1 ],
-            mass: [ .2, .04 ],
-            power: [ .04, 0 ],
-            shotspeed: [ .19, .39 ],
-            range: [ .2, .4 ]
-          },
-          "3": {
-            fallofffromrange: [ 1, 1 ],
-            mass: [ .29, .1 ],
-            power: [ .1, .04 ],
-            shotspeed: [ .29, .59 ],
-            range: [ .31, .61 ]
-          },
-          "4": {
-            fallofffromrange: [ 1, 1 ],
-            mass: [ .39, .14 ],
-            power: [ .14, .1 ],
-            shotspeed: [ .39, .79 ],
-            range: [ .4, .81 ]
-          },
-          "5": {
-            fallofffromrange: [ 1, 1 ],
-            mass: [ .5, .2 ],
-            power: [ .2, .14 ],
-            shotspeed: [ .5, 1 ],
-            range: [ .5, 1 ]
-          }
-        },
         name: "Long range"
       },
       Weapon_Overcharged: {
+        grades: {
+          "1": {
+            components: {
+              Nickel: 1
+            },
+            features: {
+              clip: [ -.05, -.04 ],
+              damage: [ .14, .25 ],
+              distdraw: [ .89, .45 ],
+              jitter: [ 1, .4 ],
+              thermload: [ .45, .29 ]
+            }
+          },
+          "2": {
+            components: {
+              "Conductive Components": 1,
+              Nickel: 1
+            },
+            features: {
+              clip: [ -.11, -.06 ],
+              damage: [ .2, .29 ],
+              distdraw: [ .81, .4 ],
+              jitter: [ .8, .3 ],
+              thermload: [ .29, .14 ]
+            }
+          },
+          "3": {
+            components: {
+              "Conductive Components": 1,
+              "Electrochemical Arrays": 1,
+              Nickel: 1
+            },
+            features: {
+              clip: [ -.16, -.1 ],
+              damage: [ .25, .35 ],
+              distdraw: [ .7, .35 ],
+              jitter: [ .6, .2 ],
+              thermload: [ .14, 0 ]
+            }
+          },
+          "4": {
+            components: {
+              "Conductive Ceramics": 1,
+              "Polymer Capacitors": 1,
+              Zinc: 1
+            },
+            features: {
+              clip: [ -.21, -.12 ],
+              damage: [ .29, .39 ],
+              distdraw: [ .61, .29 ],
+              jitter: [ .4, .1 ]
+            }
+          },
+          "5": {
+            components: {
+              "Conductive Polymers": 1,
+              "Modified Embedded Firmware": 1,
+              Zirconium: 1
+            },
+            features: {
+              clip: [ -.25, -.16 ],
+              damage: [ .35, .45 ],
+              distdraw: [ .5, .25 ]
+            }
+          }
+        },
         id: 88,
-        components: {
-          "1": {
-            Nickel: 1
-          },
-          "2": {
-            "Conductive Components": 1,
-            Nickel: 1
-          },
-          "3": {
-            "Conductive Components": 1,
-            "Electrochemical Arrays": 1,
-            Nickel: 1
-          },
-          "4": {
-            "Conductive Ceramics": 1,
-            "Polymer Capaciters": 1,
-            Zinc: 1
-          },
-          "5": {
-            "Conductive Polymers": 1,
-            "Modified Embedded Firmware": 1,
-            Zirconium: 1
-          }
-        },
-        features: {
-          "1": {
-            clip: [ -.05, -.04 ],
-            damage: [ .14, .25 ],
-            distdraw: [ .89, .45 ],
-            jitter: [ 1, .4 ],
-            thermload: [ .45, .29 ]
-          },
-          "2": {
-            clip: [ -.11, -.06 ],
-            damage: [ .2, .29 ],
-            distdraw: [ .81, .4 ],
-            jitter: [ .8, .3 ],
-            thermload: [ .29, .14 ]
-          },
-          "3": {
-            clip: [ -.16, -.1 ],
-            damage: [ .25, .35 ],
-            distdraw: [ .7, .35 ],
-            jitter: [ .6, .2 ],
-            thermload: [ .14, 0 ]
-          },
-          "4": {
-            clip: [ -.21, -.12 ],
-            damage: [ .29, .39 ],
-            distdraw: [ .61, .29 ],
-            jitter: [ .4, .1 ]
-          },
-          "5": {
-            clip: [ -.25, -.16 ],
-            damage: [ .35, .45 ],
-            distdraw: [ .5, .25 ]
-          }
-        },
         name: "Overcharged"
       },
       Weapon_RapidFire: {
+        grades: {
+          "1": {
+            components: {
+              "Mechanical Scrap": 1
+            },
+            features: {
+              damage: [ -.07, -.06 ],
+              jitter: [ 2.5, 1.25 ],
+              reload: [ -.11, -.25 ],
+              rof: [ .17, .25 ]
+            }
+          },
+          "2": {
+            components: {
+              "Heat Dispersion Plate": 1,
+              "Mechanical Scrap": 1
+            },
+            features: {
+              damage: [ -.1, -.07 ],
+              distdraw: [ -.1, -.2 ],
+              jitter: [ 2, 1 ],
+              reload: [ -.2, -.36 ],
+              rof: [ .25, .34 ]
+            }
+          },
+          "3": {
+            components: {
+              "Mechanical Equipment": 1,
+              "Precipitated Alloys": 1,
+              "Specialised Legacy Firmware": 1
+            },
+            features: {
+              damage: [ -.11, -.1 ],
+              distdraw: [ -.15, -.25 ],
+              jitter: [ 1.5, .75 ],
+              reload: [ -.31, -.45 ],
+              rof: [ .34, .42 ]
+            }
+          },
+          "4": {
+            components: {
+              "Mechanical Components": 1,
+              "Modified Consumer Firmware": 1,
+              "Thermic Alloys": 1
+            },
+            features: {
+              damage: [ -.13, -.11 ],
+              distdraw: [ -.2, -.3 ],
+              jitter: [ 1, .5 ],
+              reload: [ -.4, -.55 ],
+              rof: [ .42, .53 ]
+            }
+          },
+          "5": {
+            components: {
+              "Configurable Components": 1,
+              "Precipitated Alloys": 1,
+              Technetium: 1
+            },
+            features: {
+              damage: [ -.15, -.13 ],
+              distdraw: [ -.25, -.36 ],
+              jitter: [ .5, .25 ],
+              reload: [ -.5, -.65 ],
+              rof: [ .53, .66 ]
+            }
+          }
+        },
         id: 89,
-        components: {
-          "1": {
-            "Mechanical Scrap": 1
-          },
-          "2": {
-            "Heat Dispersion Plate": 1,
-            "Mechanical Scrap": 1
-          },
-          "3": {
-            "Mechanical Equipment": 1,
-            "Precipitated Aloys": 1,
-            "Specialised Legacy Firmware": 1
-          },
-          "4": {
-            "Mechanical Components": 1,
-            "Modified Consumer Firmware": 1,
-            "Thermic Alloys": 1
-          },
-          "5": {
-            "Configurable Components": 1,
-            "Precipitated Alloys": 1,
-            Technetium: 1
-          }
-        },
-        features: {
-          "1": {
-            damage: [ -.07, -.06 ],
-            jitter: [ 2.5, 1.25 ],
-            reload: [ -.11, -.25 ],
-            rof: [ .17, .25 ]
-          },
-          "2": {
-            damage: [ -.1, -.07 ],
-            distdraw: [ -.1, -.2 ],
-            jitter: [ 2, 1 ],
-            reload: [ -.2, -.36 ],
-            rof: [ .25, .34 ]
-          },
-          "3": {
-            damage: [ -.11, -.1 ],
-            distdraw: [ -.15, -.25 ],
-            jitter: [ 1.5, .75 ],
-            reload: [ -.31, -.45 ],
-            rof: [ .34, .42 ]
-          },
-          "4": {
-            damage: [ -.13, -.11 ],
-            distdraw: [ -.2, -.3 ],
-            jitter: [ 1, .5 ],
-            reload: [ -.4, -.55 ],
-            rof: [ .42, .53 ]
-          },
-          "5": {
-            damage: [ -.15, -.13 ],
-            distdraw: [ -.25, -.36 ],
-            jitter: [ .5, .25 ],
-            reload: [ -.5, -.65 ],
-            rof: [ .53, .66 ]
-          }
-        },
         name: "Rapid fire"
       },
       Weapon_ShortRange: {
+        grades: {
+          "1": {
+            components: {
+              Nickel: 1
+            },
+            features: {
+              damage: [ .03, .09 ],
+              range: [ -.35, -.1 ]
+            }
+          },
+          "2": {
+            components: {
+              "Modified Consumer Firmware": 1,
+              Nickel: 1
+            },
+            features: {
+              damage: [ .08, .18 ],
+              range: [ -.45, -.2 ],
+              thermload: [ .2, .1 ]
+            }
+          },
+          "3": {
+            components: {
+              "Electrochemical Arrays": 1,
+              "Modified Consumer Firmware": 1,
+              Nickel: 1
+            },
+            features: {
+              damage: [ .11, .26 ],
+              integrity: [ -.2, -.1 ],
+              range: [ -.55, -.3 ],
+              thermload: [ .3, .2 ]
+            }
+          },
+          "4": {
+            components: {
+              "Conductive Polymers": 1,
+              "Electrochemical Arrays": 1,
+              "Modified Consumer Firmware": 1
+            },
+            features: {
+              damage: [ .15, .35 ],
+              integrity: [ -.31, -.2 ],
+              range: [ -.65, -.4 ],
+              thermload: [ .39, .29 ]
+            }
+          },
+          "5": {
+            components: {
+              "Biotech Conductors": 1,
+              "Configurable Components": 1,
+              "Cracked Industrial Firmware": 1
+            },
+            features: {
+              damage: [ .2, .45 ],
+              integrity: [ -.4, -.31 ],
+              range: [ -.75, -.5 ],
+              thermload: [ .5, .39 ]
+            }
+          }
+        },
         id: 90,
-        components: {
-          "1": {
-            Nickel: 1
-          },
-          "2": {
-            "Modified Consumer Firmware": 1,
-            Nickel: 1
-          },
-          "3": {
-            "Electrochemical Arrays": 1,
-            "Modified Consumer Firmware": 1,
-            Nickel: 1
-          },
-          "4": {
-            "Conductive Polymers": 1,
-            "Electrochemical Arrays": 1,
-            "Modified Consumer Firmware": 1
-          },
-          "5": {
-            "Biotech Conductors": 1,
-            "Configurable Components": 1,
-            "Cracked Industrial Firmware": 1
-          }
-        },
-        features: {
-          "1": {
-            damage: [ .03, .09 ],
-            range: [ -.35, -.1 ]
-          },
-          "2": {
-            damage: [ .08, .18 ],
-            range: [ -.45, -.2 ],
-            thermload: [ .2, .1 ]
-          },
-          "3": {
-            damage: [ .11, .26 ],
-            integrity: [ -.2, -.1 ],
-            range: [ -.55, -.3 ],
-            thermload: [ .3, .2 ]
-          },
-          "4": {
-            damage: [ .15, .35 ],
-            integrity: [ -.31, -.2 ],
-            range: [ -.65, -.4 ],
-            thermload: [ .39, .29 ]
-          },
-          "5": {
-            damage: [ .2, .45 ],
-            integrity: [ -.4, -.31 ],
-            range: [ -.75, -.5 ],
-            thermload: [ .5, .39 ]
-          }
-        },
         name: "Short range"
       },
       Weapon_Sturdy: {
+        grades: {
+          "1": {
+            components: {
+              Nickel: 1
+            },
+            features: {
+              integrity: [ .2, .5 ],
+              mass: [ .5, 0 ],
+              thermload: [ 0, -.1 ]
+            }
+          },
+          "2": {
+            components: {
+              Nickel: 1,
+              "Shield Emitters": 1
+            },
+            features: {
+              integrity: [ .39, 1 ],
+              mass: [ 1, .5 ],
+              thermload: [ -.06, -.15 ]
+            }
+          },
+          "3": {
+            components: {
+              Nickel: 1,
+              "Shield Emitters": 1,
+              Tungsten: 1
+            },
+            features: {
+              integrity: [ .61, 1.5 ],
+              mass: [ 1.5, 1 ],
+              piercing: [ 0, .14 ],
+              thermload: [ -.11, -.2 ]
+            }
+          },
+          "4": {
+            components: {
+              Molybdenum: 1,
+              Tungsten: 1,
+              Zinc: 1
+            },
+            features: {
+              integrity: [ .81, 2 ],
+              mass: [ 2, 1.5 ],
+              piercing: [ .1, .29 ],
+              thermload: [ -.15, -.25 ]
+            }
+          },
+          "5": {
+            components: {
+              "High Density Composites": 1,
+              Molybdenum: 1,
+              Technetium: 1
+            },
+            features: {
+              integrity: [ 1, 2.5 ],
+              mass: [ 2.5, 2 ],
+              piercing: [ .2, .45 ],
+              thermload: [ -.2, -.31 ]
+            }
+          }
+        },
         id: 91,
-        components: {
-          "1": {
-            Nickel: 1
-          },
-          "2": {
-            Nickel: 1,
-            "Shield Emitters": 1
-          },
-          "3": {
-            Nickel: 1,
-            "Shield Emitters": 1,
-            Tungsten: 1
-          },
-          "4": {
-            Molybdenum: 1,
-            Tungsten: 1,
-            Zinc: 1
-          },
-          "5": {
-            "High Density Composites": 1,
-            Molybdenum: 1,
-            Technetium: 1
-          }
-        },
-        features: {
-          "1": {
-            integrity: [ .2, .5 ],
-            mass: [ .5, 0 ],
-            thermload: [ 0, -.1 ]
-          },
-          "2": {
-            integrity: [ .39, 1 ],
-            mass: [ 1, .5 ],
-            thermload: [ -.06, -.15 ]
-          },
-          "3": {
-            integrity: [ .61, 1.5 ],
-            mass: [ 1.5, 1 ],
-            piercing: [ 0, .14 ],
-            thermload: [ -.11, -.2 ]
-          },
-          "4": {
-            integrity: [ .81, 2 ],
-            mass: [ 2, 1.5 ],
-            piercing: [ .1, .29 ],
-            thermload: [ -.15, -.25 ]
-          },
-          "5": {
-            integrity: [ 1, 2.5 ],
-            mass: [ 2.5, 2 ],
-            piercing: [ .2, .45 ],
-            thermload: [ -.2, -.31 ]
-          }
-        },
         name: "Sturdy"
       }
     },
@@ -17301,7 +19386,8 @@ module.exports = {
       damagedist: {
         id: 40,
         name: "damage",
-        type: "hidden",
+        type: "object",
+        hidden: true,
         method: "overwrite"
       },
       distdraw: {
@@ -17355,7 +19441,8 @@ module.exports = {
       fallofffromrange: {
         id: 42,
         name: "fallofffromrange",
-        type: "hidden",
+        type: "numeric",
+        hidden: true,
         method: "overwrite"
       },
       hullboost: {
@@ -18066,9 +20153,9 @@ module.exports = {
       },
       ls: {
         blueprints: {
-          LifeSupport_LightWeight: [ 1, 2, 3, 4, 5 ],
-          LifeSupport_Reinforced: [ 1, 2, 3, 4, 5 ],
-          LifeSupport_Shielded: [ 1, 2, 3, 4, 5 ]
+          LifeSupport_LightWeight: [ 1, 2, 3, 4 ],
+          LifeSupport_Reinforced: [ 1, 2, 3, 4 ],
+          LifeSupport_Shielded: [ 1, 2, 3, 4 ]
         },
         modifications: [ "boot", "integrity", "mass", "power" ]
       },
@@ -18248,8 +20335,8 @@ module.exports = {
       },
       scb: {
         blueprints: {
-          ShieldCellBank_Rapid: [ 1, 2, 3, 4 ],
-          ShieldCellBank_Specialised: [ 1, 2, 3, 4 ]
+          ShieldCellBank_Rapid: [ 1, 2, 3 ],
+          ShieldCellBank_Specialised: [ 1, 2, 3 ]
         },
         modifications: [ "boot", "duration", "integrity", "power", "shieldreinforcement", "spinup", "thermload" ]
       },

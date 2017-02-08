@@ -169,23 +169,26 @@ describe('JSON Data', function() {
 
   it('has valid blueprints', function() {
     var ids = {};
+    var names = {};
 
-    for (var k in Modifications.blueprints) {
-      const blueprint = Modifications.blueprints[k];
+    for (var blueprintname in Modifications.blueprints) {
+      const blueprint = Modifications.blueprints[blueprintname];
+      expect(names[blueprintname]).toBeFalsy('Name already exists: ' + blueprintname);
+      names[blueprintname] = true;
       expect(ids[blueprint.id]).toBeFalsy('ID already exists: ' + blueprint.id);
-      expect(blueprint.name).toBeDefined('Blueprint has no name, ID:' + blueprint.id);
-
-      for (var x in blueprint.features) {
-        var b = blueprint.features[x];
-        var bfs = {};
-        for (var bf in b) {
-          expect(bfs[bf]).toBeFalsy(`Blueprint feature [${bf}] already exists: ${blueprint.name}`);
-          expect(Modifications.modifications[bf]).toBeDefined(`Blueprint feature [${bf}] uknown: ${blueprint.name}`);
-          bfs[bf] = true;
-        }
-      }
-
       ids[blueprint.id] = true;
+      expect(blueprint.name).toBeDefined('Blueprint has no name, ID:' + blueprint.id);
+      expect(blueprint.grades).toBeDefined('Blueprint has no grades, ID:' + blueprint.id);
+
+      grades = {}
+      for (var grade in blueprint.grades) {
+        expect(grades[grade]).toBeFalsy('Grade already exists: ' + grade + ' for ' + blueprintname);
+        grades[grade] = true;
+
+        const blueprintgrade = blueprint.grades[grade];
+        expect(blueprintgrade.components).toBeDefined('Blueprint grade ' + grade + ' has no components for ' + blueprintname);
+        expect(blueprintgrade.features).toBeDefined('Blueprint grade ' + grade + ' has no features for ' + blueprintname);
+      }
     }
   });
 
