@@ -12185,7 +12185,7 @@ module.exports = {
       }, {
         class: 6,
         cost: 61420,
-        edID: 12872926,
+        edID: 128727926,
         eddbID: 1567,
         grp: "pce",
         id: "me",
