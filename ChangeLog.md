@@ -1,3 +1,6 @@
+#2.2.15
+  * Fix location of initial cargo rack for Vulture
+
 #2.2.14
   * Alter blueprint structure to combine components and features
   * Make hidden value of modifications its own attribute
