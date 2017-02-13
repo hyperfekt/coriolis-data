@@ -1,5 +1,7 @@
 #2.2.15
   * Fix location of initial cargo rack for Vulture
+  * Fix broken regeneration rate for 6B shield generators
+  * Tidy up breach damage values
 
 #2.2.14
   * Alter blueprint structure to combine components and features

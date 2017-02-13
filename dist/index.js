@@ -2878,7 +2878,7 @@ module.exports = {
       defaults: {
         standard: [ "4E", "5E", "4E", "3E", "5E", "4E", "3C" ],
         hardpoints: [ 17, 17, 0, 0, 0, 0 ],
-        internal: [ "4e", 0, 0, "02", 0, "2h" ]
+        internal: [ "4e", 0, "02", 0, 0, "2h" ]
       }
     }
   },
@@ -6251,7 +6251,7 @@ module.exports = {
     },
     hardpoints: {
       pl: [ {
-        breachdmg: 2.04,
+        breachdmg: 1.7,
         breachmax: .8,
         breachmin: .4,
         class: 1,
@@ -6553,7 +6553,7 @@ module.exports = {
         thermload: 1.6
       } ],
       ul: [ {
-        breachdmg: 7.05,
+        breachdmg: 1.5,
         breachmax: .8,
         breachmin: .4,
         burst: 3,
@@ -6580,7 +6580,7 @@ module.exports = {
         rof: 2,
         thermload: .4
       }, {
-        breachdmg: 5.3,
+        breachdmg: 1,
         breachmax: .8,
         breachmin: .4,
         burst: 3,
@@ -6607,9 +6607,9 @@ module.exports = {
         rof: 2.23,
         thermload: .3
       }, {
-        breachdmg: 1.92,
+        breachdmg: .4,
         breachmax: .8,
-        breachmin: .4,
+        breachmin: .6,
         burst: 3,
         burstrof: 19,
         class: 1,
@@ -6664,7 +6664,7 @@ module.exports = {
         rof: 6.6,
         thermload: .3
       }, {
-        breachdmg: 11.1,
+        breachdmg: 3,
         breachmax: .8,
         breachmin: .4,
         burst: 3,
@@ -6691,7 +6691,7 @@ module.exports = {
         rof: 1.6,
         thermload: .8
       }, {
-        breachdmg: 8.82,
+        breachdmg: 2.1,
         breachmax: .8,
         breachmin: .4,
         burst: 3,
@@ -6718,9 +6718,9 @@ module.exports = {
         rof: 1.78,
         thermload: .7
       }, {
-        breachdmg: 3.51,
+        breachdmg: .9,
         breachmax: .8,
-        breachmin: .4,
+        breachmin: .6,
         burst: 3,
         burstrof: 15,
         class: 2,
@@ -6745,7 +6745,7 @@ module.exports = {
         rof: 1.57,
         thermload: .4
       }, {
-        breachdmg: 10.53,
+        breachdmg: 3.9,
         breachmax: .8,
         breachmin: .4,
         burst: 3,
@@ -6772,7 +6772,7 @@ module.exports = {
         rof: 1.2,
         thermload: 1.7
       }, {
-        breachdmg: 14.08,
+        breachdmg: 4.4,
         breachmax: .8,
         breachmin: .4,
         burst: 3,
@@ -6799,9 +6799,9 @@ module.exports = {
         rof: 1.4,
         thermload: 1.4
       }, {
-        breachdmg: 5.58,
+        breachdmg: 1.8,
         breachmax: .8,
-        breachmin: .4,
+        breachmin: .6,
         burst: 3,
         burstrof: 11,
         class: 3,
@@ -6826,7 +6826,7 @@ module.exports = {
         rof: 1.272,
         thermload: .8
       }, {
-        breachdmg: 28,
+        breachdmg: 17.5,
         breachmax: .8,
         breachmin: .4,
         burst: 3,
@@ -6853,7 +6853,7 @@ module.exports = {
         rof: .8,
         thermload: 4.5
       }, {
-        breachdmg: 21.63,
+        breachdmg: 10.3,
         breachmax: .8,
         breachmin: .4,
         burst: 3,
@@ -9652,7 +9652,7 @@ module.exports = {
         optmul: .9,
         power: 1.8,
         rating: "C",
-        regen: 2.2,
+        regen: 1.8,
         thermres: -.2
       }, {
         brokenregen: 3.8,
@@ -13844,7 +13844,7 @@ module.exports = {
         optmul: 1.1,
         power: 3.72,
         rating: "B",
-        regen: 3.1,
+        regen: 1.3,
         thermres: -.2
       }, {
         brokenregen: 5.3,
