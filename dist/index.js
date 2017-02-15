@@ -15190,8 +15190,8 @@ module.exports = {
               integrity: [ -.06, 0 ],
               optmass: [ -.04, 0 ],
               optmul: [ .04, .1 ],
-              power: [ -.04, 0 ],
-              thermload: [ -.2, 0 ]
+              power: [ .04, 0 ],
+              thermload: [ .2, 0 ]
             }
           },
           "2": {
@@ -15203,8 +15203,8 @@ module.exports = {
               integrity: [ -.12, .01 ],
               optmass: [ -.06, -.01 ],
               optmul: [ .1, .14 ],
-              power: [ -.08, .02 ],
-              thermload: [ -.39, .1 ]
+              power: [ .08, .02 ],
+              thermload: [ .39, .1 ]
             }
           },
           "3": {
@@ -15217,8 +15217,8 @@ module.exports = {
               integrity: [ -.18, .04 ],
               optmass: [ -.1, -.02 ],
               optmul: [ .14, .2 ],
-              power: [ -.11, .03 ],
-              thermload: [ -.61, .2 ]
+              power: [ .11, .03 ],
+              thermload: [ .61, .2 ]
             }
           },
           "4": {
@@ -15231,8 +15231,8 @@ module.exports = {
               integrity: [ -.24, .05 ],
               optmass: [ -.12, -.04 ],
               optmul: [ .2, .25 ],
-              power: [ -.15, .05 ],
-              thermload: [ -.79, .29 ]
+              power: [ .15, .05 ],
+              thermload: [ .79, .29 ]
             }
           },
           "5": {
@@ -15245,8 +15245,8 @@ module.exports = {
               integrity: [ -.31, .08 ],
               optmass: [ -.16, -.05 ],
               optmul: [ .25, .29 ],
-              power: [ -.2, .08 ],
-              thermload: [ -1, .39 ]
+              power: [ .2, .08 ],
+              thermload: [ 1, .39 ]
             }
           }
         },
@@ -19345,25 +19345,29 @@ module.exports = {
         id: 0,
         name: "ammo",
         type: "percentage",
-        method: "multiplicative"
+        method: "multiplicative",
+        higherbetter: true
       },
       boot: {
         id: 1,
         name: "boot",
         type: "percentage",
-        method: "multiplicative"
+        method: "multiplicative",
+        higherbetter: false
       },
       brokenregen: {
         id: 2,
         name: "brokenregen",
         type: "percentage",
-        method: "multiplicative"
+        method: "multiplicative",
+        higherbetter: true
       },
       burst: {
         id: 3,
         name: "burst",
         type: "numeric",
-        method: "overwrite"
+        method: "overwrite",
+        higherbetter: true
       },
       burstrof: {
         id: 41,
@@ -19375,13 +19379,15 @@ module.exports = {
         id: 4,
         name: "clip",
         type: "percentage",
-        method: "multiplicative"
+        method: "multiplicative",
+        higherbetter: true
       },
       damage: {
         id: 5,
         name: "damage",
         type: "percentage",
-        method: "multiplicative"
+        method: "multiplicative",
+        higherbetter: true
       },
       damagedist: {
         id: 40,
@@ -19394,49 +19400,57 @@ module.exports = {
         id: 6,
         name: "distdraw",
         type: "percentage",
-        method: "multiplicative"
+        method: "multiplicative",
+        higherbetter: false
       },
       duration: {
         id: 7,
         name: "duration",
         type: "percentage",
-        method: "multiplicative"
+        method: "multiplicative",
+        higherbetter: true
       },
       eff: {
         id: 8,
         name: "eff",
         type: "percentage",
-        method: "multiplicative"
+        method: "multiplicative",
+        higherbetter: true
       },
       engcap: {
         id: 9,
         name: "engcap",
         type: "percentage",
-        method: "multiplicative"
+        method: "multiplicative",
+        higherbetter: true
       },
       engrate: {
         id: 10,
         name: "engrate",
         type: "percentage",
-        method: "multiplicative"
+        method: "multiplicative",
+        higherbetter: true
       },
       explres: {
         id: 11,
         name: "explres",
         type: "percentage",
-        method: "additive"
+        method: "additive",
+        higherbetter: true
       },
       facinglimit: {
         id: 12,
         name: "facinglimit",
         type: "percentage",
-        method: "multiplicative"
+        method: "multiplicative",
+        higherbetter: true
       },
       falloff: {
         id: 45,
         name: "falloff",
         type: "percentage",
-        method: "multiplicative"
+        method: "multiplicative",
+        higherbetter: true
       },
       fallofffromrange: {
         id: 42,
@@ -19449,175 +19463,204 @@ module.exports = {
         id: 13,
         name: "hullboost",
         type: "percentage",
-        method: "multiplicative"
+        method: "multiplicative",
+        higherbetter: true
       },
       hullreinforcement: {
         id: 14,
         name: "hullreinforcement",
         type: "percentage",
-        method: "multiplicative"
+        method: "multiplicative",
+        higherbetter: true
       },
       integrity: {
         id: 15,
         name: "integrity",
         type: "percentage",
-        method: "multiplicative"
+        method: "multiplicative",
+        higherbetter: true
       },
       jitter: {
         id: 16,
         name: "jitter",
         type: "numeric",
-        method: "multiplicative"
+        method: "multiplicative",
+        higherbetter: true
       },
       kinres: {
         id: 17,
         name: "kinres",
         type: "percentage",
-        method: "additive"
+        method: "additive",
+        higherbetter: false
       },
       mass: {
         id: 18,
         name: "mass",
         type: "percentage",
-        method: "multiplicative"
+        method: "multiplicative",
+        higherbetter: false
       },
       maxfuel: {
         id: 19,
         name: "maxfuel",
         type: "percentage",
-        method: "multiplicative"
+        method: "multiplicative",
+        higherbetter: true
       },
       optmass: {
         id: 20,
         name: "optmass",
         type: "percentage",
-        method: "multiplicative"
+        method: "multiplicative",
+        higherbetter: true
       },
       optmul: {
         id: 21,
         name: "optmul",
         type: "percentage",
-        method: "multiplicative"
+        method: "multiplicative",
+        higherbetter: true
       },
       pgen: {
         id: 22,
         name: "pgen",
         type: "percentage",
-        method: "multiplicative"
+        method: "multiplicative",
+        higherbetter: true
       },
       piercing: {
         id: 23,
         name: "piercing",
         type: "percentage",
-        method: "multiplicative"
+        method: "multiplicative",
+        higherbetter: true
       },
       power: {
         id: 24,
         name: "power",
         type: "percentage",
-        method: "multiplicative"
+        method: "multiplicative",
+        higherbetter: false
       },
       protection: {
         id: 44,
         name: "protection",
         type: "percentage",
-        method: "multiplicative"
+        method: "multiplicative",
+        higherbetter: true
       },
       range: {
         id: 25,
         name: "range",
         type: "percentage",
-        method: "multiplicative"
+        method: "multiplicative",
+        higherbetter: true
       },
       ranget: {
         id: 26,
         name: "ranget",
         type: "percentage",
-        method: "multiplicative"
+        method: "multiplicative",
+        higherbetter: true
       },
       regen: {
         id: 27,
         name: "regen",
         type: "percentage",
-        method: "multiplicative"
+        method: "multiplicative",
+        higherbetter: true
       },
       reload: {
         id: 28,
         name: "reload",
         type: "percentage",
-        method: "multiplicative"
+        method: "multiplicative",
+        higherbetter: false
       },
       rof: {
         id: 29,
         name: "rof",
         type: "percentage",
-        method: "multiplicative"
+        method: "multiplicative",
+        higherbetter: false
       },
       shield: {
         id: 30,
         name: "shield",
         type: "percentage",
-        method: "multiplicative"
+        method: "multiplicative",
+        higherbetter: true
       },
       shieldboost: {
         id: 31,
         name: "shieldboost",
         type: "percentage",
-        method: "multiplicative"
+        method: "multiplicative",
+        higherbetter: true
       },
       shotspeed: {
         id: 43,
         name: "shotspeed",
         type: "percentage",
-        method: "multiplicative"
+        method: "multiplicative",
+        higherbetter: true
       },
       spinup: {
         id: 32,
         name: "spinup",
         type: "percentage",
-        method: "multiplicative"
+        method: "multiplicative",
+        higherbetter: false
       },
       syscap: {
         id: 33,
         name: "syscap",
         type: "percentage",
-        method: "multiplicative"
+        method: "multiplicative",
+        higherbetter: true
       },
       sysrate: {
         id: 34,
         name: "sysrate",
         type: "percentage",
-        method: "multiplicative"
+        method: "multiplicative",
+        higherbetter: true
       },
       thermload: {
         id: 35,
         name: "thermload",
         type: "percentage",
-        method: "multiplicative"
+        method: "multiplicative",
+        higherbetter: false
       },
       thermres: {
         id: 36,
         name: "thermres",
         type: "percentage",
-        method: "additive"
+        method: "additive",
+        higherbetter: true
       },
       wepcap: {
         id: 37,
         name: "wepcap",
         type: "percentage",
-        method: "multiplicative"
+        method: "multiplicative",
+        higherbetter: true
       },
       weprate: {
         id: 38,
         name: "weprate",
         type: "percentage",
-        method: "multiplicative"
+        method: "multiplicative",
+        higherbetter: true
       },
       shieldreinforcement: {
         id: 39,
         name: "shieldreinforcement",
         type: "percentage",
-        method: "multiplicative"
+        method: "multiplicative",
+        higherbetter: true
       }
     },
     modifierActions: {
