@@ -1,5 +1,6 @@
 #2.2.17
   * Add mass as potential SCB modification
+  * Add number of seats for each ship
 
 #2.2.16
   * Fix incorrect thermal load modifiers for dirty drives
