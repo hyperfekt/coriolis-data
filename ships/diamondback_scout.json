@@ -19,7 +19,7 @@
       "pitch": 42,
       "roll": 100,
       "yaw": 15,
-      "seats": 1
+      "crew": 1
     } ,
     "retailCost": 564330,
     "bulkheads": [

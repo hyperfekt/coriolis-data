@@ -2,6 +2,7 @@
   * Add mass as potential SCB modification
   * Fix mining laser statistics
   * Add number of seats for each ship
+  * Add number of crew for each ship
 
 #2.2.16
   * Fix incorrect thermal load modifiers for dirty drives
