@@ -20381,7 +20381,7 @@ module.exports = {
           ShieldCellBank_Rapid: [ 1, 2, 3 ],
           ShieldCellBank_Specialised: [ 1, 2, 3 ]
         },
-        modifications: [ "boot", "duration", "integrity", "power", "shieldreinforcement", "spinup", "thermload" ]
+        modifications: [ "boot", "duration", "integrity", "mass", "power", "shieldreinforcement", "spinup", "thermload" ]
       },
       sg: {
         blueprints: {

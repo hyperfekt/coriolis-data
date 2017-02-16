@@ -735,6 +735,7 @@
       "boot",
       "duration",
       "integrity",
+      "mass",
       "power",
       "shieldreinforcement",
       "spinup",

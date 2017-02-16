@@ -1,3 +1,6 @@
+#2.2.17
+  * Add mass as potential SCB modification
+
 #2.2.16
   * Fix incorrect thermal load modifiers for dirty drives
   * Provide explicit information about if values are higher numeric value == better or not
