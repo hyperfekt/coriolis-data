@@ -19,7 +19,8 @@
       "luxuryCabins": true,
       "pitch": 25,
       "roll": 55,
-      "yaw": 18
+      "yaw": 18,
+      "seats": 2
     },
     "retailCost": 48539900,
     "bulkheads": [

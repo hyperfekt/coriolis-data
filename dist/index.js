@@ -19,7 +19,8 @@ module.exports = {
         pipSpeed: .13625,
         pitch: 38,
         roll: 100,
-        yaw: 14
+        yaw: 14,
+        seats: 2
       },
       retailCost: 87810,
       bulkheads: [ {
@@ -109,7 +110,8 @@ module.exports = {
         fighterHangars: true,
         pitch: 25,
         roll: 60,
-        yaw: 10
+        yaw: 10,
+        seats: 3
       },
       retailCost: 146969450,
       bulkheads: [ {
@@ -206,7 +208,8 @@ module.exports = {
         pipSpeed: .13,
         pitch: 38,
         roll: 100,
-        yaw: 10
+        yaw: 10,
+        seats: 2
       },
       retailCost: 6661150,
       bulkheads: [ {
@@ -295,7 +298,8 @@ module.exports = {
         pipSpeed: .125,
         pitch: 40,
         roll: 110,
-        yaw: 15
+        yaw: 15,
+        seats: 2
       },
       retailCost: 3961150,
       bulkheads: [ {
@@ -386,7 +390,8 @@ module.exports = {
         fighterHangars: true,
         pitch: 25,
         roll: 60,
-        yaw: 17
+        yaw: 17,
+        seats: 3
       },
       retailCost: 84532770,
       bulkheads: [ {
@@ -519,7 +524,8 @@ module.exports = {
         pipSpeed: .125,
         pitch: 40,
         roll: 100,
-        yaw: 10
+        yaw: 10,
+        seats: 2
       },
       retailCost: 349720,
       bulkheads: [ {
@@ -608,7 +614,8 @@ module.exports = {
         pipSpeed: .125,
         pitch: 30,
         roll: 90,
-        yaw: 10
+        yaw: 10,
+        seats: 2
       },
       retailCost: 747660,
       bulkheads: [ {
@@ -697,7 +704,8 @@ module.exports = {
         pipSpeed: .09625,
         pitch: 35,
         roll: 90,
-        yaw: 13
+        yaw: 13,
+        seats: 1
       },
       retailCost: 1894760,
       bulkheads: [ {
@@ -786,7 +794,8 @@ module.exports = {
         pipSpeed: .09875,
         pitch: 42,
         roll: 100,
-        yaw: 15
+        yaw: 15,
+        seats: 1
       },
       retailCost: 564330,
       bulkheads: [ {
@@ -875,7 +884,8 @@ module.exports = {
         pipSpeed: .0625,
         pitch: 50,
         roll: 120,
-        yaw: 18
+        yaw: 18,
+        seats: 1
       },
       retailCost: 44800,
       bulkheads: [ {
@@ -972,7 +982,8 @@ module.exports = {
         pipSpeed: .11125,
         pitch: 38,
         roll: 90,
-        yaw: 19
+        yaw: 19,
+        seats: 2
       },
       retailCost: 19814210,
       bulkheads: [ {
@@ -1078,7 +1089,8 @@ module.exports = {
         fighterHangars: true,
         pitch: 28,
         roll: 75,
-        yaw: 8
+        yaw: 8,
+        seats: 3
       },
       retailCost: 187969450,
       bulkheads: [ {
@@ -1183,7 +1195,8 @@ module.exports = {
         pipSpeed: .0725,
         pitch: 30,
         roll: 80,
-        yaw: 14
+        yaw: 14,
+        seats: 2
       },
       retailCost: 14314210,
       bulkheads: [ {
@@ -1289,7 +1302,8 @@ module.exports = {
         fighterHangars: true,
         pitch: 25,
         roll: 80,
-        yaw: 18
+        yaw: 18,
+        seats: 2
       },
       retailCost: 35814210,
       bulkheads: [ {
@@ -1402,7 +1416,8 @@ module.exports = {
         pipSpeed: .03875,
         pitch: 38,
         roll: 90,
-        yaw: 12
+        yaw: 12,
+        seats: 2
       },
       retailCost: 51567040,
       bulkheads: [ {
@@ -1491,7 +1506,8 @@ module.exports = {
         pipSpeed: .1625,
         pitch: 36,
         roll: 100,
-        yaw: 14
+        yaw: 14,
+        seats: 1
       },
       retailCost: 52720,
       bulkheads: [ {
@@ -1580,7 +1596,8 @@ module.exports = {
         pipSpeed: .1,
         pitch: 40,
         roll: 80,
-        yaw: 18
+        yaw: 18,
+        seats: 2
       },
       retailCost: 22296860,
       bulkheads: [ {
@@ -1669,7 +1686,8 @@ module.exports = {
         pipSpeed: .05375,
         pitch: 38,
         roll: 90,
-        yaw: 16
+        yaw: 16,
+        seats: 1
       },
       retailCost: 2542930,
       bulkheads: [ {
@@ -1759,7 +1777,8 @@ module.exports = {
         fighterHangars: true,
         pitch: 18,
         roll: 45,
-        yaw: 8
+        yaw: 8,
+        seats: 3
       },
       retailCost: 208969450,
       bulkheads: [ {
@@ -1864,7 +1883,8 @@ module.exports = {
         pipSpeed: .075,
         pitch: 40,
         roll: 100,
-        yaw: 15
+        yaw: 15,
+        seats: 1
       },
       retailCost: 110830,
       bulkheads: [ {
@@ -1962,7 +1982,8 @@ module.exports = {
         fighterHangars: true,
         pitch: 27,
         roll: 100,
-        yaw: 15
+        yaw: 15,
+        seats: 1
       },
       retailCost: 3126150,
       bulkheads: [ {
@@ -2052,7 +2073,8 @@ module.exports = {
         luxuryCabins: true,
         pitch: 25,
         roll: 55,
-        yaw: 18
+        yaw: 18,
+        seats: 2
       },
       retailCost: 48539900,
       bulkheads: [ {
@@ -2163,7 +2185,8 @@ module.exports = {
         pipSpeed: .0975,
         pitch: 29,
         roll: 90,
-        yaw: 10
+        yaw: 10,
+        seats: 2
       },
       retailCost: 56978180,
       bulkheads: [ {
@@ -2252,7 +2275,8 @@ module.exports = {
         pipSpeed: .1375,
         pitch: 42,
         roll: 110,
-        yaw: 16
+        yaw: 16,
+        seats: 1
       },
       retailCost: 32e3,
       bulkheads: [ {
@@ -2341,7 +2365,8 @@ module.exports = {
         pipSpeed: .1475,
         pitch: 30,
         roll: 100,
-        yaw: 17
+        yaw: 17,
+        seats: 1
       },
       retailCost: 1045950,
       bulkheads: [ {
@@ -2430,7 +2455,8 @@ module.exports = {
         pipSpeed: .16625,
         pitch: 22,
         roll: 60,
-        yaw: 22
+        yaw: 22,
+        seats: 1
       },
       retailCost: 17472260,
       bulkheads: [ {
@@ -2520,7 +2546,8 @@ module.exports = {
         fighterHangars: true,
         pitch: 20,
         roll: 20,
-        yaw: 8
+        yaw: 8,
+        seats: 3
       },
       retailCost: 76555840,
       bulkheads: [ {
@@ -2609,7 +2636,8 @@ module.exports = {
         pipSpeed: .09375,
         pitch: 35,
         roll: 90,
-        yaw: 15
+        yaw: 15,
+        seats: 1
       },
       retailCost: 142930,
       bulkheads: [ {
@@ -2706,7 +2734,8 @@ module.exports = {
         pipSpeed: .0875,
         pitch: 30,
         roll: 90,
-        yaw: 12
+        yaw: 12,
+        seats: 1
       },
       retailCost: 437930,
       bulkheads: [ {
@@ -2803,7 +2832,8 @@ module.exports = {
         pipSpeed: .02375,
         pitch: 42,
         roll: 110,
-        yaw: 17
+        yaw: 17,
+        seats: 2
       },
       retailCost: 4925620,
       bulkheads: [ {

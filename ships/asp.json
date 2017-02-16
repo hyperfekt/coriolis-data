@@ -18,7 +18,8 @@
       "pipSpeed": 0.13,
       "pitch": 38,
       "roll": 100,
-      "yaw": 10
+      "yaw": 10,
+      "seats": 2
     },
     "retailCost": 6661150,
     "bulkheads": [
