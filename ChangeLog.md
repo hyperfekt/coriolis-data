@@ -1,5 +1,6 @@
 #2.2.17
   * Add mass as potential SCB modification
+  * Fix mining laser statistics
 
 #2.2.16
   * Fix incorrect thermal load modifiers for dirty drives

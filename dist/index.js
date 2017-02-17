@@ -8680,8 +8680,10 @@ module.exports = {
         class: 1,
         cost: 6800,
         damage: 2,
-        damagedist: {},
-        distdraw: 1.35,
+        damagedist: {
+          T: 1
+        },
+        distdraw: 1.5,
         edID: 128049525,
         eddbID: 888,
         falloff: 300,
@@ -8722,14 +8724,16 @@ module.exports = {
         rating: "D",
         thermload: 6
       }, {
-        breachdmg: 1.2,
+        breachdmg: .6,
         breachmax: .2,
         breachmin: .1,
         class: 2,
         cost: 22580,
-        damage: 8,
-        damagedist: {},
-        distdraw: 1.75,
+        damage: 4,
+        damagedist: {
+          T: 1
+        },
+        distdraw: 3,
         edID: 128049526,
         eddbID: 889,
         falloff: 300,
