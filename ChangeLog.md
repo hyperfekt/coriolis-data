@@ -1,7 +1,6 @@
 #2.2.17
   * Add mass as potential SCB modification
   * Fix mining laser statistics
-  * Add number of seats for each ship
   * Add number of crew for each ship
 
 #2.2.16
