@@ -203,7 +203,19 @@ describe('JSON Data', function() {
       expect(modification.method).toBeDefined('Modification has no method, ID:' + modification.id);
       ids[modification.id] = true;
     }
+  });
 
+  it('has valid module modifications', function() {
+    for (var m in Modifications.modules) {
+      const module = Modifications.modules[m];
+      for (var bp in module.blueprints) {
+        expect(Modifications.blueprints[bp]).toBeDefined('Missing ' + bp + ' for ' + m);
+        for (var g in module.blueprints[bp]) {
+          const grade = module.blueprints[bp][g];
+          expect(Modifications.blueprints[bp].grades[grade]).toBeDefined('Missing ' + bp + ' grade ' + grade + ' for ' + m);
+        }
+      }
+    }
   });
 
   it('has valid specials', function() {

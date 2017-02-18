@@ -1,6 +1,7 @@
 #2.2.17
   * Add mass as potential SCB modification
   * Fix mining laser statistics
+  * Remove non-existent grade 4 and 5 wake scanner modifications
 
 #2.2.16
   * Fix incorrect thermal load modifiers for dirty drives
