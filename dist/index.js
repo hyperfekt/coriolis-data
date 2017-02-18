@@ -20458,9 +20458,9 @@ module.exports = {
       },
       ws: {
         blueprints: {
-          WakeScanner_LightWeight: [ 1, 2, 3, 4, 5 ],
-          WakeScanner_Reinforced: [ 1, 2, 3, 4, 5 ],
-          WakeScanner_Shielded: [ 1, 2, 3, 4, 5 ]
+          WakeScanner_LightWeight: [ 1, 2, 3 ],
+          WakeScanner_Reinforced: [ 1, 2, 3 ],
+          WakeScanner_Shielded: [ 1, 2, 3 ]
         },
         modifications: [ "boot", "integrity", "mass", "power" ]
       }

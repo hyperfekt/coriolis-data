@@ -28031,23 +28031,17 @@
 					"WakeScanner_LightWeight": [
 						1,
 						2,
-						3,
-						4,
-						5
+						3
 					],
 					"WakeScanner_Reinforced": [
 						1,
 						2,
-						3,
-						4,
-						5
+						3
 					],
 					"WakeScanner_Shielded": [
 						1,
 						2,
-						3,
-						4,
-						5
+						3
 					]
 				},
 				"modifications": [
