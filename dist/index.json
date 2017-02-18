@@ -19,7 +19,8 @@
 				"pipSpeed": 0.13625,
 				"pitch": 38,
 				"roll": 100,
-				"yaw": 14
+				"yaw": 14,
+				"crew": 2
 			},
 			"retailCost": 87810,
 			"bulkheads": [
@@ -155,7 +156,8 @@
 				"fighterHangars": true,
 				"pitch": 25,
 				"roll": 60,
-				"yaw": 10
+				"yaw": 10,
+				"crew": 3
 			},
 			"retailCost": 146969450,
 			"bulkheads": [
@@ -334,7 +336,8 @@
 				"pipSpeed": 0.13,
 				"pitch": 38,
 				"roll": 100,
-				"yaw": 10
+				"yaw": 10,
+				"crew": 2
 			},
 			"retailCost": 6661150,
 			"bulkheads": [
@@ -483,7 +486,8 @@
 				"pipSpeed": 0.125,
 				"pitch": 40,
 				"roll": 110,
-				"yaw": 15
+				"yaw": 15,
+				"crew": 2
 			},
 			"retailCost": 3961150,
 			"bulkheads": [
@@ -622,7 +626,8 @@
 				"fighterHangars": true,
 				"pitch": 25,
 				"roll": 60,
-				"yaw": 17
+				"yaw": 17,
+				"crew": 3
 			},
 			"retailCost": 84532770,
 			"bulkheads": [
@@ -825,7 +830,8 @@
 				"pipSpeed": 0.125,
 				"pitch": 40,
 				"roll": 100,
-				"yaw": 10
+				"yaw": 10,
+				"crew": 2
 			},
 			"retailCost": 349720,
 			"bulkheads": [
@@ -964,7 +970,8 @@
 				"pipSpeed": 0.125,
 				"pitch": 30,
 				"roll": 90,
-				"yaw": 10
+				"yaw": 10,
+				"crew": 2
 			},
 			"retailCost": 747660,
 			"bulkheads": [
@@ -1109,7 +1116,8 @@
 				"pipSpeed": 0.09625,
 				"pitch": 35,
 				"roll": 90,
-				"yaw": 13
+				"yaw": 13,
+				"crew": 1
 			},
 			"retailCost": 1894760,
 			"bulkheads": [
@@ -1248,7 +1256,8 @@
 				"pipSpeed": 0.09875,
 				"pitch": 42,
 				"roll": 100,
-				"yaw": 15
+				"yaw": 15,
+				"crew": 1
 			},
 			"retailCost": 564330,
 			"bulkheads": [
@@ -1387,7 +1396,8 @@
 				"pipSpeed": 0.0625,
 				"pitch": 50,
 				"roll": 120,
-				"yaw": 18
+				"yaw": 18,
+				"crew": 1
 			},
 			"retailCost": 44800,
 			"bulkheads": [
@@ -1528,7 +1538,8 @@
 				"pipSpeed": 0.11125,
 				"pitch": 38,
 				"roll": 90,
-				"yaw": 19
+				"yaw": 19,
+				"crew": 2
 			},
 			"retailCost": 19814210,
 			"bulkheads": [
@@ -1692,7 +1703,8 @@
 				"fighterHangars": true,
 				"pitch": 28,
 				"roll": 75,
-				"yaw": 8
+				"yaw": 8,
+				"crew": 3
 			},
 			"retailCost": 187969450,
 			"bulkheads": [
@@ -1877,7 +1889,8 @@
 				"pipSpeed": 0.0725,
 				"pitch": 30,
 				"roll": 80,
-				"yaw": 14
+				"yaw": 14,
+				"crew": 2
 			},
 			"retailCost": 14314210,
 			"bulkheads": [
@@ -2045,7 +2058,8 @@
 				"fighterHangars": true,
 				"pitch": 25,
 				"roll": 80,
-				"yaw": 18
+				"yaw": 18,
+				"crew": 2
 			},
 			"retailCost": 35814210,
 			"bulkheads": [
@@ -2222,7 +2236,8 @@
 				"pipSpeed": 0.03875,
 				"pitch": 38,
 				"roll": 90,
-				"yaw": 12
+				"yaw": 12,
+				"crew": 2
 			},
 			"retailCost": 51567040,
 			"bulkheads": [
@@ -2369,7 +2384,8 @@
 				"pipSpeed": 0.1625,
 				"pitch": 36,
 				"roll": 100,
-				"yaw": 14
+				"yaw": 14,
+				"crew": 1
 			},
 			"retailCost": 52720,
 			"bulkheads": [
@@ -2498,7 +2514,8 @@
 				"pipSpeed": 0.1,
 				"pitch": 40,
 				"roll": 80,
-				"yaw": 18
+				"yaw": 18,
+				"crew": 2
 			},
 			"retailCost": 22296860,
 			"bulkheads": [
@@ -2645,7 +2662,8 @@
 				"pipSpeed": 0.05375,
 				"pitch": 38,
 				"roll": 90,
-				"yaw": 16
+				"yaw": 16,
+				"crew": 1
 			},
 			"retailCost": 2542930,
 			"bulkheads": [
@@ -2787,7 +2805,8 @@
 				"fighterHangars": true,
 				"pitch": 18,
 				"roll": 45,
-				"yaw": 8
+				"yaw": 8,
+				"crew": 3
 			},
 			"retailCost": 208969450,
 			"bulkheads": [
@@ -2970,7 +2989,8 @@
 				"pipSpeed": 0.075,
 				"pitch": 40,
 				"roll": 100,
-				"yaw": 15
+				"yaw": 15,
+				"crew": 1
 			},
 			"retailCost": 110830,
 			"bulkheads": [
@@ -3112,7 +3132,8 @@
 				"fighterHangars": true,
 				"pitch": 27,
 				"roll": 100,
-				"yaw": 15
+				"yaw": 15,
+				"crew": 1
 			},
 			"retailCost": 3126150,
 			"bulkheads": [
@@ -3254,7 +3275,8 @@
 				"luxuryCabins": true,
 				"pitch": 25,
 				"roll": 55,
-				"yaw": 18
+				"yaw": 18,
+				"crew": 2
 			},
 			"retailCost": 48539900,
 			"bulkheads": [
@@ -3421,7 +3443,8 @@
 				"pipSpeed": 0.0975,
 				"pitch": 29,
 				"roll": 90,
-				"yaw": 10
+				"yaw": 10,
+				"crew": 2
 			},
 			"retailCost": 56978180,
 			"bulkheads": [
@@ -3572,7 +3595,8 @@
 				"pipSpeed": 0.1375,
 				"pitch": 42,
 				"roll": 110,
-				"yaw": 16
+				"yaw": 16,
+				"crew": 1
 			},
 			"retailCost": 32000,
 			"bulkheads": [
@@ -3703,7 +3727,8 @@
 				"pipSpeed": 0.1475,
 				"pitch": 30,
 				"roll": 100,
-				"yaw": 17
+				"yaw": 17,
+				"crew": 1
 			},
 			"retailCost": 1045950,
 			"bulkheads": [
@@ -3842,7 +3867,8 @@
 				"pipSpeed": 0.16625,
 				"pitch": 22,
 				"roll": 60,
-				"yaw": 22
+				"yaw": 22,
+				"crew": 1
 			},
 			"retailCost": 17472260,
 			"bulkheads": [
@@ -3990,7 +4016,8 @@
 				"fighterHangars": true,
 				"pitch": 20,
 				"roll": 20,
-				"yaw": 8
+				"yaw": 8,
+				"crew": 3
 			},
 			"retailCost": 76555840,
 			"bulkheads": [
@@ -4141,7 +4168,8 @@
 				"pipSpeed": 0.09375,
 				"pitch": 35,
 				"roll": 90,
-				"yaw": 15
+				"yaw": 15,
+				"crew": 1
 			},
 			"retailCost": 142930,
 			"bulkheads": [
@@ -4286,7 +4314,8 @@
 				"pipSpeed": 0.0875,
 				"pitch": 30,
 				"roll": 90,
-				"yaw": 12
+				"yaw": 12,
+				"crew": 1
 			},
 			"retailCost": 437930,
 			"bulkheads": [
@@ -4435,7 +4464,8 @@
 				"pipSpeed": 0.02375,
 				"pitch": 42,
 				"roll": 110,
-				"yaw": 17
+				"yaw": 17,
+				"crew": 2
 			},
 			"retailCost": 4925620,
 			"bulkheads": [

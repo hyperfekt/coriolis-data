@@ -20,7 +20,8 @@ describe('JSON Data', function() {
     'pipSpeed',
     'pitch',
     'roll',
-    'yaw'
+    'yaw',
+    'crew'
   ];
 
   var edIDs = {};
