@@ -19,7 +19,8 @@
       "fighterHangars": true,
       "pitch": 25,
       "roll": 80,
-      "yaw": 18
+      "yaw": 18,
+      "crew": 2
     },
     "retailCost": 35814210,
     "bulkheads": [
