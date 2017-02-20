@@ -25798,7 +25798,7 @@
 				"name": "kinres",
 				"type": "percentage",
 				"method": "additive",
-				"higherbetter": false
+				"higherbetter": true
 			},
 			"mass": {
 				"id": 18,
