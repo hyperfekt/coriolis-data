@@ -1,3 +1,6 @@
+#2.2.18
+  * Correct lower efficiency value to be better, not worse
+
 #2.2.17
   * Add mass as potential SCB modification
   * Fix mining laser statistics

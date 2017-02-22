@@ -19449,7 +19449,7 @@ module.exports = {
         name: "eff",
         type: "percentage",
         method: "multiplicative",
-        higherbetter: true
+        higherbetter: false
       },
       engcap: {
         id: 9,
@@ -19526,7 +19526,7 @@ module.exports = {
         name: "kinres",
         type: "percentage",
         method: "additive",
-        higherbetter: false
+        higherbetter: true
       },
       mass: {
         id: 18,
