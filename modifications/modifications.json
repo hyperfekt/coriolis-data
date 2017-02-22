@@ -9,7 +9,7 @@
     "damagedist": {"id": 40, "name": "damage", "type": "object", "hidden": true, "method": "overwrite"},
     "distdraw": {"id": 6, "name": "distdraw", "type": "percentage", "method": "multiplicative", "higherbetter": false},
     "duration": {"id": 7, "name": "duration", "type": "percentage", "method": "multiplicative", "higherbetter": true},
-    "eff": {"id": 8, "name": "eff", "type": "percentage", "method": "multiplicative", "higherbetter": true},
+    "eff": {"id": 8, "name": "eff", "type": "percentage", "method": "multiplicative", "higherbetter": false},
     "engcap": {"id": 9, "name": "engcap", "type": "percentage", "method": "multiplicative", "higherbetter": true},
     "engrate": {"id": 10, "name": "engrate", "type": "percentage", "method": "multiplicative", "higherbetter": true},
     "explres": {"id": 11, "name": "explres", "type": "percentage", "method": "additive", "higherbetter": true},
