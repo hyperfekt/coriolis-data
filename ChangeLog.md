@@ -1,5 +1,6 @@
 #2.2.19
   * Remove shot speed modification - it is directly tied to range
+  * Fix incorrect minimal mass for 3C bi-weave shield generator
 
 #2.2.18
   * Correct lower efficiency value to be better, not worse
