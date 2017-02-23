@@ -19037,8 +19037,7 @@ module.exports = {
             features: {
               fallofffromrange: [ 1, 1 ],
               mass: [ .1, 0 ],
-              range: [ .1, .2 ],
-              shotspeed: [ .1, .19 ]
+              range: [ .1, .2 ]
             }
           },
           "2": {
@@ -19050,8 +19049,7 @@ module.exports = {
               fallofffromrange: [ 1, 1 ],
               mass: [ .2, .04 ],
               power: [ .04, 0 ],
-              range: [ .2, .4 ],
-              shotspeed: [ .19, .39 ]
+              range: [ .2, .4 ]
             }
           },
           "3": {
@@ -19064,8 +19062,7 @@ module.exports = {
               fallofffromrange: [ 1, 1 ],
               mass: [ .29, .1 ],
               power: [ .1, .04 ],
-              range: [ .31, .61 ],
-              shotspeed: [ .29, .59 ]
+              range: [ .31, .61 ]
             }
           },
           "4": {
@@ -19078,8 +19075,7 @@ module.exports = {
               fallofffromrange: [ 1, 1 ],
               mass: [ .39, .14 ],
               power: [ .14, .1 ],
-              range: [ .4, .81 ],
-              shotspeed: [ .39, .79 ]
+              range: [ .4, .81 ]
             }
           },
           "5": {
@@ -19092,8 +19088,7 @@ module.exports = {
               fallofffromrange: [ 1, 1 ],
               mass: [ .5, .2 ],
               power: [ .2, .14 ],
-              range: [ .5, 1 ],
-              shotspeed: [ .5, 1 ]
+              range: [ .5, 1 ]
             }
           }
         },
@@ -20098,7 +20093,7 @@ module.exports = {
           Weapon_ShortRange: [ 1, 2, 3, 4, 5 ],
           Weapon_Sturdy: [ 1, 2, 3, 4, 5 ]
         },
-        modifications: [ "ammo", "clip", "damage", "damagedist", "distdraw", "fallofffromrange", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "shotspeed", "thermload" ],
+        modifications: [ "ammo", "clip", "damage", "damagedist", "distdraw", "fallofffromrange", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "thermload" ],
         specials: [ "special_auto_loader", "special_dispersal_field", "special_smart_rounds", "special_force_shell", "special_high_yield_shell", "special_thermal_cascade" ]
       },
       cc: {
@@ -20153,7 +20148,7 @@ module.exports = {
           Weapon_RapidFire: [ 1, 2, 3, 4, 5 ],
           Weapon_Sturdy: [ 1, 2, 3, 4, 5 ]
         },
-        modifications: [ "ammo", "burst", "burstrof", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "shotspeed", "thermload" ],
+        modifications: [ "ammo", "burst", "burstrof", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "thermload" ],
         specials: [ "special_corrosive_shell", "special_blinding_shell", "special_incendiary_rounds", "special_drag_munitions", "special_screening_shell" ]
       },
       fh: {
@@ -20247,7 +20242,7 @@ module.exports = {
           Weapon_ShortRange: [ 1, 2, 3, 4, 5 ],
           Weapon_Sturdy: [ 1, 2, 3, 4, 5 ]
         },
-        modifications: [ "ammo", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "shotspeed", "thermload" ],
+        modifications: [ "ammo", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "thermload" ],
         specials: [ "special_auto_loader", "special_corrosive_shell", "special_emissive_munitions", "special_incendiary_rounds", "special_smart_rounds", "special_thermalshock" ]
       },
       ml: {
@@ -20289,7 +20284,7 @@ module.exports = {
           Weapon_ShortRange: [ 1, 2, 3, 4, 5 ],
           Weapon_Sturdy: [ 1, 2, 3, 4, 5 ]
         },
-        modifications: [ "ammo", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "shotspeed", "thermload" ],
+        modifications: [ "ammo", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "thermload" ],
         specials: [ "special_blinding_shell", "special_dispersal_field", "special_phasing_sequence", "special_plasma_slug", "special_target_lock_breaker", "special_thermal_conduit" ]
       },
       pas: {

@@ -25003,10 +25003,6 @@
 							"range": [
 								0.1,
 								0.2
-							],
-							"shotspeed": [
-								0.1,
-								0.19
 							]
 						}
 					},
@@ -25031,10 +25027,6 @@
 							"range": [
 								0.2,
 								0.4
-							],
-							"shotspeed": [
-								0.19,
-								0.39
 							]
 						}
 					},
@@ -25060,10 +25052,6 @@
 							"range": [
 								0.31,
 								0.61
-							],
-							"shotspeed": [
-								0.29,
-								0.59
 							]
 						}
 					},
@@ -25089,10 +25077,6 @@
 							"range": [
 								0.4,
 								0.81
-							],
-							"shotspeed": [
-								0.39,
-								0.79
 							]
 						}
 					},
@@ -25116,10 +25100,6 @@
 								0.14
 							],
 							"range": [
-								0.5,
-								1
-							],
-							"shotspeed": [
 								0.5,
 								1
 							]
@@ -26569,7 +26549,6 @@
 					"range",
 					"reload",
 					"rof",
-					"shotspeed",
 					"thermload"
 				],
 				"specials": [
@@ -26791,7 +26770,6 @@
 					"range",
 					"reload",
 					"rof",
-					"shotspeed",
 					"thermload"
 				],
 				"specials": [
@@ -27156,7 +27134,6 @@
 					"range",
 					"reload",
 					"rof",
-					"shotspeed",
 					"thermload"
 				],
 				"specials": [
@@ -27361,7 +27338,6 @@
 					"range",
 					"reload",
 					"rof",
-					"shotspeed",
 					"thermload"
 				],
 				"specials": [
