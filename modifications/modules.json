@@ -149,15 +149,21 @@
   },
   "cs": {
     "blueprints": {
+      "Sensor_CargoScanner_FastScan": [1, 2, 3, 4, 5],
       "CargoScanner_LightWeight": [1, 2, 3, 4, 5],
+      "Sensor_CargoScanner_LongRange": [1, 2, 3, 4, 5],
       "CargoScanner_Reinforced": [1, 2, 3, 4, 5],
-      "CargoScanner_Shielded": [1, 2, 3, 4, 5]
+      "CargoScanner_Shielded": [1, 2, 3, 4, 5],
+      "Sensor_CargoScanner_WideAngle": [1, 2, 3, 4, 5]
     },
     "modifications": [
       "boot",
       "integrity",
       "mass",
-      "power"
+      "power",
+      "scanangle",
+      "range",
+      "scantime"
     ]
   },
   "dc": {
@@ -325,15 +331,21 @@
   },
   "kw": {
     "blueprints": {
+      "Sensor_KillWarrantScanner_FastScan": [1, 2, 3, 4, 5],
       "KillWarrantScanner_LightWeight": [1, 2, 3, 4, 5],
+      "KillWarrantScanner_LongRange": [1, 2, 3, 4, 5],
       "KillWarrantScanner_Reinforced": [1, 2, 3, 4, 5],
-      "KillWarrantScanner_Shielded": [1, 2, 3, 4, 5]
+      "KillWarrantScanner_Shielded": [1, 2, 3, 4, 5],
+      "Sensor_KillWarrantScanner_WideAngle": [1, 2, 3, 4, 5]
     },
     "modifications": [
       "boot",
       "integrity",
       "mass",
-      "power"
+      "power",
+      "scanangle",
+      "range",
+      "scantime"
     ]
   },
   "ls": {
@@ -694,8 +706,16 @@
   },
   "s": {
     "blueprints": {
+      "Sensor_Sensor_LightWeight": [1, 2, 3, 4, 5],
+      "Sensor_Sensor_LongRange": [1, 2, 3, 4, 5],
+      "Sensor_Sensor_WideAngle": [1, 2, 3, 4, 5]
     },
     "modifications": [
+      "integrity",
+      "mass",
+      "power",
+      "scanrange",
+      "scanangle"
     ]
   },
   "sb": {
@@ -761,6 +781,21 @@
       "thermres"
     ]
   },
+  "ss": {
+    "blueprints": {
+      "Sensor_SurfaceScanner_FastScan": [1, 2, 3, 4, 5],
+      "Sensor_SurfaceScanner_LongRange": [1, 2, 3, 4, 5],
+      "Sensor_SurfaceScanner_WideAngle": [1, 2, 3, 4, 5]
+    },
+    "modifications": [
+      "mass",
+      "power",
+      "scanangle",
+      "scanrange",
+      "scantime"
+    ]
+  },
+
   "t": {
     "blueprints": {
       "Engine_Dirty": [1, 2, 3, 4, 5],
@@ -838,15 +873,21 @@
   },
   "ws": {
     "blueprints": {
-      "WakeScanner_LightWeight": [1, 2, 3],
-      "WakeScanner_Reinforced": [1, 2, 3],
-      "WakeScanner_Shielded": [1, 2, 3]
+      "Sensor_WakeScanner_FastScan": [1, 2, 3, 4, 5],
+      "WakeScanner_LightWeight": [1, 2, 3, 4, 5],
+      "Sensor_WakeScanner_LongRange": [1, 2, 3, 4, 5],
+      "WakeScanner_Reinforced": [1, 2, 3, 4, 5],
+      "WakeScanner_Shielded": [1, 2, 3, 4, 5],
+      "Sensor_WakeScanner_WideAngle": [1, 2, 3, 4, 5]
     },
     "modifications": [
       "boot",
       "integrity",
       "mass",
-      "power"
+      "power",
+      "scanangle",
+      "range",
+      "scantime"
     ]
   }
 }

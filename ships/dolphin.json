@@ -1,0 +1,46 @@
+{
+  "dolphin": {
+    "eddbID": 31,
+    "properties": {
+      "name": "Dolphin",
+      "manufacturer": "Saud Kruger",
+      "class": 1,
+      "hullCost": 1115330,
+      "speed": 250,
+      "boost": 350,
+      "boostEnergy": -1,
+      "baseShieldStrength": 110,
+      "baseArmour": 110,
+      "hardness": 35,
+      "hullMass": 140,
+      "masslock": -1,
+      "pipSpeed": 0.08375,
+      "luxuryCabins": true,
+      "pitch": 30,
+      "roll": 100,
+      "yaw": 20,
+      "crew": 1
+    },
+    "retailCost": 1337330,
+    "bulkheads": [
+      { "id": "cq", "eddbID": 1589, "grp": "bh", "cost": 0, "mass": 0, "explres": -0.4, "kinres": -0.2, "thermres": 0, "hullboost": 0.8 },
+      { "id": "cr", "eddbID": 1590, "grp": "bh", "cost": 534940, "mass": 32, "explres": -0.4, "kinres": -0.2, "thermres": 0, "hullboost": 1.52 },
+      { "id": "cs", "eddbID": 1591, "grp": "bh", "cost": 1203600, "mass": 63, "explres": -0.4, "kinres": -0.2, "thermres": 0, "hullboost": 2.5 },
+      { "id": "ct", "eddbID": 1592, "grp": "bh", "cost": 2808390, "mass": 63, "explres": -0.5, "kinres": -0.75, "thermres": 0.5, "hullboost": 2.5  },
+      { "id": "cu", "eddbID": 1593, "grp": "bh", "cost": 3152080, "mass": 63, "explres": 0.2, "kinres": 0.25, "thermres": -0.4, "hullboost": 2.5 }
+    ],
+    "slots": {
+      "standard": [4, 5, 4, 4, 3, 3, 4],
+      "hardpoints": [1, 1, 0, 0, 0],
+      "internal": [
+        { "class": 5, "name": "Passenger", "eligible": { "cr": 1, "hr": 1, "pce": 1, "pci": 1, "pcm": 1, "pcq": 1 } },
+        4, 4, 3, 2, 2, 2
+      ]
+    },
+    "defaults": {
+      "standard": ["4E", "5E", "4E", "4E", "3E", "3E", "4C"],
+      "hardpoints": [17, 17, 0, 0, 0],
+      "internal": ["md", "02", "49", "01", "00", 0, "2h"]
+    }
+  }
+}

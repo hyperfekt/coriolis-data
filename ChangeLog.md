@@ -1,3 +1,10 @@
+#2.3.0
+  * Add Dolphin
+  * Add turreted mining lasers
+  * Update ship hardness for Federal Corvette, Imperial Cutter and Anaconda
+  * Update piercing for large and huge weapons
+  * Add long range / wide angle / fast scan scanner blueprints
+
 #2.2.19
   * Remove shot speed modification - it is directly tied to range
   * Fix incorrect minimal mass for 3C bi-weave shield generator

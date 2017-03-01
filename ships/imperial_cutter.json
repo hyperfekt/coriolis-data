@@ -1,6 +1,7 @@
 {
   "imperial_cutter": {
-    "edID": 128049375, "eddbID": 26,
+    "edID": 128049375,
+    "eddbID": 26,
     "properties": {
       "name": "Imperial Cutter",
       "manufacturer": "Gutamaya",
@@ -11,7 +12,7 @@
       "boostEnergy": 23,
       "baseShieldStrength": 600,
       "baseArmour": 400,
-      "hardness": 70,
+      "hardness": 185,
       "hullMass": 1100,
       "masslock": 27,
       "pipSpeed": 0.05,

@@ -38,18 +38,6 @@
       "power": 0,
       "rangeLS": 500,
       "rating": "E"
-    },
-    {
-      "class": 1,
-      "cost": 250000,
-      "edID": 128666634,
-      "eddbID": 1245,
-      "grp": "sc",
-      "id": "2i",
-      "mass": 1.3,
-      "name": "Detailed Surface Scanner",
-      "power": 0,
-      "rating": "C"
     }
   ]
 }

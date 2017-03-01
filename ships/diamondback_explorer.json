@@ -1,6 +1,7 @@
 {
   "diamondback_explorer": {
-    "edID": 128671831, "eddbID": 5,
+    "edID": 128671831,
+    "eddbID": 5,
     "properties": {
       "name": "Diamondback Explorer",
       "manufacturer": "Lakon",

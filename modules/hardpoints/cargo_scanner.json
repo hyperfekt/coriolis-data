@@ -13,7 +13,7 @@
       "power": 0.2,
       "range": 2000,
       "rating": "E",
-      "time": 10
+      "scantime": 10
     },
     {
       "angle": 15,
@@ -28,7 +28,7 @@
       "power": 0.4,
       "range": 2500,
       "rating": "D",
-      "time": 10
+      "scantime": 10
     },
     {
       "angle": 15,
@@ -43,7 +43,7 @@
       "power": 0.8,
       "range": 3000,
       "rating": "C",
-      "time": 10
+      "scantime": 10
     },
     {
       "angle": 15,
@@ -58,7 +58,7 @@
       "power": 1.6,
       "range": 3500,
       "rating": "B",
-      "time": 10
+      "scantime": 10
     },
     {
       "angle": 15,
@@ -73,7 +73,7 @@
       "power": 3.2,
       "range": 4000,
       "rating": "A",
-      "time": 10
+      "scantime": 10
     }
   ]
 }

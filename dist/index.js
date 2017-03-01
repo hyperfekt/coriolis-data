@@ -103,7 +103,7 @@ module.exports = {
         boostEnergy: 27,
         baseShieldStrength: 350,
         baseArmour: 525,
-        hardness: 65,
+        hardness: 170,
         hullMass: 400,
         masslock: 23,
         pipSpeed: .13875,
@@ -865,6 +865,102 @@ module.exports = {
         internal: [ "44", 0, 0, "2h" ]
       }
     },
+    dolphin: {
+      eddbID: 31,
+      properties: {
+        name: "Dolphin",
+        manufacturer: "Saud Kruger",
+        class: 1,
+        hullCost: 1115330,
+        speed: 250,
+        boost: 350,
+        boostEnergy: -1,
+        baseShieldStrength: 110,
+        baseArmour: 110,
+        hardness: 35,
+        hullMass: 140,
+        masslock: -1,
+        pipSpeed: .08375,
+        luxuryCabins: true,
+        pitch: 30,
+        roll: 100,
+        yaw: 20,
+        crew: 1
+      },
+      retailCost: 1337330,
+      bulkheads: [ {
+        id: "cq",
+        eddbID: 1589,
+        grp: "bh",
+        cost: 0,
+        mass: 0,
+        explres: -.4,
+        kinres: -.2,
+        thermres: 0,
+        hullboost: .8
+      }, {
+        id: "cr",
+        eddbID: 1590,
+        grp: "bh",
+        cost: 534940,
+        mass: 32,
+        explres: -.4,
+        kinres: -.2,
+        thermres: 0,
+        hullboost: 1.52
+      }, {
+        id: "cs",
+        eddbID: 1591,
+        grp: "bh",
+        cost: 1203600,
+        mass: 63,
+        explres: -.4,
+        kinres: -.2,
+        thermres: 0,
+        hullboost: 2.5
+      }, {
+        id: "ct",
+        eddbID: 1592,
+        grp: "bh",
+        cost: 2808390,
+        mass: 63,
+        explres: -.5,
+        kinres: -.75,
+        thermres: .5,
+        hullboost: 2.5
+      }, {
+        id: "cu",
+        eddbID: 1593,
+        grp: "bh",
+        cost: 3152080,
+        mass: 63,
+        explres: .2,
+        kinres: .25,
+        thermres: -.4,
+        hullboost: 2.5
+      } ],
+      slots: {
+        standard: [ 4, 5, 4, 4, 3, 3, 4 ],
+        hardpoints: [ 1, 1, 0, 0, 0 ],
+        internal: [ {
+          class: 5,
+          name: "Passenger",
+          eligible: {
+            cr: 1,
+            hr: 1,
+            pce: 1,
+            pci: 1,
+            pcm: 1,
+            pcq: 1
+          }
+        }, 4, 4, 3, 2, 2, 2 ]
+      },
+      defaults: {
+        standard: [ "4E", "5E", "4E", "4E", "3E", "3E", "4C" ],
+        hardpoints: [ 17, 17, 0, 0, 0 ],
+        internal: [ "md", "02", "49", "01", "00", 0, "2h" ]
+      }
+    },
     eagle: {
       edID: 128049255,
       eddbID: 7,
@@ -1082,7 +1178,7 @@ module.exports = {
         boostEnergy: 27,
         baseShieldStrength: 555,
         baseArmour: 370,
-        hardness: 70,
+        hardness: 185,
         hullMass: 900,
         masslock: 24,
         pipSpeed: .125,
@@ -1770,7 +1866,7 @@ module.exports = {
         boostEnergy: 23,
         baseShieldStrength: 600,
         baseArmour: 400,
-        hardness: 70,
+        hardness: 185,
         hullMass: 1100,
         masslock: 27,
         pipSpeed: .05,
@@ -2067,7 +2163,7 @@ module.exports = {
         baseShieldStrength: 220,
         baseArmour: 220,
         hardness: 55,
-        hullMass: 580,
+        hullMass: 290,
         masslock: 13,
         pipSpeed: .08375,
         luxuryCabins: true,
@@ -6475,7 +6571,7 @@ module.exports = {
         integrity: 64,
         mass: 8,
         mount: "F",
-        piercing: 52,
+        piercing: 95,
         power: .9,
         range: 3e3,
         rating: "D",
@@ -6500,7 +6596,7 @@ module.exports = {
         integrity: 64,
         mass: 8,
         mount: "G",
-        piercing: 52,
+        piercing: 95,
         power: .92,
         range: 3e3,
         rating: "E",
@@ -6525,7 +6621,7 @@ module.exports = {
         integrity: 64,
         mass: 8,
         mount: "T",
-        piercing: 52,
+        piercing: 95,
         power: .89,
         range: 3e3,
         rating: "F",
@@ -6550,7 +6646,7 @@ module.exports = {
         integrity: 80,
         mass: 16,
         mount: "F",
-        piercing: 65,
+        piercing: 170,
         power: 1.33,
         range: 3e3,
         rating: "A",
@@ -6575,7 +6671,7 @@ module.exports = {
         integrity: 80,
         mass: 16,
         mount: "G",
-        piercing: 65,
+        piercing: 170,
         power: 1.37,
         range: 3e3,
         rating: "A",
@@ -6795,7 +6891,7 @@ module.exports = {
         integrity: 64,
         mass: 8,
         mount: "F",
-        piercing: 52,
+        piercing: 95,
         power: 1.66,
         range: 3e3,
         rating: "D",
@@ -6822,7 +6918,7 @@ module.exports = {
         integrity: 64,
         mass: 8,
         mount: "G",
-        piercing: 52,
+        piercing: 95,
         power: 1.65,
         range: 3e3,
         rating: "E",
@@ -6849,7 +6945,7 @@ module.exports = {
         integrity: 64,
         mass: 8,
         mount: "T",
-        piercing: 52,
+        piercing: 95,
         power: 1.57,
         range: 3e3,
         rating: "E",
@@ -6876,7 +6972,7 @@ module.exports = {
         integrity: 80,
         mass: 16,
         mount: "F",
-        piercing: 65,
+        piercing: 170,
         power: 2.58,
         range: 3e3,
         rating: "E",
@@ -6903,7 +6999,7 @@ module.exports = {
         integrity: 80,
         mass: 16,
         mount: "G",
-        piercing: 65,
+        piercing: 170,
         power: 2.59,
         range: 3e3,
         rating: "E",
@@ -7101,7 +7197,7 @@ module.exports = {
         integrity: 64,
         mass: 8,
         mount: "F",
-        piercing: 50,
+        piercing: 90,
         power: 1.62,
         range: 3e3,
         rating: "C",
@@ -7125,7 +7221,7 @@ module.exports = {
         integrity: 64,
         mass: 8,
         mount: "G",
-        piercing: 50,
+        piercing: 90,
         power: 1.6,
         range: 3e3,
         rating: "C",
@@ -7149,7 +7245,7 @@ module.exports = {
         integrity: 64,
         mass: 8,
         mount: "T",
-        piercing: 50,
+        piercing: 90,
         power: 1.51,
         range: 3e3,
         rating: "D",
@@ -7173,7 +7269,7 @@ module.exports = {
         integrity: 80,
         mass: 16,
         mount: "F",
-        piercing: 60,
+        piercing: 155,
         power: 2.61,
         range: 3e3,
         rating: "A",
@@ -7197,7 +7293,7 @@ module.exports = {
         integrity: 80,
         mass: 16,
         mount: "G",
-        piercing: 60,
+        piercing: 155,
         power: 2.57,
         range: 3e3,
         rating: "A",
@@ -7429,7 +7525,7 @@ module.exports = {
         integrity: 64,
         mass: 8,
         mount: "F",
-        piercing: 54,
+        piercing: 98,
         power: .64,
         range: 4e3,
         rating: "C",
@@ -7458,7 +7554,7 @@ module.exports = {
         integrity: 64,
         mass: 8,
         mount: "G",
-        piercing: 54,
+        piercing: 98,
         power: .97,
         range: 4e3,
         rating: "C",
@@ -7487,7 +7583,7 @@ module.exports = {
         integrity: 80,
         mass: 16,
         mount: "F",
-        piercing: 68,
+        piercing: 175,
         power: .73,
         range: 4e3,
         rating: "A",
@@ -7517,7 +7613,7 @@ module.exports = {
         integrity: 80,
         mass: 16,
         mount: "G",
-        piercing: 68,
+        piercing: 175,
         power: 1.22,
         range: 4e3,
         rating: "A",
@@ -7722,7 +7818,7 @@ module.exports = {
         integrity: 64,
         mass: 8,
         mount: "F",
-        piercing: 70,
+        piercing: 125,
         power: .67,
         range: 4e3,
         rating: "C",
@@ -7753,7 +7849,7 @@ module.exports = {
         integrity: 64,
         mass: 8,
         mount: "G",
-        piercing: 70,
+        piercing: 125,
         power: .75,
         range: 4e3,
         rating: "C",
@@ -7782,7 +7878,7 @@ module.exports = {
         integrity: 64,
         mass: 8,
         mount: "T",
-        piercing: 70,
+        piercing: 125,
         power: .64,
         range: 4e3,
         rating: "D",
@@ -7813,7 +7909,7 @@ module.exports = {
         integrity: 80,
         mass: 16,
         mount: "F",
-        piercing: 90,
+        piercing: 200,
         power: .92,
         range: 4500,
         rating: "B",
@@ -7844,7 +7940,7 @@ module.exports = {
         integrity: 80,
         mass: 16,
         mount: "G",
-        piercing: 90,
+        piercing: 200,
         power: 1.03,
         range: 4500,
         rating: "B",
@@ -8061,7 +8157,7 @@ module.exports = {
         jitter: .5,
         mass: 8,
         mount: "F",
-        piercing: 45,
+        piercing: 60,
         power: 1.02,
         range: 2e3,
         rating: "C",
@@ -8092,7 +8188,7 @@ module.exports = {
         jitter: .5,
         mass: 8,
         mount: "G",
-        piercing: 45,
+        piercing: 60,
         power: 1.55,
         range: 2e3,
         rating: "C",
@@ -8123,7 +8219,7 @@ module.exports = {
         jitter: .5,
         mass: 8,
         mount: "T",
-        piercing: 45,
+        piercing: 60,
         power: 1.29,
         range: 2e3,
         rating: "C",
@@ -8155,7 +8251,7 @@ module.exports = {
         mass: 8,
         mount: "F",
         name: "Pacifier",
-        piercing: 45,
+        piercing: 60,
         power: 1.02,
         pp: "Zachary Hudson",
         rating: "C",
@@ -8187,7 +8283,7 @@ module.exports = {
         integrity: 40,
         mass: 2,
         mount: "F",
-        piercing: 30,
+        piercing: 80,
         power: 1.15,
         range: 3e3,
         rating: "D",
@@ -8216,7 +8312,7 @@ module.exports = {
         integrity: 51,
         mass: 4,
         mount: "F",
-        piercing: 48,
+        piercing: 125,
         power: 1.63,
         range: 3e3,
         rating: "B",
@@ -8248,7 +8344,7 @@ module.exports = {
         mass: 4,
         mount: "F",
         name: "Imperial Hammer",
-        piercing: 150,
+        piercing: 125,
         power: 1.63,
         pp: "Arissa Lavigny-Duval",
         range: 3e3,
@@ -8280,7 +8376,7 @@ module.exports = {
         integrity: 51,
         mass: 4,
         mount: "F",
-        piercing: 100,
+        piercing: 200,
         power: 1.43,
         range: 3500,
         rating: "C",
@@ -8311,7 +8407,7 @@ module.exports = {
         integrity: 64,
         mass: 8,
         mount: "F",
-        piercing: 100,
+        piercing: 200,
         power: 1.97,
         range: 3500,
         rating: "B",
@@ -8343,7 +8439,7 @@ module.exports = {
         mass: 8,
         mount: "F",
         name: "Advanced Plasma Accelerator",
-        piercing: 100,
+        piercing: 200,
         power: 1.97,
         pp: "Denton Patreus",
         range: 3500,
@@ -8375,7 +8471,7 @@ module.exports = {
         integrity: 80,
         mass: 16,
         mount: "F",
-        piercing: 100,
+        piercing: 200,
         power: 2.63,
         range: 3500,
         rating: "A",
@@ -8728,6 +8824,29 @@ module.exports = {
         rating: "D",
         thermload: 2
       }, {
+        breachdmg: .3,
+        breachmax: .2,
+        breachmin: .1,
+        class: 1,
+        cost: 9400,
+        damage: 2,
+        damagedist: {
+          T: 1
+        },
+        distdraw: 1.5,
+        eddbID: 1587,
+        falloff: 300,
+        grp: "ml",
+        id: "w0",
+        integrity: 40,
+        mass: 2,
+        mount: "T",
+        piercing: 18,
+        power: .5,
+        range: 500,
+        rating: "D",
+        thermload: 2
+      }, {
         breachdmg: 1.2,
         breachmax: .2,
         breachmin: .1,
@@ -8777,6 +8896,29 @@ module.exports = {
         range: 500,
         rating: "D",
         thermload: 4
+      }, {
+        breachdmg: .6,
+        breachmax: .2,
+        breachmin: .1,
+        class: 2,
+        cost: 32590,
+        damage: 4,
+        damagedist: {
+          T: 1
+        },
+        distdraw: 3,
+        eddbID: 1588,
+        falloff: 300,
+        grp: "ml",
+        id: "w1",
+        integrity: 51,
+        mass: 2,
+        mount: "T",
+        piercing: 18,
+        power: .75,
+        range: 500,
+        rating: "D",
+        thermload: 4
       } ],
       cs: [ {
         angle: 15,
@@ -8791,7 +8933,7 @@ module.exports = {
         power: .2,
         range: 2e3,
         rating: "E",
-        time: 10
+        scantime: 10
       }, {
         angle: 15,
         class: 0,
@@ -8805,7 +8947,7 @@ module.exports = {
         power: .4,
         range: 2500,
         rating: "D",
-        time: 10
+        scantime: 10
       }, {
         angle: 15,
         class: 0,
@@ -8819,7 +8961,7 @@ module.exports = {
         power: .8,
         range: 3e3,
         rating: "C",
-        time: 10
+        scantime: 10
       }, {
         angle: 15,
         class: 0,
@@ -8833,7 +8975,7 @@ module.exports = {
         power: 1.6,
         range: 3500,
         rating: "B",
-        time: 10
+        scantime: 10
       }, {
         angle: 15,
         class: 0,
@@ -8847,7 +8989,7 @@ module.exports = {
         power: 3.2,
         range: 4e3,
         rating: "A",
-        time: 10
+        scantime: 10
       } ],
       ws: [ {
         class: 0,
@@ -8861,7 +9003,7 @@ module.exports = {
         power: .2,
         range: 2e3,
         rating: "E",
-        time: 10
+        scantime: 10
       }, {
         class: 0,
         cost: 40630,
@@ -8874,7 +9016,7 @@ module.exports = {
         power: .4,
         range: 2500,
         rating: "D",
-        time: 10
+        scantime: 10
       }, {
         class: 0,
         cost: 121900,
@@ -8887,7 +9029,7 @@ module.exports = {
         power: .8,
         range: 3e3,
         rating: "C",
-        time: 10
+        scantime: 10
       }, {
         class: 0,
         cost: 365700,
@@ -8900,7 +9042,7 @@ module.exports = {
         power: 1.6,
         range: 3500,
         rating: "B",
-        time: 10
+        scantime: 10
       }, {
         class: 0,
         cost: 1097100,
@@ -8913,7 +9055,7 @@ module.exports = {
         power: 3.2,
         range: 4e3,
         rating: "A",
-        time: 10
+        scantime: 10
       } ],
       kw: [ {
         class: 0,
@@ -8927,7 +9069,7 @@ module.exports = {
         power: .2,
         range: 2e3,
         rating: "E",
-        time: 10
+        scantime: 10
       }, {
         class: 0,
         cost: 40630,
@@ -8940,7 +9082,7 @@ module.exports = {
         power: .4,
         range: 2500,
         rating: "D",
-        time: 10
+        scantime: 10
       }, {
         class: 0,
         cost: 121900,
@@ -8953,7 +9095,7 @@ module.exports = {
         power: .8,
         range: 3e3,
         rating: "C",
-        time: 10
+        scantime: 10
       }, {
         class: 0,
         cost: 365700,
@@ -8966,7 +9108,7 @@ module.exports = {
         power: 1.6,
         range: 3500,
         rating: "B",
-        time: 10
+        scantime: 10
       }, {
         class: 0,
         cost: 1097100,
@@ -8979,7 +9121,7 @@ module.exports = {
         power: 3.2,
         range: 4e3,
         rating: "A",
-        time: 10
+        scantime: 10
       } ],
       sb: [ {
         class: 0,
@@ -12557,17 +12699,6 @@ module.exports = {
         power: 0,
         rangeLS: 500,
         rating: "E"
-      }, {
-        class: 1,
-        cost: 25e4,
-        edID: 128666634,
-        eddbID: 1245,
-        grp: "sc",
-        id: "2i",
-        mass: 1.3,
-        name: "Detailed Surface Scanner",
-        power: 0,
-        rating: "C"
       } ],
       scb: [ {
         ammocost: 300,
@@ -14122,6 +14253,18 @@ module.exports = {
         rating: "A",
         regen: 2.4,
         thermres: -.2
+      } ],
+      ss: [ {
+        class: 1,
+        cost: 25e4,
+        edID: 128666634,
+        eddbID: 1245,
+        grp: "ss",
+        id: "2i",
+        mass: 1.3,
+        name: "Detailed Surface Scanner",
+        power: 0,
+        rating: "C"
       } ]
     }
   },
@@ -14307,7 +14450,7 @@ module.exports = {
           }
         },
         id: 5,
-        name: "Blast Resistant"
+        name: "Blast resistant"
       },
       Armour_HeavyDuty: {
         grades: {
@@ -14380,7 +14523,7 @@ module.exports = {
           }
         },
         id: 7,
-        name: "Heavy Duty"
+        name: "Heavy duty"
       },
       Armour_Kinetic: {
         grades: {
@@ -14443,7 +14586,7 @@ module.exports = {
           }
         },
         id: 4,
-        name: "Kinetic Resistant"
+        name: "Kinetic resistant"
       },
       Armour_Thermic: {
         grades: {
@@ -14498,7 +14641,7 @@ module.exports = {
           }
         },
         id: 8,
-        name: "Thermal Resistant"
+        name: "Thermal resistant"
       },
       CargoScanner_LightWeight: {
         grades: {
@@ -15723,7 +15866,7 @@ module.exports = {
           }
         },
         id: 29,
-        name: "Longer range"
+        name: "Long range"
       },
       FuelScoop_Shielded: {
         grades: {
@@ -16436,7 +16579,7 @@ module.exports = {
           }
         },
         id: 43,
-        name: "Blast Resistant"
+        name: "Blast resistant"
       },
       HullReinforcement_HeavyDuty: {
         grades: {
@@ -16572,7 +16715,7 @@ module.exports = {
           }
         },
         id: 44,
-        name: "Kinetic Resistant"
+        name: "Kinetic resistant"
       },
       HullReinforcement_Thermic: {
         grades: {
@@ -16611,7 +16754,7 @@ module.exports = {
           },
           "4": {
             components: {
-              "Galvanisign Alloys": 1,
+              "Galvanising Alloys": 1,
               "Heat Vanes": 1,
               Tungsten: 1
             },
@@ -16635,7 +16778,7 @@ module.exports = {
           }
         },
         id: 45,
-        name: "Thermal Resistant"
+        name: "Thermal resistant"
       },
       KillWarrantScanner_LightWeight: {
         grades: {
@@ -16694,6 +16837,69 @@ module.exports = {
         },
         id: 46,
         name: "Lightweight"
+      },
+      KillWarrantScanner_LongRange: {
+        grades: {
+          "1": {
+            components: {
+              Iron: 1
+            },
+            features: {
+              power: [ .2, .1 ],
+              scanangle: [ -.2, -.1 ],
+              range: [ .1, .2 ]
+            }
+          },
+          "2": {
+            components: {
+              "Hybrid Capacitors": 1,
+              Iron: 1
+            },
+            features: {
+              power: [ .39, .2 ],
+              scanangle: [ -.3, -.15 ],
+              range: [ .2, .4 ]
+            }
+          },
+          "3": {
+            components: {
+              "Hybrid Capacitors": 1,
+              Iron: 1,
+              "Unexpected Emission Data": 1
+            },
+            features: {
+              power: [ .61, .29 ],
+              scanangle: [ -.4, -.2 ],
+              range: [ .31, .61 ]
+            }
+          },
+          "4": {
+            components: {
+              "Decoded Emission Data": 1,
+              "Electrochemical Arrays": 1,
+              Germanium: 1
+            },
+            features: {
+              power: [ .79, .39 ],
+              scanangle: [ -.5, -.25 ],
+              range: [ .39, .79 ]
+            }
+          },
+          "5": {
+            components: {
+              "Abnormal Compact Emissions Data": 1,
+              Niobium: 1,
+              "Polymer Capacitors": 1
+            },
+            features: {
+              power: [ 1, .5 ],
+              scanangle: [ -.61, -.3 ],
+              range: [ .5, 1 ]
+            }
+          }
+        },
+        id: 99,
+        name: "Long range"
       },
       KillWarrantScanner_Reinforced: {
         grades: {
@@ -17888,6 +18094,888 @@ module.exports = {
         id: 92,
         name: "Shielded"
       },
+      Sensor_CargoScanner_FastScan: {
+        grades: {
+          "1": {
+            components: {
+              Phosphorus: 1
+            },
+            features: {
+              integrity: [ -.4, -.11 ],
+              range: [ -.1, -.05 ],
+              scantime: [ -.1, -.4 ]
+            }
+          },
+          "2": {
+            components: {
+              "Flawed Focus Crystals": 1,
+              Phosphorus: 1
+            },
+            features: {
+              integrity: [ -.5, -.2 ],
+              range: [ -.2, -.1 ],
+              scantime: [ -.2, -.5 ]
+            }
+          },
+          "3": {
+            components: {
+              "Flawed Focus Crystals": 1,
+              "Open Symmetric Keys": 1,
+              Phosphorus: 1
+            },
+            features: {
+              integrity: [ -.61, -.31 ],
+              range: [ -.3, -.15 ],
+              scantime: [ -.31, -.61 ]
+            }
+          },
+          "4": {
+            components: {
+              "Atypical Encryption Archives": 1,
+              "Focus Crystals": 1,
+              Manganese: 1
+            },
+            features: {
+              integrity: [ -.7, -.4 ],
+              range: [ -.41, -.2 ],
+              scantime: [ -.4, -.7 ]
+            }
+          },
+          "5": {
+            components: {
+              "Adaptive Encryptors Capture": 1,
+              Arsenic: 1,
+              "Refined Focus Crystals": 1
+            },
+            features: {
+              integrity: [ -.8, -.5 ],
+              range: [ -.5, -.2 ],
+              scantime: [ -.5, -.8 ]
+            }
+          }
+        },
+        id: 102,
+        name: "Fast scan"
+      },
+      Sensor_CargoScanner_LongRange: {
+        grades: {
+          "1": {
+            components: {
+              Iron: 1
+            },
+            features: {
+              power: [ .2, .1 ],
+              scanangle: [ -.2, -.1 ],
+              range: [ .1, .2 ]
+            }
+          },
+          "2": {
+            components: {
+              "Hybrid Capacitors": 1,
+              Iron: 1
+            },
+            features: {
+              power: [ .39, .2 ],
+              scanangle: [ -.3, -.15 ],
+              range: [ .2, .4 ]
+            }
+          },
+          "3": {
+            components: {
+              "Hybrid Capacitors": 1,
+              Iron: 1,
+              "Unexpected Emission Data": 1
+            },
+            features: {
+              power: [ .61, .29 ],
+              scanangle: [ -.4, -.2 ],
+              range: [ .31, .61 ]
+            }
+          },
+          "4": {
+            components: {
+              "Decoded Emission Data": 1,
+              "Electrochemical Arrays": 1,
+              Germanium: 1
+            },
+            features: {
+              power: [ .79, .39 ],
+              scanangle: [ -.5, -.25 ],
+              range: [ .39, .79 ]
+            }
+          },
+          "5": {
+            components: {
+              "Abnormal Compact Emissions Data": 1,
+              Niobium: 1,
+              "Polymer Capacitors": 1
+            },
+            features: {
+              power: [ 1, .5 ],
+              scanangle: [ -.61, -.3 ],
+              range: [ .5, 1 ]
+            }
+          }
+        },
+        id: 104,
+        name: "Long range"
+      },
+      Sensor_CargoScanner_WideAngle: {
+        grades: {
+          "1": {
+            components: {
+              "Mechanical Scrap": 1
+            },
+            features: {
+              mass: [ .39, .2 ],
+              scanangle: [ .2, .4 ],
+              scantime: [ .2, .1 ]
+            }
+          },
+          "2": {
+            components: {
+              Germanium: 1,
+              "Mechanical Scrap": 1
+            },
+            features: {
+              mass: [ .79, .39 ],
+              scanangle: [ .4, .81 ],
+              scantime: [ .39, .2 ]
+            }
+          },
+          "3": {
+            components: {
+              "Classified Scan Databanks": 1,
+              Germanium: 1,
+              "Mechanical Scrap": 1
+            },
+            features: {
+              mass: [ 1.2, .61 ],
+              scanangle: [ .61, 1.2 ],
+              scantime: [ .61, .31 ]
+            }
+          },
+          "4": {
+            components: {
+              "Divergent Scan Data": 1,
+              "Mechanical Equipment": 1,
+              Niobium: 1
+            },
+            features: {
+              mass: [ 1.2, .61 ],
+              scanangle: [ .81, 1.61 ],
+              scantime: [ .81, .39 ]
+            }
+          },
+          "5": {
+            components: {
+              "Classified Scan Fragment": 1,
+              "Mechanical Components": 1,
+              Tin: 1
+            },
+            features: {
+              mass: [ 2, 1 ],
+              scanangle: [ 1, 2 ],
+              scantime: [ 1, .5 ]
+            }
+          }
+        },
+        id: 105,
+        name: "Wide angle"
+      },
+      Sensor_KillWarrantScanner_FastScan: {
+        grades: {
+          "1": {
+            components: {
+              Phosphorus: 1
+            },
+            features: {
+              integrity: [ -.4, -.11 ],
+              range: [ -.1, -.05 ],
+              scantime: [ -.1, -.4 ]
+            }
+          },
+          "2": {
+            components: {
+              "Flawed Focus Crystals": 1,
+              Phosphorus: 1
+            },
+            features: {
+              integrity: [ -.5, -.2 ],
+              range: [ -.2, -.1 ],
+              scantime: [ -.2, -.5 ]
+            }
+          },
+          "3": {
+            components: {
+              "Flawed Focus Crystals": 1,
+              "Open Symmetric Keys": 1,
+              Phosphorus: 1
+            },
+            features: {
+              integrity: [ -.61, -.31 ],
+              range: [ -.3, -.15 ],
+              scantime: [ -.31, -.61 ]
+            }
+          },
+          "4": {
+            components: {
+              "Atypical Encryption Archives": 1,
+              "Focus Crystals": 1,
+              Manganese: 1
+            },
+            features: {
+              integrity: [ -.7, -.4 ],
+              range: [ -.41, -.2 ],
+              scantime: [ -.4, -.7 ]
+            }
+          },
+          "5": {
+            components: {
+              "Adaptive Encryptors Capture": 1,
+              Arsenic: 1,
+              "Refined Focus Crystals": 1
+            },
+            features: {
+              integrity: [ -.8, -.5 ],
+              range: [ -.5, -.2 ],
+              scantime: [ -.5, -.8 ]
+            }
+          }
+        },
+        id: 101,
+        name: "Fast scan"
+      },
+      Sensor_KillWarrantScanner_WideAngle: {
+        grades: {
+          "1": {
+            components: {
+              "Mechanical Scrap": 1
+            },
+            features: {
+              mass: [ .39, .2 ],
+              scanangle: [ .2, .4 ],
+              scantime: [ .2, .1 ]
+            }
+          },
+          "2": {
+            components: {
+              Germanium: 1,
+              "Mechanical Scrap": 1
+            },
+            features: {
+              mass: [ .79, .39 ],
+              scanangle: [ .4, .81 ],
+              scantime: [ .39, .2 ]
+            }
+          },
+          "3": {
+            components: {
+              "Classified Scan Databanks": 1,
+              Germanium: 1,
+              "Mechanical Scrap": 1
+            },
+            features: {
+              mass: [ 1.2, .61 ],
+              scanangle: [ .61, 1.2 ],
+              scantime: [ .61, .31 ]
+            }
+          },
+          "4": {
+            components: {
+              "Divergent Scan Data": 1,
+              "Mechanical Equipment": 1,
+              Niobium: 1
+            },
+            features: {
+              mass: [ 1.2, .61 ],
+              scanangle: [ .81, 1.61 ],
+              scantime: [ .81, .39 ]
+            }
+          },
+          "5": {
+            components: {
+              "Classified Scan Fragment": 1,
+              "Mechanical Components": 1,
+              Tin: 1
+            },
+            features: {
+              mass: [ 2, 1 ],
+              scanangle: [ 1, 2 ],
+              scantime: [ 1, .5 ]
+            }
+          }
+        },
+        id: 107,
+        name: "Wide angle"
+      },
+      Sensor_Sensor_LightWeight: {
+        grades: {
+          "1": {
+            components: {
+              Phosphorus: 1
+            },
+            features: {
+              integrity: [ -.15, -.11 ],
+              mass: [ -.2, -.4 ],
+              scanangle: [ -.1, -.05 ]
+            }
+          },
+          "2": {
+            components: {
+              Manganese: 1,
+              "Salvaged Alloys": 1
+            },
+            features: {
+              integrity: [ -.31, -.21 ],
+              mass: [ -.31, -.5 ],
+              scanangle: [ -.15, -.1 ]
+            }
+          },
+          "3": {
+            components: {
+              "Conductive Ceramics": 1,
+              Manganese: 1,
+              "Salvaged Alloys": 1
+            },
+            features: {
+              integrity: [ -.45, -.31 ],
+              mass: [ -.4, -.61 ],
+              scanangle: [ -.2, -.15 ]
+            }
+          },
+          "4": {
+            components: {
+              "Conductive Components": 1,
+              "Phase Alloys": 1,
+              "Proto Light Alloys": 1
+            },
+            features: {
+              integrity: [ -.61, -.41 ],
+              mass: [ -.5, -.7 ],
+              scanangle: [ -.25, -.2 ]
+            }
+          },
+          "5": {
+            components: {
+              "Conductive Ceramics": 1,
+              "Proto Light Alloys": 1,
+              "Proto Radiolic Alloys": 1
+            },
+            features: {
+              integrity: [ -.75, -.5 ],
+              mass: [ -.61, -.8 ],
+              scanangle: [ -.3, -.25 ]
+            }
+          }
+        },
+        id: 96,
+        name: "Lightweight"
+      },
+      Sensor_Sensor_LongRange: {
+        grades: {
+          "1": {
+            components: {
+              Iron: 1
+            },
+            features: {
+              mass: [ .39, .2 ],
+              scanangle: [ -.2, -.1 ],
+              scanrange: [ .1, .14 ]
+            }
+          },
+          "2": {
+            components: {
+              "Hybrid Capacitors": 1,
+              Iron: 1
+            },
+            features: {
+              mass: [ .79, .39 ],
+              scanangle: [ -.3, -.15 ],
+              scanrange: [ .2, .29 ]
+            }
+          },
+          "3": {
+            components: {
+              "Hybrid Capacitors": 1,
+              Iron: 1,
+              "Unexpected Emission Data": 1
+            },
+            features: {
+              mass: [ 1.2, .61 ],
+              scanangle: [ -.4, -.2 ],
+              scanrange: [ .29, .45 ]
+            }
+          },
+          "4": {
+            components: {
+              "Decoded Emission Data": 1,
+              "Electrochemical Arrays": 1,
+              Germanium: 1
+            },
+            features: {
+              mass: [ 1.59, .79 ],
+              scanangle: [ -.5, -.25 ],
+              scanrange: [ .39, .61 ]
+            }
+          },
+          "5": {
+            components: {
+              "Abnormal Compact Emissions Data": 1,
+              Niobium: 1,
+              "Polymer Capacitors": 1
+            },
+            features: {
+              mass: [ 2, 1 ],
+              scanangle: [ -.61, -.3 ],
+              scanrange: [ .5, .75 ]
+            }
+          }
+        },
+        id: 97,
+        name: "Long range"
+      },
+      Sensor_Sensor_WideAngle: {
+        grades: {
+          "1": {
+            components: {
+              "Mechanical Scrap": 1
+            },
+            features: {
+              power: [ .2, .09 ],
+              scanangle: [ .2, .4 ],
+              scanrange: [ -.08, -.05 ]
+            }
+          },
+          "2": {
+            components: {
+              Germanium: 1,
+              "Mechanical Scrap": 1
+            },
+            features: {
+              power: [ .39, .2 ],
+              scanangle: [ .4, .81 ],
+              scanrange: [ -.16, -.08 ]
+            }
+          },
+          "3": {
+            components: {
+              "Classified Scan Databanks": 1,
+              Germanium: 1,
+              "Mechanical Scrap": 1
+            },
+            features: {
+              power: [ .59, .29 ],
+              scanangle: [ .61, 1.2 ],
+              scanrange: [ -.24, -.12 ]
+            }
+          },
+          "4": {
+            components: {
+              "Divergent Scan Data": 1,
+              "Mechanical Equipment": 1,
+              Niobium: 1
+            },
+            features: {
+              power: [ .79, .39 ],
+              scanangle: [ .81, 1.61 ],
+              scanrange: [ -.32, -.16 ]
+            }
+          },
+          "5": {
+            components: {
+              "Classified Scan Fragment": 1,
+              "Mechanical Components": 1,
+              Tin: 1
+            },
+            features: {
+              power: [ 1, .5 ],
+              scanangle: [ 1, 2 ],
+              scanrange: [ -.4, -.2 ]
+            }
+          }
+        },
+        id: 98,
+        name: "Wide angle"
+      },
+      Sensor_SurfaceScanner_FastScan: {
+        grades: {
+          "1": {
+            components: {
+              Phosphorus: 1
+            },
+            features: {
+              mass: [ .39, .2 ],
+              power: [ .2, .1 ],
+              scantime: [ .1, .4 ]
+            }
+          },
+          "2": {
+            components: {
+              "Flawed Focus Crystals": 1,
+              Phosphorus: 1
+            },
+            features: {
+              mass: [ .79, .39 ],
+              power: [ .39, .2 ],
+              scantime: [ .2, .5 ]
+            }
+          },
+          "3": {
+            components: {
+              "Flawed Focus Crystals": 1,
+              "Open Symmetric Keys": 1,
+              Phosphorus: 1
+            },
+            features: {
+              mass: [ 1.2, .61 ],
+              power: [ .61, .31 ],
+              scantime: [ .3, .6 ]
+            }
+          },
+          "4": {
+            components: {
+              "Atypical Encryption Archives": 1,
+              "Focus Crystals": 1,
+              Manganese: 1
+            },
+            features: {
+              mass: [ 1.59, .79 ],
+              power: [ .81, .39 ],
+              scantime: [ .4, .7 ]
+            }
+          },
+          "5": {
+            components: {
+              "Adaptive Encryptors Capture": 1,
+              Arsenic: 1,
+              "Refined Focus Crystals": 1
+            },
+            features: {
+              mass: [ 2, 1 ],
+              power: [ 1, .5 ],
+              scantime: [ .5, .8 ]
+            }
+          }
+        },
+        id: 95,
+        name: "Fast scan"
+      },
+      Sensor_SurfaceScanner_LongRange: {
+        grades: {
+          "1": {
+            components: {
+              Iron: 1
+            },
+            features: {
+              mass: [ .39, .2 ],
+              power: [ .2, .1 ],
+              scanrange: [ .2, .4 ]
+            }
+          },
+          "2": {
+            components: {
+              "Hybrid Capacitors": 1,
+              Iron: 1
+            },
+            features: {
+              mass: [ .79, .39 ],
+              power: [ .39, .2 ],
+              scanrange: [ .4, .8 ]
+            }
+          },
+          "3": {
+            components: {
+              "Hybrid Capacitors": 1,
+              Iron: 1,
+              "Unexpected Emission Data": 1
+            },
+            features: {
+              mass: [ 1.2, .6 ],
+              power: [ .61, .31 ],
+              scanrange: [ .6, 1.2 ]
+            }
+          },
+          "4": {
+            components: {
+              "Decoded Emission Data": 1,
+              "Electrochemical Arrays": 1,
+              Germanium: 1
+            },
+            features: {
+              mass: [ 1.59, .79 ],
+              power: [ .81, .39 ],
+              scanrange: [ .8, 1.6 ]
+            }
+          },
+          "5": {
+            components: {
+              "Abnormal Compact Emissions Data": 1,
+              Niobium: 1,
+              "Polymer Capacitors": 1
+            },
+            features: {
+              mass: [ 2, 1 ],
+              power: [ 1, .5 ],
+              scanrange: [ 1, 2 ]
+            }
+          }
+        },
+        id: 93,
+        name: "Long range"
+      },
+      Sensor_SurfaceScanner_WideAngle: {
+        grades: {
+          "1": {
+            components: {
+              "Mechanical Scrap": 1
+            },
+            features: {
+              mass: [ .39, .2 ],
+              power: [ .2, .1 ],
+              scanangle: [ .2, .4 ]
+            }
+          },
+          "2": {
+            components: {
+              Germanium: 1,
+              "Mechanical Scrap": 1
+            },
+            features: {
+              mass: [ .79, .39 ],
+              power: [ .39, .2 ],
+              scanangle: [ .4, .8 ]
+            }
+          },
+          "3": {
+            components: {
+              "Classified Scan Databanks": 1,
+              Germanium: 1,
+              "Mechanical Scrap": 1
+            },
+            features: {
+              mass: [ 1.2, .6 ],
+              power: [ .61, .31 ],
+              scanangle: [ .6, 1.2 ]
+            }
+          },
+          "4": {
+            components: {
+              "Divergent Scan Data": 1,
+              "Mechanical Equipment": 1,
+              Niobium: 1
+            },
+            features: {
+              mass: [ 1.59, .79 ],
+              power: [ .81, .39 ],
+              scanangle: [ .8, 1.6 ]
+            }
+          },
+          "5": {
+            components: {
+              "Classified Scan Fragment": 1,
+              "Mechanical Components": 1,
+              Tin: 1
+            },
+            features: {
+              mass: [ 2, 1 ],
+              power: [ 1, .5 ],
+              scanangle: [ 1, 2 ]
+            }
+          }
+        },
+        id: 94,
+        name: "Wide angle"
+      },
+      Sensor_WakeScanner_FastScan: {
+        grades: {
+          "1": {
+            components: {
+              Phosphorus: 1
+            },
+            features: {
+              integrity: [ -.4, -.11 ],
+              range: [ -.1, -.05 ],
+              scantime: [ -.1, -.4 ]
+            }
+          },
+          "2": {
+            components: {
+              "Flawed Focus Crystals": 1,
+              Phosphorus: 1
+            },
+            features: {
+              integrity: [ -.5, -.2 ],
+              range: [ -.2, -.1 ],
+              scantime: [ -.2, -.5 ]
+            }
+          },
+          "3": {
+            components: {
+              "Flawed Focus Crystals": 1,
+              "Open Symmetric Keys": 1,
+              Phosphorus: 1
+            },
+            features: {
+              integrity: [ -.61, -.31 ],
+              range: [ -.3, -.15 ],
+              scantime: [ -.31, -.61 ]
+            }
+          },
+          "4": {
+            components: {
+              "Atypical Encryption Archives": 1,
+              "Focus Crystals": 1,
+              Manganese: 1
+            },
+            features: {
+              integrity: [ -.7, -.4 ],
+              range: [ -.41, -.2 ],
+              scantime: [ -.4, -.7 ]
+            }
+          },
+          "5": {
+            components: {
+              "Adaptive Encryptors Capture": 1,
+              Arsenic: 1,
+              "Refined Focus Crystals": 1
+            },
+            features: {
+              integrity: [ -.8, -.5 ],
+              range: [ -.5, -.2 ],
+              scantime: [ -.5, -.8 ]
+            }
+          }
+        },
+        id: 109,
+        name: "Fast scan"
+      },
+      Sensor_WakeScanner_LongRange: {
+        grades: {
+          "1": {
+            components: {
+              Iron: 1
+            },
+            features: {
+              power: [ .2, .1 ],
+              scanangle: [ -.2, -.1 ],
+              range: [ .1, .2 ]
+            }
+          },
+          "2": {
+            components: {
+              "Hybrid Capacitors": 1,
+              Iron: 1
+            },
+            features: {
+              power: [ .39, .2 ],
+              scanangle: [ -.3, -.15 ],
+              range: [ .2, .4 ]
+            }
+          },
+          "3": {
+            components: {
+              "Hybrid Capacitors": 1,
+              Iron: 1,
+              "Unexpected Emission Data": 1
+            },
+            features: {
+              power: [ .61, .29 ],
+              scanangle: [ -.4, -.2 ],
+              range: [ .31, .61 ]
+            }
+          },
+          "4": {
+            components: {
+              "Decoded Emission Data": 1,
+              "Electrochemical Arrays": 1,
+              Germanium: 1
+            },
+            features: {
+              power: [ .79, .39 ],
+              scanangle: [ -.5, -.25 ],
+              range: [ .39, .79 ]
+            }
+          },
+          "5": {
+            components: {
+              "Abnormal Compact Emissions Data": 1,
+              Niobium: 1,
+              "Polymer Capacitors": 1
+            },
+            features: {
+              power: [ 1, .5 ],
+              scanangle: [ -.61, -.3 ],
+              range: [ .5, 1 ]
+            }
+          }
+        },
+        id: 108,
+        name: "Long range"
+      },
+      Sensor_WakeScanner_WideAngle: {
+        grades: {
+          "1": {
+            components: {
+              "Mechanical Scrap": 1
+            },
+            features: {
+              mass: [ .39, .2 ],
+              scanangle: [ .2, .4 ],
+              scantime: [ .2, .1 ]
+            }
+          },
+          "2": {
+            components: {
+              Germanium: 1,
+              "Mechanical Scrap": 1
+            },
+            features: {
+              mass: [ .79, .39 ],
+              scanangle: [ .4, .81 ],
+              scantime: [ .39, .2 ]
+            }
+          },
+          "3": {
+            components: {
+              "Classified Scan Databanks": 1,
+              Germanium: 1,
+              "Mechanical Scrap": 1
+            },
+            features: {
+              mass: [ 1.2, .61 ],
+              scanangle: [ .61, 1.2 ],
+              scantime: [ .61, .31 ]
+            }
+          },
+          "4": {
+            components: {
+              "Divergent Scan Data": 1,
+              "Mechanical Equipment": 1,
+              Niobium: 1
+            },
+            features: {
+              mass: [ 1.2, .61 ],
+              scanangle: [ .81, 1.61 ],
+              scantime: [ .81, .39 ]
+            }
+          },
+          "5": {
+            components: {
+              "Classified Scan Fragment": 1,
+              "Mechanical Components": 1,
+              Tin: 1
+            },
+            features: {
+              mass: [ 2, 1 ],
+              scanangle: [ 1, 2 ],
+              scantime: [ 1, .5 ]
+            }
+          }
+        },
+        id: 106,
+        name: "Wide angle"
+      },
       ShieldBooster_Explosive: {
         grades: {
           "1": {
@@ -17949,7 +19037,7 @@ module.exports = {
           }
         },
         id: 68,
-        name: "Blast Resistant"
+        name: "Blast resistant"
       },
       ShieldBooster_HeavyDuty: {
         grades: {
@@ -18080,7 +19168,7 @@ module.exports = {
           }
         },
         id: 70,
-        name: "Kinetic Resistant"
+        name: "Kinetic resistant"
       },
       ShieldBooster_Resistive: {
         grades: {
@@ -18216,7 +19304,7 @@ module.exports = {
           }
         },
         id: 72,
-        name: "Thermal Resistant"
+        name: "Thermal resistant"
       },
       ShieldCellBank_Rapid: {
         grades: {
@@ -18363,7 +19451,7 @@ module.exports = {
           }
         },
         id: 75,
-        name: "Kinetic Resistant"
+        name: "Kinetic resistant"
       },
       ShieldGenerator_Optimised: {
         grades: {
@@ -18577,7 +19665,7 @@ module.exports = {
           }
         },
         id: 78,
-        name: "Thermal Resistant"
+        name: "Thermal resistant"
       },
       WakeScanner_LightWeight: {
         grades: {
@@ -18609,6 +19697,28 @@ module.exports = {
             features: {
               integrity: [ -.4, -.3 ],
               mass: [ -.5, -.6 ]
+            }
+          },
+          "4": {
+            components: {
+              "Conductive Components": 1,
+              "Phase Alloys": 1,
+              "Proto Light Alloys": 1
+            },
+            features: {
+              integrity: [ -.5, -.4 ],
+              mass: [ -.6, -.7 ]
+            }
+          },
+          "5": {
+            components: {
+              "Conductive Ceramics": 1,
+              "Proto Light Alloys": 1,
+              "Proto Radiolic Alloys": 1
+            },
+            features: {
+              integrity: [ -.6, -.5 ],
+              mass: [ -.7, -.8 ]
             }
           }
         },
@@ -18646,6 +19756,28 @@ module.exports = {
               integrity: [ .6, 1.5 ],
               mass: [ 2, 1.2 ]
             }
+          },
+          "4": {
+            components: {
+              Molybdenum: 1,
+              Tungsten: 1,
+              Zinc: 1
+            },
+            features: {
+              integrity: [ .8, 2 ],
+              mass: [ 2.5, 1.6 ]
+            }
+          },
+          "5": {
+            components: {
+              "High Density Composites": 1,
+              Molybdenum: 1,
+              Technetium: 1
+            },
+            features: {
+              integrity: [ 1, 2.5 ],
+              mass: [ 3, 2 ]
+            }
           }
         },
         id: 81,
@@ -18681,6 +19813,28 @@ module.exports = {
             features: {
               integrity: [ .6, 1.5 ],
               power: [ .9, .6 ]
+            }
+          },
+          "4": {
+            components: {
+              "Proprietary Composites": 1,
+              "Shielding Sensors": 1,
+              Vanadium: 1
+            },
+            features: {
+              integrity: [ .8, 2 ],
+              power: [ 1.2, .8 ]
+            }
+          },
+          "5": {
+            components: {
+              "Compound Shielding": 1,
+              "Core Dynamics Composites": 1,
+              Tungsten: 1
+            },
+            features: {
+              integrity: [ 1, 1.5 ],
+              power: [ 1.5, 1 ]
             }
           }
         },
@@ -18780,7 +19934,7 @@ module.exports = {
           "3": {
             components: {
               Chromium: 1,
-              "Exceptional Scrambed Emission Data": 1,
+              "Exceptional Scrambled Emission Data": 1,
               "Heat Exchangers": 1
             },
             features: {
@@ -18806,8 +19960,8 @@ module.exports = {
           "5": {
             components: {
               Cadmium: 1,
-              "Heatsink Interlink": 1,
-              "Proto Heat Radiators": 1
+              "Proto Heat Radiators": 1,
+              "Unexpected Emission Data": 1
             },
             features: {
               damage: [ .03, .09 ],
@@ -19614,6 +20768,27 @@ module.exports = {
         method: "multiplicative",
         higherbetter: false
       },
+      scanangle: {
+        id: 46,
+        name: "scanangle",
+        type: "percentage",
+        method: "multiplicative",
+        higherbetter: true
+      },
+      scanrange: {
+        id: 47,
+        name: "scanrange",
+        type: "percentage",
+        method: "multiplicative",
+        higherbetter: true
+      },
+      scantime: {
+        id: 48,
+        name: "scantime",
+        type: "percentage",
+        method: "multiplicative",
+        higherbetter: false
+      },
       shield: {
         id: 30,
         name: "shield",
@@ -20119,11 +21294,14 @@ module.exports = {
       },
       cs: {
         blueprints: {
+          Sensor_CargoScanner_FastScan: [ 1, 2, 3, 4, 5 ],
           CargoScanner_LightWeight: [ 1, 2, 3, 4, 5 ],
+          Sensor_CargoScanner_LongRange: [ 1, 2, 3, 4, 5 ],
           CargoScanner_Reinforced: [ 1, 2, 3, 4, 5 ],
-          CargoScanner_Shielded: [ 1, 2, 3, 4, 5 ]
+          CargoScanner_Shielded: [ 1, 2, 3, 4, 5 ],
+          Sensor_CargoScanner_WideAngle: [ 1, 2, 3, 4, 5 ]
         },
-        modifications: [ "boot", "integrity", "mass", "power" ]
+        modifications: [ "boot", "integrity", "mass", "power", "scanangle", "range", "scantime" ]
       },
       dc: {
         blueprints: {},
@@ -20217,11 +21395,14 @@ module.exports = {
       },
       kw: {
         blueprints: {
+          Sensor_KillWarrantScanner_FastScan: [ 1, 2, 3, 4, 5 ],
           KillWarrantScanner_LightWeight: [ 1, 2, 3, 4, 5 ],
+          KillWarrantScanner_LongRange: [ 1, 2, 3, 4, 5 ],
           KillWarrantScanner_Reinforced: [ 1, 2, 3, 4, 5 ],
-          KillWarrantScanner_Shielded: [ 1, 2, 3, 4, 5 ]
+          KillWarrantScanner_Shielded: [ 1, 2, 3, 4, 5 ],
+          Sensor_KillWarrantScanner_WideAngle: [ 1, 2, 3, 4, 5 ]
         },
-        modifications: [ "boot", "integrity", "mass", "power" ]
+        modifications: [ "boot", "integrity", "mass", "power", "scanangle", "range", "scantime" ]
       },
       ls: {
         blueprints: {
@@ -20388,8 +21569,12 @@ module.exports = {
         specials: [ "special_feedback_cascade", "special_plasma_slug", "special_super_penetrator" ]
       },
       s: {
-        blueprints: {},
-        modifications: []
+        blueprints: {
+          Sensor_Sensor_LightWeight: [ 1, 2, 3, 4, 5 ],
+          Sensor_Sensor_LongRange: [ 1, 2, 3, 4, 5 ],
+          Sensor_Sensor_WideAngle: [ 1, 2, 3, 4, 5 ]
+        },
+        modifications: [ "integrity", "mass", "power", "scanrange", "scanangle" ]
       },
       sb: {
         blueprints: {
@@ -20420,6 +21605,14 @@ module.exports = {
           ShieldGenerator_Thermic: [ 1, 2, 3, 4, 5 ]
         },
         modifications: [ "boot", "brokenregen", "distdraw", "explres", "integrity", "kinres", "mass", "optmass", "optmul", "power", "regen", "thermload", "thermres" ]
+      },
+      ss: {
+        blueprints: {
+          Sensor_SurfaceScanner_FastScan: [ 1, 2, 3, 4, 5 ],
+          Sensor_SurfaceScanner_LongRange: [ 1, 2, 3, 4, 5 ],
+          Sensor_SurfaceScanner_WideAngle: [ 1, 2, 3, 4, 5 ]
+        },
+        modifications: [ "mass", "power", "scanangle", "scanrange", "scantime" ]
       },
       t: {
         blueprints: {
@@ -20453,11 +21646,14 @@ module.exports = {
       },
       ws: {
         blueprints: {
-          WakeScanner_LightWeight: [ 1, 2, 3 ],
-          WakeScanner_Reinforced: [ 1, 2, 3 ],
-          WakeScanner_Shielded: [ 1, 2, 3 ]
+          Sensor_WakeScanner_FastScan: [ 1, 2, 3, 4, 5 ],
+          WakeScanner_LightWeight: [ 1, 2, 3, 4, 5 ],
+          Sensor_WakeScanner_LongRange: [ 1, 2, 3, 4, 5 ],
+          WakeScanner_Reinforced: [ 1, 2, 3, 4, 5 ],
+          WakeScanner_Shielded: [ 1, 2, 3, 4, 5 ],
+          Sensor_WakeScanner_WideAngle: [ 1, 2, 3, 4, 5 ]
         },
-        modifications: [ "boot", "integrity", "mass", "power" ]
+        modifications: [ "boot", "integrity", "mass", "power", "scanangle", "range", "scantime" ]
       }
     },
     specials: {

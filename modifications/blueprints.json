@@ -179,7 +179,7 @@
       }
     },
     "id": 5,
-    "name": "Blast Resistant"
+    "name": "Blast resistant"
   },
   "Armour_HeavyDuty": {
     "grades": {
@@ -252,7 +252,7 @@
       }
     },
     "id": 7,
-    "name": "Heavy Duty"
+    "name": "Heavy duty"
   },
   "Armour_Kinetic": {
     "grades": {
@@ -315,7 +315,7 @@
       }
     },
     "id": 4,
-    "name": "Kinetic Resistant"
+    "name": "Kinetic resistant"
   },
   "Armour_Thermic": {
     "grades": {
@@ -370,7 +370,7 @@
       }
     },
     "id": 8,
-    "name": "Thermal Resistant"
+    "name": "Thermal resistant"
   },
   "CargoScanner_LightWeight": {
     "grades": {
@@ -1595,7 +1595,7 @@
       }
     },
     "id": 29,
-    "name": "Longer range"
+    "name": "Long range"
   },
   "FuelScoop_Shielded": {
     "grades": {
@@ -2308,7 +2308,7 @@
       }
     },
     "id": 43,
-    "name": "Blast Resistant"
+    "name": "Blast resistant"
   },
   "HullReinforcement_HeavyDuty": {
     "grades": {
@@ -2444,7 +2444,7 @@
       }
     },
     "id": 44,
-    "name": "Kinetic Resistant"
+    "name": "Kinetic resistant"
   },
   "HullReinforcement_Thermic": {
     "grades": {
@@ -2507,7 +2507,7 @@
       }
     },
     "id": 45,
-    "name": "Thermal Resistant"
+    "name": "Thermal resistant"
   },
   "KillWarrantScanner_LightWeight": {
     "grades": {
@@ -2566,6 +2566,69 @@
     },
     "id": 46,
     "name": "Lightweight"
+  },
+  "KillWarrantScanner_LongRange": {
+    "grades": {
+      "1": {
+        "components": {
+          "Iron": 1
+        },
+        "features": {
+          "power": [ 0.2, 0.1 ],
+          "scanangle": [ -0.2, -0.1 ],
+          "range": [ 0.1, 0.2 ]
+        }
+      },
+      "2": {
+        "components": {
+          "Hybrid Capacitors": 1,
+          "Iron": 1
+        },
+        "features": {
+          "power": [ 0.39, 0.2 ],
+          "scanangle": [ -0.3, -0.15 ],
+          "range": [ 0.2, 0.4 ]
+        }
+      },
+      "3": {
+        "components": {
+          "Hybrid Capacitors": 1,
+          "Iron": 1,
+          "Unexpected Emission Data": 1
+        },
+        "features": {
+          "power": [ 0.61, 0.29 ],
+          "scanangle": [ -0.4, -0.2 ],
+          "range": [ 0.31, 0.61 ]
+        }
+      },
+      "4": {
+        "components": {
+          "Decoded Emission Data": 1,
+          "Electrochemical Arrays": 1,
+          "Germanium": 1
+        },
+        "features": {
+          "power": [ 0.79, 0.39 ],
+          "scanangle": [ -0.5, -0.25 ],
+          "range": [ 0.39, 0.79 ]
+        }
+      },
+      "5": {
+        "components": {
+          "Abnormal Compact Emissions Data": 1,
+          "Niobium": 1,
+          "Polymer Capacitors": 1
+        },
+        "features": {
+          "power": [ 1, 0.5 ],
+          "scanangle": [ -0.61, -0.3 ],
+          "range": [ 0.5, 1 ]
+        }
+      }
+    },
+    "id": 99,
+    "name": "Long range"
   },
   "KillWarrantScanner_Reinforced": {
     "grades": {
@@ -3760,6 +3823,888 @@
     "id": 92,
     "name": "Shielded"
   },
+  "Sensor_CargoScanner_FastScan": {
+    "grades": {
+      "1": {
+        "components": {
+          "Phosphorus": 1
+        },
+        "features": {
+          "integrity": [ -0.4, -0.11 ],
+          "range": [ -0.1, -0.05 ],
+          "scantime": [ -0.1, -0.4 ]
+        }
+      },
+      "2": {
+        "components": {
+          "Flawed Focus Crystals": 1,
+          "Phosphorus": 1
+        },
+        "features": {
+          "integrity": [ -0.5, -0.2 ],
+          "range": [ -0.2, -0.1 ],
+          "scantime": [ -0.2, -0.5 ]
+        }
+      },
+      "3": {
+        "components": {
+          "Flawed Focus Crystals": 1,
+          "Open Symmetric Keys": 1,
+          "Phosphorus": 1
+        },
+        "features": {
+          "integrity": [ -0.61, -0.31 ],
+          "range": [ -0.3, -0.15 ],
+          "scantime": [ -0.31, -0.61 ]
+        }
+      },
+      "4": {
+        "components": {
+          "Atypical Encryption Archives": 1,
+          "Focus Crystals": 1,
+          "Manganese": 1
+        },
+        "features": {
+          "integrity": [ -0.7, -0.4 ],
+          "range": [ -0.41, -0.2 ],
+          "scantime": [ -0.4, -0.7 ]
+        }
+      },
+      "5": {
+        "components": {
+          "Adaptive Encryptors Capture": 1,
+          "Arsenic": 1,
+          "Refined Focus Crystals": 1
+        },
+        "features": {
+          "integrity": [ -0.8, -0.5 ],
+          "range": [ -0.5, -0.2 ],
+          "scantime": [ -0.5, -0.8 ]
+        }
+      }
+    },
+    "id": 102,
+    "name": "Fast scan"
+  },
+  "Sensor_CargoScanner_LongRange": {
+    "grades": {
+      "1": {
+        "components": {
+          "Iron": 1
+        },
+        "features": {
+          "power": [ 0.2, 0.1 ],
+          "scanangle": [ -0.2, -0.1 ],
+          "range": [ 0.1, 0.2 ]
+        }
+      },
+      "2": {
+        "components": {
+          "Hybrid Capacitors": 1,
+          "Iron": 1
+        },
+        "features": {
+          "power": [ 0.39, 0.2 ],
+          "scanangle": [ -0.3, -0.15 ],
+          "range": [ 0.2, 0.4 ]
+        }
+      },
+      "3": {
+        "components": {
+          "Hybrid Capacitors": 1,
+          "Iron": 1,
+          "Unexpected Emission Data": 1
+        },
+        "features": {
+          "power": [ 0.61, 0.29 ],
+          "scanangle": [ -0.4, -0.2 ],
+          "range": [ 0.31, 0.61 ]
+        }
+      },
+      "4": {
+        "components": {
+          "Decoded Emission Data": 1,
+          "Electrochemical Arrays": 1,
+          "Germanium": 1
+        },
+        "features": {
+          "power": [ 0.79, 0.39 ],
+          "scanangle": [ -0.5, -0.25 ],
+          "range": [ 0.39, 0.79 ]
+        }
+      },
+      "5": {
+        "components": {
+          "Abnormal Compact Emissions Data": 1,
+          "Niobium": 1,
+          "Polymer Capacitors": 1
+        },
+        "features": {
+          "power": [ 1, 0.5 ],
+          "scanangle": [ -0.61, -0.3 ],
+          "range": [ 0.5, 1 ]
+        }
+      }
+    },
+    "id": 104,
+    "name": "Long range"
+  },
+  "Sensor_CargoScanner_WideAngle": {
+    "grades": {
+      "1": {
+        "components": {
+          "Mechanical Scrap": 1
+        },
+        "features": {
+          "mass": [ 0.39, 0.2 ],
+          "scanangle": [ 0.2, 0.4 ],
+          "scantime": [ 0.2, 0.1 ]
+        }
+      },
+      "2": {
+        "components": {
+          "Germanium": 1,
+          "Mechanical Scrap": 1
+        },
+        "features": {
+          "mass": [ 0.79, 0.39 ],
+          "scanangle": [ 0.4, 0.81 ],
+          "scantime": [ 0.39, 0.2 ]
+        }
+      },
+      "3": {
+        "components": {
+          "Classified Scan Databanks": 1,
+          "Germanium": 1,
+          "Mechanical Scrap": 1
+        },
+        "features": {
+          "mass": [ 1.2, 0.61 ],
+          "scanangle": [ 0.61, 1.2 ],
+          "scantime": [ 0.61, 0.31 ]
+        }
+      },
+      "4": {
+        "components": {
+          "Divergent Scan Data": 1,
+          "Mechanical Equipment": 1,
+          "Niobium": 1
+        },
+        "features": {
+          "mass": [ 1.2, 0.61 ],
+          "scanangle": [ 0.81, 1.61 ],
+          "scantime": [ 0.81, 0.39 ]
+        }
+      },
+      "5": {
+        "components": {
+          "Classified Scan Fragment": 1,
+          "Mechanical Components": 1,
+          "Tin": 1
+        },
+        "features": {
+          "mass": [ 2, 1 ],
+          "scanangle": [ 1, 2 ],
+          "scantime": [ 1, 0.5 ]
+        }
+      }
+    },
+    "id": 105,
+    "name": "Wide angle"
+  },
+  "Sensor_KillWarrantScanner_FastScan": {
+    "grades": {
+      "1": {
+        "components": {
+          "Phosphorus": 1
+        },
+        "features": {
+          "integrity": [ -0.4, -0.11 ],
+          "range": [ -0.1, -0.05 ],
+          "scantime": [ -0.1, -0.4 ]
+        }
+      },
+      "2": {
+        "components": {
+          "Flawed Focus Crystals": 1,
+          "Phosphorus": 1
+        },
+        "features": {
+          "integrity": [ -0.5, -0.2 ],
+          "range": [ -0.2, -0.1 ],
+          "scantime": [ -0.2, -0.5 ]
+        }
+      },
+      "3": {
+        "components": {
+          "Flawed Focus Crystals": 1,
+          "Open Symmetric Keys": 1,
+          "Phosphorus": 1
+        },
+        "features": {
+          "integrity": [ -0.61, -0.31 ],
+          "range": [ -0.3, -0.15 ],
+          "scantime": [ -0.31, -0.61 ]
+        }
+      },
+      "4": {
+        "components": {
+          "Atypical Encryption Archives": 1,
+          "Focus Crystals": 1,
+          "Manganese": 1
+        },
+        "features": {
+          "integrity": [ -0.7, -0.4 ],
+          "range": [ -0.41, -0.2 ],
+          "scantime": [ -0.4, -0.7 ]
+        }
+      },
+      "5": {
+        "components": {
+          "Adaptive Encryptors Capture": 1,
+          "Arsenic": 1,
+          "Refined Focus Crystals": 1
+        },
+        "features": {
+          "integrity": [ -0.8, -0.5 ],
+          "range": [ -0.5, -0.2 ],
+          "scantime": [ -0.5, -0.8 ]
+        }
+      }
+    },
+    "id": 101,
+    "name": "Fast scan"
+  },
+  "Sensor_KillWarrantScanner_WideAngle": {
+    "grades": {
+      "1": {
+        "components": {
+          "Mechanical Scrap": 1
+        },
+        "features": {
+          "mass": [ 0.39, 0.2 ],
+          "scanangle": [ 0.2, 0.4 ],
+          "scantime": [ 0.2, 0.1 ]
+        }
+      },
+      "2": {
+        "components": {
+          "Germanium": 1,
+          "Mechanical Scrap": 1
+        },
+        "features": {
+          "mass": [ 0.79, 0.39 ],
+          "scanangle": [ 0.4, 0.81 ],
+          "scantime": [ 0.39, 0.2 ]
+        }
+      },
+      "3": {
+        "components": {
+          "Classified Scan Databanks": 1,
+          "Germanium": 1,
+          "Mechanical Scrap": 1
+        },
+        "features": {
+          "mass": [ 1.2, 0.61 ],
+          "scanangle": [ 0.61, 1.2 ],
+          "scantime": [ 0.61, 0.31 ]
+        }
+      },
+      "4": {
+        "components": {
+          "Divergent Scan Data": 1,
+          "Mechanical Equipment": 1,
+          "Niobium": 1
+        },
+        "features": {
+          "mass": [ 1.2, 0.61 ],
+          "scanangle": [ 0.81, 1.61 ],
+          "scantime": [ 0.81, 0.39 ]
+        }
+      },
+      "5": {
+        "components": {
+          "Classified Scan Fragment": 1,
+          "Mechanical Components": 1,
+          "Tin": 1
+        },
+        "features": {
+          "mass": [ 2, 1 ],
+          "scanangle": [ 1, 2 ],
+          "scantime": [ 1, 0.5 ]
+        }
+      }
+    },
+    "id": 107,
+    "name": "Wide angle"
+  },
+  "Sensor_Sensor_LightWeight": {
+    "grades": {
+      "1": {
+        "components": {
+          "Phosphorus": 1
+        },
+        "features": {
+          "integrity": [ -0.15, -0.11 ],
+          "mass": [ -0.2, -0.4 ],
+          "scanangle": [ -0.1, -0.05 ]
+        }
+      },
+      "2": {
+        "components": {
+          "Manganese": 1,
+          "Salvaged Alloys": 1
+        },
+        "features": {
+          "integrity": [ -0.31, -0.21 ],
+          "mass": [ -0.31, -0.5 ],
+          "scanangle": [ -0.15, -0.1 ]
+        }
+      },
+      "3": {
+        "components": {
+          "Conductive Ceramics": 1,
+          "Manganese": 1,
+          "Salvaged Alloys": 1
+        },
+        "features": {
+          "integrity": [ -0.45, -0.31 ],
+          "mass": [ -0.4, -0.61 ],
+          "scanangle": [ -0.2, -0.15 ]
+        }
+      },
+      "4": {
+        "components": {
+          "Conductive Components": 1,
+          "Phase Alloys": 1,
+          "Proto Light Alloys": 1
+        },
+        "features": {
+          "integrity": [ -0.61, -0.41 ],
+          "mass": [ -0.5, -0.7 ],
+          "scanangle": [ -0.25, -0.2 ]
+        }
+      },
+      "5": {
+        "components": {
+          "Conductive Ceramics": 1,
+          "Proto Light Alloys": 1,
+          "Proto Radiolic Alloys": 1
+        },
+        "features": {
+          "integrity": [ -0.75, -0.5 ],
+          "mass": [ -0.61, -0.8 ],
+          "scanangle": [ -0.3, -0.25 ]
+        }
+      }
+    },
+    "id": 96,
+    "name": "Lightweight"
+  },
+  "Sensor_Sensor_LongRange": {
+    "grades": {
+      "1": {
+        "components": {
+          "Iron": 1
+        },
+        "features": {
+          "mass": [ 0.39, 0.2 ],
+          "scanangle": [ -0.2, -0.1 ],
+          "scanrange": [ 0.1, 0.14 ]
+        }
+      },
+      "2": {
+        "components": {
+          "Hybrid Capacitors": 1,
+          "Iron": 1
+        },
+        "features": {
+          "mass": [ 0.79, 0.39 ],
+          "scanangle": [ -0.3, -0.15 ],
+          "scanrange": [ 0.2, 0.29 ]
+        }
+      },
+      "3": {
+        "components": {
+          "Hybrid Capacitors": 1,
+          "Iron": 1,
+          "Unexpected Emission Data": 1
+        },
+        "features": {
+          "mass": [ 1.2, 0.61 ],
+          "scanangle": [ -0.4, -0.2 ],
+          "scanrange": [ 0.29, 0.45 ]
+        }
+      },
+      "4": {
+        "components": {
+          "Decoded Emission Data": 1,
+          "Electrochemical Arrays": 1,
+          "Germanium": 1
+        },
+        "features": {
+          "mass": [ 1.59, 0.79 ],
+          "scanangle": [ -0.5, -0.25 ],
+          "scanrange": [ 0.39, 0.61 ]
+        }
+      },
+      "5": {
+        "components": {
+          "Abnormal Compact Emissions Data": 1,
+          "Niobium": 1,
+          "Polymer Capacitors": 1
+        },
+        "features": {
+          "mass": [ 2, 1 ],
+          "scanangle": [ -0.61, -0.3 ],
+          "scanrange": [ 0.5, 0.75 ]
+        }
+      }
+    },
+    "id": 97,
+    "name": "Long range"
+  },
+  "Sensor_Sensor_WideAngle": {
+    "grades": {
+      "1": {
+        "components": {
+          "Mechanical Scrap": 1
+        },
+        "features": {
+          "power": [ 0.2, 0.09 ],
+          "scanangle": [ 0.2, 0.4 ],
+          "scanrange": [ -0.08, -0.05 ]
+        }
+      },
+      "2": {
+        "components": {
+          "Germanium": 1,
+          "Mechanical Scrap": 1
+        },
+        "features": {
+          "power": [ 0.39, 0.2 ],
+          "scanangle": [ 0.4, 0.81 ],
+          "scanrange": [ -0.16, -0.08 ]
+        }
+      },
+      "3": {
+        "components": {
+          "Classified Scan Databanks": 1,
+          "Germanium": 1,
+          "Mechanical Scrap": 1
+        },
+        "features": {
+          "power": [ 0.59, 0.29 ],
+          "scanangle": [ 0.61, 1.2 ],
+          "scanrange": [ -0.24, -0.12 ]
+        }
+      },
+      "4": {
+        "components": {
+          "Divergent Scan Data": 1,
+          "Mechanical Equipment": 1,
+          "Niobium": 1
+        },
+        "features": {
+          "power": [ 0.79, 0.39 ],
+          "scanangle": [ 0.81, 1.61 ],
+          "scanrange": [ -0.32, -0.16 ]
+        }
+      },
+      "5": {
+        "components": {
+          "Classified Scan Fragment": 1,
+          "Mechanical Components": 1,
+          "Tin": 1
+        },
+        "features": {
+          "power": [ 1, 0.5 ],
+          "scanangle": [ 1, 2 ],
+          "scanrange": [ -0.4, -0.2 ]
+        }
+      }
+    },
+    "id": 98,
+    "name": "Wide angle"
+  },
+  "Sensor_SurfaceScanner_FastScan": {
+    "grades": {
+      "1": {
+        "components": {
+          "Phosphorus": 1
+        },
+        "features": {
+          "mass": [ 0.39, 0.2 ],
+          "power": [ 0.2, 0.1 ],
+          "scantime": [ 0.1, 0.4 ]
+        }
+      },
+      "2": {
+        "components": {
+          "Flawed Focus Crystals": 1,
+          "Phosphorus": 1
+        },
+        "features": {
+          "mass": [ 0.79, 0.39 ],
+          "power": [ 0.39, 0.2 ],
+          "scantime": [ 0.2, 0.5 ]
+        }
+      },
+      "3": {
+        "components": {
+          "Flawed Focus Crystals": 1,
+          "Open Symmetric Keys": 1,
+          "Phosphorus": 1
+        },
+        "features": {
+          "mass": [ 1.2, 0.61 ],
+          "power": [ 0.61, 0.31 ],
+          "scantime": [ 0.3, 0.6 ]
+        }
+      },
+      "4": {
+        "components": {
+          "Atypical Encryption Archives": 1,
+          "Focus Crystals": 1,
+          "Manganese": 1
+        },
+        "features": {
+          "mass": [ 1.59, 0.79 ],
+          "power": [ 0.81, 0.39 ],
+          "scantime": [ 0.4, 0.7 ]
+        }
+      },
+      "5": {
+        "components": {
+          "Adaptive Encryptors Capture": 1,
+          "Arsenic": 1,
+          "Refined Focus Crystals": 1
+        },
+        "features": {
+          "mass": [ 2, 1 ],
+          "power": [ 1, 0.5 ],
+          "scantime": [ 0.5, 0.8 ]
+        }
+      }
+    },
+    "id": 95,
+    "name": "Fast scan"
+  },
+  "Sensor_SurfaceScanner_LongRange": {
+    "grades": {
+      "1": {
+        "components": {
+          "Iron": 1
+        },
+        "features": {
+          "mass": [ 0.39, 0.2 ],
+          "power": [ 0.2, 0.1 ],
+          "scanrange": [ 0.2, 0.4 ]
+        }
+      },
+      "2": {
+        "components": {
+          "Hybrid Capacitors": 1,
+          "Iron": 1
+        },
+        "features": {
+          "mass": [ 0.79, 0.39 ],
+          "power": [ 0.39, 0.2 ],
+          "scanrange": [ 0.4, 0.8 ]
+        }
+      },
+      "3": {
+        "components": {
+          "Hybrid Capacitors": 1,
+          "Iron": 1,
+          "Unexpected Emission Data": 1
+        },
+        "features": {
+          "mass": [ 1.2, 0.6 ],
+          "power": [ 0.61, 0.31 ],
+          "scanrange": [ 0.6, 1.2 ]
+        }
+      },
+      "4": {
+        "components": {
+          "Decoded Emission Data": 1,
+          "Electrochemical Arrays": 1,
+          "Germanium": 1
+        },
+        "features": {
+          "mass": [ 1.59, 0.79 ],
+          "power": [ 0.81, 0.39 ],
+          "scanrange": [ 0.8, 1.6 ]
+        }
+      },
+      "5": {
+        "components": {
+          "Abnormal Compact Emissions Data": 1,
+          "Niobium": 1,
+          "Polymer Capacitors": 1
+        },
+        "features": {
+          "mass": [ 2, 1 ],
+          "power": [ 1, 0.5 ],
+          "scanrange": [ 1, 2 ]
+        }
+      }
+    },
+    "id": 93,
+    "name": "Long range"
+  },
+  "Sensor_SurfaceScanner_WideAngle": {
+    "grades": {
+      "1": {
+        "components": {
+          "Mechanical Scrap": 1
+        },
+        "features": {
+          "mass": [ 0.39, 0.2 ],
+          "power": [ 0.2, 0.1 ],
+          "scanangle": [ 0.2, 0.4 ]
+        }
+      },
+      "2": {
+        "components": {
+          "Germanium": 1,
+          "Mechanical Scrap": 1
+        },
+        "features": {
+          "mass": [ 0.79, 0.39 ],
+          "power": [ 0.39, 0.2 ],
+          "scanangle": [ 0.4, 0.8 ]
+        }
+      },
+      "3": {
+        "components": {
+          "Classified Scan Databanks": 1,
+          "Germanium": 1,
+          "Mechanical Scrap": 1
+        },
+        "features": {
+          "mass": [ 1.2, 0.6 ],
+          "power": [ 0.61, 0.31 ],
+          "scanangle": [ 0.6, 1.2 ]
+        }
+      },
+      "4": {
+        "components": {
+          "Divergent Scan Data": 1,
+          "Mechanical Equipment": 1,
+          "Niobium": 1
+        },
+        "features": {
+          "mass": [ 1.59, 0.79 ],
+          "power": [ 0.81, 0.39 ],
+          "scanangle": [ 0.8, 1.6 ]
+        }
+      },
+      "5": {
+        "components": {
+          "Classified Scan Fragment": 1,
+          "Mechanical Components": 1,
+          "Tin": 1
+        },
+        "features": {
+          "mass": [ 2, 1 ],
+          "power": [ 1, 0.5 ],
+          "scanangle": [ 1, 2 ]
+        }
+      }
+    },
+    "id": 94,
+    "name": "Wide angle"
+  },
+  "Sensor_WakeScanner_FastScan": {
+    "grades": {
+      "1": {
+        "components": {
+          "Phosphorus": 1
+        },
+        "features": {
+          "integrity": [ -0.4, -0.11 ],
+          "range": [ -0.1, -0.05 ],
+          "scantime": [ -0.1, -0.4 ]
+        }
+      },
+      "2": {
+        "components": {
+          "Flawed Focus Crystals": 1,
+          "Phosphorus": 1
+        },
+        "features": {
+          "integrity": [ -0.5, -0.2 ],
+          "range": [ -0.2, -0.1 ],
+          "scantime": [ -0.2, -0.5 ]
+        }
+      },
+      "3": {
+        "components": {
+          "Flawed Focus Crystals": 1,
+          "Open Symmetric Keys": 1,
+          "Phosphorus": 1
+        },
+        "features": {
+          "integrity": [ -0.61, -0.31 ],
+          "range": [ -0.3, -0.15 ],
+          "scantime": [ -0.31, -0.61 ]
+        }
+      },
+      "4": {
+        "components": {
+          "Atypical Encryption Archives": 1,
+          "Focus Crystals": 1,
+          "Manganese": 1
+        },
+        "features": {
+          "integrity": [ -0.7, -0.4 ],
+          "range": [ -0.41, -0.2 ],
+          "scantime": [ -0.4, -0.7 ]
+        }
+      },
+      "5": {
+        "components": {
+          "Adaptive Encryptors Capture": 1,
+          "Arsenic": 1,
+          "Refined Focus Crystals": 1
+        },
+        "features": {
+          "integrity": [ -0.8, -0.5 ],
+          "range": [ -0.5, -0.2 ],
+          "scantime": [ -0.5, -0.8 ]
+        }
+      }
+    },
+    "id": 109,
+    "name": "Fast scan"
+  },
+  "Sensor_WakeScanner_LongRange": {
+    "grades": {
+      "1": {
+        "components": {
+          "Iron": 1
+        },
+        "features": {
+          "power": [ 0.2, 0.1 ],
+          "scanangle": [ -0.2, -0.1 ],
+          "range": [ 0.1, 0.2 ]
+        }
+      },
+      "2": {
+        "components": {
+          "Hybrid Capacitors": 1,
+          "Iron": 1
+        },
+        "features": {
+          "power": [ 0.39, 0.2 ],
+          "scanangle": [ -0.3, -0.15 ],
+          "range": [ 0.2, 0.4 ]
+        }
+      },
+      "3": {
+        "components": {
+          "Hybrid Capacitors": 1,
+          "Iron": 1,
+          "Unexpected Emission Data": 1
+        },
+        "features": {
+          "power": [ 0.61, 0.29 ],
+          "scanangle": [ -0.4, -0.2 ],
+          "range": [ 0.31, 0.61 ]
+        }
+      },
+      "4": {
+        "components": {
+          "Decoded Emission Data": 1,
+          "Electrochemical Arrays": 1,
+          "Germanium": 1
+        },
+        "features": {
+          "power": [ 0.79, 0.39 ],
+          "scanangle": [ -0.5, -0.25 ],
+          "range": [ 0.39, 0.79 ]
+        }
+      },
+      "5": {
+        "components": {
+          "Abnormal Compact Emissions Data": 1,
+          "Niobium": 1,
+          "Polymer Capacitors": 1
+        },
+        "features": {
+          "power": [ 1, 0.5 ],
+          "scanangle": [ -0.61, -0.3 ],
+          "range": [ 0.5, 1 ]
+        }
+      }
+    },
+    "id": 108,
+    "name": "Long range"
+  },
+  "Sensor_WakeScanner_WideAngle": {
+    "grades": {
+      "1": {
+        "components": {
+          "Mechanical Scrap": 1
+        },
+        "features": {
+          "mass": [ 0.39, 0.2 ],
+          "scanangle": [ 0.2, 0.4 ],
+          "scantime": [ 0.2, 0.1 ]
+        }
+      },
+      "2": {
+        "components": {
+          "Germanium": 1,
+          "Mechanical Scrap": 1
+        },
+        "features": {
+          "mass": [ 0.79, 0.39 ],
+          "scanangle": [ 0.4, 0.81 ],
+          "scantime": [ 0.39, 0.2 ]
+        }
+      },
+      "3": {
+        "components": {
+          "Classified Scan Databanks": 1,
+          "Germanium": 1,
+          "Mechanical Scrap": 1
+        },
+        "features": {
+          "mass": [ 1.2, 0.61 ],
+          "scanangle": [ 0.61, 1.2 ],
+          "scantime": [ 0.61, 0.31 ]
+        }
+      },
+      "4": {
+        "components": {
+          "Divergent Scan Data": 1,
+          "Mechanical Equipment": 1,
+          "Niobium": 1
+        },
+        "features": {
+          "mass": [ 1.2, 0.61 ],
+          "scanangle": [ 0.81, 1.61 ],
+          "scantime": [ 0.81, 0.39 ]
+        }
+      },
+      "5": {
+        "components": {
+          "Classified Scan Fragment": 1,
+          "Mechanical Components": 1,
+          "Tin": 1
+        },
+        "features": {
+          "mass": [ 2, 1 ],
+          "scanangle": [ 1, 2 ],
+          "scantime": [ 1, 0.5 ]
+        }
+      }
+    },
+    "id": 106,
+    "name": "Wide angle"
+  },
   "ShieldBooster_Explosive": {
     "grades": {
       "1": {
@@ -3821,7 +4766,7 @@
       }
     },
     "id": 68,
-    "name": "Blast Resistant"
+    "name": "Blast resistant"
   },
   "ShieldBooster_HeavyDuty": {
     "grades": {
@@ -3952,7 +4897,7 @@
       }
     },
     "id": 70,
-    "name": "Kinetic Resistant"
+    "name": "Kinetic resistant"
   },
   "ShieldBooster_Resistive": {
     "grades": {
@@ -4088,7 +5033,7 @@
       }
     },
     "id": 72,
-    "name": "Thermal Resistant"
+    "name": "Thermal resistant"
   },
   "ShieldCellBank_Rapid": {
     "grades": {
@@ -4235,7 +5180,7 @@
       }
     },
     "id": 75,
-    "name": "Kinetic Resistant"
+    "name": "Kinetic resistant"
   },
   "ShieldGenerator_Optimised": {
     "grades": {
@@ -4449,7 +5394,7 @@
       }
     },
     "id": 78,
-    "name": "Thermal Resistant"
+    "name": "Thermal resistant"
   },
   "WakeScanner_LightWeight": {
     "grades": {
@@ -4481,6 +5426,28 @@
         "features": {
           "integrity": [ -0.4, -0.3 ],
           "mass": [ -0.5, -0.6 ]
+        }
+      },
+      "4": {
+        "components": {
+          "Conductive Components": 1,
+          "Phase Alloys": 1,
+          "Proto Light Alloys": 1
+        },
+        "features": {
+          "integrity": [ -0.5, -0.4 ],
+          "mass": [ -0.6, -0.7 ]
+        }
+      },
+      "5": {
+        "components": {
+          "Conductive Ceramics": 1,
+          "Proto Light Alloys": 1,
+          "Proto Radiolic Alloys": 1
+        },
+        "features": {
+          "integrity": [ -0.6, -0.5 ],
+          "mass": [ -0.7, -0.8 ]
         }
       }
     },
@@ -4518,6 +5485,28 @@
           "integrity": [ 0.6, 1.5 ],
           "mass": [ 2, 1.2 ]
         }
+      },
+      "4": {
+        "components": {
+          "Molybdenum": 1,
+          "Tungsten": 1,
+          "Zinc": 1
+        },
+        "features": {
+          "integrity": [ 0.8, 2 ],
+          "mass": [ 2.5, 1.6 ]
+        }
+      },
+      "5": {
+        "components": {
+          "High Density Composites": 1,
+          "Molybdenum": 1,
+          "Technetium": 1
+        },
+        "features": {
+          "integrity": [ 1, 2.5 ],
+          "mass": [ 3, 2 ]
+        }
       }
     },
     "id": 81,
@@ -4553,6 +5542,28 @@
         "features": {
           "integrity": [ 0.6, 1.5 ],
           "power": [ 0.9, 0.6 ]
+        }
+      },
+      "4": {
+        "components": {
+          "Proprietary Composites": 1,
+          "Shielding Sensors": 1,
+          "Vanadium": 1
+        },
+        "features": {
+          "integrity": [ 0.8, 2 ],
+          "power": [ 1.2, 0.8 ]
+        }
+      },
+      "5": {
+        "components": {
+          "Compound Shielding": 1,
+          "Core Dynamics Composites": 1,
+          "Tungsten": 1
+        },
+        "features": {
+          "integrity": [ 1, 1.5 ],
+          "power": [ 1.5, 1 ]
         }
       }
     },
@@ -4652,7 +5663,7 @@
       "3": {
         "components": {
           "Chromium": 1,
-          "Exceptional Scrambed Emission Data": 1,
+          "Exceptional Scrambled Emission Data": 1,
           "Heat Exchangers": 1
         },
         "features": {
