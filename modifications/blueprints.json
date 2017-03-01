@@ -2483,7 +2483,7 @@
       },
       "4": {
         "components": {
-          "Galvanisign Alloys": 1,
+          "Galvanising Alloys": 1,
           "Heat Vanes": 1,
           "Tungsten": 1
         },
@@ -4678,8 +4678,8 @@
       "5": {
         "components": {
           "Cadmium": 1,
-          "Heatsink Interlink": 1,
-          "Proto Heat Radiators": 1
+          "Proto Heat Radiators": 1,
+          "Unexpected Emission Data": 1
         },
         "features": {
           "damage": [ 0.03, 0.09 ],
