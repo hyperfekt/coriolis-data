@@ -874,7 +874,7 @@ module.exports = {
         hullCost: 1115330,
         speed: 250,
         boost: 350,
-        boostEnergy: 11,
+        boostEnergy: 10,
         baseShieldStrength: 110,
         baseArmour: 110,
         hardness: 35,
