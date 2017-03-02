@@ -4,6 +4,7 @@
   * Update ship hardness for Federal Corvette, Imperial Cutter and Anaconda
   * Update piercing for large and huge weapons
   * Add long range / wide angle / fast scan scanner blueprints
+  * Fix EDDB IDs for class 5 and 7 fighter hangars for correct shopping list
 
 #2.2.19
   * Remove shot speed modification - it is directly tied to range
