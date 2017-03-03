@@ -8603,7 +8603,7 @@ module.exports = {
         breachmin: 0,
         class: 2,
         clip: 12,
-        cost: 190227,
+        cost: 1951040,
         damage: 40,
         damagedist: {
           E: 1
