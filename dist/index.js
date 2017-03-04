@@ -19233,7 +19233,7 @@ module.exports = {
             },
             features: {
               explres: [ -.05, -.03 ],
-              kinres: [ .17, -.2 ],
+              kinres: [ .17, .2 ],
               thermres: [ -.05, -.03 ]
             }
           },

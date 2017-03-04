@@ -7,6 +7,7 @@
   * Fix EDDB IDs for class 5 and 7 fighter hangars for correct shopping list
   * Fix cost for rocket-propelled FSD disruptor
   * Add module names for blueprints
+  * Fix erroneous value for grade 5 kinetic shield booster
 
 #2.2.19
   * Remove shot speed modification - it is directly tied to range
