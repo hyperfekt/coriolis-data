@@ -14315,6 +14315,7 @@ module.exports = {
           }
         },
         id: 3,
+        modulename: [ "Auto field mainentance unit", "AFMU" ],
         name: "Shielded"
       },
       Armour_Advanced: {
@@ -14388,6 +14389,7 @@ module.exports = {
           }
         },
         id: 6,
+        modulename: [ "Bulkheads", "Armour" ],
         name: "Lightweight"
       },
       Armour_Explosive: {
@@ -14450,6 +14452,7 @@ module.exports = {
           }
         },
         id: 5,
+        modulename: [ "Bulkheads", "Armour" ],
         name: "Blast resistant"
       },
       Armour_HeavyDuty: {
@@ -14523,6 +14526,7 @@ module.exports = {
           }
         },
         id: 7,
+        modulename: [ "Bulkheads", "Armour" ],
         name: "Heavy duty"
       },
       Armour_Kinetic: {
@@ -14586,6 +14590,7 @@ module.exports = {
           }
         },
         id: 4,
+        modulename: [ "Bulkheads", "Armour" ],
         name: "Kinetic resistant"
       },
       Armour_Thermic: {
@@ -14641,6 +14646,7 @@ module.exports = {
           }
         },
         id: 8,
+        modulename: [ "Bulkheads", "Armour" ],
         name: "Thermal resistant"
       },
       CargoScanner_LightWeight: {
@@ -14699,6 +14705,7 @@ module.exports = {
           }
         },
         id: 9,
+        modulename: [ "Cargo scanner", "Manifest scanner" ],
         name: "Lightweight"
       },
       CargoScanner_Reinforced: {
@@ -14757,6 +14764,7 @@ module.exports = {
           }
         },
         id: 10,
+        modulename: [ "Cargo scanner", "Manifest scanner" ],
         name: "Reinforced"
       },
       CargoScanner_Shielded: {
@@ -14815,6 +14823,7 @@ module.exports = {
           }
         },
         id: 11,
+        modulename: [ "Cargo scanner", "Manifest scanner" ],
         name: "Shielded"
       },
       ChaffLauncher_ChaffCapacity: {
@@ -14833,6 +14842,7 @@ module.exports = {
           }
         },
         id: 12,
+        modulename: [ "Chaff launcher" ],
         name: "Ammo capacity"
       },
       ChaffLauncher_LightWeight: {
@@ -14891,6 +14901,7 @@ module.exports = {
           }
         },
         id: 13,
+        modulename: [ "Chaff launcher" ],
         name: "Lightweight"
       },
       ChaffLauncher_Reinforced: {
@@ -14949,6 +14960,7 @@ module.exports = {
           }
         },
         id: 14,
+        modulename: [ "Chaff launcher" ],
         name: "Reinforced"
       },
       ChaffLauncher_Shielded: {
@@ -15007,6 +15019,7 @@ module.exports = {
           }
         },
         id: 15,
+        modulename: [ "Chaff launcher" ],
         name: "Shielded"
       },
       CollectionLimpet_LightWeight: {
@@ -15065,6 +15078,7 @@ module.exports = {
           }
         },
         id: 16,
+        modulename: [ "Collector limpet controller" ],
         name: "Lightweight"
       },
       CollectionLimpet_Reinforced: {
@@ -15123,6 +15137,7 @@ module.exports = {
           }
         },
         id: 17,
+        modulename: [ "Collector limpet controller" ],
         name: "Reinforced"
       },
       CollectionLimpet_Shielded: {
@@ -15181,6 +15196,7 @@ module.exports = {
           }
         },
         id: 18,
+        modulename: [ "Collector limpet controller" ],
         name: "Shielded"
       },
       ECM_LightWeight: {
@@ -15239,6 +15255,7 @@ module.exports = {
           }
         },
         id: 19,
+        modulename: [ "Electronic counter measures", "ECM" ],
         name: "Lightweight"
       },
       ECM_Reinforced: {
@@ -15297,6 +15314,7 @@ module.exports = {
           }
         },
         id: 20,
+        modulename: [ "Electronic counter measures", "ECM" ],
         name: "Reinforced"
       },
       ECM_Shielded: {
@@ -15355,6 +15373,7 @@ module.exports = {
           }
         },
         id: 21,
+        modulename: [ "Electronic counter measures", "ECM" ],
         name: "Shielded"
       },
       Engine_Dirty: {
@@ -15428,6 +15447,7 @@ module.exports = {
           }
         },
         id: 22,
+        modulename: [ "Thrusters", "Engines" ],
         name: "Dirty"
       },
       Engine_Reinforced: {
@@ -15496,6 +15516,7 @@ module.exports = {
           }
         },
         id: 23,
+        modulename: [ "Thrusters", "Engines" ],
         name: "Reinforced"
       },
       Engine_Tuned: {
@@ -15569,6 +15590,7 @@ module.exports = {
           }
         },
         id: 24,
+        modulename: [ "Thrusters", "Engines" ],
         name: "Clean"
       },
       FSD_FastBoot: {
@@ -15637,6 +15659,7 @@ module.exports = {
           }
         },
         id: 25,
+        modulename: [ "Frame shift drive", "FSD" ],
         name: "Faster boot sequence"
       },
       FSD_LongRange: {
@@ -15705,6 +15728,7 @@ module.exports = {
           }
         },
         id: 26,
+        modulename: [ "Frame shift drive", "FSD" ],
         name: "Increased range"
       },
       FSD_Shielded: {
@@ -15773,6 +15797,7 @@ module.exports = {
           }
         },
         id: 27,
+        modulename: [ "Frame shift drive", "FSD" ],
         name: "Shielded"
       },
       FSDinterdictor_Expanded: {
@@ -15824,6 +15849,7 @@ module.exports = {
           }
         },
         id: 28,
+        modulename: [ "Frame shift drive interdictor", "FSDI" ],
         name: "Expanded capture arc"
       },
       FSDinterdictor_LongRange: {
@@ -15866,6 +15892,7 @@ module.exports = {
           }
         },
         id: 29,
+        modulename: [ "Frame shift drive interdictor", "FSDI" ],
         name: "Long range"
       },
       FuelScoop_Shielded: {
@@ -15913,6 +15940,7 @@ module.exports = {
           }
         },
         id: 30,
+        modulename: [ "Fuel scoop" ],
         name: "Shielded"
       },
       FuelTransferLimpet_LightWeight: {
@@ -15971,6 +15999,7 @@ module.exports = {
           }
         },
         id: 31,
+        modulename: [ "Fuel transfer limpet controller" ],
         name: "Lightweight"
       },
       FuelTransferLimpet_Reinforced: {
@@ -16029,6 +16058,7 @@ module.exports = {
           }
         },
         id: 32,
+        modulename: [ "Fuel transfer limpet controller" ],
         name: "Reinforced"
       },
       FuelTransferLimpet_Shielded: {
@@ -16087,6 +16117,7 @@ module.exports = {
           }
         },
         id: 33,
+        modulename: [ "Fuel transfer limpet controller" ],
         name: "Shielded"
       },
       HatchBreakerLimpet_LightWeight: {
@@ -16145,6 +16176,7 @@ module.exports = {
           }
         },
         id: 34,
+        modulename: [ "Hatch breaker limpet controller" ],
         name: "Lightweight"
       },
       HatchBreakerLimpet_Reinforced: {
@@ -16203,6 +16235,7 @@ module.exports = {
           }
         },
         id: 35,
+        modulename: [ "Hatch breaker limpet controller" ],
         name: "Reinforced"
       },
       HatchBreakerLimpet_Shielded: {
@@ -16261,6 +16294,7 @@ module.exports = {
           }
         },
         id: 36,
+        modulename: [ "Hatch breaker limpet controller" ],
         name: "Shielded"
       },
       HeatSinkLauncher_HeatSinkCapacity: {
@@ -16279,6 +16313,7 @@ module.exports = {
           }
         },
         id: 37,
+        modulename: [ "Heat sink launcher" ],
         name: "Ammo capacity"
       },
       HeatSinkLauncher_LightWeight: {
@@ -16337,6 +16372,7 @@ module.exports = {
           }
         },
         id: 38,
+        modulename: [ "Heat sink launcher" ],
         name: "Lightweight"
       },
       HeatSinkLauncher_Reinforced: {
@@ -16395,6 +16431,7 @@ module.exports = {
           }
         },
         id: 39,
+        modulename: [ "Heat sink launcher" ],
         name: "Reinforced"
       },
       HeatSinkLauncher_Shielded: {
@@ -16453,6 +16490,7 @@ module.exports = {
           }
         },
         id: 40,
+        modulename: [ "Heat sink launcher" ],
         name: "Shielded"
       },
       HullReinforcement_Advanced: {
@@ -16516,6 +16554,7 @@ module.exports = {
           }
         },
         id: 41,
+        modulename: [ "Hull reinforcement", "Hull reinforcement package", "HRP" ],
         name: "Lightweight"
       },
       HullReinforcement_Explosive: {
@@ -16579,6 +16618,7 @@ module.exports = {
           }
         },
         id: 43,
+        modulename: [ "Hull reinforcement", "Hull reinforcement package", "HRP" ],
         name: "Blast resistant"
       },
       HullReinforcement_HeavyDuty: {
@@ -16652,6 +16692,7 @@ module.exports = {
           }
         },
         id: 42,
+        modulename: [ "Hull reinforcement", "Hull reinforcement package", "HRP" ],
         name: "Heavy duty"
       },
       HullReinforcement_Kinetic: {
@@ -16715,6 +16756,7 @@ module.exports = {
           }
         },
         id: 44,
+        modulename: [ "Hull reinforcement", "Hull reinforcement package", "HRP" ],
         name: "Kinetic resistant"
       },
       HullReinforcement_Thermic: {
@@ -16778,6 +16820,7 @@ module.exports = {
           }
         },
         id: 45,
+        modulename: [ "Hull reinforcement", "Hull reinforcement package", "HRP" ],
         name: "Thermal resistant"
       },
       KillWarrantScanner_LightWeight: {
@@ -16836,6 +16879,7 @@ module.exports = {
           }
         },
         id: 46,
+        modulename: [ "Kill warrant scanner", "KWS" ],
         name: "Lightweight"
       },
       KillWarrantScanner_LongRange: {
@@ -16899,6 +16943,7 @@ module.exports = {
           }
         },
         id: 99,
+        modulename: [ "Kill warrant scanner", "KWS" ],
         name: "Long range"
       },
       KillWarrantScanner_Reinforced: {
@@ -16957,6 +17002,7 @@ module.exports = {
           }
         },
         id: 47,
+        modulename: [ "Kill warrant scanner", "KWS" ],
         name: "Reinforced"
       },
       KillWarrantScanner_Shielded: {
@@ -17015,6 +17061,7 @@ module.exports = {
           }
         },
         id: 48,
+        modulename: [ "Kill warrant scanner", "KWS" ],
         name: "Shielded"
       },
       LifeSupport_LightWeight: {
@@ -17062,6 +17109,7 @@ module.exports = {
           }
         },
         id: 49,
+        modulename: [ "Life support" ],
         name: "Lightweight"
       },
       LifeSupport_Reinforced: {
@@ -17109,6 +17157,7 @@ module.exports = {
           }
         },
         id: 50,
+        modulename: [ "Life support" ],
         name: "Reinforced"
       },
       LifeSupport_Shielded: {
@@ -17156,6 +17205,7 @@ module.exports = {
           }
         },
         id: 51,
+        modulename: [ "Life support" ],
         name: "Shielded"
       },
       PointDefence_LightWeight: {
@@ -17214,6 +17264,7 @@ module.exports = {
           }
         },
         id: 52,
+        modulename: [ "Point defence" ],
         name: "Lightweight"
       },
       PointDefence_PointDefenseCapacity: {
@@ -17232,6 +17283,7 @@ module.exports = {
           }
         },
         id: 55,
+        modulename: [ "Point defence" ],
         name: "Ammo capacity"
       },
       PointDefence_Reinforced: {
@@ -17290,6 +17342,7 @@ module.exports = {
           }
         },
         id: 53,
+        modulename: [ "Point defence" ],
         name: "Reinforced"
       },
       PointDefence_Shielded: {
@@ -17348,6 +17401,7 @@ module.exports = {
           }
         },
         id: 54,
+        modulename: [ "Point defence" ],
         name: "Shielded"
       },
       PowerDistributor_HighCapacity: {
@@ -17426,6 +17480,7 @@ module.exports = {
           }
         },
         id: 56,
+        modulename: [ "Power distributor", "Distributor" ],
         name: "High charge capacity"
       },
       PowerDistributor_HighFrequency: {
@@ -17504,6 +17559,7 @@ module.exports = {
           }
         },
         id: 57,
+        modulename: [ "Power distributor", "Distributor" ],
         name: "Charge enhanced"
       },
       PowerDistributor_PriorityEngines: {
@@ -17552,6 +17608,7 @@ module.exports = {
           }
         },
         id: 58,
+        modulename: [ "Power distributor", "Distributor" ],
         name: "Engine focused"
       },
       PowerDistributor_PrioritySystems: {
@@ -17600,6 +17657,7 @@ module.exports = {
           }
         },
         id: 59,
+        modulename: [ "Power distributor", "Distributor" ],
         name: "System focused"
       },
       PowerDistributor_PriorityWeapons: {
@@ -17648,6 +17706,7 @@ module.exports = {
           }
         },
         id: 60,
+        modulename: [ "Power distributor", "Distributor" ],
         name: "Weapon focused"
       },
       PowerDistributor_Shielded: {
@@ -17706,6 +17765,7 @@ module.exports = {
           }
         },
         id: 61,
+        modulename: [ "Power distributor", "Distributor" ],
         name: "Shielded"
       },
       PowerPlant_Armoured: {
@@ -17769,6 +17829,7 @@ module.exports = {
           }
         },
         id: 62,
+        modulename: [ "Power distributor", "Distributor" ],
         name: "Armoured"
       },
       PowerPlant_Boosted: {
@@ -17832,6 +17893,7 @@ module.exports = {
           }
         },
         id: 63,
+        modulename: [ "Power distributor", "Distributor" ],
         name: "Overcharged"
       },
       PowerPlant_Stealth: {
@@ -17871,6 +17933,7 @@ module.exports = {
           }
         },
         id: 64,
+        modulename: [ "Power distributor", "Distributor" ],
         name: "Low emissions"
       },
       ProspectingLimpet_LightWeight: {
@@ -17929,6 +17992,7 @@ module.exports = {
           }
         },
         id: 65,
+        modulename: [ "Prospector limpet controller" ],
         name: "Lightweight"
       },
       ProspectingLimpet_Reinforced: {
@@ -17987,6 +18051,7 @@ module.exports = {
           }
         },
         id: 66,
+        modulename: [ "Prospector limpet controller" ],
         name: "Reinforced"
       },
       ProspectingLimpet_Shielded: {
@@ -18045,6 +18110,7 @@ module.exports = {
           }
         },
         id: 67,
+        modulename: [ "Prospector limpet controller" ],
         name: "Shielded"
       },
       Refineries_Shielded: {
@@ -18092,6 +18158,7 @@ module.exports = {
           }
         },
         id: 92,
+        modulename: [ "Refinery" ],
         name: "Shielded"
       },
       Sensor_CargoScanner_FastScan: {
@@ -18155,6 +18222,7 @@ module.exports = {
           }
         },
         id: 102,
+        modulename: [ "Cargo scanner", "Manifest scanner" ],
         name: "Fast scan"
       },
       Sensor_CargoScanner_LongRange: {
@@ -18218,6 +18286,7 @@ module.exports = {
           }
         },
         id: 104,
+        modulename: [ "Cargo scanner", "Manifest scanner" ],
         name: "Long range"
       },
       Sensor_CargoScanner_WideAngle: {
@@ -18281,6 +18350,7 @@ module.exports = {
           }
         },
         id: 105,
+        modulename: [ "Cargo scanner", "Manifest scanner" ],
         name: "Wide angle"
       },
       Sensor_KillWarrantScanner_FastScan: {
@@ -18344,6 +18414,7 @@ module.exports = {
           }
         },
         id: 101,
+        modulename: [ "Kill warrant scanner", "KWS" ],
         name: "Fast scan"
       },
       Sensor_KillWarrantScanner_WideAngle: {
@@ -18407,6 +18478,7 @@ module.exports = {
           }
         },
         id: 107,
+        modulename: [ "Kill warrant scanner", "KWS" ],
         name: "Wide angle"
       },
       Sensor_Sensor_LightWeight: {
@@ -18470,6 +18542,7 @@ module.exports = {
           }
         },
         id: 96,
+        modulename: [ "Sensors" ],
         name: "Lightweight"
       },
       Sensor_Sensor_LongRange: {
@@ -18533,6 +18606,7 @@ module.exports = {
           }
         },
         id: 97,
+        modulename: [ "Sensors" ],
         name: "Long range"
       },
       Sensor_Sensor_WideAngle: {
@@ -18596,6 +18670,7 @@ module.exports = {
           }
         },
         id: 98,
+        modulename: [ "Sensors" ],
         name: "Wide angle"
       },
       Sensor_SurfaceScanner_FastScan: {
@@ -18659,6 +18734,7 @@ module.exports = {
           }
         },
         id: 95,
+        modulename: [ "Detailed surface scanner", "DSS" ],
         name: "Fast scan"
       },
       Sensor_SurfaceScanner_LongRange: {
@@ -18722,6 +18798,7 @@ module.exports = {
           }
         },
         id: 93,
+        modulename: [ "Detailed surface scanner", "DSS" ],
         name: "Long range"
       },
       Sensor_SurfaceScanner_WideAngle: {
@@ -18785,6 +18862,7 @@ module.exports = {
           }
         },
         id: 94,
+        modulename: [ "Detailed surface scanner", "DSS" ],
         name: "Wide angle"
       },
       Sensor_WakeScanner_FastScan: {
@@ -18848,6 +18926,7 @@ module.exports = {
           }
         },
         id: 109,
+        modulename: [ "Wake scanner", "Frame shift wake scanner" ],
         name: "Fast scan"
       },
       Sensor_WakeScanner_LongRange: {
@@ -18911,6 +18990,7 @@ module.exports = {
           }
         },
         id: 108,
+        modulename: [ "Wake scanner", "Frame shift wake scanner" ],
         name: "Long range"
       },
       Sensor_WakeScanner_WideAngle: {
@@ -18974,6 +19054,7 @@ module.exports = {
           }
         },
         id: 106,
+        modulename: [ "Wake scanner", "Frame shift wake scanner" ],
         name: "Wide angle"
       },
       ShieldBooster_Explosive: {
@@ -19037,6 +19118,7 @@ module.exports = {
           }
         },
         id: 68,
+        modulename: [ "Shield booster" ],
         name: "Blast resistant"
       },
       ShieldBooster_HeavyDuty: {
@@ -19105,6 +19187,7 @@ module.exports = {
           }
         },
         id: 69,
+        modulename: [ "Shield booster" ],
         name: "Heavy duty"
       },
       ShieldBooster_Kinetic: {
@@ -19168,6 +19251,7 @@ module.exports = {
           }
         },
         id: 70,
+        modulename: [ "Shield booster" ],
         name: "Kinetic resistant"
       },
       ShieldBooster_Resistive: {
@@ -19241,6 +19325,7 @@ module.exports = {
           }
         },
         id: 71,
+        modulename: [ "Shield booster" ],
         name: "Resistance augmented"
       },
       ShieldBooster_Thermic: {
@@ -19304,6 +19389,7 @@ module.exports = {
           }
         },
         id: 72,
+        modulename: [ "Shield booster" ],
         name: "Thermal resistant"
       },
       ShieldCellBank_Rapid: {
@@ -19346,6 +19432,7 @@ module.exports = {
           }
         },
         id: 73,
+        modulename: [ "Shield cell bank", "SCB" ],
         name: "Rapid charge"
       },
       ShieldCellBank_Specialised: {
@@ -19388,6 +19475,7 @@ module.exports = {
           }
         },
         id: 74,
+        modulename: [ "Shield cell bank", "SCB" ],
         name: "Specialised"
       },
       ShieldGenerator_Kinetic: {
@@ -19451,6 +19539,7 @@ module.exports = {
           }
         },
         id: 75,
+        modulename: [ "Shield generator", "Shields" ],
         name: "Kinetic resistant"
       },
       ShieldGenerator_Optimised: {
@@ -19522,6 +19611,7 @@ module.exports = {
           }
         },
         id: 76,
+        modulename: [ "Shield generator", "Shields" ],
         name: "Enhanced low power"
       },
       ShieldGenerator_Reinforced: {
@@ -19602,6 +19692,7 @@ module.exports = {
           }
         },
         id: 77,
+        modulename: [ "Shield generator", "Shields" ],
         name: "Reinforced"
       },
       ShieldGenerator_Thermic: {
@@ -19665,6 +19756,7 @@ module.exports = {
           }
         },
         id: 78,
+        modulename: [ "Shield generator", "Shields" ],
         name: "Thermal resistant"
       },
       WakeScanner_LightWeight: {
@@ -19723,6 +19815,7 @@ module.exports = {
           }
         },
         id: 79,
+        modulename: [ "Frame shift wake scanner", "Wake scanner" ],
         name: "Lightweight"
       },
       WakeScanner_Reinforced: {
@@ -19781,6 +19874,7 @@ module.exports = {
           }
         },
         id: 81,
+        modulename: [ "Frame shift wake scanner", "Wake scanner" ],
         name: "Reinforced"
       },
       WakeScanner_Shielded: {
@@ -19839,6 +19933,7 @@ module.exports = {
           }
         },
         id: 80,
+        modulename: [ "Frame shift wake scanner", "Wake scanner" ],
         name: "Shielded"
       },
       Weapon_DoubleShot: {
@@ -19907,6 +20002,7 @@ module.exports = {
           }
         },
         id: 82,
+        modulename: [ "Weapon" ],
         name: "Double shot"
       },
       Weapon_Efficient: {
@@ -19972,6 +20068,7 @@ module.exports = {
           }
         },
         id: 83,
+        modulename: [ "Weapon" ],
         name: "Efficient"
       },
       Weapon_Focused: {
@@ -20039,6 +20136,7 @@ module.exports = {
           }
         },
         id: 84,
+        modulename: [ "Weapon" ],
         name: "Focused"
       },
       Weapon_HighCapacity: {
@@ -20112,6 +20210,7 @@ module.exports = {
           }
         },
         id: 85,
+        modulename: [ "Weapon" ],
         name: "High capacity"
       },
       Weapon_LightWeight: {
@@ -20180,6 +20279,7 @@ module.exports = {
           }
         },
         id: 86,
+        modulename: [ "Weapon" ],
         name: "Lightweight"
       },
       Weapon_LongRange: {
@@ -20247,6 +20347,7 @@ module.exports = {
           }
         },
         id: 87,
+        modulename: [ "Weapon" ],
         name: "Long range"
       },
       Weapon_Overcharged: {
@@ -20317,6 +20418,7 @@ module.exports = {
           }
         },
         id: 88,
+        modulename: [ "Weapon" ],
         name: "Overcharged"
       },
       Weapon_RapidFire: {
@@ -20389,6 +20491,7 @@ module.exports = {
           }
         },
         id: 89,
+        modulename: [ "Weapon" ],
         name: "Rapid fire"
       },
       Weapon_ShortRange: {
@@ -20454,6 +20557,7 @@ module.exports = {
           }
         },
         id: 90,
+        modulename: [ "Weapon" ],
         name: "Short range"
       },
       Weapon_Sturdy: {
@@ -20520,6 +20624,7 @@ module.exports = {
           }
         },
         id: 91,
+        modulename: [ "Weapon" ],
         name: "Sturdy"
       }
     },

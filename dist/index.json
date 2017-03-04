@@ -16833,6 +16833,10 @@
 					}
 				},
 				"id": 3,
+				"modulename": [
+					"Auto field mainentance unit",
+					"AFMU"
+				],
 				"name": "Shielded"
 			},
 			"Armour_Advanced": {
@@ -16981,6 +16985,10 @@
 					}
 				},
 				"id": 6,
+				"modulename": [
+					"Bulkheads",
+					"Armour"
+				],
 				"name": "Lightweight"
 			},
 			"Armour_Explosive": {
@@ -17088,6 +17096,10 @@
 					}
 				},
 				"id": 5,
+				"modulename": [
+					"Bulkheads",
+					"Armour"
+				],
 				"name": "Blast resistant"
 			},
 			"Armour_HeavyDuty": {
@@ -17236,6 +17248,10 @@
 					}
 				},
 				"id": 7,
+				"modulename": [
+					"Bulkheads",
+					"Armour"
+				],
 				"name": "Heavy duty"
 			},
 			"Armour_Kinetic": {
@@ -17344,6 +17360,10 @@
 					}
 				},
 				"id": 4,
+				"modulename": [
+					"Bulkheads",
+					"Armour"
+				],
 				"name": "Kinetic resistant"
 			},
 			"Armour_Thermic": {
@@ -17444,6 +17464,10 @@
 					}
 				},
 				"id": 8,
+				"modulename": [
+					"Bulkheads",
+					"Armour"
+				],
 				"name": "Thermal resistant"
 			},
 			"CargoScanner_LightWeight": {
@@ -17532,6 +17556,10 @@
 					}
 				},
 				"id": 9,
+				"modulename": [
+					"Cargo scanner",
+					"Manifest scanner"
+				],
 				"name": "Lightweight"
 			},
 			"CargoScanner_Reinforced": {
@@ -17620,6 +17648,10 @@
 					}
 				},
 				"id": 10,
+				"modulename": [
+					"Cargo scanner",
+					"Manifest scanner"
+				],
 				"name": "Reinforced"
 			},
 			"CargoScanner_Shielded": {
@@ -17708,6 +17740,10 @@
 					}
 				},
 				"id": 11,
+				"modulename": [
+					"Cargo scanner",
+					"Manifest scanner"
+				],
 				"name": "Shielded"
 			},
 			"ChaffLauncher_ChaffCapacity": {
@@ -17735,6 +17771,9 @@
 					}
 				},
 				"id": 12,
+				"modulename": [
+					"Chaff launcher"
+				],
 				"name": "Ammo capacity"
 			},
 			"ChaffLauncher_LightWeight": {
@@ -17823,6 +17862,9 @@
 					}
 				},
 				"id": 13,
+				"modulename": [
+					"Chaff launcher"
+				],
 				"name": "Lightweight"
 			},
 			"ChaffLauncher_Reinforced": {
@@ -17911,6 +17953,9 @@
 					}
 				},
 				"id": 14,
+				"modulename": [
+					"Chaff launcher"
+				],
 				"name": "Reinforced"
 			},
 			"ChaffLauncher_Shielded": {
@@ -17999,6 +18044,9 @@
 					}
 				},
 				"id": 15,
+				"modulename": [
+					"Chaff launcher"
+				],
 				"name": "Shielded"
 			},
 			"CollectionLimpet_LightWeight": {
@@ -18087,6 +18135,9 @@
 					}
 				},
 				"id": 16,
+				"modulename": [
+					"Collector limpet controller"
+				],
 				"name": "Lightweight"
 			},
 			"CollectionLimpet_Reinforced": {
@@ -18175,6 +18226,9 @@
 					}
 				},
 				"id": 17,
+				"modulename": [
+					"Collector limpet controller"
+				],
 				"name": "Reinforced"
 			},
 			"CollectionLimpet_Shielded": {
@@ -18263,6 +18317,9 @@
 					}
 				},
 				"id": 18,
+				"modulename": [
+					"Collector limpet controller"
+				],
 				"name": "Shielded"
 			},
 			"ECM_LightWeight": {
@@ -18351,6 +18408,10 @@
 					}
 				},
 				"id": 19,
+				"modulename": [
+					"Electronic counter measures",
+					"ECM"
+				],
 				"name": "Lightweight"
 			},
 			"ECM_Reinforced": {
@@ -18439,6 +18500,10 @@
 					}
 				},
 				"id": 20,
+				"modulename": [
+					"Electronic counter measures",
+					"ECM"
+				],
 				"name": "Reinforced"
 			},
 			"ECM_Shielded": {
@@ -18527,6 +18592,10 @@
 					}
 				},
 				"id": 21,
+				"modulename": [
+					"Electronic counter measures",
+					"ECM"
+				],
 				"name": "Shielded"
 			},
 			"Engine_Dirty": {
@@ -18675,6 +18744,10 @@
 					}
 				},
 				"id": 22,
+				"modulename": [
+					"Thrusters",
+					"Engines"
+				],
 				"name": "Dirty"
 			},
 			"Engine_Reinforced": {
@@ -18803,6 +18876,10 @@
 					}
 				},
 				"id": 23,
+				"modulename": [
+					"Thrusters",
+					"Engines"
+				],
 				"name": "Reinforced"
 			},
 			"Engine_Tuned": {
@@ -18951,6 +19028,10 @@
 					}
 				},
 				"id": 24,
+				"modulename": [
+					"Thrusters",
+					"Engines"
+				],
 				"name": "Clean"
 			},
 			"FSD_FastBoot": {
@@ -19079,6 +19160,10 @@
 					}
 				},
 				"id": 25,
+				"modulename": [
+					"Frame shift drive",
+					"FSD"
+				],
 				"name": "Faster boot sequence"
 			},
 			"FSD_LongRange": {
@@ -19207,6 +19292,10 @@
 					}
 				},
 				"id": 26,
+				"modulename": [
+					"Frame shift drive",
+					"FSD"
+				],
 				"name": "Increased range"
 			},
 			"FSD_Shielded": {
@@ -19335,6 +19424,10 @@
 					}
 				},
 				"id": 27,
+				"modulename": [
+					"Frame shift drive",
+					"FSD"
+				],
 				"name": "Shielded"
 			},
 			"FSDinterdictor_Expanded": {
@@ -19422,6 +19515,10 @@
 					}
 				},
 				"id": 28,
+				"modulename": [
+					"Frame shift drive interdictor",
+					"FSDI"
+				],
 				"name": "Expanded capture arc"
 			},
 			"FSDinterdictor_LongRange": {
@@ -19500,6 +19597,10 @@
 					}
 				},
 				"id": 29,
+				"modulename": [
+					"Frame shift drive interdictor",
+					"FSDI"
+				],
 				"name": "Long range"
 			},
 			"FuelScoop_Shielded": {
@@ -19571,6 +19672,9 @@
 					}
 				},
 				"id": 30,
+				"modulename": [
+					"Fuel scoop"
+				],
 				"name": "Shielded"
 			},
 			"FuelTransferLimpet_LightWeight": {
@@ -19659,6 +19763,9 @@
 					}
 				},
 				"id": 31,
+				"modulename": [
+					"Fuel transfer limpet controller"
+				],
 				"name": "Lightweight"
 			},
 			"FuelTransferLimpet_Reinforced": {
@@ -19747,6 +19854,9 @@
 					}
 				},
 				"id": 32,
+				"modulename": [
+					"Fuel transfer limpet controller"
+				],
 				"name": "Reinforced"
 			},
 			"FuelTransferLimpet_Shielded": {
@@ -19835,6 +19945,9 @@
 					}
 				},
 				"id": 33,
+				"modulename": [
+					"Fuel transfer limpet controller"
+				],
 				"name": "Shielded"
 			},
 			"HatchBreakerLimpet_LightWeight": {
@@ -19923,6 +20036,9 @@
 					}
 				},
 				"id": 34,
+				"modulename": [
+					"Hatch breaker limpet controller"
+				],
 				"name": "Lightweight"
 			},
 			"HatchBreakerLimpet_Reinforced": {
@@ -20011,6 +20127,9 @@
 					}
 				},
 				"id": 35,
+				"modulename": [
+					"Hatch breaker limpet controller"
+				],
 				"name": "Reinforced"
 			},
 			"HatchBreakerLimpet_Shielded": {
@@ -20099,6 +20218,9 @@
 					}
 				},
 				"id": 36,
+				"modulename": [
+					"Hatch breaker limpet controller"
+				],
 				"name": "Shielded"
 			},
 			"HeatSinkLauncher_HeatSinkCapacity": {
@@ -20126,6 +20248,9 @@
 					}
 				},
 				"id": 37,
+				"modulename": [
+					"Heat sink launcher"
+				],
 				"name": "Ammo capacity"
 			},
 			"HeatSinkLauncher_LightWeight": {
@@ -20214,6 +20339,9 @@
 					}
 				},
 				"id": 38,
+				"modulename": [
+					"Heat sink launcher"
+				],
 				"name": "Lightweight"
 			},
 			"HeatSinkLauncher_Reinforced": {
@@ -20302,6 +20430,9 @@
 					}
 				},
 				"id": 39,
+				"modulename": [
+					"Heat sink launcher"
+				],
 				"name": "Reinforced"
 			},
 			"HeatSinkLauncher_Shielded": {
@@ -20390,6 +20521,9 @@
 					}
 				},
 				"id": 40,
+				"modulename": [
+					"Heat sink launcher"
+				],
 				"name": "Shielded"
 			},
 			"HullReinforcement_Advanced": {
@@ -20498,6 +20632,11 @@
 					}
 				},
 				"id": 41,
+				"modulename": [
+					"Hull reinforcement",
+					"Hull reinforcement package",
+					"HRP"
+				],
 				"name": "Lightweight"
 			},
 			"HullReinforcement_Explosive": {
@@ -20606,6 +20745,11 @@
 					}
 				},
 				"id": 43,
+				"modulename": [
+					"Hull reinforcement",
+					"Hull reinforcement package",
+					"HRP"
+				],
 				"name": "Blast resistant"
 			},
 			"HullReinforcement_HeavyDuty": {
@@ -20754,6 +20898,11 @@
 					}
 				},
 				"id": 42,
+				"modulename": [
+					"Hull reinforcement",
+					"Hull reinforcement package",
+					"HRP"
+				],
 				"name": "Heavy duty"
 			},
 			"HullReinforcement_Kinetic": {
@@ -20862,6 +21011,11 @@
 					}
 				},
 				"id": 44,
+				"modulename": [
+					"Hull reinforcement",
+					"Hull reinforcement package",
+					"HRP"
+				],
 				"name": "Kinetic resistant"
 			},
 			"HullReinforcement_Thermic": {
@@ -20970,6 +21124,11 @@
 					}
 				},
 				"id": 45,
+				"modulename": [
+					"Hull reinforcement",
+					"Hull reinforcement package",
+					"HRP"
+				],
 				"name": "Thermal resistant"
 			},
 			"KillWarrantScanner_LightWeight": {
@@ -21058,6 +21217,10 @@
 					}
 				},
 				"id": 46,
+				"modulename": [
+					"Kill warrant scanner",
+					"KWS"
+				],
 				"name": "Lightweight"
 			},
 			"KillWarrantScanner_LongRange": {
@@ -21166,6 +21329,10 @@
 					}
 				},
 				"id": 99,
+				"modulename": [
+					"Kill warrant scanner",
+					"KWS"
+				],
 				"name": "Long range"
 			},
 			"KillWarrantScanner_Reinforced": {
@@ -21254,6 +21421,10 @@
 					}
 				},
 				"id": 47,
+				"modulename": [
+					"Kill warrant scanner",
+					"KWS"
+				],
 				"name": "Reinforced"
 			},
 			"KillWarrantScanner_Shielded": {
@@ -21342,6 +21513,10 @@
 					}
 				},
 				"id": 48,
+				"modulename": [
+					"Kill warrant scanner",
+					"KWS"
+				],
 				"name": "Shielded"
 			},
 			"LifeSupport_LightWeight": {
@@ -21413,6 +21588,9 @@
 					}
 				},
 				"id": 49,
+				"modulename": [
+					"Life support"
+				],
 				"name": "Lightweight"
 			},
 			"LifeSupport_Reinforced": {
@@ -21484,6 +21662,9 @@
 					}
 				},
 				"id": 50,
+				"modulename": [
+					"Life support"
+				],
 				"name": "Reinforced"
 			},
 			"LifeSupport_Shielded": {
@@ -21555,6 +21736,9 @@
 					}
 				},
 				"id": 51,
+				"modulename": [
+					"Life support"
+				],
 				"name": "Shielded"
 			},
 			"PointDefence_LightWeight": {
@@ -21643,6 +21827,9 @@
 					}
 				},
 				"id": 52,
+				"modulename": [
+					"Point defence"
+				],
 				"name": "Lightweight"
 			},
 			"PointDefence_PointDefenseCapacity": {
@@ -21670,6 +21857,9 @@
 					}
 				},
 				"id": 55,
+				"modulename": [
+					"Point defence"
+				],
 				"name": "Ammo capacity"
 			},
 			"PointDefence_Reinforced": {
@@ -21758,6 +21948,9 @@
 					}
 				},
 				"id": 53,
+				"modulename": [
+					"Point defence"
+				],
 				"name": "Reinforced"
 			},
 			"PointDefence_Shielded": {
@@ -21846,6 +22039,9 @@
 					}
 				},
 				"id": 54,
+				"modulename": [
+					"Point defence"
+				],
 				"name": "Shielded"
 			},
 			"PowerDistributor_HighCapacity": {
@@ -22014,6 +22210,10 @@
 					}
 				},
 				"id": 56,
+				"modulename": [
+					"Power distributor",
+					"Distributor"
+				],
 				"name": "High charge capacity"
 			},
 			"PowerDistributor_HighFrequency": {
@@ -22182,6 +22382,10 @@
 					}
 				},
 				"id": 57,
+				"modulename": [
+					"Power distributor",
+					"Distributor"
+				],
 				"name": "Charge enhanced"
 			},
 			"PowerDistributor_PriorityEngines": {
@@ -22284,6 +22488,10 @@
 					}
 				},
 				"id": 58,
+				"modulename": [
+					"Power distributor",
+					"Distributor"
+				],
 				"name": "Engine focused"
 			},
 			"PowerDistributor_PrioritySystems": {
@@ -22386,6 +22594,10 @@
 					}
 				},
 				"id": 59,
+				"modulename": [
+					"Power distributor",
+					"Distributor"
+				],
 				"name": "System focused"
 			},
 			"PowerDistributor_PriorityWeapons": {
@@ -22488,6 +22700,10 @@
 					}
 				},
 				"id": 60,
+				"modulename": [
+					"Power distributor",
+					"Distributor"
+				],
 				"name": "Weapon focused"
 			},
 			"PowerDistributor_Shielded": {
@@ -22576,6 +22792,10 @@
 					}
 				},
 				"id": 61,
+				"modulename": [
+					"Power distributor",
+					"Distributor"
+				],
 				"name": "Shielded"
 			},
 			"PowerPlant_Armoured": {
@@ -22684,6 +22904,10 @@
 					}
 				},
 				"id": 62,
+				"modulename": [
+					"Power distributor",
+					"Distributor"
+				],
 				"name": "Armoured"
 			},
 			"PowerPlant_Boosted": {
@@ -22792,6 +23016,10 @@
 					}
 				},
 				"id": 63,
+				"modulename": [
+					"Power distributor",
+					"Distributor"
+				],
 				"name": "Overcharged"
 			},
 			"PowerPlant_Stealth": {
@@ -22858,6 +23086,10 @@
 					}
 				},
 				"id": 64,
+				"modulename": [
+					"Power distributor",
+					"Distributor"
+				],
 				"name": "Low emissions"
 			},
 			"ProspectingLimpet_LightWeight": {
@@ -22946,6 +23178,9 @@
 					}
 				},
 				"id": 65,
+				"modulename": [
+					"Prospector limpet controller"
+				],
 				"name": "Lightweight"
 			},
 			"ProspectingLimpet_Reinforced": {
@@ -23034,6 +23269,9 @@
 					}
 				},
 				"id": 66,
+				"modulename": [
+					"Prospector limpet controller"
+				],
 				"name": "Reinforced"
 			},
 			"ProspectingLimpet_Shielded": {
@@ -23122,6 +23360,9 @@
 					}
 				},
 				"id": 67,
+				"modulename": [
+					"Prospector limpet controller"
+				],
 				"name": "Shielded"
 			},
 			"Refineries_Shielded": {
@@ -23193,6 +23434,9 @@
 					}
 				},
 				"id": 92,
+				"modulename": [
+					"Refinery"
+				],
 				"name": "Shielded"
 			},
 			"Sensor_CargoScanner_FastScan": {
@@ -23301,6 +23545,10 @@
 					}
 				},
 				"id": 102,
+				"modulename": [
+					"Cargo scanner",
+					"Manifest scanner"
+				],
 				"name": "Fast scan"
 			},
 			"Sensor_CargoScanner_LongRange": {
@@ -23409,6 +23657,10 @@
 					}
 				},
 				"id": 104,
+				"modulename": [
+					"Cargo scanner",
+					"Manifest scanner"
+				],
 				"name": "Long range"
 			},
 			"Sensor_CargoScanner_WideAngle": {
@@ -23517,6 +23769,10 @@
 					}
 				},
 				"id": 105,
+				"modulename": [
+					"Cargo scanner",
+					"Manifest scanner"
+				],
 				"name": "Wide angle"
 			},
 			"Sensor_KillWarrantScanner_FastScan": {
@@ -23625,6 +23881,10 @@
 					}
 				},
 				"id": 101,
+				"modulename": [
+					"Kill warrant scanner",
+					"KWS"
+				],
 				"name": "Fast scan"
 			},
 			"Sensor_KillWarrantScanner_WideAngle": {
@@ -23733,6 +23993,10 @@
 					}
 				},
 				"id": 107,
+				"modulename": [
+					"Kill warrant scanner",
+					"KWS"
+				],
 				"name": "Wide angle"
 			},
 			"Sensor_Sensor_LightWeight": {
@@ -23841,6 +24105,9 @@
 					}
 				},
 				"id": 96,
+				"modulename": [
+					"Sensors"
+				],
 				"name": "Lightweight"
 			},
 			"Sensor_Sensor_LongRange": {
@@ -23949,6 +24216,9 @@
 					}
 				},
 				"id": 97,
+				"modulename": [
+					"Sensors"
+				],
 				"name": "Long range"
 			},
 			"Sensor_Sensor_WideAngle": {
@@ -24057,6 +24327,9 @@
 					}
 				},
 				"id": 98,
+				"modulename": [
+					"Sensors"
+				],
 				"name": "Wide angle"
 			},
 			"Sensor_SurfaceScanner_FastScan": {
@@ -24165,6 +24438,10 @@
 					}
 				},
 				"id": 95,
+				"modulename": [
+					"Detailed surface scanner",
+					"DSS"
+				],
 				"name": "Fast scan"
 			},
 			"Sensor_SurfaceScanner_LongRange": {
@@ -24273,6 +24550,10 @@
 					}
 				},
 				"id": 93,
+				"modulename": [
+					"Detailed surface scanner",
+					"DSS"
+				],
 				"name": "Long range"
 			},
 			"Sensor_SurfaceScanner_WideAngle": {
@@ -24381,6 +24662,10 @@
 					}
 				},
 				"id": 94,
+				"modulename": [
+					"Detailed surface scanner",
+					"DSS"
+				],
 				"name": "Wide angle"
 			},
 			"Sensor_WakeScanner_FastScan": {
@@ -24489,6 +24774,10 @@
 					}
 				},
 				"id": 109,
+				"modulename": [
+					"Wake scanner",
+					"Frame shift wake scanner"
+				],
 				"name": "Fast scan"
 			},
 			"Sensor_WakeScanner_LongRange": {
@@ -24597,6 +24886,10 @@
 					}
 				},
 				"id": 108,
+				"modulename": [
+					"Wake scanner",
+					"Frame shift wake scanner"
+				],
 				"name": "Long range"
 			},
 			"Sensor_WakeScanner_WideAngle": {
@@ -24705,6 +24998,10 @@
 					}
 				},
 				"id": 106,
+				"modulename": [
+					"Wake scanner",
+					"Frame shift wake scanner"
+				],
 				"name": "Wide angle"
 			},
 			"ShieldBooster_Explosive": {
@@ -24813,6 +25110,9 @@
 					}
 				},
 				"id": 68,
+				"modulename": [
+					"Shield booster"
+				],
 				"name": "Blast resistant"
 			},
 			"ShieldBooster_HeavyDuty": {
@@ -24941,6 +25241,9 @@
 					}
 				},
 				"id": 69,
+				"modulename": [
+					"Shield booster"
+				],
 				"name": "Heavy duty"
 			},
 			"ShieldBooster_Kinetic": {
@@ -25049,6 +25352,9 @@
 					}
 				},
 				"id": 70,
+				"modulename": [
+					"Shield booster"
+				],
 				"name": "Kinetic resistant"
 			},
 			"ShieldBooster_Resistive": {
@@ -25197,6 +25503,9 @@
 					}
 				},
 				"id": 71,
+				"modulename": [
+					"Shield booster"
+				],
 				"name": "Resistance augmented"
 			},
 			"ShieldBooster_Thermic": {
@@ -25305,6 +25614,9 @@
 					}
 				},
 				"id": 72,
+				"modulename": [
+					"Shield booster"
+				],
 				"name": "Thermal resistant"
 			},
 			"ShieldCellBank_Rapid": {
@@ -25383,6 +25695,10 @@
 					}
 				},
 				"id": 73,
+				"modulename": [
+					"Shield cell bank",
+					"SCB"
+				],
 				"name": "Rapid charge"
 			},
 			"ShieldCellBank_Specialised": {
@@ -25461,6 +25777,10 @@
 					}
 				},
 				"id": 74,
+				"modulename": [
+					"Shield cell bank",
+					"SCB"
+				],
 				"name": "Specialised"
 			},
 			"ShieldGenerator_Kinetic": {
@@ -25569,6 +25889,10 @@
 					}
 				},
 				"id": 75,
+				"modulename": [
+					"Shield generator",
+					"Shields"
+				],
 				"name": "Kinetic resistant"
 			},
 			"ShieldGenerator_Optimised": {
@@ -25709,6 +26033,10 @@
 					}
 				},
 				"id": 76,
+				"modulename": [
+					"Shield generator",
+					"Shields"
+				],
 				"name": "Enhanced low power"
 			},
 			"ShieldGenerator_Reinforced": {
@@ -25885,6 +26213,10 @@
 					}
 				},
 				"id": 77,
+				"modulename": [
+					"Shield generator",
+					"Shields"
+				],
 				"name": "Reinforced"
 			},
 			"ShieldGenerator_Thermic": {
@@ -25993,6 +26325,10 @@
 					}
 				},
 				"id": 78,
+				"modulename": [
+					"Shield generator",
+					"Shields"
+				],
 				"name": "Thermal resistant"
 			},
 			"WakeScanner_LightWeight": {
@@ -26081,6 +26417,10 @@
 					}
 				},
 				"id": 79,
+				"modulename": [
+					"Frame shift wake scanner",
+					"Wake scanner"
+				],
 				"name": "Lightweight"
 			},
 			"WakeScanner_Reinforced": {
@@ -26169,6 +26509,10 @@
 					}
 				},
 				"id": 81,
+				"modulename": [
+					"Frame shift wake scanner",
+					"Wake scanner"
+				],
 				"name": "Reinforced"
 			},
 			"WakeScanner_Shielded": {
@@ -26257,6 +26601,10 @@
 					}
 				},
 				"id": 80,
+				"modulename": [
+					"Frame shift wake scanner",
+					"Wake scanner"
+				],
 				"name": "Shielded"
 			},
 			"Weapon_DoubleShot": {
@@ -26385,6 +26733,9 @@
 					}
 				},
 				"id": 82,
+				"modulename": [
+					"Weapon"
+				],
 				"name": "Double shot"
 			},
 			"Weapon_Efficient": {
@@ -26501,6 +26852,9 @@
 					}
 				},
 				"id": 83,
+				"modulename": [
+					"Weapon"
+				],
 				"name": "Efficient"
 			},
 			"Weapon_Focused": {
@@ -26625,6 +26979,9 @@
 					}
 				},
 				"id": 84,
+				"modulename": [
+					"Weapon"
+				],
 				"name": "Focused"
 			},
 			"Weapon_HighCapacity": {
@@ -26773,6 +27130,9 @@
 					}
 				},
 				"id": 85,
+				"modulename": [
+					"Weapon"
+				],
 				"name": "High capacity"
 			},
 			"Weapon_LightWeight": {
@@ -26901,6 +27261,9 @@
 					}
 				},
 				"id": 86,
+				"modulename": [
+					"Weapon"
+				],
 				"name": "Lightweight"
 			},
 			"Weapon_LongRange": {
@@ -27025,6 +27388,9 @@
 					}
 				},
 				"id": 87,
+				"modulename": [
+					"Weapon"
+				],
 				"name": "Long range"
 			},
 			"Weapon_Overcharged": {
@@ -27161,6 +27527,9 @@
 					}
 				},
 				"id": 88,
+				"modulename": [
+					"Weapon"
+				],
 				"name": "Overcharged"
 			},
 			"Weapon_RapidFire": {
@@ -27305,6 +27674,9 @@
 					}
 				},
 				"id": 89,
+				"modulename": [
+					"Weapon"
+				],
 				"name": "Rapid fire"
 			},
 			"Weapon_ShortRange": {
@@ -27421,6 +27793,9 @@
 					}
 				},
 				"id": 90,
+				"modulename": [
+					"Weapon"
+				],
 				"name": "Short range"
 			},
 			"Weapon_Sturdy": {
@@ -27541,6 +27916,9 @@
 					}
 				},
 				"id": 91,
+				"modulename": [
+					"Weapon"
+				],
 				"name": "Sturdy"
 			}
 		},
