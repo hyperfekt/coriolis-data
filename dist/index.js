@@ -14714,7 +14714,11 @@ module.exports = {
             }
           },
           "4": {
-            components: {},
+            components: {
+              "Galvanising Alloys": 1,
+              "Heat Vanes": 1,
+              Tungsten: 1
+            },
             features: {
               explres: [ -.224, -.112 ],
               kinres: [ -.192, -.096 ],
@@ -14722,7 +14726,11 @@ module.exports = {
             }
           },
           "5": {
-            components: {},
+            components: {
+              Molybdenum: 1,
+              "Phase Alloys": 1,
+              "Proto Heat Radiators": 1
+            },
             features: {
               explres: [ -.28, -.14 ],
               kinres: [ -.24, -.12 ],
@@ -20858,7 +20866,7 @@ module.exports = {
         name: "jitter",
         type: "numeric",
         method: "multiplicative",
-        higherbetter: true
+        higherbetter: false
       },
       kinres: {
         id: 17,

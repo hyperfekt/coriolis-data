@@ -19,7 +19,7 @@
     "hullboost": {"id": 13, "name": "hullboost", "type": "percentage", "method": "multiplicative", "higherbetter": true},
     "hullreinforcement": {"id": 14, "name": "hullreinforcement", "type": "percentage", "method": "multiplicative", "higherbetter": true},
     "integrity": {"id": 15, "name": "integrity", "type": "percentage", "method": "multiplicative", "higherbetter": true},
-    "jitter": {"id": 16, "name": "jitter", "type": "numeric", "method": "multiplicative", "higherbetter": true},
+    "jitter": {"id": 16, "name": "jitter", "type": "numeric", "method": "multiplicative", "higherbetter": false},
     "kinres": {"id": 17, "name": "kinres", "type": "percentage", "method": "additive", "higherbetter": true},
     "mass": {"id": 18, "name": "mass", "type": "percentage", "method": "multiplicative", "higherbetter": false},
     "maxfuel": {"id": 19, "name": "maxfuel", "type": "percentage", "method": "multiplicative", "higherbetter": true},
