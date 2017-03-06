@@ -8,6 +8,7 @@
   * Fix cost for rocket-propelled FSD disruptor
   * Add module names for blueprints
   * Fix erroneous value for grade 5 kinetic shield booster
+  * Add missing integrity values for some modules
 
 #2.2.19
   * Remove shot speed modification - it is directly tied to range
