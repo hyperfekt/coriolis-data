@@ -358,7 +358,11 @@
         }
       },
       "4": {
-        "components": {},
+        "components": {
+          "Galvanising Alloys": 1,
+          "Heat Vanes": 1,
+          "Tungsten": 1
+        },
         "features": {
           "explres": [ -0.224, -0.112 ],
           "kinres": [ -0.192, -0.096 ],
@@ -366,7 +370,11 @@
         }
       },
       "5": {
-        "components": {},
+        "components": {
+          "Molybdenum": 1,
+          "Phase Alloys": 1,
+          "Proto Heat Radiators": 1
+        },
         "features": {
           "explres": [ -0.28, -0.14 ],
           "kinres": [ -0.24, -0.12 ],
