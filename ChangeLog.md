@@ -9,6 +9,8 @@
   * Add module names for blueprints
   * Fix erroneous value for grade 5 kinetic shield booster
   * Add missing integrity values for some modules
+  * Update rail gun hardness values for 2.3
+  * Update module reinforcement package integrity
 
 #2.2.19
   * Remove shot speed modification - it is directly tied to range

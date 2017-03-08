@@ -8269,7 +8269,7 @@ module.exports = {
         class: 1,
         clip: 1,
         cost: 51600,
-        damage: 23.3,
+        damage: 23.25,
         damagedist: {
           K: .5,
           T: .5
@@ -8283,13 +8283,13 @@ module.exports = {
         integrity: 40,
         mass: 2,
         mount: "F",
-        piercing: 80,
+        piercing: 200,
         power: 1.15,
         range: 3e3,
         rating: "D",
         reload: 1,
         rof: 1.6,
-        thermload: 17.8
+        thermload: 12
       }, {
         ammo: 80,
         breachdmg: 39.5,
@@ -8312,13 +8312,13 @@ module.exports = {
         integrity: 51,
         mass: 4,
         mount: "F",
-        piercing: 125,
+        piercing: 200,
         power: 1.63,
         range: 3e3,
         rating: "B",
         reload: 1,
         rof: 1.2,
-        thermload: 30
+        thermload: 20
       }, {
         ammo: 90,
         breachdmg: 14.3,
@@ -8344,14 +8344,14 @@ module.exports = {
         mass: 4,
         mount: "F",
         name: "Imperial Hammer",
-        piercing: 125,
+        piercing: 200,
         power: 1.63,
         pp: "Arissa Lavigny-Duval",
         range: 3e3,
         rating: "B",
         reload: 1,
         rof: 4.1,
-        thermload: 16
+        thermload: 12
       } ],
       pa: [ {
         ammo: 100,
@@ -11753,7 +11753,7 @@ module.exports = {
         edID: 128737270,
         grp: "mrp",
         id: "m0",
-        integrity: 70,
+        integrity: 77,
         mass: 2,
         protection: .3,
         rating: "E"
@@ -11764,7 +11764,7 @@ module.exports = {
         edID: 128737271,
         grp: "mrp",
         id: "m1",
-        integrity: 30,
+        integrity: 70,
         mass: 1,
         protection: .6,
         rating: "D"
@@ -11775,7 +11775,7 @@ module.exports = {
         edID: 128737272,
         grp: "mrp",
         id: "m2",
-        integrity: 105,
+        integrity: 115,
         mass: 4,
         protection: .3,
         rating: "E"
@@ -11786,7 +11786,7 @@ module.exports = {
         edID: 128737273,
         grp: "mrp",
         id: "m3",
-        integrity: 45,
+        integrity: 105,
         mass: 2,
         protection: .6,
         rating: "D"
@@ -11797,7 +11797,7 @@ module.exports = {
         edID: 128737274,
         grp: "mrp",
         id: "m4",
-        integrity: 155,
+        integrity: 170,
         mass: 8,
         protection: .3,
         rating: "E"
@@ -11808,7 +11808,7 @@ module.exports = {
         edID: 128737275,
         grp: "mrp",
         id: "m5",
-        integrity: 65,
+        integrity: 155,
         mass: 4,
         protection: .6,
         rating: "D"
@@ -11819,7 +11819,7 @@ module.exports = {
         edID: 128737276,
         grp: "mrp",
         id: "m6",
-        integrity: 235,
+        integrity: 260,
         mass: 16,
         protection: .3,
         rating: "E"
@@ -11830,7 +11830,7 @@ module.exports = {
         edID: 128737277,
         grp: "mrp",
         id: "m7",
-        integrity: 95,
+        integrity: 235,
         mass: 8,
         protection: .6,
         rating: "D"
@@ -11841,7 +11841,7 @@ module.exports = {
         edID: 128737278,
         grp: "mrp",
         id: "m8",
-        integrity: 350,
+        integrity: 385,
         mass: 32,
         protection: .3,
         rating: "E"
@@ -11852,7 +11852,7 @@ module.exports = {
         edID: 128737279,
         grp: "mrp",
         id: "m9",
-        integrity: 145,
+        integrity: 350,
         mass: 16,
         protection: .6,
         rating: "D"
