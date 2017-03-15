@@ -32,12 +32,12 @@
     "slots": {
       "standard": [4, 4, 4, 3, 4, 4, 4],
       "hardpoints": [2, 2, 1, 1, 0, 0],
-      "internal": [4, 4, 3, 3, 2]
+      "internal": [5, 4, 3, 3, 2, 2]
     },
     "defaults": {
       "standard": ["4E", "4E", "4E", "3E", "4E", "4E", "4C"],
       "hardpoints": [0, 0, 17, 17, 0, 0],
-      "internal": ["02", "02", "44", 0, 0]
+      "internal": ["02", "02", "44", 0, 0, 0]
     }
   }
 }

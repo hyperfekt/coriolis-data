@@ -11,6 +11,10 @@
   * Add missing integrity values for some modules
   * Update rail gun hardness values for 2.3
   * Update module reinforcement package integrity
+  * Update specs of Beluga as per 2.3
+  * Update specs of Asp Scout as per 2.3
+  * Update specs of Diamondback Explorer as per 2.3
+  * Add ED ID for Rocket Propelled FSD Disruptor
 
 #2.2.19
   * Remove shot speed modification - it is directly tied to range

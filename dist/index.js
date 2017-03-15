@@ -361,12 +361,12 @@ module.exports = {
       slots: {
         standard: [ 4, 4, 4, 3, 4, 4, 4 ],
         hardpoints: [ 2, 2, 1, 1, 0, 0 ],
-        internal: [ 4, 4, 3, 3, 2 ]
+        internal: [ 5, 4, 3, 3, 2, 2 ]
       },
       defaults: {
         standard: [ "4E", "4E", "4E", "3E", "4E", "4E", "4C" ],
         hardpoints: [ 0, 0, 17, 17, 0, 0 ],
-        internal: [ "02", "02", "44", 0, 0 ]
+        internal: [ "02", "02", "44", 0, 0, 0 ]
       }
     },
     beluga: {
@@ -383,7 +383,7 @@ module.exports = {
         baseShieldStrength: 280,
         baseArmour: 280,
         hardness: 60,
-        hullMass: 1100,
+        hullMass: 950,
         masslock: 18,
         pipSpeed: .1125,
         luxuryCabins: true,
@@ -699,7 +699,7 @@ module.exports = {
         baseShieldStrength: 150,
         baseArmour: 150,
         hardness: 42,
-        hullMass: 298,
+        hullMass: 260,
         masslock: 10,
         pipSpeed: .09625,
         pitch: 35,
@@ -767,12 +767,12 @@ module.exports = {
       slots: {
         standard: [ 4, 4, 5, 3, 4, 3, 5 ],
         hardpoints: [ 3, 2, 2, 0, 0, 0, 0 ],
-        internal: [ 4, 4, 3, 3, 2 ]
+        internal: [ 4, 4, 3, 3, 2, 2 ]
       },
       defaults: {
         standard: [ "4E", "4E", "5E", "3E", "4E", "3E", "5C" ],
         hardpoints: [ 0, 17, 17, 0, 0, 0, 0 ],
-        internal: [ "49", "02", "01", 0, "2h" ]
+        internal: [ "49", "02", "01", 0, "2h", 0 ]
       }
     },
     diamondback: {
@@ -8611,6 +8611,7 @@ module.exports = {
         distdraw: .24,
         eddbID: 1559,
         grp: "mr",
+        edID: 128732552,
         id: "1z",
         integrity: 51,
         mass: 4,
