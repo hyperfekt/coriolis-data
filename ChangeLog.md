@@ -15,6 +15,7 @@
   * Update specs of Asp Scout as per 2.3
   * Update specs of Diamondback Explorer as per 2.3
   * Add ED ID for Rocket Propelled FSD Disruptor
+  * Fix ED name for target lock breaker special
 
 #2.2.19
   * Remove shot speed modification - it is directly tied to range

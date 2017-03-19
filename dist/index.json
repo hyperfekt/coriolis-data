@@ -29808,7 +29808,7 @@
 					"special_dispersal_field",
 					"special_phasing_sequence",
 					"special_plasma_slug",
-					"special_target_lock_breaker",
+					"special_lock_breaker",
 					"special_thermal_conduit"
 				]
 			},
@@ -30722,9 +30722,9 @@
 				"edname": "special_super_penetrator",
 				"name": "Super penetrator"
 			},
-			"special_target_lock_breaker": {
+			"special_lock_breaker": {
 				"id": 27,
-				"edname": "special_target_lock_breaker",
+				"edname": "special_lock_breaker",
 				"name": "Target lock breaker"
 			},
 			"special_thermal_cascade": {

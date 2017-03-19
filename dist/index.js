@@ -21665,7 +21665,7 @@ module.exports = {
           Weapon_Sturdy: [ 1, 2, 3, 4, 5 ]
         },
         modifications: [ "ammo", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "thermload" ],
-        specials: [ "special_blinding_shell", "special_dispersal_field", "special_phasing_sequence", "special_plasma_slug", "special_target_lock_breaker", "special_thermal_conduit" ]
+        specials: [ "special_blinding_shell", "special_dispersal_field", "special_phasing_sequence", "special_plasma_slug", "special_lock_breaker", "special_thermal_conduit" ]
       },
       pas: {
         blueprints: {},
@@ -21996,9 +21996,9 @@ module.exports = {
         edname: "special_super_penetrator",
         name: "Super penetrator"
       },
-      special_target_lock_breaker: {
+      special_lock_breaker: {
         id: 27,
-        edname: "special_target_lock_breaker",
+        edname: "special_lock_breaker",
         name: "Target lock breaker"
       },
       special_thermal_cascade: {
