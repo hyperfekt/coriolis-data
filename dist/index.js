@@ -20900,7 +20900,8 @@ module.exports = {
         id: 41,
         name: "burstrof",
         type: "numeric",
-        method: "overwrite"
+        method: "overwrite",
+        higherbetter: false
       },
       clip: {
         id: 4,
