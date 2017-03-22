@@ -157,11 +157,10 @@
       "Sensor_CargoScanner_WideAngle": [1, 2, 3, 4, 5]
     },
     "modifications": [
-      "boot",
       "integrity",
       "mass",
       "power",
-      "scanangle",
+      "angle",
       "range",
       "scantime"
     ]
@@ -339,11 +338,10 @@
       "Sensor_KillWarrantScanner_WideAngle": [1, 2, 3, 4, 5]
     },
     "modifications": [
-      "boot",
       "integrity",
       "mass",
       "power",
-      "scanangle",
+      "angle",
       "range",
       "scantime"
     ]
@@ -714,8 +712,8 @@
       "integrity",
       "mass",
       "power",
-      "scanrange",
-      "scanangle"
+      "range",
+      "angle"
     ]
   },
   "sb": {
@@ -790,8 +788,8 @@
     "modifications": [
       "mass",
       "power",
-      "scanangle",
-      "scanrange",
+      "angle",
+      "range",
       "scantime"
     ]
   },
@@ -881,11 +879,10 @@
       "Sensor_WakeScanner_WideAngle": [1, 2, 3, 4, 5]
     },
     "modifications": [
-      "boot",
       "integrity",
       "mass",
       "power",
-      "scanangle",
+      "angle",
       "range",
       "scantime"
     ]
