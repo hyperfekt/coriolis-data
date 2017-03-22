@@ -8008,14 +8008,14 @@ module.exports = {
         grp: "fc",
         id: "20",
         integrity: 40,
-        jitter: .5,
+        jitter: 5,
         mass: 2,
         mount: "F",
         piercing: 20,
         power: .45,
         range: 2e3,
         rating: "E",
-        reload: 2.5,
+        reload: 5,
         rof: 5.555,
         roundspershot: 12,
         shotspeed: 667,
@@ -8039,14 +8039,14 @@ module.exports = {
         grp: "fc",
         id: "21",
         integrity: 40,
-        jitter: .5,
+        jitter: 5,
         mass: 2,
         mount: "G",
         piercing: 20,
         power: .59,
         range: 2e3,
         rating: "E",
-        reload: 2.5,
+        reload: 5,
         rof: 5.88,
         roundspershot: 12,
         shotspeed: 667,
@@ -8070,14 +8070,14 @@ module.exports = {
         grp: "fc",
         id: "22",
         integrity: 40,
-        jitter: .5,
+        jitter: 5,
         mass: 2,
         mount: "T",
         piercing: 20,
         power: .42,
         range: 2e3,
         rating: "E",
-        reload: 2.5,
+        reload: 5,
         rof: 4.76,
         roundspershot: 12,
         shotspeed: 667,
@@ -8090,7 +8090,7 @@ module.exports = {
         class: 2,
         clip: 3,
         cost: 291840,
-        damage: 2.56,
+        damage: 3,
         damagedist: {
           K: 1
         },
@@ -8101,15 +8101,15 @@ module.exports = {
         grp: "fc",
         id: "1s",
         integrity: 80,
-        jitter: .5,
+        jitter: 5,
         mass: 4,
         mount: "F",
         piercing: 30,
         power: .74,
         range: 2e3,
         rating: "A",
-        reload: 2.5,
-        rof: 5,
+        reload: 5,
+        rof: 4.975,
         roundspershot: 12,
         shotspeed: 667,
         thermload: .7
@@ -8121,7 +8121,7 @@ module.exports = {
         class: 2,
         clip: 3,
         cost: 437800,
-        damage: 1.95,
+        damage: 2.275,
         damagedist: {
           K: 1
         },
@@ -8132,14 +8132,14 @@ module.exports = {
         grp: "fc",
         id: "7e",
         integrity: 80,
-        jitter: .5,
+        jitter: 5,
         mass: 4,
         mount: "G",
         piercing: 30,
         power: 1.03,
         range: 2e3,
         rating: "D",
-        reload: 2.5,
+        reload: 5,
         rof: 5.26,
         roundspershot: 12,
         shotspeed: 667,
@@ -8152,7 +8152,7 @@ module.exports = {
         class: 2,
         clip: 3,
         cost: 1459200,
-        damage: 1.43,
+        damage: 1.7,
         damagedist: {
           K: 1
         },
@@ -8163,15 +8163,15 @@ module.exports = {
         grp: "fc",
         id: "7f",
         integrity: 80,
-        jitter: .5,
+        jitter: 5,
         mass: 4,
         mount: "T",
         piercing: 30,
         power: .79,
         range: 2e3,
         rating: "D",
-        reload: 2.5,
-        rof: 4.345,
+        reload: 5,
+        rof: 4.26,
         roundspershot: 12,
         shotspeed: 667,
         thermload: .4
@@ -8183,7 +8183,7 @@ module.exports = {
         class: 3,
         clip: 3,
         cost: 1167360,
-        damage: 3.92,
+        damage: 4.57,
         damagedist: {
           K: 1
         },
@@ -8194,14 +8194,14 @@ module.exports = {
         grp: "fc",
         id: "1t",
         integrity: 80,
-        jitter: .5,
+        jitter: 5,
         mass: 8,
         mount: "F",
         piercing: 60,
         power: 1.02,
         range: 2e3,
         rating: "C",
-        reload: 2.5,
+        reload: 5,
         rof: 4.545,
         roundspershot: 12,
         shotspeed: 667,
@@ -8214,7 +8214,7 @@ module.exports = {
         class: 3,
         clip: 3,
         cost: 1751040,
-        damage: 3.23,
+        damage: 3.77,
         damagedist: {
           K: 1
         },
@@ -8225,14 +8225,14 @@ module.exports = {
         grp: "fc",
         id: "1u",
         integrity: 80,
-        jitter: .5,
+        jitter: 5,
         mass: 8,
         mount: "G",
         piercing: 60,
         power: 1.55,
         range: 2e3,
         rating: "C",
-        reload: 2.5,
+        reload: 5,
         rof: 4.76,
         roundspershot: 12,
         shotspeed: 667,
@@ -8245,7 +8245,7 @@ module.exports = {
         class: 3,
         clip: 3,
         cost: 5836800,
-        damage: 2.56,
+        damage: 2.98,
         damagedist: {
           K: 1
         },
@@ -8256,14 +8256,14 @@ module.exports = {
         grp: "fc",
         id: "1v",
         integrity: 80,
-        jitter: .5,
+        jitter: 5,
         mass: 8,
         mount: "T",
         piercing: 60,
         power: 1.29,
         range: 2e3,
         rating: "C",
-        reload: 2.5,
+        reload: 5,
         rof: 4,
         roundspershot: 12,
         shotspeed: 667,
@@ -8295,7 +8295,7 @@ module.exports = {
         power: 1.02,
         pp: "Zachary Hudson",
         rating: "C",
-        reload: 2.5,
+        reload: 5,
         rof: 4.5,
         roundspershot: 12,
         shotspeed: 1e3,
@@ -14397,6 +14397,7 @@ module.exports = {
   Modifications: {
     blueprints: {
       AFM_Shielded: {
+        fdname: "AFM_Shielded",
         grades: {
           "1": {
             components: {
@@ -14445,15 +14446,16 @@ module.exports = {
         name: "Shielded"
       },
       Armour_Advanced: {
+        fdname: "Armour_Advanced",
         grades: {
           "1": {
             components: {
               Iron: 1
             },
             features: {
-              explres: [ 0, .028 ],
+              explres: [ 0, .02 ],
               hullboost: [ -.01, 0 ],
-              kinres: [ 0, .024 ],
+              kinres: [ 0, .02 ],
               mass: [ -.04, -.15 ],
               thermres: [ 0, .02 ]
             }
@@ -14464,9 +14466,9 @@ module.exports = {
               Iron: 1
             },
             features: {
-              explres: [ .014, .056 ],
-              hullboost: [ -.03, -.02 ],
-              kinres: [ .012, .048 ],
+              explres: [ .01, .04 ],
+              hullboost: [ -.02, -.01 ],
+              kinres: [ .01, .04 ],
               mass: [ -.08, -.25 ],
               thermres: [ .01, .04 ]
             }
@@ -14478,9 +14480,9 @@ module.exports = {
               Iron: 1
             },
             features: {
-              explres: [ .028, .084 ],
-              hullboost: [ -.05, -.03 ],
-              kinres: [ .024, .072 ],
+              explres: [ .02, .06 ],
+              hullboost: [ -.03, -.02 ],
+              kinres: [ .02, .06 ],
               mass: [ -.12, -.35 ],
               thermres: [ .02, .06 ]
             }
@@ -14492,9 +14494,9 @@ module.exports = {
               "Proprietary Composites": 1
             },
             features: {
-              explres: [ .042, .112 ],
-              hullboost: [ -.06, -.05 ],
-              kinres: [ .036, .096 ],
+              explres: [ .03, .08 ],
+              hullboost: [ -.04, -.03 ],
+              kinres: [ .03, .08 ],
               mass: [ -.16, -.45 ],
               thermres: [ .03, .08 ]
             }
@@ -14506,9 +14508,9 @@ module.exports = {
               Tin: 1
             },
             features: {
-              explres: [ .056, .14 ],
-              hullboost: [ -.07, -.06 ],
-              kinres: [ .048, .12 ],
+              explres: [ .04, .1 ],
+              hullboost: [ -.05, -.04 ],
+              kinres: [ .04, .1 ],
               mass: [ -.2, -.55 ],
               thermres: [ .04, .1 ]
             }
@@ -14519,14 +14521,15 @@ module.exports = {
         name: "Lightweight"
       },
       Armour_Explosive: {
+        fdname: "Armour_Explosive",
         grades: {
           "1": {
             components: {
               Nickel: 1
             },
             features: {
-              explres: [ .07, .112 ],
-              kinres: [ -.048, -.024 ],
+              explres: [ .05, .08 ],
+              kinres: [ -.04, -.02 ],
               thermres: [ -.04, -.02 ]
             }
           },
@@ -14536,8 +14539,8 @@ module.exports = {
               Zinc: 1
             },
             features: {
-              explres: [ .14, .224 ],
-              kinres: [ -.096, -.048 ],
+              explres: [ .1, .16 ],
+              kinres: [ -.08, -.04 ],
               thermres: [ -.08, -.04 ]
             }
           },
@@ -14547,8 +14550,8 @@ module.exports = {
               Vanadium: 1
             },
             features: {
-              explres: [ .21, .336 ],
-              kinres: [ -.144, -.072 ],
+              explres: [ .15, .24 ],
+              kinres: [ -.12, -.06 ],
               thermres: [ -.12, -.06 ]
             }
           },
@@ -14559,8 +14562,8 @@ module.exports = {
               Tungsten: 1
             },
             features: {
-              explres: [ .28, .448 ],
-              kinres: [ -.192, -.096 ],
+              explres: [ .2, .32 ],
+              kinres: [ -.16, -.08 ],
               thermres: [ -.16, -.08 ]
             }
           },
@@ -14571,8 +14574,8 @@ module.exports = {
               Ruthenium: 1
             },
             features: {
-              explres: [ .35, .56 ],
-              kinres: [ -.24, -.12 ],
+              explres: [ .25, .4 ],
+              kinres: [ -.2, -.1 ],
               thermres: [ -.2, -.1 ]
             }
           }
@@ -14582,15 +14585,16 @@ module.exports = {
         name: "Blast resistant"
       },
       Armour_HeavyDuty: {
+        fdname: "Armour_HeavyDuty",
         grades: {
           "1": {
             components: {
               Carbon: 1
             },
             features: {
-              explres: [ 0, .014 ],
-              hullboost: [ .05, .14 ],
-              kinres: [ 0, .012 ],
+              explres: [ 0, .01 ],
+              hullboost: [ .04, .1 ],
+              kinres: [ 0, .01 ],
               mass: [ .08, 0 ],
               thermres: [ 0, .01 ]
             }
@@ -14601,10 +14605,10 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              explres: [ .014, .028 ],
-              hullboost: [ .11, .21 ],
-              kinres: [ .012, .024 ],
-              mass: [ .17, .04 ],
+              explres: [ .01, .02 ],
+              hullboost: [ .08, .15 ],
+              kinres: [ .01, .02 ],
+              mass: [ .16, .05 ],
               thermres: [ .01, .02 ]
             }
           },
@@ -14615,10 +14619,10 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              explres: [ .028, .042 ],
-              hullboost: [ .17, .28 ],
-              kinres: [ .024, .036 ],
-              mass: [ .25, .1 ],
+              explres: [ .02, .03 ],
+              hullboost: [ .12, .2 ],
+              kinres: [ .02, .03 ],
+              mass: [ .24, .1 ],
               thermres: [ .02, .03 ]
             }
           },
@@ -14629,9 +14633,9 @@ module.exports = {
               Vanadium: 1
             },
             features: {
-              explres: [ .042, .056 ],
-              hullboost: [ .22, .35 ],
-              kinres: [ .036, .048 ],
+              explres: [ .03, .04 ],
+              hullboost: [ .16, .25 ],
+              kinres: [ .03, .04 ],
               mass: [ .32, .15 ],
               thermres: [ .03, .04 ]
             }
@@ -14643,9 +14647,9 @@ module.exports = {
               Tungsten: 1
             },
             features: {
-              explres: [ .056, .07 ],
-              hullboost: [ .28, .41 ],
-              kinres: [ .048, .06 ],
+              explres: [ .04, .05 ],
+              hullboost: [ .2, .3 ],
+              kinres: [ .04, .05 ],
               mass: [ .4, .2 ],
               thermres: [ .04, .05 ]
             }
@@ -14656,14 +14660,15 @@ module.exports = {
         name: "Heavy duty"
       },
       Armour_Kinetic: {
+        fdname: "Armour_Kinetic",
         grades: {
           "1": {
             components: {
               Nickel: 1
             },
             features: {
-              explres: [ -.056, -.028 ],
-              kinres: [ .06, .096 ],
+              explres: [ -.04, -.02 ],
+              kinres: [ .05, .08 ],
               thermres: [ -.04, -.02 ]
             }
           },
@@ -14673,8 +14678,8 @@ module.exports = {
               Vanadium: 1
             },
             features: {
-              explres: [ -.112, -.056 ],
-              kinres: [ .12, .192 ],
+              explres: [ -.08, -.04 ],
+              kinres: [ .1, .16 ],
               thermres: [ -.08, -.04 ]
             }
           },
@@ -14685,8 +14690,8 @@ module.exports = {
               Vanadium: 1
             },
             features: {
-              explres: [ -.168, -.084 ],
-              kinres: [ .18, .288 ],
+              explres: [ -.12, -.06 ],
+              kinres: [ .15, .24 ],
               thermres: [ -.12, -.06 ]
             }
           },
@@ -14697,8 +14702,8 @@ module.exports = {
               Tungsten: 1
             },
             features: {
-              explres: [ -.224, -.112 ],
-              kinres: [ .24, .384 ],
+              explres: [ -.16, -.08 ],
+              kinres: [ .2, .32 ],
               thermres: [ -.16, -.08 ]
             }
           },
@@ -14709,8 +14714,8 @@ module.exports = {
               "Phase Alloys": 1
             },
             features: {
-              explres: [ -.28, -.14 ],
-              kinres: [ .3, .48 ],
+              explres: [ -.2, -.1 ],
+              kinres: [ .25, .4 ],
               thermres: [ -.2, -.1 ]
             }
           }
@@ -14720,14 +14725,15 @@ module.exports = {
         name: "Kinetic resistant"
       },
       Armour_Thermic: {
+        fdname: "Armour_Thermic",
         grades: {
           "1": {
             components: {
               "Heat Conduction Wiring": 1
             },
             features: {
-              explres: [ -.056, -.028 ],
-              kinres: [ -.048, -.024 ],
+              explres: [ -.04, -.02 ],
+              kinres: [ -.04, -.02 ],
               thermres: [ .05, .08 ]
             }
           },
@@ -14737,8 +14743,8 @@ module.exports = {
               Nickel: 1
             },
             features: {
-              explres: [ -.112, -.056 ],
-              kinres: [ -.066, -.048 ],
+              explres: [ -.08, -.04 ],
+              kinres: [ -.08, -.04 ],
               thermres: [ .1, .16 ]
             }
           },
@@ -14749,8 +14755,8 @@ module.exports = {
               Vanadium: 1
             },
             features: {
-              explres: [ -.168, -.084 ],
-              kinres: [ -.144, -.072 ],
+              explres: [ -.12, -.06 ],
+              kinres: [ -.12, -.06 ],
               thermres: [ .15, .24 ]
             }
           },
@@ -14761,8 +14767,8 @@ module.exports = {
               Tungsten: 1
             },
             features: {
-              explres: [ -.224, -.112 ],
-              kinres: [ -.192, -.096 ],
+              explres: [ -.16, -.08 ],
+              kinres: [ -.16, -.08 ],
               thermres: [ .2, .32 ]
             }
           },
@@ -14773,8 +14779,8 @@ module.exports = {
               "Proto Heat Radiators": 1
             },
             features: {
-              explres: [ -.28, -.14 ],
-              kinres: [ -.24, -.12 ],
+              explres: [ -.2, -.12 ],
+              kinres: [ -.2, -.12 ],
               thermres: [ .25, .4 ]
             }
           }
@@ -14784,6 +14790,7 @@ module.exports = {
         name: "Thermal resistant"
       },
       CargoScanner_LightWeight: {
+        fdname: "CargoScanner_LightWeight",
         grades: {
           "1": {
             components: {
@@ -14843,6 +14850,7 @@ module.exports = {
         name: "Lightweight"
       },
       CargoScanner_Reinforced: {
+        fdname: "CargoScanner_Reinforced",
         grades: {
           "1": {
             components: {
@@ -14902,6 +14910,7 @@ module.exports = {
         name: "Reinforced"
       },
       CargoScanner_Shielded: {
+        fdname: "CargoScanner_Shielded",
         grades: {
           "1": {
             components: {
@@ -14961,6 +14970,7 @@ module.exports = {
         name: "Shielded"
       },
       ChaffLauncher_ChaffCapacity: {
+        fdname: "ChaffLauncher_ChaffCapacity",
         grades: {
           "3": {
             components: {
@@ -14980,6 +14990,7 @@ module.exports = {
         name: "Ammo capacity"
       },
       ChaffLauncher_LightWeight: {
+        fdname: "ChaffLauncher_LightWeight",
         grades: {
           "1": {
             components: {
@@ -15039,6 +15050,7 @@ module.exports = {
         name: "Lightweight"
       },
       ChaffLauncher_Reinforced: {
+        fdname: "ChaffLauncher_Reinforced",
         grades: {
           "1": {
             components: {
@@ -15098,6 +15110,7 @@ module.exports = {
         name: "Reinforced"
       },
       ChaffLauncher_Shielded: {
+        fdname: "ChaffLauncher_Shielded",
         grades: {
           "1": {
             components: {
@@ -15157,6 +15170,7 @@ module.exports = {
         name: "Shielded"
       },
       CollectionLimpet_LightWeight: {
+        fdname: "CollectionLimpet_LightWeight",
         grades: {
           "1": {
             components: {
@@ -15216,6 +15230,7 @@ module.exports = {
         name: "Lightweight"
       },
       CollectionLimpet_Reinforced: {
+        fdname: "CollectionLimpet_Reinforced",
         grades: {
           "1": {
             components: {
@@ -15275,6 +15290,7 @@ module.exports = {
         name: "Reinforced"
       },
       CollectionLimpet_Shielded: {
+        fdname: "CollectionLimpet_Shielded",
         grades: {
           "1": {
             components: {
@@ -15334,6 +15350,7 @@ module.exports = {
         name: "Shielded"
       },
       ECM_LightWeight: {
+        fdname: "ECM_LightWeight",
         grades: {
           "1": {
             components: {
@@ -15393,6 +15410,7 @@ module.exports = {
         name: "Lightweight"
       },
       ECM_Reinforced: {
+        fdname: "ECM_Reinforced",
         grades: {
           "1": {
             components: {
@@ -15452,6 +15470,7 @@ module.exports = {
         name: "Reinforced"
       },
       ECM_Shielded: {
+        fdname: "ECM_Shielded",
         grades: {
           "1": {
             components: {
@@ -15511,6 +15530,7 @@ module.exports = {
         name: "Shielded"
       },
       Engine_Dirty: {
+        fdname: "Engine_Dirty",
         grades: {
           "1": {
             components: {
@@ -15585,6 +15605,7 @@ module.exports = {
         name: "Dirty"
       },
       Engine_Reinforced: {
+        fdname: "Engine_Reinforced",
         grades: {
           "1": {
             components: {
@@ -15654,6 +15675,7 @@ module.exports = {
         name: "Reinforced"
       },
       Engine_Tuned: {
+        fdname: "Engine_Tuned",
         grades: {
           "1": {
             components: {
@@ -15728,6 +15750,7 @@ module.exports = {
         name: "Clean"
       },
       FSD_FastBoot: {
+        fdname: "FSD_FastBoot",
         grades: {
           "1": {
             components: {
@@ -15797,6 +15820,7 @@ module.exports = {
         name: "Faster boot sequence"
       },
       FSD_LongRange: {
+        fdname: "FSD_LongRange",
         grades: {
           "1": {
             components: {
@@ -15866,6 +15890,7 @@ module.exports = {
         name: "Increased range"
       },
       FSD_Shielded: {
+        fdname: "FSD_Shielded",
         grades: {
           "1": {
             components: {
@@ -15935,6 +15960,7 @@ module.exports = {
         name: "Shielded"
       },
       FSDinterdictor_Expanded: {
+        fdname: "FSDinterdictor_Expanded",
         grades: {
           "1": {
             components: {
@@ -15987,6 +16013,7 @@ module.exports = {
         name: "Expanded capture arc"
       },
       FSDinterdictor_LongRange: {
+        fdname: "FSDinterdictor_LongRange",
         grades: {
           "1": {
             components: {
@@ -16030,6 +16057,7 @@ module.exports = {
         name: "Long range"
       },
       FuelScoop_Shielded: {
+        fdname: "FuelScoop_Shielded",
         grades: {
           "1": {
             components: {
@@ -16078,6 +16106,7 @@ module.exports = {
         name: "Shielded"
       },
       FuelTransferLimpet_LightWeight: {
+        fdname: "FuelTransferLimpet_LightWeight",
         grades: {
           "1": {
             components: {
@@ -16137,6 +16166,7 @@ module.exports = {
         name: "Lightweight"
       },
       FuelTransferLimpet_Reinforced: {
+        fdname: "FuelTransferLimpet_Reinforced",
         grades: {
           "1": {
             components: {
@@ -16196,6 +16226,7 @@ module.exports = {
         name: "Reinforced"
       },
       FuelTransferLimpet_Shielded: {
+        fdname: "FuelTransferLimpet_Shielded",
         grades: {
           "1": {
             components: {
@@ -16255,6 +16286,7 @@ module.exports = {
         name: "Shielded"
       },
       HatchBreakerLimpet_LightWeight: {
+        fdname: "HatchBreakerLimpet_LightWeight",
         grades: {
           "1": {
             components: {
@@ -16314,6 +16346,7 @@ module.exports = {
         name: "Lightweight"
       },
       HatchBreakerLimpet_Reinforced: {
+        fdname: "HatchBreakerLimpet_Reinforced",
         grades: {
           "1": {
             components: {
@@ -16373,6 +16406,7 @@ module.exports = {
         name: "Reinforced"
       },
       HatchBreakerLimpet_Shielded: {
+        fdname: "HatchBreakerLimpet_Shielded",
         grades: {
           "1": {
             components: {
@@ -16432,6 +16466,7 @@ module.exports = {
         name: "Shielded"
       },
       HeatSinkLauncher_HeatSinkCapacity: {
+        fdname: "HeatSinkLauncher_HeatSinkCapacity",
         grades: {
           "3": {
             components: {
@@ -16451,6 +16486,7 @@ module.exports = {
         name: "Ammo capacity"
       },
       HeatSinkLauncher_LightWeight: {
+        fdname: "HeatSinkLauncher_LightWeight",
         grades: {
           "1": {
             components: {
@@ -16510,6 +16546,7 @@ module.exports = {
         name: "Lightweight"
       },
       HeatSinkLauncher_Reinforced: {
+        fdname: "HeatSinkLauncher_Reinforced",
         grades: {
           "1": {
             components: {
@@ -16569,6 +16606,7 @@ module.exports = {
         name: "Reinforced"
       },
       HeatSinkLauncher_Shielded: {
+        fdname: "HeatSinkLauncher_Shielded",
         grades: {
           "1": {
             components: {
@@ -16628,6 +16666,7 @@ module.exports = {
         name: "Shielded"
       },
       HullReinforcement_Advanced: {
+        fdname: "HullReinforcement_Advanced",
         grades: {
           "1": {
             components: {
@@ -16659,7 +16698,7 @@ module.exports = {
             features: {
               hullboost: [ .06, .12 ],
               hullreinforcement: [ -.15, -.1 ],
-              mass: [ 0, -.1 ]
+              mass: [ 0, -.09 ]
             }
           },
           "4": {
@@ -16692,15 +16731,16 @@ module.exports = {
         name: "Lightweight"
       },
       HullReinforcement_Explosive: {
+        fdname: "HullReinforcement_Explosive",
         grades: {
           "1": {
             components: {
               Nickel: 1
             },
             features: {
-              explres: [ .0487, .078 ],
-              kinres: [ -.0293, -.0195 ],
-              thermres: [ -.0293, -.0195 ]
+              explres: [ .05, .08 ],
+              kinres: [ -.03, -.02 ],
+              thermres: [ -.03, -.02 ]
             }
           },
           "2": {
@@ -16709,9 +16749,9 @@ module.exports = {
               Zinc: 1
             },
             features: {
-              explres: [ .0975, .156 ],
-              kinres: [ -.0585, -.039 ],
-              thermres: [ -.0484, -.039 ]
+              explres: [ .1, .16 ],
+              kinres: [ -.06, -.04 ],
+              thermres: [ -.06, -.04 ]
             }
           },
           "3": {
@@ -16721,9 +16761,9 @@ module.exports = {
               Zirconium: 1
             },
             features: {
-              explres: [ .1463, .234 ],
-              kinres: [ -.0878, -.0585 ],
-              thermres: [ -.0878, -.0585 ]
+              explres: [ .15, .24 ],
+              kinres: [ -.09, -.06 ],
+              thermres: [ -.09, -.06 ]
             }
           },
           "4": {
@@ -16733,9 +16773,9 @@ module.exports = {
               Tungsten: 1
             },
             features: {
-              explres: [ .195, .312 ],
-              kinres: [ -.117, -.078 ],
-              thermres: [ -.117, -.078 ]
+              explres: [ .2, .32 ],
+              kinres: [ -.12, -.08 ],
+              thermres: [ -.12, -.08 ]
             }
           },
           "5": {
@@ -16745,9 +16785,9 @@ module.exports = {
               Ruthenium: 1
             },
             features: {
-              explres: [ .2437, .4 ],
-              kinres: [ -.1463, -.0975 ],
-              thermres: [ -.1463, -.0975 ]
+              explres: [ .24, .4 ],
+              kinres: [ -.15, -.1 ],
+              thermres: [ -.15, -.1 ]
             }
           }
         },
@@ -16756,17 +16796,18 @@ module.exports = {
         name: "Blast resistant"
       },
       HullReinforcement_HeavyDuty: {
+        fdname: "HullReinforcement_HeavyDuty",
         grades: {
           "1": {
             components: {
               Carbon: 1
             },
             features: {
-              explres: [ 0, .0292 ],
-              hullreinforcement: [ .04, .2 ],
-              kinres: [ 0, .0292 ],
+              explres: [ 0, .03 ],
+              hullreinforcement: [ .05, .2 ],
+              kinres: [ 0, .03 ],
               mass: [ .08, 0 ],
-              thermres: [ 0, .0292 ]
+              thermres: [ 0, .03 ]
             }
           },
           "2": {
@@ -16775,11 +16816,11 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              explres: [ .098, .0585 ],
+              explres: [ .01, .06 ],
               hullreinforcement: [ .1, .3 ],
-              kinres: [ .098, .0585 ],
-              mass: [ .15, .04 ],
-              thermres: [ .098, .0585 ]
+              kinres: [ .01, .06 ],
+              mass: [ .16, .05 ],
+              thermres: [ .01, .06 ]
             }
           },
           "3": {
@@ -16789,11 +16830,11 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              explres: [ .0195, .0878 ],
-              hullreinforcement: [ .14, .4 ],
-              kinres: [ .0195, .0878 ],
-              mass: [ .23, .1 ],
-              thermres: [ .0195, .0878 ]
+              explres: [ .02, .09 ],
+              hullreinforcement: [ .15, .4 ],
+              kinres: [ .02, .09 ],
+              mass: [ .24, .1 ],
+              thermres: [ .02, .09 ]
             }
           },
           "4": {
@@ -16803,11 +16844,11 @@ module.exports = {
               Vanadium: 1
             },
             features: {
-              explres: [ .0292, .117 ],
+              explres: [ .03, .12 ],
               hullreinforcement: [ .2, .5 ],
-              kinres: [ .0292, .117 ],
-              mass: [ .3, .14 ],
-              thermres: [ .0292, .117 ]
+              kinres: [ .03, .12 ],
+              mass: [ .32, .15 ],
+              thermres: [ .03, .12 ]
             }
           },
           "5": {
@@ -16817,11 +16858,11 @@ module.exports = {
               Tungsten: 1
             },
             features: {
-              explres: [ .039, .1463 ],
+              explres: [ .04, .15 ],
               hullreinforcement: [ .25, .6 ],
-              kinres: [ .039, .1463 ],
+              kinres: [ .04, .15 ],
               mass: [ .4, .2 ],
-              thermres: [ .039, .1463 ]
+              thermres: [ .04, .15 ]
             }
           }
         },
@@ -16830,15 +16871,16 @@ module.exports = {
         name: "Heavy duty"
       },
       HullReinforcement_Kinetic: {
+        fdname: "HullReinforcement_Kinetic",
         grades: {
           "1": {
             components: {
               Nickel: 1
             },
             features: {
-              explres: [ -.0293, -.0195 ],
-              kinres: [ .0487, .078 ],
-              thermres: [ -.0293, -.0195 ]
+              explres: [ -.03, -.02 ],
+              kinres: [ .05, .08 ],
+              thermres: [ -.03, -.02 ]
             }
           },
           "2": {
@@ -16847,9 +16889,9 @@ module.exports = {
               Vanadium: 1
             },
             features: {
-              explres: [ -.0585, -.039 ],
-              kinres: [ .0975, .156 ],
-              thermres: [ -.0585, -.039 ]
+              explres: [ -.06, -.04 ],
+              kinres: [ .1, .16 ],
+              thermres: [ -.06, -.04 ]
             }
           },
           "3": {
@@ -16859,9 +16901,9 @@ module.exports = {
               Vanadium: 1
             },
             features: {
-              explres: [ -.0878, -.0585 ],
-              kinres: [ .1463, .234 ],
-              thermres: [ -.0878, -.0585 ]
+              explres: [ -.09, -.06 ],
+              kinres: [ .15, .24 ],
+              thermres: [ -.09, -.06 ]
             }
           },
           "4": {
@@ -16871,9 +16913,9 @@ module.exports = {
               Tungsten: 1
             },
             features: {
-              explres: [ -.117, -.078 ],
-              kinres: [ .195, .312 ],
-              thermres: [ -.117, -.078 ]
+              explres: [ -.12, -.08 ],
+              kinres: [ .2, .32 ],
+              thermres: [ -.12, -.08 ]
             }
           },
           "5": {
@@ -16883,9 +16925,9 @@ module.exports = {
               "Phase Alloys": 1
             },
             features: {
-              explres: [ -.1463, -.0975 ],
-              kinres: [ .2437, .4 ],
-              thermres: [ -.1463, -.0975 ]
+              explres: [ -.15, -.1 ],
+              kinres: [ .25, .4 ],
+              thermres: [ -.15, -.1 ]
             }
           }
         },
@@ -16894,15 +16936,16 @@ module.exports = {
         name: "Kinetic resistant"
       },
       HullReinforcement_Thermic: {
+        fdname: "HullReinforcement_Thermic",
         grades: {
           "1": {
             components: {
               "Heat Conduction Wiring": 1
             },
             features: {
-              explres: [ -.0293, -.0195 ],
-              kinres: [ -.0293, -.0195 ],
-              thermres: [ .0487, .078 ]
+              explres: [ -.03, -.02 ],
+              kinres: [ -.03, -.02 ],
+              thermres: [ .05, .08 ]
             }
           },
           "2": {
@@ -16911,9 +16954,9 @@ module.exports = {
               Nickel: 1
             },
             features: {
-              explres: [ -.0585, -.039 ],
-              kinres: [ -.0585, -.039 ],
-              thermres: [ .0975, .156 ]
+              explres: [ -.06, -.04 ],
+              kinres: [ -.06, -.04 ],
+              thermres: [ .1, .16 ]
             }
           },
           "3": {
@@ -16923,9 +16966,9 @@ module.exports = {
               Vanadium: 1
             },
             features: {
-              explres: [ -.0878, -.0585 ],
-              kinres: [ -.0878, -.0585 ],
-              thermres: [ .1463, .234 ]
+              explres: [ -.09, -.06 ],
+              kinres: [ -.09, -.06 ],
+              thermres: [ .15, .24 ]
             }
           },
           "4": {
@@ -16935,9 +16978,9 @@ module.exports = {
               Tungsten: 1
             },
             features: {
-              explres: [ -.117, -.078 ],
-              kinres: [ -.117, -.078 ],
-              thermres: [ .195, .312 ]
+              explres: [ -.12, -.08 ],
+              kinres: [ -.12, -.08 ],
+              thermres: [ .2, .32 ]
             }
           },
           "5": {
@@ -16947,9 +16990,9 @@ module.exports = {
               "Proto Heat Radiators": 1
             },
             features: {
-              explres: [ -.1463, -.0975 ],
-              kinres: [ -.1463, -.0975 ],
-              thermres: [ .2437, .4 ]
+              explres: [ -.15, -.1 ],
+              kinres: [ -.15, -.1 ],
+              thermres: [ .25, .4 ]
             }
           }
         },
@@ -16958,6 +17001,7 @@ module.exports = {
         name: "Thermal resistant"
       },
       KillWarrantScanner_LightWeight: {
+        fdname: "KillWarrantScanner_LightWeight",
         grades: {
           "1": {
             components: {
@@ -17017,6 +17061,7 @@ module.exports = {
         name: "Lightweight"
       },
       KillWarrantScanner_LongRange: {
+        fdname: "KillWarrantScanner_LongRange",
         grades: {
           "1": {
             components: {
@@ -17081,6 +17126,7 @@ module.exports = {
         name: "Long range"
       },
       KillWarrantScanner_Reinforced: {
+        fdname: "KillWarrantScanner_Reinforced",
         grades: {
           "1": {
             components: {
@@ -17140,6 +17186,7 @@ module.exports = {
         name: "Reinforced"
       },
       KillWarrantScanner_Shielded: {
+        fdname: "KillWarrantScanner_Shielded",
         grades: {
           "1": {
             components: {
@@ -17199,6 +17246,7 @@ module.exports = {
         name: "Shielded"
       },
       LifeSupport_LightWeight: {
+        fdname: "LifeSupport_LightWeight",
         grades: {
           "1": {
             components: {
@@ -17247,6 +17295,7 @@ module.exports = {
         name: "Lightweight"
       },
       LifeSupport_Reinforced: {
+        fdname: "LifeSupport_Reinforced",
         grades: {
           "1": {
             components: {
@@ -17295,6 +17344,7 @@ module.exports = {
         name: "Reinforced"
       },
       LifeSupport_Shielded: {
+        fdname: "LifeSupport_Shielded",
         grades: {
           "1": {
             components: {
@@ -17343,6 +17393,7 @@ module.exports = {
         name: "Shielded"
       },
       PointDefence_LightWeight: {
+        fdname: "PointDefence_LightWeight",
         grades: {
           "1": {
             components: {
@@ -17402,6 +17453,7 @@ module.exports = {
         name: "Lightweight"
       },
       PointDefence_PointDefenseCapacity: {
+        fdname: "PointDefence_PointDefenseCapacity",
         grades: {
           "3": {
             components: {
@@ -17421,6 +17473,7 @@ module.exports = {
         name: "Ammo capacity"
       },
       PointDefence_Reinforced: {
+        fdname: "PointDefence_Reinforced",
         grades: {
           "1": {
             components: {
@@ -17480,6 +17533,7 @@ module.exports = {
         name: "Reinforced"
       },
       PointDefence_Shielded: {
+        fdname: "PointDefence_Shielded",
         grades: {
           "1": {
             components: {
@@ -17539,6 +17593,7 @@ module.exports = {
         name: "Shielded"
       },
       PowerDistributor_HighCapacity: {
+        fdname: "PowerDistributor_HighCapacity",
         grades: {
           "1": {
             components: {
@@ -17618,6 +17673,7 @@ module.exports = {
         name: "High charge capacity"
       },
       PowerDistributor_HighFrequency: {
+        fdname: "PowerDistributor_HighFrequency",
         grades: {
           "1": {
             components: {
@@ -17697,6 +17753,7 @@ module.exports = {
         name: "Charge enhanced"
       },
       PowerDistributor_PriorityEngines: {
+        fdname: "PowerDistributor_PriorityEngines",
         grades: {
           "1": {
             components: {
@@ -17746,6 +17803,7 @@ module.exports = {
         name: "Engine focused"
       },
       PowerDistributor_PrioritySystems: {
+        fdname: "PowerDistributor_PrioritySystems",
         grades: {
           "1": {
             components: {
@@ -17795,6 +17853,7 @@ module.exports = {
         name: "System focused"
       },
       PowerDistributor_PriorityWeapons: {
+        fdname: "PowerDistributor_PriorityWeapons",
         grades: {
           "1": {
             components: {
@@ -17844,6 +17903,7 @@ module.exports = {
         name: "Weapon focused"
       },
       PowerDistributor_Shielded: {
+        fdname: "PowerDistributor_Shielded",
         grades: {
           "1": {
             components: {
@@ -17903,6 +17963,7 @@ module.exports = {
         name: "Shielded"
       },
       PowerPlant_Armoured: {
+        fdname: "PowerPlant_Armoured",
         grades: {
           "1": {
             components: {
@@ -17967,6 +18028,7 @@ module.exports = {
         name: "Armoured"
       },
       PowerPlant_Boosted: {
+        fdname: "PowerPlant_Boosted",
         grades: {
           "1": {
             components: {
@@ -18031,6 +18093,7 @@ module.exports = {
         name: "Overcharged"
       },
       PowerPlant_Stealth: {
+        fdname: "PowerPlant_Stealth",
         grades: {
           "1": {
             components: {
@@ -18071,6 +18134,7 @@ module.exports = {
         name: "Low emissions"
       },
       ProspectingLimpet_LightWeight: {
+        fdname: "ProspectingLimpet_LightWeight",
         grades: {
           "1": {
             components: {
@@ -18130,6 +18194,7 @@ module.exports = {
         name: "Lightweight"
       },
       ProspectingLimpet_Reinforced: {
+        fdname: "ProspectingLimpet_Reinforced",
         grades: {
           "1": {
             components: {
@@ -18189,6 +18254,7 @@ module.exports = {
         name: "Reinforced"
       },
       ProspectingLimpet_Shielded: {
+        fdname: "ProspectingLimpet_Shielded",
         grades: {
           "1": {
             components: {
@@ -18248,6 +18314,7 @@ module.exports = {
         name: "Shielded"
       },
       Refineries_Shielded: {
+        fdname: "Refineries_Shielded",
         grades: {
           "1": {
             components: {
@@ -18296,6 +18363,7 @@ module.exports = {
         name: "Shielded"
       },
       Sensor_CargoScanner_FastScan: {
+        fdname: "Sensor_CargoScanner_FastScan",
         grades: {
           "1": {
             components: {
@@ -18360,6 +18428,7 @@ module.exports = {
         name: "Fast scan"
       },
       Sensor_CargoScanner_LongRange: {
+        fdname: "Sensor_CargoScanner_LongRange",
         grades: {
           "1": {
             components: {
@@ -18424,6 +18493,7 @@ module.exports = {
         name: "Long range"
       },
       Sensor_CargoScanner_WideAngle: {
+        fdname: "Sensor_CargoScanner_WideAngle",
         grades: {
           "1": {
             components: {
@@ -18488,6 +18558,7 @@ module.exports = {
         name: "Wide angle"
       },
       Sensor_KillWarrantScanner_FastScan: {
+        fdname: "Sensor_KillWarrantScanner_FastScan",
         grades: {
           "1": {
             components: {
@@ -18552,6 +18623,7 @@ module.exports = {
         name: "Fast scan"
       },
       Sensor_KillWarrantScanner_WideAngle: {
+        fdname: "Sensor_KillWarrantScanner_WideAngle",
         grades: {
           "1": {
             components: {
@@ -18616,6 +18688,7 @@ module.exports = {
         name: "Wide angle"
       },
       Sensor_Sensor_LightWeight: {
+        fdname: "Sensor_Sensor_LightWeight",
         grades: {
           "1": {
             components: {
@@ -18680,6 +18753,7 @@ module.exports = {
         name: "Lightweight"
       },
       Sensor_Sensor_LongRange: {
+        fdname: "Sensor_Sensor_LongRange",
         grades: {
           "1": {
             components: {
@@ -18744,6 +18818,7 @@ module.exports = {
         name: "Long range"
       },
       Sensor_Sensor_WideAngle: {
+        fdname: "Sensor_Sensor_WideAngle",
         grades: {
           "1": {
             components: {
@@ -18808,6 +18883,7 @@ module.exports = {
         name: "Wide angle"
       },
       Sensor_SurfaceScanner_FastScan: {
+        fdname: "Sensor_SurfaceScanner_FastScan",
         grades: {
           "1": {
             components: {
@@ -18872,6 +18948,7 @@ module.exports = {
         name: "Fast scan"
       },
       Sensor_SurfaceScanner_LongRange: {
+        fdname: "Sensor_SurfaceScanner_LongRange",
         grades: {
           "1": {
             components: {
@@ -18936,6 +19013,7 @@ module.exports = {
         name: "Long range"
       },
       Sensor_SurfaceScanner_WideAngle: {
+        fdname: "Sensor_SurfaceScanner_WideAngle",
         grades: {
           "1": {
             components: {
@@ -19000,6 +19078,7 @@ module.exports = {
         name: "Wide angle"
       },
       Sensor_WakeScanner_FastScan: {
+        fdname: "Sensor_WakeScanner_FastScan",
         grades: {
           "1": {
             components: {
@@ -19064,6 +19143,7 @@ module.exports = {
         name: "Fast scan"
       },
       Sensor_WakeScanner_LongRange: {
+        fdname: "Sensor_WakeScanner_LongRange",
         grades: {
           "1": {
             components: {
@@ -19128,6 +19208,7 @@ module.exports = {
         name: "Long range"
       },
       Sensor_WakeScanner_WideAngle: {
+        fdname: "Sensor_WakeScanner_WideAngle",
         grades: {
           "1": {
             components: {
@@ -19192,6 +19273,7 @@ module.exports = {
         name: "Wide angle"
       },
       ShieldBooster_Explosive: {
+        fdname: "ShieldBooster_Explosive",
         grades: {
           "1": {
             components: {
@@ -19256,6 +19338,7 @@ module.exports = {
         name: "Blast resistant"
       },
       ShieldBooster_HeavyDuty: {
+        fdname: "ShieldBooster_HeavyDuty",
         grades: {
           "1": {
             components: {
@@ -19325,6 +19408,7 @@ module.exports = {
         name: "Heavy duty"
       },
       ShieldBooster_Kinetic: {
+        fdname: "ShieldBooster_Kinetic",
         grades: {
           "1": {
             components: {
@@ -19389,6 +19473,7 @@ module.exports = {
         name: "Kinetic resistant"
       },
       ShieldBooster_Resistive: {
+        fdname: "ShieldBooster_Resistive",
         grades: {
           "1": {
             components: {
@@ -19463,6 +19548,7 @@ module.exports = {
         name: "Resistance augmented"
       },
       ShieldBooster_Thermic: {
+        fdname: "ShieldBooster_Thermic",
         grades: {
           "1": {
             components: {
@@ -19527,6 +19613,7 @@ module.exports = {
         name: "Thermal resistant"
       },
       ShieldCellBank_Rapid: {
+        fdname: "ShieldCellBank_Rapid",
         grades: {
           "1": {
             components: {
@@ -19570,6 +19657,7 @@ module.exports = {
         name: "Rapid charge"
       },
       ShieldCellBank_Specialised: {
+        fdname: "ShieldCellBank_Specialised",
         grades: {
           "1": {
             components: {
@@ -19613,6 +19701,7 @@ module.exports = {
         name: "Specialised"
       },
       ShieldGenerator_Kinetic: {
+        fdname: "ShieldGenerator_Kinetic",
         grades: {
           "1": {
             components: {
@@ -19677,6 +19766,7 @@ module.exports = {
         name: "Kinetic resistant"
       },
       ShieldGenerator_Optimised: {
+        fdname: "ShieldGenerator_Optimised",
         grades: {
           "1": {
             components: {
@@ -19749,6 +19839,7 @@ module.exports = {
         name: "Enhanced low power"
       },
       ShieldGenerator_Reinforced: {
+        fdname: "ShieldGenerator_Reinforced",
         grades: {
           "1": {
             components: {
@@ -19830,6 +19921,7 @@ module.exports = {
         name: "Reinforced"
       },
       ShieldGenerator_Thermic: {
+        fdname: "ShieldGenerator_Thermic",
         grades: {
           "1": {
             components: {
@@ -19894,6 +19986,7 @@ module.exports = {
         name: "Thermal resistant"
       },
       WakeScanner_LightWeight: {
+        fdname: "WakeScanner_LightWeight",
         grades: {
           "1": {
             components: {
@@ -19953,6 +20046,7 @@ module.exports = {
         name: "Lightweight"
       },
       WakeScanner_Reinforced: {
+        fdname: "WakeScanner_Reinforced",
         grades: {
           "1": {
             components: {
@@ -20012,6 +20106,7 @@ module.exports = {
         name: "Reinforced"
       },
       WakeScanner_Shielded: {
+        fdname: "WakeScanner_Shielded",
         grades: {
           "1": {
             components: {
@@ -20071,6 +20166,7 @@ module.exports = {
         name: "Shielded"
       },
       Weapon_DoubleShot: {
+        fdname: "Weapon_DoubleShot",
         grades: {
           "1": {
             components: {
@@ -20140,6 +20236,7 @@ module.exports = {
         name: "Double shot"
       },
       Weapon_Efficient: {
+        fdname: "Weapon_Efficient",
         grades: {
           "1": {
             components: {
@@ -20206,6 +20303,7 @@ module.exports = {
         name: "Efficient"
       },
       Weapon_Focused: {
+        fdname: "Weapon_Focused",
         grades: {
           "1": {
             components: {
@@ -20274,6 +20372,7 @@ module.exports = {
         name: "Focused"
       },
       Weapon_HighCapacity: {
+        fdname: "Weapon_HighCapacity",
         grades: {
           "1": {
             components: {
@@ -20348,6 +20447,7 @@ module.exports = {
         name: "High capacity"
       },
       Weapon_LightWeight: {
+        fdname: "Weapon_LightWeight",
         grades: {
           "1": {
             components: {
@@ -20417,6 +20517,7 @@ module.exports = {
         name: "Lightweight"
       },
       Weapon_LongRange: {
+        fdname: "Weapon_LongRange",
         grades: {
           "1": {
             components: {
@@ -20485,6 +20586,7 @@ module.exports = {
         name: "Long range"
       },
       Weapon_Overcharged: {
+        fdname: "Weapon_Overcharged",
         grades: {
           "1": {
             components: {
@@ -20556,6 +20658,7 @@ module.exports = {
         name: "Overcharged"
       },
       Weapon_RapidFire: {
+        fdname: "Weapon_RapidFire",
         grades: {
           "1": {
             components: {
@@ -20629,6 +20732,7 @@ module.exports = {
         name: "Rapid fire"
       },
       Weapon_ShortRange: {
+        fdname: "Weapon_ShortRange",
         grades: {
           "1": {
             components: {
@@ -20695,6 +20799,7 @@ module.exports = {
         name: "Short range"
       },
       Weapon_Sturdy: {
+        fdname: "Weapon_Sturdy",
         grades: {
           "1": {
             components: {
@@ -21533,7 +21638,7 @@ module.exports = {
           CargoScanner_Shielded: [ 1, 2, 3, 4, 5 ],
           Sensor_CargoScanner_WideAngle: [ 1, 2, 3, 4, 5 ]
         },
-        modifications: [ "boot", "integrity", "mass", "power", "angle", "range", "scantime" ]
+        modifications: [ "integrity", "mass", "power", "angle", "range", "scantime" ]
       },
       dc: {
         blueprints: {},
@@ -21634,7 +21739,7 @@ module.exports = {
           KillWarrantScanner_Shielded: [ 1, 2, 3, 4, 5 ],
           Sensor_KillWarrantScanner_WideAngle: [ 1, 2, 3, 4, 5 ]
         },
-        modifications: [ "boot", "integrity", "mass", "power", "angle", "range", "scantime" ]
+        modifications: [ "integrity", "mass", "power", "angle", "range", "scantime" ]
       },
       ls: {
         blueprints: {
@@ -21885,7 +21990,7 @@ module.exports = {
           WakeScanner_Shielded: [ 1, 2, 3, 4, 5 ],
           Sensor_WakeScanner_WideAngle: [ 1, 2, 3, 4, 5 ]
         },
-        modifications: [ "boot", "integrity", "mass", "power", "angle", "range", "scantime" ]
+        modifications: [ "integrity", "mass", "power", "angle", "range", "scantime" ]
       }
     },
     specials: {

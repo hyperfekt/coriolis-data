@@ -1,5 +1,6 @@
 {
   "AFM_Shielded": {
+    "fdname": "AFM_Shielded",
     "grades": {
       "1": {
         "components": {
@@ -48,15 +49,16 @@
     "name": "Shielded"
   },
   "Armour_Advanced": {
+    "fdname": "Armour_Advanced",
     "grades": {
       "1": {
         "components": {
           "Iron": 1
         },
         "features": {
-          "explres": [ 0, 0.028 ],
+          "explres": [ 0, 0.02 ],
           "hullboost": [ -0.01, 0 ],
-          "kinres": [ 0, 0.024 ],
+          "kinres": [ 0, 0.02 ],
           "mass": [ -0.04, -0.15 ],
           "thermres": [ 0, 0.02 ]
         }
@@ -67,9 +69,9 @@
           "Iron": 1
         },
         "features": {
-          "explres": [ 0.014, 0.056 ],
-          "hullboost": [ -0.03, -0.02 ],
-          "kinres": [ 0.012, 0.048 ],
+          "explres": [ 0.01, 0.04 ],
+          "hullboost": [ -0.02, -0.01 ],
+          "kinres": [ 0.01, 0.04 ],
           "mass": [ -0.08, -0.25 ],
           "thermres": [ 0.01, 0.04 ]
         }
@@ -81,9 +83,9 @@
           "Iron": 1
         },
         "features": {
-          "explres": [ 0.028, 0.084 ],
-          "hullboost": [ -0.05, -0.03 ],
-          "kinres": [ 0.024, 0.072 ],
+          "explres": [ 0.02, 0.06 ],
+          "hullboost": [ -0.03, -0.02 ],
+          "kinres": [ 0.02, 0.06 ],
           "mass": [ -0.12, -0.35 ],
           "thermres": [ 0.02, 0.06 ]
         }
@@ -95,9 +97,9 @@
           "Proprietary Composites": 1
         },
         "features": {
-          "explres": [ 0.042, 0.112 ],
-          "hullboost": [ -0.06, -0.05 ],
-          "kinres": [ 0.036, 0.096 ],
+          "explres": [ 0.03, 0.08 ],
+          "hullboost": [ -0.04, -0.03 ],
+          "kinres": [ 0.03, 0.08 ],
           "mass": [ -0.16, -0.45 ],
           "thermres": [ 0.03, 0.08 ]
         }
@@ -109,9 +111,9 @@
           "Tin": 1
         },
         "features": {
-          "explres": [ 0.056, 0.14 ],
-          "hullboost": [ -0.07, -0.06 ],
-          "kinres": [ 0.048, 0.12 ],
+          "explres": [ 0.04, 0.1 ],
+          "hullboost": [ -0.05, -0.04 ],
+          "kinres": [ 0.04, 0.1 ],
           "mass": [ -0.2, -0.55 ],
           "thermres": [ 0.04, 0.1 ]
         }
@@ -122,14 +124,15 @@
     "name": "Lightweight"
   },
   "Armour_Explosive": {
+    "fdname": "Armour_Explosive",
     "grades": {
       "1": {
         "components": {
           "Nickel": 1
         },
         "features": {
-          "explres": [ 0.07, 0.112 ],
-          "kinres": [ -0.048, -0.024 ],
+          "explres": [ 0.05, 0.08 ],
+          "kinres": [ -0.04, -0.02 ],
           "thermres": [ -0.04, -0.02 ]
         }
       },
@@ -139,8 +142,8 @@
           "Zinc": 1
         },
         "features": {
-          "explres": [ 0.14, 0.224 ],
-          "kinres": [ -0.096, -0.048 ],
+          "explres": [ 0.1, 0.16 ],
+          "kinres": [ -0.08, -0.04 ],
           "thermres": [ -0.08, -0.04 ]
         }
       },
@@ -150,8 +153,8 @@
           "Vanadium": 1
         },
         "features": {
-          "explres": [ 0.21, 0.336 ],
-          "kinres": [ -0.144, -0.072 ],
+          "explres": [ 0.15, 0.24 ],
+          "kinres": [ -0.12, -0.06 ],
           "thermres": [ -0.12, -0.06 ]
         }
       },
@@ -162,8 +165,8 @@
           "Tungsten": 1
         },
         "features": {
-          "explres": [ 0.28, 0.448 ],
-          "kinres": [ -0.192, -0.096 ],
+          "explres": [ 0.2, 0.32 ],
+          "kinres": [ -0.16, -0.08 ],
           "thermres": [ -0.16, -0.08 ]
         }
       },
@@ -174,8 +177,8 @@
           "Ruthenium": 1
         },
         "features": {
-          "explres": [ 0.35, 0.56 ],
-          "kinres": [ -0.24, -0.12 ],
+          "explres": [ 0.25, 0.4 ],
+          "kinres": [ -0.2, -0.1 ],
           "thermres": [ -0.2, -0.1 ]
         }
       }
@@ -185,15 +188,16 @@
     "name": "Blast resistant"
   },
   "Armour_HeavyDuty": {
+    "fdname": "Armour_HeavyDuty",
     "grades": {
       "1": {
         "components": {
           "Carbon": 1
         },
         "features": {
-          "explres": [ 0, 0.014 ],
-          "hullboost": [ 0.05, 0.14 ],
-          "kinres": [ 0, 0.012 ],
+          "explres": [ 0, 0.01 ],
+          "hullboost": [ 0.04, 0.1 ],
+          "kinres": [ 0, 0.01 ],
           "mass": [ 0.08, 0 ],
           "thermres": [ 0, 0.01 ]
         }
@@ -204,10 +208,10 @@
           "Shield Emitters": 1
         },
         "features": {
-          "explres": [ 0.014, 0.028 ],
-          "hullboost": [ 0.11, 0.21 ],
-          "kinres": [ 0.012, 0.024 ],
-          "mass": [ 0.17, 0.04 ],
+          "explres": [ 0.01, 0.02 ],
+          "hullboost": [ 0.08, 0.15 ],
+          "kinres": [ 0.01, 0.02 ],
+          "mass": [ 0.16, 0.05 ],
           "thermres": [ 0.01, 0.02 ]
         }
       },
@@ -218,10 +222,10 @@
           "Shield Emitters": 1
         },
         "features": {
-          "explres": [ 0.028, 0.042 ],
-          "hullboost": [ 0.17, 0.28 ],
-          "kinres": [ 0.024, 0.036 ],
-          "mass": [ 0.25, 0.1 ],
+          "explres": [ 0.02, 0.03 ],
+          "hullboost": [ 0.12, 0.2 ],
+          "kinres": [ 0.02, 0.03 ],
+          "mass": [ 0.24, 0.1 ],
           "thermres": [ 0.02, 0.03 ]
         }
       },
@@ -232,9 +236,9 @@
           "Vanadium": 1
         },
         "features": {
-          "explres": [ 0.042, 0.056 ],
-          "hullboost": [ 0.22, 0.35 ],
-          "kinres": [ 0.036, 0.048 ],
+          "explres": [ 0.03, 0.04 ],
+          "hullboost": [ 0.16, 0.25 ],
+          "kinres": [ 0.03, 0.04 ],
           "mass": [ 0.32, 0.15 ],
           "thermres": [ 0.03, 0.04 ]
         }
@@ -246,10 +250,10 @@
           "Tungsten": 1
         },
         "features": {
-          "explres": [ 0.056, 0.07 ],
-          "hullboost": [ 0.28, 0.41 ],
-          "kinres": [ 0.048, 0.06 ],
-          "mass": [ 0.4, 0.2 ],
+          "explres": [ 0.04, 0.05 ],
+          "hullboost": [ 0.2, 0.3 ],
+          "kinres": [ 0.04, 0.05 ],
+          "mass": [ 0.4, 0.20 ],
           "thermres": [ 0.04, 0.05 ]
         }
       }
@@ -259,14 +263,15 @@
     "name": "Heavy duty"
   },
   "Armour_Kinetic": {
+    "fdname": "Armour_Kinetic",
     "grades": {
       "1": {
         "components": {
           "Nickel": 1
         },
         "features": {
-          "explres": [ -0.056, -0.028 ],
-          "kinres": [ 0.06, 0.096 ],
+          "explres": [ -0.04, -0.02 ],
+          "kinres": [ 0.05, 0.08 ],
           "thermres": [ -0.04, -0.02 ]
         }
       },
@@ -276,8 +281,8 @@
           "Vanadium": 1
         },
         "features": {
-          "explres": [ -0.112, -0.056 ],
-          "kinres": [ 0.12, 0.192 ],
+          "explres": [ -0.08, -0.04 ],
+          "kinres": [ 0.10, 0.16 ],
           "thermres": [ -0.08, -0.04 ]
         }
       },
@@ -288,8 +293,8 @@
           "Vanadium": 1
         },
         "features": {
-          "explres": [ -0.168, -0.084 ],
-          "kinres": [ 0.18, 0.288 ],
+          "explres": [ -0.12, -0.06 ],
+          "kinres": [ 0.15, 0.24 ],
           "thermres": [ -0.12, -0.06 ]
         }
       },
@@ -300,8 +305,8 @@
           "Tungsten": 1
         },
         "features": {
-          "explres": [ -0.224, -0.112 ],
-          "kinres": [ 0.24, 0.384 ],
+          "explres": [ -0.16, -0.08 ],
+          "kinres": [ 0.2, 0.32 ],
           "thermres": [ -0.16, -0.08 ]
         }
       },
@@ -312,8 +317,8 @@
           "Phase Alloys": 1
         },
         "features": {
-          "explres": [ -0.28, -0.14 ],
-          "kinres": [ 0.3, 0.48 ],
+          "explres": [ -0.2, -0.1 ],
+          "kinres": [ 0.25, 0.4 ],
           "thermres": [ -0.2, -0.1 ]
         }
       }
@@ -323,14 +328,15 @@
     "name": "Kinetic resistant"
   },
   "Armour_Thermic": {
+    "fdname": "Armour_Thermic",
     "grades": {
       "1": {
         "components": {
           "Heat Conduction Wiring": 1
         },
         "features": {
-          "explres": [ -0.056, -0.028 ],
-          "kinres": [ -0.048, -0.024 ],
+          "explres": [ -0.04, -0.02 ],
+          "kinres": [ -0.04, -0.02 ],
           "thermres": [ 0.05, 0.08 ]
         }
       },
@@ -340,8 +346,8 @@
           "Nickel": 1
         },
         "features": {
-          "explres": [ -0.112, -0.056 ],
-          "kinres": [ -0.066, -0.048 ],
+          "explres": [ -0.08, -0.04 ],
+          "kinres": [ -0.08, -0.04 ],
           "thermres": [ 0.1, 0.16 ]
         }
       },
@@ -352,8 +358,8 @@
           "Vanadium": 1
         },
         "features": {
-          "explres": [ -0.168, -0.084 ],
-          "kinres": [ -0.144, -0.072 ],
+          "explres": [ -0.12, -0.06 ],
+          "kinres": [ -0.12, -0.06 ],
           "thermres": [ 0.15, 0.24 ]
         }
       },
@@ -364,8 +370,8 @@
           "Tungsten": 1
         },
         "features": {
-          "explres": [ -0.224, -0.112 ],
-          "kinres": [ -0.192, -0.096 ],
+          "explres": [ -0.16, -0.08 ],
+          "kinres": [ -0.16, -0.08 ],
           "thermres": [ 0.2, 0.32 ]
         }
       },
@@ -376,8 +382,8 @@
           "Proto Heat Radiators": 1
         },
         "features": {
-          "explres": [ -0.28, -0.14 ],
-          "kinres": [ -0.24, -0.12 ],
+          "explres": [ -0.2, -0.12 ],
+          "kinres": [ -0.2, -0.12 ],
           "thermres": [ 0.25, 0.4 ]
         }
       }
@@ -387,6 +393,7 @@
     "name": "Thermal resistant"
   },
   "CargoScanner_LightWeight": {
+    "fdname": "CargoScanner_LightWeight",
     "grades": {
       "1": {
         "components": {
@@ -446,6 +453,7 @@
     "name": "Lightweight"
   },
   "CargoScanner_Reinforced": {
+    "fdname": "CargoScanner_Reinforced",
     "grades": {
       "1": {
         "components": {
@@ -505,6 +513,7 @@
     "name": "Reinforced"
   },
   "CargoScanner_Shielded": {
+    "fdname": "CargoScanner_Shielded",
     "grades": {
       "1": {
         "components": {
@@ -564,6 +573,7 @@
     "name": "Shielded"
   },
   "ChaffLauncher_ChaffCapacity": {
+    "fdname": "ChaffLauncher_ChaffCapacity",
     "grades": {
       "3": {
         "components": {
@@ -583,6 +593,7 @@
     "name": "Ammo capacity"
   },
   "ChaffLauncher_LightWeight": {
+    "fdname": "ChaffLauncher_LightWeight",
     "grades": {
       "1": {
         "components": {
@@ -642,6 +653,7 @@
     "name": "Lightweight"
   },
   "ChaffLauncher_Reinforced": {
+    "fdname": "ChaffLauncher_Reinforced",
     "grades": {
       "1": {
         "components": {
@@ -701,6 +713,7 @@
     "name": "Reinforced"
   },
   "ChaffLauncher_Shielded": {
+    "fdname": "ChaffLauncher_Shielded",
     "grades": {
       "1": {
         "components": {
@@ -760,6 +773,7 @@
     "name": "Shielded"
   },
   "CollectionLimpet_LightWeight": {
+    "fdname": "CollectionLimpet_LightWeight",
     "grades": {
       "1": {
         "components": {
@@ -819,6 +833,7 @@
     "name": "Lightweight"
   },
   "CollectionLimpet_Reinforced": {
+    "fdname": "CollectionLimpet_Reinforced",
     "grades": {
       "1": {
         "components": {
@@ -878,6 +893,7 @@
     "name": "Reinforced"
   },
   "CollectionLimpet_Shielded": {
+    "fdname": "CollectionLimpet_Shielded",
     "grades": {
       "1": {
         "components": {
@@ -937,6 +953,7 @@
     "name": "Shielded"
   },
   "ECM_LightWeight": {
+    "fdname": "ECM_LightWeight",
     "grades": {
       "1": {
         "components": {
@@ -996,6 +1013,7 @@
     "name": "Lightweight"
   },
   "ECM_Reinforced": {
+    "fdname": "ECM_Reinforced",
     "grades": {
       "1": {
         "components": {
@@ -1055,6 +1073,7 @@
     "name": "Reinforced"
   },
   "ECM_Shielded": {
+    "fdname": "ECM_Shielded",
     "grades": {
       "1": {
         "components": {
@@ -1114,6 +1133,7 @@
     "name": "Shielded"
   },
   "Engine_Dirty": {
+    "fdname": "Engine_Dirty",
     "grades": {
       "1": {
         "components": {
@@ -1188,6 +1208,7 @@
     "name": "Dirty"
   },
   "Engine_Reinforced": {
+    "fdname": "Engine_Reinforced",
     "grades": {
       "1": {
         "components": {
@@ -1257,6 +1278,7 @@
     "name": "Reinforced"
   },
   "Engine_Tuned": {
+    "fdname": "Engine_Tuned",
     "grades": {
       "1": {
         "components": {
@@ -1331,6 +1353,7 @@
     "name": "Clean"
   },
   "FSD_FastBoot": {
+    "fdname": "FSD_FastBoot",
     "grades": {
       "1": {
         "components": {
@@ -1400,6 +1423,7 @@
     "name": "Faster boot sequence"
   },
   "FSD_LongRange": {
+    "fdname": "FSD_LongRange",
     "grades": {
       "1": {
         "components": {
@@ -1469,6 +1493,7 @@
     "name": "Increased range"
   },
   "FSD_Shielded": {
+    "fdname": "FSD_Shielded",
     "grades": {
       "1": {
         "components": {
@@ -1538,6 +1563,7 @@
     "name": "Shielded"
   },
   "FSDinterdictor_Expanded": {
+    "fdname": "FSDinterdictor_Expanded",
     "grades": {
       "1": {
         "components": {
@@ -1590,6 +1616,7 @@
     "name": "Expanded capture arc"
   },
   "FSDinterdictor_LongRange": {
+    "fdname": "FSDinterdictor_LongRange",
     "grades": {
       "1": {
         "components": {
@@ -1633,6 +1660,7 @@
     "name": "Long range"
   },
   "FuelScoop_Shielded": {
+    "fdname": "FuelScoop_Shielded",
     "grades": {
       "1": {
         "components": {
@@ -1681,6 +1709,7 @@
     "name": "Shielded"
   },
   "FuelTransferLimpet_LightWeight": {
+    "fdname": "FuelTransferLimpet_LightWeight",
     "grades": {
       "1": {
         "components": {
@@ -1740,6 +1769,7 @@
     "name": "Lightweight"
   },
   "FuelTransferLimpet_Reinforced": {
+    "fdname": "FuelTransferLimpet_Reinforced",
     "grades": {
       "1": {
         "components": {
@@ -1799,6 +1829,7 @@
     "name": "Reinforced"
   },
   "FuelTransferLimpet_Shielded": {
+    "fdname": "FuelTransferLimpet_Shielded",
     "grades": {
       "1": {
         "components": {
@@ -1858,6 +1889,7 @@
     "name": "Shielded"
   },
   "HatchBreakerLimpet_LightWeight": {
+    "fdname": "HatchBreakerLimpet_LightWeight",
     "grades": {
       "1": {
         "components": {
@@ -1917,6 +1949,7 @@
     "name": "Lightweight"
   },
   "HatchBreakerLimpet_Reinforced": {
+    "fdname": "HatchBreakerLimpet_Reinforced",
     "grades": {
       "1": {
         "components": {
@@ -1976,6 +2009,7 @@
     "name": "Reinforced"
   },
   "HatchBreakerLimpet_Shielded": {
+    "fdname": "HatchBreakerLimpet_Shielded",
     "grades": {
       "1": {
         "components": {
@@ -2035,6 +2069,7 @@
     "name": "Shielded"
   },
   "HeatSinkLauncher_HeatSinkCapacity": {
+    "fdname": "HeatSinkLauncher_HeatSinkCapacity",
     "grades": {
       "3": {
         "components": {
@@ -2054,6 +2089,7 @@
     "name": "Ammo capacity"
   },
   "HeatSinkLauncher_LightWeight": {
+    "fdname": "HeatSinkLauncher_LightWeight",
     "grades": {
       "1": {
         "components": {
@@ -2113,6 +2149,7 @@
     "name": "Lightweight"
   },
   "HeatSinkLauncher_Reinforced": {
+    "fdname": "HeatSinkLauncher_Reinforced",
     "grades": {
       "1": {
         "components": {
@@ -2172,6 +2209,7 @@
     "name": "Reinforced"
   },
   "HeatSinkLauncher_Shielded": {
+    "fdname": "HeatSinkLauncher_Shielded",
     "grades": {
       "1": {
         "components": {
@@ -2231,6 +2269,7 @@
     "name": "Shielded"
   },
   "HullReinforcement_Advanced": {
+    "fdname": "HullReinforcement_Advanced",
     "grades": {
       "1": {
         "components": {
@@ -2262,7 +2301,7 @@
         "features": {
           "hullboost": [ 0.06, 0.12 ],
           "hullreinforcement": [ -0.15, -0.1 ],
-          "mass": [ 0, -0.1 ]
+          "mass": [ 0, -0.09 ]
         }
       },
       "4": {
@@ -2295,15 +2334,16 @@
     "name": "Lightweight"
   },
   "HullReinforcement_Explosive": {
+    "fdname": "HullReinforcement_Explosive",
     "grades": {
       "1": {
         "components": {
           "Nickel": 1
         },
         "features": {
-          "explres": [ 0.0487, 0.078 ],
-          "kinres": [ -0.0293, -0.0195 ],
-          "thermres": [ -0.0293, -0.0195 ]
+          "explres": [ 0.05, 0.08 ],
+          "kinres": [ -0.03, -0.02 ],
+          "thermres": [ -0.03, -0.02 ]
         }
       },
       "2": {
@@ -2312,9 +2352,9 @@
           "Zinc": 1
         },
         "features": {
-          "explres": [ 0.0975, 0.156 ],
-          "kinres": [ -0.0585, -0.039 ],
-          "thermres": [ -0.0484, -0.039 ]
+          "explres": [ 0.1, 0.16 ],
+          "kinres": [ -0.06, -0.04 ],
+          "thermres": [ -0.06, -0.04 ]
         }
       },
       "3": {
@@ -2324,9 +2364,9 @@
           "Zirconium": 1
         },
         "features": {
-          "explres": [ 0.1463, 0.234 ],
-          "kinres": [ -0.0878, -0.0585 ],
-          "thermres": [ -0.0878, -0.0585 ]
+          "explres": [ 0.15, 0.24 ],
+          "kinres": [ -0.09, -0.06 ],
+          "thermres": [ -0.09, -0.06 ]
         }
       },
       "4": {
@@ -2336,9 +2376,9 @@
           "Tungsten": 1
         },
         "features": {
-          "explres": [ 0.195, 0.312 ],
-          "kinres": [ -0.117, -0.078 ],
-          "thermres": [ -0.117, -0.078 ]
+          "explres": [ 0.2, 0.32 ],
+          "kinres": [ -0.12, -0.08 ],
+          "thermres": [ -0.12, -0.08 ]
         }
       },
       "5": {
@@ -2348,9 +2388,9 @@
           "Ruthenium": 1
         },
         "features": {
-          "explres": [ 0.2437, 0.4 ],
-          "kinres": [ -0.1463, -0.0975 ],
-          "thermres": [ -0.1463, -0.0975 ]
+          "explres": [ 0.24, 0.4 ],
+          "kinres": [ -0.15, -0.1 ],
+          "thermres": [ -0.15, -0.1 ]
         }
       }
     },
@@ -2359,17 +2399,18 @@
     "name": "Blast resistant"
   },
   "HullReinforcement_HeavyDuty": {
+    "fdname": "HullReinforcement_HeavyDuty",
     "grades": {
       "1": {
         "components": {
           "Carbon": 1
         },
         "features": {
-          "explres": [ 0, 0.0292 ],
-          "hullreinforcement": [ 0.04, 0.2 ],
-          "kinres": [ 0, 0.0292 ],
+          "explres": [ 0, 0.03 ],
+          "hullreinforcement": [ 0.05, 0.2 ],
+          "kinres": [ 0, 0.03 ],
           "mass": [ 0.08, 0 ],
-          "thermres": [ 0, 0.0292 ]
+          "thermres": [ 0, 0.03 ]
         }
       },
       "2": {
@@ -2378,11 +2419,11 @@
           "Shield Emitters": 1
         },
         "features": {
-          "explres": [ 0.098, 0.0585 ],
+          "explres": [ 0.01, 0.06 ],
           "hullreinforcement": [ 0.1, 0.3 ],
-          "kinres": [ 0.098, 0.0585 ],
-          "mass": [ 0.15, 0.04 ],
-          "thermres": [ 0.098, 0.0585 ]
+          "kinres": [ 0.01, 0.06 ],
+          "mass": [ 0.16, 0.05 ],
+          "thermres": [ 0.01, 0.06 ]
         }
       },
       "3": {
@@ -2392,11 +2433,11 @@
           "Shield Emitters": 1
         },
         "features": {
-          "explres": [ 0.0195, 0.0878 ],
-          "hullreinforcement": [ 0.14, 0.4 ],
-          "kinres": [ 0.0195, 0.0878 ],
-          "mass": [ 0.23, 0.1 ],
-          "thermres": [ 0.0195, 0.0878 ]
+          "explres": [ 0.02, 0.09 ],
+          "hullreinforcement": [ 0.15, 0.4 ],
+          "kinres": [ 0.02, 0.09 ],
+          "mass": [ 0.24, 0.1 ],
+          "thermres": [ 0.02, 0.09 ]
         }
       },
       "4": {
@@ -2406,11 +2447,11 @@
           "Vanadium": 1
         },
         "features": {
-          "explres": [ 0.0292, 0.117 ],
+          "explres": [ 0.03, 0.12 ],
           "hullreinforcement": [ 0.2, 0.5 ],
-          "kinres": [ 0.0292, 0.117 ],
-          "mass": [ 0.3, 0.14 ],
-          "thermres": [ 0.0292, 0.117 ]
+          "kinres": [ 0.03, 0.12 ],
+          "mass": [ 0.32, 0.15 ],
+          "thermres": [ 0.03, 0.12 ]
         }
       },
       "5": {
@@ -2420,11 +2461,11 @@
           "Tungsten": 1
         },
         "features": {
-          "explres": [ 0.039, 0.1463 ],
+          "explres": [ 0.04, 0.15 ],
           "hullreinforcement": [ 0.25, 0.6 ],
-          "kinres": [ 0.039, 0.1463 ],
+          "kinres": [ 0.04, 0.15 ],
           "mass": [ 0.4, 0.2 ],
-          "thermres": [ 0.039, 0.1463 ]
+          "thermres": [ 0.04, 0.15 ]
         }
       }
     },
@@ -2433,15 +2474,16 @@
     "name": "Heavy duty"
   },
   "HullReinforcement_Kinetic": {
+    "fdname": "HullReinforcement_Kinetic",
     "grades": {
       "1": {
         "components": {
           "Nickel": 1
         },
         "features": {
-          "explres": [ -0.0293, -0.0195 ],
-          "kinres": [ 0.0487, 0.078 ],
-          "thermres": [ -0.0293, -0.0195 ]
+          "explres": [ -0.03, -0.02 ],
+          "kinres": [ 0.05, 0.08 ],
+          "thermres": [ -0.03, -0.02 ]
         }
       },
       "2": {
@@ -2450,9 +2492,9 @@
           "Vanadium": 1
         },
         "features": {
-          "explres": [ -0.0585, -0.039 ],
-          "kinres": [ 0.0975, 0.156 ],
-          "thermres": [ -0.0585, -0.039 ]
+          "explres": [ -0.06, -0.04 ],
+          "kinres": [ 0.1, 0.16 ],
+          "thermres": [ -0.06, -0.04 ]
         }
       },
       "3": {
@@ -2462,9 +2504,9 @@
           "Vanadium": 1
         },
         "features": {
-          "explres": [ -0.0878, -0.0585 ],
-          "kinres": [ 0.1463, 0.234 ],
-          "thermres": [ -0.0878, -0.0585 ]
+          "explres": [ -0.09, -0.06 ],
+          "kinres": [ 0.15, 0.24 ],
+          "thermres": [ -0.09, -0.06 ]
         }
       },
       "4": {
@@ -2474,9 +2516,9 @@
           "Tungsten": 1
         },
         "features": {
-          "explres": [ -0.117, -0.078 ],
-          "kinres": [ 0.195, 0.312 ],
-          "thermres": [ -0.117, -0.078 ]
+          "explres": [ -0.12, -0.08 ],
+          "kinres": [ 0.2, 0.32 ],
+          "thermres": [ -0.12, -0.08 ]
         }
       },
       "5": {
@@ -2486,9 +2528,9 @@
           "Phase Alloys": 1
         },
         "features": {
-          "explres": [ -0.1463, -0.0975 ],
-          "kinres": [ 0.2437, 0.4 ],
-          "thermres": [ -0.1463, -0.0975 ]
+          "explres": [ -0.15, -0.1 ],
+          "kinres": [ 0.25, 0.4 ],
+          "thermres": [ -0.15, -0.1 ]
         }
       }
     },
@@ -2497,15 +2539,16 @@
     "name": "Kinetic resistant"
   },
   "HullReinforcement_Thermic": {
+    "fdname": "HullReinforcement_Thermic",
     "grades": {
       "1": {
         "components": {
           "Heat Conduction Wiring": 1
         },
         "features": {
-          "explres": [ -0.0293, -0.0195 ],
-          "kinres": [ -0.0293, -0.0195 ],
-          "thermres": [ 0.0487, 0.078 ]
+          "explres": [ -0.03, -0.02 ],
+          "kinres": [ -0.03, -0.02 ],
+          "thermres": [ 0.05, 0.08 ]
         }
       },
       "2": {
@@ -2514,9 +2557,9 @@
           "Nickel": 1
         },
         "features": {
-          "explres": [ -0.0585, -0.039 ],
-          "kinres": [ -0.0585, -0.039 ],
-          "thermres": [ 0.0975, 0.156 ]
+          "explres": [ -0.06, -0.04 ],
+          "kinres": [ -0.06, -0.04 ],
+          "thermres": [ 0.1, 0.16 ]
         }
       },
       "3": {
@@ -2526,9 +2569,9 @@
           "Vanadium": 1
         },
         "features": {
-          "explres": [ -0.0878, -0.0585 ],
-          "kinres": [ -0.0878, -0.0585 ],
-          "thermres": [ 0.1463, 0.234 ]
+          "explres": [ -0.09, -0.06 ],
+          "kinres": [ -0.09, -0.06 ],
+          "thermres": [ 0.15, 0.24 ]
         }
       },
       "4": {
@@ -2538,9 +2581,9 @@
           "Tungsten": 1
         },
         "features": {
-          "explres": [ -0.117, -0.078 ],
-          "kinres": [ -0.117, -0.078 ],
-          "thermres": [ 0.195, 0.312 ]
+          "explres": [ -0.12, -0.08 ],
+          "kinres": [ -0.12, -0.08 ],
+          "thermres": [ 0.2, 0.32 ]
         }
       },
       "5": {
@@ -2550,9 +2593,9 @@
           "Proto Heat Radiators": 1
         },
         "features": {
-          "explres": [ -0.1463, -0.0975 ],
-          "kinres": [ -0.1463, -0.0975 ],
-          "thermres": [ 0.2437, 0.4 ]
+          "explres": [ -0.15, -0.1 ],
+          "kinres": [ -0.15, -0.1 ],
+          "thermres": [ 0.25, 0.4 ]
         }
       }
     },
@@ -2561,6 +2604,7 @@
     "name": "Thermal resistant"
   },
   "KillWarrantScanner_LightWeight": {
+    "fdname": "KillWarrantScanner_LightWeight",
     "grades": {
       "1": {
         "components": {
@@ -2620,6 +2664,7 @@
     "name": "Lightweight"
   },
   "KillWarrantScanner_LongRange": {
+    "fdname": "KillWarrantScanner_LongRange",
     "grades": {
       "1": {
         "components": {
@@ -2684,6 +2729,7 @@
     "name": "Long range"
   },
   "KillWarrantScanner_Reinforced": {
+    "fdname": "KillWarrantScanner_Reinforced",
     "grades": {
       "1": {
         "components": {
@@ -2743,6 +2789,7 @@
     "name": "Reinforced"
   },
   "KillWarrantScanner_Shielded": {
+    "fdname": "KillWarrantScanner_Shielded",
     "grades": {
       "1": {
         "components": {
@@ -2802,6 +2849,7 @@
     "name": "Shielded"
   },
   "LifeSupport_LightWeight": {
+    "fdname": "LifeSupport_LightWeight",
     "grades": {
       "1": {
         "components": {
@@ -2850,6 +2898,7 @@
     "name": "Lightweight"
   },
   "LifeSupport_Reinforced": {
+    "fdname": "LifeSupport_Reinforced",
     "grades": {
       "1": {
         "components": {
@@ -2898,6 +2947,7 @@
     "name": "Reinforced"
   },
   "LifeSupport_Shielded": {
+    "fdname": "LifeSupport_Shielded",
     "grades": {
       "1": {
         "components": {
@@ -2946,6 +2996,7 @@
     "name": "Shielded"
   },
   "PointDefence_LightWeight": {
+    "fdname": "PointDefence_LightWeight",
     "grades": {
       "1": {
         "components": {
@@ -3005,6 +3056,7 @@
     "name": "Lightweight"
   },
   "PointDefence_PointDefenseCapacity": {
+    "fdname": "PointDefence_PointDefenseCapacity",
     "grades": {
       "3": {
         "components": {
@@ -3024,6 +3076,7 @@
     "name": "Ammo capacity"
   },
   "PointDefence_Reinforced": {
+    "fdname": "PointDefence_Reinforced",
     "grades": {
       "1": {
         "components": {
@@ -3083,6 +3136,7 @@
     "name": "Reinforced"
   },
   "PointDefence_Shielded": {
+    "fdname": "PointDefence_Shielded",
     "grades": {
       "1": {
         "components": {
@@ -3142,6 +3196,7 @@
     "name": "Shielded"
   },
   "PowerDistributor_HighCapacity": {
+    "fdname": "PowerDistributor_HighCapacity",
     "grades": {
       "1": {
         "components": {
@@ -3221,6 +3276,7 @@
     "name": "High charge capacity"
   },
   "PowerDistributor_HighFrequency": {
+    "fdname": "PowerDistributor_HighFrequency",
     "grades": {
       "1": {
         "components": {
@@ -3300,6 +3356,7 @@
     "name": "Charge enhanced"
   },
   "PowerDistributor_PriorityEngines": {
+    "fdname": "PowerDistributor_PriorityEngines",
     "grades": {
       "1": {
         "components": {
@@ -3349,6 +3406,7 @@
     "name": "Engine focused"
   },
   "PowerDistributor_PrioritySystems": {
+    "fdname": "PowerDistributor_PrioritySystems",
     "grades": {
       "1": {
         "components": {
@@ -3398,6 +3456,7 @@
     "name": "System focused"
   },
   "PowerDistributor_PriorityWeapons": {
+    "fdname": "PowerDistributor_PriorityWeapons",
     "grades": {
       "1": {
         "components": {
@@ -3447,6 +3506,7 @@
     "name": "Weapon focused"
   },
   "PowerDistributor_Shielded": {
+    "fdname": "PowerDistributor_Shielded",
     "grades": {
       "1": {
         "components": {
@@ -3506,6 +3566,7 @@
     "name": "Shielded"
   },
   "PowerPlant_Armoured": {
+    "fdname": "PowerPlant_Armoured",
     "grades": {
       "1": {
         "components": {
@@ -3570,6 +3631,7 @@
     "name": "Armoured"
   },
   "PowerPlant_Boosted": {
+    "fdname": "PowerPlant_Boosted",
     "grades": {
       "1": {
         "components": {
@@ -3634,6 +3696,7 @@
     "name": "Overcharged"
   },
   "PowerPlant_Stealth": {
+    "fdname": "PowerPlant_Stealth",
     "grades": {
       "1": {
         "components": {
@@ -3674,6 +3737,7 @@
     "name": "Low emissions"
   },
   "ProspectingLimpet_LightWeight": {
+    "fdname": "ProspectingLimpet_LightWeight",
     "grades": {
       "1": {
         "components": {
@@ -3733,6 +3797,7 @@
     "name": "Lightweight"
   },
   "ProspectingLimpet_Reinforced": {
+    "fdname": "ProspectingLimpet_Reinforced",
     "grades": {
       "1": {
         "components": {
@@ -3792,6 +3857,7 @@
     "name": "Reinforced"
   },
   "ProspectingLimpet_Shielded": {
+    "fdname": "ProspectingLimpet_Shielded",
     "grades": {
       "1": {
         "components": {
@@ -3851,6 +3917,7 @@
     "name": "Shielded"
   },
   "Refineries_Shielded": {
+    "fdname": "Refineries_Shielded",
     "grades": {
       "1": {
         "components": {
@@ -3899,6 +3966,7 @@
     "name": "Shielded"
   },
   "Sensor_CargoScanner_FastScan": {
+    "fdname": "Sensor_CargoScanner_FastScan",
     "grades": {
       "1": {
         "components": {
@@ -3963,6 +4031,7 @@
     "name": "Fast scan"
   },
   "Sensor_CargoScanner_LongRange": {
+    "fdname": "Sensor_CargoScanner_LongRange",
     "grades": {
       "1": {
         "components": {
@@ -4027,6 +4096,7 @@
     "name": "Long range"
   },
   "Sensor_CargoScanner_WideAngle": {
+    "fdname": "Sensor_CargoScanner_WideAngle",
     "grades": {
       "1": {
         "components": {
@@ -4091,6 +4161,7 @@
     "name": "Wide angle"
   },
   "Sensor_KillWarrantScanner_FastScan": {
+    "fdname": "Sensor_KillWarrantScanner_FastScan",
     "grades": {
       "1": {
         "components": {
@@ -4155,6 +4226,7 @@
     "name": "Fast scan"
   },
   "Sensor_KillWarrantScanner_WideAngle": {
+    "fdname": "Sensor_KillWarrantScanner_WideAngle",
     "grades": {
       "1": {
         "components": {
@@ -4219,6 +4291,7 @@
     "name": "Wide angle"
   },
   "Sensor_Sensor_LightWeight": {
+    "fdname": "Sensor_Sensor_LightWeight",
     "grades": {
       "1": {
         "components": {
@@ -4283,6 +4356,7 @@
     "name": "Lightweight"
   },
   "Sensor_Sensor_LongRange": {
+    "fdname": "Sensor_Sensor_LongRange",
     "grades": {
       "1": {
         "components": {
@@ -4347,6 +4421,7 @@
     "name": "Long range"
   },
   "Sensor_Sensor_WideAngle": {
+    "fdname": "Sensor_Sensor_WideAngle",
     "grades": {
       "1": {
         "components": {
@@ -4411,6 +4486,7 @@
     "name": "Wide angle"
   },
   "Sensor_SurfaceScanner_FastScan": {
+    "fdname": "Sensor_SurfaceScanner_FastScan",
     "grades": {
       "1": {
         "components": {
@@ -4475,6 +4551,7 @@
     "name": "Fast scan"
   },
   "Sensor_SurfaceScanner_LongRange": {
+    "fdname": "Sensor_SurfaceScanner_LongRange",
     "grades": {
       "1": {
         "components": {
@@ -4539,6 +4616,7 @@
     "name": "Long range"
   },
   "Sensor_SurfaceScanner_WideAngle": {
+    "fdname": "Sensor_SurfaceScanner_WideAngle",
     "grades": {
       "1": {
         "components": {
@@ -4603,6 +4681,7 @@
     "name": "Wide angle"
   },
   "Sensor_WakeScanner_FastScan": {
+    "fdname": "Sensor_WakeScanner_FastScan",
     "grades": {
       "1": {
         "components": {
@@ -4667,6 +4746,7 @@
     "name": "Fast scan"
   },
   "Sensor_WakeScanner_LongRange": {
+    "fdname": "Sensor_WakeScanner_LongRange",
     "grades": {
       "1": {
         "components": {
@@ -4731,6 +4811,7 @@
     "name": "Long range"
   },
   "Sensor_WakeScanner_WideAngle": {
+    "fdname": "Sensor_WakeScanner_WideAngle",
     "grades": {
       "1": {
         "components": {
@@ -4795,6 +4876,7 @@
     "name": "Wide angle"
   },
   "ShieldBooster_Explosive": {
+    "fdname": "ShieldBooster_Explosive",
     "grades": {
       "1": {
         "components": {
@@ -4859,6 +4941,7 @@
     "name": "Blast resistant"
   },
   "ShieldBooster_HeavyDuty": {
+    "fdname": "ShieldBooster_HeavyDuty",
     "grades": {
       "1": {
         "components": {
@@ -4928,6 +5011,7 @@
     "name": "Heavy duty"
   },
   "ShieldBooster_Kinetic": {
+    "fdname": "ShieldBooster_Kinetic",
     "grades": {
       "1": {
         "components": {
@@ -4992,6 +5076,7 @@
     "name": "Kinetic resistant"
   },
   "ShieldBooster_Resistive": {
+    "fdname": "ShieldBooster_Resistive",
     "grades": {
       "1": {
         "components": {
@@ -5066,6 +5151,7 @@
     "name": "Resistance augmented"
   },
   "ShieldBooster_Thermic": {
+    "fdname": "ShieldBooster_Thermic",
     "grades": {
       "1": {
         "components": {
@@ -5130,6 +5216,7 @@
     "name": "Thermal resistant"
   },
   "ShieldCellBank_Rapid": {
+    "fdname": "ShieldCellBank_Rapid",
     "grades": {
       "1": {
         "components": {
@@ -5173,6 +5260,7 @@
     "name": "Rapid charge"
   },
   "ShieldCellBank_Specialised": {
+    "fdname": "ShieldCellBank_Specialised",
     "grades": {
       "1": {
         "components": {
@@ -5216,6 +5304,7 @@
     "name": "Specialised"
   },
   "ShieldGenerator_Kinetic": {
+    "fdname": "ShieldGenerator_Kinetic",
     "grades": {
       "1": {
         "components": {
@@ -5280,6 +5369,7 @@
     "name": "Kinetic resistant"
   },
   "ShieldGenerator_Optimised": {
+    "fdname": "ShieldGenerator_Optimised",
     "grades": {
       "1": {
         "components": {
@@ -5352,6 +5442,7 @@
     "name": "Enhanced low power"
   },
   "ShieldGenerator_Reinforced": {
+    "fdname": "ShieldGenerator_Reinforced",
     "grades": {
       "1": {
         "components": {
@@ -5433,6 +5524,7 @@
     "name": "Reinforced"
   },
   "ShieldGenerator_Thermic": {
+    "fdname": "ShieldGenerator_Thermic",
     "grades": {
       "1": {
         "components": {
@@ -5497,6 +5589,7 @@
     "name": "Thermal resistant"
   },
   "WakeScanner_LightWeight": {
+    "fdname": "WakeScanner_LightWeight",
     "grades": {
       "1": {
         "components": {
@@ -5556,6 +5649,7 @@
     "name": "Lightweight"
   },
   "WakeScanner_Reinforced": {
+    "fdname": "WakeScanner_Reinforced",
     "grades": {
       "1": {
         "components": {
@@ -5615,6 +5709,7 @@
     "name": "Reinforced"
   },
   "WakeScanner_Shielded": {
+    "fdname": "WakeScanner_Shielded",
     "grades": {
       "1": {
         "components": {
@@ -5674,6 +5769,7 @@
     "name": "Shielded"
   },
   "Weapon_DoubleShot": {
+    "fdname": "Weapon_DoubleShot",
     "grades": {
       "1": {
         "components": {
@@ -5743,6 +5839,7 @@
     "name": "Double shot"
   },
   "Weapon_Efficient": {
+    "fdname": "Weapon_Efficient",
     "grades": {
       "1": {
         "components": {
@@ -5809,6 +5906,7 @@
     "name": "Efficient"
   },
   "Weapon_Focused": {
+    "fdname": "Weapon_Focused",
     "grades": {
       "1": {
         "components": {
@@ -5877,6 +5975,7 @@
     "name": "Focused"
   },
   "Weapon_HighCapacity": {
+    "fdname": "Weapon_HighCapacity",
     "grades": {
       "1": {
         "components": {
@@ -5951,6 +6050,7 @@
     "name": "High capacity"
   },
   "Weapon_LightWeight": {
+    "fdname": "Weapon_LightWeight",
     "grades": {
       "1": {
         "components": {
@@ -6020,6 +6120,7 @@
     "name": "Lightweight"
   },
   "Weapon_LongRange": {
+    "fdname": "Weapon_LongRange",
     "grades": {
       "1": {
         "components": {
@@ -6088,6 +6189,7 @@
     "name": "Long range"
   },
   "Weapon_Overcharged": {
+    "fdname": "Weapon_Overcharged",
     "grades": {
       "1": {
         "components": {
@@ -6159,6 +6261,7 @@
     "name": "Overcharged"
   },
   "Weapon_RapidFire": {
+    "fdname": "Weapon_RapidFire",
     "grades": {
       "1": {
         "components": {
@@ -6232,6 +6335,7 @@
     "name": "Rapid fire"
   },
   "Weapon_ShortRange": {
+    "fdname": "Weapon_ShortRange",
     "grades": {
       "1": {
         "components": {
@@ -6298,6 +6402,7 @@
     "name": "Short range"
   },
   "Weapon_Sturdy": {
+    "fdname": "Weapon_Sturdy",
     "grades": {
       "1": {
         "components": {
