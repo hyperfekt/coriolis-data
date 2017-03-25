@@ -266,8 +266,16 @@
   "special_thermalshock": {
     "damage": -0.2
   },
-  "trade_cell_heat_cell_units": {},
-  "trade_defence_health_add_defence_global_mult": {},
+  "trade_cell_heat_cell_units": {
+    "shieldreinforcement": -1,
+    "thermload": -1
+  },
+  "trade_defence_health_add_defence_global_mult": {
+    "explres": 0.4,
+    "hullreinforcement": 1,
+    "kinres": 0.4,
+    "thermres": 0.4
+  },
   "trade_distributor_engine_charge_system_charge": {
     "engcap": 1,
     "syscap": -1

@@ -747,6 +747,7 @@
     },
     "modifications": [
       "boot",
+      "clip",
       "duration",
       "integrity",
       "mass",
