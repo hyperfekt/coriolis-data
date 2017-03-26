@@ -8763,7 +8763,7 @@ module.exports = {
         breachmax: 0,
         breachmin: 0,
         class: 1,
-        clip: 3,
+        clip: 1,
         cost: 24260,
         damage: 44,
         damagedist: {
@@ -8790,7 +8790,7 @@ module.exports = {
         breachmax: 0,
         breachmin: 0,
         class: 1,
-        clip: 3,
+        clip: 1,
         cost: 36400,
         damage: 32,
         damagedist: {
@@ -8813,7 +8813,7 @@ module.exports = {
         rof: 1,
         thermload: 5
       }, {
-        ammo: 36,
+        ammo: 72,
         breachdmg: 0,
         breachmax: 0,
         breachmin: 0,
@@ -8836,7 +8836,7 @@ module.exports = {
         piercing: 60,
         power: .4,
         rating: "I",
-        reload: 2,
+        reload: 6.6,
         rof: 1,
         thermload: 7.5
       } ],
