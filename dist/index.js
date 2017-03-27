@@ -21155,7 +21155,7 @@ module.exports = {
       },
       angle: {
         id: 46,
-        name: "scanangle",
+        name: "angle",
         type: "percentage",
         method: "multiplicative",
         higherbetter: true
