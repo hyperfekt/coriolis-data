@@ -18,7 +18,8 @@
   * Fix ED name for target lock breaker special
   * Update scan range and angle information for sensors
   * Tidy out shield cell bank information to allow for accurate calculations with modifications
-  * Update mine launche stats
+  * Update mine launcher stats
+  * Add appropriate engineers to per-module blueprint information
 
 #2.2.19
   * Remove shot speed modification - it is directly tied to range

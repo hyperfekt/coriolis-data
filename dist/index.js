@@ -21608,69 +21608,593 @@ module.exports = {
     modules: {
       am: {
         blueprints: {
-          AFM_Shielded: [ 1, 2, 3, 4 ]
+          AFM_Shielded: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Lori Jameson" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Lori Jameson" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner", "Lori Jameson" ]
+              },
+              "4": {
+                engineers: [ "Lori Jameson" ]
+              }
+            }
+          }
         },
         modifications: [ "integrity", "power" ]
       },
       bh: {
         blueprints: {
-          Armour_Advanced: [ 1, 2, 3, 4, 5 ],
-          Armour_Explosive: [ 1, 2, 3, 4, 5 ],
-          Armour_HeavyDuty: [ 1, 2, 3, 4, 5 ],
-          Armour_Kinetic: [ 1, 2, 3, 4, 5 ],
-          Armour_Thermic: [ 1, 2, 3, 4, 5 ]
+          Armour_Advanced: {
+            grades: {
+              "1": {
+                engineers: [ "Liz Ryder", "Selene Jean" ]
+              },
+              "2": {
+                engineers: [ "Selene Jean" ]
+              },
+              "3": {
+                engineers: [ "Selene Jean" ]
+              },
+              "4": {
+                engineers: [ "Selene Jean" ]
+              },
+              "5": {
+                engineers: [ "Selene Jean" ]
+              }
+            }
+          },
+          Armour_Explosive: {
+            grades: {
+              "1": {
+                engineers: [ "Liz Ryder", "Selene Jean" ]
+              },
+              "2": {
+                engineers: [ "Selene Jean" ]
+              },
+              "3": {
+                engineers: [ "Selene Jean" ]
+              },
+              "4": {
+                engineers: [ "Selene Jean" ]
+              },
+              "5": {
+                engineers: [ "Selene Jean" ]
+              }
+            }
+          },
+          Armour_HeavyDuty: {
+            grades: {
+              "1": {
+                engineers: [ "Liz Ryder", "Selene Jean" ]
+              },
+              "2": {
+                engineers: [ "Selene Jean" ]
+              },
+              "3": {
+                engineers: [ "Selene Jean" ]
+              },
+              "4": {
+                engineers: [ "Selene Jean" ]
+              },
+              "5": {
+                engineers: [ "Selene Jean" ]
+              }
+            }
+          },
+          Armour_Kinetic: {
+            grades: {
+              "1": {
+                engineers: [ "Liz Ryder", "Selene Jean" ]
+              },
+              "2": {
+                engineers: [ "Selene Jean" ]
+              },
+              "3": {
+                engineers: [ "Selene Jean" ]
+              },
+              "4": {
+                engineers: [ "Selene Jean" ]
+              },
+              "5": {
+                engineers: [ "Selene Jean" ]
+              }
+            }
+          },
+          Armour_Thermic: {
+            grades: {
+              "1": {
+                engineers: [ "Liz Ryder", "Selene Jean" ]
+              },
+              "2": {
+                engineers: [ "Selene Jean" ]
+              },
+              "3": {
+                engineers: [ "Selene Jean" ]
+              },
+              "4": {
+                engineers: [ "Selene Jean" ]
+              },
+              "5": {
+                engineers: [ "Selene Jean" ]
+              }
+            }
+          }
         },
         modifications: [ "explres", "hullboost", "kinres", "mass", "thermres" ]
       },
       bl: {
         blueprints: {
-          Weapon_Efficient: [ 1, 2, 3, 4, 5 ],
-          Weapon_LightWeight: [ 1, 2, 3, 4, 5 ],
-          Weapon_LongRange: [ 1, 2, 3, 4, 5 ],
-          Weapon_Overcharged: [ 1, 2, 3, 4, 5 ],
-          Weapon_ShortRange: [ 1, 2, 3, 4, 5 ],
-          Weapon_Sturdy: [ 1, 2, 3, 4, 5 ]
+          Weapon_Efficient: {
+            grades: {
+              "1": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "2": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "3": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "4": {
+                engineers: [ "Broo Tarquin" ]
+              },
+              "5": {
+                engineers: [ "Broo Tarquin" ]
+              }
+            }
+          },
+          Weapon_LightWeight: {
+            grades: {
+              "1": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "2": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "3": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "4": {
+                engineers: [ "Broo Tarquin" ]
+              },
+              "5": {
+                engineers: [ "Broo Tarquin" ]
+              }
+            }
+          },
+          Weapon_LongRange: {
+            grades: {
+              "1": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "2": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "3": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "4": {
+                engineers: [ "Broo Tarquin" ]
+              },
+              "5": {
+                engineers: [ "Broo Tarquin" ]
+              }
+            }
+          },
+          Weapon_Overcharged: {
+            grades: {
+              "1": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "2": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "3": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "4": {
+                engineers: [ "Broo Tarquin" ]
+              },
+              "5": {
+                engineers: [ "Broo Tarquin" ]
+              }
+            }
+          },
+          Weapon_ShortRange: {
+            grades: {
+              "1": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "2": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "3": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "4": {
+                engineers: [ "Broo Tarquin" ]
+              },
+              "5": {
+                engineers: [ "Broo Tarquin" ]
+              }
+            }
+          },
+          Weapon_Sturdy: {
+            grades: {
+              "1": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "2": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "3": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "4": {
+                engineers: [ "Broo Tarquin" ]
+              },
+              "5": {
+                engineers: [ "Broo Tarquin" ]
+              }
+            }
+          }
         },
         modifications: [ "damage", "damagedist", "distdraw", "fallofffromrange", "integrity", "jitter", "mass", "piercing", "power", "range", "thermload" ],
         specials: [ "special_concordant_sequence", "special_regeneration_sequence", "special_thermal_conduit", "special_thermalshock", "special_thermal_vent" ]
       },
       bsg: {
         blueprints: {
-          ShieldGenerator_Kinetic: [ 1, 2, 3, 4, 5 ],
-          ShieldGenerator_Optimised: [ 1, 2, 3, 4, 5 ],
-          ShieldGenerator_Reinforced: [ 1, 2, 3, 4, 5 ],
-          ShieldGenerator_Thermic: [ 1, 2, 3, 4, 5 ]
+          ShieldGenerator_Kinetic: {
+            grades: {
+              "1": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "2": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "3": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "4": {
+                engineers: [ "Lei Cheung" ]
+              },
+              "5": {
+                engineers: [ "Lei Cheung" ]
+              }
+            }
+          },
+          ShieldGenerator_Optimised: {
+            grades: {
+              "1": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "2": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "3": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "4": {
+                engineers: [ "Lei Cheung" ]
+              },
+              "5": {
+                engineers: [ "Lei Cheung" ]
+              }
+            }
+          },
+          ShieldGenerator_Reinforced: {
+            grades: {
+              "1": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "2": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "3": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "4": {
+                engineers: [ "Lei Cheung" ]
+              },
+              "5": {
+                engineers: [ "Lei Cheung" ]
+              }
+            }
+          },
+          ShieldGenerator_Thermic: {
+            grades: {
+              "1": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "2": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "3": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "4": {
+                engineers: [ "Lei Cheung" ]
+              },
+              "5": {
+                engineers: [ "Lei Cheung" ]
+              }
+            }
+          }
         },
         modifications: [ "boot", "brokenregen", "distdraw", "explres", "integrity", "kinres", "mass", "optmass", "optmul", "power", "regen", "thermload", "thermres" ]
       },
       c: {
         blueprints: {
-          Weapon_Efficient: [ 1, 2, 3, 4, 5 ],
-          Weapon_HighCapacity: [ 1, 2, 3, 4, 5 ],
-          Weapon_LightWeight: [ 1, 2, 3, 4, 5 ],
-          Weapon_LongRange: [ 1, 2, 3, 4, 5 ],
-          Weapon_Overcharged: [ 1, 2, 3, 4, 5 ],
-          Weapon_RapidFire: [ 1, 2, 3, 4, 5 ],
-          Weapon_ShortRange: [ 1, 2, 3, 4, 5 ],
-          Weapon_Sturdy: [ 1, 2, 3, 4, 5 ]
+          Weapon_Efficient: {
+            grades: {
+              "1": {
+                engineers: [ "The Sarge", "Tod McQuinn" ]
+              },
+              "2": {
+                engineers: [ "The Sarge", "Tod McQuinn" ]
+              },
+              "3": {
+                engineers: [ "The Sarge" ]
+              },
+              "4": {
+                engineers: [ "The Sarge" ]
+              },
+              "5": {
+                engineers: [ "The Sarge" ]
+              }
+            }
+          },
+          Weapon_HighCapacity: {
+            grades: {
+              "1": {
+                engineers: [ "The Sarge", "Tod McQuinn" ]
+              },
+              "2": {
+                engineers: [ "The Sarge", "Tod McQuinn" ]
+              },
+              "3": {
+                engineers: [ "The Sarge" ]
+              },
+              "4": {
+                engineers: [ "The Sarge" ]
+              },
+              "5": {
+                engineers: [ "The Sarge" ]
+              }
+            }
+          },
+          Weapon_LightWeight: {
+            grades: {
+              "1": {
+                engineers: [ "The Sarge", "Tod McQuinn" ]
+              },
+              "2": {
+                engineers: [ "The Sarge", "Tod McQuinn" ]
+              },
+              "3": {
+                engineers: [ "The Sarge" ]
+              },
+              "4": {
+                engineers: [ "The Sarge" ]
+              },
+              "5": {
+                engineers: [ "The Sarge" ]
+              }
+            }
+          },
+          Weapon_LongRange: {
+            grades: {
+              "1": {
+                engineers: [ "The Sarge", "Tod McQuinn" ]
+              },
+              "2": {
+                engineers: [ "The Sarge", "Tod McQuinn" ]
+              },
+              "3": {
+                engineers: [ "The Sarge" ]
+              },
+              "4": {
+                engineers: [ "The Sarge" ]
+              },
+              "5": {
+                engineers: [ "The Sarge" ]
+              }
+            }
+          },
+          Weapon_Overcharged: {
+            grades: {
+              "1": {
+                engineers: [ "The Sarge", "Tod McQuinn" ]
+              },
+              "2": {
+                engineers: [ "The Sarge", "Tod McQuinn" ]
+              },
+              "3": {
+                engineers: [ "The Sarge" ]
+              },
+              "4": {
+                engineers: [ "The Sarge" ]
+              },
+              "5": {
+                engineers: [ "The Sarge" ]
+              }
+            }
+          },
+          Weapon_ShortRange: {
+            grades: {
+              "1": {
+                engineers: [ "The Sarge", "Tod McQuinn" ]
+              },
+              "2": {
+                engineers: [ "The Sarge", "Tod McQuinn" ]
+              },
+              "3": {
+                engineers: [ "The Sarge" ]
+              },
+              "4": {
+                engineers: [ "The Sarge" ]
+              },
+              "5": {
+                engineers: [ "The Sarge" ]
+              }
+            }
+          },
+          Weapon_Sturdy: {
+            grades: {
+              "1": {
+                engineers: [ "The Sarge", "Tod McQuinn" ]
+              },
+              "2": {
+                engineers: [ "The Sarge", "Tod McQuinn" ]
+              },
+              "3": {
+                engineers: [ "The Sarge" ]
+              },
+              "4": {
+                engineers: [ "The Sarge" ]
+              },
+              "5": {
+                engineers: [ "The Sarge" ]
+              }
+            }
+          }
         },
         modifications: [ "ammo", "clip", "damage", "damagedist", "distdraw", "fallofffromrange", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "thermload" ],
         specials: [ "special_auto_loader", "special_dispersal_field", "special_smart_rounds", "special_force_shell", "special_high_yield_shell", "special_thermal_cascade" ]
       },
       cc: {
         blueprints: {
-          CollectionLimpet_LightWeight: [ 1, 2, 3, 4, 5 ],
-          CollectionLimpet_Reinforced: [ 1, 2, 3, 4, 5 ],
-          CollectionLimpet_Shielded: [ 1, 2, 3, 4, 5 ]
+          CollectionLimpet_LightWeight: {
+            grades: {
+              "1": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "The Sarge", "Tiana Fortune" ]
+              }
+            }
+          },
+          CollectionLimpet_Reinforced: {
+            grades: {
+              "1": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "The Sarge", "Tiana Fortune" ]
+              }
+            }
+          },
+          CollectionLimpet_Shielded: {
+            grades: {
+              "1": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "The Sarge", "Tiana Fortune" ]
+              }
+            }
+          }
         },
         modifications: [ "integrity", "mass", "power" ]
       },
       ch: {
         blueprints: {
-          ChaffLauncher_ChaffCapacity: [ 3 ],
-          ChaffLauncher_LightWeight: [ 1, 2, 3, 4, 5 ],
-          ChaffLauncher_Reinforced: [ 1, 2, 3, 4, 5 ],
-          ChaffLauncher_Shielded: [ 1, 2, 3, 4, 5 ]
+          ChaffLauncher_ChaffCapacity: {
+            grades: {
+              "3": {
+                engineers: [ "Ram Tah" ]
+              }
+            }
+          },
+          ChaffLauncher_LightWeight: {
+            grades: {
+              "1": {
+                engineers: [ "Ram Tah" ]
+              },
+              "2": {
+                engineers: [ "Ram Tah" ]
+              },
+              "3": {
+                engineers: [ "Ram Tah" ]
+              },
+              "4": {
+                engineers: [ "Ram Tah" ]
+              },
+              "5": {
+                engineers: [ "Ram Tah" ]
+              }
+            }
+          },
+          ChaffLauncher_Reinforced: {
+            grades: {
+              "1": {
+                engineers: [ "Ram Tah" ]
+              },
+              "2": {
+                engineers: [ "Ram Tah" ]
+              },
+              "3": {
+                engineers: [ "Ram Tah" ]
+              },
+              "4": {
+                engineers: [ "Ram Tah" ]
+              },
+              "5": {
+                engineers: [ "Ram Tah" ]
+              }
+            }
+          },
+          ChaffLauncher_Shielded: {
+            grades: {
+              "1": {
+                engineers: [ "Ram Tah" ]
+              },
+              "2": {
+                engineers: [ "Ram Tah" ]
+              },
+              "3": {
+                engineers: [ "Ram Tah" ]
+              },
+              "4": {
+                engineers: [ "Ram Tah" ]
+              },
+              "5": {
+                engineers: [ "Ram Tah" ]
+              }
+            }
+          }
         },
         modifications: [ "ammo", "integrity", "mass", "power", "reload" ]
       },
@@ -21680,12 +22204,120 @@ module.exports = {
       },
       cs: {
         blueprints: {
-          Sensor_CargoScanner_FastScan: [ 1, 2, 3, 4, 5 ],
-          CargoScanner_LightWeight: [ 1, 2, 3, 4, 5 ],
-          Sensor_CargoScanner_LongRange: [ 1, 2, 3, 4, 5 ],
-          CargoScanner_Reinforced: [ 1, 2, 3, 4, 5 ],
-          CargoScanner_Shielded: [ 1, 2, 3, 4, 5 ],
-          Sensor_CargoScanner_WideAngle: [ 1, 2, 3, 4, 5 ]
+          Sensor_CargoScanner_FastScan: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              }
+            }
+          },
+          CargoScanner_LightWeight: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "Tiana Fortune" ]
+              }
+            }
+          },
+          Sensor_CargoScanner_LongRange: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              }
+            }
+          },
+          CargoScanner_Reinforced: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "Tiana Fortune" ]
+              }
+            }
+          },
+          CargoScanner_Shielded: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "Tiana Fortune" ]
+              }
+            }
+          },
+          Sensor_CargoScanner_WideAngle: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              }
+            }
+          }
         },
         modifications: [ "integrity", "mass", "power", "angle", "range", "scantime" ]
       },
@@ -21695,22 +22327,220 @@ module.exports = {
       },
       ec: {
         blueprints: {
-          ECM_LightWeight: [ 1, 2, 3, 4, 5 ],
-          ECM_Reinforced: [ 1, 2, 3, 4, 5 ],
-          ECM_Shielded: [ 1, 2, 3, 4, 5 ]
+          ECM_LightWeight: {
+            grades: {
+              "1": {
+                engineers: [ "Ram Tah" ]
+              },
+              "2": {
+                engineers: [ "Ram Tah" ]
+              },
+              "3": {
+                engineers: [ "Ram Tah" ]
+              },
+              "4": {
+                engineers: [ "Ram Tah" ]
+              },
+              "5": {
+                engineers: [ "Ram Tah" ]
+              }
+            }
+          },
+          ECM_Reinforced: {
+            grades: {
+              "1": {
+                engineers: [ "Ram Tah" ]
+              },
+              "2": {
+                engineers: [ "Ram Tah" ]
+              },
+              "3": {
+                engineers: [ "Ram Tah" ]
+              },
+              "4": {
+                engineers: [ "Ram Tah" ]
+              },
+              "5": {
+                engineers: [ "Ram Tah" ]
+              }
+            }
+          },
+          ECM_Shielded: {
+            grades: {
+              "1": {
+                engineers: [ "Ram Tah" ]
+              },
+              "2": {
+                engineers: [ "Ram Tah" ]
+              },
+              "3": {
+                engineers: [ "Ram Tah" ]
+              },
+              "4": {
+                engineers: [ "Ram Tah" ]
+              },
+              "5": {
+                engineers: [ "Ram Tah" ]
+              }
+            }
+          }
         },
         modifications: [ "integrity", "mass", "power" ]
       },
       fc: {
         blueprints: {
-          Weapon_DoubleShot: [ 1, 2, 3, 4, 5 ],
-          Weapon_Efficient: [ 1, 2, 3, 4, 5 ],
-          Weapon_HighCapacity: [ 1, 2, 3, 4, 5 ],
-          Weapon_LightWeight: [ 1, 2, 3, 4, 5 ],
-          Weapon_LongRange: [ 1, 2, 3, 4, 5 ],
-          Weapon_Overcharged: [ 1, 2, 3, 4, 5 ],
-          Weapon_RapidFire: [ 1, 2, 3, 4, 5 ],
-          Weapon_Sturdy: [ 1, 2, 3, 4, 5 ]
+          Weapon_DoubleShot: {
+            grades: {
+              "1": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "2": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "3": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "4": {
+                engineers: [ "Zacariah Nemo" ]
+              },
+              "5": {
+                engineers: [ "Zacariah Nemo" ]
+              }
+            }
+          },
+          Weapon_Efficient: {
+            grades: {
+              "1": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "2": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "3": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "4": {
+                engineers: [ "Zacariah Nemo" ]
+              },
+              "5": {
+                engineers: [ "Zacariah Nemo" ]
+              }
+            }
+          },
+          Weapon_HighCapacity: {
+            grades: {
+              "1": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "2": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "3": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "4": {
+                engineers: [ "Zacariah Nemo" ]
+              },
+              "5": {
+                engineers: [ "Zacariah Nemo" ]
+              }
+            }
+          },
+          Weapon_LightWeight: {
+            grades: {
+              "1": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "2": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "3": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "4": {
+                engineers: [ "Zacariah Nemo" ]
+              },
+              "5": {
+                engineers: [ "Zacariah Nemo" ]
+              }
+            }
+          },
+          Weapon_LongRange: {
+            grades: {
+              "1": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "2": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "3": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "4": {
+                engineers: [ "Zacariah Nemo" ]
+              },
+              "5": {
+                engineers: [ "Zacariah Nemo" ]
+              }
+            }
+          },
+          Weapon_Overcharged: {
+            grades: {
+              "1": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "2": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "3": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "4": {
+                engineers: [ "Zacariah Nemo" ]
+              },
+              "5": {
+                engineers: [ "Zacariah Nemo" ]
+              }
+            }
+          },
+          Weapon_RapidFire: {
+            grades: {
+              "1": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "2": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "3": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "4": {
+                engineers: [ "Zacariah Nemo" ]
+              },
+              "5": {
+                engineers: [ "Zacariah Nemo" ]
+              }
+            }
+          },
+          Weapon_Sturdy: {
+            grades: {
+              "1": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "2": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "3": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "4": {
+                engineers: [ "Zacariah Nemo" ]
+              },
+              "5": {
+                engineers: [ "Zacariah Nemo" ]
+              }
+            }
+          }
         },
         modifications: [ "ammo", "burst", "burstrof", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "thermload" ],
         specials: [ "special_corrosive_shell", "special_blinding_shell", "special_incendiary_rounds", "special_drag_munitions", "special_screening_shell" ]
@@ -21721,22 +22551,118 @@ module.exports = {
       },
       fi: {
         blueprints: {
-          FSDinterdictor_Expanded: [ 1, 2, 3, 4 ],
-          FSDinterdictor_LongRange: [ 1, 2, 3 ]
+          FSDinterdictor_Expanded: {
+            grades: {
+              "1": {
+                engineers: [ "Colonel Bris Dekker", "Felicity Farseer", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Colonel Bris Dekker", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Colonel Bris Dekker", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Colonel Bris Dekker" ]
+              }
+            }
+          },
+          FSDinterdictor_LongRange: {
+            grades: {
+              "1": {
+                engineers: [ "Colonel Bris Dekker", "Felicity Farseer", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Colonel Bris Dekker", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Colonel Bris Dekker", "Tiana Fortune" ]
+              }
+            }
+          }
         },
         modifications: [ "boot", "facinglimit", "integrity", "mass", "power", "ranget" ]
       },
       fs: {
         blueprints: {
-          FuelScoop_Shielded: [ 1, 2, 3, 4 ]
+          FuelScoop_Shielded: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Lori Jameson" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Lori Jameson" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner", "Lori Jameson" ]
+              },
+              "4": {
+                engineers: [ "Lori Jameson" ]
+              }
+            }
+          }
         },
         modifications: [ "integrity", "power" ]
       },
       fsd: {
         blueprints: {
-          FSD_FastBoot: [ 1, 2, 3, 4, 5 ],
-          FSD_LongRange: [ 1, 2, 3, 4, 5 ],
-          FSD_Shielded: [ 1, 2, 3, 4, 5 ]
+          FSD_FastBoot: {
+            grades: {
+              "1": {
+                engineers: [ "Colonel Bris Dekker", "Elvira Martuuk", "Felicity Farseer", "Professor Palin" ]
+              },
+              "2": {
+                engineers: [ "Colonel Bris Dekker", "Elvira Martuuk", "Felicity Farseer", "Professor Palin" ]
+              },
+              "3": {
+                engineers: [ "Colonel Bris Dekker", "Elvira Martuuk", "Felicity Farseer", "Professor Palin" ]
+              },
+              "4": {
+                engineers: [ "Elvira Martuuk", "Felicity Farseer" ]
+              },
+              "5": {
+                engineers: [ "Elvira Martuuk", "Felicity Farseer" ]
+              }
+            }
+          },
+          FSD_LongRange: {
+            grades: {
+              "1": {
+                engineers: [ "Colonel Bris Dekker", "Elvira Martuuk", "Felicity Farseer", "Professor Palin" ]
+              },
+              "2": {
+                engineers: [ "Colonel Bris Dekker", "Elvira Martuuk", "Felicity Farseer", "Professor Palin" ]
+              },
+              "3": {
+                engineers: [ "Colonel Bris Dekker", "Elvira Martuuk", "Felicity Farseer", "Professor Palin" ]
+              },
+              "4": {
+                engineers: [ "Elvira Martuuk", "Felicity Farseer" ]
+              },
+              "5": {
+                engineers: [ "Elvira Martuuk", "Felicity Farseer" ]
+              }
+            }
+          },
+          FSD_Shielded: {
+            grades: {
+              "1": {
+                engineers: [ "Colonel Bris Dekker", "Elvira Martuuk", "Felicity Farseer", "Professor Palin" ]
+              },
+              "2": {
+                engineers: [ "Colonel Bris Dekker", "Elvira Martuuk", "Felicity Farseer", "Professor Palin" ]
+              },
+              "3": {
+                engineers: [ "Colonel Bris Dekker", "Elvira Martuuk", "Felicity Farseer", "Professor Palin" ]
+              },
+              "4": {
+                engineers: [ "Elvira Martuuk", "Felicity Farseer" ]
+              },
+              "5": {
+                engineers: [ "Elvira Martuuk", "Felicity Farseer" ]
+              }
+            }
+          }
         },
         modifications: [ "boot", "integrity", "mass", "maxfuel", "optmass", "power", "thermload" ]
       },
@@ -21746,68 +22672,604 @@ module.exports = {
       },
       fx: {
         blueprints: {
-          FuelTransferLimpet_LightWeight: [ 1, 2, 3, 4, 5 ],
-          FuelTransferLimpet_Reinforced: [ 1, 2, 3, 4, 5 ],
-          FuelTransferLimpet_Shielded: [ 1, 2, 3, 4, 5 ]
+          FuelTransferLimpet_LightWeight: {
+            grades: {
+              "1": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "The Sarge", "Tiana Fortune" ]
+              }
+            }
+          },
+          FuelTransferLimpet_Reinforced: {
+            grades: {
+              "1": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "The Sarge", "Tiana Fortune" ]
+              }
+            }
+          },
+          FuelTransferLimpet_Shielded: {
+            grades: {
+              "1": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "The Sarge", "Tiana Fortune" ]
+              }
+            }
+          }
         },
         modifications: [ "integrity", "mass", "power" ]
       },
       hb: {
         blueprints: {
-          HatchBreakerLimpet_LightWeight: [ 1, 2, 3, 4, 5 ],
-          HatchBreakerLimpet_Reinforced: [ 1, 2, 3, 4, 5 ],
-          HatchBreakerLimpet_Shielded: [ 1, 2, 3, 4, 5 ]
+          HatchBreakerLimpet_LightWeight: {
+            grades: {
+              "1": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "The Sarge", "Tiana Fortune" ]
+              }
+            }
+          },
+          HatchBreakerLimpet_Reinforced: {
+            grades: {
+              "1": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "The Sarge", "Tiana Fortune" ]
+              }
+            }
+          },
+          HatchBreakerLimpet_Shielded: {
+            grades: {
+              "1": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "The Sarge", "Tiana Fortune" ]
+              }
+            }
+          }
         },
         modifications: [ "integrity", "mass", "power" ]
       },
       hr: {
         blueprints: {
-          HullReinforcement_Advanced: [ 1, 2, 3, 4, 5 ],
-          HullReinforcement_Explosive: [ 1, 2, 3, 4, 5 ],
-          HullReinforcement_HeavyDuty: [ 1, 2, 3, 4, 5 ],
-          HullReinforcement_Kinetic: [ 1, 2, 3, 4, 5 ],
-          HullReinforcement_Thermic: [ 1, 2, 3, 4, 5 ]
+          HullReinforcement_Advanced: {
+            grades: {
+              "1": {
+                engineers: [ "Liz Ryder", "Selene Jean" ]
+              },
+              "2": {
+                engineers: [ "Selene Jean" ]
+              },
+              "3": {
+                engineers: [ "Selene Jean" ]
+              },
+              "4": {
+                engineers: [ "Selene Jean" ]
+              },
+              "5": {
+                engineers: [ "Selene Jean" ]
+              }
+            }
+          },
+          HullReinforcement_Explosive: {
+            grades: {
+              "1": {
+                engineers: [ "Liz Ryder", "Selene Jean" ]
+              },
+              "2": {
+                engineers: [ "Selene Jean" ]
+              },
+              "3": {
+                engineers: [ "Selene Jean" ]
+              },
+              "4": {
+                engineers: [ "Selene Jean" ]
+              },
+              "5": {
+                engineers: [ "Selene Jean" ]
+              }
+            }
+          },
+          HullReinforcement_HeavyDuty: {
+            grades: {
+              "1": {
+                engineers: [ "Liz Ryder", "Selene Jean" ]
+              },
+              "2": {
+                engineers: [ "Selene Jean" ]
+              },
+              "3": {
+                engineers: [ "Selene Jean" ]
+              },
+              "4": {
+                engineers: [ "Selene Jean" ]
+              },
+              "5": {
+                engineers: [ "Selene Jean" ]
+              }
+            }
+          },
+          HullReinforcement_Kinetic: {
+            grades: {
+              "1": {
+                engineers: [ "Liz Ryder", "Selene Jean" ]
+              },
+              "2": {
+                engineers: [ "Selene Jean" ]
+              },
+              "3": {
+                engineers: [ "Selene Jean" ]
+              },
+              "4": {
+                engineers: [ "Selene Jean" ]
+              },
+              "5": {
+                engineers: [ "Selene Jean" ]
+              }
+            }
+          },
+          HullReinforcement_Thermic: {
+            grades: {
+              "1": {
+                engineers: [ "Liz Ryder", "Selene Jean" ]
+              },
+              "2": {
+                engineers: [ "Selene Jean" ]
+              },
+              "3": {
+                engineers: [ "Selene Jean" ]
+              },
+              "4": {
+                engineers: [ "Selene Jean" ]
+              },
+              "5": {
+                engineers: [ "Selene Jean" ]
+              }
+            }
+          }
         },
         modifications: [ "hullreinforcement", "explres", "hullboost", "kinres", "mass", "thermres" ]
       },
       hs: {
         blueprints: {
-          HeatSinkLauncher_HeatSinkCapacity: [ 3 ],
-          HeatSinkLauncher_LightWeight: [ 1, 2, 3, 4, 5 ],
-          HeatSinkLauncher_Reinforced: [ 1, 2, 3, 4, 5 ],
-          HeatSinkLauncher_Shielded: [ 1, 2, 3, 4, 5 ]
+          HeatSinkLauncher_HeatSinkCapacity: {
+            grades: {
+              "3": {
+                engineers: [ "Ram Tah" ]
+              }
+            }
+          },
+          HeatSinkLauncher_LightWeight: {
+            grades: {
+              "1": {
+                engineers: [ "Ram Tah" ]
+              },
+              "2": {
+                engineers: [ "Ram Tah" ]
+              },
+              "3": {
+                engineers: [ "Ram Tah" ]
+              },
+              "4": {
+                engineers: [ "Ram Tah" ]
+              },
+              "5": {
+                engineers: [ "Ram Tah" ]
+              }
+            }
+          },
+          HeatSinkLauncher_Reinforced: {
+            grades: {
+              "1": {
+                engineers: [ "Ram Tah" ]
+              },
+              "2": {
+                engineers: [ "Ram Tah" ]
+              },
+              "3": {
+                engineers: [ "Ram Tah" ]
+              },
+              "4": {
+                engineers: [ "Ram Tah" ]
+              },
+              "5": {
+                engineers: [ "Ram Tah" ]
+              }
+            }
+          },
+          HeatSinkLauncher_Shielded: {
+            grades: {
+              "1": {
+                engineers: [ "Ram Tah" ]
+              },
+              "2": {
+                engineers: [ "Ram Tah" ]
+              },
+              "3": {
+                engineers: [ "Ram Tah" ]
+              },
+              "4": {
+                engineers: [ "Ram Tah" ]
+              },
+              "5": {
+                engineers: [ "Ram Tah" ]
+              }
+            }
+          }
         },
         modifications: [ "ammo", "integrity", "mass", "power", "reload" ]
       },
       kw: {
         blueprints: {
-          Sensor_KillWarrantScanner_FastScan: [ 1, 2, 3, 4, 5 ],
-          KillWarrantScanner_LightWeight: [ 1, 2, 3, 4, 5 ],
-          KillWarrantScanner_LongRange: [ 1, 2, 3, 4, 5 ],
-          KillWarrantScanner_Reinforced: [ 1, 2, 3, 4, 5 ],
-          KillWarrantScanner_Shielded: [ 1, 2, 3, 4, 5 ],
-          Sensor_KillWarrantScanner_WideAngle: [ 1, 2, 3, 4, 5 ]
+          Sensor_KillWarrantScanner_FastScan: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              }
+            }
+          },
+          KillWarrantScanner_LightWeight: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "Tiana Fortune" ]
+              }
+            }
+          },
+          KillWarrantScanner_LongRange: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              }
+            }
+          },
+          KillWarrantScanner_Reinforced: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "Tiana Fortune" ]
+              }
+            }
+          },
+          KillWarrantScanner_Shielded: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "Tiana Fortune" ]
+              }
+            }
+          },
+          Sensor_KillWarrantScanner_WideAngle: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              }
+            }
+          }
         },
         modifications: [ "integrity", "mass", "power", "angle", "range", "scantime" ]
       },
       ls: {
         blueprints: {
-          LifeSupport_LightWeight: [ 1, 2, 3, 4 ],
-          LifeSupport_Reinforced: [ 1, 2, 3, 4 ],
-          LifeSupport_Shielded: [ 1, 2, 3, 4 ]
+          LifeSupport_LightWeight: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Lori Jameson" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Lori Jameson" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner", "Lori Jameson" ]
+              },
+              "4": {
+                engineers: [ "Lori Jameson" ]
+              }
+            }
+          },
+          LifeSupport_Reinforced: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Lori Jameson" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Lori Jameson" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner", "Lori Jameson" ]
+              },
+              "4": {
+                engineers: [ "Lori Jameson" ]
+              }
+            }
+          },
+          LifeSupport_Shielded: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Lori Jameson" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Lori Jameson" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner", "Lori Jameson" ]
+              },
+              "4": {
+                engineers: [ "Lori Jameson" ]
+              }
+            }
+          }
         },
         modifications: [ "boot", "integrity", "mass", "power" ]
       },
       mc: {
         blueprints: {
-          Weapon_Efficient: [ 1, 2, 3, 4, 5 ],
-          Weapon_HighCapacity: [ 1, 2, 3, 4, 5 ],
-          Weapon_LightWeight: [ 1, 2, 3, 4, 5 ],
-          Weapon_LongRange: [ 1, 2, 3, 4, 5 ],
-          Weapon_Overcharged: [ 1, 2, 3, 4, 5 ],
-          Weapon_RapidFire: [ 1, 2, 3, 4, 5 ],
-          Weapon_ShortRange: [ 1, 2, 3, 4, 5 ],
-          Weapon_Sturdy: [ 1, 2, 3, 4, 5 ]
+          Weapon_Efficient: {
+            grades: {
+              "1": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "2": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "3": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "4": {
+                engineers: [ "Tod McQuinn" ]
+              },
+              "5": {
+                engineers: [ "Tod McQuinn" ]
+              }
+            }
+          },
+          Weapon_HighCapacity: {
+            grades: {
+              "1": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "2": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "3": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "4": {
+                engineers: [ "Tod McQuinn" ]
+              },
+              "5": {
+                engineers: [ "Tod McQuinn" ]
+              }
+            }
+          },
+          Weapon_LightWeight: {
+            grades: {
+              "1": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "2": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "3": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "4": {
+                engineers: [ "Tod McQuinn" ]
+              },
+              "5": {
+                engineers: [ "Tod McQuinn" ]
+              }
+            }
+          },
+          Weapon_Overcharged: {
+            grades: {
+              "1": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "2": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "3": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "4": {
+                engineers: [ "Tod McQuinn" ]
+              },
+              "5": {
+                engineers: [ "Tod McQuinn" ]
+              }
+            }
+          },
+          Weapon_RapidFire: {
+            grades: {
+              "1": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "2": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "3": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "4": {
+                engineers: [ "Tod McQuinn" ]
+              },
+              "5": {
+                engineers: [ "Tod McQuinn" ]
+              }
+            }
+          },
+          Weapon_ShortRange: {
+            grades: {
+              "1": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "2": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "3": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "4": {
+                engineers: [ "Tod McQuinn" ]
+              },
+              "5": {
+                engineers: [ "Tod McQuinn" ]
+              }
+            }
+          },
+          Weapon_Sturdy: {
+            grades: {
+              "1": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "2": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "3": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "4": {
+                engineers: [ "Tod McQuinn" ]
+              },
+              "5": {
+                engineers: [ "Tod McQuinn" ]
+              }
+            }
+          }
         },
         modifications: [ "ammo", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "thermload" ],
         specials: [ "special_auto_loader", "special_corrosive_shell", "special_emissive_munitions", "special_incendiary_rounds", "special_smart_rounds", "special_thermalshock" ]
@@ -21818,10 +23280,82 @@ module.exports = {
       },
       mr: {
         blueprints: {
-          Weapon_HighCapacity: [ 1, 2, 3, 4, 5 ],
-          Weapon_LightWeight: [ 1, 2, 3, 4, 5 ],
-          Weapon_RapidFire: [ 1, 2, 3, 4, 5 ],
-          Weapon_Sturdy: [ 1, 2, 3, 4, 5 ]
+          Weapon_HighCapacity: {
+            grades: {
+              "1": {
+                engineers: [ "Juri Ishmaak", "Liz Ryder" ]
+              },
+              "2": {
+                engineers: [ "Juri Ishmaak", "Liz Ryder" ]
+              },
+              "3": {
+                engineers: [ "Juri Ishmaak", "Liz Ryder" ]
+              },
+              "4": {
+                engineers: [ "Liz Ryder" ]
+              },
+              "5": {
+                engineers: [ "Liz Ryder" ]
+              }
+            }
+          },
+          Weapon_LightWeight: {
+            grades: {
+              "1": {
+                engineers: [ "Juri Ishmaak", "Liz Ryder" ]
+              },
+              "2": {
+                engineers: [ "Juri Ishmaak", "Liz Ryder" ]
+              },
+              "3": {
+                engineers: [ "Juri Ishmaak", "Liz Ryder" ]
+              },
+              "4": {
+                engineers: [ "Liz Ryder" ]
+              },
+              "5": {
+                engineers: [ "Liz Ryder" ]
+              }
+            }
+          },
+          Weapon_RapidFire: {
+            grades: {
+              "1": {
+                engineers: [ "Juri Ishmaak", "Liz Ryder" ]
+              },
+              "2": {
+                engineers: [ "Juri Ishmaak", "Liz Ryder" ]
+              },
+              "3": {
+                engineers: [ "Juri Ishmaak", "Liz Ryder" ]
+              },
+              "4": {
+                engineers: [ "Liz Ryder" ]
+              },
+              "5": {
+                engineers: [ "Liz Ryder" ]
+              }
+            }
+          },
+          Weapon_Sturdy: {
+            grades: {
+              "1": {
+                engineers: [ "Juri Ishmaak", "Liz Ryder" ]
+              },
+              "2": {
+                engineers: [ "Juri Ishmaak", "Liz Ryder" ]
+              },
+              "3": {
+                engineers: [ "Juri Ishmaak", "Liz Ryder" ]
+              },
+              "4": {
+                engineers: [ "Liz Ryder" ]
+              },
+              "5": {
+                engineers: [ "Liz Ryder" ]
+              }
+            }
+          }
         },
         modifications: [ "ammo", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "reload", "rof", "thermload" ],
         specials: [ "special_drag_munitions", "special_emissive_munitions", "special_overload_munitions", "special_penetrator_payload", "special_thermal_cascade" ]
@@ -21832,24 +23366,240 @@ module.exports = {
       },
       nl: {
         blueprints: {
-          Weapon_HighCapacity: [ 1, 2, 3, 4, 5 ],
-          Weapon_LightWeight: [ 1, 2, 3, 4, 5 ],
-          Weapon_RapidFire: [ 1, 2, 3, 4, 5 ],
-          Weapon_Sturdy: [ 1, 2, 3, 4, 5 ]
+          Weapon_HighCapacity: {
+            grades: {
+              "1": {
+                engineers: [ "Juri Ishmaak", "Liz Ryder" ]
+              },
+              "2": {
+                engineers: [ "Juri Ishmaak", "Liz Ryder" ]
+              },
+              "3": {
+                engineers: [ "Juri Ishmaak", "Liz Ryder" ]
+              },
+              "4": {
+                engineers: [ "Juri Ishmaak" ]
+              },
+              "5": {
+                engineers: [ "Juri Ishmaak" ]
+              }
+            }
+          },
+          Weapon_LightWeight: {
+            grades: {
+              "1": {
+                engineers: [ "Juri Ishmaak", "Liz Ryder" ]
+              },
+              "2": {
+                engineers: [ "Juri Ishmaak", "Liz Ryder" ]
+              },
+              "3": {
+                engineers: [ "Juri Ishmaak", "Liz Ryder" ]
+              },
+              "4": {
+                engineers: [ "Juri Ishmaak" ]
+              },
+              "5": {
+                engineers: [ "Juri Ishmaak" ]
+              }
+            }
+          },
+          Weapon_RapidFire: {
+            grades: {
+              "1": {
+                engineers: [ "Juri Ishmaak", "Liz Ryder" ]
+              },
+              "2": {
+                engineers: [ "Juri Ishmaak", "Liz Ryder" ]
+              },
+              "3": {
+                engineers: [ "Juri Ishmaak", "Liz Ryder" ]
+              },
+              "4": {
+                engineers: [ "Juri Ishmaak" ]
+              },
+              "5": {
+                engineers: [ "Juri Ishmaak" ]
+              }
+            }
+          },
+          Weapon_Sturdy: {
+            grades: {
+              "1": {
+                engineers: [ "Juri Ishmaak", "Liz Ryder" ]
+              },
+              "2": {
+                engineers: [ "Juri Ishmaak", "Liz Ryder" ]
+              },
+              "3": {
+                engineers: [ "Juri Ishmaak", "Liz Ryder" ]
+              },
+              "4": {
+                engineers: [ "Juri Ishmaak" ]
+              },
+              "5": {
+                engineers: [ "Juri Ishmaak" ]
+              }
+            }
+          }
         },
         modifications: [ "ammo", "boot", "clip", "damage", "damagedist", "fallofffromrange", "integrity", "jitter", "mass", "piercing", "power", "reload", "rof", "thermload" ],
         specials: [ "special_ion_disruptor", "special_overload_munitions", "special_radiant_canister", "special_reverberating_cascade", "special_shiftlock_canister", "special_emissive_munitions" ]
       },
       pa: {
         blueprints: {
-          Weapon_Efficient: [ 1, 2, 3, 4, 5 ],
-          Weapon_Focused: [ 1, 2, 3, 4, 5 ],
-          Weapon_LightWeight: [ 1, 2, 3, 4, 5 ],
-          Weapon_LongRange: [ 1, 2, 3, 4, 5 ],
-          Weapon_Overcharged: [ 1, 2, 3, 4, 5 ],
-          Weapon_RapidFire: [ 1, 2, 3, 4, 5 ],
-          Weapon_ShortRange: [ 1, 2, 3, 4, 5 ],
-          Weapon_Sturdy: [ 1, 2, 3, 4, 5 ]
+          Weapon_Efficient: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Zacariah Nemo" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Zacariah Nemo" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner" ]
+              },
+              "4": {
+                engineers: [ "Bill Turner" ]
+              },
+              "5": {
+                engineers: [ "Bill Turner" ]
+              }
+            }
+          },
+          Weapon_Focused: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Zacariah Nemo" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Zacariah Nemo" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner" ]
+              },
+              "4": {
+                engineers: [ "Bill Turner" ]
+              },
+              "5": {
+                engineers: [ "Bill Turner" ]
+              }
+            }
+          },
+          Weapon_LightWeight: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Zacariah Nemo" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Zacariah Nemo" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner" ]
+              },
+              "4": {
+                engineers: [ "Bill Turner" ]
+              },
+              "5": {
+                engineers: [ "Bill Turner" ]
+              }
+            }
+          },
+          Weapon_LongRange: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Zacariah Nemo" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Zacariah Nemo" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner" ]
+              },
+              "4": {
+                engineers: [ "Bill Turner" ]
+              },
+              "5": {
+                engineers: [ "Bill Turner" ]
+              }
+            }
+          },
+          Weapon_Overcharged: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Zacariah Nemo" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Zacariah Nemo" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner" ]
+              },
+              "4": {
+                engineers: [ "Bill Turner" ]
+              },
+              "5": {
+                engineers: [ "Bill Turner" ]
+              }
+            }
+          },
+          Weapon_RapidFire: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Zacariah Nemo" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Zacariah Nemo" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner" ]
+              },
+              "4": {
+                engineers: [ "Bill Turner" ]
+              },
+              "5": {
+                engineers: [ "Bill Turner" ]
+              }
+            }
+          },
+          Weapon_ShortRange: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Zacariah Nemo" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Zacariah Nemo" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner" ]
+              },
+              "4": {
+                engineers: [ "Bill Turner" ]
+              },
+              "5": {
+                engineers: [ "Bill Turner" ]
+              }
+            }
+          },
+          Weapon_Sturdy: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Zacariah Nemo" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Zacariah Nemo" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner" ]
+              },
+              "4": {
+                engineers: [ "Bill Turner" ]
+              },
+              "5": {
+                engineers: [ "Bill Turner" ]
+              }
+            }
+          }
         },
         modifications: [ "ammo", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "thermload" ],
         specials: [ "special_blinding_shell", "special_dispersal_field", "special_phasing_sequence", "special_plasma_slug", "special_lock_breaker", "special_thermal_conduit" ]
@@ -21860,9 +23610,63 @@ module.exports = {
       },
       pc: {
         blueprints: {
-          ProspectingLimpet_LightWeight: [ 1, 2, 3, 4, 5 ],
-          ProspectingLimpet_Reinforced: [ 1, 2, 3, 4, 5 ],
-          ProspectingLimpet_Shielded: [ 1, 2, 3, 4, 5 ]
+          ProspectingLimpet_LightWeight: {
+            grades: {
+              "1": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "The Sarge", "Tiana Fortune" ]
+              }
+            }
+          },
+          ProspectingLimpet_Reinforced: {
+            grades: {
+              "1": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "The Sarge", "Tiana Fortune" ]
+              }
+            }
+          },
+          ProspectingLimpet_Shielded: {
+            grades: {
+              "1": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "The Sarge", "Tiana Fortune" ]
+              }
+            }
+          }
         },
         modifications: [ "integrity", "mass", "power" ]
       },
@@ -21884,25 +23688,259 @@ module.exports = {
       },
       pd: {
         blueprints: {
-          PowerDistributor_HighFrequency: [ 1, 2, 3, 4, 5 ],
-          PowerDistributor_PriorityEngines: [ 1, 2, 3 ],
-          PowerDistributor_HighCapacity: [ 1, 2, 3, 4, 5 ],
-          PowerDistributor_Shielded: [ 1, 2, 3, 4, 5 ],
-          PowerDistributor_PrioritySystems: [ 1, 2, 3 ],
-          PowerDistributor_PriorityWeapons: [ 1, 2, 3 ]
+          PowerDistributor_HighFrequency: {
+            grades: {
+              "1": {
+                engineers: [ "Hera Tani", "Marco Qwent", "The Dweller" ]
+              },
+              "2": {
+                engineers: [ "Hera Tani", "Marco Qwent", "The Dweller" ]
+              },
+              "3": {
+                engineers: [ "Hera Tani", "Marco Qwent", "The Dweller" ]
+              },
+              "4": {
+                engineers: [ "The Dweller" ]
+              },
+              "5": {
+                engineers: [ "The Dweller" ]
+              }
+            }
+          },
+          PowerDistributor_PriorityEngines: {
+            grades: {
+              "1": {
+                engineers: [ "Hera Tani", "Marco Qwent", "The Dweller" ]
+              },
+              "2": {
+                engineers: [ "Hera Tani", "Marco Qwent", "The Dweller" ]
+              },
+              "3": {
+                engineers: [ "Hera Tani", "Marco Qwent", "The Dweller" ]
+              }
+            }
+          },
+          PowerDistributor_HighCapacity: {
+            grades: {
+              "1": {
+                engineers: [ "Hera Tani", "Marco Qwent", "The Dweller" ]
+              },
+              "2": {
+                engineers: [ "Hera Tani", "Marco Qwent", "The Dweller" ]
+              },
+              "3": {
+                engineers: [ "Hera Tani", "Marco Qwent", "The Dweller" ]
+              },
+              "4": {
+                engineers: [ "The Dweller" ]
+              },
+              "5": {
+                engineers: [ "The Dweller" ]
+              }
+            }
+          },
+          PowerDistributor_Shielded: {
+            grades: {
+              "1": {
+                engineers: [ "Hera Tani", "Marco Qwent", "The Dweller" ]
+              },
+              "2": {
+                engineers: [ "Hera Tani", "Marco Qwent", "The Dweller" ]
+              },
+              "3": {
+                engineers: [ "Hera Tani", "Marco Qwent", "The Dweller" ]
+              },
+              "4": {
+                engineers: [ "The Dweller" ]
+              },
+              "5": {
+                engineers: [ "The Dweller" ]
+              }
+            }
+          },
+          PowerDistributor_PrioritySystems: {
+            grades: {
+              "1": {
+                engineers: [ "Hera Tani", "Marco Qwent", "The Dweller" ]
+              },
+              "2": {
+                engineers: [ "Hera Tani", "Marco Qwent", "The Dweller" ]
+              },
+              "3": {
+                engineers: [ "Hera Tani", "Marco Qwent", "The Dweller" ]
+              }
+            }
+          },
+          PowerDistributor_PriorityWeapons: {
+            grades: {
+              "1": {
+                engineers: [ "Hera Tani", "Marco Qwent", "The Dweller" ]
+              },
+              "2": {
+                engineers: [ "Hera Tani", "Marco Qwent", "The Dweller" ]
+              },
+              "3": {
+                engineers: [ "Hera Tani", "Marco Qwent", "The Dweller" ]
+              }
+            }
+          }
         },
         modifications: [ "boot", "engcap", "engrate", "integrity", "mass", "power", "syscap", "sysrate", "wepcap", "weprate" ]
       },
       pl: {
         blueprints: {
-          Weapon_Efficient: [ 1, 2, 3, 4, 5 ],
-          Weapon_Focused: [ 1, 2, 3, 4, 5 ],
-          Weapon_LightWeight: [ 1, 2, 3, 4, 5 ],
-          Weapon_LongRange: [ 1, 2, 3, 4, 5 ],
-          Weapon_Overcharged: [ 1, 2, 3, 4, 5 ],
-          Weapon_RapidFire: [ 1, 2, 3, 4, 5 ],
-          Weapon_ShortRange: [ 1, 2, 3, 4, 5 ],
-          Weapon_Sturdy: [ 1, 2, 3, 4, 5 ]
+          Weapon_Efficient: {
+            grades: {
+              "1": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "2": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "3": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "4": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "5": {
+                engineers: [ "Broo Tarquin" ]
+              }
+            }
+          },
+          Weapon_Focused: {
+            grades: {
+              "1": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "2": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "3": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "4": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "5": {
+                engineers: [ "Broo Tarquin" ]
+              }
+            }
+          },
+          Weapon_LightWeight: {
+            grades: {
+              "1": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "2": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "3": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "4": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "5": {
+                engineers: [ "Broo Tarquin" ]
+              }
+            }
+          },
+          Weapon_LongRange: {
+            grades: {
+              "1": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "2": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "3": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "4": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "5": {
+                engineers: [ "Broo Tarquin" ]
+              }
+            }
+          },
+          Weapon_Overcharged: {
+            grades: {
+              "1": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "2": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "3": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "4": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "5": {
+                engineers: [ "Broo Tarquin" ]
+              }
+            }
+          },
+          Weapon_RapidFire: {
+            grades: {
+              "1": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "2": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "3": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "4": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "5": {
+                engineers: [ "Broo Tarquin" ]
+              }
+            }
+          },
+          Weapon_ShortRange: {
+            grades: {
+              "1": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "2": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "3": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "4": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "5": {
+                engineers: [ "Broo Tarquin" ]
+              }
+            }
+          },
+          Weapon_Sturdy: {
+            grades: {
+              "1": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "2": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "3": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "4": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "5": {
+                engineers: [ "Broo Tarquin" ]
+              }
+            }
+          }
         },
         modifications: [ "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "rof", "thermload" ],
         specials: [ "special_concordant_sequence", "special_emissive_munitions", "special_phasing_sequence", "special_scramble_spectrum", "special_thermalshock" ]
@@ -21910,26 +23948,207 @@ module.exports = {
       po: {
         blueprints: {
           PointDefence_PointDefenseCapacity: [ 3 ],
-          PointDefence_LightWeight: [ 1, 2, 3, 4, 5 ],
-          PointDefence_Reinforced: [ 1, 2, 3, 4, 5 ],
-          PointDefence_Shielded: [ 1, 2, 3, 4, 5 ]
+          HeatSinkLauncher_Shielded: {
+            grades: {
+              "3": {
+                engineers: [ "Ram Tah" ]
+              }
+            }
+          },
+          PointDefence_LightWeight: {
+            grades: {
+              "1": {
+                engineers: [ "Ram Tah" ]
+              },
+              "2": {
+                engineers: [ "Ram Tah" ]
+              },
+              "3": {
+                engineers: [ "Ram Tah" ]
+              },
+              "4": {
+                engineers: [ "Ram Tah" ]
+              },
+              "5": {
+                engineers: [ "Ram Tah" ]
+              }
+            }
+          },
+          PointDefence_Reinforced: {
+            grades: {
+              "1": {
+                engineers: [ "Ram Tah" ]
+              },
+              "2": {
+                engineers: [ "Ram Tah" ]
+              },
+              "3": {
+                engineers: [ "Ram Tah" ]
+              },
+              "4": {
+                engineers: [ "Ram Tah" ]
+              },
+              "5": {
+                engineers: [ "Ram Tah" ]
+              }
+            }
+          },
+          PointDefence_Shielded: {
+            grades: {
+              "1": {
+                engineers: [ "Ram Tah" ]
+              },
+              "2": {
+                engineers: [ "Ram Tah" ]
+              },
+              "3": {
+                engineers: [ "Ram Tah" ]
+              },
+              "4": {
+                engineers: [ "Ram Tah" ]
+              },
+              "5": {
+                engineers: [ "Ram Tah" ]
+              }
+            }
+          }
         },
         modifications: [ "ammo", "integrity", "mass", "power", "reload" ]
       },
       pp: {
         blueprints: {
-          PowerPlant_Armoured: [ 1, 2, 3, 4, 5 ],
-          PowerPlant_Stealth: [ 1, 2, 3 ],
-          PowerPlant_Boosted: [ 1, 2, 3, 4, 5 ]
+          PowerPlant_Armoured: {
+            grades: {
+              "1": {
+                engineers: [ "Felicity Farseer", "Hera Tani", "Marco Qwent" ]
+              },
+              "2": {
+                engineers: [ "Hera Tani", "Marco Qwent" ]
+              },
+              "3": {
+                engineers: [ "Hera Tani", "Marco Qwent" ]
+              },
+              "4": {
+                engineers: [ "Hera Tani", "Marco Qwent" ]
+              },
+              "5": {
+                engineers: [ "Hera Tani" ]
+              }
+            }
+          },
+          PowerPlant_Stealth: {
+            grades: {
+              "1": {
+                engineers: [ "Felicity Farseer", "Hera Tani", "Marco Qwent" ]
+              },
+              "2": {
+                engineers: [ "Hera Tani", "Marco Qwent" ]
+              },
+              "3": {
+                engineers: [ "Hera Tani", "Marco Qwent" ]
+              }
+            }
+          },
+          PowerPlant_Boosted: {
+            grades: {
+              "1": {
+                engineers: [ "Felicity Farseer", "Hera Tani", "Marco Qwent" ]
+              },
+              "2": {
+                engineers: [ "Hera Tani", "Marco Qwent" ]
+              },
+              "3": {
+                engineers: [ "Hera Tani", "Marco Qwent" ]
+              },
+              "4": {
+                engineers: [ "Hera Tani", "Marco Qwent" ]
+              },
+              "5": {
+                engineers: [ "Hera Tani" ]
+              }
+            }
+          }
         },
         modifications: [ "eff", "integrity", "mass", "pgen" ]
       },
       psg: {
         blueprints: {
-          ShieldGenerator_Kinetic: [ 1, 2, 3, 4, 5 ],
-          ShieldGenerator_Optimised: [ 1, 2, 3, 4, 5 ],
-          ShieldGenerator_Reinforced: [ 1, 2, 3, 4, 5 ],
-          ShieldGenerator_Thermic: [ 1, 2, 3, 4, 5 ]
+          ShieldGenerator_Kinetic: {
+            grades: {
+              "1": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "2": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "3": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "4": {
+                engineers: [ "Lei Cheung" ]
+              },
+              "5": {
+                engineers: [ "Lei Cheung" ]
+              }
+            }
+          },
+          ShieldGenerator_Optimised: {
+            grades: {
+              "1": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "2": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "3": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "4": {
+                engineers: [ "Lei Cheung" ]
+              },
+              "5": {
+                engineers: [ "Lei Cheung" ]
+              }
+            }
+          },
+          ShieldGenerator_Reinforced: {
+            grades: {
+              "1": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "2": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "3": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "4": {
+                engineers: [ "Lei Cheung" ]
+              },
+              "5": {
+                engineers: [ "Lei Cheung" ]
+              }
+            }
+          },
+          ShieldGenerator_Thermic: {
+            grades: {
+              "1": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "2": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "3": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "4": {
+                engineers: [ "Lei Cheung" ]
+              },
+              "5": {
+                engineers: [ "Lei Cheung" ]
+              }
+            }
+          }
         },
         modifications: [ "boot", "brokenregen", "distdraw", "explres", "integrity", "kinres", "mass", "optmass", "optmul", "power", "regen", "thermload", "thermres" ]
       },
@@ -21939,36 +24158,285 @@ module.exports = {
       },
       rf: {
         blueprints: {
-          Refineries_Shielded: [ 1, 2, 3, 4 ]
+          Refineries_Shielded: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Lori Jameson" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Lori Jameson" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner", "Lori Jameson" ]
+              },
+              "4": {
+                engineers: [ "Lori Jameson" ]
+              }
+            }
+          }
         },
         modifications: [ "integrity", "power" ]
       },
       rg: {
         blueprints: {
-          Weapon_HighCapacity: [ 1, 2, 3, 4, 5 ],
-          Weapon_LightWeight: [ 1, 2, 3, 4, 5 ],
-          Weapon_LongRange: [ 1, 2, 3, 4, 5 ],
-          Weapon_ShortRange: [ 1, 2, 3, 4, 5 ],
-          Weapon_Sturdy: [ 1, 2, 3, 4, 5 ]
+          Weapon_HighCapacity: {
+            grades: {
+              "1": {
+                engineers: [ "The Sarge", "Tod McQuinn" ]
+              },
+              "2": {
+                engineers: [ "The Sarge", "Tod McQuinn" ]
+              },
+              "3": {
+                engineers: [ "The Sarge", "Tod McQuinn" ]
+              },
+              "4": {
+                engineers: [ "Tod McQuinn" ]
+              },
+              "5": {
+                engineers: [ "Tod McQuinn" ]
+              }
+            }
+          },
+          Weapon_LightWeight: {
+            grades: {
+              "1": {
+                engineers: [ "The Sarge", "Tod McQuinn" ]
+              },
+              "2": {
+                engineers: [ "The Sarge", "Tod McQuinn" ]
+              },
+              "3": {
+                engineers: [ "The Sarge", "Tod McQuinn" ]
+              },
+              "4": {
+                engineers: [ "Tod McQuinn" ]
+              },
+              "5": {
+                engineers: [ "Tod McQuinn" ]
+              }
+            }
+          },
+          Weapon_LongRange: {
+            grades: {
+              "1": {
+                engineers: [ "The Sarge", "Tod McQuinn" ]
+              },
+              "2": {
+                engineers: [ "The Sarge", "Tod McQuinn" ]
+              },
+              "3": {
+                engineers: [ "The Sarge", "Tod McQuinn" ]
+              },
+              "4": {
+                engineers: [ "Tod McQuinn" ]
+              },
+              "5": {
+                engineers: [ "Tod McQuinn" ]
+              }
+            }
+          },
+          Weapon_ShortRange: {
+            grades: {
+              "1": {
+                engineers: [ "The Sarge", "Tod McQuinn" ]
+              },
+              "2": {
+                engineers: [ "The Sarge", "Tod McQuinn" ]
+              },
+              "3": {
+                engineers: [ "The Sarge", "Tod McQuinn" ]
+              },
+              "4": {
+                engineers: [ "Tod McQuinn" ]
+              },
+              "5": {
+                engineers: [ "Tod McQuinn" ]
+              }
+            }
+          },
+          Weapon_Sturdy: {
+            grades: {
+              "1": {
+                engineers: [ "The Sarge", "Tod McQuinn" ]
+              },
+              "2": {
+                engineers: [ "The Sarge", "Tod McQuinn" ]
+              },
+              "3": {
+                engineers: [ "The Sarge", "Tod McQuinn" ]
+              },
+              "4": {
+                engineers: [ "Tod McQuinn" ]
+              },
+              "5": {
+                engineers: [ "Tod McQuinn" ]
+              }
+            }
+          }
         },
         modifications: [ "ammo", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "thermload" ],
         specials: [ "special_feedback_cascade", "special_plasma_slug", "special_super_penetrator" ]
       },
       s: {
         blueprints: {
-          Sensor_Sensor_LightWeight: [ 1, 2, 3, 4, 5 ],
-          Sensor_Sensor_LongRange: [ 1, 2, 3, 4, 5 ],
-          Sensor_Sensor_WideAngle: [ 1, 2, 3, 4, 5 ]
+          Sensor_Sensor_LightWeight: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              }
+            }
+          },
+          Sensor_Sensor_LongRange: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              }
+            }
+          },
+          Sensor_Sensor_WideAngle: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              }
+            }
+          }
         },
         modifications: [ "integrity", "mass", "power", "range", "angle" ]
       },
       sb: {
         blueprints: {
-          ShieldBooster_Explosive: [ 1, 2, 3, 4, 5 ],
-          ShieldBooster_HeavyDuty: [ 1, 2, 3, 4, 5 ],
-          ShieldBooster_Kinetic: [ 1, 2, 3, 4, 5 ],
-          ShieldBooster_Resistive: [ 1, 2, 3, 4, 5 ],
-          ShieldBooster_Thermic: [ 1, 2, 3, 4, 5 ]
+          ShieldBooster_Explosive: {
+            grades: {
+              "1": {
+                engineers: [ "Didi Vatermann", "Felicity Farseer", "Lei Chung" ]
+              },
+              "2": {
+                engineers: [ "Didi Vatermann", "Lei Chung" ]
+              },
+              "3": {
+                engineers: [ "Didi Vatermann", "Lei Chung" ]
+              },
+              "4": {
+                engineers: [ "Didi Vatermann" ]
+              },
+              "5": {
+                engineers: [ "Didi Vatermann" ]
+              }
+            }
+          },
+          ShieldBooster_HeavyDuty: {
+            grades: {
+              "1": {
+                engineers: [ "Didi Vatermann", "Felicity Farseer", "Lei Chung" ]
+              },
+              "2": {
+                engineers: [ "Didi Vatermann", "Lei Chung" ]
+              },
+              "3": {
+                engineers: [ "Didi Vatermann", "Lei Chung" ]
+              },
+              "4": {
+                engineers: [ "Didi Vatermann" ]
+              },
+              "5": {
+                engineers: [ "Didi Vatermann" ]
+              }
+            }
+          },
+          ShieldBooster_Kinetic: {
+            grades: {
+              "1": {
+                engineers: [ "Didi Vatermann", "Felicity Farseer", "Lei Chung" ]
+              },
+              "2": {
+                engineers: [ "Didi Vatermann", "Lei Chung" ]
+              },
+              "3": {
+                engineers: [ "Didi Vatermann", "Lei Chung" ]
+              },
+              "4": {
+                engineers: [ "Didi Vatermann" ]
+              },
+              "5": {
+                engineers: [ "Didi Vatermann" ]
+              }
+            }
+          },
+          ShieldBooster_Resistive: {
+            grades: {
+              "1": {
+                engineers: [ "Didi Vatermann", "Felicity Farseer", "Lei Chung" ]
+              },
+              "2": {
+                engineers: [ "Didi Vatermann", "Lei Chung" ]
+              },
+              "3": {
+                engineers: [ "Didi Vatermann", "Lei Chung" ]
+              },
+              "4": {
+                engineers: [ "Didi Vatermann" ]
+              },
+              "5": {
+                engineers: [ "Didi Vatermann" ]
+              }
+            }
+          },
+          ShieldBooster_Thermic: {
+            grades: {
+              "1": {
+                engineers: [ "Didi Vatermann", "Felicity Farseer", "Lei Chung" ]
+              },
+              "2": {
+                engineers: [ "Didi Vatermann", "Lei Chung" ]
+              },
+              "3": {
+                engineers: [ "Didi Vatermann", "Lei Chung" ]
+              },
+              "4": {
+                engineers: [ "Didi Vatermann" ]
+              },
+              "5": {
+                engineers: [ "Didi Vatermann" ]
+              }
+            }
+          }
         },
         modifications: [ "explres", "integrity", "kinres", "mass", "power", "shieldboost", "thermres" ]
       },
@@ -21978,66 +24446,558 @@ module.exports = {
       },
       scb: {
         blueprints: {
-          ShieldCellBank_Rapid: [ 1, 2, 3 ],
-          ShieldCellBank_Specialised: [ 1, 2, 3 ]
+          ShieldCellBank_Rapid: {
+            grades: {
+              "1": {
+                engineers: [ "Elvira Martuuk", "Lori Jameson" ]
+              },
+              "2": {
+                engineers: [ "Lori Jameson" ]
+              },
+              "3": {
+                engineers: [ "Lori Jameson" ]
+              }
+            }
+          },
+          ShieldCellBank_Specialised: {
+            grades: {
+              "1": {
+                engineers: [ "Elvira Martuuk", "Lori Jameson" ]
+              },
+              "2": {
+                engineers: [ "Lori Jameson" ]
+              },
+              "3": {
+                engineers: [ "Lori Jameson" ]
+              }
+            }
+          }
         },
         modifications: [ "boot", "clip", "duration", "integrity", "mass", "power", "shieldreinforcement", "spinup", "thermload" ]
       },
       sg: {
         blueprints: {
-          ShieldGenerator_Kinetic: [ 1, 2, 3, 4, 5 ],
-          ShieldGenerator_Optimised: [ 1, 2, 3, 4, 5 ],
-          ShieldGenerator_Reinforced: [ 1, 2, 3, 4, 5 ],
-          ShieldGenerator_Thermic: [ 1, 2, 3, 4, 5 ]
+          ShieldGenerator_Kinetic: {
+            grades: {
+              "1": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "2": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "3": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "4": {
+                engineers: [ "Lei Cheung" ]
+              },
+              "5": {
+                engineers: [ "Lei Cheung" ]
+              }
+            }
+          },
+          ShieldGenerator_Optimised: {
+            grades: {
+              "1": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "2": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "3": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "4": {
+                engineers: [ "Lei Cheung" ]
+              },
+              "5": {
+                engineers: [ "Lei Cheung" ]
+              }
+            }
+          },
+          ShieldGenerator_Reinforced: {
+            grades: {
+              "1": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "2": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "3": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "4": {
+                engineers: [ "Lei Cheung" ]
+              },
+              "5": {
+                engineers: [ "Lei Cheung" ]
+              }
+            }
+          },
+          ShieldGenerator_Thermic: {
+            grades: {
+              "1": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "2": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "3": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "4": {
+                engineers: [ "Lei Cheung" ]
+              },
+              "5": {
+                engineers: [ "Lei Cheung" ]
+              }
+            }
+          }
         },
         modifications: [ "boot", "brokenregen", "distdraw", "explres", "integrity", "kinres", "mass", "optmass", "optmul", "power", "regen", "thermload", "thermres" ]
       },
       ss: {
         blueprints: {
-          Sensor_SurfaceScanner_FastScan: [ 1, 2, 3, 4, 5 ],
-          Sensor_SurfaceScanner_LongRange: [ 1, 2, 3, 4, 5 ],
-          Sensor_SurfaceScanner_WideAngle: [ 1, 2, 3, 4, 5 ]
+          Sensor_SurfaceScanner_FastScan: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Lori Jameson", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Lori Jameson", "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "Lori Jameson", "Tiana Fortune" ]
+              }
+            }
+          },
+          Sensor_SurfaceScanner_LongRange: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Lori Jameson", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Lori Jameson", "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "Lori Jameson", "Tiana Fortune" ]
+              }
+            }
+          },
+          Sensor_SurfaceScanner_WideAngle: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Lori Jameson", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Lori Jameson", "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "Lori Jameson", "Tiana Fortune" ]
+              }
+            }
+          }
         },
         modifications: [ "mass", "power", "angle", "range", "scantime" ]
       },
       t: {
         blueprints: {
-          Engine_Dirty: [ 1, 2, 3, 4, 5 ],
-          Engine_Reinforced: [ 1, 2, 3, 4, 5 ],
-          Engine_Tuned: [ 1, 2, 3, 4, 5 ]
+          Engine_Dirty: {
+            grades: {
+              "1": {
+                engineers: [ "Elvira Martuuk", "Felicty Farseer", "Professor Palin" ]
+              },
+              "2": {
+                engineers: [ "Elvira Martuuk", "Felicty Farseer", "Professor Palin" ]
+              },
+              "3": {
+                engineers: [ "Felicty Farseer", "Professor Palin" ]
+              },
+              "4": {
+                engineers: [ "Professor Palin" ]
+              },
+              "5": {
+                engineers: [ "Professor Palin" ]
+              }
+            }
+          },
+          Engine_Reinforced: {
+            grades: {
+              "1": {
+                engineers: [ "Elvira Martuuk", "Felicty Farseer", "Professor Palin" ]
+              },
+              "2": {
+                engineers: [ "Elvira Martuuk", "Felicty Farseer", "Professor Palin" ]
+              },
+              "3": {
+                engineers: [ "Felicty Farseer", "Professor Palin" ]
+              },
+              "4": {
+                engineers: [ "Professor Palin" ]
+              },
+              "5": {
+                engineers: [ "Professor Palin" ]
+              }
+            }
+          },
+          Engine_Tuned: {
+            grades: {
+              "1": {
+                engineers: [ "Elvira Martuuk", "Felicty Farseer", "Professor Palin" ]
+              },
+              "2": {
+                engineers: [ "Elvira Martuuk", "Felicty Farseer", "Professor Palin" ]
+              },
+              "3": {
+                engineers: [ "Felicty Farseer", "Professor Palin" ]
+              },
+              "4": {
+                engineers: [ "Professor Palin" ]
+              },
+              "5": {
+                engineers: [ "Professor Palin" ]
+              }
+            }
+          }
         },
         modifications: [ "integrity", "mass", "optmass", "optmul", "power", "thermload" ]
       },
       tp: {
         blueprints: {
-          Weapon_LightWeight: [ 1, 2, 3, 4, 5 ],
-          Weapon_Sturdy: [ 1, 2, 3, 4, 5 ]
+          Weapon_LightWeight: {
+            grades: {
+              "1": {
+                engineers: [ "Juri Ishmaak", "Liz Ryder" ]
+              },
+              "2": {
+                engineers: [ "Juri Ishmaak", "Liz Ryder" ]
+              },
+              "3": {
+                engineers: [ "Juri Ishmaak", "Liz Ryder" ]
+              },
+              "4": {
+                engineers: [ "Liz Ryder" ]
+              },
+              "5": {
+                engineers: [ "Liz Ryder" ]
+              }
+            }
+          },
+          Weapon_Sturdy: {
+            grades: {
+              "1": {
+                engineers: [ "Juri Ishmaak", "Liz Ryder" ]
+              },
+              "2": {
+                engineers: [ "Juri Ishmaak", "Liz Ryder" ]
+              },
+              "3": {
+                engineers: [ "Juri Ishmaak", "Liz Ryder" ]
+              },
+              "4": {
+                engineers: [ "Liz Ryder" ]
+              },
+              "5": {
+                engineers: [ "Liz Ryder" ]
+              }
+            }
+          }
         },
         modifications: [ "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "rof", "thermload" ],
         specials: [ "special_mass_lock_munition", "special_penetrator_payload", "special_reverberating_cascade" ]
       },
       ul: {
         blueprints: {
-          Weapon_Efficient: [ 1, 2, 3, 4, 5 ],
-          Weapon_Focused: [ 1, 2, 3, 4, 5 ],
-          Weapon_LightWeight: [ 1, 2, 3, 4, 5 ],
-          Weapon_LongRange: [ 1, 2, 3, 4, 5 ],
-          Weapon_Overcharged: [ 1, 2, 3, 4, 5 ],
-          Weapon_RapidFire: [ 1, 2, 3, 4, 5 ],
-          Weapon_ShortRange: [ 1, 2, 3, 4, 5 ],
-          Weapon_Sturdy: [ 1, 2, 3, 4, 5 ]
+          Weapon_Efficient: {
+            grades: {
+              "1": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "2": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "3": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "4": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "5": {
+                engineers: [ "Broo Tarquin" ]
+              }
+            }
+          },
+          Weapon_Focused: {
+            grades: {
+              "1": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "2": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "3": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "4": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "5": {
+                engineers: [ "Broo Tarquin" ]
+              }
+            }
+          },
+          Weapon_LightWeight: {
+            grades: {
+              "1": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "2": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "3": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "4": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "5": {
+                engineers: [ "Broo Tarquin" ]
+              }
+            }
+          },
+          Weapon_LongRange: {
+            grades: {
+              "1": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "2": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "3": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "4": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "5": {
+                engineers: [ "Broo Tarquin" ]
+              }
+            }
+          },
+          Weapon_Overcharged: {
+            grades: {
+              "1": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "2": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "3": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "4": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "5": {
+                engineers: [ "Broo Tarquin" ]
+              }
+            }
+          },
+          Weapon_RapidFire: {
+            grades: {
+              "1": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "2": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "3": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "4": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "5": {
+                engineers: [ "Broo Tarquin" ]
+              }
+            }
+          },
+          Weapon_ShortRange: {
+            grades: {
+              "1": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "2": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "3": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "4": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "5": {
+                engineers: [ "Broo Tarquin" ]
+              }
+            }
+          },
+          Weapon_Sturdy: {
+            grades: {
+              "1": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "2": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "3": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "4": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "5": {
+                engineers: [ "Broo Tarquin" ]
+              }
+            }
+          }
         },
         modifications: [ "burst", "burstrof", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "rof", "thermload" ],
         specials: [ "special_concordant_sequence", "special_inertial_impact", "special_phasing_sequence", "special_scramble_spectrum", "special_thermalshock" ]
       },
       ws: {
         blueprints: {
-          Sensor_WakeScanner_FastScan: [ 1, 2, 3, 4, 5 ],
-          WakeScanner_LightWeight: [ 1, 2, 3, 4, 5 ],
-          Sensor_WakeScanner_LongRange: [ 1, 2, 3, 4, 5 ],
-          WakeScanner_Reinforced: [ 1, 2, 3, 4, 5 ],
-          WakeScanner_Shielded: [ 1, 2, 3, 4, 5 ],
-          Sensor_WakeScanner_WideAngle: [ 1, 2, 3, 4, 5 ]
+          Sensor_WakeScanner_FastScan: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              }
+            }
+          },
+          WakeScanner_LightWeight: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "Tiana Fortune" ]
+              }
+            }
+          },
+          Sensor_WakeScanner_LongRange: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              }
+            }
+          },
+          WakeScanner_Reinforced: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "Tiana Fortune" ]
+              }
+            }
+          },
+          WakeScanner_Shielded: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "Tiana Fortune" ]
+              }
+            }
+          },
+          Sensor_WakeScanner_WideAngle: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              }
+            }
+          }
         },
         modifications: [ "integrity", "mass", "power", "angle", "range", "scantime" ]
       }
