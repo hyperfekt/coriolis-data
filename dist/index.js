@@ -21431,7 +21431,7 @@ module.exports = {
       special_distortion_field: {},
       special_drag_munitions: {},
       special_emissive_munitions: {
-        thermload: 1
+        thermload: 1.1
       },
       special_feedback_cascade: {
         breachdmg: -.2,
@@ -21459,7 +21459,12 @@ module.exports = {
           T: .5
         }
       },
-      special_overload_munitions: {},
+      special_overload_munitions: {
+        damagedist: {
+          E: .5,
+          T: .5
+        }
+      },
       special_phasing_sequence: {
         damage: -.1
       },
@@ -21472,7 +21477,9 @@ module.exports = {
       special_regeneration_sequence: {
         damage: -.1
       },
-      special_reverberating_cascade: {},
+      special_reverberating_cascade: {
+        damage: 0
+      },
       special_scramble_spectrum: {
         rof: .1111111111111111
       },

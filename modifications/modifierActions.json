@@ -230,6 +230,10 @@
     }
   },
   "special_overload_munitions": {
+    "damagedist": {
+      "E": 0.5,
+      "T": 0.5
+    }
   },
   "special_phasing_sequence": {
     "damage": -0.1
