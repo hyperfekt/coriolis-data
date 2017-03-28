@@ -18931,7 +18931,6 @@ module.exports = {
             },
             features: {
               mass: [ .4, .2 ],
-              power: [ .2, .1 ],
               scantime: [ .1, .4 ]
             }
           },
@@ -18942,7 +18941,6 @@ module.exports = {
             },
             features: {
               mass: [ .8, .4 ],
-              power: [ .4, .2 ],
               scantime: [ .2, .5 ]
             }
           },
@@ -18954,7 +18952,6 @@ module.exports = {
             },
             features: {
               mass: [ 1.2, .6 ],
-              power: [ .6, .3 ],
               scantime: [ .3, .6 ]
             }
           },
@@ -18966,7 +18963,6 @@ module.exports = {
             },
             features: {
               mass: [ 1.6, .8 ],
-              power: [ .8, .4 ],
               scantime: [ .4, .7 ]
             }
           },
@@ -18978,7 +18974,6 @@ module.exports = {
             },
             features: {
               mass: [ 2, 1 ],
-              power: [ 1, .5 ],
               scantime: [ .5, .8 ]
             }
           }
@@ -18996,7 +18991,6 @@ module.exports = {
             },
             features: {
               mass: [ .4, .2 ],
-              power: [ .2, .1 ],
               range: [ .2, .4 ]
             }
           },
@@ -19007,7 +19001,6 @@ module.exports = {
             },
             features: {
               mass: [ .8, .4 ],
-              power: [ .4, .2 ],
               range: [ .4, .8 ]
             }
           },
@@ -19019,7 +19012,6 @@ module.exports = {
             },
             features: {
               mass: [ 1.2, .6 ],
-              power: [ .6, .3 ],
               range: [ .6, 1.2 ]
             }
           },
@@ -19031,7 +19023,6 @@ module.exports = {
             },
             features: {
               mass: [ 1.6, .8 ],
-              power: [ .8, .4 ],
               range: [ .8, 1.6 ]
             }
           },
@@ -19043,7 +19034,6 @@ module.exports = {
             },
             features: {
               mass: [ 2, 1 ],
-              power: [ 1, .5 ],
               range: [ 1, 2 ]
             }
           }
@@ -19061,7 +19051,6 @@ module.exports = {
             },
             features: {
               mass: [ .4, .2 ],
-              power: [ .2, .1 ],
               angle: [ .2, .4 ]
             }
           },
@@ -19072,7 +19061,6 @@ module.exports = {
             },
             features: {
               mass: [ .8, .4 ],
-              power: [ .4, .2 ],
               angle: [ .4, .8 ]
             }
           },
@@ -19084,7 +19072,6 @@ module.exports = {
             },
             features: {
               mass: [ 1.2, .6 ],
-              power: [ .6, .3 ],
               angle: [ .6, 1.2 ]
             }
           },
@@ -19096,7 +19083,6 @@ module.exports = {
             },
             features: {
               mass: [ 1.6, .8 ],
-              power: [ .8, .4 ],
               angle: [ .8, 1.6 ]
             }
           },
@@ -19108,7 +19094,6 @@ module.exports = {
             },
             features: {
               mass: [ 2, 1 ],
-              power: [ 1, .5 ],
               angle: [ 1, 2 ]
             }
           }
@@ -24616,7 +24601,7 @@ module.exports = {
             }
           }
         },
-        modifications: [ "mass", "power", "angle", "range", "scantime" ]
+        modifications: [ "mass", "angle", "range", "scantime" ]
       },
       t: {
         blueprints: {

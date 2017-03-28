@@ -5545,7 +5545,6 @@
     },
     "modifications": [
       "mass",
-      "power",
       "angle",
       "range",
       "scantime"
