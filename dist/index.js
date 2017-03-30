@@ -6422,7 +6422,7 @@ module.exports = {
         breachmin: .4,
         class: 1,
         cost: 2200,
-        damage: 2.04,
+        damage: 2.05,
         damagedist: {
           T: 1
         },
@@ -6439,8 +6439,8 @@ module.exports = {
         power: .39,
         range: 3e3,
         rating: "F",
-        rof: 3.847,
-        thermload: .3
+        rof: 3.85,
+        thermload: .33
       }, {
         breachdmg: 1.3,
         breachmax: .8,
@@ -6464,15 +6464,15 @@ module.exports = {
         power: .39,
         range: 3e3,
         rating: "G",
-        rof: 3.987,
-        thermload: .3
+        rof: 4,
+        thermload: .31
       }, {
         breachdmg: 1,
         breachmax: .8,
         breachmin: .4,
         class: 1,
         cost: 26e3,
-        damage: 1.18,
+        damage: 1.19,
         damagedist: {
           T: 1
         },
@@ -6489,15 +6489,15 @@ module.exports = {
         power: .38,
         range: 3e3,
         rating: "G",
-        rof: 3.339,
-        thermload: .2
+        rof: 3.33,
+        thermload: .19
       }, {
         breachdmg: 3,
         breachmax: .8,
         breachmin: .4,
         class: 2,
         cost: 17600,
-        damage: 3.49,
+        damage: 3.5,
         damagedist: {
           T: 1
         },
@@ -6514,8 +6514,8 @@ module.exports = {
         power: .6,
         range: 3e3,
         rating: "E",
-        rof: 3.448,
-        thermload: .6
+        rof: 3.45,
+        thermload: .56
       }, {
         breachdmg: 2.3,
         breachmax: .8,
@@ -6539,15 +6539,15 @@ module.exports = {
         power: .6,
         range: 3e3,
         rating: "F",
-        rof: 3.567,
-        thermload: .5
+        rof: 3.57,
+        thermload: .54
       }, {
         breachdmg: 1.7,
         breachmax: .8,
         breachmin: .4,
         class: 2,
         cost: 132800,
-        damage: 2.04,
+        damage: 2.05,
         damagedist: {
           T: 1
         },
@@ -6564,8 +6564,8 @@ module.exports = {
         power: .58,
         range: 3e3,
         rating: "F",
-        rof: 3.037,
-        thermload: .3
+        rof: 3.03,
+        thermload: .33
       }, {
         breachdmg: 2.4,
         breachmax: .8,
@@ -6615,8 +6615,8 @@ module.exports = {
         power: .9,
         range: 3e3,
         rating: "D",
-        rof: 3.3,
-        thermload: 1
+        rof: 3.03,
+        thermload: .96
       }, {
         breachdmg: 3.9,
         breachmax: .8,
@@ -6640,15 +6640,15 @@ module.exports = {
         power: .92,
         range: 3e3,
         rating: "E",
-        rof: 3.223,
-        thermload: .9
+        rof: 3.23,
+        thermload: .92
       }, {
         breachdmg: 3,
         breachmax: .8,
         breachmin: .4,
         class: 3,
         cost: 400400,
-        damage: 3.49,
+        damage: 3.5,
         damagedist: {
           T: 1
         },
@@ -6665,15 +6665,15 @@ module.exports = {
         power: .89,
         range: 3e3,
         rating: "F",
-        rof: 2.705,
-        thermload: .6
+        rof: 2.7,
+        thermload: .56
       }, {
         breachdmg: 8.7,
         breachmax: .8,
         breachmin: .4,
         class: 4,
         cost: 177600,
-        damage: 10.23,
+        damage: 10.24,
         damagedist: {
           T: 1
         },
@@ -6690,8 +6690,8 @@ module.exports = {
         power: 1.33,
         range: 3e3,
         rating: "A",
-        rof: 2.633,
-        thermload: 1.6
+        rof: 2.63,
+        thermload: 1.64
       }, {
         breachdmg: 6.6,
         breachmax: .8,
@@ -6715,8 +6715,8 @@ module.exports = {
         power: 1.37,
         range: 3e3,
         rating: "A",
-        rof: 2.777,
-        thermload: 1.6
+        rof: 2.78,
+        thermload: 1.56
       } ],
       ul: [ {
         breachdmg: 1.5,
@@ -6730,7 +6730,7 @@ module.exports = {
         damagedist: {
           T: 1
         },
-        distdraw: .24,
+        distdraw: .25,
         edID: 128049400,
         eddbID: 832,
         falloff: 500,
@@ -6744,7 +6744,7 @@ module.exports = {
         range: 3e3,
         rating: "F",
         rof: 2,
-        thermload: .4
+        thermload: .38
       }, {
         breachdmg: 1,
         breachmax: .8,
@@ -6753,11 +6753,11 @@ module.exports = {
         burstrof: 17,
         class: 1,
         cost: 8600,
-        damage: 1.2,
+        damage: 1.22,
         damagedist: {
           T: 1
         },
-        distdraw: .23,
+        distdraw: .24,
         edID: 128049404,
         eddbID: 835,
         falloff: 500,
@@ -6771,7 +6771,7 @@ module.exports = {
         range: 3e3,
         rating: "G",
         rof: 2.23,
-        thermload: .3
+        thermload: .34
       }, {
         breachdmg: .4,
         breachmax: .8,
@@ -6784,7 +6784,7 @@ module.exports = {
         damagedist: {
           T: 1
         },
-        distdraw: .136,
+        distdraw: .14,
         edID: 128049407,
         eddbID: 838,
         falloff: 500,
@@ -6798,7 +6798,7 @@ module.exports = {
         range: 3e3,
         rating: "G",
         rof: 1.92,
-        thermload: .2
+        thermload: .19
       }, {
         breachdmg: 2,
         breachmax: 0,
@@ -6837,11 +6837,11 @@ module.exports = {
         burstrof: 11,
         class: 2,
         cost: 23e3,
-        damage: 3.5,
+        damage: 3.53,
         damagedist: {
           T: 1
         },
-        distdraw: .482,
+        distdraw: .5,
         edID: 128049401,
         eddbID: 833,
         falloff: 500,
@@ -6855,7 +6855,7 @@ module.exports = {
         range: 3e3,
         rating: "E",
         rof: 1.6,
-        thermload: .8
+        thermload: .78
       }, {
         breachdmg: 2.1,
         breachmax: .8,
@@ -6868,7 +6868,7 @@ module.exports = {
         damagedist: {
           T: 1
         },
-        distdraw: .468,
+        distdraw: .49,
         edID: 128049405,
         eddbID: 836,
         falloff: 500,
@@ -6882,7 +6882,7 @@ module.exports = {
         range: 3e3,
         rating: "F",
         rof: 1.78,
-        thermload: .7
+        thermload: .67
       }, {
         breachdmg: .9,
         breachmax: .8,
@@ -6891,11 +6891,11 @@ module.exports = {
         burstrof: 15,
         class: 2,
         cost: 162800,
-        damage: 1.74,
+        damage: 1.72,
         damagedist: {
           T: 1
         },
-        distdraw: .26,
+        distdraw: .28,
         edID: 128049408,
         eddbID: 839,
         falloff: 500,
@@ -6909,7 +6909,7 @@ module.exports = {
         range: 3e3,
         rating: "F",
         rof: 1.57,
-        thermload: .4
+        thermload: .38
       }, {
         breachdmg: 3.9,
         breachmax: .8,
@@ -6918,11 +6918,11 @@ module.exports = {
         burstrof: 7,
         class: 3,
         cost: 140400,
-        damage: 7.75,
+        damage: 7.73,
         damagedist: {
           T: 1
         },
-        distdraw: 1.06,
+        distdraw: 1.11,
         edID: 128049402,
         eddbID: 834,
         falloff: 500,
@@ -6945,11 +6945,11 @@ module.exports = {
         burstrof: 9,
         class: 3,
         cost: 281600,
-        damage: 5.18,
+        damage: 5.16,
         damagedist: {
           T: 1
         },
-        distdraw: .986,
+        distdraw: 1.03,
         edID: 128049406,
         eddbID: 837,
         falloff: 500,
@@ -6963,7 +6963,7 @@ module.exports = {
         range: 3e3,
         rating: "E",
         rof: 1.4,
-        thermload: 1.4
+        thermload: 1.42
       }, {
         breachdmg: 1.8,
         breachmax: .8,
@@ -6972,11 +6972,11 @@ module.exports = {
         burstrof: 11,
         class: 3,
         cost: 800400,
-        damage: 3.54,
+        damage: 3.53,
         damagedist: {
           T: 1
         },
-        distdraw: .536,
+        distdraw: .56,
         edID: 128049409,
         eddbID: 840,
         falloff: 500,
@@ -6990,7 +6990,7 @@ module.exports = {
         range: 3e3,
         rating: "E",
         rof: 1.272,
-        thermload: .8
+        thermload: .78
       }, {
         breachdmg: 17.5,
         breachmax: .8,
@@ -6999,11 +6999,11 @@ module.exports = {
         burstrof: 3,
         class: 4,
         cost: 281600,
-        damage: 20.6,
+        damage: 20.61,
         damagedist: {
           T: 1
         },
-        distdraw: 2.84,
+        distdraw: 2.98,
         edID: 128049403,
         eddbID: 1549,
         falloff: 500,
@@ -7017,7 +7017,7 @@ module.exports = {
         range: 3e3,
         rating: "E",
         rof: .8,
-        thermload: 4.5
+        thermload: 4.53
       }, {
         breachdmg: 10.3,
         breachmax: .8,
@@ -7026,11 +7026,11 @@ module.exports = {
         burstrof: 5,
         class: 4,
         cost: 1245600,
-        damage: 12.1,
+        damage: 12.09,
         damagedist: {
           T: 1
         },
-        distdraw: 2.31,
+        distdraw: 2.41,
         edID: 128727920,
         eddbID: 1550,
         falloff: 500,
@@ -7044,7 +7044,7 @@ module.exports = {
         range: 3e3,
         rating: "E",
         rof: 1,
-        thermload: 3.3
+        thermload: 3.33
       } ],
       bl: [ {
         breachdmg: 7.9,
@@ -7367,7 +7367,7 @@ module.exports = {
         reload: 4,
         rof: 7.69,
         shotspeed: 1600,
-        thermload: .1
+        thermload: .09
       }, {
         ammo: 2100,
         breachdmg: .7,
@@ -7425,7 +7425,7 @@ module.exports = {
         reload: 4,
         rof: 7.14,
         shotspeed: 1600,
-        thermload: 0
+        thermload: .04
       }, {
         ammo: 1e3,
         breachdmg: 2.6,
@@ -7485,7 +7485,7 @@ module.exports = {
         reload: 4,
         rof: 7.14,
         shotspeed: 1600,
-        thermload: .2
+        thermload: .18
       }, {
         ammo: 2100,
         breachdmg: 1.5,
@@ -7543,7 +7543,7 @@ module.exports = {
         reload: 4,
         rof: 6.25,
         shotspeed: 1600,
-        thermload: .1
+        thermload: .09
       }, {
         ammo: 2100,
         breachdmg: 3.5,
@@ -7552,7 +7552,7 @@ module.exports = {
         class: 3,
         clip: 100,
         cost: 140400,
-        damage: 3.93,
+        damage: 3.92,
         damagedist: {
           K: 1
         },
@@ -7570,9 +7570,9 @@ module.exports = {
         range: 4e3,
         rating: "C",
         reload: 4,
-        rof: 5.88,
+        rof: 5.884,
         shotspeed: 1600,
-        thermload: .3
+        thermload: .28
       }, {
         ammo: 2100,
         breachdmg: 2.6,
@@ -7601,7 +7601,7 @@ module.exports = {
         reload: 5,
         rof: 6.665,
         shotspeed: 1600,
-        thermload: .3
+        thermload: .34
       }, {
         ammo: 2100,
         breachdmg: 4.2,
@@ -7610,7 +7610,7 @@ module.exports = {
         class: 4,
         clip: 100,
         cost: 1177600,
-        damage: 4.62,
+        damage: 4.625,
         damagedist: {
           K: 1
         },
@@ -7631,7 +7631,7 @@ module.exports = {
         rof: 3.03,
         roundspershot: 2,
         shotspeed: 1600,
-        thermload: .4
+        thermload: .39
       }, {
         ammo: 2100,
         breachdmg: 3.1,
@@ -7661,7 +7661,7 @@ module.exports = {
         rof: 3.365,
         roundspershot: 2,
         shotspeed: 1600,
-        thermload: .5
+        thermload: .51
       } ],
       c: [ {
         ammo: 120,
@@ -21037,7 +21037,7 @@ module.exports = {
         id: 16,
         name: "jitter",
         type: "numeric",
-        method: "multiplicative",
+        method: "additive",
         higherbetter: false
       },
       kinres: {
@@ -21453,7 +21453,7 @@ module.exports = {
       },
       special_inertial_impact: {
         damage: .5,
-        jitter: 1,
+        jitter: 3,
         damagedist: {
           K: .5,
           T: .5

@@ -223,7 +223,7 @@
   },
   "special_inertial_impact": {
     "damage": 0.5,
-    "jitter": 1,
+    "jitter": 3,
     "damagedist": { 
       "K": 0.5,
       "T": 0.5
