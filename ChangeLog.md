@@ -1,15 +1,12 @@
 #2.3.0
   * Add Dolphin
   * Add turreted mining lasers
-  * Update ship hardness for Federal Corvette, Imperial Cutter and Anaconda
-  * Update piercing for large and huge weapons
   * Add long range / wide angle / fast scan scanner blueprints
   * Fix EDDB IDs for class 5 and 7 fighter hangars for correct shopping list
   * Fix cost for rocket-propelled FSD disruptor
   * Add module names for blueprints
   * Fix erroneous value for grade 5 kinetic shield booster
   * Add missing integrity values for some modules
-  * Update rail gun hardness values for 2.3
   * Update module reinforcement package integrity
   * Update specs of Beluga as per 2.3
   * Update specs of Asp Scout as per 2.3
@@ -17,7 +14,7 @@
   * Add ED ID for Rocket Propelled FSD Disruptor
   * Fix ED name for target lock breaker special
   * Update scan range and angle information for sensors
-  * Tidy out shield cell bank information to allow for accurate calculations with modifications
+  * Tidy up shield cell bank information to allow for accurate calculations with modifications
   * Update mine launcher stats
   * Add appropriate engineers to per-module blueprint information
 
