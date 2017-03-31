@@ -1,3 +1,23 @@
+#2.3.0
+  * Add Dolphin
+  * Add turreted mining lasers
+  * Add long range / wide angle / fast scan scanner blueprints
+  * Fix EDDB IDs for class 5 and 7 fighter hangars for correct shopping list
+  * Fix cost for rocket-propelled FSD disruptor
+  * Add module names for blueprints
+  * Fix erroneous value for grade 5 kinetic shield booster
+  * Add missing integrity values for some modules
+  * Update module reinforcement package integrity
+  * Update specs of Beluga as per 2.3
+  * Update specs of Asp Scout as per 2.3
+  * Update specs of Diamondback Explorer as per 2.3
+  * Add ED ID for Rocket Propelled FSD Disruptor
+  * Fix ED name for target lock breaker special
+  * Update scan range and angle information for sensors
+  * Tidy up shield cell bank information to allow for accurate calculations with modifications
+  * Update mine launcher stats
+  * Add appropriate engineers to per-module blueprint information
+
 #2.2.19
   * Remove shot speed modification - it is directly tied to range
   * Fix incorrect minimal mass for 3C bi-weave shield generator

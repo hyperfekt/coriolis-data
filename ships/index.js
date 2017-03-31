@@ -8,6 +8,7 @@ module.exports = {
   cobra_mk_iv: require('./cobra_mk_iv').cobra_mk_iv,
   diamondback_explorer: require('./diamondback_explorer').diamondback_explorer,
   diamondback: require('./diamondback_scout').diamondback,
+  dolphin: require('./dolphin').dolphin,
   eagle: require('./eagle').eagle,
   federal_assault_ship: require('./federal_assault_ship').federal_assault_ship,
   federal_corvette: require('./federal_corvette').federal_corvette,

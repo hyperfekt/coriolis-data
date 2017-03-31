@@ -26,6 +26,30 @@
       "thermload": 2
     },
     {
+      "breachdmg": 0.3,
+      "breachmax": 0.2,
+      "breachmin": 0.1,
+      "class": 1,
+      "cost": 9400,
+      "damage": 2,
+      "damagedist": {
+        "T": 1
+      },
+      "distdraw": 1.5,
+      "eddbID": 1587,
+      "falloff": 300,
+      "grp": "ml",
+      "id": "w0",
+      "integrity": 40,
+      "mass": 2,
+      "mount": "T",
+      "piercing": 18,
+      "power": 0.5,
+      "range": 500,
+      "rating": "D",
+      "thermload": 2
+    },
+    {
       "breachdmg": 1.2,
       "breachmax": 0.2,
       "breachmin": 0.1,
@@ -71,6 +95,30 @@
       "integrity": 51,
       "mass": 2,
       "mount": "F",
+      "piercing": 18,
+      "power": 0.75,
+      "range": 500,
+      "rating": "D",
+      "thermload": 4
+    },
+    {
+      "breachdmg": 0.6,
+      "breachmax": 0.2,
+      "breachmin": 0.1,
+      "class": 2,
+      "cost": 32590,
+      "damage": 4,
+      "damagedist": {
+        "T": 1
+      },
+      "distdraw": 3,
+      "eddbID": 1588,
+      "falloff": 300,
+      "grp": "ml",
+      "id": "w1",
+      "integrity": 51,
+      "mass": 2,
+      "mount": "T",
       "piercing": 18,
       "power": 0.75,
       "range": 500,

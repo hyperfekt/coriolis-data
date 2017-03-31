@@ -1,6 +1,7 @@
 {
   "federal_assault_ship": {
-    "edID": 128672145, "eddbID": 8,
+    "edID": 128672145,
+    "eddbID": 8,
     "properties": {
       "name": "Federal Assault Ship",
       "manufacturer": "Core Dynamics",

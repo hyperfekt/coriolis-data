@@ -12,7 +12,7 @@
       "damagedist": {
         "T": 1
       },
-      "distdraw": 0.24,
+      "distdraw": 0.25,
       "edID": 128049400,
       "eddbID": 832,
       "falloff": 500,
@@ -26,7 +26,7 @@
       "range": 3000,
       "rating": "F",
       "rof": 2,
-      "thermload": 0.4
+      "thermload": 0.38
     },
     {
       "breachdmg": 1,
@@ -36,11 +36,11 @@
       "burstrof": 17,
       "class": 1,
       "cost": 8600,
-      "damage": 1.2,
+      "damage": 1.22,
       "damagedist": {
         "T": 1
       },
-      "distdraw": 0.23,
+      "distdraw": 0.24,
       "edID": 128049404,
       "eddbID": 835,
       "falloff": 500,
@@ -54,7 +54,7 @@
       "range": 3000,
       "rating": "G",
       "rof": 2.23,
-      "thermload": 0.3
+      "thermload": 0.34
     },
     {
       "breachdmg": 0.4,
@@ -68,7 +68,7 @@
       "damagedist": {
         "T": 1
       },
-      "distdraw": 0.136,
+      "distdraw": 0.14,
       "edID": 128049407,
       "eddbID": 838,
       "falloff": 500,
@@ -82,7 +82,7 @@
       "range": 3000,
       "rating": "G",
       "rof": 1.92,
-      "thermload": 0.2
+      "thermload": 0.19
     },
     {
       "breachdmg": 2,
@@ -123,11 +123,11 @@
       "burstrof": 11,
       "class": 2,
       "cost": 23000,
-      "damage": 3.5,
+      "damage": 3.53,
       "damagedist": {
         "T": 1
       },
-      "distdraw": 0.482,
+      "distdraw": 0.5,
       "edID": 128049401,
       "eddbID": 833,
       "falloff": 500,
@@ -141,7 +141,7 @@
       "range": 3000,
       "rating": "E",
       "rof": 1.6,
-      "thermload": 0.8
+      "thermload": 0.78
     },
     {
       "breachdmg": 2.1,
@@ -155,7 +155,7 @@
       "damagedist": {
         "T": 1
       },
-      "distdraw": 0.468,
+      "distdraw": 0.49,
       "edID": 128049405,
       "eddbID": 836,
       "falloff": 500,
@@ -169,7 +169,7 @@
       "range": 3000,
       "rating": "F",
       "rof": 1.78,
-      "thermload": 0.7
+      "thermload": 0.67
     },
     {
       "breachdmg": 0.9,
@@ -179,11 +179,11 @@
       "burstrof": 15,
       "class": 2,
       "cost": 162800,
-      "damage": 1.74,
+      "damage": 1.72,
       "damagedist": {
         "T": 1
       },
-      "distdraw": 0.26,
+      "distdraw": 0.28,
       "edID": 128049408,
       "eddbID": 839,
       "falloff": 500,
@@ -197,7 +197,7 @@
       "range": 3000,
       "rating": "F",
       "rof": 1.57,
-      "thermload": 0.4
+      "thermload": 0.38
     },
     {
       "breachdmg": 3.9,
@@ -207,11 +207,11 @@
       "burstrof": 7,
       "class": 3,
       "cost": 140400,
-      "damage": 7.75,
+      "damage": 7.73,
       "damagedist": {
         "T": 1
       },
-      "distdraw": 1.06,
+      "distdraw": 1.11,
       "edID": 128049402,
       "eddbID": 834,
       "falloff": 500,
@@ -235,11 +235,11 @@
       "burstrof": 9,
       "class": 3,
       "cost": 281600,
-      "damage": 5.18,
+      "damage": 5.16,
       "damagedist": {
         "T": 1
       },
-      "distdraw": 0.986,
+      "distdraw": 1.03,
       "edID": 128049406,
       "eddbID": 837,
       "falloff": 500,
@@ -253,7 +253,7 @@
       "range": 3000,
       "rating": "E",
       "rof": 1.4,
-      "thermload": 1.4
+      "thermload": 1.42
     },
     {
       "breachdmg": 1.8,
@@ -263,11 +263,11 @@
       "burstrof": 11,
       "class": 3,
       "cost": 800400,
-      "damage": 3.54,
+      "damage": 3.53,
       "damagedist": {
         "T": 1
       },
-      "distdraw": 0.536,
+      "distdraw": 0.56,
       "edID": 128049409,
       "eddbID": 840,
       "falloff": 500,
@@ -281,7 +281,7 @@
       "range": 3000,
       "rating": "E",
       "rof": 1.272,
-      "thermload": 0.8
+      "thermload": 0.78
     },
     {
       "breachdmg": 17.5,
@@ -291,11 +291,11 @@
       "burstrof": 3,
       "class": 4,
       "cost": 281600,
-      "damage": 20.6,
+      "damage": 20.61,
       "damagedist": {
         "T": 1
       },
-      "distdraw": 2.84,
+      "distdraw": 2.98,
       "edID": 128049403,
       "eddbID": 1549,
       "falloff": 500,
@@ -309,7 +309,7 @@
       "range": 3000,
       "rating": "E",
       "rof": 0.8,
-      "thermload": 4.5
+      "thermload": 4.53
     },
     {
       "breachdmg": 10.3,
@@ -319,11 +319,11 @@
       "burstrof": 5,
       "class": 4,
       "cost": 1245600,
-      "damage": 12.1,
+      "damage": 12.09,
       "damagedist": {
         "T": 1
       },
-      "distdraw": 2.31,
+      "distdraw": 2.41,
       "edID": 128727920,
       "eddbID": 1550,
       "falloff": 500,
@@ -337,7 +337,7 @@
       "range": 3000,
       "rating": "E",
       "rof": 1,
-      "thermload": 3.3
+      "thermload": 3.33
     }
   ]
 }

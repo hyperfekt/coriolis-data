@@ -361,12 +361,12 @@ module.exports = {
       slots: {
         standard: [ 4, 4, 4, 3, 4, 4, 4 ],
         hardpoints: [ 2, 2, 1, 1, 0, 0 ],
-        internal: [ 4, 4, 3, 3, 2 ]
+        internal: [ 5, 4, 3, 3, 2, 2 ]
       },
       defaults: {
         standard: [ "4E", "4E", "4E", "3E", "4E", "4E", "4C" ],
         hardpoints: [ 0, 0, 17, 17, 0, 0 ],
-        internal: [ "02", "02", "44", 0, 0 ]
+        internal: [ "02", "02", "44", 0, 0, 0 ]
       }
     },
     beluga: {
@@ -383,7 +383,7 @@ module.exports = {
         baseShieldStrength: 280,
         baseArmour: 280,
         hardness: 60,
-        hullMass: 1100,
+        hullMass: 950,
         masslock: 18,
         pipSpeed: .1125,
         luxuryCabins: true,
@@ -699,7 +699,7 @@ module.exports = {
         baseShieldStrength: 150,
         baseArmour: 150,
         hardness: 42,
-        hullMass: 298,
+        hullMass: 260,
         masslock: 10,
         pipSpeed: .09625,
         pitch: 35,
@@ -767,12 +767,12 @@ module.exports = {
       slots: {
         standard: [ 4, 4, 5, 3, 4, 3, 5 ],
         hardpoints: [ 3, 2, 2, 0, 0, 0, 0 ],
-        internal: [ 4, 4, 3, 3, 2 ]
+        internal: [ 4, 4, 3, 3, 2, 2 ]
       },
       defaults: {
         standard: [ "4E", "4E", "5E", "3E", "4E", "3E", "5C" ],
         hardpoints: [ 0, 17, 17, 0, 0, 0, 0 ],
-        internal: [ "49", "02", "01", 0, "2h" ]
+        internal: [ "49", "02", "01", 0, "2h", 0 ]
       }
     },
     diamondback: {
@@ -863,6 +863,102 @@ module.exports = {
         standard: [ "4E", "4E", "4E", "2E", "3E", "2E", "4C" ],
         hardpoints: [ 17, 17, 0, 0, 0, 0, 0, 0 ],
         internal: [ "44", 0, 0, "2h" ]
+      }
+    },
+    dolphin: {
+      eddbID: 31,
+      properties: {
+        name: "Dolphin",
+        manufacturer: "Saud Kruger",
+        class: 1,
+        hullCost: 1115330,
+        speed: 250,
+        boost: 350,
+        boostEnergy: 10,
+        baseShieldStrength: 110,
+        baseArmour: 110,
+        hardness: 35,
+        hullMass: 140,
+        masslock: 9,
+        pipSpeed: .13,
+        luxuryCabins: true,
+        pitch: 30,
+        roll: 100,
+        yaw: 20,
+        crew: 1
+      },
+      retailCost: 1337330,
+      bulkheads: [ {
+        id: "cq",
+        eddbID: 1589,
+        grp: "bh",
+        cost: 0,
+        mass: 0,
+        explres: -.4,
+        kinres: -.2,
+        thermres: 0,
+        hullboost: .8
+      }, {
+        id: "cr",
+        eddbID: 1590,
+        grp: "bh",
+        cost: 534940,
+        mass: 32,
+        explres: -.4,
+        kinres: -.2,
+        thermres: 0,
+        hullboost: 1.52
+      }, {
+        id: "cs",
+        eddbID: 1591,
+        grp: "bh",
+        cost: 1203600,
+        mass: 63,
+        explres: -.4,
+        kinres: -.2,
+        thermres: 0,
+        hullboost: 2.5
+      }, {
+        id: "ct",
+        eddbID: 1592,
+        grp: "bh",
+        cost: 2808390,
+        mass: 63,
+        explres: -.5,
+        kinres: -.75,
+        thermres: .5,
+        hullboost: 2.5
+      }, {
+        id: "cu",
+        eddbID: 1593,
+        grp: "bh",
+        cost: 3152080,
+        mass: 63,
+        explres: .2,
+        kinres: .25,
+        thermres: -.4,
+        hullboost: 2.5
+      } ],
+      slots: {
+        standard: [ 4, 5, 4, 4, 3, 3, 4 ],
+        hardpoints: [ 1, 1, 0, 0, 0 ],
+        internal: [ {
+          class: 5,
+          name: "Passenger",
+          eligible: {
+            cr: 1,
+            hr: 1,
+            pce: 1,
+            pci: 1,
+            pcm: 1,
+            pcq: 1
+          }
+        }, 4, 4, 3, 2, 2, 2 ]
+      },
+      defaults: {
+        standard: [ "4E", "5E", "4E", "4E", "3E", "3E", "4C" ],
+        hardpoints: [ 17, 17, 0, 0, 0 ],
+        internal: [ "md", "02", "49", "01", "00", 0, "2h" ]
       }
     },
     eagle: {
@@ -2067,7 +2163,7 @@ module.exports = {
         baseShieldStrength: 220,
         baseArmour: 220,
         hardness: 55,
-        hullMass: 580,
+        hullMass: 290,
         masslock: 13,
         pipSpeed: .08375,
         luxuryCabins: true,
@@ -5714,6 +5810,7 @@ module.exports = {
         weprate: 1.8
       } ],
       s: [ {
+        angle: 30,
         class: 8,
         cost: 697580,
         edID: 128064253,
@@ -5726,6 +5823,7 @@ module.exports = {
         range: 5.12,
         rating: "E"
       }, {
+        angle: 30,
         class: 8,
         cost: 1743960,
         edID: 128064254,
@@ -5738,6 +5836,7 @@ module.exports = {
         range: 5.76,
         rating: "D"
       }, {
+        angle: 30,
         class: 8,
         cost: 4359900,
         edID: 128064255,
@@ -5750,6 +5849,7 @@ module.exports = {
         range: 6.4,
         rating: "C"
       }, {
+        angle: 30,
         class: 8,
         cost: 10899760,
         edID: 128064256,
@@ -5762,6 +5862,7 @@ module.exports = {
         range: 7.04,
         rating: "B"
       }, {
+        angle: 30,
         class: 8,
         cost: 27249390,
         edID: 128064257,
@@ -5774,6 +5875,7 @@ module.exports = {
         range: 7.68,
         rating: "A"
       }, {
+        angle: 30,
         class: 7,
         cost: 249140,
         edID: 128064248,
@@ -5786,6 +5888,7 @@ module.exports = {
         range: 4.96,
         rating: "E"
       }, {
+        angle: 30,
         class: 7,
         cost: 622840,
         edID: 128064249,
@@ -5798,6 +5901,7 @@ module.exports = {
         range: 5.58,
         rating: "D"
       }, {
+        angle: 30,
         class: 7,
         cost: 1557110,
         edID: 128064250,
@@ -5810,6 +5914,7 @@ module.exports = {
         range: 6.2,
         rating: "C"
       }, {
+        angle: 30,
         class: 7,
         cost: 3892770,
         edID: 128064251,
@@ -5822,6 +5927,7 @@ module.exports = {
         range: 6.82,
         rating: "B"
       }, {
+        angle: 30,
         class: 7,
         cost: 9731930,
         edID: 128064252,
@@ -5834,6 +5940,7 @@ module.exports = {
         range: 7.44,
         rating: "A"
       }, {
+        angle: 30,
         class: 6,
         cost: 88980,
         edID: 128064243,
@@ -5846,6 +5953,7 @@ module.exports = {
         range: 4.8,
         rating: "E"
       }, {
+        angle: 30,
         class: 6,
         cost: 222440,
         edID: 128064244,
@@ -5858,6 +5966,7 @@ module.exports = {
         range: 5.4,
         rating: "D"
       }, {
+        angle: 30,
         class: 6,
         cost: 556110,
         edID: 128064245,
@@ -5870,6 +5979,7 @@ module.exports = {
         range: 6,
         rating: "C"
       }, {
+        angle: 30,
         class: 6,
         cost: 1390280,
         edID: 128064246,
@@ -5882,6 +5992,7 @@ module.exports = {
         range: 6.6,
         rating: "B"
       }, {
+        angle: 30,
         class: 6,
         cost: 3475690,
         edID: 128064247,
@@ -5894,6 +6005,7 @@ module.exports = {
         range: 7.2,
         rating: "A"
       }, {
+        angle: 30,
         class: 5,
         cost: 31780,
         edID: 128064238,
@@ -5906,6 +6018,7 @@ module.exports = {
         range: 4.64,
         rating: "E"
       }, {
+        angle: 30,
         class: 5,
         cost: 79440,
         edID: 128064239,
@@ -5918,6 +6031,7 @@ module.exports = {
         range: 5.22,
         rating: "D"
       }, {
+        angle: 30,
         class: 5,
         cost: 198610,
         edID: 128064240,
@@ -5930,6 +6044,7 @@ module.exports = {
         range: 5.8,
         rating: "C"
       }, {
+        angle: 30,
         class: 5,
         cost: 496530,
         edID: 128064241,
@@ -5942,6 +6057,7 @@ module.exports = {
         range: 6.38,
         rating: "B"
       }, {
+        angle: 30,
         class: 5,
         cost: 1241320,
         edID: 128064242,
@@ -5954,6 +6070,7 @@ module.exports = {
         range: 6.96,
         rating: "A"
       }, {
+        angle: 30,
         class: 4,
         cost: 11350,
         edID: 128064233,
@@ -5966,6 +6083,7 @@ module.exports = {
         range: 4.48,
         rating: "E"
       }, {
+        angle: 30,
         class: 4,
         cost: 28370,
         edID: 128064234,
@@ -5978,6 +6096,7 @@ module.exports = {
         range: 5.04,
         rating: "D"
       }, {
+        angle: 30,
         class: 4,
         cost: 70930,
         edID: 128064235,
@@ -5990,6 +6109,7 @@ module.exports = {
         range: 5.6,
         rating: "C"
       }, {
+        angle: 30,
         class: 4,
         cost: 177330,
         edID: 128064236,
@@ -6002,6 +6122,7 @@ module.exports = {
         range: 6.16,
         rating: "B"
       }, {
+        angle: 30,
         class: 4,
         cost: 443330,
         edID: 128064237,
@@ -6014,6 +6135,7 @@ module.exports = {
         range: 6.72,
         rating: "A"
       }, {
+        angle: 30,
         class: 3,
         cost: 4050,
         edID: 128064228,
@@ -6026,6 +6148,7 @@ module.exports = {
         range: 4.32,
         rating: "E"
       }, {
+        angle: 30,
         class: 3,
         cost: 10130,
         edID: 128064229,
@@ -6038,6 +6161,7 @@ module.exports = {
         range: 4.86,
         rating: "D"
       }, {
+        angle: 30,
         class: 3,
         cost: 25330,
         edID: 128064230,
@@ -6050,6 +6174,7 @@ module.exports = {
         range: 5.4,
         rating: "C"
       }, {
+        angle: 30,
         class: 3,
         cost: 63330,
         edID: 128064231,
@@ -6062,6 +6187,7 @@ module.exports = {
         range: 5.94,
         rating: "B"
       }, {
+        angle: 30,
         class: 3,
         cost: 158330,
         edID: 128064232,
@@ -6074,6 +6200,7 @@ module.exports = {
         range: 6.48,
         rating: "A"
       }, {
+        angle: 30,
         class: 2,
         cost: 1450,
         edID: 128064223,
@@ -6086,6 +6213,7 @@ module.exports = {
         range: 4.16,
         rating: "E"
       }, {
+        angle: 30,
         class: 2,
         cost: 3620,
         edID: 128064224,
@@ -6098,6 +6226,7 @@ module.exports = {
         range: 4.68,
         rating: "D"
       }, {
+        angle: 30,
         class: 2,
         cost: 9050,
         edID: 128064225,
@@ -6110,6 +6239,7 @@ module.exports = {
         range: 5.2,
         rating: "C"
       }, {
+        angle: 30,
         class: 2,
         cost: 22620,
         edID: 128064226,
@@ -6122,6 +6252,7 @@ module.exports = {
         range: 5.72,
         rating: "B"
       }, {
+        angle: 30,
         class: 2,
         cost: 56550,
         edID: 128064227,
@@ -6134,6 +6265,7 @@ module.exports = {
         range: 6.24,
         rating: "A"
       }, {
+        angle: 30,
         class: 1,
         cost: 520,
         edID: 128064218,
@@ -6146,6 +6278,7 @@ module.exports = {
         range: 4,
         rating: "E"
       }, {
+        angle: 30,
         class: 1,
         cost: 1290,
         edID: 128064219,
@@ -6158,6 +6291,7 @@ module.exports = {
         range: 4.5,
         rating: "D"
       }, {
+        angle: 30,
         class: 1,
         cost: 3230,
         edID: 128064220,
@@ -6170,6 +6304,7 @@ module.exports = {
         range: 5,
         rating: "C"
       }, {
+        angle: 30,
         class: 1,
         cost: 8080,
         edID: 128064221,
@@ -6182,6 +6317,7 @@ module.exports = {
         range: 5.5,
         rating: "B"
       }, {
+        angle: 30,
         class: 1,
         cost: 20200,
         edID: 128064222,
@@ -6286,7 +6422,7 @@ module.exports = {
         breachmin: .4,
         class: 1,
         cost: 2200,
-        damage: 2.04,
+        damage: 2.05,
         damagedist: {
           T: 1
         },
@@ -6303,8 +6439,8 @@ module.exports = {
         power: .39,
         range: 3e3,
         rating: "F",
-        rof: 3.847,
-        thermload: .3
+        rof: 3.85,
+        thermload: .33
       }, {
         breachdmg: 1.3,
         breachmax: .8,
@@ -6328,15 +6464,15 @@ module.exports = {
         power: .39,
         range: 3e3,
         rating: "G",
-        rof: 3.987,
-        thermload: .3
+        rof: 4,
+        thermload: .31
       }, {
         breachdmg: 1,
         breachmax: .8,
         breachmin: .4,
         class: 1,
         cost: 26e3,
-        damage: 1.18,
+        damage: 1.19,
         damagedist: {
           T: 1
         },
@@ -6353,15 +6489,15 @@ module.exports = {
         power: .38,
         range: 3e3,
         rating: "G",
-        rof: 3.339,
-        thermload: .2
+        rof: 3.33,
+        thermload: .19
       }, {
         breachdmg: 3,
         breachmax: .8,
         breachmin: .4,
         class: 2,
         cost: 17600,
-        damage: 3.49,
+        damage: 3.5,
         damagedist: {
           T: 1
         },
@@ -6378,8 +6514,8 @@ module.exports = {
         power: .6,
         range: 3e3,
         rating: "E",
-        rof: 3.448,
-        thermload: .6
+        rof: 3.45,
+        thermload: .56
       }, {
         breachdmg: 2.3,
         breachmax: .8,
@@ -6403,15 +6539,15 @@ module.exports = {
         power: .6,
         range: 3e3,
         rating: "F",
-        rof: 3.567,
-        thermload: .5
+        rof: 3.57,
+        thermload: .54
       }, {
         breachdmg: 1.7,
         breachmax: .8,
         breachmin: .4,
         class: 2,
         cost: 132800,
-        damage: 2.04,
+        damage: 2.05,
         damagedist: {
           T: 1
         },
@@ -6428,8 +6564,8 @@ module.exports = {
         power: .58,
         range: 3e3,
         rating: "F",
-        rof: 3.037,
-        thermload: .3
+        rof: 3.03,
+        thermload: .33
       }, {
         breachdmg: 2.4,
         breachmax: .8,
@@ -6479,8 +6615,8 @@ module.exports = {
         power: .9,
         range: 3e3,
         rating: "D",
-        rof: 3.3,
-        thermload: 1
+        rof: 3.03,
+        thermload: .96
       }, {
         breachdmg: 3.9,
         breachmax: .8,
@@ -6504,15 +6640,15 @@ module.exports = {
         power: .92,
         range: 3e3,
         rating: "E",
-        rof: 3.223,
-        thermload: .9
+        rof: 3.23,
+        thermload: .92
       }, {
         breachdmg: 3,
         breachmax: .8,
         breachmin: .4,
         class: 3,
         cost: 400400,
-        damage: 3.49,
+        damage: 3.5,
         damagedist: {
           T: 1
         },
@@ -6529,15 +6665,15 @@ module.exports = {
         power: .89,
         range: 3e3,
         rating: "F",
-        rof: 2.705,
-        thermload: .6
+        rof: 2.7,
+        thermload: .56
       }, {
         breachdmg: 8.7,
         breachmax: .8,
         breachmin: .4,
         class: 4,
         cost: 177600,
-        damage: 10.23,
+        damage: 10.24,
         damagedist: {
           T: 1
         },
@@ -6554,8 +6690,8 @@ module.exports = {
         power: 1.33,
         range: 3e3,
         rating: "A",
-        rof: 2.633,
-        thermload: 1.6
+        rof: 2.63,
+        thermload: 1.64
       }, {
         breachdmg: 6.6,
         breachmax: .8,
@@ -6579,8 +6715,8 @@ module.exports = {
         power: 1.37,
         range: 3e3,
         rating: "A",
-        rof: 2.777,
-        thermload: 1.6
+        rof: 2.78,
+        thermload: 1.56
       } ],
       ul: [ {
         breachdmg: 1.5,
@@ -6594,7 +6730,7 @@ module.exports = {
         damagedist: {
           T: 1
         },
-        distdraw: .24,
+        distdraw: .25,
         edID: 128049400,
         eddbID: 832,
         falloff: 500,
@@ -6608,7 +6744,7 @@ module.exports = {
         range: 3e3,
         rating: "F",
         rof: 2,
-        thermload: .4
+        thermload: .38
       }, {
         breachdmg: 1,
         breachmax: .8,
@@ -6617,11 +6753,11 @@ module.exports = {
         burstrof: 17,
         class: 1,
         cost: 8600,
-        damage: 1.2,
+        damage: 1.22,
         damagedist: {
           T: 1
         },
-        distdraw: .23,
+        distdraw: .24,
         edID: 128049404,
         eddbID: 835,
         falloff: 500,
@@ -6635,7 +6771,7 @@ module.exports = {
         range: 3e3,
         rating: "G",
         rof: 2.23,
-        thermload: .3
+        thermload: .34
       }, {
         breachdmg: .4,
         breachmax: .8,
@@ -6648,7 +6784,7 @@ module.exports = {
         damagedist: {
           T: 1
         },
-        distdraw: .136,
+        distdraw: .14,
         edID: 128049407,
         eddbID: 838,
         falloff: 500,
@@ -6662,7 +6798,7 @@ module.exports = {
         range: 3e3,
         rating: "G",
         rof: 1.92,
-        thermload: .2
+        thermload: .19
       }, {
         breachdmg: 2,
         breachmax: 0,
@@ -6701,11 +6837,11 @@ module.exports = {
         burstrof: 11,
         class: 2,
         cost: 23e3,
-        damage: 3.5,
+        damage: 3.53,
         damagedist: {
           T: 1
         },
-        distdraw: .482,
+        distdraw: .5,
         edID: 128049401,
         eddbID: 833,
         falloff: 500,
@@ -6719,7 +6855,7 @@ module.exports = {
         range: 3e3,
         rating: "E",
         rof: 1.6,
-        thermload: .8
+        thermload: .78
       }, {
         breachdmg: 2.1,
         breachmax: .8,
@@ -6732,7 +6868,7 @@ module.exports = {
         damagedist: {
           T: 1
         },
-        distdraw: .468,
+        distdraw: .49,
         edID: 128049405,
         eddbID: 836,
         falloff: 500,
@@ -6746,7 +6882,7 @@ module.exports = {
         range: 3e3,
         rating: "F",
         rof: 1.78,
-        thermload: .7
+        thermload: .67
       }, {
         breachdmg: .9,
         breachmax: .8,
@@ -6755,11 +6891,11 @@ module.exports = {
         burstrof: 15,
         class: 2,
         cost: 162800,
-        damage: 1.74,
+        damage: 1.72,
         damagedist: {
           T: 1
         },
-        distdraw: .26,
+        distdraw: .28,
         edID: 128049408,
         eddbID: 839,
         falloff: 500,
@@ -6773,7 +6909,7 @@ module.exports = {
         range: 3e3,
         rating: "F",
         rof: 1.57,
-        thermload: .4
+        thermload: .38
       }, {
         breachdmg: 3.9,
         breachmax: .8,
@@ -6782,11 +6918,11 @@ module.exports = {
         burstrof: 7,
         class: 3,
         cost: 140400,
-        damage: 7.75,
+        damage: 7.73,
         damagedist: {
           T: 1
         },
-        distdraw: 1.06,
+        distdraw: 1.11,
         edID: 128049402,
         eddbID: 834,
         falloff: 500,
@@ -6809,11 +6945,11 @@ module.exports = {
         burstrof: 9,
         class: 3,
         cost: 281600,
-        damage: 5.18,
+        damage: 5.16,
         damagedist: {
           T: 1
         },
-        distdraw: .986,
+        distdraw: 1.03,
         edID: 128049406,
         eddbID: 837,
         falloff: 500,
@@ -6827,7 +6963,7 @@ module.exports = {
         range: 3e3,
         rating: "E",
         rof: 1.4,
-        thermload: 1.4
+        thermload: 1.42
       }, {
         breachdmg: 1.8,
         breachmax: .8,
@@ -6836,11 +6972,11 @@ module.exports = {
         burstrof: 11,
         class: 3,
         cost: 800400,
-        damage: 3.54,
+        damage: 3.53,
         damagedist: {
           T: 1
         },
-        distdraw: .536,
+        distdraw: .56,
         edID: 128049409,
         eddbID: 840,
         falloff: 500,
@@ -6854,7 +6990,7 @@ module.exports = {
         range: 3e3,
         rating: "E",
         rof: 1.272,
-        thermload: .8
+        thermload: .78
       }, {
         breachdmg: 17.5,
         breachmax: .8,
@@ -6863,11 +6999,11 @@ module.exports = {
         burstrof: 3,
         class: 4,
         cost: 281600,
-        damage: 20.6,
+        damage: 20.61,
         damagedist: {
           T: 1
         },
-        distdraw: 2.84,
+        distdraw: 2.98,
         edID: 128049403,
         eddbID: 1549,
         falloff: 500,
@@ -6881,7 +7017,7 @@ module.exports = {
         range: 3e3,
         rating: "E",
         rof: .8,
-        thermload: 4.5
+        thermload: 4.53
       }, {
         breachdmg: 10.3,
         breachmax: .8,
@@ -6890,11 +7026,11 @@ module.exports = {
         burstrof: 5,
         class: 4,
         cost: 1245600,
-        damage: 12.1,
+        damage: 12.09,
         damagedist: {
           T: 1
         },
-        distdraw: 2.31,
+        distdraw: 2.41,
         edID: 128727920,
         eddbID: 1550,
         falloff: 500,
@@ -6908,7 +7044,7 @@ module.exports = {
         range: 3e3,
         rating: "E",
         rof: 1,
-        thermload: 3.3
+        thermload: 3.33
       } ],
       bl: [ {
         breachdmg: 7.9,
@@ -7231,7 +7367,7 @@ module.exports = {
         reload: 4,
         rof: 7.69,
         shotspeed: 1600,
-        thermload: .1
+        thermload: .09
       }, {
         ammo: 2100,
         breachdmg: .7,
@@ -7289,7 +7425,7 @@ module.exports = {
         reload: 4,
         rof: 7.14,
         shotspeed: 1600,
-        thermload: 0
+        thermload: .04
       }, {
         ammo: 1e3,
         breachdmg: 2.6,
@@ -7349,7 +7485,7 @@ module.exports = {
         reload: 4,
         rof: 7.14,
         shotspeed: 1600,
-        thermload: .2
+        thermload: .18
       }, {
         ammo: 2100,
         breachdmg: 1.5,
@@ -7407,7 +7543,7 @@ module.exports = {
         reload: 4,
         rof: 6.25,
         shotspeed: 1600,
-        thermload: .1
+        thermload: .09
       }, {
         ammo: 2100,
         breachdmg: 3.5,
@@ -7416,7 +7552,7 @@ module.exports = {
         class: 3,
         clip: 100,
         cost: 140400,
-        damage: 3.93,
+        damage: 3.92,
         damagedist: {
           K: 1
         },
@@ -7434,9 +7570,9 @@ module.exports = {
         range: 4e3,
         rating: "C",
         reload: 4,
-        rof: 5.88,
+        rof: 5.884,
         shotspeed: 1600,
-        thermload: .3
+        thermload: .28
       }, {
         ammo: 2100,
         breachdmg: 2.6,
@@ -7465,7 +7601,7 @@ module.exports = {
         reload: 5,
         rof: 6.665,
         shotspeed: 1600,
-        thermload: .3
+        thermload: .34
       }, {
         ammo: 2100,
         breachdmg: 4.2,
@@ -7474,7 +7610,7 @@ module.exports = {
         class: 4,
         clip: 100,
         cost: 1177600,
-        damage: 4.62,
+        damage: 4.625,
         damagedist: {
           K: 1
         },
@@ -7495,7 +7631,7 @@ module.exports = {
         rof: 3.03,
         roundspershot: 2,
         shotspeed: 1600,
-        thermload: .4
+        thermload: .39
       }, {
         ammo: 2100,
         breachdmg: 3.1,
@@ -7525,7 +7661,7 @@ module.exports = {
         rof: 3.365,
         roundspershot: 2,
         shotspeed: 1600,
-        thermload: .5
+        thermload: .51
       } ],
       c: [ {
         ammo: 120,
@@ -7872,14 +8008,14 @@ module.exports = {
         grp: "fc",
         id: "20",
         integrity: 40,
-        jitter: .5,
+        jitter: 5,
         mass: 2,
         mount: "F",
         piercing: 20,
         power: .45,
         range: 2e3,
         rating: "E",
-        reload: 2.5,
+        reload: 5,
         rof: 5.555,
         roundspershot: 12,
         shotspeed: 667,
@@ -7903,14 +8039,14 @@ module.exports = {
         grp: "fc",
         id: "21",
         integrity: 40,
-        jitter: .5,
+        jitter: 5,
         mass: 2,
         mount: "G",
         piercing: 20,
         power: .59,
         range: 2e3,
         rating: "E",
-        reload: 2.5,
+        reload: 5,
         rof: 5.88,
         roundspershot: 12,
         shotspeed: 667,
@@ -7934,14 +8070,14 @@ module.exports = {
         grp: "fc",
         id: "22",
         integrity: 40,
-        jitter: .5,
+        jitter: 5,
         mass: 2,
         mount: "T",
         piercing: 20,
         power: .42,
         range: 2e3,
         rating: "E",
-        reload: 2.5,
+        reload: 5,
         rof: 4.76,
         roundspershot: 12,
         shotspeed: 667,
@@ -7954,7 +8090,7 @@ module.exports = {
         class: 2,
         clip: 3,
         cost: 291840,
-        damage: 2.56,
+        damage: 3,
         damagedist: {
           K: 1
         },
@@ -7965,15 +8101,15 @@ module.exports = {
         grp: "fc",
         id: "1s",
         integrity: 80,
-        jitter: .5,
+        jitter: 5,
         mass: 4,
         mount: "F",
         piercing: 30,
         power: .74,
         range: 2e3,
         rating: "A",
-        reload: 2.5,
-        rof: 5,
+        reload: 5,
+        rof: 4.975,
         roundspershot: 12,
         shotspeed: 667,
         thermload: .7
@@ -7985,7 +8121,7 @@ module.exports = {
         class: 2,
         clip: 3,
         cost: 437800,
-        damage: 1.95,
+        damage: 2.275,
         damagedist: {
           K: 1
         },
@@ -7996,14 +8132,14 @@ module.exports = {
         grp: "fc",
         id: "7e",
         integrity: 80,
-        jitter: .5,
+        jitter: 5,
         mass: 4,
         mount: "G",
         piercing: 30,
         power: 1.03,
         range: 2e3,
         rating: "D",
-        reload: 2.5,
+        reload: 5,
         rof: 5.26,
         roundspershot: 12,
         shotspeed: 667,
@@ -8016,7 +8152,7 @@ module.exports = {
         class: 2,
         clip: 3,
         cost: 1459200,
-        damage: 1.43,
+        damage: 1.7,
         damagedist: {
           K: 1
         },
@@ -8027,15 +8163,15 @@ module.exports = {
         grp: "fc",
         id: "7f",
         integrity: 80,
-        jitter: .5,
+        jitter: 5,
         mass: 4,
         mount: "T",
         piercing: 30,
         power: .79,
         range: 2e3,
         rating: "D",
-        reload: 2.5,
-        rof: 4.345,
+        reload: 5,
+        rof: 4.26,
         roundspershot: 12,
         shotspeed: 667,
         thermload: .4
@@ -8047,7 +8183,7 @@ module.exports = {
         class: 3,
         clip: 3,
         cost: 1167360,
-        damage: 3.92,
+        damage: 4.57,
         damagedist: {
           K: 1
         },
@@ -8058,14 +8194,14 @@ module.exports = {
         grp: "fc",
         id: "1t",
         integrity: 80,
-        jitter: .5,
+        jitter: 5,
         mass: 8,
         mount: "F",
         piercing: 45,
         power: 1.02,
         range: 2e3,
         rating: "C",
-        reload: 2.5,
+        reload: 5,
         rof: 4.545,
         roundspershot: 12,
         shotspeed: 667,
@@ -8078,7 +8214,7 @@ module.exports = {
         class: 3,
         clip: 3,
         cost: 1751040,
-        damage: 3.23,
+        damage: 3.77,
         damagedist: {
           K: 1
         },
@@ -8089,14 +8225,14 @@ module.exports = {
         grp: "fc",
         id: "1u",
         integrity: 80,
-        jitter: .5,
+        jitter: 5,
         mass: 8,
         mount: "G",
         piercing: 45,
         power: 1.55,
         range: 2e3,
         rating: "C",
-        reload: 2.5,
+        reload: 5,
         rof: 4.76,
         roundspershot: 12,
         shotspeed: 667,
@@ -8109,7 +8245,7 @@ module.exports = {
         class: 3,
         clip: 3,
         cost: 5836800,
-        damage: 2.56,
+        damage: 2.98,
         damagedist: {
           K: 1
         },
@@ -8120,14 +8256,14 @@ module.exports = {
         grp: "fc",
         id: "1v",
         integrity: 80,
-        jitter: .5,
+        jitter: 5,
         mass: 8,
         mount: "T",
         piercing: 45,
         power: 1.29,
         range: 2e3,
         rating: "C",
-        reload: 2.5,
+        reload: 5,
         rof: 4,
         roundspershot: 12,
         shotspeed: 667,
@@ -8159,7 +8295,7 @@ module.exports = {
         power: 1.02,
         pp: "Zachary Hudson",
         rating: "C",
-        reload: 2.5,
+        reload: 5,
         rof: 4.5,
         roundspershot: 12,
         shotspeed: 1e3,
@@ -8173,7 +8309,7 @@ module.exports = {
         class: 1,
         clip: 1,
         cost: 51600,
-        damage: 23.3,
+        damage: 23.25,
         damagedist: {
           K: .5,
           T: .5
@@ -8193,7 +8329,7 @@ module.exports = {
         rating: "D",
         reload: 1,
         rof: 1.6,
-        thermload: 17.8
+        thermload: 12
       }, {
         ammo: 80,
         breachdmg: 39.5,
@@ -8222,7 +8358,7 @@ module.exports = {
         rating: "B",
         reload: 1,
         rof: 1.2,
-        thermload: 30
+        thermload: 20
       }, {
         ammo: 90,
         breachdmg: 14.3,
@@ -8248,14 +8384,14 @@ module.exports = {
         mass: 4,
         mount: "F",
         name: "Imperial Hammer",
-        piercing: 150,
+        piercing: 48,
         power: 1.63,
         pp: "Arissa Lavigny-Duval",
         range: 3e3,
         rating: "B",
         reload: 1,
         rof: 4.1,
-        thermload: 16
+        thermload: 12
       } ],
       pa: [ {
         ammo: 100,
@@ -8507,7 +8643,7 @@ module.exports = {
         breachmin: 0,
         class: 2,
         clip: 12,
-        cost: 190227,
+        cost: 1951040,
         damage: 40,
         damagedist: {
           E: 1
@@ -8515,6 +8651,7 @@ module.exports = {
         distdraw: .24,
         eddbID: 1559,
         grp: "mr",
+        edID: 128732552,
         id: "1z",
         integrity: 51,
         mass: 4,
@@ -8626,7 +8763,7 @@ module.exports = {
         breachmax: 0,
         breachmin: 0,
         class: 1,
-        clip: 3,
+        clip: 1,
         cost: 24260,
         damage: 44,
         damagedist: {
@@ -8653,7 +8790,7 @@ module.exports = {
         breachmax: 0,
         breachmin: 0,
         class: 1,
-        clip: 3,
+        clip: 1,
         cost: 36400,
         damage: 32,
         damagedist: {
@@ -8676,7 +8813,7 @@ module.exports = {
         rof: 1,
         thermload: 5
       }, {
-        ammo: 36,
+        ammo: 72,
         breachdmg: 0,
         breachmax: 0,
         breachmin: 0,
@@ -8699,7 +8836,7 @@ module.exports = {
         piercing: 60,
         power: .4,
         rating: "I",
-        reload: 2,
+        reload: 6.6,
         rof: 1,
         thermload: 7.5
       } ],
@@ -8722,6 +8859,29 @@ module.exports = {
         integrity: 40,
         mass: 2,
         mount: "F",
+        piercing: 18,
+        power: .5,
+        range: 500,
+        rating: "D",
+        thermload: 2
+      }, {
+        breachdmg: .3,
+        breachmax: .2,
+        breachmin: .1,
+        class: 1,
+        cost: 9400,
+        damage: 2,
+        damagedist: {
+          T: 1
+        },
+        distdraw: 1.5,
+        eddbID: 1587,
+        falloff: 300,
+        grp: "ml",
+        id: "w0",
+        integrity: 40,
+        mass: 2,
+        mount: "T",
         piercing: 18,
         power: .5,
         range: 500,
@@ -8777,6 +8937,29 @@ module.exports = {
         range: 500,
         rating: "D",
         thermload: 4
+      }, {
+        breachdmg: .6,
+        breachmax: .2,
+        breachmin: .1,
+        class: 2,
+        cost: 32590,
+        damage: 4,
+        damagedist: {
+          T: 1
+        },
+        distdraw: 3,
+        eddbID: 1588,
+        falloff: 300,
+        grp: "ml",
+        id: "w1",
+        integrity: 51,
+        mass: 2,
+        mount: "T",
+        piercing: 18,
+        power: .75,
+        range: 500,
+        rating: "D",
+        thermload: 4
       } ],
       cs: [ {
         angle: 15,
@@ -8791,7 +8974,7 @@ module.exports = {
         power: .2,
         range: 2e3,
         rating: "E",
-        time: 10
+        scantime: 10
       }, {
         angle: 15,
         class: 0,
@@ -8805,7 +8988,7 @@ module.exports = {
         power: .4,
         range: 2500,
         rating: "D",
-        time: 10
+        scantime: 10
       }, {
         angle: 15,
         class: 0,
@@ -8819,7 +9002,7 @@ module.exports = {
         power: .8,
         range: 3e3,
         rating: "C",
-        time: 10
+        scantime: 10
       }, {
         angle: 15,
         class: 0,
@@ -8833,7 +9016,7 @@ module.exports = {
         power: 1.6,
         range: 3500,
         rating: "B",
-        time: 10
+        scantime: 10
       }, {
         angle: 15,
         class: 0,
@@ -8847,7 +9030,7 @@ module.exports = {
         power: 3.2,
         range: 4e3,
         rating: "A",
-        time: 10
+        scantime: 10
       } ],
       ws: [ {
         class: 0,
@@ -8861,7 +9044,7 @@ module.exports = {
         power: .2,
         range: 2e3,
         rating: "E",
-        time: 10
+        scantime: 10
       }, {
         class: 0,
         cost: 40630,
@@ -8874,7 +9057,7 @@ module.exports = {
         power: .4,
         range: 2500,
         rating: "D",
-        time: 10
+        scantime: 10
       }, {
         class: 0,
         cost: 121900,
@@ -8887,7 +9070,7 @@ module.exports = {
         power: .8,
         range: 3e3,
         rating: "C",
-        time: 10
+        scantime: 10
       }, {
         class: 0,
         cost: 365700,
@@ -8900,7 +9083,7 @@ module.exports = {
         power: 1.6,
         range: 3500,
         rating: "B",
-        time: 10
+        scantime: 10
       }, {
         class: 0,
         cost: 1097100,
@@ -8913,7 +9096,7 @@ module.exports = {
         power: 3.2,
         range: 4e3,
         rating: "A",
-        time: 10
+        scantime: 10
       } ],
       kw: [ {
         class: 0,
@@ -8927,7 +9110,7 @@ module.exports = {
         power: .2,
         range: 2e3,
         rating: "E",
-        time: 10
+        scantime: 10
       }, {
         class: 0,
         cost: 40630,
@@ -8940,7 +9123,7 @@ module.exports = {
         power: .4,
         range: 2500,
         rating: "D",
-        time: 10
+        scantime: 10
       }, {
         class: 0,
         cost: 121900,
@@ -8953,7 +9136,7 @@ module.exports = {
         power: .8,
         range: 3e3,
         rating: "C",
-        time: 10
+        scantime: 10
       }, {
         class: 0,
         cost: 365700,
@@ -8966,7 +9149,7 @@ module.exports = {
         power: 1.6,
         range: 3500,
         rating: "B",
-        time: 10
+        scantime: 10
       }, {
         class: 0,
         cost: 1097100,
@@ -8979,7 +9162,7 @@ module.exports = {
         power: 3.2,
         range: 4e3,
         rating: "A",
-        time: 10
+        scantime: 10
       } ],
       sb: [ {
         class: 0,
@@ -9632,6 +9815,7 @@ module.exports = {
         explres: .5,
         grp: "bsg",
         id: "B6",
+        integrity: 40,
         kinres: .4,
         mass: 1.3,
         maxmass: 63,
@@ -9654,6 +9838,7 @@ module.exports = {
         explres: .5,
         grp: "bsg",
         id: "B5",
+        integrity: 51,
         kinres: .4,
         mass: 2.5,
         maxmass: 138,
@@ -9676,6 +9861,7 @@ module.exports = {
         explres: .5,
         grp: "bsg",
         id: "B4",
+        integrity: 64,
         kinres: .4,
         mass: 5,
         maxmass: 413,
@@ -9698,6 +9884,7 @@ module.exports = {
         explres: .5,
         grp: "bsg",
         id: "B3",
+        integrity: 80,
         kinres: .4,
         mass: 10,
         maxmass: 713,
@@ -9720,6 +9907,7 @@ module.exports = {
         explres: .5,
         grp: "bsg",
         id: "B2",
+        integrity: 96,
         kinres: .4,
         mass: 20,
         maxmass: 1013,
@@ -9742,6 +9930,7 @@ module.exports = {
         explres: .5,
         grp: "bsg",
         id: "B1",
+        integrity: 113,
         kinres: .4,
         mass: 40,
         maxmass: 1350,
@@ -9764,6 +9953,7 @@ module.exports = {
         explres: .5,
         grp: "bsg",
         id: "B0",
+        integrity: 131,
         kinres: .4,
         mass: 80,
         maxmass: 2650,
@@ -9786,6 +9976,7 @@ module.exports = {
         explres: .5,
         grp: "bsg",
         id: "B7",
+        integrity: 150,
         kinres: .4,
         mass: 160,
         maxmass: 4500,
@@ -10160,6 +10351,7 @@ module.exports = {
         eddbID: 890,
         grp: "dc",
         id: "24",
+        integrity: 10,
         name: "Standard Docking Computer",
         power: .39,
         rating: "E"
@@ -10169,10 +10361,11 @@ module.exports = {
         class: 5,
         cost: 575660,
         edID: 128727930,
-        eddbID: 1560,
+        eddbID: 1562,
         fightercost: 1030,
         grp: "fh",
         id: "fr",
+        integrity: 60,
         mass: 20,
         power: .25,
         rating: "D",
@@ -10186,6 +10379,7 @@ module.exports = {
         fightercost: 1030,
         grp: "fh",
         id: "fm",
+        integrity: 80,
         mass: 40,
         power: .35,
         rating: "D",
@@ -10195,10 +10389,11 @@ module.exports = {
         class: 7,
         edID: 128727932,
         cost: 2369330,
-        eddbID: 1562,
+        eddbID: 1560,
         fightercost: 1030,
         grp: "fh",
         id: "fh",
+        integrity: 120,
         mass: 60,
         power: .35,
         rating: "D",
@@ -10213,6 +10408,7 @@ module.exports = {
         facinglimit: 50,
         grp: "fi",
         id: "6a",
+        integrity: 32,
         mass: 1.3,
         power: .14,
         ranget: 3,
@@ -10226,6 +10422,7 @@ module.exports = {
         facinglimit: 50,
         grp: "fi",
         id: "69",
+        integrity: 24,
         mass: .5,
         power: .18,
         ranget: 4,
@@ -10239,6 +10436,7 @@ module.exports = {
         facinglimit: 50,
         grp: "fi",
         id: "68",
+        integrity: 40,
         mass: 1.3,
         power: .23,
         ranget: 5,
@@ -10252,6 +10450,7 @@ module.exports = {
         facinglimit: 50,
         grp: "fi",
         id: "67",
+        integrity: 56,
         mass: 2,
         power: .28,
         ranget: 6,
@@ -10265,6 +10464,7 @@ module.exports = {
         facinglimit: 50,
         grp: "fi",
         id: "66",
+        integrity: 48,
         mass: 1.3,
         power: .32,
         ranget: 7,
@@ -10278,6 +10478,7 @@ module.exports = {
         facinglimit: 50,
         grp: "fi",
         id: "6f",
+        integrity: 41,
         mass: 2.5,
         power: .17,
         ranget: 6,
@@ -10291,6 +10492,7 @@ module.exports = {
         facinglimit: 50,
         grp: "fi",
         id: "6e",
+        integrity: 51,
         mass: 1,
         power: .22,
         ranget: 7,
@@ -10304,6 +10506,7 @@ module.exports = {
         facinglimit: 50,
         grp: "fi",
         id: "6d",
+        integrity: 51,
         mass: 2.5,
         power: .28,
         ranget: 8,
@@ -10317,6 +10520,7 @@ module.exports = {
         facinglimit: 50,
         grp: "fi",
         id: "6c",
+        integrity: 71,
         mass: 4,
         power: .34,
         ranget: 9,
@@ -10330,6 +10534,7 @@ module.exports = {
         facinglimit: 50,
         grp: "fi",
         id: "6b",
+        integrity: 61,
         mass: 2.5,
         power: .39,
         ranget: 10,
@@ -10343,6 +10548,7 @@ module.exports = {
         facinglimit: 50,
         grp: "fi",
         id: "6k",
+        integrity: 51,
         mass: 5,
         power: .2,
         ranget: 9,
@@ -10356,6 +10562,7 @@ module.exports = {
         facinglimit: 50,
         grp: "fi",
         id: "6j",
+        integrity: 38,
         mass: 2,
         power: .27,
         ranget: 10,
@@ -10369,6 +10576,7 @@ module.exports = {
         facinglimit: 50,
         grp: "fi",
         id: "6i",
+        integrity: 64,
         mass: 5,
         power: .34,
         ranget: 11,
@@ -10382,6 +10590,7 @@ module.exports = {
         facinglimit: 50,
         grp: "fi",
         id: "6h",
+        integrity: 90,
         mass: 8,
         power: .41,
         ranget: 12,
@@ -10395,6 +10604,7 @@ module.exports = {
         facinglimit: 50,
         grp: "fi",
         id: "6g",
+        integrity: 77,
         mass: 5,
         power: .48,
         ranget: 13,
@@ -10408,6 +10618,7 @@ module.exports = {
         facinglimit: 50,
         grp: "fi",
         id: "6p",
+        integrity: 64,
         mass: 10,
         power: .25,
         ranget: 12,
@@ -10421,6 +10632,7 @@ module.exports = {
         facinglimit: 50,
         grp: "fi",
         id: "6o",
+        integrity: 48,
         mass: 4,
         power: .33,
         ranget: 13,
@@ -10434,6 +10646,7 @@ module.exports = {
         facinglimit: 50,
         grp: "fi",
         id: "6n",
+        integrity: 80,
         mass: 10,
         power: .41,
         ranget: 14,
@@ -10447,6 +10660,7 @@ module.exports = {
         facinglimit: 50,
         grp: "fi",
         id: "6m",
+        integrity: 112,
         mass: 16,
         power: .49,
         ranget: 15,
@@ -10460,6 +10674,7 @@ module.exports = {
         facinglimit: 50,
         grp: "fi",
         id: "6l",
+        integrity: 96,
         mass: 10,
         power: .57,
         ranget: 16,
@@ -11579,7 +11794,7 @@ module.exports = {
         edID: 128737270,
         grp: "mrp",
         id: "m0",
-        integrity: 70,
+        integrity: 77,
         mass: 2,
         protection: .3,
         rating: "E"
@@ -11590,7 +11805,7 @@ module.exports = {
         edID: 128737271,
         grp: "mrp",
         id: "m1",
-        integrity: 30,
+        integrity: 70,
         mass: 1,
         protection: .6,
         rating: "D"
@@ -11601,7 +11816,7 @@ module.exports = {
         edID: 128737272,
         grp: "mrp",
         id: "m2",
-        integrity: 105,
+        integrity: 115,
         mass: 4,
         protection: .3,
         rating: "E"
@@ -11612,7 +11827,7 @@ module.exports = {
         edID: 128737273,
         grp: "mrp",
         id: "m3",
-        integrity: 45,
+        integrity: 105,
         mass: 2,
         protection: .6,
         rating: "D"
@@ -11623,7 +11838,7 @@ module.exports = {
         edID: 128737274,
         grp: "mrp",
         id: "m4",
-        integrity: 155,
+        integrity: 170,
         mass: 8,
         protection: .3,
         rating: "E"
@@ -11634,7 +11849,7 @@ module.exports = {
         edID: 128737275,
         grp: "mrp",
         id: "m5",
-        integrity: 65,
+        integrity: 155,
         mass: 4,
         protection: .6,
         rating: "D"
@@ -11645,7 +11860,7 @@ module.exports = {
         edID: 128737276,
         grp: "mrp",
         id: "m6",
-        integrity: 235,
+        integrity: 260,
         mass: 16,
         protection: .3,
         rating: "E"
@@ -11656,7 +11871,7 @@ module.exports = {
         edID: 128737277,
         grp: "mrp",
         id: "m7",
-        integrity: 95,
+        integrity: 235,
         mass: 8,
         protection: .6,
         rating: "D"
@@ -11667,7 +11882,7 @@ module.exports = {
         edID: 128737278,
         grp: "mrp",
         id: "m8",
-        integrity: 350,
+        integrity: 385,
         mass: 32,
         protection: .3,
         rating: "E"
@@ -11678,7 +11893,7 @@ module.exports = {
         edID: 128737279,
         grp: "mrp",
         id: "m9",
-        integrity: 145,
+        integrity: 350,
         mass: 16,
         protection: .6,
         rating: "D"
@@ -11691,6 +11906,7 @@ module.exports = {
         eddbID: 1528,
         grp: "pv",
         id: "v5",
+        integrity: 30,
         mass: 12,
         power: .25,
         rating: "H"
@@ -11702,6 +11918,7 @@ module.exports = {
         eddbID: 1529,
         grp: "pv",
         id: "v6",
+        integrity: 30,
         mass: 6,
         power: .75,
         rating: "G"
@@ -11713,6 +11930,7 @@ module.exports = {
         eddbID: 1526,
         grp: "pv",
         id: "v3",
+        integrity: 30,
         mass: 20,
         power: .4,
         rating: "H"
@@ -11724,6 +11942,7 @@ module.exports = {
         eddbID: 1527,
         grp: "pv",
         id: "v4",
+        integrity: 30,
         mass: 10,
         power: 1.2,
         rating: "G"
@@ -11735,6 +11954,7 @@ module.exports = {
         eddbID: 1524,
         grp: "pv",
         id: "v1",
+        integrity: 30,
         mass: 34,
         power: .6,
         rating: "H"
@@ -11746,6 +11966,7 @@ module.exports = {
         eddbID: 1525,
         grp: "pv",
         id: "v2",
+        integrity: 30,
         mass: 17,
         power: 1.8,
         rating: "G"
@@ -11760,6 +11981,7 @@ module.exports = {
         explres: .5,
         grp: "psg",
         id: "p6",
+        integrity: 48,
         kinres: .4,
         mass: 2.5,
         maxmass: 63,
@@ -11783,6 +12005,7 @@ module.exports = {
         explres: .5,
         grp: "psg",
         id: "p5",
+        integrity: 61,
         kinres: .4,
         mass: 5,
         maxmass: 138,
@@ -11806,6 +12029,7 @@ module.exports = {
         explres: .5,
         grp: "psg",
         id: "p4",
+        integrity: 77,
         kinres: .4,
         mass: 10,
         maxmass: 413,
@@ -11829,6 +12053,7 @@ module.exports = {
         explres: .5,
         grp: "psg",
         id: "p3",
+        integrity: 96,
         kinres: .4,
         mass: 20,
         maxmass: 713,
@@ -11852,6 +12077,7 @@ module.exports = {
         explres: .5,
         grp: "psg",
         id: "p2",
+        integrity: 115,
         kinres: .4,
         mass: 40,
         maxmass: 1013,
@@ -11875,6 +12101,7 @@ module.exports = {
         explres: .5,
         grp: "psg",
         id: "p1",
+        integrity: 136,
         kinres: .4,
         mass: 80,
         maxmass: 1350,
@@ -11898,6 +12125,7 @@ module.exports = {
         explres: .5,
         grp: "psg",
         id: "p0",
+        integrity: 157,
         kinres: .4,
         mass: 160,
         maxmass: 2650,
@@ -11921,6 +12149,7 @@ module.exports = {
         explres: .5,
         grp: "psg",
         id: "p7",
+        integrity: 180,
         kinres: .4,
         mass: 320,
         maxmass: 4500,
@@ -12528,6 +12757,7 @@ module.exports = {
         eddbID: 1244,
         grp: "sc",
         id: "2f",
+        integrity: 40,
         mass: 2,
         name: "Advanced Discovery Scanner",
         power: 0,
@@ -12540,6 +12770,7 @@ module.exports = {
         eddbID: 1243,
         grp: "sc",
         id: "2g",
+        integrity: 40,
         mass: 2,
         name: "Intermediate Discovery Scanner",
         power: 0,
@@ -12552,28 +12783,19 @@ module.exports = {
         eddbID: 1242,
         grp: "sc",
         id: "2h",
+        integrity: 40,
         mass: 2,
         name: "Basic Discovery Scanner",
         power: 0,
         rangeLS: 500,
         rating: "E"
-      }, {
-        class: 1,
-        cost: 25e4,
-        edID: 128666634,
-        eddbID: 1245,
-        grp: "sc",
-        id: "2i",
-        mass: 1.3,
-        name: "Detailed Surface Scanner",
-        power: 0,
-        rating: "C"
       } ],
       scb: [ {
+        ammo: 3,
         ammocost: 300,
         boot: 25,
-        cells: 4,
         class: 1,
+        clip: 1,
         cost: 517,
         duration: 1,
         edID: 128064298,
@@ -12589,10 +12811,11 @@ module.exports = {
         spinup: 5,
         thermload: 170
       }, {
+        ammo: 0,
         ammocost: 300,
         boot: 25,
-        cells: 1,
         class: 1,
+        clip: 1,
         cost: 1293,
         duration: 1,
         edID: 128064299,
@@ -12608,10 +12831,11 @@ module.exports = {
         spinup: 5,
         thermload: 170
       }, {
+        ammo: 2,
         ammocost: 300,
         boot: 25,
-        cells: 3,
         class: 1,
+        clip: 1,
         cost: 3231,
         duration: 1,
         edID: 128064300,
@@ -12627,10 +12851,11 @@ module.exports = {
         spinup: 5,
         thermload: 170
       }, {
+        ammo: 3,
         ammocost: 300,
         boot: 25,
-        cells: 4,
         class: 1,
+        clip: 1,
         cost: 8078,
         duration: 1,
         edID: 128064301,
@@ -12646,10 +12871,11 @@ module.exports = {
         spinup: 5,
         thermload: 170
       }, {
+        ammo: 2,
         ammocost: 300,
         boot: 25,
-        cells: 3,
         class: 1,
+        clip: 1,
         cost: 20195,
         duration: 1,
         edID: 128064302,
@@ -12665,10 +12891,11 @@ module.exports = {
         spinup: 5,
         thermload: 170
       }, {
+        ammo: 4,
         ammocost: 300,
         boot: 25,
-        cells: 5,
         class: 2,
+        clip: 1,
         cost: 1448,
         duration: 2,
         edID: 128064303,
@@ -12679,15 +12906,16 @@ module.exports = {
         mass: 2.5,
         power: .5,
         rating: "E",
-        shieldreinforcement: 28,
+        shieldreinforcement: 14,
         rechargerating: "E",
         spinup: 5,
         thermload: 240
       }, {
+        ammo: 2,
         ammocost: 300,
         boot: 25,
-        cells: 3,
         class: 2,
+        clip: 1,
         cost: 3619,
         duration: 2,
         edID: 128064304,
@@ -12698,15 +12926,16 @@ module.exports = {
         mass: 1,
         power: .67,
         rating: "D",
-        shieldreinforcement: 36,
+        shieldreinforcement: 18,
         rechargerating: "D",
         spinup: 5,
         thermload: 240
       }, {
+        ammo: 3,
         ammocost: 300,
         boot: 25,
-        cells: 4,
         class: 2,
+        clip: 1,
         cost: 9048,
         duration: 2,
         edID: 128064305,
@@ -12717,15 +12946,16 @@ module.exports = {
         mass: 2.5,
         power: .84,
         rating: "C",
-        shieldreinforcement: 46,
+        shieldreinforcement: 23,
         rechargerating: "C",
         spinup: 5,
         thermload: 240
       }, {
+        ammo: 4,
         ammocost: 300,
         boot: 25,
-        cells: 5,
         class: 2,
+        clip: 1,
         cost: 22619,
         duration: 2,
         edID: 128064306,
@@ -12736,15 +12966,16 @@ module.exports = {
         mass: 4,
         power: 1.01,
         rating: "B",
-        shieldreinforcement: 56,
+        shieldreinforcement: 28,
         rechargerating: "B",
         spinup: 5,
         thermload: 240
       }, {
+        ammo: 3,
         ammocost: 300,
         boot: 25,
-        cells: 4,
         class: 2,
+        clip: 1,
         cost: 56547,
         duration: 2,
         edID: 128064307,
@@ -12755,15 +12986,16 @@ module.exports = {
         mass: 2.5,
         power: 1.18,
         rating: "A",
-        shieldreinforcement: 64,
+        shieldreinforcement: 32,
         rechargerating: "A",
         spinup: 5,
         thermload: 240
       }, {
+        ammo: 4,
         ammocost: 300,
         boot: 25,
-        cells: 5,
         class: 3,
+        clip: 1,
         cost: 4053,
         duration: 2,
         edID: 128064308,
@@ -12774,15 +13006,16 @@ module.exports = {
         mass: 5,
         power: .61,
         rating: "E",
-        shieldreinforcement: 34,
+        shieldreinforcement: 17,
         rechargerating: "E",
         spinup: 5,
         thermload: 340
       }, {
+        ammo: 2,
         ammocost: 300,
         boot: 25,
-        cells: 3,
         class: 3,
+        clip: 1,
         cost: 10133,
         duration: 2,
         edID: 128064309,
@@ -12793,15 +13026,16 @@ module.exports = {
         mass: 2,
         power: .82,
         rating: "D",
-        shieldreinforcement: 46,
+        shieldreinforcement: 23,
         rechargerating: "D",
         spinup: 5,
         thermload: 340
       }, {
+        ammo: 3,
         ammocost: 300,
         boot: 25,
-        cells: 4,
         class: 3,
+        clip: 1,
         cost: 25333,
         duration: 2,
         edID: 128064310,
@@ -12812,15 +13046,16 @@ module.exports = {
         mass: 5,
         power: 1.02,
         rating: "C",
-        shieldreinforcement: 58,
+        shieldreinforcement: 29,
         rechargerating: "C",
         spinup: 5,
         thermload: 340
       }, {
+        ammo: 4,
         ammocost: 300,
         boot: 25,
-        cells: 5,
         class: 3,
+        clip: 1,
         cost: 61909,
         duration: 2,
         edID: 128064311,
@@ -12831,15 +13066,16 @@ module.exports = {
         mass: 8,
         power: 1.22,
         rating: "B",
-        shieldreinforcement: 70,
+        shieldreinforcement: 35,
         rechargerating: "B",
         spinup: 5,
         thermload: 340
       }, {
+        ammo: 3,
         ammocost: 300,
         boot: 25,
-        cells: 4,
         class: 3,
+        clip: 1,
         cost: 158331,
         duration: 2,
         edID: 128064312,
@@ -12850,15 +13086,16 @@ module.exports = {
         mass: 5,
         power: 1.43,
         rating: "A",
-        shieldreinforcement: 82,
+        shieldreinforcement: 41,
         rechargerating: "A",
         spinup: 5,
         thermload: 340
       }, {
+        ammo: 4,
         ammocost: 300,
         boot: 25,
-        cells: 5,
         class: 4,
+        clip: 1,
         cost: 11349,
         duration: 3,
         edID: 128064313,
@@ -12869,15 +13106,16 @@ module.exports = {
         mass: 10,
         power: .74,
         rating: "E",
-        shieldreinforcement: 60,
+        shieldreinforcement: 20,
         rechargerating: "E",
         spinup: 5,
         thermload: 410
       }, {
+        ammo: 2,
         ammocost: 300,
         boot: 25,
-        cells: 3,
         class: 4,
+        clip: 1,
         cost: 28373,
         duration: 3,
         edID: 128064314,
@@ -12888,15 +13126,16 @@ module.exports = {
         mass: 4,
         power: .98,
         rating: "D",
-        shieldreinforcement: 78,
+        shieldreinforcement: 26,
         rechargerating: "D",
         spinup: 5,
         thermload: 410
       }, {
+        ammo: 3,
         ammocost: 300,
         boot: 25,
-        cells: 4,
         class: 4,
+        clip: 1,
         cost: 70932,
         duration: 3,
         edID: 128064315,
@@ -12907,15 +13146,16 @@ module.exports = {
         mass: 10,
         power: 1.23,
         rating: "C",
-        shieldreinforcement: 99,
+        shieldreinforcement: 33,
         rechargerating: "C",
         spinup: 5,
         thermload: 410
       }, {
+        ammo: 4,
         ammocost: 300,
         boot: 25,
-        cells: 5,
         class: 4,
+        clip: 1,
         cost: 177331,
         duration: 3,
         edID: 128064316,
@@ -12926,15 +13166,16 @@ module.exports = {
         mass: 16,
         power: 1.48,
         rating: "B",
-        shieldreinforcement: 117,
+        shieldreinforcement: 39,
         rechargerating: "B",
         spinup: 5,
         thermload: 410
       }, {
+        ammo: 3,
         ammocost: 300,
         boot: 25,
-        cells: 4,
         class: 4,
+        clip: 1,
         cost: 443328,
         duration: 3,
         edID: 128064317,
@@ -12945,15 +13186,16 @@ module.exports = {
         mass: 10,
         power: 1.72,
         rating: "A",
-        shieldreinforcement: 138,
+        shieldreinforcement: 46,
         rechargerating: "A",
         spinup: 5,
         thermload: 410
       }, {
+        ammo: 4,
         ammocost: 300,
         boot: 25,
-        cells: 5,
         class: 5,
+        clip: 1,
         cost: 31778,
         duration: 5,
         edID: 128064318,
@@ -12964,15 +13206,16 @@ module.exports = {
         mass: 20,
         power: .9,
         rating: "E",
-        shieldreinforcement: 105,
+        shieldreinforcement: 21,
         rechargerating: "E",
         spinup: 5,
         thermload: 540
       }, {
+        ammo: 2,
         ammocost: 300,
         boot: 25,
-        cells: 3,
         class: 5,
+        clip: 1,
         cost: 79444,
         duration: 5,
         edID: 128064319,
@@ -12983,15 +13226,16 @@ module.exports = {
         mass: 8,
         power: 1.2,
         rating: "D",
-        shieldreinforcement: 140,
+        shieldreinforcement: 28,
         rechargerating: "D",
         spinup: 5,
         thermload: 540
       }, {
+        ammo: 3,
         ammocost: 300,
         boot: 25,
-        cells: 4,
         class: 5,
+        clip: 1,
         cost: 194143,
         duration: 5,
         edID: 128064320,
@@ -13002,15 +13246,16 @@ module.exports = {
         mass: 20,
         power: 1.5,
         rating: "C",
-        shieldreinforcement: 175,
+        shieldreinforcement: 35,
         rechargerating: "C",
         spinup: 5,
         thermload: 540
       }, {
+        ammo: 4,
         ammocost: 300,
         boot: 25,
-        cells: 5,
         class: 5,
+        clip: 1,
         cost: 496527,
         duration: 5,
         edID: 128064321,
@@ -13021,15 +13266,16 @@ module.exports = {
         mass: 32,
         power: 1.8,
         rating: "B",
-        shieldreinforcement: 205,
+        shieldreinforcement: 41,
         rechargerating: "B",
         spinup: 5,
         thermload: 540
       }, {
+        ammo: 3,
         ammocost: 300,
         boot: 25,
-        cells: 4,
         class: 5,
+        clip: 1,
         cost: 1210285,
         duration: 5,
         edID: 128064322,
@@ -13040,15 +13286,16 @@ module.exports = {
         mass: 20,
         power: 2.1,
         rating: "A",
-        shieldreinforcement: 240,
+        shieldreinforcement: 48,
         rechargerating: "A",
         spinup: 5,
         thermload: 540
       }, {
+        ammo: 5,
         ammocost: 300,
         boot: 25,
-        cells: 6,
         class: 6,
+        clip: 1,
         cost: 88987,
         duration: 8,
         edID: 128064323,
@@ -13059,15 +13306,16 @@ module.exports = {
         mass: 40,
         power: 1.06,
         rating: "E",
-        shieldreinforcement: 160,
+        shieldreinforcement: 20,
         rechargerating: "E",
         spinup: 5,
         thermload: 640
       }, {
+        ammo: 3,
         ammocost: 300,
         boot: 25,
-        cells: 4,
         class: 6,
+        clip: 1,
         cost: 222444,
         duration: 8,
         edID: 128064324,
@@ -13078,15 +13326,16 @@ module.exports = {
         mass: 16,
         power: 1.42,
         rating: "D",
-        shieldreinforcement: 208,
+        shieldreinforcement: 26,
         rechargerating: "D",
         spinup: 5,
         thermload: 640
       }, {
+        ammo: 4,
         ammocost: 300,
         boot: 25,
-        cells: 5,
         class: 6,
+        clip: 1,
         cost: 556110,
         duration: 8,
         edID: 128064325,
@@ -13097,15 +13346,16 @@ module.exports = {
         mass: 40,
         power: 1.77,
         rating: "C",
-        shieldreinforcement: 264,
+        shieldreinforcement: 33,
         rechargerating: "C",
         spinup: 5,
         thermload: 640
       }, {
+        ammo: 5,
         ammocost: 300,
         boot: 25,
-        cells: 6,
         class: 6,
+        clip: 1,
         cost: 1390275,
         duration: 8,
         edID: 128064326,
@@ -13116,15 +13366,16 @@ module.exports = {
         mass: 64,
         power: 2.12,
         rating: "B",
-        shieldreinforcement: 312,
+        shieldreinforcement: 39,
         rechargerating: "B",
         spinup: 5,
         thermload: 640
       }, {
+        ammo: 4,
         ammocost: 300,
         boot: 25,
-        cells: 5,
         class: 6,
+        clip: 1,
         cost: 3475688,
         duration: 8,
         edID: 128064327,
@@ -13135,15 +13386,16 @@ module.exports = {
         mass: 40,
         power: 2.48,
         rating: "A",
-        shieldreinforcement: 368,
+        shieldreinforcement: 46,
         rechargerating: "A",
         spinup: 5,
         thermload: 640
       }, {
+        ammo: 5,
         ammocost: 300,
         boot: 25,
-        cells: 6,
         class: 7,
+        clip: 1,
         cost: 249137,
         duration: 11,
         edID: 128064328,
@@ -13154,15 +13406,16 @@ module.exports = {
         mass: 80,
         power: 1.24,
         rating: "E",
-        shieldreinforcement: 264,
+        shieldreinforcement: 24,
         rechargerating: "E",
         spinup: 5,
         thermload: 720
       }, {
+        ammo: 3,
         ammocost: 300,
         boot: 25,
-        cells: 4,
         class: 7,
+        clip: 1,
         cost: 622843,
         duration: 11,
         edID: 128064329,
@@ -13173,15 +13426,16 @@ module.exports = {
         mass: 32,
         power: 1.66,
         rating: "D",
-        shieldreinforcement: 352,
+        shieldreinforcement: 32,
         rechargerating: "D",
         spinup: 5,
         thermload: 720
       }, {
+        ammo: 4,
         ammocost: 300,
         boot: 25,
-        cells: 5,
         class: 7,
+        clip: 1,
         cost: 1557108,
         duration: 11,
         edID: 128064330,
@@ -13192,15 +13446,16 @@ module.exports = {
         mass: 80,
         power: 2.07,
         rating: "C",
-        shieldreinforcement: 451,
+        shieldreinforcement: 41,
         rechargerating: "C",
         spinup: 5,
         thermload: 720
       }, {
+        ammo: 5,
         ammocost: 300,
         boot: 25,
-        cells: 6,
         class: 7,
+        clip: 1,
         cost: 3892770,
         duration: 11,
         edID: 128064331,
@@ -13211,15 +13466,16 @@ module.exports = {
         mass: 128,
         power: 2.48,
         rating: "B",
-        shieldreinforcement: 539,
+        shieldreinforcement: 49,
         rechargerating: "B",
         spinup: 5,
         thermload: 720
       }, {
+        ammo: 4,
         ammocost: 300,
         boot: 25,
-        cells: 5,
         class: 7,
+        clip: 1,
         cost: 9731925,
         duration: 11,
         edID: 128064332,
@@ -13230,15 +13486,16 @@ module.exports = {
         mass: 80,
         power: 2.9,
         rating: "A",
-        shieldreinforcement: 627,
+        shieldreinforcement: 57,
         rechargerating: "A",
         spinup: 5,
         thermload: 720
       }, {
+        ammo: 5,
         ammocost: 300,
         boot: 25,
-        cells: 6,
         class: 8,
+        clip: 1,
         cost: 697584,
         duration: 17,
         edID: 128064333,
@@ -13249,15 +13506,16 @@ module.exports = {
         mass: 160,
         power: 1.44,
         rating: "E",
-        shieldreinforcement: 476,
+        shieldreinforcement: 28,
         rechargerating: "C",
         spinup: 5,
         thermload: 800
       }, {
+        ammo: 3,
         ammocost: 300,
         boot: 25,
-        cells: 4,
         class: 8,
+        clip: 1,
         cost: 1743961,
         duration: 17,
         edID: 128064334,
@@ -13268,15 +13526,16 @@ module.exports = {
         mass: 64,
         power: 1.92,
         rating: "D",
-        shieldreinforcement: 629,
+        shieldreinforcement: 37,
         rechargerating: "D",
         spinup: 5,
         thermload: 800
       }, {
+        ammo: 4,
         ammocost: 300,
         boot: 25,
-        cells: 5,
         class: 8,
+        clip: 1,
         cost: 4359903,
         duration: 17,
         edID: 128064335,
@@ -13287,15 +13546,16 @@ module.exports = {
         mass: 160,
         power: 2.4,
         rating: "C",
-        shieldreinforcement: 799,
+        shieldreinforcement: 47,
         rechargerating: "C",
         spinup: 5,
         thermload: 800
       }, {
+        ammo: 5,
         ammocost: 300,
         boot: 25,
-        cells: 6,
         class: 8,
+        clip: 1,
         cost: 10899756,
         duration: 17,
         edID: 128064336,
@@ -13306,15 +13566,16 @@ module.exports = {
         mass: 256,
         power: 2.88,
         rating: "B",
-        shieldreinforcement: 952,
+        shieldreinforcement: 56,
         rechargerating: "B",
         spinup: 5,
         thermload: 800
       }, {
+        ammo: 4,
         ammocost: 300,
         boot: 25,
-        cells: 5,
         class: 8,
+        clip: 1,
         cost: 27249391,
         duration: 17,
         edID: 128064337,
@@ -13325,7 +13586,7 @@ module.exports = {
         mass: 160,
         power: 3.36,
         rating: "A",
-        shieldreinforcement: 1105,
+        shieldreinforcement: 65,
         rechargerating: "A",
         spinup: 5,
         thermload: 800
@@ -13340,6 +13601,7 @@ module.exports = {
         explres: .5,
         grp: "sg",
         id: "1x",
+        integrity: 48,
         kinres: .4,
         mass: 1.3,
         maxmass: 63,
@@ -13362,6 +13624,7 @@ module.exports = {
         explres: .5,
         grp: "sg",
         id: "3v",
+        integrity: 41,
         kinres: .4,
         mass: 2.5,
         maxmass: 138,
@@ -13384,6 +13647,7 @@ module.exports = {
         explres: .5,
         grp: "sg",
         id: "3u",
+        integrity: 31,
         kinres: .4,
         mass: 1,
         maxmass: 138,
@@ -13406,6 +13670,7 @@ module.exports = {
         explres: .5,
         grp: "sg",
         id: "3t",
+        integrity: 51,
         kinres: .4,
         mass: 2.5,
         maxmass: 138,
@@ -13428,6 +13693,7 @@ module.exports = {
         explres: .5,
         grp: "sg",
         id: "3s",
+        integrity: 71,
         kinres: .4,
         mass: 4,
         maxmass: 138,
@@ -13450,6 +13716,7 @@ module.exports = {
         explres: .5,
         grp: "sg",
         id: "3r",
+        integrity: 61,
         kinres: .4,
         mass: 2.5,
         maxmass: 138,
@@ -13472,6 +13739,7 @@ module.exports = {
         explres: .5,
         grp: "sg",
         id: "44",
+        integrity: 51,
         kinres: .4,
         mass: 5,
         maxmass: 413,
@@ -13494,6 +13762,7 @@ module.exports = {
         explres: .5,
         grp: "sg",
         id: "43",
+        integrity: 38,
         kinres: .4,
         mass: 2,
         maxmass: 413,
@@ -13516,6 +13785,7 @@ module.exports = {
         explres: .5,
         grp: "sg",
         id: "42",
+        integrity: 64,
         kinres: .4,
         mass: 5,
         maxmass: 413,
@@ -13538,6 +13808,7 @@ module.exports = {
         explres: .5,
         grp: "sg",
         id: "41",
+        integrity: 90,
         kinres: .4,
         mass: 8,
         maxmass: 413,
@@ -13560,6 +13831,7 @@ module.exports = {
         explres: .5,
         grp: "sg",
         id: "40",
+        integrity: 77,
         kinres: .4,
         mass: 5,
         maxmass: 413,
@@ -13582,6 +13854,7 @@ module.exports = {
         explres: .5,
         grp: "sg",
         id: "49",
+        integrity: 64,
         kinres: .4,
         mass: 10,
         maxmass: 713,
@@ -13604,6 +13877,7 @@ module.exports = {
         explres: .5,
         grp: "sg",
         id: "48",
+        integrity: 48,
         kinres: .4,
         mass: 4,
         maxmass: 713,
@@ -13626,6 +13900,7 @@ module.exports = {
         explres: .5,
         grp: "sg",
         id: "47",
+        integrity: 80,
         kinres: .4,
         mass: 10,
         maxmass: 713,
@@ -13648,6 +13923,7 @@ module.exports = {
         explres: .5,
         grp: "sg",
         id: "46",
+        integrity: 112,
         kinres: .4,
         mass: 16,
         maxmass: 713,
@@ -13670,6 +13946,7 @@ module.exports = {
         explres: .5,
         grp: "sg",
         id: "45",
+        integrity: 96,
         kinres: .4,
         mass: 10,
         maxmass: 713,
@@ -13692,6 +13969,7 @@ module.exports = {
         explres: .5,
         grp: "sg",
         id: "4e",
+        integrity: 77,
         kinres: .4,
         mass: 20,
         maxmass: 1013,
@@ -13714,6 +13992,7 @@ module.exports = {
         explres: .5,
         grp: "sg",
         id: "4d",
+        integrity: 58,
         kinres: .4,
         mass: 8,
         maxmass: 1013,
@@ -13736,6 +14015,7 @@ module.exports = {
         explres: .5,
         grp: "sg",
         id: "4c",
+        integrity: 96,
         kinres: .4,
         mass: 20,
         maxmass: 1013,
@@ -13758,6 +14038,7 @@ module.exports = {
         explres: .5,
         grp: "sg",
         id: "4b",
+        integrity: 134,
         kinres: .4,
         mass: 32,
         maxmass: 1013,
@@ -13780,6 +14061,7 @@ module.exports = {
         explres: .5,
         grp: "sg",
         id: "4a",
+        integrity: 115,
         kinres: .4,
         mass: 20,
         maxmass: 1013,
@@ -13802,6 +14084,7 @@ module.exports = {
         explres: .5,
         grp: "sg",
         id: "4j",
+        integrity: 90,
         kinres: .4,
         mass: 40,
         maxmass: 1350,
@@ -13824,6 +14107,7 @@ module.exports = {
         explres: .5,
         grp: "sg",
         id: "4i",
+        integrity: 68,
         kinres: .4,
         mass: 16,
         maxmass: 1350,
@@ -13846,6 +14130,7 @@ module.exports = {
         explres: .5,
         grp: "sg",
         id: "4h",
+        integrity: 113,
         kinres: .4,
         mass: 40,
         maxmass: 1350,
@@ -13868,6 +14153,7 @@ module.exports = {
         explres: .5,
         grp: "sg",
         id: "4g",
+        integrity: 158,
         kinres: .4,
         mass: 64,
         maxmass: 1350,
@@ -13890,6 +14176,7 @@ module.exports = {
         explres: .5,
         grp: "sg",
         id: "4f",
+        integrity: 136,
         kinres: .4,
         mass: 40,
         maxmass: 1350,
@@ -13912,6 +14199,7 @@ module.exports = {
         explres: .5,
         grp: "sg",
         id: "4o",
+        integrity: 105,
         kinres: .4,
         mass: 80,
         maxmass: 2650,
@@ -13934,6 +14222,7 @@ module.exports = {
         explres: .5,
         grp: "sg",
         id: "4n",
+        integrity: 79,
         kinres: .4,
         mass: 32,
         maxmass: 2650,
@@ -13956,6 +14245,7 @@ module.exports = {
         explres: .5,
         grp: "sg",
         id: "4m",
+        integrity: 131,
         kinres: .4,
         mass: 80,
         maxmass: 2650,
@@ -13978,6 +14268,7 @@ module.exports = {
         explres: .5,
         grp: "sg",
         id: "4l",
+        integrity: 183,
         kinres: .4,
         mass: 128,
         maxmass: 2650,
@@ -14000,6 +14291,7 @@ module.exports = {
         explres: .5,
         grp: "sg",
         id: "4k",
+        integrity: 157,
         kinres: .4,
         mass: 80,
         maxmass: 2650,
@@ -14022,6 +14314,7 @@ module.exports = {
         explres: .5,
         grp: "sg",
         id: "4t",
+        integrity: 120,
         kinres: .4,
         mass: 160,
         maxmass: 4500,
@@ -14044,6 +14337,7 @@ module.exports = {
         explres: .5,
         grp: "sg",
         id: "4s",
+        integrity: 90,
         kinres: .4,
         mass: 64,
         maxmass: 4500,
@@ -14066,6 +14360,7 @@ module.exports = {
         explres: .5,
         grp: "sg",
         id: "4r",
+        integrity: 150,
         kinres: .4,
         mass: 160,
         maxmass: 4500,
@@ -14088,6 +14383,7 @@ module.exports = {
         explres: .5,
         grp: "sg",
         id: "4q",
+        integrity: 210,
         kinres: .4,
         mass: 256,
         maxmass: 4500,
@@ -14110,6 +14406,7 @@ module.exports = {
         explres: .5,
         grp: "sg",
         id: "4p",
+        integrity: 180,
         kinres: .4,
         mass: 160,
         maxmass: 4500,
@@ -14122,12 +14419,25 @@ module.exports = {
         rating: "A",
         regen: 2.4,
         thermres: -.2
+      } ],
+      ss: [ {
+        class: 1,
+        cost: 25e4,
+        edID: 128666634,
+        eddbID: 1245,
+        grp: "ss",
+        id: "2i",
+        mass: 1.3,
+        name: "Detailed Surface Scanner",
+        power: 0,
+        rating: "C"
       } ]
     }
   },
   Modifications: {
     blueprints: {
       AFM_Shielded: {
+        fdname: "AFM_Shielded",
         grades: {
           "1": {
             components: {
@@ -14135,7 +14445,7 @@ module.exports = {
             },
             features: {
               integrity: [ .2, .5 ],
-              power: [ .31, .2 ]
+              power: [ .3, .2 ]
             }
           },
           "2": {
@@ -14144,8 +14454,8 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              integrity: [ .39, 1 ],
-              power: [ .61, .4 ]
+              integrity: [ .4, 1 ],
+              power: [ .6, .4 ]
             }
           },
           "3": {
@@ -14155,8 +14465,8 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              integrity: [ .61, 1.5 ],
-              power: [ .89, .61 ]
+              integrity: [ .6, 1.5 ],
+              power: [ .9, .6 ]
             }
           },
           "4": {
@@ -14166,24 +14476,26 @@ module.exports = {
               Vanadium: 1
             },
             features: {
-              integrity: [ .81, 2 ],
-              power: [ 1.2, .79 ]
+              integrity: [ .8, 2 ],
+              power: [ 1.2, .8 ]
             }
           }
         },
         id: 3,
+        modulename: [ "Auto field mainentance unit", "AFMU" ],
         name: "Shielded"
       },
       Armour_Advanced: {
+        fdname: "Armour_Advanced",
         grades: {
           "1": {
             components: {
               Iron: 1
             },
             features: {
-              explres: [ 0, .028 ],
-              hullboost: [ -.03, 0 ],
-              kinres: [ 0, .024 ],
+              explres: [ 0, .02 ],
+              hullboost: [ -.01, 0 ],
+              kinres: [ 0, .02 ],
               mass: [ -.04, -.15 ],
               thermres: [ 0, .02 ]
             }
@@ -14194,9 +14506,9 @@ module.exports = {
               Iron: 1
             },
             features: {
-              explres: [ .014, .056 ],
+              explres: [ .01, .04 ],
               hullboost: [ -.02, -.01 ],
-              kinres: [ .012, .048 ],
+              kinres: [ .01, .04 ],
               mass: [ -.08, -.25 ],
               thermres: [ .01, .04 ]
             }
@@ -14208,9 +14520,9 @@ module.exports = {
               Iron: 1
             },
             features: {
-              explres: [ .028, .084 ],
-              hullboost: [ -.07, -.05 ],
-              kinres: [ .024, .072 ],
+              explres: [ .02, .06 ],
+              hullboost: [ -.03, -.02 ],
+              kinres: [ .02, .06 ],
               mass: [ -.12, -.35 ],
               thermres: [ .02, .06 ]
             }
@@ -14222,9 +14534,9 @@ module.exports = {
               "Proprietary Composites": 1
             },
             features: {
-              explres: [ .042, .112 ],
-              hullboost: [ -.09, -.07 ],
-              kinres: [ .036, .096 ],
+              explres: [ .03, .08 ],
+              hullboost: [ -.04, -.03 ],
+              kinres: [ .03, .08 ],
               mass: [ -.16, -.45 ],
               thermres: [ .03, .08 ]
             }
@@ -14236,26 +14548,28 @@ module.exports = {
               Tin: 1
             },
             features: {
-              explres: [ .056, .14 ],
-              hullboost: [ -.12, -.09 ],
-              kinres: [ .048, .12 ],
+              explres: [ .04, .1 ],
+              hullboost: [ -.05, -.04 ],
+              kinres: [ .04, .1 ],
               mass: [ -.2, -.55 ],
               thermres: [ .04, .1 ]
             }
           }
         },
         id: 6,
+        modulename: [ "Bulkheads", "Armour" ],
         name: "Lightweight"
       },
       Armour_Explosive: {
+        fdname: "Armour_Explosive",
         grades: {
           "1": {
             components: {
               Nickel: 1
             },
             features: {
-              explres: [ .07, .112 ],
-              kinres: [ -.048, -.024 ],
+              explres: [ .05, .08 ],
+              kinres: [ -.04, -.02 ],
               thermres: [ -.04, -.02 ]
             }
           },
@@ -14265,8 +14579,8 @@ module.exports = {
               Zinc: 1
             },
             features: {
-              explres: [ .14, .224 ],
-              kinres: [ -.096, -.048 ],
+              explres: [ .1, .16 ],
+              kinres: [ -.08, -.04 ],
               thermres: [ -.08, -.04 ]
             }
           },
@@ -14276,8 +14590,8 @@ module.exports = {
               Vanadium: 1
             },
             features: {
-              explres: [ .21, .336 ],
-              kinres: [ -.144, -.072 ],
+              explres: [ .15, .24 ],
+              kinres: [ -.12, -.06 ],
               thermres: [ -.12, -.06 ]
             }
           },
@@ -14288,8 +14602,8 @@ module.exports = {
               Tungsten: 1
             },
             features: {
-              explres: [ .28, .448 ],
-              kinres: [ -.192, -.096 ],
+              explres: [ .2, .32 ],
+              kinres: [ -.16, -.08 ],
               thermres: [ -.16, -.08 ]
             }
           },
@@ -14300,25 +14614,27 @@ module.exports = {
               Ruthenium: 1
             },
             features: {
-              explres: [ .35, .56 ],
-              kinres: [ -.24, -.12 ],
+              explres: [ .25, .4 ],
+              kinres: [ -.2, -.1 ],
               thermres: [ -.2, -.1 ]
             }
           }
         },
         id: 5,
-        name: "Blast Resistant"
+        modulename: [ "Bulkheads", "Armour" ],
+        name: "Blast resistant"
       },
       Armour_HeavyDuty: {
+        fdname: "Armour_HeavyDuty",
         grades: {
           "1": {
             components: {
               Carbon: 1
             },
             features: {
-              explres: [ 0, .014 ],
-              hullboost: [ .08, .22 ],
-              kinres: [ 0, .012 ],
+              explres: [ 0, .01 ],
+              hullboost: [ .04, .1 ],
+              kinres: [ 0, .01 ],
               mass: [ .08, 0 ],
               thermres: [ 0, .01 ]
             }
@@ -14329,10 +14645,10 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              explres: [ .014, .028 ],
-              hullboost: [ .18, .34 ],
-              kinres: [ .012, .024 ],
-              mass: [ .15, .04 ],
+              explres: [ .01, .02 ],
+              hullboost: [ .08, .15 ],
+              kinres: [ .01, .02 ],
+              mass: [ .16, .05 ],
               thermres: [ .01, .02 ]
             }
           },
@@ -14343,10 +14659,10 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              explres: [ .028, .042 ],
-              hullboost: [ .28, .45 ],
-              kinres: [ .024, .036 ],
-              mass: [ .23, .1 ],
+              explres: [ .02, .03 ],
+              hullboost: [ .12, .2 ],
+              kinres: [ .02, .03 ],
+              mass: [ .24, .1 ],
               thermres: [ .02, .03 ]
             }
           },
@@ -14357,10 +14673,10 @@ module.exports = {
               Vanadium: 1
             },
             features: {
-              explres: [ .042, .056 ],
-              hullboost: [ .35, .56 ],
-              kinres: [ .036, .048 ],
-              mass: [ .31, .14 ],
+              explres: [ .03, .04 ],
+              hullboost: [ .16, .25 ],
+              kinres: [ .03, .04 ],
+              mass: [ .32, .15 ],
               thermres: [ .03, .04 ]
             }
           },
@@ -14371,26 +14687,28 @@ module.exports = {
               Tungsten: 1
             },
             features: {
-              explres: [ .056, .07 ],
-              hullboost: [ .45, .68 ],
-              kinres: [ .048, .06 ],
-              mass: [ .39, .2 ],
+              explres: [ .04, .05 ],
+              hullboost: [ .2, .3 ],
+              kinres: [ .04, .05 ],
+              mass: [ .4, .2 ],
               thermres: [ .04, .05 ]
             }
           }
         },
         id: 7,
-        name: "Heavy Duty"
+        modulename: [ "Bulkheads", "Armour" ],
+        name: "Heavy duty"
       },
       Armour_Kinetic: {
+        fdname: "Armour_Kinetic",
         grades: {
           "1": {
             components: {
               Nickel: 1
             },
             features: {
-              explres: [ -.056, -.028 ],
-              kinres: [ .06, .096 ],
+              explres: [ -.04, -.02 ],
+              kinres: [ .05, .08 ],
               thermres: [ -.04, -.02 ]
             }
           },
@@ -14400,8 +14718,8 @@ module.exports = {
               Vanadium: 1
             },
             features: {
-              explres: [ -.112, -.056 ],
-              kinres: [ .12, .192 ],
+              explres: [ -.08, -.04 ],
+              kinres: [ .1, .16 ],
               thermres: [ -.08, -.04 ]
             }
           },
@@ -14412,8 +14730,8 @@ module.exports = {
               Vanadium: 1
             },
             features: {
-              explres: [ -.168, -.084 ],
-              kinres: [ .18, .288 ],
+              explres: [ -.12, -.06 ],
+              kinres: [ .15, .24 ],
               thermres: [ -.12, -.06 ]
             }
           },
@@ -14424,8 +14742,8 @@ module.exports = {
               Tungsten: 1
             },
             features: {
-              explres: [ -.224, -.112 ],
-              kinres: [ .24, .384 ],
+              explres: [ -.16, -.08 ],
+              kinres: [ .2, .32 ],
               thermres: [ -.16, -.08 ]
             }
           },
@@ -14436,24 +14754,26 @@ module.exports = {
               "Phase Alloys": 1
             },
             features: {
-              explres: [ -.28, -.14 ],
-              kinres: [ .3, .48 ],
+              explres: [ -.2, -.1 ],
+              kinres: [ .25, .4 ],
               thermres: [ -.2, -.1 ]
             }
           }
         },
         id: 4,
-        name: "Kinetic Resistant"
+        modulename: [ "Bulkheads", "Armour" ],
+        name: "Kinetic resistant"
       },
       Armour_Thermic: {
+        fdname: "Armour_Thermic",
         grades: {
           "1": {
             components: {
               "Heat Conduction Wiring": 1
             },
             features: {
-              explres: [ -.056, -.028 ],
-              kinres: [ -.048, -.024 ],
+              explres: [ -.04, -.02 ],
+              kinres: [ -.04, -.02 ],
               thermres: [ .05, .08 ]
             }
           },
@@ -14463,8 +14783,8 @@ module.exports = {
               Nickel: 1
             },
             features: {
-              explres: [ -.112, -.056 ],
-              kinres: [ -.096, -.048 ],
+              explres: [ -.08, -.04 ],
+              kinres: [ -.08, -.04 ],
               thermres: [ .1, .16 ]
             }
           },
@@ -14475,32 +14795,42 @@ module.exports = {
               Vanadium: 1
             },
             features: {
-              explres: [ -.168, -.084 ],
-              kinres: [ -.144, -.072 ],
+              explres: [ -.12, -.06 ],
+              kinres: [ -.12, -.06 ],
               thermres: [ .15, .24 ]
             }
           },
           "4": {
-            components: {},
+            components: {
+              "Galvanising Alloys": 1,
+              "Heat Vanes": 1,
+              Tungsten: 1
+            },
             features: {
-              explres: [ -.224, -.112 ],
-              kinres: [ -.192, -.096 ],
+              explres: [ -.16, -.08 ],
+              kinres: [ -.16, -.08 ],
               thermres: [ .2, .32 ]
             }
           },
           "5": {
-            components: {},
+            components: {
+              Molybdenum: 1,
+              "Phase Alloys": 1,
+              "Proto Heat Radiators": 1
+            },
             features: {
-              explres: [ -.28, -.14 ],
-              kinres: [ -.24, -.12 ],
+              explres: [ -.2, -.12 ],
+              kinres: [ -.2, -.12 ],
               thermres: [ .25, .4 ]
             }
           }
         },
         id: 8,
-        name: "Thermal Resistant"
+        modulename: [ "Bulkheads", "Armour" ],
+        name: "Thermal resistant"
       },
       CargoScanner_LightWeight: {
+        fdname: "CargoScanner_LightWeight",
         grades: {
           "1": {
             components: {
@@ -14508,7 +14838,7 @@ module.exports = {
             },
             features: {
               integrity: [ -.2, -.1 ],
-              mass: [ -.31, -.4 ]
+              mass: [ -.3, -.4 ]
             }
           },
           "2": {
@@ -14517,7 +14847,7 @@ module.exports = {
               "Salvaged Alloys": 1
             },
             features: {
-              integrity: [ -.31, -.2 ],
+              integrity: [ -.3, -.2 ],
               mass: [ -.4, -.5 ]
             }
           },
@@ -14528,8 +14858,8 @@ module.exports = {
               "Salvaged Alloys": 1
             },
             features: {
-              integrity: [ -.4, -.31 ],
-              mass: [ -.5, -.61 ]
+              integrity: [ -.4, -.3 ],
+              mass: [ -.5, -.6 ]
             }
           },
           "4": {
@@ -14556,9 +14886,11 @@ module.exports = {
           }
         },
         id: 9,
+        modulename: [ "Cargo scanner", "Manifest scanner" ],
         name: "Lightweight"
       },
       CargoScanner_Reinforced: {
+        fdname: "CargoScanner_Reinforced",
         grades: {
           "1": {
             components: {
@@ -14566,7 +14898,7 @@ module.exports = {
             },
             features: {
               integrity: [ .2, .5 ],
-              mass: [ 1, .39 ]
+              mass: [ 1, .4 ]
             }
           },
           "2": {
@@ -14575,8 +14907,8 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              integrity: [ .39, 1 ],
-              mass: [ 1.5, .79 ]
+              integrity: [ .4, 1 ],
+              mass: [ 1.5, .8 ]
             }
           },
           "3": {
@@ -14586,7 +14918,7 @@ module.exports = {
               Tungsten: 1
             },
             features: {
-              integrity: [ .61, 1.5 ],
+              integrity: [ .6, 1.5 ],
               mass: [ 2, 1.2 ]
             }
           },
@@ -14614,9 +14946,11 @@ module.exports = {
           }
         },
         id: 10,
+        modulename: [ "Cargo scanner", "Manifest scanner" ],
         name: "Reinforced"
       },
       CargoScanner_Shielded: {
+        fdname: "CargoScanner_Shielded",
         grades: {
           "1": {
             components: {
@@ -14624,7 +14958,7 @@ module.exports = {
             },
             features: {
               integrity: [ .2, .5 ],
-              power: [ .29, .2 ]
+              power: [ .3, .2 ]
             }
           },
           "2": {
@@ -14633,8 +14967,8 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              integrity: [ .39, 1 ],
-              power: [ .61, .39 ]
+              integrity: [ .4, 1 ],
+              power: [ .6, .4 ]
             }
           },
           "3": {
@@ -14644,8 +14978,8 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              integrity: [ .61, 1.5 ],
-              power: [ .89, .61 ]
+              integrity: [ .6, 1.5 ],
+              power: [ .9, .6 ]
             }
           },
           "4": {
@@ -14672,9 +15006,11 @@ module.exports = {
           }
         },
         id: 11,
+        modulename: [ "Cargo scanner", "Manifest scanner" ],
         name: "Shielded"
       },
       ChaffLauncher_ChaffCapacity: {
+        fdname: "ChaffLauncher_ChaffCapacity",
         grades: {
           "3": {
             components: {
@@ -14690,9 +15026,11 @@ module.exports = {
           }
         },
         id: 12,
+        modulename: [ "Chaff launcher" ],
         name: "Ammo capacity"
       },
       ChaffLauncher_LightWeight: {
+        fdname: "ChaffLauncher_LightWeight",
         grades: {
           "1": {
             components: {
@@ -14748,9 +15086,11 @@ module.exports = {
           }
         },
         id: 13,
+        modulename: [ "Chaff launcher" ],
         name: "Lightweight"
       },
       ChaffLauncher_Reinforced: {
+        fdname: "ChaffLauncher_Reinforced",
         grades: {
           "1": {
             components: {
@@ -14806,9 +15146,11 @@ module.exports = {
           }
         },
         id: 14,
+        modulename: [ "Chaff launcher" ],
         name: "Reinforced"
       },
       ChaffLauncher_Shielded: {
+        fdname: "ChaffLauncher_Shielded",
         grades: {
           "1": {
             components: {
@@ -14864,9 +15206,11 @@ module.exports = {
           }
         },
         id: 15,
+        modulename: [ "Chaff launcher" ],
         name: "Shielded"
       },
       CollectionLimpet_LightWeight: {
+        fdname: "CollectionLimpet_LightWeight",
         grades: {
           "1": {
             components: {
@@ -14922,9 +15266,11 @@ module.exports = {
           }
         },
         id: 16,
+        modulename: [ "Collector limpet controller" ],
         name: "Lightweight"
       },
       CollectionLimpet_Reinforced: {
+        fdname: "CollectionLimpet_Reinforced",
         grades: {
           "1": {
             components: {
@@ -14980,9 +15326,11 @@ module.exports = {
           }
         },
         id: 17,
+        modulename: [ "Collector limpet controller" ],
         name: "Reinforced"
       },
       CollectionLimpet_Shielded: {
+        fdname: "CollectionLimpet_Shielded",
         grades: {
           "1": {
             components: {
@@ -15038,9 +15386,11 @@ module.exports = {
           }
         },
         id: 18,
+        modulename: [ "Collector limpet controller" ],
         name: "Shielded"
       },
       ECM_LightWeight: {
+        fdname: "ECM_LightWeight",
         grades: {
           "1": {
             components: {
@@ -15096,9 +15446,11 @@ module.exports = {
           }
         },
         id: 19,
+        modulename: [ "Electronic counter measures", "ECM" ],
         name: "Lightweight"
       },
       ECM_Reinforced: {
+        fdname: "ECM_Reinforced",
         grades: {
           "1": {
             components: {
@@ -15154,9 +15506,11 @@ module.exports = {
           }
         },
         id: 20,
+        modulename: [ "Electronic counter measures", "ECM" ],
         name: "Reinforced"
       },
       ECM_Shielded: {
+        fdname: "ECM_Shielded",
         grades: {
           "1": {
             components: {
@@ -15212,9 +15566,11 @@ module.exports = {
           }
         },
         id: 21,
+        modulename: [ "Electronic counter measures", "ECM" ],
         name: "Shielded"
       },
       Engine_Dirty: {
+        fdname: "Engine_Dirty",
         grades: {
           "1": {
             components: {
@@ -15238,7 +15594,7 @@ module.exports = {
               optmass: [ -.06, -.01 ],
               optmul: [ .1, .14 ],
               power: [ .08, .02 ],
-              thermload: [ .39, .1 ]
+              thermload: [ .4, .1 ]
             }
           },
           "3": {
@@ -15252,7 +15608,7 @@ module.exports = {
               optmass: [ -.1, -.02 ],
               optmul: [ .14, .2 ],
               power: [ .11, .03 ],
-              thermload: [ .61, .2 ]
+              thermload: [ .6, .2 ]
             }
           },
           "4": {
@@ -15266,7 +15622,7 @@ module.exports = {
               optmass: [ -.12, -.04 ],
               optmul: [ .2, .25 ],
               power: [ .15, .05 ],
-              thermload: [ .79, .29 ]
+              thermload: [ .8, .3 ]
             }
           },
           "5": {
@@ -15276,28 +15632,30 @@ module.exports = {
               "Pharmaceutical Isolators": 1
             },
             features: {
-              integrity: [ -.31, .08 ],
+              integrity: [ -.3, .08 ],
               optmass: [ -.16, -.05 ],
-              optmul: [ .25, .29 ],
+              optmul: [ .25, .3 ],
               power: [ .2, .08 ],
-              thermload: [ 1, .39 ]
+              thermload: [ 1, .4 ]
             }
           }
         },
         id: 22,
+        modulename: [ "Thrusters", "Engines" ],
         name: "Dirty"
       },
       Engine_Reinforced: {
+        fdname: "Engine_Reinforced",
         grades: {
           "1": {
             components: {
               Carbon: 1
             },
             features: {
-              integrity: [ .14, .31 ],
+              integrity: [ .14, .3 ],
               mass: [ .1, 0 ],
               optmul: [ -.03, 0 ],
-              thermload: [ 0, -.11 ]
+              thermload: [ 0, -.1 ]
             }
           },
           "2": {
@@ -15306,7 +15664,7 @@ module.exports = {
               Vanadium: 1
             },
             features: {
-              integrity: [ .31, .5 ],
+              integrity: [ .3, .5 ],
               mass: [ .2, .05 ],
               optmul: [ -.05, -.02 ],
               thermload: [ -.06, -.2 ]
@@ -15320,9 +15678,9 @@ module.exports = {
             },
             features: {
               integrity: [ .45, .7 ],
-              mass: [ .31, .1 ],
+              mass: [ .3, .1 ],
               optmul: [ -.06, -.03 ],
-              thermload: [ -.11, -.31 ]
+              thermload: [ -.1, -.3 ]
             }
           },
           "4": {
@@ -15332,8 +15690,8 @@ module.exports = {
               "High Density Composites": 1
             },
             features: {
-              integrity: [ .61, .9 ],
-              mass: [ .39, .14 ],
+              integrity: [ .6, .9 ],
+              mass: [ .4, .14 ],
               optmul: [ -.09, -.04 ],
               thermload: [ -.15, -.4 ]
             }
@@ -15345,17 +15703,19 @@ module.exports = {
               "Proprietary Composites": 1
             },
             features: {
-              integrity: [ .75, 1.11 ],
+              integrity: [ .75, 1.1 ],
               mass: [ .5, .2 ],
-              optmul: [ -.11, -.05 ],
+              optmul: [ -.1, -.05 ],
               thermload: [ -.2, -.5 ]
             }
           }
         },
         id: 23,
+        modulename: [ "Thrusters", "Engines" ],
         name: "Reinforced"
       },
       Engine_Tuned: {
+        fdname: "Engine_Tuned",
         grades: {
           "1": {
             components: {
@@ -15365,7 +15725,7 @@ module.exports = {
               integrity: [ -.05, 0 ],
               optmass: [ -.02, 0 ],
               optmul: [ .01, .05 ],
-              power: [ .04, 0 ],
+              power: [ .05, 0 ],
               thermload: [ -.06, -.2 ]
             }
           },
@@ -15379,7 +15739,7 @@ module.exports = {
               optmass: [ -.05, -.01 ],
               optmul: [ .03, .09 ],
               power: [ .1, .03 ],
-              thermload: [ -.11, -.31 ]
+              thermload: [ -.1, -.3 ]
             }
           },
           "3": {
@@ -15406,7 +15766,7 @@ module.exports = {
               integrity: [ -.2, -.12 ],
               optmass: [ -.08, -.04 ],
               optmul: [ .08, .14 ],
-              power: [ .2, .11 ],
+              power: [ .2, .1 ],
               thermload: [ -.2, -.5 ]
             }
           },
@@ -15418,17 +15778,19 @@ module.exports = {
             },
             features: {
               integrity: [ -.25, -.16 ],
-              optmass: [ -.11, -.05 ],
+              optmass: [ -.1, -.05 ],
               optmul: [ .1, .18 ],
               power: [ .25, .16 ],
-              thermload: [ -.25, -.61 ]
+              thermload: [ -.25, -.6 ]
             }
           }
         },
         id: 24,
+        modulename: [ "Thrusters", "Engines" ],
         name: "Clean"
       },
       FSD_FastBoot: {
+        fdname: "FSD_FastBoot",
         grades: {
           "1": {
             components: {
@@ -15488,15 +15850,17 @@ module.exports = {
             features: {
               boot: [ -.5, -.8 ],
               integrity: [ -.25, -.12 ],
-              power: [ .25, .11 ],
+              power: [ .25, .1 ],
               thermload: [ .25, .2 ]
             }
           }
         },
         id: 25,
+        modulename: [ "Frame shift drive", "FSD" ],
         name: "Faster boot sequence"
       },
       FSD_LongRange: {
+        fdname: "FSD_LongRange",
         grades: {
           "1": {
             components: {
@@ -15557,14 +15921,16 @@ module.exports = {
               integrity: [ -.25, -.12 ],
               mass: [ .45, .2 ],
               optmass: [ .2, .5 ],
-              power: [ .25, .11 ]
+              power: [ .25, .1 ]
             }
           }
         },
         id: 26,
+        modulename: [ "Frame shift drive", "FSD" ],
         name: "Increased range"
       },
       FSD_Shielded: {
+        fdname: "FSD_Shielded",
         grades: {
           "1": {
             components: {
@@ -15630,9 +15996,11 @@ module.exports = {
           }
         },
         id: 27,
+        modulename: [ "Frame shift drive", "FSD" ],
         name: "Shielded"
       },
       FSDinterdictor_Expanded: {
+        fdname: "FSDinterdictor_Expanded",
         grades: {
           "1": {
             components: {
@@ -15681,9 +16049,11 @@ module.exports = {
           }
         },
         id: 28,
+        modulename: [ "Frame shift drive interdictor", "FSDI" ],
         name: "Expanded capture arc"
       },
       FSDinterdictor_LongRange: {
+        fdname: "FSDinterdictor_LongRange",
         grades: {
           "1": {
             components: {
@@ -15723,9 +16093,11 @@ module.exports = {
           }
         },
         id: 29,
-        name: "Longer range"
+        modulename: [ "Frame shift drive interdictor", "FSDI" ],
+        name: "Long range"
       },
       FuelScoop_Shielded: {
+        fdname: "FuelScoop_Shielded",
         grades: {
           "1": {
             components: {
@@ -15733,7 +16105,7 @@ module.exports = {
             },
             features: {
               integrity: [ .2, .5 ],
-              power: [ .31, .2 ]
+              power: [ .3, .2 ]
             }
           },
           "2": {
@@ -15742,8 +16114,8 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              integrity: [ .39, 1 ],
-              power: [ .61, .39 ]
+              integrity: [ .4, 1 ],
+              power: [ .6, .4 ]
             }
           },
           "3": {
@@ -15753,8 +16125,8 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              integrity: [ .61, 1.5 ],
-              power: [ .89, .61 ]
+              integrity: [ .6, 1.5 ],
+              power: [ .9, .6 ]
             }
           },
           "4": {
@@ -15764,15 +16136,17 @@ module.exports = {
               Vanadium: 1
             },
             features: {
-              integrity: [ .79, 2 ],
-              power: [ 1.2, .81 ]
+              integrity: [ .8, 2 ],
+              power: [ 1.2, .8 ]
             }
           }
         },
         id: 30,
+        modulename: [ "Fuel scoop" ],
         name: "Shielded"
       },
       FuelTransferLimpet_LightWeight: {
+        fdname: "FuelTransferLimpet_LightWeight",
         grades: {
           "1": {
             components: {
@@ -15828,9 +16202,11 @@ module.exports = {
           }
         },
         id: 31,
+        modulename: [ "Fuel transfer limpet controller" ],
         name: "Lightweight"
       },
       FuelTransferLimpet_Reinforced: {
+        fdname: "FuelTransferLimpet_Reinforced",
         grades: {
           "1": {
             components: {
@@ -15886,9 +16262,11 @@ module.exports = {
           }
         },
         id: 32,
+        modulename: [ "Fuel transfer limpet controller" ],
         name: "Reinforced"
       },
       FuelTransferLimpet_Shielded: {
+        fdname: "FuelTransferLimpet_Shielded",
         grades: {
           "1": {
             components: {
@@ -15944,9 +16322,11 @@ module.exports = {
           }
         },
         id: 33,
+        modulename: [ "Fuel transfer limpet controller" ],
         name: "Shielded"
       },
       HatchBreakerLimpet_LightWeight: {
+        fdname: "HatchBreakerLimpet_LightWeight",
         grades: {
           "1": {
             components: {
@@ -16002,9 +16382,11 @@ module.exports = {
           }
         },
         id: 34,
+        modulename: [ "Hatch breaker limpet controller" ],
         name: "Lightweight"
       },
       HatchBreakerLimpet_Reinforced: {
+        fdname: "HatchBreakerLimpet_Reinforced",
         grades: {
           "1": {
             components: {
@@ -16060,9 +16442,11 @@ module.exports = {
           }
         },
         id: 35,
+        modulename: [ "Hatch breaker limpet controller" ],
         name: "Reinforced"
       },
       HatchBreakerLimpet_Shielded: {
+        fdname: "HatchBreakerLimpet_Shielded",
         grades: {
           "1": {
             components: {
@@ -16118,9 +16502,11 @@ module.exports = {
           }
         },
         id: 36,
+        modulename: [ "Hatch breaker limpet controller" ],
         name: "Shielded"
       },
       HeatSinkLauncher_HeatSinkCapacity: {
+        fdname: "HeatSinkLauncher_HeatSinkCapacity",
         grades: {
           "3": {
             components: {
@@ -16136,9 +16522,11 @@ module.exports = {
           }
         },
         id: 37,
+        modulename: [ "Heat sink launcher" ],
         name: "Ammo capacity"
       },
       HeatSinkLauncher_LightWeight: {
+        fdname: "HeatSinkLauncher_LightWeight",
         grades: {
           "1": {
             components: {
@@ -16194,9 +16582,11 @@ module.exports = {
           }
         },
         id: 38,
+        modulename: [ "Heat sink launcher" ],
         name: "Lightweight"
       },
       HeatSinkLauncher_Reinforced: {
+        fdname: "HeatSinkLauncher_Reinforced",
         grades: {
           "1": {
             components: {
@@ -16252,9 +16642,11 @@ module.exports = {
           }
         },
         id: 39,
+        modulename: [ "Heat sink launcher" ],
         name: "Reinforced"
       },
       HeatSinkLauncher_Shielded: {
+        fdname: "HeatSinkLauncher_Shielded",
         grades: {
           "1": {
             components: {
@@ -16310,9 +16702,11 @@ module.exports = {
           }
         },
         id: 40,
+        modulename: [ "Heat sink launcher" ],
         name: "Shielded"
       },
       HullReinforcement_Advanced: {
+        fdname: "HullReinforcement_Advanced",
         grades: {
           "1": {
             components: {
@@ -16344,7 +16738,7 @@ module.exports = {
             features: {
               hullboost: [ .06, .12 ],
               hullreinforcement: [ -.15, -.1 ],
-              mass: [ 0, -.1 ]
+              mass: [ 0, -.09 ]
             }
           },
           "4": {
@@ -16373,18 +16767,20 @@ module.exports = {
           }
         },
         id: 41,
+        modulename: [ "Hull reinforcement", "Hull reinforcement package", "HRP" ],
         name: "Lightweight"
       },
       HullReinforcement_Explosive: {
+        fdname: "HullReinforcement_Explosive",
         grades: {
           "1": {
             components: {
               Nickel: 1
             },
             features: {
-              explres: [ .0487, .078 ],
-              kinres: [ -.0293, -.0195 ],
-              thermres: [ -.0293, -.0195 ]
+              explres: [ .05, .08 ],
+              kinres: [ -.03, -.02 ],
+              thermres: [ -.03, -.02 ]
             }
           },
           "2": {
@@ -16393,9 +16789,9 @@ module.exports = {
               Zinc: 1
             },
             features: {
-              explres: [ .0975, .156 ],
-              kinres: [ -.0585, -.039 ],
-              thermres: [ -.0484, -.039 ]
+              explres: [ .1, .16 ],
+              kinres: [ -.06, -.04 ],
+              thermres: [ -.06, -.04 ]
             }
           },
           "3": {
@@ -16405,9 +16801,9 @@ module.exports = {
               Zirconium: 1
             },
             features: {
-              explres: [ .1463, .234 ],
-              kinres: [ -.0878, -.0585 ],
-              thermres: [ -.0878, -.0585 ]
+              explres: [ .15, .24 ],
+              kinres: [ -.09, -.06 ],
+              thermres: [ -.09, -.06 ]
             }
           },
           "4": {
@@ -16417,9 +16813,9 @@ module.exports = {
               Tungsten: 1
             },
             features: {
-              explres: [ .195, .312 ],
-              kinres: [ -.117, -.078 ],
-              thermres: [ -.117, -.078 ]
+              explres: [ .2, .32 ],
+              kinres: [ -.12, -.08 ],
+              thermres: [ -.12, -.08 ]
             }
           },
           "5": {
@@ -16429,27 +16825,29 @@ module.exports = {
               Ruthenium: 1
             },
             features: {
-              explres: [ .2437, .39 ],
-              kinres: [ -.1463, -.0975 ],
-              thermres: [ -.1463, -.0975 ]
+              explres: [ .24, .4 ],
+              kinres: [ -.15, -.1 ],
+              thermres: [ -.15, -.1 ]
             }
           }
         },
         id: 43,
-        name: "Blast Resistant"
+        modulename: [ "Hull reinforcement", "Hull reinforcement package", "HRP" ],
+        name: "Blast resistant"
       },
       HullReinforcement_HeavyDuty: {
+        fdname: "HullReinforcement_HeavyDuty",
         grades: {
           "1": {
             components: {
               Carbon: 1
             },
             features: {
-              explres: [ 0, .0292 ],
-              hullreinforcement: [ .04, .2 ],
-              kinres: [ 0, .0292 ],
+              explres: [ 0, .03 ],
+              hullreinforcement: [ .05, .2 ],
+              kinres: [ 0, .03 ],
               mass: [ .08, 0 ],
-              thermres: [ 0, .0292 ]
+              thermres: [ 0, .03 ]
             }
           },
           "2": {
@@ -16458,11 +16856,11 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              explres: [ .098, .0585 ],
-              hullreinforcement: [ .1, .29 ],
-              kinres: [ .098, .0585 ],
-              mass: [ .15, .04 ],
-              thermres: [ .098, .0585 ]
+              explres: [ .01, .06 ],
+              hullreinforcement: [ .1, .3 ],
+              kinres: [ .01, .06 ],
+              mass: [ .16, .05 ],
+              thermres: [ .01, .06 ]
             }
           },
           "3": {
@@ -16472,11 +16870,11 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              explres: [ .0195, .0878 ],
-              hullreinforcement: [ .14, .39 ],
-              kinres: [ .0195, .0878 ],
-              mass: [ .23, .1 ],
-              thermres: [ .0195, .0878 ]
+              explres: [ .02, .09 ],
+              hullreinforcement: [ .15, .4 ],
+              kinres: [ .02, .09 ],
+              mass: [ .24, .1 ],
+              thermres: [ .02, .09 ]
             }
           },
           "4": {
@@ -16486,11 +16884,11 @@ module.exports = {
               Vanadium: 1
             },
             features: {
-              explres: [ .0292, .117 ],
+              explres: [ .03, .12 ],
               hullreinforcement: [ .2, .5 ],
-              kinres: [ .0292, .117 ],
-              mass: [ .31, .14 ],
-              thermres: [ .0292, .117 ]
+              kinres: [ .03, .12 ],
+              mass: [ .32, .15 ],
+              thermres: [ .03, .12 ]
             }
           },
           "5": {
@@ -16500,27 +16898,29 @@ module.exports = {
               Tungsten: 1
             },
             features: {
-              explres: [ .039, .1463 ],
-              hullreinforcement: [ .25, .61 ],
-              kinres: [ .039, .1463 ],
-              mass: [ .39, .2 ],
-              thermres: [ .039, .1463 ]
+              explres: [ .04, .15 ],
+              hullreinforcement: [ .25, .6 ],
+              kinres: [ .04, .15 ],
+              mass: [ .4, .2 ],
+              thermres: [ .04, .15 ]
             }
           }
         },
         id: 42,
+        modulename: [ "Hull reinforcement", "Hull reinforcement package", "HRP" ],
         name: "Heavy duty"
       },
       HullReinforcement_Kinetic: {
+        fdname: "HullReinforcement_Kinetic",
         grades: {
           "1": {
             components: {
               Nickel: 1
             },
             features: {
-              explres: [ -.0293, -.0195 ],
-              kinres: [ .0487, .078 ],
-              thermres: [ -.0293, -.0195 ]
+              explres: [ -.03, -.02 ],
+              kinres: [ .05, .08 ],
+              thermres: [ -.03, -.02 ]
             }
           },
           "2": {
@@ -16529,9 +16929,9 @@ module.exports = {
               Vanadium: 1
             },
             features: {
-              explres: [ -.0585, -.039 ],
-              kinres: [ .0975, .156 ],
-              thermres: [ -.0585, -.039 ]
+              explres: [ -.06, -.04 ],
+              kinres: [ .1, .16 ],
+              thermres: [ -.06, -.04 ]
             }
           },
           "3": {
@@ -16541,9 +16941,9 @@ module.exports = {
               Vanadium: 1
             },
             features: {
-              explres: [ -.0878, -.0585 ],
-              kinres: [ .1463, .234 ],
-              thermres: [ -.0878, -.0585 ]
+              explres: [ -.09, -.06 ],
+              kinres: [ .15, .24 ],
+              thermres: [ -.09, -.06 ]
             }
           },
           "4": {
@@ -16553,9 +16953,9 @@ module.exports = {
               Tungsten: 1
             },
             features: {
-              explres: [ -.117, -.078 ],
-              kinres: [ .195, .312 ],
-              thermres: [ -.117, -.078 ]
+              explres: [ -.12, -.08 ],
+              kinres: [ .2, .32 ],
+              thermres: [ -.12, -.08 ]
             }
           },
           "5": {
@@ -16565,25 +16965,27 @@ module.exports = {
               "Phase Alloys": 1
             },
             features: {
-              explres: [ -.1463, -.0975 ],
-              kinres: [ .2437, .39 ],
-              thermres: [ -.1463, -.0975 ]
+              explres: [ -.15, -.1 ],
+              kinres: [ .25, .4 ],
+              thermres: [ -.15, -.1 ]
             }
           }
         },
         id: 44,
-        name: "Kinetic Resistant"
+        modulename: [ "Hull reinforcement", "Hull reinforcement package", "HRP" ],
+        name: "Kinetic resistant"
       },
       HullReinforcement_Thermic: {
+        fdname: "HullReinforcement_Thermic",
         grades: {
           "1": {
             components: {
               "Heat Conduction Wiring": 1
             },
             features: {
-              explres: [ -.0293, -.0195 ],
-              kinres: [ -.0293, -.0195 ],
-              thermres: [ .0487, .078 ]
+              explres: [ -.03, -.02 ],
+              kinres: [ -.03, -.02 ],
+              thermres: [ .05, .08 ]
             }
           },
           "2": {
@@ -16592,9 +16994,9 @@ module.exports = {
               Nickel: 1
             },
             features: {
-              explres: [ -.0585, -.039 ],
-              kinres: [ -.0585, -.039 ],
-              thermres: [ .0975, .156 ]
+              explres: [ -.06, -.04 ],
+              kinres: [ -.06, -.04 ],
+              thermres: [ .1, .16 ]
             }
           },
           "3": {
@@ -16604,21 +17006,21 @@ module.exports = {
               Vanadium: 1
             },
             features: {
-              explres: [ -.0878, -.0585 ],
-              kinres: [ -.0878, -.0585 ],
-              thermres: [ .1463, .234 ]
+              explres: [ -.09, -.06 ],
+              kinres: [ -.09, -.06 ],
+              thermres: [ .15, .24 ]
             }
           },
           "4": {
             components: {
-              "Galvanisign Alloys": 1,
+              "Galvanising Alloys": 1,
               "Heat Vanes": 1,
               Tungsten: 1
             },
             features: {
-              explres: [ -.117, -.078 ],
-              kinres: [ -.117, -.078 ],
-              thermres: [ .195, .312 ]
+              explres: [ -.12, -.08 ],
+              kinres: [ -.12, -.08 ],
+              thermres: [ .2, .32 ]
             }
           },
           "5": {
@@ -16628,16 +17030,18 @@ module.exports = {
               "Proto Heat Radiators": 1
             },
             features: {
-              explres: [ -.1463, -.0975 ],
-              kinres: [ -.1463, -.0975 ],
-              thermres: [ .2437, .39 ]
+              explres: [ -.15, -.1 ],
+              kinres: [ -.15, -.1 ],
+              thermres: [ .25, .4 ]
             }
           }
         },
         id: 45,
-        name: "Thermal Resistant"
+        modulename: [ "Hull reinforcement", "Hull reinforcement package", "HRP" ],
+        name: "Thermal resistant"
       },
       KillWarrantScanner_LightWeight: {
+        fdname: "KillWarrantScanner_LightWeight",
         grades: {
           "1": {
             components: {
@@ -16693,9 +17097,76 @@ module.exports = {
           }
         },
         id: 46,
+        modulename: [ "Kill warrant scanner", "KWS" ],
         name: "Lightweight"
       },
+      KillWarrantScanner_LongRange: {
+        fdname: "KillWarrantScanner_LongRange",
+        grades: {
+          "1": {
+            components: {
+              Iron: 1
+            },
+            features: {
+              power: [ .2, .1 ],
+              angle: [ -.2, -.1 ],
+              range: [ .1, .2 ]
+            }
+          },
+          "2": {
+            components: {
+              "Hybrid Capacitors": 1,
+              Iron: 1
+            },
+            features: {
+              power: [ .4, .2 ],
+              angle: [ -.3, -.15 ],
+              range: [ .2, .4 ]
+            }
+          },
+          "3": {
+            components: {
+              "Hybrid Capacitors": 1,
+              Iron: 1,
+              "Unexpected Emission Data": 1
+            },
+            features: {
+              power: [ .6, .3 ],
+              angle: [ -.4, -.2 ],
+              range: [ .3, .6 ]
+            }
+          },
+          "4": {
+            components: {
+              "Decoded Emission Data": 1,
+              "Electrochemical Arrays": 1,
+              Germanium: 1
+            },
+            features: {
+              power: [ .8, .4 ],
+              angle: [ -.5, -.25 ],
+              range: [ .4, .8 ]
+            }
+          },
+          "5": {
+            components: {
+              "Abnormal Compact Emissions Data": 1,
+              Niobium: 1,
+              "Polymer Capacitors": 1
+            },
+            features: {
+              power: [ 1, .5 ],
+              angle: [ -.6, -.3 ],
+              range: [ .5, 1 ]
+            }
+          }
+        },
+        id: 99,
+        modulename: [ "Kill warrant scanner", "KWS" ],
+        name: "Long range"
+      },
       KillWarrantScanner_Reinforced: {
+        fdname: "KillWarrantScanner_Reinforced",
         grades: {
           "1": {
             components: {
@@ -16751,9 +17222,11 @@ module.exports = {
           }
         },
         id: 47,
+        modulename: [ "Kill warrant scanner", "KWS" ],
         name: "Reinforced"
       },
       KillWarrantScanner_Shielded: {
+        fdname: "KillWarrantScanner_Shielded",
         grades: {
           "1": {
             components: {
@@ -16809,9 +17282,11 @@ module.exports = {
           }
         },
         id: 48,
+        modulename: [ "Kill warrant scanner", "KWS" ],
         name: "Shielded"
       },
       LifeSupport_LightWeight: {
+        fdname: "LifeSupport_LightWeight",
         grades: {
           "1": {
             components: {
@@ -16856,9 +17331,11 @@ module.exports = {
           }
         },
         id: 49,
+        modulename: [ "Life support" ],
         name: "Lightweight"
       },
       LifeSupport_Reinforced: {
+        fdname: "LifeSupport_Reinforced",
         grades: {
           "1": {
             components: {
@@ -16903,9 +17380,11 @@ module.exports = {
           }
         },
         id: 50,
+        modulename: [ "Life support" ],
         name: "Reinforced"
       },
       LifeSupport_Shielded: {
+        fdname: "LifeSupport_Shielded",
         grades: {
           "1": {
             components: {
@@ -16950,9 +17429,11 @@ module.exports = {
           }
         },
         id: 51,
+        modulename: [ "Life support" ],
         name: "Shielded"
       },
       PointDefence_LightWeight: {
+        fdname: "PointDefence_LightWeight",
         grades: {
           "1": {
             components: {
@@ -17008,9 +17489,11 @@ module.exports = {
           }
         },
         id: 52,
+        modulename: [ "Point defence" ],
         name: "Lightweight"
       },
       PointDefence_PointDefenseCapacity: {
+        fdname: "PointDefence_PointDefenseCapacity",
         grades: {
           "3": {
             components: {
@@ -17026,9 +17509,11 @@ module.exports = {
           }
         },
         id: 55,
+        modulename: [ "Point defence" ],
         name: "Ammo capacity"
       },
       PointDefence_Reinforced: {
+        fdname: "PointDefence_Reinforced",
         grades: {
           "1": {
             components: {
@@ -17084,9 +17569,11 @@ module.exports = {
           }
         },
         id: 53,
+        modulename: [ "Point defence" ],
         name: "Reinforced"
       },
       PointDefence_Shielded: {
+        fdname: "PointDefence_Shielded",
         grades: {
           "1": {
             components: {
@@ -17142,9 +17629,11 @@ module.exports = {
           }
         },
         id: 54,
+        modulename: [ "Point defence" ],
         name: "Shielded"
       },
       PowerDistributor_HighCapacity: {
+        fdname: "PowerDistributor_HighCapacity",
         grades: {
           "1": {
             components: {
@@ -17220,9 +17709,11 @@ module.exports = {
           }
         },
         id: 56,
+        modulename: [ "Power distributor", "Distributor" ],
         name: "High charge capacity"
       },
       PowerDistributor_HighFrequency: {
+        fdname: "PowerDistributor_HighFrequency",
         grades: {
           "1": {
             components: {
@@ -17298,9 +17789,11 @@ module.exports = {
           }
         },
         id: 57,
+        modulename: [ "Power distributor", "Distributor" ],
         name: "Charge enhanced"
       },
       PowerDistributor_PriorityEngines: {
+        fdname: "PowerDistributor_PriorityEngines",
         grades: {
           "1": {
             components: {
@@ -17346,9 +17839,11 @@ module.exports = {
           }
         },
         id: 58,
+        modulename: [ "Power distributor", "Distributor" ],
         name: "Engine focused"
       },
       PowerDistributor_PrioritySystems: {
+        fdname: "PowerDistributor_PrioritySystems",
         grades: {
           "1": {
             components: {
@@ -17394,9 +17889,11 @@ module.exports = {
           }
         },
         id: 59,
+        modulename: [ "Power distributor", "Distributor" ],
         name: "System focused"
       },
       PowerDistributor_PriorityWeapons: {
+        fdname: "PowerDistributor_PriorityWeapons",
         grades: {
           "1": {
             components: {
@@ -17442,9 +17939,11 @@ module.exports = {
           }
         },
         id: 60,
+        modulename: [ "Power distributor", "Distributor" ],
         name: "Weapon focused"
       },
       PowerDistributor_Shielded: {
+        fdname: "PowerDistributor_Shielded",
         grades: {
           "1": {
             components: {
@@ -17500,9 +17999,11 @@ module.exports = {
           }
         },
         id: 61,
+        modulename: [ "Power distributor", "Distributor" ],
         name: "Shielded"
       },
       PowerPlant_Armoured: {
+        fdname: "PowerPlant_Armoured",
         grades: {
           "1": {
             components: {
@@ -17563,9 +18064,11 @@ module.exports = {
           }
         },
         id: 62,
+        modulename: [ "Power distributor", "Distributor" ],
         name: "Armoured"
       },
       PowerPlant_Boosted: {
+        fdname: "PowerPlant_Boosted",
         grades: {
           "1": {
             components: {
@@ -17626,9 +18129,11 @@ module.exports = {
           }
         },
         id: 63,
+        modulename: [ "Power distributor", "Distributor" ],
         name: "Overcharged"
       },
       PowerPlant_Stealth: {
+        fdname: "PowerPlant_Stealth",
         grades: {
           "1": {
             components: {
@@ -17665,9 +18170,11 @@ module.exports = {
           }
         },
         id: 64,
+        modulename: [ "Power distributor", "Distributor" ],
         name: "Low emissions"
       },
       ProspectingLimpet_LightWeight: {
+        fdname: "ProspectingLimpet_LightWeight",
         grades: {
           "1": {
             components: {
@@ -17723,9 +18230,11 @@ module.exports = {
           }
         },
         id: 65,
+        modulename: [ "Prospector limpet controller" ],
         name: "Lightweight"
       },
       ProspectingLimpet_Reinforced: {
+        fdname: "ProspectingLimpet_Reinforced",
         grades: {
           "1": {
             components: {
@@ -17781,9 +18290,11 @@ module.exports = {
           }
         },
         id: 66,
+        modulename: [ "Prospector limpet controller" ],
         name: "Reinforced"
       },
       ProspectingLimpet_Shielded: {
+        fdname: "ProspectingLimpet_Shielded",
         grades: {
           "1": {
             components: {
@@ -17839,9 +18350,11 @@ module.exports = {
           }
         },
         id: 67,
+        modulename: [ "Prospector limpet controller" ],
         name: "Shielded"
       },
       Refineries_Shielded: {
+        fdname: "Refineries_Shielded",
         grades: {
           "1": {
             components: {
@@ -17849,7 +18362,7 @@ module.exports = {
             },
             features: {
               integrity: [ .2, .5 ],
-              power: [ .29, .2 ]
+              power: [ .3, .2 ]
             }
           },
           "2": {
@@ -17858,8 +18371,8 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              integrity: [ .39, 1 ],
-              power: [ .61, .39 ]
+              integrity: [ .4, 1 ],
+              power: [ .6, .4 ]
             }
           },
           "3": {
@@ -17869,8 +18382,8 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              integrity: [ .61, 1.5 ],
-              power: [ .89, .61 ]
+              integrity: [ .6, 1.5 ],
+              power: [ .9, .6 ]
             }
           },
           "4": {
@@ -17880,15 +18393,912 @@ module.exports = {
               Vanadium: 1
             },
             features: {
-              integrity: [ .81, 2 ],
-              power: [ 1.2, .79 ]
+              integrity: [ .8, 2 ],
+              power: [ 1.2, .8 ]
             }
           }
         },
         id: 92,
+        modulename: [ "Refinery" ],
         name: "Shielded"
       },
+      Sensor_CargoScanner_FastScan: {
+        fdname: "Sensor_CargoScanner_FastScan",
+        grades: {
+          "1": {
+            components: {
+              Phosphorus: 1
+            },
+            features: {
+              integrity: [ -.4, -.1 ],
+              range: [ -.1, -.05 ],
+              scantime: [ -.1, -.4 ]
+            }
+          },
+          "2": {
+            components: {
+              "Flawed Focus Crystals": 1,
+              Phosphorus: 1
+            },
+            features: {
+              integrity: [ -.5, -.2 ],
+              range: [ -.2, -.1 ],
+              scantime: [ -.2, -.5 ]
+            }
+          },
+          "3": {
+            components: {
+              "Flawed Focus Crystals": 1,
+              "Open Symmetric Keys": 1,
+              Phosphorus: 1
+            },
+            features: {
+              integrity: [ -.6, -.3 ],
+              range: [ -.3, -.15 ],
+              scantime: [ -.3, -.6 ]
+            }
+          },
+          "4": {
+            components: {
+              "Atypical Encryption Archives": 1,
+              "Focus Crystals": 1,
+              Manganese: 1
+            },
+            features: {
+              integrity: [ -.7, -.4 ],
+              range: [ -.4, -.2 ],
+              scantime: [ -.4, -.7 ]
+            }
+          },
+          "5": {
+            components: {
+              "Adaptive Encryptors Capture": 1,
+              Arsenic: 1,
+              "Refined Focus Crystals": 1
+            },
+            features: {
+              integrity: [ -.8, -.5 ],
+              range: [ -.5, -.2 ],
+              scantime: [ -.5, -.8 ]
+            }
+          }
+        },
+        id: 102,
+        modulename: [ "Cargo scanner", "Manifest scanner" ],
+        name: "Fast scan"
+      },
+      Sensor_CargoScanner_LongRange: {
+        fdname: "Sensor_CargoScanner_LongRange",
+        grades: {
+          "1": {
+            components: {
+              Iron: 1
+            },
+            features: {
+              power: [ .2, .1 ],
+              angle: [ -.2, -.1 ],
+              range: [ .1, .2 ]
+            }
+          },
+          "2": {
+            components: {
+              "Hybrid Capacitors": 1,
+              Iron: 1
+            },
+            features: {
+              power: [ .4, .2 ],
+              angle: [ -.3, -.15 ],
+              range: [ .2, .4 ]
+            }
+          },
+          "3": {
+            components: {
+              "Hybrid Capacitors": 1,
+              Iron: 1,
+              "Unexpected Emission Data": 1
+            },
+            features: {
+              power: [ .6, .3 ],
+              angle: [ -.4, -.2 ],
+              range: [ .3, .6 ]
+            }
+          },
+          "4": {
+            components: {
+              "Decoded Emission Data": 1,
+              "Electrochemical Arrays": 1,
+              Germanium: 1
+            },
+            features: {
+              power: [ .8, .4 ],
+              angle: [ -.5, -.25 ],
+              range: [ .4, .8 ]
+            }
+          },
+          "5": {
+            components: {
+              "Abnormal Compact Emissions Data": 1,
+              Niobium: 1,
+              "Polymer Capacitors": 1
+            },
+            features: {
+              power: [ 1, .5 ],
+              angle: [ -.6, -.3 ],
+              range: [ .5, 1 ]
+            }
+          }
+        },
+        id: 104,
+        modulename: [ "Cargo scanner", "Manifest scanner" ],
+        name: "Long range"
+      },
+      Sensor_CargoScanner_WideAngle: {
+        fdname: "Sensor_CargoScanner_WideAngle",
+        grades: {
+          "1": {
+            components: {
+              "Mechanical Scrap": 1
+            },
+            features: {
+              mass: [ .4, .2 ],
+              angle: [ .2, .4 ],
+              scantime: [ .2, .1 ]
+            }
+          },
+          "2": {
+            components: {
+              Germanium: 1,
+              "Mechanical Scrap": 1
+            },
+            features: {
+              mass: [ .8, .4 ],
+              angle: [ .4, .8 ],
+              scantime: [ .4, .2 ]
+            }
+          },
+          "3": {
+            components: {
+              "Classified Scan Databanks": 1,
+              Germanium: 1,
+              "Mechanical Scrap": 1
+            },
+            features: {
+              mass: [ 1.2, .6 ],
+              angle: [ .6, 1.2 ],
+              scantime: [ .6, .3 ]
+            }
+          },
+          "4": {
+            components: {
+              "Divergent Scan Data": 1,
+              "Mechanical Equipment": 1,
+              Niobium: 1
+            },
+            features: {
+              mass: [ 1.2, .6 ],
+              angle: [ .8, 1.6 ],
+              scantime: [ .8, .4 ]
+            }
+          },
+          "5": {
+            components: {
+              "Classified Scan Fragment": 1,
+              "Mechanical Components": 1,
+              Tin: 1
+            },
+            features: {
+              mass: [ 2, 1 ],
+              angle: [ 1, 2 ],
+              scantime: [ 1, .5 ]
+            }
+          }
+        },
+        id: 105,
+        modulename: [ "Cargo scanner", "Manifest scanner" ],
+        name: "Wide angle"
+      },
+      Sensor_KillWarrantScanner_FastScan: {
+        fdname: "Sensor_KillWarrantScanner_FastScan",
+        grades: {
+          "1": {
+            components: {
+              Phosphorus: 1
+            },
+            features: {
+              integrity: [ -.4, -.1 ],
+              range: [ -.1, -.05 ],
+              scantime: [ -.1, -.4 ]
+            }
+          },
+          "2": {
+            components: {
+              "Flawed Focus Crystals": 1,
+              Phosphorus: 1
+            },
+            features: {
+              integrity: [ -.5, -.2 ],
+              range: [ -.2, -.1 ],
+              scantime: [ -.2, -.5 ]
+            }
+          },
+          "3": {
+            components: {
+              "Flawed Focus Crystals": 1,
+              "Open Symmetric Keys": 1,
+              Phosphorus: 1
+            },
+            features: {
+              integrity: [ -.6, -.3 ],
+              range: [ -.3, -.15 ],
+              scantime: [ -.3, -.6 ]
+            }
+          },
+          "4": {
+            components: {
+              "Atypical Encryption Archives": 1,
+              "Focus Crystals": 1,
+              Manganese: 1
+            },
+            features: {
+              integrity: [ -.7, -.4 ],
+              range: [ -.4, -.2 ],
+              scantime: [ -.4, -.7 ]
+            }
+          },
+          "5": {
+            components: {
+              "Adaptive Encryptors Capture": 1,
+              Arsenic: 1,
+              "Refined Focus Crystals": 1
+            },
+            features: {
+              integrity: [ -.8, -.5 ],
+              range: [ -.5, -.2 ],
+              scantime: [ -.5, -.8 ]
+            }
+          }
+        },
+        id: 101,
+        modulename: [ "Kill warrant scanner", "KWS" ],
+        name: "Fast scan"
+      },
+      Sensor_KillWarrantScanner_WideAngle: {
+        fdname: "Sensor_KillWarrantScanner_WideAngle",
+        grades: {
+          "1": {
+            components: {
+              "Mechanical Scrap": 1
+            },
+            features: {
+              mass: [ .4, .2 ],
+              angle: [ .2, .4 ],
+              scantime: [ .2, .1 ]
+            }
+          },
+          "2": {
+            components: {
+              Germanium: 1,
+              "Mechanical Scrap": 1
+            },
+            features: {
+              mass: [ .8, .4 ],
+              angle: [ .4, .8 ],
+              scantime: [ .4, .2 ]
+            }
+          },
+          "3": {
+            components: {
+              "Classified Scan Databanks": 1,
+              Germanium: 1,
+              "Mechanical Scrap": 1
+            },
+            features: {
+              mass: [ 1.2, .6 ],
+              angle: [ .6, 1.2 ],
+              scantime: [ .6, .3 ]
+            }
+          },
+          "4": {
+            components: {
+              "Divergent Scan Data": 1,
+              "Mechanical Equipment": 1,
+              Niobium: 1
+            },
+            features: {
+              mass: [ 1.2, .6 ],
+              angle: [ .8, 1.6 ],
+              scantime: [ .8, .4 ]
+            }
+          },
+          "5": {
+            components: {
+              "Classified Scan Fragment": 1,
+              "Mechanical Components": 1,
+              Tin: 1
+            },
+            features: {
+              mass: [ 2, 1 ],
+              angle: [ 1, 2 ],
+              scantime: [ 1, .5 ]
+            }
+          }
+        },
+        id: 107,
+        modulename: [ "Kill warrant scanner", "KWS" ],
+        name: "Wide angle"
+      },
+      Sensor_Sensor_LightWeight: {
+        fdname: "Sensor_Sensor_LightWeight",
+        grades: {
+          "1": {
+            components: {
+              Phosphorus: 1
+            },
+            features: {
+              integrity: [ -.15, -.1 ],
+              mass: [ -.2, -.4 ],
+              angle: [ -.1, -.05 ]
+            }
+          },
+          "2": {
+            components: {
+              Manganese: 1,
+              "Salvaged Alloys": 1
+            },
+            features: {
+              integrity: [ -.3, -.2 ],
+              mass: [ -.3, -.5 ],
+              angle: [ -.15, -.1 ]
+            }
+          },
+          "3": {
+            components: {
+              "Conductive Ceramics": 1,
+              Manganese: 1,
+              "Salvaged Alloys": 1
+            },
+            features: {
+              integrity: [ -.45, -.3 ],
+              mass: [ -.4, -.6 ],
+              angle: [ -.2, -.15 ]
+            }
+          },
+          "4": {
+            components: {
+              "Conductive Components": 1,
+              "Phase Alloys": 1,
+              "Proto Light Alloys": 1
+            },
+            features: {
+              integrity: [ -.6, -.4 ],
+              mass: [ -.5, -.7 ],
+              angle: [ -.25, -.2 ]
+            }
+          },
+          "5": {
+            components: {
+              "Conductive Ceramics": 1,
+              "Proto Light Alloys": 1,
+              "Proto Radiolic Alloys": 1
+            },
+            features: {
+              integrity: [ -.75, -.5 ],
+              mass: [ -.6, -.8 ],
+              angle: [ -.3, -.25 ]
+            }
+          }
+        },
+        id: 96,
+        modulename: [ "Sensors" ],
+        name: "Lightweight"
+      },
+      Sensor_Sensor_LongRange: {
+        fdname: "Sensor_Sensor_LongRange",
+        grades: {
+          "1": {
+            components: {
+              Iron: 1
+            },
+            features: {
+              mass: [ .4, .2 ],
+              angle: [ -.2, -.1 ],
+              range: [ .1, .14 ]
+            }
+          },
+          "2": {
+            components: {
+              "Hybrid Capacitors": 1,
+              Iron: 1
+            },
+            features: {
+              mass: [ .8, .4 ],
+              angle: [ -.3, -.15 ],
+              range: [ .2, .3 ]
+            }
+          },
+          "3": {
+            components: {
+              "Hybrid Capacitors": 1,
+              Iron: 1,
+              "Unexpected Emission Data": 1
+            },
+            features: {
+              mass: [ 1.2, .6 ],
+              angle: [ -.4, -.2 ],
+              range: [ .3, .45 ]
+            }
+          },
+          "4": {
+            components: {
+              "Decoded Emission Data": 1,
+              "Electrochemical Arrays": 1,
+              Germanium: 1
+            },
+            features: {
+              mass: [ 1.6, .8 ],
+              angle: [ -.5, -.25 ],
+              range: [ .4, .6 ]
+            }
+          },
+          "5": {
+            components: {
+              "Abnormal Compact Emissions Data": 1,
+              Niobium: 1,
+              "Polymer Capacitors": 1
+            },
+            features: {
+              mass: [ 2, 1 ],
+              angle: [ -.6, -.3 ],
+              range: [ .5, .75 ]
+            }
+          }
+        },
+        id: 97,
+        modulename: [ "Sensors" ],
+        name: "Long range"
+      },
+      Sensor_Sensor_WideAngle: {
+        fdname: "Sensor_Sensor_WideAngle",
+        grades: {
+          "1": {
+            components: {
+              "Mechanical Scrap": 1
+            },
+            features: {
+              power: [ .2, .1 ],
+              angle: [ .2, .4 ],
+              range: [ -.08, -.05 ]
+            }
+          },
+          "2": {
+            components: {
+              Germanium: 1,
+              "Mechanical Scrap": 1
+            },
+            features: {
+              power: [ .4, .2 ],
+              angle: [ .4, .8 ],
+              range: [ -.16, -.08 ]
+            }
+          },
+          "3": {
+            components: {
+              "Classified Scan Databanks": 1,
+              Germanium: 1,
+              "Mechanical Scrap": 1
+            },
+            features: {
+              power: [ .6, .3 ],
+              angle: [ .6, 1.2 ],
+              range: [ -.24, -.12 ]
+            }
+          },
+          "4": {
+            components: {
+              "Divergent Scan Data": 1,
+              "Mechanical Equipment": 1,
+              Niobium: 1
+            },
+            features: {
+              power: [ .8, .4 ],
+              angle: [ .8, 1.6 ],
+              range: [ -.32, -.16 ]
+            }
+          },
+          "5": {
+            components: {
+              "Classified Scan Fragment": 1,
+              "Mechanical Components": 1,
+              Tin: 1
+            },
+            features: {
+              power: [ 1, .5 ],
+              angle: [ 1, 2 ],
+              range: [ -.4, -.2 ]
+            }
+          }
+        },
+        id: 98,
+        modulename: [ "Sensors" ],
+        name: "Wide angle"
+      },
+      Sensor_SurfaceScanner_FastScan: {
+        fdname: "Sensor_SurfaceScanner_FastScan",
+        grades: {
+          "1": {
+            components: {
+              Phosphorus: 1
+            },
+            features: {
+              mass: [ .4, .2 ],
+              scantime: [ .1, .4 ]
+            }
+          },
+          "2": {
+            components: {
+              "Flawed Focus Crystals": 1,
+              Phosphorus: 1
+            },
+            features: {
+              mass: [ .8, .4 ],
+              scantime: [ .2, .5 ]
+            }
+          },
+          "3": {
+            components: {
+              "Flawed Focus Crystals": 1,
+              "Open Symmetric Keys": 1,
+              Phosphorus: 1
+            },
+            features: {
+              mass: [ 1.2, .6 ],
+              scantime: [ .3, .6 ]
+            }
+          },
+          "4": {
+            components: {
+              "Atypical Encryption Archives": 1,
+              "Focus Crystals": 1,
+              Manganese: 1
+            },
+            features: {
+              mass: [ 1.6, .8 ],
+              scantime: [ .4, .7 ]
+            }
+          },
+          "5": {
+            components: {
+              "Adaptive Encryptors Capture": 1,
+              Arsenic: 1,
+              "Refined Focus Crystals": 1
+            },
+            features: {
+              mass: [ 2, 1 ],
+              scantime: [ .5, .8 ]
+            }
+          }
+        },
+        id: 95,
+        modulename: [ "Detailed surface scanner", "DSS" ],
+        name: "Fast scan"
+      },
+      Sensor_SurfaceScanner_LongRange: {
+        fdname: "Sensor_SurfaceScanner_LongRange",
+        grades: {
+          "1": {
+            components: {
+              Iron: 1
+            },
+            features: {
+              mass: [ .4, .2 ],
+              range: [ .2, .4 ]
+            }
+          },
+          "2": {
+            components: {
+              "Hybrid Capacitors": 1,
+              Iron: 1
+            },
+            features: {
+              mass: [ .8, .4 ],
+              range: [ .4, .8 ]
+            }
+          },
+          "3": {
+            components: {
+              "Hybrid Capacitors": 1,
+              Iron: 1,
+              "Unexpected Emission Data": 1
+            },
+            features: {
+              mass: [ 1.2, .6 ],
+              range: [ .6, 1.2 ]
+            }
+          },
+          "4": {
+            components: {
+              "Decoded Emission Data": 1,
+              "Electrochemical Arrays": 1,
+              Germanium: 1
+            },
+            features: {
+              mass: [ 1.6, .8 ],
+              range: [ .8, 1.6 ]
+            }
+          },
+          "5": {
+            components: {
+              "Abnormal Compact Emissions Data": 1,
+              Niobium: 1,
+              "Polymer Capacitors": 1
+            },
+            features: {
+              mass: [ 2, 1 ],
+              range: [ 1, 2 ]
+            }
+          }
+        },
+        id: 93,
+        modulename: [ "Detailed surface scanner", "DSS" ],
+        name: "Long range"
+      },
+      Sensor_SurfaceScanner_WideAngle: {
+        fdname: "Sensor_SurfaceScanner_WideAngle",
+        grades: {
+          "1": {
+            components: {
+              "Mechanical Scrap": 1
+            },
+            features: {
+              mass: [ .4, .2 ],
+              angle: [ .2, .4 ]
+            }
+          },
+          "2": {
+            components: {
+              Germanium: 1,
+              "Mechanical Scrap": 1
+            },
+            features: {
+              mass: [ .8, .4 ],
+              angle: [ .4, .8 ]
+            }
+          },
+          "3": {
+            components: {
+              "Classified Scan Databanks": 1,
+              Germanium: 1,
+              "Mechanical Scrap": 1
+            },
+            features: {
+              mass: [ 1.2, .6 ],
+              angle: [ .6, 1.2 ]
+            }
+          },
+          "4": {
+            components: {
+              "Divergent Scan Data": 1,
+              "Mechanical Equipment": 1,
+              Niobium: 1
+            },
+            features: {
+              mass: [ 1.6, .8 ],
+              angle: [ .8, 1.6 ]
+            }
+          },
+          "5": {
+            components: {
+              "Classified Scan Fragment": 1,
+              "Mechanical Components": 1,
+              Tin: 1
+            },
+            features: {
+              mass: [ 2, 1 ],
+              angle: [ 1, 2 ]
+            }
+          }
+        },
+        id: 94,
+        modulename: [ "Detailed surface scanner", "DSS" ],
+        name: "Wide angle"
+      },
+      Sensor_WakeScanner_FastScan: {
+        fdname: "Sensor_WakeScanner_FastScan",
+        grades: {
+          "1": {
+            components: {
+              Phosphorus: 1
+            },
+            features: {
+              integrity: [ -.4, -.1 ],
+              range: [ -.1, -.05 ],
+              scantime: [ -.1, -.4 ]
+            }
+          },
+          "2": {
+            components: {
+              "Flawed Focus Crystals": 1,
+              Phosphorus: 1
+            },
+            features: {
+              integrity: [ -.5, -.2 ],
+              range: [ -.2, -.1 ],
+              scantime: [ -.2, -.5 ]
+            }
+          },
+          "3": {
+            components: {
+              "Flawed Focus Crystals": 1,
+              "Open Symmetric Keys": 1,
+              Phosphorus: 1
+            },
+            features: {
+              integrity: [ -.6, -.3 ],
+              range: [ -.3, -.15 ],
+              scantime: [ -.3, -.6 ]
+            }
+          },
+          "4": {
+            components: {
+              "Atypical Encryption Archives": 1,
+              "Focus Crystals": 1,
+              Manganese: 1
+            },
+            features: {
+              integrity: [ -.7, -.4 ],
+              range: [ -.4, -.2 ],
+              scantime: [ -.4, -.7 ]
+            }
+          },
+          "5": {
+            components: {
+              "Adaptive Encryptors Capture": 1,
+              Arsenic: 1,
+              "Refined Focus Crystals": 1
+            },
+            features: {
+              integrity: [ -.8, -.5 ],
+              range: [ -.5, -.2 ],
+              scantime: [ -.5, -.8 ]
+            }
+          }
+        },
+        id: 109,
+        modulename: [ "Wake scanner", "Frame shift wake scanner" ],
+        name: "Fast scan"
+      },
+      Sensor_WakeScanner_LongRange: {
+        fdname: "Sensor_WakeScanner_LongRange",
+        grades: {
+          "1": {
+            components: {
+              Iron: 1
+            },
+            features: {
+              power: [ .2, .1 ],
+              angle: [ -.2, -.1 ],
+              range: [ .1, .2 ]
+            }
+          },
+          "2": {
+            components: {
+              "Hybrid Capacitors": 1,
+              Iron: 1
+            },
+            features: {
+              power: [ .4, .2 ],
+              angle: [ -.3, -.15 ],
+              range: [ .2, .4 ]
+            }
+          },
+          "3": {
+            components: {
+              "Hybrid Capacitors": 1,
+              Iron: 1,
+              "Unexpected Emission Data": 1
+            },
+            features: {
+              power: [ .6, .3 ],
+              angle: [ -.4, -.2 ],
+              range: [ .3, .6 ]
+            }
+          },
+          "4": {
+            components: {
+              "Decoded Emission Data": 1,
+              "Electrochemical Arrays": 1,
+              Germanium: 1
+            },
+            features: {
+              power: [ .8, .4 ],
+              angle: [ -.5, -.25 ],
+              range: [ .4, .8 ]
+            }
+          },
+          "5": {
+            components: {
+              "Abnormal Compact Emissions Data": 1,
+              Niobium: 1,
+              "Polymer Capacitors": 1
+            },
+            features: {
+              power: [ 1, .5 ],
+              angle: [ -.6, -.3 ],
+              range: [ .5, 1 ]
+            }
+          }
+        },
+        id: 108,
+        modulename: [ "Wake scanner", "Frame shift wake scanner" ],
+        name: "Long range"
+      },
+      Sensor_WakeScanner_WideAngle: {
+        fdname: "Sensor_WakeScanner_WideAngle",
+        grades: {
+          "1": {
+            components: {
+              "Mechanical Scrap": 1
+            },
+            features: {
+              mass: [ .4, .2 ],
+              angle: [ .2, .4 ],
+              scantime: [ .2, .1 ]
+            }
+          },
+          "2": {
+            components: {
+              Germanium: 1,
+              "Mechanical Scrap": 1
+            },
+            features: {
+              mass: [ .8, .4 ],
+              angle: [ .4, .8 ],
+              scantime: [ .4, .2 ]
+            }
+          },
+          "3": {
+            components: {
+              "Classified Scan Databanks": 1,
+              Germanium: 1,
+              "Mechanical Scrap": 1
+            },
+            features: {
+              mass: [ 1.2, .6 ],
+              angle: [ .6, 1.2 ],
+              scantime: [ .6, .3 ]
+            }
+          },
+          "4": {
+            components: {
+              "Divergent Scan Data": 1,
+              "Mechanical Equipment": 1,
+              Niobium: 1
+            },
+            features: {
+              mass: [ 1.2, .6 ],
+              angle: [ .8, 1.6 ],
+              scantime: [ .8, .4 ]
+            }
+          },
+          "5": {
+            components: {
+              "Classified Scan Fragment": 1,
+              "Mechanical Components": 1,
+              Tin: 1
+            },
+            features: {
+              mass: [ 2, 1 ],
+              angle: [ 1, 2 ],
+              scantime: [ 1, .5 ]
+            }
+          }
+        },
+        id: 106,
+        modulename: [ "Wake scanner", "Frame shift wake scanner" ],
+        name: "Wide angle"
+      },
       ShieldBooster_Explosive: {
+        fdname: "ShieldBooster_Explosive",
         grades: {
           "1": {
             components: {
@@ -17919,7 +19329,7 @@ module.exports = {
             },
             features: {
               explres: [ .12, .15 ],
-              kinres: [ -.04, -.04 ],
+              kinres: [ -.04, -.02 ],
               thermres: [ -.05, -.02 ]
             }
           },
@@ -17949,9 +19359,11 @@ module.exports = {
           }
         },
         id: 68,
-        name: "Blast Resistant"
+        modulename: [ "Shield booster" ],
+        name: "Blast resistant"
       },
       ShieldBooster_HeavyDuty: {
+        fdname: "ShieldBooster_HeavyDuty",
         grades: {
           "1": {
             components: {
@@ -18017,9 +19429,11 @@ module.exports = {
           }
         },
         id: 69,
+        modulename: [ "Shield booster" ],
         name: "Heavy duty"
       },
       ShieldBooster_Kinetic: {
+        fdname: "ShieldBooster_Kinetic",
         grades: {
           "1": {
             components: {
@@ -18062,7 +19476,7 @@ module.exports = {
             },
             features: {
               explres: [ -.05, -.03 ],
-              kinres: [ .17, -.2 ],
+              kinres: [ .17, .2 ],
               thermres: [ -.05, -.03 ]
             }
           },
@@ -18080,9 +19494,11 @@ module.exports = {
           }
         },
         id: 70,
-        name: "Kinetic Resistant"
+        modulename: [ "Shield booster" ],
+        name: "Kinetic resistant"
       },
       ShieldBooster_Resistive: {
+        fdname: "ShieldBooster_Resistive",
         grades: {
           "1": {
             components: {
@@ -18153,9 +19569,11 @@ module.exports = {
           }
         },
         id: 71,
+        modulename: [ "Shield booster" ],
         name: "Resistance augmented"
       },
       ShieldBooster_Thermic: {
+        fdname: "ShieldBooster_Thermic",
         grades: {
           "1": {
             components: {
@@ -18216,9 +19634,11 @@ module.exports = {
           }
         },
         id: 72,
-        name: "Thermal Resistant"
+        modulename: [ "Shield booster" ],
+        name: "Thermal resistant"
       },
       ShieldCellBank_Rapid: {
+        fdname: "ShieldCellBank_Rapid",
         grades: {
           "1": {
             components: {
@@ -18258,9 +19678,11 @@ module.exports = {
           }
         },
         id: 73,
+        modulename: [ "Shield cell bank", "SCB" ],
         name: "Rapid charge"
       },
       ShieldCellBank_Specialised: {
+        fdname: "ShieldCellBank_Specialised",
         grades: {
           "1": {
             components: {
@@ -18300,9 +19722,11 @@ module.exports = {
           }
         },
         id: 74,
+        modulename: [ "Shield cell bank", "SCB" ],
         name: "Specialised"
       },
       ShieldGenerator_Kinetic: {
+        fdname: "ShieldGenerator_Kinetic",
         grades: {
           "1": {
             components: {
@@ -18333,7 +19757,7 @@ module.exports = {
             },
             features: {
               integrity: [ .1, .2 ],
-              kinres: [ .09, .2 ],
+              kinres: [ .09, .3 ],
               thermres: [ -.15, -.04 ]
             }
           },
@@ -18345,7 +19769,7 @@ module.exports = {
             },
             features: {
               integrity: [ .15, .35 ],
-              kinres: [ .11, .2 ],
+              kinres: [ .11, .4 ],
               thermres: [ -.2, -.06 ]
             }
           },
@@ -18363,9 +19787,11 @@ module.exports = {
           }
         },
         id: 75,
-        name: "Kinetic Resistant"
+        modulename: [ "Shield generator", "Shields" ],
+        name: "Kinetic resistant"
       },
       ShieldGenerator_Optimised: {
+        fdname: "ShieldGenerator_Optimised",
         grades: {
           "1": {
             components: {
@@ -18434,16 +19860,18 @@ module.exports = {
           }
         },
         id: 76,
+        modulename: [ "Shield generator", "Shields" ],
         name: "Enhanced low power"
       },
       ShieldGenerator_Reinforced: {
+        fdname: "ShieldGenerator_Reinforced",
         grades: {
           "1": {
             components: {
               Phosphorus: 1
             },
             features: {
-              brokenregen: [ -.21, -.15 ],
+              brokenregen: [ -.2, -.15 ],
               explres: [ 0, .03 ],
               kinres: [ 0, .03 ],
               optmul: [ .05, .1 ],
@@ -18491,7 +19919,7 @@ module.exports = {
               distdraw: [ .1, .05 ],
               explres: [ .06, .12 ],
               kinres: [ .06, .12 ],
-              optmul: [ .11, .25 ],
+              optmul: [ .1, .25 ],
               regen: [ -.12, -.02 ],
               thermres: [ .06, .12 ]
             }
@@ -18514,9 +19942,11 @@ module.exports = {
           }
         },
         id: 77,
+        modulename: [ "Shield generator", "Shields" ],
         name: "Reinforced"
       },
       ShieldGenerator_Thermic: {
+        fdname: "ShieldGenerator_Thermic",
         grades: {
           "1": {
             components: {
@@ -18577,9 +20007,11 @@ module.exports = {
           }
         },
         id: 78,
-        name: "Thermal Resistant"
+        modulename: [ "Shield generator", "Shields" ],
+        name: "Thermal resistant"
       },
       WakeScanner_LightWeight: {
+        fdname: "WakeScanner_LightWeight",
         grades: {
           "1": {
             components: {
@@ -18610,12 +20042,36 @@ module.exports = {
               integrity: [ -.4, -.3 ],
               mass: [ -.5, -.6 ]
             }
+          },
+          "4": {
+            components: {
+              "Conductive Components": 1,
+              "Phase Alloys": 1,
+              "Proto Light Alloys": 1
+            },
+            features: {
+              integrity: [ -.5, -.4 ],
+              mass: [ -.6, -.7 ]
+            }
+          },
+          "5": {
+            components: {
+              "Conductive Ceramics": 1,
+              "Proto Light Alloys": 1,
+              "Proto Radiolic Alloys": 1
+            },
+            features: {
+              integrity: [ -.6, -.5 ],
+              mass: [ -.7, -.8 ]
+            }
           }
         },
         id: 79,
+        modulename: [ "Frame shift wake scanner", "Wake scanner" ],
         name: "Lightweight"
       },
       WakeScanner_Reinforced: {
+        fdname: "WakeScanner_Reinforced",
         grades: {
           "1": {
             components: {
@@ -18646,12 +20102,36 @@ module.exports = {
               integrity: [ .6, 1.5 ],
               mass: [ 2, 1.2 ]
             }
+          },
+          "4": {
+            components: {
+              Molybdenum: 1,
+              Tungsten: 1,
+              Zinc: 1
+            },
+            features: {
+              integrity: [ .8, 2 ],
+              mass: [ 2.5, 1.6 ]
+            }
+          },
+          "5": {
+            components: {
+              "High Density Composites": 1,
+              Molybdenum: 1,
+              Technetium: 1
+            },
+            features: {
+              integrity: [ 1, 2.5 ],
+              mass: [ 3, 2 ]
+            }
           }
         },
         id: 81,
+        modulename: [ "Frame shift wake scanner", "Wake scanner" ],
         name: "Reinforced"
       },
       WakeScanner_Shielded: {
+        fdname: "WakeScanner_Shielded",
         grades: {
           "1": {
             components: {
@@ -18682,12 +20162,36 @@ module.exports = {
               integrity: [ .6, 1.5 ],
               power: [ .9, .6 ]
             }
+          },
+          "4": {
+            components: {
+              "Proprietary Composites": 1,
+              "Shielding Sensors": 1,
+              Vanadium: 1
+            },
+            features: {
+              integrity: [ .8, 2 ],
+              power: [ 1.2, .8 ]
+            }
+          },
+          "5": {
+            components: {
+              "Compound Shielding": 1,
+              "Core Dynamics Composites": 1,
+              Tungsten: 1
+            },
+            features: {
+              integrity: [ 1, 1.5 ],
+              power: [ 1.5, 1 ]
+            }
           }
         },
         id: 80,
+        modulename: [ "Frame shift wake scanner", "Wake scanner" ],
         name: "Shielded"
       },
       Weapon_DoubleShot: {
+        fdname: "Weapon_DoubleShot",
         grades: {
           "1": {
             components: {
@@ -18753,9 +20257,11 @@ module.exports = {
           }
         },
         id: 82,
+        modulename: [ "Weapon" ],
         name: "Double shot"
       },
       Weapon_Efficient: {
+        fdname: "Weapon_Efficient",
         grades: {
           "1": {
             components: {
@@ -18763,7 +20269,7 @@ module.exports = {
             },
             features: {
               damage: [ 0, .04 ],
-              thermload: [ -.31, -.4 ]
+              thermload: [ -.3, -.4 ]
             }
           },
           "2": {
@@ -18780,7 +20286,7 @@ module.exports = {
           "3": {
             components: {
               Chromium: 1,
-              "Exceptional Scrambed Emission Data": 1,
+              "Exceptional Scrambled Emission Data": 1,
               "Heat Exchangers": 1
             },
             features: {
@@ -18799,28 +20305,30 @@ module.exports = {
             features: {
               damage: [ .03, .08 ],
               distdraw: [ -.2, -.3 ],
-              power: [ -.1, -.31 ],
+              power: [ -.1, -.3 ],
               thermload: [ -.45, -.55 ]
             }
           },
           "5": {
             components: {
               Cadmium: 1,
-              "Heatsink Interlink": 1,
-              "Proto Heat Radiators": 1
+              "Proto Heat Radiators": 1,
+              "Unexpected Emission Data": 1
             },
             features: {
               damage: [ .03, .09 ],
               distdraw: [ -.25, -.36 ],
               power: [ -.14, -.4 ],
-              thermload: [ -.5, -.61 ]
+              thermload: [ -.5, -.6 ]
             }
           }
         },
         id: 83,
+        modulename: [ "Weapon" ],
         name: "Efficient"
       },
       Weapon_Focused: {
+        fdname: "Weapon_Focused",
         grades: {
           "1": {
             components: {
@@ -18829,7 +20337,7 @@ module.exports = {
             features: {
               range: [ .1, .2 ],
               rof: [ -.17, -.08 ],
-              thermload: [ .5, .39 ]
+              thermload: [ .5, .4 ]
             }
           },
           "2": {
@@ -18839,9 +20347,9 @@ module.exports = {
             },
             features: {
               piercing: [ 0, .1 ],
-              range: [ .2, .39 ],
+              range: [ .2, .4 ],
               rof: [ -.14, -.06 ],
-              thermload: [ .39, .31 ]
+              thermload: [ .4, .3 ]
             }
           },
           "3": {
@@ -18852,9 +20360,9 @@ module.exports = {
             },
             features: {
               piercing: [ .1, .2 ],
-              range: [ .29, .61 ],
-              rof: [ -.11, -.04 ],
-              thermload: [ .31, .2 ]
+              range: [ .3, .6 ],
+              rof: [ -.1, -.04 ],
+              thermload: [ .3, .2 ]
             }
           },
           "4": {
@@ -18864,8 +20372,8 @@ module.exports = {
               "Polymer Capacitors": 1
             },
             features: {
-              piercing: [ .2, .39 ],
-              range: [ .39, .79 ],
+              piercing: [ .2, .4 ],
+              range: [ .4, .8 ],
               rof: [ -.08, -.02 ],
               thermload: [ -.2, -.1 ]
             }
@@ -18877,7 +20385,7 @@ module.exports = {
               "Refined Focus Crystals": 1
             },
             features: {
-              piercing: [ .29, .61 ],
+              piercing: [ .3, .6 ],
               range: [ .5, 1 ],
               rof: [ -.04, 0 ],
               thermload: [ .1, 0 ]
@@ -18885,17 +20393,19 @@ module.exports = {
           }
         },
         id: 84,
+        modulename: [ "Weapon" ],
         name: "Focused"
       },
       Weapon_HighCapacity: {
+        fdname: "Weapon_HighCapacity",
         grades: {
           "1": {
             components: {
               "Mechanical Scrap": 1
             },
             features: {
-              ammo: [ .1, .59 ],
-              clip: [ .1, .59 ],
+              ammo: [ .1, .6 ],
+              clip: [ .1, .6 ],
               mass: [ .25, .1 ],
               power: [ .2, .1 ],
               reload: [ .2, 0 ]
@@ -18907,11 +20417,11 @@ module.exports = {
               Vanadium: 1
             },
             features: {
-              ammo: [ .19, .69 ],
-              clip: [ .2, .69 ],
+              ammo: [ .2, .7 ],
+              clip: [ .2, .7 ],
               mass: [ .5, .2 ],
               power: [ .25, .14 ],
-              reload: [ .39, .1 ]
+              reload: [ .4, .1 ]
             }
           },
           "3": {
@@ -18921,11 +20431,11 @@ module.exports = {
               Vanadium: 1
             },
             features: {
-              ammo: [ .29, .79 ],
-              clip: [ .29, .79 ],
-              mass: [ .75, .29 ],
-              power: [ .31, .2 ],
-              reload: [ .61, .2 ]
+              ammo: [ .3, .8 ],
+              clip: [ .3, .8 ],
+              mass: [ .75, .3 ],
+              power: [ .3, .2 ],
+              reload: [ .6, .2 ]
             }
           },
           "4": {
@@ -18935,11 +20445,11 @@ module.exports = {
               Tin: 1
             },
             features: {
-              ammo: [ .39, .89 ],
-              clip: [ .39, .89 ],
-              mass: [ 1, .39 ],
+              ammo: [ .4, .9 ],
+              clip: [ .4, .9 ],
+              mass: [ 1, .4 ],
               power: [ .35, .25 ],
-              reload: [ .79, .29 ]
+              reload: [ .8, .3 ]
             }
           },
           "5": {
@@ -18952,15 +20462,17 @@ module.exports = {
               ammo: [ .5, 1 ],
               clip: [ .5, 1 ],
               mass: [ 1.25, .5 ],
-              power: [ .39, .31 ],
-              reload: [ 1, .39 ]
+              power: [ .4, .3 ],
+              reload: [ 1, .4 ]
             }
           }
         },
         id: 85,
+        modulename: [ "Weapon" ],
         name: "High capacity"
       },
       Weapon_LightWeight: {
+        fdname: "Weapon_LightWeight",
         grades: {
           "1": {
             components: {
@@ -18969,7 +20481,7 @@ module.exports = {
             features: {
               distdraw: [ -.02, -.04 ],
               integrity: [ -.2, 0 ],
-              mass: [ -.11, -.15 ],
+              mass: [ -.1, -.15 ],
               power: [ -.02, -.04 ]
             }
           },
@@ -18980,7 +20492,7 @@ module.exports = {
             },
             features: {
               distdraw: [ -.04, -.08 ],
-              integrity: [ -.31, -.1 ],
+              integrity: [ -.3, -.1 ],
               mass: [ -.2, -.36 ],
               power: [ -.04, -.08 ]
             }
@@ -18994,7 +20506,7 @@ module.exports = {
             features: {
               distdraw: [ -.06, -.12 ],
               integrity: [ -.4, -.2 ],
-              mass: [ -.31, -.55 ],
+              mass: [ -.3, -.55 ],
               power: [ -.06, -.12 ]
             }
           },
@@ -19006,7 +20518,7 @@ module.exports = {
             },
             features: {
               distdraw: [ -.08, -.16 ],
-              integrity: [ -.5, -.31 ],
+              integrity: [ -.5, -.3 ],
               mass: [ -.4, -.75 ],
               power: [ -.08, -.16 ]
             }
@@ -19019,16 +20531,18 @@ module.exports = {
             },
             features: {
               distdraw: [ -.1, -.2 ],
-              integrity: [ -.61, -.4 ],
+              integrity: [ -.6, -.4 ],
               mass: [ -.5, -.9 ],
               power: [ -.1, -.2 ]
             }
           }
         },
         id: 86,
+        modulename: [ "Weapon" ],
         name: "Lightweight"
       },
       Weapon_LongRange: {
+        fdname: "Weapon_LongRange",
         grades: {
           "1": {
             components: {
@@ -19060,9 +20574,9 @@ module.exports = {
             },
             features: {
               fallofffromrange: [ 1, 1 ],
-              mass: [ .29, .1 ],
+              mass: [ .3, .1 ],
               power: [ .1, .04 ],
-              range: [ .31, .61 ]
+              range: [ .3, .6 ]
             }
           },
           "4": {
@@ -19073,9 +20587,9 @@ module.exports = {
             },
             features: {
               fallofffromrange: [ 1, 1 ],
-              mass: [ .39, .14 ],
+              mass: [ .4, .14 ],
               power: [ .14, .1 ],
-              range: [ .4, .81 ]
+              range: [ .4, .8 ]
             }
           },
           "5": {
@@ -19093,9 +20607,11 @@ module.exports = {
           }
         },
         id: 87,
+        modulename: [ "Weapon" ],
         name: "Long range"
       },
       Weapon_Overcharged: {
+        fdname: "Weapon_Overcharged",
         grades: {
           "1": {
             components: {
@@ -19104,9 +20620,9 @@ module.exports = {
             features: {
               clip: [ -.05, -.04 ],
               damage: [ .14, .25 ],
-              distdraw: [ .89, .45 ],
+              distdraw: [ .9, .45 ],
               jitter: [ 1, .4 ],
-              thermload: [ .45, .29 ]
+              thermload: [ .45, .3 ]
             }
           },
           "2": {
@@ -19115,11 +20631,11 @@ module.exports = {
               Nickel: 1
             },
             features: {
-              clip: [ -.11, -.06 ],
-              damage: [ .2, .29 ],
-              distdraw: [ .81, .4 ],
+              clip: [ -.1, -.06 ],
+              damage: [ .2, .3 ],
+              distdraw: [ .8, .4 ],
               jitter: [ .8, .3 ],
-              thermload: [ .29, .14 ]
+              thermload: [ .3, .14 ]
             }
           },
           "3": {
@@ -19143,9 +20659,9 @@ module.exports = {
               Zinc: 1
             },
             features: {
-              clip: [ -.21, -.12 ],
-              damage: [ .29, .39 ],
-              distdraw: [ .61, .29 ],
+              clip: [ -.2, -.12 ],
+              damage: [ .3, .4 ],
+              distdraw: [ .6, .3 ],
               jitter: [ .4, .1 ]
             }
           },
@@ -19163,9 +20679,11 @@ module.exports = {
           }
         },
         id: 88,
+        modulename: [ "Weapon" ],
         name: "Overcharged"
       },
       Weapon_RapidFire: {
+        fdname: "Weapon_RapidFire",
         grades: {
           "1": {
             components: {
@@ -19174,7 +20692,7 @@ module.exports = {
             features: {
               damage: [ -.07, -.06 ],
               jitter: [ 2.5, 1.25 ],
-              reload: [ -.11, -.25 ],
+              reload: [ -.1, -.25 ],
               rof: [ .17, .25 ]
             }
           },
@@ -19198,10 +20716,10 @@ module.exports = {
               "Specialised Legacy Firmware": 1
             },
             features: {
-              damage: [ -.11, -.1 ],
+              damage: [ -.1, -.1 ],
               distdraw: [ -.15, -.25 ],
               jitter: [ 1.5, .75 ],
-              reload: [ -.31, -.45 ],
+              reload: [ -.3, -.45 ],
               rof: [ .34, .42 ]
             }
           },
@@ -19212,7 +20730,7 @@ module.exports = {
               "Thermic Alloys": 1
             },
             features: {
-              damage: [ -.13, -.11 ],
+              damage: [ -.13, -.1 ],
               distdraw: [ -.2, -.3 ],
               jitter: [ 1, .5 ],
               reload: [ -.4, -.55 ],
@@ -19235,9 +20753,11 @@ module.exports = {
           }
         },
         id: 89,
+        modulename: [ "Weapon" ],
         name: "Rapid fire"
       },
       Weapon_ShortRange: {
+        fdname: "Weapon_ShortRange",
         grades: {
           "1": {
             components: {
@@ -19266,7 +20786,7 @@ module.exports = {
               Nickel: 1
             },
             features: {
-              damage: [ .11, .26 ],
+              damage: [ .1, .26 ],
               integrity: [ -.2, -.1 ],
               range: [ -.55, -.3 ],
               thermload: [ .3, .2 ]
@@ -19280,9 +20800,9 @@ module.exports = {
             },
             features: {
               damage: [ .15, .35 ],
-              integrity: [ -.31, -.2 ],
+              integrity: [ -.3, -.2 ],
               range: [ -.65, -.4 ],
-              thermload: [ .39, .29 ]
+              thermload: [ .4, .3 ]
             }
           },
           "5": {
@@ -19293,16 +20813,18 @@ module.exports = {
             },
             features: {
               damage: [ .2, .45 ],
-              integrity: [ -.4, -.31 ],
+              integrity: [ -.4, -.3 ],
               range: [ -.75, -.5 ],
-              thermload: [ .5, .39 ]
+              thermload: [ .5, .4 ]
             }
           }
         },
         id: 90,
+        modulename: [ "Weapon" ],
         name: "Short range"
       },
       Weapon_Sturdy: {
+        fdname: "Weapon_Sturdy",
         grades: {
           "1": {
             components: {
@@ -19320,7 +20842,7 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              integrity: [ .39, 1 ],
+              integrity: [ .4, 1 ],
               mass: [ 1, .5 ],
               thermload: [ -.06, -.15 ]
             }
@@ -19332,10 +20854,10 @@ module.exports = {
               Tungsten: 1
             },
             features: {
-              integrity: [ .61, 1.5 ],
+              integrity: [ .6, 1.5 ],
               mass: [ 1.5, 1 ],
               piercing: [ 0, .14 ],
-              thermload: [ -.11, -.2 ]
+              thermload: [ -.1, -.2 ]
             }
           },
           "4": {
@@ -19345,9 +20867,9 @@ module.exports = {
               Zinc: 1
             },
             features: {
-              integrity: [ .81, 2 ],
+              integrity: [ .8, 2 ],
               mass: [ 2, 1.5 ],
-              piercing: [ .1, .29 ],
+              piercing: [ .1, .3 ],
               thermload: [ -.15, -.25 ]
             }
           },
@@ -19361,11 +20883,12 @@ module.exports = {
               integrity: [ 1, 2.5 ],
               mass: [ 2.5, 2 ],
               piercing: [ .2, .45 ],
-              thermload: [ -.2, -.31 ]
+              thermload: [ -.2, -.3 ]
             }
           }
         },
         id: 91,
+        modulename: [ "Weapon" ],
         name: "Sturdy"
       }
     },
@@ -19402,7 +20925,8 @@ module.exports = {
         id: 41,
         name: "burstrof",
         type: "numeric",
-        method: "overwrite"
+        method: "overwrite",
+        higherbetter: false
       },
       clip: {
         id: 4,
@@ -19513,8 +21037,8 @@ module.exports = {
         id: 16,
         name: "jitter",
         type: "numeric",
-        method: "multiplicative",
-        higherbetter: true
+        method: "additive",
+        higherbetter: false
       },
       kinres: {
         id: 17,
@@ -19610,6 +21134,20 @@ module.exports = {
       rof: {
         id: 29,
         name: "rof",
+        type: "percentage",
+        method: "multiplicative",
+        higherbetter: false
+      },
+      angle: {
+        id: 46,
+        name: "angle",
+        type: "percentage",
+        method: "multiplicative",
+        higherbetter: true
+      },
+      scantime: {
+        id: 48,
+        name: "scantime",
         type: "percentage",
         method: "multiplicative",
         higherbetter: false
@@ -19915,13 +21453,18 @@ module.exports = {
       },
       special_inertial_impact: {
         damage: .5,
-        jitter: 1,
+        jitter: 3,
         damagedist: {
           K: .5,
           T: .5
         }
       },
-      special_overload_munitions: {},
+      special_overload_munitions: {
+        damagedist: {
+          E: .5,
+          T: .5
+        }
+      },
       special_phasing_sequence: {
         damage: -.1
       },
@@ -19957,8 +21500,16 @@ module.exports = {
       special_thermalshock: {
         damage: -.2
       },
-      trade_cell_heat_cell_units: {},
-      trade_defence_health_add_defence_global_mult: {},
+      trade_cell_heat_cell_units: {
+        shieldreinforcement: -1,
+        thermload: -1
+      },
+      trade_defence_health_add_defence_global_mult: {
+        explres: .4,
+        hullreinforcement: 1,
+        kinres: .4,
+        thermres: .4
+      },
       trade_distributor_engine_charge_system_charge: {
         engcap: 1,
         syscap: -1
@@ -20047,69 +21598,593 @@ module.exports = {
     modules: {
       am: {
         blueprints: {
-          AFM_Shielded: [ 1, 2, 3, 4 ]
+          AFM_Shielded: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Lori Jameson" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Lori Jameson" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner", "Lori Jameson" ]
+              },
+              "4": {
+                engineers: [ "Lori Jameson" ]
+              }
+            }
+          }
         },
         modifications: [ "integrity", "power" ]
       },
       bh: {
         blueprints: {
-          Armour_Advanced: [ 1, 2, 3, 4, 5 ],
-          Armour_Explosive: [ 1, 2, 3, 4, 5 ],
-          Armour_HeavyDuty: [ 1, 2, 3, 4, 5 ],
-          Armour_Kinetic: [ 1, 2, 3, 4, 5 ],
-          Armour_Thermic: [ 1, 2, 3, 4, 5 ]
+          Armour_Advanced: {
+            grades: {
+              "1": {
+                engineers: [ "Liz Ryder", "Selene Jean" ]
+              },
+              "2": {
+                engineers: [ "Selene Jean" ]
+              },
+              "3": {
+                engineers: [ "Selene Jean" ]
+              },
+              "4": {
+                engineers: [ "Selene Jean" ]
+              },
+              "5": {
+                engineers: [ "Selene Jean" ]
+              }
+            }
+          },
+          Armour_Explosive: {
+            grades: {
+              "1": {
+                engineers: [ "Liz Ryder", "Selene Jean" ]
+              },
+              "2": {
+                engineers: [ "Selene Jean" ]
+              },
+              "3": {
+                engineers: [ "Selene Jean" ]
+              },
+              "4": {
+                engineers: [ "Selene Jean" ]
+              },
+              "5": {
+                engineers: [ "Selene Jean" ]
+              }
+            }
+          },
+          Armour_HeavyDuty: {
+            grades: {
+              "1": {
+                engineers: [ "Liz Ryder", "Selene Jean" ]
+              },
+              "2": {
+                engineers: [ "Selene Jean" ]
+              },
+              "3": {
+                engineers: [ "Selene Jean" ]
+              },
+              "4": {
+                engineers: [ "Selene Jean" ]
+              },
+              "5": {
+                engineers: [ "Selene Jean" ]
+              }
+            }
+          },
+          Armour_Kinetic: {
+            grades: {
+              "1": {
+                engineers: [ "Liz Ryder", "Selene Jean" ]
+              },
+              "2": {
+                engineers: [ "Selene Jean" ]
+              },
+              "3": {
+                engineers: [ "Selene Jean" ]
+              },
+              "4": {
+                engineers: [ "Selene Jean" ]
+              },
+              "5": {
+                engineers: [ "Selene Jean" ]
+              }
+            }
+          },
+          Armour_Thermic: {
+            grades: {
+              "1": {
+                engineers: [ "Liz Ryder", "Selene Jean" ]
+              },
+              "2": {
+                engineers: [ "Selene Jean" ]
+              },
+              "3": {
+                engineers: [ "Selene Jean" ]
+              },
+              "4": {
+                engineers: [ "Selene Jean" ]
+              },
+              "5": {
+                engineers: [ "Selene Jean" ]
+              }
+            }
+          }
         },
         modifications: [ "explres", "hullboost", "kinres", "mass", "thermres" ]
       },
       bl: {
         blueprints: {
-          Weapon_Efficient: [ 1, 2, 3, 4, 5 ],
-          Weapon_LightWeight: [ 1, 2, 3, 4, 5 ],
-          Weapon_LongRange: [ 1, 2, 3, 4, 5 ],
-          Weapon_Overcharged: [ 1, 2, 3, 4, 5 ],
-          Weapon_ShortRange: [ 1, 2, 3, 4, 5 ],
-          Weapon_Sturdy: [ 1, 2, 3, 4, 5 ]
+          Weapon_Efficient: {
+            grades: {
+              "1": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "2": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "3": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "4": {
+                engineers: [ "Broo Tarquin" ]
+              },
+              "5": {
+                engineers: [ "Broo Tarquin" ]
+              }
+            }
+          },
+          Weapon_LightWeight: {
+            grades: {
+              "1": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "2": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "3": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "4": {
+                engineers: [ "Broo Tarquin" ]
+              },
+              "5": {
+                engineers: [ "Broo Tarquin" ]
+              }
+            }
+          },
+          Weapon_LongRange: {
+            grades: {
+              "1": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "2": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "3": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "4": {
+                engineers: [ "Broo Tarquin" ]
+              },
+              "5": {
+                engineers: [ "Broo Tarquin" ]
+              }
+            }
+          },
+          Weapon_Overcharged: {
+            grades: {
+              "1": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "2": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "3": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "4": {
+                engineers: [ "Broo Tarquin" ]
+              },
+              "5": {
+                engineers: [ "Broo Tarquin" ]
+              }
+            }
+          },
+          Weapon_ShortRange: {
+            grades: {
+              "1": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "2": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "3": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "4": {
+                engineers: [ "Broo Tarquin" ]
+              },
+              "5": {
+                engineers: [ "Broo Tarquin" ]
+              }
+            }
+          },
+          Weapon_Sturdy: {
+            grades: {
+              "1": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "2": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "3": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "4": {
+                engineers: [ "Broo Tarquin" ]
+              },
+              "5": {
+                engineers: [ "Broo Tarquin" ]
+              }
+            }
+          }
         },
         modifications: [ "damage", "damagedist", "distdraw", "fallofffromrange", "integrity", "jitter", "mass", "piercing", "power", "range", "thermload" ],
         specials: [ "special_concordant_sequence", "special_regeneration_sequence", "special_thermal_conduit", "special_thermalshock", "special_thermal_vent" ]
       },
       bsg: {
         blueprints: {
-          ShieldGenerator_Kinetic: [ 1, 2, 3, 4, 5 ],
-          ShieldGenerator_Optimised: [ 1, 2, 3, 4, 5 ],
-          ShieldGenerator_Reinforced: [ 1, 2, 3, 4, 5 ],
-          ShieldGenerator_Thermic: [ 1, 2, 3, 4, 5 ]
+          ShieldGenerator_Kinetic: {
+            grades: {
+              "1": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "2": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "3": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "4": {
+                engineers: [ "Lei Cheung" ]
+              },
+              "5": {
+                engineers: [ "Lei Cheung" ]
+              }
+            }
+          },
+          ShieldGenerator_Optimised: {
+            grades: {
+              "1": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "2": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "3": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "4": {
+                engineers: [ "Lei Cheung" ]
+              },
+              "5": {
+                engineers: [ "Lei Cheung" ]
+              }
+            }
+          },
+          ShieldGenerator_Reinforced: {
+            grades: {
+              "1": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "2": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "3": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "4": {
+                engineers: [ "Lei Cheung" ]
+              },
+              "5": {
+                engineers: [ "Lei Cheung" ]
+              }
+            }
+          },
+          ShieldGenerator_Thermic: {
+            grades: {
+              "1": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "2": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "3": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "4": {
+                engineers: [ "Lei Cheung" ]
+              },
+              "5": {
+                engineers: [ "Lei Cheung" ]
+              }
+            }
+          }
         },
         modifications: [ "boot", "brokenregen", "distdraw", "explres", "integrity", "kinres", "mass", "optmass", "optmul", "power", "regen", "thermload", "thermres" ]
       },
       c: {
         blueprints: {
-          Weapon_Efficient: [ 1, 2, 3, 4, 5 ],
-          Weapon_HighCapacity: [ 1, 2, 3, 4, 5 ],
-          Weapon_LightWeight: [ 1, 2, 3, 4, 5 ],
-          Weapon_LongRange: [ 1, 2, 3, 4, 5 ],
-          Weapon_Overcharged: [ 1, 2, 3, 4, 5 ],
-          Weapon_RapidFire: [ 1, 2, 3, 4, 5 ],
-          Weapon_ShortRange: [ 1, 2, 3, 4, 5 ],
-          Weapon_Sturdy: [ 1, 2, 3, 4, 5 ]
+          Weapon_Efficient: {
+            grades: {
+              "1": {
+                engineers: [ "The Sarge", "Tod McQuinn" ]
+              },
+              "2": {
+                engineers: [ "The Sarge", "Tod McQuinn" ]
+              },
+              "3": {
+                engineers: [ "The Sarge" ]
+              },
+              "4": {
+                engineers: [ "The Sarge" ]
+              },
+              "5": {
+                engineers: [ "The Sarge" ]
+              }
+            }
+          },
+          Weapon_HighCapacity: {
+            grades: {
+              "1": {
+                engineers: [ "The Sarge", "Tod McQuinn" ]
+              },
+              "2": {
+                engineers: [ "The Sarge", "Tod McQuinn" ]
+              },
+              "3": {
+                engineers: [ "The Sarge" ]
+              },
+              "4": {
+                engineers: [ "The Sarge" ]
+              },
+              "5": {
+                engineers: [ "The Sarge" ]
+              }
+            }
+          },
+          Weapon_LightWeight: {
+            grades: {
+              "1": {
+                engineers: [ "The Sarge", "Tod McQuinn" ]
+              },
+              "2": {
+                engineers: [ "The Sarge", "Tod McQuinn" ]
+              },
+              "3": {
+                engineers: [ "The Sarge" ]
+              },
+              "4": {
+                engineers: [ "The Sarge" ]
+              },
+              "5": {
+                engineers: [ "The Sarge" ]
+              }
+            }
+          },
+          Weapon_LongRange: {
+            grades: {
+              "1": {
+                engineers: [ "The Sarge", "Tod McQuinn" ]
+              },
+              "2": {
+                engineers: [ "The Sarge", "Tod McQuinn" ]
+              },
+              "3": {
+                engineers: [ "The Sarge" ]
+              },
+              "4": {
+                engineers: [ "The Sarge" ]
+              },
+              "5": {
+                engineers: [ "The Sarge" ]
+              }
+            }
+          },
+          Weapon_Overcharged: {
+            grades: {
+              "1": {
+                engineers: [ "The Sarge", "Tod McQuinn" ]
+              },
+              "2": {
+                engineers: [ "The Sarge", "Tod McQuinn" ]
+              },
+              "3": {
+                engineers: [ "The Sarge" ]
+              },
+              "4": {
+                engineers: [ "The Sarge" ]
+              },
+              "5": {
+                engineers: [ "The Sarge" ]
+              }
+            }
+          },
+          Weapon_ShortRange: {
+            grades: {
+              "1": {
+                engineers: [ "The Sarge", "Tod McQuinn" ]
+              },
+              "2": {
+                engineers: [ "The Sarge", "Tod McQuinn" ]
+              },
+              "3": {
+                engineers: [ "The Sarge" ]
+              },
+              "4": {
+                engineers: [ "The Sarge" ]
+              },
+              "5": {
+                engineers: [ "The Sarge" ]
+              }
+            }
+          },
+          Weapon_Sturdy: {
+            grades: {
+              "1": {
+                engineers: [ "The Sarge", "Tod McQuinn" ]
+              },
+              "2": {
+                engineers: [ "The Sarge", "Tod McQuinn" ]
+              },
+              "3": {
+                engineers: [ "The Sarge" ]
+              },
+              "4": {
+                engineers: [ "The Sarge" ]
+              },
+              "5": {
+                engineers: [ "The Sarge" ]
+              }
+            }
+          }
         },
         modifications: [ "ammo", "clip", "damage", "damagedist", "distdraw", "fallofffromrange", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "thermload" ],
         specials: [ "special_auto_loader", "special_dispersal_field", "special_smart_rounds", "special_force_shell", "special_high_yield_shell", "special_thermal_cascade" ]
       },
       cc: {
         blueprints: {
-          CollectionLimpet_LightWeight: [ 1, 2, 3, 4, 5 ],
-          CollectionLimpet_Reinforced: [ 1, 2, 3, 4, 5 ],
-          CollectionLimpet_Shielded: [ 1, 2, 3, 4, 5 ]
+          CollectionLimpet_LightWeight: {
+            grades: {
+              "1": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "The Sarge", "Tiana Fortune" ]
+              }
+            }
+          },
+          CollectionLimpet_Reinforced: {
+            grades: {
+              "1": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "The Sarge", "Tiana Fortune" ]
+              }
+            }
+          },
+          CollectionLimpet_Shielded: {
+            grades: {
+              "1": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "The Sarge", "Tiana Fortune" ]
+              }
+            }
+          }
         },
         modifications: [ "integrity", "mass", "power" ]
       },
       ch: {
         blueprints: {
-          ChaffLauncher_ChaffCapacity: [ 3 ],
-          ChaffLauncher_LightWeight: [ 1, 2, 3, 4, 5 ],
-          ChaffLauncher_Reinforced: [ 1, 2, 3, 4, 5 ],
-          ChaffLauncher_Shielded: [ 1, 2, 3, 4, 5 ]
+          ChaffLauncher_ChaffCapacity: {
+            grades: {
+              "3": {
+                engineers: [ "Ram Tah" ]
+              }
+            }
+          },
+          ChaffLauncher_LightWeight: {
+            grades: {
+              "1": {
+                engineers: [ "Ram Tah" ]
+              },
+              "2": {
+                engineers: [ "Ram Tah" ]
+              },
+              "3": {
+                engineers: [ "Ram Tah" ]
+              },
+              "4": {
+                engineers: [ "Ram Tah" ]
+              },
+              "5": {
+                engineers: [ "Ram Tah" ]
+              }
+            }
+          },
+          ChaffLauncher_Reinforced: {
+            grades: {
+              "1": {
+                engineers: [ "Ram Tah" ]
+              },
+              "2": {
+                engineers: [ "Ram Tah" ]
+              },
+              "3": {
+                engineers: [ "Ram Tah" ]
+              },
+              "4": {
+                engineers: [ "Ram Tah" ]
+              },
+              "5": {
+                engineers: [ "Ram Tah" ]
+              }
+            }
+          },
+          ChaffLauncher_Shielded: {
+            grades: {
+              "1": {
+                engineers: [ "Ram Tah" ]
+              },
+              "2": {
+                engineers: [ "Ram Tah" ]
+              },
+              "3": {
+                engineers: [ "Ram Tah" ]
+              },
+              "4": {
+                engineers: [ "Ram Tah" ]
+              },
+              "5": {
+                engineers: [ "Ram Tah" ]
+              }
+            }
+          }
         },
         modifications: [ "ammo", "integrity", "mass", "power", "reload" ]
       },
@@ -20119,11 +22194,122 @@ module.exports = {
       },
       cs: {
         blueprints: {
-          CargoScanner_LightWeight: [ 1, 2, 3, 4, 5 ],
-          CargoScanner_Reinforced: [ 1, 2, 3, 4, 5 ],
-          CargoScanner_Shielded: [ 1, 2, 3, 4, 5 ]
+          Sensor_CargoScanner_FastScan: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              }
+            }
+          },
+          CargoScanner_LightWeight: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "Tiana Fortune" ]
+              }
+            }
+          },
+          Sensor_CargoScanner_LongRange: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              }
+            }
+          },
+          CargoScanner_Reinforced: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "Tiana Fortune" ]
+              }
+            }
+          },
+          CargoScanner_Shielded: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "Tiana Fortune" ]
+              }
+            }
+          },
+          Sensor_CargoScanner_WideAngle: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              }
+            }
+          }
         },
-        modifications: [ "boot", "integrity", "mass", "power" ]
+        modifications: [ "integrity", "mass", "power", "angle", "range", "scantime" ]
       },
       dc: {
         blueprints: {},
@@ -20131,22 +22317,220 @@ module.exports = {
       },
       ec: {
         blueprints: {
-          ECM_LightWeight: [ 1, 2, 3, 4, 5 ],
-          ECM_Reinforced: [ 1, 2, 3, 4, 5 ],
-          ECM_Shielded: [ 1, 2, 3, 4, 5 ]
+          ECM_LightWeight: {
+            grades: {
+              "1": {
+                engineers: [ "Ram Tah" ]
+              },
+              "2": {
+                engineers: [ "Ram Tah" ]
+              },
+              "3": {
+                engineers: [ "Ram Tah" ]
+              },
+              "4": {
+                engineers: [ "Ram Tah" ]
+              },
+              "5": {
+                engineers: [ "Ram Tah" ]
+              }
+            }
+          },
+          ECM_Reinforced: {
+            grades: {
+              "1": {
+                engineers: [ "Ram Tah" ]
+              },
+              "2": {
+                engineers: [ "Ram Tah" ]
+              },
+              "3": {
+                engineers: [ "Ram Tah" ]
+              },
+              "4": {
+                engineers: [ "Ram Tah" ]
+              },
+              "5": {
+                engineers: [ "Ram Tah" ]
+              }
+            }
+          },
+          ECM_Shielded: {
+            grades: {
+              "1": {
+                engineers: [ "Ram Tah" ]
+              },
+              "2": {
+                engineers: [ "Ram Tah" ]
+              },
+              "3": {
+                engineers: [ "Ram Tah" ]
+              },
+              "4": {
+                engineers: [ "Ram Tah" ]
+              },
+              "5": {
+                engineers: [ "Ram Tah" ]
+              }
+            }
+          }
         },
         modifications: [ "integrity", "mass", "power" ]
       },
       fc: {
         blueprints: {
-          Weapon_DoubleShot: [ 1, 2, 3, 4, 5 ],
-          Weapon_Efficient: [ 1, 2, 3, 4, 5 ],
-          Weapon_HighCapacity: [ 1, 2, 3, 4, 5 ],
-          Weapon_LightWeight: [ 1, 2, 3, 4, 5 ],
-          Weapon_LongRange: [ 1, 2, 3, 4, 5 ],
-          Weapon_Overcharged: [ 1, 2, 3, 4, 5 ],
-          Weapon_RapidFire: [ 1, 2, 3, 4, 5 ],
-          Weapon_Sturdy: [ 1, 2, 3, 4, 5 ]
+          Weapon_DoubleShot: {
+            grades: {
+              "1": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "2": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "3": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "4": {
+                engineers: [ "Zacariah Nemo" ]
+              },
+              "5": {
+                engineers: [ "Zacariah Nemo" ]
+              }
+            }
+          },
+          Weapon_Efficient: {
+            grades: {
+              "1": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "2": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "3": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "4": {
+                engineers: [ "Zacariah Nemo" ]
+              },
+              "5": {
+                engineers: [ "Zacariah Nemo" ]
+              }
+            }
+          },
+          Weapon_HighCapacity: {
+            grades: {
+              "1": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "2": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "3": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "4": {
+                engineers: [ "Zacariah Nemo" ]
+              },
+              "5": {
+                engineers: [ "Zacariah Nemo" ]
+              }
+            }
+          },
+          Weapon_LightWeight: {
+            grades: {
+              "1": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "2": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "3": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "4": {
+                engineers: [ "Zacariah Nemo" ]
+              },
+              "5": {
+                engineers: [ "Zacariah Nemo" ]
+              }
+            }
+          },
+          Weapon_LongRange: {
+            grades: {
+              "1": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "2": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "3": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "4": {
+                engineers: [ "Zacariah Nemo" ]
+              },
+              "5": {
+                engineers: [ "Zacariah Nemo" ]
+              }
+            }
+          },
+          Weapon_Overcharged: {
+            grades: {
+              "1": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "2": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "3": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "4": {
+                engineers: [ "Zacariah Nemo" ]
+              },
+              "5": {
+                engineers: [ "Zacariah Nemo" ]
+              }
+            }
+          },
+          Weapon_RapidFire: {
+            grades: {
+              "1": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "2": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "3": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "4": {
+                engineers: [ "Zacariah Nemo" ]
+              },
+              "5": {
+                engineers: [ "Zacariah Nemo" ]
+              }
+            }
+          },
+          Weapon_Sturdy: {
+            grades: {
+              "1": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "2": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "3": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "4": {
+                engineers: [ "Zacariah Nemo" ]
+              },
+              "5": {
+                engineers: [ "Zacariah Nemo" ]
+              }
+            }
+          }
         },
         modifications: [ "ammo", "burst", "burstrof", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "thermload" ],
         specials: [ "special_corrosive_shell", "special_blinding_shell", "special_incendiary_rounds", "special_drag_munitions", "special_screening_shell" ]
@@ -20157,22 +22541,118 @@ module.exports = {
       },
       fi: {
         blueprints: {
-          FSDinterdictor_Expanded: [ 1, 2, 3, 4 ],
-          FSDinterdictor_LongRange: [ 1, 2, 3 ]
+          FSDinterdictor_Expanded: {
+            grades: {
+              "1": {
+                engineers: [ "Colonel Bris Dekker", "Felicity Farseer", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Colonel Bris Dekker", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Colonel Bris Dekker", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Colonel Bris Dekker" ]
+              }
+            }
+          },
+          FSDinterdictor_LongRange: {
+            grades: {
+              "1": {
+                engineers: [ "Colonel Bris Dekker", "Felicity Farseer", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Colonel Bris Dekker", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Colonel Bris Dekker", "Tiana Fortune" ]
+              }
+            }
+          }
         },
         modifications: [ "boot", "facinglimit", "integrity", "mass", "power", "ranget" ]
       },
       fs: {
         blueprints: {
-          FuelScoop_Shielded: [ 1, 2, 3, 4 ]
+          FuelScoop_Shielded: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Lori Jameson" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Lori Jameson" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner", "Lori Jameson" ]
+              },
+              "4": {
+                engineers: [ "Lori Jameson" ]
+              }
+            }
+          }
         },
         modifications: [ "integrity", "power" ]
       },
       fsd: {
         blueprints: {
-          FSD_FastBoot: [ 1, 2, 3, 4, 5 ],
-          FSD_LongRange: [ 1, 2, 3, 4, 5 ],
-          FSD_Shielded: [ 1, 2, 3, 4, 5 ]
+          FSD_FastBoot: {
+            grades: {
+              "1": {
+                engineers: [ "Colonel Bris Dekker", "Elvira Martuuk", "Felicity Farseer", "Professor Palin" ]
+              },
+              "2": {
+                engineers: [ "Colonel Bris Dekker", "Elvira Martuuk", "Felicity Farseer", "Professor Palin" ]
+              },
+              "3": {
+                engineers: [ "Colonel Bris Dekker", "Elvira Martuuk", "Felicity Farseer", "Professor Palin" ]
+              },
+              "4": {
+                engineers: [ "Elvira Martuuk", "Felicity Farseer" ]
+              },
+              "5": {
+                engineers: [ "Elvira Martuuk", "Felicity Farseer" ]
+              }
+            }
+          },
+          FSD_LongRange: {
+            grades: {
+              "1": {
+                engineers: [ "Colonel Bris Dekker", "Elvira Martuuk", "Felicity Farseer", "Professor Palin" ]
+              },
+              "2": {
+                engineers: [ "Colonel Bris Dekker", "Elvira Martuuk", "Felicity Farseer", "Professor Palin" ]
+              },
+              "3": {
+                engineers: [ "Colonel Bris Dekker", "Elvira Martuuk", "Felicity Farseer", "Professor Palin" ]
+              },
+              "4": {
+                engineers: [ "Elvira Martuuk", "Felicity Farseer" ]
+              },
+              "5": {
+                engineers: [ "Elvira Martuuk", "Felicity Farseer" ]
+              }
+            }
+          },
+          FSD_Shielded: {
+            grades: {
+              "1": {
+                engineers: [ "Colonel Bris Dekker", "Elvira Martuuk", "Felicity Farseer", "Professor Palin" ]
+              },
+              "2": {
+                engineers: [ "Colonel Bris Dekker", "Elvira Martuuk", "Felicity Farseer", "Professor Palin" ]
+              },
+              "3": {
+                engineers: [ "Colonel Bris Dekker", "Elvira Martuuk", "Felicity Farseer", "Professor Palin" ]
+              },
+              "4": {
+                engineers: [ "Elvira Martuuk", "Felicity Farseer" ]
+              },
+              "5": {
+                engineers: [ "Elvira Martuuk", "Felicity Farseer" ]
+              }
+            }
+          }
         },
         modifications: [ "boot", "integrity", "mass", "maxfuel", "optmass", "power", "thermload" ]
       },
@@ -20182,65 +22662,604 @@ module.exports = {
       },
       fx: {
         blueprints: {
-          FuelTransferLimpet_LightWeight: [ 1, 2, 3, 4, 5 ],
-          FuelTransferLimpet_Reinforced: [ 1, 2, 3, 4, 5 ],
-          FuelTransferLimpet_Shielded: [ 1, 2, 3, 4, 5 ]
+          FuelTransferLimpet_LightWeight: {
+            grades: {
+              "1": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "The Sarge", "Tiana Fortune" ]
+              }
+            }
+          },
+          FuelTransferLimpet_Reinforced: {
+            grades: {
+              "1": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "The Sarge", "Tiana Fortune" ]
+              }
+            }
+          },
+          FuelTransferLimpet_Shielded: {
+            grades: {
+              "1": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "The Sarge", "Tiana Fortune" ]
+              }
+            }
+          }
         },
         modifications: [ "integrity", "mass", "power" ]
       },
       hb: {
         blueprints: {
-          HatchBreakerLimpet_LightWeight: [ 1, 2, 3, 4, 5 ],
-          HatchBreakerLimpet_Reinforced: [ 1, 2, 3, 4, 5 ],
-          HatchBreakerLimpet_Shielded: [ 1, 2, 3, 4, 5 ]
+          HatchBreakerLimpet_LightWeight: {
+            grades: {
+              "1": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "The Sarge", "Tiana Fortune" ]
+              }
+            }
+          },
+          HatchBreakerLimpet_Reinforced: {
+            grades: {
+              "1": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "The Sarge", "Tiana Fortune" ]
+              }
+            }
+          },
+          HatchBreakerLimpet_Shielded: {
+            grades: {
+              "1": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "The Sarge", "Tiana Fortune" ]
+              }
+            }
+          }
         },
         modifications: [ "integrity", "mass", "power" ]
       },
       hr: {
         blueprints: {
-          HullReinforcement_Advanced: [ 1, 2, 3, 4, 5 ],
-          HullReinforcement_Explosive: [ 1, 2, 3, 4, 5 ],
-          HullReinforcement_HeavyDuty: [ 1, 2, 3, 4, 5 ],
-          HullReinforcement_Kinetic: [ 1, 2, 3, 4, 5 ],
-          HullReinforcement_Thermic: [ 1, 2, 3, 4, 5 ]
+          HullReinforcement_Advanced: {
+            grades: {
+              "1": {
+                engineers: [ "Liz Ryder", "Selene Jean" ]
+              },
+              "2": {
+                engineers: [ "Selene Jean" ]
+              },
+              "3": {
+                engineers: [ "Selene Jean" ]
+              },
+              "4": {
+                engineers: [ "Selene Jean" ]
+              },
+              "5": {
+                engineers: [ "Selene Jean" ]
+              }
+            }
+          },
+          HullReinforcement_Explosive: {
+            grades: {
+              "1": {
+                engineers: [ "Liz Ryder", "Selene Jean" ]
+              },
+              "2": {
+                engineers: [ "Selene Jean" ]
+              },
+              "3": {
+                engineers: [ "Selene Jean" ]
+              },
+              "4": {
+                engineers: [ "Selene Jean" ]
+              },
+              "5": {
+                engineers: [ "Selene Jean" ]
+              }
+            }
+          },
+          HullReinforcement_HeavyDuty: {
+            grades: {
+              "1": {
+                engineers: [ "Liz Ryder", "Selene Jean" ]
+              },
+              "2": {
+                engineers: [ "Selene Jean" ]
+              },
+              "3": {
+                engineers: [ "Selene Jean" ]
+              },
+              "4": {
+                engineers: [ "Selene Jean" ]
+              },
+              "5": {
+                engineers: [ "Selene Jean" ]
+              }
+            }
+          },
+          HullReinforcement_Kinetic: {
+            grades: {
+              "1": {
+                engineers: [ "Liz Ryder", "Selene Jean" ]
+              },
+              "2": {
+                engineers: [ "Selene Jean" ]
+              },
+              "3": {
+                engineers: [ "Selene Jean" ]
+              },
+              "4": {
+                engineers: [ "Selene Jean" ]
+              },
+              "5": {
+                engineers: [ "Selene Jean" ]
+              }
+            }
+          },
+          HullReinforcement_Thermic: {
+            grades: {
+              "1": {
+                engineers: [ "Liz Ryder", "Selene Jean" ]
+              },
+              "2": {
+                engineers: [ "Selene Jean" ]
+              },
+              "3": {
+                engineers: [ "Selene Jean" ]
+              },
+              "4": {
+                engineers: [ "Selene Jean" ]
+              },
+              "5": {
+                engineers: [ "Selene Jean" ]
+              }
+            }
+          }
         },
         modifications: [ "hullreinforcement", "explres", "hullboost", "kinres", "mass", "thermres" ]
       },
       hs: {
         blueprints: {
-          HeatSinkLauncher_HeatSinkCapacity: [ 3 ],
-          HeatSinkLauncher_LightWeight: [ 1, 2, 3, 4, 5 ],
-          HeatSinkLauncher_Reinforced: [ 1, 2, 3, 4, 5 ],
-          HeatSinkLauncher_Shielded: [ 1, 2, 3, 4, 5 ]
+          HeatSinkLauncher_HeatSinkCapacity: {
+            grades: {
+              "3": {
+                engineers: [ "Ram Tah" ]
+              }
+            }
+          },
+          HeatSinkLauncher_LightWeight: {
+            grades: {
+              "1": {
+                engineers: [ "Ram Tah" ]
+              },
+              "2": {
+                engineers: [ "Ram Tah" ]
+              },
+              "3": {
+                engineers: [ "Ram Tah" ]
+              },
+              "4": {
+                engineers: [ "Ram Tah" ]
+              },
+              "5": {
+                engineers: [ "Ram Tah" ]
+              }
+            }
+          },
+          HeatSinkLauncher_Reinforced: {
+            grades: {
+              "1": {
+                engineers: [ "Ram Tah" ]
+              },
+              "2": {
+                engineers: [ "Ram Tah" ]
+              },
+              "3": {
+                engineers: [ "Ram Tah" ]
+              },
+              "4": {
+                engineers: [ "Ram Tah" ]
+              },
+              "5": {
+                engineers: [ "Ram Tah" ]
+              }
+            }
+          },
+          HeatSinkLauncher_Shielded: {
+            grades: {
+              "1": {
+                engineers: [ "Ram Tah" ]
+              },
+              "2": {
+                engineers: [ "Ram Tah" ]
+              },
+              "3": {
+                engineers: [ "Ram Tah" ]
+              },
+              "4": {
+                engineers: [ "Ram Tah" ]
+              },
+              "5": {
+                engineers: [ "Ram Tah" ]
+              }
+            }
+          }
         },
         modifications: [ "ammo", "integrity", "mass", "power", "reload" ]
       },
       kw: {
         blueprints: {
-          KillWarrantScanner_LightWeight: [ 1, 2, 3, 4, 5 ],
-          KillWarrantScanner_Reinforced: [ 1, 2, 3, 4, 5 ],
-          KillWarrantScanner_Shielded: [ 1, 2, 3, 4, 5 ]
+          Sensor_KillWarrantScanner_FastScan: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              }
+            }
+          },
+          KillWarrantScanner_LightWeight: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "Tiana Fortune" ]
+              }
+            }
+          },
+          KillWarrantScanner_LongRange: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              }
+            }
+          },
+          KillWarrantScanner_Reinforced: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "Tiana Fortune" ]
+              }
+            }
+          },
+          KillWarrantScanner_Shielded: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "Tiana Fortune" ]
+              }
+            }
+          },
+          Sensor_KillWarrantScanner_WideAngle: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              }
+            }
+          }
         },
-        modifications: [ "boot", "integrity", "mass", "power" ]
+        modifications: [ "integrity", "mass", "power", "angle", "range", "scantime" ]
       },
       ls: {
         blueprints: {
-          LifeSupport_LightWeight: [ 1, 2, 3, 4 ],
-          LifeSupport_Reinforced: [ 1, 2, 3, 4 ],
-          LifeSupport_Shielded: [ 1, 2, 3, 4 ]
+          LifeSupport_LightWeight: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Lori Jameson" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Lori Jameson" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner", "Lori Jameson" ]
+              },
+              "4": {
+                engineers: [ "Lori Jameson" ]
+              }
+            }
+          },
+          LifeSupport_Reinforced: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Lori Jameson" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Lori Jameson" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner", "Lori Jameson" ]
+              },
+              "4": {
+                engineers: [ "Lori Jameson" ]
+              }
+            }
+          },
+          LifeSupport_Shielded: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Lori Jameson" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Lori Jameson" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner", "Lori Jameson" ]
+              },
+              "4": {
+                engineers: [ "Lori Jameson" ]
+              }
+            }
+          }
         },
         modifications: [ "boot", "integrity", "mass", "power" ]
       },
       mc: {
         blueprints: {
-          Weapon_Efficient: [ 1, 2, 3, 4, 5 ],
-          Weapon_HighCapacity: [ 1, 2, 3, 4, 5 ],
-          Weapon_LightWeight: [ 1, 2, 3, 4, 5 ],
-          Weapon_LongRange: [ 1, 2, 3, 4, 5 ],
-          Weapon_Overcharged: [ 1, 2, 3, 4, 5 ],
-          Weapon_RapidFire: [ 1, 2, 3, 4, 5 ],
-          Weapon_ShortRange: [ 1, 2, 3, 4, 5 ],
-          Weapon_Sturdy: [ 1, 2, 3, 4, 5 ]
+          Weapon_Efficient: {
+            grades: {
+              "1": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "2": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "3": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "4": {
+                engineers: [ "Tod McQuinn" ]
+              },
+              "5": {
+                engineers: [ "Tod McQuinn" ]
+              }
+            }
+          },
+          Weapon_HighCapacity: {
+            grades: {
+              "1": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "2": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "3": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "4": {
+                engineers: [ "Tod McQuinn" ]
+              },
+              "5": {
+                engineers: [ "Tod McQuinn" ]
+              }
+            }
+          },
+          Weapon_LightWeight: {
+            grades: {
+              "1": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "2": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "3": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "4": {
+                engineers: [ "Tod McQuinn" ]
+              },
+              "5": {
+                engineers: [ "Tod McQuinn" ]
+              }
+            }
+          },
+          Weapon_Overcharged: {
+            grades: {
+              "1": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "2": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "3": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "4": {
+                engineers: [ "Tod McQuinn" ]
+              },
+              "5": {
+                engineers: [ "Tod McQuinn" ]
+              }
+            }
+          },
+          Weapon_RapidFire: {
+            grades: {
+              "1": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "2": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "3": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "4": {
+                engineers: [ "Tod McQuinn" ]
+              },
+              "5": {
+                engineers: [ "Tod McQuinn" ]
+              }
+            }
+          },
+          Weapon_ShortRange: {
+            grades: {
+              "1": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "2": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "3": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "4": {
+                engineers: [ "Tod McQuinn" ]
+              },
+              "5": {
+                engineers: [ "Tod McQuinn" ]
+              }
+            }
+          },
+          Weapon_Sturdy: {
+            grades: {
+              "1": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "2": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "3": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "4": {
+                engineers: [ "Tod McQuinn" ]
+              },
+              "5": {
+                engineers: [ "Tod McQuinn" ]
+              }
+            }
+          }
         },
         modifications: [ "ammo", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "thermload" ],
         specials: [ "special_auto_loader", "special_corrosive_shell", "special_emissive_munitions", "special_incendiary_rounds", "special_smart_rounds", "special_thermalshock" ]
@@ -20251,10 +23270,82 @@ module.exports = {
       },
       mr: {
         blueprints: {
-          Weapon_HighCapacity: [ 1, 2, 3, 4, 5 ],
-          Weapon_LightWeight: [ 1, 2, 3, 4, 5 ],
-          Weapon_RapidFire: [ 1, 2, 3, 4, 5 ],
-          Weapon_Sturdy: [ 1, 2, 3, 4, 5 ]
+          Weapon_HighCapacity: {
+            grades: {
+              "1": {
+                engineers: [ "Juri Ishmaak", "Liz Ryder" ]
+              },
+              "2": {
+                engineers: [ "Juri Ishmaak", "Liz Ryder" ]
+              },
+              "3": {
+                engineers: [ "Juri Ishmaak", "Liz Ryder" ]
+              },
+              "4": {
+                engineers: [ "Liz Ryder" ]
+              },
+              "5": {
+                engineers: [ "Liz Ryder" ]
+              }
+            }
+          },
+          Weapon_LightWeight: {
+            grades: {
+              "1": {
+                engineers: [ "Juri Ishmaak", "Liz Ryder" ]
+              },
+              "2": {
+                engineers: [ "Juri Ishmaak", "Liz Ryder" ]
+              },
+              "3": {
+                engineers: [ "Juri Ishmaak", "Liz Ryder" ]
+              },
+              "4": {
+                engineers: [ "Liz Ryder" ]
+              },
+              "5": {
+                engineers: [ "Liz Ryder" ]
+              }
+            }
+          },
+          Weapon_RapidFire: {
+            grades: {
+              "1": {
+                engineers: [ "Juri Ishmaak", "Liz Ryder" ]
+              },
+              "2": {
+                engineers: [ "Juri Ishmaak", "Liz Ryder" ]
+              },
+              "3": {
+                engineers: [ "Juri Ishmaak", "Liz Ryder" ]
+              },
+              "4": {
+                engineers: [ "Liz Ryder" ]
+              },
+              "5": {
+                engineers: [ "Liz Ryder" ]
+              }
+            }
+          },
+          Weapon_Sturdy: {
+            grades: {
+              "1": {
+                engineers: [ "Juri Ishmaak", "Liz Ryder" ]
+              },
+              "2": {
+                engineers: [ "Juri Ishmaak", "Liz Ryder" ]
+              },
+              "3": {
+                engineers: [ "Juri Ishmaak", "Liz Ryder" ]
+              },
+              "4": {
+                engineers: [ "Liz Ryder" ]
+              },
+              "5": {
+                engineers: [ "Liz Ryder" ]
+              }
+            }
+          }
         },
         modifications: [ "ammo", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "reload", "rof", "thermload" ],
         specials: [ "special_drag_munitions", "special_emissive_munitions", "special_overload_munitions", "special_penetrator_payload", "special_thermal_cascade" ]
@@ -20265,27 +23356,243 @@ module.exports = {
       },
       nl: {
         blueprints: {
-          Weapon_HighCapacity: [ 1, 2, 3, 4, 5 ],
-          Weapon_LightWeight: [ 1, 2, 3, 4, 5 ],
-          Weapon_RapidFire: [ 1, 2, 3, 4, 5 ],
-          Weapon_Sturdy: [ 1, 2, 3, 4, 5 ]
+          Weapon_HighCapacity: {
+            grades: {
+              "1": {
+                engineers: [ "Juri Ishmaak", "Liz Ryder" ]
+              },
+              "2": {
+                engineers: [ "Juri Ishmaak", "Liz Ryder" ]
+              },
+              "3": {
+                engineers: [ "Juri Ishmaak", "Liz Ryder" ]
+              },
+              "4": {
+                engineers: [ "Juri Ishmaak" ]
+              },
+              "5": {
+                engineers: [ "Juri Ishmaak" ]
+              }
+            }
+          },
+          Weapon_LightWeight: {
+            grades: {
+              "1": {
+                engineers: [ "Juri Ishmaak", "Liz Ryder" ]
+              },
+              "2": {
+                engineers: [ "Juri Ishmaak", "Liz Ryder" ]
+              },
+              "3": {
+                engineers: [ "Juri Ishmaak", "Liz Ryder" ]
+              },
+              "4": {
+                engineers: [ "Juri Ishmaak" ]
+              },
+              "5": {
+                engineers: [ "Juri Ishmaak" ]
+              }
+            }
+          },
+          Weapon_RapidFire: {
+            grades: {
+              "1": {
+                engineers: [ "Juri Ishmaak", "Liz Ryder" ]
+              },
+              "2": {
+                engineers: [ "Juri Ishmaak", "Liz Ryder" ]
+              },
+              "3": {
+                engineers: [ "Juri Ishmaak", "Liz Ryder" ]
+              },
+              "4": {
+                engineers: [ "Juri Ishmaak" ]
+              },
+              "5": {
+                engineers: [ "Juri Ishmaak" ]
+              }
+            }
+          },
+          Weapon_Sturdy: {
+            grades: {
+              "1": {
+                engineers: [ "Juri Ishmaak", "Liz Ryder" ]
+              },
+              "2": {
+                engineers: [ "Juri Ishmaak", "Liz Ryder" ]
+              },
+              "3": {
+                engineers: [ "Juri Ishmaak", "Liz Ryder" ]
+              },
+              "4": {
+                engineers: [ "Juri Ishmaak" ]
+              },
+              "5": {
+                engineers: [ "Juri Ishmaak" ]
+              }
+            }
+          }
         },
         modifications: [ "ammo", "boot", "clip", "damage", "damagedist", "fallofffromrange", "integrity", "jitter", "mass", "piercing", "power", "reload", "rof", "thermload" ],
         specials: [ "special_ion_disruptor", "special_overload_munitions", "special_radiant_canister", "special_reverberating_cascade", "special_shiftlock_canister", "special_emissive_munitions" ]
       },
       pa: {
         blueprints: {
-          Weapon_Efficient: [ 1, 2, 3, 4, 5 ],
-          Weapon_Focused: [ 1, 2, 3, 4, 5 ],
-          Weapon_LightWeight: [ 1, 2, 3, 4, 5 ],
-          Weapon_LongRange: [ 1, 2, 3, 4, 5 ],
-          Weapon_Overcharged: [ 1, 2, 3, 4, 5 ],
-          Weapon_RapidFire: [ 1, 2, 3, 4, 5 ],
-          Weapon_ShortRange: [ 1, 2, 3, 4, 5 ],
-          Weapon_Sturdy: [ 1, 2, 3, 4, 5 ]
+          Weapon_Efficient: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Zacariah Nemo" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Zacariah Nemo" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner" ]
+              },
+              "4": {
+                engineers: [ "Bill Turner" ]
+              },
+              "5": {
+                engineers: [ "Bill Turner" ]
+              }
+            }
+          },
+          Weapon_Focused: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Zacariah Nemo" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Zacariah Nemo" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner" ]
+              },
+              "4": {
+                engineers: [ "Bill Turner" ]
+              },
+              "5": {
+                engineers: [ "Bill Turner" ]
+              }
+            }
+          },
+          Weapon_LightWeight: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Zacariah Nemo" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Zacariah Nemo" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner" ]
+              },
+              "4": {
+                engineers: [ "Bill Turner" ]
+              },
+              "5": {
+                engineers: [ "Bill Turner" ]
+              }
+            }
+          },
+          Weapon_LongRange: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Zacariah Nemo" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Zacariah Nemo" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner" ]
+              },
+              "4": {
+                engineers: [ "Bill Turner" ]
+              },
+              "5": {
+                engineers: [ "Bill Turner" ]
+              }
+            }
+          },
+          Weapon_Overcharged: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Zacariah Nemo" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Zacariah Nemo" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner" ]
+              },
+              "4": {
+                engineers: [ "Bill Turner" ]
+              },
+              "5": {
+                engineers: [ "Bill Turner" ]
+              }
+            }
+          },
+          Weapon_RapidFire: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Zacariah Nemo" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Zacariah Nemo" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner" ]
+              },
+              "4": {
+                engineers: [ "Bill Turner" ]
+              },
+              "5": {
+                engineers: [ "Bill Turner" ]
+              }
+            }
+          },
+          Weapon_ShortRange: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Zacariah Nemo" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Zacariah Nemo" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner" ]
+              },
+              "4": {
+                engineers: [ "Bill Turner" ]
+              },
+              "5": {
+                engineers: [ "Bill Turner" ]
+              }
+            }
+          },
+          Weapon_Sturdy: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Zacariah Nemo" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Zacariah Nemo" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner" ]
+              },
+              "4": {
+                engineers: [ "Bill Turner" ]
+              },
+              "5": {
+                engineers: [ "Bill Turner" ]
+              }
+            }
+          }
         },
         modifications: [ "ammo", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "thermload" ],
-        specials: [ "special_blinding_shell", "special_dispersal_field", "special_phasing_sequence", "special_plasma_slug", "special_target_lock_breaker", "special_thermal_conduit" ]
+        specials: [ "special_blinding_shell", "special_dispersal_field", "special_phasing_sequence", "special_plasma_slug", "special_lock_breaker", "special_thermal_conduit" ]
       },
       pas: {
         blueprints: {},
@@ -20293,9 +23600,63 @@ module.exports = {
       },
       pc: {
         blueprints: {
-          ProspectingLimpet_LightWeight: [ 1, 2, 3, 4, 5 ],
-          ProspectingLimpet_Reinforced: [ 1, 2, 3, 4, 5 ],
-          ProspectingLimpet_Shielded: [ 1, 2, 3, 4, 5 ]
+          ProspectingLimpet_LightWeight: {
+            grades: {
+              "1": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "The Sarge", "Tiana Fortune" ]
+              }
+            }
+          },
+          ProspectingLimpet_Reinforced: {
+            grades: {
+              "1": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "The Sarge", "Tiana Fortune" ]
+              }
+            }
+          },
+          ProspectingLimpet_Shielded: {
+            grades: {
+              "1": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "The Sarge", "Tiana Fortune" ]
+              }
+            }
+          }
         },
         modifications: [ "integrity", "mass", "power" ]
       },
@@ -20317,25 +23678,259 @@ module.exports = {
       },
       pd: {
         blueprints: {
-          PowerDistributor_HighFrequency: [ 1, 2, 3, 4, 5 ],
-          PowerDistributor_PriorityEngines: [ 1, 2, 3 ],
-          PowerDistributor_HighCapacity: [ 1, 2, 3, 4, 5 ],
-          PowerDistributor_Shielded: [ 1, 2, 3, 4, 5 ],
-          PowerDistributor_PrioritySystems: [ 1, 2, 3 ],
-          PowerDistributor_PriorityWeapons: [ 1, 2, 3 ]
+          PowerDistributor_HighFrequency: {
+            grades: {
+              "1": {
+                engineers: [ "Hera Tani", "Marco Qwent", "The Dweller" ]
+              },
+              "2": {
+                engineers: [ "Hera Tani", "Marco Qwent", "The Dweller" ]
+              },
+              "3": {
+                engineers: [ "Hera Tani", "Marco Qwent", "The Dweller" ]
+              },
+              "4": {
+                engineers: [ "The Dweller" ]
+              },
+              "5": {
+                engineers: [ "The Dweller" ]
+              }
+            }
+          },
+          PowerDistributor_PriorityEngines: {
+            grades: {
+              "1": {
+                engineers: [ "Hera Tani", "Marco Qwent", "The Dweller" ]
+              },
+              "2": {
+                engineers: [ "Hera Tani", "Marco Qwent", "The Dweller" ]
+              },
+              "3": {
+                engineers: [ "Hera Tani", "Marco Qwent", "The Dweller" ]
+              }
+            }
+          },
+          PowerDistributor_HighCapacity: {
+            grades: {
+              "1": {
+                engineers: [ "Hera Tani", "Marco Qwent", "The Dweller" ]
+              },
+              "2": {
+                engineers: [ "Hera Tani", "Marco Qwent", "The Dweller" ]
+              },
+              "3": {
+                engineers: [ "Hera Tani", "Marco Qwent", "The Dweller" ]
+              },
+              "4": {
+                engineers: [ "The Dweller" ]
+              },
+              "5": {
+                engineers: [ "The Dweller" ]
+              }
+            }
+          },
+          PowerDistributor_Shielded: {
+            grades: {
+              "1": {
+                engineers: [ "Hera Tani", "Marco Qwent", "The Dweller" ]
+              },
+              "2": {
+                engineers: [ "Hera Tani", "Marco Qwent", "The Dweller" ]
+              },
+              "3": {
+                engineers: [ "Hera Tani", "Marco Qwent", "The Dweller" ]
+              },
+              "4": {
+                engineers: [ "The Dweller" ]
+              },
+              "5": {
+                engineers: [ "The Dweller" ]
+              }
+            }
+          },
+          PowerDistributor_PrioritySystems: {
+            grades: {
+              "1": {
+                engineers: [ "Hera Tani", "Marco Qwent", "The Dweller" ]
+              },
+              "2": {
+                engineers: [ "Hera Tani", "Marco Qwent", "The Dweller" ]
+              },
+              "3": {
+                engineers: [ "Hera Tani", "Marco Qwent", "The Dweller" ]
+              }
+            }
+          },
+          PowerDistributor_PriorityWeapons: {
+            grades: {
+              "1": {
+                engineers: [ "Hera Tani", "Marco Qwent", "The Dweller" ]
+              },
+              "2": {
+                engineers: [ "Hera Tani", "Marco Qwent", "The Dweller" ]
+              },
+              "3": {
+                engineers: [ "Hera Tani", "Marco Qwent", "The Dweller" ]
+              }
+            }
+          }
         },
         modifications: [ "boot", "engcap", "engrate", "integrity", "mass", "power", "syscap", "sysrate", "wepcap", "weprate" ]
       },
       pl: {
         blueprints: {
-          Weapon_Efficient: [ 1, 2, 3, 4, 5 ],
-          Weapon_Focused: [ 1, 2, 3, 4, 5 ],
-          Weapon_LightWeight: [ 1, 2, 3, 4, 5 ],
-          Weapon_LongRange: [ 1, 2, 3, 4, 5 ],
-          Weapon_Overcharged: [ 1, 2, 3, 4, 5 ],
-          Weapon_RapidFire: [ 1, 2, 3, 4, 5 ],
-          Weapon_ShortRange: [ 1, 2, 3, 4, 5 ],
-          Weapon_Sturdy: [ 1, 2, 3, 4, 5 ]
+          Weapon_Efficient: {
+            grades: {
+              "1": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "2": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "3": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "4": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "5": {
+                engineers: [ "Broo Tarquin" ]
+              }
+            }
+          },
+          Weapon_Focused: {
+            grades: {
+              "1": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "2": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "3": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "4": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "5": {
+                engineers: [ "Broo Tarquin" ]
+              }
+            }
+          },
+          Weapon_LightWeight: {
+            grades: {
+              "1": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "2": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "3": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "4": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "5": {
+                engineers: [ "Broo Tarquin" ]
+              }
+            }
+          },
+          Weapon_LongRange: {
+            grades: {
+              "1": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "2": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "3": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "4": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "5": {
+                engineers: [ "Broo Tarquin" ]
+              }
+            }
+          },
+          Weapon_Overcharged: {
+            grades: {
+              "1": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "2": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "3": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "4": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "5": {
+                engineers: [ "Broo Tarquin" ]
+              }
+            }
+          },
+          Weapon_RapidFire: {
+            grades: {
+              "1": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "2": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "3": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "4": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "5": {
+                engineers: [ "Broo Tarquin" ]
+              }
+            }
+          },
+          Weapon_ShortRange: {
+            grades: {
+              "1": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "2": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "3": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "4": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "5": {
+                engineers: [ "Broo Tarquin" ]
+              }
+            }
+          },
+          Weapon_Sturdy: {
+            grades: {
+              "1": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "2": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "3": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "4": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "5": {
+                engineers: [ "Broo Tarquin" ]
+              }
+            }
+          }
         },
         modifications: [ "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "rof", "thermload" ],
         specials: [ "special_concordant_sequence", "special_emissive_munitions", "special_phasing_sequence", "special_scramble_spectrum", "special_thermalshock" ]
@@ -20343,26 +23938,207 @@ module.exports = {
       po: {
         blueprints: {
           PointDefence_PointDefenseCapacity: [ 3 ],
-          PointDefence_LightWeight: [ 1, 2, 3, 4, 5 ],
-          PointDefence_Reinforced: [ 1, 2, 3, 4, 5 ],
-          PointDefence_Shielded: [ 1, 2, 3, 4, 5 ]
+          HeatSinkLauncher_Shielded: {
+            grades: {
+              "3": {
+                engineers: [ "Ram Tah" ]
+              }
+            }
+          },
+          PointDefence_LightWeight: {
+            grades: {
+              "1": {
+                engineers: [ "Ram Tah" ]
+              },
+              "2": {
+                engineers: [ "Ram Tah" ]
+              },
+              "3": {
+                engineers: [ "Ram Tah" ]
+              },
+              "4": {
+                engineers: [ "Ram Tah" ]
+              },
+              "5": {
+                engineers: [ "Ram Tah" ]
+              }
+            }
+          },
+          PointDefence_Reinforced: {
+            grades: {
+              "1": {
+                engineers: [ "Ram Tah" ]
+              },
+              "2": {
+                engineers: [ "Ram Tah" ]
+              },
+              "3": {
+                engineers: [ "Ram Tah" ]
+              },
+              "4": {
+                engineers: [ "Ram Tah" ]
+              },
+              "5": {
+                engineers: [ "Ram Tah" ]
+              }
+            }
+          },
+          PointDefence_Shielded: {
+            grades: {
+              "1": {
+                engineers: [ "Ram Tah" ]
+              },
+              "2": {
+                engineers: [ "Ram Tah" ]
+              },
+              "3": {
+                engineers: [ "Ram Tah" ]
+              },
+              "4": {
+                engineers: [ "Ram Tah" ]
+              },
+              "5": {
+                engineers: [ "Ram Tah" ]
+              }
+            }
+          }
         },
         modifications: [ "ammo", "integrity", "mass", "power", "reload" ]
       },
       pp: {
         blueprints: {
-          PowerPlant_Armoured: [ 1, 2, 3, 4, 5 ],
-          PowerPlant_Stealth: [ 1, 2, 3 ],
-          PowerPlant_Boosted: [ 1, 2, 3, 4, 5 ]
+          PowerPlant_Armoured: {
+            grades: {
+              "1": {
+                engineers: [ "Felicity Farseer", "Hera Tani", "Marco Qwent" ]
+              },
+              "2": {
+                engineers: [ "Hera Tani", "Marco Qwent" ]
+              },
+              "3": {
+                engineers: [ "Hera Tani", "Marco Qwent" ]
+              },
+              "4": {
+                engineers: [ "Hera Tani", "Marco Qwent" ]
+              },
+              "5": {
+                engineers: [ "Hera Tani" ]
+              }
+            }
+          },
+          PowerPlant_Stealth: {
+            grades: {
+              "1": {
+                engineers: [ "Felicity Farseer", "Hera Tani", "Marco Qwent" ]
+              },
+              "2": {
+                engineers: [ "Hera Tani", "Marco Qwent" ]
+              },
+              "3": {
+                engineers: [ "Hera Tani", "Marco Qwent" ]
+              }
+            }
+          },
+          PowerPlant_Boosted: {
+            grades: {
+              "1": {
+                engineers: [ "Felicity Farseer", "Hera Tani", "Marco Qwent" ]
+              },
+              "2": {
+                engineers: [ "Hera Tani", "Marco Qwent" ]
+              },
+              "3": {
+                engineers: [ "Hera Tani", "Marco Qwent" ]
+              },
+              "4": {
+                engineers: [ "Hera Tani", "Marco Qwent" ]
+              },
+              "5": {
+                engineers: [ "Hera Tani" ]
+              }
+            }
+          }
         },
         modifications: [ "eff", "integrity", "mass", "pgen" ]
       },
       psg: {
         blueprints: {
-          ShieldGenerator_Kinetic: [ 1, 2, 3, 4, 5 ],
-          ShieldGenerator_Optimised: [ 1, 2, 3, 4, 5 ],
-          ShieldGenerator_Reinforced: [ 1, 2, 3, 4, 5 ],
-          ShieldGenerator_Thermic: [ 1, 2, 3, 4, 5 ]
+          ShieldGenerator_Kinetic: {
+            grades: {
+              "1": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "2": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "3": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "4": {
+                engineers: [ "Lei Cheung" ]
+              },
+              "5": {
+                engineers: [ "Lei Cheung" ]
+              }
+            }
+          },
+          ShieldGenerator_Optimised: {
+            grades: {
+              "1": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "2": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "3": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "4": {
+                engineers: [ "Lei Cheung" ]
+              },
+              "5": {
+                engineers: [ "Lei Cheung" ]
+              }
+            }
+          },
+          ShieldGenerator_Reinforced: {
+            grades: {
+              "1": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "2": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "3": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "4": {
+                engineers: [ "Lei Cheung" ]
+              },
+              "5": {
+                engineers: [ "Lei Cheung" ]
+              }
+            }
+          },
+          ShieldGenerator_Thermic: {
+            grades: {
+              "1": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "2": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "3": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "4": {
+                engineers: [ "Lei Cheung" ]
+              },
+              "5": {
+                engineers: [ "Lei Cheung" ]
+              }
+            }
+          }
         },
         modifications: [ "boot", "brokenregen", "distdraw", "explres", "integrity", "kinres", "mass", "optmass", "optmul", "power", "regen", "thermload", "thermres" ]
       },
@@ -20372,32 +24148,285 @@ module.exports = {
       },
       rf: {
         blueprints: {
-          Refineries_Shielded: [ 1, 2, 3, 4 ]
+          Refineries_Shielded: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Lori Jameson" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Lori Jameson" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner", "Lori Jameson" ]
+              },
+              "4": {
+                engineers: [ "Lori Jameson" ]
+              }
+            }
+          }
         },
         modifications: [ "integrity", "power" ]
       },
       rg: {
         blueprints: {
-          Weapon_HighCapacity: [ 1, 2, 3, 4, 5 ],
-          Weapon_LightWeight: [ 1, 2, 3, 4, 5 ],
-          Weapon_LongRange: [ 1, 2, 3, 4, 5 ],
-          Weapon_ShortRange: [ 1, 2, 3, 4, 5 ],
-          Weapon_Sturdy: [ 1, 2, 3, 4, 5 ]
+          Weapon_HighCapacity: {
+            grades: {
+              "1": {
+                engineers: [ "The Sarge", "Tod McQuinn" ]
+              },
+              "2": {
+                engineers: [ "The Sarge", "Tod McQuinn" ]
+              },
+              "3": {
+                engineers: [ "The Sarge", "Tod McQuinn" ]
+              },
+              "4": {
+                engineers: [ "Tod McQuinn" ]
+              },
+              "5": {
+                engineers: [ "Tod McQuinn" ]
+              }
+            }
+          },
+          Weapon_LightWeight: {
+            grades: {
+              "1": {
+                engineers: [ "The Sarge", "Tod McQuinn" ]
+              },
+              "2": {
+                engineers: [ "The Sarge", "Tod McQuinn" ]
+              },
+              "3": {
+                engineers: [ "The Sarge", "Tod McQuinn" ]
+              },
+              "4": {
+                engineers: [ "Tod McQuinn" ]
+              },
+              "5": {
+                engineers: [ "Tod McQuinn" ]
+              }
+            }
+          },
+          Weapon_LongRange: {
+            grades: {
+              "1": {
+                engineers: [ "The Sarge", "Tod McQuinn" ]
+              },
+              "2": {
+                engineers: [ "The Sarge", "Tod McQuinn" ]
+              },
+              "3": {
+                engineers: [ "The Sarge", "Tod McQuinn" ]
+              },
+              "4": {
+                engineers: [ "Tod McQuinn" ]
+              },
+              "5": {
+                engineers: [ "Tod McQuinn" ]
+              }
+            }
+          },
+          Weapon_ShortRange: {
+            grades: {
+              "1": {
+                engineers: [ "The Sarge", "Tod McQuinn" ]
+              },
+              "2": {
+                engineers: [ "The Sarge", "Tod McQuinn" ]
+              },
+              "3": {
+                engineers: [ "The Sarge", "Tod McQuinn" ]
+              },
+              "4": {
+                engineers: [ "Tod McQuinn" ]
+              },
+              "5": {
+                engineers: [ "Tod McQuinn" ]
+              }
+            }
+          },
+          Weapon_Sturdy: {
+            grades: {
+              "1": {
+                engineers: [ "The Sarge", "Tod McQuinn" ]
+              },
+              "2": {
+                engineers: [ "The Sarge", "Tod McQuinn" ]
+              },
+              "3": {
+                engineers: [ "The Sarge", "Tod McQuinn" ]
+              },
+              "4": {
+                engineers: [ "Tod McQuinn" ]
+              },
+              "5": {
+                engineers: [ "Tod McQuinn" ]
+              }
+            }
+          }
         },
         modifications: [ "ammo", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "thermload" ],
         specials: [ "special_feedback_cascade", "special_plasma_slug", "special_super_penetrator" ]
       },
       s: {
-        blueprints: {},
-        modifications: []
+        blueprints: {
+          Sensor_Sensor_LightWeight: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              }
+            }
+          },
+          Sensor_Sensor_LongRange: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              }
+            }
+          },
+          Sensor_Sensor_WideAngle: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              }
+            }
+          }
+        },
+        modifications: [ "integrity", "mass", "power", "range", "angle" ]
       },
       sb: {
         blueprints: {
-          ShieldBooster_Explosive: [ 1, 2, 3, 4, 5 ],
-          ShieldBooster_HeavyDuty: [ 1, 2, 3, 4, 5 ],
-          ShieldBooster_Kinetic: [ 1, 2, 3, 4, 5 ],
-          ShieldBooster_Resistive: [ 1, 2, 3, 4, 5 ],
-          ShieldBooster_Thermic: [ 1, 2, 3, 4, 5 ]
+          ShieldBooster_Explosive: {
+            grades: {
+              "1": {
+                engineers: [ "Didi Vatermann", "Felicity Farseer", "Lei Chung" ]
+              },
+              "2": {
+                engineers: [ "Didi Vatermann", "Lei Chung" ]
+              },
+              "3": {
+                engineers: [ "Didi Vatermann", "Lei Chung" ]
+              },
+              "4": {
+                engineers: [ "Didi Vatermann" ]
+              },
+              "5": {
+                engineers: [ "Didi Vatermann" ]
+              }
+            }
+          },
+          ShieldBooster_HeavyDuty: {
+            grades: {
+              "1": {
+                engineers: [ "Didi Vatermann", "Felicity Farseer", "Lei Chung" ]
+              },
+              "2": {
+                engineers: [ "Didi Vatermann", "Lei Chung" ]
+              },
+              "3": {
+                engineers: [ "Didi Vatermann", "Lei Chung" ]
+              },
+              "4": {
+                engineers: [ "Didi Vatermann" ]
+              },
+              "5": {
+                engineers: [ "Didi Vatermann" ]
+              }
+            }
+          },
+          ShieldBooster_Kinetic: {
+            grades: {
+              "1": {
+                engineers: [ "Didi Vatermann", "Felicity Farseer", "Lei Chung" ]
+              },
+              "2": {
+                engineers: [ "Didi Vatermann", "Lei Chung" ]
+              },
+              "3": {
+                engineers: [ "Didi Vatermann", "Lei Chung" ]
+              },
+              "4": {
+                engineers: [ "Didi Vatermann" ]
+              },
+              "5": {
+                engineers: [ "Didi Vatermann" ]
+              }
+            }
+          },
+          ShieldBooster_Resistive: {
+            grades: {
+              "1": {
+                engineers: [ "Didi Vatermann", "Felicity Farseer", "Lei Chung" ]
+              },
+              "2": {
+                engineers: [ "Didi Vatermann", "Lei Chung" ]
+              },
+              "3": {
+                engineers: [ "Didi Vatermann", "Lei Chung" ]
+              },
+              "4": {
+                engineers: [ "Didi Vatermann" ]
+              },
+              "5": {
+                engineers: [ "Didi Vatermann" ]
+              }
+            }
+          },
+          ShieldBooster_Thermic: {
+            grades: {
+              "1": {
+                engineers: [ "Didi Vatermann", "Felicity Farseer", "Lei Chung" ]
+              },
+              "2": {
+                engineers: [ "Didi Vatermann", "Lei Chung" ]
+              },
+              "3": {
+                engineers: [ "Didi Vatermann", "Lei Chung" ]
+              },
+              "4": {
+                engineers: [ "Didi Vatermann" ]
+              },
+              "5": {
+                engineers: [ "Didi Vatermann" ]
+              }
+            }
+          }
         },
         modifications: [ "explres", "integrity", "kinres", "mass", "power", "shieldboost", "thermres" ]
       },
@@ -20407,57 +24436,560 @@ module.exports = {
       },
       scb: {
         blueprints: {
-          ShieldCellBank_Rapid: [ 1, 2, 3 ],
-          ShieldCellBank_Specialised: [ 1, 2, 3 ]
+          ShieldCellBank_Rapid: {
+            grades: {
+              "1": {
+                engineers: [ "Elvira Martuuk", "Lori Jameson" ]
+              },
+              "2": {
+                engineers: [ "Lori Jameson" ]
+              },
+              "3": {
+                engineers: [ "Lori Jameson" ]
+              }
+            }
+          },
+          ShieldCellBank_Specialised: {
+            grades: {
+              "1": {
+                engineers: [ "Elvira Martuuk", "Lori Jameson" ]
+              },
+              "2": {
+                engineers: [ "Lori Jameson" ]
+              },
+              "3": {
+                engineers: [ "Lori Jameson" ]
+              }
+            }
+          }
         },
-        modifications: [ "boot", "duration", "integrity", "mass", "power", "shieldreinforcement", "spinup", "thermload" ]
+        modifications: [ "boot", "clip", "duration", "integrity", "mass", "power", "shieldreinforcement", "spinup", "thermload" ]
       },
       sg: {
         blueprints: {
-          ShieldGenerator_Kinetic: [ 1, 2, 3, 4, 5 ],
-          ShieldGenerator_Optimised: [ 1, 2, 3, 4, 5 ],
-          ShieldGenerator_Reinforced: [ 1, 2, 3, 4, 5 ],
-          ShieldGenerator_Thermic: [ 1, 2, 3, 4, 5 ]
+          ShieldGenerator_Kinetic: {
+            grades: {
+              "1": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "2": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "3": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "4": {
+                engineers: [ "Lei Cheung" ]
+              },
+              "5": {
+                engineers: [ "Lei Cheung" ]
+              }
+            }
+          },
+          ShieldGenerator_Optimised: {
+            grades: {
+              "1": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "2": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "3": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "4": {
+                engineers: [ "Lei Cheung" ]
+              },
+              "5": {
+                engineers: [ "Lei Cheung" ]
+              }
+            }
+          },
+          ShieldGenerator_Reinforced: {
+            grades: {
+              "1": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "2": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "3": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "4": {
+                engineers: [ "Lei Cheung" ]
+              },
+              "5": {
+                engineers: [ "Lei Cheung" ]
+              }
+            }
+          },
+          ShieldGenerator_Thermic: {
+            grades: {
+              "1": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "2": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "3": {
+                engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
+              },
+              "4": {
+                engineers: [ "Lei Cheung" ]
+              },
+              "5": {
+                engineers: [ "Lei Cheung" ]
+              }
+            }
+          }
         },
         modifications: [ "boot", "brokenregen", "distdraw", "explres", "integrity", "kinres", "mass", "optmass", "optmul", "power", "regen", "thermload", "thermres" ]
       },
+      ss: {
+        blueprints: {
+          Sensor_SurfaceScanner_FastScan: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Lori Jameson", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Lori Jameson", "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "Lori Jameson", "Tiana Fortune" ]
+              }
+            }
+          },
+          Sensor_SurfaceScanner_LongRange: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Lori Jameson", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Lori Jameson", "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "Lori Jameson", "Tiana Fortune" ]
+              }
+            }
+          },
+          Sensor_SurfaceScanner_WideAngle: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Lori Jameson", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Lori Jameson", "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "Lori Jameson", "Tiana Fortune" ]
+              }
+            }
+          }
+        },
+        modifications: [ "mass", "angle", "range", "scantime" ]
+      },
       t: {
         blueprints: {
-          Engine_Dirty: [ 1, 2, 3, 4, 5 ],
-          Engine_Reinforced: [ 1, 2, 3, 4, 5 ],
-          Engine_Tuned: [ 1, 2, 3, 4, 5 ]
+          Engine_Dirty: {
+            grades: {
+              "1": {
+                engineers: [ "Elvira Martuuk", "Felicty Farseer", "Professor Palin" ]
+              },
+              "2": {
+                engineers: [ "Elvira Martuuk", "Felicty Farseer", "Professor Palin" ]
+              },
+              "3": {
+                engineers: [ "Felicty Farseer", "Professor Palin" ]
+              },
+              "4": {
+                engineers: [ "Professor Palin" ]
+              },
+              "5": {
+                engineers: [ "Professor Palin" ]
+              }
+            }
+          },
+          Engine_Reinforced: {
+            grades: {
+              "1": {
+                engineers: [ "Elvira Martuuk", "Felicty Farseer", "Professor Palin" ]
+              },
+              "2": {
+                engineers: [ "Elvira Martuuk", "Felicty Farseer", "Professor Palin" ]
+              },
+              "3": {
+                engineers: [ "Felicty Farseer", "Professor Palin" ]
+              },
+              "4": {
+                engineers: [ "Professor Palin" ]
+              },
+              "5": {
+                engineers: [ "Professor Palin" ]
+              }
+            }
+          },
+          Engine_Tuned: {
+            grades: {
+              "1": {
+                engineers: [ "Elvira Martuuk", "Felicty Farseer", "Professor Palin" ]
+              },
+              "2": {
+                engineers: [ "Elvira Martuuk", "Felicty Farseer", "Professor Palin" ]
+              },
+              "3": {
+                engineers: [ "Felicty Farseer", "Professor Palin" ]
+              },
+              "4": {
+                engineers: [ "Professor Palin" ]
+              },
+              "5": {
+                engineers: [ "Professor Palin" ]
+              }
+            }
+          }
         },
         modifications: [ "integrity", "mass", "optmass", "optmul", "power", "thermload" ]
       },
       tp: {
         blueprints: {
-          Weapon_LightWeight: [ 1, 2, 3, 4, 5 ],
-          Weapon_Sturdy: [ 1, 2, 3, 4, 5 ]
+          Weapon_LightWeight: {
+            grades: {
+              "1": {
+                engineers: [ "Juri Ishmaak", "Liz Ryder" ]
+              },
+              "2": {
+                engineers: [ "Juri Ishmaak", "Liz Ryder" ]
+              },
+              "3": {
+                engineers: [ "Juri Ishmaak", "Liz Ryder" ]
+              },
+              "4": {
+                engineers: [ "Liz Ryder" ]
+              },
+              "5": {
+                engineers: [ "Liz Ryder" ]
+              }
+            }
+          },
+          Weapon_Sturdy: {
+            grades: {
+              "1": {
+                engineers: [ "Juri Ishmaak", "Liz Ryder" ]
+              },
+              "2": {
+                engineers: [ "Juri Ishmaak", "Liz Ryder" ]
+              },
+              "3": {
+                engineers: [ "Juri Ishmaak", "Liz Ryder" ]
+              },
+              "4": {
+                engineers: [ "Liz Ryder" ]
+              },
+              "5": {
+                engineers: [ "Liz Ryder" ]
+              }
+            }
+          }
         },
         modifications: [ "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "rof", "thermload" ],
         specials: [ "special_mass_lock_munition", "special_penetrator_payload", "special_reverberating_cascade" ]
       },
       ul: {
         blueprints: {
-          Weapon_Efficient: [ 1, 2, 3, 4, 5 ],
-          Weapon_Focused: [ 1, 2, 3, 4, 5 ],
-          Weapon_LightWeight: [ 1, 2, 3, 4, 5 ],
-          Weapon_LongRange: [ 1, 2, 3, 4, 5 ],
-          Weapon_Overcharged: [ 1, 2, 3, 4, 5 ],
-          Weapon_RapidFire: [ 1, 2, 3, 4, 5 ],
-          Weapon_ShortRange: [ 1, 2, 3, 4, 5 ],
-          Weapon_Sturdy: [ 1, 2, 3, 4, 5 ]
+          Weapon_Efficient: {
+            grades: {
+              "1": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "2": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "3": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "4": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "5": {
+                engineers: [ "Broo Tarquin" ]
+              }
+            }
+          },
+          Weapon_Focused: {
+            grades: {
+              "1": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "2": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "3": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "4": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "5": {
+                engineers: [ "Broo Tarquin" ]
+              }
+            }
+          },
+          Weapon_LightWeight: {
+            grades: {
+              "1": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "2": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "3": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "4": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "5": {
+                engineers: [ "Broo Tarquin" ]
+              }
+            }
+          },
+          Weapon_LongRange: {
+            grades: {
+              "1": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "2": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "3": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "4": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "5": {
+                engineers: [ "Broo Tarquin" ]
+              }
+            }
+          },
+          Weapon_Overcharged: {
+            grades: {
+              "1": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "2": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "3": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "4": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "5": {
+                engineers: [ "Broo Tarquin" ]
+              }
+            }
+          },
+          Weapon_RapidFire: {
+            grades: {
+              "1": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "2": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "3": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "4": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "5": {
+                engineers: [ "Broo Tarquin" ]
+              }
+            }
+          },
+          Weapon_ShortRange: {
+            grades: {
+              "1": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "2": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "3": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "4": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "5": {
+                engineers: [ "Broo Tarquin" ]
+              }
+            }
+          },
+          Weapon_Sturdy: {
+            grades: {
+              "1": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "2": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "3": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "4": {
+                engineers: [ "Broo Tarquin", "The Dweller" ]
+              },
+              "5": {
+                engineers: [ "Broo Tarquin" ]
+              }
+            }
+          }
         },
         modifications: [ "burst", "burstrof", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "rof", "thermload" ],
         specials: [ "special_concordant_sequence", "special_inertial_impact", "special_phasing_sequence", "special_scramble_spectrum", "special_thermalshock" ]
       },
       ws: {
         blueprints: {
-          WakeScanner_LightWeight: [ 1, 2, 3 ],
-          WakeScanner_Reinforced: [ 1, 2, 3 ],
-          WakeScanner_Shielded: [ 1, 2, 3 ]
+          Sensor_WakeScanner_FastScan: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              }
+            }
+          },
+          WakeScanner_LightWeight: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "Tiana Fortune" ]
+              }
+            }
+          },
+          Sensor_WakeScanner_LongRange: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              }
+            }
+          },
+          WakeScanner_Reinforced: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "Tiana Fortune" ]
+              }
+            }
+          },
+          WakeScanner_Shielded: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "Tiana Fortune" ]
+              }
+            }
+          },
+          Sensor_WakeScanner_WideAngle: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "5": {
+                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+              }
+            }
+          }
         },
-        modifications: [ "boot", "integrity", "mass", "power" ]
+        modifications: [ "integrity", "mass", "power", "angle", "range", "scantime" ]
       }
     },
     specials: {
@@ -20601,9 +25133,9 @@ module.exports = {
         edname: "special_super_penetrator",
         name: "Super penetrator"
       },
-      special_target_lock_breaker: {
+      special_lock_breaker: {
         id: 27,
-        edname: "special_target_lock_breaker",
+        edname: "special_lock_breaker",
         name: "Target lock breaker"
       },
       special_thermal_cascade: {

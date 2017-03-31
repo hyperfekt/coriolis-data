@@ -1,6 +1,7 @@
 {
   "imperial_cutter": {
-    "edID": 128049375, "eddbID": 26,
+    "edID": 128049375,
+    "eddbID": 26,
     "properties": {
       "name": "Imperial Cutter",
       "manufacturer": "Gutamaya",

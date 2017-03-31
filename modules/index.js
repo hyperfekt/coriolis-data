@@ -55,6 +55,7 @@ module.exports = {
     rf: require('./internal/refinery').rf,
     sc: require('./internal/scanner').sc,
     scb: require('./internal/shield_cell_bank').scb,
-    sg: require('./internal/shield_generator').sg
+    sg: require('./internal/shield_generator').sg,
+    ss: require('./internal/surface_scanner').ss
   }
 };
