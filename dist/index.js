@@ -19686,7 +19686,7 @@ module.exports = {
         grades: {
           "1": {
             components: {
-              Sulphur: 1
+              "Specialised Legacy Firmware": 1
             },
             features: {
               boot: [ -.04, -.08 ],
@@ -19697,8 +19697,8 @@ module.exports = {
           },
           "2": {
             components: {
-              Chromium: 1,
-              "Grid Resistors": 1
+              "Conductive Components": 1,
+              "Specialised Legacy Firmware": 1
             },
             features: {
               boot: [ -.08, -.16 ],
@@ -19709,9 +19709,9 @@ module.exports = {
           },
           "3": {
             components: {
-              "Hybrid Capacitors": 1,
-              "Precipitated Alloys": 1,
-              Sulphur: 1
+              "Conductive Components": 1,
+              "Cracked Industrial Firmware": 1,
+              "Exceptional Scrambled Emission Data": 1
             },
             features: {
               boot: [ -.12, -.26 ],
