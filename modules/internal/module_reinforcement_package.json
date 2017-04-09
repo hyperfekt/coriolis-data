@@ -7,7 +7,7 @@
       "edID": 128737270,
       "grp": "mrp",
       "id": "m0",
-      "integrity": 70,
+      "integrity": 77,
       "mass": 2,
       "protection": 0.3,
       "rating": "E"
@@ -19,7 +19,7 @@
       "edID": 128737271,
       "grp": "mrp",
       "id": "m1",
-      "integrity": 30,
+      "integrity": 70,
       "mass": 1,
       "protection": 0.6,
       "rating": "D"
@@ -31,7 +31,7 @@
       "edID": 128737272,
       "grp": "mrp",
       "id": "m2",
-      "integrity": 105,
+      "integrity": 115,
       "mass": 4,
       "protection": 0.3,
       "rating": "E"
@@ -43,7 +43,7 @@
       "edID": 128737273,
       "grp": "mrp",
       "id": "m3",
-      "integrity": 45,
+      "integrity": 105,
       "mass": 2,
       "protection": 0.6,
       "rating": "D"
@@ -55,7 +55,7 @@
       "edID": 128737274,
       "grp": "mrp",
       "id": "m4",
-      "integrity": 155,
+      "integrity": 170,
       "mass": 8,
       "protection": 0.3,
       "rating": "E"
@@ -67,7 +67,7 @@
       "edID": 128737275,
       "grp": "mrp",
       "id": "m5",
-      "integrity": 65,
+      "integrity": 155,
       "mass": 4,
       "protection": 0.6,
       "rating": "D"
@@ -79,7 +79,7 @@
       "edID": 128737276,
       "grp": "mrp",
       "id": "m6",
-      "integrity": 235,
+      "integrity": 260,
       "mass": 16,
       "protection": 0.3,
       "rating": "E"
@@ -91,7 +91,7 @@
       "edID": 128737277,
       "grp": "mrp",
       "id": "m7",
-      "integrity": 95,
+      "integrity": 235,
       "mass": 8,
       "protection": 0.6,
       "rating": "D"
@@ -103,7 +103,7 @@
       "edID": 128737278,
       "grp": "mrp",
       "id": "m8",
-      "integrity": 350,
+      "integrity": 385,
       "mass": 32,
       "protection": 0.3,
       "rating": "E"
@@ -115,7 +115,7 @@
       "edID": 128737279,
       "grp": "mrp",
       "id": "m9",
-      "integrity": 145,
+      "integrity": 350,
       "mass": 16,
       "protection": 0.6,
       "rating": "D"

@@ -1,6 +1,7 @@
 {
   "imperial_courier": {
-    "edID": 128671223, "eddbID": 14,
+    "edID": 128671223,
+    "eddbID": 14,
     "properties": {
       "name": "Imperial Courier",
       "manufacturer": "Gutamaya",

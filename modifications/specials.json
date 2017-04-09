@@ -27,7 +27,7 @@
     "special_shiftlock_canister": {"id": 24, "edname": "special_shiftlock_canister", "name": "Shift-lock canister"},
     "special_smart_rounds": {"id": 25, "edname": "special_smart_rounds", "name": "Smart rounds"},
     "special_super_penetrator": {"id": 26, "edname": "special_super_penetrator", "name": "Super penetrator"},
-    "special_target_lock_breaker": {"id": 27, "edname": "special_target_lock_breaker", "name": "Target lock breaker"},
+    "special_lock_breaker": {"id": 27, "edname": "special_lock_breaker", "name": "Target lock breaker"},
     "special_thermal_cascade": {"id": 28, "edname": "special_thermal_cascade", "name": "Thermal cascade"},
     "special_thermal_conduit": {"id": 29, "edname": "special_thermal_conduit", "name": "Thermal conduit"},
     "special_thermal_vent": {"id": 30, "edname": "special_thermal_vent", "name": "Thermal vent"},

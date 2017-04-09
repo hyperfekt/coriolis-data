@@ -8,7 +8,7 @@
       "class": 1,
       "clip": 1,
       "cost": 51600,
-      "damage": 23.3,
+      "damage": 23.25,
       "damagedist": {
         "K": 0.5,
         "T": 0.5
@@ -28,7 +28,7 @@
       "rating": "D",
       "reload": 1,
       "rof": 1.6,
-      "thermload": 17.8
+      "thermload": 12
     },
     {
       "ammo": 80,
@@ -58,7 +58,7 @@
       "rating": "B",
       "reload": 1,
       "rof": 1.2,
-      "thermload": 30
+      "thermload": 20
     },
     {
       "ammo": 90,
@@ -85,14 +85,14 @@
       "mass": 4,
       "mount": "F",
       "name": "Imperial Hammer",
-      "piercing": 150,
+      "piercing": 48,
       "power": 1.63,
       "pp": "Arissa Lavigny-Duval",
       "range": 3000,
       "rating": "B",
       "reload": 1,
       "rof": 4.1,
-      "thermload": 16
+      "thermload": 12
     }
   ]
 }

@@ -28,7 +28,7 @@
       "reload": 4,
       "rof": 7.69,
       "shotspeed": 1600,
-      "thermload": 0.1
+      "thermload": 0.09
     },
     {
       "ammo": 2100,
@@ -88,7 +88,7 @@
       "reload": 4,
       "rof": 7.14,
       "shotspeed": 1600,
-      "thermload": 0
+      "thermload": 0.04
     },
     {
       "ammo": 1000,
@@ -150,7 +150,7 @@
       "reload": 4,
       "rof": 7.14,
       "shotspeed": 1600,
-      "thermload": 0.2
+      "thermload": 0.18
     },
     {
       "ammo": 2100,
@@ -210,7 +210,7 @@
       "reload": 4,
       "rof": 6.25,
       "shotspeed": 1600,
-      "thermload": 0.1
+      "thermload": 0.09
     },
     {
       "ammo": 2100,
@@ -220,7 +220,7 @@
       "class": 3,
       "clip": 100,
       "cost": 140400,
-      "damage": 3.93,
+      "damage": 3.92,
       "damagedist": {
         "K": 1
       },
@@ -238,9 +238,9 @@
       "range": 4000,
       "rating": "C",
       "reload": 4,
-      "rof": 5.88,
+      "rof": 5.884,
       "shotspeed": 1600,
-      "thermload": 0.3
+      "thermload": 0.28
     },
     {
       "ammo": 2100,
@@ -270,7 +270,7 @@
       "reload": 5,
       "rof": 6.665,
       "shotspeed": 1600,
-      "thermload": 0.3
+      "thermload": 0.34
     },
     {
       "ammo": 2100,
@@ -280,7 +280,7 @@
       "class": 4,
       "clip": 100,
       "cost": 1177600,
-      "damage": 4.62,
+      "damage": 4.625,
       "damagedist": {
         "K": 1
       },
@@ -301,7 +301,7 @@
       "rof": 3.03,
       "roundspershot": 2,
       "shotspeed": 1600,
-      "thermload": 0.4
+      "thermload": 0.39
     },
     {
       "ammo": 2100,
@@ -332,7 +332,7 @@
       "rof": 3.365,
       "roundspershot": 2,
       "shotspeed": 1600,
-      "thermload": 0.5
+      "thermload": 0.51
     }
   ]
 }
