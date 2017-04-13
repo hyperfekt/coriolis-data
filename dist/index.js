@@ -866,6 +866,7 @@ module.exports = {
       }
     },
     dolphin: {
+      edID: 128049291,
       eddbID: 31,
       properties: {
         name: "Dolphin",
@@ -890,6 +891,7 @@ module.exports = {
       retailCost: 1337330,
       bulkheads: [ {
         id: "cq",
+        edID: 128049292,
         eddbID: 1589,
         grp: "bh",
         cost: 0,
@@ -900,6 +902,7 @@ module.exports = {
         hullboost: .8
       }, {
         id: "cr",
+        edID: 128049293,
         eddbID: 1590,
         grp: "bh",
         cost: 534940,
@@ -910,6 +913,7 @@ module.exports = {
         hullboost: 1.52
       }, {
         id: "cs",
+        edID: 128049294,
         eddbID: 1591,
         grp: "bh",
         cost: 1203600,
@@ -920,6 +924,7 @@ module.exports = {
         hullboost: 2.5
       }, {
         id: "ct",
+        edID: 128049295,
         eddbID: 1592,
         grp: "bh",
         cost: 2808390,
@@ -930,6 +935,7 @@ module.exports = {
         hullboost: 2.5
       }, {
         id: "cu",
+        edID: 128049296,
         eddbID: 1593,
         grp: "bh",
         cost: 3152080,
@@ -8875,6 +8881,7 @@ module.exports = {
           T: 1
         },
         distdraw: 1.5,
+        edID: 128740819,
         eddbID: 1587,
         falloff: 300,
         grp: "ml",
@@ -8948,6 +8955,7 @@ module.exports = {
           T: 1
         },
         distdraw: 3,
+        edID: 128740820,
         eddbID: 1588,
         falloff: 300,
         grp: "ml",
@@ -18931,7 +18939,7 @@ module.exports = {
             },
             features: {
               mass: [ .4, .2 ],
-              scantime: [ .1, .4 ]
+              scanrate: [ .1, .4 ]
             }
           },
           "2": {
@@ -18941,7 +18949,7 @@ module.exports = {
             },
             features: {
               mass: [ .8, .4 ],
-              scantime: [ .2, .5 ]
+              scanrate: [ .2, .5 ]
             }
           },
           "3": {
@@ -18952,7 +18960,7 @@ module.exports = {
             },
             features: {
               mass: [ 1.2, .6 ],
-              scantime: [ .3, .6 ]
+              scanrate: [ .3, .6 ]
             }
           },
           "4": {
@@ -18963,7 +18971,7 @@ module.exports = {
             },
             features: {
               mass: [ 1.6, .8 ],
-              scantime: [ .4, .7 ]
+              scanrate: [ .4, .7 ]
             }
           },
           "5": {
@@ -18974,7 +18982,7 @@ module.exports = {
             },
             features: {
               mass: [ 2, 1 ],
-              scantime: [ .5, .8 ]
+              scanrate: [ .5, .8 ]
             }
           }
         },
@@ -21141,6 +21149,13 @@ module.exports = {
       angle: {
         id: 46,
         name: "angle",
+        type: "percentage",
+        method: "multiplicative",
+        higherbetter: true
+      },
+      scanrate: {
+        id: 49,
+        name: "scanrate",
         type: "percentage",
         method: "multiplicative",
         higherbetter: true
@@ -24606,7 +24621,7 @@ module.exports = {
             }
           }
         },
-        modifications: [ "mass", "angle", "range", "scantime" ]
+        modifications: [ "mass", "angle", "range", "scanrate" ]
       },
       t: {
         blueprints: {

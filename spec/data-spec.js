@@ -211,8 +211,7 @@ describe('JSON Data', function() {
       const module = Modifications.modules[m];
       for (var bp in module.blueprints) {
         expect(Modifications.blueprints[bp]).toBeDefined('Missing ' + bp + ' for ' + m);
-        for (var g in module.blueprints[bp]) {
-          const grade = module.blueprints[bp][g];
+        for (var grade in module.blueprints[bp].grades) {
           expect(Modifications.blueprints[bp].grades[grade]).toBeDefined('Missing ' + bp + ' grade ' + grade + ' for ' + m);
         }
       }

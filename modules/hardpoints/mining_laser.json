@@ -36,6 +36,7 @@
         "T": 1
       },
       "distdraw": 1.5,
+      "edID": 128740819,
       "eddbID": 1587,
       "falloff": 300,
       "grp": "ml",
@@ -112,6 +113,7 @@
         "T": 1
       },
       "distdraw": 3,
+      "edID": 128740820,
       "eddbID": 1588,
       "falloff": 300,
       "grp": "ml",
