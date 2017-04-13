@@ -1,3 +1,6 @@
+#2.3.1
+  * Separate scan time and scan range
+
 #2.3.0
   * Add Dolphin
   * Add turreted mining lasers
