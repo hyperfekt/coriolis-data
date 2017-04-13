@@ -1382,6 +1382,7 @@
 			}
 		},
 		"dolphin": {
+			"edID": 128049291,
 			"eddbID": 31,
 			"properties": {
 				"name": "Dolphin",
@@ -1407,6 +1408,7 @@
 			"bulkheads": [
 				{
 					"id": "cq",
+					"edID": 128049292,
 					"eddbID": 1589,
 					"grp": "bh",
 					"cost": 0,
@@ -1418,6 +1420,7 @@
 				},
 				{
 					"id": "cr",
+					"edID": 128049293,
 					"eddbID": 1590,
 					"grp": "bh",
 					"cost": 534940,
@@ -1429,6 +1432,7 @@
 				},
 				{
 					"id": "cs",
+					"edID": 128049294,
 					"eddbID": 1591,
 					"grp": "bh",
 					"cost": 1203600,
@@ -1440,6 +1444,7 @@
 				},
 				{
 					"id": "ct",
+					"edID": 128049295,
 					"eddbID": 1592,
 					"grp": "bh",
 					"cost": 2808390,
@@ -1451,6 +1456,7 @@
 				},
 				{
 					"id": "cu",
+					"edID": 128049296,
 					"eddbID": 1593,
 					"grp": "bh",
 					"cost": 3152080,
@@ -10954,6 +10960,7 @@
 						"T": 1
 					},
 					"distdraw": 1.5,
+					"edID": 128740819,
 					"eddbID": 1587,
 					"falloff": 300,
 					"grp": "ml",
@@ -11030,6 +11037,7 @@
 						"T": 1
 					},
 					"distdraw": 3,
+					"edID": 128740820,
 					"eddbID": 1588,
 					"falloff": 300,
 					"grp": "ml",
@@ -24597,7 +24605,7 @@
 								0.4,
 								0.2
 							],
-							"scantime": [
+							"scanrate": [
 								0.1,
 								0.4
 							]
@@ -24613,7 +24621,7 @@
 								0.8,
 								0.4
 							],
-							"scantime": [
+							"scanrate": [
 								0.2,
 								0.5
 							]
@@ -24630,7 +24638,7 @@
 								1.2,
 								0.6
 							],
-							"scantime": [
+							"scanrate": [
 								0.3,
 								0.6
 							]
@@ -24647,7 +24655,7 @@
 								1.6,
 								0.8
 							],
-							"scantime": [
+							"scanrate": [
 								0.4,
 								0.7
 							]
@@ -24664,7 +24672,7 @@
 								2,
 								1
 							],
-							"scantime": [
+							"scanrate": [
 								0.5,
 								0.8
 							]
@@ -28394,6 +28402,13 @@
 			"angle": {
 				"id": 46,
 				"name": "angle",
+				"type": "percentage",
+				"method": "multiplicative",
+				"higherbetter": true
+			},
+			"scanrate": {
+				"id": 49,
+				"name": "scanrate",
 				"type": "percentage",
 				"method": "multiplicative",
 				"higherbetter": true
@@ -34373,7 +34388,7 @@
 					"mass",
 					"angle",
 					"range",
-					"scantime"
+					"scanrate"
 				]
 			},
 			"t": {
