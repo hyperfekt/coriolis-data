@@ -1,5 +1,6 @@
 #2.3.1
   * Separate scan time and scan range
+  * Add Frontier IDs for new items in 2.3
 
 #2.3.0
   * Add Dolphin
