@@ -8329,7 +8329,7 @@ module.exports = {
         integrity: 40,
         mass: 2,
         mount: "F",
-        piercing: 30,
+        piercing: 100,
         power: 1.15,
         range: 3e3,
         rating: "D",
@@ -8358,7 +8358,7 @@ module.exports = {
         integrity: 51,
         mass: 4,
         mount: "F",
-        piercing: 48,
+        piercing: 100,
         power: 1.63,
         range: 3e3,
         rating: "B",
@@ -8366,7 +8366,7 @@ module.exports = {
         rof: 1.2,
         thermload: 20
       }, {
-        ammo: 90,
+        ammo: 240,
         breachdmg: 14.3,
         breachmax: .8,
         breachmin: .4,
@@ -8390,14 +8390,14 @@ module.exports = {
         mass: 4,
         mount: "F",
         name: "Imperial Hammer",
-        piercing: 48,
+        piercing: 100,
         power: 1.63,
         pp: "Arissa Lavigny-Duval",
         range: 3e3,
         rating: "B",
         reload: 1,
         rof: 4.1,
-        thermload: 12
+        thermload: 11
       } ],
       pa: [ {
         ammo: 100,
@@ -22212,19 +22212,19 @@ module.exports = {
           Sensor_CargoScanner_FastScan: {
             grades: {
               "1": {
-                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
               },
               "2": {
-                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
               },
               "3": {
                 engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
               },
               "4": {
-                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Tiana Fortune" ]
               },
               "5": {
-                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Tiana Fortune" ]
               }
             }
           },
@@ -22250,19 +22250,19 @@ module.exports = {
           Sensor_CargoScanner_LongRange: {
             grades: {
               "1": {
-                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
               },
               "2": {
-                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
               },
               "3": {
                 engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
               },
               "4": {
-                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Tiana Fortune" ]
               },
               "5": {
-                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Tiana Fortune" ]
               }
             }
           },
@@ -22307,19 +22307,19 @@ module.exports = {
           Sensor_CargoScanner_WideAngle: {
             grades: {
               "1": {
-                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
               },
               "2": {
-                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
               },
               "3": {
                 engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
               },
               "4": {
-                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Tiana Fortune" ]
               },
               "5": {
-                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Tiana Fortune" ]
               }
             }
           }
@@ -22973,19 +22973,19 @@ module.exports = {
           Sensor_KillWarrantScanner_FastScan: {
             grades: {
               "1": {
-                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
               },
               "2": {
-                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
               },
               "3": {
                 engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
               },
               "4": {
-                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Tiana Fortune" ]
               },
               "5": {
-                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Tiana Fortune" ]
               }
             }
           },
@@ -23011,19 +23011,19 @@ module.exports = {
           KillWarrantScanner_LongRange: {
             grades: {
               "1": {
-                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
               },
               "2": {
-                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
               },
               "3": {
                 engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
               },
               "4": {
-                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Tiana Fortune" ]
               },
               "5": {
-                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Tiana Fortune" ]
               }
             }
           },
@@ -23068,19 +23068,19 @@ module.exports = {
           Sensor_KillWarrantScanner_WideAngle: {
             grades: {
               "1": {
-                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
               },
               "2": {
-                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
               },
               "3": {
                 engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
               },
               "4": {
-                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Tiana Fortune" ]
               },
               "5": {
-                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Tiana Fortune" ]
               }
             }
           }
@@ -24294,13 +24294,13 @@ module.exports = {
                 engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
               },
               "3": {
-                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
               },
               "4": {
-                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
               },
               "5": {
-                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
               }
             }
           },
@@ -24313,13 +24313,13 @@ module.exports = {
                 engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
               },
               "3": {
-                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
               },
               "4": {
-                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
               },
               "5": {
-                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
               }
             }
           },
@@ -24332,13 +24332,13 @@ module.exports = {
                 engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
               },
               "3": {
-                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
               },
               "4": {
-                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
               },
               "5": {
-                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
               }
             }
           }
@@ -24569,16 +24569,16 @@ module.exports = {
                 engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
               },
               "2": {
-                engineers: [ "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
               },
               "3": {
-                engineers: [ "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
               },
               "4": {
-                engineers: [ "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson" ]
               },
               "5": {
-                engineers: [ "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson" ]
               }
             }
           },
@@ -24588,16 +24588,16 @@ module.exports = {
                 engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
               },
               "2": {
-                engineers: [ "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
               },
               "3": {
-                engineers: [ "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
               },
               "4": {
-                engineers: [ "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson" ]
               },
               "5": {
-                engineers: [ "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson" ]
               }
             }
           },
@@ -24607,16 +24607,16 @@ module.exports = {
                 engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
               },
               "2": {
-                engineers: [ "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
               },
               "3": {
-                engineers: [ "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
               },
               "4": {
-                engineers: [ "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson" ]
               },
               "5": {
-                engineers: [ "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson" ]
               }
             }
           }
@@ -24892,19 +24892,19 @@ module.exports = {
           Sensor_WakeScanner_FastScan: {
             grades: {
               "1": {
-                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
               },
               "2": {
-                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
               },
               "3": {
                 engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
               },
               "4": {
-                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Tiana Fortune" ]
               },
               "5": {
-                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Tiana Fortune" ]
               }
             }
           },
@@ -24930,19 +24930,19 @@ module.exports = {
           Sensor_WakeScanner_LongRange: {
             grades: {
               "1": {
-                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
               },
               "2": {
-                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
               },
               "3": {
                 engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
               },
               "4": {
-                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Tiana Fortune" ]
               },
               "5": {
-                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Tiana Fortune" ]
               }
             }
           },
@@ -24987,19 +24987,19 @@ module.exports = {
           Sensor_WakeScanner_WideAngle: {
             grades: {
               "1": {
-                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
               },
               "2": {
-                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
               },
               "3": {
                 engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
               },
               "4": {
-                engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Tiana Fortune" ]
               },
               "5": {
-                engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Tiana Fortune" ]
               }
             }
           }
