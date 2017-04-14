@@ -22,7 +22,7 @@
       "integrity": 40,
       "mass": 2,
       "mount": "F",
-      "piercing": 30,
+      "piercing": 100,
       "power": 1.15,
       "range": 3000,
       "rating": "D",
@@ -52,7 +52,7 @@
       "integrity": 51,
       "mass": 4,
       "mount": "F",
-      "piercing": 48,
+      "piercing": 100,
       "power": 1.63,
       "range": 3000,
       "rating": "B",
@@ -61,7 +61,7 @@
       "thermload": 20
     },
     {
-      "ammo": 90,
+      "ammo": 240,
       "breachdmg": 14.3,
       "breachmax": 0.8,
       "breachmin": 0.4,
@@ -85,14 +85,14 @@
       "mass": 4,
       "mount": "F",
       "name": "Imperial Hammer",
-      "piercing": 48,
+      "piercing": 100,
       "power": 1.63,
       "pp": "Arissa Lavigny-Duval",
       "range": 3000,
       "rating": "B",
       "reload": 1,
       "rof": 4.1,
-      "thermload": 12
+      "thermload": 11
     }
   ]
 }

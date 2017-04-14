@@ -1,3 +1,7 @@
+#2.3.2
+  * Update ownership of module blueprints for sensors and scanners
+  * Update railgun penetration
+
 #2.3.1
   * Separate scan time and scan range
   * Add Frontier IDs for new items in 2.3
