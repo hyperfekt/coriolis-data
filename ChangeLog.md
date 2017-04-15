@@ -1,3 +1,6 @@
+#2.3.3
+  * Add Felicity Farseer to list of engineers that supply sensor and detailed surface scanner modifications
+
 #2.3.2
   * Update ownership of module blueprints for sensors and scanners
   * Update railgun penetration
