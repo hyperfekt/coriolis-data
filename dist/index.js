@@ -23199,6 +23199,25 @@ module.exports = {
               }
             }
           },
+          Weapon_LongRange: {
+            grades: {
+              "1": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "2": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "3": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "4": {
+                engineers: [ "Tod McQuinn" ]
+              },
+              "5": {
+                engineers: [ "Tod McQuinn" ]
+              }
+            }
+          },
           Weapon_Overcharged: {
             grades: {
               "1": {
