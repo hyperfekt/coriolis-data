@@ -1,5 +1,6 @@
 #2.3.4
   * Add missing Long Range blueprint to multi-cannon
+  * Fix values for thermal load of focused weapon grade 4
 
 #2.3.3
   * Add Felicity Farseer to list of engineers that supply sensor and detailed surface scanner modifications
