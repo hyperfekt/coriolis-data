@@ -18072,7 +18072,7 @@ module.exports = {
           }
         },
         id: 62,
-        modulename: [ "Power distributor", "Distributor" ],
+        modulename: [ "Power plant" ],
         name: "Armoured"
       },
       PowerPlant_Boosted: {
@@ -18137,7 +18137,7 @@ module.exports = {
           }
         },
         id: 63,
-        modulename: [ "Power distributor", "Distributor" ],
+        modulename: [ "Power plant" ],
         name: "Overcharged"
       },
       PowerPlant_Stealth: {
@@ -20383,7 +20383,7 @@ module.exports = {
               piercing: [ .2, .4 ],
               range: [ .4, .8 ],
               rof: [ -.08, -.02 ],
-              thermload: [ -.2, -.1 ]
+              thermload: [ .2, .1 ]
             }
           },
           "5": {

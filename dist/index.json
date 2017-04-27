@@ -23152,8 +23152,7 @@
 				},
 				"id": 62,
 				"modulename": [
-					"Power distributor",
-					"Distributor"
+					"Power plant"
 				],
 				"name": "Armoured"
 			},
@@ -23265,8 +23264,7 @@
 				},
 				"id": 63,
 				"modulename": [
-					"Power distributor",
-					"Distributor"
+					"Power plant"
 				],
 				"name": "Overcharged"
 			},
@@ -27171,8 +27169,8 @@
 								-0.02
 							],
 							"thermload": [
-								-0.2,
-								-0.1
+								0.2,
+								0.1
 							]
 						}
 					},
