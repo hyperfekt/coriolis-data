@@ -23383,7 +23383,8 @@ module.exports = {
           }
         },
         modifications: [ "ammo", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "reload", "rof", "thermload" ],
-        specials: [ "special_drag_munitions", "special_emissive_munitions", "special_fsd_interrupt", "special_overload_munitions", "special_penetrator_payload", "special_thermal_cascade" ]
+        specials_S: [ "special_drag_munitions", "special_emissive_munitions", "special_overload_munitions", "special_penetrator_payload", "special_thermal_cascade" ],
+        specials_D: [ "special_drag_munitions", "special_emissive_munitions", "special_fsd_interrupt", "special_overload_munitions", "special_penetrator_payload", "special_thermal_cascade" ]
       },
       mrp: {
         blueprints: {},
