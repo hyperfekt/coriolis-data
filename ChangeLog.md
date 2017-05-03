@@ -2,6 +2,7 @@
   * Add missing Long Range blueprint to multi-cannon
   * Fix values for thermal load of focused weapon grade 4
   * Fix internal module information for power plant blueprints
+  * Add 'FSD Interrupt' special for missile racks
 
 #2.3.3
   * Add Felicity Farseer to list of engineers that supply sensor and detailed surface scanner modifications

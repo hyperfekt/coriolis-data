@@ -21456,6 +21456,7 @@ module.exports = {
         jitter: 1,
         speed: -.1667
       },
+      special_fsd_interrupt: {},
       special_high_yield_shell: {
         rof: .1111111111111111
       },
@@ -23382,7 +23383,7 @@ module.exports = {
           }
         },
         modifications: [ "ammo", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "reload", "rof", "thermload" ],
-        specials: [ "special_drag_munitions", "special_emissive_munitions", "special_overload_munitions", "special_penetrator_payload", "special_thermal_cascade" ]
+        specials: [ "special_drag_munitions", "special_emissive_munitions", "special_fsd_interrupt", "special_overload_munitions", "special_penetrator_payload", "special_thermal_cascade" ]
       },
       mrp: {
         blueprints: {},
@@ -25081,6 +25082,11 @@ module.exports = {
         id: 10,
         edname: "special_force_shell",
         name: "Force shell"
+      },
+      special_fsd_interrupt: {
+        id: 33,
+        edname: "special_fsd_interrupt",
+        name: "FSD interrupt"
       },
       special_high_yield_shell: {
         id: 11,
