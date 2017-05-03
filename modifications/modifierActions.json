@@ -211,6 +211,8 @@
     "jitter": 1,
     "speed": -0.1667
   },
+  "special_fsd_interrupt": {
+  },
   "special_high_yield_shell": {
     "rof": 0.1111111111111111
   },

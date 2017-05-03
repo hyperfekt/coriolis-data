@@ -18072,7 +18072,7 @@ module.exports = {
           }
         },
         id: 62,
-        modulename: [ "Power distributor", "Distributor" ],
+        modulename: [ "Power plant" ],
         name: "Armoured"
       },
       PowerPlant_Boosted: {
@@ -18137,7 +18137,7 @@ module.exports = {
           }
         },
         id: 63,
-        modulename: [ "Power distributor", "Distributor" ],
+        modulename: [ "Power plant" ],
         name: "Overcharged"
       },
       PowerPlant_Stealth: {
@@ -20383,7 +20383,7 @@ module.exports = {
               piercing: [ .2, .4 ],
               range: [ .4, .8 ],
               rof: [ -.08, -.02 ],
-              thermload: [ -.2, -.1 ]
+              thermload: [ .2, .1 ]
             }
           },
           "5": {
@@ -21456,6 +21456,7 @@ module.exports = {
         jitter: 1,
         speed: -.1667
       },
+      special_fsd_interrupt: {},
       special_high_yield_shell: {
         rof: .1111111111111111
       },
@@ -23199,6 +23200,25 @@ module.exports = {
               }
             }
           },
+          Weapon_LongRange: {
+            grades: {
+              "1": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "2": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "3": {
+                engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
+              },
+              "4": {
+                engineers: [ "Tod McQuinn" ]
+              },
+              "5": {
+                engineers: [ "Tod McQuinn" ]
+              }
+            }
+          },
           Weapon_Overcharged: {
             grades: {
               "1": {
@@ -23363,7 +23383,8 @@ module.exports = {
           }
         },
         modifications: [ "ammo", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "reload", "rof", "thermload" ],
-        specials: [ "special_drag_munitions", "special_emissive_munitions", "special_overload_munitions", "special_penetrator_payload", "special_thermal_cascade" ]
+        specials_S: [ "special_drag_munitions", "special_emissive_munitions", "special_overload_munitions", "special_penetrator_payload", "special_thermal_cascade" ],
+        specials_D: [ "special_drag_munitions", "special_emissive_munitions", "special_fsd_interrupt", "special_overload_munitions", "special_penetrator_payload", "special_thermal_cascade" ]
       },
       mrp: {
         blueprints: {},
@@ -25062,6 +25083,11 @@ module.exports = {
         id: 10,
         edname: "special_force_shell",
         name: "Force shell"
+      },
+      special_fsd_interrupt: {
+        id: 33,
+        edname: "special_fsd_interrupt",
+        name: "FSD interrupt"
       },
       special_high_yield_shell: {
         id: 11,

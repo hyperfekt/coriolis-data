@@ -10,6 +10,7 @@
     "special_emissive_munitions": {"id": 8, "edname": "special_emissive_munitions", "name": "Emissive munitions"},
     "special_feedback_cascade": {"id": 9, "edname": "special_feedback_cascade", "name": "Feedback cascade"},
     "special_force_shell": {"id": 10, "edname": "special_force_shell", "name": "Force shell"},
+    "special_fsd_interrupt": {"id": 33, "edname": "special_fsd_interrupt", "name": "FSD interrupt"},
     "special_high_yield_shell": {"id": 11, "edname": "special_high_yield_shell", "name": "High yield shell"},
     "special_incendiary_rounds": {"id": 12, "edname": "special_incendiary_rounds", "name": "Incendiary rounds"},
     "special_inertial_impact": {"id": 32, "edname": "special_inertial_impact", "name": "Inertial impact"},
