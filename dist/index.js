@@ -21456,7 +21456,10 @@ module.exports = {
         jitter: 1,
         speed: -.1667
       },
-      special_fsd_interrupt: {},
+      special_fsd_interrupt: {
+        damage: -.3,
+        rof: .5
+      },
       special_high_yield_shell: {
         rof: .1111111111111111
       },
