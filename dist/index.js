@@ -23976,8 +23976,7 @@ module.exports = {
       },
       po: {
         blueprints: {
-          PointDefence_PointDefenseCapacity: [ 3 ],
-          HeatSinkLauncher_Shielded: {
+          PointDefence_PointDefenseCapacity: {
             grades: {
               "3": {
                 engineers: [ "Ram Tah" ]
