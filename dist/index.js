@@ -3144,7 +3144,7 @@ module.exports = {
         eff: 1,
         grp: "pp",
         id: "po",
-        integrity: 90,
+        integrity: 102,
         mass: 40,
         pgen: 16.8,
         rating: "E"
@@ -3156,7 +3156,7 @@ module.exports = {
         eff: .75,
         grp: "pp",
         id: "pn",
-        integrity: 113,
+        integrity: 90,
         mass: 16,
         pgen: 18.9,
         rating: "D"
@@ -3168,7 +3168,7 @@ module.exports = {
         eff: .5,
         grp: "pp",
         id: "pm",
-        integrity: 136,
+        integrity: 113,
         mass: 20,
         pgen: 21,
         rating: "C"
@@ -3180,7 +3180,7 @@ module.exports = {
         eff: .45,
         grp: "pp",
         id: "pl",
-        integrity: 124,
+        integrity: 136,
         mass: 32,
         pgen: 23.1,
         rating: "B"
@@ -3192,7 +3192,7 @@ module.exports = {
         eff: .4,
         grp: "pp",
         id: "pk",
-        integrity: 118,
+        integrity: 124,
         mass: 20,
         pgen: 25.2,
         rating: "A"

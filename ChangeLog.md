@@ -1,5 +1,6 @@
 #2.3.5
   * Fix list of available blueprints for Point Defence
+  * Fix integrity values for class 6 power plants
 
 #2.3.4
   * Add missing Long Range blueprint to multi-cannon
