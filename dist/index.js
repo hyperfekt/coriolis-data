@@ -17933,8 +17933,8 @@ module.exports = {
           "3": {
             components: {
               "Anomalous Bulk Scan Data": 1,
-              Chromium: 1,
-              "Electrochemical Arrays": 1
+              "Hybrid Capacitors": 1,
+              Selenium: 1
             },
             features: {
               engcap: [ -.15, -.04 ],
@@ -20260,7 +20260,7 @@ module.exports = {
               burst: [ 2, 2 ],
               burstrof: [ 14, 19 ],
               clip: [ 1, 1 ],
-              range: [ -.5, -.02 ]
+              range: [ -.05, -.02 ]
             }
           }
         },
@@ -20559,7 +20559,8 @@ module.exports = {
             features: {
               fallofffromrange: [ 1, 1 ],
               mass: [ .1, 0 ],
-              range: [ .1, .2 ]
+              range: [ .1, .2 ],
+              shotspeed: [ .1, .2 ]
             }
           },
           "2": {
@@ -20569,9 +20570,10 @@ module.exports = {
             },
             features: {
               fallofffromrange: [ 1, 1 ],
-              mass: [ .2, .04 ],
-              power: [ .04, 0 ],
-              range: [ .2, .4 ]
+              mass: [ .2, .05 ],
+              power: [ .05, 0 ],
+              range: [ .2, .4 ],
+              shotspeed: [ .2, .4 ]
             }
           },
           "3": {
@@ -20583,8 +20585,9 @@ module.exports = {
             features: {
               fallofffromrange: [ 1, 1 ],
               mass: [ .3, .1 ],
-              power: [ .1, .04 ],
-              range: [ .3, .6 ]
+              power: [ .1, .05 ],
+              range: [ .3, .6 ],
+              shotspeed: [ .3, .6 ]
             }
           },
           "4": {
@@ -20595,9 +20598,10 @@ module.exports = {
             },
             features: {
               fallofffromrange: [ 1, 1 ],
-              mass: [ .4, .14 ],
-              power: [ .14, .1 ],
-              range: [ .4, .8 ]
+              mass: [ .4, .15 ],
+              power: [ .15, .1 ],
+              range: [ .4, .8 ],
+              shotspeed: [ .4, .8 ]
             }
           },
           "5": {
@@ -20609,8 +20613,9 @@ module.exports = {
             features: {
               fallofffromrange: [ 1, 1 ],
               mass: [ .5, .2 ],
-              power: [ .2, .14 ],
-              range: [ .5, 1 ]
+              power: [ .2, .15 ],
+              range: [ .5, 1 ],
+              shotspeed: [ .5, 1 ]
             }
           }
         },
