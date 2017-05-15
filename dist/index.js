@@ -6806,21 +6806,21 @@ module.exports = {
         rof: 1.92,
         thermload: .19
       }, {
-        breachdmg: 2,
+        breachdmg: 3.1,
         breachmax: 0,
         breachmin: 0,
         burst: 8,
         burstrof: 20,
         class: 1,
         cost: 8800,
-        damage: 2.4,
+        damage: 3.6,
         damagedist: {
           T: 1
         },
         distdraw: .31,
         edID: 128671449,
         eddbID: 1477,
-        falloff: 500,
+        falloff: 600,
         grp: "ul",
         id: "cy",
         integrity: 40,
@@ -6833,7 +6833,7 @@ module.exports = {
         pp: "Archon Delaine",
         range: 600,
         rating: "F",
-        rof: 6.6,
+        rof: 7.6,
         thermload: .3
       }, {
         breachdmg: 3,
@@ -15608,7 +15608,7 @@ module.exports = {
           "3": {
             components: {
               Chromium: 1,
-              "Mechanical Equipment": 1,
+              "Mechanical Components": 1,
               "Specialised Legacy Firmware": 1
             },
             features: {

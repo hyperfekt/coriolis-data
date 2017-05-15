@@ -2,6 +2,8 @@
   * Fix list of available blueprints for Point Defence
   * Fix integrity values for class 6 power plants
   * Add shot speed for long range weapon
+  * Fix components for dirty drive grade 3
+  * Update values for Cytoscrambler
 
 #2.3.4
   * Add missing Long Range blueprint to multi-cannon
