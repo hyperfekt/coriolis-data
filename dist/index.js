@@ -6831,7 +6831,7 @@ module.exports = {
         piercing: 1,
         power: .8,
         pp: "Archon Delaine",
-        range: 600,
+        range: 3e3,
         rating: "F",
         rof: 7.6,
         thermload: .3

@@ -8828,7 +8828,7 @@
 					"piercing": 1,
 					"power": 0.8,
 					"pp": "Archon Delaine",
-					"range": 600,
+					"range": 3000,
 					"rating": "F",
 					"rof": 7.6,
 					"thermload": 0.3
