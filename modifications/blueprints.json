@@ -1163,7 +1163,7 @@
       "3": {
         "components": {
           "Chromium": 1,
-          "Mechanical Equipment": 1,
+          "Mechanical Components": 1,
           "Specialised Legacy Firmware": 1
         },
         "features": {
@@ -3488,8 +3488,8 @@
       "3": {
         "components": {
           "Anomalous Bulk Scan Data": 1,
-          "Chromium": 1,
-          "Electrochemical Arrays": 1
+          "Hybrid Capacitors": 1,
+          "Selenium": 1
         },
         "features": {
           "engcap": [ -0.15, -0.04 ],
@@ -5815,7 +5815,7 @@
           "burst": [ 2, 2 ],
           "burstrof": [ 14, 19 ],
           "clip": [ 1, 1 ],
-          "range": [ -0.5, -0.02 ]
+          "range": [ -0.05, -0.02 ]
         }
       }
     },
@@ -6114,7 +6114,8 @@
         "features": {
           "fallofffromrange": [ 1, 1 ],
           "mass": [ 0.1, 0 ],
-          "range": [ 0.1, 0.2 ]
+          "range": [ 0.1, 0.2 ],
+          "shotspeed": [ 0.1, 0.2 ]
         }
       },
       "2": {
@@ -6124,9 +6125,10 @@
         },
         "features": {
           "fallofffromrange": [ 1, 1 ],
-          "mass": [ 0.2, 0.04 ],
-          "power": [ 0.04, 0 ],
-          "range": [ 0.2, 0.4 ]
+          "mass": [ 0.2, 0.05 ],
+          "power": [ 0.05, 0 ],
+          "range": [ 0.2, 0.4 ],
+          "shotspeed": [ 0.2, 0.4 ]
         }
       },
       "3": {
@@ -6138,8 +6140,9 @@
         "features": {
           "fallofffromrange": [ 1, 1 ],
           "mass": [ 0.3, 0.1 ],
-          "power": [ 0.1, 0.04 ],
-          "range": [ 0.3, 0.6 ]
+          "power": [ 0.1, 0.05 ],
+          "range": [ 0.3, 0.6 ],
+          "shotspeed": [ 0.3, 0.6 ]
         }
       },
       "4": {
@@ -6150,9 +6153,10 @@
         },
         "features": {
           "fallofffromrange": [ 1, 1 ],
-          "mass": [ 0.4, 0.14 ],
-          "power": [ 0.14, 0.1 ],
-          "range": [ 0.4, 0.8 ]
+          "mass": [ 0.4, 0.15 ],
+          "power": [ 0.15, 0.1 ],
+          "range": [ 0.4, 0.8 ],
+          "shotspeed": [ 0.4, 0.8 ]
         }
       },
       "5": {
@@ -6164,8 +6168,9 @@
         "features": {
           "fallofffromrange": [ 1, 1 ],
           "mass": [ 0.5, 0.2 ],
-          "power": [ 0.2, 0.14 ],
-          "range": [ 0.5, 1 ]
+          "power": [ 0.2, 0.15 ],
+          "range": [ 0.5, 1 ],
+          "shotspeed": [ 0.5, 1 ]
         }
       }
     },

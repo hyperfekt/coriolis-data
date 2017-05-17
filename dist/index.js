@@ -3144,7 +3144,7 @@ module.exports = {
         eff: 1,
         grp: "pp",
         id: "po",
-        integrity: 90,
+        integrity: 102,
         mass: 40,
         pgen: 16.8,
         rating: "E"
@@ -3156,7 +3156,7 @@ module.exports = {
         eff: .75,
         grp: "pp",
         id: "pn",
-        integrity: 113,
+        integrity: 90,
         mass: 16,
         pgen: 18.9,
         rating: "D"
@@ -3168,7 +3168,7 @@ module.exports = {
         eff: .5,
         grp: "pp",
         id: "pm",
-        integrity: 136,
+        integrity: 113,
         mass: 20,
         pgen: 21,
         rating: "C"
@@ -3180,7 +3180,7 @@ module.exports = {
         eff: .45,
         grp: "pp",
         id: "pl",
-        integrity: 124,
+        integrity: 136,
         mass: 32,
         pgen: 23.1,
         rating: "B"
@@ -3192,7 +3192,7 @@ module.exports = {
         eff: .4,
         grp: "pp",
         id: "pk",
-        integrity: 118,
+        integrity: 124,
         mass: 20,
         pgen: 25.2,
         rating: "A"
@@ -6806,21 +6806,21 @@ module.exports = {
         rof: 1.92,
         thermload: .19
       }, {
-        breachdmg: 2,
+        breachdmg: 3.1,
         breachmax: 0,
         breachmin: 0,
         burst: 8,
         burstrof: 20,
         class: 1,
         cost: 8800,
-        damage: 2.4,
+        damage: 3.6,
         damagedist: {
           T: 1
         },
         distdraw: .31,
         edID: 128671449,
         eddbID: 1477,
-        falloff: 500,
+        falloff: 600,
         grp: "ul",
         id: "cy",
         integrity: 40,
@@ -6831,9 +6831,9 @@ module.exports = {
         piercing: 1,
         power: .8,
         pp: "Archon Delaine",
-        range: 600,
+        range: 3e3,
         rating: "F",
-        rof: 6.6,
+        rof: 7.6,
         thermload: .3
       }, {
         breachdmg: 3,
@@ -15608,7 +15608,7 @@ module.exports = {
           "3": {
             components: {
               Chromium: 1,
-              "Mechanical Equipment": 1,
+              "Mechanical Components": 1,
               "Specialised Legacy Firmware": 1
             },
             features: {
@@ -17933,8 +17933,8 @@ module.exports = {
           "3": {
             components: {
               "Anomalous Bulk Scan Data": 1,
-              Chromium: 1,
-              "Electrochemical Arrays": 1
+              "Hybrid Capacitors": 1,
+              Selenium: 1
             },
             features: {
               engcap: [ -.15, -.04 ],
@@ -20260,7 +20260,7 @@ module.exports = {
               burst: [ 2, 2 ],
               burstrof: [ 14, 19 ],
               clip: [ 1, 1 ],
-              range: [ -.5, -.02 ]
+              range: [ -.05, -.02 ]
             }
           }
         },
@@ -20559,7 +20559,8 @@ module.exports = {
             features: {
               fallofffromrange: [ 1, 1 ],
               mass: [ .1, 0 ],
-              range: [ .1, .2 ]
+              range: [ .1, .2 ],
+              shotspeed: [ .1, .2 ]
             }
           },
           "2": {
@@ -20569,9 +20570,10 @@ module.exports = {
             },
             features: {
               fallofffromrange: [ 1, 1 ],
-              mass: [ .2, .04 ],
-              power: [ .04, 0 ],
-              range: [ .2, .4 ]
+              mass: [ .2, .05 ],
+              power: [ .05, 0 ],
+              range: [ .2, .4 ],
+              shotspeed: [ .2, .4 ]
             }
           },
           "3": {
@@ -20583,8 +20585,9 @@ module.exports = {
             features: {
               fallofffromrange: [ 1, 1 ],
               mass: [ .3, .1 ],
-              power: [ .1, .04 ],
-              range: [ .3, .6 ]
+              power: [ .1, .05 ],
+              range: [ .3, .6 ],
+              shotspeed: [ .3, .6 ]
             }
           },
           "4": {
@@ -20595,9 +20598,10 @@ module.exports = {
             },
             features: {
               fallofffromrange: [ 1, 1 ],
-              mass: [ .4, .14 ],
-              power: [ .14, .1 ],
-              range: [ .4, .8 ]
+              mass: [ .4, .15 ],
+              power: [ .15, .1 ],
+              range: [ .4, .8 ],
+              shotspeed: [ .4, .8 ]
             }
           },
           "5": {
@@ -20609,8 +20613,9 @@ module.exports = {
             features: {
               fallofffromrange: [ 1, 1 ],
               mass: [ .5, .2 ],
-              power: [ .2, .14 ],
-              range: [ .5, 1 ]
+              power: [ .2, .15 ],
+              range: [ .5, 1 ],
+              shotspeed: [ .5, 1 ]
             }
           }
         },
@@ -21456,7 +21461,10 @@ module.exports = {
         jitter: 1,
         speed: -.1667
       },
-      special_fsd_interrupt: {},
+      special_fsd_interrupt: {
+        damage: -.3,
+        rof: .5
+      },
       special_high_yield_shell: {
         rof: .1111111111111111
       },
@@ -23973,8 +23981,7 @@ module.exports = {
       },
       po: {
         blueprints: {
-          PointDefence_PointDefenseCapacity: [ 3 ],
-          HeatSinkLauncher_Shielded: {
+          PointDefence_PointDefenseCapacity: {
             grades: {
               "3": {
                 engineers: [ "Ram Tah" ]

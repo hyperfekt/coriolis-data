@@ -85,21 +85,21 @@
       "thermload": 0.19
     },
     {
-      "breachdmg": 2,
+      "breachdmg": 3.1,
       "breachmax": 0,
       "breachmin": 0,
       "burst": 8,
       "burstrof": 20,
       "class": 1,
       "cost": 8800,
-      "damage": 2.4,
+      "damage": 3.6,
       "damagedist": {
         "T": 1
       },
       "distdraw": 0.31,
       "edID": 128671449,
       "eddbID": 1477,
-      "falloff": 500,
+      "falloff": 600,
       "grp": "ul",
       "id": "cy",
       "integrity": 40,
@@ -110,9 +110,9 @@
       "piercing": 1,
       "power": 0.8,
       "pp": "Archon Delaine",
-      "range": 600,
+      "range": 3000,
       "rating": "F",
-      "rof": 6.6,
+      "rof": 7.6,
       "thermload": 0.3
     },
     {

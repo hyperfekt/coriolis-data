@@ -4891,7 +4891,7 @@
 					"eff": 1,
 					"grp": "pp",
 					"id": "po",
-					"integrity": 90,
+					"integrity": 102,
 					"mass": 40,
 					"pgen": 16.8,
 					"rating": "E"
@@ -4904,7 +4904,7 @@
 					"eff": 0.75,
 					"grp": "pp",
 					"id": "pn",
-					"integrity": 113,
+					"integrity": 90,
 					"mass": 16,
 					"pgen": 18.9,
 					"rating": "D"
@@ -4917,7 +4917,7 @@
 					"eff": 0.5,
 					"grp": "pp",
 					"id": "pm",
-					"integrity": 136,
+					"integrity": 113,
 					"mass": 20,
 					"pgen": 21,
 					"rating": "C"
@@ -4930,7 +4930,7 @@
 					"eff": 0.45,
 					"grp": "pp",
 					"id": "pl",
-					"integrity": 124,
+					"integrity": 136,
 					"mass": 32,
 					"pgen": 23.1,
 					"rating": "B"
@@ -4943,7 +4943,7 @@
 					"eff": 0.4,
 					"grp": "pp",
 					"id": "pk",
-					"integrity": 118,
+					"integrity": 124,
 					"mass": 20,
 					"pgen": 25.2,
 					"rating": "A"
@@ -8803,21 +8803,21 @@
 					"thermload": 0.19
 				},
 				{
-					"breachdmg": 2,
+					"breachdmg": 3.1,
 					"breachmax": 0,
 					"breachmin": 0,
 					"burst": 8,
 					"burstrof": 20,
 					"class": 1,
 					"cost": 8800,
-					"damage": 2.4,
+					"damage": 3.6,
 					"damagedist": {
 						"T": 1
 					},
 					"distdraw": 0.31,
 					"edID": 128671449,
 					"eddbID": 1477,
-					"falloff": 500,
+					"falloff": 600,
 					"grp": "ul",
 					"id": "cy",
 					"integrity": 40,
@@ -8828,9 +8828,9 @@
 					"piercing": 1,
 					"power": 0.8,
 					"pp": "Archon Delaine",
-					"range": 600,
+					"range": 3000,
 					"rating": "F",
-					"rof": 6.6,
+					"rof": 7.6,
 					"thermload": 0.3
 				},
 				{
@@ -18864,7 +18864,7 @@
 					"3": {
 						"components": {
 							"Chromium": 1,
-							"Mechanical Equipment": 1,
+							"Mechanical Components": 1,
 							"Specialised Legacy Firmware": 1
 						},
 						"features": {
@@ -22913,8 +22913,8 @@
 					"3": {
 						"components": {
 							"Anomalous Bulk Scan Data": 1,
-							"Chromium": 1,
-							"Electrochemical Arrays": 1
+							"Hybrid Capacitors": 1,
+							"Selenium": 1
 						},
 						"features": {
 							"engcap": [
@@ -26946,7 +26946,7 @@
 								1
 							],
 							"range": [
-								-0.5,
+								-0.05,
 								-0.02
 							]
 						}
@@ -27509,6 +27509,10 @@
 							"range": [
 								0.1,
 								0.2
+							],
+							"shotspeed": [
+								0.1,
+								0.2
 							]
 						}
 					},
@@ -27524,13 +27528,17 @@
 							],
 							"mass": [
 								0.2,
-								0.04
+								0.05
 							],
 							"power": [
-								0.04,
+								0.05,
 								0
 							],
 							"range": [
+								0.2,
+								0.4
+							],
+							"shotspeed": [
 								0.2,
 								0.4
 							]
@@ -27553,9 +27561,13 @@
 							],
 							"power": [
 								0.1,
-								0.04
+								0.05
 							],
 							"range": [
+								0.3,
+								0.6
+							],
+							"shotspeed": [
 								0.3,
 								0.6
 							]
@@ -27574,13 +27586,17 @@
 							],
 							"mass": [
 								0.4,
-								0.14
+								0.15
 							],
 							"power": [
-								0.14,
+								0.15,
 								0.1
 							],
 							"range": [
+								0.4,
+								0.8
+							],
+							"shotspeed": [
 								0.4,
 								0.8
 							]
@@ -27603,9 +27619,13 @@
 							],
 							"power": [
 								0.2,
-								0.14
+								0.15
 							],
 							"range": [
+								0.5,
+								1
+							],
+							"shotspeed": [
 								0.5,
 								1
 							]
@@ -28707,7 +28727,10 @@
 				"jitter": 1,
 				"speed": -0.1667
 			},
-			"special_fsd_interrupt": {},
+			"special_fsd_interrupt": {
+				"damage": -0.3,
+				"rof": 0.5
+			},
 			"special_high_yield_shell": {
 				"rof": 0.1111111111111111
 			},
@@ -33126,10 +33149,7 @@
 			},
 			"po": {
 				"blueprints": {
-					"PointDefence_PointDefenseCapacity": [
-						3
-					],
-					"HeatSinkLauncher_Shielded": {
+					"PointDefence_PointDefenseCapacity": {
 						"grades": {
 							"3": {
 								"engineers": [
