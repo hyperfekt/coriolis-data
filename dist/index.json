@@ -29692,6 +29692,7 @@
 					"range",
 					"reload",
 					"rof",
+					"shotspeed",
 					"thermload"
 				],
 				"specials": [
@@ -30544,6 +30545,7 @@
 					"range",
 					"reload",
 					"rof",
+					"shotspeed",
 					"thermload"
 				],
 				"specials": [
@@ -31904,6 +31906,7 @@
 					"range",
 					"reload",
 					"rof",
+					"shotspeed",
 					"thermload"
 				],
 				"specials": [
