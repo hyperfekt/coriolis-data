@@ -1,3 +1,6 @@
+#2.3.7
+  * Fixed Orca mass-lock
+
 #2.3.5
   * Fix list of available blueprints for Point Defence
   * Fix integrity values for class 6 power plants
