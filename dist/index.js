@@ -2170,7 +2170,7 @@ module.exports = {
         baseArmour: 220,
         hardness: 55,
         hullMass: 290,
-        masslock: 13,
+        masslock: 16,
         pipSpeed: .08375,
         luxuryCabins: true,
         pitch: 25,
