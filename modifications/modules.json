@@ -1516,38 +1516,6 @@
           }
         }
       },
-      "Weapon_LongRange": {
-        "grades": {
-          "1": {
-            "engineers": [
-              "Tod McQuinn",
-              "Zacariah Nemo"
-            ]
-          },
-          "2": {
-            "engineers": [
-              "Tod McQuinn",
-              "Zacariah Nemo"
-            ]
-          },
-          "3": {
-            "engineers": [
-              "Tod McQuinn",
-              "Zacariah Nemo"
-            ]
-          },
-          "4": {
-            "engineers": [
-              "Zacariah Nemo"
-            ]
-          },
-          "5": {
-            "engineers": [
-              "Zacariah Nemo"
-            ]
-          }
-        }
-      },
       "Weapon_Overcharged": {
         "grades": {
           "1": {
