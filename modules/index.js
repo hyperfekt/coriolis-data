@@ -56,6 +56,7 @@ module.exports = {
     sc: require('./internal/scanner').sc,
     scb: require('./internal/shield_cell_bank').scb,
     sg: require('./internal/shield_generator').sg,
-    ss: require('./internal/surface_scanner').ss
+    ss: require('./internal/surface_scanner').ss,
+    rpl: require('./internal/repair_limpet_controller').rpl
   }
 };
