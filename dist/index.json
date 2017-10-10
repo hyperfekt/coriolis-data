@@ -6211,7 +6211,7 @@
 					"fuelpower": 2.45,
 					"grp": "fsd",
 					"id": "Ff",
-					"integrity": 106,
+					"integrity": 120,
 					"mass": 20,
 					"maxfuel": 5,
 					"optmass": 1050,
@@ -16936,6 +16936,268 @@
 					"name": "Detailed Surface Scanner",
 					"power": 0,
 					"rating": "C"
+				}
+			],
+			"rpl": [
+				{
+					"class": 1,
+					"cost": 600,
+					"edID": 128777327,
+					"eddbID": 1594,
+					"grp": "rpl",
+					"id": "rple1",
+					"mass": 1.3,
+					"maximum": 1,
+					"power": 0.18,
+					"range": 0.6,
+					"rating": "E"
+				},
+				{
+					"class": 1,
+					"cost": 1200,
+					"edID": 128777328,
+					"eddbID": 1595,
+					"grp": "rpl",
+					"id": "rpld1",
+					"mass": 0.5,
+					"maximum": 1,
+					"power": 0.14,
+					"range": 0.8,
+					"rating": "D"
+				},
+				{
+					"class": 1,
+					"cost": 2400,
+					"edID": 128777329,
+					"eddbID": 1596,
+					"grp": "rpl",
+					"id": "rplc1",
+					"mass": 1.3,
+					"maximum": 1,
+					"power": 0.23,
+					"range": 1,
+					"rating": "C"
+				},
+				{
+					"class": 1,
+					"cost": 4800,
+					"edID": 128777330,
+					"eddbID": 1597,
+					"grp": "rpl",
+					"id": "rplb1",
+					"mass": 2,
+					"maximum": 1,
+					"power": 0.32,
+					"range": 1.2,
+					"rating": "B"
+				},
+				{
+					"class": 1,
+					"cost": 9600,
+					"edID": 128777331,
+					"eddbID": 1598,
+					"grp": "rpl",
+					"id": "rpla1",
+					"mass": 1.3,
+					"maximum": 1,
+					"power": 0.28,
+					"range": 1.4,
+					"rating": "A"
+				},
+				{
+					"class": 3,
+					"cost": 5400,
+					"edID": 128777332,
+					"eddbID": 1599,
+					"grp": "rpl",
+					"id": "rple3",
+					"mass": 5,
+					"maximum": 2,
+					"power": 0.27,
+					"range": 0.66,
+					"rating": "E"
+				},
+				{
+					"class": 3,
+					"cost": 10800,
+					"edID": 128777333,
+					"eddbID": 1600,
+					"grp": "rpl",
+					"id": "rpld3",
+					"mass": 2,
+					"maximum": 2,
+					"power": 0.2,
+					"range": 0.88,
+					"rating": "D"
+				},
+				{
+					"class": 3,
+					"cost": 21600,
+					"edID": 128777334,
+					"eddbID": 1601,
+					"grp": "rpl",
+					"id": "rplc3",
+					"mass": 5,
+					"maximum": 2,
+					"power": 0.34,
+					"range": 1.1,
+					"rating": "C"
+				},
+				{
+					"class": 3,
+					"cost": 43200,
+					"edID": 128777335,
+					"eddbID": 1602,
+					"grp": "rpl",
+					"id": "rplb3",
+					"mass": 8,
+					"maximum": 2,
+					"power": 0.48,
+					"range": 1.32,
+					"rating": "B"
+				},
+				{
+					"class": 3,
+					"cost": 86400,
+					"edID": 128777336,
+					"eddbID": 1603,
+					"grp": "rpl",
+					"id": "rpba3",
+					"mass": 5,
+					"maximum": 2,
+					"power": 0.41,
+					"range": 1.54,
+					"rating": "A"
+				},
+				{
+					"class": 5,
+					"cost": 48600,
+					"edID": 128777337,
+					"eddbID": 1604,
+					"grp": "rpl",
+					"id": "rple5",
+					"mass": 20,
+					"maximum": 3,
+					"power": 0.4,
+					"range": 0.78,
+					"rating": "E"
+				},
+				{
+					"class": 5,
+					"cost": 97200,
+					"edID": 128777338,
+					"eddbID": 1605,
+					"grp": "rpl",
+					"id": "rpld5",
+					"mass": 8,
+					"maximum": 3,
+					"power": 0.3,
+					"range": 1.04,
+					"rating": "D"
+				},
+				{
+					"class": 5,
+					"cost": 194400,
+					"edID": 128777339,
+					"eddbID": 1606,
+					"grp": "rpl",
+					"id": "rplc5",
+					"mass": 20,
+					"maximum": 3,
+					"power": 0.5,
+					"range": 1.3,
+					"rating": "C"
+				},
+				{
+					"class": 5,
+					"cost": 388800,
+					"edID": 128777340,
+					"eddbID": 1607,
+					"grp": "rpl",
+					"id": "rplb5",
+					"mass": 32,
+					"maximum": 3,
+					"power": 0.97,
+					"range": 1.56,
+					"rating": "B"
+				},
+				{
+					"class": 5,
+					"cost": 777600,
+					"edID": 128777341,
+					"eddbID": 1608,
+					"grp": "rpl",
+					"id": "rpla5",
+					"mass": 20,
+					"maximum": 3,
+					"power": 0.6,
+					"range": 1.82,
+					"rating": "A"
+				},
+				{
+					"class": 7,
+					"cost": 437400,
+					"edID": 128777342,
+					"eddbID": 1609,
+					"grp": "rpl",
+					"id": "rple7",
+					"mass": 80,
+					"maximum": 4,
+					"power": 0.55,
+					"range": 1.02,
+					"rating": "E"
+				},
+				{
+					"class": 7,
+					"cost": 874800,
+					"edID": 128777343,
+					"eddbID": 1610,
+					"grp": "rpl",
+					"id": "rpld7",
+					"mass": 32,
+					"maximum": 4,
+					"power": 0.41,
+					"range": 1.36,
+					"rating": "D"
+				},
+				{
+					"class": 7,
+					"cost": 1749600,
+					"edID": 128777344,
+					"eddbID": 1611,
+					"grp": "rpl",
+					"id": "rplc7",
+					"mass": 80,
+					"maximum": 4,
+					"power": 0.69,
+					"range": 1.7,
+					"rating": "C"
+				},
+				{
+					"class": 7,
+					"cost": 3499200,
+					"edID": 128777345,
+					"eddbID": 1612,
+					"grp": "rpl",
+					"id": "rplb7",
+					"mass": 128,
+					"maximum": 4,
+					"power": 0.97,
+					"range": 2.04,
+					"rating": "B"
+				},
+				{
+					"class": 7,
+					"cost": 6998400,
+					"edID": 128777346,
+					"eddbID": 1613,
+					"grp": "rpl",
+					"id": "rpla7",
+					"mass": 80,
+					"maximum": 4,
+					"power": 0.83,
+					"range": 2.38,
+					"rating": "A"
 				}
 			]
 		}
@@ -30368,38 +30630,6 @@
 						}
 					},
 					"Weapon_LightWeight": {
-						"grades": {
-							"1": {
-								"engineers": [
-									"Tod McQuinn",
-									"Zacariah Nemo"
-								]
-							},
-							"2": {
-								"engineers": [
-									"Tod McQuinn",
-									"Zacariah Nemo"
-								]
-							},
-							"3": {
-								"engineers": [
-									"Tod McQuinn",
-									"Zacariah Nemo"
-								]
-							},
-							"4": {
-								"engineers": [
-									"Zacariah Nemo"
-								]
-							},
-							"5": {
-								"engineers": [
-									"Zacariah Nemo"
-								]
-							}
-						}
-					},
-					"Weapon_LongRange": {
 						"grades": {
 							"1": {
 								"engineers": [
