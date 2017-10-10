@@ -1,3 +1,6 @@
+#2.4.0
+  * Added Repair Limpet Computers
+
 #2.3.7
   * Fixed Orca mass-lock
 
