@@ -1,3 +1,6 @@
+#2.4.1
+  * Config Fix
+
 #2.4.0
   * Added Repair Limpet Computers
 

@@ -22457,6 +22457,10 @@ module.exports = {
         blueprints: {},
         modifications: []
       },
+      rpl: {
+        blueprints: {},
+        modifications: []
+      },
       cs: {
         blueprints: {
           Sensor_CargoScanner_FastScan: {
