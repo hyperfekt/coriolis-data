@@ -632,6 +632,9 @@
 				"crew": 3
 			},
 			"retailCost": 84532770,
+			"requirements": {
+				"horizons": true
+			},
 			"bulkheads": [
 				{
 					"id": "cl",
@@ -976,6 +979,9 @@
 				"crew": 2
 			},
 			"retailCost": 747660,
+			"requirements": {
+				"horizonsEarlyAdoption": true
+			},
 			"bulkheads": [
 				{
 					"id": "cg",
@@ -1405,6 +1411,9 @@
 				"crew": 1
 			},
 			"retailCost": 1337330,
+			"requirements": {
+				"horizons": true
+			},
 			"bulkheads": [
 				{
 					"id": "cq",
@@ -1698,6 +1707,9 @@
 				"crew": 2
 			},
 			"retailCost": 19814210,
+			"requirements": {
+				"federationRank": 5
+			},
 			"bulkheads": [
 				{
 					"id": "bz",
@@ -1863,6 +1875,9 @@
 				"crew": 3
 			},
 			"retailCost": 187969450,
+			"requirements": {
+				"federationRank": 12
+			},
 			"bulkheads": [
 				{
 					"id": "BW",
@@ -2049,6 +2064,9 @@
 				"crew": 2
 			},
 			"retailCost": 14314210,
+			"requirements": {
+				"federationRank": 3
+			},
 			"bulkheads": [
 				{
 					"id": "bE",
@@ -2218,6 +2236,9 @@
 				"crew": 2
 			},
 			"retailCost": 35814210,
+			"requirements": {
+				"federationRank": 7
+			},
 			"bulkheads": [
 				{
 					"id": "bJ",
@@ -2674,6 +2695,9 @@
 				"crew": 2
 			},
 			"retailCost": 22296860,
+			"requirements": {
+				"empireRank": 7
+			},
 			"bulkheads": [
 				{
 					"id": "bp",
@@ -2822,6 +2846,9 @@
 				"crew": 1
 			},
 			"retailCost": 2542930,
+			"requirements": {
+				"empireRank": 3
+			},
 			"bulkheads": [
 				{
 					"id": "bf",
@@ -2965,6 +2992,9 @@
 				"crew": 3
 			},
 			"retailCost": 208969450,
+			"requirements": {
+				"empireRank": 12
+			},
 			"bulkheads": [
 				{
 					"id": "BR",

@@ -22,6 +22,9 @@
       "crew": 1
     },
     "retailCost": 2542930,
+    "requirements": {
+      "empireRank": 3
+    },
     "bulkheads": [
       { "id": "bf", "edID": 128671224, "eddbID": 1389, "grp": "bh", "cost": 0, "mass": 0, "explres": -0.4, "kinres": -0.2, "thermres": 0, "hullboost": 0.8 },
       { "id": "bg", "edID": 128671225, "eddbID": 1390, "grp": "bh", "cost": 1017200, "mass": 4, "explres": -0.4, "kinres": -0.2, "thermres": 0, "hullboost": 1.52 },

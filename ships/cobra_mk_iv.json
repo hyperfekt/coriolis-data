@@ -22,6 +22,9 @@
       "crew": 2 
     },
     "retailCost": 747660,
+    "requirements": {
+      "horizonsEarlyAdoption": true
+    },
     "bulkheads": [
       { "id": "cg", "edID": 128672264, "eddbID": 1518, "grp": "bh", "cost": 0, "mass": 0, "explres": -0.4, "kinres": -0.2, "thermres": 0, "hullboost": 0.8 },
       { "id": "ch", "edID": 128672265, "eddbID": 1519, "grp": "bh", "cost": 305890, "mass": 14, "explres": -0.4, "kinres": -0.2, "thermres": 0, "hullboost": 1.52 },
