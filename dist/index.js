@@ -394,6 +394,9 @@ module.exports = {
         crew: 3
       },
       retailCost: 84532770,
+      requirements: {
+        horizons: true
+      },
       bulkheads: [ {
         id: "cl",
         edID: 128049346,
@@ -618,6 +621,9 @@ module.exports = {
         crew: 2
       },
       retailCost: 747660,
+      requirements: {
+        horizonsEarlyAdoption: true
+      },
       bulkheads: [ {
         id: "cg",
         edID: 128672264,
@@ -889,6 +895,9 @@ module.exports = {
         crew: 1
       },
       retailCost: 1337330,
+      requirements: {
+        horizons: true
+      },
       bulkheads: [ {
         id: "cq",
         edID: 128049292,
@@ -1088,6 +1097,9 @@ module.exports = {
         crew: 2
       },
       retailCost: 19814210,
+      requirements: {
+        federationRank: 5
+      },
       bulkheads: [ {
         id: "bz",
         edID: 128672147,
@@ -1195,6 +1207,9 @@ module.exports = {
         crew: 3
       },
       retailCost: 187969450,
+      requirements: {
+        federationRank: 12
+      },
       bulkheads: [ {
         id: "BW",
         edID: 128049370,
@@ -1301,6 +1316,9 @@ module.exports = {
         crew: 2
       },
       retailCost: 14314210,
+      requirements: {
+        federationRank: 3
+      },
       bulkheads: [ {
         id: "bE",
         edID: 128049322,
@@ -1408,6 +1426,9 @@ module.exports = {
         crew: 2
       },
       retailCost: 35814210,
+      requirements: {
+        federationRank: 7
+      },
       bulkheads: [ {
         id: "bJ",
         edID: 128672154,
@@ -1702,6 +1723,9 @@ module.exports = {
         crew: 2
       },
       retailCost: 22296860,
+      requirements: {
+        empireRank: 7
+      },
       bulkheads: [ {
         id: "bp",
         edID: 128049316,
@@ -1792,6 +1816,9 @@ module.exports = {
         crew: 1
       },
       retailCost: 2542930,
+      requirements: {
+        empireRank: 3
+      },
       bulkheads: [ {
         id: "bf",
         edID: 128671224,
@@ -1883,6 +1910,9 @@ module.exports = {
         crew: 3
       },
       retailCost: 208969450,
+      requirements: {
+        empireRank: 12
+      },
       bulkheads: [ {
         id: "BR",
         edID: 128049376,
@@ -14446,7 +14476,7 @@ module.exports = {
         edID: 128777327,
         eddbID: 1594,
         grp: "rpl",
-        id: "rple1",
+        id: "9z",
         mass: 1.3,
         maximum: 1,
         power: .18,
@@ -14458,7 +14488,7 @@ module.exports = {
         edID: 128777328,
         eddbID: 1595,
         grp: "rpl",
-        id: "rpld1",
+        id: "9q",
         mass: .5,
         maximum: 1,
         power: .14,
@@ -14470,7 +14500,7 @@ module.exports = {
         edID: 128777329,
         eddbID: 1596,
         grp: "rpl",
-        id: "rplc1",
+        id: "9a",
         mass: 1.3,
         maximum: 1,
         power: .23,
@@ -14482,7 +14512,7 @@ module.exports = {
         edID: 128777330,
         eddbID: 1597,
         grp: "rpl",
-        id: "rplb1",
+        id: "9w",
         mass: 2,
         maximum: 1,
         power: .32,
@@ -14494,7 +14524,7 @@ module.exports = {
         edID: 128777331,
         eddbID: 1598,
         grp: "rpl",
-        id: "rpla1",
+        id: "9s",
         mass: 1.3,
         maximum: 1,
         power: .28,
@@ -14506,7 +14536,7 @@ module.exports = {
         edID: 128777332,
         eddbID: 1599,
         grp: "rpl",
-        id: "rple3",
+        id: "9x",
         mass: 5,
         maximum: 2,
         power: .27,
@@ -14518,7 +14548,7 @@ module.exports = {
         edID: 128777333,
         eddbID: 1600,
         grp: "rpl",
-        id: "rpld3",
+        id: "9e",
         mass: 2,
         maximum: 2,
         power: .2,
@@ -14530,7 +14560,7 @@ module.exports = {
         edID: 128777334,
         eddbID: 1601,
         grp: "rpl",
-        id: "rplc3",
+        id: "9d",
         mass: 5,
         maximum: 2,
         power: .34,
@@ -14542,7 +14572,7 @@ module.exports = {
         edID: 128777335,
         eddbID: 1602,
         grp: "rpl",
-        id: "rplb3",
+        id: "9c",
         mass: 8,
         maximum: 2,
         power: .48,
@@ -14554,7 +14584,7 @@ module.exports = {
         edID: 128777336,
         eddbID: 1603,
         grp: "rpl",
-        id: "rpba3",
+        id: "9r",
         mass: 5,
         maximum: 2,
         power: .41,
@@ -14566,7 +14596,7 @@ module.exports = {
         edID: 128777337,
         eddbID: 1604,
         grp: "rpl",
-        id: "rple5",
+        id: "9f",
         mass: 20,
         maximum: 3,
         power: .4,
@@ -14578,7 +14608,7 @@ module.exports = {
         edID: 128777338,
         eddbID: 1605,
         grp: "rpl",
-        id: "rpld5",
+        id: "9v",
         mass: 8,
         maximum: 3,
         power: .3,
@@ -14590,7 +14620,7 @@ module.exports = {
         edID: 128777339,
         eddbID: 1606,
         grp: "rpl",
-        id: "rplc5",
+        id: "9t",
         mass: 20,
         maximum: 3,
         power: .5,
@@ -14602,7 +14632,7 @@ module.exports = {
         edID: 128777340,
         eddbID: 1607,
         grp: "rpl",
-        id: "rplb5",
+        id: "9g",
         mass: 32,
         maximum: 3,
         power: .97,
@@ -14614,7 +14644,7 @@ module.exports = {
         edID: 128777341,
         eddbID: 1608,
         grp: "rpl",
-        id: "rpla5",
+        id: "9b",
         mass: 20,
         maximum: 3,
         power: .6,
@@ -14626,7 +14656,7 @@ module.exports = {
         edID: 128777342,
         eddbID: 1609,
         grp: "rpl",
-        id: "rple7",
+        id: "9y",
         mass: 80,
         maximum: 4,
         power: .55,
@@ -14638,7 +14668,7 @@ module.exports = {
         edID: 128777343,
         eddbID: 1610,
         grp: "rpl",
-        id: "rpld7",
+        id: "9h",
         mass: 32,
         maximum: 4,
         power: .41,
@@ -14650,7 +14680,7 @@ module.exports = {
         edID: 128777344,
         eddbID: 1611,
         grp: "rpl",
-        id: "rplc7",
+        id: "9n",
         mass: 80,
         maximum: 4,
         power: .69,
@@ -14662,7 +14692,7 @@ module.exports = {
         edID: 128777345,
         eddbID: 1612,
         grp: "rpl",
-        id: "rplb7",
+        id: "9u",
         mass: 128,
         maximum: 4,
         power: .97,
@@ -14674,7 +14704,7 @@ module.exports = {
         edID: 128777346,
         eddbID: 1613,
         grp: "rpl",
-        id: "rpla7",
+        id: "9j",
         mass: 80,
         maximum: 4,
         power: .83,

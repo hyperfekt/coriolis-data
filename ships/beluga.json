@@ -24,6 +24,9 @@
       "crew": 3
     },
     "retailCost": 84532770,
+    "requirements": {
+      "horizons": true
+    },
     "bulkheads": [
       { "id": "cl", "edID": 128049346, "eddbID": 1554,"grp": "bh", "cost": 0, "mass": 0, "explres": -0.4, "kinres": -0.2, "thermres": 0, "hullboost": 0.8 },
       { "id": "cm", "edID": 128049347, "eddbID": 1555,"grp": "bh", "cost": 33813120, "mass": 83, "explres": -0.4, "kinres": -0.2, "thermres": 0, "hullboost": 1.52 },

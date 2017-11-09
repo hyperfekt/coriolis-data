@@ -1,3 +1,7 @@
+#2.4.2
+  * Add requirements to UI
+  * Fix for limpets
+
 #2.4.1
   * Config Fix
 
