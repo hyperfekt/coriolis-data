@@ -394,6 +394,9 @@ module.exports = {
         crew: 3
       },
       retailCost: 84532770,
+      requirements: {
+        horizons: true
+      },
       bulkheads: [ {
         id: "cl",
         edID: 128049346,
@@ -618,6 +621,9 @@ module.exports = {
         crew: 2
       },
       retailCost: 747660,
+      requirements: {
+        horizonsEarlyAdoption: true
+      },
       bulkheads: [ {
         id: "cg",
         edID: 128672264,
@@ -889,6 +895,9 @@ module.exports = {
         crew: 1
       },
       retailCost: 1337330,
+      requirements: {
+        horizons: true
+      },
       bulkheads: [ {
         id: "cq",
         edID: 128049292,
@@ -1088,6 +1097,9 @@ module.exports = {
         crew: 2
       },
       retailCost: 19814210,
+      requirements: {
+        federationRank: 5
+      },
       bulkheads: [ {
         id: "bz",
         edID: 128672147,
@@ -1195,6 +1207,9 @@ module.exports = {
         crew: 3
       },
       retailCost: 187969450,
+      requirements: {
+        federationRank: 12
+      },
       bulkheads: [ {
         id: "BW",
         edID: 128049370,
@@ -1301,6 +1316,9 @@ module.exports = {
         crew: 2
       },
       retailCost: 14314210,
+      requirements: {
+        federationRank: 3
+      },
       bulkheads: [ {
         id: "bE",
         edID: 128049322,
@@ -1408,6 +1426,9 @@ module.exports = {
         crew: 2
       },
       retailCost: 35814210,
+      requirements: {
+        federationRank: 7
+      },
       bulkheads: [ {
         id: "bJ",
         edID: 128672154,
@@ -1702,6 +1723,9 @@ module.exports = {
         crew: 2
       },
       retailCost: 22296860,
+      requirements: {
+        empireRank: 7
+      },
       bulkheads: [ {
         id: "bp",
         edID: 128049316,
@@ -1792,6 +1816,9 @@ module.exports = {
         crew: 1
       },
       retailCost: 2542930,
+      requirements: {
+        empireRank: 3
+      },
       bulkheads: [ {
         id: "bf",
         edID: 128671224,
@@ -1883,6 +1910,9 @@ module.exports = {
         crew: 3
       },
       retailCost: 208969450,
+      requirements: {
+        empireRank: 12
+      },
       bulkheads: [ {
         id: "BR",
         edID: 128049376,
