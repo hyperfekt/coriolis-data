@@ -95,10 +95,10 @@
   "OutfittingFieldType_ShieldBankDuration": {
     "duration": 1
   },
-  "OutfittingFieldType_shieldcell_shield_units": {
+  "OutfittingFieldType_ShieldBankReinforcement": {
     "shieldreinforcement": 1
   },
-  "OutfittingFieldType_shieldcell_spin_up": {
+  "OutfittingFieldType_ShieldBankSpinUp": {
     "spinup": 1
   },
   "OutfittingFieldType_ThermalLoad": {
