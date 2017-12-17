@@ -21565,13 +21565,16 @@ module.exports = {
         facinglimit: 1
       },
       OutfittingFieldType_FSDInterdictorRange: {
-        range: 1
+        ranget: 1
       },
       OutfittingFieldType_Integrity: {
         integrity: 1
       },
       OutfittingFieldType_Mass: {
         mass: 1
+      },
+      OutfittingFieldType_SensorTargetScanAngle: {
+        angle: 1
       },
       OutfittingFieldType_PowerDraw: {
         power: 1
