@@ -1,191 +1,145 @@
 {
-  "mod_boot_time": {
+  "OutfittingFieldType_BootTime": {
     "boot": 1
   },
-  "mod_defencemodifier_explosive_mult": {
+  "OutfittingFieldType_ExplosiveResistance": {
     "explres": 1
   },
-  "mod_defencemodifier_global_hull_mult": {
-    "explres": 1,
-    "kinres": 1,
-    "thermres": 1
-  },
-  "mod_defencemodifier_global_shield_mult": {
-    "explres": 1,
-    "kinres": 1,
-    "thermres": 1
-  },
-  "mod_defencemodifier_health_add": {
+  "OutfittingFieldType_DefenceModifierHealthAddition": {
     "hullreinforcement": 1
   },
-  "mod_defencemodifier_health_mult": {
+  "OutfittingFieldType_DefenceModifierHealthMultiplier": {
     "hullboost": 1
   },
-  "mod_defencemodifier_kinetic_mult": {
+  "OutfittingFieldType_KineticResistance": {
     "kinres": 1
   },
-  "mod_defencemodifier_shield_explosive_mult": {
-    "explres": 1
-  },
-  "mod_defencemodifier_shield_kinetic_mult": {
-    "kinres": 1
-  },
-  "mod_defencemodifier_shield_mult": {
+  "OutfittingFieldType_DefenceModifierShieldMultiplier": {
     "shieldboost": 1
   },
-  "mod_defencemodifier_shield_thermic_mult": {
+  "OutfittingFieldType_ThermicResistance": {
     "thermres": 1
   },
-  "mod_defencemodifier_thermic_mult": {
-    "thermres": 1
-  },
-  "mod_engine_heat": {
+  "OutfittingFieldType_EngineHeatRate": {
     "thermload": 1
   },
-  "mod_engine_mass_curve": {
+  "OutfittingFieldType_EngineOptimalMass": {
     "optmass": 1
   },
-  "mod_engine_mass_curve_multiplier": {
+  "OutfittingFieldType_EngineOptPerformance": {
     "optmul": 1
   },
-  "mod_fsd_heat_rate": {
+  "OutfittingFieldType_FSDHeatRate": {
     "thermload": 1
   },
-  "mod_fsd_max_fuel_per_jump": {
+  "OutfittingFieldType_FSDMaxFuelPerJump": {
     "maxfuel": 1
   },
-  "mod_fsd_optimised_mass": {
+  "OutfittingFieldType_FSDOptimalMass": {
     "optmass": 1
   },
-  "mod_fsdinterdictor_facing_limit": {
+  "OutfittingFieldType_FSDInterdictorFacingLimit": {
     "facinglimit": 1
   },
-  "mod_fsdinterdictor_range": {
-    "ranget": 1
-  },
-  "mod_health": {
-    "integrity": 1
-  },
-  "mod_mass": {
-    "mass": 1
-  },
-  "mod_passive_power": {
-    "power": 1
-  },
-  "mod_powerdistributor_engine_charge": {
-    "engcap": 1
-  },
-  "mod_powerdistributor_engine_rate": {
-    "engrate": 1
-  },
-  "mod_powerdistributor_global_charge": {
-    "engcap": 1,
-    "syscap": 1,
-    "wepcap": 1
-  },
-  "mod_powerdistributor_global_rate": {
-    "engrate": 1,
-    "sysrate": 1,
-    "weprate": 1
-  },
-  "mod_powerdistributor_system_charge": {
-    "syscap": 1
-  },
-  "mod_powerdistributor_system_rate": {
-    "sysrate": 1
-  },
-  "mod_powerdistributor_weapon_charge": {
-    "wepcap": 1
-  },
-  "mod_powerdistributor_weapon_rate": {
-    "weprate": 1
-  },
-  "mod_powerplant_heat": {
-    "eff": 1
-  },
-  "mod_powerplant_power": {
-    "pgen": 1
-  },
-  "mod_shield_broken_regen": {
-    "brokenregen": 1
-  },
-  "mod_shield_energy_per_regen": {
-    "distdraw": 1
-  },
-  "mod_shield_explosive_mult": {
-    "explres": 1
-  },
-  "mod_shield_global_mult": {
-    "explres": 1,
-    "kinres": 1,
-    "thermres": 1
-  },
-  "mod_shield_kinetic_mult": {
-    "kinres": 1
-  },
-  "mod_shield_mass_curve": {
-    "optmass": 1
-  },
-  "mod_shield_mass_curve_multiplier": {
-    "optmul": 1
-  },
-  "mod_shield_normal_regen": {
-    "regen": 1
-  },
-  "mod_shield_thermal_mult": {
-    "thermres": 1
-  },
-  "mod_shieldcell_charge_heat": {
-    "thermload": 1
-  },
-  "mod_shieldcell_duration": {
-    "duration": 1
-  },
-  "mod_shieldcell_shield_units": {
-    "shieldreinforcement": 1
-  },
-  "mod_shieldcell_spin_up": {
-    "spinup": 1
-  },
-  "mod_weapon_active_heat": {
-    "thermload": 1
-  },
-  "mod_weapon_active_power": {
-    "distdraw": 1
-  },
-  "mod_weapon_ammo_capacity": {
-    "ammo": 1
-  },
-  "mod_weapon_burst_interval": {
-    "rof": 1
-  },
-  "mod_weapon_burst_rof": {
-    "burstrof": 1
-  },
-  "mod_weapon_burst_size": {
-    "burst": 1
-  },
-  "mod_weapon_clip_size": {
-    "clip": 1
-  },
-  "mod_weapon_clip_size_override": {
-    "clip": 1
-  },
-  "mod_weapon_damage": {
-    "damage": 1
-  },
-  "mod_weapon_falloffrange_from_range": {
-  },
-  "mod_weapon_hardness_piercing": {
-    "piercing": 1
-  },
-  "mod_weapon_jitter_radius": {
-    "jitter": 1
-  },
-  "mod_weapon_range": {
+  "OutfittingFieldType_FSDInterdictorRange": {
     "range": 1
   },
-  "mod_weapon_reload_time": {
+  "OutfittingFieldType_Integrity": {
+    "integrity": 1
+  },
+  "OutfittingFieldType_Mass": {
+    "mass": 1
+  },
+  "OutfittingFieldType_PowerDraw": {
+    "power": 1
+  },
+  "OutfittingFieldType_EnginesCapacity": {
+    "engcap": 1
+  },
+  "OutfittingFieldType_EnginesRecharge": {
+    "engrate": 1
+  },
+  "OutfittingFieldType_SystemsCapacity": {
+    "syscap": 1
+  },
+  "OutfittingFieldType_SystemsRecharge": {
+    "sysrate": 1
+  },
+  "OutfittingFieldType_WeaponsCapacity": {
+    "wepcap": 1
+  },
+  "OutfittingFieldType_WeaponsRecharge": {
+    "weprate": 1
+  },
+  "OutfittingFieldType_HeatEfficiency": {
+    "eff": 1
+  },
+  "OutfittingFieldType_PowerCapacity": {
+    "pgen": 1
+  },
+  "OutfittingFieldType_BrokenRegenRate": {
+    "brokenregen": 1
+  },
+  "OutfittingFieldType_ShieldGenOptimalMass": {
+    "optmass": 1
+  },
+  "OutfittingFieldType_shield_mass_curve_multiplier": {
+    "optmul": 1
+  },
+  "OutfittingFieldType_RegenRate": {
+    "regen": 1
+  },
+  "OutfittingFieldType_ShieldBankHeat": {
+    "thermload": 1
+  },
+  "OutfittingFieldType_ShieldBankDuration": {
+    "duration": 1
+  },
+  "OutfittingFieldType_shieldcell_shield_units": {
+    "shieldreinforcement": 1
+  },
+  "OutfittingFieldType_shieldcell_spin_up": {
+    "spinup": 1
+  },
+  "OutfittingFieldType_ThermalLoad": {
+    "thermload": 1
+  },
+  "OutfittingFieldType_DistributorDraw": {
+    "distdraw": 1
+  },
+  "OutfittingFieldType_AmmoMaximum": {
+    "ammo": 1
+  },
+  "OutfittingFieldType_RateOfFire": {
+    "rof": 1
+  },
+  "OutfittingFieldType_weapon_burst_rof": {
+    "burstrof": 1
+  },
+  "OutfittingFieldType_weapon_burst_size": {
+    "burst": 1
+  },
+  "OutfittingFieldType_AmmoClipSize": {
+    "clip": 1
+  },
+  "OutfittingFieldType_weapon_clip_size_override": {
+    "clip": 1
+  },
+  "OutfittingFieldType_Damage": {
+    "damage": 1
+  },
+  "OutfittingFieldType_weapon_falloffrange_from_range": {
+  },
+  "OutfittingFieldType_ArmourPenetration": {
+    "piercing": 1
+  },
+  "OutfittingFieldType_Jitter": {
+    "jitter": 1
+  },
+  "OutfittingFieldType_MaximumRange": {
+    "range": 1
+  },
+  "OutfittingFieldType_ReloadTime": {
     "reload": 1
   },
   "special_auto_loader": {},
@@ -221,14 +175,14 @@
   "special_incendiary_rounds": {
     "rof": 0.05263157894736842,
     "thermload": 2,
-    "damagedist": { 
+    "damagedist": {
       "T": 1
     }
   },
   "special_inertial_impact": {
     "damage": 0.5,
     "jitter": 3,
-    "damagedist": { 
+    "damagedist": {
       "K": 0.5,
       "T": 0.5
     }
