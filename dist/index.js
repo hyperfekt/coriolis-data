@@ -21603,10 +21603,13 @@ module.exports = {
       OutfittingFieldType_BrokenRegenRate: {
         brokenregen: 1
       },
+      OutfittingFieldType_EnergyPerRegen: {
+        distdraw: 1
+      },
       OutfittingFieldType_ShieldGenOptimalMass: {
         optmass: 1
       },
-      OutfittingFieldType_shield_mass_curve_multiplier: {
+      OutfittingFieldType_ShieldGenStrength: {
         optmul: 1
       },
       OutfittingFieldType_RegenRate: {
