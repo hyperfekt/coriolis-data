@@ -21576,6 +21576,18 @@ module.exports = {
       OutfittingFieldType_SensorTargetScanAngle: {
         angle: 1
       },
+      OutfittingFieldType_DSS_RateMult: {
+        scanrate: 1
+      },
+      OutfittingFieldType_ScannerRange: {
+        range: 1
+      },
+      OutfittingFieldType_MaxAngle: {
+        angle: 1
+      },
+      OutfittingFieldType_Range: {
+        range: 1
+      },
       OutfittingFieldType_PowerDraw: {
         power: 1
       },
