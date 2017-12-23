@@ -2749,6 +2749,113 @@ module.exports = {
         internal: [ "06", "05", "4j", "03", "02", 0, "01", 0, "2h" ]
       }
     },
+    type_10_defender: {
+      edID: 128785619,
+      eddbID: 32,
+      properties: {
+        name: "Type-10 Defender",
+        manufacturer: "Lakon",
+        class: 3,
+        hullCost: 121454173,
+        speed: 179,
+        boost: 219,
+        boostEnergy: 19,
+        baseShieldStrength: 99,
+        baseArmour: 1044,
+        hardness: 75,
+        hullMass: 1200,
+        masslock: 26,
+        pipSpeed: .17375,
+        fighterHangars: true,
+        pitch: 20,
+        roll: 20,
+        yaw: 8,
+        crew: 3
+      },
+      retailCost: 121454652,
+      bulkheads: [ {
+        id: "Bx",
+        edID: 128049334,
+        eddbID: 803,
+        grp: "bh",
+        cost: 0,
+        mass: 0,
+        explres: -.4,
+        kinres: -.2,
+        thermres: 0,
+        hullboost: .8
+      }, {
+        id: "By",
+        edID: 128049335,
+        eddbID: 804,
+        grp: "bh",
+        cost: 30622340,
+        mass: 75,
+        explres: -.4,
+        kinres: -.2,
+        thermres: 0,
+        hullboost: 1.52
+      }, {
+        id: "Bz",
+        edID: 128049336,
+        eddbID: 805,
+        grp: "bh",
+        cost: 68900260,
+        mass: 150,
+        explres: -.4,
+        kinres: -.2,
+        thermres: 0,
+        hullboost: 2.5
+      }, {
+        id: "BA",
+        edID: 128049337,
+        eddbID: 806,
+        grp: "bh",
+        cost: 162834280,
+        mass: 150,
+        explres: -.5,
+        kinres: -.75,
+        thermres: .5,
+        hullboost: 2.5
+      }, {
+        id: "BB",
+        edID: 128049338,
+        eddbID: 807,
+        grp: "bh",
+        cost: 180442120,
+        mass: 150,
+        explres: .2,
+        kinres: .25,
+        thermres: -.4,
+        hullboost: 2.5
+      } ],
+      slots: {
+        standard: [ 8, 7, 7, 5, 6, 4, 6 ],
+        hardpoints: [ 3, 3, 3, 3, 2, 2, 2, 1, 1 ],
+        internal: [ 8, 7, 6, 5, 4, 4, 3, 3, 2, {
+          class: 5,
+          name: "Military",
+          eligible: {
+            hr: 1,
+            scb: 1,
+            mrp: 1
+          }
+        }, {
+          class: 5,
+          name: "Military",
+          eligible: {
+            hr: 1,
+            scb: 1,
+            mrp: 1
+          }
+        } ]
+      },
+      defaults: {
+        standard: [ "6E", "7E", "6E", "5E", "6E", "4E", "6C" ],
+        hardpoints: [ 0, 0, 0, 0, 17, 17, 0, 0, 0 ],
+        internal: [ "06", "05", "4j", "03", "02", 0, "01", 0, "2h", 0, 0 ]
+      }
+    },
     viper: {
       edID: 128049273,
       eddbID: 22,
