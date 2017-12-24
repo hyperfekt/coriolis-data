@@ -10,13 +10,8 @@
         "speed": 179,
         "boost": 219,
         "boostEnergy": 19,
-<<<<<<< HEAD
-        "baseShieldStrength": 320,
-        "baseArmour": 1879,
-=======
         "baseShieldStrength": 320,
         "baseArmour": 580,
->>>>>>> 5dcfa6b... Final value for baseArmour
         "hardness": 75,
         "hullMass": 1200,
         "masslock": 26,
