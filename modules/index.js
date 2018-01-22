@@ -17,6 +17,7 @@ module.exports = {
     axmc: require('./hardpoints/ax_multi_cannon').axmc,
     c: require('./hardpoints/cannon').c,
     fc: require('./hardpoints/fragment_cannon').fc,
+    rfl: require('./hardpoints/remote_release_flak_launcher.json').rfl,
     rg: require('./hardpoints/rail_gun').rg,
     pa: require('./hardpoints/plasma_accelerator').pa,
     mr: require('./hardpoints/missile_rack').mr,

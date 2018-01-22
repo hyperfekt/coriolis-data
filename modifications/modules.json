@@ -1647,6 +1647,12 @@
       "special_screening_shell"
     ]
   },
+  "rfl": {
+    "blueprints": {
+    },
+    "modifications": [
+    ]
+  },
   "fh": {
     "blueprints": {
     },

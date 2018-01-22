@@ -8561,6 +8561,63 @@ module.exports = {
         shotspeed: 1e3,
         thermload: 1.1
       } ],
+      rfl: [ {
+        ammo: 32,
+        breachdmg: 1.7,
+        breachmax: 1,
+        breachmin: 1,
+        class: 2,
+        clip: 1,
+        cost: 261800,
+        damage: 34,
+        damagedist: {
+          E: 1
+        },
+        distdraw: .24,
+        edID: 128785626,
+        eddbID: 1620,
+        falloff: 1e5,
+        grp: "rfl",
+        id: "x8",
+        integrity: 51,
+        mass: 4,
+        mount: "F",
+        piercing: 60,
+        power: 1.2,
+        rating: "B",
+        reload: 2,
+        rof: .5,
+        shotspeed: 550,
+        thermload: 3.6
+      }, {
+        ammo: 32,
+        breachdmg: 1.7,
+        breachmax: 1,
+        breachmin: 1,
+        class: 2,
+        clip: 1,
+        cost: 1259200,
+        damage: 34,
+        damagedist: {
+          E: 1
+        },
+        distdraw: .24,
+        edID: 128793058,
+        eddbID: 1621,
+        falloff: 1e5,
+        grp: "rfl",
+        id: "x9",
+        integrity: 51,
+        mass: 4,
+        mount: "T",
+        piercing: 60,
+        power: 1.2,
+        rating: "B",
+        reload: 2,
+        rof: .5,
+        shotspeed: 550,
+        thermload: 3.6
+      } ],
       rg: [ {
         ammo: 80,
         breachdmg: 22.2,
@@ -8975,6 +9032,7 @@ module.exports = {
         distdraw: .14,
         edID: 128788699,
         eddbID: 1614,
+        falloff: 1e4,
         grp: "axmr",
         id: "x4",
         integrity: 51,
@@ -9003,6 +9061,7 @@ module.exports = {
         distdraw: .08,
         edID: 128788704,
         eddbID: 1615,
+        falloff: 1e4,
         grp: "axmr",
         id: "x5",
         integrity: 51,
@@ -9031,6 +9090,7 @@ module.exports = {
         distdraw: .24,
         edID: 128788700,
         eddbID: 1623,
+        falloff: 1e4,
         grp: "axmr",
         id: "x6",
         integrity: 64,
@@ -9059,6 +9119,7 @@ module.exports = {
         distdraw: .14,
         edID: 128788705,
         eddbID: 1624,
+        falloff: 1e4,
         grp: "axmr",
         id: "x7",
         integrity: 64,
@@ -9709,6 +9770,7 @@ module.exports = {
         name: "Shutdown Field Neutraliser",
         passive: 1,
         power: .2,
+        activepower: .25,
         rating: "F",
         cooldown: 10,
         duration: 1,
@@ -9716,7 +9778,7 @@ module.exports = {
       } ],
       xs: [ {
         class: 0,
-        cost: 365700,
+        cost: 365698,
         edID: 128793115,
         eddbID: 1616,
         grp: "xs",
@@ -9727,7 +9789,9 @@ module.exports = {
         power: .2,
         range: 500,
         rating: "E",
-        scantime: 10
+        boot: 2,
+        scantime: 10,
+        angle: 23
       } ]
     },
     internal: {
@@ -23155,6 +23219,10 @@ module.exports = {
         },
         modifications: [ "ammo", "burst", "burstrof", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "shotspeed", "thermload" ],
         specials: [ "special_corrosive_shell", "special_blinding_shell", "special_incendiary_rounds", "special_drag_munitions", "special_screening_shell" ]
+      },
+      rfl: {
+        blueprints: {},
+        modifications: []
       },
       fh: {
         blueprints: {},
