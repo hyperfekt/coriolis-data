@@ -12,6 +12,7 @@
       "name": "Shutdown Field Neutraliser",
       "passive": 1,
       "power": 0.2,
+      "activepower": 0.25,
       "rating": "F",
       "cooldown": 10,
       "duration": 1,

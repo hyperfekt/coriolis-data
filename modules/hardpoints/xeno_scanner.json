@@ -2,7 +2,7 @@
   "xs": [
     {
       "class": 0,
-      "cost": 365700,
+      "cost": 365698,
       "edID": 128793115,
       "eddbID": 1616,
       "grp": "xs",
@@ -13,7 +13,9 @@
       "power": 0.2,
       "range": 500,
       "rating": "E",
-      "scantime": 10
+      "boot": 2,
+      "scantime": 10,
+      "angle": 23
     }
   ]
 }
