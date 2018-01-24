@@ -1,3 +1,7 @@
+#2.5.1  
+  * AX Modules  
+  * Fixed some engineering values
+
 #2.5.0
   * Willyb321 fixed engineering. Some stuff doesn't work. We currently believe this is FDevs fault and not ours.
 
