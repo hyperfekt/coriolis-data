@@ -22012,6 +22012,9 @@ module.exports = {
       OutfittingFieldType_DSS_RateMult: {
         scanrate: 1
       },
+      OutfittingFieldType_ScannerTimeToScan: {
+        scantime: 1
+      },
       OutfittingFieldType_ScannerRange: {
         range: 1
       },
