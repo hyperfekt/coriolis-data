@@ -107,9 +107,9 @@ module.exports = {
         hullMass: 420,
         masslock: 13,
         pipSpeed: .03875,
-        pitch: 38,
-        roll: 90,
-        yaw: 12,
+        pitch: 39,
+        roll: 92,
+        yaw: 16,
         crew: 2
       },
       retailCost: 18897696,
