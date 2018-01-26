@@ -1,9 +1,9 @@
 {
-  "alliance_chieftan": {
+  "alliance_chieftain": {
     "edID": 128816574,
     "eddbID": 12,
     "properties": {
-      "name": "Alliance Chieftan",
+      "name": "Alliance Chieftain",
       "manufacturer": "Lakon",
       "class": 2,
       "hullCost": 17007927,

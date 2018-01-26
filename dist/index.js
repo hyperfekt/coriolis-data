@@ -90,11 +90,11 @@ module.exports = {
         internal: [ "01", "44", "00", 0, "2h" ]
       }
     },
-    alliance_chieftan: {
+    alliance_chieftain: {
       edID: 128816574,
       eddbID: 12,
       properties: {
-        name: "Alliance Chieftan",
+        name: "Alliance Chieftain",
         manufacturer: "Lakon",
         class: 2,
         hullCost: 17007927,
@@ -9878,7 +9878,7 @@ module.exports = {
         edID: 128771884,
         eddbID: 1622,
         grp: "sfn",
-        id: "Sn",
+        id: "sfn",
         integrity: 35,
         mass: 1.3,
         name: "Shutdown Field Neutraliser",
