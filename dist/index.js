@@ -97,7 +97,7 @@ module.exports = {
         name: "Alliance Chieftain",
         manufacturer: "Lakon",
         class: 2,
-        hullCost: 17007927,
+        hullCost: 18182883,
         speed: 235,
         boost: 337,
         boostEnergy: 19,
@@ -105,7 +105,7 @@ module.exports = {
         baseArmour: 504,
         hardness: 70,
         hullMass: 420,
-        masslock: 12,
+        masslock: 13,
         pipSpeed: .03875,
         pitch: 38,
         roll: 90,
@@ -114,7 +114,7 @@ module.exports = {
       },
       retailCost: 18897696,
       bulkheads: [ {
-        id: "Bd",
+        id: "CI",
         edID: 128816576,
         eddbID: 813,
         grp: "bh",
@@ -125,7 +125,7 @@ module.exports = {
         thermres: 0,
         hullboost: .8
       }, {
-        id: "Be",
+        id: "CJ",
         edID: 128816577,
         eddbID: 814,
         grp: "bh",
@@ -136,7 +136,7 @@ module.exports = {
         thermres: 0,
         hullboost: 1.52
       }, {
-        id: "Bf",
+        id: "CK",
         edID: 128816578,
         eddbID: 815,
         grp: "bh",
@@ -147,7 +147,7 @@ module.exports = {
         thermres: 0,
         hullboost: 2.5
       }, {
-        id: "Bg",
+        id: "CL",
         edID: 128816579,
         eddbID: 816,
         grp: "bh",
@@ -158,7 +158,7 @@ module.exports = {
         thermres: .5,
         hullboost: 2.5
       }, {
-        id: "Bh",
+        id: "CM",
         edID: 128816580,
         eddbID: 817,
         grp: "bh",
@@ -200,7 +200,7 @@ module.exports = {
       },
       defaults: {
         standard: [ "6E", "6E", "5E", "5E", "6E", "4E", "4C" ],
-        hardpoints: [ 0, 17, 17, 0, 0, 0, 0, 0, 0, 0, 0 ],
+        hardpoints: [ 17, 0, 17, 0, 0, 0, 0, 0, 0, 0, 0 ],
         internal: [ "03", "4e", "02", "", "2h" ]
       }
     },
