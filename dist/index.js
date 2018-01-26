@@ -91,20 +91,20 @@ module.exports = {
       }
     },
     alliance_chieftan: {
-      edID: 128049352,
+      edID: 128816574,
       eddbID: 12,
       properties: {
         name: "Alliance Chieftan",
         manufacturer: "Lakon",
         class: 2,
-        hullCost: 51232230,
-        speed: 260,
-        boost: 350,
+        hullCost: 17007927,
+        speed: 235,
+        boost: 337,
         boostEnergy: 19,
-        baseShieldStrength: 300,
+        baseShieldStrength: 154,
         baseArmour: 504,
         hardness: 70,
-        hullMass: 250,
+        hullMass: 420,
         masslock: 12,
         pipSpeed: .03875,
         pitch: 38,
@@ -112,10 +112,10 @@ module.exports = {
         yaw: 12,
         crew: 2
       },
-      retailCost: 51567040,
+      retailCost: 18897696,
       bulkheads: [ {
         id: "Bd",
-        edID: 128049352,
+        edID: 128816576,
         eddbID: 813,
         grp: "bh",
         cost: 0,
@@ -126,10 +126,10 @@ module.exports = {
         hullboost: .8
       }, {
         id: "Be",
-        edID: 128049353,
+        edID: 128816577,
         eddbID: 814,
         grp: "bh",
-        cost: 20626820,
+        cost: 6803170,
         mass: 19,
         explres: -.4,
         kinres: -.2,
@@ -137,10 +137,10 @@ module.exports = {
         hullboost: 1.52
       }, {
         id: "Bf",
-        edID: 128049354,
+        edID: 128816578,
         eddbID: 815,
         grp: "bh",
-        cost: 46410340,
+        cost: 15307134,
         mass: 38,
         explres: -.4,
         kinres: -.2,
@@ -148,10 +148,10 @@ module.exports = {
         hullboost: 2.5
       }, {
         id: "Bg",
-        edID: 128049355,
+        edID: 128816579,
         eddbID: 816,
         grp: "bh",
-        cost: 109683090,
+        cost: 36175859,
         mass: 38,
         explres: -.5,
         kinres: -.75,
@@ -159,10 +159,10 @@ module.exports = {
         hullboost: 2.5
       }, {
         id: "Bh",
-        edID: 128049356,
+        edID: 128816580,
         eddbID: 817,
         grp: "bh",
-        cost: 121543510,
+        cost: 40087682,
         mass: 38,
         explres: .2,
         kinres: .25,
@@ -201,7 +201,7 @@ module.exports = {
       defaults: {
         standard: [ "6E", "6E", "5E", "5E", "6E", "4E", "4C" ],
         hardpoints: [ 0, 17, 17, 0, 0, 0, 0, 0, 0, 0, 0 ],
-        internal: [ "" ]
+        internal: [ "03", "4e", "02", "", "2h" ]
       }
     },
     anaconda: {
@@ -9878,7 +9878,7 @@ module.exports = {
         edID: 128771884,
         eddbID: 1622,
         grp: "sfn",
-        id: "sfn",
+        id: "Sn",
         integrity: 35,
         mass: 1.3,
         name: "Shutdown Field Neutraliser",
