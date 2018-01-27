@@ -22,6 +22,9 @@
       "crew": 2
     },
     "retailCost": 18897696,
+    "requirements": {
+      "horizons": true
+    },
     "bulkheads": [
       { "id": "CI", "edID": 128816576, "eddbID": 813, "grp": "bh", "cost": 0, "mass": 0, "explres": -0.4, "kinres": -0.2, "thermres": 0, "hullboost": 0.8 },
       { "id": "CJ", "edID": 128816577, "eddbID": 814, "grp": "bh", "cost": 6803170, "mass": 75, "explres": -0.4, "kinres": -0.2, "thermres": 0, "hullboost": 1.52 },

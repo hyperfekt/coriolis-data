@@ -113,6 +113,9 @@ module.exports = {
         crew: 2
       },
       retailCost: 18897696,
+      requirements: {
+        horizons: true
+      },
       bulkheads: [ {
         id: "CI",
         edID: 128816576,
