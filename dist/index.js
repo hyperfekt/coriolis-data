@@ -2947,7 +2947,7 @@ module.exports = {
         hullboost: 2.5
       } ],
       slots: {
-        standard: [ 8, 7, 7, 5, 6, 4, 6 ],
+        standard: [ 8, 7, 7, 5, 7, 4, 6 ],
         hardpoints: [ 3, 3, 3, 3, 2, 2, 2, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0 ],
         internal: [ 8, 7, 6, 5, 4, 4, 3, 3, 2, {
           class: 5,

@@ -31,7 +31,7 @@
         { "id": "BB", "edID": 128049338, "eddbID": 807, "grp": "bh", "cost": 180442120, "mass": 150, "explres": 0.2, "kinres": 0.25, "thermres": -0.4, "hullboost": 2.5 }
       ],
       "slots": {
-        "standard": [8, 7, 7, 5, 6, 4, 6],
+        "standard": [8, 7, 7, 5, 7, 4, 6],
         "hardpoints": [3, 3, 3, 3, 2, 2, 2, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0],
         "internal": [8, 7, 6, 5, 4, 4, 3, 3, 2,{ "class": 5, "name": "Military", "eligible": { "hr": 1, "scb": 1, "mrp": 1 } },{ "class": 5, "name": "Military", "eligible": { "hr": 1, "scb": 1, "mrp": 1 } }]
       },
