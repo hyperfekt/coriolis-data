@@ -2789,7 +2789,7 @@ module.exports = {
         baseShieldStrength: 240,
         baseArmour: 480,
         hardness: 65,
-        hullMass: 1e3,
+        hullMass: 850,
         masslock: 16,
         pipSpeed: .17375,
         fighterHangars: true,
@@ -2858,12 +2858,12 @@ module.exports = {
       slots: {
         standard: [ 6, 7, 6, 5, 6, 4, 6 ],
         hardpoints: [ 2, 2, 2, 1, 1, 0, 0, 0, 0 ],
-        internal: [ 8, 7, 6, 5, 4, 4, 3, 3, 2 ]
+        internal: [ 8, 8, 7, 6, 5, 4, 4, 3, 3, 2 ]
       },
       defaults: {
         standard: [ "6E", "7E", "6E", "5E", "6E", "4E", "6C" ],
         hardpoints: [ 17, 17, 0, 0, 0, 0, 0, 0, 0 ],
-        internal: [ "06", "05", "4j", "03", "02", 0, "01", 0, "2h" ]
+        internal: [ "06", "06", "05", "4j", "03", "02", 0, "01", 0, "2h" ]
       }
     },
     type_10_defender: {

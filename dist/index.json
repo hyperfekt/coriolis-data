@@ -4373,7 +4373,7 @@
 				"baseShieldStrength": 240,
 				"baseArmour": 480,
 				"hardness": 65,
-				"hullMass": 1000,
+				"hullMass": 850,
 				"masslock": 16,
 				"pipSpeed": 0.17375,
 				"fighterHangars": true,
@@ -4468,6 +4468,7 @@
 				],
 				"internal": [
 					8,
+					8,
 					7,
 					6,
 					5,
@@ -4500,6 +4501,7 @@
 					0
 				],
 				"internal": [
+					"06",
 					"06",
 					"05",
 					"4j",
