@@ -150,7 +150,7 @@
 				"baseShieldStrength": 154,
 				"baseArmour": 280,
 				"hardness": 65,
-				"hullMass": 420,
+				"hullMass": 400,
 				"masslock": 13,
 				"pipSpeed": 0.03875,
 				"pitch": 39,
@@ -158,7 +158,7 @@
 				"yaw": 16,
 				"crew": 2
 			},
-			"retailCost": 18897696,
+			"retailCost": 19382252,
 			"requirements": {
 				"horizons": true
 			},
@@ -247,7 +247,7 @@
 					0
 				],
 				"internal": [
-					5,
+					6,
 					5,
 					4,
 					2,
@@ -305,7 +305,7 @@
 					0
 				],
 				"internal": [
-					"03",
+					"04",
 					"4e",
 					"02",
 					"",
@@ -3496,7 +3496,7 @@
 				"pitch": 27,
 				"roll": 100,
 				"yaw": 15,
-				"crew": 1
+				"crew": 2
 			},
 			"retailCost": 3126150,
 			"bulkheads": [
@@ -4225,7 +4225,7 @@
 				"baseShieldStrength": 155,
 				"baseArmour": 340,
 				"hardness": 54,
-				"hullMass": 420,
+				"hullMass": 350,
 				"masslock": 10,
 				"pipSpeed": 0.16625,
 				"pitch": 22,
@@ -4298,11 +4298,11 @@
 			],
 			"slots": {
 				"standard": [
-					4,
 					5,
 					5,
+					5,
 					4,
-					3,
+					4,
 					3,
 					5
 				],
@@ -4324,7 +4324,8 @@
 					5,
 					5,
 					3,
-					3
+					3,
+					2
 				]
 			},
 			"defaults": {
@@ -4354,6 +4355,7 @@
 					"03",
 					"03",
 					"49",
+					0,
 					0,
 					"2h"
 				]

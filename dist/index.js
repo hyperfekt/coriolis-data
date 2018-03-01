@@ -104,7 +104,7 @@ module.exports = {
         baseShieldStrength: 154,
         baseArmour: 280,
         hardness: 65,
-        hullMass: 420,
+        hullMass: 400,
         masslock: 13,
         pipSpeed: .03875,
         pitch: 39,
@@ -112,7 +112,7 @@ module.exports = {
         yaw: 16,
         crew: 2
       },
-      retailCost: 18897696,
+      retailCost: 19382252,
       requirements: {
         horizons: true
       },
@@ -175,7 +175,7 @@ module.exports = {
       slots: {
         standard: [ 6, 6, 5, 5, 6, 4, 4 ],
         hardpoints: [ 3, 3, 2, 1, 1, 1, 0, 0, 0, 0 ],
-        internal: [ 5, 5, 4, 2, 2, {
+        internal: [ 6, 5, 4, 2, 2, {
           class: 4,
           name: "Military",
           eligible: {
@@ -204,7 +204,7 @@ module.exports = {
       defaults: {
         standard: [ "6E", "6E", "5E", "5E", "6E", "4E", "4C" ],
         hardpoints: [ 17, 0, 17, 0, 0, 0, 0, 0, 0, 0, 0 ],
-        internal: [ "03", "4e", "02", "", "2h" ]
+        internal: [ "04", "4e", "02", "", "2h" ]
       }
     },
     anaconda: {
@@ -2232,7 +2232,7 @@ module.exports = {
         pitch: 27,
         roll: 100,
         yaw: 15,
-        crew: 1
+        crew: 2
       },
       retailCost: 3126150,
       bulkheads: [ {
@@ -2699,7 +2699,7 @@ module.exports = {
         baseShieldStrength: 155,
         baseArmour: 340,
         hardness: 54,
-        hullMass: 420,
+        hullMass: 350,
         masslock: 10,
         pipSpeed: .16625,
         pitch: 22,
@@ -2765,14 +2765,14 @@ module.exports = {
         hullboost: 2.5
       } ],
       slots: {
-        standard: [ 4, 5, 5, 4, 3, 3, 5 ],
+        standard: [ 5, 5, 5, 4, 4, 3, 5 ],
         hardpoints: [ 1, 1, 1, 1, 0, 0, 0, 0 ],
-        internal: [ 6, 6, 6, 5, 5, 5, 3, 3 ]
+        internal: [ 6, 6, 6, 5, 5, 5, 3, 3, 2 ]
       },
       defaults: {
         standard: [ "4E", "5E", "5E", "4E", "3E", "3E", "5C" ],
         hardpoints: [ 17, 17, 0, 0, 0, 0, 0, 0 ],
-        internal: [ "04", "04", "04", "03", "03", "49", 0, "2h" ]
+        internal: [ "04", "04", "04", "03", "03", "49", 0, 0, "2h" ]
       }
     },
     type_9_heavy: {
