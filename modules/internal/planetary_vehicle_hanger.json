@@ -11,7 +11,8 @@
       "integrity": 30,
       "mass": 12,
       "power": 0.25,
-      "rating": "H"
+      "rating": "H",
+      "symbol": "Int_BuggyBay_Size2_Class1"
     },
     {
       "bays": 1,
@@ -24,7 +25,8 @@
       "integrity": 30,
       "mass": 6,
       "power": 0.75,
-      "rating": "G"
+      "rating": "G",
+      "symbol": "Int_BuggyBay_Size2_Class2"
     },
     {
       "bays": 2,
@@ -37,7 +39,8 @@
       "integrity": 30,
       "mass": 20,
       "power": 0.4,
-      "rating": "H"
+      "rating": "H",
+      "symbol": "Int_BuggyBay_Size4_Class1"
     },
     {
       "bays": 2,
@@ -50,7 +53,8 @@
       "integrity": 30,
       "mass": 10,
       "power": 1.2,
-      "rating": "G"
+      "rating": "G",
+      "symbol": "Int_BuggyBay_Size4_Class2"
     },
     {
       "bays": 4,
@@ -63,7 +67,8 @@
       "integrity": 30,
       "mass": 34,
       "power": 0.6,
-      "rating": "H"
+      "rating": "H",
+      "symbol": "Int_BuggyBay_Size6_Class1"
     },
     {
       "bays": 4,
@@ -76,7 +81,8 @@
       "integrity": 30,
       "mass": 17,
       "power": 1.8,
-      "rating": "G"
+      "rating": "G",
+      "symbol": "Int_BuggyBay_Size6_Class2"
     }
   ]
 }

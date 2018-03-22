@@ -28,7 +28,8 @@
       "reload": 4,
       "rof": 7.69,
       "shotspeed": 1600,
-      "thermload": 0.09
+      "thermload": 0.09,
+      "symbol": "Hpt_MultiCannon_Fixed_Small"
     },
     {
       "ammo": 2100,
@@ -58,7 +59,8 @@
       "reload": 5,
       "rof": 8.33,
       "shotspeed": 1600,
-      "thermload": 0.1
+      "thermload": 0.1,
+      "symbol": "Hpt_MultiCannon_Gimbal_Small"
     },
     {
       "ammo": 2100,
@@ -88,7 +90,8 @@
       "reload": 4,
       "rof": 7.14,
       "shotspeed": 1600,
-      "thermload": 0.04
+      "thermload": 0.04,
+      "symbol": "Hpt_MultiCannon_Turret_Small"
     },
     {
       "ammo": 1000,
@@ -150,7 +153,8 @@
       "reload": 4,
       "rof": 7.14,
       "shotspeed": 1600,
-      "thermload": 0.18
+      "thermload": 0.18,
+      "symbol": "Hpt_MultiCannon_Fixed_Medium"
     },
     {
       "ammo": 2100,
@@ -180,7 +184,8 @@
       "reload": 5,
       "rof": 7.69,
       "shotspeed": 1600,
-      "thermload": 0.2
+      "thermload": 0.2,
+      "symbol": "Hpt_MultiCannon_Gimbal_Medium"
     },
     {
       "ammo": 2100,
@@ -210,7 +215,8 @@
       "reload": 4,
       "rof": 6.25,
       "shotspeed": 1600,
-      "thermload": 0.09
+      "thermload": 0.09,
+      "symbol": "Hpt_MultiCannon_Turret_Medium"
     },
     {
       "ammo": 2100,
@@ -240,7 +246,8 @@
       "reload": 4,
       "rof": 5.884,
       "shotspeed": 1600,
-      "thermload": 0.28
+      "thermload": 0.28,
+      "symbol": "Hpt_MultiCannon_Fixed_Large"
     },
     {
       "ammo": 2100,
@@ -270,7 +277,8 @@
       "reload": 5,
       "rof": 6.665,
       "shotspeed": 1600,
-      "thermload": 0.34
+      "thermload": 0.34,
+      "symbol": "Hpt_MultiCannon_Gimbal_Large"
     },
     {
       "ammo": 2100,
@@ -301,7 +309,8 @@
       "rof": 3.03,
       "roundspershot": 2,
       "shotspeed": 1600,
-      "thermload": 0.39
+      "thermload": 0.39,
+      "symbol": "Hpt_MultiCannon_Fixed_Huge"
     },
     {
       "ammo": 2100,
@@ -332,7 +341,8 @@
       "rof": 3.365,
       "roundspershot": 2,
       "shotspeed": 1600,
-      "thermload": 0.51
+      "thermload": 0.51,
+      "symbol": "Hpt_MultiCannon_Gimbal_Huge"
     }
   ]
 }

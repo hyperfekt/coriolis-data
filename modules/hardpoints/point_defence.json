@@ -26,7 +26,8 @@
       "reload": 0.4,
       "rof": 10,
       "shotspeed": 1000,
-      "thermload": 0.1
+      "thermload": 0.1,
+      "symbol": "Hpt_PlasmaPointDefence_Turret_Tiny"
     }
   ]
 }

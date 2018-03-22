@@ -8,7 +8,8 @@
       "fuel": 2,
       "grp": "ft",
       "id": "f1",
-      "rating": "C"
+      "rating": "C",
+      "symbol": "Int_FuelTank_Size1_Class3"
     },
     {
       "class": 2,
@@ -18,7 +19,8 @@
       "fuel": 4,
       "grp": "ft",
       "id": "f2",
-      "rating": "C"
+      "rating": "C",
+      "symbol": "Int_FuelTank_Size2_Class3"
     },
     {
       "class": 3,
@@ -28,7 +30,8 @@
       "fuel": 8,
       "grp": "ft",
       "id": "f3",
-      "rating": "C"
+      "rating": "C",
+      "symbol": "Int_FuelTank_Size3_Class3"
     },
     {
       "class": 4,
@@ -38,7 +41,8 @@
       "fuel": 16,
       "grp": "ft",
       "id": "f4",
-      "rating": "C"
+      "rating": "C",
+      "symbol": "Int_FuelTank_Size4_Class3"
     },
     {
       "class": 5,
@@ -48,7 +52,8 @@
       "fuel": 32,
       "grp": "ft",
       "id": "f5",
-      "rating": "C"
+      "rating": "C",
+      "symbol": "Int_FuelTank_Size5_Class3"
     },
     {
       "class": 6,
@@ -58,7 +63,8 @@
       "fuel": 64,
       "grp": "ft",
       "id": "f6",
-      "rating": "C"
+      "rating": "C",
+      "symbol": "Int_FuelTank_Size6_Class3"
     },
     {
       "class": 7,
@@ -68,7 +74,8 @@
       "fuel": 128,
       "grp": "ft",
       "id": "f7",
-      "rating": "C"
+      "rating": "C",
+      "symbol": "Int_FuelTank_Size7_Class3"
     },
     {
       "class": 8,
@@ -78,7 +85,8 @@
       "fuel": 256,
       "grp": "ft",
       "id": "f8",
-      "rating": "C"
+      "rating": "C",
+      "symbol": "Int_FuelTank_Size8_Class3"
     }
   ]
 }

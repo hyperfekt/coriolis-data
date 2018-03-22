@@ -10,7 +10,8 @@
       "mass": 1.3,
       "name": "Detailed Surface Scanner",
       "power": 0,
-      "rating": "C"
+      "rating": "C",
+      "symbol": "Int_DetailedSurfaceScanner_Tiny"
     }
   ]
 }

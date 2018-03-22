@@ -11,7 +11,8 @@
       "integrity": 135,
       "mass": 160,
       "pgen": 24,
-      "rating": "E"
+      "rating": "E",
+      "symbol": "Int_Powerplant_Size8_Class1"
     },
     {
       "class": 8,
@@ -24,7 +25,8 @@
       "integrity": 120,
       "mass": 64,
       "pgen": 27,
-      "rating": "D"
+      "rating": "D",
+      "symbol": "Int_Powerplant_Size8_Class2"
     },
     {
       "class": 8,
@@ -37,7 +39,8 @@
       "integrity": 150,
       "mass": 80,
       "pgen": 30,
-      "rating": "C"
+      "rating": "C",
+      "symbol": "Int_Powerplant_Size8_Class3"
     },
     {
       "class": 8,
@@ -50,7 +53,8 @@
       "integrity": 180,
       "mass": 128,
       "pgen": 33,
-      "rating": "B"
+      "rating": "B",
+      "symbol": "Int_Powerplant_Size8_Class4"
     },
     {
       "class": 8,
@@ -63,7 +67,8 @@
       "integrity": 165,
       "mass": 80,
       "pgen": 36,
-      "rating": "A"
+      "rating": "A",
+      "symbol": "Int_Powerplant_Size8_Class5"
     },
     {
       "class": 7,
@@ -76,7 +81,8 @@
       "integrity": 118,
       "mass": 80,
       "pgen": 20,
-      "rating": "E"
+      "rating": "E",
+      "symbol": "Int_Powerplant_Size7_Class1"
     },
     {
       "class": 7,
@@ -89,7 +95,8 @@
       "integrity": 105,
       "mass": 32,
       "pgen": 22.5,
-      "rating": "D"
+      "rating": "D",
+      "symbol": "Int_Powerplant_Size7_Class2"
     },
     {
       "class": 7,
@@ -102,7 +109,8 @@
       "integrity": 131,
       "mass": 40,
       "pgen": 25,
-      "rating": "C"
+      "rating": "C",
+      "symbol": "Int_Powerplant_Size7_Class3"
     },
     {
       "class": 7,
@@ -115,7 +123,8 @@
       "integrity": 157,
       "mass": 64,
       "pgen": 27.5,
-      "rating": "B"
+      "rating": "B",
+      "symbol": "Int_Powerplant_Size7_Class4"
     },
     {
       "class": 7,
@@ -128,7 +137,8 @@
       "integrity": 144,
       "mass": 40,
       "pgen": 30,
-      "rating": "A"
+      "rating": "A",
+      "symbol": "Int_Powerplant_Size7_Class5"
     },
     {
       "class": 6,
@@ -141,7 +151,8 @@
       "integrity": 102,
       "mass": 40,
       "pgen": 16.8,
-      "rating": "E"
+      "rating": "E",
+      "symbol": "Int_Powerplant_Size6_Class1"
     },
     {
       "class": 6,
@@ -154,7 +165,8 @@
       "integrity": 90,
       "mass": 16,
       "pgen": 18.9,
-      "rating": "D"
+      "rating": "D",
+      "symbol": "Int_Powerplant_Size6_Class2"
     },
     {
       "class": 6,
@@ -167,7 +179,8 @@
       "integrity": 113,
       "mass": 20,
       "pgen": 21,
-      "rating": "C"
+      "rating": "C",
+      "symbol": "Int_Powerplant_Size6_Class3"
     },
     {
       "class": 6,
@@ -180,7 +193,8 @@
       "integrity": 136,
       "mass": 32,
       "pgen": 23.1,
-      "rating": "B"
+      "rating": "B",
+      "symbol": "Int_Powerplant_Size6_Class4"
     },
     {
       "class": 6,
@@ -193,7 +207,8 @@
       "integrity": 124,
       "mass": 20,
       "pgen": 25.2,
-      "rating": "A"
+      "rating": "A",
+      "symbol": "Int_Powerplant_Size6_Class5"
     },
     {
       "class": 5,
@@ -206,7 +221,8 @@
       "integrity": 86,
       "mass": 20,
       "pgen": 13.6,
-      "rating": "E"
+      "rating": "E",
+      "symbol": "Int_Powerplant_Size5_Class1"
     },
     {
       "class": 5,
@@ -219,7 +235,8 @@
       "integrity": 77,
       "mass": 8,
       "pgen": 15.3,
-      "rating": "D"
+      "rating": "D",
+      "symbol": "Int_Powerplant_Size5_Class2"
     },
     {
       "class": 5,
@@ -232,7 +249,8 @@
       "integrity": 96,
       "mass": 10,
       "pgen": 17,
-      "rating": "C"
+      "rating": "C",
+      "symbol": "Int_Powerplant_Size5_Class3"
     },
     {
       "class": 5,
@@ -245,7 +263,8 @@
       "integrity": 114,
       "mass": 16,
       "pgen": 18.7,
-      "rating": "B"
+      "rating": "B",
+      "symbol": "Int_Powerplant_Size5_Class4"
     },
     {
       "class": 5,
@@ -258,7 +277,8 @@
       "integrity": 106,
       "mass": 10,
       "pgen": 20.4,
-      "rating": "A"
+      "rating": "A",
+      "symbol": "Int_Powerplant_Size5_Class5"
     },
     {
       "class": 4,
@@ -271,7 +291,8 @@
       "integrity": 72,
       "mass": 10,
       "pgen": 10.4,
-      "rating": "E"
+      "rating": "E",
+      "symbol": "Int_Powerplant_Size4_Class1"
     },
     {
       "class": 4,
@@ -284,7 +305,8 @@
       "integrity": 64,
       "mass": 4,
       "pgen": 11.7,
-      "rating": "D"
+      "rating": "D",
+      "symbol": "Int_Powerplant_Size4_Class2"
     },
     {
       "class": 4,
@@ -297,7 +319,8 @@
       "integrity": 80,
       "mass": 5,
       "pgen": 13,
-      "rating": "C"
+      "rating": "C",
+      "symbol": "Int_Powerplant_Size4_Class3"
     },
     {
       "class": 4,
@@ -310,7 +333,8 @@
       "integrity": 96,
       "mass": 8,
       "pgen": 14.3,
-      "rating": "B"
+      "rating": "B",
+      "symbol": "Int_Powerplant_Size4_Class4"
     },
     {
       "class": 4,
@@ -323,7 +347,8 @@
       "integrity": 88,
       "mass": 5,
       "pgen": 15.6,
-      "rating": "A"
+      "rating": "A",
+      "symbol": "Int_Powerplant_Size4_Class5"
     },
     {
       "class": 3,
@@ -336,7 +361,8 @@
       "integrity": 58,
       "mass": 5,
       "pgen": 8,
-      "rating": "E"
+      "rating": "E",
+      "symbol": "Int_Powerplant_Size3_Class1"
     },
     {
       "class": 3,
@@ -349,7 +375,8 @@
       "integrity": 51,
       "mass": 2,
       "pgen": 9,
-      "rating": "D"
+      "rating": "D",
+      "symbol": "Int_Powerplant_Size3_Class2"
     },
     {
       "class": 3,
@@ -362,7 +389,8 @@
       "integrity": 64,
       "mass": 2.5,
       "pgen": 10,
-      "rating": "C"
+      "rating": "C",
+      "symbol": "Int_Powerplant_Size3_Class3"
     },
     {
       "class": 3,
@@ -375,7 +403,8 @@
       "integrity": 77,
       "mass": 4,
       "pgen": 11,
-      "rating": "B"
+      "rating": "B",
+      "symbol": "Int_Powerplant_Size3_Class4"
     },
     {
       "class": 3,
@@ -388,7 +417,8 @@
       "integrity": 70,
       "mass": 2.5,
       "pgen": 12,
-      "rating": "A"
+      "rating": "A",
+      "symbol": "Int_Powerplant_Size3_Class5"
     },
     {
       "class": 2,
@@ -401,7 +431,8 @@
       "integrity": 46,
       "mass": 2.5,
       "pgen": 6.4,
-      "rating": "E"
+      "rating": "E",
+      "symbol": "Int_Powerplant_Size2_Class1"
     },
     {
       "class": 2,
@@ -414,7 +445,8 @@
       "integrity": 41,
       "mass": 1,
       "pgen": 7.2,
-      "rating": "D"
+      "rating": "D",
+      "symbol": "Int_Powerplant_Size2_Class2"
     },
     {
       "class": 2,
@@ -427,7 +459,8 @@
       "integrity": 51,
       "mass": 1.3,
       "pgen": 8,
-      "rating": "C"
+      "rating": "C",
+      "symbol": "Int_Powerplant_Size2_Class3"
     },
     {
       "class": 2,
@@ -440,7 +473,8 @@
       "integrity": 61,
       "mass": 2,
       "pgen": 8.8,
-      "rating": "B"
+      "rating": "B",
+      "symbol": "Int_Powerplant_Size2_Class4"
     },
     {
       "class": 2,
@@ -453,7 +487,8 @@
       "integrity": 56,
       "mass": 1.3,
       "pgen": 9.6,
-      "rating": "A"
+      "rating": "A",
+      "symbol": "Int_Powerplant_Size2_Class5"
     }
   ]
 }

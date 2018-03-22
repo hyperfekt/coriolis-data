@@ -16,8 +16,8 @@
       "rating": "F",
       "cooldown": 10,
       "duration": 1,
-      "range": 3000
+      "range": 3000,
+      "symbol": "Hpt_AntiUnknownShutdown_Tiny"
     }
   ]
 }
-  

@@ -28,7 +28,8 @@
       "rating": "D",
       "reload": 1,
       "rof": 1.6,
-      "thermload": 12
+      "thermload": 12,
+      "symbol": "Hpt_Railgun_Fixed_Small"
     },
     {
       "ammo": 80,
@@ -58,7 +59,8 @@
       "rating": "B",
       "reload": 1,
       "rof": 1.2,
-      "thermload": 20
+      "thermload": 20,
+      "symbol": "Hpt_Railgun_Fixed_Medium"
     },
     {
       "ammo": 240,
@@ -92,7 +94,8 @@
       "rating": "B",
       "reload": 1,
       "rof": 4.1,
-      "thermload": 11
+      "thermload": 11,
+      "symbol": "Hpt_Railgun_Fixed_Medium_Burst"
     }
   ]
 }

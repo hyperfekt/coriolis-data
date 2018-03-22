@@ -13,7 +13,8 @@
       "mass": 20,
       "power": 0.25,
       "rating": "D",
-      "rebuildsperbay": 6
+      "rebuildsperbay": 6,
+      "symbol": "Int_FighterBay_Size5_Class1"
     },
     {
       "bays": 2,
@@ -28,7 +29,8 @@
       "mass": 40,
       "power": 0.35,
       "rating": "D",
-      "rebuildsperbay": 8
+      "rebuildsperbay": 8,
+      "symbol": "Int_FighterBay_Size6_Class1"
     },
     {
       "bays": 2,
@@ -43,7 +45,8 @@
       "mass": 60,
       "power": 0.35,
       "rating": "D",
-      "rebuildsperbay": 15
+      "rebuildsperbay": 15,
+      "symbol": "Int_FighterBay_Size7_Class1"
     }
   ]
 }
