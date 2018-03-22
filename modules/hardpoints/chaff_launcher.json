@@ -20,7 +20,8 @@
       "rating": "I",
       "reload": 10,
       "rof": 1,
-      "thermload": 4
+      "thermload": 4,
+      "symbol": "Hpt_ChaffLauncher_Tiny"
     }
   ]
 }

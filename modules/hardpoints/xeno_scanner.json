@@ -15,8 +15,8 @@
       "rating": "E",
       "boot": 2,
       "scantime": 10,
-      "angle": 23
+      "angle": 23,
+      "symbol": "Hpt_XenoScanner_Basic_Tiny"
     }
   ]
 }
-  

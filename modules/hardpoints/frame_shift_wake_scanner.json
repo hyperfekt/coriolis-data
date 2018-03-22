@@ -12,7 +12,8 @@
       "power": 0.2,
       "range": 2000,
       "rating": "E",
-      "scantime": 10
+      "scantime": 10,
+      "symbol": "Hpt_CloudScanner_Size0_Class1"
     },
     {
       "class": 0,
@@ -26,7 +27,8 @@
       "power": 0.4,
       "range": 2500,
       "rating": "D",
-      "scantime": 10
+      "scantime": 10,
+      "symbol": "Hpt_CloudScanner_Size0_Class2"
     },
     {
       "class": 0,
@@ -40,7 +42,8 @@
       "power": 0.8,
       "range": 3000,
       "rating": "C",
-      "scantime": 10
+      "scantime": 10,
+      "symbol": "Hpt_CloudScanner_Size0_Class3"
     },
     {
       "class": 0,
@@ -54,7 +57,8 @@
       "power": 1.6,
       "range": 3500,
       "rating": "B",
-      "scantime": 10
+      "scantime": 10,
+      "symbol": "Hpt_CloudScanner_Size0_Class4"
     },
     {
       "class": 0,
@@ -68,7 +72,8 @@
       "power": 3.2,
       "range": 4000,
       "rating": "A",
-      "scantime": 10
+      "scantime": 10,
+      "symbol": "Hpt_CloudScanner_Size0_Class5"
     }
   ]
 }

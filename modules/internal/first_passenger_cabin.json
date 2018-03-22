@@ -9,7 +9,8 @@
       "id": "mj",
       "mass": 10,
       "passengers": 3,
-      "rating": "C"
+      "rating": "C",
+      "symbol": "Int_PassengerCabin_Size4_Class3"
     },
     {
       "class": 5,
@@ -20,7 +21,8 @@
       "id": "mk",
       "mass": 20,
       "passengers": 6,
-      "rating": "C"
+      "rating": "C",
+      "symbol": "Int_PassengerCabin_Size5_Class3"
     },
     {
       "class": 6,
@@ -31,7 +33,8 @@
       "id": "ml",
       "mass": 40,
       "passengers": 12,
-      "rating": "C"
+      "rating": "C",
+      "symbol": "Int_PassengerCabin_Size6_Class3"
     }
   ]
 }

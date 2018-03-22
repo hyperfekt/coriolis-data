@@ -17,7 +17,8 @@
       "range": 3000,
       "rating": "F",
       "reload": 10,
-      "thermload": 4
+      "thermload": 4,
+      "symbol": "Hpt_ElectronicCountermeasure_Tiny"
     }
   ]
 }

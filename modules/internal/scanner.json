@@ -12,7 +12,8 @@
       "name": "Advanced Discovery Scanner",
       "power": 0,
       "rangeLS": null,
-      "rating": "C"
+      "rating": "C",
+      "symbol": "Int_StellarBodyDiscoveryScanner_Advanced"
     },
     {
       "class": 1,
@@ -26,7 +27,8 @@
       "name": "Intermediate Discovery Scanner",
       "power": 0,
       "rangeLS": 1000,
-      "rating": "D"
+      "rating": "D",
+      "symbol": "Int_StellarBodyDiscoveryScanner_Intermediate"
     },
     {
       "class": 1,
@@ -40,7 +42,8 @@
       "name": "Basic Discovery Scanner",
       "power": 0,
       "rangeLS": 500,
-      "rating": "E"
+      "rating": "E",
+      "symbol": "Int_StellarBodyDiscoveryScanner_Standard"
     }
   ]
 }

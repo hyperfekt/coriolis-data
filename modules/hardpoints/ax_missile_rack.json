@@ -28,7 +28,8 @@
       "reload": 5,
       "rof": 0.5,
       "shotspeed": 750,
-      "thermload": 2.4
+      "thermload": 2.4,
+      "symbol": "Hpt_ATDumbfireMissile_Fixed_Medium"
     },
     {
       "ammo": 64,
@@ -58,7 +59,8 @@
       "reload": 5,
       "rof": 0.5,
       "shotspeed": 750,
-      "thermload": 1.5
+      "thermload": 1.5,
+      "symbol": "Hpt_ATDumbfireMissile_Turret_Medium"
     },
     {
       "ammo": 128,
@@ -88,7 +90,8 @@
       "reload": 5,
       "rof": 0.5,
       "shotspeed": 750,
-      "thermload": 3.6
+      "thermload": 3.6,
+      "symbol": "Hpt_ATDumbfireMissile_Fixed_Large"
     },
     {
       "ammo": 128,
@@ -118,7 +121,8 @@
       "reload": 5,
       "rof": 0.5,
       "shotspeed": 750,
-      "thermload": 1.9
+      "thermload": 1.9,
+      "symbol": "Hpt_ATDumbfireMissile_Turret_Large"
     }
   ]
 }

@@ -12,7 +12,8 @@
       "kinres": 0.005,
       "mass": 2,
       "rating": "E",
-      "thermres": 0.005
+      "thermres": 0.005,
+      "symbol": "Int_HullReinforcement_Size1_Class1"
     },
     {
       "hullreinforcement": 110,
@@ -26,7 +27,8 @@
       "kinres": 0.005,
       "mass": 1,
       "rating": "D",
-      "thermres": 0.005
+      "thermres": 0.005,
+      "symbol": "Int_HullReinforcement_Size1_Class2"
     },
     {
       "hullreinforcement": 150,
@@ -40,7 +42,8 @@
       "kinres": 0.01,
       "mass": 4,
       "rating": "E",
-      "thermres": 0.01
+      "thermres": 0.01,
+      "symbol": "Int_HullReinforcement_Size2_Class1"
     },
     {
       "hullreinforcement": 190,
@@ -54,7 +57,8 @@
       "kinres": 0.01,
       "mass": 2,
       "rating": "D",
-      "thermres": 0.01
+      "thermres": 0.01,
+      "symbol": "Int_HullReinforcement_Size2_Class2"
     },
     {
       "hullreinforcement": 230,
@@ -68,7 +72,8 @@
       "kinres": 0.015,
       "mass": 8,
       "rating": "E",
-      "thermres": 0.015
+      "thermres": 0.015,
+      "symbol": "Int_HullReinforcement_Size3_Class1"
     },
     {
       "hullreinforcement": 260,
@@ -82,7 +87,8 @@
       "kinres": 0.015,
       "mass": 4,
       "rating": "D",
-      "thermres": 0.015
+      "thermres": 0.015,
+      "symbol": "Int_HullReinforcement_Size3_Class2"
     },
     {
       "hullreinforcement": 300,
@@ -96,7 +102,8 @@
       "kinres": 0.02,
       "mass": 16,
       "rating": "E",
-      "thermres": 0.02
+      "thermres": 0.02,
+      "symbol": "Int_HullReinforcement_Size4_Class1"
     },
     {
       "hullreinforcement": 330,
@@ -110,7 +117,8 @@
       "kinres": 0.02,
       "mass": 8,
       "rating": "D",
-      "thermres": 0.02
+      "thermres": 0.02,
+      "symbol": "Int_HullReinforcement_Size4_Class2"
     },
     {
       "hullreinforcement": 360,
@@ -124,7 +132,8 @@
       "kinres": 0.025,
       "mass": 32,
       "rating": "E",
-      "thermres": 0.025
+      "thermres": 0.025,
+      "symbol": "Int_HullReinforcement_Size5_Class1"
     },
     {
       "hullreinforcement": 390,
@@ -138,7 +147,8 @@
       "kinres": 0.025,
       "mass": 16,
       "rating": "D",
-      "thermres": 0.025
+      "thermres": 0.025,
+      "symbol": "Int_HullReinforcement_Size5_Class2"
     }
   ]
 }

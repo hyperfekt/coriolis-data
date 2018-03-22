@@ -27,7 +27,8 @@
       "reload": 5,
       "rof": 0.5,
       "shotspeed": 750,
-      "thermload": 3.6
+      "thermload": 3.6,
+      "symbol": "Hpt_DumbfireMissileRack_Fixed_Small"
     },
     {
       "ammo": 6,
@@ -56,7 +57,8 @@
       "reload": 12,
       "rof": 0.333,
       "shotspeed": 625,
-      "thermload": 3.6
+      "thermload": 3.6,
+      "symbol": "Hpt_BasicMissileRack_Fixed_Small"
     },
     {
       "ammo": 48,
@@ -87,7 +89,8 @@
       "reload": 5,
       "rof": 0.5,
       "shotspeed": 750,
-      "thermload": 3.6
+      "thermload": 3.6,
+      "symbol": "Hpt_DumbfireMissileRack_Fixed_Medium"
     },
     {
       "ammo": 18,
@@ -118,7 +121,8 @@
       "reload": 12,
       "rof": 0.333,
       "shotspeed": 625,
-      "thermload": 3.6
+      "thermload": 3.6,
+      "symbol": "Hpt_BasicMissileRack_Fixed_Medium"
     },
     {
       "ammo": 48,
@@ -149,7 +153,8 @@
       "reload": 5,
       "rof": 0.333,
       "shotspeed": 750,
-      "thermload": 3.6
+      "thermload": 3.6,
+      "symbol": "Hpt_DumbfireMissileRack_Fixed_Medium_Lasso"
     },
     {
       "ammo": 120,
@@ -183,7 +188,8 @@
       "rof": 2,
       "roundspershot": 4,
       "shotspeed": 600,
-      "thermload": 3.6
+      "thermload": 3.6,
+      "symbol": "Hpt_DrunkMissileRack_Fixed_Medium"
     }
   ]
 }

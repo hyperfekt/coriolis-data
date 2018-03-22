@@ -19,7 +19,7 @@
       "grp": "fc",
       "id": "20",
       "integrity": 40,
-      "jitter":5,
+      "jitter": 5,
       "mass": 2,
       "mount": "F",
       "piercing": 20,
@@ -30,7 +30,8 @@
       "rof": 5.555,
       "roundspershot": 12,
       "shotspeed": 667,
-      "thermload": 0.4
+      "thermload": 0.4,
+      "symbol": "Hpt_Slugshot_Fixed_Small"
     },
     {
       "ammo": 180,
@@ -62,7 +63,8 @@
       "rof": 5.88,
       "roundspershot": 12,
       "shotspeed": 667,
-      "thermload": 0.4
+      "thermload": 0.4,
+      "symbol": "Hpt_Slugshot_Gimbal_Small"
     },
     {
       "ammo": 180,
@@ -94,7 +96,8 @@
       "rof": 4.76,
       "roundspershot": 12,
       "shotspeed": 667,
-      "thermload": 0.2
+      "thermload": 0.2,
+      "symbol": "Hpt_Slugshot_Turret_Small"
     },
     {
       "ammo": 180,
@@ -126,7 +129,8 @@
       "rof": 4.975,
       "roundspershot": 12,
       "shotspeed": 667,
-      "thermload": 0.7
+      "thermload": 0.7,
+      "symbol": "Hpt_Slugshot_Fixed_Medium"
     },
     {
       "ammo": 180,
@@ -158,7 +162,8 @@
       "rof": 5.26,
       "roundspershot": 12,
       "shotspeed": 667,
-      "thermload": 0.8
+      "thermload": 0.8,
+      "symbol": "Hpt_Slugshot_Gimbal_Medium"
     },
     {
       "ammo": 180,
@@ -190,7 +195,8 @@
       "rof": 4.26,
       "roundspershot": 12,
       "shotspeed": 667,
-      "thermload": 0.4
+      "thermload": 0.4,
+      "symbol": "Hpt_Slugshot_Turret_Medium"
     },
     {
       "ammo": 180,
@@ -222,7 +228,8 @@
       "rof": 4.545,
       "roundspershot": 12,
       "shotspeed": 667,
-      "thermload": 1.1
+      "thermload": 1.1,
+      "symbol": "Hpt_Slugshot_Fixed_Large"
     },
     {
       "ammo": 180,
@@ -254,7 +261,8 @@
       "rof": 4.76,
       "roundspershot": 12,
       "shotspeed": 667,
-      "thermload": 1.4
+      "thermload": 1.4,
+      "symbol": "Hpt_Slugshot_Gimbal_Large"
     },
     {
       "ammo": 180,
@@ -286,7 +294,8 @@
       "rof": 4,
       "roundspershot": 12,
       "shotspeed": 667,
-      "thermload": 0.7
+      "thermload": 0.7,
+      "symbol": "Hpt_Slugshot_Turret_Large"
     },
     {
       "ammo": 180,
@@ -319,7 +328,8 @@
       "rof": 4.5,
       "roundspershot": 12,
       "shotspeed": 1000,
-      "thermload": 1.1
+      "thermload": 1.1,
+      "symbol": "Hpt_Slugshot_Fixed_Large_Range"
     }
   ]
 }

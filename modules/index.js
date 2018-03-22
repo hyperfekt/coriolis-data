@@ -64,4 +64,4 @@ module.exports = {
     ss: require('./internal/surface_scanner').ss,
     rpl: require('./internal/repair_limpet_controller').rpl
   }
-};
+}
