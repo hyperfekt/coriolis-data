@@ -9,7 +9,8 @@
       "id": "mm",
       "mass": 20,
       "passengers": 4,
-      "rating": "B"
+      "rating": "B",
+      "symbol": "Int_PassengerCabin_Size5_Class4"
     },
     {
       "class": 6,
@@ -20,7 +21,8 @@
       "id": "mn",
       "mass": 40,
       "passengers": 8,
-      "rating": "B"
+      "rating": "B",
+      "symbol": "Int_PassengerCabin_Size6_Class4"
     }
   ]
 }

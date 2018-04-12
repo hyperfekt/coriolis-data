@@ -22,7 +22,8 @@
       "power": 1.2,
       "rating": "C",
       "regen": 1.8,
-      "thermres": -0.2
+      "thermres": -0.2,
+      "symbol": "Int_ShieldGenerator_Size1_Class3_Fast"
     },
     {
       "brokenregen": 2.4,
@@ -46,7 +47,8 @@
       "power": 1.5,
       "rating": "C",
       "regen": 1.8,
-      "thermres": -0.2
+      "thermres": -0.2,
+      "symbol": "Int_ShieldGenerator_Size2_Class3_Fast"
     },
     {
       "brokenregen": 2.8,
@@ -70,7 +72,8 @@
       "power": 1.8,
       "rating": "C",
       "regen": 1.8,
-      "thermres": -0.2
+      "thermres": -0.2,
+      "symbol": "Int_ShieldGenerator_Size3_Class3_Fast"
     },
     {
       "brokenregen": 3.8,
@@ -94,7 +97,8 @@
       "power": 2.2,
       "rating": "C",
       "regen": 1.8,
-      "thermres": -0.2
+      "thermres": -0.2,
+      "symbol": "Int_ShieldGenerator_Size4_Class3_Fast"
     },
     {
       "brokenregen": 5.6,
@@ -118,7 +122,8 @@
       "power": 2.6,
       "rating": "C",
       "regen": 2.2,
-      "thermres": -0.2
+      "thermres": -0.2,
+      "symbol": "Int_ShieldGenerator_Size5_Class3_Fast"
     },
     {
       "brokenregen": 8,
@@ -142,7 +147,8 @@
       "power": 3.1,
       "rating": "C",
       "regen": 3.2,
-      "thermres": -0.2
+      "thermres": -0.2,
+      "symbol": "Int_ShieldGenerator_Size6_Class3_Fast"
     },
     {
       "brokenregen": 11,
@@ -166,7 +172,8 @@
       "power": 3.5,
       "rating": "C",
       "regen": 4.4,
-      "thermres": -0.2
+      "thermres": -0.2,
+      "symbol": "Int_ShieldGenerator_Size7_Class3_Fast"
     },
     {
       "brokenregen": 14.4,
@@ -190,7 +197,8 @@
       "power": 4,
       "rating": "C",
       "regen": 5.8,
-      "thermres": -0.2
+      "thermres": -0.2,
+      "symbol": "Int_ShieldGenerator_Size8_Class3_Fast"
     }
   ]
 }

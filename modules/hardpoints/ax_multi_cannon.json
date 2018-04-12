@@ -28,7 +28,8 @@
       "reload": 4,
       "rof": 7.1,
       "shotspeed": 1600,
-      "thermload": 0.2
+      "thermload": 0.2,
+      "symbol": "Hpt_ATMultiCannon_Fixed_Medium"
     },
     {
       "ammo": 2100,
@@ -58,7 +59,8 @@
       "reload": 4,
       "rof": 6.2,
       "shotspeed": 1600,
-      "thermload": 0.1
+      "thermload": 0.1,
+      "symbol": "Hpt_ATMultiCannon_Turret_Medium"
     },
     {
       "ammo": 2100,
@@ -88,7 +90,8 @@
       "reload": 4,
       "rof": 5.9,
       "shotspeed": 1600,
-      "thermload": 0.3
+      "thermload": 0.3,
+      "symbol": "Hpt_ATMultiCannon_Fixed_Large"
     },
     {
       "ammo": 2100,
@@ -118,7 +121,8 @@
       "reload": 4,
       "rof": 6.2,
       "shotspeed": 1600,
-      "thermload": 0.1
+      "thermload": 0.1,
+      "symbol": "Hpt_ATMultiCannon_Turret_Large"
     }
   ]
 }

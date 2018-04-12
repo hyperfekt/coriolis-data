@@ -9,7 +9,8 @@
       "id": "PA",
       "mass": 0,
       "power": 0,
-      "rating": "I"
+      "rating": "I",
+      "symbol": "Int_PlanetApproachSuite"
     }
   ]
 }

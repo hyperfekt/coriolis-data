@@ -26,7 +26,8 @@
       "range": 3000,
       "rating": "F",
       "rof": 2,
-      "thermload": 0.38
+      "thermload": 0.38,
+      "symbol": "Hpt_PulseLaserBurst_Fixed_Small"
     },
     {
       "breachdmg": 1,
@@ -54,7 +55,8 @@
       "range": 3000,
       "rating": "G",
       "rof": 2.23,
-      "thermload": 0.34
+      "thermload": 0.34,
+      "symbol": "Hpt_PulseLaserBurst_Gimbal_Small"
     },
     {
       "breachdmg": 0.4,
@@ -82,7 +84,8 @@
       "range": 3000,
       "rating": "G",
       "rof": 1.92,
-      "thermload": 0.19
+      "thermload": 0.19,
+      "symbol": "Hpt_PulseLaserBurst_Turret_Small"
     },
     {
       "breachdmg": 3.1,
@@ -113,7 +116,8 @@
       "range": 3000,
       "rating": "F",
       "rof": 7.6,
-      "thermload": 0.3
+      "thermload": 0.3,
+      "symbol": "Hpt_PulseLaserBurst_Fixed_Small_Scatter"
     },
     {
       "breachdmg": 3,
@@ -141,7 +145,8 @@
       "range": 3000,
       "rating": "E",
       "rof": 1.6,
-      "thermload": 0.78
+      "thermload": 0.78,
+      "symbol": "Hpt_PulseLaserBurst_Fixed_Medium"
     },
     {
       "breachdmg": 2.1,
@@ -169,7 +174,8 @@
       "range": 3000,
       "rating": "F",
       "rof": 1.78,
-      "thermload": 0.67
+      "thermload": 0.67,
+      "symbol": "Hpt_PulseLaserBurst_Gimbal_Medium"
     },
     {
       "breachdmg": 0.9,
@@ -197,7 +203,8 @@
       "range": 3000,
       "rating": "F",
       "rof": 1.57,
-      "thermload": 0.38
+      "thermload": 0.38,
+      "symbol": "Hpt_PulseLaserBurst_Turret_Medium"
     },
     {
       "breachdmg": 3.9,
@@ -225,7 +232,8 @@
       "range": 3000,
       "rating": "D",
       "rof": 1.2,
-      "thermload": 1.7
+      "thermload": 1.7,
+      "symbol": "Hpt_PulseLaserBurst_Fixed_Large"
     },
     {
       "breachdmg": 4.4,
@@ -253,7 +261,8 @@
       "range": 3000,
       "rating": "E",
       "rof": 1.4,
-      "thermload": 1.42
+      "thermload": 1.42,
+      "symbol": "Hpt_PulseLaserBurst_Gimbal_Large"
     },
     {
       "breachdmg": 1.8,
@@ -281,7 +290,8 @@
       "range": 3000,
       "rating": "E",
       "rof": 1.272,
-      "thermload": 0.78
+      "thermload": 0.78,
+      "symbol": "Hpt_PulseLaserBurst_Turret_Large"
     },
     {
       "breachdmg": 17.5,
@@ -309,7 +319,8 @@
       "range": 3000,
       "rating": "E",
       "rof": 0.8,
-      "thermload": 4.53
+      "thermload": 4.53,
+      "symbol": "Hpt_PulseLaserBurst_Fixed_Huge"
     },
     {
       "breachdmg": 10.3,
@@ -337,7 +348,8 @@
       "range": 3000,
       "rating": "E",
       "rof": 1,
-      "thermload": 3.33
+      "thermload": 3.33,
+      "symbol": "Hpt_PulseLaserBurst_Gimbal_Huge"
     }
   ]
 }

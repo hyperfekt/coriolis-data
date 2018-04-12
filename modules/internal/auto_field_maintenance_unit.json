@@ -11,7 +11,8 @@
       "id": "0c",
       "power": 0.54,
       "rating": "E",
-      "repair": 12
+      "repair": 12,
+      "symbol": "Int_Repairer_Size1_Class1"
     },
     {
       "ammo": 900,
@@ -24,7 +25,8 @@
       "id": "0b",
       "power": 0.72,
       "rating": "D",
-      "repair": 14.4
+      "repair": 14.4,
+      "symbol": "Int_Repairer_Size1_Class2"
     },
     {
       "ammo": 1000,
@@ -37,7 +39,8 @@
       "id": "0a",
       "power": 0.9,
       "rating": "C",
-      "repair": 20
+      "repair": 20,
+      "symbol": "Int_Repairer_Size1_Class3"
     },
     {
       "ammo": 1200,
@@ -50,7 +53,8 @@
       "id": "09",
       "power": 1.04,
       "rating": "B",
-      "repair": 27.6
+      "repair": 27.6,
+      "symbol": "Int_Repairer_Size1_Class4"
     },
     {
       "ammo": 1100,
@@ -63,7 +67,8 @@
       "id": "08",
       "power": 1.26,
       "rating": "A",
-      "repair": 30.8
+      "repair": 30.8,
+      "symbol": "Int_Repairer_Size1_Class5"
     },
     {
       "ammo": 2300,
@@ -76,7 +81,8 @@
       "id": "0h",
       "power": 0.68,
       "rating": "E",
-      "repair": 27.6
+      "repair": 27.6,
+      "symbol": "Int_Repairer_Size2_Class1"
     },
     {
       "ammo": 2100,
@@ -89,7 +95,8 @@
       "id": "0g",
       "power": 0.9,
       "rating": "D",
-      "repair": 33.6
+      "repair": 33.6,
+      "symbol": "Int_Repairer_Size2_Class2"
     },
     {
       "ammo": 2300,
@@ -102,7 +109,8 @@
       "id": "0f",
       "power": 1.13,
       "rating": "C",
-      "repair": 46
+      "repair": 46,
+      "symbol": "Int_Repairer_Size2_Class3"
     },
     {
       "ammo": 2800,
@@ -115,7 +123,8 @@
       "id": "0e",
       "power": 1.29,
       "rating": "B",
-      "repair": 64.4
+      "repair": 64.4,
+      "symbol": "Int_Repairer_Size2_Class4"
     },
     {
       "ammo": 2500,
@@ -128,7 +137,8 @@
       "id": "0d",
       "power": 1.58,
       "rating": "A",
-      "repair": 70
+      "repair": 70,
+      "symbol": "Int_Repairer_Size2_Class5"
     },
     {
       "ammo": 3600,
@@ -141,7 +151,8 @@
       "id": "0m",
       "power": 0.81,
       "rating": "E",
-      "repair": 43.2
+      "repair": 43.2,
+      "symbol": "Int_Repairer_Size3_Class1"
     },
     {
       "ammo": 3200,
@@ -154,7 +165,8 @@
       "id": "0l",
       "power": 1.08,
       "rating": "D",
-      "repair": 51.2
+      "repair": 51.2,
+      "symbol": "Int_Repairer_Size3_Class2"
     },
     {
       "ammo": 3600,
@@ -167,7 +179,8 @@
       "id": "0k",
       "power": 1.35,
       "rating": "C",
-      "repair": 72
+      "repair": 72,
+      "symbol": "Int_Repairer_Size3_Class3"
     },
     {
       "ammo": 4300,
@@ -180,7 +193,8 @@
       "id": "0j",
       "power": 1.55,
       "rating": "B",
-      "repair": 98.9
+      "repair": 98.9,
+      "symbol": "Int_Repairer_Size3_Class4"
     },
     {
       "ammo": 4000,
@@ -193,7 +207,8 @@
       "id": "0i",
       "power": 1.89,
       "rating": "A",
-      "repair": 112
+      "repair": 112,
+      "symbol": "Int_Repairer_Size3_Class5"
     },
     {
       "ammo": 4900,
@@ -206,7 +221,8 @@
       "id": "0r",
       "power": 0.99,
       "rating": "E",
-      "repair": 58.8
+      "repair": 58.8,
+      "symbol": "Int_Repairer_Size4_Class1"
     },
     {
       "ammo": 4400,
@@ -219,7 +235,8 @@
       "id": "0q",
       "power": 1.32,
       "rating": "D",
-      "repair": 70.4
+      "repair": 70.4,
+      "symbol": "Int_Repairer_Size4_Class2"
     },
     {
       "ammo": 4900,
@@ -232,7 +249,8 @@
       "id": "0p",
       "power": 1.65,
       "rating": "C",
-      "repair": 98
+      "repair": 98,
+      "symbol": "Int_Repairer_Size4_Class3"
     },
     {
       "ammo": 5900,
@@ -245,7 +263,8 @@
       "id": "0o",
       "power": 1.9,
       "rating": "B",
-      "repair": 135.7
+      "repair": 135.7,
+      "symbol": "Int_Repairer_Size4_Class4"
     },
     {
       "ammo": 5400,
@@ -258,7 +277,8 @@
       "id": "0n",
       "power": 2.31,
       "rating": "A",
-      "repair": 151.2
+      "repair": 151.2,
+      "symbol": "Int_Repairer_Size4_Class5"
     },
     {
       "ammo": 6100,
@@ -271,7 +291,8 @@
       "id": "10",
       "power": 1.17,
       "rating": "E",
-      "repair": 73.2
+      "repair": 73.2,
+      "symbol": "Int_Repairer_Size5_Class1"
     },
     {
       "ammo": 5500,
@@ -284,7 +305,8 @@
       "id": "0v",
       "power": 1.56,
       "rating": "D",
-      "repair": 88
+      "repair": 88,
+      "symbol": "Int_Repairer_Size5_Class2"
     },
     {
       "ammo": 6100,
@@ -297,7 +319,8 @@
       "id": "0u",
       "power": 1.95,
       "rating": "C",
-      "repair": 122
+      "repair": 122,
+      "symbol": "Int_Repairer_Size5_Class3"
     },
     {
       "ammo": 7300,
@@ -310,7 +333,8 @@
       "id": "0t",
       "power": 2.24,
       "rating": "B",
-      "repair": 167.9
+      "repair": 167.9,
+      "symbol": "Int_Repairer_Size5_Class4"
     },
     {
       "ammo": 6700,
@@ -323,7 +347,8 @@
       "id": "0s",
       "power": 2.73,
       "rating": "A",
-      "repair": 187.6
+      "repair": 187.6,
+      "symbol": "Int_Repairer_Size5_Class5"
     },
     {
       "ammo": 7400,
@@ -336,7 +361,8 @@
       "id": "15",
       "power": 1.4,
       "rating": "E",
-      "repair": 88.8
+      "repair": 88.8,
+      "symbol": "Int_Repairer_Size6_Class1"
     },
     {
       "ammo": 6700,
@@ -349,7 +375,8 @@
       "id": "14",
       "power": 1.86,
       "rating": "D",
-      "repair": 107.2
+      "repair": 107.2,
+      "symbol": "Int_Repairer_Size6_Class2"
     },
     {
       "ammo": 7400,
@@ -362,7 +389,8 @@
       "id": "13",
       "power": 2.33,
       "rating": "C",
-      "repair": 148
+      "repair": 148,
+      "symbol": "Int_Repairer_Size6_Class3"
     },
     {
       "ammo": 8900,
@@ -375,7 +403,8 @@
       "id": "12",
       "power": 2.67,
       "rating": "B",
-      "repair": 204.7
+      "repair": 204.7,
+      "symbol": "Int_Repairer_Size6_Class4"
     },
     {
       "ammo": 8100,
@@ -388,7 +417,8 @@
       "id": "11",
       "power": 3.26,
       "rating": "A",
-      "repair": 226.8
+      "repair": 226.8,
+      "symbol": "Int_Repairer_Size6_Class5"
     },
     {
       "ammo": 8700,
@@ -401,7 +431,8 @@
       "id": "1a",
       "power": 1.58,
       "rating": "E",
-      "repair": 104.4
+      "repair": 104.4,
+      "symbol": "Int_Repairer_Size7_Class1"
     },
     {
       "ammo": 7800,
@@ -414,7 +445,8 @@
       "id": "19",
       "power": 2.1,
       "rating": "D",
-      "repair": 124.8
+      "repair": 124.8,
+      "symbol": "Int_Repairer_Size7_Class2"
     },
     {
       "ammo": 8700,
@@ -427,7 +459,8 @@
       "id": "18",
       "power": 2.63,
       "rating": "C",
-      "repair": 174
+      "repair": 174,
+      "symbol": "Int_Repairer_Size7_Class3"
     },
     {
       "ammo": 10400,
@@ -440,7 +473,8 @@
       "id": "17",
       "power": 3.02,
       "rating": "B",
-      "repair": 239.2
+      "repair": 239.2,
+      "symbol": "Int_Repairer_Size7_Class4"
     },
     {
       "ammo": 9600,
@@ -453,7 +487,8 @@
       "id": "16",
       "power": 3.68,
       "rating": "A",
-      "repair": 268.8
+      "repair": 268.8,
+      "symbol": "Int_Repairer_Size7_Class5"
     },
     {
       "ammo": 10000,
@@ -466,7 +501,8 @@
       "id": "1f",
       "power": 1.8,
       "rating": "E",
-      "repair": 120
+      "repair": 120,
+      "symbol": "Int_Repairer_Size8_Class1"
     },
     {
       "ammo": 9000,
@@ -479,7 +515,8 @@
       "id": "1e",
       "power": 2.4,
       "rating": "D",
-      "repair": 144
+      "repair": 144,
+      "symbol": "Int_Repairer_Size8_Class2"
     },
     {
       "ammo": 10000,
@@ -492,7 +529,8 @@
       "id": "1d",
       "power": 3,
       "rating": "C",
-      "repair": 200
+      "repair": 200,
+      "symbol": "Int_Repairer_Size8_Class3"
     },
     {
       "ammo": 12000,
@@ -505,7 +543,8 @@
       "id": "1c",
       "power": 3.45,
       "rating": "B",
-      "repair": 276
+      "repair": 276,
+      "symbol": "Int_Repairer_Size8_Class4"
     },
     {
       "ammo": 11000,
@@ -518,7 +557,8 @@
       "id": "1b",
       "power": 4.2,
       "rating": "A",
-      "repair": 308
+      "repair": 308,
+      "symbol": "Int_Repairer_Size8_Class5"
     }
   ]
 }

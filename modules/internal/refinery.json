@@ -9,7 +9,8 @@
       "grp": "rf",
       "id": "1k",
       "power": 0.14,
-      "rating": "E"
+      "rating": "E",
+      "symbol": "Int_Refinery_Size1_Class1"
     },
     {
       "bins": 1,
@@ -20,7 +21,8 @@
       "grp": "rf",
       "id": "1j",
       "power": 0.18,
-      "rating": "D"
+      "rating": "D",
+      "symbol": "Int_Refinery_Size1_Class2"
     },
     {
       "bins": 2,
@@ -31,7 +33,8 @@
       "grp": "rf",
       "id": "1i",
       "power": 0.23,
-      "rating": "C"
+      "rating": "C",
+      "symbol": "Int_Refinery_Size1_Class3"
     },
     {
       "bins": 3,
@@ -42,7 +45,8 @@
       "grp": "rf",
       "id": "1h",
       "power": 0.28,
-      "rating": "B"
+      "rating": "B",
+      "symbol": "Int_Refinery_Size1_Class4"
     },
     {
       "bins": 4,
@@ -53,7 +57,8 @@
       "grp": "rf",
       "id": "1g",
       "power": 0.32,
-      "rating": "A"
+      "rating": "A",
+      "symbol": "Int_Refinery_Size1_Class5"
     },
     {
       "bins": 2,
@@ -64,7 +69,8 @@
       "grp": "rf",
       "id": "1p",
       "power": 0.17,
-      "rating": "E"
+      "rating": "E",
+      "symbol": "Int_Refinery_Size2_Class1"
     },
     {
       "bins": 3,
@@ -75,7 +81,8 @@
       "grp": "rf",
       "id": "1o",
       "power": 0.22,
-      "rating": "D"
+      "rating": "D",
+      "symbol": "Int_Refinery_Size2_Class2"
     },
     {
       "bins": 4,
@@ -86,7 +93,8 @@
       "grp": "rf",
       "id": "1n",
       "power": 0.28,
-      "rating": "C"
+      "rating": "C",
+      "symbol": "Int_Refinery_Size2_Class3"
     },
     {
       "bins": 5,
@@ -97,7 +105,8 @@
       "grp": "rf",
       "id": "1m",
       "power": 0.34,
-      "rating": "B"
+      "rating": "B",
+      "symbol": "Int_Refinery_Size2_Class4"
     },
     {
       "bins": 6,
@@ -108,7 +117,8 @@
       "grp": "rf",
       "id": "1l",
       "power": 0.39,
-      "rating": "A"
+      "rating": "A",
+      "symbol": "Int_Refinery_Size2_Class5"
     },
     {
       "bins": 3,
@@ -119,7 +129,8 @@
       "grp": "rf",
       "id": "1u",
       "power": 0.2,
-      "rating": "E"
+      "rating": "E",
+      "symbol": "Int_Refinery_Size3_Class1"
     },
     {
       "bins": 4,
@@ -130,7 +141,8 @@
       "grp": "rf",
       "id": "1t",
       "power": 0.27,
-      "rating": "D"
+      "rating": "D",
+      "symbol": "Int_Refinery_Size3_Class2"
     },
     {
       "bins": 6,
@@ -141,7 +153,8 @@
       "grp": "rf",
       "id": "1s",
       "power": 0.34,
-      "rating": "C"
+      "rating": "C",
+      "symbol": "Int_Refinery_Size3_Class3"
     },
     {
       "bins": 7,
@@ -152,7 +165,8 @@
       "grp": "rf",
       "id": "1r",
       "power": 0.41,
-      "rating": "B"
+      "rating": "B",
+      "symbol": "Int_Refinery_Size3_Class4"
     },
     {
       "bins": 8,
@@ -163,7 +177,8 @@
       "grp": "rf",
       "id": "1q",
       "power": 0.48,
-      "rating": "A"
+      "rating": "A",
+      "symbol": "Int_Refinery_Size3_Class5"
     },
     {
       "bins": 4,
@@ -174,7 +189,8 @@
       "grp": "rf",
       "id": "23",
       "power": 0.25,
-      "rating": "E"
+      "rating": "E",
+      "symbol": "Int_Refinery_Size4_Class1"
     },
     {
       "bins": 5,
@@ -185,7 +201,8 @@
       "grp": "rf",
       "id": "22",
       "power": 0.33,
-      "rating": "D"
+      "rating": "D",
+      "symbol": "Int_Refinery_Size4_Class2"
     },
     {
       "bins": 7,
@@ -196,7 +213,8 @@
       "grp": "rf",
       "id": "21",
       "power": 0.41,
-      "rating": "C"
+      "rating": "C",
+      "symbol": "Int_Refinery_Size4_Class3"
     },
     {
       "bins": 9,
@@ -207,7 +225,8 @@
       "grp": "rf",
       "id": "20",
       "power": 0.49,
-      "rating": "B"
+      "rating": "B",
+      "symbol": "Int_Refinery_Size4_Class4"
     },
     {
       "bins": 10,
@@ -218,7 +237,8 @@
       "grp": "rf",
       "id": "1v",
       "power": 0.57,
-      "rating": "A"
+      "rating": "A",
+      "symbol": "Int_Refinery_Size4_Class5"
     }
   ]
 }
