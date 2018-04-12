@@ -3,7 +3,7 @@
 
 JSON Data modelling Elite Dangerous ships and components.
 
-See [the wiki](https://github.com/cmmcleod/coriolis-data/wiki) for more details
+See [the wiki](https://github.com/edcd/coriolis-data/wiki) for more details
 
 
 ## Development
