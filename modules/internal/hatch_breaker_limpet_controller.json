@@ -12,7 +12,8 @@
       "power": 0.12,
       "range": 1.5,
       "rating": "E",
-      "time": 42
+      "time": 42,
+      "symbol": "Int_DroneControl_ResourceSiphon_Size1_Class1"
     },
     {
       "class": 1,
@@ -26,7 +27,8 @@
       "power": 0.16,
       "range": 2,
       "rating": "D",
-      "time": 36
+      "time": 36,
+      "symbol": "Int_DroneControl_ResourceSiphon_Size1_Class2"
     },
     {
       "class": 1,
@@ -40,7 +42,8 @@
       "power": 0.2,
       "range": 2.5,
       "rating": "C",
-      "time": 30
+      "time": 30,
+      "symbol": "Int_DroneControl_ResourceSiphon_Size1_Class3"
     },
     {
       "class": 1,
@@ -54,7 +57,8 @@
       "power": 0.24,
       "range": 3,
       "rating": "B",
-      "time": 24
+      "time": 24,
+      "symbol": "Int_DroneControl_ResourceSiphon_Size1_Class4"
     },
     {
       "class": 1,
@@ -68,7 +72,8 @@
       "power": 0.28,
       "range": 3.5,
       "rating": "A",
-      "time": 18
+      "time": 18,
+      "symbol": "Int_DroneControl_ResourceSiphon_Size1_Class5"
     },
     {
       "class": 3,
@@ -82,7 +87,8 @@
       "power": 0.18,
       "range": 1.62,
       "rating": "E",
-      "time": 36
+      "time": 36,
+      "symbol": "Int_DroneControl_ResourceSiphon_Size3_Class1"
     },
     {
       "class": 3,
@@ -96,7 +102,8 @@
       "power": 0.24,
       "range": 2.16,
       "rating": "D",
-      "time": 31
+      "time": 31,
+      "symbol": "Int_DroneControl_ResourceSiphon_Size3_Class2"
     },
     {
       "class": 3,
@@ -110,7 +117,8 @@
       "power": 0.3,
       "range": 2.7,
       "rating": "C",
-      "time": 26
+      "time": 26,
+      "symbol": "Int_DroneControl_ResourceSiphon_Size3_Class3"
     },
     {
       "class": 3,
@@ -124,7 +132,8 @@
       "power": 0.36,
       "range": 3.24,
       "rating": "B",
-      "time": 21
+      "time": 21,
+      "symbol": "Int_DroneControl_ResourceSiphon_Size3_Class4"
     },
     {
       "class": 3,
@@ -138,7 +147,8 @@
       "power": 0.42,
       "range": 3.78,
       "rating": "A",
-      "time": 16
+      "time": 16,
+      "symbol": "Int_DroneControl_ResourceSiphon_Size3_Class5"
     },
     {
       "class": 5,
@@ -152,7 +162,8 @@
       "power": 0.3,
       "range": 1.98,
       "rating": "E",
-      "time": 31
+      "time": 31,
+      "symbol": "Int_DroneControl_ResourceSiphon_Size5_Class1"
     },
     {
       "class": 5,
@@ -166,7 +177,8 @@
       "power": 0.4,
       "range": 2.64,
       "rating": "D",
-      "time": 26
+      "time": 26,
+      "symbol": "Int_DroneControl_ResourceSiphon_Size5_Class2"
     },
     {
       "class": 5,
@@ -180,7 +192,8 @@
       "power": 0.5,
       "range": 3.3,
       "rating": "C",
-      "time": 22
+      "time": 22,
+      "symbol": "Int_DroneControl_ResourceSiphon_Size5_Class3"
     },
     {
       "class": 5,
@@ -194,7 +207,8 @@
       "power": 0.6,
       "range": 3.96,
       "rating": "B",
-      "time": 18
+      "time": 18,
+      "symbol": "Int_DroneControl_ResourceSiphon_Size5_Class4"
     },
     {
       "class": 5,
@@ -208,7 +222,8 @@
       "power": 0.7,
       "range": 4.62,
       "rating": "A",
-      "time": 13
+      "time": 13,
+      "symbol": "Int_DroneControl_ResourceSiphon_Size5_Class5"
     },
     {
       "class": 7,
@@ -222,7 +237,8 @@
       "power": 0.42,
       "range": 2.58,
       "rating": "E",
-      "time": 25
+      "time": 25,
+      "symbol": "Int_DroneControl_ResourceSiphon_Size7_Class1"
     },
     {
       "class": 7,
@@ -236,7 +252,8 @@
       "power": 0.56,
       "range": 3.44,
       "rating": "D",
-      "time": 22
+      "time": 22,
+      "symbol": "Int_DroneControl_ResourceSiphon_Size7_Class2"
     },
     {
       "class": 7,
@@ -250,7 +267,8 @@
       "power": 0.7,
       "range": 4.3,
       "rating": "C",
-      "time": 18
+      "time": 18,
+      "symbol": "Int_DroneControl_ResourceSiphon_Size7_Class3"
     },
     {
       "class": 7,
@@ -264,7 +282,8 @@
       "power": 0.84,
       "range": 5.16,
       "rating": "B",
-      "time": 14
+      "time": 14,
+      "symbol": "Int_DroneControl_ResourceSiphon_Size7_Class4"
     },
     {
       "class": 7,
@@ -278,7 +297,8 @@
       "power": 0.98,
       "range": 6.02,
       "rating": "A",
-      "time": 11
+      "time": 11,
+      "symbol": "Int_DroneControl_ResourceSiphon_Size7_Class5"
     }
   ]
 }

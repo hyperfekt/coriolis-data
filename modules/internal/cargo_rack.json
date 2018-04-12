@@ -8,7 +8,8 @@
       "eddbID": 1191,
       "grp": "cr",
       "id": "00",
-      "rating": "E"
+      "rating": "E",
+      "symbol": "Int_CargoRack_Size1_Class1"
     },
     {
       "cargo": 4,
@@ -18,7 +19,8 @@
       "eddbID": 1192,
       "grp": "cr",
       "id": "01",
-      "rating": "E"
+      "rating": "E",
+      "symbol": "Int_CargoRack_Size2_Class1"
     },
     {
       "cargo": 8,
@@ -28,7 +30,8 @@
       "eddbID": 1193,
       "grp": "cr",
       "id": "02",
-      "rating": "E"
+      "rating": "E",
+      "symbol": "Int_CargoRack_Size3_Class1"
     },
     {
       "cargo": 16,
@@ -38,7 +41,8 @@
       "eddbID": 1194,
       "grp": "cr",
       "id": "03",
-      "rating": "E"
+      "rating": "E",
+      "symbol": "Int_CargoRack_Size4_Class1"
     },
     {
       "cargo": 32,
@@ -48,7 +52,8 @@
       "eddbID": 1195,
       "grp": "cr",
       "id": "04",
-      "rating": "E"
+      "rating": "E",
+      "symbol": "Int_CargoRack_Size5_Class1"
     },
     {
       "cargo": 64,
@@ -58,7 +63,8 @@
       "eddbID": 1196,
       "grp": "cr",
       "id": "05",
-      "rating": "E"
+      "rating": "E",
+      "symbol": "Int_CargoRack_Size6_Class1"
     },
     {
       "cargo": 128,
@@ -68,7 +74,8 @@
       "eddbID": 1197,
       "grp": "cr",
       "id": "06",
-      "rating": "E"
+      "rating": "E",
+      "symbol": "Int_CargoRack_Size7_Class1"
     },
     {
       "cargo": 256,
@@ -78,7 +85,8 @@
       "eddbID": 1198,
       "grp": "cr",
       "id": "07",
-      "rating": "E"
+      "rating": "E",
+      "symbol": "Int_CargoRack_Size8_Class1"
     },
     {
       "cargo": 1,
@@ -89,7 +97,8 @@
       "grp": "cr",
       "id": "1w",
       "name": "Corrosion Resistant",
-      "rating": "E"
+      "rating": "E",
+      "symbol": "Int_CorrosionProofCargoRack_Size1_Class1"
     },
     {
       "cargo": 2,
@@ -100,7 +109,8 @@
       "grp": "cr",
       "id": "1y",
       "name": "Corrosion Resistant",
-      "rating": "F"
+      "rating": "F",
+      "symbol": "Int_CorrosionProofCargoRack_Size1_Class2"
     }
   ]
 }

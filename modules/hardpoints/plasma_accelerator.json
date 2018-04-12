@@ -30,7 +30,8 @@
       "reload": 6,
       "rof": 0.33,
       "shotspeed": 875,
-      "thermload": 15.6
+      "thermload": 15.6,
+      "symbol": "Hpt_PlasmaAccelerator_Fixed_Medium"
     },
     {
       "ammo": 100,
@@ -62,7 +63,8 @@
       "reload": 6,
       "rof": 0.29,
       "shotspeed": 875,
-      "thermload": 21.8
+      "thermload": 21.8,
+      "symbol": "Hpt_PlasmaAccelerator_Fixed_Large"
     },
     {
       "ammo": 300,
@@ -96,7 +98,8 @@
       "reload": 6,
       "rof": 0.8,
       "shotspeed": 875,
-      "thermload": 11
+      "thermload": 11,
+      "symbol": "Hpt_PlasmaAccelerator_Fixed_Large_Advanced"
     },
     {
       "ammo": 100,
@@ -128,7 +131,8 @@
       "reload": 6,
       "rof": 0.25,
       "shotspeed": 875,
-      "thermload": 29.5
+      "thermload": 29.5,
+      "symbol": "Hpt_PlasmaAccelerator_Fixed_Huge"
     }
   ]
 }

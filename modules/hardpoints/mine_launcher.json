@@ -11,7 +11,7 @@
       "damage": 44,
       "damagedist": {
         "E": 0.5,
-	"T": 0.5
+        "T": 0.5
       },
       "distdraw": 0,
       "edID": 128049500,
@@ -26,7 +26,8 @@
       "rating": "I",
       "reload": 2,
       "rof": 1,
-      "thermload": 5
+      "thermload": 5,
+      "symbol": "Hpt_MineLauncher_Fixed_Small"
     },
     {
       "ammo": 36,
@@ -39,7 +40,7 @@
       "damage": 32,
       "damagedist": {
         "E": 0.5,
-	"T": 0.5
+        "T": 0.5
       },
       "distdraw": 0,
       "edID": 128671448,
@@ -55,7 +56,8 @@
       "rating": "I",
       "reload": 2,
       "rof": 1,
-      "thermload": 5
+      "thermload": 5,
+      "symbol": "Hpt_MineLauncher_Fixed_Small_Impulse"
     },
     {
       "ammo": 72,
@@ -68,7 +70,7 @@
       "damage": 44,
       "damagedist": {
         "E": 0.5,
-	"T": 0.5
+        "T": 0.5
       },
       "distdraw": 0,
       "edID": 128049501,
@@ -83,7 +85,8 @@
       "rating": "I",
       "reload": 6.6,
       "rof": 1,
-      "thermload": 7.5
+      "thermload": 7.5,
+      "symbol": "Hpt_MineLauncher_Fixed_Medium"
     }
   ]
 }

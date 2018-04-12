@@ -6,7 +6,7 @@
       "edID": 128771884,
       "eddbID": 1622,
       "grp": "sfn",
-      "id": "sfn",
+      "id": "Sn",
       "integrity": 35,
       "mass": 1.3,
       "name": "Shutdown Field Neutraliser",
@@ -16,8 +16,8 @@
       "rating": "F",
       "cooldown": 10,
       "duration": 1,
-      "range": 3000
+      "range": 3000,
+      "symbol": "Hpt_AntiUnknownShutdown_Tiny"
     }
   ]
 }
-  

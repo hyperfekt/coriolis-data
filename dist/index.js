@@ -90,6 +90,123 @@ module.exports = {
         internal: [ "01", "44", "00", 0, "2h" ]
       }
     },
+    alliance_chieftain: {
+      edID: 128816574,
+      eddbID: 12,
+      properties: {
+        name: "Alliance Chieftain",
+        manufacturer: "Lakon",
+        class: 2,
+        hullCost: 18182883,
+        speed: 230,
+        boost: 330,
+        boostEnergy: 19,
+        baseShieldStrength: 154,
+        baseArmour: 280,
+        hardness: 65,
+        hullMass: 400,
+        masslock: 13,
+        pipSpeed: .03875,
+        pitch: 39,
+        roll: 92,
+        yaw: 16,
+        crew: 2
+      },
+      retailCost: 19382252,
+      requirements: {
+        horizons: true
+      },
+      bulkheads: [ {
+        id: "CI",
+        edID: 128816576,
+        eddbID: 813,
+        grp: "bh",
+        cost: 0,
+        mass: 0,
+        explres: -.4,
+        kinres: -.2,
+        thermres: 0,
+        hullboost: .8
+      }, {
+        id: "CJ",
+        edID: 128816577,
+        eddbID: 814,
+        grp: "bh",
+        cost: 6803170,
+        mass: 75,
+        explres: -.4,
+        kinres: -.2,
+        thermres: 0,
+        hullboost: 1.52
+      }, {
+        id: "CK",
+        edID: 128816578,
+        eddbID: 815,
+        grp: "bh",
+        cost: 15307134,
+        mass: 150,
+        explres: -.4,
+        kinres: -.2,
+        thermres: 0,
+        hullboost: 2.5
+      }, {
+        id: "CL",
+        edID: 128816579,
+        eddbID: 816,
+        grp: "bh",
+        cost: 36175859,
+        mass: 150,
+        explres: -.5,
+        kinres: -.75,
+        thermres: .5,
+        hullboost: 2.5
+      }, {
+        id: "CM",
+        edID: 128816580,
+        eddbID: 817,
+        grp: "bh",
+        cost: 40087682,
+        mass: 150,
+        explres: .2,
+        kinres: .25,
+        thermres: -.4,
+        hullboost: 2.5
+      } ],
+      slots: {
+        standard: [ 6, 6, 5, 5, 6, 4, 4 ],
+        hardpoints: [ 3, 3, 2, 1, 1, 1, 0, 0, 0, 0 ],
+        internal: [ 6, 5, 4, 2, 2, {
+          class: 4,
+          name: "Military",
+          eligible: {
+            hr: 1,
+            scb: 1,
+            mrp: 1
+          }
+        }, {
+          class: 4,
+          name: "Military",
+          eligible: {
+            hr: 1,
+            scb: 1,
+            mrp: 1
+          }
+        }, {
+          class: 4,
+          name: "Military",
+          eligible: {
+            hr: 1,
+            scb: 1,
+            mrp: 1
+          }
+        } ]
+      },
+      defaults: {
+        standard: [ "6E", "6E", "5E", "5E", "6E", "4E", "4C" ],
+        hardpoints: [ 17, 0, 17, 0, 0, 0, 0, 0, 0, 0, 0 ],
+        internal: [ "04", "4e", "02", "", "2h" ]
+      }
+    },
     anaconda: {
       edID: 128049363,
       eddbID: 2,
@@ -2115,7 +2232,7 @@ module.exports = {
         pitch: 27,
         roll: 100,
         yaw: 15,
-        crew: 1
+        crew: 2
       },
       retailCost: 3126150,
       bulkheads: [ {
@@ -2582,7 +2699,7 @@ module.exports = {
         baseShieldStrength: 155,
         baseArmour: 340,
         hardness: 54,
-        hullMass: 420,
+        hullMass: 350,
         masslock: 10,
         pipSpeed: .16625,
         pitch: 22,
@@ -2648,14 +2765,14 @@ module.exports = {
         hullboost: 2.5
       } ],
       slots: {
-        standard: [ 4, 5, 5, 4, 3, 3, 5 ],
+        standard: [ 5, 5, 5, 4, 4, 3, 5 ],
         hardpoints: [ 1, 1, 1, 1, 0, 0, 0, 0 ],
-        internal: [ 6, 6, 6, 5, 5, 5, 3, 3 ]
+        internal: [ 6, 6, 6, 5, 5, 5, 3, 3, 2 ]
       },
       defaults: {
         standard: [ "4E", "5E", "5E", "4E", "3E", "3E", "5C" ],
         hardpoints: [ 17, 17, 0, 0, 0, 0, 0, 0 ],
-        internal: [ "04", "04", "04", "03", "03", "49", 0, "2h" ]
+        internal: [ "04", "04", "04", "03", "03", "49", 0, 0, "2h" ]
       }
     },
     type_9_heavy: {
@@ -2672,7 +2789,7 @@ module.exports = {
         baseShieldStrength: 240,
         baseArmour: 480,
         hardness: 65,
-        hullMass: 1e3,
+        hullMass: 850,
         masslock: 16,
         pipSpeed: .17375,
         fighterHangars: true,
@@ -2741,12 +2858,12 @@ module.exports = {
       slots: {
         standard: [ 6, 7, 6, 5, 6, 4, 6 ],
         hardpoints: [ 2, 2, 2, 1, 1, 0, 0, 0, 0 ],
-        internal: [ 8, 7, 6, 5, 4, 4, 3, 3, 2 ]
+        internal: [ 8, 8, 7, 6, 5, 4, 4, 3, 3, 2 ]
       },
       defaults: {
         standard: [ "6E", "7E", "6E", "5E", "6E", "4E", "6C" ],
         hardpoints: [ 17, 17, 0, 0, 0, 0, 0, 0, 0 ],
-        internal: [ "06", "05", "4j", "03", "02", 0, "01", 0, "2h" ]
+        internal: [ "06", "06", "05", "4j", "03", "02", 0, "01", 0, "2h" ]
       }
     },
     type_10_defender: {
@@ -2830,7 +2947,7 @@ module.exports = {
         hullboost: 2.5
       } ],
       slots: {
-        standard: [ 8, 7, 7, 5, 6, 4, 6 ],
+        standard: [ 8, 7, 7, 5, 7, 4, 6 ],
         hardpoints: [ 3, 3, 3, 3, 2, 2, 2, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0 ],
         internal: [ 8, 7, 6, 5, 4, 4, 3, 3, 2, {
           class: 5,
@@ -2851,7 +2968,7 @@ module.exports = {
         } ]
       },
       defaults: {
-        standard: [ "6E", "7E", "6E", "5E", "6E", "4E", "6C" ],
+        standard: [ "6E", "7E", "6E", "5E", "7E", "4E", "6C" ],
         hardpoints: [ 0, 0, 0, 0, 17, 17, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
         internal: [ "06", "05", "4j", "03", "02", 0, "01", 0, "2h", 0, 0 ]
       }
@@ -3164,7 +3281,8 @@ module.exports = {
         integrity: 135,
         mass: 160,
         pgen: 24,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_Powerplant_Size8_Class1"
       }, {
         class: 8,
         cost: 6021720,
@@ -3176,7 +3294,8 @@ module.exports = {
         integrity: 120,
         mass: 64,
         pgen: 27,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_Powerplant_Size8_Class2"
       }, {
         class: 8,
         cost: 18065170,
@@ -3188,7 +3307,8 @@ module.exports = {
         integrity: 150,
         mass: 80,
         pgen: 30,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_Powerplant_Size8_Class3"
       }, {
         class: 8,
         cost: 54195500,
@@ -3200,7 +3320,8 @@ module.exports = {
         integrity: 180,
         mass: 128,
         pgen: 33,
-        rating: "B"
+        rating: "B",
+        symbol: "Int_Powerplant_Size8_Class4"
       }, {
         class: 8,
         cost: 162586490,
@@ -3212,7 +3333,8 @@ module.exports = {
         integrity: 165,
         mass: 80,
         pgen: 36,
-        rating: "A"
+        rating: "A",
+        symbol: "Int_Powerplant_Size8_Class5"
       }, {
         class: 7,
         cost: 633200,
@@ -3224,7 +3346,8 @@ module.exports = {
         integrity: 118,
         mass: 80,
         pgen: 20,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_Powerplant_Size7_Class1"
       }, {
         class: 7,
         cost: 1899600,
@@ -3236,7 +3359,8 @@ module.exports = {
         integrity: 105,
         mass: 32,
         pgen: 22.5,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_Powerplant_Size7_Class2"
       }, {
         class: 7,
         cost: 5698790,
@@ -3248,7 +3372,8 @@ module.exports = {
         integrity: 131,
         mass: 40,
         pgen: 25,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_Powerplant_Size7_Class3"
       }, {
         class: 7,
         cost: 17096370,
@@ -3260,7 +3385,8 @@ module.exports = {
         integrity: 157,
         mass: 64,
         pgen: 27.5,
-        rating: "B"
+        rating: "B",
+        symbol: "Int_Powerplant_Size7_Class4"
       }, {
         class: 7,
         cost: 51289110,
@@ -3272,7 +3398,8 @@ module.exports = {
         integrity: 144,
         mass: 40,
         pgen: 30,
-        rating: "A"
+        rating: "A",
+        symbol: "Int_Powerplant_Size7_Class5"
       }, {
         class: 6,
         cost: 199750,
@@ -3284,7 +3411,8 @@ module.exports = {
         integrity: 102,
         mass: 40,
         pgen: 16.8,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_Powerplant_Size6_Class1"
       }, {
         class: 6,
         cost: 599240,
@@ -3296,7 +3424,8 @@ module.exports = {
         integrity: 90,
         mass: 16,
         pgen: 18.9,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_Powerplant_Size6_Class2"
       }, {
         class: 6,
         cost: 1797730,
@@ -3308,7 +3437,8 @@ module.exports = {
         integrity: 113,
         mass: 20,
         pgen: 21,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_Powerplant_Size6_Class3"
       }, {
         class: 6,
         cost: 5393180,
@@ -3320,7 +3450,8 @@ module.exports = {
         integrity: 136,
         mass: 32,
         pgen: 23.1,
-        rating: "B"
+        rating: "B",
+        symbol: "Int_Powerplant_Size6_Class4"
       }, {
         class: 6,
         cost: 16179530,
@@ -3332,7 +3463,8 @@ module.exports = {
         integrity: 124,
         mass: 20,
         pgen: 25.2,
-        rating: "A"
+        rating: "A",
+        symbol: "Int_Powerplant_Size6_Class5"
       }, {
         class: 5,
         cost: 63010,
@@ -3344,7 +3476,8 @@ module.exports = {
         integrity: 86,
         mass: 20,
         pgen: 13.6,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_Powerplant_Size5_Class1"
       }, {
         class: 5,
         cost: 189040,
@@ -3356,7 +3489,8 @@ module.exports = {
         integrity: 77,
         mass: 8,
         pgen: 15.3,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_Powerplant_Size5_Class2"
       }, {
         class: 5,
         cost: 567110,
@@ -3368,7 +3502,8 @@ module.exports = {
         integrity: 96,
         mass: 10,
         pgen: 17,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_Powerplant_Size5_Class3"
       }, {
         class: 5,
         cost: 1701320,
@@ -3380,7 +3515,8 @@ module.exports = {
         integrity: 114,
         mass: 16,
         pgen: 18.7,
-        rating: "B"
+        rating: "B",
+        symbol: "Int_Powerplant_Size5_Class4"
       }, {
         class: 5,
         cost: 5103950,
@@ -3392,7 +3528,8 @@ module.exports = {
         integrity: 106,
         mass: 10,
         pgen: 20.4,
-        rating: "A"
+        rating: "A",
+        symbol: "Int_Powerplant_Size5_Class5"
       }, {
         class: 4,
         cost: 19880,
@@ -3404,7 +3541,8 @@ module.exports = {
         integrity: 72,
         mass: 10,
         pgen: 10.4,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_Powerplant_Size4_Class1"
       }, {
         class: 4,
         cost: 59630,
@@ -3416,7 +3554,8 @@ module.exports = {
         integrity: 64,
         mass: 4,
         pgen: 11.7,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_Powerplant_Size4_Class2"
       }, {
         class: 4,
         cost: 178900,
@@ -3428,7 +3567,8 @@ module.exports = {
         integrity: 80,
         mass: 5,
         pgen: 13,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_Powerplant_Size4_Class3"
       }, {
         class: 4,
         cost: 536690,
@@ -3440,7 +3580,8 @@ module.exports = {
         integrity: 96,
         mass: 8,
         pgen: 14.3,
-        rating: "B"
+        rating: "B",
+        symbol: "Int_Powerplant_Size4_Class4"
       }, {
         class: 4,
         cost: 1610080,
@@ -3452,7 +3593,8 @@ module.exports = {
         integrity: 88,
         mass: 5,
         pgen: 15.6,
-        rating: "A"
+        rating: "A",
+        symbol: "Int_Powerplant_Size4_Class5"
       }, {
         class: 3,
         cost: 6270,
@@ -3464,7 +3606,8 @@ module.exports = {
         integrity: 58,
         mass: 5,
         pgen: 8,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_Powerplant_Size3_Class1"
       }, {
         class: 3,
         cost: 18810,
@@ -3476,7 +3619,8 @@ module.exports = {
         integrity: 51,
         mass: 2,
         pgen: 9,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_Powerplant_Size3_Class2"
       }, {
         class: 3,
         cost: 56440,
@@ -3488,7 +3632,8 @@ module.exports = {
         integrity: 64,
         mass: 2.5,
         pgen: 10,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_Powerplant_Size3_Class3"
       }, {
         class: 3,
         cost: 169300,
@@ -3500,7 +3645,8 @@ module.exports = {
         integrity: 77,
         mass: 4,
         pgen: 11,
-        rating: "B"
+        rating: "B",
+        symbol: "Int_Powerplant_Size3_Class4"
       }, {
         class: 3,
         cost: 507910,
@@ -3512,7 +3658,8 @@ module.exports = {
         integrity: 70,
         mass: 2.5,
         pgen: 12,
-        rating: "A"
+        rating: "A",
+        symbol: "Int_Powerplant_Size3_Class5"
       }, {
         class: 2,
         cost: 1980,
@@ -3524,7 +3671,8 @@ module.exports = {
         integrity: 46,
         mass: 2.5,
         pgen: 6.4,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_Powerplant_Size2_Class1"
       }, {
         class: 2,
         cost: 5930,
@@ -3536,7 +3684,8 @@ module.exports = {
         integrity: 41,
         mass: 1,
         pgen: 7.2,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_Powerplant_Size2_Class2"
       }, {
         class: 2,
         cost: 17800,
@@ -3548,7 +3697,8 @@ module.exports = {
         integrity: 51,
         mass: 1.3,
         pgen: 8,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_Powerplant_Size2_Class3"
       }, {
         class: 2,
         cost: 53410,
@@ -3560,7 +3710,8 @@ module.exports = {
         integrity: 61,
         mass: 2,
         pgen: 8.8,
-        rating: "B"
+        rating: "B",
+        symbol: "Int_Powerplant_Size2_Class4"
       }, {
         class: 2,
         cost: 160220,
@@ -3572,7 +3723,8 @@ module.exports = {
         integrity: 56,
         mass: 1.3,
         pgen: 9.6,
-        rating: "A"
+        rating: "A",
+        symbol: "Int_Powerplant_Size2_Class5"
       } ],
       t: [ {
         class: 8,
@@ -3590,7 +3742,8 @@ module.exports = {
         optmass: 2240,
         optmul: 1,
         power: 7.2,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_Engine_Size8_Class1"
       }, {
         class: 8,
         cost: 6021720,
@@ -3607,7 +3760,8 @@ module.exports = {
         optmass: 2520,
         optmul: 1,
         power: 8.1,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_Engine_Size8_Class2"
       }, {
         class: 8,
         cost: 18065170,
@@ -3624,7 +3778,8 @@ module.exports = {
         optmass: 2800,
         optmul: 1,
         power: 9,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_Engine_Size8_Class3"
       }, {
         class: 8,
         cost: 54195500,
@@ -3641,7 +3796,8 @@ module.exports = {
         optmass: 3080,
         optmul: 1,
         power: 9.9,
-        rating: "B"
+        rating: "B",
+        symbol: "Int_Engine_Size8_Class4"
       }, {
         class: 8,
         cost: 162586490,
@@ -3658,7 +3814,8 @@ module.exports = {
         optmass: 3360,
         optmul: 1,
         power: 10.8,
-        rating: "A"
+        rating: "A",
+        symbol: "Int_Engine_Size8_Class5"
       }, {
         class: 7,
         cost: 633200,
@@ -3675,7 +3832,8 @@ module.exports = {
         optmass: 1440,
         optmul: 1,
         power: 6.08,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_Engine_Size7_Class1"
       }, {
         class: 7,
         cost: 1899600,
@@ -3692,7 +3850,8 @@ module.exports = {
         optmass: 1620,
         optmul: 1,
         power: 6.84,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_Engine_Size7_Class2"
       }, {
         class: 7,
         cost: 5698790,
@@ -3709,7 +3868,8 @@ module.exports = {
         optmass: 1800,
         optmul: 1,
         power: 7.6,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_Engine_Size7_Class3"
       }, {
         class: 7,
         cost: 17096370,
@@ -3726,7 +3886,8 @@ module.exports = {
         optmass: 1980,
         optmul: 1,
         power: 8.36,
-        rating: "B"
+        rating: "B",
+        symbol: "Int_Engine_Size7_Class4"
       }, {
         class: 7,
         cost: 51289110,
@@ -3743,7 +3904,8 @@ module.exports = {
         optmass: 2160,
         optmul: 1,
         power: 9.12,
-        rating: "A"
+        rating: "A",
+        symbol: "Int_Engine_Size7_Class5"
       }, {
         class: 6,
         cost: 199750,
@@ -3760,7 +3922,8 @@ module.exports = {
         optmass: 960,
         optmul: 1,
         power: 5.04,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_Engine_Size6_Class1"
       }, {
         class: 6,
         cost: 599240,
@@ -3777,7 +3940,8 @@ module.exports = {
         optmass: 1080,
         optmul: 1,
         power: 5.67,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_Engine_Size6_Class2"
       }, {
         class: 6,
         cost: 1797730,
@@ -3794,7 +3958,8 @@ module.exports = {
         optmass: 1200,
         optmul: 1,
         power: 6.3,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_Engine_Size6_Class3"
       }, {
         class: 6,
         cost: 5393180,
@@ -3811,7 +3976,8 @@ module.exports = {
         optmass: 1320,
         optmul: 1,
         power: 6.93,
-        rating: "B"
+        rating: "B",
+        symbol: "Int_Engine_Size6_Class4"
       }, {
         class: 6,
         cost: 16179530,
@@ -3828,7 +3994,8 @@ module.exports = {
         optmass: 1440,
         optmul: 1,
         power: 7.56,
-        rating: "A"
+        rating: "A",
+        symbol: "Int_Engine_Size6_Class5"
       }, {
         class: 5,
         cost: 63010,
@@ -3845,7 +4012,8 @@ module.exports = {
         optmass: 560,
         optmul: 1,
         power: 4.08,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_Engine_Size5_Class1"
       }, {
         class: 5,
         cost: 189040,
@@ -3862,7 +4030,8 @@ module.exports = {
         optmass: 630,
         optmul: 1,
         power: 4.59,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_Engine_Size5_Class2"
       }, {
         class: 5,
         cost: 567110,
@@ -3879,7 +4048,8 @@ module.exports = {
         optmass: 700,
         optmul: 1,
         power: 5.1,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_Engine_Size5_Class3"
       }, {
         class: 5,
         cost: 1701320,
@@ -3896,7 +4066,8 @@ module.exports = {
         optmass: 770,
         optmul: 1,
         power: 5.61,
-        rating: "B"
+        rating: "B",
+        symbol: "Int_Engine_Size5_Class4"
       }, {
         class: 5,
         cost: 5103950,
@@ -3913,7 +4084,8 @@ module.exports = {
         optmass: 840,
         optmul: 1,
         power: 6.12,
-        rating: "A"
+        rating: "A",
+        symbol: "Int_Engine_Size5_Class5"
       }, {
         class: 4,
         cost: 19880,
@@ -3930,7 +4102,8 @@ module.exports = {
         optmass: 280,
         optmul: 1,
         power: 3.28,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_Engine_Size4_Class1"
       }, {
         class: 4,
         cost: 59630,
@@ -3947,7 +4120,8 @@ module.exports = {
         optmass: 315,
         optmul: 1,
         power: 3.69,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_Engine_Size4_Class2"
       }, {
         class: 4,
         cost: 178900,
@@ -3964,7 +4138,8 @@ module.exports = {
         optmass: 350,
         optmul: 1,
         power: 4.1,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_Engine_Size4_Class3"
       }, {
         class: 4,
         cost: 536690,
@@ -3981,7 +4156,8 @@ module.exports = {
         optmass: 385,
         optmul: 1,
         power: 4.51,
-        rating: "B"
+        rating: "B",
+        symbol: "Int_Engine_Size4_Class4"
       }, {
         class: 4,
         cost: 1610080,
@@ -3998,7 +4174,8 @@ module.exports = {
         optmass: 420,
         optmul: 1,
         power: 4.92,
-        rating: "A"
+        rating: "A",
+        symbol: "Int_Engine_Size4_Class5"
       }, {
         class: 3,
         cost: 6270,
@@ -4015,7 +4192,8 @@ module.exports = {
         optmass: 80,
         optmul: 1,
         power: 2.48,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_Engine_Size3_Class1"
       }, {
         class: 3,
         cost: 18810,
@@ -4032,7 +4210,8 @@ module.exports = {
         optmass: 90,
         optmul: 1,
         power: 2.79,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_Engine_Size3_Class2"
       }, {
         class: 3,
         cost: 56440,
@@ -4049,7 +4228,8 @@ module.exports = {
         optmass: 100,
         optmul: 1,
         power: 3.1,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_Engine_Size3_Class3"
       }, {
         class: 3,
         cost: 169300,
@@ -4066,7 +4246,8 @@ module.exports = {
         optmass: 110,
         optmul: 1,
         power: 3.41,
-        rating: "B"
+        rating: "B",
+        symbol: "Int_Engine_Size3_Class4"
       }, {
         class: 3,
         cost: 507910,
@@ -4083,7 +4264,8 @@ module.exports = {
         optmass: 120,
         optmul: 1,
         power: 3.72,
-        rating: "A"
+        rating: "A",
+        symbol: "Int_Engine_Size3_Class5"
       }, {
         class: 2,
         cost: 1980,
@@ -4100,7 +4282,8 @@ module.exports = {
         optmass: 48,
         optmul: 1,
         power: 2,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_Engine_Size2_Class1"
       }, {
         class: 2,
         cost: 5930,
@@ -4117,7 +4300,8 @@ module.exports = {
         optmass: 54,
         optmul: 1,
         power: 2.25,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_Engine_Size2_Class2"
       }, {
         class: 2,
         cost: 17800,
@@ -4134,7 +4318,8 @@ module.exports = {
         optmass: 60,
         optmul: 1,
         power: 2.5,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_Engine_Size2_Class3"
       }, {
         class: 2,
         cost: 53410,
@@ -4151,7 +4336,8 @@ module.exports = {
         optmass: 66,
         optmul: 1,
         power: 2.75,
-        rating: "B"
+        rating: "B",
+        symbol: "Int_Engine_Size2_Class4"
       }, {
         class: 2,
         cost: 160220,
@@ -4168,7 +4354,8 @@ module.exports = {
         optmass: 72,
         optmul: 1,
         power: 3,
-        rating: "A"
+        rating: "A",
+        symbol: "Int_Engine_Size2_Class5"
       }, {
         class: 3,
         cost: 5103950,
@@ -4195,7 +4382,8 @@ module.exports = {
         optmulrotation: 1.1,
         optmulspeed: 1.25,
         power: 5,
-        rating: "A"
+        rating: "A",
+        symbol: "Int_Engine_Size3_Class5_Fast"
       }, {
         class: 2,
         cost: 1610080,
@@ -4222,7 +4410,8 @@ module.exports = {
         optmulrotation: 1.1,
         optmulspeed: 1.25,
         power: 4,
-        rating: "A"
+        rating: "A",
+        symbol: "Int_Engine_Size2_Class5_Fast"
       } ],
       fsd: [ {
         class: 8,
@@ -4238,7 +4427,8 @@ module.exports = {
         maxfuel: 0,
         optmass: 0,
         power: 0,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_Hyperdrive_Size8_Class1"
       }, {
         class: 8,
         cost: 0,
@@ -4253,7 +4443,8 @@ module.exports = {
         maxfuel: 0,
         optmass: 0,
         power: 0,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_Hyperdrive_Size8_Class2"
       }, {
         class: 8,
         cost: 0,
@@ -4268,7 +4459,8 @@ module.exports = {
         maxfuel: 0,
         optmass: 0,
         power: 0,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_Hyperdrive_Size8_Class3"
       }, {
         class: 8,
         cost: 0,
@@ -4283,7 +4475,8 @@ module.exports = {
         maxfuel: 0,
         optmass: 0,
         power: 0,
-        rating: "B"
+        rating: "B",
+        symbol: "Int_Hyperdrive_Size8_Class4"
       }, {
         class: 8,
         cost: 0,
@@ -4298,7 +4491,8 @@ module.exports = {
         maxfuel: 0,
         optmass: 0,
         power: 0,
-        rating: "A"
+        rating: "A",
+        symbol: "Int_Hyperdrive_Size8_Class5"
       }, {
         class: 7,
         cost: 633200,
@@ -4313,7 +4507,8 @@ module.exports = {
         maxfuel: 8.5,
         optmass: 1440,
         power: .48,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_Hyperdrive_Size7_Class1"
       }, {
         class: 7,
         cost: 1899600,
@@ -4328,7 +4523,8 @@ module.exports = {
         maxfuel: 8.5,
         optmass: 1620,
         power: .54,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_Hyperdrive_Size7_Class2"
       }, {
         class: 7,
         cost: 5698790,
@@ -4343,7 +4539,8 @@ module.exports = {
         maxfuel: 8.5,
         optmass: 1800,
         power: .6,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_Hyperdrive_Size7_Class3"
       }, {
         class: 7,
         cost: 17096370,
@@ -4358,7 +4555,8 @@ module.exports = {
         maxfuel: 10.6,
         optmass: 2250,
         power: .75,
-        rating: "B"
+        rating: "B",
+        symbol: "Int_Hyperdrive_Size7_Class4"
       }, {
         class: 7,
         cost: 51289110,
@@ -4373,7 +4571,8 @@ module.exports = {
         maxfuel: 12.8,
         optmass: 2700,
         power: .9,
-        rating: "A"
+        rating: "A",
+        symbol: "Int_Hyperdrive_Size7_Class5"
       }, {
         class: 6,
         cost: 199750,
@@ -4388,7 +4587,8 @@ module.exports = {
         maxfuel: 5.3,
         optmass: 960,
         power: .4,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_Hyperdrive_Size6_Class1"
       }, {
         class: 6,
         cost: 599240,
@@ -4403,7 +4603,8 @@ module.exports = {
         maxfuel: 5.3,
         optmass: 1080,
         power: .45,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_Hyperdrive_Size6_Class2"
       }, {
         class: 6,
         cost: 1797730,
@@ -4418,7 +4619,8 @@ module.exports = {
         maxfuel: 5.3,
         optmass: 1200,
         power: .5,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_Hyperdrive_Size6_Class3"
       }, {
         class: 6,
         cost: 5393180,
@@ -4433,7 +4635,8 @@ module.exports = {
         maxfuel: 6.6,
         optmass: 1500,
         power: .63,
-        rating: "B"
+        rating: "B",
+        symbol: "Int_Hyperdrive_Size6_Class4"
       }, {
         class: 6,
         cost: 16179530,
@@ -4448,7 +4651,8 @@ module.exports = {
         maxfuel: 8,
         optmass: 1800,
         power: .75,
-        rating: "A"
+        rating: "A",
+        symbol: "Int_Hyperdrive_Size6_Class5"
       }, {
         class: 5,
         cost: 63010,
@@ -4463,7 +4667,8 @@ module.exports = {
         maxfuel: 3.3,
         optmass: 560,
         power: .32,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_Hyperdrive_Size5_Class1"
       }, {
         class: 5,
         cost: 189040,
@@ -4478,7 +4683,8 @@ module.exports = {
         maxfuel: 3.3,
         optmass: 630,
         power: .36,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_Hyperdrive_Size5_Class2"
       }, {
         class: 5,
         cost: 567110,
@@ -4493,7 +4699,8 @@ module.exports = {
         maxfuel: 3.3,
         optmass: 700,
         power: .4,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_Hyperdrive_Size5_Class3"
       }, {
         class: 5,
         cost: 1701320,
@@ -4508,7 +4715,8 @@ module.exports = {
         maxfuel: 4.1,
         optmass: 875,
         power: .5,
-        rating: "B"
+        rating: "B",
+        symbol: "Int_Hyperdrive_Size5_Class4"
       }, {
         class: 5,
         cost: 5103950,
@@ -4523,7 +4731,8 @@ module.exports = {
         maxfuel: 5,
         optmass: 1050,
         power: .6,
-        rating: "A"
+        rating: "A",
+        symbol: "Int_Hyperdrive_Size5_Class5"
       }, {
         class: 4,
         cost: 19880,
@@ -4538,7 +4747,8 @@ module.exports = {
         maxfuel: 2,
         optmass: 280,
         power: .24,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_Hyperdrive_Size4_Class1"
       }, {
         class: 4,
         cost: 59630,
@@ -4553,7 +4763,8 @@ module.exports = {
         maxfuel: 2,
         optmass: 315,
         power: .27,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_Hyperdrive_Size4_Class2"
       }, {
         class: 4,
         cost: 178900,
@@ -4568,7 +4779,8 @@ module.exports = {
         maxfuel: 2,
         optmass: 350,
         power: .3,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_Hyperdrive_Size4_Class3"
       }, {
         class: 4,
         cost: 536690,
@@ -4583,7 +4795,8 @@ module.exports = {
         maxfuel: 2.5,
         optmass: 437.5,
         power: .38,
-        rating: "B"
+        rating: "B",
+        symbol: "Int_Hyperdrive_Size4_Class4"
       }, {
         class: 4,
         cost: 1610080,
@@ -4598,7 +4811,8 @@ module.exports = {
         maxfuel: 3,
         optmass: 525,
         power: .45,
-        rating: "A"
+        rating: "A",
+        symbol: "Int_Hyperdrive_Size4_Class5"
       }, {
         class: 3,
         cost: 6270,
@@ -4613,7 +4827,8 @@ module.exports = {
         maxfuel: 1.2,
         optmass: 80,
         power: .24,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_Hyperdrive_Size3_Class1"
       }, {
         class: 3,
         cost: 18810,
@@ -4628,7 +4843,8 @@ module.exports = {
         maxfuel: 1.2,
         optmass: 90,
         power: .27,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_Hyperdrive_Size3_Class2"
       }, {
         class: 3,
         cost: 56440,
@@ -4643,7 +4859,8 @@ module.exports = {
         maxfuel: 1.2,
         optmass: 100,
         power: .3,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_Hyperdrive_Size3_Class3"
       }, {
         class: 3,
         cost: 169300,
@@ -4658,7 +4875,8 @@ module.exports = {
         maxfuel: 1.5,
         optmass: 125,
         power: .38,
-        rating: "B"
+        rating: "B",
+        symbol: "Int_Hyperdrive_Size3_Class4"
       }, {
         class: 3,
         cost: 507910,
@@ -4673,7 +4891,8 @@ module.exports = {
         maxfuel: 1.8,
         optmass: 150,
         power: .45,
-        rating: "A"
+        rating: "A",
+        symbol: "Int_Hyperdrive_Size3_Class5"
       }, {
         class: 2,
         cost: 1980,
@@ -4688,7 +4907,8 @@ module.exports = {
         maxfuel: .6,
         optmass: 48,
         power: .16,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_Hyperdrive_Size2_Class1"
       }, {
         class: 2,
         cost: 5930,
@@ -4703,7 +4923,8 @@ module.exports = {
         maxfuel: .6,
         optmass: 54,
         power: .18,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_Hyperdrive_Size2_Class2"
       }, {
         class: 2,
         cost: 17800,
@@ -4718,7 +4939,8 @@ module.exports = {
         maxfuel: .6,
         optmass: 60,
         power: .2,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_Hyperdrive_Size2_Class3"
       }, {
         class: 2,
         cost: 53410,
@@ -4733,7 +4955,8 @@ module.exports = {
         maxfuel: .8,
         optmass: 75,
         power: .25,
-        rating: "B"
+        rating: "B",
+        symbol: "Int_Hyperdrive_Size2_Class4"
       }, {
         class: 2,
         cost: 160220,
@@ -4748,7 +4971,8 @@ module.exports = {
         maxfuel: .9,
         optmass: 90,
         power: .3,
-        rating: "A"
+        rating: "A",
+        symbol: "Int_Hyperdrive_Size2_Class5"
       } ],
       ls: [ {
         boot: 1,
@@ -4762,7 +4986,8 @@ module.exports = {
         mass: 160,
         power: .8,
         rating: "E",
-        time: 300
+        time: 300,
+        symbol: "Int_LifeSupport_Size8_Class1"
       }, {
         boot: 1,
         class: 8,
@@ -4775,7 +5000,8 @@ module.exports = {
         mass: 64,
         power: .9,
         rating: "D",
-        time: 450
+        time: 450,
+        symbol: "Int_LifeSupport_Size8_Class2"
       }, {
         boot: 1,
         class: 8,
@@ -4788,7 +5014,8 @@ module.exports = {
         mass: 160,
         power: 1,
         rating: "C",
-        time: 600
+        time: 600,
+        symbol: "Int_LifeSupport_Size8_Class3"
       }, {
         boot: 1,
         class: 8,
@@ -4801,7 +5028,8 @@ module.exports = {
         mass: 256,
         power: 1.1,
         rating: "B",
-        time: 900
+        time: 900,
+        symbol: "Int_LifeSupport_Size8_Class4"
       }, {
         boot: 1,
         class: 8,
@@ -4814,7 +5042,8 @@ module.exports = {
         mass: 160,
         power: 1.2,
         rating: "A",
-        time: 1500
+        time: 1500,
+        symbol: "Int_LifeSupport_Size8_Class5"
       }, {
         boot: 1,
         class: 7,
@@ -4827,7 +5056,8 @@ module.exports = {
         mass: 80,
         power: .72,
         rating: "E",
-        time: 300
+        time: 300,
+        symbol: "Int_LifeSupport_Size7_Class1"
       }, {
         boot: 1,
         class: 7,
@@ -4840,7 +5070,8 @@ module.exports = {
         mass: 32,
         power: .81,
         rating: "D",
-        time: 450
+        time: 450,
+        symbol: "Int_LifeSupport_Size7_Class2"
       }, {
         boot: 1,
         class: 7,
@@ -4853,7 +5084,8 @@ module.exports = {
         mass: 80,
         power: .9,
         rating: "C",
-        time: 600
+        time: 600,
+        symbol: "Int_LifeSupport_Size7_Class3"
       }, {
         boot: 1,
         class: 7,
@@ -4866,7 +5098,8 @@ module.exports = {
         mass: 128,
         power: .99,
         rating: "B",
-        time: 900
+        time: 900,
+        symbol: "Int_LifeSupport_Size7_Class4"
       }, {
         boot: 1,
         class: 7,
@@ -4879,7 +5112,8 @@ module.exports = {
         mass: 80,
         power: 1.08,
         rating: "A",
-        time: 1500
+        time: 1500,
+        symbol: "Int_LifeSupport_Size7_Class5"
       }, {
         boot: 1,
         class: 6,
@@ -4892,7 +5126,8 @@ module.exports = {
         mass: 40,
         power: .64,
         rating: "E",
-        time: 300
+        time: 300,
+        symbol: "Int_LifeSupport_Size6_Class1"
       }, {
         boot: 1,
         class: 6,
@@ -4905,7 +5140,8 @@ module.exports = {
         mass: 16,
         power: .72,
         rating: "D",
-        time: 450
+        time: 450,
+        symbol: "Int_LifeSupport_Size6_Class2"
       }, {
         boot: 1,
         class: 6,
@@ -4918,7 +5154,8 @@ module.exports = {
         mass: 40,
         power: .8,
         rating: "C",
-        time: 600
+        time: 600,
+        symbol: "Int_LifeSupport_Size6_Class3"
       }, {
         boot: 1,
         class: 6,
@@ -4931,7 +5168,8 @@ module.exports = {
         mass: 64,
         power: .88,
         rating: "B",
-        time: 900
+        time: 900,
+        symbol: "Int_LifeSupport_Size6_Class4"
       }, {
         boot: 1,
         class: 6,
@@ -4944,7 +5182,8 @@ module.exports = {
         mass: 40,
         power: .96,
         rating: "A",
-        time: 1500
+        time: 1500,
+        symbol: "Int_LifeSupport_Size6_Class5"
       }, {
         boot: 1,
         class: 5,
@@ -4957,7 +5196,8 @@ module.exports = {
         mass: 20,
         power: .57,
         rating: "E",
-        time: 300
+        time: 300,
+        symbol: "Int_LifeSupport_Size5_Class1"
       }, {
         boot: 1,
         class: 5,
@@ -4970,7 +5210,8 @@ module.exports = {
         mass: 8,
         power: .64,
         rating: "D",
-        time: 450
+        time: 450,
+        symbol: "Int_LifeSupport_Size5_Class2"
       }, {
         boot: 1,
         class: 5,
@@ -4983,7 +5224,8 @@ module.exports = {
         mass: 20,
         power: .71,
         rating: "C",
-        time: 600
+        time: 600,
+        symbol: "Int_LifeSupport_Size5_Class3"
       }, {
         boot: 1,
         class: 5,
@@ -4996,7 +5238,8 @@ module.exports = {
         mass: 32,
         power: .78,
         rating: "B",
-        time: 900
+        time: 900,
+        symbol: "Int_LifeSupport_Size5_Class4"
       }, {
         boot: 1,
         class: 5,
@@ -5009,7 +5252,8 @@ module.exports = {
         mass: 20,
         power: .85,
         rating: "A",
-        time: 1500
+        time: 1500,
+        symbol: "Int_LifeSupport_Size5_Class5"
       }, {
         boot: 1,
         class: 4,
@@ -5022,7 +5266,8 @@ module.exports = {
         mass: 10,
         power: .5,
         rating: "E",
-        time: 300
+        time: 300,
+        symbol: "Int_LifeSupport_Size4_Class1"
       }, {
         boot: 1,
         class: 4,
@@ -5035,7 +5280,8 @@ module.exports = {
         mass: 4,
         power: .56,
         rating: "D",
-        time: 450
+        time: 450,
+        symbol: "Int_LifeSupport_Size4_Class2"
       }, {
         boot: 1,
         class: 4,
@@ -5048,7 +5294,8 @@ module.exports = {
         mass: 10,
         power: .62,
         rating: "C",
-        time: 600
+        time: 600,
+        symbol: "Int_LifeSupport_Size4_Class3"
       }, {
         boot: 1,
         class: 4,
@@ -5061,7 +5308,8 @@ module.exports = {
         mass: 16,
         power: .68,
         rating: "B",
-        time: 900
+        time: 900,
+        symbol: "Int_LifeSupport_Size4_Class4"
       }, {
         boot: 1,
         class: 4,
@@ -5074,7 +5322,8 @@ module.exports = {
         mass: 10,
         power: .74,
         rating: "A",
-        time: 1500
+        time: 1500,
+        symbol: "Int_LifeSupport_Size4_Class5"
       }, {
         boot: 1,
         class: 3,
@@ -5087,7 +5336,8 @@ module.exports = {
         mass: 5,
         power: .42,
         rating: "E",
-        time: 300
+        time: 300,
+        symbol: "Int_LifeSupport_Size3_Class1"
       }, {
         boot: 1,
         class: 3,
@@ -5100,7 +5350,8 @@ module.exports = {
         mass: 2,
         power: .48,
         rating: "D",
-        time: 450
+        time: 450,
+        symbol: "Int_LifeSupport_Size3_Class2"
       }, {
         boot: 1,
         class: 3,
@@ -5113,7 +5364,8 @@ module.exports = {
         mass: 5,
         power: .53,
         rating: "C",
-        time: 600
+        time: 600,
+        symbol: "Int_LifeSupport_Size3_Class3"
       }, {
         boot: 1,
         class: 3,
@@ -5126,7 +5378,8 @@ module.exports = {
         mass: 8,
         power: .58,
         rating: "B",
-        time: 900
+        time: 900,
+        symbol: "Int_LifeSupport_Size3_Class4"
       }, {
         boot: 1,
         class: 3,
@@ -5139,7 +5392,8 @@ module.exports = {
         mass: 5,
         power: .64,
         rating: "A",
-        time: 1500
+        time: 1500,
+        symbol: "Int_LifeSupport_Size3_Class5"
       }, {
         boot: 1,
         class: 2,
@@ -5152,7 +5406,8 @@ module.exports = {
         mass: 2.5,
         power: .37,
         rating: "E",
-        time: 300
+        time: 300,
+        symbol: "Int_LifeSupport_Size2_Class1"
       }, {
         boot: 1,
         class: 2,
@@ -5165,7 +5420,8 @@ module.exports = {
         mass: 1,
         power: .41,
         rating: "D",
-        time: 450
+        time: 450,
+        symbol: "Int_LifeSupport_Size2_Class2"
       }, {
         boot: 1,
         class: 2,
@@ -5178,7 +5434,8 @@ module.exports = {
         mass: 2.5,
         power: .46,
         rating: "C",
-        time: 600
+        time: 600,
+        symbol: "Int_LifeSupport_Size2_Class3"
       }, {
         boot: 1,
         class: 2,
@@ -5191,7 +5448,8 @@ module.exports = {
         mass: 4,
         power: .51,
         rating: "B",
-        time: 900
+        time: 900,
+        symbol: "Int_LifeSupport_Size2_Class4"
       }, {
         boot: 1,
         class: 2,
@@ -5204,7 +5462,8 @@ module.exports = {
         mass: 2.5,
         power: .55,
         rating: "A",
-        time: 1500
+        time: 1500,
+        symbol: "Int_LifeSupport_Size2_Class5"
       }, {
         boot: 1,
         class: 1,
@@ -5217,7 +5476,8 @@ module.exports = {
         mass: 1.3,
         power: .32,
         rating: "E",
-        time: 300
+        time: 300,
+        symbol: "Int_LifeSupport_Size1_Class1"
       }, {
         boot: 1,
         class: 1,
@@ -5230,7 +5490,8 @@ module.exports = {
         mass: .5,
         power: .36,
         rating: "D",
-        time: 450
+        time: 450,
+        symbol: "Int_LifeSupport_Size1_Class2"
       }, {
         boot: 1,
         class: 1,
@@ -5243,7 +5504,8 @@ module.exports = {
         mass: 1.3,
         power: .4,
         rating: "C",
-        time: 600
+        time: 600,
+        symbol: "Int_LifeSupport_Size1_Class3"
       }, {
         boot: 1,
         class: 1,
@@ -5256,7 +5518,8 @@ module.exports = {
         mass: 2,
         power: .44,
         rating: "B",
-        time: 900
+        time: 900,
+        symbol: "Int_LifeSupport_Size1_Class4"
       }, {
         boot: 1,
         class: 1,
@@ -5269,7 +5532,8 @@ module.exports = {
         mass: 1.3,
         power: .48,
         rating: "A",
-        time: 1500
+        time: 1500,
+        symbol: "Int_LifeSupport_Size1_Class5"
       } ],
       pd: [ {
         class: 8,
@@ -5287,7 +5551,8 @@ module.exports = {
         syscap: 32,
         sysrate: 3.2,
         wepcap: 48,
-        weprate: 4.8
+        weprate: 4.8,
+        symbol: "Int_PowerDistributor_Size8_Class1"
       }, {
         class: 8,
         cost: 1743960,
@@ -5304,7 +5569,8 @@ module.exports = {
         syscap: 36,
         sysrate: 3.6,
         wepcap: 54,
-        weprate: 5.4
+        weprate: 5.4,
+        symbol: "Int_PowerDistributor_Size8_Class2"
       }, {
         class: 8,
         cost: 4359900,
@@ -5321,7 +5587,8 @@ module.exports = {
         syscap: 40,
         sysrate: 4,
         wepcap: 60,
-        weprate: 6
+        weprate: 6,
+        symbol: "Int_PowerDistributor_Size8_Class3"
       }, {
         class: 8,
         cost: 10899760,
@@ -5338,7 +5605,8 @@ module.exports = {
         syscap: 44,
         sysrate: 4.4,
         wepcap: 66,
-        weprate: 6.6
+        weprate: 6.6,
+        symbol: "Int_PowerDistributor_Size8_Class4"
       }, {
         class: 8,
         cost: 27249390,
@@ -5355,7 +5623,8 @@ module.exports = {
         syscap: 48,
         sysrate: 4.8,
         wepcap: 72,
-        weprate: 7.2
+        weprate: 7.2,
+        symbol: "Int_PowerDistributor_Size8_Class5"
       }, {
         class: 7,
         cost: 249140,
@@ -5372,7 +5641,8 @@ module.exports = {
         syscap: 27,
         sysrate: 2.6,
         wepcap: 41,
-        weprate: 4.1
+        weprate: 4.1,
+        symbol: "Int_PowerDistributor_Size7_Class1"
       }, {
         class: 7,
         cost: 622840,
@@ -5389,7 +5659,8 @@ module.exports = {
         syscap: 31,
         sysrate: 3,
         wepcap: 46,
-        weprate: 4.6
+        weprate: 4.6,
+        symbol: "Int_PowerDistributor_Size7_Class2"
       }, {
         class: 7,
         cost: 1557110,
@@ -5406,7 +5677,8 @@ module.exports = {
         syscap: 34,
         sysrate: 3.3,
         wepcap: 51,
-        weprate: 5.1
+        weprate: 5.1,
+        symbol: "Int_PowerDistributor_Size7_Class3"
       }, {
         class: 7,
         cost: 3892770,
@@ -5423,7 +5695,8 @@ module.exports = {
         syscap: 37,
         sysrate: 3.6,
         wepcap: 56,
-        weprate: 5.6
+        weprate: 5.6,
+        symbol: "Int_PowerDistributor_Size7_Class4"
       }, {
         class: 7,
         cost: 9731930,
@@ -5440,7 +5713,8 @@ module.exports = {
         syscap: 41,
         sysrate: 4,
         wepcap: 61,
-        weprate: 6.1
+        weprate: 6.1,
+        symbol: "Int_PowerDistributor_Size7_Class5"
       }, {
         class: 6,
         cost: 88980,
@@ -5457,7 +5731,8 @@ module.exports = {
         syscap: 23,
         sysrate: 2.2,
         wepcap: 34,
-        weprate: 3.4
+        weprate: 3.4,
+        symbol: "Int_PowerDistributor_Size6_Class1"
       }, {
         class: 6,
         cost: 222440,
@@ -5474,7 +5749,8 @@ module.exports = {
         syscap: 26,
         sysrate: 2.4,
         wepcap: 38,
-        weprate: 3.9
+        weprate: 3.9,
+        symbol: "Int_PowerDistributor_Size6_Class2"
       }, {
         class: 6,
         cost: 556110,
@@ -5491,7 +5767,8 @@ module.exports = {
         syscap: 29,
         sysrate: 2.7,
         wepcap: 42,
-        weprate: 4.3
+        weprate: 4.3,
+        symbol: "Int_PowerDistributor_Size6_Class3"
       }, {
         class: 6,
         cost: 1390280,
@@ -5508,7 +5785,8 @@ module.exports = {
         syscap: 32,
         sysrate: 3,
         wepcap: 46,
-        weprate: 4.7
+        weprate: 4.7,
+        symbol: "Int_PowerDistributor_Size6_Class4"
       }, {
         class: 6,
         cost: 3475690,
@@ -5525,7 +5803,8 @@ module.exports = {
         syscap: 35,
         sysrate: 3.2,
         wepcap: 50,
-        weprate: 5.2
+        weprate: 5.2,
+        symbol: "Int_PowerDistributor_Size6_Class5"
       }, {
         class: 5,
         cost: 31780,
@@ -5542,7 +5821,8 @@ module.exports = {
         syscap: 19,
         sysrate: 1.7,
         wepcap: 27,
-        weprate: 2.9
+        weprate: 2.9,
+        symbol: "Int_PowerDistributor_Size5_Class1"
       }, {
         class: 5,
         cost: 79440,
@@ -5559,7 +5839,8 @@ module.exports = {
         syscap: 22,
         sysrate: 1.9,
         wepcap: 31,
-        weprate: 3.2
+        weprate: 3.2,
+        symbol: "Int_PowerDistributor_Size5_Class2"
       }, {
         class: 5,
         cost: 198610,
@@ -5576,7 +5857,8 @@ module.exports = {
         syscap: 24,
         sysrate: 2.1,
         wepcap: 34,
-        weprate: 3.6
+        weprate: 3.6,
+        symbol: "Int_PowerDistributor_Size5_Class3"
       }, {
         class: 5,
         cost: 496530,
@@ -5593,7 +5875,8 @@ module.exports = {
         syscap: 26,
         sysrate: 2.3,
         wepcap: 37,
-        weprate: 4
+        weprate: 4,
+        symbol: "Int_PowerDistributor_Size5_Class4"
       }, {
         class: 5,
         cost: 1241320,
@@ -5610,7 +5893,8 @@ module.exports = {
         syscap: 29,
         sysrate: 2.5,
         wepcap: 41,
-        weprate: 4.3
+        weprate: 4.3,
+        symbol: "Int_PowerDistributor_Size5_Class5"
       }, {
         class: 4,
         cost: 11350,
@@ -5627,7 +5911,8 @@ module.exports = {
         syscap: 15,
         sysrate: 1.3,
         wepcap: 22,
-        weprate: 2.3
+        weprate: 2.3,
+        symbol: "Int_PowerDistributor_Size4_Class1"
       }, {
         class: 4,
         cost: 28370,
@@ -5644,7 +5929,8 @@ module.exports = {
         syscap: 17,
         sysrate: 1.4,
         wepcap: 24,
-        weprate: 2.6
+        weprate: 2.6,
+        symbol: "Int_PowerDistributor_Size4_Class2"
       }, {
         class: 4,
         cost: 70930,
@@ -5661,7 +5947,8 @@ module.exports = {
         syscap: 19,
         sysrate: 1.6,
         wepcap: 27,
-        weprate: 2.9
+        weprate: 2.9,
+        symbol: "Int_PowerDistributor_Size4_Class3"
       }, {
         class: 4,
         cost: 177330,
@@ -5678,7 +5965,8 @@ module.exports = {
         syscap: 21,
         sysrate: 1.8,
         wepcap: 30,
-        weprate: 3.2
+        weprate: 3.2,
+        symbol: "Int_PowerDistributor_Size4_Class4"
       }, {
         class: 4,
         cost: 443330,
@@ -5695,7 +5983,8 @@ module.exports = {
         syscap: 23,
         sysrate: 1.9,
         wepcap: 32,
-        weprate: 3.5
+        weprate: 3.5,
+        symbol: "Int_PowerDistributor_Size4_Class5"
       }, {
         class: 3,
         cost: 4050,
@@ -5712,7 +6001,8 @@ module.exports = {
         syscap: 12,
         sysrate: .9,
         wepcap: 16,
-        weprate: 1.8
+        weprate: 1.8,
+        symbol: "Int_PowerDistributor_Size3_Class1"
       }, {
         class: 3,
         cost: 10130,
@@ -5729,7 +6019,8 @@ module.exports = {
         syscap: 14,
         sysrate: 1,
         wepcap: 18,
-        weprate: 2.1
+        weprate: 2.1,
+        symbol: "Int_PowerDistributor_Size3_Class2"
       }, {
         class: 3,
         cost: 25330,
@@ -5746,7 +6037,8 @@ module.exports = {
         syscap: 15,
         sysrate: 1.1,
         wepcap: 20,
-        weprate: 2.3
+        weprate: 2.3,
+        symbol: "Int_PowerDistributor_Size3_Class3"
       }, {
         class: 3,
         cost: 63330,
@@ -5763,7 +6055,8 @@ module.exports = {
         syscap: 17,
         sysrate: 1.2,
         wepcap: 22,
-        weprate: 2.5
+        weprate: 2.5,
+        symbol: "Int_PowerDistributor_Size3_Class4"
       }, {
         class: 3,
         cost: 158330,
@@ -5780,7 +6073,8 @@ module.exports = {
         syscap: 18,
         sysrate: 1.3,
         wepcap: 24,
-        weprate: 2.8
+        weprate: 2.8,
+        symbol: "Int_PowerDistributor_Size3_Class5"
       }, {
         class: 2,
         cost: 1450,
@@ -5797,7 +6091,8 @@ module.exports = {
         syscap: 10,
         sysrate: .6,
         wepcap: 12,
-        weprate: 1.4
+        weprate: 1.4,
+        symbol: "Int_PowerDistributor_Size2_Class1"
       }, {
         class: 2,
         cost: 3620,
@@ -5814,7 +6109,8 @@ module.exports = {
         syscap: 11,
         sysrate: .6,
         wepcap: 14,
-        weprate: 1.6
+        weprate: 1.6,
+        symbol: "Int_PowerDistributor_Size2_Class2"
       }, {
         class: 2,
         cost: 9050,
@@ -5831,7 +6127,8 @@ module.exports = {
         syscap: 12,
         sysrate: .7,
         wepcap: 15,
-        weprate: 1.8
+        weprate: 1.8,
+        symbol: "Int_PowerDistributor_Size2_Class3"
       }, {
         class: 2,
         cost: 22620,
@@ -5848,7 +6145,8 @@ module.exports = {
         syscap: 13,
         sysrate: .8,
         wepcap: 17,
-        weprate: 2
+        weprate: 2,
+        symbol: "Int_PowerDistributor_Size2_Class4"
       }, {
         class: 2,
         cost: 56550,
@@ -5865,7 +6163,8 @@ module.exports = {
         syscap: 14,
         sysrate: .8,
         wepcap: 18,
-        weprate: 2.2
+        weprate: 2.2,
+        symbol: "Int_PowerDistributor_Size2_Class5"
       }, {
         class: 1,
         cost: 520,
@@ -5882,7 +6181,8 @@ module.exports = {
         syscap: 8,
         sysrate: .4,
         wepcap: 10,
-        weprate: 1.2
+        weprate: 1.2,
+        symbol: "Int_PowerDistributor_Size1_Class1"
       }, {
         class: 1,
         cost: 1290,
@@ -5899,7 +6199,8 @@ module.exports = {
         syscap: 9,
         sysrate: .5,
         wepcap: 11,
-        weprate: 1.4
+        weprate: 1.4,
+        symbol: "Int_PowerDistributor_Size1_Class2"
       }, {
         class: 1,
         cost: 3230,
@@ -5916,7 +6217,8 @@ module.exports = {
         syscap: 10,
         sysrate: .5,
         wepcap: 12,
-        weprate: 1.5
+        weprate: 1.5,
+        symbol: "Int_PowerDistributor_Size1_Class3"
       }, {
         class: 1,
         cost: 8080,
@@ -5933,7 +6235,8 @@ module.exports = {
         syscap: 11,
         sysrate: .6,
         wepcap: 13,
-        weprate: 1.7
+        weprate: 1.7,
+        symbol: "Int_PowerDistributor_Size1_Class4"
       }, {
         class: 1,
         cost: 20200,
@@ -5950,7 +6253,8 @@ module.exports = {
         syscap: 12,
         sysrate: .6,
         wepcap: 14,
-        weprate: 1.8
+        weprate: 1.8,
+        symbol: "Int_PowerDistributor_Size1_Class5"
       } ],
       s: [ {
         angle: 30,
@@ -5964,7 +6268,8 @@ module.exports = {
         mass: 160,
         power: .55,
         range: 5.12,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_Sensors_Size8_Class1"
       }, {
         angle: 30,
         class: 8,
@@ -5977,7 +6282,8 @@ module.exports = {
         mass: 64,
         power: .62,
         range: 5.76,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_Sensors_Size8_Class2"
       }, {
         angle: 30,
         class: 8,
@@ -5990,7 +6296,8 @@ module.exports = {
         mass: 160,
         power: .69,
         range: 6.4,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_Sensors_Size8_Class3"
       }, {
         angle: 30,
         class: 8,
@@ -6003,7 +6310,8 @@ module.exports = {
         mass: 256,
         power: 1.14,
         range: 7.04,
-        rating: "B"
+        rating: "B",
+        symbol: "Int_Sensors_Size8_Class4"
       }, {
         angle: 30,
         class: 8,
@@ -6016,7 +6324,8 @@ module.exports = {
         mass: 160,
         power: 2.07,
         range: 7.68,
-        rating: "A"
+        rating: "A",
+        symbol: "Int_Sensors_Size8_Class5"
       }, {
         angle: 30,
         class: 7,
@@ -6029,7 +6338,8 @@ module.exports = {
         mass: 80,
         power: .47,
         range: 4.96,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_Sensors_Size7_Class1"
       }, {
         angle: 30,
         class: 7,
@@ -6042,7 +6352,8 @@ module.exports = {
         mass: 32,
         power: .53,
         range: 5.58,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_Sensors_Size7_Class2"
       }, {
         angle: 30,
         class: 7,
@@ -6055,7 +6366,8 @@ module.exports = {
         mass: 80,
         power: .59,
         range: 6.2,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_Sensors_Size7_Class3"
       }, {
         angle: 30,
         class: 7,
@@ -6068,7 +6380,8 @@ module.exports = {
         mass: 128,
         power: .97,
         range: 6.82,
-        rating: "B"
+        rating: "B",
+        symbol: "Int_Sensors_Size7_Class4"
       }, {
         angle: 30,
         class: 7,
@@ -6081,7 +6394,8 @@ module.exports = {
         mass: 80,
         power: 1.77,
         range: 7.44,
-        rating: "A"
+        rating: "A",
+        symbol: "Int_Sensors_Size7_Class5"
       }, {
         angle: 30,
         class: 6,
@@ -6094,7 +6408,8 @@ module.exports = {
         mass: 40,
         power: .4,
         range: 4.8,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_Sensors_Size6_Class1"
       }, {
         angle: 30,
         class: 6,
@@ -6107,7 +6422,8 @@ module.exports = {
         mass: 16,
         power: .45,
         range: 5.4,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_Sensors_Size6_Class2"
       }, {
         angle: 30,
         class: 6,
@@ -6120,7 +6436,8 @@ module.exports = {
         mass: 40,
         power: .5,
         range: 6,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_Sensors_Size6_Class3"
       }, {
         angle: 30,
         class: 6,
@@ -6133,7 +6450,8 @@ module.exports = {
         mass: 64,
         power: .83,
         range: 6.6,
-        rating: "B"
+        rating: "B",
+        symbol: "Int_Sensors_Size6_Class4"
       }, {
         angle: 30,
         class: 6,
@@ -6146,7 +6464,8 @@ module.exports = {
         mass: 40,
         power: 1.5,
         range: 7.2,
-        rating: "A"
+        rating: "A",
+        symbol: "Int_Sensors_Size6_Class5"
       }, {
         angle: 30,
         class: 5,
@@ -6159,7 +6478,8 @@ module.exports = {
         mass: 20,
         power: .33,
         range: 4.64,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_Sensors_Size5_Class1"
       }, {
         angle: 30,
         class: 5,
@@ -6172,7 +6492,8 @@ module.exports = {
         mass: 8,
         power: .37,
         range: 5.22,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_Sensors_Size5_Class2"
       }, {
         angle: 30,
         class: 5,
@@ -6185,7 +6506,8 @@ module.exports = {
         mass: 20,
         power: .41,
         range: 5.8,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_Sensors_Size5_Class3"
       }, {
         angle: 30,
         class: 5,
@@ -6198,7 +6520,8 @@ module.exports = {
         mass: 32,
         power: .68,
         range: 6.38,
-        rating: "B"
+        rating: "B",
+        symbol: "Int_Sensors_Size5_Class4"
       }, {
         angle: 30,
         class: 5,
@@ -6211,7 +6534,8 @@ module.exports = {
         mass: 20,
         power: 1.23,
         range: 6.96,
-        rating: "A"
+        rating: "A",
+        symbol: "Int_Sensors_Size5_Class5"
       }, {
         angle: 30,
         class: 4,
@@ -6224,7 +6548,8 @@ module.exports = {
         mass: 10,
         power: .27,
         range: 4.48,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_Sensors_Size4_Class1"
       }, {
         angle: 30,
         class: 4,
@@ -6237,7 +6562,8 @@ module.exports = {
         mass: 4,
         power: .31,
         range: 5.04,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_Sensors_Size4_Class2"
       }, {
         angle: 30,
         class: 4,
@@ -6250,7 +6576,8 @@ module.exports = {
         mass: 10,
         power: .34,
         range: 5.6,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_Sensors_Size4_Class3"
       }, {
         angle: 30,
         class: 4,
@@ -6263,7 +6590,8 @@ module.exports = {
         mass: 16,
         power: .56,
         range: 6.16,
-        rating: "B"
+        rating: "B",
+        symbol: "Int_Sensors_Size4_Class4"
       }, {
         angle: 30,
         class: 4,
@@ -6276,7 +6604,8 @@ module.exports = {
         mass: 10,
         power: 1.02,
         range: 6.72,
-        rating: "A"
+        rating: "A",
+        symbol: "Int_Sensors_Size4_Class5"
       }, {
         angle: 30,
         class: 3,
@@ -6289,7 +6618,8 @@ module.exports = {
         mass: 5,
         power: .22,
         range: 4.32,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_Sensors_Size3_Class1"
       }, {
         angle: 30,
         class: 3,
@@ -6302,7 +6632,8 @@ module.exports = {
         mass: 2,
         power: .25,
         range: 4.86,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_Sensors_Size3_Class2"
       }, {
         angle: 30,
         class: 3,
@@ -6315,7 +6646,8 @@ module.exports = {
         mass: 5,
         power: .28,
         range: 5.4,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_Sensors_Size3_Class3"
       }, {
         angle: 30,
         class: 3,
@@ -6328,7 +6660,8 @@ module.exports = {
         mass: 8,
         power: .46,
         range: 5.94,
-        rating: "B"
+        rating: "B",
+        symbol: "Int_Sensors_Size3_Class4"
       }, {
         angle: 30,
         class: 3,
@@ -6341,7 +6674,8 @@ module.exports = {
         mass: 5,
         power: .84,
         range: 6.48,
-        rating: "A"
+        rating: "A",
+        symbol: "Int_Sensors_Size3_Class5"
       }, {
         angle: 30,
         class: 2,
@@ -6354,7 +6688,8 @@ module.exports = {
         mass: 2.5,
         power: .18,
         range: 4.16,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_Sensors_Size2_Class1"
       }, {
         angle: 30,
         class: 2,
@@ -6367,7 +6702,8 @@ module.exports = {
         mass: 1,
         power: .21,
         range: 4.68,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_Sensors_Size2_Class2"
       }, {
         angle: 30,
         class: 2,
@@ -6380,7 +6716,8 @@ module.exports = {
         mass: 2.5,
         power: .23,
         range: 5.2,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_Sensors_Size2_Class3"
       }, {
         angle: 30,
         class: 2,
@@ -6393,7 +6730,8 @@ module.exports = {
         mass: 4,
         power: .38,
         range: 5.72,
-        rating: "B"
+        rating: "B",
+        symbol: "Int_Sensors_Size2_Class4"
       }, {
         angle: 30,
         class: 2,
@@ -6406,7 +6744,8 @@ module.exports = {
         mass: 2.5,
         power: .69,
         range: 6.24,
-        rating: "A"
+        rating: "A",
+        symbol: "Int_Sensors_Size2_Class5"
       }, {
         angle: 30,
         class: 1,
@@ -6419,7 +6758,8 @@ module.exports = {
         mass: 1.3,
         power: .16,
         range: 4,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_Sensors_Size1_Class1"
       }, {
         angle: 30,
         class: 1,
@@ -6432,7 +6772,8 @@ module.exports = {
         mass: .5,
         power: .18,
         range: 4.5,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_Sensors_Size1_Class2"
       }, {
         angle: 30,
         class: 1,
@@ -6445,7 +6786,8 @@ module.exports = {
         mass: 1.3,
         power: .2,
         range: 5,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_Sensors_Size1_Class3"
       }, {
         angle: 30,
         class: 1,
@@ -6458,7 +6800,8 @@ module.exports = {
         mass: 2,
         power: .33,
         range: 5.5,
-        rating: "B"
+        rating: "B",
+        symbol: "Int_Sensors_Size1_Class4"
       }, {
         angle: 30,
         class: 1,
@@ -6471,7 +6814,8 @@ module.exports = {
         mass: 1.3,
         power: .6,
         range: 6,
-        rating: "A"
+        rating: "A",
+        symbol: "Int_Sensors_Size1_Class5"
       } ],
       ft: [ {
         class: 1,
@@ -6481,7 +6825,8 @@ module.exports = {
         fuel: 2,
         grp: "ft",
         id: "f1",
-        rating: "C"
+        rating: "C",
+        symbol: "Int_FuelTank_Size1_Class3"
       }, {
         class: 2,
         cost: 3750,
@@ -6490,7 +6835,8 @@ module.exports = {
         fuel: 4,
         grp: "ft",
         id: "f2",
-        rating: "C"
+        rating: "C",
+        symbol: "Int_FuelTank_Size2_Class3"
       }, {
         class: 3,
         cost: 7060,
@@ -6499,7 +6845,8 @@ module.exports = {
         fuel: 8,
         grp: "ft",
         id: "f3",
-        rating: "C"
+        rating: "C",
+        symbol: "Int_FuelTank_Size3_Class3"
       }, {
         class: 4,
         cost: 24730,
@@ -6508,7 +6855,8 @@ module.exports = {
         fuel: 16,
         grp: "ft",
         id: "f4",
-        rating: "C"
+        rating: "C",
+        symbol: "Int_FuelTank_Size4_Class3"
       }, {
         class: 5,
         cost: 97750,
@@ -6517,7 +6865,8 @@ module.exports = {
         fuel: 32,
         grp: "ft",
         id: "f5",
-        rating: "C"
+        rating: "C",
+        symbol: "Int_FuelTank_Size5_Class3"
       }, {
         class: 6,
         cost: 341580,
@@ -6526,7 +6875,8 @@ module.exports = {
         fuel: 64,
         grp: "ft",
         id: "f6",
-        rating: "C"
+        rating: "C",
+        symbol: "Int_FuelTank_Size6_Class3"
       }, {
         class: 7,
         cost: 1780910,
@@ -6535,7 +6885,8 @@ module.exports = {
         fuel: 128,
         grp: "ft",
         id: "f7",
-        rating: "C"
+        rating: "C",
+        symbol: "Int_FuelTank_Size7_Class3"
       }, {
         class: 8,
         cost: 5428400,
@@ -6544,7 +6895,8 @@ module.exports = {
         fuel: 256,
         grp: "ft",
         id: "f8",
-        rating: "C"
+        rating: "C",
+        symbol: "Int_FuelTank_Size8_Class3"
       } ],
       pas: [ {
         class: 1,
@@ -6555,7 +6907,8 @@ module.exports = {
         id: "PA",
         mass: 0,
         power: 0,
-        rating: "I"
+        rating: "I",
+        symbol: "Int_PlanetApproachSuite"
       } ]
     },
     hardpoints: {
@@ -6583,7 +6936,8 @@ module.exports = {
         range: 3e3,
         rating: "F",
         rof: 3.85,
-        thermload: .33
+        thermload: .33,
+        symbol: "Hpt_PulseLaser_Fixed_Small"
       }, {
         breachdmg: 1.3,
         breachmax: .8,
@@ -6608,7 +6962,8 @@ module.exports = {
         range: 3e3,
         rating: "G",
         rof: 4,
-        thermload: .31
+        thermload: .31,
+        symbol: "Hpt_PulseLaser_Gimbal_Small"
       }, {
         breachdmg: 1,
         breachmax: .8,
@@ -6633,7 +6988,8 @@ module.exports = {
         range: 3e3,
         rating: "G",
         rof: 3.33,
-        thermload: .19
+        thermload: .19,
+        symbol: "Hpt_PulseLaser_Turret_Small"
       }, {
         breachdmg: 3,
         breachmax: .8,
@@ -6658,7 +7014,8 @@ module.exports = {
         range: 3e3,
         rating: "E",
         rof: 3.45,
-        thermload: .56
+        thermload: .56,
+        symbol: "Hpt_PulseLaser_Fixed_Medium"
       }, {
         breachdmg: 2.3,
         breachmax: .8,
@@ -6683,7 +7040,8 @@ module.exports = {
         range: 3e3,
         rating: "F",
         rof: 3.57,
-        thermload: .54
+        thermload: .54,
+        symbol: "Hpt_PulseLaser_Gimbal_Medium"
       }, {
         breachdmg: 1.7,
         breachmax: .8,
@@ -6708,7 +7066,8 @@ module.exports = {
         range: 3e3,
         rating: "F",
         rof: 3.03,
-        thermload: .33
+        thermload: .33,
+        symbol: "Hpt_PulseLaser_Turret_Medium"
       }, {
         breachdmg: 2.4,
         breachmax: .8,
@@ -6759,7 +7118,8 @@ module.exports = {
         range: 3e3,
         rating: "D",
         rof: 3.03,
-        thermload: .96
+        thermload: .96,
+        symbol: "Hpt_PulseLaser_Fixed_Large"
       }, {
         breachdmg: 3.9,
         breachmax: .8,
@@ -6784,7 +7144,8 @@ module.exports = {
         range: 3e3,
         rating: "E",
         rof: 3.23,
-        thermload: .92
+        thermload: .92,
+        symbol: "Hpt_PulseLaser_Gimbal_Large"
       }, {
         breachdmg: 3,
         breachmax: .8,
@@ -6809,7 +7170,8 @@ module.exports = {
         range: 3e3,
         rating: "F",
         rof: 2.7,
-        thermload: .56
+        thermload: .56,
+        symbol: "Hpt_PulseLaser_Turret_Large"
       }, {
         breachdmg: 8.7,
         breachmax: .8,
@@ -6834,7 +7196,8 @@ module.exports = {
         range: 3e3,
         rating: "A",
         rof: 2.63,
-        thermload: 1.64
+        thermload: 1.64,
+        symbol: "Hpt_PulseLaser_Fixed_Huge"
       }, {
         breachdmg: 6.6,
         breachmax: .8,
@@ -6859,7 +7222,8 @@ module.exports = {
         range: 3e3,
         rating: "A",
         rof: 2.78,
-        thermload: 1.56
+        thermload: 1.56,
+        symbol: "Hpt_PulseLaser_Gimbal_Huge"
       } ],
       ul: [ {
         breachdmg: 1.5,
@@ -6887,7 +7251,8 @@ module.exports = {
         range: 3e3,
         rating: "F",
         rof: 2,
-        thermload: .38
+        thermload: .38,
+        symbol: "Hpt_PulseLaserBurst_Fixed_Small"
       }, {
         breachdmg: 1,
         breachmax: .8,
@@ -6914,7 +7279,8 @@ module.exports = {
         range: 3e3,
         rating: "G",
         rof: 2.23,
-        thermload: .34
+        thermload: .34,
+        symbol: "Hpt_PulseLaserBurst_Gimbal_Small"
       }, {
         breachdmg: .4,
         breachmax: .8,
@@ -6941,7 +7307,8 @@ module.exports = {
         range: 3e3,
         rating: "G",
         rof: 1.92,
-        thermload: .19
+        thermload: .19,
+        symbol: "Hpt_PulseLaserBurst_Turret_Small"
       }, {
         breachdmg: 3.1,
         breachmax: 0,
@@ -6971,7 +7338,8 @@ module.exports = {
         range: 3e3,
         rating: "F",
         rof: 7.6,
-        thermload: .3
+        thermload: .3,
+        symbol: "Hpt_PulseLaserBurst_Fixed_Small_Scatter"
       }, {
         breachdmg: 3,
         breachmax: .8,
@@ -6998,7 +7366,8 @@ module.exports = {
         range: 3e3,
         rating: "E",
         rof: 1.6,
-        thermload: .78
+        thermload: .78,
+        symbol: "Hpt_PulseLaserBurst_Fixed_Medium"
       }, {
         breachdmg: 2.1,
         breachmax: .8,
@@ -7025,7 +7394,8 @@ module.exports = {
         range: 3e3,
         rating: "F",
         rof: 1.78,
-        thermload: .67
+        thermload: .67,
+        symbol: "Hpt_PulseLaserBurst_Gimbal_Medium"
       }, {
         breachdmg: .9,
         breachmax: .8,
@@ -7052,7 +7422,8 @@ module.exports = {
         range: 3e3,
         rating: "F",
         rof: 1.57,
-        thermload: .38
+        thermload: .38,
+        symbol: "Hpt_PulseLaserBurst_Turret_Medium"
       }, {
         breachdmg: 3.9,
         breachmax: .8,
@@ -7079,7 +7450,8 @@ module.exports = {
         range: 3e3,
         rating: "D",
         rof: 1.2,
-        thermload: 1.7
+        thermload: 1.7,
+        symbol: "Hpt_PulseLaserBurst_Fixed_Large"
       }, {
         breachdmg: 4.4,
         breachmax: .8,
@@ -7106,7 +7478,8 @@ module.exports = {
         range: 3e3,
         rating: "E",
         rof: 1.4,
-        thermload: 1.42
+        thermload: 1.42,
+        symbol: "Hpt_PulseLaserBurst_Gimbal_Large"
       }, {
         breachdmg: 1.8,
         breachmax: .8,
@@ -7133,7 +7506,8 @@ module.exports = {
         range: 3e3,
         rating: "E",
         rof: 1.272,
-        thermload: .78
+        thermload: .78,
+        symbol: "Hpt_PulseLaserBurst_Turret_Large"
       }, {
         breachdmg: 17.5,
         breachmax: .8,
@@ -7160,7 +7534,8 @@ module.exports = {
         range: 3e3,
         rating: "E",
         rof: .8,
-        thermload: 4.53
+        thermload: 4.53,
+        symbol: "Hpt_PulseLaserBurst_Fixed_Huge"
       }, {
         breachdmg: 10.3,
         breachmax: .8,
@@ -7187,7 +7562,8 @@ module.exports = {
         range: 3e3,
         rating: "E",
         rof: 1,
-        thermload: 3.33
+        thermload: 3.33,
+        symbol: "Hpt_PulseLaserBurst_Gimbal_Huge"
       } ],
       bl: [ {
         breachdmg: 7.9,
@@ -7212,7 +7588,8 @@ module.exports = {
         power: .62,
         range: 3e3,
         rating: "E",
-        thermload: 3.5
+        thermload: 3.5,
+        symbol: "Hpt_BeamLaser_Fixed_Small"
       }, {
         breachdmg: 6.1,
         breachmax: .8,
@@ -7236,7 +7613,8 @@ module.exports = {
         power: .6,
         range: 3e3,
         rating: "E",
-        thermload: 3.6
+        thermload: 3.6,
+        symbol: "Hpt_BeamLaser_Gimbal_Small"
       }, {
         breachdmg: 4.3,
         breachmax: .8,
@@ -7262,7 +7640,8 @@ module.exports = {
         power: .57,
         range: 3e3,
         rating: "F",
-        thermload: 2.4
+        thermload: 2.4,
+        symbol: "Hpt_BeamLaser_Turret_Small"
       }, {
         breachdmg: 3.9,
         breachmax: .8,
@@ -7288,7 +7667,8 @@ module.exports = {
         pp: "Edmund Mahon",
         range: 3e3,
         rating: "E",
-        thermload: 2.7
+        thermload: 2.7,
+        symbol: "Hpt_BeamLaser_Fixed_Small_Heat"
       }, {
         breachdmg: 12.8,
         breachmax: .8,
@@ -7312,7 +7692,8 @@ module.exports = {
         power: 1.01,
         range: 3e3,
         rating: "D",
-        thermload: 5.1
+        thermload: 5.1,
+        symbol: "Hpt_BeamLaser_Fixed_Medium"
       }, {
         breachdmg: 10,
         breachmax: .8,
@@ -7336,7 +7717,8 @@ module.exports = {
         power: .99,
         range: 3e3,
         rating: "D",
-        thermload: 5.3
+        thermload: 5.3,
+        symbol: "Hpt_BeamLaser_Gimbal_Medium"
       }, {
         breachdmg: 7.1,
         breachmax: .8,
@@ -7360,7 +7742,8 @@ module.exports = {
         power: .93,
         range: 3e3,
         rating: "E",
-        thermload: 3.5
+        thermload: 3.5,
+        symbol: "Hpt_BeamLaser_Turret_Medium"
       }, {
         breachdmg: 20.6,
         breachmax: .8,
@@ -7384,7 +7767,8 @@ module.exports = {
         power: 1.62,
         range: 3e3,
         rating: "C",
-        thermload: 7.2
+        thermload: 7.2,
+        symbol: "Hpt_BeamLaser_Fixed_Large"
       }, {
         breachdmg: 16.2,
         breachmax: .8,
@@ -7408,7 +7792,8 @@ module.exports = {
         power: 1.6,
         range: 3e3,
         rating: "C",
-        thermload: 7.6
+        thermload: 7.6,
+        symbol: "Hpt_BeamLaser_Gimbal_Large"
       }, {
         breachdmg: 11.5,
         breachmax: .8,
@@ -7432,7 +7817,8 @@ module.exports = {
         power: 1.51,
         range: 3e3,
         rating: "D",
-        thermload: 5.1
+        thermload: 5.1,
+        symbol: "Hpt_BeamLaser_Turret_Large"
       }, {
         breachdmg: 33.1,
         breachmax: .8,
@@ -7456,7 +7842,8 @@ module.exports = {
         power: 2.61,
         range: 3e3,
         rating: "A",
-        thermload: 9.9
+        thermload: 9.9,
+        symbol: "Hpt_BeamLaser_Fixed_Huge"
       }, {
         breachdmg: 26.1,
         breachmax: .8,
@@ -7480,7 +7867,8 @@ module.exports = {
         power: 2.57,
         range: 3e3,
         rating: "A",
-        thermload: 10.6
+        thermload: 10.6,
+        symbol: "Hpt_BeamLaser_Gimbal_Huge"
       } ],
       mc: [ {
         ammo: 2100,
@@ -7510,7 +7898,8 @@ module.exports = {
         reload: 4,
         rof: 7.69,
         shotspeed: 1600,
-        thermload: .09
+        thermload: .09,
+        symbol: "Hpt_MultiCannon_Fixed_Small"
       }, {
         ammo: 2100,
         breachdmg: .7,
@@ -7539,7 +7928,8 @@ module.exports = {
         reload: 5,
         rof: 8.33,
         shotspeed: 1600,
-        thermload: .1
+        thermload: .1,
+        symbol: "Hpt_MultiCannon_Gimbal_Small"
       }, {
         ammo: 2100,
         breachdmg: .5,
@@ -7568,7 +7958,8 @@ module.exports = {
         reload: 4,
         rof: 7.14,
         shotspeed: 1600,
-        thermload: .04
+        thermload: .04,
+        symbol: "Hpt_MultiCannon_Turret_Small"
       }, {
         ammo: 1e3,
         breachdmg: 2.6,
@@ -7628,7 +8019,8 @@ module.exports = {
         reload: 4,
         rof: 7.14,
         shotspeed: 1600,
-        thermload: .18
+        thermload: .18,
+        symbol: "Hpt_MultiCannon_Fixed_Medium"
       }, {
         ammo: 2100,
         breachdmg: 1.5,
@@ -7657,7 +8049,8 @@ module.exports = {
         reload: 5,
         rof: 7.69,
         shotspeed: 1600,
-        thermload: .2
+        thermload: .2,
+        symbol: "Hpt_MultiCannon_Gimbal_Medium"
       }, {
         ammo: 2100,
         breachdmg: 1.1,
@@ -7686,7 +8079,8 @@ module.exports = {
         reload: 4,
         rof: 6.25,
         shotspeed: 1600,
-        thermload: .09
+        thermload: .09,
+        symbol: "Hpt_MultiCannon_Turret_Medium"
       }, {
         ammo: 2100,
         breachdmg: 3.5,
@@ -7715,7 +8109,8 @@ module.exports = {
         reload: 4,
         rof: 5.884,
         shotspeed: 1600,
-        thermload: .28
+        thermload: .28,
+        symbol: "Hpt_MultiCannon_Fixed_Large"
       }, {
         ammo: 2100,
         breachdmg: 2.6,
@@ -7744,7 +8139,8 @@ module.exports = {
         reload: 5,
         rof: 6.665,
         shotspeed: 1600,
-        thermload: .34
+        thermload: .34,
+        symbol: "Hpt_MultiCannon_Gimbal_Large"
       }, {
         ammo: 2100,
         breachdmg: 4.2,
@@ -7774,7 +8170,8 @@ module.exports = {
         rof: 3.03,
         roundspershot: 2,
         shotspeed: 1600,
-        thermload: .39
+        thermload: .39,
+        symbol: "Hpt_MultiCannon_Fixed_Huge"
       }, {
         ammo: 2100,
         breachdmg: 3.1,
@@ -7804,7 +8201,8 @@ module.exports = {
         rof: 3.365,
         roundspershot: 2,
         shotspeed: 1600,
-        thermload: .51
+        thermload: .51,
+        symbol: "Hpt_MultiCannon_Gimbal_Huge"
       } ],
       axmc: [ {
         ammo: 2100,
@@ -7834,7 +8232,8 @@ module.exports = {
         reload: 4,
         rof: 7.1,
         shotspeed: 1600,
-        thermload: .2
+        thermload: .2,
+        symbol: "Hpt_ATMultiCannon_Fixed_Medium"
       }, {
         ammo: 2100,
         breachdmg: .4,
@@ -7863,7 +8262,8 @@ module.exports = {
         reload: 4,
         rof: 6.2,
         shotspeed: 1600,
-        thermload: .1
+        thermload: .1,
+        symbol: "Hpt_ATMultiCannon_Turret_Medium"
       }, {
         ammo: 2100,
         breachdmg: 5.2,
@@ -7892,7 +8292,8 @@ module.exports = {
         reload: 4,
         rof: 5.9,
         shotspeed: 1600,
-        thermload: .3
+        thermload: .3,
+        symbol: "Hpt_ATMultiCannon_Fixed_Large"
       }, {
         ammo: 2100,
         breachdmg: .8,
@@ -7921,7 +8322,8 @@ module.exports = {
         reload: 4,
         rof: 6.2,
         shotspeed: 1600,
-        thermload: .1
+        thermload: .1,
+        symbol: "Hpt_ATMultiCannon_Turret_Large"
       } ],
       c: [ {
         ammo: 120,
@@ -7951,7 +8353,8 @@ module.exports = {
         reload: 3,
         rof: .5,
         shotspeed: 1200,
-        thermload: 1.4
+        thermload: 1.4,
+        symbol: "Hpt_Cannon_Fixed_Small"
       }, {
         ammo: 100,
         breachdmg: 13.2,
@@ -7980,7 +8383,8 @@ module.exports = {
         reload: 4,
         rof: .52,
         shotspeed: 1e3,
-        thermload: 1.3
+        thermload: 1.3,
+        symbol: "Hpt_Cannon_Gimbal_Small"
       }, {
         ammo: 100,
         breachdmg: 10.6,
@@ -8009,7 +8413,8 @@ module.exports = {
         reload: 4,
         rof: .435,
         shotspeed: 1e3,
-        thermload: .7
+        thermload: .7,
+        symbol: "Hpt_Cannon_Turret_Small"
       }, {
         ammo: 120,
         breachdmg: 28,
@@ -8038,7 +8443,8 @@ module.exports = {
         reload: 3,
         rof: .465,
         shotspeed: 1051,
-        thermload: 2.1
+        thermload: 2.1,
+        symbol: "Hpt_Cannon_Fixed_Medium"
       }, {
         ammo: 100,
         breachdmg: 20.3,
@@ -8067,7 +8473,8 @@ module.exports = {
         reload: 4,
         rof: .485,
         shotspeed: 875,
-        thermload: 1.9
+        thermload: 1.9,
+        symbol: "Hpt_Cannon_Gimbal_Medium"
       }, {
         ammo: 100,
         breachdmg: 16.3,
@@ -8096,7 +8503,8 @@ module.exports = {
         reload: 4,
         rof: .405,
         shotspeed: 875,
-        thermload: 1
+        thermload: 1,
+        symbol: "Hpt_Cannon_Turret_Medium"
       }, {
         ammo: 120,
         breachdmg: 42.3,
@@ -8125,7 +8533,8 @@ module.exports = {
         reload: 3,
         rof: .425,
         shotspeed: 959,
-        thermload: 3.2
+        thermload: 3.2,
+        symbol: "Hpt_Cannon_Fixed_Large"
       }, {
         ammo: 100,
         breachdmg: 30.9,
@@ -8156,7 +8565,8 @@ module.exports = {
         reload: 4,
         rof: .445,
         shotspeed: 800,
-        thermload: 2.9
+        thermload: 2.9,
+        symbol: "Hpt_Cannon_Gimbal_Large"
       }, {
         ammo: 100,
         breachdmg: 25.14,
@@ -8185,7 +8595,8 @@ module.exports = {
         reload: 4,
         rof: .37,
         shotspeed: 800,
-        thermload: 1.6
+        thermload: 1.6,
+        symbol: "Hpt_Cannon_Turret_Large"
       }, {
         ammo: 120,
         breachdmg: 63.2,
@@ -8216,7 +8627,8 @@ module.exports = {
         reload: 3,
         rof: .385,
         shotspeed: 900,
-        thermload: 4.8
+        thermload: 4.8,
+        symbol: "Hpt_Cannon_Fixed_Huge"
       }, {
         ammo: 100,
         breachdmg: 46.7,
@@ -8247,7 +8659,8 @@ module.exports = {
         reload: 4,
         rof: .4,
         shotspeed: 750,
-        thermload: 4.4
+        thermload: 4.4,
+        symbol: "Hpt_Cannon_Gimbal_Huge"
       } ],
       fc: [ {
         ammo: 180,
@@ -8279,7 +8692,8 @@ module.exports = {
         rof: 5.555,
         roundspershot: 12,
         shotspeed: 667,
-        thermload: .4
+        thermload: .4,
+        symbol: "Hpt_Slugshot_Fixed_Small"
       }, {
         ammo: 180,
         breachdmg: .9,
@@ -8310,7 +8724,8 @@ module.exports = {
         rof: 5.88,
         roundspershot: 12,
         shotspeed: 667,
-        thermload: .4
+        thermload: .4,
+        symbol: "Hpt_Slugshot_Gimbal_Small"
       }, {
         ammo: 180,
         breachdmg: .5,
@@ -8341,7 +8756,8 @@ module.exports = {
         rof: 4.76,
         roundspershot: 12,
         shotspeed: 667,
-        thermload: .2
+        thermload: .2,
+        symbol: "Hpt_Slugshot_Turret_Small"
       }, {
         ammo: 180,
         breachdmg: 2.3,
@@ -8372,7 +8788,8 @@ module.exports = {
         rof: 4.975,
         roundspershot: 12,
         shotspeed: 667,
-        thermload: .7
+        thermload: .7,
+        symbol: "Hpt_Slugshot_Fixed_Medium"
       }, {
         ammo: 180,
         breachdmg: 1.8,
@@ -8403,7 +8820,8 @@ module.exports = {
         rof: 5.26,
         roundspershot: 12,
         shotspeed: 667,
-        thermload: .8
+        thermload: .8,
+        symbol: "Hpt_Slugshot_Gimbal_Medium"
       }, {
         ammo: 180,
         breachdmg: 1.3,
@@ -8434,7 +8852,8 @@ module.exports = {
         rof: 4.26,
         roundspershot: 12,
         shotspeed: 667,
-        thermload: .4
+        thermload: .4,
+        symbol: "Hpt_Slugshot_Turret_Medium"
       }, {
         ammo: 180,
         breachdmg: 3.5,
@@ -8465,7 +8884,8 @@ module.exports = {
         rof: 4.545,
         roundspershot: 12,
         shotspeed: 667,
-        thermload: 1.1
+        thermload: 1.1,
+        symbol: "Hpt_Slugshot_Fixed_Large"
       }, {
         ammo: 180,
         breachdmg: 2.9,
@@ -8496,7 +8916,8 @@ module.exports = {
         rof: 4.76,
         roundspershot: 12,
         shotspeed: 667,
-        thermload: 1.4
+        thermload: 1.4,
+        symbol: "Hpt_Slugshot_Gimbal_Large"
       }, {
         ammo: 180,
         breachdmg: 2.3,
@@ -8527,7 +8948,8 @@ module.exports = {
         rof: 4,
         roundspershot: 12,
         shotspeed: 667,
-        thermload: .7
+        thermload: .7,
+        symbol: "Hpt_Slugshot_Turret_Large"
       }, {
         ammo: 180,
         breachdmg: 3.1,
@@ -8559,7 +8981,8 @@ module.exports = {
         rof: 4.5,
         roundspershot: 12,
         shotspeed: 1e3,
-        thermload: 1.1
+        thermload: 1.1,
+        symbol: "Hpt_Slugshot_Fixed_Large_Range"
       } ],
       rfl: [ {
         ammo: 32,
@@ -8588,7 +9011,8 @@ module.exports = {
         reload: 2,
         rof: .5,
         shotspeed: 550,
-        thermload: 3.6
+        thermload: 3.6,
+        symbol: "Hpt_FlakMortar_Fixed_Medium"
       }, {
         ammo: 32,
         breachdmg: 1.7,
@@ -8616,7 +9040,8 @@ module.exports = {
         reload: 2,
         rof: .5,
         shotspeed: 550,
-        thermload: 3.6
+        thermload: 3.6,
+        symbol: "Hpt_FlakMortar_Turret_Medium"
       } ],
       rg: [ {
         ammo: 80,
@@ -8646,7 +9071,8 @@ module.exports = {
         rating: "D",
         reload: 1,
         rof: 1.6,
-        thermload: 12
+        thermload: 12,
+        symbol: "Hpt_Railgun_Fixed_Small"
       }, {
         ammo: 80,
         breachdmg: 39.5,
@@ -8675,7 +9101,8 @@ module.exports = {
         rating: "B",
         reload: 1,
         rof: 1.2,
-        thermload: 20
+        thermload: 20,
+        symbol: "Hpt_Railgun_Fixed_Medium"
       }, {
         ammo: 240,
         breachdmg: 14.3,
@@ -8708,7 +9135,8 @@ module.exports = {
         rating: "B",
         reload: 1,
         rof: 4.1,
-        thermload: 11
+        thermload: 11,
+        symbol: "Hpt_Railgun_Fixed_Medium_Burst"
       } ],
       pa: [ {
         ammo: 100,
@@ -8740,7 +9168,8 @@ module.exports = {
         reload: 6,
         rof: .33,
         shotspeed: 875,
-        thermload: 15.6
+        thermload: 15.6,
+        symbol: "Hpt_PlasmaAccelerator_Fixed_Medium"
       }, {
         ammo: 100,
         breachdmg: 68,
@@ -8771,7 +9200,8 @@ module.exports = {
         reload: 6,
         rof: .29,
         shotspeed: 875,
-        thermload: 21.8
+        thermload: 21.8,
+        symbol: "Hpt_PlasmaAccelerator_Fixed_Large"
       }, {
         ammo: 300,
         breachdmg: 30.9,
@@ -8804,7 +9234,8 @@ module.exports = {
         reload: 6,
         rof: .8,
         shotspeed: 875,
-        thermload: 11
+        thermload: 11,
+        symbol: "Hpt_PlasmaAccelerator_Fixed_Large_Advanced"
       }, {
         ammo: 100,
         breachdmg: 102,
@@ -8835,7 +9266,8 @@ module.exports = {
         reload: 6,
         rof: .25,
         shotspeed: 875,
-        thermload: 29.5
+        thermload: 29.5,
+        symbol: "Hpt_PlasmaAccelerator_Fixed_Huge"
       } ],
       mr: [ {
         ammo: 16,
@@ -8864,7 +9296,8 @@ module.exports = {
         reload: 5,
         rof: .5,
         shotspeed: 750,
-        thermload: 3.6
+        thermload: 3.6,
+        symbol: "Hpt_DumbfireMissileRack_Fixed_Small"
       }, {
         ammo: 6,
         breachdmg: 16,
@@ -8892,7 +9325,8 @@ module.exports = {
         reload: 12,
         rof: .333,
         shotspeed: 625,
-        thermload: 3.6
+        thermload: 3.6,
+        symbol: "Hpt_BasicMissileRack_Fixed_Small"
       }, {
         ammo: 48,
         breachdmg: 20,
@@ -8922,7 +9356,8 @@ module.exports = {
         reload: 5,
         rof: .5,
         shotspeed: 750,
-        thermload: 3.6
+        thermload: 3.6,
+        symbol: "Hpt_DumbfireMissileRack_Fixed_Medium"
       }, {
         ammo: 18,
         breachdmg: 16,
@@ -8952,7 +9387,8 @@ module.exports = {
         reload: 12,
         rof: .333,
         shotspeed: 625,
-        thermload: 3.6
+        thermload: 3.6,
+        symbol: "Hpt_BasicMissileRack_Fixed_Medium"
       }, {
         ammo: 48,
         breachdmg: 16,
@@ -8982,7 +9418,8 @@ module.exports = {
         reload: 5,
         rof: .333,
         shotspeed: 750,
-        thermload: 3.6
+        thermload: 3.6,
+        symbol: "Hpt_DumbfireMissileRack_Fixed_Medium_Lasso"
       }, {
         ammo: 120,
         breachdmg: 3,
@@ -9015,7 +9452,8 @@ module.exports = {
         rof: 2,
         roundspershot: 4,
         shotspeed: 600,
-        thermload: 3.6
+        thermload: 3.6,
+        symbol: "Hpt_DrunkMissileRack_Fixed_Medium"
       } ],
       axmr: [ {
         ammo: 64,
@@ -9045,7 +9483,8 @@ module.exports = {
         reload: 5,
         rof: .5,
         shotspeed: 750,
-        thermload: 2.4
+        thermload: 2.4,
+        symbol: "Hpt_ATDumbfireMissile_Fixed_Medium"
       }, {
         ammo: 64,
         breachdmg: .1,
@@ -9074,7 +9513,8 @@ module.exports = {
         reload: 5,
         rof: .5,
         shotspeed: 750,
-        thermload: 1.5
+        thermload: 1.5,
+        symbol: "Hpt_ATDumbfireMissile_Turret_Medium"
       }, {
         ammo: 128,
         breachdmg: .1,
@@ -9103,7 +9543,8 @@ module.exports = {
         reload: 5,
         rof: .5,
         shotspeed: 750,
-        thermload: 3.6
+        thermload: 3.6,
+        symbol: "Hpt_ATDumbfireMissile_Fixed_Large"
       }, {
         ammo: 128,
         breachdmg: .1,
@@ -9132,7 +9573,8 @@ module.exports = {
         reload: 5,
         rof: .5,
         shotspeed: 750,
-        thermload: 1.9
+        thermload: 1.9,
+        symbol: "Hpt_ATDumbfireMissile_Turret_Large"
       } ],
       tp: [ {
         ammo: 1,
@@ -9161,7 +9603,8 @@ module.exports = {
         reload: 5,
         rof: 1,
         shotspeed: 250,
-        thermload: 45
+        thermload: 45,
+        symbol: "Hpt_AdvancedTorpPylon_Fixed_Small"
       }, {
         ammo: 2,
         breachdmg: 60,
@@ -9189,7 +9632,8 @@ module.exports = {
         reload: 5,
         rof: 1,
         shotspeed: 250,
-        thermload: 50
+        thermload: 50,
+        symbol: "Hpt_AdvancedTorpPylon_Fixed_Medium"
       } ],
       nl: [ {
         ammo: 36,
@@ -9217,7 +9661,8 @@ module.exports = {
         rating: "I",
         reload: 2,
         rof: 1,
-        thermload: 5
+        thermload: 5,
+        symbol: "Hpt_MineLauncher_Fixed_Small"
       }, {
         ammo: 36,
         breachdmg: 0,
@@ -9245,7 +9690,8 @@ module.exports = {
         rating: "I",
         reload: 2,
         rof: 1,
-        thermload: 5
+        thermload: 5,
+        symbol: "Hpt_MineLauncher_Fixed_Small_Impulse"
       }, {
         ammo: 72,
         breachdmg: 0,
@@ -9272,7 +9718,8 @@ module.exports = {
         rating: "I",
         reload: 6.6,
         rof: 1,
-        thermload: 7.5
+        thermload: 7.5,
+        symbol: "Hpt_MineLauncher_Fixed_Medium"
       } ],
       ml: [ {
         breachdmg: .3,
@@ -9297,7 +9744,8 @@ module.exports = {
         power: .5,
         range: 500,
         rating: "D",
-        thermload: 2
+        thermload: 2,
+        symbol: "Hpt_MiningLaser_Fixed_Small"
       }, {
         breachdmg: .3,
         breachmax: .2,
@@ -9321,7 +9769,8 @@ module.exports = {
         power: .5,
         range: 500,
         rating: "D",
-        thermload: 2
+        thermload: 2,
+        symbol: "Hpt_MiningLaser_Turret_Small"
       }, {
         breachdmg: 1.2,
         breachmax: .2,
@@ -9371,7 +9820,8 @@ module.exports = {
         power: .75,
         range: 500,
         rating: "D",
-        thermload: 4
+        thermload: 4,
+        symbol: "Hpt_MiningLaser_Fixed_Medium"
       }, {
         breachdmg: .6,
         breachmax: .2,
@@ -9395,7 +9845,8 @@ module.exports = {
         power: .75,
         range: 500,
         rating: "D",
-        thermload: 4
+        thermload: 4,
+        symbol: "Hpt_MiningLaser_Turret_Medium"
       } ],
       cs: [ {
         angle: 15,
@@ -9410,7 +9861,8 @@ module.exports = {
         power: .2,
         range: 2e3,
         rating: "E",
-        scantime: 10
+        scantime: 10,
+        symbol: "Hpt_CargoScanner_Size0_Class1"
       }, {
         angle: 15,
         class: 0,
@@ -9424,7 +9876,8 @@ module.exports = {
         power: .4,
         range: 2500,
         rating: "D",
-        scantime: 10
+        scantime: 10,
+        symbol: "Hpt_CargoScanner_Size0_Class2"
       }, {
         angle: 15,
         class: 0,
@@ -9438,7 +9891,8 @@ module.exports = {
         power: .8,
         range: 3e3,
         rating: "C",
-        scantime: 10
+        scantime: 10,
+        symbol: "Hpt_CargoScanner_Size0_Class3"
       }, {
         angle: 15,
         class: 0,
@@ -9452,7 +9906,8 @@ module.exports = {
         power: 1.6,
         range: 3500,
         rating: "B",
-        scantime: 10
+        scantime: 10,
+        symbol: "Hpt_CargoScanner_Size0_Class4"
       }, {
         angle: 15,
         class: 0,
@@ -9466,7 +9921,8 @@ module.exports = {
         power: 3.2,
         range: 4e3,
         rating: "A",
-        scantime: 10
+        scantime: 10,
+        symbol: "Hpt_CargoScanner_Size0_Class5"
       } ],
       ws: [ {
         class: 0,
@@ -9480,7 +9936,8 @@ module.exports = {
         power: .2,
         range: 2e3,
         rating: "E",
-        scantime: 10
+        scantime: 10,
+        symbol: "Hpt_CloudScanner_Size0_Class1"
       }, {
         class: 0,
         cost: 40630,
@@ -9493,7 +9950,8 @@ module.exports = {
         power: .4,
         range: 2500,
         rating: "D",
-        scantime: 10
+        scantime: 10,
+        symbol: "Hpt_CloudScanner_Size0_Class2"
       }, {
         class: 0,
         cost: 121900,
@@ -9506,7 +9964,8 @@ module.exports = {
         power: .8,
         range: 3e3,
         rating: "C",
-        scantime: 10
+        scantime: 10,
+        symbol: "Hpt_CloudScanner_Size0_Class3"
       }, {
         class: 0,
         cost: 365700,
@@ -9519,7 +9978,8 @@ module.exports = {
         power: 1.6,
         range: 3500,
         rating: "B",
-        scantime: 10
+        scantime: 10,
+        symbol: "Hpt_CloudScanner_Size0_Class4"
       }, {
         class: 0,
         cost: 1097100,
@@ -9532,7 +9992,8 @@ module.exports = {
         power: 3.2,
         range: 4e3,
         rating: "A",
-        scantime: 10
+        scantime: 10,
+        symbol: "Hpt_CloudScanner_Size0_Class5"
       } ],
       kw: [ {
         class: 0,
@@ -9546,7 +10007,8 @@ module.exports = {
         power: .2,
         range: 2e3,
         rating: "E",
-        scantime: 10
+        scantime: 10,
+        symbol: "Hpt_CrimeScanner_Size0_Class1"
       }, {
         class: 0,
         cost: 40630,
@@ -9559,7 +10021,8 @@ module.exports = {
         power: .4,
         range: 2500,
         rating: "D",
-        scantime: 10
+        scantime: 10,
+        symbol: "Hpt_CrimeScanner_Size0_Class2"
       }, {
         class: 0,
         cost: 121900,
@@ -9572,7 +10035,8 @@ module.exports = {
         power: .8,
         range: 3e3,
         rating: "C",
-        scantime: 10
+        scantime: 10,
+        symbol: "Hpt_CrimeScanner_Size0_Class3"
       }, {
         class: 0,
         cost: 365700,
@@ -9585,7 +10049,8 @@ module.exports = {
         power: 1.6,
         range: 3500,
         rating: "B",
-        scantime: 10
+        scantime: 10,
+        symbol: "Hpt_CrimeScanner_Size0_Class4"
       }, {
         class: 0,
         cost: 1097100,
@@ -9598,7 +10063,8 @@ module.exports = {
         power: 3.2,
         range: 4e3,
         rating: "A",
-        scantime: 10
+        scantime: 10,
+        symbol: "Hpt_CrimeScanner_Size0_Class5"
       } ],
       sb: [ {
         class: 0,
@@ -9612,7 +10078,8 @@ module.exports = {
         passive: 1,
         power: .2,
         rating: "E",
-        shieldboost: .04
+        shieldboost: .04,
+        symbol: "Hpt_ShieldBooster_Size0_Class1"
       }, {
         class: 0,
         cost: 23e3,
@@ -9625,7 +10092,8 @@ module.exports = {
         passive: 1,
         power: .5,
         rating: "D",
-        shieldboost: .08
+        shieldboost: .08,
+        symbol: "Hpt_ShieldBooster_Size0_Class2"
       }, {
         class: 0,
         cost: 53e3,
@@ -9638,7 +10106,8 @@ module.exports = {
         passive: 1,
         power: .7,
         rating: "C",
-        shieldboost: .12
+        shieldboost: .12,
+        symbol: "Hpt_ShieldBooster_Size0_Class3"
       }, {
         class: 0,
         cost: 122e3,
@@ -9651,7 +10120,8 @@ module.exports = {
         passive: 1,
         power: 1,
         rating: "B",
-        shieldboost: .16
+        shieldboost: .16,
+        symbol: "Hpt_ShieldBooster_Size0_Class4"
       }, {
         class: 0,
         cost: 281e3,
@@ -9664,7 +10134,8 @@ module.exports = {
         passive: 1,
         power: 1.2,
         rating: "A",
-        shieldboost: .2
+        shieldboost: .2,
+        symbol: "Hpt_ShieldBooster_Size0_Class5"
       } ],
       ch: [ {
         ammo: 10,
@@ -9686,7 +10157,8 @@ module.exports = {
         rating: "I",
         reload: 10,
         rof: 1,
-        thermload: 4
+        thermload: 4,
+        symbol: "Hpt_ChaffLauncher_Tiny"
       } ],
       ec: [ {
         activepower: 4,
@@ -9705,7 +10177,8 @@ module.exports = {
         range: 3e3,
         rating: "F",
         reload: 10,
-        thermload: 4
+        thermload: 4,
+        symbol: "Hpt_ElectronicCountermeasure_Tiny"
       } ],
       hs: [ {
         ammo: 2,
@@ -9728,7 +10201,8 @@ module.exports = {
         power: .2,
         rating: "I",
         reload: 10,
-        rof: .2
+        rof: .2,
+        symbol: "Hpt_HeatSinkLauncher_Turret_Tiny"
       } ],
       po: [ {
         ammo: 1e4,
@@ -9756,7 +10230,8 @@ module.exports = {
         reload: .4,
         rof: 10,
         shotspeed: 1e3,
-        thermload: .1
+        thermload: .1,
+        symbol: "Hpt_PlasmaPointDefence_Turret_Tiny"
       } ],
       sfn: [ {
         class: 0,
@@ -9764,7 +10239,7 @@ module.exports = {
         edID: 128771884,
         eddbID: 1622,
         grp: "sfn",
-        id: "sfn",
+        id: "Sn",
         integrity: 35,
         mass: 1.3,
         name: "Shutdown Field Neutraliser",
@@ -9774,7 +10249,8 @@ module.exports = {
         rating: "F",
         cooldown: 10,
         duration: 1,
-        range: 3e3
+        range: 3e3,
+        symbol: "Hpt_AntiUnknownShutdown_Tiny"
       } ],
       xs: [ {
         class: 0,
@@ -9791,7 +10267,8 @@ module.exports = {
         rating: "E",
         boot: 2,
         scantime: 10,
-        angle: 23
+        angle: 23,
+        symbol: "Hpt_XenoScanner_Basic_Tiny"
       } ]
     },
     internal: {
@@ -9806,7 +10283,8 @@ module.exports = {
         id: "0c",
         power: .54,
         rating: "E",
-        repair: 12
+        repair: 12,
+        symbol: "Int_Repairer_Size1_Class1"
       }, {
         ammo: 900,
         ammocost: 1,
@@ -9818,7 +10296,8 @@ module.exports = {
         id: "0b",
         power: .72,
         rating: "D",
-        repair: 14.4
+        repair: 14.4,
+        symbol: "Int_Repairer_Size1_Class2"
       }, {
         ammo: 1e3,
         ammocost: 1,
@@ -9830,7 +10309,8 @@ module.exports = {
         id: "0a",
         power: .9,
         rating: "C",
-        repair: 20
+        repair: 20,
+        symbol: "Int_Repairer_Size1_Class3"
       }, {
         ammo: 1200,
         ammocost: 1,
@@ -9842,7 +10322,8 @@ module.exports = {
         id: "09",
         power: 1.04,
         rating: "B",
-        repair: 27.6
+        repair: 27.6,
+        symbol: "Int_Repairer_Size1_Class4"
       }, {
         ammo: 1100,
         ammocost: 1,
@@ -9854,7 +10335,8 @@ module.exports = {
         id: "08",
         power: 1.26,
         rating: "A",
-        repair: 30.8
+        repair: 30.8,
+        symbol: "Int_Repairer_Size1_Class5"
       }, {
         ammo: 2300,
         ammocost: 1,
@@ -9866,7 +10348,8 @@ module.exports = {
         id: "0h",
         power: .68,
         rating: "E",
-        repair: 27.6
+        repair: 27.6,
+        symbol: "Int_Repairer_Size2_Class1"
       }, {
         ammo: 2100,
         ammocost: 1,
@@ -9878,7 +10361,8 @@ module.exports = {
         id: "0g",
         power: .9,
         rating: "D",
-        repair: 33.6
+        repair: 33.6,
+        symbol: "Int_Repairer_Size2_Class2"
       }, {
         ammo: 2300,
         ammocost: 1,
@@ -9890,7 +10374,8 @@ module.exports = {
         id: "0f",
         power: 1.13,
         rating: "C",
-        repair: 46
+        repair: 46,
+        symbol: "Int_Repairer_Size2_Class3"
       }, {
         ammo: 2800,
         ammocost: 1,
@@ -9902,7 +10387,8 @@ module.exports = {
         id: "0e",
         power: 1.29,
         rating: "B",
-        repair: 64.4
+        repair: 64.4,
+        symbol: "Int_Repairer_Size2_Class4"
       }, {
         ammo: 2500,
         ammocost: 1,
@@ -9914,7 +10400,8 @@ module.exports = {
         id: "0d",
         power: 1.58,
         rating: "A",
-        repair: 70
+        repair: 70,
+        symbol: "Int_Repairer_Size2_Class5"
       }, {
         ammo: 3600,
         ammocost: 1,
@@ -9926,7 +10413,8 @@ module.exports = {
         id: "0m",
         power: .81,
         rating: "E",
-        repair: 43.2
+        repair: 43.2,
+        symbol: "Int_Repairer_Size3_Class1"
       }, {
         ammo: 3200,
         ammocost: 1,
@@ -9938,7 +10426,8 @@ module.exports = {
         id: "0l",
         power: 1.08,
         rating: "D",
-        repair: 51.2
+        repair: 51.2,
+        symbol: "Int_Repairer_Size3_Class2"
       }, {
         ammo: 3600,
         ammocost: 1,
@@ -9950,7 +10439,8 @@ module.exports = {
         id: "0k",
         power: 1.35,
         rating: "C",
-        repair: 72
+        repair: 72,
+        symbol: "Int_Repairer_Size3_Class3"
       }, {
         ammo: 4300,
         ammocost: 1,
@@ -9962,7 +10452,8 @@ module.exports = {
         id: "0j",
         power: 1.55,
         rating: "B",
-        repair: 98.9
+        repair: 98.9,
+        symbol: "Int_Repairer_Size3_Class4"
       }, {
         ammo: 4e3,
         ammocost: 1,
@@ -9974,7 +10465,8 @@ module.exports = {
         id: "0i",
         power: 1.89,
         rating: "A",
-        repair: 112
+        repair: 112,
+        symbol: "Int_Repairer_Size3_Class5"
       }, {
         ammo: 4900,
         ammocost: 1,
@@ -9986,7 +10478,8 @@ module.exports = {
         id: "0r",
         power: .99,
         rating: "E",
-        repair: 58.8
+        repair: 58.8,
+        symbol: "Int_Repairer_Size4_Class1"
       }, {
         ammo: 4400,
         ammocost: 1,
@@ -9998,7 +10491,8 @@ module.exports = {
         id: "0q",
         power: 1.32,
         rating: "D",
-        repair: 70.4
+        repair: 70.4,
+        symbol: "Int_Repairer_Size4_Class2"
       }, {
         ammo: 4900,
         ammocost: 1,
@@ -10010,7 +10504,8 @@ module.exports = {
         id: "0p",
         power: 1.65,
         rating: "C",
-        repair: 98
+        repair: 98,
+        symbol: "Int_Repairer_Size4_Class3"
       }, {
         ammo: 5900,
         ammocost: 1,
@@ -10022,7 +10517,8 @@ module.exports = {
         id: "0o",
         power: 1.9,
         rating: "B",
-        repair: 135.7
+        repair: 135.7,
+        symbol: "Int_Repairer_Size4_Class4"
       }, {
         ammo: 5400,
         ammocost: 1,
@@ -10034,7 +10530,8 @@ module.exports = {
         id: "0n",
         power: 2.31,
         rating: "A",
-        repair: 151.2
+        repair: 151.2,
+        symbol: "Int_Repairer_Size4_Class5"
       }, {
         ammo: 6100,
         ammocost: 1,
@@ -10046,7 +10543,8 @@ module.exports = {
         id: "10",
         power: 1.17,
         rating: "E",
-        repair: 73.2
+        repair: 73.2,
+        symbol: "Int_Repairer_Size5_Class1"
       }, {
         ammo: 5500,
         ammocost: 1,
@@ -10058,7 +10556,8 @@ module.exports = {
         id: "0v",
         power: 1.56,
         rating: "D",
-        repair: 88
+        repair: 88,
+        symbol: "Int_Repairer_Size5_Class2"
       }, {
         ammo: 6100,
         ammocost: 1,
@@ -10070,7 +10569,8 @@ module.exports = {
         id: "0u",
         power: 1.95,
         rating: "C",
-        repair: 122
+        repair: 122,
+        symbol: "Int_Repairer_Size5_Class3"
       }, {
         ammo: 7300,
         ammocost: 1,
@@ -10082,7 +10582,8 @@ module.exports = {
         id: "0t",
         power: 2.24,
         rating: "B",
-        repair: 167.9
+        repair: 167.9,
+        symbol: "Int_Repairer_Size5_Class4"
       }, {
         ammo: 6700,
         ammocost: 1,
@@ -10094,7 +10595,8 @@ module.exports = {
         id: "0s",
         power: 2.73,
         rating: "A",
-        repair: 187.6
+        repair: 187.6,
+        symbol: "Int_Repairer_Size5_Class5"
       }, {
         ammo: 7400,
         ammocost: 1,
@@ -10106,7 +10608,8 @@ module.exports = {
         id: "15",
         power: 1.4,
         rating: "E",
-        repair: 88.8
+        repair: 88.8,
+        symbol: "Int_Repairer_Size6_Class1"
       }, {
         ammo: 6700,
         ammocost: 1,
@@ -10118,7 +10621,8 @@ module.exports = {
         id: "14",
         power: 1.86,
         rating: "D",
-        repair: 107.2
+        repair: 107.2,
+        symbol: "Int_Repairer_Size6_Class2"
       }, {
         ammo: 7400,
         ammocost: 1,
@@ -10130,7 +10634,8 @@ module.exports = {
         id: "13",
         power: 2.33,
         rating: "C",
-        repair: 148
+        repair: 148,
+        symbol: "Int_Repairer_Size6_Class3"
       }, {
         ammo: 8900,
         ammocost: 1,
@@ -10142,7 +10647,8 @@ module.exports = {
         id: "12",
         power: 2.67,
         rating: "B",
-        repair: 204.7
+        repair: 204.7,
+        symbol: "Int_Repairer_Size6_Class4"
       }, {
         ammo: 8100,
         ammocost: 1,
@@ -10154,7 +10660,8 @@ module.exports = {
         id: "11",
         power: 3.26,
         rating: "A",
-        repair: 226.8
+        repair: 226.8,
+        symbol: "Int_Repairer_Size6_Class5"
       }, {
         ammo: 8700,
         ammocost: 1,
@@ -10166,7 +10673,8 @@ module.exports = {
         id: "1a",
         power: 1.58,
         rating: "E",
-        repair: 104.4
+        repair: 104.4,
+        symbol: "Int_Repairer_Size7_Class1"
       }, {
         ammo: 7800,
         ammocost: 1,
@@ -10178,7 +10686,8 @@ module.exports = {
         id: "19",
         power: 2.1,
         rating: "D",
-        repair: 124.8
+        repair: 124.8,
+        symbol: "Int_Repairer_Size7_Class2"
       }, {
         ammo: 8700,
         ammocost: 1,
@@ -10190,7 +10699,8 @@ module.exports = {
         id: "18",
         power: 2.63,
         rating: "C",
-        repair: 174
+        repair: 174,
+        symbol: "Int_Repairer_Size7_Class3"
       }, {
         ammo: 10400,
         ammocost: 1,
@@ -10202,7 +10712,8 @@ module.exports = {
         id: "17",
         power: 3.02,
         rating: "B",
-        repair: 239.2
+        repair: 239.2,
+        symbol: "Int_Repairer_Size7_Class4"
       }, {
         ammo: 9600,
         ammocost: 1,
@@ -10214,7 +10725,8 @@ module.exports = {
         id: "16",
         power: 3.68,
         rating: "A",
-        repair: 268.8
+        repair: 268.8,
+        symbol: "Int_Repairer_Size7_Class5"
       }, {
         ammo: 1e4,
         ammocost: 1,
@@ -10226,7 +10738,8 @@ module.exports = {
         id: "1f",
         power: 1.8,
         rating: "E",
-        repair: 120
+        repair: 120,
+        symbol: "Int_Repairer_Size8_Class1"
       }, {
         ammo: 9e3,
         ammocost: 1,
@@ -10238,7 +10751,8 @@ module.exports = {
         id: "1e",
         power: 2.4,
         rating: "D",
-        repair: 144
+        repair: 144,
+        symbol: "Int_Repairer_Size8_Class2"
       }, {
         ammo: 1e4,
         ammocost: 1,
@@ -10250,7 +10764,8 @@ module.exports = {
         id: "1d",
         power: 3,
         rating: "C",
-        repair: 200
+        repair: 200,
+        symbol: "Int_Repairer_Size8_Class3"
       }, {
         ammo: 12e3,
         ammocost: 1,
@@ -10262,7 +10777,8 @@ module.exports = {
         id: "1c",
         power: 3.45,
         rating: "B",
-        repair: 276
+        repair: 276,
+        symbol: "Int_Repairer_Size8_Class4"
       }, {
         ammo: 11e3,
         ammocost: 1,
@@ -10274,7 +10790,8 @@ module.exports = {
         id: "1b",
         power: 4.2,
         rating: "A",
-        repair: 308
+        repair: 308,
+        symbol: "Int_Repairer_Size8_Class5"
       } ],
       bsg: [ {
         brokenregen: 2.4,
@@ -10298,7 +10815,8 @@ module.exports = {
         power: 1.2,
         rating: "C",
         regen: 1.8,
-        thermres: -.2
+        thermres: -.2,
+        symbol: "Int_ShieldGenerator_Size1_Class3_Fast"
       }, {
         brokenregen: 2.4,
         class: 2,
@@ -10321,7 +10839,8 @@ module.exports = {
         power: 1.5,
         rating: "C",
         regen: 1.8,
-        thermres: -.2
+        thermres: -.2,
+        symbol: "Int_ShieldGenerator_Size2_Class3_Fast"
       }, {
         brokenregen: 2.8,
         class: 3,
@@ -10344,7 +10863,8 @@ module.exports = {
         power: 1.8,
         rating: "C",
         regen: 1.8,
-        thermres: -.2
+        thermres: -.2,
+        symbol: "Int_ShieldGenerator_Size3_Class3_Fast"
       }, {
         brokenregen: 3.8,
         class: 4,
@@ -10367,7 +10887,8 @@ module.exports = {
         power: 2.2,
         rating: "C",
         regen: 1.8,
-        thermres: -.2
+        thermres: -.2,
+        symbol: "Int_ShieldGenerator_Size4_Class3_Fast"
       }, {
         brokenregen: 5.6,
         class: 5,
@@ -10390,7 +10911,8 @@ module.exports = {
         power: 2.6,
         rating: "C",
         regen: 2.2,
-        thermres: -.2
+        thermres: -.2,
+        symbol: "Int_ShieldGenerator_Size5_Class3_Fast"
       }, {
         brokenregen: 8,
         class: 6,
@@ -10413,7 +10935,8 @@ module.exports = {
         power: 3.1,
         rating: "C",
         regen: 3.2,
-        thermres: -.2
+        thermres: -.2,
+        symbol: "Int_ShieldGenerator_Size6_Class3_Fast"
       }, {
         brokenregen: 11,
         class: 7,
@@ -10436,7 +10959,8 @@ module.exports = {
         power: 3.5,
         rating: "C",
         regen: 4.4,
-        thermres: -.2
+        thermres: -.2,
+        symbol: "Int_ShieldGenerator_Size7_Class3_Fast"
       }, {
         brokenregen: 14.4,
         class: 8,
@@ -10459,7 +10983,8 @@ module.exports = {
         power: 4,
         rating: "C",
         regen: 5.8,
-        thermres: -.2
+        thermres: -.2,
+        symbol: "Int_ShieldGenerator_Size8_Class3_Fast"
       } ],
       cr: [ {
         cargo: 2,
@@ -10469,7 +10994,8 @@ module.exports = {
         eddbID: 1191,
         grp: "cr",
         id: "00",
-        rating: "E"
+        rating: "E",
+        symbol: "Int_CargoRack_Size1_Class1"
       }, {
         cargo: 4,
         class: 2,
@@ -10478,7 +11004,8 @@ module.exports = {
         eddbID: 1192,
         grp: "cr",
         id: "01",
-        rating: "E"
+        rating: "E",
+        symbol: "Int_CargoRack_Size2_Class1"
       }, {
         cargo: 8,
         class: 3,
@@ -10487,7 +11014,8 @@ module.exports = {
         eddbID: 1193,
         grp: "cr",
         id: "02",
-        rating: "E"
+        rating: "E",
+        symbol: "Int_CargoRack_Size3_Class1"
       }, {
         cargo: 16,
         class: 4,
@@ -10496,7 +11024,8 @@ module.exports = {
         eddbID: 1194,
         grp: "cr",
         id: "03",
-        rating: "E"
+        rating: "E",
+        symbol: "Int_CargoRack_Size4_Class1"
       }, {
         cargo: 32,
         class: 5,
@@ -10505,7 +11034,8 @@ module.exports = {
         eddbID: 1195,
         grp: "cr",
         id: "04",
-        rating: "E"
+        rating: "E",
+        symbol: "Int_CargoRack_Size5_Class1"
       }, {
         cargo: 64,
         class: 6,
@@ -10514,7 +11044,8 @@ module.exports = {
         eddbID: 1196,
         grp: "cr",
         id: "05",
-        rating: "E"
+        rating: "E",
+        symbol: "Int_CargoRack_Size6_Class1"
       }, {
         cargo: 128,
         class: 7,
@@ -10523,7 +11054,8 @@ module.exports = {
         eddbID: 1197,
         grp: "cr",
         id: "06",
-        rating: "E"
+        rating: "E",
+        symbol: "Int_CargoRack_Size7_Class1"
       }, {
         cargo: 256,
         class: 8,
@@ -10532,7 +11064,8 @@ module.exports = {
         eddbID: 1198,
         grp: "cr",
         id: "07",
-        rating: "E"
+        rating: "E",
+        symbol: "Int_CargoRack_Size8_Class1"
       }, {
         cargo: 1,
         class: 1,
@@ -10542,7 +11075,8 @@ module.exports = {
         grp: "cr",
         id: "1w",
         name: "Corrosion Resistant",
-        rating: "E"
+        rating: "E",
+        symbol: "Int_CorrosionProofCargoRack_Size1_Class1"
       }, {
         cargo: 2,
         class: 1,
@@ -10552,7 +11086,8 @@ module.exports = {
         grp: "cr",
         id: "1y",
         name: "Corrosion Resistant",
-        rating: "F"
+        rating: "F",
+        symbol: "Int_CorrosionProofCargoRack_Size1_Class2"
       } ],
       cc: [ {
         class: 1,
@@ -10566,7 +11101,8 @@ module.exports = {
         power: .14,
         range: .8,
         rating: "E",
-        time: 300
+        time: 300,
+        symbol: "Int_DroneControl_Collection_Size1_Class1"
       }, {
         class: 1,
         cost: 1200,
@@ -10579,7 +11115,8 @@ module.exports = {
         power: .18,
         range: .6,
         rating: "D",
-        time: 600
+        time: 600,
+        symbol: "Int_DroneControl_Collection_Size1_Class2"
       }, {
         class: 1,
         cost: 2400,
@@ -10592,7 +11129,8 @@ module.exports = {
         power: .23,
         range: 1,
         rating: "C",
-        time: 510
+        time: 510,
+        symbol: "Int_DroneControl_Collection_Size1_Class3"
       }, {
         class: 1,
         cost: 4800,
@@ -10605,7 +11143,8 @@ module.exports = {
         power: .28,
         range: 1.4,
         rating: "B",
-        time: 420
+        time: 420,
+        symbol: "Int_DroneControl_Collection_Size1_Class4"
       }, {
         class: 1,
         cost: 9600,
@@ -10618,7 +11157,8 @@ module.exports = {
         power: .32,
         range: 1.2,
         rating: "A",
-        time: 720
+        time: 720,
+        symbol: "Int_DroneControl_Collection_Size1_Class5"
       }, {
         class: 3,
         cost: 5400,
@@ -10631,7 +11171,8 @@ module.exports = {
         power: .2,
         range: .88,
         rating: "E",
-        time: 300
+        time: 300,
+        symbol: "Int_DroneControl_Collection_Size3_Class1"
       }, {
         class: 3,
         cost: 10800,
@@ -10644,7 +11185,8 @@ module.exports = {
         power: .27,
         range: .66,
         rating: "D",
-        time: 600
+        time: 600,
+        symbol: "Int_DroneControl_Collection_Size3_Class2"
       }, {
         class: 3,
         cost: 21600,
@@ -10657,7 +11199,8 @@ module.exports = {
         power: .34,
         range: 1.1,
         rating: "C",
-        time: 510
+        time: 510,
+        symbol: "Int_DroneControl_Collection_Size3_Class3"
       }, {
         class: 3,
         cost: 43200,
@@ -10670,7 +11213,8 @@ module.exports = {
         power: .41,
         range: 1.54,
         rating: "B",
-        time: 420
+        time: 420,
+        symbol: "Int_DroneControl_Collection_Size3_Class4"
       }, {
         class: 3,
         cost: 86400,
@@ -10683,7 +11227,8 @@ module.exports = {
         power: .48,
         range: 1.32,
         rating: "A",
-        time: 720
+        time: 720,
+        symbol: "Int_DroneControl_Collection_Size3_Class5"
       }, {
         class: 5,
         cost: 48600,
@@ -10696,7 +11241,8 @@ module.exports = {
         power: .3,
         range: 1.04,
         rating: "E",
-        time: 300
+        time: 300,
+        symbol: "Int_DroneControl_Collection_Size5_Class1"
       }, {
         class: 5,
         cost: 97200,
@@ -10709,7 +11255,8 @@ module.exports = {
         power: .4,
         range: .78,
         rating: "D",
-        time: 600
+        time: 600,
+        symbol: "Int_DroneControl_Collection_Size5_Class2"
       }, {
         class: 5,
         cost: 194400,
@@ -10722,7 +11269,8 @@ module.exports = {
         power: .5,
         range: 1.3,
         rating: "C",
-        time: 510
+        time: 510,
+        symbol: "Int_DroneControl_Collection_Size5_Class3"
       }, {
         class: 5,
         cost: 388800,
@@ -10735,7 +11283,8 @@ module.exports = {
         power: .6,
         range: 1.82,
         rating: "B",
-        time: 420
+        time: 420,
+        symbol: "Int_DroneControl_Collection_Size5_Class4"
       }, {
         class: 5,
         cost: 777600,
@@ -10748,7 +11297,8 @@ module.exports = {
         power: .7,
         range: 1.56,
         rating: "A",
-        time: 720
+        time: 720,
+        symbol: "Int_DroneControl_Collection_Size5_Class5"
       }, {
         class: 7,
         cost: 437400,
@@ -10761,7 +11311,8 @@ module.exports = {
         power: .41,
         range: 1.36,
         rating: "E",
-        time: 300
+        time: 300,
+        symbol: "Int_DroneControl_Collection_Size7_Class1"
       }, {
         class: 7,
         cost: 874800,
@@ -10774,7 +11325,8 @@ module.exports = {
         power: .55,
         range: 1.02,
         rating: "D",
-        time: 600
+        time: 600,
+        symbol: "Int_DroneControl_Collection_Size7_Class2"
       }, {
         class: 7,
         cost: 1749600,
@@ -10787,7 +11339,8 @@ module.exports = {
         power: .69,
         range: 1.7,
         rating: "C",
-        time: 510
+        time: 510,
+        symbol: "Int_DroneControl_Collection_Size7_Class3"
       }, {
         class: 7,
         cost: 3499200,
@@ -10800,7 +11353,8 @@ module.exports = {
         power: .83,
         range: 2.38,
         rating: "B",
-        time: 420
+        time: 420,
+        symbol: "Int_DroneControl_Collection_Size7_Class4"
       }, {
         class: 7,
         cost: 6998400,
@@ -10813,7 +11367,8 @@ module.exports = {
         power: .97,
         range: 2.04,
         rating: "A",
-        time: 720
+        time: 720,
+        symbol: "Int_DroneControl_Collection_Size7_Class5"
       } ],
       dc: [ {
         class: 1,
@@ -10825,7 +11380,8 @@ module.exports = {
         integrity: 10,
         name: "Standard Docking Computer",
         power: .39,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_DockingComputer_Standard"
       } ],
       fh: [ {
         bays: 1,
@@ -10840,7 +11396,8 @@ module.exports = {
         mass: 20,
         power: .25,
         rating: "D",
-        rebuildsperbay: 6
+        rebuildsperbay: 6,
+        symbol: "Int_FighterBay_Size5_Class1"
       }, {
         bays: 2,
         class: 6,
@@ -10854,7 +11411,8 @@ module.exports = {
         mass: 40,
         power: .35,
         rating: "D",
-        rebuildsperbay: 8
+        rebuildsperbay: 8,
+        symbol: "Int_FighterBay_Size6_Class1"
       }, {
         bays: 2,
         class: 7,
@@ -10868,7 +11426,8 @@ module.exports = {
         mass: 60,
         power: .35,
         rating: "D",
-        rebuildsperbay: 15
+        rebuildsperbay: 15,
+        symbol: "Int_FighterBay_Size7_Class1"
       } ],
       fi: [ {
         boot: 15,
@@ -10883,7 +11442,8 @@ module.exports = {
         mass: 1.3,
         power: .14,
         ranget: 3,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_FSDInterdictor_Size1_Class1"
       }, {
         boot: 15,
         class: 1,
@@ -10897,7 +11457,8 @@ module.exports = {
         mass: .5,
         power: .18,
         ranget: 4,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_FSDInterdictor_Size1_Class2"
       }, {
         boot: 15,
         class: 1,
@@ -10911,7 +11472,8 @@ module.exports = {
         mass: 1.3,
         power: .23,
         ranget: 5,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_FSDInterdictor_Size1_Class3"
       }, {
         boot: 15,
         class: 1,
@@ -10925,7 +11487,8 @@ module.exports = {
         mass: 2,
         power: .28,
         ranget: 6,
-        rating: "B"
+        rating: "B",
+        symbol: "Int_FSDInterdictor_Size1_Class4"
       }, {
         boot: 15,
         class: 1,
@@ -10939,7 +11502,8 @@ module.exports = {
         mass: 1.3,
         power: .32,
         ranget: 7,
-        rating: "A"
+        rating: "A",
+        symbol: "Int_FSDInterdictor_Size1_Class5"
       }, {
         boot: 15,
         class: 2,
@@ -10953,7 +11517,8 @@ module.exports = {
         mass: 2.5,
         power: .17,
         ranget: 6,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_FSDInterdictor_Size2_Class1"
       }, {
         boot: 15,
         class: 2,
@@ -10967,7 +11532,8 @@ module.exports = {
         mass: 1,
         power: .22,
         ranget: 7,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_FSDInterdictor_Size2_Class2"
       }, {
         boot: 15,
         class: 2,
@@ -10981,7 +11547,8 @@ module.exports = {
         mass: 2.5,
         power: .28,
         ranget: 8,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_FSDInterdictor_Size2_Class3"
       }, {
         boot: 15,
         class: 2,
@@ -10995,7 +11562,8 @@ module.exports = {
         mass: 4,
         power: .34,
         ranget: 9,
-        rating: "B"
+        rating: "B",
+        symbol: "Int_FSDInterdictor_Size2_Class4"
       }, {
         boot: 15,
         class: 2,
@@ -11009,7 +11577,8 @@ module.exports = {
         mass: 2.5,
         power: .39,
         ranget: 10,
-        rating: "A"
+        rating: "A",
+        symbol: "Int_FSDInterdictor_Size2_Class5"
       }, {
         boot: 15,
         class: 3,
@@ -11023,7 +11592,8 @@ module.exports = {
         mass: 5,
         power: .2,
         ranget: 9,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_FSDInterdictor_Size3_Class1"
       }, {
         boot: 15,
         class: 3,
@@ -11037,7 +11607,8 @@ module.exports = {
         mass: 2,
         power: .27,
         ranget: 10,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_FSDInterdictor_Size3_Class2"
       }, {
         boot: 15,
         class: 3,
@@ -11051,7 +11622,8 @@ module.exports = {
         mass: 5,
         power: .34,
         ranget: 11,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_FSDInterdictor_Size3_Class3"
       }, {
         boot: 15,
         class: 3,
@@ -11065,7 +11637,8 @@ module.exports = {
         mass: 8,
         power: .41,
         ranget: 12,
-        rating: "B"
+        rating: "B",
+        symbol: "Int_FSDInterdictor_Size3_Class4"
       }, {
         boot: 15,
         class: 3,
@@ -11079,7 +11652,8 @@ module.exports = {
         mass: 5,
         power: .48,
         ranget: 13,
-        rating: "A"
+        rating: "A",
+        symbol: "Int_FSDInterdictor_Size3_Class5"
       }, {
         boot: 15,
         class: 4,
@@ -11093,7 +11667,8 @@ module.exports = {
         mass: 10,
         power: .25,
         ranget: 12,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_FSDInterdictor_Size4_Class1"
       }, {
         boot: 15,
         class: 4,
@@ -11107,7 +11682,8 @@ module.exports = {
         mass: 4,
         power: .33,
         ranget: 13,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_FSDInterdictor_Size4_Class2"
       }, {
         boot: 15,
         class: 4,
@@ -11121,7 +11697,8 @@ module.exports = {
         mass: 10,
         power: .41,
         ranget: 14,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_FSDInterdictor_Size4_Class3"
       }, {
         boot: 15,
         class: 4,
@@ -11135,7 +11712,8 @@ module.exports = {
         mass: 16,
         power: .49,
         ranget: 15,
-        rating: "B"
+        rating: "B",
+        symbol: "Int_FSDInterdictor_Size4_Class4"
       }, {
         boot: 15,
         class: 4,
@@ -11149,7 +11727,8 @@ module.exports = {
         mass: 10,
         power: .57,
         ranget: 16,
-        rating: "A"
+        rating: "A",
+        symbol: "Int_FSDInterdictor_Size4_Class5"
       } ],
       fs: [ {
         class: 1,
@@ -11160,7 +11739,8 @@ module.exports = {
         id: "2n",
         power: .14,
         rate: 18,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_FuelScoop_Size1_Class1"
       }, {
         class: 1,
         cost: 1290,
@@ -11170,7 +11750,8 @@ module.exports = {
         id: "2m",
         power: .18,
         rate: 24,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_FuelScoop_Size1_Class2"
       }, {
         class: 1,
         cost: 5140,
@@ -11180,7 +11761,8 @@ module.exports = {
         id: "2l",
         power: .23,
         rate: 30,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_FuelScoop_Size1_Class3"
       }, {
         class: 1,
         cost: 20570,
@@ -11190,7 +11772,8 @@ module.exports = {
         id: "2k",
         power: .28,
         rate: 36,
-        rating: "B"
+        rating: "B",
+        symbol: "Int_FuelScoop_Size1_Class4"
       }, {
         class: 1,
         cost: 82270,
@@ -11200,7 +11783,8 @@ module.exports = {
         id: "2j",
         power: .32,
         rate: 42,
-        rating: "A"
+        rating: "A",
+        symbol: "Int_FuelScoop_Size1_Class5"
       }, {
         class: 2,
         cost: 1070,
@@ -11210,7 +11794,8 @@ module.exports = {
         id: "2s",
         power: .17,
         rate: 32,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_FuelScoop_Size2_Class1"
       }, {
         class: 2,
         cost: 4450,
@@ -11220,7 +11805,8 @@ module.exports = {
         id: "2r",
         power: .22,
         rate: 43,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_FuelScoop_Size2_Class2"
       }, {
         class: 2,
         cost: 17800,
@@ -11230,7 +11816,8 @@ module.exports = {
         id: "2q",
         power: .28,
         rate: 54,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_FuelScoop_Size2_Class3"
       }, {
         class: 2,
         cost: 71210,
@@ -11240,7 +11827,8 @@ module.exports = {
         id: "2p",
         power: .34,
         rate: 65,
-        rating: "B"
+        rating: "B",
+        symbol: "Int_FuelScoop_Size2_Class4"
       }, {
         class: 2,
         cost: 284840,
@@ -11250,7 +11838,8 @@ module.exports = {
         id: "2o",
         power: .39,
         rate: 75,
-        rating: "A"
+        rating: "A",
+        symbol: "Int_FuelScoop_Size2_Class5"
       }, {
         class: 3,
         cost: 3390,
@@ -11260,7 +11849,8 @@ module.exports = {
         id: "31",
         power: .2,
         rate: 75,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_FuelScoop_Size3_Class1"
       }, {
         class: 3,
         cost: 14110,
@@ -11270,7 +11860,8 @@ module.exports = {
         id: "30",
         power: .27,
         rate: 100,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_FuelScoop_Size3_Class2"
       }, {
         class: 3,
         cost: 56440,
@@ -11280,7 +11871,8 @@ module.exports = {
         id: "2v",
         power: .34,
         rate: 126,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_FuelScoop_Size3_Class3"
       }, {
         class: 3,
         cost: 225740,
@@ -11290,7 +11882,8 @@ module.exports = {
         id: "2u",
         power: .41,
         rate: 151,
-        rating: "B"
+        rating: "B",
+        symbol: "Int_FuelScoop_Size3_Class4"
       }, {
         class: 3,
         cost: 902950,
@@ -11300,7 +11893,8 @@ module.exports = {
         id: "2t",
         power: .48,
         rate: 176,
-        rating: "A"
+        rating: "A",
+        symbol: "Int_FuelScoop_Size3_Class5"
       }, {
         class: 4,
         cost: 10730,
@@ -11310,7 +11904,8 @@ module.exports = {
         id: "36",
         power: .25,
         rate: 147,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_FuelScoop_Size4_Class1"
       }, {
         class: 4,
         cost: 44720,
@@ -11320,7 +11915,8 @@ module.exports = {
         id: "35",
         power: .33,
         rate: 196,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_FuelScoop_Size4_Class2"
       }, {
         class: 4,
         cost: 178900,
@@ -11330,7 +11926,8 @@ module.exports = {
         id: "34",
         power: .41,
         rate: 245,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_FuelScoop_Size4_Class3"
       }, {
         class: 4,
         cost: 715590,
@@ -11340,7 +11937,8 @@ module.exports = {
         id: "33",
         power: .49,
         rate: 294,
-        rating: "B"
+        rating: "B",
+        symbol: "Int_FuelScoop_Size4_Class4"
       }, {
         class: 4,
         cost: 2862360,
@@ -11350,7 +11948,8 @@ module.exports = {
         id: "32",
         power: .57,
         rate: 342,
-        rating: "A"
+        rating: "A",
+        symbol: "Int_FuelScoop_Size4_Class5"
       }, {
         class: 5,
         cost: 34030,
@@ -11360,7 +11959,8 @@ module.exports = {
         id: "3b",
         power: .3,
         rate: 247,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_FuelScoop_Size5_Class1"
       }, {
         class: 5,
         cost: 141780,
@@ -11370,7 +11970,8 @@ module.exports = {
         id: "3a",
         power: .4,
         rate: 330,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_FuelScoop_Size5_Class2"
       }, {
         class: 5,
         cost: 567110,
@@ -11380,7 +11981,8 @@ module.exports = {
         id: "39",
         power: .5,
         rate: 412,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_FuelScoop_Size5_Class3"
       }, {
         class: 5,
         cost: 2268420,
@@ -11390,7 +11992,8 @@ module.exports = {
         id: "38",
         power: .6,
         rate: 494,
-        rating: "B"
+        rating: "B",
+        symbol: "Int_FuelScoop_Size5_Class4"
       }, {
         class: 5,
         cost: 9073690,
@@ -11400,7 +12003,8 @@ module.exports = {
         id: "37",
         power: .7,
         rate: 577,
-        rating: "A"
+        rating: "A",
+        symbol: "Int_FuelScoop_Size5_Class5"
       }, {
         class: 6,
         cost: 107860,
@@ -11410,7 +12014,8 @@ module.exports = {
         id: "3g",
         power: .35,
         rate: 376,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_FuelScoop_Size6_Class1"
       }, {
         class: 6,
         cost: 449430,
@@ -11420,7 +12025,8 @@ module.exports = {
         id: "3f",
         power: .47,
         rate: 502,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_FuelScoop_Size6_Class2"
       }, {
         class: 6,
         cost: 1797730,
@@ -11430,7 +12036,8 @@ module.exports = {
         id: "3e",
         power: .59,
         rate: 627,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_FuelScoop_Size6_Class3"
       }, {
         class: 6,
         cost: 7190900,
@@ -11440,7 +12047,8 @@ module.exports = {
         id: "3d",
         power: .71,
         rate: 752,
-        rating: "B"
+        rating: "B",
+        symbol: "Int_FuelScoop_Size6_Class4"
       }, {
         class: 6,
         cost: 28763610,
@@ -11450,7 +12058,8 @@ module.exports = {
         id: "3c",
         power: .83,
         rate: 878,
-        rating: "A"
+        rating: "A",
+        symbol: "Int_FuelScoop_Size6_Class5"
       }, {
         class: 7,
         cost: 341930,
@@ -11460,7 +12069,8 @@ module.exports = {
         id: "3l",
         power: .41,
         rate: 534,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_FuelScoop_Size7_Class1"
       }, {
         class: 7,
         cost: 1424700,
@@ -11470,7 +12080,8 @@ module.exports = {
         id: "3k",
         power: .55,
         rate: 712,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_FuelScoop_Size7_Class2"
       }, {
         class: 7,
         cost: 5698790,
@@ -11480,7 +12091,8 @@ module.exports = {
         id: "3j",
         power: .69,
         rate: 890,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_FuelScoop_Size7_Class3"
       }, {
         class: 7,
         cost: 22795160,
@@ -11490,7 +12102,8 @@ module.exports = {
         id: "3i",
         power: .83,
         rate: 1068,
-        rating: "B"
+        rating: "B",
+        symbol: "Int_FuelScoop_Size7_Class4"
       }, {
         class: 7,
         cost: 91180640,
@@ -11500,7 +12113,8 @@ module.exports = {
         id: "3h",
         power: .97,
         rate: 1245,
-        rating: "A"
+        rating: "A",
+        symbol: "Int_FuelScoop_Size7_Class5"
       }, {
         class: 8,
         cost: 1083910,
@@ -11510,7 +12124,8 @@ module.exports = {
         id: "3q",
         power: .48,
         rate: 720,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_FuelScoop_Size8_Class1"
       }, {
         class: 8,
         cost: 4516290,
@@ -11520,7 +12135,8 @@ module.exports = {
         id: "3p",
         power: .64,
         rate: 960,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_FuelScoop_Size8_Class2"
       }, {
         class: 8,
         cost: 18065160,
@@ -11530,7 +12146,8 @@ module.exports = {
         id: "3o",
         power: .8,
         rate: 1200,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_FuelScoop_Size8_Class3"
       }, {
         class: 8,
         cost: 72260660,
@@ -11540,7 +12157,8 @@ module.exports = {
         id: "3n",
         power: .96,
         rate: 1440,
-        rating: "B"
+        rating: "B",
+        symbol: "Int_FuelScoop_Size8_Class4"
       }, {
         class: 8,
         cost: 289042540,
@@ -11550,7 +12168,8 @@ module.exports = {
         id: "3m",
         power: 1.12,
         rate: 1680,
-        rating: "A"
+        rating: "A",
+        symbol: "Int_FuelScoop_Size8_Class5"
       } ],
       ft: [ {
         class: 1,
@@ -11560,7 +12179,8 @@ module.exports = {
         fuel: 2,
         grp: "ft",
         id: "f1",
-        rating: "C"
+        rating: "C",
+        symbol: "Int_FuelTank_Size1_Class3"
       }, {
         class: 2,
         cost: 3750,
@@ -11569,7 +12189,8 @@ module.exports = {
         fuel: 4,
         grp: "ft",
         id: "f2",
-        rating: "C"
+        rating: "C",
+        symbol: "Int_FuelTank_Size2_Class3"
       }, {
         class: 3,
         cost: 7060,
@@ -11578,7 +12199,8 @@ module.exports = {
         fuel: 8,
         grp: "ft",
         id: "f3",
-        rating: "C"
+        rating: "C",
+        symbol: "Int_FuelTank_Size3_Class3"
       }, {
         class: 4,
         cost: 24730,
@@ -11587,7 +12209,8 @@ module.exports = {
         fuel: 16,
         grp: "ft",
         id: "f4",
-        rating: "C"
+        rating: "C",
+        symbol: "Int_FuelTank_Size4_Class3"
       }, {
         class: 5,
         cost: 97750,
@@ -11596,7 +12219,8 @@ module.exports = {
         fuel: 32,
         grp: "ft",
         id: "f5",
-        rating: "C"
+        rating: "C",
+        symbol: "Int_FuelTank_Size5_Class3"
       }, {
         class: 6,
         cost: 341580,
@@ -11605,7 +12229,8 @@ module.exports = {
         fuel: 64,
         grp: "ft",
         id: "f6",
-        rating: "C"
+        rating: "C",
+        symbol: "Int_FuelTank_Size6_Class3"
       }, {
         class: 7,
         cost: 1780910,
@@ -11614,7 +12239,8 @@ module.exports = {
         fuel: 128,
         grp: "ft",
         id: "f7",
-        rating: "C"
+        rating: "C",
+        symbol: "Int_FuelTank_Size7_Class3"
       }, {
         class: 8,
         cost: 5428400,
@@ -11623,7 +12249,8 @@ module.exports = {
         fuel: 256,
         grp: "ft",
         id: "f8",
-        rating: "C"
+        rating: "C",
+        symbol: "Int_FuelTank_Size8_Class3"
       } ],
       fx: [ {
         class: 1,
@@ -11636,7 +12263,8 @@ module.exports = {
         maximum: 1,
         power: .18,
         range: .6,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_DroneControl_FuelTransfer_Size1_Class1"
       }, {
         class: 1,
         cost: 1200,
@@ -11648,7 +12276,8 @@ module.exports = {
         maximum: 1,
         power: .14,
         range: .8,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_DroneControl_FuelTransfer_Size1_Class2"
       }, {
         class: 1,
         cost: 2400,
@@ -11660,7 +12289,8 @@ module.exports = {
         maximum: 1,
         power: .23,
         range: 1,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_DroneControl_FuelTransfer_Size1_Class3"
       }, {
         class: 1,
         cost: 4800,
@@ -11672,7 +12302,8 @@ module.exports = {
         maximum: 1,
         power: .32,
         range: 1.2,
-        rating: "B"
+        rating: "B",
+        symbol: "Int_DroneControl_FuelTransfer_Size1_Class4"
       }, {
         class: 1,
         cost: 9600,
@@ -11684,7 +12315,8 @@ module.exports = {
         maximum: 1,
         power: .28,
         range: 1.4,
-        rating: "A"
+        rating: "A",
+        symbol: "Int_DroneControl_FuelTransfer_Size1_Class5"
       }, {
         class: 3,
         cost: 5400,
@@ -11696,7 +12328,8 @@ module.exports = {
         maximum: 2,
         power: .27,
         range: .66,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_DroneControl_FuelTransfer_Size3_Class1"
       }, {
         class: 3,
         cost: 10800,
@@ -11708,7 +12341,8 @@ module.exports = {
         maximum: 2,
         power: .2,
         range: .88,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_DroneControl_FuelTransfer_Size3_Class2"
       }, {
         class: 3,
         cost: 21600,
@@ -11720,7 +12354,8 @@ module.exports = {
         maximum: 2,
         power: .34,
         range: 1.1,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_DroneControl_FuelTransfer_Size3_Class3"
       }, {
         class: 3,
         cost: 43200,
@@ -11732,7 +12367,8 @@ module.exports = {
         maximum: 2,
         power: .48,
         range: 1.32,
-        rating: "B"
+        rating: "B",
+        symbol: "Int_DroneControl_FuelTransfer_Size3_Class4"
       }, {
         class: 3,
         cost: 86400,
@@ -11744,7 +12380,8 @@ module.exports = {
         maximum: 2,
         power: .41,
         range: 1.54,
-        rating: "A"
+        rating: "A",
+        symbol: "Int_DroneControl_FuelTransfer_Size3_Class5"
       }, {
         class: 5,
         cost: 48600,
@@ -11756,7 +12393,8 @@ module.exports = {
         maximum: 4,
         power: .4,
         range: .78,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_DroneControl_FuelTransfer_Size5_Class1"
       }, {
         class: 5,
         cost: 97200,
@@ -11768,7 +12406,8 @@ module.exports = {
         maximum: 4,
         power: .3,
         range: 1.04,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_DroneControl_FuelTransfer_Size5_Class2"
       }, {
         class: 5,
         cost: 194400,
@@ -11780,7 +12419,8 @@ module.exports = {
         maximum: 4,
         power: .5,
         range: 1.3,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_DroneControl_FuelTransfer_Size5_Class3"
       }, {
         class: 5,
         cost: 388800,
@@ -11792,7 +12432,8 @@ module.exports = {
         maximum: 4,
         power: .97,
         range: 1.56,
-        rating: "B"
+        rating: "B",
+        symbol: "Int_DroneControl_FuelTransfer_Size5_Class4"
       }, {
         class: 5,
         cost: 777600,
@@ -11804,7 +12445,8 @@ module.exports = {
         maximum: 4,
         power: .6,
         range: 1.82,
-        rating: "A"
+        rating: "A",
+        symbol: "Int_DroneControl_FuelTransfer_Size5_Class5"
       }, {
         class: 7,
         cost: 437400,
@@ -11816,7 +12458,8 @@ module.exports = {
         maximum: 8,
         power: .55,
         range: 1.02,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_DroneControl_FuelTransfer_Size7_Class1"
       }, {
         class: 7,
         cost: 874800,
@@ -11828,7 +12471,8 @@ module.exports = {
         maximum: 8,
         power: .41,
         range: 1.36,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_DroneControl_FuelTransfer_Size7_Class2"
       }, {
         class: 7,
         cost: 1749600,
@@ -11840,7 +12484,8 @@ module.exports = {
         maximum: 8,
         power: .69,
         range: 1.7,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_DroneControl_FuelTransfer_Size7_Class3"
       }, {
         class: 7,
         cost: 3499200,
@@ -11852,7 +12497,8 @@ module.exports = {
         maximum: 8,
         power: .97,
         range: 2.04,
-        rating: "B"
+        rating: "B",
+        symbol: "Int_DroneControl_FuelTransfer_Size7_Class4"
       }, {
         class: 7,
         cost: 6998400,
@@ -11864,7 +12510,8 @@ module.exports = {
         maximum: 8,
         power: .83,
         range: 2.38,
-        rating: "A"
+        rating: "A",
+        symbol: "Int_DroneControl_FuelTransfer_Size7_Class5"
       } ],
       hb: [ {
         class: 1,
@@ -11878,7 +12525,8 @@ module.exports = {
         power: .12,
         range: 1.5,
         rating: "E",
-        time: 42
+        time: 42,
+        symbol: "Int_DroneControl_ResourceSiphon_Size1_Class1"
       }, {
         class: 1,
         cost: 1200,
@@ -11891,7 +12539,8 @@ module.exports = {
         power: .16,
         range: 2,
         rating: "D",
-        time: 36
+        time: 36,
+        symbol: "Int_DroneControl_ResourceSiphon_Size1_Class2"
       }, {
         class: 1,
         cost: 2400,
@@ -11904,7 +12553,8 @@ module.exports = {
         power: .2,
         range: 2.5,
         rating: "C",
-        time: 30
+        time: 30,
+        symbol: "Int_DroneControl_ResourceSiphon_Size1_Class3"
       }, {
         class: 1,
         cost: 4800,
@@ -11917,7 +12567,8 @@ module.exports = {
         power: .24,
         range: 3,
         rating: "B",
-        time: 24
+        time: 24,
+        symbol: "Int_DroneControl_ResourceSiphon_Size1_Class4"
       }, {
         class: 1,
         cost: 9600,
@@ -11930,7 +12581,8 @@ module.exports = {
         power: .28,
         range: 3.5,
         rating: "A",
-        time: 18
+        time: 18,
+        symbol: "Int_DroneControl_ResourceSiphon_Size1_Class5"
       }, {
         class: 3,
         cost: 5400,
@@ -11943,7 +12595,8 @@ module.exports = {
         power: .18,
         range: 1.62,
         rating: "E",
-        time: 36
+        time: 36,
+        symbol: "Int_DroneControl_ResourceSiphon_Size3_Class1"
       }, {
         class: 3,
         cost: 10800,
@@ -11956,7 +12609,8 @@ module.exports = {
         power: .24,
         range: 2.16,
         rating: "D",
-        time: 31
+        time: 31,
+        symbol: "Int_DroneControl_ResourceSiphon_Size3_Class2"
       }, {
         class: 3,
         cost: 21600,
@@ -11969,7 +12623,8 @@ module.exports = {
         power: .3,
         range: 2.7,
         rating: "C",
-        time: 26
+        time: 26,
+        symbol: "Int_DroneControl_ResourceSiphon_Size3_Class3"
       }, {
         class: 3,
         cost: 43200,
@@ -11982,7 +12637,8 @@ module.exports = {
         power: .36,
         range: 3.24,
         rating: "B",
-        time: 21
+        time: 21,
+        symbol: "Int_DroneControl_ResourceSiphon_Size3_Class4"
       }, {
         class: 3,
         cost: 86400,
@@ -11995,7 +12651,8 @@ module.exports = {
         power: .42,
         range: 3.78,
         rating: "A",
-        time: 16
+        time: 16,
+        symbol: "Int_DroneControl_ResourceSiphon_Size3_Class5"
       }, {
         class: 5,
         cost: 48600,
@@ -12008,7 +12665,8 @@ module.exports = {
         power: .3,
         range: 1.98,
         rating: "E",
-        time: 31
+        time: 31,
+        symbol: "Int_DroneControl_ResourceSiphon_Size5_Class1"
       }, {
         class: 5,
         cost: 97200,
@@ -12021,7 +12679,8 @@ module.exports = {
         power: .4,
         range: 2.64,
         rating: "D",
-        time: 26
+        time: 26,
+        symbol: "Int_DroneControl_ResourceSiphon_Size5_Class2"
       }, {
         class: 5,
         cost: 194400,
@@ -12034,7 +12693,8 @@ module.exports = {
         power: .5,
         range: 3.3,
         rating: "C",
-        time: 22
+        time: 22,
+        symbol: "Int_DroneControl_ResourceSiphon_Size5_Class3"
       }, {
         class: 5,
         cost: 388800,
@@ -12047,7 +12707,8 @@ module.exports = {
         power: .6,
         range: 3.96,
         rating: "B",
-        time: 18
+        time: 18,
+        symbol: "Int_DroneControl_ResourceSiphon_Size5_Class4"
       }, {
         class: 5,
         cost: 777600,
@@ -12060,7 +12721,8 @@ module.exports = {
         power: .7,
         range: 4.62,
         rating: "A",
-        time: 13
+        time: 13,
+        symbol: "Int_DroneControl_ResourceSiphon_Size5_Class5"
       }, {
         class: 7,
         cost: 437400,
@@ -12073,7 +12735,8 @@ module.exports = {
         power: .42,
         range: 2.58,
         rating: "E",
-        time: 25
+        time: 25,
+        symbol: "Int_DroneControl_ResourceSiphon_Size7_Class1"
       }, {
         class: 7,
         cost: 874800,
@@ -12086,7 +12749,8 @@ module.exports = {
         power: .56,
         range: 3.44,
         rating: "D",
-        time: 22
+        time: 22,
+        symbol: "Int_DroneControl_ResourceSiphon_Size7_Class2"
       }, {
         class: 7,
         cost: 1749600,
@@ -12099,7 +12763,8 @@ module.exports = {
         power: .7,
         range: 4.3,
         rating: "C",
-        time: 18
+        time: 18,
+        symbol: "Int_DroneControl_ResourceSiphon_Size7_Class3"
       }, {
         class: 7,
         cost: 3499200,
@@ -12112,7 +12777,8 @@ module.exports = {
         power: .84,
         range: 5.16,
         rating: "B",
-        time: 14
+        time: 14,
+        symbol: "Int_DroneControl_ResourceSiphon_Size7_Class4"
       }, {
         class: 7,
         cost: 6998400,
@@ -12125,7 +12791,8 @@ module.exports = {
         power: .98,
         range: 6.02,
         rating: "A",
-        time: 11
+        time: 11,
+        symbol: "Int_DroneControl_ResourceSiphon_Size7_Class5"
       } ],
       hr: [ {
         hullreinforcement: 80,
@@ -12139,7 +12806,8 @@ module.exports = {
         kinres: .005,
         mass: 2,
         rating: "E",
-        thermres: .005
+        thermres: .005,
+        symbol: "Int_HullReinforcement_Size1_Class1"
       }, {
         hullreinforcement: 110,
         class: 1,
@@ -12152,7 +12820,8 @@ module.exports = {
         kinres: .005,
         mass: 1,
         rating: "D",
-        thermres: .005
+        thermres: .005,
+        symbol: "Int_HullReinforcement_Size1_Class2"
       }, {
         hullreinforcement: 150,
         class: 2,
@@ -12165,7 +12834,8 @@ module.exports = {
         kinres: .01,
         mass: 4,
         rating: "E",
-        thermres: .01
+        thermres: .01,
+        symbol: "Int_HullReinforcement_Size2_Class1"
       }, {
         hullreinforcement: 190,
         class: 2,
@@ -12178,7 +12848,8 @@ module.exports = {
         kinres: .01,
         mass: 2,
         rating: "D",
-        thermres: .01
+        thermres: .01,
+        symbol: "Int_HullReinforcement_Size2_Class2"
       }, {
         hullreinforcement: 230,
         class: 3,
@@ -12191,7 +12862,8 @@ module.exports = {
         kinres: .015,
         mass: 8,
         rating: "E",
-        thermres: .015
+        thermres: .015,
+        symbol: "Int_HullReinforcement_Size3_Class1"
       }, {
         hullreinforcement: 260,
         class: 3,
@@ -12204,7 +12876,8 @@ module.exports = {
         kinres: .015,
         mass: 4,
         rating: "D",
-        thermres: .015
+        thermres: .015,
+        symbol: "Int_HullReinforcement_Size3_Class2"
       }, {
         hullreinforcement: 300,
         class: 4,
@@ -12217,7 +12890,8 @@ module.exports = {
         kinres: .02,
         mass: 16,
         rating: "E",
-        thermres: .02
+        thermres: .02,
+        symbol: "Int_HullReinforcement_Size4_Class1"
       }, {
         hullreinforcement: 330,
         class: 4,
@@ -12230,7 +12904,8 @@ module.exports = {
         kinres: .02,
         mass: 8,
         rating: "D",
-        thermres: .02
+        thermres: .02,
+        symbol: "Int_HullReinforcement_Size4_Class2"
       }, {
         hullreinforcement: 360,
         class: 5,
@@ -12243,7 +12918,8 @@ module.exports = {
         kinres: .025,
         mass: 32,
         rating: "E",
-        thermres: .025
+        thermres: .025,
+        symbol: "Int_HullReinforcement_Size5_Class1"
       }, {
         hullreinforcement: 390,
         class: 5,
@@ -12256,7 +12932,8 @@ module.exports = {
         kinres: .025,
         mass: 16,
         rating: "D",
-        thermres: .025
+        thermres: .025,
+        symbol: "Int_HullReinforcement_Size5_Class2"
       } ],
       mrp: [ {
         class: 1,
@@ -12268,7 +12945,8 @@ module.exports = {
         integrity: 77,
         mass: 2,
         protection: .3,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_ModuleReinforcement_Size1_Class1"
       }, {
         class: 1,
         cost: 15e3,
@@ -12279,7 +12957,8 @@ module.exports = {
         integrity: 70,
         mass: 1,
         protection: .6,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_ModuleReinforcement_Size1_Class2"
       }, {
         class: 2,
         cost: 12e3,
@@ -12290,7 +12969,8 @@ module.exports = {
         integrity: 115,
         mass: 4,
         protection: .3,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_ModuleReinforcement_Size2_Class1"
       }, {
         class: 2,
         cost: 36e3,
@@ -12301,7 +12981,8 @@ module.exports = {
         integrity: 105,
         mass: 2,
         protection: .6,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_ModuleReinforcement_Size2_Class2"
       }, {
         class: 3,
         cost: 28e3,
@@ -12312,7 +12993,8 @@ module.exports = {
         integrity: 170,
         mass: 8,
         protection: .3,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_ModuleReinforcement_Size3_Class1"
       }, {
         class: 3,
         cost: 84e3,
@@ -12323,7 +13005,8 @@ module.exports = {
         integrity: 155,
         mass: 4,
         protection: .6,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_ModuleReinforcement_Size3_Class2"
       }, {
         class: 4,
         cost: 65e3,
@@ -12334,7 +13017,8 @@ module.exports = {
         integrity: 260,
         mass: 16,
         protection: .3,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_ModuleReinforcement_Size4_Class1"
       }, {
         class: 4,
         cost: 195e3,
@@ -12345,7 +13029,8 @@ module.exports = {
         integrity: 235,
         mass: 8,
         protection: .6,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_ModuleReinforcement_Size4_Class2"
       }, {
         class: 5,
         cost: 15e4,
@@ -12356,7 +13041,8 @@ module.exports = {
         integrity: 385,
         mass: 32,
         protection: .3,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_ModuleReinforcement_Size5_Class1"
       }, {
         class: 5,
         cost: 45e4,
@@ -12367,7 +13053,8 @@ module.exports = {
         integrity: 350,
         mass: 16,
         protection: .6,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_ModuleReinforcement_Size5_Class2"
       } ],
       pv: [ {
         bays: 1,
@@ -12380,7 +13067,8 @@ module.exports = {
         integrity: 30,
         mass: 12,
         power: .25,
-        rating: "H"
+        rating: "H",
+        symbol: "Int_BuggyBay_Size2_Class1"
       }, {
         bays: 1,
         class: 2,
@@ -12392,7 +13080,8 @@ module.exports = {
         integrity: 30,
         mass: 6,
         power: .75,
-        rating: "G"
+        rating: "G",
+        symbol: "Int_BuggyBay_Size2_Class2"
       }, {
         bays: 2,
         class: 4,
@@ -12404,7 +13093,8 @@ module.exports = {
         integrity: 30,
         mass: 20,
         power: .4,
-        rating: "H"
+        rating: "H",
+        symbol: "Int_BuggyBay_Size4_Class1"
       }, {
         bays: 2,
         class: 4,
@@ -12416,7 +13106,8 @@ module.exports = {
         integrity: 30,
         mass: 10,
         power: 1.2,
-        rating: "G"
+        rating: "G",
+        symbol: "Int_BuggyBay_Size4_Class2"
       }, {
         bays: 4,
         class: 6,
@@ -12428,7 +13119,8 @@ module.exports = {
         integrity: 30,
         mass: 34,
         power: .6,
-        rating: "H"
+        rating: "H",
+        symbol: "Int_BuggyBay_Size6_Class1"
       }, {
         bays: 4,
         class: 6,
@@ -12440,7 +13132,8 @@ module.exports = {
         integrity: 30,
         mass: 17,
         power: 1.8,
-        rating: "G"
+        rating: "G",
+        symbol: "Int_BuggyBay_Size6_Class2"
       } ],
       psg: [ {
         brokenregen: 1.2,
@@ -12465,7 +13158,8 @@ module.exports = {
         pp: "Aisling Duval",
         rating: "A",
         regen: 1,
-        thermres: -.2
+        thermres: -.2,
+        symbol: "Int_ShieldGenerator_Size1_Class5_Strong"
       }, {
         brokenregen: 1.2,
         class: 2,
@@ -12489,7 +13183,8 @@ module.exports = {
         pp: "Aisling Duval",
         rating: "A",
         regen: 1,
-        thermres: -.2
+        thermres: -.2,
+        symbol: "Int_ShieldGenerator_Size2_Class5_Strong"
       }, {
         brokenregen: 1.3,
         class: 3,
@@ -12513,7 +13208,8 @@ module.exports = {
         pp: "Aisling Duval",
         rating: "A",
         regen: 1,
-        thermres: -.2
+        thermres: -.2,
+        symbol: "Int_ShieldGenerator_Size3_Class5_Strong"
       }, {
         brokenregen: 1.7,
         class: 4,
@@ -12537,7 +13233,8 @@ module.exports = {
         pp: "Aisling Duval",
         rating: "A",
         regen: 1,
-        thermres: -.2
+        thermres: -.2,
+        symbol: "Int_ShieldGenerator_Size4_Class5_Strong"
       }, {
         brokenregen: 2.3,
         class: 5,
@@ -12561,7 +13258,8 @@ module.exports = {
         pp: "Aisling Duval",
         rating: "A",
         regen: 1,
-        thermres: -.2
+        thermres: -.2,
+        symbol: "Int_ShieldGenerator_Size5_Class5_Strong"
       }, {
         brokenregen: 3.2,
         class: 6,
@@ -12585,7 +13283,8 @@ module.exports = {
         pp: "Aisling Duval",
         rating: "A",
         regen: 1,
-        thermres: -.2
+        thermres: -.2,
+        symbol: "Int_ShieldGenerator_Size6_Class5_Strong"
       }, {
         brokenregen: 4.2,
         class: 7,
@@ -12609,7 +13308,8 @@ module.exports = {
         pp: "Aisling Duval",
         rating: "A",
         regen: 1.1,
-        thermres: -.2
+        thermres: -.2,
+        symbol: "Int_ShieldGenerator_Size7_Class5_Strong"
       }, {
         brokenregen: 5.4,
         class: 8,
@@ -12633,7 +13333,8 @@ module.exports = {
         pp: "Aisling Duval",
         rating: "A",
         regen: 1.4,
-        thermres: -.2
+        thermres: -.2,
+        symbol: "Int_ShieldGenerator_Size8_Class5_Strong"
       } ],
       pc: [ {
         class: 1,
@@ -12646,7 +13347,8 @@ module.exports = {
         maximum: 1,
         power: .18,
         range: 3,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_DroneControl_Prospector_Size1_Class1"
       }, {
         class: 1,
         cost: 1200,
@@ -12658,7 +13360,8 @@ module.exports = {
         maximum: 1,
         power: .14,
         range: 4,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_DroneControl_Prospector_Size1_Class2"
       }, {
         class: 1,
         cost: 2400,
@@ -12670,7 +13373,8 @@ module.exports = {
         maximum: 1,
         power: .23,
         range: 5,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_DroneControl_Prospector_Size1_Class3"
       }, {
         class: 1,
         cost: 4800,
@@ -12682,7 +13386,8 @@ module.exports = {
         maximum: 1,
         power: .32,
         range: 6,
-        rating: "B"
+        rating: "B",
+        symbol: "Int_DroneControl_Prospector_Size1_Class4"
       }, {
         class: 1,
         cost: 9600,
@@ -12694,7 +13399,8 @@ module.exports = {
         maximum: 1,
         power: .28,
         range: 7,
-        rating: "A"
+        rating: "A",
+        symbol: "Int_DroneControl_Prospector_Size1_Class5"
       }, {
         class: 3,
         cost: 5400,
@@ -12706,7 +13412,8 @@ module.exports = {
         maximum: 2,
         power: .27,
         range: 3.3,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_DroneControl_Prospector_Size3_Class1"
       }, {
         class: 3,
         cost: 10800,
@@ -12718,7 +13425,8 @@ module.exports = {
         maximum: 2,
         power: .2,
         range: 4.4,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_DroneControl_Prospector_Size3_Class2"
       }, {
         class: 3,
         cost: 21600,
@@ -12730,7 +13438,8 @@ module.exports = {
         maximum: 2,
         power: .34,
         range: 5.5,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_DroneControl_Prospector_Size3_Class3"
       }, {
         class: 3,
         cost: 43200,
@@ -12742,7 +13451,8 @@ module.exports = {
         maximum: 2,
         power: .48,
         range: 6.6,
-        rating: "B"
+        rating: "B",
+        symbol: "Int_DroneControl_Prospector_Size3_Class4"
       }, {
         class: 3,
         cost: 86400,
@@ -12754,7 +13464,8 @@ module.exports = {
         maximum: 2,
         power: .41,
         range: 7.7,
-        rating: "A"
+        rating: "A",
+        symbol: "Int_DroneControl_Prospector_Size3_Class5"
       }, {
         class: 5,
         cost: 48600,
@@ -12766,7 +13477,8 @@ module.exports = {
         maximum: 4,
         power: .4,
         range: 3.9,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_DroneControl_Prospector_Size5_Class1"
       }, {
         class: 5,
         cost: 97200,
@@ -12778,7 +13490,8 @@ module.exports = {
         maximum: 4,
         power: .3,
         range: 5.2,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_DroneControl_Prospector_Size5_Class2"
       }, {
         class: 5,
         cost: 194400,
@@ -12790,7 +13503,8 @@ module.exports = {
         maximum: 4,
         power: .5,
         range: 6.5,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_DroneControl_Prospector_Size5_Class3"
       }, {
         class: 5,
         cost: 388800,
@@ -12802,7 +13516,8 @@ module.exports = {
         maximum: 4,
         power: .97,
         range: 7.8,
-        rating: "B"
+        rating: "B",
+        symbol: "Int_DroneControl_Prospector_Size5_Class4"
       }, {
         class: 5,
         cost: 777600,
@@ -12814,7 +13529,8 @@ module.exports = {
         maximum: 4,
         power: .6,
         range: 9.1,
-        rating: "A"
+        rating: "A",
+        symbol: "Int_DroneControl_Prospector_Size5_Class5"
       }, {
         class: 7,
         cost: 437400,
@@ -12826,7 +13542,8 @@ module.exports = {
         maximum: 8,
         power: .55,
         range: 5.1,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_DroneControl_Prospector_Size7_Class1"
       }, {
         class: 7,
         cost: 874800,
@@ -12838,7 +13555,8 @@ module.exports = {
         maximum: 8,
         power: .41,
         range: 6.8,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_DroneControl_Prospector_Size7_Class2"
       }, {
         class: 7,
         cost: 1749600,
@@ -12850,7 +13568,8 @@ module.exports = {
         maximum: 8,
         power: .69,
         range: 8.5,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_DroneControl_Prospector_Size7_Class3"
       }, {
         class: 7,
         cost: 3499200,
@@ -12862,7 +13581,8 @@ module.exports = {
         maximum: 8,
         power: .97,
         range: 10.2,
-        rating: "B"
+        rating: "B",
+        symbol: "Int_DroneControl_Prospector_Size7_Class4"
       }, {
         class: 7,
         cost: 6998400,
@@ -12874,7 +13594,8 @@ module.exports = {
         maximum: 8,
         power: .83,
         range: 11.9,
-        rating: "A"
+        rating: "A",
+        symbol: "Int_DroneControl_Prospector_Size7_Class5"
       } ],
       pce: [ {
         class: 2,
@@ -12885,7 +13606,8 @@ module.exports = {
         id: "ma",
         mass: 2.5,
         passengers: 2,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_PassengerCabin_Size2_Class1"
       }, {
         class: 3,
         cost: 8670,
@@ -12895,7 +13617,8 @@ module.exports = {
         id: "mb",
         mass: 5,
         passengers: 4,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_PassengerCabin_Size3_Class1"
       }, {
         class: 4,
         cost: 18960,
@@ -12905,7 +13628,8 @@ module.exports = {
         id: "mc",
         mass: 10,
         passengers: 8,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_PassengerCabin_Size4_Class1"
       }, {
         class: 5,
         cost: 34960,
@@ -12915,7 +13639,8 @@ module.exports = {
         id: "md",
         mass: 20,
         passengers: 16,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_PassengerCabin_Size5_Class1"
       }, {
         class: 6,
         cost: 61420,
@@ -12925,7 +13650,8 @@ module.exports = {
         id: "me",
         mass: 40,
         passengers: 32,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_PassengerCabin_Size6_Class1"
       } ],
       pci: [ {
         class: 3,
@@ -12936,7 +13662,8 @@ module.exports = {
         id: "mf",
         mass: 5,
         passengers: 3,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_PassengerCabin_Size3_Class2"
       }, {
         class: 4,
         cost: 56870,
@@ -12946,7 +13673,8 @@ module.exports = {
         id: "mg",
         mass: 10,
         passengers: 6,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_PassengerCabin_Size4_Class2"
       }, {
         class: 5,
         cost: 92370,
@@ -12956,7 +13684,8 @@ module.exports = {
         id: "mh",
         mass: 20,
         passengers: 10,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_PassengerCabin_Size5_Class2"
       }, {
         class: 6,
         cost: 184240,
@@ -12966,7 +13695,8 @@ module.exports = {
         id: "mi",
         mass: 40,
         passengers: 16,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_PassengerCabin_Size6_Class2"
       } ],
       pcm: [ {
         class: 4,
@@ -12977,7 +13707,8 @@ module.exports = {
         id: "mj",
         mass: 10,
         passengers: 3,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_PassengerCabin_Size4_Class3"
       }, {
         class: 5,
         cost: 340540,
@@ -12987,7 +13718,8 @@ module.exports = {
         id: "mk",
         mass: 20,
         passengers: 6,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_PassengerCabin_Size5_Class3"
       }, {
         class: 6,
         cost: 552700,
@@ -12997,7 +13729,8 @@ module.exports = {
         id: "ml",
         mass: 40,
         passengers: 12,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_PassengerCabin_Size6_Class3"
       } ],
       pcq: [ {
         class: 5,
@@ -13008,7 +13741,8 @@ module.exports = {
         id: "mm",
         mass: 20,
         passengers: 4,
-        rating: "B"
+        rating: "B",
+        symbol: "Int_PassengerCabin_Size5_Class4"
       }, {
         class: 6,
         cost: 4974300,
@@ -13018,7 +13752,8 @@ module.exports = {
         id: "mn",
         mass: 40,
         passengers: 8,
-        rating: "B"
+        rating: "B",
+        symbol: "Int_PassengerCabin_Size6_Class4"
       } ],
       rf: [ {
         bins: 1,
@@ -13029,7 +13764,8 @@ module.exports = {
         grp: "rf",
         id: "1k",
         power: .14,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_Refinery_Size1_Class1"
       }, {
         bins: 1,
         class: 1,
@@ -13039,7 +13775,8 @@ module.exports = {
         grp: "rf",
         id: "1j",
         power: .18,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_Refinery_Size1_Class2"
       }, {
         bins: 2,
         class: 1,
@@ -13049,7 +13786,8 @@ module.exports = {
         grp: "rf",
         id: "1i",
         power: .23,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_Refinery_Size1_Class3"
       }, {
         bins: 3,
         class: 1,
@@ -13059,7 +13797,8 @@ module.exports = {
         grp: "rf",
         id: "1h",
         power: .28,
-        rating: "B"
+        rating: "B",
+        symbol: "Int_Refinery_Size1_Class4"
       }, {
         bins: 4,
         class: 1,
@@ -13069,7 +13808,8 @@ module.exports = {
         grp: "rf",
         id: "1g",
         power: .32,
-        rating: "A"
+        rating: "A",
+        symbol: "Int_Refinery_Size1_Class5"
       }, {
         bins: 2,
         class: 2,
@@ -13079,7 +13819,8 @@ module.exports = {
         grp: "rf",
         id: "1p",
         power: .17,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_Refinery_Size2_Class1"
       }, {
         bins: 3,
         class: 2,
@@ -13089,7 +13830,8 @@ module.exports = {
         grp: "rf",
         id: "1o",
         power: .22,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_Refinery_Size2_Class2"
       }, {
         bins: 4,
         class: 2,
@@ -13099,7 +13841,8 @@ module.exports = {
         grp: "rf",
         id: "1n",
         power: .28,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_Refinery_Size2_Class3"
       }, {
         bins: 5,
         class: 2,
@@ -13109,7 +13852,8 @@ module.exports = {
         grp: "rf",
         id: "1m",
         power: .34,
-        rating: "B"
+        rating: "B",
+        symbol: "Int_Refinery_Size2_Class4"
       }, {
         bins: 6,
         class: 2,
@@ -13119,7 +13863,8 @@ module.exports = {
         grp: "rf",
         id: "1l",
         power: .39,
-        rating: "A"
+        rating: "A",
+        symbol: "Int_Refinery_Size2_Class5"
       }, {
         bins: 3,
         class: 3,
@@ -13129,7 +13874,8 @@ module.exports = {
         grp: "rf",
         id: "1u",
         power: .2,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_Refinery_Size3_Class1"
       }, {
         bins: 4,
         class: 3,
@@ -13139,7 +13885,8 @@ module.exports = {
         grp: "rf",
         id: "1t",
         power: .27,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_Refinery_Size3_Class2"
       }, {
         bins: 6,
         class: 3,
@@ -13149,7 +13896,8 @@ module.exports = {
         grp: "rf",
         id: "1s",
         power: .34,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_Refinery_Size3_Class3"
       }, {
         bins: 7,
         class: 3,
@@ -13159,7 +13907,8 @@ module.exports = {
         grp: "rf",
         id: "1r",
         power: .41,
-        rating: "B"
+        rating: "B",
+        symbol: "Int_Refinery_Size3_Class4"
       }, {
         bins: 8,
         class: 3,
@@ -13169,7 +13918,8 @@ module.exports = {
         grp: "rf",
         id: "1q",
         power: .48,
-        rating: "A"
+        rating: "A",
+        symbol: "Int_Refinery_Size3_Class5"
       }, {
         bins: 4,
         class: 4,
@@ -13179,7 +13929,8 @@ module.exports = {
         grp: "rf",
         id: "23",
         power: .25,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_Refinery_Size4_Class1"
       }, {
         bins: 5,
         class: 4,
@@ -13189,7 +13940,8 @@ module.exports = {
         grp: "rf",
         id: "22",
         power: .33,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_Refinery_Size4_Class2"
       }, {
         bins: 7,
         class: 4,
@@ -13199,7 +13951,8 @@ module.exports = {
         grp: "rf",
         id: "21",
         power: .41,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_Refinery_Size4_Class3"
       }, {
         bins: 9,
         class: 4,
@@ -13209,7 +13962,8 @@ module.exports = {
         grp: "rf",
         id: "20",
         power: .49,
-        rating: "B"
+        rating: "B",
+        symbol: "Int_Refinery_Size4_Class4"
       }, {
         bins: 10,
         class: 4,
@@ -13219,7 +13973,8 @@ module.exports = {
         grp: "rf",
         id: "1v",
         power: .57,
-        rating: "A"
+        rating: "A",
+        symbol: "Int_Refinery_Size4_Class5"
       } ],
       sc: [ {
         class: 1,
@@ -13233,7 +13988,8 @@ module.exports = {
         name: "Advanced Discovery Scanner",
         power: 0,
         rangeLS: null,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_StellarBodyDiscoveryScanner_Advanced"
       }, {
         class: 1,
         cost: 505e3,
@@ -13246,7 +14002,8 @@ module.exports = {
         name: "Intermediate Discovery Scanner",
         power: 0,
         rangeLS: 1e3,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_StellarBodyDiscoveryScanner_Intermediate"
       }, {
         class: 1,
         cost: 1e3,
@@ -13259,7 +14016,8 @@ module.exports = {
         name: "Basic Discovery Scanner",
         power: 0,
         rangeLS: 500,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_StellarBodyDiscoveryScanner_Standard"
       } ],
       scb: [ {
         ammo: 3,
@@ -13280,7 +14038,8 @@ module.exports = {
         shieldreinforcement: 12,
         rechargerating: "E",
         spinup: 5,
-        thermload: 170
+        thermload: 170,
+        symbol: "Int_ShieldCellBank_Size1_Class1"
       }, {
         ammo: 0,
         ammocost: 300,
@@ -13300,7 +14059,8 @@ module.exports = {
         shieldreinforcement: 12.5,
         rechargerating: "D",
         spinup: 5,
-        thermload: 170
+        thermload: 170,
+        symbol: "Int_ShieldCellBank_Size1_Class2"
       }, {
         ammo: 2,
         ammocost: 300,
@@ -13320,7 +14080,8 @@ module.exports = {
         shieldreinforcement: 20,
         rechargerating: "C",
         spinup: 5,
-        thermload: 170
+        thermload: 170,
+        symbol: "Int_ShieldCellBank_Size1_Class3"
       }, {
         ammo: 3,
         ammocost: 300,
@@ -13340,7 +14101,8 @@ module.exports = {
         shieldreinforcement: 24,
         rechargerating: "B",
         spinup: 5,
-        thermload: 170
+        thermload: 170,
+        symbol: "Int_ShieldCellBank_Size1_Class4"
       }, {
         ammo: 2,
         ammocost: 300,
@@ -13360,7 +14122,8 @@ module.exports = {
         shieldreinforcement: 28,
         rechargerating: "A",
         spinup: 5,
-        thermload: 170
+        thermload: 170,
+        symbol: "Int_ShieldCellBank_Size1_Class5"
       }, {
         ammo: 4,
         ammocost: 300,
@@ -13380,7 +14143,8 @@ module.exports = {
         shieldreinforcement: 14,
         rechargerating: "E",
         spinup: 5,
-        thermload: 240
+        thermload: 240,
+        symbol: "Int_ShieldCellBank_Size2_Class1"
       }, {
         ammo: 2,
         ammocost: 300,
@@ -13400,7 +14164,8 @@ module.exports = {
         shieldreinforcement: 18,
         rechargerating: "D",
         spinup: 5,
-        thermload: 240
+        thermload: 240,
+        symbol: "Int_ShieldCellBank_Size2_Class2"
       }, {
         ammo: 3,
         ammocost: 300,
@@ -13420,7 +14185,8 @@ module.exports = {
         shieldreinforcement: 23,
         rechargerating: "C",
         spinup: 5,
-        thermload: 240
+        thermload: 240,
+        symbol: "Int_ShieldCellBank_Size2_Class3"
       }, {
         ammo: 4,
         ammocost: 300,
@@ -13440,7 +14206,8 @@ module.exports = {
         shieldreinforcement: 28,
         rechargerating: "B",
         spinup: 5,
-        thermload: 240
+        thermload: 240,
+        symbol: "Int_ShieldCellBank_Size2_Class4"
       }, {
         ammo: 3,
         ammocost: 300,
@@ -13460,7 +14227,8 @@ module.exports = {
         shieldreinforcement: 32,
         rechargerating: "A",
         spinup: 5,
-        thermload: 240
+        thermload: 240,
+        symbol: "Int_ShieldCellBank_Size2_Class5"
       }, {
         ammo: 4,
         ammocost: 300,
@@ -13480,7 +14248,8 @@ module.exports = {
         shieldreinforcement: 17,
         rechargerating: "E",
         spinup: 5,
-        thermload: 340
+        thermload: 340,
+        symbol: "Int_ShieldCellBank_Size3_Class1"
       }, {
         ammo: 2,
         ammocost: 300,
@@ -13500,7 +14269,8 @@ module.exports = {
         shieldreinforcement: 23,
         rechargerating: "D",
         spinup: 5,
-        thermload: 340
+        thermload: 340,
+        symbol: "Int_ShieldCellBank_Size3_Class2"
       }, {
         ammo: 3,
         ammocost: 300,
@@ -13520,7 +14290,8 @@ module.exports = {
         shieldreinforcement: 29,
         rechargerating: "C",
         spinup: 5,
-        thermload: 340
+        thermload: 340,
+        symbol: "Int_ShieldCellBank_Size3_Class3"
       }, {
         ammo: 4,
         ammocost: 300,
@@ -13540,7 +14311,8 @@ module.exports = {
         shieldreinforcement: 35,
         rechargerating: "B",
         spinup: 5,
-        thermload: 340
+        thermload: 340,
+        symbol: "Int_ShieldCellBank_Size3_Class4"
       }, {
         ammo: 3,
         ammocost: 300,
@@ -13560,7 +14332,8 @@ module.exports = {
         shieldreinforcement: 41,
         rechargerating: "A",
         spinup: 5,
-        thermload: 340
+        thermload: 340,
+        symbol: "Int_ShieldCellBank_Size3_Class5"
       }, {
         ammo: 4,
         ammocost: 300,
@@ -13580,7 +14353,8 @@ module.exports = {
         shieldreinforcement: 20,
         rechargerating: "E",
         spinup: 5,
-        thermload: 410
+        thermload: 410,
+        symbol: "Int_ShieldCellBank_Size4_Class1"
       }, {
         ammo: 2,
         ammocost: 300,
@@ -13600,7 +14374,8 @@ module.exports = {
         shieldreinforcement: 26,
         rechargerating: "D",
         spinup: 5,
-        thermload: 410
+        thermload: 410,
+        symbol: "Int_ShieldCellBank_Size4_Class2"
       }, {
         ammo: 3,
         ammocost: 300,
@@ -13620,7 +14395,8 @@ module.exports = {
         shieldreinforcement: 33,
         rechargerating: "C",
         spinup: 5,
-        thermload: 410
+        thermload: 410,
+        symbol: "Int_ShieldCellBank_Size4_Class3"
       }, {
         ammo: 4,
         ammocost: 300,
@@ -13640,7 +14416,8 @@ module.exports = {
         shieldreinforcement: 39,
         rechargerating: "B",
         spinup: 5,
-        thermload: 410
+        thermload: 410,
+        symbol: "Int_ShieldCellBank_Size4_Class4"
       }, {
         ammo: 3,
         ammocost: 300,
@@ -13660,7 +14437,8 @@ module.exports = {
         shieldreinforcement: 46,
         rechargerating: "A",
         spinup: 5,
-        thermload: 410
+        thermload: 410,
+        symbol: "Int_ShieldCellBank_Size4_Class5"
       }, {
         ammo: 4,
         ammocost: 300,
@@ -13680,7 +14458,8 @@ module.exports = {
         shieldreinforcement: 21,
         rechargerating: "E",
         spinup: 5,
-        thermload: 540
+        thermload: 540,
+        symbol: "Int_ShieldCellBank_Size5_Class1"
       }, {
         ammo: 2,
         ammocost: 300,
@@ -13700,7 +14479,8 @@ module.exports = {
         shieldreinforcement: 28,
         rechargerating: "D",
         spinup: 5,
-        thermload: 540
+        thermload: 540,
+        symbol: "Int_ShieldCellBank_Size5_Class2"
       }, {
         ammo: 3,
         ammocost: 300,
@@ -13720,7 +14500,8 @@ module.exports = {
         shieldreinforcement: 35,
         rechargerating: "C",
         spinup: 5,
-        thermload: 540
+        thermload: 540,
+        symbol: "Int_ShieldCellBank_Size5_Class3"
       }, {
         ammo: 4,
         ammocost: 300,
@@ -13740,7 +14521,8 @@ module.exports = {
         shieldreinforcement: 41,
         rechargerating: "B",
         spinup: 5,
-        thermload: 540
+        thermload: 540,
+        symbol: "Int_ShieldCellBank_Size5_Class4"
       }, {
         ammo: 3,
         ammocost: 300,
@@ -13760,7 +14542,8 @@ module.exports = {
         shieldreinforcement: 48,
         rechargerating: "A",
         spinup: 5,
-        thermload: 540
+        thermload: 540,
+        symbol: "Int_ShieldCellBank_Size5_Class5"
       }, {
         ammo: 5,
         ammocost: 300,
@@ -13780,7 +14563,8 @@ module.exports = {
         shieldreinforcement: 20,
         rechargerating: "E",
         spinup: 5,
-        thermload: 640
+        thermload: 640,
+        symbol: "Int_ShieldCellBank_Size6_Class1"
       }, {
         ammo: 3,
         ammocost: 300,
@@ -13800,7 +14584,8 @@ module.exports = {
         shieldreinforcement: 26,
         rechargerating: "D",
         spinup: 5,
-        thermload: 640
+        thermload: 640,
+        symbol: "Int_ShieldCellBank_Size6_Class2"
       }, {
         ammo: 4,
         ammocost: 300,
@@ -13820,7 +14605,8 @@ module.exports = {
         shieldreinforcement: 33,
         rechargerating: "C",
         spinup: 5,
-        thermload: 640
+        thermload: 640,
+        symbol: "Int_ShieldCellBank_Size6_Class3"
       }, {
         ammo: 5,
         ammocost: 300,
@@ -13840,7 +14626,8 @@ module.exports = {
         shieldreinforcement: 39,
         rechargerating: "B",
         spinup: 5,
-        thermload: 640
+        thermload: 640,
+        symbol: "Int_ShieldCellBank_Size6_Class4"
       }, {
         ammo: 4,
         ammocost: 300,
@@ -13860,7 +14647,8 @@ module.exports = {
         shieldreinforcement: 46,
         rechargerating: "A",
         spinup: 5,
-        thermload: 640
+        thermload: 640,
+        symbol: "Int_ShieldCellBank_Size6_Class5"
       }, {
         ammo: 5,
         ammocost: 300,
@@ -13880,7 +14668,8 @@ module.exports = {
         shieldreinforcement: 24,
         rechargerating: "E",
         spinup: 5,
-        thermload: 720
+        thermload: 720,
+        symbol: "Int_ShieldCellBank_Size7_Class1"
       }, {
         ammo: 3,
         ammocost: 300,
@@ -13900,7 +14689,8 @@ module.exports = {
         shieldreinforcement: 32,
         rechargerating: "D",
         spinup: 5,
-        thermload: 720
+        thermload: 720,
+        symbol: "Int_ShieldCellBank_Size7_Class2"
       }, {
         ammo: 4,
         ammocost: 300,
@@ -13920,7 +14710,8 @@ module.exports = {
         shieldreinforcement: 41,
         rechargerating: "C",
         spinup: 5,
-        thermload: 720
+        thermload: 720,
+        symbol: "Int_ShieldCellBank_Size7_Class3"
       }, {
         ammo: 5,
         ammocost: 300,
@@ -13940,7 +14731,8 @@ module.exports = {
         shieldreinforcement: 49,
         rechargerating: "B",
         spinup: 5,
-        thermload: 720
+        thermload: 720,
+        symbol: "Int_ShieldCellBank_Size7_Class4"
       }, {
         ammo: 4,
         ammocost: 300,
@@ -13960,7 +14752,8 @@ module.exports = {
         shieldreinforcement: 57,
         rechargerating: "A",
         spinup: 5,
-        thermload: 720
+        thermload: 720,
+        symbol: "Int_ShieldCellBank_Size7_Class5"
       }, {
         ammo: 5,
         ammocost: 300,
@@ -13980,7 +14773,8 @@ module.exports = {
         shieldreinforcement: 28,
         rechargerating: "C",
         spinup: 5,
-        thermload: 800
+        thermload: 800,
+        symbol: "Int_ShieldCellBank_Size8_Class1"
       }, {
         ammo: 3,
         ammocost: 300,
@@ -14000,7 +14794,8 @@ module.exports = {
         shieldreinforcement: 37,
         rechargerating: "D",
         spinup: 5,
-        thermload: 800
+        thermload: 800,
+        symbol: "Int_ShieldCellBank_Size8_Class2"
       }, {
         ammo: 4,
         ammocost: 300,
@@ -14020,7 +14815,8 @@ module.exports = {
         shieldreinforcement: 47,
         rechargerating: "C",
         spinup: 5,
-        thermload: 800
+        thermload: 800,
+        symbol: "Int_ShieldCellBank_Size8_Class3"
       }, {
         ammo: 5,
         ammocost: 300,
@@ -14040,7 +14836,8 @@ module.exports = {
         shieldreinforcement: 56,
         rechargerating: "B",
         spinup: 5,
-        thermload: 800
+        thermload: 800,
+        symbol: "Int_ShieldCellBank_Size8_Class4"
       }, {
         ammo: 4,
         ammocost: 300,
@@ -14060,7 +14857,8 @@ module.exports = {
         shieldreinforcement: 65,
         rechargerating: "A",
         spinup: 5,
-        thermload: 800
+        thermload: 800,
+        symbol: "Int_ShieldCellBank_Size8_Class5"
       } ],
       sg: [ {
         brokenregen: 1.6,
@@ -14084,7 +14882,8 @@ module.exports = {
         power: 1.68,
         rating: "A",
         regen: 1,
-        thermres: -.2
+        thermres: -.2,
+        symbol: "Int_ShieldGenerator_Size1_Class5"
       }, {
         brokenregen: 1.6,
         class: 2,
@@ -14107,7 +14906,8 @@ module.exports = {
         power: .9,
         rating: "E",
         regen: 1,
-        thermres: -.2
+        thermres: -.2,
+        symbol: "Int_ShieldGenerator_Size2_Class1"
       }, {
         brokenregen: 1.6,
         class: 2,
@@ -14130,7 +14930,8 @@ module.exports = {
         power: 1.2,
         rating: "D",
         regen: 1,
-        thermres: -.2
+        thermres: -.2,
+        symbol: "Int_ShieldGenerator_Size2_Class2"
       }, {
         brokenregen: 1.6,
         class: 2,
@@ -14153,7 +14954,8 @@ module.exports = {
         power: 1.5,
         rating: "C",
         regen: 1,
-        thermres: -.2
+        thermres: -.2,
+        symbol: "Int_ShieldGenerator_Size2_Class3"
       }, {
         brokenregen: 1.6,
         class: 2,
@@ -14176,7 +14978,8 @@ module.exports = {
         power: 1.8,
         rating: "B",
         regen: 1,
-        thermres: -.2
+        thermres: -.2,
+        symbol: "Int_ShieldGenerator_Size2_Class4"
       }, {
         brokenregen: 1.6,
         class: 2,
@@ -14199,7 +15002,8 @@ module.exports = {
         power: 2.1,
         rating: "A",
         regen: 1,
-        thermres: -.2
+        thermres: -.2,
+        symbol: "Int_ShieldGenerator_Size2_Class5"
       }, {
         brokenregen: 1.9,
         class: 3,
@@ -14222,7 +15026,8 @@ module.exports = {
         power: 1.08,
         rating: "E",
         regen: 1,
-        thermres: -.2
+        thermres: -.2,
+        symbol: "Int_ShieldGenerator_Size3_Class1"
       }, {
         brokenregen: 1.9,
         class: 3,
@@ -14245,7 +15050,8 @@ module.exports = {
         power: 1.44,
         rating: "D",
         regen: 1,
-        thermres: -.2
+        thermres: -.2,
+        symbol: "Int_ShieldGenerator_Size3_Class2"
       }, {
         brokenregen: 1.9,
         class: 3,
@@ -14268,7 +15074,8 @@ module.exports = {
         power: 1.8,
         rating: "C",
         regen: 1,
-        thermres: -.2
+        thermres: -.2,
+        symbol: "Int_ShieldGenerator_Size3_Class3"
       }, {
         brokenregen: 1.9,
         class: 3,
@@ -14291,7 +15098,8 @@ module.exports = {
         power: 2.16,
         rating: "B",
         regen: 1,
-        thermres: -.2
+        thermres: -.2,
+        symbol: "Int_ShieldGenerator_Size3_Class4"
       }, {
         brokenregen: 1.9,
         class: 3,
@@ -14314,7 +15122,8 @@ module.exports = {
         power: 2.52,
         rating: "A",
         regen: 1,
-        thermres: -.2
+        thermres: -.2,
+        symbol: "Int_ShieldGenerator_Size3_Class5"
       }, {
         brokenregen: 2.5,
         class: 4,
@@ -14337,7 +15146,8 @@ module.exports = {
         power: 1.32,
         rating: "E",
         regen: 1,
-        thermres: -.2
+        thermres: -.2,
+        symbol: "Int_ShieldGenerator_Size4_Class1"
       }, {
         brokenregen: 2.5,
         class: 4,
@@ -14360,7 +15170,8 @@ module.exports = {
         power: 1.76,
         rating: "D",
         regen: 1,
-        thermres: -.2
+        thermres: -.2,
+        symbol: "Int_ShieldGenerator_Size4_Class2"
       }, {
         brokenregen: 2.5,
         class: 4,
@@ -14383,7 +15194,8 @@ module.exports = {
         power: 2.2,
         rating: "C",
         regen: 1,
-        thermres: -.2
+        thermres: -.2,
+        symbol: "Int_ShieldGenerator_Size4_Class3"
       }, {
         brokenregen: 2.5,
         class: 4,
@@ -14406,7 +15218,8 @@ module.exports = {
         power: 2.64,
         rating: "B",
         regen: 1,
-        thermres: -.2
+        thermres: -.2,
+        symbol: "Int_ShieldGenerator_Size4_Class4"
       }, {
         brokenregen: 2.5,
         class: 4,
@@ -14429,7 +15242,8 @@ module.exports = {
         power: 3.08,
         rating: "A",
         regen: 1,
-        thermres: -.2
+        thermres: -.2,
+        symbol: "Int_ShieldGenerator_Size4_Class5"
       }, {
         brokenregen: 3.7,
         class: 5,
@@ -14452,7 +15266,8 @@ module.exports = {
         power: 1.56,
         rating: "E",
         regen: 1,
-        thermres: -.2
+        thermres: -.2,
+        symbol: "Int_ShieldGenerator_Size5_Class1"
       }, {
         brokenregen: 3.7,
         class: 5,
@@ -14475,7 +15290,8 @@ module.exports = {
         power: 2.08,
         rating: "D",
         regen: 1,
-        thermres: -.2
+        thermres: -.2,
+        symbol: "Int_ShieldGenerator_Size5_Class2"
       }, {
         brokenregen: 3.7,
         class: 5,
@@ -14498,7 +15314,8 @@ module.exports = {
         power: 2.6,
         rating: "C",
         regen: 1,
-        thermres: -.2
+        thermres: -.2,
+        symbol: "Int_ShieldGenerator_Size5_Class3"
       }, {
         brokenregen: 3.7,
         class: 5,
@@ -14521,7 +15338,8 @@ module.exports = {
         power: 3.12,
         rating: "B",
         regen: 1,
-        thermres: -.2
+        thermres: -.2,
+        symbol: "Int_ShieldGenerator_Size5_Class4"
       }, {
         brokenregen: 3.7,
         class: 5,
@@ -14544,7 +15362,8 @@ module.exports = {
         power: 3.64,
         rating: "A",
         regen: 1,
-        thermres: -.2
+        thermres: -.2,
+        symbol: "Int_ShieldGenerator_Size5_Class5"
       }, {
         brokenregen: 5.3,
         class: 6,
@@ -14567,7 +15386,8 @@ module.exports = {
         power: 1.86,
         rating: "E",
         regen: 1.3,
-        thermres: -.2
+        thermres: -.2,
+        symbol: "Int_ShieldGenerator_Size6_Class1"
       }, {
         brokenregen: 5.3,
         class: 6,
@@ -14590,7 +15410,8 @@ module.exports = {
         power: 2.48,
         rating: "D",
         regen: 1.3,
-        thermres: -.2
+        thermres: -.2,
+        symbol: "Int_ShieldGenerator_Size6_Class2"
       }, {
         brokenregen: 5.3,
         class: 6,
@@ -14613,7 +15434,8 @@ module.exports = {
         power: 3.1,
         rating: "C",
         regen: 1.3,
-        thermres: -.2
+        thermres: -.2,
+        symbol: "Int_ShieldGenerator_Size6_Class3"
       }, {
         brokenregen: 5.3,
         class: 6,
@@ -14636,7 +15458,8 @@ module.exports = {
         power: 3.72,
         rating: "B",
         regen: 1.3,
-        thermres: -.2
+        thermres: -.2,
+        symbol: "Int_ShieldGenerator_Size6_Class4"
       }, {
         brokenregen: 5.3,
         class: 6,
@@ -14659,7 +15482,8 @@ module.exports = {
         power: 4.34,
         rating: "A",
         regen: 1.3,
-        thermres: -.2
+        thermres: -.2,
+        symbol: "Int_ShieldGenerator_Size6_Class5"
       }, {
         brokenregen: 7.3,
         class: 7,
@@ -14682,7 +15506,8 @@ module.exports = {
         power: 2.1,
         rating: "E",
         regen: 1.8,
-        thermres: -.2
+        thermres: -.2,
+        symbol: "Int_ShieldGenerator_Size7_Class1"
       }, {
         brokenregen: 7.3,
         class: 7,
@@ -14705,7 +15530,8 @@ module.exports = {
         power: 2.8,
         rating: "D",
         regen: 1.8,
-        thermres: -.2
+        thermres: -.2,
+        symbol: "Int_ShieldGenerator_Size7_Class2"
       }, {
         brokenregen: 7.3,
         class: 7,
@@ -14728,7 +15554,8 @@ module.exports = {
         power: 3.5,
         rating: "C",
         regen: 1.8,
-        thermres: -.2
+        thermres: -.2,
+        symbol: "Int_ShieldGenerator_Size7_Class3"
       }, {
         brokenregen: 7.3,
         class: 7,
@@ -14751,7 +15578,8 @@ module.exports = {
         power: 4.2,
         rating: "B",
         regen: 1.8,
-        thermres: -.2
+        thermres: -.2,
+        symbol: "Int_ShieldGenerator_Size7_Class4"
       }, {
         brokenregen: 7.3,
         class: 7,
@@ -14774,7 +15602,8 @@ module.exports = {
         power: 4.9,
         rating: "A",
         regen: 1.8,
-        thermres: -.2
+        thermres: -.2,
+        symbol: "Int_ShieldGenerator_Size7_Class5"
       }, {
         brokenregen: 9.6,
         class: 8,
@@ -14797,7 +15626,8 @@ module.exports = {
         power: 2.4,
         rating: "E",
         regen: 2.4,
-        thermres: -.2
+        thermres: -.2,
+        symbol: "Int_ShieldGenerator_Size8_Class1"
       }, {
         brokenregen: 9.6,
         class: 8,
@@ -14820,7 +15650,8 @@ module.exports = {
         power: 3.2,
         rating: "D",
         regen: 2.4,
-        thermres: -.2
+        thermres: -.2,
+        symbol: "Int_ShieldGenerator_Size8_Class2"
       }, {
         brokenregen: 9.6,
         class: 8,
@@ -14843,7 +15674,8 @@ module.exports = {
         power: 4,
         rating: "C",
         regen: 2.4,
-        thermres: -.2
+        thermres: -.2,
+        symbol: "Int_ShieldGenerator_Size8_Class3"
       }, {
         brokenregen: 9.6,
         class: 8,
@@ -14866,7 +15698,8 @@ module.exports = {
         power: 4.8,
         rating: "B",
         regen: 2.4,
-        thermres: -.2
+        thermres: -.2,
+        symbol: "Int_ShieldGenerator_Size8_Class4"
       }, {
         brokenregen: 9.6,
         class: 8,
@@ -14889,7 +15722,8 @@ module.exports = {
         power: 5.6,
         rating: "A",
         regen: 2.4,
-        thermres: -.2
+        thermres: -.2,
+        symbol: "Int_ShieldGenerator_Size8_Class5"
       } ],
       ss: [ {
         class: 1,
@@ -14901,7 +15735,8 @@ module.exports = {
         mass: 1.3,
         name: "Detailed Surface Scanner",
         power: 0,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_DetailedSurfaceScanner_Tiny"
       } ],
       rpl: [ {
         class: 1,
@@ -14914,7 +15749,8 @@ module.exports = {
         maximum: 1,
         power: .18,
         range: .6,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_DroneControl_Repair_Size1_Class1"
       }, {
         class: 1,
         cost: 1200,
@@ -14926,7 +15762,8 @@ module.exports = {
         maximum: 1,
         power: .14,
         range: .8,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_DroneControl_Repair_Size1_Class2"
       }, {
         class: 1,
         cost: 2400,
@@ -14938,7 +15775,8 @@ module.exports = {
         maximum: 1,
         power: .23,
         range: 1,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_DroneControl_Repair_Size1_Class3"
       }, {
         class: 1,
         cost: 4800,
@@ -14950,7 +15788,8 @@ module.exports = {
         maximum: 1,
         power: .32,
         range: 1.2,
-        rating: "B"
+        rating: "B",
+        symbol: "Int_DroneControl_Repair_Size1_Class4"
       }, {
         class: 1,
         cost: 9600,
@@ -14962,7 +15801,8 @@ module.exports = {
         maximum: 1,
         power: .28,
         range: 1.4,
-        rating: "A"
+        rating: "A",
+        symbol: "Int_DroneControl_Repair_Size1_Class5"
       }, {
         class: 3,
         cost: 5400,
@@ -14974,7 +15814,8 @@ module.exports = {
         maximum: 2,
         power: .27,
         range: .66,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_DroneControl_Repair_Size3_Class1"
       }, {
         class: 3,
         cost: 10800,
@@ -14986,7 +15827,8 @@ module.exports = {
         maximum: 2,
         power: .2,
         range: .88,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_DroneControl_Repair_Size3_Class2"
       }, {
         class: 3,
         cost: 21600,
@@ -14998,7 +15840,8 @@ module.exports = {
         maximum: 2,
         power: .34,
         range: 1.1,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_DroneControl_Repair_Size3_Class3"
       }, {
         class: 3,
         cost: 43200,
@@ -15010,7 +15853,8 @@ module.exports = {
         maximum: 2,
         power: .48,
         range: 1.32,
-        rating: "B"
+        rating: "B",
+        symbol: "Int_DroneControl_Repair_Size3_Class4"
       }, {
         class: 3,
         cost: 86400,
@@ -15022,7 +15866,8 @@ module.exports = {
         maximum: 2,
         power: .41,
         range: 1.54,
-        rating: "A"
+        rating: "A",
+        symbol: "Int_DroneControl_Repair_Size3_Class5"
       }, {
         class: 5,
         cost: 48600,
@@ -15034,7 +15879,8 @@ module.exports = {
         maximum: 3,
         power: .4,
         range: .78,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_DroneControl_Repair_Size5_Class1"
       }, {
         class: 5,
         cost: 97200,
@@ -15046,7 +15892,8 @@ module.exports = {
         maximum: 3,
         power: .3,
         range: 1.04,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_DroneControl_Repair_Size5_Class2"
       }, {
         class: 5,
         cost: 194400,
@@ -15058,7 +15905,8 @@ module.exports = {
         maximum: 3,
         power: .5,
         range: 1.3,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_DroneControl_Repair_Size5_Class3"
       }, {
         class: 5,
         cost: 388800,
@@ -15070,7 +15918,8 @@ module.exports = {
         maximum: 3,
         power: .97,
         range: 1.56,
-        rating: "B"
+        rating: "B",
+        symbol: "Int_DroneControl_Repair_Size5_Class4"
       }, {
         class: 5,
         cost: 777600,
@@ -15082,7 +15931,8 @@ module.exports = {
         maximum: 3,
         power: .6,
         range: 1.82,
-        rating: "A"
+        rating: "A",
+        symbol: "Int_DroneControl_Repair_Size5_Class5"
       }, {
         class: 7,
         cost: 437400,
@@ -15094,7 +15944,8 @@ module.exports = {
         maximum: 4,
         power: .55,
         range: 1.02,
-        rating: "E"
+        rating: "E",
+        symbol: "Int_DroneControl_Repair_Size7_Class1"
       }, {
         class: 7,
         cost: 874800,
@@ -15106,7 +15957,8 @@ module.exports = {
         maximum: 4,
         power: .41,
         range: 1.36,
-        rating: "D"
+        rating: "D",
+        symbol: "Int_DroneControl_Repair_Size7_Class2"
       }, {
         class: 7,
         cost: 1749600,
@@ -15118,7 +15970,8 @@ module.exports = {
         maximum: 4,
         power: .69,
         range: 1.7,
-        rating: "C"
+        rating: "C",
+        symbol: "Int_DroneControl_Repair_Size7_Class3"
       }, {
         class: 7,
         cost: 3499200,
@@ -15130,7 +15983,8 @@ module.exports = {
         maximum: 4,
         power: .97,
         range: 2.04,
-        rating: "B"
+        rating: "B",
+        symbol: "Int_DroneControl_Repair_Size7_Class4"
       }, {
         class: 7,
         cost: 6998400,
@@ -15142,7 +15996,8 @@ module.exports = {
         maximum: 4,
         power: .83,
         range: 2.38,
-        rating: "A"
+        rating: "A",
+        symbol: "Int_DroneControl_Repair_Size7_Class5"
       } ]
     }
   },

@@ -21,7 +21,8 @@
       "power": 0.2,
       "rating": "I",
       "reload": 10,
-      "rof": 0.2
+      "rof": 0.2,
+      "symbol": "Hpt_HeatSinkLauncher_Turret_Tiny"
     }
   ]
 }

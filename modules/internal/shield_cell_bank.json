@@ -19,7 +19,8 @@
       "shieldreinforcement": 12,
       "rechargerating": "E",
       "spinup": 5,
-      "thermload": 170
+      "thermload": 170,
+      "symbol": "Int_ShieldCellBank_Size1_Class1"
     },
     {
       "ammo": 0,
@@ -40,7 +41,8 @@
       "shieldreinforcement": 12.5,
       "rechargerating": "D",
       "spinup": 5,
-      "thermload": 170
+      "thermload": 170,
+      "symbol": "Int_ShieldCellBank_Size1_Class2"
     },
     {
       "ammo": 2,
@@ -61,7 +63,8 @@
       "shieldreinforcement": 20,
       "rechargerating": "C",
       "spinup": 5,
-      "thermload": 170
+      "thermload": 170,
+      "symbol": "Int_ShieldCellBank_Size1_Class3"
     },
     {
       "ammo": 3,
@@ -82,7 +85,8 @@
       "shieldreinforcement": 24,
       "rechargerating": "B",
       "spinup": 5,
-      "thermload": 170
+      "thermload": 170,
+      "symbol": "Int_ShieldCellBank_Size1_Class4"
     },
     {
       "ammo": 2,
@@ -103,7 +107,8 @@
       "shieldreinforcement": 28,
       "rechargerating": "A",
       "spinup": 5,
-      "thermload": 170
+      "thermload": 170,
+      "symbol": "Int_ShieldCellBank_Size1_Class5"
     },
     {
       "ammo": 4,
@@ -124,7 +129,8 @@
       "shieldreinforcement": 14,
       "rechargerating": "E",
       "spinup": 5,
-      "thermload": 240
+      "thermload": 240,
+      "symbol": "Int_ShieldCellBank_Size2_Class1"
     },
     {
       "ammo": 2,
@@ -145,7 +151,8 @@
       "shieldreinforcement": 18,
       "rechargerating": "D",
       "spinup": 5,
-      "thermload": 240
+      "thermload": 240,
+      "symbol": "Int_ShieldCellBank_Size2_Class2"
     },
     {
       "ammo": 3,
@@ -166,7 +173,8 @@
       "shieldreinforcement": 23,
       "rechargerating": "C",
       "spinup": 5,
-      "thermload": 240
+      "thermload": 240,
+      "symbol": "Int_ShieldCellBank_Size2_Class3"
     },
     {
       "ammo": 4,
@@ -187,7 +195,8 @@
       "shieldreinforcement": 28,
       "rechargerating": "B",
       "spinup": 5,
-      "thermload": 240
+      "thermload": 240,
+      "symbol": "Int_ShieldCellBank_Size2_Class4"
     },
     {
       "ammo": 3,
@@ -208,7 +217,8 @@
       "shieldreinforcement": 32,
       "rechargerating": "A",
       "spinup": 5,
-      "thermload": 240
+      "thermload": 240,
+      "symbol": "Int_ShieldCellBank_Size2_Class5"
     },
     {
       "ammo": 4,
@@ -229,7 +239,8 @@
       "shieldreinforcement": 17,
       "rechargerating": "E",
       "spinup": 5,
-      "thermload": 340
+      "thermload": 340,
+      "symbol": "Int_ShieldCellBank_Size3_Class1"
     },
     {
       "ammo": 2,
@@ -250,7 +261,8 @@
       "shieldreinforcement": 23,
       "rechargerating": "D",
       "spinup": 5,
-      "thermload": 340
+      "thermload": 340,
+      "symbol": "Int_ShieldCellBank_Size3_Class2"
     },
     {
       "ammo": 3,
@@ -271,7 +283,8 @@
       "shieldreinforcement": 29,
       "rechargerating": "C",
       "spinup": 5,
-      "thermload": 340
+      "thermload": 340,
+      "symbol": "Int_ShieldCellBank_Size3_Class3"
     },
     {
       "ammo": 4,
@@ -292,7 +305,8 @@
       "shieldreinforcement": 35,
       "rechargerating": "B",
       "spinup": 5,
-      "thermload": 340
+      "thermload": 340,
+      "symbol": "Int_ShieldCellBank_Size3_Class4"
     },
     {
       "ammo": 3,
@@ -313,7 +327,8 @@
       "shieldreinforcement": 41,
       "rechargerating": "A",
       "spinup": 5,
-      "thermload": 340
+      "thermload": 340,
+      "symbol": "Int_ShieldCellBank_Size3_Class5"
     },
     {
       "ammo": 4,
@@ -334,7 +349,8 @@
       "shieldreinforcement": 20,
       "rechargerating": "E",
       "spinup": 5,
-      "thermload": 410
+      "thermload": 410,
+      "symbol": "Int_ShieldCellBank_Size4_Class1"
     },
     {
       "ammo": 2,
@@ -355,7 +371,8 @@
       "shieldreinforcement": 26,
       "rechargerating": "D",
       "spinup": 5,
-      "thermload": 410
+      "thermload": 410,
+      "symbol": "Int_ShieldCellBank_Size4_Class2"
     },
     {
       "ammo": 3,
@@ -376,7 +393,8 @@
       "shieldreinforcement": 33,
       "rechargerating": "C",
       "spinup": 5,
-      "thermload": 410
+      "thermload": 410,
+      "symbol": "Int_ShieldCellBank_Size4_Class3"
     },
     {
       "ammo": 4,
@@ -397,7 +415,8 @@
       "shieldreinforcement": 39,
       "rechargerating": "B",
       "spinup": 5,
-      "thermload": 410
+      "thermload": 410,
+      "symbol": "Int_ShieldCellBank_Size4_Class4"
     },
     {
       "ammo": 3,
@@ -418,7 +437,8 @@
       "shieldreinforcement": 46,
       "rechargerating": "A",
       "spinup": 5,
-      "thermload": 410
+      "thermload": 410,
+      "symbol": "Int_ShieldCellBank_Size4_Class5"
     },
     {
       "ammo": 4,
@@ -439,7 +459,8 @@
       "shieldreinforcement": 21,
       "rechargerating": "E",
       "spinup": 5,
-      "thermload": 540
+      "thermload": 540,
+      "symbol": "Int_ShieldCellBank_Size5_Class1"
     },
     {
       "ammo": 2,
@@ -460,7 +481,8 @@
       "shieldreinforcement": 28,
       "rechargerating": "D",
       "spinup": 5,
-      "thermload": 540
+      "thermload": 540,
+      "symbol": "Int_ShieldCellBank_Size5_Class2"
     },
     {
       "ammo": 3,
@@ -481,7 +503,8 @@
       "shieldreinforcement": 35,
       "rechargerating": "C",
       "spinup": 5,
-      "thermload": 540
+      "thermload": 540,
+      "symbol": "Int_ShieldCellBank_Size5_Class3"
     },
     {
       "ammo": 4,
@@ -502,7 +525,8 @@
       "shieldreinforcement": 41,
       "rechargerating": "B",
       "spinup": 5,
-      "thermload": 540
+      "thermload": 540,
+      "symbol": "Int_ShieldCellBank_Size5_Class4"
     },
     {
       "ammo": 3,
@@ -523,7 +547,8 @@
       "shieldreinforcement": 48,
       "rechargerating": "A",
       "spinup": 5,
-      "thermload": 540
+      "thermload": 540,
+      "symbol": "Int_ShieldCellBank_Size5_Class5"
     },
     {
       "ammo": 5,
@@ -544,7 +569,8 @@
       "shieldreinforcement": 20,
       "rechargerating": "E",
       "spinup": 5,
-      "thermload": 640
+      "thermload": 640,
+      "symbol": "Int_ShieldCellBank_Size6_Class1"
     },
     {
       "ammo": 3,
@@ -565,7 +591,8 @@
       "shieldreinforcement": 26,
       "rechargerating": "D",
       "spinup": 5,
-      "thermload": 640
+      "thermload": 640,
+      "symbol": "Int_ShieldCellBank_Size6_Class2"
     },
     {
       "ammo": 4,
@@ -586,7 +613,8 @@
       "shieldreinforcement": 33,
       "rechargerating": "C",
       "spinup": 5,
-      "thermload": 640
+      "thermload": 640,
+      "symbol": "Int_ShieldCellBank_Size6_Class3"
     },
     {
       "ammo": 5,
@@ -607,7 +635,8 @@
       "shieldreinforcement": 39,
       "rechargerating": "B",
       "spinup": 5,
-      "thermload": 640
+      "thermload": 640,
+      "symbol": "Int_ShieldCellBank_Size6_Class4"
     },
     {
       "ammo": 4,
@@ -628,7 +657,8 @@
       "shieldreinforcement": 46,
       "rechargerating": "A",
       "spinup": 5,
-      "thermload": 640
+      "thermload": 640,
+      "symbol": "Int_ShieldCellBank_Size6_Class5"
     },
     {
       "ammo": 5,
@@ -649,7 +679,8 @@
       "shieldreinforcement": 24,
       "rechargerating": "E",
       "spinup": 5,
-      "thermload": 720
+      "thermload": 720,
+      "symbol": "Int_ShieldCellBank_Size7_Class1"
     },
     {
       "ammo": 3,
@@ -670,7 +701,8 @@
       "shieldreinforcement": 32,
       "rechargerating": "D",
       "spinup": 5,
-      "thermload": 720
+      "thermload": 720,
+      "symbol": "Int_ShieldCellBank_Size7_Class2"
     },
     {
       "ammo": 4,
@@ -691,7 +723,8 @@
       "shieldreinforcement": 41,
       "rechargerating": "C",
       "spinup": 5,
-      "thermload": 720
+      "thermload": 720,
+      "symbol": "Int_ShieldCellBank_Size7_Class3"
     },
     {
       "ammo": 5,
@@ -712,7 +745,8 @@
       "shieldreinforcement": 49,
       "rechargerating": "B",
       "spinup": 5,
-      "thermload": 720
+      "thermload": 720,
+      "symbol": "Int_ShieldCellBank_Size7_Class4"
     },
     {
       "ammo": 4,
@@ -733,7 +767,8 @@
       "shieldreinforcement": 57,
       "rechargerating": "A",
       "spinup": 5,
-      "thermload": 720
+      "thermload": 720,
+      "symbol": "Int_ShieldCellBank_Size7_Class5"
     },
     {
       "ammo": 5,
@@ -754,7 +789,8 @@
       "shieldreinforcement": 28,
       "rechargerating": "C",
       "spinup": 5,
-      "thermload": 800
+      "thermload": 800,
+      "symbol": "Int_ShieldCellBank_Size8_Class1"
     },
     {
       "ammo": 3,
@@ -775,7 +811,8 @@
       "shieldreinforcement": 37,
       "rechargerating": "D",
       "spinup": 5,
-      "thermload": 800
+      "thermload": 800,
+      "symbol": "Int_ShieldCellBank_Size8_Class2"
     },
     {
       "ammo": 4,
@@ -796,7 +833,8 @@
       "shieldreinforcement": 47,
       "rechargerating": "C",
       "spinup": 5,
-      "thermload": 800
+      "thermload": 800,
+      "symbol": "Int_ShieldCellBank_Size8_Class3"
     },
     {
       "ammo": 5,
@@ -817,7 +855,8 @@
       "shieldreinforcement": 56,
       "rechargerating": "B",
       "spinup": 5,
-      "thermload": 800
+      "thermload": 800,
+      "symbol": "Int_ShieldCellBank_Size8_Class4"
     },
     {
       "ammo": 4,
@@ -838,7 +877,8 @@
       "shieldreinforcement": 65,
       "rechargerating": "A",
       "spinup": 5,
-      "thermload": 800
+      "thermload": 800,
+      "symbol": "Int_ShieldCellBank_Size8_Class5"
     }
   ]
 }

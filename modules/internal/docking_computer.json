@@ -10,7 +10,8 @@
       "integrity": 10,
       "name": "Standard Docking Computer",
       "power": 0.39,
-      "rating": "E"
+      "rating": "E",
+      "symbol": "Int_DockingComputer_Standard"
     }
   ]
 }
