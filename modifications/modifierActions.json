@@ -378,14 +378,21 @@
     "mass": -0.1
   },
   "special_shieldcell_gradual": {
+    "duration": 0.1,
+    "shieldreinforcement": -0.05
   },
   "special_shieldcell_oversized": {
+    "spinup": 0.2,
+    "shieldreinforcement": 0.05
   },
   "special_shieldcell_efficient": {
+    "power": -0.1
   },
   "special_shieldcell_toughened": {
+    "integrity": 0.15
   },
   "special_shieldcell_lightweight": {
+    "mass": -0.1
   },
   "special_weapon_damage": {
     "power": 0.05,
