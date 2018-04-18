@@ -23492,7 +23492,8 @@ module.exports = {
             }
           }
         },
-        modifications: [ "explres", "hullboost", "kinres", "mass", "thermres" ]
+        modifications: [ "explres", "hullboost", "kinres", "mass", "thermres" ],
+        specials: [ "special_armour_kinetic", "special_armour_explosive", "special_armour_chunky", "special_armour_thermic" ]
       },
       bl: {
         blueprints: {
@@ -23612,7 +23613,7 @@ module.exports = {
           }
         },
         modifications: [ "damage", "damagedist", "distdraw", "fallofffromrange", "integrity", "jitter", "mass", "piercing", "power", "range", "thermload" ],
-        specials: [ "special_concordant_sequence", "special_regeneration_sequence", "special_thermal_conduit", "special_thermalshock", "special_thermal_vent" ]
+        specials: [ "special_concordant_sequence", "special_regeneration_sequence", "special_thermal_conduit", "special_thermalshock", "special_thermal_vent", "special_weapon_damage", "special_weapon_efficient", "special_weapon_rateoffire", "special_weapon_toughened", "special_weapon_lightweight" ]
       },
       bsg: {
         blueprints: {
@@ -23833,7 +23834,7 @@ module.exports = {
           }
         },
         modifications: [ "ammo", "clip", "damage", "damagedist", "distdraw", "fallofffromrange", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "shotspeed", "thermload" ],
-        specials: [ "special_auto_loader", "special_dispersal_field", "special_smart_rounds", "special_force_shell", "special_high_yield_shell", "special_thermal_cascade" ]
+        specials: [ "special_auto_loader", "special_dispersal_field", "special_smart_rounds", "special_force_shell", "special_high_yield_shell", "special_thermal_cascade", "special_weapon_damage", "special_weapon_efficient", "special_weapon_rateoffire", "special_weapon_toughened", "special_weapon_lightweight" ]
       },
       cc: {
         blueprints: {
@@ -24296,7 +24297,7 @@ module.exports = {
           }
         },
         modifications: [ "ammo", "burst", "burstrof", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "shotspeed", "thermload" ],
-        specials: [ "special_corrosive_shell", "special_blinding_shell", "special_incendiary_rounds", "special_drag_munitions", "special_screening_shell" ]
+        specials: [ "special_corrosive_shell", "special_blinding_shell", "special_incendiary_rounds", "special_drag_munitions", "special_screening_shell", "special_weapon_damage", "special_weapon_efficient", "special_weapon_rateoffire", "special_weapon_toughened", "special_weapon_lightweight" ]
       },
       rfl: {
         blueprints: {},
@@ -24421,7 +24422,8 @@ module.exports = {
             }
           }
         },
-        modifications: [ "boot", "integrity", "mass", "maxfuel", "optmass", "power", "thermload" ]
+        modifications: [ "boot", "integrity", "mass", "maxfuel", "optmass", "power", "thermload" ],
+        specials: [ "special_fsd_fuelcapacity", "special_fsd_heavy", "special_fsd_toughened", "special_fsd_lightweight", "special_fsd_cooled" ]
       },
       ft: {
         blueprints: {},
@@ -24649,7 +24651,8 @@ module.exports = {
             }
           }
         },
-        modifications: [ "hullreinforcement", "explres", "hullboost", "kinres", "mass", "thermres" ]
+        modifications: [ "hullreinforcement", "explres", "hullboost", "kinres", "mass", "thermres" ],
+        specials: [ "special_hullreinforcement_thermic", "special_hullreinforcement_kinetic", "special_hullreinforcement_explosive", "special_hullreinforcement_chunky" ]
       },
       hs: {
         blueprints: {
@@ -25048,7 +25051,7 @@ module.exports = {
           }
         },
         modifications: [ "ammo", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "shotspeed", "thermload" ],
-        specials: [ "special_auto_loader", "special_corrosive_shell", "special_emissive_munitions", "special_incendiary_rounds", "special_smart_rounds", "special_thermalshock" ]
+        specials: [ "special_auto_loader", "special_corrosive_shell", "special_emissive_munitions", "special_incendiary_rounds", "special_smart_rounds", "special_thermalshock", "special_weapon_damage", "special_weapon_efficient", "special_weapon_rateoffire", "special_weapon_toughened", "special_weapon_lightweight" ]
       },
       axmc: {
         blueprints: {},
@@ -25138,8 +25141,8 @@ module.exports = {
           }
         },
         modifications: [ "ammo", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "reload", "rof", "thermload" ],
-        specials_S: [ "special_drag_munitions", "special_emissive_munitions", "special_overload_munitions", "special_penetrator_payload", "special_thermal_cascade" ],
-        specials_D: [ "special_drag_munitions", "special_emissive_munitions", "special_fsd_interrupt", "special_overload_munitions", "special_penetrator_payload", "special_thermal_cascade" ]
+        specials_S: [ "special_drag_munitions", "special_emissive_munitions", "special_overload_munitions", "special_penetrator_payload", "special_thermal_cascade", "special_weapon_damage", "special_weapon_efficient", "special_weapon_rateoffire", "special_weapon_toughened", "special_weapon_lightweight" ],
+        specials_D: [ "special_drag_munitions", "special_emissive_munitions", "special_fsd_interrupt", "special_overload_munitions", "special_penetrator_payload", "special_thermal_cascade", "special_weapon_damage", "special_weapon_efficient", "special_weapon_rateoffire", "special_weapon_toughened", "special_weapon_lightweight", "special_penetrator_munitions" ]
       },
       axmr: {
         blueprints: {},
@@ -25229,7 +25232,15 @@ module.exports = {
           }
         },
         modifications: [ "ammo", "boot", "clip", "damage", "damagedist", "fallofffromrange", "integrity", "jitter", "mass", "piercing", "power", "reload", "rof", "thermload" ],
-        specials: [ "special_ion_disruptor", "special_overload_munitions", "special_radiant_canister", "special_reverberating_cascade", "special_shiftlock_canister", "special_emissive_munitions" ]
+        specials: [ "special_ion_disruptor", "special_overload_munitions", "special_radiant_canister", "special_reverberating_cascade", "special_shiftlock_canister", "special_emissive_munitions", "special_weapon_damage", "special_weapon_efficient", "special_weapon_rateoffire", "special_weapon_toughened", "special_weapon_lightweight" ]
+      },
+      gpl: {
+        blueprints: {},
+        modifications: []
+      },
+      ggc: {
+        blueprints: {},
+        modifications: []
       },
       pa: {
         blueprints: {
@@ -25387,7 +25398,7 @@ module.exports = {
           }
         },
         modifications: [ "ammo", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "thermload" ],
-        specials: [ "special_blinding_shell", "special_dispersal_field", "special_phasing_sequence", "special_plasma_slug", "special_lock_breaker", "special_thermal_conduit" ]
+        specials: [ "special_blinding_shell", "special_dispersal_field", "special_phasing_sequence", "special_plasma_slug", "special_lock_breaker", "special_thermal_conduit", "special_weapon_damage", "special_weapon_efficient", "special_weapon_rateoffire", "special_weapon_toughened", "special_weapon_lightweight" ]
       },
       pas: {
         blueprints: {},
@@ -25570,7 +25581,8 @@ module.exports = {
             }
           }
         },
-        modifications: [ "boot", "engcap", "engrate", "integrity", "mass", "power", "syscap", "sysrate", "wepcap", "weprate" ]
+        modifications: [ "boot", "engcap", "engrate", "integrity", "mass", "power", "syscap", "sysrate", "wepcap", "weprate" ],
+        specials: [ "special_powerdistributor_capacity", "special_powerdistributor_fast", "special_powerdistributor_efficient", "special_powerdistributor_toughened", "special_powerdistributor_lightweight" ]
       },
       pl: {
         blueprints: {
@@ -25728,7 +25740,7 @@ module.exports = {
           }
         },
         modifications: [ "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "rof", "thermload" ],
-        specials: [ "special_concordant_sequence", "special_emissive_munitions", "special_phasing_sequence", "special_scramble_spectrum", "special_thermalshock" ]
+        specials: [ "special_concordant_sequence", "special_emissive_munitions", "special_phasing_sequence", "special_scramble_spectrum", "special_thermalshock", "special_weapon_damage", "special_weapon_efficient", "special_weapon_rateoffire", "special_weapon_toughened", "special_weapon_lightweight" ]
       },
       po: {
         blueprints: {
@@ -25853,7 +25865,8 @@ module.exports = {
             }
           }
         },
-        modifications: [ "eff", "integrity", "mass", "pgen" ]
+        modifications: [ "eff", "integrity", "mass", "pgen" ],
+        specials: [ "special_powerplant_highcharge", "special_powerplant_cooled", "special_powerplant_toughened", "special_powerplant_lightweight" ]
       },
       psg: {
         blueprints: {
@@ -26061,7 +26074,7 @@ module.exports = {
           }
         },
         modifications: [ "ammo", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "thermload" ],
-        specials: [ "special_feedback_cascade", "special_feedback_cascade_cooled", "special_plasma_slug", "special_plasma_slug_cooled", "special_super_penetrator", "special_super_penetrator_cooled" ]
+        specials: [ "special_feedback_cascade", "special_feedback_cascade_cooled", "special_plasma_slug", "special_plasma_slug_cooled", "special_super_penetrator", "special_super_penetrator_cooled", "special_weapon_damage", "special_weapon_efficient", "special_weapon_rateoffire", "special_weapon_toughened", "special_weapon_lightweight" ]
       },
       s: {
         blueprints: {
@@ -26223,7 +26236,8 @@ module.exports = {
             }
           }
         },
-        modifications: [ "explres", "integrity", "kinres", "mass", "power", "shieldboost", "thermres" ]
+        modifications: [ "explres", "integrity", "kinres", "mass", "power", "shieldboost", "thermres" ],
+        specials: [ "special_shieldbooster_thermic", "special_shieldbooster_kinetic", "special_shieldbooster_explosive", "special_shieldbooster_efficient", "special_shieldbooster_toughened", "special_shieldbooster_chunky" ]
       },
       sfn: {
         blueprints: {},
@@ -26262,7 +26276,8 @@ module.exports = {
             }
           }
         },
-        modifications: [ "boot", "clip", "duration", "integrity", "mass", "power", "shieldreinforcement", "spinup", "thermload" ]
+        modifications: [ "boot", "clip", "duration", "integrity", "mass", "power", "shieldreinforcement", "spinup", "thermload" ],
+        specials: [ "special_shieldcell_gradual", "special_shieldcell_oversized", "special_shieldcell_efficient", "special_shieldcell_toughened", "special_shieldcell_lightweight" ]
       },
       sg: {
         blueprints: {
@@ -26472,7 +26487,8 @@ module.exports = {
             }
           }
         },
-        modifications: [ "integrity", "mass", "optmass", "optmul", "power", "thermload" ]
+        modifications: [ "integrity", "mass", "optmass", "optmul", "power", "thermload" ],
+        specials: [ "special_engine_cooled", "special_engine_haulage", "special_engine_overloaded", "special_engine_toughened", "special_engine_lightweight" ]
       },
       tp: {
         blueprints: {
@@ -26516,7 +26532,7 @@ module.exports = {
           }
         },
         modifications: [ "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "rof", "thermload" ],
-        specials: [ "special_mass_lock_munition", "special_penetrator_payload", "special_reverberating_cascade" ]
+        specials: [ "special_mass_lock_munition", "special_penetrator_payload", "special_reverberating_cascade", "special_weapon_damage", "special_weapon_efficient", "special_weapon_rateoffire", "special_weapon_toughened", "special_weapon_lightweight", "special_deep_cut_payload", "special_mass_lock" ]
       },
       ul: {
         blueprints: {
@@ -26674,7 +26690,7 @@ module.exports = {
           }
         },
         modifications: [ "burst", "burstrof", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "rof", "thermload" ],
-        specials: [ "special_concordant_sequence", "special_inertial_impact", "special_phasing_sequence", "special_scramble_spectrum", "special_thermalshock" ]
+        specials: [ "special_concordant_sequence", "special_inertial_impact", "special_phasing_sequence", "special_scramble_spectrum", "special_thermalshock", "special_weapon_damage", "special_weapon_efficient", "special_weapon_rateoffire", "special_weapon_toughened", "special_weapon_lightweight" ]
       },
       ws: {
         blueprints: {
