@@ -21301,8 +21301,8 @@ module.exports = {
             },
             features: {
               integrity: [ 0, .2 ],
-              kinres: [ .05, .1 ],
-              thermres: [ -.05, 0 ]
+              kinres: [ 0, .06 ],
+              thermres: [ -.04, -.04 ]
             }
           },
           "2": {
@@ -21311,9 +21311,9 @@ module.exports = {
               "Modified Consumer Firmware": 1
             },
             features: {
-              integrity: [ .05, .25 ],
-              kinres: [ .07, .2 ],
-              thermres: [ -.1, -.02 ]
+              integrity: [ .2, .25 ],
+              kinres: [ .06, .12 ],
+              thermres: [ -.07, -.07 ]
             }
           },
           "3": {
@@ -21323,9 +21323,9 @@ module.exports = {
               Selenium: 1
             },
             features: {
-              integrity: [ .1, .2 ],
-              kinres: [ .09, .3 ],
-              thermres: [ -.15, -.04 ]
+              integrity: [ .25, .3 ],
+              kinres: [ .12, .18 ],
+              thermres: [ -.11, -.11 ]
             }
           },
           "4": {
@@ -21335,9 +21335,9 @@ module.exports = {
               Mercury: 1
             },
             features: {
-              integrity: [ .15, .35 ],
-              kinres: [ .11, .4 ],
-              thermres: [ -.2, -.06 ]
+              integrity: [ .3, .35 ],
+              kinres: [ .18, .24 ],
+              thermres: [ -.14, -.14 ]
             }
           },
           "5": {
@@ -21347,9 +21347,9 @@ module.exports = {
               "Untypical Shield Scans": 1
             },
             features: {
-              integrity: [ .2, .4 ],
-              kinres: [ .13, .5 ],
-              thermres: [ -.25, -.08 ]
+              integrity: [ .35, .4 ],
+              kinres: [ .18, .3 ],
+              thermres: [ -.18, -.18 ]
             }
           }
         },
@@ -21365,10 +21365,11 @@ module.exports = {
               "Distorted Shield Cycle Recordings": 1
             },
             features: {
-              integrity: [ -.1, -.05 ],
-              mass: [ 0, -.08 ],
-              optmass: [ -.03, 0 ],
-              power: [ -.12, -.2 ]
+              integrity: [ -.05, -.05 ],
+              mass: [ 0, -.18 ],
+              optmass: [ -.02, -.02 ],
+              optmul: [ 0, .045 ],
+              power: [ 0, -.2 ]
             }
           },
           "2": {
@@ -21377,10 +21378,11 @@ module.exports = {
               Germanium: 1
             },
             features: {
-              integrity: [ -.2, -.1 ],
-              mass: [ -.04, -.16 ],
-              optmass: [ -.06, -.01 ],
-              power: [ -.14, -.25 ]
+              integrity: [ -.1, -.1 ],
+              mass: [ -.18, -.26 ],
+              optmass: [ -.03, -.03 ],
+              optmul: [ .02, .09 ],
+              power: [ -.2, -.25 ]
             }
           },
           "3": {
@@ -21390,11 +21392,11 @@ module.exports = {
               "Precipitated Alloys": 1
             },
             features: {
-              integrity: [ -.3, -.15 ],
-              mass: [ -.08, -.24 ],
-              optmass: [ -.09, -.02 ],
-              optmul: [ 0, .02 ],
-              power: [ -.16, -.3 ]
+              integrity: [ -.15, -.15 ],
+              mass: [ -.26, -.34 ],
+              optmass: [ -.04, -.04 ],
+              optmul: [ .09, .135 ],
+              power: [ -.25, -.3 ]
             }
           },
           "4": {
@@ -21404,11 +21406,11 @@ module.exports = {
               "Thermic Alloys": 1
             },
             features: {
-              integrity: [ -.4, -.2 ],
-              mass: [ -.12, -.32 ],
-              optmass: [ -.12, -.03 ],
-              optmul: [ 0, .04 ],
-              power: [ -.18, -.35 ]
+              integrity: [ -.2, -.2 ],
+              mass: [ -.34, -.42 ],
+              optmass: [ -.05, -.05 ],
+              optmul: [ .135, .18 ],
+              power: [ -.3, -.35 ]
             }
           },
           "5": {
@@ -21418,11 +21420,11 @@ module.exports = {
               "Untypical Shield Scans": 1
             },
             features: {
-              integrity: [ -.5, -.25 ],
-              mass: [ -.16, -.4 ],
-              optmass: [ -.15, -.04 ],
-              optmul: [ 0, .06 ],
-              power: [ -.2, -.4 ]
+              integrity: [ -.25, -.25 ],
+              mass: [ -.42, -.5 ],
+              optmass: [ -.06, -.06 ],
+              optmul: [ .18, .225 ],
+              power: [ -.35, -.4 ]
             }
           }
         },
@@ -21438,11 +21440,12 @@ module.exports = {
               Phosphorus: 1
             },
             features: {
-              brokenregen: [ -.2, -.15 ],
-              explres: [ 0, .03 ],
-              kinres: [ 0, .03 ],
-              optmul: [ .05, .1 ],
-              thermres: [ 0, .03 ]
+              brokenregen: [ -.1, -.1 ],
+              distdraw: [ .04, .04 ],
+              explres: [ 0, .0225 ],
+              kinres: [ 0, .027 ],
+              optmul: [ 0, .14 ],
+              thermres: [ 0, .054 ]
             }
           },
           "2": {
@@ -21451,12 +21454,12 @@ module.exports = {
               Phosphorus: 1
             },
             features: {
-              brokenregen: [ -.24, -.12 ],
-              explres: [ .02, .06 ],
-              kinres: [ .02, .06 ],
-              optmul: [ .07, .15 ],
-              regen: [ -.06, -.04 ],
-              thermres: [ .02, .06 ]
+              brokenregen: [ -.1, -.1 ],
+              distdraw: [ .06, .06 ],
+              explres: [ .0225, .0375 ],
+              kinres: [ .027, .045 ],
+              optmul: [ .14, .2 ],
+              thermres: [ .054, .09 ]
             }
           },
           "3": {
@@ -21466,13 +21469,12 @@ module.exports = {
               Phosphorus: 1
             },
             features: {
-              brokenregen: [ -.27, -.09 ],
-              distdraw: [ .05, 0 ],
-              explres: [ .04, .09 ],
-              kinres: [ .04, .06 ],
-              optmul: [ .09, .2 ],
-              regen: [ -.09, -.03 ],
-              thermres: [ .04, .09 ]
+              brokenregen: [ -.1, -.1 ],
+              distdraw: [ .08, .08 ],
+              explres: [ .0375, .0525 ],
+              kinres: [ .045, .063 ],
+              optmul: [ .2, .26 ],
+              thermres: [ .09, .126 ]
             }
           },
           "4": {
@@ -21482,13 +21484,12 @@ module.exports = {
               Manganese: 1
             },
             features: {
-              brokenregen: [ -.3, -.06 ],
-              distdraw: [ .1, .05 ],
-              explres: [ .06, .12 ],
-              kinres: [ .06, .12 ],
-              optmul: [ .1, .25 ],
-              regen: [ -.12, -.02 ],
-              thermres: [ .06, .12 ]
+              brokenregen: [ -.1, -.1 ],
+              distdraw: [ .1, .1 ],
+              explres: [ .0525, .0675 ],
+              kinres: [ .063, .081 ],
+              optmul: [ .26, .32 ],
+              thermres: [ .126, .162 ]
             }
           },
           "5": {
@@ -21498,13 +21499,12 @@ module.exports = {
               "Improvised Components": 1
             },
             features: {
-              brokenregen: [ -.33, -.03 ],
-              distdraw: [ .15, .1 ],
-              explres: [ .08, .15 ],
-              kinres: [ .08, .15 ],
-              optmul: [ .13, .3 ],
-              regen: [ -.15, -.01 ],
-              thermres: [ .08, .15 ]
+              brokenregen: [ -.1, -.1 ],
+              distdraw: [ .12, .12 ],
+              explres: [ .0675, .0825 ],
+              kinres: [ .081, .099 ],
+              optmul: [ .32, .38 ],
+              thermres: [ .162, .198 ]
             }
           }
         },
@@ -21521,8 +21521,8 @@ module.exports = {
             },
             features: {
               integrity: [ 0, .2 ],
-              kinres: [ -.05, 0 ],
-              thermres: [ .05, .1 ]
+              kinres: [ -.02, -.02 ],
+              thermres: [ 0, .12 ]
             }
           },
           "2": {
@@ -21531,9 +21531,9 @@ module.exports = {
               Germanium: 1
             },
             features: {
-              integrity: [ .05, .25 ],
-              kinres: [ -.1, -.02 ],
-              thermres: [ .07, .2 ]
+              integrity: [ .2, .25 ],
+              kinres: [ -.05, -.05 ],
+              thermres: [ .12, .24 ]
             }
           },
           "3": {
@@ -21543,9 +21543,9 @@ module.exports = {
               Selenium: 1
             },
             features: {
-              integrity: [ .1, .3 ],
-              kinres: [ -.15, -.04 ],
-              thermres: [ .09, .3 ]
+              integrity: [ .25, .3 ],
+              kinres: [ -.07, -.07 ],
+              thermres: [ .24, .36 ]
             }
           },
           "4": {
@@ -21555,9 +21555,9 @@ module.exports = {
               Mercury: 1
             },
             features: {
-              integrity: [ .15, .35 ],
-              kinres: [ -.2, -.06 ],
-              thermres: [ .11, .4 ]
+              integrity: [ .3, .35 ],
+              kinres: [ -.1, -.1 ],
+              thermres: [ .36, .48 ]
             }
           },
           "5": {
@@ -21567,9 +21567,9 @@ module.exports = {
               "Untypical Shield Scans": 1
             },
             features: {
-              integrity: [ .2, .4 ],
-              kinres: [ -.25, -.08 ],
-              thermres: [ .13, .5 ]
+              integrity: [ .35, .4 ],
+              kinres: [ -.12, -.12 ],
+              thermres: [ .48, .6 ]
             }
           }
         },
@@ -23072,18 +23072,42 @@ module.exports = {
       special_mass_lock: {},
       special_shield_regenerative: {
         brokenregen: .15,
-        regen: .15
+        regen: .15,
+        thermres: -1,
+        kinres: -1,
+        explres: -1
       },
       special_shield_resistive: {
-        thermres: 3.71,
-        kinres: 1.62,
-        explres: 1.5
+        thermres: 3,
+        kinres: 3,
+        explres: 3,
+        power: .1,
+        distdraw: .25
       },
-      special_shield_health: {},
-      special_shield_efficient: {},
-      special_shield_thermic: {},
-      special_shield_kinetic: {},
-      special_shield_toughened: {},
+      special_shield_health: {
+        power: .1,
+        optmul: .06,
+        distdraw: .25
+      },
+      special_shield_efficient: {
+        power: -.2,
+        distdraw: -.2,
+        thermres: -1,
+        optmul: -.02,
+        kinres: -1,
+        explres: -1
+      },
+      special_shield_thermic: {
+        optmul: -.03,
+        thermres: 8
+      },
+      special_shield_kinetic: {
+        optmul: -.03,
+        kinres: 8
+      },
+      special_shield_toughened: {
+        integrity: .15
+      },
       special_shield_lightweight: {
         mass: -.1
       },
