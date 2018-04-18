@@ -27751,12 +27751,12 @@
 								0.2
 							],
 							"kinres": [
-								0.05,
-								0.1
+								0,
+								0.06
 							],
 							"thermres": [
-								-0.05,
-								0
+								-0.04,
+								-0.04
 							]
 						}
 					},
@@ -27767,16 +27767,16 @@
 						},
 						"features": {
 							"integrity": [
-								0.05,
+								0.2,
 								0.25
 							],
 							"kinres": [
-								0.07,
-								0.2
+								0.06,
+								0.12
 							],
 							"thermres": [
-								-0.1,
-								-0.02
+								-0.07,
+								-0.07
 							]
 						}
 					},
@@ -27788,16 +27788,16 @@
 						},
 						"features": {
 							"integrity": [
-								0.1,
-								0.2
-							],
-							"kinres": [
-								0.09,
+								0.25,
 								0.3
 							],
+							"kinres": [
+								0.12,
+								0.18
+							],
 							"thermres": [
-								-0.15,
-								-0.04
+								-0.11,
+								-0.11
 							]
 						}
 					},
@@ -27809,16 +27809,16 @@
 						},
 						"features": {
 							"integrity": [
-								0.15,
+								0.3,
 								0.35
 							],
 							"kinres": [
-								0.11,
-								0.4
+								0.18,
+								0.24
 							],
 							"thermres": [
-								-0.2,
-								-0.06
+								-0.14,
+								-0.14
 							]
 						}
 					},
@@ -27830,16 +27830,16 @@
 						},
 						"features": {
 							"integrity": [
-								0.2,
+								0.35,
 								0.4
 							],
 							"kinres": [
-								0.13,
-								0.5
+								0.18,
+								0.3
 							],
 							"thermres": [
-								-0.25,
-								-0.08
+								-0.18,
+								-0.18
 							]
 						}
 					}
@@ -27860,19 +27860,23 @@
 						},
 						"features": {
 							"integrity": [
-								-0.1,
+								-0.05,
 								-0.05
 							],
 							"mass": [
 								0,
-								-0.08
+								-0.18
 							],
 							"optmass": [
-								-0.03,
-								0
+								-0.02,
+								-0.02
+							],
+							"optmul": [
+								0,
+								0.045
 							],
 							"power": [
-								-0.12,
+								0,
 								-0.2
 							]
 						}
@@ -27884,19 +27888,23 @@
 						},
 						"features": {
 							"integrity": [
-								-0.2,
+								-0.1,
 								-0.1
 							],
 							"mass": [
-								-0.04,
-								-0.16
+								-0.18,
+								-0.26
 							],
 							"optmass": [
-								-0.06,
-								-0.01
+								-0.03,
+								-0.03
+							],
+							"optmul": [
+								0.02,
+								0.09
 							],
 							"power": [
-								-0.14,
+								-0.2,
 								-0.25
 							]
 						}
@@ -27909,23 +27917,23 @@
 						},
 						"features": {
 							"integrity": [
-								-0.3,
+								-0.15,
 								-0.15
 							],
 							"mass": [
-								-0.08,
-								-0.24
+								-0.26,
+								-0.34
 							],
 							"optmass": [
-								-0.09,
-								-0.02
+								-0.04,
+								-0.04
 							],
 							"optmul": [
-								0,
-								0.02
+								0.09,
+								0.135
 							],
 							"power": [
-								-0.16,
+								-0.25,
 								-0.3
 							]
 						}
@@ -27938,23 +27946,23 @@
 						},
 						"features": {
 							"integrity": [
-								-0.4,
+								-0.2,
 								-0.2
 							],
 							"mass": [
-								-0.12,
-								-0.32
+								-0.34,
+								-0.42
 							],
 							"optmass": [
-								-0.12,
-								-0.03
+								-0.05,
+								-0.05
 							],
 							"optmul": [
-								0,
-								0.04
+								0.135,
+								0.18
 							],
 							"power": [
-								-0.18,
+								-0.3,
 								-0.35
 							]
 						}
@@ -27967,23 +27975,23 @@
 						},
 						"features": {
 							"integrity": [
-								-0.5,
+								-0.25,
 								-0.25
 							],
 							"mass": [
-								-0.16,
-								-0.4
+								-0.42,
+								-0.5
 							],
 							"optmass": [
-								-0.15,
-								-0.04
+								-0.06,
+								-0.06
 							],
 							"optmul": [
-								0,
-								0.06
+								0.18,
+								0.225
 							],
 							"power": [
-								-0.2,
+								-0.35,
 								-0.4
 							]
 						}
@@ -28005,24 +28013,28 @@
 						},
 						"features": {
 							"brokenregen": [
-								-0.2,
-								-0.15
+								-0.1,
+								-0.1
+							],
+							"distdraw": [
+								0.04,
+								0.04
 							],
 							"explres": [
 								0,
-								0.03
+								0.0225
 							],
 							"kinres": [
 								0,
-								0.03
+								0.027
 							],
 							"optmul": [
-								0.05,
-								0.1
+								0,
+								0.14
 							],
 							"thermres": [
 								0,
-								0.03
+								0.054
 							]
 						}
 					},
@@ -28033,28 +28045,28 @@
 						},
 						"features": {
 							"brokenregen": [
-								-0.24,
-								-0.12
+								-0.1,
+								-0.1
+							],
+							"distdraw": [
+								0.06,
+								0.06
 							],
 							"explres": [
-								0.02,
-								0.06
+								0.0225,
+								0.0375
 							],
 							"kinres": [
-								0.02,
-								0.06
+								0.027,
+								0.045
 							],
 							"optmul": [
-								0.07,
-								0.15
-							],
-							"regen": [
-								-0.06,
-								-0.04
+								0.14,
+								0.2
 							],
 							"thermres": [
-								0.02,
-								0.06
+								0.054,
+								0.09
 							]
 						}
 					},
@@ -28066,32 +28078,28 @@
 						},
 						"features": {
 							"brokenregen": [
-								-0.27,
-								-0.09
+								-0.1,
+								-0.1
 							],
 							"distdraw": [
-								0.05,
-								0
+								0.08,
+								0.08
 							],
 							"explres": [
-								0.04,
-								0.09
+								0.0375,
+								0.0525
 							],
 							"kinres": [
-								0.04,
-								0.06
+								0.045,
+								0.063
 							],
 							"optmul": [
-								0.09,
-								0.2
-							],
-							"regen": [
-								-0.09,
-								-0.03
+								0.2,
+								0.26
 							],
 							"thermres": [
-								0.04,
-								0.09
+								0.09,
+								0.126
 							]
 						}
 					},
@@ -28103,32 +28111,28 @@
 						},
 						"features": {
 							"brokenregen": [
-								-0.3,
-								-0.06
+								-0.1,
+								-0.1
 							],
 							"distdraw": [
 								0.1,
-								0.05
+								0.1
 							],
 							"explres": [
-								0.06,
-								0.12
+								0.0525,
+								0.0675
 							],
 							"kinres": [
-								0.06,
-								0.12
+								0.063,
+								0.081
 							],
 							"optmul": [
-								0.1,
-								0.25
-							],
-							"regen": [
-								-0.12,
-								-0.02
+								0.26,
+								0.32
 							],
 							"thermres": [
-								0.06,
-								0.12
+								0.126,
+								0.162
 							]
 						}
 					},
@@ -28140,32 +28144,28 @@
 						},
 						"features": {
 							"brokenregen": [
-								-0.33,
-								-0.03
+								-0.1,
+								-0.1
 							],
 							"distdraw": [
-								0.15,
-								0.1
+								0.12,
+								0.12
 							],
 							"explres": [
-								0.08,
-								0.15
+								0.0675,
+								0.0825
 							],
 							"kinres": [
-								0.08,
-								0.15
+								0.081,
+								0.099
 							],
 							"optmul": [
-								0.13,
-								0.3
-							],
-							"regen": [
-								-0.15,
-								-0.01
+								0.32,
+								0.38
 							],
 							"thermres": [
-								0.08,
-								0.15
+								0.162,
+								0.198
 							]
 						}
 					}
@@ -28190,12 +28190,12 @@
 								0.2
 							],
 							"kinres": [
-								-0.05,
-								0
+								-0.02,
+								-0.02
 							],
 							"thermres": [
-								0.05,
-								0.1
+								0,
+								0.12
 							]
 						}
 					},
@@ -28206,16 +28206,16 @@
 						},
 						"features": {
 							"integrity": [
-								0.05,
+								0.2,
 								0.25
 							],
 							"kinres": [
-								-0.1,
-								-0.02
+								-0.05,
+								-0.05
 							],
 							"thermres": [
-								0.07,
-								0.2
+								0.12,
+								0.24
 							]
 						}
 					},
@@ -28227,16 +28227,16 @@
 						},
 						"features": {
 							"integrity": [
-								0.1,
+								0.25,
 								0.3
 							],
 							"kinres": [
-								-0.15,
-								-0.04
+								-0.07,
+								-0.07
 							],
 							"thermres": [
-								0.09,
-								0.3
+								0.24,
+								0.36
 							]
 						}
 					},
@@ -28248,16 +28248,16 @@
 						},
 						"features": {
 							"integrity": [
-								0.15,
+								0.3,
 								0.35
 							],
 							"kinres": [
-								-0.2,
-								-0.06
+								-0.1,
+								-0.1
 							],
 							"thermres": [
-								0.11,
-								0.4
+								0.36,
+								0.48
 							]
 						}
 					},
@@ -28269,16 +28269,16 @@
 						},
 						"features": {
 							"integrity": [
-								0.2,
+								0.35,
 								0.4
 							],
 							"kinres": [
-								-0.25,
-								-0.08
+								-0.12,
+								-0.12
 							],
 							"thermres": [
-								0.13,
-								0.5
+								0.48,
+								0.6
 							]
 						}
 					}
@@ -30425,11 +30425,20 @@
 			},
 			"special_auto_loader": {},
 			"special_choke_canister": {},
+			"special_feedback_cascade_cooled": {
+				"thermload": -0.4
+			},
+			"special_super_penetrator_cooled": {
+				"thermload": -0.4
+			},
 			"special_concordant_sequence": {
 				"thermload": 0.5
 			},
 			"special_corrosive_shell": {
 				"ammo": -0.2
+			},
+			"special_plasma_slug_cooled": {
+				"thermload": -0.4
 			},
 			"special_dispersal_field": {},
 			"special_distortion_field": {},
@@ -30507,6 +30516,216 @@
 			},
 			"special_thermalshock": {
 				"damage": -0.2
+			},
+			"special_penetrator_munitions": {},
+			"special_deep_cut_payload": {},
+			"special_mass_lock": {},
+			"special_shield_regenerative": {
+				"brokenregen": 0.15,
+				"regen": 0.15,
+				"thermres": -1,
+				"kinres": -1,
+				"explres": -1
+			},
+			"special_shield_resistive": {
+				"thermres": 3,
+				"kinres": 3,
+				"explres": 3,
+				"power": 0.1,
+				"distdraw": 0.25
+			},
+			"special_shield_health": {
+				"power": 0.1,
+				"optmul": 0.06,
+				"distdraw": 0.25
+			},
+			"special_shield_efficient": {
+				"power": -0.2,
+				"distdraw": -0.2,
+				"thermres": -1,
+				"optmul": -0.02,
+				"kinres": -1,
+				"explres": -1
+			},
+			"special_shield_thermic": {
+				"optmul": -0.03,
+				"thermres": 8
+			},
+			"special_shield_kinetic": {
+				"optmul": -0.03,
+				"kinres": 8
+			},
+			"special_shield_toughened": {
+				"integrity": 0.15
+			},
+			"special_shield_lightweight": {
+				"mass": -0.1
+			},
+			"special_engine_cooled": {
+				"mass": 0.1,
+				"thermload": -0.1
+			},
+			"special_engine_haulage": {
+				"optmass": 0.1
+			},
+			"special_engine_overloaded": {
+				"optmul": 0.04,
+				"thermload": 0.1
+			},
+			"special_engine_toughened": {
+				"integrity": 0.15
+			},
+			"special_engine_lightweight": {
+				"mass": -0.1
+			},
+			"special_fsd_fuelcapacity": {
+				"power": 0.05,
+				"maxfuel": 0.1
+			},
+			"special_fsd_heavy": {
+				"integrity": -0.08,
+				"optmass": 0.04
+			},
+			"special_fsd_toughened": {
+				"integrity": 0.15
+			},
+			"special_fsd_lightweight": {
+				"mass": -0.1
+			},
+			"special_fsd_cooled": {
+				"thermload": -0.1
+			},
+			"special_powerplant_highcharge": {
+				"mass": 0.1,
+				"power": 0.05
+			},
+			"special_powerplant_cooled": {
+				"eff": -0.1
+			},
+			"special_powerplant_toughened": {
+				"integrity": 0.15
+			},
+			"special_powerplant_lightweight": {
+				"mass": -0.1
+			},
+			"special_powerdistributor_capacity": {
+				"wepcap": 0.08,
+				"syscap": 0.08,
+				"engcap": 0.08,
+				"weprate": -0.02,
+				"sysrate": -0.02,
+				"engrate": -0.02
+			},
+			"special_powerdistributor_fast": {
+				"wepcap": -0.04,
+				"syscap": -0.04,
+				"engcap": -0.04,
+				"weprate": 0.04,
+				"sysrate": 0.04,
+				"engrate": 0.04
+			},
+			"special_powerdistributor_efficient": {
+				"power": -0.1
+			},
+			"special_powerdistributor_toughened": {
+				"integrity": 0.15
+			},
+			"special_powerdistributor_lightweight": {
+				"mass": -0.1
+			},
+			"special_shieldcell_gradual": {
+				"duration": 0.1,
+				"shieldreinforcement": -0.05
+			},
+			"special_shieldcell_oversized": {
+				"spinup": 0.2,
+				"shieldreinforcement": 0.05
+			},
+			"special_shieldcell_efficient": {
+				"power": -0.1
+			},
+			"special_shieldcell_toughened": {
+				"integrity": 0.15
+			},
+			"special_shieldcell_lightweight": {
+				"mass": -0.1
+			},
+			"special_weapon_damage": {
+				"power": 0.05,
+				"damage": 0.03
+			},
+			"special_weapon_rateoffire": {
+				"power": 0.05,
+				"rof": 0.03
+			},
+			"special_weapon_efficient": {
+				"power": -0.1
+			},
+			"special_weapon_toughened": {
+				"integrity": 0.15
+			},
+			"special_weapon_lightweight": {
+				"mass": -0.1
+			},
+			"special_armour_thermic": {
+				"hullboost": -0.03,
+				"thermres": 8
+			},
+			"special_armour_kinetic": {
+				"hullboost": -0.03,
+				"kinres": 8
+			},
+			"special_armour_explosive": {
+				"hullboost": -0.03,
+				"explres": 8
+			},
+			"special_armour_chunky": {
+				"hullboost": 0.08,
+				"thermres": -3,
+				"explres": -3,
+				"kinres": -3
+			},
+			"special_hullreinforcement_thermic": {
+				"hullreinforcement": -0.05,
+				"thermres": 2
+			},
+			"special_hullreinforcement_kinetic": {
+				"hullreinforcement": -0.05,
+				"kinres": 2
+			},
+			"special_hullreinforcement_explosive": {
+				"hullreinforcement": -0.05,
+				"explres": 2
+			},
+			"special_hullreinforcement_chunky": {
+				"hullreinforcement": 0.1,
+				"explres": 2,
+				"thermres": 2,
+				"kinres": 2
+			},
+			"special_shieldbooster_thermic": {
+				"optmul": -0.01,
+				"thermres": 2
+			},
+			"special_shieldbooster_kinetic": {
+				"optmul": -0.01,
+				"kinres": 2
+			},
+			"special_shieldbooster_explosive": {
+				"optmul": -0.01,
+				"explres": 2
+			},
+			"special_shieldbooster_efficient": {
+				"power": -0.1
+			},
+			"special_shieldbooster_toughened": {
+				"integrity": 0.15
+			},
+			"special_shieldbooster_chunky": {
+				"optmul": 0.05,
+				"thermres": -2,
+				"kinres": -2,
+				"explres": -2
 			},
 			"trade_cell_heat_cell_units": {
 				"shieldreinforcement": -1,
@@ -30798,6 +31017,12 @@
 					"kinres",
 					"mass",
 					"thermres"
+				],
+				"specials": [
+					"special_armour_kinetic",
+					"special_armour_explosive",
+					"special_armour_chunky",
+					"special_armour_thermic"
 				]
 			},
 			"bl": {
@@ -31013,7 +31238,12 @@
 					"special_regeneration_sequence",
 					"special_thermal_conduit",
 					"special_thermalshock",
-					"special_thermal_vent"
+					"special_thermal_vent",
+					"special_weapon_damage",
+					"special_weapon_efficient",
+					"special_weapon_rateoffire",
+					"special_weapon_toughened",
+					"special_weapon_lightweight"
 				]
 			},
 			"bsg": {
@@ -31173,6 +31403,16 @@
 					"regen",
 					"thermload",
 					"thermres"
+				],
+				"specials": [
+					"special_shield_regenerative",
+					"special_shield_resistive",
+					"special_shield_health",
+					"special_shield_efficient",
+					"special_shield_thermic",
+					"special_shield_kinetic",
+					"special_shield_toughened",
+					"special_shield_lightweight"
 				]
 			},
 			"c": {
@@ -31419,7 +31659,12 @@
 					"special_smart_rounds",
 					"special_force_shell",
 					"special_high_yield_shell",
-					"special_thermal_cascade"
+					"special_thermal_cascade",
+					"special_weapon_damage",
+					"special_weapon_efficient",
+					"special_weapon_rateoffire",
+					"special_weapon_toughened",
+					"special_weapon_lightweight"
 				]
 			},
 			"cc": {
@@ -32243,7 +32488,12 @@
 					"special_blinding_shell",
 					"special_incendiary_rounds",
 					"special_drag_munitions",
-					"special_screening_shell"
+					"special_screening_shell",
+					"special_weapon_damage",
+					"special_weapon_efficient",
+					"special_weapon_rateoffire",
+					"special_weapon_toughened",
+					"special_weapon_lightweight"
 				]
 			},
 			"rfl": {
@@ -32483,6 +32733,13 @@
 					"optmass",
 					"power",
 					"thermload"
+				],
+				"specials": [
+					"special_fsd_fuelcapacity",
+					"special_fsd_heavy",
+					"special_fsd_toughened",
+					"special_fsd_lightweight",
+					"special_fsd_cooled"
 				]
 			},
 			"ft": {
@@ -32895,6 +33152,12 @@
 					"kinres",
 					"mass",
 					"thermres"
+				],
+				"specials": [
+					"special_hullreinforcement_thermic",
+					"special_hullreinforcement_kinetic",
+					"special_hullreinforcement_explosive",
+					"special_hullreinforcement_chunky"
 				]
 			},
 			"hs": {
@@ -33609,7 +33872,12 @@
 					"special_emissive_munitions",
 					"special_incendiary_rounds",
 					"special_smart_rounds",
-					"special_thermalshock"
+					"special_thermalshock",
+					"special_weapon_damage",
+					"special_weapon_efficient",
+					"special_weapon_rateoffire",
+					"special_weapon_toughened",
+					"special_weapon_lightweight"
 				]
 			},
 			"axmc": {
@@ -33772,7 +34040,12 @@
 					"special_emissive_munitions",
 					"special_overload_munitions",
 					"special_penetrator_payload",
-					"special_thermal_cascade"
+					"special_thermal_cascade",
+					"special_weapon_damage",
+					"special_weapon_efficient",
+					"special_weapon_rateoffire",
+					"special_weapon_toughened",
+					"special_weapon_lightweight"
 				],
 				"specials_D": [
 					"special_drag_munitions",
@@ -33780,7 +34053,13 @@
 					"special_fsd_interrupt",
 					"special_overload_munitions",
 					"special_penetrator_payload",
-					"special_thermal_cascade"
+					"special_thermal_cascade",
+					"special_weapon_damage",
+					"special_weapon_efficient",
+					"special_weapon_rateoffire",
+					"special_weapon_toughened",
+					"special_weapon_lightweight",
+					"special_penetrator_munitions"
 				]
 			},
 			"axmr": {
@@ -33944,8 +34223,21 @@
 					"special_radiant_canister",
 					"special_reverberating_cascade",
 					"special_shiftlock_canister",
-					"special_emissive_munitions"
+					"special_emissive_munitions",
+					"special_weapon_damage",
+					"special_weapon_efficient",
+					"special_weapon_rateoffire",
+					"special_weapon_toughened",
+					"special_weapon_lightweight"
 				]
+			},
+			"gpl": {
+				"blueprints": {},
+				"modifications": []
+			},
+			"ggc": {
+				"blueprints": {},
+				"modifications": []
 			},
 			"pa": {
 				"blueprints": {
@@ -34221,7 +34513,12 @@
 					"special_phasing_sequence",
 					"special_plasma_slug",
 					"special_lock_breaker",
-					"special_thermal_conduit"
+					"special_thermal_conduit",
+					"special_weapon_damage",
+					"special_weapon_efficient",
+					"special_weapon_rateoffire",
+					"special_weapon_toughened",
+					"special_weapon_lightweight"
 				]
 			},
 			"pas": {
@@ -34561,6 +34858,13 @@
 					"sysrate",
 					"wepcap",
 					"weprate"
+				],
+				"specials": [
+					"special_powerdistributor_capacity",
+					"special_powerdistributor_fast",
+					"special_powerdistributor_efficient",
+					"special_powerdistributor_toughened",
+					"special_powerdistributor_lightweight"
 				]
 			},
 			"pl": {
@@ -34849,7 +35153,12 @@
 					"special_emissive_munitions",
 					"special_phasing_sequence",
 					"special_scramble_spectrum",
-					"special_thermalshock"
+					"special_thermalshock",
+					"special_weapon_damage",
+					"special_weapon_efficient",
+					"special_weapon_rateoffire",
+					"special_weapon_toughened",
+					"special_weapon_lightweight"
 				]
 			},
 			"po": {
@@ -35058,6 +35367,12 @@
 					"integrity",
 					"mass",
 					"pgen"
+				],
+				"specials": [
+					"special_powerplant_highcharge",
+					"special_powerplant_cooled",
+					"special_powerplant_toughened",
+					"special_powerplant_lightweight"
 				]
 			},
 			"psg": {
@@ -35217,6 +35532,16 @@
 					"regen",
 					"thermload",
 					"thermres"
+				],
+				"specials": [
+					"special_shield_regenerative",
+					"special_shield_resistive",
+					"special_shield_health",
+					"special_shield_efficient",
+					"special_shield_thermic",
+					"special_shield_kinetic",
+					"special_shield_toughened",
+					"special_shield_lightweight"
 				]
 			},
 			"pv": {
@@ -35440,8 +35765,16 @@
 				],
 				"specials": [
 					"special_feedback_cascade",
+					"special_feedback_cascade_cooled",
 					"special_plasma_slug",
-					"special_super_penetrator"
+					"special_plasma_slug_cooled",
+					"special_super_penetrator",
+					"special_super_penetrator_cooled",
+					"special_weapon_damage",
+					"special_weapon_efficient",
+					"special_weapon_rateoffire",
+					"special_weapon_toughened",
+					"special_weapon_lightweight"
 				]
 			},
 			"s": {
@@ -35782,6 +36115,14 @@
 					"power",
 					"shieldboost",
 					"thermres"
+				],
+				"specials": [
+					"special_shieldbooster_thermic",
+					"special_shieldbooster_kinetic",
+					"special_shieldbooster_explosive",
+					"special_shieldbooster_efficient",
+					"special_shieldbooster_toughened",
+					"special_shieldbooster_chunky"
 				]
 			},
 			"sfn": {
@@ -35845,6 +36186,13 @@
 					"shieldreinforcement",
 					"spinup",
 					"thermload"
+				],
+				"specials": [
+					"special_shieldcell_gradual",
+					"special_shieldcell_oversized",
+					"special_shieldcell_efficient",
+					"special_shieldcell_toughened",
+					"special_shieldcell_lightweight"
 				]
 			},
 			"sg": {
@@ -36004,6 +36352,16 @@
 					"regen",
 					"thermload",
 					"thermres"
+				],
+				"specials": [
+					"special_shield_regenerative",
+					"special_shield_resistive",
+					"special_shield_health",
+					"special_shield_efficient",
+					"special_shield_thermic",
+					"special_shield_kinetic",
+					"special_shield_toughened",
+					"special_shield_lightweight"
 				]
 			},
 			"ss": {
@@ -36282,6 +36640,13 @@
 					"optmul",
 					"power",
 					"thermload"
+				],
+				"specials": [
+					"special_engine_cooled",
+					"special_engine_haulage",
+					"special_engine_overloaded",
+					"special_engine_toughened",
+					"special_engine_lightweight"
 				]
 			},
 			"tp": {
@@ -36368,7 +36733,14 @@
 				"specials": [
 					"special_mass_lock_munition",
 					"special_penetrator_payload",
-					"special_reverberating_cascade"
+					"special_reverberating_cascade",
+					"special_weapon_damage",
+					"special_weapon_efficient",
+					"special_weapon_rateoffire",
+					"special_weapon_toughened",
+					"special_weapon_lightweight",
+					"special_deep_cut_payload",
+					"special_mass_lock"
 				]
 			},
 			"ul": {
@@ -36659,7 +37031,12 @@
 					"special_inertial_impact",
 					"special_phasing_sequence",
 					"special_scramble_spectrum",
-					"special_thermalshock"
+					"special_thermalshock",
+					"special_weapon_damage",
+					"special_weapon_efficient",
+					"special_weapon_rateoffire",
+					"special_weapon_toughened",
+					"special_weapon_lightweight"
 				]
 			},
 			"ws": {
@@ -37064,6 +37441,291 @@
 				"id": 31,
 				"edname": "special_thermalshock",
 				"name": "Thermal shock"
+			},
+			"special_feedback_cascade_cooled": {
+				"name": "Feedback Cascade",
+				"id": 100,
+				"edname": "special_feedback_cascade_cooled"
+			},
+			"special_super_penetrator_cooled": {
+				"name": "Super Penetrator",
+				"id": 101,
+				"edname": "special_super_penetrator_cooled"
+			},
+			"special_plasma_slug_cooled": {
+				"name": "Plasma Slug",
+				"id": 102,
+				"edname": "special_plasma_slug_cooled"
+			},
+			"special_penetrator_munitions": {
+				"name": "Penetrator Munitions",
+				"id": 103,
+				"edname": "special_penetrator_munitions"
+			},
+			"special_deep_cut_payload": {
+				"name": "Penetrator Payload",
+				"id": 104,
+				"edname": "special_deep_cut_payload"
+			},
+			"special_mass_lock": {
+				"name": "Mass Lock Munition",
+				"id": 105,
+				"edname": "special_mass_lock"
+			},
+			"special_shield_regenerative": {
+				"name": "Fast Charge",
+				"id": 106,
+				"edname": "special_shield_regenerative"
+			},
+			"special_shield_resistive": {
+				"name": "Multi-weave",
+				"id": 107,
+				"edname": "special_shield_resistive"
+			},
+			"special_shield_health": {
+				"name": "Hi-Cap",
+				"id": 108,
+				"edname": "special_shield_health"
+			},
+			"special_shield_efficient": {
+				"name": "Lo-draw",
+				"id": 109,
+				"edname": "special_shield_efficient"
+			},
+			"special_shield_thermic": {
+				"name": "Thermo Block",
+				"id": 110,
+				"edname": "special_shield_thermic"
+			},
+			"special_shield_kinetic": {
+				"name": "Force Block",
+				"id": 111,
+				"edname": "special_shield_kinetic"
+			},
+			"special_shield_toughened": {
+				"name": "Double Braced",
+				"id": 112,
+				"edname": "special_shield_toughened"
+			},
+			"special_shield_lightweight": {
+				"name": "Stripped Down",
+				"id": 113,
+				"edname": "special_shield_lightweight"
+			},
+			"special_engine_cooled": {
+				"name": "Thermal Spread",
+				"id": 114,
+				"edname": "special_engine_cooled"
+			},
+			"special_engine_haulage": {
+				"name": "Drive Distributors",
+				"id": 115,
+				"edname": "special_engine_haulage"
+			},
+			"special_engine_overloaded": {
+				"name": "Drag Drives",
+				"id": 116,
+				"edname": "special_engine_overloaded"
+			},
+			"special_engine_toughened": {
+				"name": "Double Braced",
+				"id": 117,
+				"edname": "special_engine_toughened"
+			},
+			"special_engine_lightweight": {
+				"name": "Stripped Down",
+				"id": 118,
+				"edname": "special_engine_lightweight"
+			},
+			"special_fsd_fuelcapacity": {
+				"name": "Deep Charge",
+				"id": 119,
+				"edname": "special_fsd_fuelcapacity"
+			},
+			"special_fsd_heavy": {
+				"name": "Mass Manager",
+				"id": 120,
+				"edname": "special_fsd_heavy"
+			},
+			"special_fsd_toughened": {
+				"name": "Double Braced",
+				"id": 121,
+				"edname": "special_fsd_toughened"
+			},
+			"special_fsd_lightweight": {
+				"name": "Stripped Down",
+				"id": 122,
+				"edname": "special_fsd_lightweight"
+			},
+			"special_fsd_cooled": {
+				"name": "Thermal Spread",
+				"id": 123,
+				"edname": "special_fsd_cooled"
+			},
+			"special_powerplant_highcharge": {
+				"name": "Monstered",
+				"id": 124,
+				"edname": "special_powerplant_highcharge"
+			},
+			"special_powerplant_cooled": {
+				"name": "Thermal Spread",
+				"id": 125,
+				"edname": "special_powerplant_cooled"
+			},
+			"special_powerplant_toughened": {
+				"name": "Double Braced",
+				"id": 126,
+				"edname": "special_powerplant_toughened"
+			},
+			"special_powerplant_lightweight": {
+				"name": "Stripped Down",
+				"id": 127,
+				"edname": "special_powerplant_lightweight"
+			},
+			"special_powerdistributor_capacity": {
+				"name": "Cluster Capacitors",
+				"id": 128,
+				"edname": "special_powerdistributor_capacity"
+			},
+			"special_powerdistributor_fast": {
+				"name": "Super Conduits",
+				"id": 129,
+				"edname": "special_powerdistributor_fast"
+			},
+			"special_powerdistributor_efficient": {
+				"name": "Flow Control",
+				"id": 130,
+				"edname": "special_powerdistributor_efficient"
+			},
+			"special_powerdistributor_toughened": {
+				"name": "Double Braced",
+				"id": 131,
+				"edname": "special_powerdistributor_toughened"
+			},
+			"special_powerdistributor_lightweight": {
+				"name": "Stripped Down",
+				"id": 132,
+				"edname": "special_powerdistributor_lightweight"
+			},
+			"special_shieldcell_gradual": {
+				"name": "Recycling Cell",
+				"id": 133,
+				"edname": "special_shieldcell_gradual"
+			},
+			"special_shieldcell_oversized": {
+				"name": "Boss Cells",
+				"id": 134,
+				"edname": "special_shieldcell_oversized"
+			},
+			"special_shieldcell_efficient": {
+				"name": "Flow Control",
+				"id": 135,
+				"edname": "special_shieldcell_efficient"
+			},
+			"special_shieldcell_toughened": {
+				"name": "Double Braced",
+				"id": 136,
+				"edname": "special_shieldcell_toughened"
+			},
+			"special_shieldcell_lightweight": {
+				"name": "Stripped Down",
+				"id": 137,
+				"edname": "special_shieldcell_lightweight"
+			},
+			"special_weapon_damage": {
+				"name": "Oversized",
+				"id": 138,
+				"edname": "special_weapon_damage"
+			},
+			"special_weapon_rateoffire": {
+				"name": "Multi-servos",
+				"id": 139,
+				"edname": "special_weapon_rateoffire"
+			},
+			"special_weapon_efficient": {
+				"name": "Flow Control",
+				"id": 140,
+				"edname": "special_weapon_efficient"
+			},
+			"special_weapon_toughened": {
+				"name": "Double Braced",
+				"id": 141,
+				"edname": "special_weapon_toughened"
+			},
+			"special_weapon_lightweight": {
+				"name": "Stripped Down",
+				"id": 142,
+				"edname": "special_weapon_lightweight"
+			},
+			"special_armour_thermic": {
+				"name": "Reflective Plating",
+				"id": 143,
+				"edname": "special_armour_thermic"
+			},
+			"special_armour_kinetic": {
+				"name": "Angled Plating",
+				"id": 144,
+				"edname": "special_armour_kinetic"
+			},
+			"special_armour_explosive": {
+				"name": "Layered Plating",
+				"id": 145,
+				"edname": "special_armour_explosive"
+			},
+			"special_armour_chunky": {
+				"name": "Deep Plating",
+				"id": 146,
+				"edname": "special_armour_chunky"
+			},
+			"special_hullreinforcement_thermic": {
+				"name": "Reflective Plating",
+				"id": 147,
+				"edname": "special_hullreinforcement_thermic"
+			},
+			"special_hullreinforcement_kinetic": {
+				"name": "Angled Plating",
+				"id": 148,
+				"edname": "special_hullreinforcement_kinetic"
+			},
+			"special_hullreinforcement_explosive": {
+				"name": "Layered Plating",
+				"id": 149,
+				"edname": "special_hullreinforcement_explosive"
+			},
+			"special_hullreinforcement_chunky": {
+				"name": "Deep Plating",
+				"id": 150,
+				"edname": "special_hullreinforcement_chunky"
+			},
+			"special_shieldbooster_thermic": {
+				"name": "Thermo Block",
+				"id": 151,
+				"edname": "special_shieldbooster_thermic"
+			},
+			"special_shieldbooster_kinetic": {
+				"name": "Force Block",
+				"id": 152,
+				"edname": "special_shieldbooster_kinetic"
+			},
+			"special_shieldbooster_explosive": {
+				"name": "Blast Block",
+				"id": 153,
+				"edname": "special_shieldbooster_explosive"
+			},
+			"special_shieldbooster_efficient": {
+				"name": "Flow Control",
+				"id": 154,
+				"edname": "special_shieldbooster_efficient"
+			},
+			"special_shieldbooster_toughened": {
+				"name": "Double Braced",
+				"id": 155,
+				"edname": "special_shieldbooster_toughened"
+			},
+			"special_shieldbooster_chunky": {
+				"name": "Super Capacitors",
+				"id": 156,
+				"edname": "special_shieldbooster_chunky"
 			}
 		}
 	}

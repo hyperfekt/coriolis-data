@@ -21301,8 +21301,8 @@ module.exports = {
             },
             features: {
               integrity: [ 0, .2 ],
-              kinres: [ .05, .1 ],
-              thermres: [ -.05, 0 ]
+              kinres: [ 0, .06 ],
+              thermres: [ -.04, -.04 ]
             }
           },
           "2": {
@@ -21311,9 +21311,9 @@ module.exports = {
               "Modified Consumer Firmware": 1
             },
             features: {
-              integrity: [ .05, .25 ],
-              kinres: [ .07, .2 ],
-              thermres: [ -.1, -.02 ]
+              integrity: [ .2, .25 ],
+              kinres: [ .06, .12 ],
+              thermres: [ -.07, -.07 ]
             }
           },
           "3": {
@@ -21323,9 +21323,9 @@ module.exports = {
               Selenium: 1
             },
             features: {
-              integrity: [ .1, .2 ],
-              kinres: [ .09, .3 ],
-              thermres: [ -.15, -.04 ]
+              integrity: [ .25, .3 ],
+              kinres: [ .12, .18 ],
+              thermres: [ -.11, -.11 ]
             }
           },
           "4": {
@@ -21335,9 +21335,9 @@ module.exports = {
               Mercury: 1
             },
             features: {
-              integrity: [ .15, .35 ],
-              kinres: [ .11, .4 ],
-              thermres: [ -.2, -.06 ]
+              integrity: [ .3, .35 ],
+              kinres: [ .18, .24 ],
+              thermres: [ -.14, -.14 ]
             }
           },
           "5": {
@@ -21347,9 +21347,9 @@ module.exports = {
               "Untypical Shield Scans": 1
             },
             features: {
-              integrity: [ .2, .4 ],
-              kinres: [ .13, .5 ],
-              thermres: [ -.25, -.08 ]
+              integrity: [ .35, .4 ],
+              kinres: [ .18, .3 ],
+              thermres: [ -.18, -.18 ]
             }
           }
         },
@@ -21365,10 +21365,11 @@ module.exports = {
               "Distorted Shield Cycle Recordings": 1
             },
             features: {
-              integrity: [ -.1, -.05 ],
-              mass: [ 0, -.08 ],
-              optmass: [ -.03, 0 ],
-              power: [ -.12, -.2 ]
+              integrity: [ -.05, -.05 ],
+              mass: [ 0, -.18 ],
+              optmass: [ -.02, -.02 ],
+              optmul: [ 0, .045 ],
+              power: [ 0, -.2 ]
             }
           },
           "2": {
@@ -21377,10 +21378,11 @@ module.exports = {
               Germanium: 1
             },
             features: {
-              integrity: [ -.2, -.1 ],
-              mass: [ -.04, -.16 ],
-              optmass: [ -.06, -.01 ],
-              power: [ -.14, -.25 ]
+              integrity: [ -.1, -.1 ],
+              mass: [ -.18, -.26 ],
+              optmass: [ -.03, -.03 ],
+              optmul: [ .02, .09 ],
+              power: [ -.2, -.25 ]
             }
           },
           "3": {
@@ -21390,11 +21392,11 @@ module.exports = {
               "Precipitated Alloys": 1
             },
             features: {
-              integrity: [ -.3, -.15 ],
-              mass: [ -.08, -.24 ],
-              optmass: [ -.09, -.02 ],
-              optmul: [ 0, .02 ],
-              power: [ -.16, -.3 ]
+              integrity: [ -.15, -.15 ],
+              mass: [ -.26, -.34 ],
+              optmass: [ -.04, -.04 ],
+              optmul: [ .09, .135 ],
+              power: [ -.25, -.3 ]
             }
           },
           "4": {
@@ -21404,11 +21406,11 @@ module.exports = {
               "Thermic Alloys": 1
             },
             features: {
-              integrity: [ -.4, -.2 ],
-              mass: [ -.12, -.32 ],
-              optmass: [ -.12, -.03 ],
-              optmul: [ 0, .04 ],
-              power: [ -.18, -.35 ]
+              integrity: [ -.2, -.2 ],
+              mass: [ -.34, -.42 ],
+              optmass: [ -.05, -.05 ],
+              optmul: [ .135, .18 ],
+              power: [ -.3, -.35 ]
             }
           },
           "5": {
@@ -21418,11 +21420,11 @@ module.exports = {
               "Untypical Shield Scans": 1
             },
             features: {
-              integrity: [ -.5, -.25 ],
-              mass: [ -.16, -.4 ],
-              optmass: [ -.15, -.04 ],
-              optmul: [ 0, .06 ],
-              power: [ -.2, -.4 ]
+              integrity: [ -.25, -.25 ],
+              mass: [ -.42, -.5 ],
+              optmass: [ -.06, -.06 ],
+              optmul: [ .18, .225 ],
+              power: [ -.35, -.4 ]
             }
           }
         },
@@ -21438,11 +21440,12 @@ module.exports = {
               Phosphorus: 1
             },
             features: {
-              brokenregen: [ -.2, -.15 ],
-              explres: [ 0, .03 ],
-              kinres: [ 0, .03 ],
-              optmul: [ .05, .1 ],
-              thermres: [ 0, .03 ]
+              brokenregen: [ -.1, -.1 ],
+              distdraw: [ .04, .04 ],
+              explres: [ 0, .0225 ],
+              kinres: [ 0, .027 ],
+              optmul: [ 0, .14 ],
+              thermres: [ 0, .054 ]
             }
           },
           "2": {
@@ -21451,12 +21454,12 @@ module.exports = {
               Phosphorus: 1
             },
             features: {
-              brokenregen: [ -.24, -.12 ],
-              explres: [ .02, .06 ],
-              kinres: [ .02, .06 ],
-              optmul: [ .07, .15 ],
-              regen: [ -.06, -.04 ],
-              thermres: [ .02, .06 ]
+              brokenregen: [ -.1, -.1 ],
+              distdraw: [ .06, .06 ],
+              explres: [ .0225, .0375 ],
+              kinres: [ .027, .045 ],
+              optmul: [ .14, .2 ],
+              thermres: [ .054, .09 ]
             }
           },
           "3": {
@@ -21466,13 +21469,12 @@ module.exports = {
               Phosphorus: 1
             },
             features: {
-              brokenregen: [ -.27, -.09 ],
-              distdraw: [ .05, 0 ],
-              explres: [ .04, .09 ],
-              kinres: [ .04, .06 ],
-              optmul: [ .09, .2 ],
-              regen: [ -.09, -.03 ],
-              thermres: [ .04, .09 ]
+              brokenregen: [ -.1, -.1 ],
+              distdraw: [ .08, .08 ],
+              explres: [ .0375, .0525 ],
+              kinres: [ .045, .063 ],
+              optmul: [ .2, .26 ],
+              thermres: [ .09, .126 ]
             }
           },
           "4": {
@@ -21482,13 +21484,12 @@ module.exports = {
               Manganese: 1
             },
             features: {
-              brokenregen: [ -.3, -.06 ],
-              distdraw: [ .1, .05 ],
-              explres: [ .06, .12 ],
-              kinres: [ .06, .12 ],
-              optmul: [ .1, .25 ],
-              regen: [ -.12, -.02 ],
-              thermres: [ .06, .12 ]
+              brokenregen: [ -.1, -.1 ],
+              distdraw: [ .1, .1 ],
+              explres: [ .0525, .0675 ],
+              kinres: [ .063, .081 ],
+              optmul: [ .26, .32 ],
+              thermres: [ .126, .162 ]
             }
           },
           "5": {
@@ -21498,13 +21499,12 @@ module.exports = {
               "Improvised Components": 1
             },
             features: {
-              brokenregen: [ -.33, -.03 ],
-              distdraw: [ .15, .1 ],
-              explres: [ .08, .15 ],
-              kinres: [ .08, .15 ],
-              optmul: [ .13, .3 ],
-              regen: [ -.15, -.01 ],
-              thermres: [ .08, .15 ]
+              brokenregen: [ -.1, -.1 ],
+              distdraw: [ .12, .12 ],
+              explres: [ .0675, .0825 ],
+              kinres: [ .081, .099 ],
+              optmul: [ .32, .38 ],
+              thermres: [ .162, .198 ]
             }
           }
         },
@@ -21521,8 +21521,8 @@ module.exports = {
             },
             features: {
               integrity: [ 0, .2 ],
-              kinres: [ -.05, 0 ],
-              thermres: [ .05, .1 ]
+              kinres: [ -.02, -.02 ],
+              thermres: [ 0, .12 ]
             }
           },
           "2": {
@@ -21531,9 +21531,9 @@ module.exports = {
               Germanium: 1
             },
             features: {
-              integrity: [ .05, .25 ],
-              kinres: [ -.1, -.02 ],
-              thermres: [ .07, .2 ]
+              integrity: [ .2, .25 ],
+              kinres: [ -.05, -.05 ],
+              thermres: [ .12, .24 ]
             }
           },
           "3": {
@@ -21543,9 +21543,9 @@ module.exports = {
               Selenium: 1
             },
             features: {
-              integrity: [ .1, .3 ],
-              kinres: [ -.15, -.04 ],
-              thermres: [ .09, .3 ]
+              integrity: [ .25, .3 ],
+              kinres: [ -.07, -.07 ],
+              thermres: [ .24, .36 ]
             }
           },
           "4": {
@@ -21555,9 +21555,9 @@ module.exports = {
               Mercury: 1
             },
             features: {
-              integrity: [ .15, .35 ],
-              kinres: [ -.2, -.06 ],
-              thermres: [ .11, .4 ]
+              integrity: [ .3, .35 ],
+              kinres: [ -.1, -.1 ],
+              thermres: [ .36, .48 ]
             }
           },
           "5": {
@@ -21567,9 +21567,9 @@ module.exports = {
               "Untypical Shield Scans": 1
             },
             features: {
-              integrity: [ .2, .4 ],
-              kinres: [ -.25, -.08 ],
-              thermres: [ .13, .5 ]
+              integrity: [ .35, .4 ],
+              kinres: [ -.12, -.12 ],
+              thermres: [ .48, .6 ]
             }
           }
         },
@@ -22975,11 +22975,20 @@ module.exports = {
       },
       special_auto_loader: {},
       special_choke_canister: {},
+      special_feedback_cascade_cooled: {
+        thermload: -.4
+      },
+      special_super_penetrator_cooled: {
+        thermload: -.4
+      },
       special_concordant_sequence: {
         thermload: .5
       },
       special_corrosive_shell: {
         ammo: -.2
+      },
+      special_plasma_slug_cooled: {
+        thermload: -.4
       },
       special_dispersal_field: {},
       special_distortion_field: {},
@@ -23057,6 +23066,216 @@ module.exports = {
       },
       special_thermalshock: {
         damage: -.2
+      },
+      special_penetrator_munitions: {},
+      special_deep_cut_payload: {},
+      special_mass_lock: {},
+      special_shield_regenerative: {
+        brokenregen: .15,
+        regen: .15,
+        thermres: -1,
+        kinres: -1,
+        explres: -1
+      },
+      special_shield_resistive: {
+        thermres: 3,
+        kinres: 3,
+        explres: 3,
+        power: .1,
+        distdraw: .25
+      },
+      special_shield_health: {
+        power: .1,
+        optmul: .06,
+        distdraw: .25
+      },
+      special_shield_efficient: {
+        power: -.2,
+        distdraw: -.2,
+        thermres: -1,
+        optmul: -.02,
+        kinres: -1,
+        explres: -1
+      },
+      special_shield_thermic: {
+        optmul: -.03,
+        thermres: 8
+      },
+      special_shield_kinetic: {
+        optmul: -.03,
+        kinres: 8
+      },
+      special_shield_toughened: {
+        integrity: .15
+      },
+      special_shield_lightweight: {
+        mass: -.1
+      },
+      special_engine_cooled: {
+        mass: .1,
+        thermload: -.1
+      },
+      special_engine_haulage: {
+        optmass: .1
+      },
+      special_engine_overloaded: {
+        optmul: .04,
+        thermload: .1
+      },
+      special_engine_toughened: {
+        integrity: .15
+      },
+      special_engine_lightweight: {
+        mass: -.1
+      },
+      special_fsd_fuelcapacity: {
+        power: .05,
+        maxfuel: .1
+      },
+      special_fsd_heavy: {
+        integrity: -.08,
+        optmass: .04
+      },
+      special_fsd_toughened: {
+        integrity: .15
+      },
+      special_fsd_lightweight: {
+        mass: -.1
+      },
+      special_fsd_cooled: {
+        thermload: -.1
+      },
+      special_powerplant_highcharge: {
+        mass: .1,
+        power: .05
+      },
+      special_powerplant_cooled: {
+        eff: -.1
+      },
+      special_powerplant_toughened: {
+        integrity: .15
+      },
+      special_powerplant_lightweight: {
+        mass: -.1
+      },
+      special_powerdistributor_capacity: {
+        wepcap: .08,
+        syscap: .08,
+        engcap: .08,
+        weprate: -.02,
+        sysrate: -.02,
+        engrate: -.02
+      },
+      special_powerdistributor_fast: {
+        wepcap: -.04,
+        syscap: -.04,
+        engcap: -.04,
+        weprate: .04,
+        sysrate: .04,
+        engrate: .04
+      },
+      special_powerdistributor_efficient: {
+        power: -.1
+      },
+      special_powerdistributor_toughened: {
+        integrity: .15
+      },
+      special_powerdistributor_lightweight: {
+        mass: -.1
+      },
+      special_shieldcell_gradual: {
+        duration: .1,
+        shieldreinforcement: -.05
+      },
+      special_shieldcell_oversized: {
+        spinup: .2,
+        shieldreinforcement: .05
+      },
+      special_shieldcell_efficient: {
+        power: -.1
+      },
+      special_shieldcell_toughened: {
+        integrity: .15
+      },
+      special_shieldcell_lightweight: {
+        mass: -.1
+      },
+      special_weapon_damage: {
+        power: .05,
+        damage: .03
+      },
+      special_weapon_rateoffire: {
+        power: .05,
+        rof: .03
+      },
+      special_weapon_efficient: {
+        power: -.1
+      },
+      special_weapon_toughened: {
+        integrity: .15
+      },
+      special_weapon_lightweight: {
+        mass: -.1
+      },
+      special_armour_thermic: {
+        hullboost: -.03,
+        thermres: 8
+      },
+      special_armour_kinetic: {
+        hullboost: -.03,
+        kinres: 8
+      },
+      special_armour_explosive: {
+        hullboost: -.03,
+        explres: 8
+      },
+      special_armour_chunky: {
+        hullboost: .08,
+        thermres: -3,
+        explres: -3,
+        kinres: -3
+      },
+      special_hullreinforcement_thermic: {
+        hullreinforcement: -.05,
+        thermres: 2
+      },
+      special_hullreinforcement_kinetic: {
+        hullreinforcement: -.05,
+        kinres: 2
+      },
+      special_hullreinforcement_explosive: {
+        hullreinforcement: -.05,
+        explres: 2
+      },
+      special_hullreinforcement_chunky: {
+        hullreinforcement: .1,
+        explres: 2,
+        thermres: 2,
+        kinres: 2
+      },
+      special_shieldbooster_thermic: {
+        optmul: -.01,
+        thermres: 2
+      },
+      special_shieldbooster_kinetic: {
+        optmul: -.01,
+        kinres: 2
+      },
+      special_shieldbooster_explosive: {
+        optmul: -.01,
+        explres: 2
+      },
+      special_shieldbooster_efficient: {
+        power: -.1
+      },
+      special_shieldbooster_toughened: {
+        integrity: .15
+      },
+      special_shieldbooster_chunky: {
+        optmul: .05,
+        thermres: -2,
+        kinres: -2,
+        explres: -2
       },
       trade_cell_heat_cell_units: {
         shieldreinforcement: -1,
@@ -23273,7 +23492,8 @@ module.exports = {
             }
           }
         },
-        modifications: [ "explres", "hullboost", "kinres", "mass", "thermres" ]
+        modifications: [ "explres", "hullboost", "kinres", "mass", "thermres" ],
+        specials: [ "special_armour_kinetic", "special_armour_explosive", "special_armour_chunky", "special_armour_thermic" ]
       },
       bl: {
         blueprints: {
@@ -23393,7 +23613,7 @@ module.exports = {
           }
         },
         modifications: [ "damage", "damagedist", "distdraw", "fallofffromrange", "integrity", "jitter", "mass", "piercing", "power", "range", "thermload" ],
-        specials: [ "special_concordant_sequence", "special_regeneration_sequence", "special_thermal_conduit", "special_thermalshock", "special_thermal_vent" ]
+        specials: [ "special_concordant_sequence", "special_regeneration_sequence", "special_thermal_conduit", "special_thermalshock", "special_thermal_vent", "special_weapon_damage", "special_weapon_efficient", "special_weapon_rateoffire", "special_weapon_toughened", "special_weapon_lightweight" ]
       },
       bsg: {
         blueprints: {
@@ -23474,7 +23694,8 @@ module.exports = {
             }
           }
         },
-        modifications: [ "boot", "brokenregen", "distdraw", "explres", "integrity", "kinres", "mass", "optmass", "optmul", "power", "regen", "thermload", "thermres" ]
+        modifications: [ "boot", "brokenregen", "distdraw", "explres", "integrity", "kinres", "mass", "optmass", "optmul", "power", "regen", "thermload", "thermres" ],
+        specials: [ "special_shield_regenerative", "special_shield_resistive", "special_shield_health", "special_shield_efficient", "special_shield_thermic", "special_shield_kinetic", "special_shield_toughened", "special_shield_lightweight" ]
       },
       c: {
         blueprints: {
@@ -23613,7 +23834,7 @@ module.exports = {
           }
         },
         modifications: [ "ammo", "clip", "damage", "damagedist", "distdraw", "fallofffromrange", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "shotspeed", "thermload" ],
-        specials: [ "special_auto_loader", "special_dispersal_field", "special_smart_rounds", "special_force_shell", "special_high_yield_shell", "special_thermal_cascade" ]
+        specials: [ "special_auto_loader", "special_dispersal_field", "special_smart_rounds", "special_force_shell", "special_high_yield_shell", "special_thermal_cascade", "special_weapon_damage", "special_weapon_efficient", "special_weapon_rateoffire", "special_weapon_toughened", "special_weapon_lightweight" ]
       },
       cc: {
         blueprints: {
@@ -24076,7 +24297,7 @@ module.exports = {
           }
         },
         modifications: [ "ammo", "burst", "burstrof", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "shotspeed", "thermload" ],
-        specials: [ "special_corrosive_shell", "special_blinding_shell", "special_incendiary_rounds", "special_drag_munitions", "special_screening_shell" ]
+        specials: [ "special_corrosive_shell", "special_blinding_shell", "special_incendiary_rounds", "special_drag_munitions", "special_screening_shell", "special_weapon_damage", "special_weapon_efficient", "special_weapon_rateoffire", "special_weapon_toughened", "special_weapon_lightweight" ]
       },
       rfl: {
         blueprints: {},
@@ -24201,7 +24422,8 @@ module.exports = {
             }
           }
         },
-        modifications: [ "boot", "integrity", "mass", "maxfuel", "optmass", "power", "thermload" ]
+        modifications: [ "boot", "integrity", "mass", "maxfuel", "optmass", "power", "thermload" ],
+        specials: [ "special_fsd_fuelcapacity", "special_fsd_heavy", "special_fsd_toughened", "special_fsd_lightweight", "special_fsd_cooled" ]
       },
       ft: {
         blueprints: {},
@@ -24429,7 +24651,8 @@ module.exports = {
             }
           }
         },
-        modifications: [ "hullreinforcement", "explres", "hullboost", "kinres", "mass", "thermres" ]
+        modifications: [ "hullreinforcement", "explres", "hullboost", "kinres", "mass", "thermres" ],
+        specials: [ "special_hullreinforcement_thermic", "special_hullreinforcement_kinetic", "special_hullreinforcement_explosive", "special_hullreinforcement_chunky" ]
       },
       hs: {
         blueprints: {
@@ -24828,7 +25051,7 @@ module.exports = {
           }
         },
         modifications: [ "ammo", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "shotspeed", "thermload" ],
-        specials: [ "special_auto_loader", "special_corrosive_shell", "special_emissive_munitions", "special_incendiary_rounds", "special_smart_rounds", "special_thermalshock" ]
+        specials: [ "special_auto_loader", "special_corrosive_shell", "special_emissive_munitions", "special_incendiary_rounds", "special_smart_rounds", "special_thermalshock", "special_weapon_damage", "special_weapon_efficient", "special_weapon_rateoffire", "special_weapon_toughened", "special_weapon_lightweight" ]
       },
       axmc: {
         blueprints: {},
@@ -24918,8 +25141,8 @@ module.exports = {
           }
         },
         modifications: [ "ammo", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "reload", "rof", "thermload" ],
-        specials_S: [ "special_drag_munitions", "special_emissive_munitions", "special_overload_munitions", "special_penetrator_payload", "special_thermal_cascade" ],
-        specials_D: [ "special_drag_munitions", "special_emissive_munitions", "special_fsd_interrupt", "special_overload_munitions", "special_penetrator_payload", "special_thermal_cascade" ]
+        specials_S: [ "special_drag_munitions", "special_emissive_munitions", "special_overload_munitions", "special_penetrator_payload", "special_thermal_cascade", "special_weapon_damage", "special_weapon_efficient", "special_weapon_rateoffire", "special_weapon_toughened", "special_weapon_lightweight" ],
+        specials_D: [ "special_drag_munitions", "special_emissive_munitions", "special_fsd_interrupt", "special_overload_munitions", "special_penetrator_payload", "special_thermal_cascade", "special_weapon_damage", "special_weapon_efficient", "special_weapon_rateoffire", "special_weapon_toughened", "special_weapon_lightweight", "special_penetrator_munitions" ]
       },
       axmr: {
         blueprints: {},
@@ -25009,7 +25232,15 @@ module.exports = {
           }
         },
         modifications: [ "ammo", "boot", "clip", "damage", "damagedist", "fallofffromrange", "integrity", "jitter", "mass", "piercing", "power", "reload", "rof", "thermload" ],
-        specials: [ "special_ion_disruptor", "special_overload_munitions", "special_radiant_canister", "special_reverberating_cascade", "special_shiftlock_canister", "special_emissive_munitions" ]
+        specials: [ "special_ion_disruptor", "special_overload_munitions", "special_radiant_canister", "special_reverberating_cascade", "special_shiftlock_canister", "special_emissive_munitions", "special_weapon_damage", "special_weapon_efficient", "special_weapon_rateoffire", "special_weapon_toughened", "special_weapon_lightweight" ]
+      },
+      gpl: {
+        blueprints: {},
+        modifications: []
+      },
+      ggc: {
+        blueprints: {},
+        modifications: []
       },
       pa: {
         blueprints: {
@@ -25167,7 +25398,7 @@ module.exports = {
           }
         },
         modifications: [ "ammo", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "thermload" ],
-        specials: [ "special_blinding_shell", "special_dispersal_field", "special_phasing_sequence", "special_plasma_slug", "special_lock_breaker", "special_thermal_conduit" ]
+        specials: [ "special_blinding_shell", "special_dispersal_field", "special_phasing_sequence", "special_plasma_slug", "special_lock_breaker", "special_thermal_conduit", "special_weapon_damage", "special_weapon_efficient", "special_weapon_rateoffire", "special_weapon_toughened", "special_weapon_lightweight" ]
       },
       pas: {
         blueprints: {},
@@ -25350,7 +25581,8 @@ module.exports = {
             }
           }
         },
-        modifications: [ "boot", "engcap", "engrate", "integrity", "mass", "power", "syscap", "sysrate", "wepcap", "weprate" ]
+        modifications: [ "boot", "engcap", "engrate", "integrity", "mass", "power", "syscap", "sysrate", "wepcap", "weprate" ],
+        specials: [ "special_powerdistributor_capacity", "special_powerdistributor_fast", "special_powerdistributor_efficient", "special_powerdistributor_toughened", "special_powerdistributor_lightweight" ]
       },
       pl: {
         blueprints: {
@@ -25508,7 +25740,7 @@ module.exports = {
           }
         },
         modifications: [ "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "rof", "thermload" ],
-        specials: [ "special_concordant_sequence", "special_emissive_munitions", "special_phasing_sequence", "special_scramble_spectrum", "special_thermalshock" ]
+        specials: [ "special_concordant_sequence", "special_emissive_munitions", "special_phasing_sequence", "special_scramble_spectrum", "special_thermalshock", "special_weapon_damage", "special_weapon_efficient", "special_weapon_rateoffire", "special_weapon_toughened", "special_weapon_lightweight" ]
       },
       po: {
         blueprints: {
@@ -25633,7 +25865,8 @@ module.exports = {
             }
           }
         },
-        modifications: [ "eff", "integrity", "mass", "pgen" ]
+        modifications: [ "eff", "integrity", "mass", "pgen" ],
+        specials: [ "special_powerplant_highcharge", "special_powerplant_cooled", "special_powerplant_toughened", "special_powerplant_lightweight" ]
       },
       psg: {
         blueprints: {
@@ -25714,7 +25947,8 @@ module.exports = {
             }
           }
         },
-        modifications: [ "boot", "brokenregen", "distdraw", "explres", "integrity", "kinres", "mass", "optmass", "optmul", "power", "regen", "thermload", "thermres" ]
+        modifications: [ "boot", "brokenregen", "distdraw", "explres", "integrity", "kinres", "mass", "optmass", "optmul", "power", "regen", "thermload", "thermres" ],
+        specials: [ "special_shield_regenerative", "special_shield_resistive", "special_shield_health", "special_shield_efficient", "special_shield_thermic", "special_shield_kinetic", "special_shield_toughened", "special_shield_lightweight" ]
       },
       pv: {
         blueprints: {},
@@ -25840,7 +26074,7 @@ module.exports = {
           }
         },
         modifications: [ "ammo", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "thermload" ],
-        specials: [ "special_feedback_cascade", "special_plasma_slug", "special_super_penetrator" ]
+        specials: [ "special_feedback_cascade", "special_feedback_cascade_cooled", "special_plasma_slug", "special_plasma_slug_cooled", "special_super_penetrator", "special_super_penetrator_cooled", "special_weapon_damage", "special_weapon_efficient", "special_weapon_rateoffire", "special_weapon_toughened", "special_weapon_lightweight" ]
       },
       s: {
         blueprints: {
@@ -26002,7 +26236,8 @@ module.exports = {
             }
           }
         },
-        modifications: [ "explres", "integrity", "kinres", "mass", "power", "shieldboost", "thermres" ]
+        modifications: [ "explres", "integrity", "kinres", "mass", "power", "shieldboost", "thermres" ],
+        specials: [ "special_shieldbooster_thermic", "special_shieldbooster_kinetic", "special_shieldbooster_explosive", "special_shieldbooster_efficient", "special_shieldbooster_toughened", "special_shieldbooster_chunky" ]
       },
       sfn: {
         blueprints: {},
@@ -26041,7 +26276,8 @@ module.exports = {
             }
           }
         },
-        modifications: [ "boot", "clip", "duration", "integrity", "mass", "power", "shieldreinforcement", "spinup", "thermload" ]
+        modifications: [ "boot", "clip", "duration", "integrity", "mass", "power", "shieldreinforcement", "spinup", "thermload" ],
+        specials: [ "special_shieldcell_gradual", "special_shieldcell_oversized", "special_shieldcell_efficient", "special_shieldcell_toughened", "special_shieldcell_lightweight" ]
       },
       sg: {
         blueprints: {
@@ -26122,7 +26358,8 @@ module.exports = {
             }
           }
         },
-        modifications: [ "boot", "brokenregen", "distdraw", "explres", "integrity", "kinres", "mass", "optmass", "optmul", "power", "regen", "thermload", "thermres" ]
+        modifications: [ "boot", "brokenregen", "distdraw", "explres", "integrity", "kinres", "mass", "optmass", "optmul", "power", "regen", "thermload", "thermres" ],
+        specials: [ "special_shield_regenerative", "special_shield_resistive", "special_shield_health", "special_shield_efficient", "special_shield_thermic", "special_shield_kinetic", "special_shield_toughened", "special_shield_lightweight" ]
       },
       ss: {
         blueprints: {
@@ -26250,7 +26487,8 @@ module.exports = {
             }
           }
         },
-        modifications: [ "integrity", "mass", "optmass", "optmul", "power", "thermload" ]
+        modifications: [ "integrity", "mass", "optmass", "optmul", "power", "thermload" ],
+        specials: [ "special_engine_cooled", "special_engine_haulage", "special_engine_overloaded", "special_engine_toughened", "special_engine_lightweight" ]
       },
       tp: {
         blueprints: {
@@ -26294,7 +26532,7 @@ module.exports = {
           }
         },
         modifications: [ "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "rof", "thermload" ],
-        specials: [ "special_mass_lock_munition", "special_penetrator_payload", "special_reverberating_cascade" ]
+        specials: [ "special_mass_lock_munition", "special_penetrator_payload", "special_reverberating_cascade", "special_weapon_damage", "special_weapon_efficient", "special_weapon_rateoffire", "special_weapon_toughened", "special_weapon_lightweight", "special_deep_cut_payload", "special_mass_lock" ]
       },
       ul: {
         blueprints: {
@@ -26452,7 +26690,7 @@ module.exports = {
           }
         },
         modifications: [ "burst", "burstrof", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "rof", "thermload" ],
-        specials: [ "special_concordant_sequence", "special_inertial_impact", "special_phasing_sequence", "special_scramble_spectrum", "special_thermalshock" ]
+        specials: [ "special_concordant_sequence", "special_inertial_impact", "special_phasing_sequence", "special_scramble_spectrum", "special_thermalshock", "special_weapon_damage", "special_weapon_efficient", "special_weapon_rateoffire", "special_weapon_toughened", "special_weapon_lightweight" ]
       },
       ws: {
         blueprints: {
@@ -26744,6 +26982,291 @@ module.exports = {
         id: 31,
         edname: "special_thermalshock",
         name: "Thermal shock"
+      },
+      special_feedback_cascade_cooled: {
+        name: "Feedback Cascade",
+        id: 100,
+        edname: "special_feedback_cascade_cooled"
+      },
+      special_super_penetrator_cooled: {
+        name: "Super Penetrator",
+        id: 101,
+        edname: "special_super_penetrator_cooled"
+      },
+      special_plasma_slug_cooled: {
+        name: "Plasma Slug",
+        id: 102,
+        edname: "special_plasma_slug_cooled"
+      },
+      special_penetrator_munitions: {
+        name: "Penetrator Munitions",
+        id: 103,
+        edname: "special_penetrator_munitions"
+      },
+      special_deep_cut_payload: {
+        name: "Penetrator Payload",
+        id: 104,
+        edname: "special_deep_cut_payload"
+      },
+      special_mass_lock: {
+        name: "Mass Lock Munition",
+        id: 105,
+        edname: "special_mass_lock"
+      },
+      special_shield_regenerative: {
+        name: "Fast Charge",
+        id: 106,
+        edname: "special_shield_regenerative"
+      },
+      special_shield_resistive: {
+        name: "Multi-weave",
+        id: 107,
+        edname: "special_shield_resistive"
+      },
+      special_shield_health: {
+        name: "Hi-Cap",
+        id: 108,
+        edname: "special_shield_health"
+      },
+      special_shield_efficient: {
+        name: "Lo-draw",
+        id: 109,
+        edname: "special_shield_efficient"
+      },
+      special_shield_thermic: {
+        name: "Thermo Block",
+        id: 110,
+        edname: "special_shield_thermic"
+      },
+      special_shield_kinetic: {
+        name: "Force Block",
+        id: 111,
+        edname: "special_shield_kinetic"
+      },
+      special_shield_toughened: {
+        name: "Double Braced",
+        id: 112,
+        edname: "special_shield_toughened"
+      },
+      special_shield_lightweight: {
+        name: "Stripped Down",
+        id: 113,
+        edname: "special_shield_lightweight"
+      },
+      special_engine_cooled: {
+        name: "Thermal Spread",
+        id: 114,
+        edname: "special_engine_cooled"
+      },
+      special_engine_haulage: {
+        name: "Drive Distributors",
+        id: 115,
+        edname: "special_engine_haulage"
+      },
+      special_engine_overloaded: {
+        name: "Drag Drives",
+        id: 116,
+        edname: "special_engine_overloaded"
+      },
+      special_engine_toughened: {
+        name: "Double Braced",
+        id: 117,
+        edname: "special_engine_toughened"
+      },
+      special_engine_lightweight: {
+        name: "Stripped Down",
+        id: 118,
+        edname: "special_engine_lightweight"
+      },
+      special_fsd_fuelcapacity: {
+        name: "Deep Charge",
+        id: 119,
+        edname: "special_fsd_fuelcapacity"
+      },
+      special_fsd_heavy: {
+        name: "Mass Manager",
+        id: 120,
+        edname: "special_fsd_heavy"
+      },
+      special_fsd_toughened: {
+        name: "Double Braced",
+        id: 121,
+        edname: "special_fsd_toughened"
+      },
+      special_fsd_lightweight: {
+        name: "Stripped Down",
+        id: 122,
+        edname: "special_fsd_lightweight"
+      },
+      special_fsd_cooled: {
+        name: "Thermal Spread",
+        id: 123,
+        edname: "special_fsd_cooled"
+      },
+      special_powerplant_highcharge: {
+        name: "Monstered",
+        id: 124,
+        edname: "special_powerplant_highcharge"
+      },
+      special_powerplant_cooled: {
+        name: "Thermal Spread",
+        id: 125,
+        edname: "special_powerplant_cooled"
+      },
+      special_powerplant_toughened: {
+        name: "Double Braced",
+        id: 126,
+        edname: "special_powerplant_toughened"
+      },
+      special_powerplant_lightweight: {
+        name: "Stripped Down",
+        id: 127,
+        edname: "special_powerplant_lightweight"
+      },
+      special_powerdistributor_capacity: {
+        name: "Cluster Capacitors",
+        id: 128,
+        edname: "special_powerdistributor_capacity"
+      },
+      special_powerdistributor_fast: {
+        name: "Super Conduits",
+        id: 129,
+        edname: "special_powerdistributor_fast"
+      },
+      special_powerdistributor_efficient: {
+        name: "Flow Control",
+        id: 130,
+        edname: "special_powerdistributor_efficient"
+      },
+      special_powerdistributor_toughened: {
+        name: "Double Braced",
+        id: 131,
+        edname: "special_powerdistributor_toughened"
+      },
+      special_powerdistributor_lightweight: {
+        name: "Stripped Down",
+        id: 132,
+        edname: "special_powerdistributor_lightweight"
+      },
+      special_shieldcell_gradual: {
+        name: "Recycling Cell",
+        id: 133,
+        edname: "special_shieldcell_gradual"
+      },
+      special_shieldcell_oversized: {
+        name: "Boss Cells",
+        id: 134,
+        edname: "special_shieldcell_oversized"
+      },
+      special_shieldcell_efficient: {
+        name: "Flow Control",
+        id: 135,
+        edname: "special_shieldcell_efficient"
+      },
+      special_shieldcell_toughened: {
+        name: "Double Braced",
+        id: 136,
+        edname: "special_shieldcell_toughened"
+      },
+      special_shieldcell_lightweight: {
+        name: "Stripped Down",
+        id: 137,
+        edname: "special_shieldcell_lightweight"
+      },
+      special_weapon_damage: {
+        name: "Oversized",
+        id: 138,
+        edname: "special_weapon_damage"
+      },
+      special_weapon_rateoffire: {
+        name: "Multi-servos",
+        id: 139,
+        edname: "special_weapon_rateoffire"
+      },
+      special_weapon_efficient: {
+        name: "Flow Control",
+        id: 140,
+        edname: "special_weapon_efficient"
+      },
+      special_weapon_toughened: {
+        name: "Double Braced",
+        id: 141,
+        edname: "special_weapon_toughened"
+      },
+      special_weapon_lightweight: {
+        name: "Stripped Down",
+        id: 142,
+        edname: "special_weapon_lightweight"
+      },
+      special_armour_thermic: {
+        name: "Reflective Plating",
+        id: 143,
+        edname: "special_armour_thermic"
+      },
+      special_armour_kinetic: {
+        name: "Angled Plating",
+        id: 144,
+        edname: "special_armour_kinetic"
+      },
+      special_armour_explosive: {
+        name: "Layered Plating",
+        id: 145,
+        edname: "special_armour_explosive"
+      },
+      special_armour_chunky: {
+        name: "Deep Plating",
+        id: 146,
+        edname: "special_armour_chunky"
+      },
+      special_hullreinforcement_thermic: {
+        name: "Reflective Plating",
+        id: 147,
+        edname: "special_hullreinforcement_thermic"
+      },
+      special_hullreinforcement_kinetic: {
+        name: "Angled Plating",
+        id: 148,
+        edname: "special_hullreinforcement_kinetic"
+      },
+      special_hullreinforcement_explosive: {
+        name: "Layered Plating",
+        id: 149,
+        edname: "special_hullreinforcement_explosive"
+      },
+      special_hullreinforcement_chunky: {
+        name: "Deep Plating",
+        id: 150,
+        edname: "special_hullreinforcement_chunky"
+      },
+      special_shieldbooster_thermic: {
+        name: "Thermo Block",
+        id: 151,
+        edname: "special_shieldbooster_thermic"
+      },
+      special_shieldbooster_kinetic: {
+        name: "Force Block",
+        id: 152,
+        edname: "special_shieldbooster_kinetic"
+      },
+      special_shieldbooster_explosive: {
+        name: "Blast Block",
+        id: 153,
+        edname: "special_shieldbooster_explosive"
+      },
+      special_shieldbooster_efficient: {
+        name: "Flow Control",
+        id: 154,
+        edname: "special_shieldbooster_efficient"
+      },
+      special_shieldbooster_toughened: {
+        name: "Double Braced",
+        id: 155,
+        edname: "special_shieldbooster_toughened"
+      },
+      special_shieldbooster_chunky: {
+        name: "Super Capacitors",
+        id: 156,
+        edname: "special_shieldbooster_chunky"
       }
     }
   }
