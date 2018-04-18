@@ -568,6 +568,16 @@
       "regen",
       "thermload",
       "thermres"
+    ],
+    "specials": [
+      "special_shield_regenerative",
+      "special_shield_resistive",
+      "special_shield_health",
+      "special_shield_efficient",
+      "special_shield_thermic",
+      "special_shield_kinetic",
+      "special_shield_toughened",
+      "special_shield_lightweight"
     ]
   },
   "c": {
@@ -4642,6 +4652,16 @@
       "regen",
       "thermload",
       "thermres"
+    ],
+    "specials": [
+      "special_shield_regenerative",
+      "special_shield_resistive",
+      "special_shield_health",
+      "special_shield_efficient",
+      "special_shield_thermic",
+      "special_shield_kinetic",
+      "special_shield_toughened",
+      "special_shield_lightweight"
     ]
   },
   "pv": {
@@ -4867,8 +4887,11 @@
     ],
     "specials": [
       "special_feedback_cascade",
+      "special_feedback_cascade_cooled",
       "special_plasma_slug",
-      "special_super_penetrator"
+      "special_plasma_slug_cooled",
+      "special_super_penetrator",
+      "special_super_penetrator_cooled"
     ]
   },
   "s": {
@@ -5435,6 +5458,16 @@
       "regen",
       "thermload",
       "thermres"
+    ],
+    "specials": [
+      "special_shield_regenerative",
+      "special_shield_resistive",
+      "special_shield_health",
+      "special_shield_efficient",
+      "special_shield_thermic",
+      "special_shield_kinetic",
+      "special_shield_toughened",
+      "special_shield_lightweight"
     ]
   },
   "ss": {
