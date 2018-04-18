@@ -323,14 +323,21 @@
     "mass": -0.1
   },
   "special_fsd_fuelcapacity": {
+    "power": 0.05,
+    "maxfuel": 0.1
   },
   "special_fsd_heavy": {
+    "integrity": -0.08,
+    "optmass": 0.04
   },
   "special_fsd_toughened": {
+    "integrity": 0.15
   },
   "special_fsd_lightweight": {
+    "mass": -0.1
   },
   "special_fsd_cooled": {
+    "thermload": -0.1
   },
   "special_powerplant_highcharge": {
   },
