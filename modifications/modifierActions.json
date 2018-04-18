@@ -348,14 +348,29 @@
   "special_powerplant_lightweight": {
   },
   "special_powerdistributor_capacity": {
+    "wepcap": 0.08,
+    "syscap": 0.08,
+    "engcap": 0.08,
+    "weprate": -0.02,
+    "sysrate": -0.02,
+    "engrate": -0.02
   },
   "special_powerdistributor_fast": {
+    "wepcap": -0.04,
+    "syscap": -0.04,
+    "engcap": -0.04,
+    "weprate": 0.04,
+    "sysrate": 0.04,
+    "engrate": 0.04
   },
   "special_powerdistributor_efficient": {
+    "power": -0.1
   },
   "special_powerdistributor_toughened": {
+    "integrity": 0.15
   },
   "special_powerdistributor_lightweight": {
+    "mass": -0.1
   },
   "special_shieldcell_gradual": {
   },
