@@ -388,14 +388,21 @@
   "special_shieldcell_lightweight": {
   },
   "special_weapon_damage": {
+    "power": 0.05,
+    "damage": 0.03
   },
   "special_weapon_rateoffire": {
+    "power": 0.05,
+    "rof": 0.03
   },
   "special_weapon_efficient": {
+    "power": -0.1
   },
   "special_weapon_toughened": {
+    "integrity": 0.15
   },
   "special_weapon_lightweight": {
+    "mass": -0.1
   },
   "special_armour_thermic": {
   },
