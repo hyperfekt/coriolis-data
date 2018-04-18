@@ -340,12 +340,17 @@
     "thermload": -0.1
   },
   "special_powerplant_highcharge": {
+    "mass": 0.1,
+    "power": 0.05
   },
   "special_powerplant_cooled": {
+    "eff": -0.1
   },
   "special_powerplant_toughened": {
+    "integrity": 0.15
   },
   "special_powerplant_lightweight": {
+    "mass": -0.1
   },
   "special_powerdistributor_capacity": {
     "wepcap": 0.08,
