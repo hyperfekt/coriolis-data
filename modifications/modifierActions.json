@@ -412,12 +412,22 @@
     "mass": -0.1
   },
   "special_armour_thermic": {
+    "hullboost": -0.03,
+    "thermres": 8
   },
   "special_armour_kinetic": {
+    "hullboost": -0.03,
+    "kinres": 8
   },
   "special_armour_explosive": {
+    "hullboost": -0.03,
+    "explres": 8
   },
   "special_armour_chunky": {
+    "hullboost": 0.08,
+    "thermres": -3,
+    "explres": -3,
+    "kinres": -3
   },
   "special_hullreinforcement_thermic": {
   },
