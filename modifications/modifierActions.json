@@ -430,12 +430,22 @@
     "kinres": -3
   },
   "special_hullreinforcement_thermic": {
+    "hullreinforcement": -0.05,
+    "thermres": 2
   },
   "special_hullreinforcement_kinetic": {
+    "hullreinforcement": -0.05,
+    "kinres": 2
   },
   "special_hullreinforcement_explosive": {
+    "hullreinforcement": -0.05,
+    "explres": 2
   },
   "special_hullreinforcement_chunky": {
+    "hullreinforcement": 0.1,
+    "explres": 2,
+    "thermres": 2,
+    "kinres": 2
   },
   "special_shieldbooster_thermic": {
     "optmul": -0.01,
