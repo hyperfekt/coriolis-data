@@ -22975,11 +22975,20 @@ module.exports = {
       },
       special_auto_loader: {},
       special_choke_canister: {},
+      special_feedback_cascade_cooled: {
+        thermload: -.4
+      },
+      special_super_penetrator_cooled: {
+        thermload: -.4
+      },
       special_concordant_sequence: {
         thermload: .5
       },
       special_corrosive_shell: {
         ammo: -.2
+      },
+      special_plasma_slug_cooled: {
+        thermload: -.4
       },
       special_dispersal_field: {},
       special_distortion_field: {},
@@ -23058,6 +23067,69 @@ module.exports = {
       special_thermalshock: {
         damage: -.2
       },
+      special_penetrator_munitions: {},
+      special_deep_cut_payload: {},
+      special_mass_lock: {},
+      special_shield_regenerative: {
+        brokenregen: .15,
+        regen: .15
+      },
+      special_shield_resistive: {
+        thermres: 3.71,
+        kinres: 1.62,
+        explres: 1.5
+      },
+      special_shield_health: {},
+      special_shield_efficient: {},
+      special_shield_thermic: {},
+      special_shield_kinetic: {},
+      special_shield_toughened: {},
+      special_shield_lightweight: {
+        mass: -.1
+      },
+      special_engine_cooled: {},
+      special_engine_haulage: {},
+      special_engine_overloaded: {},
+      special_engine_toughened: {},
+      special_engine_lightweight: {},
+      special_fsd_fuelcapacity: {},
+      special_fsd_heavy: {},
+      special_fsd_toughened: {},
+      special_fsd_lightweight: {},
+      special_fsd_cooled: {},
+      special_powerplant_highcharge: {},
+      special_powerplant_cooled: {},
+      special_powerplant_toughened: {},
+      special_powerplant_lightweight: {},
+      special_powerdistributor_capacity: {},
+      special_powerdistributor_fast: {},
+      special_powerdistributor_efficient: {},
+      special_powerdistributor_toughened: {},
+      special_powerdistributor_lightweight: {},
+      special_shieldcell_gradual: {},
+      special_shieldcell_oversized: {},
+      special_shieldcell_efficient: {},
+      special_shieldcell_toughened: {},
+      special_shieldcell_lightweight: {},
+      special_weapon_damage: {},
+      special_weapon_rateoffire: {},
+      special_weapon_efficient: {},
+      special_weapon_toughened: {},
+      special_weapon_lightweight: {},
+      special_armour_thermic: {},
+      special_armour_kinetic: {},
+      special_armour_explosive: {},
+      special_armour_chunky: {},
+      special_hullreinforcement_thermic: {},
+      special_hullreinforcement_kinetic: {},
+      special_hullreinforcement_explosive: {},
+      special_hullreinforcement_chunky: {},
+      special_shieldbooster_thermic: {},
+      special_shieldbooster_kinetic: {},
+      special_shieldbooster_explosive: {},
+      special_shieldbooster_efficient: {},
+      special_shieldbooster_toughened: {},
+      special_shieldbooster_chunky: {},
       trade_cell_heat_cell_units: {
         shieldreinforcement: -1,
         thermload: -1
@@ -23474,7 +23546,8 @@ module.exports = {
             }
           }
         },
-        modifications: [ "boot", "brokenregen", "distdraw", "explres", "integrity", "kinres", "mass", "optmass", "optmul", "power", "regen", "thermload", "thermres" ]
+        modifications: [ "boot", "brokenregen", "distdraw", "explres", "integrity", "kinres", "mass", "optmass", "optmul", "power", "regen", "thermload", "thermres" ],
+        specials: [ "special_shield_regenerative", "special_shield_resistive", "special_shield_health", "special_shield_efficient", "special_shield_thermic", "special_shield_kinetic", "special_shield_toughened", "special_shield_lightweight" ]
       },
       c: {
         blueprints: {
@@ -25714,7 +25787,8 @@ module.exports = {
             }
           }
         },
-        modifications: [ "boot", "brokenregen", "distdraw", "explres", "integrity", "kinres", "mass", "optmass", "optmul", "power", "regen", "thermload", "thermres" ]
+        modifications: [ "boot", "brokenregen", "distdraw", "explres", "integrity", "kinres", "mass", "optmass", "optmul", "power", "regen", "thermload", "thermres" ],
+        specials: [ "special_shield_regenerative", "special_shield_resistive", "special_shield_health", "special_shield_efficient", "special_shield_thermic", "special_shield_kinetic", "special_shield_toughened", "special_shield_lightweight" ]
       },
       pv: {
         blueprints: {},
@@ -25840,7 +25914,7 @@ module.exports = {
           }
         },
         modifications: [ "ammo", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "thermload" ],
-        specials: [ "special_feedback_cascade", "special_plasma_slug", "special_super_penetrator" ]
+        specials: [ "special_feedback_cascade", "special_feedback_cascade_cooled", "special_plasma_slug", "special_plasma_slug_cooled", "special_super_penetrator", "special_super_penetrator_cooled" ]
       },
       s: {
         blueprints: {
@@ -26122,7 +26196,8 @@ module.exports = {
             }
           }
         },
-        modifications: [ "boot", "brokenregen", "distdraw", "explres", "integrity", "kinres", "mass", "optmass", "optmul", "power", "regen", "thermload", "thermres" ]
+        modifications: [ "boot", "brokenregen", "distdraw", "explres", "integrity", "kinres", "mass", "optmass", "optmul", "power", "regen", "thermload", "thermres" ],
+        specials: [ "special_shield_regenerative", "special_shield_resistive", "special_shield_health", "special_shield_efficient", "special_shield_thermic", "special_shield_kinetic", "special_shield_toughened", "special_shield_lightweight" ]
       },
       ss: {
         blueprints: {
@@ -26744,6 +26819,291 @@ module.exports = {
         id: 31,
         edname: "special_thermalshock",
         name: "Thermal shock"
+      },
+      special_feedback_cascade_cooled: {
+        name: "Feedback Cascade",
+        id: 100,
+        edname: "special_feedback_cascade_cooled"
+      },
+      special_super_penetrator_cooled: {
+        name: "Super Penetrator",
+        id: 101,
+        edname: "special_super_penetrator_cooled"
+      },
+      special_plasma_slug_cooled: {
+        name: "Plasma Slug",
+        id: 102,
+        edname: "special_plasma_slug_cooled"
+      },
+      special_penetrator_munitions: {
+        name: "Penetrator Munitions",
+        id: 103,
+        edname: "special_penetrator_munitions"
+      },
+      special_deep_cut_payload: {
+        name: "Penetrator Payload",
+        id: 104,
+        edname: "special_deep_cut_payload"
+      },
+      special_mass_lock: {
+        name: "Mass Lock Munition",
+        id: 105,
+        edname: "special_mass_lock"
+      },
+      special_shield_regenerative: {
+        name: "Fast Charge",
+        id: 106,
+        edname: "special_shield_regenerative"
+      },
+      special_shield_resistive: {
+        name: "Multi-weave",
+        id: 107,
+        edname: "special_shield_resistive"
+      },
+      special_shield_health: {
+        name: "Hi-Cap",
+        id: 108,
+        edname: "special_shield_health"
+      },
+      special_shield_efficient: {
+        name: "Lo-draw",
+        id: 109,
+        edname: "special_shield_efficient"
+      },
+      special_shield_thermic: {
+        name: "Thermo Block",
+        id: 110,
+        edname: "special_shield_thermic"
+      },
+      special_shield_kinetic: {
+        name: "Force Block",
+        id: 111,
+        edname: "special_shield_kinetic"
+      },
+      special_shield_toughened: {
+        name: "Double Braced",
+        id: 112,
+        edname: "special_shield_toughened"
+      },
+      special_shield_lightweight: {
+        name: "Stripped Down",
+        id: 113,
+        edname: "special_shield_lightweight"
+      },
+      special_engine_cooled: {
+        name: "Thermal Spread",
+        id: 114,
+        edname: "special_engine_cooled"
+      },
+      special_engine_haulage: {
+        name: "Drive Distributors",
+        id: 115,
+        edname: "special_engine_haulage"
+      },
+      special_engine_overloaded: {
+        name: "Drag Drives",
+        id: 116,
+        edname: "special_engine_overloaded"
+      },
+      special_engine_toughened: {
+        name: "Double Braced",
+        id: 117,
+        edname: "special_engine_toughened"
+      },
+      special_engine_lightweight: {
+        name: "Stripped Down",
+        id: 118,
+        edname: "special_engine_lightweight"
+      },
+      special_fsd_fuelcapacity: {
+        name: "Deep Charge",
+        id: 119,
+        edname: "special_fsd_fuelcapacity"
+      },
+      special_fsd_heavy: {
+        name: "Mass Manager",
+        id: 120,
+        edname: "special_fsd_heavy"
+      },
+      special_fsd_toughened: {
+        name: "Double Braced",
+        id: 121,
+        edname: "special_fsd_toughened"
+      },
+      special_fsd_lightweight: {
+        name: "Stripped Down",
+        id: 122,
+        edname: "special_fsd_lightweight"
+      },
+      special_fsd_cooled: {
+        name: "Thermal Spread",
+        id: 123,
+        edname: "special_fsd_cooled"
+      },
+      special_powerplant_highcharge: {
+        name: "Monstered",
+        id: 124,
+        edname: "special_powerplant_highcharge"
+      },
+      special_powerplant_cooled: {
+        name: "Thermal Spread",
+        id: 125,
+        edname: "special_powerplant_cooled"
+      },
+      special_powerplant_toughened: {
+        name: "Double Braced",
+        id: 126,
+        edname: "special_powerplant_toughened"
+      },
+      special_powerplant_lightweight: {
+        name: "Stripped Down",
+        id: 127,
+        edname: "special_powerplant_lightweight"
+      },
+      special_powerdistributor_capacity: {
+        name: "Cluster Capacitors",
+        id: 128,
+        edname: "special_powerdistributor_capacity"
+      },
+      special_powerdistributor_fast: {
+        name: "Super Conduits",
+        id: 129,
+        edname: "special_powerdistributor_fast"
+      },
+      special_powerdistributor_efficient: {
+        name: "Flow Control",
+        id: 130,
+        edname: "special_powerdistributor_efficient"
+      },
+      special_powerdistributor_toughened: {
+        name: "Double Braced",
+        id: 131,
+        edname: "special_powerdistributor_toughened"
+      },
+      special_powerdistributor_lightweight: {
+        name: "Stripped Down",
+        id: 132,
+        edname: "special_powerdistributor_lightweight"
+      },
+      special_shieldcell_gradual: {
+        name: "Recycling Cell",
+        id: 133,
+        edname: "special_shieldcell_gradual"
+      },
+      special_shieldcell_oversized: {
+        name: "Boss Cells",
+        id: 134,
+        edname: "special_shieldcell_oversized"
+      },
+      special_shieldcell_efficient: {
+        name: "Flow Control",
+        id: 135,
+        edname: "special_shieldcell_efficient"
+      },
+      special_shieldcell_toughened: {
+        name: "Double Braced",
+        id: 136,
+        edname: "special_shieldcell_toughened"
+      },
+      special_shieldcell_lightweight: {
+        name: "Stripped Down",
+        id: 137,
+        edname: "special_shieldcell_lightweight"
+      },
+      special_weapon_damage: {
+        name: "Oversized",
+        id: 138,
+        edname: "special_weapon_damage"
+      },
+      special_weapon_rateoffire: {
+        name: "Multi-servos",
+        id: 139,
+        edname: "special_weapon_rateoffire"
+      },
+      special_weapon_efficient: {
+        name: "Flow Control",
+        id: 140,
+        edname: "special_weapon_efficient"
+      },
+      special_weapon_toughened: {
+        name: "Double Braced",
+        id: 141,
+        edname: "special_weapon_toughened"
+      },
+      special_weapon_lightweight: {
+        name: "Stripped Down",
+        id: 142,
+        edname: "special_weapon_lightweight"
+      },
+      special_armour_thermic: {
+        name: "Reflective Plating",
+        id: 143,
+        edname: "special_armour_thermic"
+      },
+      special_armour_kinetic: {
+        name: "Angled Plating",
+        id: 144,
+        edname: "special_armour_kinetic"
+      },
+      special_armour_explosive: {
+        name: "Layered Plating",
+        id: 145,
+        edname: "special_armour_explosive"
+      },
+      special_armour_chunky: {
+        name: "Deep Plating",
+        id: 146,
+        edname: "special_armour_chunky"
+      },
+      special_hullreinforcement_thermic: {
+        name: "Reflective Plating",
+        id: 147,
+        edname: "special_hullreinforcement_thermic"
+      },
+      special_hullreinforcement_kinetic: {
+        name: "Angled Plating",
+        id: 148,
+        edname: "special_hullreinforcement_kinetic"
+      },
+      special_hullreinforcement_explosive: {
+        name: "Layered Plating",
+        id: 149,
+        edname: "special_hullreinforcement_explosive"
+      },
+      special_hullreinforcement_chunky: {
+        name: "Deep Plating",
+        id: 150,
+        edname: "special_hullreinforcement_chunky"
+      },
+      special_shieldbooster_thermic: {
+        name: "Thermo Block",
+        id: 151,
+        edname: "special_shieldbooster_thermic"
+      },
+      special_shieldbooster_kinetic: {
+        name: "Force Block",
+        id: 152,
+        edname: "special_shieldbooster_kinetic"
+      },
+      special_shieldbooster_explosive: {
+        name: "Blast Block",
+        id: 153,
+        edname: "special_shieldbooster_explosive"
+      },
+      special_shieldbooster_efficient: {
+        name: "Flow Control",
+        id: 154,
+        edname: "special_shieldbooster_efficient"
+      },
+      special_shieldbooster_toughened: {
+        name: "Double Braced",
+        id: 155,
+        edname: "special_shieldbooster_toughened"
+      },
+      special_shieldbooster_chunky: {
+        name: "Super Capacitors",
+        id: 156,
+        edname: "special_shieldbooster_chunky"
       }
     }
   }
