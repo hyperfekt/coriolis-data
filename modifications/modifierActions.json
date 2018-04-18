@@ -266,22 +266,41 @@
   },
   "special_shield_regenerative": {
     "brokenregen": 0.15,
-    "regen": 0.15
+    "regen": 0.15,
+    "thermres": -1,
+    "kinres": -1,
+    "explres": -1
   },
   "special_shield_resistive": {
-    "thermres": 3.71,
-    "kinres": 1.62,
-    "explres": 1.50
+    "thermres": 3,
+    "kinres": 3,
+    "explres": 3,
+    "power": 0.1,
+    "distdraw": 0.25
   },
   "special_shield_health": {
+    "power": 0.1,
+    "optmul": 0.06,
+    "distdraw": 0.25
   },
   "special_shield_efficient": {
+    "power": -0.2,
+    "distdraw": -0.2,
+    "thermres": -1,
+    "optmul": -0.02,
+    "kinres": -1,
+    "explres": -1
   },
   "special_shield_thermic": {
+    "optmul": -0.03,
+    "thermres": 8
   },
   "special_shield_kinetic": {
+    "optmul": -0.03,
+    "kinres": 8
   },
   "special_shield_toughened": {
+    "integrity": 0.15
   },
   "special_shield_lightweight": {
     "mass": -0.1
