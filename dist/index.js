@@ -23111,49 +23111,172 @@ module.exports = {
       special_shield_lightweight: {
         mass: -.1
       },
-      special_engine_cooled: {},
-      special_engine_haulage: {},
-      special_engine_overloaded: {},
-      special_engine_toughened: {},
-      special_engine_lightweight: {},
-      special_fsd_fuelcapacity: {},
-      special_fsd_heavy: {},
-      special_fsd_toughened: {},
-      special_fsd_lightweight: {},
-      special_fsd_cooled: {},
-      special_powerplant_highcharge: {},
-      special_powerplant_cooled: {},
-      special_powerplant_toughened: {},
-      special_powerplant_lightweight: {},
-      special_powerdistributor_capacity: {},
-      special_powerdistributor_fast: {},
-      special_powerdistributor_efficient: {},
-      special_powerdistributor_toughened: {},
-      special_powerdistributor_lightweight: {},
-      special_shieldcell_gradual: {},
-      special_shieldcell_oversized: {},
-      special_shieldcell_efficient: {},
-      special_shieldcell_toughened: {},
-      special_shieldcell_lightweight: {},
-      special_weapon_damage: {},
-      special_weapon_rateoffire: {},
-      special_weapon_efficient: {},
-      special_weapon_toughened: {},
-      special_weapon_lightweight: {},
-      special_armour_thermic: {},
-      special_armour_kinetic: {},
-      special_armour_explosive: {},
-      special_armour_chunky: {},
-      special_hullreinforcement_thermic: {},
-      special_hullreinforcement_kinetic: {},
-      special_hullreinforcement_explosive: {},
-      special_hullreinforcement_chunky: {},
-      special_shieldbooster_thermic: {},
-      special_shieldbooster_kinetic: {},
-      special_shieldbooster_explosive: {},
-      special_shieldbooster_efficient: {},
-      special_shieldbooster_toughened: {},
-      special_shieldbooster_chunky: {},
+      special_engine_cooled: {
+        mass: .1,
+        thermload: -.1
+      },
+      special_engine_haulage: {
+        optmass: .1
+      },
+      special_engine_overloaded: {
+        optmul: .04,
+        thermload: .1
+      },
+      special_engine_toughened: {
+        integrity: .15
+      },
+      special_engine_lightweight: {
+        mass: -.1
+      },
+      special_fsd_fuelcapacity: {
+        power: .05,
+        maxfuel: .1
+      },
+      special_fsd_heavy: {
+        integrity: -.08,
+        optmass: .04
+      },
+      special_fsd_toughened: {
+        integrity: .15
+      },
+      special_fsd_lightweight: {
+        mass: -.1
+      },
+      special_fsd_cooled: {
+        thermload: -.1
+      },
+      special_powerplant_highcharge: {
+        mass: .1,
+        power: .05
+      },
+      special_powerplant_cooled: {
+        eff: -.1
+      },
+      special_powerplant_toughened: {
+        integrity: .15
+      },
+      special_powerplant_lightweight: {
+        mass: -.1
+      },
+      special_powerdistributor_capacity: {
+        wepcap: .08,
+        syscap: .08,
+        engcap: .08,
+        weprate: -.02,
+        sysrate: -.02,
+        engrate: -.02
+      },
+      special_powerdistributor_fast: {
+        wepcap: -.04,
+        syscap: -.04,
+        engcap: -.04,
+        weprate: .04,
+        sysrate: .04,
+        engrate: .04
+      },
+      special_powerdistributor_efficient: {
+        power: -.1
+      },
+      special_powerdistributor_toughened: {
+        integrity: .15
+      },
+      special_powerdistributor_lightweight: {
+        mass: -.1
+      },
+      special_shieldcell_gradual: {
+        duration: .1,
+        shieldreinforcement: -.05
+      },
+      special_shieldcell_oversized: {
+        spinup: .2,
+        shieldreinforcement: .05
+      },
+      special_shieldcell_efficient: {
+        power: -.1
+      },
+      special_shieldcell_toughened: {
+        integrity: .15
+      },
+      special_shieldcell_lightweight: {
+        mass: -.1
+      },
+      special_weapon_damage: {
+        power: .05,
+        damage: .03
+      },
+      special_weapon_rateoffire: {
+        power: .05,
+        rof: .03
+      },
+      special_weapon_efficient: {
+        power: -.1
+      },
+      special_weapon_toughened: {
+        integrity: .15
+      },
+      special_weapon_lightweight: {
+        mass: -.1
+      },
+      special_armour_thermic: {
+        hullboost: -.03,
+        thermres: 8
+      },
+      special_armour_kinetic: {
+        hullboost: -.03,
+        kinres: 8
+      },
+      special_armour_explosive: {
+        hullboost: -.03,
+        explres: 8
+      },
+      special_armour_chunky: {
+        hullboost: .08,
+        thermres: -3,
+        explres: -3,
+        kinres: -3
+      },
+      special_hullreinforcement_thermic: {
+        hullreinforcement: -.05,
+        thermres: 2
+      },
+      special_hullreinforcement_kinetic: {
+        hullreinforcement: -.05,
+        kinres: 2
+      },
+      special_hullreinforcement_explosive: {
+        hullreinforcement: -.05,
+        explres: 2
+      },
+      special_hullreinforcement_chunky: {
+        hullreinforcement: .1,
+        explres: 2,
+        thermres: 2,
+        kinres: 2
+      },
+      special_shieldbooster_thermic: {
+        optmul: -.01,
+        thermres: 2
+      },
+      special_shieldbooster_kinetic: {
+        optmul: -.01,
+        kinres: 2
+      },
+      special_shieldbooster_explosive: {
+        optmul: -.01,
+        explres: 2
+      },
+      special_shieldbooster_efficient: {
+        power: -.1
+      },
+      special_shieldbooster_toughened: {
+        integrity: .15
+      },
+      special_shieldbooster_chunky: {
+        optmul: .05,
+        thermres: -2,
+        kinres: -2,
+        explres: -2
+      },
       trade_cell_heat_cell_units: {
         shieldreinforcement: -1,
         thermload: -1
