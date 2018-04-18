@@ -428,16 +428,28 @@
   "special_hullreinforcement_chunky": {
   },
   "special_shieldbooster_thermic": {
+    "optmul": -0.01,
+    "thermres": 2
   },
   "special_shieldbooster_kinetic": {
+    "optmul": -0.01,
+    "kinres": 2
   },
   "special_shieldbooster_explosive": {
+    "optmul": -0.01,
+    "explres": 2
   },
   "special_shieldbooster_efficient": {
+    "power": -0.1
   },
   "special_shieldbooster_toughened": {
+    "integrity": 0.15
   },
   "special_shieldbooster_chunky": {
+    "optmul": 0.05,
+    "thermres": -2,
+    "kinres": -2,
+    "explres": -2
   },
   "trade_cell_heat_cell_units": {
     "shieldreinforcement": -1,
