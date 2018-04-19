@@ -92,7 +92,7 @@ module.exports = {
     },
     alliance_chieftain: {
       edID: 128816574,
-      eddbID: 12,
+      eddbID: 33,
       properties: {
         name: "Alliance Chieftain",
         manufacturer: "Lakon",
