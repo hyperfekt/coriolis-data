@@ -3195,6 +3195,9 @@
     "modulename": ["Point defence"],
     "name": "Shielded"
   },
+  
+  
+  
   "PowerDistributor_HighCapacity": {
     "fdname": "PowerDistributor_HighCapacity",
     "grades": {
@@ -3203,12 +3206,13 @@
           "Sulphur": 1
         },
         "features": {
-          "engcap": [ 0.04, 0.1 ],
-          "engrate": [ -0.05, 0 ],
-          "syscap": [ 0.04, 0.1 ],
-          "sysrate": [ -0.05, 0 ],
-          "wepcap": [ 0.04, 0.1 ],
-          "weprate": [ -0.05, 0 ]
+          "engcap": [ 0, 0.1 ],
+          "engrate": [ -0.02, -0.02 ],
+          "integrity": [ 0 , 0.1 ],
+          "syscap": [ 0, 0.1 ],
+          "sysrate": [ -0.02, -0.02 ],
+          "wepcap": [ 0, 0.1 ],
+          "weprate": [ -0.02, -0.02 ]
         }
       },
       "2": {
@@ -3217,12 +3221,13 @@
           "Specialised Legacy Firmware": 1
         },
         "features": {
-          "engcap": [ 0.08, 0.15 ],
-          "engrate": [ -0.1, -0.04 ],
+          "engcap": [ 0.1 , 0.18 ],
+          "engrate": [ -0.06, -0.06 ],
+          "integrity": [ 0.1 , 0.18 ],
           "syscap": [ 0.08, 0.1 ],
-          "sysrate": [ -0.1, 0 ],
-          "wepcap": [ 0.08, 0.1 ],
-          "weprate": [ -0.1, 0 ]
+          "sysrate": [ -0.06, -0.06 ],
+          "wepcap": [ 0.1 , 0.18 ],
+          "weprate": [ -0.06, -0.06 ]
         }
       },
       "3": {
@@ -3232,12 +3237,13 @@
           "Specialised Legacy Firmware": 1
         },
         "features": {
-          "engcap": [ 0.12, 0.2 ],
-          "engrate": [ -0.15, -0.08 ],
-          "syscap": [ 0.12, 0.1 ],
-          "sysrate": [ -0.15, -0.08 ],
-          "wepcap": [ 0.12, 0.1 ],
-          "weprate": [ -0.15, -0.08 ]
+          "engcap": [ 0.18, 0.26 ],
+          "engrate": [ -0.1, -0.1 ],
+          "integrity": [ 0.15, 0.2 ],
+          "syscap": [ 0.18, 0.26 ],
+          "sysrate": [ -0.1, -0.1 ],
+          "wepcap": [ 0.18, 0.26 ],
+          "weprate": [ -0.1, -0.1 ]
         }
       },
       "4": {
@@ -3247,12 +3253,13 @@
           "Selenium": 1
         },
         "features": {
-          "engcap": [ 0.16, 0.25 ],
-          "engrate": [ -0.2, -0.12 ],
-          "syscap": [ 0.16, 0.1 ],
-          "sysrate": [ -0.2, -0.12 ],
-          "wepcap": [ 0.16, 0.1 ],
-          "weprate": [ -0.2, -0.12 ]
+          "engcap": [ 0.26, 0.34 ],
+          "engrate": [ -0.14, -0.14 ],
+          "integrity": [ 0.2, 0.25 ],
+          "syscap": [ 0.26, 0.34 ],
+          "sysrate": [ -0.14, -0.14 ],
+          "wepcap": [ 0.26, 0.34 ],
+          "weprate": [ -0.14, -0.14 ]
         }
       },
       "5": {
@@ -3262,12 +3269,13 @@
           "Proprietary Composites": 1
         },
         "features": {
-          "engcap": [ 0.2, 0.3 ],
-          "engrate": [ -0.25, -0.16 ],
-          "syscap": [ 0.2, 0.1 ],
-          "sysrate": [ -0.25, -0.16 ],
-          "wepcap": [ 0.2, 0.1 ],
-          "weprate": [ -0.25, -0.16 ]
+          "engcap": [ 0.34 , 0.42 ],
+          "engrate": [ -0.18, -0.18 ],
+          "integrity": [ 0.25, 0.3 ],
+          "syscap": [ 0.34 , 0.42 ],
+          "sysrate": [ -0.18, -0.18 ],
+          "wepcap": [ 0.34 , 0.42 ],
+          "weprate": [ -0.18, -0.18 ]
         }
       }
     },
@@ -3283,12 +3291,12 @@
           "Specialised Legacy Firmware": 1
         },
         "features": {
-          "engcap": [ -0.03, 0 ],
-          "engrate": [ 0.04, 0.12 ],
-          "syscap": [ -0.03, 0 ],
-          "sysrate": [ 0.04, 0.12 ],
-          "wepcap": [ -0.03, 0 ],
-          "weprate": [ 0.04, 0.12 ]
+          "engcap": [ -0.01 , -0.01 ],
+          "engrate": [ 0 , 0.09 ],
+          "syscap": [ -0.01 , -0.01 ],
+          "sysrate": [ 0 , 0.09 ],
+          "wepcap": [ -0.01 , -0.01 ],
+          "weprate": [ 0 , 0.09 ]
         }
       },
       "2": {
@@ -3297,12 +3305,12 @@
           "Specialised Legacy Firmware": 1
         },
         "features": {
-          "engcap": [ -0.06, -0.01 ],
-          "engrate": [ 0.08, 0.18 ],
-          "syscap": [ -0.06, -0.01 ],
-          "sysrate": [ 0.08, 0.18 ],
-          "wepcap": [ -0.06, -0.01 ],
-          "weprate": [ 0.08, 0.18 ]
+          "engcap": [ -0.02, -0.02 ],
+          "engrate": [ 0.09 , 0.18 ],
+          "syscap": [ -0.02 , -0.02 ],
+          "sysrate": [ 0.09 , 0.18 ],
+          "wepcap": [ -0.02 , -0.02 ],
+          "weprate": [ 0.09 , 0.18 ]
         }
       },
       "3": {
@@ -3312,12 +3320,12 @@
           "Modified Consumer Firmware": 1
         },
         "features": {
-          "engcap": [ -0.09, -0.02 ],
-          "engrate": [ 0.12, 0.24 ],
-          "syscap": [ -0.09, -0.02 ],
-          "sysrate": [ 0.12, 0.24 ],
-          "wepcap": [ -0.09, -0.02 ],
-          "weprate": [ 0.12, 0.24 ]
+          "engcap": [ -0.03, -0.03 ],
+          "engrate": [ 0.18, 0.27 ],
+          "syscap": [ -0.03, -0.03 ],
+          "sysrate": [ 0.18, 0.27 ],
+          "wepcap": [ -0.03, -0.03 ],
+          "weprate": [ 0.18, 0.27 ]
         }
       },
       "4": {
@@ -3327,12 +3335,12 @@
           "Hybrid Capacitors": 1
         },
         "features": {
-          "engcap": [ -0.12, -0.03 ],
-          "engrate": [ 0.16, 0.3 ],
-          "syscap": [ -0.12, -0.03 ],
-          "sysrate": [ 0.16, 0.3 ],
-          "wepcap": [ -0.12, -0.03 ],
-          "weprate": [ 0.16, 0.3 ]
+          "engcap": [ -0.04, -0.04 ],
+          "engrate": [ 0.27, 0.36 ],
+          "syscap": [ -0.04, -0.04 ],
+          "sysrate": [ 0.27, 0.36  ],
+          "wepcap": [ -0.04, -0.04 ],
+          "weprate": [ 0.27, 0.36  ]
         }
       },
       "5": {
@@ -3342,12 +3350,12 @@
           "Exquisite Focus Crystals": 1
         },
         "features": {
-          "engcap": [ -0.15, -0.04 ],
-          "engrate": [ 0.2, 0.36 ],
-          "syscap": [ -0.15, -0.04 ],
-          "sysrate": [ 0.2, 0.36 ],
-          "wepcap": [ -0.15, -0.04 ],
-          "weprate": [ 0.2, 0.36 ]
+          "engcap": [ -0.05, -0.05 ],
+          "engrate": [ 0.36, 0.45 ],
+          "syscap": [ -0.05, -0.05 ],
+          "sysrate": [ 0.36, 0.45 ],
+          "wepcap": [ -0.05, -0.05 ],
+          "weprate": [ 0.36, 0.45 ]
         }
       }
     },
@@ -3363,12 +3371,12 @@
           "Sulphur": 1
         },
         "features": {
-          "engcap": [ 0.05, 0.2 ],
-          "engrate": [ 0.02, 0.1 ],
-          "syscap": [ -0.05, 0 ],
-          "sysrate": [ -0.02, 0 ],
-          "wepcap": [ -0.05, 0 ],
-          "weprate": [ -0.02, 0 ]
+          "engcap": [ 0 , 0.2 ],
+          "engrate": [ 0 , 0.16 ],
+          "syscap": [ -0.03 , -0.03 ],
+          "sysrate": [ -0.03 , -0.03 ],
+          "wepcap": [ -0.03 , -0.03 ],
+          "weprate": [ -0.01 , -0.01 ]
         }
       },
       "2": {
@@ -3377,12 +3385,12 @@
           "Sulphur": 1
         },
         "features": {
-          "engcap": [ 0.1, 0.3 ],
-          "engrate": [ 0.04, 0.15 ],
-          "syscap": [ -0.1, -0.02 ],
-          "sysrate": [ -0.04, -0.01 ],
-          "wepcap": [ -0.1, -0.02 ],
-          "weprate": [ -0.04, -0.01 ]
+          "engcap": [ 0.2, 0.3 ],
+          "engrate": [ 0.16, 0.23 ],
+          "syscap": [ -0.06 , -0.06 ],
+          "sysrate": [ -0.06, -0.06 ],
+          "wepcap": [ -0.06 , -0.06  ],
+          "weprate": [ -0.02 , -0.02 ]
         }
       },
       "3": {
@@ -3392,12 +3400,42 @@
           "Electrochemical Arrays": 1
         },
         "features": {
-          "engcap": [ 0.15, 0.4 ],
-          "engrate": [ 0.06, 0.2 ],
-          "syscap": [ -0.15, -0.04 ],
-          "sysrate": [ -0.06, -0.02 ],
-          "wepcap": [ -0.15, -0.04 ],
-          "weprate": [ -0.06, -0.02 ]
+          "engcap": [ 0.3, 0.4 ],
+          "engrate": [ 0.23 , 0.3 ],
+          "syscap": [ -0.09, -0.09 ],
+          "sysrate": [ -0.09, -0.09 ],
+          "wepcap": [ -0.09, -0.09 ],
+          "weprate": [ -0.03, -0.03 ]
+        }
+      },
+      "4": {
+        "components": {
+          "Unidentified Scan Archives": 1,
+          "Selenium": 1,
+          "Polymer Capacitors": 1
+        },
+        "features": {
+          "engcap": [ 0.4, 0.5 ],
+          "engrate": [ 0.3, 0.37 ],
+          "syscap": [ -0.12 , -0.12 ],
+          "sysrate": [ -0.12 , -0.12 ],
+          "wepcap": [ -0.12 , -0.12  ],
+          "weprate": [ -0.04 , -0.04 ]
+        }
+      },
+      "5": {
+        "components": {
+          "Classified Scan Databanks": 1,
+          "Cadmium": 1,
+          "Military Supercapacitors": 1
+        },
+        "features": {
+          "engcap": [ 0.5, 0.6 ],
+          "engrate": [ 0.37, 0.44 ],
+          "syscap": [ -0.15 , -0.15 ],
+          "sysrate": [ -0.15 , -0.15 ],
+          "wepcap": [ -0.15 , -0.15  ],
+          "weprate": [ -0.05 , -0.05 ]
         }
       }
     },
@@ -3413,12 +3451,12 @@
           "Sulphur": 1
         },
         "features": {
-          "engcap": [ -0.05, 0 ],
-          "engrate": [ -0.02, 0 ],
-          "syscap": [ 0.05, 0.2 ],
-          "sysrate": [ 0.02, 0.1 ],
-          "wepcap": [ -0.05, 0 ],
-          "weprate": [ -0.02, 0 ]
+          "engcap": [ -0.03 , -0.03 ],
+          "engrate": [ -0.01 , -0.01 ],
+          "syscap": [  0 , 0.2 ],
+          "sysrate": [ 0 , 0.16 ],
+          "wepcap": [ -0.03 , -0.03 ],
+          "weprate": [ -0.03 , -0.03 ]
         }
       },
       "2": {
@@ -3427,12 +3465,12 @@
           "Sulphur": 1
         },
         "features": {
-          "engcap": [ -0.1, -0.02 ],
-          "engrate": [ -0.04, -0.01 ],
-          "syscap": [ 0.1, 0.3 ],
-          "sysrate": [ -0.04, 0.15 ],
-          "wepcap": [ -0.1, -0.02 ],
-          "weprate": [ -0.04, -0.01 ]
+          "engcap": [ -0.06 , -0.06 ],
+          "engrate": [ -0.02 , -0.02 ],
+          "syscap": [ 0.2, 0.3 ],
+          "sysrate": [ 0.16, 0.23 ],
+          "wepcap": [ -0.06 , -0.06  ],
+          "weprate": [ -0.06 , -0.06 ]
         }
       },
       "3": {
@@ -3442,12 +3480,42 @@
           "Electrochemical Arrays": 1
         },
         "features": {
-          "engcap": [ -0.15, -0.04 ],
-          "engrate": [ -0.06, -0.02 ],
-          "syscap": [ 0.15, 0.4 ],
-          "sysrate": [ 0.06, 0.2 ],
-          "wepcap": [ -0.15, -0.04 ],
-          "weprate": [ -0.06, -0.02 ]
+          "engcap": [ -0.09, -0.09 ],
+          "engrate": [ -0.03, -0.03 ],
+          "syscap": [ 0.3, 0.4 ],
+          "sysrate": [ 0.23 , 0.3 ],
+          "wepcap": [ -0.09, -0.09 ],
+          "weprate": [ -0.09, -0.09 ]
+        }
+      },
+      "4": {
+        "components": {
+          "Unidentified Scan Archives": 1,
+          "Selenium": 1,
+          "Polymer Capacitors": 1
+        },
+        "features": {
+          "engcap": [ -0.12 , -0.12 ],
+          "engrate": [ -0.04 , -0.04 ],
+          "syscap": [ 0.4, 0.5 ],
+          "sysrate": [ 0.3, 0.37 ],
+          "wepcap": [ -0.12 , -0.12  ],
+          "weprate": [ -0.12 , -0.12 ]
+        }
+      },
+      "5": {
+        "components": {
+          "Classified Scan Databanks": 1,
+          "Cadmium": 1,
+          "Military Supercapacitors": 1
+        },
+        "features": {
+          "engcap": [ -0.15 , -0.15 ],
+          "engrate": [ -0.05 , -0.05 ],
+          "syscap": [ 0.5, 0.6 ],
+          "sysrate": [ 0.37, 0.44 ],
+          "wepcap": [ -0.15 , -0.15  ],
+          "weprate": [ -0.15 , -0.15 ]
         }
       }
     },
@@ -3463,12 +3531,12 @@
           "Sulphur": 1
         },
         "features": {
-          "engcap": [ -0.05, 0 ],
-          "engrate": [ -0.02, 0 ],
-          "syscap": [ -0.05, 0 ],
-          "sysrate": [ -0.02, 0 ],
-          "wepcap": [ 0.05, 0.2 ],
-          "weprate": [ 0.02, 0.1 ]
+          "engcap": [ -0.03 , -0.03 ],
+          "engrate": [ -0.03 , -0.03 ],
+          "syscap": [ -0.03 , -0.03  ],
+          "sysrate": [ -0.01 , -0.01 ],
+          "wepcap": [ 0 , 0.2 ],
+          "weprate": [ 0 , 0.16 ]
         }
       },
       "2": {
@@ -3477,27 +3545,57 @@
           "Sulphur": 1
         },
         "features": {
-          "engcap": [ -0.1, -0.02 ],
-          "engrate": [ -0.04, -0.01 ],
-          "syscap": [ -0.1, -0.02 ],
-          "sysrate": [ -0.04, -0.01 ],
-          "wepcap": [ 0.1, 0.3 ],
-          "weprate": [ 0.04, 0.15 ]
+          "engcap": [ -0.06 , -0.06 ],
+          "engrate": [ -0.06 , -0.06 ],
+          "syscap": [ -0.06 , -0.06 ],
+          "sysrate": [ -0.02 , -0.02 ],
+          "wepcap": [ 0.2, 0.3  ],
+          "weprate": [ 0.16, 0.23 ]
         }
       },
       "3": {
         "components": {
           "Anomalous Bulk Scan Data": 1,
-          "Hybrid Capacitors": 1,
-          "Selenium": 1
+          "Chromium": 1,
+          "Electrochemical Arrays": 1
         },
         "features": {
-          "engcap": [ -0.15, -0.04 ],
-          "engrate": [ -0.06, -0.02 ],
-          "syscap": [ -0.15, -0.04 ],
-          "sysrate": [ -0.06, -0.02 ],
-          "wepcap": [ 0.15, 0.4 ],
-          "weprate": [ 0.06, 0.2 ]
+          "engcap": [ -0.09, -0.09 ],
+          "engrate": [ -0.09, -0.09 ],
+          "syscap": [ -0.09, -0.09 ],
+          "sysrate": [ -0.03, -0.03 ],
+          "wepcap": [ 0.3, 0.4 ],
+          "weprate": [ 0.23 , 0.3 ]
+        }
+      },
+      "4": {
+        "components": {
+          "Unidentified Scan Archives": 1,
+          "Selenium": 1,
+          "Polymer Capacitors": 1
+        },
+        "features": {
+          "engcap": [ -0.12 , -0.12 ],
+          "engrate": [ -0.12 , -0.12 ],
+          "syscap": [ -0.12 , -0.12 ],
+          "sysrate": [ -0.04 , -0.04 ],
+          "wepcap": [ 0.4, 0.5 ],
+          "weprate": [ 0.3, 0.37 ]
+        }
+      },
+      "5": {
+        "components": {
+          "Classified Scan Databanks": 1,
+          "Cadmium": 1,
+          "Military Supercapacitors": 1
+        },
+        "features": {
+          "engcap": [ -0.15 , -0.15 ],
+          "engrate": [ -0.15 , -0.15 ],
+          "syscap": [ -0.15 , -0.15 ],
+          "sysrate": [ -0.05 , -0.05 ],
+          "wepcap": [ 0.5, 0.6  ],
+          "weprate": [ 0.37, 0.44 ]
         }
       }
     },
@@ -3513,8 +3611,9 @@
           "Worn Shield Emitters": 1
         },
         "features": {
-          "integrity": [ 0.2, 0.5 ],
-          "power": [ 0.3, 0.2 ]
+          "integrity": [ 0, 0.4 ],
+          "mass": [ 0.03, 0.03 ],
+          "power": [ 0, -0.1 ]
         }
       },
       "2": {
@@ -3523,8 +3622,9 @@
           "Shield Emitters": 1
         },
         "features": {
-          "integrity": [ 0.4, 1 ],
-          "power": [ 0.6, 0.4 ]
+          "integrity": [ 0.4, 0.8 ],
+          "mass": [ 0.06, 0.06 ],
+          "power": [ -0.1, -0.15 ]
         }
       },
       "3": {
@@ -3534,8 +3634,9 @@
           "Shield Emitters": 1
         },
         "features": {
-          "integrity": [ 0.6, 1.5 ],
-          "power": [ 0.9, 0.6 ]
+          "integrity": [ 0.8, 1.2 ],
+          "mass": [ 0.09, 0.09 ],
+          "power": [ -0.15, -0.2 ]
         }
       },
       "4": {
@@ -3545,8 +3646,9 @@
           "Vanadium": 1
         },
         "features": {
-          "integrity": [ 0.8, 2 ],
-          "power": [ 1.2, 0.8 ]
+          "integrity": [ 1.2, 1.6 ],
+          "mass": [ 0.12, 0.12 ],
+          "power": [ -0.2, -0.25 ]
         }
       },
       "5": {
@@ -3556,8 +3658,9 @@
           "Tungsten": 1
         },
         "features": {
-          "integrity": [ 1, 1.5 ],
-          "power": [ 1.5, 1 ]
+          "integrity": [ 1.6, 2 ],
+          "mass": [ 0.15, 0.15 ],
+          "power": [ -0.25, -0.3 ]
         }
       }
     },
