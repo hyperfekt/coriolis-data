@@ -22336,8 +22336,8 @@ module.exports = {
               Nickel: 1
             },
             features: {
-              damage: [ .03, .09 ],
-              range: [ -.35, -.1 ]
+              damage: [ .15, .27 ],
+              range: [ -.1, -.1 ]
             }
           },
           "2": {
@@ -22346,9 +22346,9 @@ module.exports = {
               Nickel: 1
             },
             features: {
-              damage: [ .08, .18 ],
-              range: [ -.45, -.2 ],
-              thermload: [ .2, .1 ]
+              damage: [ .27, .39 ],
+              range: [ -.2, -.2 ],
+              thermload: [ .1, .1 ]
             }
           },
           "3": {
@@ -22358,10 +22358,9 @@ module.exports = {
               Nickel: 1
             },
             features: {
-              damage: [ .1, .26 ],
-              integrity: [ -.2, -.1 ],
-              range: [ -.55, -.3 ],
-              thermload: [ .3, .2 ]
+              damage: [ .39, .51 ],
+              range: [ -.3, -.3 ],
+              thermload: [ .2, .2 ]
             }
           },
           "4": {
@@ -22371,10 +22370,9 @@ module.exports = {
               "Modified Consumer Firmware": 1
             },
             features: {
-              damage: [ .15, .35 ],
-              integrity: [ -.3, -.2 ],
-              range: [ -.65, -.4 ],
-              thermload: [ .4, .3 ]
+              damage: [ .51, .63 ],
+              range: [ -.4, -.4 ],
+              thermload: [ .3, .3 ]
             }
           },
           "5": {
@@ -22384,10 +22382,9 @@ module.exports = {
               "Cracked Industrial Firmware": 1
             },
             features: {
-              damage: [ .2, .45 ],
-              integrity: [ -.4, -.3 ],
-              range: [ -.75, -.5 ],
-              thermload: [ .5, .4 ]
+              damage: [ .63, .75 ],
+              range: [ -.5, -.5 ],
+              thermload: [ .4, .4 ]
             }
           }
         },
