@@ -4589,8 +4589,8 @@
           "Phosphorus": 1
         },
         "features": {
-          "mass": [ 0.4, 0.2 ],
-          "scanrate": [ 0.1, 0.4 ]
+          "mass": [ 0.2, 0.2 ],
+          "scanrate": [ 0, 0.2 ]
         }
       },
       "2": {
@@ -4599,8 +4599,8 @@
           "Phosphorus": 1
         },
         "features": {
-          "mass": [ 0.8, 0.4 ],
-          "scanrate": [ 0.2, 0.5 ]
+          "mass": [ 0.4, 0.4 ],
+          "scanrate": [ 0.2, 0.35 ]
         }
       },
       "3": {
@@ -4610,8 +4610,8 @@
           "Phosphorus": 1
         },
         "features": {
-          "mass": [ 1.2, 0.6 ],
-          "scanrate": [ 0.3, 0.6 ]
+          "mass": [ 0.6, 0.6 ],
+          "scanrate": [ 0.35, 0.5 ]
         }
       },
       "4": {
@@ -4621,8 +4621,8 @@
           "Manganese": 1
         },
         "features": {
-          "mass": [ 1.6, 0.8 ],
-          "scanrate": [ 0.4, 0.7 ]
+          "mass": [ 0.8, 0.8 ],
+          "scanrate": [ 0.5, 0.65 ]
         }
       },
       "5": {
@@ -4632,8 +4632,8 @@
           "Refined Focus Crystals": 1
         },
         "features": {
-          "mass": [ 2, 1 ],
-          "scanrate": [ 0.5, 0.8 ]
+          "mass": [ 1, 1 ],
+          "scanrate": [ 0.65, 0.8 ]
         }
       }
     },
@@ -4649,8 +4649,8 @@
           "Iron": 1
         },
         "features": {
-          "mass": [ 0.4, 0.2 ],
-          "range": [ 0.2, 0.4 ]
+          "mass": [ 0.2, 0.2 ],
+          "range": [ 0, 0.4 ]
         }
       },
       "2": {
@@ -4659,7 +4659,7 @@
           "Iron": 1
         },
         "features": {
-          "mass": [ 0.8, 0.4 ],
+          "mass": [ 0.4, 0.4 ],
           "range": [ 0.4, 0.8 ]
         }
       },
@@ -4670,8 +4670,8 @@
           "Unexpected Emission Data": 1
         },
         "features": {
-          "mass": [ 1.2, 0.6 ],
-          "range": [ 0.6, 1.2 ]
+          "mass": [ 0.6, 0.6 ],
+          "range": [ 0.8, 1.2 ]
         }
       },
       "4": {
@@ -4681,8 +4681,8 @@
           "Germanium": 1
         },
         "features": {
-          "mass": [ 1.6, 0.8 ],
-          "range": [ 0.8, 1.6 ]
+          "mass": [ 0.8, 0.8 ],
+          "range": [ 1.2, 1.6 ]
         }
       },
       "5": {
@@ -4692,8 +4692,8 @@
           "Polymer Capacitors": 1
         },
         "features": {
-          "mass": [ 2, 1 ],
-          "range": [ 1, 2 ]
+          "mass": [ 1, 1 ],
+          "range": [ 1.6, 2 ]
         }
       }
     },
@@ -4709,8 +4709,8 @@
           "Mechanical Scrap": 1
         },
         "features": {
-          "mass": [ 0.4, 0.2 ],
-          "angle": [ 0.2, 0.4 ]
+          "mass": [ 0.2, 0.2 ],
+          "angle": [ 0, 0.4 ]
         }
       },
       "2": {
@@ -4719,7 +4719,7 @@
           "Mechanical Scrap": 1
         },
         "features": {
-          "mass": [ 0.8, 0.4 ],
+          "mass": [ 0.4, 0.4 ],
           "angle": [ 0.4, 0.8 ]
         }
       },
@@ -4730,8 +4730,8 @@
           "Mechanical Scrap": 1
         },
         "features": {
-          "mass": [ 1.2, 0.6 ],
-          "angle": [ 0.6, 1.2 ]
+          "mass": [ 0.6, 0.6 ],
+          "angle": [ 0.8, 1.2 ]
         }
       },
       "4": {
@@ -4741,8 +4741,8 @@
           "Niobium": 1
         },
         "features": {
-          "mass": [ 1.6, 0.8 ],
-          "angle": [ 0.8, 1.6 ]
+          "mass": [ 0.8, 0.8 ],
+          "angle": [ 1.2, 1.6 ]
         }
       },
       "5": {
@@ -4752,8 +4752,8 @@
           "Tin": 1
         },
         "features": {
-          "mass": [ 2, 1 ],
-          "angle": [ 1, 2 ]
+          "mass": [ 1, 1 ],
+          "angle": [ 1.6, 2 ]
         }
       }
     },
