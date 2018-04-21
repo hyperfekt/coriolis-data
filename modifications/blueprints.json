@@ -56,11 +56,11 @@
           "Iron": 1
         },
         "features": {
-          "explres": [ 0, 0.02 ],
-          "hullboost": [ -0.01, 0 ],
-          "kinres": [ 0, 0.02 ],
-          "mass": [ -0.04, -0.15 ],
-          "thermres": [ 0, 0.02 ]
+          "explres": [ 0, 0.042 ],
+          "hullboost": [ -0.01, -0.01 ],
+          "kinres": [ 0, 0.036 ],
+          "mass": [ 0, -0.15 ],
+          "thermres": [ 0, 0.03 ]
         }
       },
       "2": {
@@ -69,11 +69,11 @@
           "Iron": 1
         },
         "features": {
-          "explres": [ 0.01, 0.04 ],
-          "hullboost": [ -0.02, -0.01 ],
-          "kinres": [ 0.01, 0.04 ],
-          "mass": [ -0.08, -0.25 ],
-          "thermres": [ 0.01, 0.04 ]
+          "explres": [ 0.042, 0.084 ],
+          "hullboost": [ -0.02, -0.02 ],
+          "kinres": [ 0.036, 0.072 ],
+          "mass": [ -0.15, -0.25 ],
+          "thermres": [ 0.03, 0.06 ]
         }
       },
       "3": {
@@ -83,11 +83,11 @@
           "Iron": 1
         },
         "features": {
-          "explres": [ 0.02, 0.06 ],
-          "hullboost": [ -0.03, -0.02 ],
-          "kinres": [ 0.02, 0.06 ],
-          "mass": [ -0.12, -0.35 ],
-          "thermres": [ 0.02, 0.06 ]
+          "explres": [ 0.084, 0.126 ],
+          "hullboost": [ -0.03, -0.03 ],
+          "kinres": [ 0.072, 0.108 ],
+          "mass": [ -0.25, -0.35 ],
+          "thermres": [ 0.06, 0.09 ]
         }
       },
       "4": {
@@ -97,11 +97,11 @@
           "Proprietary Composites": 1
         },
         "features": {
-          "explres": [ 0.03, 0.08 ],
-          "hullboost": [ -0.04, -0.03 ],
-          "kinres": [ 0.03, 0.08 ],
-          "mass": [ -0.16, -0.45 ],
-          "thermres": [ 0.03, 0.08 ]
+          "explres": [ 0.126, 0.168 ],
+          "hullboost": [ -0.04, -0.04 ],
+          "kinres": [ 0.108, 0.144 ],
+          "mass": [ -0.35, -0.45 ],
+          "thermres": [ 0.09, 0.12 ]
         }
       },
       "5": {
@@ -111,11 +111,11 @@
           "Tin": 1
         },
         "features": {
-          "explres": [ 0.04, 0.1 ],
-          "hullboost": [ -0.05, -0.04 ],
-          "kinres": [ 0.04, 0.1 ],
-          "mass": [ -0.2, -0.55 ],
-          "thermres": [ 0.04, 0.1 ]
+          "explres": [ 0.168, 0.21 ],
+          "hullboost": [ -0.05, -0.05 ],
+          "kinres": [ 0.144, 0.18 ],
+          "mass": [ -0.45, -0.55 ],
+          "thermres": [ 0.12, 0.15 ]
         }
       }
     },
@@ -131,9 +131,9 @@
           "Nickel": 1
         },
         "features": {
-          "explres": [ 0.05, 0.08 ],
-          "kinres": [ -0.04, -0.02 ],
-          "thermres": [ -0.04, -0.02 ]
+          "explres": [ 0, 0.168 ],
+          "kinres": [ -0.05, -0.05 ],
+          "thermres": [ -0.04, -0.04 ]
         }
       },
       "2": {
@@ -142,9 +142,9 @@
           "Zinc": 1
         },
         "features": {
-          "explres": [ 0.1, 0.16 ],
-          "kinres": [ -0.08, -0.04 ],
-          "thermres": [ -0.08, -0.04 ]
+          "explres": [ 0.168, 0.266 ],
+          "kinres": [ -0.07, -0.07 ],
+          "thermres": [ -0.06, -0.06 ]
         }
       },
       "3": {
@@ -153,9 +153,9 @@
           "Vanadium": 1
         },
         "features": {
-          "explres": [ 0.15, 0.24 ],
-          "kinres": [ -0.12, -0.06 ],
-          "thermres": [ -0.12, -0.06 ]
+          "explres": [ 0.366, 0.364 ],
+          "kinres": [ -0.10, -0.10 ],
+          "thermres": [ -0.08, -0.08 ]
         }
       },
       "4": {
@@ -165,9 +165,9 @@
           "Tungsten": 1
         },
         "features": {
-          "explres": [ 0.2, 0.32 ],
-          "kinres": [ -0.16, -0.08 ],
-          "thermres": [ -0.16, -0.08 ]
+          "explres": [ 0.364, 0.462 ],
+          "kinres": [ -0.12, -0.12 ],
+          "thermres": [ -0.1, -0.1 ]
         }
       },
       "5": {
@@ -177,9 +177,9 @@
           "Ruthenium": 1
         },
         "features": {
-          "explres": [ 0.25, 0.4 ],
-          "kinres": [ -0.2, -0.1 ],
-          "thermres": [ -0.2, -0.1 ]
+          "explres": [ 0.462, 0.56 ],
+          "kinres": [ -0.14, -0.14 ],
+          "thermres": [ -0.12, -0.12 ]
         }
       }
     },
@@ -195,9 +195,9 @@
           "Carbon": 1
         },
         "features": {
-          "explres": [ 0, 0.01 ],
-          "hullboost": [ 0.04, 0.1 ],
-          "kinres": [ 0, 0.01 ],
+          "explres": [ 0, 0.014 ],
+          "hullboost": [ 0, 0.12 ],
+          "kinres": [ 0, 0.012 ],
           "mass": [ 0.08, 0 ],
           "thermres": [ 0, 0.01 ]
         }
@@ -208,9 +208,9 @@
           "Shield Emitters": 1
         },
         "features": {
-          "explres": [ 0.01, 0.02 ],
-          "hullboost": [ 0.08, 0.15 ],
-          "kinres": [ 0.01, 0.02 ],
+          "explres": [ 0.014, 0.028 ],
+          "hullboost": [ 0.12, 0.17 ],
+          "kinres": [ 0.012, 0.024 ],
           "mass": [ 0.16, 0.05 ],
           "thermres": [ 0.01, 0.02 ]
         }
@@ -222,9 +222,9 @@
           "Shield Emitters": 1
         },
         "features": {
-          "explres": [ 0.02, 0.03 ],
-          "hullboost": [ 0.12, 0.2 ],
-          "kinres": [ 0.02, 0.03 ],
+          "explres": [ 0.028, 0.042 ],
+          "hullboost": [ 0.17, 0.22 ],
+          "kinres": [ 0.024, 0.036 ],
           "mass": [ 0.24, 0.1 ],
           "thermres": [ 0.02, 0.03 ]
         }
@@ -236,9 +236,9 @@
           "Vanadium": 1
         },
         "features": {
-          "explres": [ 0.03, 0.04 ],
-          "hullboost": [ 0.16, 0.25 ],
-          "kinres": [ 0.03, 0.04 ],
+          "explres": [ 0.042, 0.056 ],
+          "hullboost": [ 0.22, 0.27 ],
+          "kinres": [ 0.036, 0.048 ],
           "mass": [ 0.32, 0.15 ],
           "thermres": [ 0.03, 0.04 ]
         }
@@ -250,9 +250,9 @@
           "Tungsten": 1
         },
         "features": {
-          "explres": [ 0.04, 0.05 ],
-          "hullboost": [ 0.2, 0.3 ],
-          "kinres": [ 0.04, 0.05 ],
+          "explres": [ 0.056, 0.07 ],
+          "hullboost": [ 0.27, 0.32 ],
+          "kinres": [ 0.048, 0.06 ],
           "mass": [ 0.4, 0.20 ],
           "thermres": [ 0.04, 0.05 ]
         }
@@ -261,7 +261,7 @@
     "id": 7,
     "modulename": ["Bulkheads", "Armour"],
     "name": "Heavy duty"
-  },
+ },
   "Armour_Kinetic": {
     "fdname": "Armour_Kinetic",
     "grades": {
