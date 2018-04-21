@@ -119,7 +119,7 @@ module.exports = {
       bulkheads: [ {
         id: "CI",
         edID: 128816576,
-        eddbID: 813,
+        eddbID: 1640,
         grp: "bh",
         cost: 0,
         mass: 0,
@@ -130,7 +130,7 @@ module.exports = {
       }, {
         id: "CJ",
         edID: 128816577,
-        eddbID: 814,
+        eddbID: 1641,
         grp: "bh",
         cost: 6803170,
         mass: 75,
@@ -141,7 +141,7 @@ module.exports = {
       }, {
         id: "CK",
         edID: 128816578,
-        eddbID: 815,
+        eddbID: 1642,
         grp: "bh",
         cost: 15307134,
         mass: 150,
@@ -152,7 +152,7 @@ module.exports = {
       }, {
         id: "CL",
         edID: 128816579,
-        eddbID: 816,
+        eddbID: 1643,
         grp: "bh",
         cost: 36175859,
         mass: 150,
@@ -163,7 +163,7 @@ module.exports = {
       }, {
         id: "CM",
         edID: 128816580,
-        eddbID: 817,
+        eddbID: 1644,
         grp: "bh",
         cost: 40087682,
         mass: 150,
@@ -203,8 +203,8 @@ module.exports = {
       },
       defaults: {
         standard: [ "6E", "6E", "5E", "5E", "6E", "4E", "4C" ],
-        hardpoints: [ 17, 0, 17, 0, 0, 0, 0, 0, 0, 0, 0 ],
-        internal: [ "04", "4e", "02", "", "2h" ]
+        hardpoints: [ 17, 0, 17, 0, 0, 0, 0, 0, 0, 0 ],
+        internal: [ "04", "4e", "02", "", "2h", "", "", "" ]
       }
     },
     anaconda: {
@@ -2892,8 +2892,8 @@ module.exports = {
       retailCost: 121454652,
       bulkheads: [ {
         id: "Bx",
-        edID: 128049334,
-        eddbID: 803,
+        edID: 128785621,
+        eddbID: 1627,
         grp: "bh",
         cost: 0,
         mass: 0,
@@ -2903,8 +2903,8 @@ module.exports = {
         hullboost: .8
       }, {
         id: "By",
-        edID: 128049335,
-        eddbID: 804,
+        edID: 128785622,
+        eddbID: 1628,
         grp: "bh",
         cost: 30622340,
         mass: 75,
@@ -2914,8 +2914,8 @@ module.exports = {
         hullboost: 1.52
       }, {
         id: "Bz",
-        edID: 128049336,
-        eddbID: 805,
+        edID: 128785623,
+        eddbID: 1629,
         grp: "bh",
         cost: 68900260,
         mass: 150,
@@ -2925,8 +2925,8 @@ module.exports = {
         hullboost: 2.5
       }, {
         id: "BA",
-        edID: 128049337,
-        eddbID: 806,
+        edID: 128785624,
+        eddbID: 1630,
         grp: "bh",
         cost: 162834280,
         mass: 150,
@@ -2936,8 +2936,8 @@ module.exports = {
         hullboost: 2.5
       }, {
         id: "BB",
-        edID: 128049338,
-        eddbID: 807,
+        edID: 128785625,
+        eddbID: 1631,
         grp: "bh",
         cost: 180442120,
         mass: 150,
