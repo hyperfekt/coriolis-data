@@ -1353,10 +1353,10 @@
           "Grid Resistors": 1
         },
         "features": {
-          "boot": [ -0.1, -0.2 ],
-          "integrity": [ -0.05, 0 ],
-          "power": [ 0.04, 0 ],
-          "thermload": [ 0.05, 0 ]
+          "boot": [ 0, -0.2 ],
+          "integrity": [ -0.03, -0.03 ],
+          "optmass": [ 0, 0.03 ],
+          "thermload": [ 0.04, 0.04 ]
         }
       },
       "2": {
@@ -1366,9 +1366,9 @@
         },
         "features": {
           "boot": [ -0.2, -0.35 ],
-          "integrity": [ -0.1, -0.03 ],
-          "power": [ 0.1, 0.02 ],
-          "thermload": [ 0.1, 0.05 ]
+          "integrity": [ -0.06, -0.06 ],
+          "optmass": [ 0.03, 0.06 ],
+          "thermload": [ 0.08, 0.08 ]
         }
       },
       "3": {
@@ -1378,10 +1378,10 @@
           "Selenium": 1
         },
         "features": {
-          "boot": [ -0.3, -0.5 ],
-          "integrity": [ -0.15, -0.06 ],
-          "power": [ 0.14, 0.05 ],
-          "thermload": [ 0.15, 0.1 ]
+          "boot": [ -0.35, -0.5 ],
+          "integrity": [ -0.09, -0.09 ],
+          "optmass": [ 0.06, 0.09 ],
+          "thermload": [ 0.12, 0.12 ]
         }
       },
       "4": {
@@ -1391,10 +1391,10 @@
           "Hybrid Capacitors": 1
         },
         "features": {
-          "boot": [ -0.4, -0.65 ],
-          "integrity": [ -0.2, -0.09 ],
-          "power": [ 0.2, 0.09 ],
-          "thermload": [ 0.2, 0.15 ]
+          "boot": [ -0.5, -0.65 ],
+          "integrity": [ -0.12, -0.12 ],
+          "optmass": [ 0.09, 0.12 ],
+          "thermload": [ 0.16, 0.16 ]
         }
       },
       "5": {
@@ -1404,10 +1404,10 @@
           "Tellurium": 1
         },
         "features": {
-          "boot": [ -0.5, -0.8 ],
-          "integrity": [ -0.25, -0.12 ],
-          "power": [ 0.25, 0.1 ],
-          "thermload": [ 0.25, 0.2 ]
+          "boot": [ -0.65, -0.8 ],
+          "integrity": [ -0.15, -0.15 ],
+          "optmass": [ 0.12, 0.15 ],
+          "thermload": [ 0.2, 0.2 ]
         }
       }
     },
@@ -1423,10 +1423,10 @@
           "Atypical Disrupted Wake Echoes": 1
         },
         "features": {
-          "integrity": [ -0.05, 0 ],
-          "mass": [ 0.05, 0 ],
-          "optmass": [ 0.04, 0.1 ],
-          "power": [ 0.04, 0 ]
+          "integrity": [ -0.03, -0.03 ],
+          "mass": [ 0.1, 0.1 ],
+          "optmass": [ 0, 0.15 ],
+          "power": [ 0.03, 0.03 ]
         }
       },
       "2": {
@@ -1435,10 +1435,10 @@
           "Chemical Processors": 1
         },
         "features": {
-          "integrity": [ -0.1, -0.03 ],
-          "mass": [ 0.14, 0.05 ],
-          "optmass": [ 0.08, 0.2 ],
-          "power": [ 0.1, 0.02 ]
+          "integrity": [ -0.06, -0.06 ],
+          "mass": [ 0.15, 0.15 ],
+          "optmass": [ 0.15, 0.25 ],
+          "power": [ 0.06, 0.06 ]
         }
       },
       "3": {
@@ -1448,10 +1448,10 @@
           "Strange Wake Solutions": 1
         },
         "features": {
-          "integrity": [ -0.15, -0.06 ],
-          "mass": [ 0.25, 0.1 ],
-          "optmass": [ 0.12, 0.3 ],
-          "power": [ 0.14, 0.05 ]
+          "integrity": [ -0.09, -0.09 ],
+          "mass": [ 0.2, 0.2 ],
+          "optmass": [ 0.25, 0.35 ],
+          "power": [ 0.09, 0.09 ]
         }
       },
       "4": {
@@ -1461,10 +1461,10 @@
           "Manganese": 1
         },
         "features": {
-          "integrity": [ -0.2, -0.09 ],
-          "mass": [ 0.35, 0.14 ],
-          "optmass": [ 0.16, 0.4 ],
-          "power": [ 0.2, 0.09 ]
+          "integrity": [ -0.12, -0.12 ],
+          "mass": [ 0.25, 0.25 ],
+          "optmass": [ 0.35, 0.45 ],
+          "power": [ 0.12, 0.12 ]
         }
       },
       "5": {
@@ -1474,10 +1474,10 @@
           "Datamined Wake Exceptions": 1
         },
         "features": {
-          "integrity": [ -0.25, -0.12 ],
-          "mass": [ 0.45, 0.2 ],
-          "optmass": [ 0.2, 0.5 ],
-          "power": [ 0.25, 0.1 ]
+          "integrity": [ -0.15, -0.15 ],
+          "mass": [ 0.3, 0.3 ],
+          "optmass": [ 0.45, 0.55 ],
+          "power": [ 0.15, 0.15 ]
         }
       }
     },
@@ -1493,10 +1493,10 @@
           "Nickel": 1
         },
         "features": {
-          "integrity": [ 0.2, 0.25 ],
-          "mass": [ 0.3, 0.25 ],
-          "optmass": [ -0.03, 0 ],
-          "thermload": [ 0, -0.05 ]
+          "integrity": [ 0, 0.25 ],
+          "mass": [ 0.04, 0.04 ],
+          "optmass": [ 0, 0.03 ],
+          "thermload": [ 0, -0.1 ]
         }
       },
       "2": {
@@ -1505,10 +1505,10 @@
           "Shield Emitters": 1
         },
         "features": {
-          "integrity": [ 0.3, 0.5 ],
-          "mass": [ 0.35, 0.2 ],
-          "optmass": [ -0.06, -0.02 ],
-          "thermload": [ -0.05, -0.1 ]
+          "integrity": [ 0.25, 0.5 ],
+          "mass": [ 0.08, 0.08 ],
+          "optmass": [ 0.03, 0.06 ],
+          "thermload": [ -0.1, -0.15 ]
         }
       },
       "3": {
@@ -1518,10 +1518,10 @@
           "Zinc": 1
         },
         "features": {
-          "integrity": [ 0.4, 0.75 ],
-          "mass": [ 0.4, 0.15 ],
-          "optmass": [ -0.09, -0.04 ],
-          "thermload": [ -0.1, -0.15 ]
+          "integrity": [ 0.5, 0.75 ],
+          "mass": [ 0.12, 0.12 ],
+          "optmass": [ 0.06, 0.09 ],
+          "thermload": [ -0.15, -0.2 ]
         }
       },
       "4": {
@@ -1531,10 +1531,10 @@
           "Vanadium": 1
         },
         "features": {
-          "integrity": [ 0.5, 1 ],
-          "mass": [ 0.45, 0.1 ],
-          "optmass": [ -0.12, -0.06 ],
-          "thermload": [ -0.15, -0.2 ]
+          "integrity": [ 0.75, 1 ],
+          "mass": [ 0.16, 0.16 ],
+          "optmass": [ 0.09, 0.12 ],
+          "thermload": [ -0.2, -0.25 ]
         }
       },
       "5": {
@@ -1544,10 +1544,10 @@
           "Tungsten": 1
         },
         "features": {
-          "integrity": [ 0.6, 1.25 ],
-          "mass": [ 0.5, 0.05 ],
-          "optmass": [ -0.15, -0.08 ],
-          "thermload": [ -0.2, -0.25 ]
+          "integrity": [ 1, 1.25 ],
+          "mass": [ 0.2, 0.2 ],
+          "optmass": [ 0.12, 0.15 ],
+          "thermload": [ -0.25, -0.3 ]
         }
       }
     },
