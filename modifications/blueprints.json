@@ -4979,9 +4979,9 @@
           "Iron": 1
         },
         "features": {
-          "explres": [ 0.02, 0.05 ],
-          "kinres": [ -0.02, 0 ],
-          "thermres": [ -0.02, 0 ]
+          "explres": [ 0, 0.07 ],
+          "kinres": [ -0.01, -0.01 ],
+          "thermres": [ -0.01, -0.01 ]
         }
       },
       "2": {
@@ -4990,9 +4990,9 @@
           "Iron": 1
         },
         "features": {
-          "explres": [ 0.07, -0.1 ],
-          "kinres": [ -0.03, -0.01 ],
-          "thermres": [ -0.03, -0.01 ]
+          "explres": [ 0.07, 0.12 ],
+          "kinres": [ -0.02, -0.02 ],
+          "thermres": [ -0.02, -0.02 ]
         }
       },
       "3": {
@@ -5002,9 +5002,9 @@
           "Iron": 1
         },
         "features": {
-          "explres": [ 0.12, 0.15 ],
-          "kinres": [ -0.04, -0.02 ],
-          "thermres": [ -0.05, -0.02 ]
+          "explres": [ 0.12, 0.17 ],
+          "kinres": [ -0.03, -0.03 ],
+          "thermres": [ -0.03, -0.03 ]
         }
       },
       "4": {
@@ -5014,9 +5014,9 @@
           "Untypical Shield Scans": 1
         },
         "features": {
-          "explres": [ 0.17, 0.2 ],
-          "kinres": [ -0.05, -0.03 ],
-          "thermres": [ -0.05, -0.03 ]
+          "explres": [ 0.17, 0.22 ],
+          "kinres": [ -0.04, -0.04 ],
+          "thermres": [ -0.04, -0.04 ]
         }
       },
       "5": {
@@ -5026,9 +5026,9 @@
           "Niobium": 1
         },
         "features": {
-          "explres": [ 0.22, 0.25 ],
-          "kinres": [ -0.06, -0.04 ],
-          "thermres": [ -0.06, -0.04 ]
+          "explres": [ 0.22, 0.27 ],
+          "kinres": [ -0.05, -0.05 ],
+          "thermres": [ -0.05, -0.05 ]
         }
       }
     },
@@ -5045,9 +5045,9 @@
         },
         "features": {
           "integrity": [ 0, 0.03 ],
-          "mass": [ 1, 0.5 ],
-          "power": [ 0.05, 0 ],
-          "shieldboost": [ 0.03, 0.06 ]
+          "mass": [ 1, 1 ],
+          "power": [ 0.05, 0.05 ],
+          "shieldboost": [ 0, 0.12 ]
         }
       },
       "2": {
@@ -5057,9 +5057,9 @@
         },
         "features": {
           "integrity": [ 0.03, 0.06 ],
-          "mass": [ 1.5, 1 ],
-          "power": [ 0.1, 0.05 ],
-          "shieldboost": [ 0.08, 0.12 ]
+          "mass": [ 1.5, 1.5 ],
+          "power": [ 0.1, 0.1 ],
+          "shieldboost": [ 0.12, 0.204 ]
         }
       },
       "3": {
@@ -5070,9 +5070,9 @@
         },
         "features": {
           "integrity": [ 0.06, 0.09 ],
-          "mass": [ 2, 1.5 ],
-          "power": [ 0.15, 0.1 ],
-          "shieldboost": [ 0.13, 0.18 ]
+          "mass": [ 2, 2 ],
+          "power": [ 0.15, 0.15 ],
+          "shieldboost": [ 0.204, 0.288 ]
         }
       },
       "4": {
@@ -5083,9 +5083,9 @@
         },
         "features": {
           "integrity": [ 0.09, 0.12 ],
-          "mass": [ 2.5, 2 ],
-          "power": [ 0.2, 0.15 ],
-          "shieldboost": [ 0.18, 0.24 ]
+          "mass": [ 2.5, 2.5 ],
+          "power": [ 0.2, 0.2 ],
+          "shieldboost": [ 0.288, 0.372 ]
         }
       },
       "5": {
@@ -5096,9 +5096,9 @@
         },
         "features": {
           "integrity": [ 0.12, 0.15 ],
-          "mass": [ 3, 2.5 ],
-          "power": [ 0.25, 0.2 ],
-          "shieldboost": [ 0.23, 0.3 ]
+          "mass": [ 3, 3 ],
+          "power": [ 0.25, 0.25 ],
+          "shieldboost": [ 0.372, 0.456 ]
         }
       }
     },
@@ -5114,9 +5114,9 @@
           "Iron": 1
         },
         "features": {
-          "explres": [ -0.02, 0 ],
-          "kinres": [ 0.02, 0.05 ],
-          "thermres": [ -0.02, 0 ]
+          "explres": [ -0.01, -0.01 ],
+          "kinres": [ 0, 0.07 ],
+          "thermres": [ -0.01, -0.01 ]
         }
       },
       "2": {
@@ -5125,9 +5125,9 @@
           "Grid Resistors": 1
         },
         "features": {
-          "explres": [ -0.03, -0.01 ],
-          "kinres": [ 0.07, 0.1 ],
-          "thermres": [ -0.03, -0.01 ]
+          "explres": [ -0.02, -0.02 ],
+          "kinres": [ 0.07, 0.12 ],
+          "thermres": [ -0.02, -0.02 ]
         }
       },
       "3": {
@@ -5137,9 +5137,9 @@
           "Salvaged Alloys": 1
         },
         "features": {
-          "explres": [ -0.04, -0.02 ],
-          "kinres": [ 0.12, 0.15 ],
-          "thermres": [ -0.05, -0.02 ]
+          "explres": [ -0.03, -0.03 ],
+          "kinres": [ 0.12, 0.17 ],
+          "thermres": [ -0.03, -0.03 ]
         }
       },
       "4": {
@@ -5149,9 +5149,9 @@
           "Untypical Shield Scans": 1
         },
         "features": {
-          "explres": [ -0.05, -0.03 ],
-          "kinres": [ 0.17, 0.2 ],
-          "thermres": [ -0.05, -0.03 ]
+          "explres": [ -0.04, -0.04 ],
+          "kinres": [ 0.17, 0.22 ],
+          "thermres": [ -0.04, -0.04 ]
         }
       },
       "5": {
@@ -5161,9 +5161,9 @@
           "Phase Alloys": 1
         },
         "features": {
-          "explres": [ -0.06, -0.04 ],
-          "kinres": [ 0.22, 0.25 ],
-          "thermres": [ -0.06, -0.04 ]
+          "explres": [ -0.05, -0.05 ],
+          "kinres": [ 0.22, 0.27 ],
+          "thermres": [ -0.05, -0.05 ]
         }
       }
     },
@@ -5179,11 +5179,11 @@
           "Phosphorus": 1
         },
         "features": {
-          "explres": [ 0.01, 0.03 ],
-          "integrity": [ -0.04, 0 ],
-          "kinres": [ 0.01, 0.03 ],
-          "power": [ 0.08, 0 ],
-          "thermres": [ 0.01, 0.03 ]
+          "explres": [ 0.05, 0.05 ],
+          "integrity": [ -0.04, -0.04 ],
+          "kinres": [ 0.05, 0.05 ],
+          "power": [ 0.05, 0.05 ],
+          "thermres": [ 0.05, 0.05 ]
         }
       },
       "2": {
@@ -5192,11 +5192,11 @@
           "Phosphorus": 1
         },
         "features": {
-          "explres": [ 0.025, 0.06 ],
-          "integrity": [ -0.08, -0.02 ],
-          "kinres": [ 0.025, 0.06 ],
-          "power": [ 0.16, 0.04 ],
-          "thermres": [ 0.025, 0.06 ]
+          "explres": [ 0.08, 0.08 ],
+          "integrity": [ -0.06, -0.06 ],
+          "kinres": [ 0.08, 0.08 ],
+          "power": [ 0.1, 0.1 ],
+          "thermres": [ 0.08, 0.08 ]
         }
       },
       "3": {
@@ -5206,11 +5206,11 @@
           "Phosphorus": 1
         },
         "features": {
-          "explres": [ 0.06, 0.075 ],
-          "integrity": [ -0.12, -0.04 ],
-          "kinres": [ 0.06, 0.075 ],
-          "power": [ 0.24, 0.08 ],
-          "thermres": [ 0.06, 0.075 ]
+          "explres": [ 0.11, 0.11 ],
+          "integrity": [ -0.08, -0.08 ],
+          "kinres": [ 0.11, 0.11 ],
+          "power": [ 0.15, 0.15 ],
+          "thermres": [ 0.11, 0.11 ]
         }
       },
       "4": {
@@ -5220,11 +5220,11 @@
           "Refined Focus Crystals": 1
         },
         "features": {
-          "explres": [ 0.075, 0.11 ],
-          "integrity": [ -0.16, -0.06 ],
-          "kinres": [ 0.075, 0.11 ],
-          "power": [ 0.32, 0.12 ],
-          "thermres": [ 0.075, 0.11 ]
+          "explres": [ 0.14, 0.14 ],
+          "integrity": [ -0.1, -0.1 ],
+          "kinres": [ 0.14, 0.14 ],
+          "power": [ 0.2, 0.2 ],
+          "thermres": [ 0.14, 0.14 ]
         }
       },
       "5": {
@@ -5234,11 +5234,11 @@
           "Refined Focus Crystals": 1
         },
         "features": {
-          "explres": [ 0.1, 0.125 ],
-          "integrity": [ -0.2, -0.08 ],
-          "kinres": [ 0.1, 0.125 ],
-          "power": [ 0.4, 0.16 ],
-          "thermres": [ 0.1, 0.125 ]
+          "explres": [ 0.17, 0.17 ],
+          "integrity": [ -0.12, -0.12 ],
+          "kinres": [ 0.17, 0.17 ],
+          "power": [ 0.25, 0.25 ],
+          "thermres": [ 0.17, 0.17 ]
         }
       }
     },
@@ -5254,9 +5254,9 @@
           "Iron": 1
         },
         "features": {
-          "explres": [ -0.02, 0 ],
-          "kinres": [ -0.02, 0 ],
-          "thermres": [ 0.02, 0.05 ]
+          "explres": [ -0.01, -0.01 ],
+          "kinres": [ -0.01, -0.01 ],
+          "thermres": [ 0, 0.07]
         }
       },
       "2": {
@@ -5265,9 +5265,9 @@
           "Heat Conduction Wiring": 1
         },
         "features": {
-          "explres": [ -0.03, -0.01 ],
-          "kinres": [ -0.03, -0.01 ],
-          "thermres": [ 0.07, 0.1 ]
+          "explres": [ -0.02, -0.02 ],
+          "kinres": [ -0.02, -0.02 ],
+          "thermres": [ 0.07, 0.12 ]
         }
       },
       "3": {
@@ -5277,9 +5277,9 @@
           "Heat Dispersion Plate": 1
         },
         "features": {
-          "explres": [ -0.04, -0.02 ],
-          "kinres": [ -0.04, -0.04 ],
-          "thermres": [ 0.12, 0.15 ]
+          "explres": [ -0.03, -0.03 ],
+          "kinres": [ -0.03, -0.03 ],
+          "thermres": [ 0.12, 0.17 ]
         }
       },
       "4": {
@@ -5289,9 +5289,9 @@
           "Untypical Shield Scans": 1
         },
         "features": {
-          "explres": [ -0.05, -0.03 ],
-          "kinres": [ -0.05, -0.03 ],
-          "thermres": [ 0.17, 0.2 ]
+          "explres": [ -0.04, -0.04 ],
+          "kinres": [ -0.04, -0.04 ],
+          "thermres": [ 0.17, 0.22 ]
         }
       },
       "5": {
@@ -5301,9 +5301,9 @@
           "Heat Exchangers": 1
         },
         "features": {
-          "explres": [ -0.06, -0.04 ],
-          "kinres": [ -0.06, -0.04 ],
-          "thermres": [ 0.22, 0.25 ]
+          "explres": [ -0.05, -0.05 ],
+          "kinres": [ -0.05, -0.05 ],
+          "thermres": [ 0.22, 0.27 ]
         }
       }
     },
