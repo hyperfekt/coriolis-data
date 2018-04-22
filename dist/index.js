@@ -26952,7 +26952,7 @@ module.exports = {
       special_feedback_cascade: {
         id: 9,
         edname: "special_feedback_cascade",
-        name: "Feedback cascade"
+        name: "Feedback cascade (Legacy)"
       },
       special_force_shell: {
         id: 10,
@@ -27007,7 +27007,7 @@ module.exports = {
       special_plasma_slug: {
         id: 18,
         edname: "special_plasma_slug",
-        name: "Plasma slug"
+        name: "Plasma slug (Legacy)"
       },
       special_radiant_canister: {
         id: 19,
@@ -27047,7 +27047,7 @@ module.exports = {
       special_super_penetrator: {
         id: 26,
         edname: "special_super_penetrator",
-        name: "Super penetrator"
+        name: "Super penetrator (Legacy)"
       },
       special_lock_breaker: {
         id: 27,
