@@ -1,0 +1,66 @@
+{
+  "gpc": [
+    {
+      "ammo": 200,
+      "breachdmg": 0.7,
+      "breachmax": 0.8,
+      "breachmin": 0.5,
+      "class": 2,
+      "clip": 15,
+      "cost": 3051200,
+      "damage": 5,
+      "damagedist": {
+        "A": 1
+      },
+      "distdraw": 13.6,
+      "edID": 128049466,
+      "eddbID": 874,
+      "falloff": 1000,
+      "grp": "gpc",
+      "id": "0J",
+      "integrity": 42,
+      "mass": 4,
+      "mount": "F",
+      "piercing": 80,
+      "power": 2.13,
+      "range": 3500,
+      "rating": "B",
+      "reload": 3,
+      "rof": 5,
+      "shotspeed": 1200,
+      "thermload": 5.2,
+      "symbol": "Hpt_Guardian_PlasmaLauncher_Fixed_Medium"
+    },
+    {
+      "ammo": 200,
+      "breachdmg": 1.0,
+      "breachmax": 0.8,
+      "breachmin": 0.5,
+      "class": 2,
+      "clip": 15,
+      "cost": 3051200,
+      "damage": 4,
+      "damagedist": {
+        "A": 1
+      },
+      "distdraw": 13.6,
+      "edID": 128049466,
+      "eddbID": 874,
+      "falloff": 1000,
+      "grp": "gpc",
+      "id": "0I",
+      "integrity": 42,
+      "mass": 4,
+      "mount": "T",
+      "piercing": 80,
+      "power": 2.01,
+      "range": 3500,
+      "rating": "E",
+      "reload": 3,
+      "rof": 5,
+      "shotspeed": 1200,
+      "thermload": 5.8,
+      "symbol": "Hpt_Guardian_PlasmaLauncher_Turret_Medium"
+    }
+  ]
+}

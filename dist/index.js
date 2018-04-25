@@ -3725,6 +3725,104 @@ module.exports = {
         pgen: 9.6,
         rating: "A",
         symbol: "Int_Powerplant_Size2_Class5"
+      }, {
+        class: 2,
+        cost: 162e3,
+        edID: 128064037,
+        eddbID: 895,
+        eff: .5,
+        grp: "pp",
+        id: "0A",
+        integrity: 56,
+        mass: 1.5,
+        pgen: 12.7,
+        rating: "A",
+        name: "Guardian Hybrid Power Plant",
+        symbol: "Int_GuardianPowerplant_Size2"
+      }, {
+        class: 3,
+        cost: 291600,
+        edID: 128064037,
+        eddbID: 895,
+        eff: .5,
+        grp: "pp",
+        id: "0B",
+        integrity: 70,
+        mass: 2.9,
+        pgen: 15.8,
+        rating: "A",
+        name: "Guardian Hybrid Power Plant",
+        symbol: "Int_GuardianPowerplant_Size3"
+      }, {
+        class: 4,
+        cost: 524880,
+        edID: 128064037,
+        eddbID: 895,
+        eff: .5,
+        grp: "pp",
+        id: "0C",
+        integrity: 88,
+        mass: 5.9,
+        pgen: 20.6,
+        rating: "A",
+        name: "Guardian Hybrid Power Plant",
+        symbol: "Int_GuardianPowerplant_Size4"
+      }, {
+        class: 5,
+        cost: 944790,
+        edID: 128064037,
+        eddbID: 895,
+        eff: .5,
+        grp: "pp",
+        id: "0D",
+        integrity: 106,
+        mass: 11.7,
+        pgen: 26.9,
+        rating: "A",
+        name: "Guardian Hybrid Power Plant",
+        symbol: "Int_GuardianPowerplant_Size5"
+      }, {
+        class: 6,
+        cost: 1700610,
+        edID: 128064037,
+        eddbID: 895,
+        eff: .5,
+        grp: "pp",
+        id: "0E",
+        integrity: 124,
+        mass: 23.4,
+        pgen: 33.3,
+        rating: "A",
+        name: "Guardian Hybrid Power Plant",
+        symbol: "Int_GuardianPowerplant_Size6"
+      }, {
+        class: 7,
+        cost: 3061100,
+        edID: 128064037,
+        eddbID: 895,
+        eff: .5,
+        grp: "pp",
+        id: "0F",
+        integrity: 144,
+        mass: 46.8,
+        pgen: 39.6,
+        rating: "A",
+        name: "Guardian Hybrid Power Plant",
+        symbol: "Int_GuardianPowerplant_Size7"
+      }, {
+        class: 8,
+        cost: 5509980,
+        edID: 128064037,
+        eddbID: 895,
+        eff: .5,
+        grp: "pp",
+        id: "0G",
+        integrity: 165,
+        mass: 93.6,
+        pgen: 47.5,
+        rating: "A",
+        name: "Guardian Hybrid Power Plant",
+        symbol: "Int_GuardianPowerplant_Size8"
       } ],
       t: [ {
         class: 8,
@@ -10233,6 +10331,102 @@ module.exports = {
         thermload: .1,
         symbol: "Hpt_PlasmaPointDefence_Turret_Tiny"
       } ],
+      gpc: [ {
+        ammo: 200,
+        breachdmg: .7,
+        breachmax: .8,
+        breachmin: .5,
+        class: 2,
+        clip: 15,
+        cost: 3051200,
+        damage: 5,
+        damagedist: {
+          A: 1
+        },
+        distdraw: 13.6,
+        edID: 128049466,
+        eddbID: 874,
+        falloff: 1e3,
+        grp: "gpc",
+        id: "0J",
+        integrity: 42,
+        mass: 4,
+        mount: "F",
+        piercing: 80,
+        power: 2.13,
+        range: 3500,
+        rating: "B",
+        reload: 3,
+        rof: 5,
+        shotspeed: 1200,
+        thermload: 5.2,
+        symbol: "Hpt_Guardian_PlasmaLauncher_Fixed_Medium"
+      }, {
+        ammo: 200,
+        breachdmg: 1,
+        breachmax: .8,
+        breachmin: .5,
+        class: 2,
+        clip: 15,
+        cost: 3051200,
+        damage: 4,
+        damagedist: {
+          A: 1
+        },
+        distdraw: 13.6,
+        edID: 128049466,
+        eddbID: 874,
+        falloff: 1e3,
+        grp: "gpc",
+        id: "0I",
+        integrity: 42,
+        mass: 4,
+        mount: "T",
+        piercing: 80,
+        power: 2.01,
+        range: 3500,
+        rating: "E",
+        reload: 3,
+        rof: 5,
+        shotspeed: 1200,
+        thermload: 5.8,
+        symbol: "Hpt_Guardian_PlasmaLauncher_Turret_Medium"
+      } ],
+      ggc: [ {
+        ammo: 80,
+        breachdmg: 35,
+        breachmax: .4,
+        breachmin: .2,
+        burst: 1,
+        burstrof: .83,
+        class: 2,
+        clip: 1,
+        cost: 0,
+        damage: 70,
+        damagedist: {
+          T: 1
+        },
+        distdraw: 7.2,
+        edID: 128833687,
+        eddbID: 876,
+        falloff: 1500,
+        grp: "ggc",
+        id: "0H",
+        integrity: 42,
+        mass: 4,
+        mount: "F",
+        piercing: 140,
+        power: 2.61,
+        range: 3e3,
+        rating: "B",
+        reload: 1,
+        rof: 1.205,
+        thermload: 25,
+        symbol: "Hpt_Guardian_GaussCannon_Fixed_Medium",
+        requirements: {
+          horizons: true
+        }
+      } ],
       sfn: [ {
         class: 0,
         cost: 63e3,
@@ -16274,9 +16468,9 @@ module.exports = {
               Nickel: 1
             },
             features: {
-              explres: [ -.04, -.02 ],
-              kinres: [ .05, .08 ],
-              thermres: [ -.04, -.02 ]
+              explres: [ -.06, -.06 ],
+              kinres: [ 0, .144 ],
+              thermres: [ -.04, -.04 ]
             }
           },
           "2": {
@@ -16285,9 +16479,9 @@ module.exports = {
               Vanadium: 1
             },
             features: {
-              explres: [ -.08, -.04 ],
-              kinres: [ .1, .16 ],
-              thermres: [ -.08, -.04 ]
+              explres: [ -.08, -.08 ],
+              kinres: [ .144, .228 ],
+              thermres: [ -.06, -.06 ]
             }
           },
           "3": {
@@ -16297,9 +16491,9 @@ module.exports = {
               Vanadium: 1
             },
             features: {
-              explres: [ -.12, -.06 ],
-              kinres: [ .15, .24 ],
-              thermres: [ -.12, -.06 ]
+              explres: [ -.11, -.11 ],
+              kinres: [ .228, .312 ],
+              thermres: [ -.08, -.08 ]
             }
           },
           "4": {
@@ -16309,9 +16503,9 @@ module.exports = {
               Tungsten: 1
             },
             features: {
-              explres: [ -.16, -.08 ],
-              kinres: [ .2, .32 ],
-              thermres: [ -.16, -.08 ]
+              explres: [ -.14, -.14 ],
+              kinres: [ .312, .396 ],
+              thermres: [ -.1, -.1 ]
             }
           },
           "5": {
@@ -16321,9 +16515,9 @@ module.exports = {
               "Phase Alloys": 1
             },
             features: {
-              explres: [ -.2, -.1 ],
-              kinres: [ .25, .4 ],
-              thermres: [ -.2, -.1 ]
+              explres: [ -.17, -.17 ],
+              kinres: [ .396, .48 ],
+              thermres: [ -.12, -.12 ]
             }
           }
         },
@@ -16339,9 +16533,9 @@ module.exports = {
               "Heat Conduction Wiring": 1
             },
             features: {
-              explres: [ -.04, -.02 ],
-              kinres: [ -.04, -.02 ],
-              thermres: [ .05, .08 ]
+              explres: [ -.06, -.06 ],
+              kinres: [ -.05, -.05 ],
+              thermres: [ 0, .12 ]
             }
           },
           "2": {
@@ -16350,9 +16544,9 @@ module.exports = {
               Nickel: 1
             },
             features: {
-              explres: [ -.08, -.04 ],
-              kinres: [ -.08, -.04 ],
-              thermres: [ .1, .16 ]
+              explres: [ -.08, -.08 ],
+              kinres: [ -.07, -.07 ],
+              thermres: [ .12, .19 ]
             }
           },
           "3": {
@@ -16362,9 +16556,9 @@ module.exports = {
               Vanadium: 1
             },
             features: {
-              explres: [ -.12, -.06 ],
-              kinres: [ -.12, -.06 ],
-              thermres: [ .15, .24 ]
+              explres: [ -.11, -.11 ],
+              kinres: [ -.1, -.1 ],
+              thermres: [ .19, .26 ]
             }
           },
           "4": {
@@ -16374,9 +16568,9 @@ module.exports = {
               Tungsten: 1
             },
             features: {
-              explres: [ -.16, -.08 ],
-              kinres: [ -.16, -.08 ],
-              thermres: [ .2, .32 ]
+              explres: [ -.14, -.14 ],
+              kinres: [ -.12, -.12 ],
+              thermres: [ .26, .33 ]
             }
           },
           "5": {
@@ -16386,9 +16580,9 @@ module.exports = {
               "Proto Heat Radiators": 1
             },
             features: {
-              explres: [ -.2, -.12 ],
-              kinres: [ -.2, -.12 ],
-              thermres: [ .25, .4 ]
+              explres: [ -.17, -.17 ],
+              kinres: [ -.14, -.14 ],
+              thermres: [ .33, .4 ]
             }
           }
         },
@@ -17357,10 +17551,10 @@ module.exports = {
               "Grid Resistors": 1
             },
             features: {
-              boot: [ -.1, -.2 ],
-              integrity: [ -.05, 0 ],
-              power: [ .04, 0 ],
-              thermload: [ .05, 0 ]
+              boot: [ 0, -.2 ],
+              integrity: [ -.03, -.03 ],
+              optmass: [ 0, .03 ],
+              thermload: [ .04, .04 ]
             }
           },
           "2": {
@@ -17370,9 +17564,9 @@ module.exports = {
             },
             features: {
               boot: [ -.2, -.35 ],
-              integrity: [ -.1, -.03 ],
-              power: [ .1, .02 ],
-              thermload: [ .1, .05 ]
+              integrity: [ -.06, -.06 ],
+              optmass: [ .03, .06 ],
+              thermload: [ .08, .08 ]
             }
           },
           "3": {
@@ -17382,10 +17576,10 @@ module.exports = {
               Selenium: 1
             },
             features: {
-              boot: [ -.3, -.5 ],
-              integrity: [ -.15, -.06 ],
-              power: [ .14, .05 ],
-              thermload: [ .15, .1 ]
+              boot: [ -.35, -.5 ],
+              integrity: [ -.09, -.09 ],
+              optmass: [ .06, .09 ],
+              thermload: [ .12, .12 ]
             }
           },
           "4": {
@@ -17395,10 +17589,10 @@ module.exports = {
               "Hybrid Capacitors": 1
             },
             features: {
-              boot: [ -.4, -.65 ],
-              integrity: [ -.2, -.09 ],
-              power: [ .2, .09 ],
-              thermload: [ .2, .15 ]
+              boot: [ -.5, -.65 ],
+              integrity: [ -.12, -.12 ],
+              optmass: [ .09, .12 ],
+              thermload: [ .16, .16 ]
             }
           },
           "5": {
@@ -17408,10 +17602,10 @@ module.exports = {
               Tellurium: 1
             },
             features: {
-              boot: [ -.5, -.8 ],
-              integrity: [ -.25, -.12 ],
-              power: [ .25, .1 ],
-              thermload: [ .25, .2 ]
+              boot: [ -.65, -.8 ],
+              integrity: [ -.15, -.15 ],
+              optmass: [ .12, .15 ],
+              thermload: [ .2, .2 ]
             }
           }
         },
@@ -17427,10 +17621,10 @@ module.exports = {
               "Atypical Disrupted Wake Echoes": 1
             },
             features: {
-              integrity: [ -.05, 0 ],
-              mass: [ .05, 0 ],
-              optmass: [ .04, .1 ],
-              power: [ .04, 0 ]
+              integrity: [ -.03, -.03 ],
+              mass: [ .1, .1 ],
+              optmass: [ 0, .15 ],
+              power: [ .03, .03 ]
             }
           },
           "2": {
@@ -17439,10 +17633,10 @@ module.exports = {
               "Chemical Processors": 1
             },
             features: {
-              integrity: [ -.1, -.03 ],
-              mass: [ .14, .05 ],
-              optmass: [ .08, .2 ],
-              power: [ .1, .02 ]
+              integrity: [ -.06, -.06 ],
+              mass: [ .15, .15 ],
+              optmass: [ .15, .25 ],
+              power: [ .06, .06 ]
             }
           },
           "3": {
@@ -17452,10 +17646,10 @@ module.exports = {
               "Strange Wake Solutions": 1
             },
             features: {
-              integrity: [ -.15, -.06 ],
-              mass: [ .25, .1 ],
-              optmass: [ .12, .3 ],
-              power: [ .14, .05 ]
+              integrity: [ -.09, -.09 ],
+              mass: [ .2, .2 ],
+              optmass: [ .25, .35 ],
+              power: [ .09, .09 ]
             }
           },
           "4": {
@@ -17465,10 +17659,10 @@ module.exports = {
               Manganese: 1
             },
             features: {
-              integrity: [ -.2, -.09 ],
-              mass: [ .35, .14 ],
-              optmass: [ .16, .4 ],
-              power: [ .2, .09 ]
+              integrity: [ -.12, -.12 ],
+              mass: [ .25, .25 ],
+              optmass: [ .35, .45 ],
+              power: [ .12, .12 ]
             }
           },
           "5": {
@@ -17478,10 +17672,10 @@ module.exports = {
               "Datamined Wake Exceptions": 1
             },
             features: {
-              integrity: [ -.25, -.12 ],
-              mass: [ .45, .2 ],
-              optmass: [ .2, .5 ],
-              power: [ .25, .1 ]
+              integrity: [ -.15, -.15 ],
+              mass: [ .3, .3 ],
+              optmass: [ .45, .55 ],
+              power: [ .15, .15 ]
             }
           }
         },
@@ -17497,10 +17691,10 @@ module.exports = {
               Nickel: 1
             },
             features: {
-              integrity: [ .2, .25 ],
-              mass: [ .3, .25 ],
-              optmass: [ -.03, 0 ],
-              thermload: [ 0, -.05 ]
+              integrity: [ 0, .25 ],
+              mass: [ .04, .04 ],
+              optmass: [ 0, .03 ],
+              thermload: [ 0, -.1 ]
             }
           },
           "2": {
@@ -17509,10 +17703,10 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              integrity: [ .3, .5 ],
-              mass: [ .35, .2 ],
-              optmass: [ -.06, -.02 ],
-              thermload: [ -.05, -.1 ]
+              integrity: [ .25, .5 ],
+              mass: [ .08, .08 ],
+              optmass: [ .03, .06 ],
+              thermload: [ -.1, -.15 ]
             }
           },
           "3": {
@@ -17522,10 +17716,10 @@ module.exports = {
               Zinc: 1
             },
             features: {
-              integrity: [ .4, .75 ],
-              mass: [ .4, .15 ],
-              optmass: [ -.09, -.04 ],
-              thermload: [ -.1, -.15 ]
+              integrity: [ .5, .75 ],
+              mass: [ .12, .12 ],
+              optmass: [ .06, .09 ],
+              thermload: [ -.15, -.2 ]
             }
           },
           "4": {
@@ -17535,10 +17729,10 @@ module.exports = {
               Vanadium: 1
             },
             features: {
-              integrity: [ .5, 1 ],
-              mass: [ .45, .1 ],
-              optmass: [ -.12, -.06 ],
-              thermload: [ -.15, -.2 ]
+              integrity: [ .75, 1 ],
+              mass: [ .16, .16 ],
+              optmass: [ .09, .12 ],
+              thermload: [ -.2, -.25 ]
             }
           },
           "5": {
@@ -17548,10 +17742,10 @@ module.exports = {
               Tungsten: 1
             },
             features: {
-              integrity: [ .6, 1.25 ],
-              mass: [ .5, .05 ],
-              optmass: [ -.15, -.08 ],
-              thermload: [ -.2, -.25 ]
+              integrity: [ 1, 1.25 ],
+              mass: [ .2, .2 ],
+              optmass: [ .12, .15 ],
+              thermload: [ -.25, -.3 ]
             }
           }
         },
@@ -18273,9 +18467,9 @@ module.exports = {
               Iron: 1
             },
             features: {
-              hullboost: [ .02, .06 ],
-              hullreinforcement: [ -.05, 0 ],
-              mass: [ 0, -.03 ]
+              hullboost: [ 0, .08 ],
+              hullreinforcement: [ -.04, -.04 ],
+              mass: [ 0, -.08 ]
             }
           },
           "2": {
@@ -18284,9 +18478,9 @@ module.exports = {
               Iron: 1
             },
             features: {
-              hullboost: [ .04, .09 ],
-              hullreinforcement: [ -.1, -.05 ],
-              mass: [ 0, -.06 ]
+              hullboost: [ .08, .12 ],
+              hullreinforcement: [ -.08, -.08 ],
+              mass: [ -.08, -.12 ]
             }
           },
           "3": {
@@ -18296,9 +18490,9 @@ module.exports = {
               Iron: 1
             },
             features: {
-              hullboost: [ .06, .12 ],
-              hullreinforcement: [ -.15, -.1 ],
-              mass: [ 0, -.09 ]
+              hullboost: [ .12, .16 ],
+              hullreinforcement: [ -.12, -.12 ],
+              mass: [ -.12, -.16 ]
             }
           },
           "4": {
@@ -18308,9 +18502,9 @@ module.exports = {
               "Proprietary Composites": 1
             },
             features: {
-              hullboost: [ .08, .15 ],
-              hullreinforcement: [ -.2, -.15 ],
-              mass: [ 0, -.12 ]
+              hullboost: [ .16, .2 ],
+              hullreinforcement: [ -.16, -.16 ],
+              mass: [ -.16, -.2 ]
             }
           },
           "5": {
@@ -18320,9 +18514,9 @@ module.exports = {
               Tin: 1
             },
             features: {
-              hullboost: [ .1, .18 ],
-              hullreinforcement: [ -.25, -.2 ],
-              mass: [ 0, -.15 ]
+              hullboost: [ .2, .24 ],
+              hullreinforcement: [ -.2, -.2 ],
+              mass: [ -.2, -.24 ]
             }
           }
         },
@@ -18338,9 +18532,10 @@ module.exports = {
               Nickel: 1
             },
             features: {
-              explres: [ .05, .08 ],
-              kinres: [ -.03, -.02 ],
-              thermres: [ -.03, -.02 ]
+              explres: [ 0, .117 ],
+              hullreinforcement: [ 0, .03 ],
+              kinres: [ -.02, -.02 ],
+              thermres: [ -.02, -.02 ]
             }
           },
           "2": {
@@ -18349,9 +18544,10 @@ module.exports = {
               Zinc: 1
             },
             features: {
-              explres: [ .1, .16 ],
-              kinres: [ -.06, -.04 ],
-              thermres: [ -.06, -.04 ]
+              explres: [ .117, .185 ],
+              hullreinforcement: [ .03, .06 ],
+              kinres: [ -.04, -.04 ],
+              thermres: [ -.04, -.04 ]
             }
           },
           "3": {
@@ -18361,9 +18557,10 @@ module.exports = {
               Zirconium: 1
             },
             features: {
-              explres: [ .15, .24 ],
-              kinres: [ -.09, -.06 ],
-              thermres: [ -.09, -.06 ]
+              explres: [ .185, .254 ],
+              hullreinforcement: [ .06, .09 ],
+              kinres: [ -.06, -.06 ],
+              thermres: [ -.06, -.06 ]
             }
           },
           "4": {
@@ -18373,9 +18570,10 @@ module.exports = {
               Tungsten: 1
             },
             features: {
-              explres: [ .2, .32 ],
-              kinres: [ -.12, -.08 ],
-              thermres: [ -.12, -.08 ]
+              explres: [ .254, .322 ],
+              hullreinforcement: [ .09, .12 ],
+              kinres: [ -.08, -.08 ],
+              thermres: [ -.08, -.08 ]
             }
           },
           "5": {
@@ -18385,9 +18583,10 @@ module.exports = {
               Ruthenium: 1
             },
             features: {
-              explres: [ .24, .4 ],
-              kinres: [ -.15, -.1 ],
-              thermres: [ -.15, -.1 ]
+              explres: [ .322, .39 ],
+              hullreinforcement: [ .12, .15 ],
+              kinres: [ -.1, -.1 ],
+              thermres: [ -.1, -.1 ]
             }
           }
         },
@@ -18403,11 +18602,11 @@ module.exports = {
               Carbon: 1
             },
             features: {
-              explres: [ 0, .03 ],
-              hullreinforcement: [ .05, .2 ],
-              kinres: [ 0, .03 ],
-              mass: [ .08, 0 ],
-              thermres: [ 0, .03 ]
+              explres: [ 0, .029 ],
+              hullreinforcement: [ 0, .24 ],
+              kinres: [ 0, .029 ],
+              mass: [ .08, .08 ],
+              thermres: [ 0, .029 ]
             }
           },
           "2": {
@@ -18416,11 +18615,11 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              explres: [ .01, .06 ],
-              hullreinforcement: [ .1, .3 ],
-              kinres: [ .01, .06 ],
-              mass: [ .16, .05 ],
-              thermres: [ .01, .06 ]
+              explres: [ .029, .059 ],
+              hullreinforcement: [ .24, .36 ],
+              kinres: [ .029, .059 ],
+              mass: [ .16, .16 ],
+              thermres: [ .029, .059 ]
             }
           },
           "3": {
@@ -18430,11 +18629,11 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              explres: [ .02, .09 ],
-              hullreinforcement: [ .15, .4 ],
-              kinres: [ .02, .09 ],
-              mass: [ .24, .1 ],
-              thermres: [ .02, .09 ]
+              explres: [ .059, .088 ],
+              hullreinforcement: [ .36, .48 ],
+              kinres: [ .059, .088 ],
+              mass: [ .24, .24 ],
+              thermres: [ .059, .088 ]
             }
           },
           "4": {
@@ -18444,11 +18643,11 @@ module.exports = {
               Vanadium: 1
             },
             features: {
-              explres: [ .03, .12 ],
-              hullreinforcement: [ .2, .5 ],
-              kinres: [ .03, .12 ],
-              mass: [ .32, .15 ],
-              thermres: [ .03, .12 ]
+              explres: [ .088, .117 ],
+              hullreinforcement: [ .48, .6 ],
+              kinres: [ .088, .117 ],
+              mass: [ .32, .32 ],
+              thermres: [ .088, .117 ]
             }
           },
           "5": {
@@ -18458,11 +18657,11 @@ module.exports = {
               Tungsten: 1
             },
             features: {
-              explres: [ .04, .15 ],
-              hullreinforcement: [ .25, .6 ],
-              kinres: [ .04, .15 ],
-              mass: [ .4, .2 ],
-              thermres: [ .04, .15 ]
+              explres: [ .117, .146 ],
+              hullreinforcement: [ .6, .72 ],
+              kinres: [ .117, .146 ],
+              mass: [ .4, .4 ],
+              thermres: [ .117, .146 ]
             }
           }
         },
@@ -18478,9 +18677,10 @@ module.exports = {
               Nickel: 1
             },
             features: {
-              explres: [ -.03, -.02 ],
-              kinres: [ .05, .08 ],
-              thermres: [ -.03, -.02 ]
+              explres: [ -.02, -.02 ],
+              hullreinforcement: [ 0, .03 ],
+              kinres: [ 0, .117 ],
+              thermres: [ -.02, -.02 ]
             }
           },
           "2": {
@@ -18489,9 +18689,10 @@ module.exports = {
               Vanadium: 1
             },
             features: {
-              explres: [ -.06, -.04 ],
-              kinres: [ .1, .16 ],
-              thermres: [ -.06, -.04 ]
+              explres: [ -.04, -.04 ],
+              hullreinforcement: [ .03, .06 ],
+              kinres: [ .117, .185 ],
+              thermres: [ -.04, -.04 ]
             }
           },
           "3": {
@@ -18501,9 +18702,10 @@ module.exports = {
               Vanadium: 1
             },
             features: {
-              explres: [ -.09, -.06 ],
-              kinres: [ .15, .24 ],
-              thermres: [ -.09, -.06 ]
+              explres: [ -.06, -.06 ],
+              hullreinforcement: [ .06, .09 ],
+              kinres: [ .185, .254 ],
+              thermres: [ -.06, -.06 ]
             }
           },
           "4": {
@@ -18513,9 +18715,10 @@ module.exports = {
               Tungsten: 1
             },
             features: {
-              explres: [ -.12, -.08 ],
-              kinres: [ .2, .32 ],
-              thermres: [ -.12, -.08 ]
+              explres: [ -.08, -.08 ],
+              hullreinforcement: [ .09, .12 ],
+              kinres: [ .254, .322 ],
+              thermres: [ -.08, -.08 ]
             }
           },
           "5": {
@@ -18525,9 +18728,10 @@ module.exports = {
               "Phase Alloys": 1
             },
             features: {
-              explres: [ -.15, -.1 ],
-              kinres: [ .25, .4 ],
-              thermres: [ -.15, -.1 ]
+              explres: [ -.1, -.1 ],
+              hullreinforcement: [ .12, .15 ],
+              kinres: [ .322, .29 ],
+              thermres: [ -.1, -.1 ]
             }
           }
         },
@@ -18543,9 +18747,10 @@ module.exports = {
               "Heat Conduction Wiring": 1
             },
             features: {
-              explres: [ -.03, -.02 ],
-              kinres: [ -.03, -.02 ],
-              thermres: [ .05, .08 ]
+              explres: [ -.02, -.02 ],
+              hullreinforcement: [ 0, .03 ],
+              kinres: [ -.02, -.02 ],
+              thermres: [ 0, .117 ]
             }
           },
           "2": {
@@ -18554,9 +18759,10 @@ module.exports = {
               Nickel: 1
             },
             features: {
-              explres: [ -.06, -.04 ],
-              kinres: [ -.06, -.04 ],
-              thermres: [ .1, .16 ]
+              explres: [ -.04, -.04 ],
+              hullreinforcement: [ .03, .06 ],
+              kinres: [ -.04, -.04 ],
+              thermres: [ .117, .185 ]
             }
           },
           "3": {
@@ -18566,9 +18772,10 @@ module.exports = {
               Vanadium: 1
             },
             features: {
-              explres: [ -.09, -.06 ],
-              kinres: [ -.09, -.06 ],
-              thermres: [ .15, .24 ]
+              explres: [ -.06, -.06 ],
+              hullreinforcement: [ .06, .09 ],
+              kinres: [ -.06, -.06 ],
+              thermres: [ .185, .254 ]
             }
           },
           "4": {
@@ -18578,9 +18785,10 @@ module.exports = {
               Tungsten: 1
             },
             features: {
-              explres: [ -.12, -.08 ],
-              kinres: [ -.12, -.08 ],
-              thermres: [ .2, .32 ]
+              explres: [ -.08, -.08 ],
+              hullreinforcement: [ .09, .12 ],
+              kinres: [ -.08, -.08 ],
+              thermres: [ .254, .322 ]
             }
           },
           "5": {
@@ -18590,9 +18798,10 @@ module.exports = {
               "Proto Heat Radiators": 1
             },
             features: {
-              explres: [ -.15, -.1 ],
-              kinres: [ -.15, -.1 ],
-              thermres: [ .25, .4 ]
+              explres: [ -.1, -.1 ],
+              hullreinforcement: [ .12, .15 ],
+              kinres: [ -.1, -.1 ],
+              thermres: [ .322, .39 ]
             }
           }
         },
@@ -19670,9 +19879,10 @@ module.exports = {
               "Worn Shield Emitters": 1
             },
             features: {
-              eff: [ .05, -.05 ],
-              integrity: [ .2, .4 ],
-              mass: [ .08, 0 ]
+              eff: [ 0, -.04 ],
+              integrity: [ 0, .4 ],
+              pgen: [ 0, .04 ],
+              mass: [ .04, .04 ]
             }
           },
           "2": {
@@ -19681,9 +19891,10 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              eff: [ .06, -.06 ],
+              eff: [ -.04, -.06 ],
               integrity: [ .3, .6 ],
-              mass: [ .16, .04 ]
+              pgen: [ 0, .06 ],
+              mass: [ .08, .08 ]
             }
           },
           "3": {
@@ -19693,9 +19904,10 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              eff: [ .07, -.07 ],
-              integrity: [ .4, .8 ],
-              mass: [ .24, .08 ]
+              eff: [ -.06, -.08 ],
+              integrity: [ .6, .8 ],
+              pgen: [ .06, .08 ],
+              mass: [ .12, .12 ]
             }
           },
           "4": {
@@ -19705,9 +19917,10 @@ module.exports = {
               Vanadium: 1
             },
             features: {
-              eff: [ .08, -.08 ],
+              eff: [ -.08, -.1 ],
               integrity: [ .5, 1 ],
-              mass: [ .32, .12 ]
+              pgen: [ .08, .1 ],
+              mass: [ .16, .16 ]
             }
           },
           "5": {
@@ -19717,8 +19930,9 @@ module.exports = {
               Tungsten: 1
             },
             features: {
-              eff: [ .09, -.09 ],
-              integrity: [ .6, 1.2 ],
+              eff: [ -.1, -.12 ],
+              integrity: [ 1, 1.2 ],
+              pgen: [ .1, .12 ],
               mass: [ .4, .16 ]
             }
           }
@@ -19735,9 +19949,9 @@ module.exports = {
               Sulphur: 1
             },
             features: {
-              eff: [ .1, 0 ],
-              integrity: [ -.1, 0 ],
-              pgen: [ .02, .12 ]
+              eff: [ 0, .05 ],
+              integrity: [ 0, -.05 ],
+              pgen: [ 0, .12 ]
             }
           },
           "2": {
@@ -19746,9 +19960,9 @@ module.exports = {
               "Heat Conduction Wiring": 1
             },
             features: {
-              eff: [ .2, .05 ],
-              integrity: [ -.2, -.05 ],
-              pgen: [ .04, .18 ]
+              eff: [ .05, .1 ],
+              integrity: [ -.05, -.1 ],
+              pgen: [ .12, .19 ]
             }
           },
           "3": {
@@ -19758,9 +19972,9 @@ module.exports = {
               Selenium: 1
             },
             features: {
-              eff: [ .3, .1 ],
-              integrity: [ -.3, -.1 ],
-              pgen: [ .06, .24 ]
+              eff: [ .1, .15 ],
+              integrity: [ -.1, -.15 ],
+              pgen: [ .12, .19 ]
             }
           },
           "4": {
@@ -19770,9 +19984,9 @@ module.exports = {
               "Heat Dispersion Plate": 1
             },
             features: {
-              eff: [ .4, .15 ],
-              integrity: [ -.4, -.15 ],
-              pgen: [ .08, .3 ]
+              eff: [ .15, .2 ],
+              integrity: [ -.15, -.2 ],
+              pgen: [ .19, .33 ]
             }
           },
           "5": {
@@ -19782,9 +19996,9 @@ module.exports = {
               Tellurium: 1
             },
             features: {
-              eff: [ .5, .2 ],
-              integrity: [ -.5, -.2 ],
-              pgen: [ .1, .36 ]
+              eff: [ .2, .25 ],
+              integrity: [ -.2, -.25 ],
+              pgen: [ .3, .4 ]
             }
           }
         },
@@ -19800,9 +20014,9 @@ module.exports = {
               Iron: 1
             },
             features: {
-              eff: [ -.05, -.2 ],
-              mass: [ .05, 0 ],
-              pgen: [ -.06, 0 ]
+              eff: [ 0, -.25 ],
+              mass: [ 0, .04 ],
+              pgen: [ 0, -.03 ]
             }
           },
           "2": {
@@ -19811,9 +20025,9 @@ module.exports = {
               "Irregular Emission Data": 1
             },
             features: {
-              eff: [ -.1, -.3 ],
-              mass: [ .1, .05 ],
-              pgen: [ -.12, -.03 ]
+              eff: [ -.25, -.35 ],
+              mass: [ .04, .08 ],
+              pgen: [ -.03, -.06 ]
             }
           },
           "3": {
@@ -19823,9 +20037,9 @@ module.exports = {
               "Irregular Emission Data": 1
             },
             features: {
-              eff: [ -.15, -.4 ],
-              mass: [ .15, .1 ],
-              pgen: [ -.18, -.06 ]
+              eff: [ -.35, -.45 ],
+              mass: [ .08, .12 ],
+              pgen: [ -.06, -.09 ]
             }
           }
         },
@@ -20965,9 +21179,9 @@ module.exports = {
               Iron: 1
             },
             features: {
-              explres: [ .02, .05 ],
-              kinres: [ -.02, 0 ],
-              thermres: [ -.02, 0 ]
+              explres: [ 0, .07 ],
+              kinres: [ -.01, -.01 ],
+              thermres: [ -.01, -.01 ]
             }
           },
           "2": {
@@ -20976,9 +21190,9 @@ module.exports = {
               Iron: 1
             },
             features: {
-              explres: [ .07, -.1 ],
-              kinres: [ -.03, -.01 ],
-              thermres: [ -.03, -.01 ]
+              explres: [ .07, .12 ],
+              kinres: [ -.02, -.02 ],
+              thermres: [ -.02, -.02 ]
             }
           },
           "3": {
@@ -20988,9 +21202,9 @@ module.exports = {
               Iron: 1
             },
             features: {
-              explres: [ .12, .15 ],
-              kinres: [ -.04, -.02 ],
-              thermres: [ -.05, -.02 ]
+              explres: [ .12, .17 ],
+              kinres: [ -.03, -.03 ],
+              thermres: [ -.03, -.03 ]
             }
           },
           "4": {
@@ -21000,9 +21214,9 @@ module.exports = {
               "Untypical Shield Scans": 1
             },
             features: {
-              explres: [ .17, .2 ],
-              kinres: [ -.05, -.03 ],
-              thermres: [ -.05, -.03 ]
+              explres: [ .17, .22 ],
+              kinres: [ -.04, -.04 ],
+              thermres: [ -.04, -.04 ]
             }
           },
           "5": {
@@ -21012,9 +21226,9 @@ module.exports = {
               Niobium: 1
             },
             features: {
-              explres: [ .22, .25 ],
-              kinres: [ -.06, -.04 ],
-              thermres: [ -.06, -.04 ]
+              explres: [ .22, .27 ],
+              kinres: [ -.05, -.05 ],
+              thermres: [ -.05, -.05 ]
             }
           }
         },
@@ -21031,9 +21245,9 @@ module.exports = {
             },
             features: {
               integrity: [ 0, .03 ],
-              mass: [ 1, .5 ],
-              power: [ .05, 0 ],
-              shieldboost: [ .03, .06 ]
+              mass: [ 1, 1 ],
+              power: [ .05, .05 ],
+              shieldboost: [ 0, .12 ]
             }
           },
           "2": {
@@ -21043,9 +21257,9 @@ module.exports = {
             },
             features: {
               integrity: [ .03, .06 ],
-              mass: [ 1.5, 1 ],
-              power: [ .1, .05 ],
-              shieldboost: [ .08, .12 ]
+              mass: [ 1.5, 1.5 ],
+              power: [ .1, .1 ],
+              shieldboost: [ .12, .204 ]
             }
           },
           "3": {
@@ -21056,9 +21270,9 @@ module.exports = {
             },
             features: {
               integrity: [ .06, .09 ],
-              mass: [ 2, 1.5 ],
-              power: [ .15, .1 ],
-              shieldboost: [ .13, .18 ]
+              mass: [ 2, 2 ],
+              power: [ .15, .15 ],
+              shieldboost: [ .204, .288 ]
             }
           },
           "4": {
@@ -21069,9 +21283,9 @@ module.exports = {
             },
             features: {
               integrity: [ .09, .12 ],
-              mass: [ 2.5, 2 ],
-              power: [ .2, .15 ],
-              shieldboost: [ .18, .24 ]
+              mass: [ 2.5, 2.5 ],
+              power: [ .2, .2 ],
+              shieldboost: [ .288, .372 ]
             }
           },
           "5": {
@@ -21082,9 +21296,9 @@ module.exports = {
             },
             features: {
               integrity: [ .12, .15 ],
-              mass: [ 3, 2.5 ],
-              power: [ .25, .2 ],
-              shieldboost: [ .23, .3 ]
+              mass: [ 3, 3 ],
+              power: [ .25, .25 ],
+              shieldboost: [ .372, .456 ]
             }
           }
         },
@@ -21100,9 +21314,9 @@ module.exports = {
               Iron: 1
             },
             features: {
-              explres: [ -.02, 0 ],
-              kinres: [ .02, .05 ],
-              thermres: [ -.02, 0 ]
+              explres: [ -.01, -.01 ],
+              kinres: [ 0, .07 ],
+              thermres: [ -.01, -.01 ]
             }
           },
           "2": {
@@ -21111,9 +21325,9 @@ module.exports = {
               "Grid Resistors": 1
             },
             features: {
-              explres: [ -.03, -.01 ],
-              kinres: [ .07, .1 ],
-              thermres: [ -.03, -.01 ]
+              explres: [ -.02, -.02 ],
+              kinres: [ .07, .12 ],
+              thermres: [ -.02, -.02 ]
             }
           },
           "3": {
@@ -21123,9 +21337,9 @@ module.exports = {
               "Salvaged Alloys": 1
             },
             features: {
-              explres: [ -.04, -.02 ],
-              kinres: [ .12, .15 ],
-              thermres: [ -.05, -.02 ]
+              explres: [ -.03, -.03 ],
+              kinres: [ .12, .17 ],
+              thermres: [ -.03, -.03 ]
             }
           },
           "4": {
@@ -21135,9 +21349,9 @@ module.exports = {
               "Untypical Shield Scans": 1
             },
             features: {
-              explres: [ -.05, -.03 ],
-              kinres: [ .17, .2 ],
-              thermres: [ -.05, -.03 ]
+              explres: [ -.04, -.04 ],
+              kinres: [ .17, .22 ],
+              thermres: [ -.04, -.04 ]
             }
           },
           "5": {
@@ -21147,9 +21361,9 @@ module.exports = {
               "Phase Alloys": 1
             },
             features: {
-              explres: [ -.06, -.04 ],
-              kinres: [ .22, .25 ],
-              thermres: [ -.06, -.04 ]
+              explres: [ -.05, -.05 ],
+              kinres: [ .22, .27 ],
+              thermres: [ -.05, -.05 ]
             }
           }
         },
@@ -21165,11 +21379,11 @@ module.exports = {
               Phosphorus: 1
             },
             features: {
-              explres: [ .01, .03 ],
-              integrity: [ -.04, 0 ],
-              kinres: [ .01, .03 ],
-              power: [ .08, 0 ],
-              thermres: [ .01, .03 ]
+              explres: [ .05, .05 ],
+              integrity: [ -.04, -.04 ],
+              kinres: [ .05, .05 ],
+              power: [ .05, .05 ],
+              thermres: [ .05, .05 ]
             }
           },
           "2": {
@@ -21178,11 +21392,11 @@ module.exports = {
               Phosphorus: 1
             },
             features: {
-              explres: [ .025, .06 ],
-              integrity: [ -.08, -.02 ],
-              kinres: [ .025, .06 ],
-              power: [ .16, .04 ],
-              thermres: [ .025, .06 ]
+              explres: [ .08, .08 ],
+              integrity: [ -.06, -.06 ],
+              kinres: [ .08, .08 ],
+              power: [ .1, .1 ],
+              thermres: [ .08, .08 ]
             }
           },
           "3": {
@@ -21192,11 +21406,11 @@ module.exports = {
               Phosphorus: 1
             },
             features: {
-              explres: [ .06, .075 ],
-              integrity: [ -.12, -.04 ],
-              kinres: [ .06, .075 ],
-              power: [ .24, .08 ],
-              thermres: [ .06, .075 ]
+              explres: [ .11, .11 ],
+              integrity: [ -.08, -.08 ],
+              kinres: [ .11, .11 ],
+              power: [ .15, .15 ],
+              thermres: [ .11, .11 ]
             }
           },
           "4": {
@@ -21206,11 +21420,11 @@ module.exports = {
               "Refined Focus Crystals": 1
             },
             features: {
-              explres: [ .075, .11 ],
-              integrity: [ -.16, -.06 ],
-              kinres: [ .075, .11 ],
-              power: [ .32, .12 ],
-              thermres: [ .075, .11 ]
+              explres: [ .14, .14 ],
+              integrity: [ -.1, -.1 ],
+              kinres: [ .14, .14 ],
+              power: [ .2, .2 ],
+              thermres: [ .14, .14 ]
             }
           },
           "5": {
@@ -21220,11 +21434,11 @@ module.exports = {
               "Refined Focus Crystals": 1
             },
             features: {
-              explres: [ .1, .125 ],
-              integrity: [ -.2, -.08 ],
-              kinres: [ .1, .125 ],
-              power: [ .4, .16 ],
-              thermres: [ .1, .125 ]
+              explres: [ .17, .17 ],
+              integrity: [ -.12, -.12 ],
+              kinres: [ .17, .17 ],
+              power: [ .25, .25 ],
+              thermres: [ .17, .17 ]
             }
           }
         },
@@ -21240,9 +21454,9 @@ module.exports = {
               Iron: 1
             },
             features: {
-              explres: [ -.02, 0 ],
-              kinres: [ -.02, 0 ],
-              thermres: [ .02, .05 ]
+              explres: [ -.01, -.01 ],
+              kinres: [ -.01, -.01 ],
+              thermres: [ 0, .07 ]
             }
           },
           "2": {
@@ -21251,9 +21465,9 @@ module.exports = {
               "Heat Conduction Wiring": 1
             },
             features: {
-              explres: [ -.03, -.01 ],
-              kinres: [ -.03, -.01 ],
-              thermres: [ .07, .1 ]
+              explres: [ -.02, -.02 ],
+              kinres: [ -.02, -.02 ],
+              thermres: [ .07, .12 ]
             }
           },
           "3": {
@@ -21263,9 +21477,9 @@ module.exports = {
               "Heat Dispersion Plate": 1
             },
             features: {
-              explres: [ -.04, -.02 ],
-              kinres: [ -.04, -.04 ],
-              thermres: [ .12, .15 ]
+              explres: [ -.03, -.03 ],
+              kinres: [ -.03, -.03 ],
+              thermres: [ .12, .17 ]
             }
           },
           "4": {
@@ -21275,9 +21489,9 @@ module.exports = {
               "Untypical Shield Scans": 1
             },
             features: {
-              explres: [ -.05, -.03 ],
-              kinres: [ -.05, -.03 ],
-              thermres: [ .17, .2 ]
+              explres: [ -.04, -.04 ],
+              kinres: [ -.04, -.04 ],
+              thermres: [ .17, .22 ]
             }
           },
           "5": {
@@ -21287,9 +21501,9 @@ module.exports = {
               "Heat Exchangers": 1
             },
             features: {
-              explres: [ -.06, -.04 ],
-              kinres: [ -.06, -.04 ],
-              thermres: [ .22, .25 ]
+              explres: [ -.05, -.05 ],
+              kinres: [ -.05, -.05 ],
+              thermres: [ .22, .27 ]
             }
           }
         },
@@ -25325,7 +25539,15 @@ module.exports = {
         modifications: [ "ammo", "boot", "clip", "damage", "damagedist", "fallofffromrange", "integrity", "jitter", "mass", "piercing", "power", "reload", "rof", "thermload" ],
         specials: [ "special_ion_disruptor", "special_overload_munitions", "special_radiant_canister", "special_reverberating_cascade", "special_shiftlock_canister", "special_emissive_munitions", "special_weapon_damage", "special_weapon_efficient", "special_weapon_rateoffire", "special_weapon_toughened", "special_weapon_lightweight" ]
       },
+      gpc: {
+        blueprints: {},
+        modifications: []
+      },
       gpl: {
+        blueprints: {},
+        modifications: []
+      },
+      gpp: {
         blueprints: {},
         modifications: []
       },

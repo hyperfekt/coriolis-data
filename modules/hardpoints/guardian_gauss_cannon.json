@@ -1,0 +1,39 @@
+{
+  "ggc": [
+    {
+      "ammo": 80,
+      "breachdmg": 35,
+      "breachmax": 0.4,
+      "breachmin": 0.2,
+      "burst": 1,
+      "burstrof": 0.83,
+      "class": 2,
+      "clip": 1,
+      "cost": 0,
+      "damage": 70,
+      "damagedist": {
+        "T": 1
+      },
+      "distdraw": 7.20,
+      "edID": 128833687,
+      "eddbID": 876,
+      "falloff": 1500,
+      "grp": "ggc",
+      "id": "0H",
+      "integrity": 42,
+      "mass": 4,
+      "mount": "F",
+      "piercing": 140,
+      "power": 2.61,
+      "range": 3000,
+      "rating": "B",
+      "reload": 1,
+      "rof": 1.205,
+      "thermload": 25,
+      "symbol": "Hpt_Guardian_GaussCannon_Fixed_Medium",
+      "requirements": {
+        "horizons": true
+      }
+    }
+  ]
+}
