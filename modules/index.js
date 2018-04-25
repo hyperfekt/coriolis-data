@@ -33,6 +33,8 @@ module.exports = {
     ec: require('./hardpoints/electronic_countermeasure').ec,
     hs: require('./hardpoints/heat_sink_launcher').hs,
     po: require('./hardpoints/point_defence').po,
+    gpc: require('./hardpoints/guardian_plasma_charger').gpc,
+    ggc: require('./hardpoints/guardian_gauss_cannon').ggc,
     sfn: require('./hardpoints/shutdown_field_neutraliser').sfn,
     xs: require('./hardpoints/xeno_scanner').xs
   },

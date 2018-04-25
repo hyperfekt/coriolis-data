@@ -3427,6 +3427,12 @@
       "special_weapon_lightweight"
     ]
   },
+  "gpc": {
+    "blueprints": {
+    },
+    "modifications": [
+    ]
+  },
   "gpl": {
     "blueprints": {
     },
