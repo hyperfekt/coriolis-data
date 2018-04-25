@@ -341,7 +341,7 @@
   },
   "special_powerplant_highcharge": {
     "mass": 0.1,
-    "power": 0.05
+    "pgen": 0.05
   },
   "special_powerplant_cooled": {
     "eff": -0.1
@@ -443,9 +443,9 @@
   },
   "special_hullreinforcement_chunky": {
     "hullreinforcement": 0.1,
-    "explres": 2,
-    "thermres": 2,
-    "kinres": 2
+    "explres": -2,
+    "thermres": -2,
+    "kinres": -2
   },
   "special_shieldbooster_thermic": {
     "optmul": -0.01,

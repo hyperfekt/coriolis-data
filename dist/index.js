@@ -133,7 +133,7 @@ module.exports = {
         eddbID: 1641,
         grp: "bh",
         cost: 6803170,
-        mass: 75,
+        mass: 40,
         explres: -.4,
         kinres: -.2,
         thermres: 0,
@@ -144,7 +144,7 @@ module.exports = {
         eddbID: 1642,
         grp: "bh",
         cost: 15307134,
-        mass: 150,
+        mass: 78,
         explres: -.4,
         kinres: -.2,
         thermres: 0,
@@ -155,7 +155,7 @@ module.exports = {
         eddbID: 1643,
         grp: "bh",
         cost: 36175859,
-        mass: 150,
+        mass: 78,
         explres: -.5,
         kinres: -.75,
         thermres: .5,
@@ -166,7 +166,7 @@ module.exports = {
         eddbID: 1644,
         grp: "bh",
         cost: 40087682,
-        mass: 150,
+        mass: 78,
         explres: .2,
         kinres: .25,
         thermres: -.4,
@@ -23452,7 +23452,7 @@ module.exports = {
       },
       special_powerplant_highcharge: {
         mass: .1,
-        power: .05
+        pgen: .05
       },
       special_powerplant_cooled: {
         eff: -.1
@@ -23554,9 +23554,9 @@ module.exports = {
       },
       special_hullreinforcement_chunky: {
         hullreinforcement: .1,
-        explres: 2,
-        thermres: 2,
-        kinres: 2
+        explres: -2,
+        thermres: -2,
+        kinres: -2
       },
       special_shieldbooster_thermic: {
         optmul: -.01,
