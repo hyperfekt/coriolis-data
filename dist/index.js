@@ -23554,9 +23554,9 @@ module.exports = {
       },
       special_hullreinforcement_chunky: {
         hullreinforcement: .1,
-        explres: 2,
-        thermres: 2,
-        kinres: 2
+        explres: -2,
+        thermres: -2,
+        kinres: -2
       },
       special_shieldbooster_thermic: {
         optmul: -.01,
