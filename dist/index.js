@@ -23452,7 +23452,7 @@ module.exports = {
       },
       special_powerplant_highcharge: {
         mass: .1,
-        power: .05
+        pgen: .05
       },
       special_powerplant_cooled: {
         eff: -.1

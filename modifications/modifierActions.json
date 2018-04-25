@@ -341,7 +341,7 @@
   },
   "special_powerplant_highcharge": {
     "mass": 0.1,
-    "power": 0.05
+    "pgen": 0.05
   },
   "special_powerplant_cooled": {
     "eff": -0.1
