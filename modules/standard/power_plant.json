@@ -496,13 +496,13 @@
       "edID": 128064037,
       "eddbID": 895,
       "eff": 0.5,
-      "grp": "gpp",
+      "grp": "pp",
       "id": "0A",
       "integrity": 56,
       "mass": 1.5,
       "pgen": 12.7,
       "rating": "A",
-      "name": "Guardian Powerplant",
+      "name": "Guardian Hybrid Power Plant",
       "symbol": "Int_GuardianPowerplant_Size2"
     },
     {
@@ -511,13 +511,13 @@
       "edID": 128064037,
       "eddbID": 895,
       "eff": 0.5,
-      "grp": "gpp",
+      "grp": "pp",
       "id": "0B",
       "integrity": 70,
       "mass": 2.9,
       "pgen": 15.8,
       "rating": "A",
-      "name": "Guardian Powerplant",
+      "name": "Guardian Hybrid Power Plant",
       "symbol": "Int_GuardianPowerplant_Size3"
     },
     {
@@ -526,13 +526,13 @@
       "edID": 128064037,
       "eddbID": 895,
       "eff": 0.5,
-      "grp": "gpp",
+      "grp": "pp",
       "id": "0C",
       "integrity": 88,
       "mass": 5.9,
       "pgen": 20.6,
       "rating": "A",
-      "name": "Guardian Powerplant",
+      "name": "Guardian Hybrid Power Plant",
       "symbol": "Int_GuardianPowerplant_Size4"
     },
     {
@@ -541,13 +541,13 @@
       "edID": 128064037,
       "eddbID": 895,
       "eff": 0.5,
-      "grp": "gpp",
+      "grp": "pp",
       "id": "0D",
       "integrity": 106,
       "mass": 11.7,
       "pgen": 26.9,
       "rating": "A",
-      "name": "Guardian Powerplant",
+      "name": "Guardian Hybrid Power Plant",
       "symbol": "Int_GuardianPowerplant_Size5"
     },
     {
@@ -556,13 +556,13 @@
       "edID": 128064037,
       "eddbID": 895,
       "eff": 0.5,
-      "grp": "gpp",
+      "grp": "pp",
       "id": "0E",
       "integrity": 124,
       "mass": 23.4,
       "pgen": 33.3,
       "rating": "A",
-      "name": "Guardian Powerplant",
+      "name": "Guardian Hybrid Power Plant",
       "symbol": "Int_GuardianPowerplant_Size6"
     },
     {
@@ -571,13 +571,13 @@
       "edID": 128064037,
       "eddbID": 895,
       "eff": 0.5,
-      "grp": "gpp",
+      "grp": "pp",
       "id": "0F",
       "integrity": 144,
       "mass": 46.8,
       "pgen": 39.6,
       "rating": "A",
-      "name": "Guardian Powerplant",
+      "name": "Guardian Hybrid Power Plant",
       "symbol": "Int_GuardianPowerplant_Size7"
     },
     {
@@ -586,13 +586,13 @@
       "edID": 128064037,
       "eddbID": 895,
       "eff": 0.5,
-      "grp": "gpp",
+      "grp": "pp",
       "id": "0G",
       "integrity": 165,
       "mass": 93.6,
       "pgen": 47.5,
       "rating": "A",
-      "name": "Guardian Powerplant",
+      "name": "Guardian Hybrid Power Plant",
       "symbol": "Int_GuardianPowerplant_Size8"
     }
   ]

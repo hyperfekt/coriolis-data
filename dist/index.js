@@ -3731,13 +3731,13 @@ module.exports = {
         edID: 128064037,
         eddbID: 895,
         eff: .5,
-        grp: "gpp",
+        grp: "pp",
         id: "0A",
         integrity: 56,
         mass: 1.5,
         pgen: 12.7,
         rating: "A",
-        name: "Guardian Powerplant",
+        name: "Guardian Hybrid Power Plant",
         symbol: "Int_GuardianPowerplant_Size2"
       }, {
         class: 3,
@@ -3745,13 +3745,13 @@ module.exports = {
         edID: 128064037,
         eddbID: 895,
         eff: .5,
-        grp: "gpp",
+        grp: "pp",
         id: "0B",
         integrity: 70,
         mass: 2.9,
         pgen: 15.8,
         rating: "A",
-        name: "Guardian Powerplant",
+        name: "Guardian Hybrid Power Plant",
         symbol: "Int_GuardianPowerplant_Size3"
       }, {
         class: 4,
@@ -3759,13 +3759,13 @@ module.exports = {
         edID: 128064037,
         eddbID: 895,
         eff: .5,
-        grp: "gpp",
+        grp: "pp",
         id: "0C",
         integrity: 88,
         mass: 5.9,
         pgen: 20.6,
         rating: "A",
-        name: "Guardian Powerplant",
+        name: "Guardian Hybrid Power Plant",
         symbol: "Int_GuardianPowerplant_Size4"
       }, {
         class: 5,
@@ -3773,13 +3773,13 @@ module.exports = {
         edID: 128064037,
         eddbID: 895,
         eff: .5,
-        grp: "gpp",
+        grp: "pp",
         id: "0D",
         integrity: 106,
         mass: 11.7,
         pgen: 26.9,
         rating: "A",
-        name: "Guardian Powerplant",
+        name: "Guardian Hybrid Power Plant",
         symbol: "Int_GuardianPowerplant_Size5"
       }, {
         class: 6,
@@ -3787,13 +3787,13 @@ module.exports = {
         edID: 128064037,
         eddbID: 895,
         eff: .5,
-        grp: "gpp",
+        grp: "pp",
         id: "0E",
         integrity: 124,
         mass: 23.4,
         pgen: 33.3,
         rating: "A",
-        name: "Guardian Powerplant",
+        name: "Guardian Hybrid Power Plant",
         symbol: "Int_GuardianPowerplant_Size6"
       }, {
         class: 7,
@@ -3801,13 +3801,13 @@ module.exports = {
         edID: 128064037,
         eddbID: 895,
         eff: .5,
-        grp: "gpp",
+        grp: "pp",
         id: "0F",
         integrity: 144,
         mass: 46.8,
         pgen: 39.6,
         rating: "A",
-        name: "Guardian Powerplant",
+        name: "Guardian Hybrid Power Plant",
         symbol: "Int_GuardianPowerplant_Size7"
       }, {
         class: 8,
@@ -3815,13 +3815,13 @@ module.exports = {
         edID: 128064037,
         eddbID: 895,
         eff: .5,
-        grp: "gpp",
+        grp: "pp",
         id: "0G",
         integrity: 165,
         mass: 93.6,
         pgen: 47.5,
         rating: "A",
-        name: "Guardian Powerplant",
+        name: "Guardian Hybrid Power Plant",
         symbol: "Int_GuardianPowerplant_Size8"
       } ],
       t: [ {
@@ -25544,6 +25544,10 @@ module.exports = {
         modifications: []
       },
       gpl: {
+        blueprints: {},
+        modifications: []
+      },
+      gpp: {
         blueprints: {},
         modifications: []
       },
