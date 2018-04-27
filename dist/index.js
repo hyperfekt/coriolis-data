@@ -17366,7 +17366,7 @@ module.exports = {
             },
             features: {
               integrity: [ -.06, -.09 ],
-              optmass: [ -.5, -.08 ],
+              optmass: [ -.05, -.08 ],
               optmul: [ .19, .26 ],
               power: [ .06, .08 ],
               thermload: [ .3, .4 ]
