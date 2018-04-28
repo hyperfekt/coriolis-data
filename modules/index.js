@@ -64,6 +64,7 @@ module.exports = {
     scb: require('./internal/shield_cell_bank').scb,
     sg: require('./internal/shield_generator').sg,
     ss: require('./internal/surface_scanner').ss,
-    rpl: require('./internal/repair_limpet_controller').rpl
+    rpl: require('./internal/repair_limpet_controller').rpl,
+    rcpl: require('./internal/recon_limpet_controllers').rcpl
   }
 }
