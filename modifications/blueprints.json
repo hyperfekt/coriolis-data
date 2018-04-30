@@ -554,8 +554,8 @@
         "features": {
           "integrity": [ 1.8, 2.4 ],
           "power": [ 0.8, 0.8 ]
-        },
-      }
+        }
+      },
       "5": {
         "components": {
           "Compound Shielding": 1,
@@ -754,8 +754,8 @@
         "features": {
           "integrity": [ 1.8, 2.4 ],
           "power": [ 0.8, 0.8 ]
-        },
-      }
+        }
+      },
       "5": {
         "components": {
           "Compound Shielding": 1,
@@ -934,8 +934,8 @@
         "features": {
           "integrity": [ 1.8, 2.4 ],
           "power": [ 0.8, 0.8 ]
-        },
-      }
+        }
+      },
       "5": {
         "components": {
           "Compound Shielding": 1,
@@ -1114,8 +1114,8 @@
         "features": {
           "integrity": [ 1.8, 2.4 ],
           "power": [ 0.8, 0.8 ]
-        },
-      }
+        }
+      },
       "5": {
         "components": {
           "Compound Shielding": 1,
@@ -1876,8 +1876,8 @@
         "features": {
           "integrity": [ 1.8, 2.4 ],
           "power": [ 0.8, 0.8 ]
-        },
-      }
+        }
+      },
       "5": {
         "components": {
           "Compound Shielding": 1,
@@ -2056,8 +2056,8 @@
         "features": {
           "integrity": [ 1.8, 2.4 ],
           "power": [ 0.8, 0.8 ]
-        },
-      }
+        }
+      },
       "5": {
         "components": {
           "Compound Shielding": 1,
@@ -2256,8 +2256,8 @@
         "features": {
           "integrity": [ 1.8, 2.4 ],
           "power": [ 0.8, 0.8 ]
-        },
-      }
+        }
+      },
       "5": {
         "components": {
           "Compound Shielding": 1,
@@ -3209,8 +3209,8 @@
         "features": {
           "integrity": [ 1.8, 2.4 ],
           "power": [ 0.8, 0.8 ]
-        },
-      }
+        }
+      },
       "5": {
         "components": {
           "Compound Shielding": 1,
@@ -3892,7 +3892,7 @@
           "mass": [ 0.2, 0.2 ],
           "pgen": [ -0.15, -0.15 ]
         }
-      },
+      }
     },
     "id": 64,
     "modulename": ["Power plant"],
@@ -4060,8 +4060,8 @@
         "features": {
           "integrity": [ 1.8, 2.4 ],
           "power": [ 0.8, 0.8 ]
-        },
-      }
+        }
+      },
       "5": {
         "components": {
           "Compound Shielding": 1,
@@ -5900,8 +5900,8 @@
         "features": {
           "integrity": [ 1.8, 2.4 ],
           "power": [ 0.8, 0.8 ]
-        },
-      }
+        }
+      },
       "5": {
         "components": {
           "Compound Shielding": 1,
@@ -6162,7 +6162,7 @@
         },
         "features": {
           "ammo": [ 0.52, 0.68 ],
-          "clip": [ 0.52, 0.68 ,
+          "clip": [ 0.52, 0.68 ],
           "mass": [ 0.4, 0.4 ],
           "power": [ 0.12, 0.12 ],
           "rof": [ 0.04, 0.06 ]

@@ -16266,8 +16266,8 @@ module.exports = {
               "Worn Shield Emitters": 1
             },
             features: {
-              integrity: [ .2, .5 ],
-              power: [ .3, .2 ]
+              integrity: [ 0, .6 ],
+              power: [ .2, .2 ]
             }
           },
           "2": {
@@ -16276,8 +16276,8 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              integrity: [ .4, 1 ],
-              power: [ .6, .4 ]
+              integrity: [ .6, 1.2 ],
+              power: [ .4, .4 ]
             }
           },
           "3": {
@@ -16287,8 +16287,8 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              integrity: [ .6, 1.5 ],
-              power: [ .9, .6 ]
+              integrity: [ 1.2, 1.8 ],
+              power: [ .6, .6 ]
             }
           },
           "4": {
@@ -16298,8 +16298,8 @@ module.exports = {
               Vanadium: 1
             },
             features: {
-              integrity: [ .8, 2 ],
-              power: [ 1.2, .8 ]
+              integrity: [ 1.8, 2.4 ],
+              power: [ .8, .8 ]
             }
           }
         },
@@ -16659,8 +16659,8 @@ module.exports = {
               Phosphorus: 1
             },
             features: {
-              integrity: [ -.2, -.1 ],
-              mass: [ -.3, -.4 ]
+              integrity: [ -.1, -.1 ],
+              mass: [ 0, -.45 ]
             }
           },
           "2": {
@@ -16669,8 +16669,8 @@ module.exports = {
               "Salvaged Alloys": 1
             },
             features: {
-              integrity: [ -.3, -.2 ],
-              mass: [ -.4, -.5 ]
+              integrity: [ -.2, -.2 ],
+              mass: [ -.45, -.55 ]
             }
           },
           "3": {
@@ -16680,8 +16680,8 @@ module.exports = {
               "Salvaged Alloys": 1
             },
             features: {
-              integrity: [ -.4, -.3 ],
-              mass: [ -.5, -.6 ]
+              integrity: [ -.3, -.3 ],
+              mass: [ -.55, -.65 ]
             }
           },
           "4": {
@@ -16691,8 +16691,8 @@ module.exports = {
               "Proto Light Alloys": 1
             },
             features: {
-              integrity: [ -.5, -.4 ],
-              mass: [ -.6, -.7 ]
+              integrity: [ -.4, -.4 ],
+              mass: [ -.65, -.75 ]
             }
           },
           "5": {
@@ -16702,8 +16702,8 @@ module.exports = {
               "Proto Radiolic Alloys": 1
             },
             features: {
-              integrity: [ -.6, -.5 ],
-              mass: [ -.7, -.8 ]
+              integrity: [ -.5, -.5 ],
+              mass: [ -.75, -.85 ]
             }
           }
         },
@@ -16719,8 +16719,8 @@ module.exports = {
               Nickel: 1
             },
             features: {
-              integrity: [ .2, .5 ],
-              mass: [ 1, .4 ]
+              integrity: [ 0, .6 ],
+              mass: [ .3, .3 ]
             }
           },
           "2": {
@@ -16729,8 +16729,8 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              integrity: [ .4, 1 ],
-              mass: [ 1.5, .8 ]
+              integrity: [ .6, 1.2 ],
+              mass: [ .6, .6 ]
             }
           },
           "3": {
@@ -16740,8 +16740,8 @@ module.exports = {
               Tungsten: 1
             },
             features: {
-              integrity: [ .6, 1.5 ],
-              mass: [ 2, 1.2 ]
+              integrity: [ 1.2, 1.8 ],
+              mass: [ .9, .9 ]
             }
           },
           "4": {
@@ -16751,8 +16751,8 @@ module.exports = {
               Zinc: 1
             },
             features: {
-              integrity: [ .8, 2 ],
-              mass: [ 2.5, 1.6 ]
+              integrity: [ 1.8, 2.4 ],
+              mass: [ 1.2, 1.2 ]
             }
           },
           "5": {
@@ -16762,8 +16762,8 @@ module.exports = {
               Technetium: 1
             },
             features: {
-              integrity: [ 1, 2.5 ],
-              mass: [ 3, 2 ]
+              integrity: [ 2.4, 3 ],
+              mass: [ 1.5, 1.5 ]
             }
           }
         },
@@ -16779,8 +16779,8 @@ module.exports = {
               "Worn Shield Emitters": 1
             },
             features: {
-              integrity: [ .2, .5 ],
-              power: [ .3, .2 ]
+              integrity: [ 0, .6 ],
+              power: [ .2, .2 ]
             }
           },
           "2": {
@@ -16789,8 +16789,8 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              integrity: [ .4, 1 ],
-              power: [ .6, .4 ]
+              integrity: [ .6, 1.2 ],
+              power: [ .4, .4 ]
             }
           },
           "3": {
@@ -16800,8 +16800,8 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              integrity: [ .6, 1.5 ],
-              power: [ .9, .6 ]
+              integrity: [ 1.2, 1.8 ],
+              power: [ .6, .6 ]
             }
           },
           "4": {
@@ -16811,8 +16811,8 @@ module.exports = {
               Vanadium: 1
             },
             features: {
-              integrity: [ .8, 2 ],
-              power: [ 1.2, .8 ]
+              integrity: [ 1.8, 2.4 ],
+              power: [ .8, .8 ]
             }
           },
           "5": {
@@ -16822,8 +16822,8 @@ module.exports = {
               Tungsten: 1
             },
             features: {
-              integrity: [ 1, 1.5 ],
-              power: [ 1.5, 1 ]
+              integrity: [ 2.4, 3 ],
+              power: [ 1, 1 ]
             }
           }
         },
@@ -16834,16 +16834,16 @@ module.exports = {
       ChaffLauncher_ChaffCapacity: {
         fdname: "ChaffLauncher_ChaffCapacity",
         grades: {
-          "3": {
+          "1": {
             components: {
               "Mechanical Scrap": 1,
               Niobium: 1,
               Vanadium: 1
             },
             features: {
-              ammo: [ .2, .5 ],
-              mass: [ 2, 1 ],
-              reload: [ .3, .1 ]
+              ammo: [ 0, .5 ],
+              mass: [ 1, 1 ],
+              reload: [ .1, .1 ]
             }
           }
         },
@@ -16859,8 +16859,8 @@ module.exports = {
               Phosphorus: 1
             },
             features: {
-              integrity: [ -.2, -.1 ],
-              mass: [ -.3, -.4 ]
+              integrity: [ -.1, -.1 ],
+              mass: [ 0, -.45 ]
             }
           },
           "2": {
@@ -16869,8 +16869,8 @@ module.exports = {
               "Salvaged Alloys": 1
             },
             features: {
-              integrity: [ -.3, -.2 ],
-              mass: [ -.4, -.5 ]
+              integrity: [ -.2, -.2 ],
+              mass: [ -.45, -.55 ]
             }
           },
           "3": {
@@ -16880,8 +16880,8 @@ module.exports = {
               "Salvaged Alloys": 1
             },
             features: {
-              integrity: [ -.4, -.4 ],
-              mass: [ -.5, -.6 ]
+              integrity: [ -.3, -.3 ],
+              mass: [ -.55, -.65 ]
             }
           },
           "4": {
@@ -16891,8 +16891,8 @@ module.exports = {
               "Proto Light Alloys": 1
             },
             features: {
-              integrity: [ -.5, -.4 ],
-              mass: [ -.6, -.7 ]
+              integrity: [ -.4, -.4 ],
+              mass: [ -.65, -.75 ]
             }
           },
           "5": {
@@ -16902,8 +16902,8 @@ module.exports = {
               "Proto Radiolic Alloys": 1
             },
             features: {
-              integrity: [ -.6, -.5 ],
-              mass: [ -.7, -.8 ]
+              integrity: [ -.5, -.5 ],
+              mass: [ -.75, -.85 ]
             }
           }
         },
@@ -16919,8 +16919,8 @@ module.exports = {
               Nickel: 1
             },
             features: {
-              integrity: [ .2, .5 ],
-              mass: [ 1, .4 ]
+              integrity: [ 0, .6 ],
+              mass: [ .3, .3 ]
             }
           },
           "2": {
@@ -16929,8 +16929,8 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              integrity: [ .4, 1 ],
-              mass: [ 1.5, .8 ]
+              integrity: [ .6, 1.2 ],
+              mass: [ .6, .6 ]
             }
           },
           "3": {
@@ -16940,8 +16940,8 @@ module.exports = {
               Tungsten: 1
             },
             features: {
-              integrity: [ .6, 1.5 ],
-              mass: [ 2, 1.2 ]
+              integrity: [ 1.2, 1.8 ],
+              mass: [ .9, .9 ]
             }
           },
           "4": {
@@ -16951,8 +16951,8 @@ module.exports = {
               Zinc: 1
             },
             features: {
-              integrity: [ .8, 2 ],
-              mass: [ 2.5, 1.6 ]
+              integrity: [ 1.8, 2.4 ],
+              mass: [ 1.2, 1.2 ]
             }
           },
           "5": {
@@ -16962,8 +16962,8 @@ module.exports = {
               Technetium: 1
             },
             features: {
-              integrity: [ 1, 2.5 ],
-              mass: [ 3, 2 ]
+              integrity: [ 2.4, 3 ],
+              mass: [ 1.5, 1.5 ]
             }
           }
         },
@@ -16979,8 +16979,8 @@ module.exports = {
               "Worn Shield Emitters": 1
             },
             features: {
-              integrity: [ .2, .5 ],
-              power: [ .3, .2 ]
+              integrity: [ 0, .6 ],
+              power: [ .2, .2 ]
             }
           },
           "2": {
@@ -16989,8 +16989,8 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              integrity: [ .4, 1 ],
-              power: [ .6, .4 ]
+              integrity: [ .6, 1.2 ],
+              power: [ .4, .4 ]
             }
           },
           "3": {
@@ -17000,8 +17000,8 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              integrity: [ .6, 1.5 ],
-              power: [ .9, .6 ]
+              integrity: [ 1.2, 1.8 ],
+              power: [ .6, .6 ]
             }
           },
           "4": {
@@ -17011,8 +17011,8 @@ module.exports = {
               Vanadium: 1
             },
             features: {
-              integrity: [ .8, 2 ],
-              power: [ 1.2, .8 ]
+              integrity: [ 1.8, 2.4 ],
+              power: [ .8, .8 ]
             }
           },
           "5": {
@@ -17022,8 +17022,8 @@ module.exports = {
               Tungsten: 1
             },
             features: {
-              integrity: [ 1, 1.5 ],
-              power: [ 1.5, 1 ]
+              integrity: [ 2.4, 3 ],
+              power: [ 1, 1 ]
             }
           }
         },
@@ -17039,8 +17039,8 @@ module.exports = {
               Phosphorus: 1
             },
             features: {
-              integrity: [ -.2, -.1 ],
-              mass: [ -.3, -.4 ]
+              integrity: [ -.1, -.1 ],
+              mass: [ 0, -.45 ]
             }
           },
           "2": {
@@ -17049,8 +17049,8 @@ module.exports = {
               "Salvaged Alloys": 1
             },
             features: {
-              integrity: [ -.3, -.2 ],
-              mass: [ -.4, -.5 ]
+              integrity: [ -.2, -.2 ],
+              mass: [ -.45, -.55 ]
             }
           },
           "3": {
@@ -17060,8 +17060,8 @@ module.exports = {
               "Salvaged Alloys": 1
             },
             features: {
-              integrity: [ -.4, -.3 ],
-              mass: [ -.5, -.6 ]
+              integrity: [ -.3, -.3 ],
+              mass: [ -.55, -.65 ]
             }
           },
           "4": {
@@ -17071,8 +17071,8 @@ module.exports = {
               "Proto Light Alloys": 1
             },
             features: {
-              integrity: [ -.5, -.4 ],
-              mass: [ -.6, -.7 ]
+              integrity: [ -.4, -.4 ],
+              mass: [ -.65, -.75 ]
             }
           },
           "5": {
@@ -17082,8 +17082,8 @@ module.exports = {
               "Proto Radiolic Alloys": 1
             },
             features: {
-              integrity: [ -.6, -.5 ],
-              mass: [ -.7, -.8 ]
+              integrity: [ -.5, -.5 ],
+              mass: [ -.75, -.85 ]
             }
           }
         },
@@ -17099,8 +17099,8 @@ module.exports = {
               Nickel: 1
             },
             features: {
-              integrity: [ .2, .5 ],
-              mass: [ 1, .4 ]
+              integrity: [ 0, .6 ],
+              mass: [ .3, .3 ]
             }
           },
           "2": {
@@ -17109,8 +17109,8 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              integrity: [ .4, 1 ],
-              mass: [ 1.5, .8 ]
+              integrity: [ .6, 1.2 ],
+              mass: [ .6, .6 ]
             }
           },
           "3": {
@@ -17120,8 +17120,8 @@ module.exports = {
               Tungsten: 1
             },
             features: {
-              integrity: [ .6, 1.5 ],
-              mass: [ 2, 1.2 ]
+              integrity: [ 1.2, 1.8 ],
+              mass: [ .9, .9 ]
             }
           },
           "4": {
@@ -17131,8 +17131,8 @@ module.exports = {
               Zinc: 1
             },
             features: {
-              integrity: [ .8, 2 ],
-              mass: [ 2.5, 1.6 ]
+              integrity: [ 1.8, 2.4 ],
+              mass: [ 1.2, 1.2 ]
             }
           },
           "5": {
@@ -17142,8 +17142,8 @@ module.exports = {
               Technetium: 1
             },
             features: {
-              integrity: [ 1, 2.5 ],
-              mass: [ 3, 2 ]
+              integrity: [ 2.4, 3 ],
+              mass: [ 1.5, 1.5 ]
             }
           }
         },
@@ -17159,8 +17159,8 @@ module.exports = {
               "Worn Shield Emitters": 1
             },
             features: {
-              integrity: [ .2, .5 ],
-              power: [ .3, .2 ]
+              integrity: [ 0, .6 ],
+              power: [ .2, .2 ]
             }
           },
           "2": {
@@ -17169,8 +17169,8 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              integrity: [ .4, 1 ],
-              power: [ .6, .4 ]
+              integrity: [ .6, 1.2 ],
+              power: [ .4, .4 ]
             }
           },
           "3": {
@@ -17180,8 +17180,8 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              integrity: [ .6, 1.5 ],
-              power: [ .9, .6 ]
+              integrity: [ 1.2, 1.8 ],
+              power: [ .6, .6 ]
             }
           },
           "4": {
@@ -17191,8 +17191,8 @@ module.exports = {
               Vanadium: 1
             },
             features: {
-              integrity: [ .8, 2 ],
-              power: [ 1.2, .8 ]
+              integrity: [ 1.8, 2.4 ],
+              power: [ .8, .8 ]
             }
           },
           "5": {
@@ -17202,8 +17202,8 @@ module.exports = {
               Tungsten: 1
             },
             features: {
-              integrity: [ 1, 1.5 ],
-              power: [ 1.5, 1 ]
+              integrity: [ 2.4, 3 ],
+              power: [ 1, 1 ]
             }
           }
         },
@@ -17219,8 +17219,8 @@ module.exports = {
               Phosphorus: 1
             },
             features: {
-              integrity: [ -.2, -.1 ],
-              mass: [ -.3, -.4 ]
+              integrity: [ -.1, -.1 ],
+              mass: [ 0, -.45 ]
             }
           },
           "2": {
@@ -17229,8 +17229,8 @@ module.exports = {
               "Salvaged Alloys": 1
             },
             features: {
-              integrity: [ -.3, -.2 ],
-              mass: [ -.4, -.5 ]
+              integrity: [ -.2, -.2 ],
+              mass: [ -.45, -.55 ]
             }
           },
           "3": {
@@ -17240,8 +17240,8 @@ module.exports = {
               "Salvaged Alloys": 1
             },
             features: {
-              integrity: [ -.4, -.3 ],
-              mass: [ -.5, -.6 ]
+              integrity: [ -.3, -.3 ],
+              mass: [ -.55, -.65 ]
             }
           },
           "4": {
@@ -17251,8 +17251,8 @@ module.exports = {
               "Proto Light Alloys": 1
             },
             features: {
-              integrity: [ -.5, -.4 ],
-              mass: [ -.6, -.7 ]
+              integrity: [ -.4, -.4 ],
+              mass: [ -.65, -.75 ]
             }
           },
           "5": {
@@ -17262,8 +17262,8 @@ module.exports = {
               "Proto Radiolic Alloys": 1
             },
             features: {
-              integrity: [ -.6, -.5 ],
-              mass: [ -.7, -.8 ]
+              integrity: [ -.5, -.5 ],
+              mass: [ -.75, -.85 ]
             }
           }
         },
@@ -17279,8 +17279,8 @@ module.exports = {
               Nickel: 1
             },
             features: {
-              integrity: [ .2, .5 ],
-              mass: [ 1, .4 ]
+              integrity: [ 0, .6 ],
+              mass: [ .3, .3 ]
             }
           },
           "2": {
@@ -17289,8 +17289,8 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              integrity: [ .4, 1 ],
-              mass: [ 1.5, .8 ]
+              integrity: [ .6, 1.2 ],
+              mass: [ .6, .6 ]
             }
           },
           "3": {
@@ -17300,8 +17300,8 @@ module.exports = {
               Tungsten: 1
             },
             features: {
-              integrity: [ .6, 1.5 ],
-              mass: [ 2, 1.2 ]
+              integrity: [ 1.2, 1.8 ],
+              mass: [ .9, .9 ]
             }
           },
           "4": {
@@ -17311,8 +17311,8 @@ module.exports = {
               Zinc: 1
             },
             features: {
-              integrity: [ .8, 2 ],
-              mass: [ 2.5, 1.6 ]
+              integrity: [ 1.8, 2.4 ],
+              mass: [ 1.2, 1.2 ]
             }
           },
           "5": {
@@ -17322,8 +17322,8 @@ module.exports = {
               Technetium: 1
             },
             features: {
-              integrity: [ 1, 2.5 ],
-              mass: [ 3, 2 ]
+              integrity: [ 2.4, 3 ],
+              mass: [ 1.5, 1.5 ]
             }
           }
         },
@@ -17339,8 +17339,8 @@ module.exports = {
               "Worn Shield Emitters": 1
             },
             features: {
-              integrity: [ .2, .5 ],
-              power: [ .3, .2 ]
+              integrity: [ 0, .6 ],
+              power: [ .2, .2 ]
             }
           },
           "2": {
@@ -17349,8 +17349,8 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              integrity: [ .4, 1 ],
-              power: [ .6, .4 ]
+              integrity: [ .6, 1.2 ],
+              power: [ .4, .4 ]
             }
           },
           "3": {
@@ -17360,8 +17360,8 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              integrity: [ .6, 1.5 ],
-              power: [ .9, .6 ]
+              integrity: [ 1.2, 1.8 ],
+              power: [ .6, .6 ]
             }
           },
           "4": {
@@ -17371,8 +17371,8 @@ module.exports = {
               Vanadium: 1
             },
             features: {
-              integrity: [ .8, 2 ],
-              power: [ 1.2, .8 ]
+              integrity: [ 1.8, 2.4 ],
+              power: [ .8, .8 ]
             }
           },
           "5": {
@@ -17382,8 +17382,8 @@ module.exports = {
               Tungsten: 1
             },
             features: {
-              integrity: [ 1, 1.5 ],
-              power: [ 1.5, 1 ]
+              integrity: [ 2.4, 3 ],
+              power: [ 1, 1 ]
             }
           }
         },
@@ -17822,9 +17822,9 @@ module.exports = {
               "Mechanical Scrap": 1
             },
             features: {
-              facinglimit: [ .1, .4 ],
-              power: [ .15, 0 ],
-              ranget: [ -.1, 0 ]
+              facinglimit: [ 0, .4 ],
+              power: [ .1, .1 ],
+              ranget: [ -.1, .1 ]
             }
           },
           "2": {
@@ -17833,9 +17833,9 @@ module.exports = {
               "Unusual Encrypted Files": 1
             },
             features: {
-              facinglimit: [ .2, .6 ],
-              power: [ .3, .1 ],
-              ranget: [ -.2, -.05 ]
+              facinglimit: [ .4, .6 ],
+              power: [ .2, .2 ],
+              ranget: [ -.15, -.15 ]
             }
           },
           "3": {
@@ -17845,9 +17845,9 @@ module.exports = {
               "Tagged Encryption Codes": 1
             },
             features: {
-              facinglimit: [ .3, .8 ],
-              power: [ .45, .2 ],
-              ranget: [ -.3, -.1 ]
+              facinglimit: [ .6, .8 ],
+              power: [ .3, .3 ],
+              ranget: [ -.2, -.2 ]
             }
           },
           "4": {
@@ -17857,9 +17857,9 @@ module.exports = {
               "Strange Wake Solutions": 1
             },
             features: {
-              facinglimit: [ .4, 1 ],
-              power: [ .6, .3 ],
-              ranget: [ -.4, -.15 ]
+              facinglimit: [ .8, 1 ],
+              power: [ .4, .4 ],
+              ranget: [ -.25, -.25 ]
             }
           }
         },
@@ -17875,10 +17875,10 @@ module.exports = {
               "Unusual Encrypted Files": 1
             },
             features: {
-              facinglimit: [ -.1, 0 ],
-              mass: [ .1, 0 ],
-              power: [ .15, 0 ],
-              ranget: [ .05, .2 ]
+              facinglimit: [ -.1, -.01 ],
+              mass: [ .1, .1 ],
+              power: [ .1, .1 ],
+              ranget: [ 0, .2 ]
             }
           },
           "2": {
@@ -17887,10 +17887,10 @@ module.exports = {
               "Tagged Encryption Codes": 1
             },
             features: {
-              facinglimit: [ -.2, -.05 ],
-              mass: [ .2, .05 ],
-              power: [ .3, .1 ],
-              ranget: [ .1, .3 ]
+              facinglimit: [ -.15, -.15 ],
+              mass: [ .15, .15 ],
+              power: [ .2, .2 ],
+              ranget: [ .2, .3 ]
             }
           },
           "3": {
@@ -17900,10 +17900,23 @@ module.exports = {
               "Open Symmetric Keys": 1
             },
             features: {
-              facinglimit: [ -.3, -.1 ],
-              mass: [ .3, .1 ],
-              power: [ .45, .2 ],
-              ranget: [ .15, .4 ]
+              facinglimit: [ -.2, -.2 ],
+              mass: [ .2, .2 ],
+              power: [ .3, .3 ],
+              ranget: [ .3, .4 ]
+            }
+          },
+          "4": {
+            components: {
+              "Unidentfied Scan Archives": 1,
+              "Strange Wake Solution": 1,
+              "Atypical Encryption Archive": 1
+            },
+            features: {
+              facinglimit: [ -.25, -.25 ],
+              mass: [ .25, .25 ],
+              power: [ .4, .4 ],
+              ranget: [ .4, .5 ]
             }
           }
         },
@@ -17919,8 +17932,8 @@ module.exports = {
               "Worn Shield Emitters": 1
             },
             features: {
-              integrity: [ .2, .5 ],
-              power: [ .3, .2 ]
+              integrity: [ 0, .6 ],
+              power: [ .2, .2 ]
             }
           },
           "2": {
@@ -17929,8 +17942,8 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              integrity: [ .4, 1 ],
-              power: [ .6, .4 ]
+              integrity: [ .6, 1.2 ],
+              power: [ .4, .4 ]
             }
           },
           "3": {
@@ -17940,8 +17953,8 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              integrity: [ .6, 1.5 ],
-              power: [ .9, .6 ]
+              integrity: [ 1.2, 1.8 ],
+              power: [ .6, .6 ]
             }
           },
           "4": {
@@ -17951,8 +17964,8 @@ module.exports = {
               Vanadium: 1
             },
             features: {
-              integrity: [ .8, 2 ],
-              power: [ 1.2, .8 ]
+              integrity: [ 1.8, 2.4 ],
+              power: [ .8, .8 ]
             }
           }
         },
@@ -17968,8 +17981,8 @@ module.exports = {
               Phosphorus: 1
             },
             features: {
-              integrity: [ -.2, -.1 ],
-              mass: [ -.3, -.4 ]
+              integrity: [ -.1, -.1 ],
+              mass: [ 0, -.45 ]
             }
           },
           "2": {
@@ -17978,8 +17991,8 @@ module.exports = {
               "Salvaged Alloys": 1
             },
             features: {
-              integrity: [ -.3, -.2 ],
-              mass: [ -.4, -.5 ]
+              integrity: [ -.2, -.2 ],
+              mass: [ -.45, -.55 ]
             }
           },
           "3": {
@@ -17989,8 +18002,8 @@ module.exports = {
               "Salvaged Alloys": 1
             },
             features: {
-              integrity: [ -.4, -.3 ],
-              mass: [ -.5, -.6 ]
+              integrity: [ -.3, -.3 ],
+              mass: [ -.55, -.65 ]
             }
           },
           "4": {
@@ -18000,8 +18013,8 @@ module.exports = {
               "Proto Light Alloys": 1
             },
             features: {
-              integrity: [ -.5, -.4 ],
-              mass: [ -.6, -.7 ]
+              integrity: [ -.4, -.4 ],
+              mass: [ -.65, -.75 ]
             }
           },
           "5": {
@@ -18011,8 +18024,8 @@ module.exports = {
               "Proto Radiolic Alloys": 1
             },
             features: {
-              integrity: [ -.6, -.5 ],
-              mass: [ -.7, -.8 ]
+              integrity: [ -.5, -.5 ],
+              mass: [ -.75, -.85 ]
             }
           }
         },
@@ -18028,8 +18041,8 @@ module.exports = {
               Nickel: 1
             },
             features: {
-              integrity: [ .2, .5 ],
-              mass: [ 1, .4 ]
+              integrity: [ 0, .6 ],
+              mass: [ .3, .3 ]
             }
           },
           "2": {
@@ -18038,8 +18051,8 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              integrity: [ .4, 1 ],
-              mass: [ 1.5, .8 ]
+              integrity: [ .6, 1.2 ],
+              mass: [ .6, .6 ]
             }
           },
           "3": {
@@ -18049,8 +18062,8 @@ module.exports = {
               Tungsten: 1
             },
             features: {
-              integrity: [ .6, 1.5 ],
-              mass: [ 2, 1.2 ]
+              integrity: [ 1.2, 1.8 ],
+              mass: [ .9, .9 ]
             }
           },
           "4": {
@@ -18060,8 +18073,8 @@ module.exports = {
               Zinc: 1
             },
             features: {
-              integrity: [ .8, 2 ],
-              mass: [ 2.5, 1.6 ]
+              integrity: [ 1.8, 2.4 ],
+              mass: [ 1.2, 1.2 ]
             }
           },
           "5": {
@@ -18071,8 +18084,8 @@ module.exports = {
               Technetium: 1
             },
             features: {
-              integrity: [ 1, 2.5 ],
-              mass: [ 3, 2 ]
+              integrity: [ 2.4, 3 ],
+              mass: [ 1.5, 1.5 ]
             }
           }
         },
@@ -18088,8 +18101,8 @@ module.exports = {
               "Worn Shield Emitters": 1
             },
             features: {
-              integrity: [ .2, .5 ],
-              power: [ .3, .2 ]
+              integrity: [ 0, .6 ],
+              power: [ .2, .2 ]
             }
           },
           "2": {
@@ -18098,8 +18111,8 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              integrity: [ .4, 1 ],
-              power: [ .6, .4 ]
+              integrity: [ .6, 1.2 ],
+              power: [ .4, .4 ]
             }
           },
           "3": {
@@ -18109,8 +18122,8 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              integrity: [ .6, 1.5 ],
-              power: [ .9, .6 ]
+              integrity: [ 1.2, 1.8 ],
+              power: [ .6, .6 ]
             }
           },
           "4": {
@@ -18120,8 +18133,8 @@ module.exports = {
               Vanadium: 1
             },
             features: {
-              integrity: [ .8, 2 ],
-              power: [ 1.2, .8 ]
+              integrity: [ 1.8, 2.4 ],
+              power: [ .8, .8 ]
             }
           },
           "5": {
@@ -18131,8 +18144,8 @@ module.exports = {
               Tungsten: 1
             },
             features: {
-              integrity: [ 1, 1.5 ],
-              power: [ 1.5, 1 ]
+              integrity: [ 2.4, 3 ],
+              power: [ 1, 1 ]
             }
           }
         },
@@ -18148,8 +18161,8 @@ module.exports = {
               Phosphorus: 1
             },
             features: {
-              integrity: [ -.2, -.1 ],
-              mass: [ -.3, -.4 ]
+              integrity: [ -.1, -.1 ],
+              mass: [ 0, -.45 ]
             }
           },
           "2": {
@@ -18158,8 +18171,8 @@ module.exports = {
               "Salvaged Alloys": 1
             },
             features: {
-              integrity: [ -.3, -.2 ],
-              mass: [ -.4, -.5 ]
+              integrity: [ -.2, -.2 ],
+              mass: [ -.45, -.55 ]
             }
           },
           "3": {
@@ -18169,8 +18182,8 @@ module.exports = {
               "Salvaged Alloys": 1
             },
             features: {
-              integrity: [ -.4, -.3 ],
-              mass: [ -.5, -.6 ]
+              integrity: [ -.3, -.3 ],
+              mass: [ -.55, -.65 ]
             }
           },
           "4": {
@@ -18180,8 +18193,8 @@ module.exports = {
               "Proto Light Alloys": 1
             },
             features: {
-              integrity: [ -.5, -.4 ],
-              mass: [ -.6, -.7 ]
+              integrity: [ -.4, -.4 ],
+              mass: [ -.65, -.75 ]
             }
           },
           "5": {
@@ -18191,8 +18204,8 @@ module.exports = {
               "Proto Radiolic Alloys": 1
             },
             features: {
-              integrity: [ -.6, -.5 ],
-              mass: [ -.7, -.8 ]
+              integrity: [ -.5, -.5 ],
+              mass: [ -.75, -.85 ]
             }
           }
         },
@@ -18208,8 +18221,8 @@ module.exports = {
               Nickel: 1
             },
             features: {
-              integrity: [ .2, .5 ],
-              mass: [ 1, .4 ]
+              integrity: [ 0, .6 ],
+              mass: [ .3, .3 ]
             }
           },
           "2": {
@@ -18218,8 +18231,8 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              integrity: [ .4, 1 ],
-              mass: [ 1.5, .8 ]
+              integrity: [ .6, 1.2 ],
+              mass: [ .6, .6 ]
             }
           },
           "3": {
@@ -18229,8 +18242,8 @@ module.exports = {
               Tungsten: 1
             },
             features: {
-              integrity: [ .6, 1.5 ],
-              mass: [ 2, 1.2 ]
+              integrity: [ 1.2, 1.8 ],
+              mass: [ .9, .9 ]
             }
           },
           "4": {
@@ -18240,8 +18253,8 @@ module.exports = {
               Zinc: 1
             },
             features: {
-              integrity: [ .8, 2 ],
-              mass: [ 2.5, 1.6 ]
+              integrity: [ 1.8, 2.4 ],
+              mass: [ 1.2, 1.2 ]
             }
           },
           "5": {
@@ -18251,8 +18264,8 @@ module.exports = {
               Technetium: 1
             },
             features: {
-              integrity: [ 1, 2.5 ],
-              mass: [ 3, 2 ]
+              integrity: [ 2.4, 3 ],
+              mass: [ 1.5, 1.5 ]
             }
           }
         },
@@ -18268,8 +18281,8 @@ module.exports = {
               "Worn Shield Emitters": 1
             },
             features: {
-              integrity: [ .2, .5 ],
-              power: [ .3, .2 ]
+              integrity: [ 0, .6 ],
+              power: [ .2, .2 ]
             }
           },
           "2": {
@@ -18278,8 +18291,8 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              integrity: [ .4, 1 ],
-              power: [ .6, .4 ]
+              integrity: [ .6, 1.2 ],
+              power: [ .4, .4 ]
             }
           },
           "3": {
@@ -18289,8 +18302,8 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              integrity: [ .6, 1.5 ],
-              power: [ .9, .6 ]
+              integrity: [ 1.2, 1.8 ],
+              power: [ .6, .6 ]
             }
           },
           "4": {
@@ -18300,8 +18313,8 @@ module.exports = {
               Vanadium: 1
             },
             features: {
-              integrity: [ .8, 2 ],
-              power: [ 1.2, .8 ]
+              integrity: [ 1.8, 2.4 ],
+              power: [ .8, .8 ]
             }
           },
           "5": {
@@ -18311,8 +18324,8 @@ module.exports = {
               Tungsten: 1
             },
             features: {
-              integrity: [ 1, 1.5 ],
-              power: [ 1.5, 1 ]
+              integrity: [ 2.4, 3 ],
+              power: [ 1, 1 ]
             }
           }
         },
@@ -18323,7 +18336,7 @@ module.exports = {
       HeatSinkLauncher_HeatSinkCapacity: {
         fdname: "HeatSinkLauncher_HeatSinkCapacity",
         grades: {
-          "3": {
+          "1": {
             components: {
               "Mechanical Scrap": 1,
               Niobium: 1,
@@ -18331,8 +18344,8 @@ module.exports = {
             },
             features: {
               ammo: [ .5, .5 ],
-              mass: [ 2, 1 ],
-              reload: [ 1, .5 ]
+              mass: [ 1, 1 ],
+              reload: [ .5, .5 ]
             }
           }
         },
@@ -18348,8 +18361,8 @@ module.exports = {
               Phosphorus: 1
             },
             features: {
-              integrity: [ -.2, -.1 ],
-              mass: [ -.3, -.4 ]
+              integrity: [ -.1, -.1 ],
+              mass: [ 0, -.45 ]
             }
           },
           "2": {
@@ -18358,8 +18371,8 @@ module.exports = {
               "Salvaged Alloys": 1
             },
             features: {
-              integrity: [ -.3, -.2 ],
-              mass: [ -.4, -.5 ]
+              integrity: [ -.2, -.2 ],
+              mass: [ -.45, -.55 ]
             }
           },
           "3": {
@@ -18369,8 +18382,8 @@ module.exports = {
               "Salvaged Alloys": 1
             },
             features: {
-              integrity: [ -.4, -.3 ],
-              mass: [ -.5, -.6 ]
+              integrity: [ -.3, -.3 ],
+              mass: [ -.55, -.65 ]
             }
           },
           "4": {
@@ -18380,8 +18393,8 @@ module.exports = {
               "Proto Light Alloys": 1
             },
             features: {
-              integrity: [ -.5, -.4 ],
-              mass: [ -.6, -.7 ]
+              integrity: [ -.4, -.4 ],
+              mass: [ -.65, -.75 ]
             }
           },
           "5": {
@@ -18391,8 +18404,8 @@ module.exports = {
               "Proto Radiolic Alloys": 1
             },
             features: {
-              integrity: [ -.6, -.5 ],
-              mass: [ -.7, -.8 ]
+              integrity: [ -.5, -.5 ],
+              mass: [ -.75, -.85 ]
             }
           }
         },
@@ -18408,8 +18421,8 @@ module.exports = {
               Nickel: 1
             },
             features: {
-              integrity: [ .2, .5 ],
-              mass: [ 1, .4 ]
+              integrity: [ 0, .6 ],
+              mass: [ .3, .3 ]
             }
           },
           "2": {
@@ -18418,8 +18431,8 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              integrity: [ .4, 1 ],
-              mass: [ 1.5, .8 ]
+              integrity: [ .6, 1.2 ],
+              mass: [ .6, .6 ]
             }
           },
           "3": {
@@ -18429,8 +18442,8 @@ module.exports = {
               Tungsten: 1
             },
             features: {
-              integrity: [ .6, 1.5 ],
-              mass: [ 2, 1.2 ]
+              integrity: [ 1.2, 1.8 ],
+              mass: [ .9, .9 ]
             }
           },
           "4": {
@@ -18440,8 +18453,8 @@ module.exports = {
               Zinc: 1
             },
             features: {
-              integrity: [ .8, 2 ],
-              mass: [ 2.5, 1.6 ]
+              integrity: [ 1.8, 2.4 ],
+              mass: [ 1.2, 1.2 ]
             }
           },
           "5": {
@@ -18451,8 +18464,8 @@ module.exports = {
               Technetium: 1
             },
             features: {
-              integrity: [ 1, 2.5 ],
-              mass: [ 3, 2 ]
+              integrity: [ 2.4, 3 ],
+              mass: [ 1.5, 1.5 ]
             }
           }
         },
@@ -18468,8 +18481,8 @@ module.exports = {
               "Worn Shield Emitters": 1
             },
             features: {
-              integrity: [ .2, .5 ],
-              power: [ .3, .2 ]
+              integrity: [ 0, .6 ],
+              power: [ .2, .2 ]
             }
           },
           "2": {
@@ -18478,8 +18491,8 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              integrity: [ .4, 1 ],
-              power: [ .6, .4 ]
+              integrity: [ .6, 1.2 ],
+              power: [ .4, .4 ]
             }
           },
           "3": {
@@ -18489,8 +18502,8 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              integrity: [ .6, 1.5 ],
-              power: [ .9, .6 ]
+              integrity: [ 1.2, 1.8 ],
+              power: [ .6, .6 ]
             }
           },
           "4": {
@@ -18500,8 +18513,8 @@ module.exports = {
               Vanadium: 1
             },
             features: {
-              integrity: [ .8, 2 ],
-              power: [ 1.2, .8 ]
+              integrity: [ 1.8, 2.4 ],
+              power: [ .8, .8 ]
             }
           },
           "5": {
@@ -18511,8 +18524,8 @@ module.exports = {
               Tungsten: 1
             },
             features: {
-              integrity: [ 1, 1.5 ],
-              power: [ 1.5, 1 ]
+              integrity: [ 2.4, 3 ],
+              power: [ 1, 1 ]
             }
           }
         },
@@ -18878,8 +18891,8 @@ module.exports = {
               Phosphorus: 1
             },
             features: {
-              integrity: [ -.2, -.1 ],
-              mass: [ -.3, -.4 ]
+              integrity: [ -.1, -.1 ],
+              mass: [ 0, -.45 ]
             }
           },
           "2": {
@@ -18888,8 +18901,8 @@ module.exports = {
               "Salvaged Alloys": 1
             },
             features: {
-              integrity: [ -.3, -.2 ],
-              mass: [ -.4, -.5 ]
+              integrity: [ -.2, -.2 ],
+              mass: [ -.45, -.55 ]
             }
           },
           "3": {
@@ -18899,8 +18912,8 @@ module.exports = {
               "Salvaged Alloys": 1
             },
             features: {
-              integrity: [ -.4, -.3 ],
-              mass: [ -.5, -.6 ]
+              integrity: [ -.3, -.3 ],
+              mass: [ -.55, -.65 ]
             }
           },
           "4": {
@@ -18910,8 +18923,8 @@ module.exports = {
               "Proto Light Alloys": 1
             },
             features: {
-              integrity: [ -.5, -.4 ],
-              mass: [ -.6, -.7 ]
+              integrity: [ -.4, -.4 ],
+              mass: [ -.65, -.75 ]
             }
           },
           "5": {
@@ -18921,8 +18934,8 @@ module.exports = {
               "Proto Radiolic Alloys": 1
             },
             features: {
-              integrity: [ -.6, -.5 ],
-              mass: [ -.7, -.8 ]
+              integrity: [ -.5, -.5 ],
+              mass: [ -.75, -.85 ]
             }
           }
         },
@@ -18938,9 +18951,9 @@ module.exports = {
               Iron: 1
             },
             features: {
-              power: [ .2, .1 ],
-              angle: [ -.2, -.1 ],
-              range: [ .1, .2 ]
+              power: [ .1, .1 ],
+              angle: [ -.1, -.1 ],
+              range: [ 0, .24 ]
             }
           },
           "2": {
@@ -18949,9 +18962,9 @@ module.exports = {
               Iron: 1
             },
             features: {
-              power: [ .4, .2 ],
-              angle: [ -.3, -.15 ],
-              range: [ .2, .4 ]
+              power: [ .2, .2 ],
+              angle: [ -.12, -.15 ],
+              range: [ .24, .48 ]
             }
           },
           "3": {
@@ -18961,9 +18974,9 @@ module.exports = {
               "Unexpected Emission Data": 1
             },
             features: {
-              power: [ .6, .3 ],
-              angle: [ -.4, -.2 ],
-              range: [ .3, .6 ]
+              power: [ .3, .3 ],
+              angle: [ -.2, -.2 ],
+              range: [ .48, .72 ]
             }
           },
           "4": {
@@ -18973,9 +18986,9 @@ module.exports = {
               Germanium: 1
             },
             features: {
-              power: [ .8, .4 ],
-              angle: [ -.5, -.25 ],
-              range: [ .4, .8 ]
+              power: [ .4, .4 ],
+              angle: [ -.25, -.25 ],
+              range: [ .72, .96 ]
             }
           },
           "5": {
@@ -18985,9 +18998,9 @@ module.exports = {
               "Polymer Capacitors": 1
             },
             features: {
-              power: [ 1, .5 ],
-              angle: [ -.6, -.3 ],
-              range: [ .5, 1 ]
+              power: [ .5, .5 ],
+              angle: [ -.3, -.3 ],
+              range: [ .96, 1.2 ]
             }
           }
         },
@@ -19003,8 +19016,8 @@ module.exports = {
               Nickel: 1
             },
             features: {
-              integrity: [ .2, .5 ],
-              mass: [ 1, .4 ]
+              integrity: [ 0, .6 ],
+              mass: [ .3, .3 ]
             }
           },
           "2": {
@@ -19013,8 +19026,8 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              integrity: [ .4, 1 ],
-              mass: [ 1.5, .8 ]
+              integrity: [ .6, 1.2 ],
+              mass: [ .6, .6 ]
             }
           },
           "3": {
@@ -19024,8 +19037,8 @@ module.exports = {
               Tungsten: 1
             },
             features: {
-              integrity: [ .6, 1.5 ],
-              mass: [ 2, 1.2 ]
+              integrity: [ 1.2, 1.8 ],
+              mass: [ .9, .9 ]
             }
           },
           "4": {
@@ -19035,8 +19048,8 @@ module.exports = {
               Zinc: 1
             },
             features: {
-              integrity: [ .8, 2 ],
-              mass: [ 2.5, 1.6 ]
+              integrity: [ 1.8, 2.4 ],
+              mass: [ 1.2, 1.2 ]
             }
           },
           "5": {
@@ -19046,8 +19059,8 @@ module.exports = {
               Technetium: 1
             },
             features: {
-              integrity: [ 1, 2.5 ],
-              mass: [ 3, 2 ]
+              integrity: [ 2.4, 3 ],
+              mass: [ 1.5, 1.5 ]
             }
           }
         },
@@ -19063,8 +19076,8 @@ module.exports = {
               "Worn Shield Emitters": 1
             },
             features: {
-              integrity: [ .2, .5 ],
-              power: [ .3, .2 ]
+              integrity: [ 0, .6 ],
+              power: [ .2, .2 ]
             }
           },
           "2": {
@@ -19073,8 +19086,8 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              integrity: [ .4, 1 ],
-              power: [ .6, .4 ]
+              integrity: [ .6, 1.2 ],
+              power: [ .4, .4 ]
             }
           },
           "3": {
@@ -19084,8 +19097,8 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              integrity: [ .6, 1.5 ],
-              power: [ .9, .6 ]
+              integrity: [ 1.2, 1.8 ],
+              power: [ .6, .6 ]
             }
           },
           "4": {
@@ -19095,8 +19108,8 @@ module.exports = {
               Vanadium: 1
             },
             features: {
-              integrity: [ .8, 2 ],
-              power: [ 1.2, .8 ]
+              integrity: [ 1.8, 2.4 ],
+              power: [ .8, .8 ]
             }
           },
           "5": {
@@ -19106,8 +19119,8 @@ module.exports = {
               Tungsten: 1
             },
             features: {
-              integrity: [ 1, 1.5 ],
-              power: [ 1.5, 1 ]
+              integrity: [ 2.4, 3 ],
+              power: [ 1, 1 ]
             }
           }
         },
@@ -19123,8 +19136,8 @@ module.exports = {
               Phosphorus: 1
             },
             features: {
-              integrity: [ -.2, -.1 ],
-              mass: [ -.3, -.4 ]
+              integrity: [ -.1, -.1 ],
+              mass: [ 0, -.45 ]
             }
           },
           "2": {
@@ -19133,8 +19146,8 @@ module.exports = {
               "Salvaged Alloys": 1
             },
             features: {
-              integrity: [ -.3, -.2 ],
-              mass: [ -.4, -.5 ]
+              integrity: [ -.2, -.2 ],
+              mass: [ -.45, -.55 ]
             }
           },
           "3": {
@@ -19144,8 +19157,8 @@ module.exports = {
               "Salvaged Alloys": 1
             },
             features: {
-              integrity: [ -.4, -.3 ],
-              mass: [ -.5, -.6 ]
+              integrity: [ -.3, -.3 ],
+              mass: [ -.55, -.65 ]
             }
           },
           "4": {
@@ -19155,8 +19168,8 @@ module.exports = {
               "Proto Light Alloys": 1
             },
             features: {
-              integrity: [ -.5, -.4 ],
-              mass: [ -.6, -.7 ]
+              integrity: [ -.4, -.4 ],
+              mass: [ -.65, -.75 ]
             }
           }
         },
@@ -19172,8 +19185,8 @@ module.exports = {
               Nickel: 1
             },
             features: {
-              integrity: [ .2, .5 ],
-              mass: [ 1, .4 ]
+              integrity: [ 0, .6 ],
+              mass: [ .3, .3 ]
             }
           },
           "2": {
@@ -19182,8 +19195,8 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              integrity: [ .4, 1 ],
-              mass: [ 1.5, .8 ]
+              integrity: [ .6, 1.2 ],
+              mass: [ .6, .6 ]
             }
           },
           "3": {
@@ -19193,8 +19206,8 @@ module.exports = {
               Tungsten: 1
             },
             features: {
-              integrity: [ .6, 1.5 ],
-              mass: [ 2, 1.2 ]
+              integrity: [ 1.2, 1.8 ],
+              mass: [ .9, .9 ]
             }
           },
           "4": {
@@ -19204,8 +19217,19 @@ module.exports = {
               Zinc: 1
             },
             features: {
-              integrity: [ .8, 2 ],
-              mass: [ 2.5, 1.6 ]
+              integrity: [ 1.8, 2.4 ],
+              mass: [ 1.2, 1.2 ]
+            }
+          },
+          "5": {
+            components: {
+              "High Density Composites": 1,
+              Molybdenum: 1,
+              Technetium: 1
+            },
+            features: {
+              integrity: [ 2.4, 3 ],
+              mass: [ 1.5, 1.5 ]
             }
           }
         },
@@ -19221,8 +19245,8 @@ module.exports = {
               "Worn Shield Emitters": 1
             },
             features: {
-              integrity: [ .2, .5 ],
-              power: [ .3, .2 ]
+              integrity: [ 0, .6 ],
+              power: [ .2, .2 ]
             }
           },
           "2": {
@@ -19231,8 +19255,8 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              integrity: [ .4, 1 ],
-              power: [ .6, .4 ]
+              integrity: [ .6, 1.2 ],
+              power: [ .4, .4 ]
             }
           },
           "3": {
@@ -19242,8 +19266,8 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              integrity: [ .6, 1.5 ],
-              power: [ .9, .6 ]
+              integrity: [ 1.2, 1.8 ],
+              power: [ .6, .6 ]
             }
           },
           "4": {
@@ -19253,8 +19277,8 @@ module.exports = {
               Vanadium: 1
             },
             features: {
-              integrity: [ .8, 2 ],
-              power: [ 1.2, .8 ]
+              integrity: [ 1.8, 2.4 ],
+              power: [ .8, .8 ]
             }
           }
         },
@@ -19270,8 +19294,8 @@ module.exports = {
               Phosphorus: 1
             },
             features: {
-              integrity: [ -.2, -.1 ],
-              mass: [ -.3, -.4 ]
+              integrity: [ -.1, -.1 ],
+              mass: [ 0, -.45 ]
             }
           },
           "2": {
@@ -19280,8 +19304,8 @@ module.exports = {
               "Salvaged Alloys": 1
             },
             features: {
-              integrity: [ -.3, -.2 ],
-              mass: [ -.4, -.5 ]
+              integrity: [ -.2, -.2 ],
+              mass: [ -.45, -.55 ]
             }
           },
           "3": {
@@ -19291,8 +19315,8 @@ module.exports = {
               "Salvaged Alloys": 1
             },
             features: {
-              integrity: [ -.4, -.3 ],
-              mass: [ -.5, -.6 ]
+              integrity: [ -.3, -.3 ],
+              mass: [ -.55, -.65 ]
             }
           },
           "4": {
@@ -19302,8 +19326,8 @@ module.exports = {
               "Proto Light Alloys": 1
             },
             features: {
-              integrity: [ -.5, -.4 ],
-              mass: [ -.6, -.7 ]
+              integrity: [ -.4, -.4 ],
+              mass: [ -.65, -.75 ]
             }
           },
           "5": {
@@ -19313,8 +19337,8 @@ module.exports = {
               "Proto Radiolic Alloys": 1
             },
             features: {
-              integrity: [ -.6, -.5 ],
-              mass: [ -.7, -.8 ]
+              integrity: [ -.5, -.5 ],
+              mass: [ -.75, -.85 ]
             }
           }
         },
@@ -19325,16 +19349,16 @@ module.exports = {
       PointDefence_PointDefenseCapacity: {
         fdname: "PointDefence_PointDefenseCapacity",
         grades: {
-          "3": {
+          "1": {
             components: {
               "Mechanical Scrap": 1,
               Niobium: 1,
               Vanadium: 1
             },
             features: {
-              ammo: [ .2, .5 ],
-              mass: [ 2, 1 ],
-              reload: [ .3, .1 ]
+              ammo: [ 0, .5 ],
+              mass: [ 1, 1 ],
+              reload: [ .1, .1 ]
             }
           }
         },
@@ -19350,8 +19374,8 @@ module.exports = {
               Nickel: 1
             },
             features: {
-              integrity: [ .2, .5 ],
-              mass: [ 1, .4 ]
+              integrity: [ 0, .6 ],
+              mass: [ .3, .3 ]
             }
           },
           "2": {
@@ -19360,8 +19384,8 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              integrity: [ .4, 1 ],
-              mass: [ 1.5, .8 ]
+              integrity: [ .6, 1.2 ],
+              mass: [ .6, .6 ]
             }
           },
           "3": {
@@ -19371,8 +19395,8 @@ module.exports = {
               Tungsten: 1
             },
             features: {
-              integrity: [ .6, 1.5 ],
-              mass: [ 2, 1.2 ]
+              integrity: [ 1.2, 1.8 ],
+              mass: [ .9, .9 ]
             }
           },
           "4": {
@@ -19382,8 +19406,8 @@ module.exports = {
               Zinc: 1
             },
             features: {
-              integrity: [ .8, 2 ],
-              mass: [ 2.5, 1.6 ]
+              integrity: [ 1.8, 2.4 ],
+              mass: [ 1.2, 1.2 ]
             }
           },
           "5": {
@@ -19393,8 +19417,8 @@ module.exports = {
               Technetium: 1
             },
             features: {
-              integrity: [ 1, 2.5 ],
-              mass: [ 3, 2 ]
+              integrity: [ 2.4, 3 ],
+              mass: [ 1.5, 1.5 ]
             }
           }
         },
@@ -19410,8 +19434,8 @@ module.exports = {
               "Worn Shield Emitters": 1
             },
             features: {
-              integrity: [ .2, .5 ],
-              power: [ .3, .2 ]
+              integrity: [ 0, .6 ],
+              power: [ .2, .2 ]
             }
           },
           "2": {
@@ -19420,8 +19444,8 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              integrity: [ .4, 1 ],
-              power: [ .6, .4 ]
+              integrity: [ .6, 1.2 ],
+              power: [ .4, .4 ]
             }
           },
           "3": {
@@ -19431,8 +19455,8 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              integrity: [ .6, 1.5 ],
-              power: [ .9, .6 ]
+              integrity: [ 1.2, 1.8 ],
+              power: [ .6, .6 ]
             }
           },
           "4": {
@@ -19442,8 +19466,8 @@ module.exports = {
               Vanadium: 1
             },
             features: {
-              integrity: [ .8, 2 ],
-              power: [ 1.2, .8 ]
+              integrity: [ 1.8, 2.4 ],
+              power: [ .8, .8 ]
             }
           },
           "5": {
@@ -19453,8 +19477,8 @@ module.exports = {
               Tungsten: 1
             },
             features: {
-              integrity: [ 1, 1.5 ],
-              power: [ 1.5, 1 ]
+              integrity: [ 2.4, 3 ],
+              power: [ 1, 1 ]
             }
           }
         },
@@ -19994,7 +20018,7 @@ module.exports = {
               eff: [ -.1, -.12 ],
               integrity: [ 1, 1.2 ],
               pgen: [ .1, .12 ],
-              mass: [ .4, .16 ]
+              mass: [ .2, .2 ]
             }
           }
         },
@@ -20010,8 +20034,8 @@ module.exports = {
               Sulphur: 1
             },
             features: {
-              eff: [ 0, .05 ],
-              integrity: [ 0, -.05 ],
+              eff: [ .05, .05 ],
+              integrity: [ -.05, -.05 ],
               pgen: [ 0, .12 ]
             }
           },
@@ -20021,8 +20045,8 @@ module.exports = {
               "Heat Conduction Wiring": 1
             },
             features: {
-              eff: [ .05, .1 ],
-              integrity: [ -.05, -.1 ],
+              eff: [ .1, .1 ],
+              integrity: [ -.1, -.1 ],
               pgen: [ .12, .19 ]
             }
           },
@@ -20033,8 +20057,8 @@ module.exports = {
               Selenium: 1
             },
             features: {
-              eff: [ .1, .15 ],
-              integrity: [ -.1, -.15 ],
+              eff: [ .15, .15 ],
+              integrity: [ -.15, -.15 ],
               pgen: [ .12, .19 ]
             }
           },
@@ -20045,8 +20069,8 @@ module.exports = {
               "Heat Dispersion Plate": 1
             },
             features: {
-              eff: [ .15, .2 ],
-              integrity: [ -.15, -.2 ],
+              eff: [ .2, .2 ],
+              integrity: [ -.2, -.2 ],
               pgen: [ .19, .33 ]
             }
           },
@@ -20057,8 +20081,8 @@ module.exports = {
               Tellurium: 1
             },
             features: {
-              eff: [ .2, .25 ],
-              integrity: [ -.2, -.25 ],
+              eff: [ .25, .25 ],
+              integrity: [ -.25, -.25 ],
               pgen: [ .3, .4 ]
             }
           }
@@ -20076,8 +20100,8 @@ module.exports = {
             },
             features: {
               eff: [ 0, -.25 ],
-              mass: [ 0, .04 ],
-              pgen: [ 0, -.03 ]
+              mass: [ .04, .04 ],
+              pgen: [ -.03, -.03 ]
             }
           },
           "2": {
@@ -20087,8 +20111,8 @@ module.exports = {
             },
             features: {
               eff: [ -.25, -.35 ],
-              mass: [ .04, .08 ],
-              pgen: [ -.03, -.06 ]
+              mass: [ .08, .08 ],
+              pgen: [ -.06, -.06 ]
             }
           },
           "3": {
@@ -20099,13 +20123,37 @@ module.exports = {
             },
             features: {
               eff: [ -.35, -.45 ],
-              mass: [ .08, .12 ],
-              pgen: [ -.06, -.09 ]
+              mass: [ .12, .12 ],
+              pgen: [ -.09, -.09 ]
+            }
+          },
+          "4": {
+            components: {
+              "Heat Vanes": 1,
+              Germanium: 1,
+              "Unexpected Emission Data": 1
+            },
+            features: {
+              eff: [ -.45, -.55 ],
+              mass: [ .16, .16 ],
+              pgen: [ -.12, -.12 ]
+            }
+          },
+          "5": {
+            components: {
+              "Proto Heat Radiators": 1,
+              Niobium: 1,
+              "Decoded Emission Data": 1
+            },
+            features: {
+              eff: [ -.55, -.65 ],
+              mass: [ .2, .2 ],
+              pgen: [ -.15, -.15 ]
             }
           }
         },
         id: 64,
-        modulename: [ "Power distributor", "Distributor" ],
+        modulename: [ "Power plant" ],
         name: "Low emissions"
       },
       ProspectingLimpet_LightWeight: {
@@ -20116,8 +20164,8 @@ module.exports = {
               Phosphorus: 1
             },
             features: {
-              integrity: [ -.2, -.1 ],
-              mass: [ -.3, -.4 ]
+              integrity: [ -.1, -.1 ],
+              mass: [ 0, -.45 ]
             }
           },
           "2": {
@@ -20126,8 +20174,8 @@ module.exports = {
               "Salvaged Alloys": 1
             },
             features: {
-              integrity: [ -.3, -.2 ],
-              mass: [ -.4, -.5 ]
+              integrity: [ -.2, -.2 ],
+              mass: [ -.45, -.55 ]
             }
           },
           "3": {
@@ -20137,8 +20185,8 @@ module.exports = {
               "Salvaged Alloys": 1
             },
             features: {
-              integrity: [ -.4, -.3 ],
-              mass: [ -.5, -.6 ]
+              integrity: [ -.3, -.3 ],
+              mass: [ -.55, -.65 ]
             }
           },
           "4": {
@@ -20148,8 +20196,8 @@ module.exports = {
               "Proto Light Alloys": 1
             },
             features: {
-              integrity: [ -.5, -.4 ],
-              mass: [ -.6, -.7 ]
+              integrity: [ -.4, -.4 ],
+              mass: [ -.65, -.75 ]
             }
           },
           "5": {
@@ -20159,8 +20207,8 @@ module.exports = {
               "Proto Radiolic Alloys": 1
             },
             features: {
-              integrity: [ -.6, -.5 ],
-              mass: [ -.7, -.8 ]
+              integrity: [ -.5, -.5 ],
+              mass: [ -.75, -.85 ]
             }
           }
         },
@@ -20176,8 +20224,8 @@ module.exports = {
               Nickel: 1
             },
             features: {
-              integrity: [ .2, .5 ],
-              mass: [ 1, .4 ]
+              integrity: [ 0, .6 ],
+              mass: [ .3, .3 ]
             }
           },
           "2": {
@@ -20186,8 +20234,8 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              integrity: [ .4, 1 ],
-              mass: [ 1.5, .8 ]
+              integrity: [ .6, 1.2 ],
+              mass: [ .6, .6 ]
             }
           },
           "3": {
@@ -20197,8 +20245,8 @@ module.exports = {
               Tungsten: 1
             },
             features: {
-              integrity: [ .6, 1.5 ],
-              mass: [ 2, 1.2 ]
+              integrity: [ 1.2, 1.8 ],
+              mass: [ .9, .9 ]
             }
           },
           "4": {
@@ -20208,8 +20256,8 @@ module.exports = {
               Zinc: 1
             },
             features: {
-              integrity: [ .8, 2 ],
-              mass: [ 2.5, 1.6 ]
+              integrity: [ 1.8, 2.4 ],
+              mass: [ 1.2, 1.2 ]
             }
           },
           "5": {
@@ -20219,8 +20267,8 @@ module.exports = {
               Technetium: 1
             },
             features: {
-              integrity: [ 1, 2.5 ],
-              mass: [ 3, 2 ]
+              integrity: [ 2.4, 3 ],
+              mass: [ 1.5, 1.5 ]
             }
           }
         },
@@ -20236,8 +20284,8 @@ module.exports = {
               "Worn Shield Emitters": 1
             },
             features: {
-              integrity: [ .2, .5 ],
-              power: [ .3, .2 ]
+              integrity: [ 0, .6 ],
+              power: [ .2, .2 ]
             }
           },
           "2": {
@@ -20246,8 +20294,8 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              integrity: [ .4, 1 ],
-              power: [ .6, .4 ]
+              integrity: [ .6, 1.2 ],
+              power: [ .4, .4 ]
             }
           },
           "3": {
@@ -20257,8 +20305,8 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              integrity: [ .6, 1.5 ],
-              power: [ .9, .6 ]
+              integrity: [ 1.2, 1.8 ],
+              power: [ .6, .6 ]
             }
           },
           "4": {
@@ -20268,8 +20316,8 @@ module.exports = {
               Vanadium: 1
             },
             features: {
-              integrity: [ .8, 2 ],
-              power: [ 1.2, .8 ]
+              integrity: [ 1.8, 2.4 ],
+              power: [ .8, .8 ]
             }
           },
           "5": {
@@ -20279,8 +20327,8 @@ module.exports = {
               Tungsten: 1
             },
             features: {
-              integrity: [ 1, 1.5 ],
-              power: [ 1.5, 1 ]
+              integrity: [ 2.4, 3 ],
+              power: [ 1, 1 ]
             }
           }
         },
@@ -20296,8 +20344,8 @@ module.exports = {
               "Worn Shield Emitters": 1
             },
             features: {
-              integrity: [ .2, .5 ],
-              power: [ .3, .2 ]
+              integrity: [ 0, .6 ],
+              power: [ .2, .2 ]
             }
           },
           "2": {
@@ -20306,8 +20354,8 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              integrity: [ .4, 1 ],
-              power: [ .6, .4 ]
+              integrity: [ .6, 1.2 ],
+              power: [ .4, .4 ]
             }
           },
           "3": {
@@ -20317,8 +20365,8 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              integrity: [ .6, 1.5 ],
-              power: [ .9, .6 ]
+              integrity: [ 1.2, 1.8 ],
+              power: [ .6, .6 ]
             }
           },
           "4": {
@@ -20328,8 +20376,8 @@ module.exports = {
               Vanadium: 1
             },
             features: {
-              integrity: [ .8, 2 ],
-              power: [ 1.2, .8 ]
+              integrity: [ 1.8, 2.4 ],
+              power: [ .8, .8 ]
             }
           }
         },
@@ -20345,9 +20393,9 @@ module.exports = {
               Phosphorus: 1
             },
             features: {
-              integrity: [ -.4, -.1 ],
-              range: [ -.1, -.05 ],
-              scantime: [ -.1, -.4 ]
+              integrity: [ -.1, -.1 ],
+              range: [ -.05, -.05 ],
+              scantime: [ 0, -.2 ]
             }
           },
           "2": {
@@ -20356,9 +20404,9 @@ module.exports = {
               Phosphorus: 1
             },
             features: {
-              integrity: [ -.5, -.2 ],
-              range: [ -.2, -.1 ],
-              scantime: [ -.2, -.5 ]
+              integrity: [ -.2, -.2 ],
+              range: [ -.1, -.1 ],
+              scantime: [ -.2, -.35 ]
             }
           },
           "3": {
@@ -20368,9 +20416,9 @@ module.exports = {
               Phosphorus: 1
             },
             features: {
-              integrity: [ -.6, -.3 ],
-              range: [ -.3, -.15 ],
-              scantime: [ -.3, -.6 ]
+              integrity: [ -.3, -.3 ],
+              range: [ -.15, -.15 ],
+              scantime: [ -.35, -.5 ]
             }
           },
           "4": {
@@ -20380,9 +20428,9 @@ module.exports = {
               Manganese: 1
             },
             features: {
-              integrity: [ -.7, -.4 ],
-              range: [ -.4, -.2 ],
-              scantime: [ -.4, -.7 ]
+              integrity: [ -.4, -.4 ],
+              range: [ -.2, -.2 ],
+              scantime: [ -.5, -.65 ]
             }
           },
           "5": {
@@ -20392,9 +20440,9 @@ module.exports = {
               "Refined Focus Crystals": 1
             },
             features: {
-              integrity: [ -.8, -.5 ],
-              range: [ -.5, -.2 ],
-              scantime: [ -.5, -.8 ]
+              integrity: [ -.5, -.5 ],
+              range: [ -.25, -.25 ],
+              scantime: [ -.8, -.8 ]
             }
           }
         },
@@ -20410,9 +20458,9 @@ module.exports = {
               Iron: 1
             },
             features: {
-              power: [ .2, .1 ],
-              angle: [ -.2, -.1 ],
-              range: [ .1, .2 ]
+              power: [ .1, .1 ],
+              angle: [ -.1, -.1 ],
+              range: [ 0, .24 ]
             }
           },
           "2": {
@@ -20421,9 +20469,9 @@ module.exports = {
               Iron: 1
             },
             features: {
-              power: [ .4, .2 ],
-              angle: [ -.3, -.15 ],
-              range: [ .2, .4 ]
+              power: [ .2, .2 ],
+              angle: [ -.12, -.15 ],
+              range: [ .24, .48 ]
             }
           },
           "3": {
@@ -20433,9 +20481,9 @@ module.exports = {
               "Unexpected Emission Data": 1
             },
             features: {
-              power: [ .6, .3 ],
-              angle: [ -.4, -.2 ],
-              range: [ .3, .6 ]
+              power: [ .3, .3 ],
+              angle: [ -.2, -.2 ],
+              range: [ .48, .72 ]
             }
           },
           "4": {
@@ -20445,9 +20493,9 @@ module.exports = {
               Germanium: 1
             },
             features: {
-              power: [ .8, .4 ],
-              angle: [ -.5, -.25 ],
-              range: [ .4, .8 ]
+              power: [ .4, .4 ],
+              angle: [ -.25, -.25 ],
+              range: [ .72, .96 ]
             }
           },
           "5": {
@@ -20457,9 +20505,9 @@ module.exports = {
               "Polymer Capacitors": 1
             },
             features: {
-              power: [ 1, .5 ],
-              angle: [ -.6, -.3 ],
-              range: [ .5, 1 ]
+              power: [ .5, .5 ],
+              angle: [ -.3, -.3 ],
+              range: [ .96, 1.2 ]
             }
           }
         },
@@ -20475,9 +20523,9 @@ module.exports = {
               "Mechanical Scrap": 1
             },
             features: {
-              mass: [ .4, .2 ],
-              angle: [ .2, .4 ],
-              scantime: [ .2, .1 ]
+              mass: [ .2, .2 ],
+              angle: [ 0, .4 ],
+              scantime: [ .1, .1 ]
             }
           },
           "2": {
@@ -20486,9 +20534,9 @@ module.exports = {
               "Mechanical Scrap": 1
             },
             features: {
-              mass: [ .8, .4 ],
+              mass: [ .4, .4 ],
               angle: [ .4, .8 ],
-              scantime: [ .4, .2 ]
+              scantime: [ .2, .2 ]
             }
           },
           "3": {
@@ -20498,9 +20546,9 @@ module.exports = {
               "Mechanical Scrap": 1
             },
             features: {
-              mass: [ 1.2, .6 ],
-              angle: [ .6, 1.2 ],
-              scantime: [ .6, .3 ]
+              mass: [ .6, .6 ],
+              angle: [ .8, 1.2 ],
+              scantime: [ .3, .3 ]
             }
           },
           "4": {
@@ -20510,9 +20558,9 @@ module.exports = {
               Niobium: 1
             },
             features: {
-              mass: [ 1.2, .6 ],
-              angle: [ .8, 1.6 ],
-              scantime: [ .8, .4 ]
+              mass: [ .8, .8 ],
+              angle: [ 1.2, 1.6 ],
+              scantime: [ .4, .4 ]
             }
           },
           "5": {
@@ -20522,9 +20570,9 @@ module.exports = {
               Tin: 1
             },
             features: {
-              mass: [ 2, 1 ],
-              angle: [ 1, 2 ],
-              scantime: [ 1, .5 ]
+              mass: [ 1, 1 ],
+              angle: [ 1.6, 2 ],
+              scantime: [ .5, .5 ]
             }
           }
         },
@@ -20540,9 +20588,9 @@ module.exports = {
               Phosphorus: 1
             },
             features: {
-              integrity: [ -.4, -.1 ],
-              range: [ -.1, -.05 ],
-              scantime: [ -.1, -.4 ]
+              integrity: [ -.1, -.1 ],
+              range: [ -.05, -.05 ],
+              scantime: [ 0, -.2 ]
             }
           },
           "2": {
@@ -20551,9 +20599,9 @@ module.exports = {
               Phosphorus: 1
             },
             features: {
-              integrity: [ -.5, -.2 ],
-              range: [ -.2, -.1 ],
-              scantime: [ -.2, -.5 ]
+              integrity: [ -.2, -.2 ],
+              range: [ -.1, -.1 ],
+              scantime: [ -.2, -.35 ]
             }
           },
           "3": {
@@ -20563,9 +20611,9 @@ module.exports = {
               Phosphorus: 1
             },
             features: {
-              integrity: [ -.6, -.3 ],
-              range: [ -.3, -.15 ],
-              scantime: [ -.3, -.6 ]
+              integrity: [ -.3, -.3 ],
+              range: [ -.15, -.15 ],
+              scantime: [ -.35, -.5 ]
             }
           },
           "4": {
@@ -20575,9 +20623,9 @@ module.exports = {
               Manganese: 1
             },
             features: {
-              integrity: [ -.7, -.4 ],
-              range: [ -.4, -.2 ],
-              scantime: [ -.4, -.7 ]
+              integrity: [ -.4, -.4 ],
+              range: [ -.2, -.2 ],
+              scantime: [ -.5, -.65 ]
             }
           },
           "5": {
@@ -20587,9 +20635,9 @@ module.exports = {
               "Refined Focus Crystals": 1
             },
             features: {
-              integrity: [ -.8, -.5 ],
-              range: [ -.5, -.2 ],
-              scantime: [ -.5, -.8 ]
+              integrity: [ -.5, -.5 ],
+              range: [ -.25, -.25 ],
+              scantime: [ -.8, -.8 ]
             }
           }
         },
@@ -20605,9 +20653,9 @@ module.exports = {
               "Mechanical Scrap": 1
             },
             features: {
-              mass: [ .4, .2 ],
-              angle: [ .2, .4 ],
-              scantime: [ .2, .1 ]
+              mass: [ .2, .2 ],
+              angle: [ 0, .4 ],
+              scantime: [ .1, .1 ]
             }
           },
           "2": {
@@ -20616,9 +20664,9 @@ module.exports = {
               "Mechanical Scrap": 1
             },
             features: {
-              mass: [ .8, .4 ],
+              mass: [ .4, .4 ],
               angle: [ .4, .8 ],
-              scantime: [ .4, .2 ]
+              scantime: [ .2, .2 ]
             }
           },
           "3": {
@@ -20628,9 +20676,9 @@ module.exports = {
               "Mechanical Scrap": 1
             },
             features: {
-              mass: [ 1.2, .6 ],
-              angle: [ .6, 1.2 ],
-              scantime: [ .6, .3 ]
+              mass: [ .6, .6 ],
+              angle: [ .8, 1.2 ],
+              scantime: [ .3, .3 ]
             }
           },
           "4": {
@@ -20640,9 +20688,9 @@ module.exports = {
               Niobium: 1
             },
             features: {
-              mass: [ 1.2, .6 ],
-              angle: [ .8, 1.6 ],
-              scantime: [ .8, .4 ]
+              mass: [ .8, .8 ],
+              angle: [ 1.2, 1.6 ],
+              scantime: [ .4, .4 ]
             }
           },
           "5": {
@@ -20652,9 +20700,9 @@ module.exports = {
               Tin: 1
             },
             features: {
-              mass: [ 2, 1 ],
-              angle: [ 1, 2 ],
-              scantime: [ 1, .5 ]
+              mass: [ 1, 1 ],
+              angle: [ 1.6, 2 ],
+              scantime: [ .5, .5 ]
             }
           }
         },
@@ -21045,9 +21093,9 @@ module.exports = {
               Phosphorus: 1
             },
             features: {
-              integrity: [ -.4, -.1 ],
-              range: [ -.1, -.05 ],
-              scantime: [ -.1, -.4 ]
+              integrity: [ -.1, -.1 ],
+              range: [ -.05, -.05 ],
+              scantime: [ 0, -.2 ]
             }
           },
           "2": {
@@ -21056,9 +21104,9 @@ module.exports = {
               Phosphorus: 1
             },
             features: {
-              integrity: [ -.5, -.2 ],
-              range: [ -.2, -.1 ],
-              scantime: [ -.2, -.5 ]
+              integrity: [ -.2, -.2 ],
+              range: [ -.1, -.1 ],
+              scantime: [ -.2, -.35 ]
             }
           },
           "3": {
@@ -21068,9 +21116,9 @@ module.exports = {
               Phosphorus: 1
             },
             features: {
-              integrity: [ -.6, -.3 ],
-              range: [ -.3, -.15 ],
-              scantime: [ -.3, -.6 ]
+              integrity: [ -.3, -.3 ],
+              range: [ -.15, -.15 ],
+              scantime: [ -.35, -.5 ]
             }
           },
           "4": {
@@ -21080,9 +21128,9 @@ module.exports = {
               Manganese: 1
             },
             features: {
-              integrity: [ -.7, -.4 ],
-              range: [ -.4, -.2 ],
-              scantime: [ -.4, -.7 ]
+              integrity: [ -.4, -.4 ],
+              range: [ -.2, -.2 ],
+              scantime: [ -.5, -.65 ]
             }
           },
           "5": {
@@ -21092,9 +21140,9 @@ module.exports = {
               "Refined Focus Crystals": 1
             },
             features: {
-              integrity: [ -.8, -.5 ],
-              range: [ -.5, -.2 ],
-              scantime: [ -.5, -.8 ]
+              integrity: [ -.5, -.5 ],
+              range: [ -.25, -.25 ],
+              scantime: [ -.8, -.8 ]
             }
           }
         },
@@ -21110,9 +21158,9 @@ module.exports = {
               Iron: 1
             },
             features: {
-              power: [ .2, .1 ],
-              angle: [ -.2, -.1 ],
-              range: [ .1, .2 ]
+              power: [ .1, .1 ],
+              angle: [ -.1, -.1 ],
+              range: [ 0, .24 ]
             }
           },
           "2": {
@@ -21121,9 +21169,9 @@ module.exports = {
               Iron: 1
             },
             features: {
-              power: [ .4, .2 ],
-              angle: [ -.3, -.15 ],
-              range: [ .2, .4 ]
+              power: [ .2, .2 ],
+              angle: [ -.12, -.15 ],
+              range: [ .24, .48 ]
             }
           },
           "3": {
@@ -21133,9 +21181,9 @@ module.exports = {
               "Unexpected Emission Data": 1
             },
             features: {
-              power: [ .6, .3 ],
-              angle: [ -.4, -.2 ],
-              range: [ .3, .6 ]
+              power: [ .3, .3 ],
+              angle: [ -.2, -.2 ],
+              range: [ .48, .72 ]
             }
           },
           "4": {
@@ -21145,9 +21193,9 @@ module.exports = {
               Germanium: 1
             },
             features: {
-              power: [ .8, .4 ],
-              angle: [ -.5, -.25 ],
-              range: [ .4, .8 ]
+              power: [ .4, .4 ],
+              angle: [ -.25, -.25 ],
+              range: [ .72, .96 ]
             }
           },
           "5": {
@@ -21157,9 +21205,9 @@ module.exports = {
               "Polymer Capacitors": 1
             },
             features: {
-              power: [ 1, .5 ],
-              angle: [ -.6, -.3 ],
-              range: [ .5, 1 ]
+              power: [ .5, .5 ],
+              angle: [ -.3, -.3 ],
+              range: [ .96, 1.2 ]
             }
           }
         },
@@ -21175,9 +21223,9 @@ module.exports = {
               "Mechanical Scrap": 1
             },
             features: {
-              mass: [ .4, .2 ],
-              angle: [ .2, .4 ],
-              scantime: [ .2, .1 ]
+              mass: [ .2, .2 ],
+              angle: [ 0, .4 ],
+              scantime: [ .1, .1 ]
             }
           },
           "2": {
@@ -21186,9 +21234,9 @@ module.exports = {
               "Mechanical Scrap": 1
             },
             features: {
-              mass: [ .8, .4 ],
+              mass: [ .4, .4 ],
               angle: [ .4, .8 ],
-              scantime: [ .4, .2 ]
+              scantime: [ .2, .2 ]
             }
           },
           "3": {
@@ -21198,9 +21246,9 @@ module.exports = {
               "Mechanical Scrap": 1
             },
             features: {
-              mass: [ 1.2, .6 ],
-              angle: [ .6, 1.2 ],
-              scantime: [ .6, .3 ]
+              mass: [ .6, .6 ],
+              angle: [ .8, 1.2 ],
+              scantime: [ .3, .3 ]
             }
           },
           "4": {
@@ -21210,9 +21258,9 @@ module.exports = {
               Niobium: 1
             },
             features: {
-              mass: [ 1.2, .6 ],
-              angle: [ .8, 1.6 ],
-              scantime: [ .8, .4 ]
+              mass: [ .8, .8 ],
+              angle: [ 1.2, 1.6 ],
+              scantime: [ .4, .4 ]
             }
           },
           "5": {
@@ -21222,9 +21270,9 @@ module.exports = {
               Tin: 1
             },
             features: {
-              mass: [ 2, 1 ],
-              angle: [ 1, 2 ],
-              scantime: [ 1, .5 ]
+              mass: [ 1, 1 ],
+              angle: [ 1.6, 2 ],
+              scantime: [ .5, .5 ]
             }
           }
         },
@@ -21580,10 +21628,10 @@ module.exports = {
               Sulphur: 1
             },
             features: {
-              boot: [ .1, 0 ],
-              duration: [ -.1, 0 ],
-              shieldreinforcement: [ 0, .03 ],
-              spinup: [ -.05, -.1 ]
+              boot: [ .1, .1 ],
+              duration: [ -.06, -.06 ],
+              shieldreinforcement: [ 0, .05 ],
+              spinup: [ 0, -.1 ]
             }
           },
           "2": {
@@ -21592,9 +21640,9 @@ module.exports = {
               "Grid Resistors": 1
             },
             features: {
-              boot: [ .2, .05 ],
-              duration: [ -.2, -.05 ],
-              shieldreinforcement: [ .02, .06 ],
+              boot: [ .15, .15 ],
+              duration: [ -.12, -.12 ],
+              shieldreinforcement: [ .05, .1 ],
               spinup: [ -.1, -.2 ]
             }
           },
@@ -21605,9 +21653,9 @@ module.exports = {
               Sulphur: 1
             },
             features: {
-              boot: [ .3, .1 ],
-              duration: [ -.3, -.1 ],
-              shieldreinforcement: [ .04, .09 ],
+              boot: [ .2, .2 ],
+              duration: [ -.18, -.18 ],
+              shieldreinforcement: [ .1, .15 ],
               spinup: [ -.2, -.3 ]
             }
           }
@@ -21624,10 +21672,11 @@ module.exports = {
               "Specialised Legacy Firmware": 1
             },
             features: {
-              boot: [ -.04, -.08 ],
-              integrity: [ -.1, 0 ],
-              power: [ .1, 0 ],
-              thermload: [ -.03, -.06 ]
+              boot: [ 0, -.08 ],
+              integrity: [ -.05, -.05 ],
+              power: [ .1, .1 ],
+              shieldreinforcement: [ 0, .04 ],
+              thermload: [ 0, -.06 ]
             }
           },
           "2": {
@@ -21637,8 +21686,9 @@ module.exports = {
             },
             features: {
               boot: [ -.08, -.16 ],
-              integrity: [ -.2, -.05 ],
-              power: [ .2, .05 ],
+              integrity: [ -.1, -.1 ],
+              power: [ .15, .15 ],
+              shieldreinforcement: [ .04, .06 ],
               thermload: [ -.06, -.12 ]
             }
           },
@@ -21649,10 +21699,11 @@ module.exports = {
               "Exceptional Scrambled Emission Data": 1
             },
             features: {
-              boot: [ -.12, -.26 ],
-              integrity: [ -.3, -.1 ],
-              power: [ .3, .1 ],
-              thermload: [ -.09, -.18 ]
+              boot: [ -.16, -.24 ],
+              integrity: [ -.15, -.15 ],
+              power: [ .2, .2 ],
+              shieldreinforcement: [ .06, .08 ],
+              thermload: [ -.12, -.18 ]
             }
           }
         },
@@ -21953,8 +22004,8 @@ module.exports = {
               Phosphorus: 1
             },
             features: {
-              integrity: [ -.2, -.1 ],
-              mass: [ -.3, -.4 ]
+              integrity: [ -.1, -.1 ],
+              mass: [ 0, -.45 ]
             }
           },
           "2": {
@@ -21963,8 +22014,8 @@ module.exports = {
               "Salvaged Alloys": 1
             },
             features: {
-              integrity: [ -.3, -.2 ],
-              mass: [ -.4, -.5 ]
+              integrity: [ -.2, -.2 ],
+              mass: [ -.45, -.55 ]
             }
           },
           "3": {
@@ -21974,8 +22025,8 @@ module.exports = {
               "Salvaged Alloys": 1
             },
             features: {
-              integrity: [ -.4, -.3 ],
-              mass: [ -.5, -.6 ]
+              integrity: [ -.3, -.3 ],
+              mass: [ -.55, -.65 ]
             }
           },
           "4": {
@@ -21985,8 +22036,8 @@ module.exports = {
               "Proto Light Alloys": 1
             },
             features: {
-              integrity: [ -.5, -.4 ],
-              mass: [ -.6, -.7 ]
+              integrity: [ -.4, -.4 ],
+              mass: [ -.65, -.75 ]
             }
           },
           "5": {
@@ -21996,8 +22047,8 @@ module.exports = {
               "Proto Radiolic Alloys": 1
             },
             features: {
-              integrity: [ -.6, -.5 ],
-              mass: [ -.7, -.8 ]
+              integrity: [ -.5, -.5 ],
+              mass: [ -.75, -.85 ]
             }
           }
         },
@@ -22013,8 +22064,8 @@ module.exports = {
               Nickel: 1
             },
             features: {
-              integrity: [ .2, .5 ],
-              mass: [ 1, .4 ]
+              integrity: [ 0, .6 ],
+              mass: [ .3, .3 ]
             }
           },
           "2": {
@@ -22023,8 +22074,8 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              integrity: [ .4, 1 ],
-              mass: [ 1.5, .8 ]
+              integrity: [ .6, 1.2 ],
+              mass: [ .6, .6 ]
             }
           },
           "3": {
@@ -22034,8 +22085,8 @@ module.exports = {
               Tungsten: 1
             },
             features: {
-              integrity: [ .6, 1.5 ],
-              mass: [ 2, 1.2 ]
+              integrity: [ 1.2, 1.8 ],
+              mass: [ .9, .9 ]
             }
           },
           "4": {
@@ -22045,8 +22096,8 @@ module.exports = {
               Zinc: 1
             },
             features: {
-              integrity: [ .8, 2 ],
-              mass: [ 2.5, 1.6 ]
+              integrity: [ 1.8, 2.4 ],
+              mass: [ 1.2, 1.2 ]
             }
           },
           "5": {
@@ -22056,8 +22107,8 @@ module.exports = {
               Technetium: 1
             },
             features: {
-              integrity: [ 1, 2.5 ],
-              mass: [ 3, 2 ]
+              integrity: [ 2.4, 3 ],
+              mass: [ 1.5, 1.5 ]
             }
           }
         },
@@ -22073,8 +22124,8 @@ module.exports = {
               "Worn Shield Emitters": 1
             },
             features: {
-              integrity: [ .2, .5 ],
-              power: [ .3, .2 ]
+              integrity: [ 0, .6 ],
+              power: [ .2, .2 ]
             }
           },
           "2": {
@@ -22083,8 +22134,8 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              integrity: [ .4, 1 ],
-              power: [ .6, .4 ]
+              integrity: [ .6, 1.2 ],
+              power: [ .4, .4 ]
             }
           },
           "3": {
@@ -22094,8 +22145,8 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              integrity: [ .6, 1.5 ],
-              power: [ .9, .6 ]
+              integrity: [ 1.2, 1.8 ],
+              power: [ .6, .6 ]
             }
           },
           "4": {
@@ -22105,8 +22156,8 @@ module.exports = {
               Vanadium: 1
             },
             features: {
-              integrity: [ .8, 2 ],
-              power: [ 1.2, .8 ]
+              integrity: [ 1.8, 2.4 ],
+              power: [ .8, .8 ]
             }
           },
           "5": {
@@ -22116,8 +22167,8 @@ module.exports = {
               Tungsten: 1
             },
             features: {
-              integrity: [ 1, 1.5 ],
-              power: [ 1.5, 1 ]
+              integrity: [ 2.4, 3 ],
+              power: [ 1, 1 ]
             }
           }
         },
@@ -22134,9 +22185,9 @@ module.exports = {
             },
             features: {
               burst: [ 2, 2 ],
-              burstrof: [ 10, 15 ],
+              burstrof: [ 0, 6 ],
               clip: [ .34, .34 ],
-              range: [ -.25, -.1 ]
+              range: [ -.02, -.02 ]
             }
           },
           "2": {
@@ -22146,9 +22197,9 @@ module.exports = {
             },
             features: {
               burst: [ 2, 2 ],
-              burstrof: [ 11, 16 ],
+              burstrof: [ 6, 8 ],
               clip: [ .34, .34 ],
-              range: [ -.2, -.08 ]
+              range: [ -.04, -.04 ]
             }
           },
           "3": {
@@ -22159,9 +22210,9 @@ module.exports = {
             },
             features: {
               burst: [ 2, 2 ],
-              burstrof: [ 12, 17 ],
-              clip: [ .34, 1 ],
-              range: [ -.15, -.06 ]
+              burstrof: [ 8, 10 ],
+              clip: [ .34, .34 ],
+              range: [ -.06, -.06 ]
             }
           },
           "4": {
@@ -22172,9 +22223,9 @@ module.exports = {
             },
             features: {
               burst: [ 2, 2 ],
-              burstrof: [ 13, 18 ],
-              clip: [ 1, 1 ],
-              range: [ -.1, -.04 ]
+              burstrof: [ 10, 12 ],
+              clip: [ .34, .34 ],
+              range: [ -.08, -.08 ]
             }
           },
           "5": {
@@ -22185,9 +22236,9 @@ module.exports = {
             },
             features: {
               burst: [ 2, 2 ],
-              burstrof: [ 14, 19 ],
+              burstrof: [ 12, 14 ],
               clip: [ 1, 1 ],
-              range: [ -.05, -.02 ]
+              range: [ -.1, -.1 ]
             }
           }
         },
@@ -22341,11 +22392,11 @@ module.exports = {
               "Mechanical Scrap": 1
             },
             features: {
-              ammo: [ .1, .6 ],
-              clip: [ .1, .6 ],
-              mass: [ .25, .1 ],
-              power: [ .2, .1 ],
-              reload: [ .2, 0 ]
+              ammo: [ 0, .36 ],
+              clip: [ 0, .36 ],
+              mass: [ .2, .2 ],
+              power: [ .04, .04 ],
+              rof: [ 0, .02 ]
             }
           },
           "2": {
@@ -22354,11 +22405,11 @@ module.exports = {
               Vanadium: 1
             },
             features: {
-              ammo: [ .2, .7 ],
-              clip: [ .2, .7 ],
-              mass: [ .5, .2 ],
-              power: [ .25, .14 ],
-              reload: [ .4, .1 ]
+              ammo: [ .36, .52 ],
+              clip: [ .36, .52 ],
+              mass: [ .3, .3 ],
+              power: [ .08, .08 ],
+              rof: [ .02, .04 ]
             }
           },
           "3": {
@@ -22368,11 +22419,11 @@ module.exports = {
               Vanadium: 1
             },
             features: {
-              ammo: [ .3, .8 ],
-              clip: [ .3, .8 ],
-              mass: [ .75, .3 ],
-              power: [ .3, .2 ],
-              reload: [ .6, .2 ]
+              ammo: [ .52, .68 ],
+              clip: [ .52, .68 ],
+              mass: [ .4, .4 ],
+              power: [ .12, .12 ],
+              rof: [ .04, .06 ]
             }
           },
           "4": {
@@ -22382,11 +22433,11 @@ module.exports = {
               Tin: 1
             },
             features: {
-              ammo: [ .4, .9 ],
-              clip: [ .4, .9 ],
-              mass: [ 1, .4 ],
-              power: [ .35, .25 ],
-              reload: [ .8, .3 ]
+              ammo: [ .68, .84 ],
+              clip: [ .68, .84 ],
+              mass: [ .5, .5 ],
+              power: [ .16, .16 ],
+              rof: [ .06, .08 ]
             }
           },
           "5": {
@@ -22396,11 +22447,11 @@ module.exports = {
               "Proprietary Composites": 1
             },
             features: {
-              ammo: [ .5, 1 ],
-              clip: [ .5, 1 ],
-              mass: [ 1.25, .5 ],
-              power: [ .4, .3 ],
-              reload: [ 1, .4 ]
+              ammo: [ .84, 1 ],
+              clip: [ .84, 1 ],
+              mass: [ .6, .6 ],
+              power: [ .2, .2 ],
+              rof: [ .08, .1 ]
             }
           }
         },
@@ -22629,10 +22680,10 @@ module.exports = {
               "Mechanical Scrap": 1
             },
             features: {
-              damage: [ -.07, -.06 ],
-              jitter: [ 2.5, 1.25 ],
-              reload: [ -.1, -.25 ],
-              rof: [ .17, .25 ]
+              damage: [ -.01, -.01 ],
+              jitter: [ .5, .5 ],
+              reload: [ 0, -.25 ],
+              rof: [ 0, .08 ]
             }
           },
           "2": {
@@ -22641,11 +22692,11 @@ module.exports = {
               "Mechanical Scrap": 1
             },
             features: {
-              damage: [ -.1, -.07 ],
-              distdraw: [ -.1, -.2 ],
-              jitter: [ 2, 1 ],
-              reload: [ -.2, -.36 ],
-              rof: [ .25, .34 ]
+              damage: [ -.02, -.02 ],
+              distdraw: [ 0, -.05 ],
+              jitter: [ .5, .5 ],
+              reload: [ -.25, -.35 ],
+              rof: [ .08, .17 ]
             }
           },
           "3": {
@@ -22655,11 +22706,11 @@ module.exports = {
               "Specialised Legacy Firmware": 1
             },
             features: {
-              damage: [ -.1, -.1 ],
-              distdraw: [ -.15, -.25 ],
-              jitter: [ 1.5, .75 ],
-              reload: [ -.3, -.45 ],
-              rof: [ .34, .42 ]
+              damage: [ -.03, -.03 ],
+              distdraw: [ -.05, -.15 ],
+              jitter: [ .5, .5 ],
+              reload: [ -.35, -.45 ],
+              rof: [ .17, .26 ]
             }
           },
           "4": {
@@ -22669,11 +22720,11 @@ module.exports = {
               "Thermic Alloys": 1
             },
             features: {
-              damage: [ -.13, -.1 ],
-              distdraw: [ -.2, -.3 ],
-              jitter: [ 1, .5 ],
-              reload: [ -.4, -.55 ],
-              rof: [ .42, .53 ]
+              damage: [ -.04, -.04 ],
+              distdraw: [ -.15, -.25 ],
+              jitter: [ .5, .5 ],
+              reload: [ -.45, -.55 ],
+              rof: [ .26, .35 ]
             }
           },
           "5": {
@@ -22683,11 +22734,11 @@ module.exports = {
               Technetium: 1
             },
             features: {
-              damage: [ -.15, -.13 ],
-              distdraw: [ -.25, -.36 ],
-              jitter: [ .5, .25 ],
-              reload: [ -.5, -.65 ],
-              rof: [ .53, .66 ]
+              damage: [ -.05, -.05 ],
+              distdraw: [ -.25, -.35 ],
+              jitter: [ .5, .5 ],
+              reload: [ -.55, -.65 ],
+              rof: [ .35, .44 ]
             }
           }
         },
