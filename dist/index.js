@@ -24752,6 +24752,9 @@ module.exports = {
               },
               "3": {
                 engineers: [ "Colonel Bris Dekker", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Colonel Bris Dekker" ]
               }
             }
           }
@@ -25938,6 +25941,12 @@ module.exports = {
               },
               "3": {
                 engineers: [ "Hera Tani", "Marco Qwent", "The Dweller" ]
+              },
+              "4": {
+                engineers: [ "The Dweller" ]
+              },
+              "5": {
+                engineers: [ "The Dweller" ]
               }
             }
           },
@@ -25989,6 +25998,12 @@ module.exports = {
               },
               "3": {
                 engineers: [ "Hera Tani", "Marco Qwent", "The Dweller" ]
+              },
+              "4": {
+                engineers: [ "The Dweller" ]
+              },
+              "5": {
+                engineers: [ "The Dweller" ]
               }
             }
           },
@@ -26002,6 +26017,12 @@ module.exports = {
               },
               "3": {
                 engineers: [ "Hera Tani", "Marco Qwent", "The Dweller" ]
+              },
+              "4": {
+                engineers: [ "The Dweller" ]
+              },
+              "5": {
+                engineers: [ "The Dweller" ]
               }
             }
           }
@@ -26661,7 +26682,7 @@ module.exports = {
             }
           }
         },
-        modifications: [ "explres", "integrity", "kinres", "mass", "power", "shieldboost", "thermres" ],
+        modifications: [ "explres", "integrity", "kinres", "mass", "power", "optmul", "shieldboost", "thermres" ],
         specials: [ "special_shieldbooster_thermic", "special_shieldbooster_kinetic", "special_shieldbooster_explosive", "special_shieldbooster_efficient", "special_shieldbooster_toughened", "special_shieldbooster_chunky" ]
       },
       sfn: {

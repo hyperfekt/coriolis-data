@@ -33205,6 +33205,11 @@
 									"Colonel Bris Dekker",
 									"Tiana Fortune"
 								]
+							},
+							"4": {
+								"engineers": [
+									"Colonel Bris Dekker"
+								]
 							}
 						}
 					}
@@ -35382,6 +35387,16 @@
 									"Marco Qwent",
 									"The Dweller"
 								]
+							},
+							"4": {
+								"engineers": [
+									"The Dweller"
+								]
+							},
+							"5": {
+								"engineers": [
+									"The Dweller"
+								]
 							}
 						}
 					},
@@ -35477,6 +35492,16 @@
 									"Marco Qwent",
 									"The Dweller"
 								]
+							},
+							"4": {
+								"engineers": [
+									"The Dweller"
+								]
+							},
+							"5": {
+								"engineers": [
+									"The Dweller"
+								]
 							}
 						}
 					},
@@ -35500,6 +35525,16 @@
 								"engineers": [
 									"Hera Tani",
 									"Marco Qwent",
+									"The Dweller"
+								]
+							},
+							"4": {
+								"engineers": [
+									"The Dweller"
+								]
+							},
+							"5": {
+								"engineers": [
 									"The Dweller"
 								]
 							}
@@ -36772,6 +36807,7 @@
 					"kinres",
 					"mass",
 					"power",
+					"optmul",
 					"shieldboost",
 					"thermres"
 				],
