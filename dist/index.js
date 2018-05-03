@@ -18336,7 +18336,7 @@ module.exports = {
       HeatSinkLauncher_HeatSinkCapacity: {
         fdname: "HeatSinkLauncher_HeatSinkCapacity",
         grades: {
-          "1": {
+          "3": {
             components: {
               "Mechanical Scrap": 1,
               Niobium: 1,
