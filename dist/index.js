@@ -16834,7 +16834,7 @@ module.exports = {
       ChaffLauncher_ChaffCapacity: {
         fdname: "ChaffLauncher_ChaffCapacity",
         grades: {
-          "1": {
+          "3": {
             components: {
               "Mechanical Scrap": 1,
               Niobium: 1,
