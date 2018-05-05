@@ -19349,7 +19349,7 @@ module.exports = {
       PointDefence_PointDefenseCapacity: {
         fdname: "PointDefence_PointDefenseCapacity",
         grades: {
-          "1": {
+          "3": {
             components: {
               "Mechanical Scrap": 1,
               Niobium: 1,
