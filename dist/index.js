@@ -17908,9 +17908,9 @@ module.exports = {
           },
           "4": {
             components: {
-              "Unidentfied Scan Archives": 1,
-              "Strange Wake Solution": 1,
-              "Atypical Encryption Archive": 1
+              "Unidentified Scan Archives": 1,
+              "Strange Wake Solutions": 1,
+              "Atypical Encryption Archives": 1
             },
             features: {
               facinglimit: [ -.25, -.25 ],
