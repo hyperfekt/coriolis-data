@@ -20059,7 +20059,7 @@ module.exports = {
             features: {
               eff: [ .15, .15 ],
               integrity: [ -.15, -.15 ],
-              pgen: [ .12, .19 ]
+              pgen: [ .19, .26 ]
             }
           },
           "4": {
@@ -20071,7 +20071,7 @@ module.exports = {
             features: {
               eff: [ .2, .2 ],
               integrity: [ -.2, -.2 ],
-              pgen: [ .19, .33 ]
+              pgen: [ .26, .33 ]
             }
           },
           "5": {
@@ -20083,7 +20083,7 @@ module.exports = {
             features: {
               eff: [ .25, .25 ],
               integrity: [ -.25, -.25 ],
-              pgen: [ .3, .4 ]
+              pgen: [ .33, .4 ]
             }
           }
         },
@@ -22538,6 +22538,76 @@ module.exports = {
               fallofffromrange: [ 0, .2 ],
               mass: [ .1, .1 ],
               power: [ .03, .03 ],
+              range: [ 0, .2 ]
+            }
+          },
+          "2": {
+            components: {
+              "Modified Consumer Firmware": 1,
+              Sulphur: 1
+            },
+            features: {
+              fallofffromrange: [ .2, .4 ],
+              mass: [ .15, .15 ],
+              power: [ .06, .06 ],
+              range: [ .2, .4 ]
+            }
+          },
+          "3": {
+            components: {
+              "Focus Crystals": 1,
+              "Modified Consumer Firmware": 1,
+              Sulphur: 1
+            },
+            features: {
+              fallofffromrange: [ .4, .6 ],
+              mass: [ .2, .2 ],
+              power: [ .09, .09 ],
+              range: [ .4, .6 ]
+            }
+          },
+          "4": {
+            components: {
+              "Conductive Polymers": 1,
+              "Focus Crystals": 1,
+              "Modified Consumer Firmware": 1
+            },
+            features: {
+              fallofffromrange: [ .6, .8 ],
+              mass: [ .25, .25 ],
+              power: [ .12, .12 ],
+              range: [ .6, .8 ]
+            }
+          },
+          "5": {
+            components: {
+              "Biotech Conductors": 1,
+              "Cracked Industrial Firmware": 1,
+              "Thermic Alloys": 1
+            },
+            features: {
+              fallofffromrange: [ .8, 1 ],
+              mass: [ .3, .3 ],
+              power: [ .15, .15 ],
+              range: [ .8, 1 ]
+            }
+          }
+        },
+        id: 87,
+        modulename: [ "Weapon" ],
+        name: "Long range"
+      },
+      Weapon_LongRange_ShotSpeed: {
+        fdname: "Weapon_LongRange",
+        grades: {
+          "1": {
+            components: {
+              Sulphur: 1
+            },
+            features: {
+              fallofffromrange: [ 0, .2 ],
+              mass: [ .1, .1 ],
+              power: [ .03, .03 ],
               range: [ 0, .2 ],
               shotspeed: [ 0, .2 ]
             }
@@ -24173,7 +24243,7 @@ module.exports = {
               }
             }
           },
-          Weapon_LongRange: {
+          Weapon_LongRange_ShotSpeed: {
             grades: {
               "1": {
                 engineers: [ "The Sarge", "Tod McQuinn" ]
@@ -25729,7 +25799,7 @@ module.exports = {
               }
             }
           },
-          Weapon_LongRange: {
+          Weapon_LongRange_ShotSpeed: {
             grades: {
               "1": {
                 engineers: [ "Bill Turner", "Zacariah Nemo" ]
