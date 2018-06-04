@@ -17908,9 +17908,9 @@ module.exports = {
           },
           "4": {
             components: {
-              "Unidentfied Scan Archives": 1,
-              "Strange Wake Solution": 1,
-              "Atypical Encryption Archive": 1
+              "Unidentified Scan Archives": 1,
+              "Strange Wake Solutions": 1,
+              "Atypical Encryption Archives": 1
             },
             features: {
               facinglimit: [ -.25, -.25 ],
@@ -20059,7 +20059,7 @@ module.exports = {
             features: {
               eff: [ .15, .15 ],
               integrity: [ -.15, -.15 ],
-              pgen: [ .12, .19 ]
+              pgen: [ .19, .26 ]
             }
           },
           "4": {
@@ -20071,7 +20071,7 @@ module.exports = {
             features: {
               eff: [ .2, .2 ],
               integrity: [ -.2, -.2 ],
-              pgen: [ .19, .33 ]
+              pgen: [ .26, .33 ]
             }
           },
           "5": {
@@ -20083,7 +20083,7 @@ module.exports = {
             features: {
               eff: [ .25, .25 ],
               integrity: [ -.25, -.25 ],
-              pgen: [ .3, .4 ]
+              pgen: [ .33, .4 ]
             }
           }
         },
@@ -23623,7 +23623,7 @@ module.exports = {
       },
       special_weapon_rateoffire: {
         power: .05,
-        rof: .03
+        rof: -.03
       },
       special_weapon_efficient: {
         power: -.1

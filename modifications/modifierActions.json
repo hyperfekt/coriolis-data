@@ -400,7 +400,7 @@
   },
   "special_weapon_rateoffire": {
     "power": 0.05,
-    "rof": 0.03
+    "rof": -0.03
   },
   "special_weapon_efficient": {
     "power": -0.1
