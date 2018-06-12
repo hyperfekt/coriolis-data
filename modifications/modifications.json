@@ -38,7 +38,7 @@
     "scanrate": {"id": 49, "name": "scanrate", "type": "percentage", "method": "multiplicative", "higherbetter": true},
     "scantime": {"id": 48, "name": "scantime", "type": "percentage", "method": "multiplicative", "higherbetter": false},
     "shield": {"id": 30, "name": "shield", "type": "percentage", "method": "multiplicative", "higherbetter": true},
-    "shieldboost": {"id": 31, "name": "shieldboost", "type": "percentage", "method": "multiplicative", "higherbetter": true},
+    "shieldboost": {"id": 31, "name": "shieldboost", "type": "percentage", "method": "additive", "higherbetter": true},
     "shotspeed": {"id": 43, "name": "shotspeed", "type": "percentage", "method": "multiplicative", "higherbetter": true},
     "spinup": {"id": 32, "name": "spinup", "type": "percentage", "method": "multiplicative", "higherbetter": false},
     "syscap": {"id": 33, "name": "syscap", "type": "percentage", "method": "multiplicative", "higherbetter": true},

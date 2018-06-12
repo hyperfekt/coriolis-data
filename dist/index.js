@@ -23159,7 +23159,7 @@ module.exports = {
         id: 31,
         name: "shieldboost",
         type: "percentage",
-        method: "multiplicative",
+        method: "additive",
         higherbetter: true
       },
       shotspeed: {
@@ -23689,7 +23689,7 @@ module.exports = {
         integrity: .15
       },
       special_shieldbooster_chunky: {
-        optmul: .05,
+        shieldboost: 6,
         thermres: -2,
         kinres: -2,
         explres: -2
