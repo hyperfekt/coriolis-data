@@ -16268,7 +16268,8 @@ module.exports = {
             features: {
               integrity: [ 0, .6 ],
               power: [ .2, .2 ]
-            }
+            },
+            uuid: "c879e8d2-290a-471e-833c-eaea947a20c1"
           },
           "2": {
             components: {
@@ -16278,7 +16279,8 @@ module.exports = {
             features: {
               integrity: [ .6, 1.2 ],
               power: [ .4, .4 ]
-            }
+            },
+            uuid: "90981fc0-8c0e-4b86-a656-9ef1a9a7fa00"
           },
           "3": {
             components: {
@@ -16289,7 +16291,8 @@ module.exports = {
             features: {
               integrity: [ 1.2, 1.8 ],
               power: [ .6, .6 ]
-            }
+            },
+            uuid: "30976550-2ff1-46e2-9687-ae3faa4f4701"
           },
           "4": {
             components: {
@@ -16300,7 +16303,8 @@ module.exports = {
             features: {
               integrity: [ 1.8, 2.4 ],
               power: [ .8, .8 ]
-            }
+            },
+            uuid: "82195e56-cfe5-4996-a821-a820dcd9405d"
           }
         },
         id: 3,
@@ -16320,7 +16324,8 @@ module.exports = {
               kinres: [ 0, .036 ],
               mass: [ 0, -.15 ],
               thermres: [ 0, .03 ]
-            }
+            },
+            uuid: "fb33c5c9-24e4-48b5-8227-cc7b855572cd"
           },
           "2": {
             components: {
@@ -16333,7 +16338,8 @@ module.exports = {
               kinres: [ .036, .072 ],
               mass: [ -.15, -.25 ],
               thermres: [ .03, .06 ]
-            }
+            },
+            uuid: "a9417081-356c-43d7-bf30-9cc1de0c62a1"
           },
           "3": {
             components: {
@@ -16347,7 +16353,8 @@ module.exports = {
               kinres: [ .072, .108 ],
               mass: [ -.25, -.35 ],
               thermres: [ .06, .09 ]
-            }
+            },
+            uuid: "b93f110f-c467-4340-8496-9ea99332ef55"
           },
           "4": {
             components: {
@@ -16361,7 +16368,8 @@ module.exports = {
               kinres: [ .108, .144 ],
               mass: [ -.35, -.45 ],
               thermres: [ .09, .12 ]
-            }
+            },
+            uuid: "4b9c30c9-0acf-4b56-bce9-3fc65be95382"
           },
           "5": {
             components: {
@@ -16375,7 +16383,8 @@ module.exports = {
               kinres: [ .144, .18 ],
               mass: [ -.45, -.55 ],
               thermres: [ .12, .15 ]
-            }
+            },
+            uuid: "b97b8100-b8bb-4ef3-84bf-65f9b49eaa30"
           }
         },
         id: 6,
@@ -16393,7 +16402,8 @@ module.exports = {
               explres: [ 0, .168 ],
               kinres: [ -.05, -.05 ],
               thermres: [ -.04, -.04 ]
-            }
+            },
+            uuid: "c74fe800-a8c1-4ae9-95a1-47a8a9d1f10d"
           },
           "2": {
             components: {
@@ -16404,7 +16414,8 @@ module.exports = {
               explres: [ .168, .266 ],
               kinres: [ -.07, -.07 ],
               thermres: [ -.06, -.06 ]
-            }
+            },
+            uuid: "78f76eb3-ac9e-47bd-be6f-a26b4fdf9c57"
           },
           "3": {
             components: {
@@ -16415,7 +16426,8 @@ module.exports = {
               explres: [ .366, .364 ],
               kinres: [ -.1, -.1 ],
               thermres: [ -.08, -.08 ]
-            }
+            },
+            uuid: "83ea4fd2-2eee-4cfb-baa6-d6c314f58b8d"
           },
           "4": {
             components: {
@@ -16427,7 +16439,8 @@ module.exports = {
               explres: [ .364, .462 ],
               kinres: [ -.12, -.12 ],
               thermres: [ -.1, -.1 ]
-            }
+            },
+            uuid: "9656e75a-a8ac-454f-941a-9fe4b4f6a330"
           },
           "5": {
             components: {
@@ -16439,7 +16452,8 @@ module.exports = {
               explres: [ .462, .56 ],
               kinres: [ -.14, -.14 ],
               thermres: [ -.12, -.12 ]
-            }
+            },
+            uuid: "37e0788b-6f7d-43c8-89ca-decaff5f3653"
           }
         },
         id: 5,
@@ -16459,7 +16473,8 @@ module.exports = {
               kinres: [ 0, .012 ],
               mass: [ .1, .1 ],
               thermres: [ 0, .01 ]
-            }
+            },
+            uuid: "f9d519ab-b6f6-4d81-a93b-8f4fb45edd55"
           },
           "2": {
             components: {
@@ -16472,7 +16487,8 @@ module.exports = {
               kinres: [ .012, .024 ],
               mass: [ .15, .15 ],
               thermres: [ .01, .02 ]
-            }
+            },
+            uuid: "ab58e035-3128-4eec-8974-cbbff022d31e"
           },
           "3": {
             components: {
@@ -16486,7 +16502,8 @@ module.exports = {
               kinres: [ .024, .036 ],
               mass: [ .2, .2 ],
               thermres: [ .02, .03 ]
-            }
+            },
+            uuid: "20afd6a5-5a72-4825-813d-b660fe796cb3"
           },
           "4": {
             components: {
@@ -16500,7 +16517,8 @@ module.exports = {
               kinres: [ .036, .048 ],
               mass: [ .25, .25 ],
               thermres: [ .03, .04 ]
-            }
+            },
+            uuid: "e08d3ec0-79e1-4d9f-ae16-6bd0a7e5b5c4"
           },
           "5": {
             components: {
@@ -16514,7 +16532,8 @@ module.exports = {
               kinres: [ .048, .06 ],
               mass: [ .3, .3 ],
               thermres: [ .04, .05 ]
-            }
+            },
+            uuid: "58b95d8a-1066-4e22-957f-0beb3927a2dd"
           }
         },
         id: 7,
@@ -16532,7 +16551,8 @@ module.exports = {
               explres: [ -.06, -.06 ],
               kinres: [ 0, .144 ],
               thermres: [ -.04, -.04 ]
-            }
+            },
+            uuid: "285736a7-9677-4875-b425-0704d2c05ee6"
           },
           "2": {
             components: {
@@ -16543,7 +16563,8 @@ module.exports = {
               explres: [ -.08, -.08 ],
               kinres: [ .144, .228 ],
               thermres: [ -.06, -.06 ]
-            }
+            },
+            uuid: "816adb1f-c089-49b6-b52d-a8ca189a4ef5"
           },
           "3": {
             components: {
@@ -16555,7 +16576,8 @@ module.exports = {
               explres: [ -.11, -.11 ],
               kinres: [ .228, .312 ],
               thermres: [ -.08, -.08 ]
-            }
+            },
+            uuid: "54c5cc67-3112-4c77-87f9-c5d6a5f0ae3c"
           },
           "4": {
             components: {
@@ -16567,7 +16589,8 @@ module.exports = {
               explres: [ -.14, -.14 ],
               kinres: [ .312, .396 ],
               thermres: [ -.1, -.1 ]
-            }
+            },
+            uuid: "80cdd75d-a574-4092-b45d-77187e52edf5"
           },
           "5": {
             components: {
@@ -16579,7 +16602,8 @@ module.exports = {
               explres: [ -.17, -.17 ],
               kinres: [ .396, .48 ],
               thermres: [ -.12, -.12 ]
-            }
+            },
+            uuid: "f56d18cc-3eca-4bec-8238-4a0105947e4e"
           }
         },
         id: 4,
@@ -16597,7 +16621,8 @@ module.exports = {
               explres: [ -.06, -.06 ],
               kinres: [ -.05, -.05 ],
               thermres: [ 0, .12 ]
-            }
+            },
+            uuid: "73c3a3c1-da09-4792-a1e9-d0161da6c0f2"
           },
           "2": {
             components: {
@@ -16608,7 +16633,8 @@ module.exports = {
               explres: [ -.08, -.08 ],
               kinres: [ -.07, -.07 ],
               thermres: [ .12, .19 ]
-            }
+            },
+            uuid: "f3096b56-d6d2-4aa5-a77c-98ce2adc79dc"
           },
           "3": {
             components: {
@@ -16620,7 +16646,8 @@ module.exports = {
               explres: [ -.11, -.11 ],
               kinres: [ -.1, -.1 ],
               thermres: [ .19, .26 ]
-            }
+            },
+            uuid: "1aa48c57-d187-4e82-aa88-8b4a7a4bc856"
           },
           "4": {
             components: {
@@ -16632,7 +16659,8 @@ module.exports = {
               explres: [ -.14, -.14 ],
               kinres: [ -.12, -.12 ],
               thermres: [ .26, .33 ]
-            }
+            },
+            uuid: "afc78426-8570-4ad4-923a-794821c2506f"
           },
           "5": {
             components: {
@@ -16644,7 +16672,8 @@ module.exports = {
               explres: [ -.17, -.17 ],
               kinres: [ -.14, -.14 ],
               thermres: [ .33, .4 ]
-            }
+            },
+            uuid: "12abc854-37c9-4f20-874d-dca8755e76fc"
           }
         },
         id: 8,
@@ -16661,7 +16690,8 @@ module.exports = {
             features: {
               integrity: [ -.1, -.1 ],
               mass: [ 0, -.45 ]
-            }
+            },
+            uuid: "5ebd5d76-7bb8-4958-9cc3-f5e2176f2b5e"
           },
           "2": {
             components: {
@@ -16671,7 +16701,8 @@ module.exports = {
             features: {
               integrity: [ -.2, -.2 ],
               mass: [ -.45, -.55 ]
-            }
+            },
+            uuid: "c49d42a8-cd8f-4576-9c60-85725f635185"
           },
           "3": {
             components: {
@@ -16682,7 +16713,8 @@ module.exports = {
             features: {
               integrity: [ -.3, -.3 ],
               mass: [ -.55, -.65 ]
-            }
+            },
+            uuid: "bc048a95-b5aa-4f6c-a696-6c40b87a1606"
           },
           "4": {
             components: {
@@ -16693,7 +16725,8 @@ module.exports = {
             features: {
               integrity: [ -.4, -.4 ],
               mass: [ -.65, -.75 ]
-            }
+            },
+            uuid: "4f9467f7-0c5f-4ab3-856b-aaad019bd79d"
           },
           "5": {
             components: {
@@ -16704,7 +16737,8 @@ module.exports = {
             features: {
               integrity: [ -.5, -.5 ],
               mass: [ -.75, -.85 ]
-            }
+            },
+            uuid: "15d2a67d-71b5-405a-ba21-4f94583064a3"
           }
         },
         id: 9,
@@ -16721,7 +16755,8 @@ module.exports = {
             features: {
               integrity: [ 0, .6 ],
               mass: [ .3, .3 ]
-            }
+            },
+            uuid: "9b714883-e0e7-46b5-a2bb-5367f2cc9b3f"
           },
           "2": {
             components: {
@@ -16731,7 +16766,8 @@ module.exports = {
             features: {
               integrity: [ .6, 1.2 ],
               mass: [ .6, .6 ]
-            }
+            },
+            uuid: "9de3e096-fbfa-4694-a2e4-919494d39ee1"
           },
           "3": {
             components: {
@@ -16742,7 +16778,8 @@ module.exports = {
             features: {
               integrity: [ 1.2, 1.8 ],
               mass: [ .9, .9 ]
-            }
+            },
+            uuid: "4a5d7441-2543-4405-8587-9b969fffd3f2"
           },
           "4": {
             components: {
@@ -16753,7 +16790,8 @@ module.exports = {
             features: {
               integrity: [ 1.8, 2.4 ],
               mass: [ 1.2, 1.2 ]
-            }
+            },
+            uuid: "f4b41ce9-d3a8-4362-9821-0d45f2b975bc"
           },
           "5": {
             components: {
@@ -16764,7 +16802,8 @@ module.exports = {
             features: {
               integrity: [ 2.4, 3 ],
               mass: [ 1.5, 1.5 ]
-            }
+            },
+            uuid: "d5d06450-a1cf-4dd2-b8f0-12d0142ad773"
           }
         },
         id: 10,
@@ -16781,7 +16820,8 @@ module.exports = {
             features: {
               integrity: [ 0, .6 ],
               power: [ .2, .2 ]
-            }
+            },
+            uuid: "f3684224-dfb1-4b30-81df-827246ccce14"
           },
           "2": {
             components: {
@@ -16791,7 +16831,8 @@ module.exports = {
             features: {
               integrity: [ .6, 1.2 ],
               power: [ .4, .4 ]
-            }
+            },
+            uuid: "0fec52b1-3a81-4260-8168-7af698e9ebf3"
           },
           "3": {
             components: {
@@ -16802,7 +16843,8 @@ module.exports = {
             features: {
               integrity: [ 1.2, 1.8 ],
               power: [ .6, .6 ]
-            }
+            },
+            uuid: "6ca69c4f-07b6-43e4-97c9-e9134cb1eaf4"
           },
           "4": {
             components: {
@@ -16813,7 +16855,8 @@ module.exports = {
             features: {
               integrity: [ 1.8, 2.4 ],
               power: [ .8, .8 ]
-            }
+            },
+            uuid: "e6ebc222-ec93-4f0f-ac8a-e690ab50656d"
           },
           "5": {
             components: {
@@ -16824,7 +16867,8 @@ module.exports = {
             features: {
               integrity: [ 2.4, 3 ],
               power: [ 1, 1 ]
-            }
+            },
+            uuid: "b307db6f-a54c-49e9-be82-5a4458661fe1"
           }
         },
         id: 11,
@@ -16844,7 +16888,8 @@ module.exports = {
               ammo: [ 0, .5 ],
               mass: [ 1, 1 ],
               reload: [ .1, .1 ]
-            }
+            },
+            uuid: "cc81fa92-d36d-4619-98f9-4202d475b2d8"
           }
         },
         id: 12,
@@ -16861,7 +16906,8 @@ module.exports = {
             features: {
               integrity: [ -.1, -.1 ],
               mass: [ 0, -.45 ]
-            }
+            },
+            uuid: "99afdcd4-c7cf-4855-aea8-e35d968d448e"
           },
           "2": {
             components: {
@@ -16871,7 +16917,8 @@ module.exports = {
             features: {
               integrity: [ -.2, -.2 ],
               mass: [ -.45, -.55 ]
-            }
+            },
+            uuid: "4c0aa103-e0d8-4dce-bb38-067549af7c27"
           },
           "3": {
             components: {
@@ -16882,7 +16929,8 @@ module.exports = {
             features: {
               integrity: [ -.3, -.3 ],
               mass: [ -.55, -.65 ]
-            }
+            },
+            uuid: "90ddb40a-8520-4e0a-8e42-5f3f9ecf4c28"
           },
           "4": {
             components: {
@@ -16893,7 +16941,8 @@ module.exports = {
             features: {
               integrity: [ -.4, -.4 ],
               mass: [ -.65, -.75 ]
-            }
+            },
+            uuid: "45047669-536a-4455-8563-b8be46d482e0"
           },
           "5": {
             components: {
@@ -16904,7 +16953,8 @@ module.exports = {
             features: {
               integrity: [ -.5, -.5 ],
               mass: [ -.75, -.85 ]
-            }
+            },
+            uuid: "ab6cc0b2-73eb-4aa5-a2a3-2b662e38b7d8"
           }
         },
         id: 13,
@@ -16921,7 +16971,8 @@ module.exports = {
             features: {
               integrity: [ 0, .6 ],
               mass: [ .3, .3 ]
-            }
+            },
+            uuid: "c952091e-30de-4b13-8e7e-c59aee4c1466"
           },
           "2": {
             components: {
@@ -16931,7 +16982,8 @@ module.exports = {
             features: {
               integrity: [ .6, 1.2 ],
               mass: [ .6, .6 ]
-            }
+            },
+            uuid: "5f868185-7351-49ec-95b4-87dab4d08e02"
           },
           "3": {
             components: {
@@ -16942,7 +16994,8 @@ module.exports = {
             features: {
               integrity: [ 1.2, 1.8 ],
               mass: [ .9, .9 ]
-            }
+            },
+            uuid: "33e63006-29ae-4466-b240-7708ddd9804b"
           },
           "4": {
             components: {
@@ -16953,7 +17006,8 @@ module.exports = {
             features: {
               integrity: [ 1.8, 2.4 ],
               mass: [ 1.2, 1.2 ]
-            }
+            },
+            uuid: "5d0cb508-a654-4dc8-8e04-6cafac0ea86d"
           },
           "5": {
             components: {
@@ -16964,7 +17018,8 @@ module.exports = {
             features: {
               integrity: [ 2.4, 3 ],
               mass: [ 1.5, 1.5 ]
-            }
+            },
+            uuid: "06a5631b-036b-47ac-9d41-4c1728a5d34e"
           }
         },
         id: 14,
@@ -16981,7 +17036,8 @@ module.exports = {
             features: {
               integrity: [ 0, .6 ],
               power: [ .2, .2 ]
-            }
+            },
+            uuid: "ac3908c2-c5aa-44a1-a847-a9d27c34a326"
           },
           "2": {
             components: {
@@ -16991,7 +17047,8 @@ module.exports = {
             features: {
               integrity: [ .6, 1.2 ],
               power: [ .4, .4 ]
-            }
+            },
+            uuid: "ee1ad091-7a25-44ac-b3e4-9ee5e4228483"
           },
           "3": {
             components: {
@@ -17002,7 +17059,8 @@ module.exports = {
             features: {
               integrity: [ 1.2, 1.8 ],
               power: [ .6, .6 ]
-            }
+            },
+            uuid: "eddd7f16-035d-4e9e-96fc-bf82e9ce7397"
           },
           "4": {
             components: {
@@ -17013,7 +17071,8 @@ module.exports = {
             features: {
               integrity: [ 1.8, 2.4 ],
               power: [ .8, .8 ]
-            }
+            },
+            uuid: "1fef7b64-bf77-4024-a9b4-24146d5cefe3"
           },
           "5": {
             components: {
@@ -17024,7 +17083,8 @@ module.exports = {
             features: {
               integrity: [ 2.4, 3 ],
               power: [ 1, 1 ]
-            }
+            },
+            uuid: "f6df4a5b-58f4-4854-843c-a99b2f106154"
           }
         },
         id: 15,
@@ -17041,7 +17101,8 @@ module.exports = {
             features: {
               integrity: [ -.1, -.1 ],
               mass: [ 0, -.45 ]
-            }
+            },
+            uuid: "40d015c8-e3c3-4e6c-8703-0e5dc0c0ca7a"
           },
           "2": {
             components: {
@@ -17051,7 +17112,8 @@ module.exports = {
             features: {
               integrity: [ -.2, -.2 ],
               mass: [ -.45, -.55 ]
-            }
+            },
+            uuid: "4f4f23cf-fb43-4542-8d60-c96cf884c3c9"
           },
           "3": {
             components: {
@@ -17062,7 +17124,8 @@ module.exports = {
             features: {
               integrity: [ -.3, -.3 ],
               mass: [ -.55, -.65 ]
-            }
+            },
+            uuid: "9c4ebeff-12e1-4f0e-a972-bb8d4d7e4f08"
           },
           "4": {
             components: {
@@ -17073,7 +17136,8 @@ module.exports = {
             features: {
               integrity: [ -.4, -.4 ],
               mass: [ -.65, -.75 ]
-            }
+            },
+            uuid: "befa7711-25fa-49d2-97fb-3f8a4cc8b91e"
           },
           "5": {
             components: {
@@ -17084,7 +17148,8 @@ module.exports = {
             features: {
               integrity: [ -.5, -.5 ],
               mass: [ -.75, -.85 ]
-            }
+            },
+            uuid: "d5c4d258-6597-4557-bc1b-b4afc7b59784"
           }
         },
         id: 16,
@@ -17101,7 +17166,8 @@ module.exports = {
             features: {
               integrity: [ 0, .6 ],
               mass: [ .3, .3 ]
-            }
+            },
+            uuid: "d0451acd-f57f-46a5-ac1a-c2a2f1919283"
           },
           "2": {
             components: {
@@ -17111,7 +17177,8 @@ module.exports = {
             features: {
               integrity: [ .6, 1.2 ],
               mass: [ .6, .6 ]
-            }
+            },
+            uuid: "ccbf3b26-6ded-4e86-b2dd-330280ca552f"
           },
           "3": {
             components: {
@@ -17122,7 +17189,8 @@ module.exports = {
             features: {
               integrity: [ 1.2, 1.8 ],
               mass: [ .9, .9 ]
-            }
+            },
+            uuid: "a841e48c-d34b-4dd2-b540-14910224398a"
           },
           "4": {
             components: {
@@ -17133,7 +17201,8 @@ module.exports = {
             features: {
               integrity: [ 1.8, 2.4 ],
               mass: [ 1.2, 1.2 ]
-            }
+            },
+            uuid: "de78dde7-c159-4d37-91e2-b6562dd754e4"
           },
           "5": {
             components: {
@@ -17144,7 +17213,8 @@ module.exports = {
             features: {
               integrity: [ 2.4, 3 ],
               mass: [ 1.5, 1.5 ]
-            }
+            },
+            uuid: "2a175094-0490-41f1-ad85-1d199e69f768"
           }
         },
         id: 17,
@@ -17161,7 +17231,8 @@ module.exports = {
             features: {
               integrity: [ 0, .6 ],
               power: [ .2, .2 ]
-            }
+            },
+            uuid: "6e384cd7-1ab5-4a03-849f-d1a6d5711012"
           },
           "2": {
             components: {
@@ -17171,7 +17242,8 @@ module.exports = {
             features: {
               integrity: [ .6, 1.2 ],
               power: [ .4, .4 ]
-            }
+            },
+            uuid: "be06b5e7-44c0-4bb4-b084-ca5578cd5b26"
           },
           "3": {
             components: {
@@ -17182,7 +17254,8 @@ module.exports = {
             features: {
               integrity: [ 1.2, 1.8 ],
               power: [ .6, .6 ]
-            }
+            },
+            uuid: "d18a63f6-c96e-4e73-b4a1-70deeb27af9c"
           },
           "4": {
             components: {
@@ -17193,7 +17266,8 @@ module.exports = {
             features: {
               integrity: [ 1.8, 2.4 ],
               power: [ .8, .8 ]
-            }
+            },
+            uuid: "99d03d5e-1fd6-49b1-a99d-71571c35dca5"
           },
           "5": {
             components: {
@@ -17204,7 +17278,8 @@ module.exports = {
             features: {
               integrity: [ 2.4, 3 ],
               power: [ 1, 1 ]
-            }
+            },
+            uuid: "bedb2a94-2d59-4ed1-9e51-58ae2cfb4189"
           }
         },
         id: 18,
@@ -17221,7 +17296,8 @@ module.exports = {
             features: {
               integrity: [ -.1, -.1 ],
               mass: [ 0, -.45 ]
-            }
+            },
+            uuid: "123ef1f4-cb7e-4b8e-8dfc-48c3407d0c94"
           },
           "2": {
             components: {
@@ -17231,7 +17307,8 @@ module.exports = {
             features: {
               integrity: [ -.2, -.2 ],
               mass: [ -.45, -.55 ]
-            }
+            },
+            uuid: "abf6487e-1fac-46e7-9ae3-a46bea977412"
           },
           "3": {
             components: {
@@ -17242,7 +17319,8 @@ module.exports = {
             features: {
               integrity: [ -.3, -.3 ],
               mass: [ -.55, -.65 ]
-            }
+            },
+            uuid: "e1bc6bec-da7b-4b5c-aedd-637b753d2e1f"
           },
           "4": {
             components: {
@@ -17253,7 +17331,8 @@ module.exports = {
             features: {
               integrity: [ -.4, -.4 ],
               mass: [ -.65, -.75 ]
-            }
+            },
+            uuid: "ac3a70dc-8759-4f69-8c97-c31be11d9b49"
           },
           "5": {
             components: {
@@ -17264,7 +17343,8 @@ module.exports = {
             features: {
               integrity: [ -.5, -.5 ],
               mass: [ -.75, -.85 ]
-            }
+            },
+            uuid: "1ca34b8b-ce91-44a5-b210-ab7ce9333657"
           }
         },
         id: 19,
@@ -17281,7 +17361,8 @@ module.exports = {
             features: {
               integrity: [ 0, .6 ],
               mass: [ .3, .3 ]
-            }
+            },
+            uuid: "6bcb5b84-5e90-4d3d-be7c-6ed6c1f048c4"
           },
           "2": {
             components: {
@@ -17291,7 +17372,8 @@ module.exports = {
             features: {
               integrity: [ .6, 1.2 ],
               mass: [ .6, .6 ]
-            }
+            },
+            uuid: "8497a12f-becf-499b-8df8-6814cfa93e39"
           },
           "3": {
             components: {
@@ -17302,7 +17384,8 @@ module.exports = {
             features: {
               integrity: [ 1.2, 1.8 ],
               mass: [ .9, .9 ]
-            }
+            },
+            uuid: "2fbadb73-1c89-4d25-9061-43735d4970b3"
           },
           "4": {
             components: {
@@ -17313,7 +17396,8 @@ module.exports = {
             features: {
               integrity: [ 1.8, 2.4 ],
               mass: [ 1.2, 1.2 ]
-            }
+            },
+            uuid: "a89859a9-1278-40d0-ac77-e3e6bf10de95"
           },
           "5": {
             components: {
@@ -17324,7 +17408,8 @@ module.exports = {
             features: {
               integrity: [ 2.4, 3 ],
               mass: [ 1.5, 1.5 ]
-            }
+            },
+            uuid: "7ab56e9d-f02d-4562-b1e1-82168f482a3e"
           }
         },
         id: 20,
@@ -17341,7 +17426,8 @@ module.exports = {
             features: {
               integrity: [ 0, .6 ],
               power: [ .2, .2 ]
-            }
+            },
+            uuid: "0dd69a33-0309-4ab6-bf88-e500db42448c"
           },
           "2": {
             components: {
@@ -17351,7 +17437,8 @@ module.exports = {
             features: {
               integrity: [ .6, 1.2 ],
               power: [ .4, .4 ]
-            }
+            },
+            uuid: "297bc1b2-7e2c-4556-b971-b2ff38cbff53"
           },
           "3": {
             components: {
@@ -17362,7 +17449,8 @@ module.exports = {
             features: {
               integrity: [ 1.2, 1.8 ],
               power: [ .6, .6 ]
-            }
+            },
+            uuid: "385a3392-8580-4fa6-a52c-1205f1041b99"
           },
           "4": {
             components: {
@@ -17373,7 +17461,8 @@ module.exports = {
             features: {
               integrity: [ 1.8, 2.4 ],
               power: [ .8, .8 ]
-            }
+            },
+            uuid: "eb3e8641-031c-4318-9e97-43f27529fd86"
           },
           "5": {
             components: {
@@ -17384,7 +17473,8 @@ module.exports = {
             features: {
               integrity: [ 2.4, 3 ],
               power: [ 1, 1 ]
-            }
+            },
+            uuid: "7d291eef-55fa-4ffd-8d5c-1b4e46669333"
           }
         },
         id: 21,
@@ -17404,7 +17494,8 @@ module.exports = {
               optmul: [ 0, .12 ],
               power: [ 0, .04 ],
               thermload: [ 0, .2 ]
-            }
+            },
+            uuid: "bbdea125-dd2b-4031-8698-56c922df3b76"
           },
           "2": {
             components: {
@@ -17417,7 +17508,8 @@ module.exports = {
               optmul: [ .12, .19 ],
               power: [ .04, .06 ],
               thermload: [ .2, .3 ]
-            }
+            },
+            uuid: "d3ccba04-e0f5-40c3-a6f8-a038d5e5b4bf"
           },
           "3": {
             components: {
@@ -17431,7 +17523,8 @@ module.exports = {
               optmul: [ .19, .26 ],
               power: [ .06, .08 ],
               thermload: [ .3, .4 ]
-            }
+            },
+            uuid: "60091d1f-38a9-4d62-bbc0-6332e03c7f3d"
           },
           "4": {
             components: {
@@ -17445,7 +17538,8 @@ module.exports = {
               optmul: [ .26, .33 ],
               power: [ .08, .1 ],
               thermload: [ .4, .5 ]
-            }
+            },
+            uuid: "7355e32e-b850-4428-8279-66f234f59c6a"
           },
           "5": {
             components: {
@@ -17459,7 +17553,8 @@ module.exports = {
               optmul: [ .33, .4 ],
               power: [ .1, .12 ],
               thermload: [ .5, .6 ]
-            }
+            },
+            uuid: "92514d80-4513-489e-b85f-1b7010b3ae0f"
           }
         },
         id: 22,
@@ -17477,7 +17572,8 @@ module.exports = {
               integrity: [ 0, .3 ],
               mass: [ 0, .05 ],
               thermload: [ -.1, -.1 ]
-            }
+            },
+            uuid: "21503395-f165-4340-91c7-07d062895eae"
           },
           "2": {
             components: {
@@ -17488,7 +17584,8 @@ module.exports = {
               integrity: [ .3, .5 ],
               mass: [ .05, .1 ],
               thermload: [ -.1, -.2 ]
-            }
+            },
+            uuid: "452e2359-5804-4de1-94bf-d16c9d512cc4"
           },
           "3": {
             components: {
@@ -17500,7 +17597,8 @@ module.exports = {
               integrity: [ .5, .7 ],
               mass: [ .1, .15 ],
               thermload: [ -.2, -.3 ]
-            }
+            },
+            uuid: "ae1a71bb-e025-4268-aa7f-fd4063945beb"
           },
           "4": {
             components: {
@@ -17512,7 +17610,8 @@ module.exports = {
               integrity: [ .7, .9 ],
               mass: [ .15, .2 ],
               thermload: [ -.3, -.4 ]
-            }
+            },
+            uuid: "4bc0b925-dd64-41da-a653-f15acf108f23"
           },
           "5": {
             components: {
@@ -17524,7 +17623,8 @@ module.exports = {
               integrity: [ .9, 1.1 ],
               mass: [ .2, .25 ],
               thermload: [ -.4, -.5 ]
-            }
+            },
+            uuid: "88aef454-76f6-48a3-a66c-958e50c92e7c"
           }
         },
         id: 23,
@@ -17542,7 +17642,8 @@ module.exports = {
               optmass: [ 0, -.02 ],
               optmul: [ 0, .08 ],
               thermload: [ 0, -.2 ]
-            }
+            },
+            uuid: "5b32dae1-7c4a-4760-8c48-0d9a9fa2758d"
           },
           "2": {
             components: {
@@ -17555,7 +17656,8 @@ module.exports = {
               optmul: [ .08, .13 ],
               power: [ 0, .04 ],
               thermload: [ -.2, -.3 ]
-            }
+            },
+            uuid: "5382eecb-c840-4613-99c1-9bcbdb8d7760"
           },
           "3": {
             components: {
@@ -17569,7 +17671,8 @@ module.exports = {
               optmul: [ .13, .18 ],
               power: [ .04, .08 ],
               thermload: [ -.3, -.4 ]
-            }
+            },
+            uuid: "0c58a5c8-0bf9-4a2c-baf0-b14228f236df"
           },
           "4": {
             components: {
@@ -17583,7 +17686,8 @@ module.exports = {
               optmul: [ .18, .23 ],
               power: [ .08, .12 ],
               thermload: [ -.4, -.5 ]
-            }
+            },
+            uuid: "afb2b22e-ab30-4195-8bfe-ae81ea6067f3"
           },
           "5": {
             components: {
@@ -17597,7 +17701,8 @@ module.exports = {
               optmul: [ .23, .28 ],
               power: [ .12, .16 ],
               thermload: [ -.5, -.6 ]
-            }
+            },
+            uuid: "74e6e223-c709-4c91-88d5-c55f9dfdf722"
           }
         },
         id: 24,
@@ -17616,7 +17721,8 @@ module.exports = {
               integrity: [ -.03, -.03 ],
               optmass: [ 0, .03 ],
               thermload: [ .04, .04 ]
-            }
+            },
+            uuid: "23f08173-4d05-49d2-b126-d9e5ea5ee8b5"
           },
           "2": {
             components: {
@@ -17628,7 +17734,8 @@ module.exports = {
               integrity: [ -.06, -.06 ],
               optmass: [ .03, .06 ],
               thermload: [ .08, .08 ]
-            }
+            },
+            uuid: "56875992-02ae-4364-934c-88dbfda0cc57"
           },
           "3": {
             components: {
@@ -17641,7 +17748,8 @@ module.exports = {
               integrity: [ -.09, -.09 ],
               optmass: [ .06, .09 ],
               thermload: [ .12, .12 ]
-            }
+            },
+            uuid: "80c84723-9c37-434b-890e-8723504e5e48"
           },
           "4": {
             components: {
@@ -17654,7 +17762,8 @@ module.exports = {
               integrity: [ -.12, -.12 ],
               optmass: [ .09, .12 ],
               thermload: [ .16, .16 ]
-            }
+            },
+            uuid: "3747180c-d798-4bc4-bb42-daecf44729cc"
           },
           "5": {
             components: {
@@ -17667,7 +17776,8 @@ module.exports = {
               integrity: [ -.15, -.15 ],
               optmass: [ .12, .15 ],
               thermload: [ .2, .2 ]
-            }
+            },
+            uuid: "1f542f8e-9c17-418d-af88-6f219596465e"
           }
         },
         id: 25,
@@ -17686,7 +17796,8 @@ module.exports = {
               mass: [ .1, .1 ],
               optmass: [ 0, .15 ],
               power: [ .03, .03 ]
-            }
+            },
+            uuid: "bb67b1a2-7a5b-47bc-8ed8-e949b5e3fb16"
           },
           "2": {
             components: {
@@ -17698,7 +17809,8 @@ module.exports = {
               mass: [ .15, .15 ],
               optmass: [ .15, .25 ],
               power: [ .06, .06 ]
-            }
+            },
+            uuid: "74045351-f348-45f5-8798-487211f19520"
           },
           "3": {
             components: {
@@ -17711,7 +17823,8 @@ module.exports = {
               mass: [ .2, .2 ],
               optmass: [ .25, .35 ],
               power: [ .09, .09 ]
-            }
+            },
+            uuid: "cf196bb9-55a1-457f-893b-84ff2afd4db9"
           },
           "4": {
             components: {
@@ -17724,7 +17837,8 @@ module.exports = {
               mass: [ .25, .25 ],
               optmass: [ .35, .45 ],
               power: [ .12, .12 ]
-            }
+            },
+            uuid: "ecf49fec-32fd-4930-949d-a341bf0fd00c"
           },
           "5": {
             components: {
@@ -17737,7 +17851,8 @@ module.exports = {
               mass: [ .3, .3 ],
               optmass: [ .45, .55 ],
               power: [ .15, .15 ]
-            }
+            },
+            uuid: "dddd4fd3-bc9a-4c5b-8606-853c63d0f554"
           }
         },
         id: 26,
@@ -17756,7 +17871,8 @@ module.exports = {
               mass: [ .04, .04 ],
               optmass: [ 0, .03 ],
               thermload: [ 0, -.1 ]
-            }
+            },
+            uuid: "0bf46ac9-dfcd-49c3-bcef-db93ba04ed97"
           },
           "2": {
             components: {
@@ -17768,7 +17884,8 @@ module.exports = {
               mass: [ .08, .08 ],
               optmass: [ .03, .06 ],
               thermload: [ -.1, -.15 ]
-            }
+            },
+            uuid: "2858e680-b675-4ee9-9c24-04e8dd2bfe85"
           },
           "3": {
             components: {
@@ -17781,7 +17898,8 @@ module.exports = {
               mass: [ .12, .12 ],
               optmass: [ .06, .09 ],
               thermload: [ -.15, -.2 ]
-            }
+            },
+            uuid: "f836e994-c19f-4ed0-926d-fbcc75f136c0"
           },
           "4": {
             components: {
@@ -17794,7 +17912,8 @@ module.exports = {
               mass: [ .16, .16 ],
               optmass: [ .09, .12 ],
               thermload: [ -.2, -.25 ]
-            }
+            },
+            uuid: "fe30a1a0-3644-4411-af1f-59bae0a565b9"
           },
           "5": {
             components: {
@@ -17807,7 +17926,8 @@ module.exports = {
               mass: [ .2, .2 ],
               optmass: [ .12, .15 ],
               thermload: [ -.25, -.3 ]
-            }
+            },
+            uuid: "eba5e423-bba4-40c1-aafb-e954881f9f2c"
           }
         },
         id: 27,
@@ -17825,7 +17945,8 @@ module.exports = {
               facinglimit: [ 0, .4 ],
               power: [ .1, .1 ],
               ranget: [ -.1, .1 ]
-            }
+            },
+            uuid: "da98fe81-8ac1-4c4a-ba1b-76b894dc9de8"
           },
           "2": {
             components: {
@@ -17836,7 +17957,8 @@ module.exports = {
               facinglimit: [ .4, .6 ],
               power: [ .2, .2 ],
               ranget: [ -.15, -.15 ]
-            }
+            },
+            uuid: "88bcd4df-3ae3-4e6b-80d8-27bf8815e4d2"
           },
           "3": {
             components: {
@@ -17848,7 +17970,8 @@ module.exports = {
               facinglimit: [ .6, .8 ],
               power: [ .3, .3 ],
               ranget: [ -.2, -.2 ]
-            }
+            },
+            uuid: "1036b38e-676f-4b42-8518-abed6f627fb7"
           },
           "4": {
             components: {
@@ -17860,7 +17983,8 @@ module.exports = {
               facinglimit: [ .8, 1 ],
               power: [ .4, .4 ],
               ranget: [ -.25, -.25 ]
-            }
+            },
+            uuid: "6c9f4098-99fa-4777-bd21-367937d1391f"
           }
         },
         id: 28,
@@ -17879,7 +18003,8 @@ module.exports = {
               mass: [ .1, .1 ],
               power: [ .1, .1 ],
               ranget: [ 0, .2 ]
-            }
+            },
+            uuid: "ecec8b3e-891f-4b79-8c07-7836e62424f8"
           },
           "2": {
             components: {
@@ -17891,7 +18016,8 @@ module.exports = {
               mass: [ .15, .15 ],
               power: [ .2, .2 ],
               ranget: [ .2, .3 ]
-            }
+            },
+            uuid: "08d02c88-e63f-4d29-86b9-eea6a20b17a1"
           },
           "3": {
             components: {
@@ -17904,7 +18030,8 @@ module.exports = {
               mass: [ .2, .2 ],
               power: [ .3, .3 ],
               ranget: [ .3, .4 ]
-            }
+            },
+            uuid: "a2d4bed7-4326-4776-a17b-6ee746f4c9be"
           },
           "4": {
             components: {
@@ -17917,7 +18044,8 @@ module.exports = {
               mass: [ .25, .25 ],
               power: [ .4, .4 ],
               ranget: [ .4, .5 ]
-            }
+            },
+            uuid: "aaabe016-883e-4ec6-a0f0-dd519b4f0ca5"
           }
         },
         id: 29,
@@ -17934,7 +18062,8 @@ module.exports = {
             features: {
               integrity: [ 0, .6 ],
               power: [ .2, .2 ]
-            }
+            },
+            uuid: "7b71b0d6-e035-4526-91cf-b16a15d32594"
           },
           "2": {
             components: {
@@ -17944,7 +18073,8 @@ module.exports = {
             features: {
               integrity: [ .6, 1.2 ],
               power: [ .4, .4 ]
-            }
+            },
+            uuid: "1c367826-7b57-4beb-9d99-c9a598d29cf9"
           },
           "3": {
             components: {
@@ -17955,7 +18085,8 @@ module.exports = {
             features: {
               integrity: [ 1.2, 1.8 ],
               power: [ .6, .6 ]
-            }
+            },
+            uuid: "b61946ff-9e65-447b-9757-4c37789fc350"
           },
           "4": {
             components: {
@@ -17966,7 +18097,8 @@ module.exports = {
             features: {
               integrity: [ 1.8, 2.4 ],
               power: [ .8, .8 ]
-            }
+            },
+            uuid: "457e3d79-cdc8-44e6-b98c-c360821b0131"
           }
         },
         id: 30,
@@ -17983,7 +18115,8 @@ module.exports = {
             features: {
               integrity: [ -.1, -.1 ],
               mass: [ 0, -.45 ]
-            }
+            },
+            uuid: "b4abda7b-ac4c-4ddf-ac76-f3d9640e217b"
           },
           "2": {
             components: {
@@ -17993,7 +18126,8 @@ module.exports = {
             features: {
               integrity: [ -.2, -.2 ],
               mass: [ -.45, -.55 ]
-            }
+            },
+            uuid: "7bae1015-d4b9-4c33-8286-79c93386cf33"
           },
           "3": {
             components: {
@@ -18004,7 +18138,8 @@ module.exports = {
             features: {
               integrity: [ -.3, -.3 ],
               mass: [ -.55, -.65 ]
-            }
+            },
+            uuid: "b69e0eb2-67c4-402a-8b4d-69d64c899fdc"
           },
           "4": {
             components: {
@@ -18015,7 +18150,8 @@ module.exports = {
             features: {
               integrity: [ -.4, -.4 ],
               mass: [ -.65, -.75 ]
-            }
+            },
+            uuid: "36d13200-4c1d-4d49-9936-af8562a6fbce"
           },
           "5": {
             components: {
@@ -18026,7 +18162,8 @@ module.exports = {
             features: {
               integrity: [ -.5, -.5 ],
               mass: [ -.75, -.85 ]
-            }
+            },
+            uuid: "e7ac0755-b319-4e35-b736-8235b68a1b09"
           }
         },
         id: 31,
@@ -18043,7 +18180,8 @@ module.exports = {
             features: {
               integrity: [ 0, .6 ],
               mass: [ .3, .3 ]
-            }
+            },
+            uuid: "9d3c40c1-a35c-42a7-8756-68dba821bde1"
           },
           "2": {
             components: {
@@ -18053,7 +18191,8 @@ module.exports = {
             features: {
               integrity: [ .6, 1.2 ],
               mass: [ .6, .6 ]
-            }
+            },
+            uuid: "c09e8d1b-e78e-43b8-bc8c-8ebf7bd84dc5"
           },
           "3": {
             components: {
@@ -18064,7 +18203,8 @@ module.exports = {
             features: {
               integrity: [ 1.2, 1.8 ],
               mass: [ .9, .9 ]
-            }
+            },
+            uuid: "51e5c01d-191c-446c-8ae1-d91e68da1013"
           },
           "4": {
             components: {
@@ -18075,7 +18215,8 @@ module.exports = {
             features: {
               integrity: [ 1.8, 2.4 ],
               mass: [ 1.2, 1.2 ]
-            }
+            },
+            uuid: "1a2e3498-d593-4420-ad66-01281648f8c7"
           },
           "5": {
             components: {
@@ -18086,7 +18227,8 @@ module.exports = {
             features: {
               integrity: [ 2.4, 3 ],
               mass: [ 1.5, 1.5 ]
-            }
+            },
+            uuid: "9faf5a34-a93d-4bcb-873f-0d044b5bc1ba"
           }
         },
         id: 32,
@@ -18103,7 +18245,8 @@ module.exports = {
             features: {
               integrity: [ 0, .6 ],
               power: [ .2, .2 ]
-            }
+            },
+            uuid: "736aca61-1fd6-4e95-931c-9354434b52ce"
           },
           "2": {
             components: {
@@ -18113,7 +18256,8 @@ module.exports = {
             features: {
               integrity: [ .6, 1.2 ],
               power: [ .4, .4 ]
-            }
+            },
+            uuid: "60b7eeba-eaeb-4799-a7ab-c989afc9e74a"
           },
           "3": {
             components: {
@@ -18124,7 +18268,8 @@ module.exports = {
             features: {
               integrity: [ 1.2, 1.8 ],
               power: [ .6, .6 ]
-            }
+            },
+            uuid: "31f3e418-9020-4b01-94ec-cf9d62529f12"
           },
           "4": {
             components: {
@@ -18135,7 +18280,8 @@ module.exports = {
             features: {
               integrity: [ 1.8, 2.4 ],
               power: [ .8, .8 ]
-            }
+            },
+            uuid: "65e897c7-0bb2-426f-bed2-3162767a80d2"
           },
           "5": {
             components: {
@@ -18146,7 +18292,8 @@ module.exports = {
             features: {
               integrity: [ 2.4, 3 ],
               power: [ 1, 1 ]
-            }
+            },
+            uuid: "800144e0-f708-4f40-b78a-6d1354712489"
           }
         },
         id: 33,
@@ -18163,7 +18310,8 @@ module.exports = {
             features: {
               integrity: [ -.1, -.1 ],
               mass: [ 0, -.45 ]
-            }
+            },
+            uuid: "3434789e-7555-4bca-a901-09ddbae0d323"
           },
           "2": {
             components: {
@@ -18173,7 +18321,8 @@ module.exports = {
             features: {
               integrity: [ -.2, -.2 ],
               mass: [ -.45, -.55 ]
-            }
+            },
+            uuid: "c62a09da-8157-474e-8b8f-04b43792a372"
           },
           "3": {
             components: {
@@ -18184,7 +18333,8 @@ module.exports = {
             features: {
               integrity: [ -.3, -.3 ],
               mass: [ -.55, -.65 ]
-            }
+            },
+            uuid: "ad0166b8-9313-4c7a-a95c-5e4b0e53fc40"
           },
           "4": {
             components: {
@@ -18195,7 +18345,8 @@ module.exports = {
             features: {
               integrity: [ -.4, -.4 ],
               mass: [ -.65, -.75 ]
-            }
+            },
+            uuid: "cf482f0a-de37-4fec-8bcd-f087203e0f2d"
           },
           "5": {
             components: {
@@ -18206,7 +18357,8 @@ module.exports = {
             features: {
               integrity: [ -.5, -.5 ],
               mass: [ -.75, -.85 ]
-            }
+            },
+            uuid: "80d2445b-47ef-4738-8729-152f45c732f9"
           }
         },
         id: 34,
@@ -18223,7 +18375,8 @@ module.exports = {
             features: {
               integrity: [ 0, .6 ],
               mass: [ .3, .3 ]
-            }
+            },
+            uuid: "f75e88b4-7a5c-40da-9652-a7e91aa174e2"
           },
           "2": {
             components: {
@@ -18233,7 +18386,8 @@ module.exports = {
             features: {
               integrity: [ .6, 1.2 ],
               mass: [ .6, .6 ]
-            }
+            },
+            uuid: "d794c46b-13e7-4136-b435-bdb96c87c657"
           },
           "3": {
             components: {
@@ -18244,7 +18398,8 @@ module.exports = {
             features: {
               integrity: [ 1.2, 1.8 ],
               mass: [ .9, .9 ]
-            }
+            },
+            uuid: "07acc4c6-724e-4c6b-be15-c9c49d4d95a6"
           },
           "4": {
             components: {
@@ -18255,7 +18410,8 @@ module.exports = {
             features: {
               integrity: [ 1.8, 2.4 ],
               mass: [ 1.2, 1.2 ]
-            }
+            },
+            uuid: "fe76b519-7695-4618-b71f-4e27f53f9eb4"
           },
           "5": {
             components: {
@@ -18266,7 +18422,8 @@ module.exports = {
             features: {
               integrity: [ 2.4, 3 ],
               mass: [ 1.5, 1.5 ]
-            }
+            },
+            uuid: "eb38c498-6805-4ac5-8806-c81cc32123af"
           }
         },
         id: 35,
@@ -18283,7 +18440,8 @@ module.exports = {
             features: {
               integrity: [ 0, .6 ],
               power: [ .2, .2 ]
-            }
+            },
+            uuid: "952d56cc-0c1c-4a62-a8c4-a4c668181654"
           },
           "2": {
             components: {
@@ -18293,7 +18451,8 @@ module.exports = {
             features: {
               integrity: [ .6, 1.2 ],
               power: [ .4, .4 ]
-            }
+            },
+            uuid: "accfd35c-3172-455a-94b6-27be6409970a"
           },
           "3": {
             components: {
@@ -18304,7 +18463,8 @@ module.exports = {
             features: {
               integrity: [ 1.2, 1.8 ],
               power: [ .6, .6 ]
-            }
+            },
+            uuid: "0db2b6bd-df3f-48be-ac6b-a334b79757a1"
           },
           "4": {
             components: {
@@ -18315,7 +18475,8 @@ module.exports = {
             features: {
               integrity: [ 1.8, 2.4 ],
               power: [ .8, .8 ]
-            }
+            },
+            uuid: "a747942f-d354-4f0d-ad59-323e52823924"
           },
           "5": {
             components: {
@@ -18326,7 +18487,8 @@ module.exports = {
             features: {
               integrity: [ 2.4, 3 ],
               power: [ 1, 1 ]
-            }
+            },
+            uuid: "acf4833c-1fe8-4aef-a396-33ca652793e2"
           }
         },
         id: 36,
@@ -18346,7 +18508,8 @@ module.exports = {
               ammo: [ .5, .5 ],
               mass: [ 1, 1 ],
               reload: [ .5, .5 ]
-            }
+            },
+            uuid: "93c43a5d-106c-4481-b50b-c46311607209"
           }
         },
         id: 37,
@@ -18363,7 +18526,8 @@ module.exports = {
             features: {
               integrity: [ -.1, -.1 ],
               mass: [ 0, -.45 ]
-            }
+            },
+            uuid: "0a20c246-fe84-43d1-835b-ae74474cdec9"
           },
           "2": {
             components: {
@@ -18373,7 +18537,8 @@ module.exports = {
             features: {
               integrity: [ -.2, -.2 ],
               mass: [ -.45, -.55 ]
-            }
+            },
+            uuid: "83dc9090-28c5-45b7-a4f5-8e2a76923e90"
           },
           "3": {
             components: {
@@ -18384,7 +18549,8 @@ module.exports = {
             features: {
               integrity: [ -.3, -.3 ],
               mass: [ -.55, -.65 ]
-            }
+            },
+            uuid: "777b5a47-9d29-4787-b097-8c4a22c11d20"
           },
           "4": {
             components: {
@@ -18395,7 +18561,8 @@ module.exports = {
             features: {
               integrity: [ -.4, -.4 ],
               mass: [ -.65, -.75 ]
-            }
+            },
+            uuid: "558a1180-e1a0-4c4a-8992-fac17d58860b"
           },
           "5": {
             components: {
@@ -18406,7 +18573,8 @@ module.exports = {
             features: {
               integrity: [ -.5, -.5 ],
               mass: [ -.75, -.85 ]
-            }
+            },
+            uuid: "732d7fd3-4ba6-4402-8260-75a2d26c8dc9"
           }
         },
         id: 38,
@@ -18423,7 +18591,8 @@ module.exports = {
             features: {
               integrity: [ 0, .6 ],
               mass: [ .3, .3 ]
-            }
+            },
+            uuid: "4b8ad4b4-4d42-4014-98ac-2175392ad0c8"
           },
           "2": {
             components: {
@@ -18433,7 +18602,8 @@ module.exports = {
             features: {
               integrity: [ .6, 1.2 ],
               mass: [ .6, .6 ]
-            }
+            },
+            uuid: "7a7166cf-d789-4cb8-9768-f31cc3159dc5"
           },
           "3": {
             components: {
@@ -18444,7 +18614,8 @@ module.exports = {
             features: {
               integrity: [ 1.2, 1.8 ],
               mass: [ .9, .9 ]
-            }
+            },
+            uuid: "93d33903-1dc8-453a-8bd6-df3198c1eac5"
           },
           "4": {
             components: {
@@ -18455,7 +18626,8 @@ module.exports = {
             features: {
               integrity: [ 1.8, 2.4 ],
               mass: [ 1.2, 1.2 ]
-            }
+            },
+            uuid: "9a174428-ac75-4bc8-80e0-c1327d0317b8"
           },
           "5": {
             components: {
@@ -18466,7 +18638,8 @@ module.exports = {
             features: {
               integrity: [ 2.4, 3 ],
               mass: [ 1.5, 1.5 ]
-            }
+            },
+            uuid: "2b450008-60f9-4473-8e2d-563e1f0ded00"
           }
         },
         id: 39,
@@ -18483,7 +18656,8 @@ module.exports = {
             features: {
               integrity: [ 0, .6 ],
               power: [ .2, .2 ]
-            }
+            },
+            uuid: "b7bb4a4a-61ee-44b6-b477-e6abf7540240"
           },
           "2": {
             components: {
@@ -18493,7 +18667,8 @@ module.exports = {
             features: {
               integrity: [ .6, 1.2 ],
               power: [ .4, .4 ]
-            }
+            },
+            uuid: "69ec3d60-591c-4c65-a6d4-2b2fe83e1819"
           },
           "3": {
             components: {
@@ -18504,7 +18679,8 @@ module.exports = {
             features: {
               integrity: [ 1.2, 1.8 ],
               power: [ .6, .6 ]
-            }
+            },
+            uuid: "beb3c5c1-689c-497d-a1b0-92d7fda93878"
           },
           "4": {
             components: {
@@ -18515,7 +18691,8 @@ module.exports = {
             features: {
               integrity: [ 1.8, 2.4 ],
               power: [ .8, .8 ]
-            }
+            },
+            uuid: "52f4a6d1-c291-4ac6-84f2-6d39bc54e675"
           },
           "5": {
             components: {
@@ -18526,7 +18703,8 @@ module.exports = {
             features: {
               integrity: [ 2.4, 3 ],
               power: [ 1, 1 ]
-            }
+            },
+            uuid: "aa1707cb-c9e3-425f-91cf-98ab482317ca"
           }
         },
         id: 40,
@@ -18544,7 +18722,8 @@ module.exports = {
               hullboost: [ 0, .08 ],
               hullreinforcement: [ -.04, -.04 ],
               mass: [ 0, -.08 ]
-            }
+            },
+            uuid: "8405c035-bf65-47d1-bdbe-5253b5c0a98b"
           },
           "2": {
             components: {
@@ -18555,7 +18734,8 @@ module.exports = {
               hullboost: [ .08, .12 ],
               hullreinforcement: [ -.08, -.08 ],
               mass: [ -.08, -.12 ]
-            }
+            },
+            uuid: "a8dad054-0392-460a-934e-27d40f65e1fc"
           },
           "3": {
             components: {
@@ -18567,7 +18747,8 @@ module.exports = {
               hullboost: [ .12, .16 ],
               hullreinforcement: [ -.12, -.12 ],
               mass: [ -.12, -.16 ]
-            }
+            },
+            uuid: "ee887ba1-c66f-4002-97cb-5169201324af"
           },
           "4": {
             components: {
@@ -18579,7 +18760,8 @@ module.exports = {
               hullboost: [ .16, .2 ],
               hullreinforcement: [ -.16, -.16 ],
               mass: [ -.16, -.2 ]
-            }
+            },
+            uuid: "8912615d-e711-4e5d-a08f-739cbf372963"
           },
           "5": {
             components: {
@@ -18591,7 +18773,8 @@ module.exports = {
               hullboost: [ .2, .24 ],
               hullreinforcement: [ -.2, -.2 ],
               mass: [ -.2, -.24 ]
-            }
+            },
+            uuid: "371f79dc-6387-40eb-9d98-be915ae4413d"
           }
         },
         id: 41,
@@ -18610,7 +18793,8 @@ module.exports = {
               hullreinforcement: [ 0, .03 ],
               kinres: [ -.02, -.02 ],
               thermres: [ -.02, -.02 ]
-            }
+            },
+            uuid: "ed72014b-4033-413c-8a71-5eac18e085ce"
           },
           "2": {
             components: {
@@ -18622,7 +18806,8 @@ module.exports = {
               hullreinforcement: [ .03, .06 ],
               kinres: [ -.04, -.04 ],
               thermres: [ -.04, -.04 ]
-            }
+            },
+            uuid: "7be2929b-0c89-4059-90d9-4631d90c053b"
           },
           "3": {
             components: {
@@ -18635,7 +18820,8 @@ module.exports = {
               hullreinforcement: [ .06, .09 ],
               kinres: [ -.06, -.06 ],
               thermres: [ -.06, -.06 ]
-            }
+            },
+            uuid: "11742116-77d3-40ea-bd1f-71e0558a0ad1"
           },
           "4": {
             components: {
@@ -18648,7 +18834,8 @@ module.exports = {
               hullreinforcement: [ .09, .12 ],
               kinres: [ -.08, -.08 ],
               thermres: [ -.08, -.08 ]
-            }
+            },
+            uuid: "1f59b0aa-46ab-4eb5-bf07-fe4d8f968c1d"
           },
           "5": {
             components: {
@@ -18661,7 +18848,8 @@ module.exports = {
               hullreinforcement: [ .12, .15 ],
               kinres: [ -.1, -.1 ],
               thermres: [ -.1, -.1 ]
-            }
+            },
+            uuid: "2251a73a-39da-4a50-b099-014c07378857"
           }
         },
         id: 43,
@@ -18681,7 +18869,8 @@ module.exports = {
               kinres: [ 0, .029 ],
               mass: [ .08, .08 ],
               thermres: [ 0, .029 ]
-            }
+            },
+            uuid: "e174a927-ab55-4691-be3e-832f6d68d679"
           },
           "2": {
             components: {
@@ -18694,7 +18883,8 @@ module.exports = {
               kinres: [ .029, .059 ],
               mass: [ .16, .16 ],
               thermres: [ .029, .059 ]
-            }
+            },
+            uuid: "2cd3f87c-5ea3-4bd5-ab6d-70458f29de7e"
           },
           "3": {
             components: {
@@ -18708,7 +18898,8 @@ module.exports = {
               kinres: [ .059, .088 ],
               mass: [ .24, .24 ],
               thermres: [ .059, .088 ]
-            }
+            },
+            uuid: "251e8773-d06a-4b0e-9e30-a5114a45a5c1"
           },
           "4": {
             components: {
@@ -18722,7 +18913,8 @@ module.exports = {
               kinres: [ .088, .117 ],
               mass: [ .32, .32 ],
               thermres: [ .088, .117 ]
-            }
+            },
+            uuid: "d6b14f0e-9a32-4838-b41f-986f4a5abd6d"
           },
           "5": {
             components: {
@@ -18736,7 +18928,8 @@ module.exports = {
               kinres: [ .117, .146 ],
               mass: [ .4, .4 ],
               thermres: [ .117, .146 ]
-            }
+            },
+            uuid: "137a648d-394b-48ac-a4de-bfa145fa9cf0"
           }
         },
         id: 42,
@@ -18755,7 +18948,8 @@ module.exports = {
               hullreinforcement: [ 0, .03 ],
               kinres: [ 0, .117 ],
               thermres: [ -.02, -.02 ]
-            }
+            },
+            uuid: "9d5338ab-031c-40e5-bd13-d3eb057540ab"
           },
           "2": {
             components: {
@@ -18767,7 +18961,8 @@ module.exports = {
               hullreinforcement: [ .03, .06 ],
               kinres: [ .117, .185 ],
               thermres: [ -.04, -.04 ]
-            }
+            },
+            uuid: "238db8e4-99e2-4e70-b4e3-f918294110c7"
           },
           "3": {
             components: {
@@ -18780,7 +18975,8 @@ module.exports = {
               hullreinforcement: [ .06, .09 ],
               kinres: [ .185, .254 ],
               thermres: [ -.06, -.06 ]
-            }
+            },
+            uuid: "cb65ddfa-2fd9-4db5-9558-0770866ea8ee"
           },
           "4": {
             components: {
@@ -18793,7 +18989,8 @@ module.exports = {
               hullreinforcement: [ .09, .12 ],
               kinres: [ .254, .322 ],
               thermres: [ -.08, -.08 ]
-            }
+            },
+            uuid: "944cb78e-4da0-43a0-acc8-95c7d67eaf92"
           },
           "5": {
             components: {
@@ -18806,7 +19003,8 @@ module.exports = {
               hullreinforcement: [ .12, .15 ],
               kinres: [ .322, .29 ],
               thermres: [ -.1, -.1 ]
-            }
+            },
+            uuid: "bd68edc4-6ed5-4704-9682-28b51a18591f"
           }
         },
         id: 44,
@@ -18825,7 +19023,8 @@ module.exports = {
               hullreinforcement: [ 0, .03 ],
               kinres: [ -.02, -.02 ],
               thermres: [ 0, .117 ]
-            }
+            },
+            uuid: "cc3d62d5-9769-480d-9e37-620c61a276ab"
           },
           "2": {
             components: {
@@ -18837,7 +19036,8 @@ module.exports = {
               hullreinforcement: [ .03, .06 ],
               kinres: [ -.04, -.04 ],
               thermres: [ .117, .185 ]
-            }
+            },
+            uuid: "e4aa2331-7dc5-479c-9959-d90f0e473da9"
           },
           "3": {
             components: {
@@ -18850,7 +19050,8 @@ module.exports = {
               hullreinforcement: [ .06, .09 ],
               kinres: [ -.06, -.06 ],
               thermres: [ .185, .254 ]
-            }
+            },
+            uuid: "29f49ae9-e241-4791-a9e3-bfdccd6cdfbb"
           },
           "4": {
             components: {
@@ -18863,7 +19064,8 @@ module.exports = {
               hullreinforcement: [ .09, .12 ],
               kinres: [ -.08, -.08 ],
               thermres: [ .254, .322 ]
-            }
+            },
+            uuid: "19e30f32-a789-4acf-8f69-f97677ace963"
           },
           "5": {
             components: {
@@ -18876,7 +19078,8 @@ module.exports = {
               hullreinforcement: [ .12, .15 ],
               kinres: [ -.1, -.1 ],
               thermres: [ .322, .39 ]
-            }
+            },
+            uuid: "e6151657-1317-4aec-9e49-2d7e7a093d74"
           }
         },
         id: 45,
@@ -18893,7 +19096,8 @@ module.exports = {
             features: {
               integrity: [ -.1, -.1 ],
               mass: [ 0, -.45 ]
-            }
+            },
+            uuid: "b56007ba-9351-417e-9da8-def090b31e50"
           },
           "2": {
             components: {
@@ -18903,7 +19107,8 @@ module.exports = {
             features: {
               integrity: [ -.2, -.2 ],
               mass: [ -.45, -.55 ]
-            }
+            },
+            uuid: "14b2d6f0-5f93-48c9-a04a-b9b1064b4bd1"
           },
           "3": {
             components: {
@@ -18914,7 +19119,8 @@ module.exports = {
             features: {
               integrity: [ -.3, -.3 ],
               mass: [ -.55, -.65 ]
-            }
+            },
+            uuid: "d6dc2106-b95e-49fe-bd56-0ab0729045ad"
           },
           "4": {
             components: {
@@ -18925,7 +19131,8 @@ module.exports = {
             features: {
               integrity: [ -.4, -.4 ],
               mass: [ -.65, -.75 ]
-            }
+            },
+            uuid: "fa568ca9-fe6f-4036-89ae-c6659fdc4e33"
           },
           "5": {
             components: {
@@ -18936,7 +19143,8 @@ module.exports = {
             features: {
               integrity: [ -.5, -.5 ],
               mass: [ -.75, -.85 ]
-            }
+            },
+            uuid: "caadbd5f-2b31-42bb-b3ee-754d44d34938"
           }
         },
         id: 46,
@@ -18954,7 +19162,8 @@ module.exports = {
               power: [ .1, .1 ],
               angle: [ -.1, -.1 ],
               range: [ 0, .24 ]
-            }
+            },
+            uuid: "2689c846-02d7-4694-97f1-85cd5437b42f"
           },
           "2": {
             components: {
@@ -18965,7 +19174,8 @@ module.exports = {
               power: [ .2, .2 ],
               angle: [ -.12, -.15 ],
               range: [ .24, .48 ]
-            }
+            },
+            uuid: "c2160767-b03f-491e-9a45-31976fb78899"
           },
           "3": {
             components: {
@@ -18977,7 +19187,8 @@ module.exports = {
               power: [ .3, .3 ],
               angle: [ -.2, -.2 ],
               range: [ .48, .72 ]
-            }
+            },
+            uuid: "4d9ccdb6-89cc-4f27-a8c8-584de68dae4b"
           },
           "4": {
             components: {
@@ -18989,7 +19200,8 @@ module.exports = {
               power: [ .4, .4 ],
               angle: [ -.25, -.25 ],
               range: [ .72, .96 ]
-            }
+            },
+            uuid: "0ecb3bee-4033-4937-a5ed-161f50cb6024"
           },
           "5": {
             components: {
@@ -19001,7 +19213,8 @@ module.exports = {
               power: [ .5, .5 ],
               angle: [ -.3, -.3 ],
               range: [ .96, 1.2 ]
-            }
+            },
+            uuid: "8ec2cbd4-b944-448b-b230-d9de87aea5b8"
           }
         },
         id: 99,
@@ -19018,7 +19231,8 @@ module.exports = {
             features: {
               integrity: [ 0, .6 ],
               mass: [ .3, .3 ]
-            }
+            },
+            uuid: "54cf058d-795d-423c-8923-fdd6971dec29"
           },
           "2": {
             components: {
@@ -19028,7 +19242,8 @@ module.exports = {
             features: {
               integrity: [ .6, 1.2 ],
               mass: [ .6, .6 ]
-            }
+            },
+            uuid: "3d7eb835-8a30-458d-bbf3-cfd8de5f8cb4"
           },
           "3": {
             components: {
@@ -19039,7 +19254,8 @@ module.exports = {
             features: {
               integrity: [ 1.2, 1.8 ],
               mass: [ .9, .9 ]
-            }
+            },
+            uuid: "200dfa7b-085d-43d8-ae61-f7080feed350"
           },
           "4": {
             components: {
@@ -19050,7 +19266,8 @@ module.exports = {
             features: {
               integrity: [ 1.8, 2.4 ],
               mass: [ 1.2, 1.2 ]
-            }
+            },
+            uuid: "4fdb0643-c9e0-43f6-8b6b-4613fec1de03"
           },
           "5": {
             components: {
@@ -19061,7 +19278,8 @@ module.exports = {
             features: {
               integrity: [ 2.4, 3 ],
               mass: [ 1.5, 1.5 ]
-            }
+            },
+            uuid: "b5787172-ca08-43bd-8d57-b00a26c3d6c8"
           }
         },
         id: 47,
@@ -19078,7 +19296,8 @@ module.exports = {
             features: {
               integrity: [ 0, .6 ],
               power: [ .2, .2 ]
-            }
+            },
+            uuid: "f4426054-f766-4be3-8b26-e9236ff61dd9"
           },
           "2": {
             components: {
@@ -19088,7 +19307,8 @@ module.exports = {
             features: {
               integrity: [ .6, 1.2 ],
               power: [ .4, .4 ]
-            }
+            },
+            uuid: "fa7b4b7f-ed0a-401f-a372-1d03c09f9c55"
           },
           "3": {
             components: {
@@ -19099,7 +19319,8 @@ module.exports = {
             features: {
               integrity: [ 1.2, 1.8 ],
               power: [ .6, .6 ]
-            }
+            },
+            uuid: "443fe7e9-e313-457b-8c0f-6eb22e6e91ef"
           },
           "4": {
             components: {
@@ -19110,7 +19331,8 @@ module.exports = {
             features: {
               integrity: [ 1.8, 2.4 ],
               power: [ .8, .8 ]
-            }
+            },
+            uuid: "b1a0e15d-7164-44f9-85e5-9acc64e56b8b"
           },
           "5": {
             components: {
@@ -19121,7 +19343,8 @@ module.exports = {
             features: {
               integrity: [ 2.4, 3 ],
               power: [ 1, 1 ]
-            }
+            },
+            uuid: "499f1881-9448-4df5-a734-cc3876f23790"
           }
         },
         id: 48,
@@ -19138,7 +19361,8 @@ module.exports = {
             features: {
               integrity: [ -.1, -.1 ],
               mass: [ 0, -.45 ]
-            }
+            },
+            uuid: "e1e1bd93-3a3f-4454-bfe3-0e2b6840b43a"
           },
           "2": {
             components: {
@@ -19148,7 +19372,8 @@ module.exports = {
             features: {
               integrity: [ -.2, -.2 ],
               mass: [ -.45, -.55 ]
-            }
+            },
+            uuid: "aaf29592-df21-4b4c-aeac-20252e75b8aa"
           },
           "3": {
             components: {
@@ -19159,7 +19384,8 @@ module.exports = {
             features: {
               integrity: [ -.3, -.3 ],
               mass: [ -.55, -.65 ]
-            }
+            },
+            uuid: "8876b27a-2c31-49f0-8a47-c11acd801c2b"
           },
           "4": {
             components: {
@@ -19170,7 +19396,8 @@ module.exports = {
             features: {
               integrity: [ -.4, -.4 ],
               mass: [ -.65, -.75 ]
-            }
+            },
+            uuid: "b7672f07-e10e-4371-989c-dd49e28c4b79"
           }
         },
         id: 49,
@@ -19187,7 +19414,8 @@ module.exports = {
             features: {
               integrity: [ 0, .6 ],
               mass: [ .3, .3 ]
-            }
+            },
+            uuid: "b40b11a1-5f0f-440f-b77d-9abf9833d546"
           },
           "2": {
             components: {
@@ -19197,7 +19425,8 @@ module.exports = {
             features: {
               integrity: [ .6, 1.2 ],
               mass: [ .6, .6 ]
-            }
+            },
+            uuid: "847b937b-ffa2-4418-9a48-0993a675d43f"
           },
           "3": {
             components: {
@@ -19208,7 +19437,8 @@ module.exports = {
             features: {
               integrity: [ 1.2, 1.8 ],
               mass: [ .9, .9 ]
-            }
+            },
+            uuid: "8303d5f6-da56-41d0-8af3-4620efcc561e"
           },
           "4": {
             components: {
@@ -19219,7 +19449,8 @@ module.exports = {
             features: {
               integrity: [ 1.8, 2.4 ],
               mass: [ 1.2, 1.2 ]
-            }
+            },
+            uuid: "6c37ca40-0ae6-48e0-a145-c3eea2bf7cce"
           },
           "5": {
             components: {
@@ -19230,7 +19461,8 @@ module.exports = {
             features: {
               integrity: [ 2.4, 3 ],
               mass: [ 1.5, 1.5 ]
-            }
+            },
+            uuid: "dd40a1d9-9c29-424f-8362-0b76f2ef63a5"
           }
         },
         id: 50,
@@ -19247,7 +19479,8 @@ module.exports = {
             features: {
               integrity: [ 0, .6 ],
               power: [ .2, .2 ]
-            }
+            },
+            uuid: "fcd12382-bbb3-431b-95c5-ae9539a02a54"
           },
           "2": {
             components: {
@@ -19257,7 +19490,8 @@ module.exports = {
             features: {
               integrity: [ .6, 1.2 ],
               power: [ .4, .4 ]
-            }
+            },
+            uuid: "9a62eb66-8231-4fa9-9047-284798892e93"
           },
           "3": {
             components: {
@@ -19268,7 +19502,8 @@ module.exports = {
             features: {
               integrity: [ 1.2, 1.8 ],
               power: [ .6, .6 ]
-            }
+            },
+            uuid: "c46b6c89-0a24-4586-865d-76ff5ae35209"
           },
           "4": {
             components: {
@@ -19279,7 +19514,8 @@ module.exports = {
             features: {
               integrity: [ 1.8, 2.4 ],
               power: [ .8, .8 ]
-            }
+            },
+            uuid: "89f25da8-029a-4f3e-828d-393b36f0d7b3"
           }
         },
         id: 51,
@@ -19296,7 +19532,8 @@ module.exports = {
             features: {
               integrity: [ -.1, -.1 ],
               mass: [ 0, -.45 ]
-            }
+            },
+            uuid: "b212ba23-880a-46f7-94ef-f276acb068da"
           },
           "2": {
             components: {
@@ -19306,7 +19543,8 @@ module.exports = {
             features: {
               integrity: [ -.2, -.2 ],
               mass: [ -.45, -.55 ]
-            }
+            },
+            uuid: "17733fc5-6153-406c-b7f6-fbc6904b7223"
           },
           "3": {
             components: {
@@ -19317,7 +19555,8 @@ module.exports = {
             features: {
               integrity: [ -.3, -.3 ],
               mass: [ -.55, -.65 ]
-            }
+            },
+            uuid: "428b7f9f-9ab2-4f1f-9e8e-9a54ede9af65"
           },
           "4": {
             components: {
@@ -19328,7 +19567,8 @@ module.exports = {
             features: {
               integrity: [ -.4, -.4 ],
               mass: [ -.65, -.75 ]
-            }
+            },
+            uuid: "6285a7cd-bb8f-427d-b2aa-3c20953c9c9c"
           },
           "5": {
             components: {
@@ -19339,7 +19579,8 @@ module.exports = {
             features: {
               integrity: [ -.5, -.5 ],
               mass: [ -.75, -.85 ]
-            }
+            },
+            uuid: "1e819178-49c2-4aad-bf17-723061cb3f95"
           }
         },
         id: 52,
@@ -19359,7 +19600,8 @@ module.exports = {
               ammo: [ 0, .5 ],
               mass: [ 1, 1 ],
               reload: [ .1, .1 ]
-            }
+            },
+            uuid: "84b2fe9b-5c82-4b3c-8181-7c15aeb9ecf9"
           }
         },
         id: 55,
@@ -19376,7 +19618,8 @@ module.exports = {
             features: {
               integrity: [ 0, .6 ],
               mass: [ .3, .3 ]
-            }
+            },
+            uuid: "be6995c8-ffe3-41db-82c7-8a1d876254bd"
           },
           "2": {
             components: {
@@ -19386,7 +19629,8 @@ module.exports = {
             features: {
               integrity: [ .6, 1.2 ],
               mass: [ .6, .6 ]
-            }
+            },
+            uuid: "b485f4a5-194e-44cd-8a68-d78d87b78749"
           },
           "3": {
             components: {
@@ -19397,7 +19641,8 @@ module.exports = {
             features: {
               integrity: [ 1.2, 1.8 ],
               mass: [ .9, .9 ]
-            }
+            },
+            uuid: "007beb33-2cb2-48fc-b3d3-b5b82fc7c795"
           },
           "4": {
             components: {
@@ -19408,7 +19653,8 @@ module.exports = {
             features: {
               integrity: [ 1.8, 2.4 ],
               mass: [ 1.2, 1.2 ]
-            }
+            },
+            uuid: "3fbaecf6-2bdf-4c53-b455-d37d0d78571c"
           },
           "5": {
             components: {
@@ -19419,7 +19665,8 @@ module.exports = {
             features: {
               integrity: [ 2.4, 3 ],
               mass: [ 1.5, 1.5 ]
-            }
+            },
+            uuid: "e6c7a828-4c26-44e6-80ed-e39978850532"
           }
         },
         id: 53,
@@ -19436,7 +19683,8 @@ module.exports = {
             features: {
               integrity: [ 0, .6 ],
               power: [ .2, .2 ]
-            }
+            },
+            uuid: "84de52cc-9d50-48b9-94bc-262735f61a27"
           },
           "2": {
             components: {
@@ -19446,7 +19694,8 @@ module.exports = {
             features: {
               integrity: [ .6, 1.2 ],
               power: [ .4, .4 ]
-            }
+            },
+            uuid: "94b0ceb5-3f07-4206-aa02-1e69f1059476"
           },
           "3": {
             components: {
@@ -19457,7 +19706,8 @@ module.exports = {
             features: {
               integrity: [ 1.2, 1.8 ],
               power: [ .6, .6 ]
-            }
+            },
+            uuid: "ad2d6c5e-f69d-44cd-94e5-0437a1b77e39"
           },
           "4": {
             components: {
@@ -19468,7 +19718,8 @@ module.exports = {
             features: {
               integrity: [ 1.8, 2.4 ],
               power: [ .8, .8 ]
-            }
+            },
+            uuid: "718b1c81-ffc9-4097-8969-3805dfab4ce2"
           },
           "5": {
             components: {
@@ -19479,7 +19730,8 @@ module.exports = {
             features: {
               integrity: [ 2.4, 3 ],
               power: [ 1, 1 ]
-            }
+            },
+            uuid: "4a89d7e7-fb6d-4d65-aca6-641b634d2cbb"
           }
         },
         id: 54,
@@ -19501,7 +19753,8 @@ module.exports = {
               sysrate: [ -.02, -.02 ],
               wepcap: [ 0, .1 ],
               weprate: [ -.02, -.02 ]
-            }
+            },
+            uuid: "e1ae5651-f688-46e2-a94a-9c3bc6e8665b"
           },
           "2": {
             components: {
@@ -19516,7 +19769,8 @@ module.exports = {
               sysrate: [ -.06, -.06 ],
               wepcap: [ .1, .18 ],
               weprate: [ -.06, -.06 ]
-            }
+            },
+            uuid: "d5ea6b7b-31eb-44f4-b1f3-8126dd6ea7b5"
           },
           "3": {
             components: {
@@ -19532,7 +19786,8 @@ module.exports = {
               sysrate: [ -.1, -.1 ],
               wepcap: [ .18, .26 ],
               weprate: [ -.1, -.1 ]
-            }
+            },
+            uuid: "b959a87e-a231-46e7-a6a7-65fe6c0464bc"
           },
           "4": {
             components: {
@@ -19548,7 +19803,8 @@ module.exports = {
               sysrate: [ -.14, -.14 ],
               wepcap: [ .26, .34 ],
               weprate: [ -.14, -.14 ]
-            }
+            },
+            uuid: "5f468c03-ed6d-474f-9e82-601b11d728c8"
           },
           "5": {
             components: {
@@ -19564,7 +19820,8 @@ module.exports = {
               sysrate: [ -.18, -.18 ],
               wepcap: [ .34, .42 ],
               weprate: [ -.18, -.18 ]
-            }
+            },
+            uuid: "50b4cbc5-9445-43e3-a9a8-b1320fc0b27e"
           }
         },
         id: 56,
@@ -19585,7 +19842,8 @@ module.exports = {
               sysrate: [ 0, .09 ],
               wepcap: [ -.01, -.01 ],
               weprate: [ 0, .09 ]
-            }
+            },
+            uuid: "e8ce47e1-c5d7-46bf-b31e-48dcfe9ab1a5"
           },
           "2": {
             components: {
@@ -19599,7 +19857,8 @@ module.exports = {
               sysrate: [ .09, .18 ],
               wepcap: [ -.02, -.02 ],
               weprate: [ .09, .18 ]
-            }
+            },
+            uuid: "528b87b2-157d-471e-9958-831a9962c595"
           },
           "3": {
             components: {
@@ -19614,7 +19873,8 @@ module.exports = {
               sysrate: [ .18, .27 ],
               wepcap: [ -.03, -.03 ],
               weprate: [ .18, .27 ]
-            }
+            },
+            uuid: "713b5e19-b7a5-447f-b450-248e771dcd72"
           },
           "4": {
             components: {
@@ -19629,7 +19889,8 @@ module.exports = {
               sysrate: [ .27, .36 ],
               wepcap: [ -.04, -.04 ],
               weprate: [ .27, .36 ]
-            }
+            },
+            uuid: "1bfd4836-c69d-4adf-94dd-e7c41da96416"
           },
           "5": {
             components: {
@@ -19644,7 +19905,8 @@ module.exports = {
               sysrate: [ .36, .45 ],
               wepcap: [ -.05, -.05 ],
               weprate: [ .36, .45 ]
-            }
+            },
+            uuid: "5adf6ae2-0e1b-4b3e-9513-9b981213cdfd"
           }
         },
         id: 57,
@@ -19665,7 +19927,8 @@ module.exports = {
               sysrate: [ -.03, -.03 ],
               wepcap: [ -.03, -.03 ],
               weprate: [ -.01, -.01 ]
-            }
+            },
+            uuid: "69f1b8a3-c868-452f-bdbd-cfc95e117ab5"
           },
           "2": {
             components: {
@@ -19679,7 +19942,8 @@ module.exports = {
               sysrate: [ -.06, -.06 ],
               wepcap: [ -.06, -.06 ],
               weprate: [ -.02, -.02 ]
-            }
+            },
+            uuid: "5e91d652-7346-4a22-82c9-79853fdcdf91"
           },
           "3": {
             components: {
@@ -19694,7 +19958,8 @@ module.exports = {
               sysrate: [ -.09, -.09 ],
               wepcap: [ -.09, -.09 ],
               weprate: [ -.03, -.03 ]
-            }
+            },
+            uuid: "4185370a-c4e9-4f58-9b67-a7f46bb2d3c2"
           },
           "4": {
             components: {
@@ -19709,7 +19974,8 @@ module.exports = {
               sysrate: [ -.12, -.12 ],
               wepcap: [ -.12, -.12 ],
               weprate: [ -.04, -.04 ]
-            }
+            },
+            uuid: "6a6a497e-8261-4763-8a15-c78222a00443"
           },
           "5": {
             components: {
@@ -19724,7 +19990,8 @@ module.exports = {
               sysrate: [ -.15, -.15 ],
               wepcap: [ -.15, -.15 ],
               weprate: [ -.05, -.05 ]
-            }
+            },
+            uuid: "ac618c54-ecfc-489a-98cb-e3f5789ad69f"
           }
         },
         id: 58,
@@ -19745,7 +20012,8 @@ module.exports = {
               sysrate: [ 0, .16 ],
               wepcap: [ -.03, -.03 ],
               weprate: [ -.03, -.03 ]
-            }
+            },
+            uuid: "8138ba35-155d-4b82-86ef-ad4600ab5e03"
           },
           "2": {
             components: {
@@ -19759,7 +20027,8 @@ module.exports = {
               sysrate: [ .16, .23 ],
               wepcap: [ -.06, -.06 ],
               weprate: [ -.06, -.06 ]
-            }
+            },
+            uuid: "91c79b1b-b494-4dd9-98c4-10d58aa5509f"
           },
           "3": {
             components: {
@@ -19774,7 +20043,8 @@ module.exports = {
               sysrate: [ .23, .3 ],
               wepcap: [ -.09, -.09 ],
               weprate: [ -.09, -.09 ]
-            }
+            },
+            uuid: "13ab16c7-2456-4387-b536-b28fd2f57d2e"
           },
           "4": {
             components: {
@@ -19789,7 +20059,8 @@ module.exports = {
               sysrate: [ .3, .37 ],
               wepcap: [ -.12, -.12 ],
               weprate: [ -.12, -.12 ]
-            }
+            },
+            uuid: "544e6d6b-be89-478d-9b1b-62fae7599d30"
           },
           "5": {
             components: {
@@ -19804,7 +20075,8 @@ module.exports = {
               sysrate: [ .37, .44 ],
               wepcap: [ -.15, -.15 ],
               weprate: [ -.15, -.15 ]
-            }
+            },
+            uuid: "892dcc86-a720-4fda-96cd-cb0245305764"
           }
         },
         id: 59,
@@ -19825,7 +20097,8 @@ module.exports = {
               sysrate: [ -.01, -.01 ],
               wepcap: [ 0, .2 ],
               weprate: [ 0, .16 ]
-            }
+            },
+            uuid: "dd023cf4-0b4d-4d18-957f-4b1eecb71c0a"
           },
           "2": {
             components: {
@@ -19839,7 +20112,8 @@ module.exports = {
               sysrate: [ -.02, -.02 ],
               wepcap: [ .2, .3 ],
               weprate: [ .16, .23 ]
-            }
+            },
+            uuid: "cac790f3-9852-4673-a219-0f5e4dc6a0ad"
           },
           "3": {
             components: {
@@ -19854,7 +20128,8 @@ module.exports = {
               sysrate: [ -.03, -.03 ],
               wepcap: [ .3, .4 ],
               weprate: [ .23, .3 ]
-            }
+            },
+            uuid: "cc5507e8-613b-4d43-a7fe-a874be963125"
           },
           "4": {
             components: {
@@ -19869,7 +20144,8 @@ module.exports = {
               sysrate: [ -.04, -.04 ],
               wepcap: [ .4, .5 ],
               weprate: [ .3, .37 ]
-            }
+            },
+            uuid: "34c9c5e5-8a42-4509-a22a-7313528263f2"
           },
           "5": {
             components: {
@@ -19884,7 +20160,8 @@ module.exports = {
               sysrate: [ -.05, -.05 ],
               wepcap: [ .5, .6 ],
               weprate: [ .37, .44 ]
-            }
+            },
+            uuid: "23d55bbf-af1c-46ac-b77b-214e70628fe2"
           }
         },
         id: 60,
@@ -19902,7 +20179,8 @@ module.exports = {
               integrity: [ 0, .4 ],
               mass: [ .03, .03 ],
               power: [ 0, -.1 ]
-            }
+            },
+            uuid: "05883145-2407-46a1-9eea-5a56ac549cfd"
           },
           "2": {
             components: {
@@ -19913,7 +20191,8 @@ module.exports = {
               integrity: [ .4, .8 ],
               mass: [ .06, .06 ],
               power: [ -.1, -.15 ]
-            }
+            },
+            uuid: "5822ff0c-fa6c-4072-95be-e2534f37be00"
           },
           "3": {
             components: {
@@ -19925,7 +20204,8 @@ module.exports = {
               integrity: [ .8, 1.2 ],
               mass: [ .09, .09 ],
               power: [ -.15, -.2 ]
-            }
+            },
+            uuid: "d5040eac-fa75-4613-828d-ea71aefd9051"
           },
           "4": {
             components: {
@@ -19937,7 +20217,8 @@ module.exports = {
               integrity: [ 1.2, 1.6 ],
               mass: [ .12, .12 ],
               power: [ -.2, -.25 ]
-            }
+            },
+            uuid: "32c94fd6-71c3-461b-80ed-bfe1543f9651"
           },
           "5": {
             components: {
@@ -19949,7 +20230,8 @@ module.exports = {
               integrity: [ 1.6, 2 ],
               mass: [ .15, .15 ],
               power: [ -.25, -.3 ]
-            }
+            },
+            uuid: "1b073867-c10f-474b-88d7-5fb6c602b838"
           }
         },
         id: 61,
@@ -19968,7 +20250,8 @@ module.exports = {
               integrity: [ 0, .4 ],
               pgen: [ 0, .04 ],
               mass: [ .04, .04 ]
-            }
+            },
+            uuid: "14be2e0d-417b-4cde-834f-b7e8ca14bb85"
           },
           "2": {
             components: {
@@ -19980,7 +20263,8 @@ module.exports = {
               integrity: [ .3, .6 ],
               pgen: [ 0, .06 ],
               mass: [ .08, .08 ]
-            }
+            },
+            uuid: "14ade730-2a1d-4f48-a619-46be865819ec"
           },
           "3": {
             components: {
@@ -19993,7 +20277,8 @@ module.exports = {
               integrity: [ .6, .8 ],
               pgen: [ .06, .08 ],
               mass: [ .12, .12 ]
-            }
+            },
+            uuid: "aa9a05c9-f142-40db-b0bf-8f6ca29efba8"
           },
           "4": {
             components: {
@@ -20006,7 +20291,8 @@ module.exports = {
               integrity: [ .5, 1 ],
               pgen: [ .08, .1 ],
               mass: [ .16, .16 ]
-            }
+            },
+            uuid: "bfb0ccc8-389e-4df0-9acd-4df91680c5a3"
           },
           "5": {
             components: {
@@ -20019,7 +20305,8 @@ module.exports = {
               integrity: [ 1, 1.2 ],
               pgen: [ .1, .12 ],
               mass: [ .2, .2 ]
-            }
+            },
+            uuid: "5156badb-c1eb-49f4-923d-b9e6f862799f"
           }
         },
         id: 62,
@@ -20037,7 +20324,8 @@ module.exports = {
               eff: [ .05, .05 ],
               integrity: [ -.05, -.05 ],
               pgen: [ 0, .12 ]
-            }
+            },
+            uuid: "06282764-2821-4604-ad2c-d9b148d562d0"
           },
           "2": {
             components: {
@@ -20048,7 +20336,8 @@ module.exports = {
               eff: [ .1, .1 ],
               integrity: [ -.1, -.1 ],
               pgen: [ .12, .19 ]
-            }
+            },
+            uuid: "feb49620-2df8-4ec6-9a58-13f986aed81f"
           },
           "3": {
             components: {
@@ -20060,7 +20349,8 @@ module.exports = {
               eff: [ .15, .15 ],
               integrity: [ -.15, -.15 ],
               pgen: [ .19, .26 ]
-            }
+            },
+            uuid: "9325c166-998d-4ea6-8dab-0aafcec76705"
           },
           "4": {
             components: {
@@ -20072,7 +20362,8 @@ module.exports = {
               eff: [ .2, .2 ],
               integrity: [ -.2, -.2 ],
               pgen: [ .26, .33 ]
-            }
+            },
+            uuid: "6dd84c8d-1d21-4bf5-a747-f582ffe49a99"
           },
           "5": {
             components: {
@@ -20084,7 +20375,8 @@ module.exports = {
               eff: [ .25, .25 ],
               integrity: [ -.25, -.25 ],
               pgen: [ .33, .4 ]
-            }
+            },
+            uuid: "f8cee63e-9cdf-43e5-9584-a945d4c57aee"
           }
         },
         id: 63,
@@ -20102,7 +20394,8 @@ module.exports = {
               eff: [ 0, -.25 ],
               mass: [ .04, .04 ],
               pgen: [ -.03, -.03 ]
-            }
+            },
+            uuid: "92571059-8e76-4473-b3ee-1b50803c75ef"
           },
           "2": {
             components: {
@@ -20113,7 +20406,8 @@ module.exports = {
               eff: [ -.25, -.35 ],
               mass: [ .08, .08 ],
               pgen: [ -.06, -.06 ]
-            }
+            },
+            uuid: "5a20a4d0-2d5d-4380-b14d-6099928cd0a7"
           },
           "3": {
             components: {
@@ -20125,7 +20419,8 @@ module.exports = {
               eff: [ -.35, -.45 ],
               mass: [ .12, .12 ],
               pgen: [ -.09, -.09 ]
-            }
+            },
+            uuid: "a0283399-56cd-4013-8293-872ad44a1ffd"
           },
           "4": {
             components: {
@@ -20137,7 +20432,8 @@ module.exports = {
               eff: [ -.45, -.55 ],
               mass: [ .16, .16 ],
               pgen: [ -.12, -.12 ]
-            }
+            },
+            uuid: "e87a55a5-ddf0-42fe-b919-9a3ef13a7bba"
           },
           "5": {
             components: {
@@ -20149,7 +20445,8 @@ module.exports = {
               eff: [ -.55, -.65 ],
               mass: [ .2, .2 ],
               pgen: [ -.15, -.15 ]
-            }
+            },
+            uuid: "83a93700-084e-4c4b-aed5-30dc99d1da0c"
           }
         },
         id: 64,
@@ -20166,7 +20463,8 @@ module.exports = {
             features: {
               integrity: [ -.1, -.1 ],
               mass: [ 0, -.45 ]
-            }
+            },
+            uuid: "bb27a6b6-5c10-41e8-a6b3-3abc8a4ed23e"
           },
           "2": {
             components: {
@@ -20176,7 +20474,8 @@ module.exports = {
             features: {
               integrity: [ -.2, -.2 ],
               mass: [ -.45, -.55 ]
-            }
+            },
+            uuid: "95af3c55-ec45-4f5d-848d-1639307fee41"
           },
           "3": {
             components: {
@@ -20187,7 +20486,8 @@ module.exports = {
             features: {
               integrity: [ -.3, -.3 ],
               mass: [ -.55, -.65 ]
-            }
+            },
+            uuid: "a3b84b26-d67e-4d8c-9653-f23181cce9f8"
           },
           "4": {
             components: {
@@ -20198,7 +20498,8 @@ module.exports = {
             features: {
               integrity: [ -.4, -.4 ],
               mass: [ -.65, -.75 ]
-            }
+            },
+            uuid: "363a9543-4072-4211-8c89-8e9477fa72eb"
           },
           "5": {
             components: {
@@ -20209,7 +20510,8 @@ module.exports = {
             features: {
               integrity: [ -.5, -.5 ],
               mass: [ -.75, -.85 ]
-            }
+            },
+            uuid: "4de10a2c-e440-4b2e-95fb-e1121bff19a4"
           }
         },
         id: 65,
@@ -20226,7 +20528,8 @@ module.exports = {
             features: {
               integrity: [ 0, .6 ],
               mass: [ .3, .3 ]
-            }
+            },
+            uuid: "650fdb39-a2fa-4757-bac0-fcad6c7104f9"
           },
           "2": {
             components: {
@@ -20236,7 +20539,8 @@ module.exports = {
             features: {
               integrity: [ .6, 1.2 ],
               mass: [ .6, .6 ]
-            }
+            },
+            uuid: "ee33e0d9-d8b2-4ac5-9370-7dac2f252570"
           },
           "3": {
             components: {
@@ -20247,7 +20551,8 @@ module.exports = {
             features: {
               integrity: [ 1.2, 1.8 ],
               mass: [ .9, .9 ]
-            }
+            },
+            uuid: "5c8c244e-2f93-4422-8fcb-ad4012020a8a"
           },
           "4": {
             components: {
@@ -20258,7 +20563,8 @@ module.exports = {
             features: {
               integrity: [ 1.8, 2.4 ],
               mass: [ 1.2, 1.2 ]
-            }
+            },
+            uuid: "31532d5f-6e3c-45a6-95b2-13fb0218aa7a"
           },
           "5": {
             components: {
@@ -20269,7 +20575,8 @@ module.exports = {
             features: {
               integrity: [ 2.4, 3 ],
               mass: [ 1.5, 1.5 ]
-            }
+            },
+            uuid: "d98c0250-252f-4d48-9c98-e43b8c50b978"
           }
         },
         id: 66,
@@ -20286,7 +20593,8 @@ module.exports = {
             features: {
               integrity: [ 0, .6 ],
               power: [ .2, .2 ]
-            }
+            },
+            uuid: "573d6e16-dc01-4093-a14d-420621279673"
           },
           "2": {
             components: {
@@ -20296,7 +20604,8 @@ module.exports = {
             features: {
               integrity: [ .6, 1.2 ],
               power: [ .4, .4 ]
-            }
+            },
+            uuid: "197d4759-f451-4b30-8051-08c5fde05421"
           },
           "3": {
             components: {
@@ -20307,7 +20616,8 @@ module.exports = {
             features: {
               integrity: [ 1.2, 1.8 ],
               power: [ .6, .6 ]
-            }
+            },
+            uuid: "633cafa0-a2c3-436c-867f-aba0205e55b8"
           },
           "4": {
             components: {
@@ -20318,7 +20628,8 @@ module.exports = {
             features: {
               integrity: [ 1.8, 2.4 ],
               power: [ .8, .8 ]
-            }
+            },
+            uuid: "6a396efb-3aa1-4022-b66d-dd299ff7e4d8"
           },
           "5": {
             components: {
@@ -20329,7 +20640,8 @@ module.exports = {
             features: {
               integrity: [ 2.4, 3 ],
               power: [ 1, 1 ]
-            }
+            },
+            uuid: "85a8d27b-8f97-46fb-91b3-3f56553e1eef"
           }
         },
         id: 67,
@@ -20346,7 +20658,8 @@ module.exports = {
             features: {
               integrity: [ 0, .6 ],
               power: [ .2, .2 ]
-            }
+            },
+            uuid: "58578acb-b652-4a30-8ffe-e4e488325221"
           },
           "2": {
             components: {
@@ -20356,7 +20669,8 @@ module.exports = {
             features: {
               integrity: [ .6, 1.2 ],
               power: [ .4, .4 ]
-            }
+            },
+            uuid: "e33c7809-d6cd-4549-8596-9400baabc3cd"
           },
           "3": {
             components: {
@@ -20367,7 +20681,8 @@ module.exports = {
             features: {
               integrity: [ 1.2, 1.8 ],
               power: [ .6, .6 ]
-            }
+            },
+            uuid: "cffa4897-fa7a-44dd-8fe1-1b3702e82f9e"
           },
           "4": {
             components: {
@@ -20378,7 +20693,8 @@ module.exports = {
             features: {
               integrity: [ 1.8, 2.4 ],
               power: [ .8, .8 ]
-            }
+            },
+            uuid: "48d62ffb-b0ff-47bf-9e4a-a8a4cfbd22bc"
           }
         },
         id: 92,
@@ -20396,7 +20712,8 @@ module.exports = {
               integrity: [ -.1, -.1 ],
               range: [ -.05, -.05 ],
               scantime: [ 0, -.2 ]
-            }
+            },
+            uuid: "8e2046eb-06bf-44e4-8fad-981f24d68340"
           },
           "2": {
             components: {
@@ -20407,7 +20724,8 @@ module.exports = {
               integrity: [ -.2, -.2 ],
               range: [ -.1, -.1 ],
               scantime: [ -.2, -.35 ]
-            }
+            },
+            uuid: "953bcfbf-a46d-45e2-90c7-f727e641edc3"
           },
           "3": {
             components: {
@@ -20419,7 +20737,8 @@ module.exports = {
               integrity: [ -.3, -.3 ],
               range: [ -.15, -.15 ],
               scantime: [ -.35, -.5 ]
-            }
+            },
+            uuid: "bed8bdc6-ef45-450e-aa7f-802cea642b2d"
           },
           "4": {
             components: {
@@ -20431,7 +20750,8 @@ module.exports = {
               integrity: [ -.4, -.4 ],
               range: [ -.2, -.2 ],
               scantime: [ -.5, -.65 ]
-            }
+            },
+            uuid: "610ba60e-d0e3-42c2-9269-c67bafb25546"
           },
           "5": {
             components: {
@@ -20443,7 +20763,8 @@ module.exports = {
               integrity: [ -.5, -.5 ],
               range: [ -.25, -.25 ],
               scantime: [ -.8, -.8 ]
-            }
+            },
+            uuid: "64b8d29d-de5c-4b50-bd77-ae7cb3c78ed6"
           }
         },
         id: 102,
@@ -20461,7 +20782,8 @@ module.exports = {
               power: [ .1, .1 ],
               angle: [ -.1, -.1 ],
               range: [ 0, .24 ]
-            }
+            },
+            uuid: "1b566f8d-56ef-4b11-bb06-1fd9c603ab1c"
           },
           "2": {
             components: {
@@ -20472,7 +20794,8 @@ module.exports = {
               power: [ .2, .2 ],
               angle: [ -.12, -.15 ],
               range: [ .24, .48 ]
-            }
+            },
+            uuid: "9371ee9f-12a1-4859-9b97-e3c3c87ee0a0"
           },
           "3": {
             components: {
@@ -20484,7 +20807,8 @@ module.exports = {
               power: [ .3, .3 ],
               angle: [ -.2, -.2 ],
               range: [ .48, .72 ]
-            }
+            },
+            uuid: "317bbfd2-7b05-4f7a-b6ca-55e0a7d3f147"
           },
           "4": {
             components: {
@@ -20496,7 +20820,8 @@ module.exports = {
               power: [ .4, .4 ],
               angle: [ -.25, -.25 ],
               range: [ .72, .96 ]
-            }
+            },
+            uuid: "5e3ac270-69ef-4301-9e86-8c9cbc5ada89"
           },
           "5": {
             components: {
@@ -20508,7 +20833,8 @@ module.exports = {
               power: [ .5, .5 ],
               angle: [ -.3, -.3 ],
               range: [ .96, 1.2 ]
-            }
+            },
+            uuid: "993b050e-b308-4010-8ba6-58e08483793d"
           }
         },
         id: 104,
@@ -20526,7 +20852,8 @@ module.exports = {
               mass: [ .2, .2 ],
               angle: [ 0, .4 ],
               scantime: [ .1, .1 ]
-            }
+            },
+            uuid: "c034e952-985f-4b04-9d9e-bec4ddc50171"
           },
           "2": {
             components: {
@@ -20537,7 +20864,8 @@ module.exports = {
               mass: [ .4, .4 ],
               angle: [ .4, .8 ],
               scantime: [ .2, .2 ]
-            }
+            },
+            uuid: "c2dee450-a617-4740-9af9-57cf2ea7de4f"
           },
           "3": {
             components: {
@@ -20549,7 +20877,8 @@ module.exports = {
               mass: [ .6, .6 ],
               angle: [ .8, 1.2 ],
               scantime: [ .3, .3 ]
-            }
+            },
+            uuid: "181cd2e3-ef3c-4939-b5b9-f6b21090d920"
           },
           "4": {
             components: {
@@ -20561,7 +20890,8 @@ module.exports = {
               mass: [ .8, .8 ],
               angle: [ 1.2, 1.6 ],
               scantime: [ .4, .4 ]
-            }
+            },
+            uuid: "a93247e8-cbce-4026-9640-6137934614c9"
           },
           "5": {
             components: {
@@ -20573,7 +20903,8 @@ module.exports = {
               mass: [ 1, 1 ],
               angle: [ 1.6, 2 ],
               scantime: [ .5, .5 ]
-            }
+            },
+            uuid: "9f6b1226-d7b9-4bcd-b60d-9e8227be79f2"
           }
         },
         id: 105,
@@ -20591,7 +20922,8 @@ module.exports = {
               integrity: [ -.1, -.1 ],
               range: [ -.05, -.05 ],
               scantime: [ 0, -.2 ]
-            }
+            },
+            uuid: "37c2d07b-fa12-4ad2-a1cb-a1c9c5cdb348"
           },
           "2": {
             components: {
@@ -20602,7 +20934,8 @@ module.exports = {
               integrity: [ -.2, -.2 ],
               range: [ -.1, -.1 ],
               scantime: [ -.2, -.35 ]
-            }
+            },
+            uuid: "a375ac53-e245-4364-8d8a-389e247bc74d"
           },
           "3": {
             components: {
@@ -20614,7 +20947,8 @@ module.exports = {
               integrity: [ -.3, -.3 ],
               range: [ -.15, -.15 ],
               scantime: [ -.35, -.5 ]
-            }
+            },
+            uuid: "472ebde0-72d0-4ec1-beda-11cbcbad13f9"
           },
           "4": {
             components: {
@@ -20626,7 +20960,8 @@ module.exports = {
               integrity: [ -.4, -.4 ],
               range: [ -.2, -.2 ],
               scantime: [ -.5, -.65 ]
-            }
+            },
+            uuid: "6d8d3ba8-46b3-4482-a65d-b1c6663c543b"
           },
           "5": {
             components: {
@@ -20638,7 +20973,8 @@ module.exports = {
               integrity: [ -.5, -.5 ],
               range: [ -.25, -.25 ],
               scantime: [ -.8, -.8 ]
-            }
+            },
+            uuid: "fb2433bb-5493-43d8-a1ec-e57e43951751"
           }
         },
         id: 101,
@@ -20656,7 +20992,8 @@ module.exports = {
               mass: [ .2, .2 ],
               angle: [ 0, .4 ],
               scantime: [ .1, .1 ]
-            }
+            },
+            uuid: "69ee982f-f925-4e0a-a7a8-cc52ff9bc295"
           },
           "2": {
             components: {
@@ -20667,7 +21004,8 @@ module.exports = {
               mass: [ .4, .4 ],
               angle: [ .4, .8 ],
               scantime: [ .2, .2 ]
-            }
+            },
+            uuid: "3f0b3cbd-3acf-4a49-a176-6ceb02b958f9"
           },
           "3": {
             components: {
@@ -20679,7 +21017,8 @@ module.exports = {
               mass: [ .6, .6 ],
               angle: [ .8, 1.2 ],
               scantime: [ .3, .3 ]
-            }
+            },
+            uuid: "5c378d56-97f7-4a75-b113-7e6bc846d53f"
           },
           "4": {
             components: {
@@ -20691,7 +21030,8 @@ module.exports = {
               mass: [ .8, .8 ],
               angle: [ 1.2, 1.6 ],
               scantime: [ .4, .4 ]
-            }
+            },
+            uuid: "887d9bb6-422f-42ce-8a21-22d1f43a7f64"
           },
           "5": {
             components: {
@@ -20703,7 +21043,8 @@ module.exports = {
               mass: [ 1, 1 ],
               angle: [ 1.6, 2 ],
               scantime: [ .5, .5 ]
-            }
+            },
+            uuid: "0f0f8c7e-e9d4-4264-88a6-668372ad9d47"
           }
         },
         id: 107,
@@ -20721,7 +21062,8 @@ module.exports = {
               integrity: [ -.1, -.1 ],
               mass: [ 0, -.2 ],
               angle: [ -.05, -.05 ]
-            }
+            },
+            uuid: "239cd942-3298-4be0-b032-143961c801a1"
           },
           "2": {
             components: {
@@ -20732,7 +21074,8 @@ module.exports = {
               integrity: [ -.2, -.2 ],
               mass: [ -.2, -.35 ],
               angle: [ -.1, -.1 ]
-            }
+            },
+            uuid: "8dd41f78-c4f0-4107-a1fe-d1eee78bbd23"
           },
           "3": {
             components: {
@@ -20744,7 +21087,8 @@ module.exports = {
               integrity: [ -.3, -.3 ],
               mass: [ -.35, -.5 ],
               angle: [ -.15, -.15 ]
-            }
+            },
+            uuid: "d51697d0-c837-4c0d-a6af-f192ace27e9a"
           },
           "4": {
             components: {
@@ -20756,7 +21100,8 @@ module.exports = {
               integrity: [ -.4, -.4 ],
               mass: [ -.5, -.65 ],
               angle: [ -.2, -.2 ]
-            }
+            },
+            uuid: "01ccf913-c1cb-47a6-9515-1d2ee3e3b2ae"
           },
           "5": {
             components: {
@@ -20768,7 +21113,8 @@ module.exports = {
               integrity: [ -.5, -.5 ],
               mass: [ -.65, -.8 ],
               angle: [ -.25, -.25 ]
-            }
+            },
+            uuid: "93c0ae86-d3ac-40c5-9ef3-b65c14d53cf6"
           }
         },
         id: 96,
@@ -20786,7 +21132,8 @@ module.exports = {
               mass: [ .2, .2 ],
               angle: [ 0, -.1 ],
               range: [ 0, .15 ]
-            }
+            },
+            uuid: "92c755ae-690b-442c-bacd-606575987f22"
           },
           "2": {
             components: {
@@ -20797,7 +21144,8 @@ module.exports = {
               mass: [ .4, .4 ],
               angle: [ -.1, -.15 ],
               range: [ .15, .3 ]
-            }
+            },
+            uuid: "40167259-2960-4072-a135-cba93c87709d"
           },
           "3": {
             components: {
@@ -20809,7 +21157,8 @@ module.exports = {
               mass: [ .6, .6 ],
               angle: [ -.15, -.2 ],
               range: [ .3, .45 ]
-            }
+            },
+            uuid: "6d422ca1-ebdd-4c87-b2b2-056e36c0cbfb"
           },
           "4": {
             components: {
@@ -20821,7 +21170,8 @@ module.exports = {
               mass: [ .8, .8 ],
               angle: [ -.2, -.25 ],
               range: [ .45, .6 ]
-            }
+            },
+            uuid: "6b09d91f-919f-4a3a-9900-850b026ab01c"
           },
           "5": {
             components: {
@@ -20833,7 +21183,8 @@ module.exports = {
               mass: [ 1, 1 ],
               angle: [ -.25, -.3 ],
               range: [ .6, .75 ]
-            }
+            },
+            uuid: "c055cafb-3e8a-4415-8e9b-cfa8be809b75"
           }
         },
         id: 97,
@@ -20851,7 +21202,8 @@ module.exports = {
               power: [ .1, .1 ],
               angle: [ 0, .4 ],
               range: [ -.04, -.04 ]
-            }
+            },
+            uuid: "996dc047-9f07-47a6-8b05-3283ce666fa7"
           },
           "2": {
             components: {
@@ -20862,7 +21214,8 @@ module.exports = {
               power: [ .2, .2 ],
               angle: [ .4, .8 ],
               range: [ -.08, -.08 ]
-            }
+            },
+            uuid: "0855a023-3a25-44c1-84fa-c6e4e8ac3384"
           },
           "3": {
             components: {
@@ -20874,7 +21227,8 @@ module.exports = {
               power: [ .3, .3 ],
               angle: [ .8, 1.2 ],
               range: [ -.12, -.12 ]
-            }
+            },
+            uuid: "06908f4d-30e8-448f-9652-5051a79713f3"
           },
           "4": {
             components: {
@@ -20886,7 +21240,8 @@ module.exports = {
               power: [ .4, .4 ],
               angle: [ 1.2, 1.6 ],
               range: [ -.16, -.16 ]
-            }
+            },
+            uuid: "af874bae-07c3-457a-b525-baeb771b3d72"
           },
           "5": {
             components: {
@@ -20898,7 +21253,8 @@ module.exports = {
               power: [ .5, .5 ],
               angle: [ 1.6, 2 ],
               range: [ -.2, -.2 ]
-            }
+            },
+            uuid: "1368129e-942e-452e-8228-8a3622dc72a1"
           }
         },
         id: 98,
@@ -20915,7 +21271,8 @@ module.exports = {
             features: {
               mass: [ .2, .2 ],
               scanrate: [ 0, .2 ]
-            }
+            },
+            uuid: "97940d61-5b9a-4b0e-8cfd-33f2175b956a"
           },
           "2": {
             components: {
@@ -20925,7 +21282,8 @@ module.exports = {
             features: {
               mass: [ .4, .4 ],
               scanrate: [ .2, .35 ]
-            }
+            },
+            uuid: "d5c0c74d-a4ff-45ed-a732-3c68aded4e06"
           },
           "3": {
             components: {
@@ -20936,7 +21294,8 @@ module.exports = {
             features: {
               mass: [ .6, .6 ],
               scanrate: [ .35, .5 ]
-            }
+            },
+            uuid: "ca9fc2bb-948e-43f4-b2f2-7bea95509d63"
           },
           "4": {
             components: {
@@ -20947,7 +21306,8 @@ module.exports = {
             features: {
               mass: [ .8, .8 ],
               scanrate: [ .5, .65 ]
-            }
+            },
+            uuid: "ef254d05-630e-41b4-9e0f-d6ea0002b1fc"
           },
           "5": {
             components: {
@@ -20958,7 +21318,8 @@ module.exports = {
             features: {
               mass: [ 1, 1 ],
               scanrate: [ .65, .8 ]
-            }
+            },
+            uuid: "5938bc5c-cd01-4429-a04c-33f53b6b7027"
           }
         },
         id: 95,
@@ -20975,7 +21336,8 @@ module.exports = {
             features: {
               mass: [ .2, .2 ],
               range: [ 0, .4 ]
-            }
+            },
+            uuid: "c35f597e-dac8-4e38-8648-e2cb0018006c"
           },
           "2": {
             components: {
@@ -20985,7 +21347,8 @@ module.exports = {
             features: {
               mass: [ .4, .4 ],
               range: [ .4, .8 ]
-            }
+            },
+            uuid: "5d607664-6ec6-4fdd-b692-4d3621c76150"
           },
           "3": {
             components: {
@@ -20996,7 +21359,8 @@ module.exports = {
             features: {
               mass: [ .6, .6 ],
               range: [ .8, 1.2 ]
-            }
+            },
+            uuid: "e438dda9-1b0d-47e0-be07-295c17b56c2b"
           },
           "4": {
             components: {
@@ -21007,7 +21371,8 @@ module.exports = {
             features: {
               mass: [ .8, .8 ],
               range: [ 1.2, 1.6 ]
-            }
+            },
+            uuid: "07ea5b4c-8ea7-44fb-8b0b-d38149dff798"
           },
           "5": {
             components: {
@@ -21018,7 +21383,8 @@ module.exports = {
             features: {
               mass: [ 1, 1 ],
               range: [ 1.6, 2 ]
-            }
+            },
+            uuid: "885ea8d3-3b00-481c-894c-e8ea8dd9f7e5"
           }
         },
         id: 93,
@@ -21035,7 +21401,8 @@ module.exports = {
             features: {
               mass: [ .2, .2 ],
               angle: [ 0, .4 ]
-            }
+            },
+            uuid: "74d12e8c-a62a-4812-b7f4-9e3356963206"
           },
           "2": {
             components: {
@@ -21045,7 +21412,8 @@ module.exports = {
             features: {
               mass: [ .4, .4 ],
               angle: [ .4, .8 ]
-            }
+            },
+            uuid: "4e76da64-72ea-4112-a5e8-4c14fc2efe57"
           },
           "3": {
             components: {
@@ -21056,7 +21424,8 @@ module.exports = {
             features: {
               mass: [ .6, .6 ],
               angle: [ .8, 1.2 ]
-            }
+            },
+            uuid: "e09980d9-b243-4d0f-8645-441552acb58e"
           },
           "4": {
             components: {
@@ -21067,7 +21436,8 @@ module.exports = {
             features: {
               mass: [ .8, .8 ],
               angle: [ 1.2, 1.6 ]
-            }
+            },
+            uuid: "ed5c2046-bb49-4e48-8799-8c96db420359"
           },
           "5": {
             components: {
@@ -21078,7 +21448,8 @@ module.exports = {
             features: {
               mass: [ 1, 1 ],
               angle: [ 1.6, 2 ]
-            }
+            },
+            uuid: "2b315099-a97d-43a8-958e-3c26c97b4421"
           }
         },
         id: 94,
@@ -21096,7 +21467,8 @@ module.exports = {
               integrity: [ -.1, -.1 ],
               range: [ -.05, -.05 ],
               scantime: [ 0, -.2 ]
-            }
+            },
+            uuid: "c7abe4af-26f0-460c-8df7-71412f12d5f8"
           },
           "2": {
             components: {
@@ -21107,7 +21479,8 @@ module.exports = {
               integrity: [ -.2, -.2 ],
               range: [ -.1, -.1 ],
               scantime: [ -.2, -.35 ]
-            }
+            },
+            uuid: "940b832d-2dac-4671-9ada-4bede831342e"
           },
           "3": {
             components: {
@@ -21119,7 +21492,8 @@ module.exports = {
               integrity: [ -.3, -.3 ],
               range: [ -.15, -.15 ],
               scantime: [ -.35, -.5 ]
-            }
+            },
+            uuid: "223a0854-036f-495d-afa1-69253f2b87c3"
           },
           "4": {
             components: {
@@ -21131,7 +21505,8 @@ module.exports = {
               integrity: [ -.4, -.4 ],
               range: [ -.2, -.2 ],
               scantime: [ -.5, -.65 ]
-            }
+            },
+            uuid: "992ffcbe-26c5-4f41-bc2d-81bb6565ac27"
           },
           "5": {
             components: {
@@ -21143,7 +21518,8 @@ module.exports = {
               integrity: [ -.5, -.5 ],
               range: [ -.25, -.25 ],
               scantime: [ -.8, -.8 ]
-            }
+            },
+            uuid: "d2af32a6-ffdb-4c28-89ee-88f331e678d3"
           }
         },
         id: 109,
@@ -21161,7 +21537,8 @@ module.exports = {
               power: [ .1, .1 ],
               angle: [ -.1, -.1 ],
               range: [ 0, .24 ]
-            }
+            },
+            uuid: "11521a5e-0b00-4efe-9433-b0d4b5168c11"
           },
           "2": {
             components: {
@@ -21172,7 +21549,8 @@ module.exports = {
               power: [ .2, .2 ],
               angle: [ -.12, -.15 ],
               range: [ .24, .48 ]
-            }
+            },
+            uuid: "16235231-561b-4efb-a9bc-dcacb18b5651"
           },
           "3": {
             components: {
@@ -21184,7 +21562,8 @@ module.exports = {
               power: [ .3, .3 ],
               angle: [ -.2, -.2 ],
               range: [ .48, .72 ]
-            }
+            },
+            uuid: "8dcbfbd5-748e-46ee-b179-4e2d213e518c"
           },
           "4": {
             components: {
@@ -21196,7 +21575,8 @@ module.exports = {
               power: [ .4, .4 ],
               angle: [ -.25, -.25 ],
               range: [ .72, .96 ]
-            }
+            },
+            uuid: "44a348b1-979f-498e-bf61-22b38cb6f53b"
           },
           "5": {
             components: {
@@ -21208,7 +21588,8 @@ module.exports = {
               power: [ .5, .5 ],
               angle: [ -.3, -.3 ],
               range: [ .96, 1.2 ]
-            }
+            },
+            uuid: "ee756b0e-c36f-4ea5-a46b-13291522feea"
           }
         },
         id: 108,
@@ -21226,7 +21607,8 @@ module.exports = {
               mass: [ .2, .2 ],
               angle: [ 0, .4 ],
               scantime: [ .1, .1 ]
-            }
+            },
+            uuid: "1b76dc7a-d52c-4cdd-93c6-6857f509519b"
           },
           "2": {
             components: {
@@ -21237,7 +21619,8 @@ module.exports = {
               mass: [ .4, .4 ],
               angle: [ .4, .8 ],
               scantime: [ .2, .2 ]
-            }
+            },
+            uuid: "9e143db0-83e9-49ff-ba53-04927287190b"
           },
           "3": {
             components: {
@@ -21249,7 +21632,8 @@ module.exports = {
               mass: [ .6, .6 ],
               angle: [ .8, 1.2 ],
               scantime: [ .3, .3 ]
-            }
+            },
+            uuid: "d2b0776c-9e74-4fe9-be1c-e49e104dcad6"
           },
           "4": {
             components: {
@@ -21261,7 +21645,8 @@ module.exports = {
               mass: [ .8, .8 ],
               angle: [ 1.2, 1.6 ],
               scantime: [ .4, .4 ]
-            }
+            },
+            uuid: "a00e7425-0828-41ea-9e11-e44bc391dd6f"
           },
           "5": {
             components: {
@@ -21273,7 +21658,8 @@ module.exports = {
               mass: [ 1, 1 ],
               angle: [ 1.6, 2 ],
               scantime: [ .5, .5 ]
-            }
+            },
+            uuid: "7835c40b-1612-49ac-9a41-230cfff63daa"
           }
         },
         id: 106,
@@ -21291,7 +21677,8 @@ module.exports = {
               explres: [ 0, .07 ],
               kinres: [ -.01, -.01 ],
               thermres: [ -.01, -.01 ]
-            }
+            },
+            uuid: "b6dd19e6-60e4-4307-a34f-c7e0e6182d44"
           },
           "2": {
             components: {
@@ -21302,7 +21689,8 @@ module.exports = {
               explres: [ .07, .12 ],
               kinres: [ -.02, -.02 ],
               thermres: [ -.02, -.02 ]
-            }
+            },
+            uuid: "3dd5f8fb-8399-4c4c-96d7-87c3840cfdeb"
           },
           "3": {
             components: {
@@ -21314,7 +21702,8 @@ module.exports = {
               explres: [ .12, .17 ],
               kinres: [ -.03, -.03 ],
               thermres: [ -.03, -.03 ]
-            }
+            },
+            uuid: "640409d8-6cb5-4624-b2b6-f435c9d8453b"
           },
           "4": {
             components: {
@@ -21326,7 +21715,8 @@ module.exports = {
               explres: [ .17, .22 ],
               kinres: [ -.04, -.04 ],
               thermres: [ -.04, -.04 ]
-            }
+            },
+            uuid: "8a311709-54f6-4a5f-a1cc-94c109d947df"
           },
           "5": {
             components: {
@@ -21338,7 +21728,8 @@ module.exports = {
               explres: [ .22, .27 ],
               kinres: [ -.05, -.05 ],
               thermres: [ -.05, -.05 ]
-            }
+            },
+            uuid: "4f120562-e421-4ed8-b0ed-0be8e27548bb"
           }
         },
         id: 68,
@@ -21357,7 +21748,8 @@ module.exports = {
               mass: [ 1, 1 ],
               power: [ .05, .05 ],
               shieldboost: [ 0, .12 ]
-            }
+            },
+            uuid: "350e7873-893a-49d2-9057-c00e060178eb"
           },
           "2": {
             components: {
@@ -21369,7 +21761,8 @@ module.exports = {
               mass: [ 1.5, 1.5 ],
               power: [ .1, .1 ],
               shieldboost: [ .12, .204 ]
-            }
+            },
+            uuid: "636ccc8d-cc59-4366-9934-8b235becc2d7"
           },
           "3": {
             components: {
@@ -21382,7 +21775,8 @@ module.exports = {
               mass: [ 2, 2 ],
               power: [ .15, .15 ],
               shieldboost: [ .204, .288 ]
-            }
+            },
+            uuid: "82a66c08-1205-4c1a-ab02-1889e8ebcdd8"
           },
           "4": {
             components: {
@@ -21395,7 +21789,8 @@ module.exports = {
               mass: [ 2.5, 2.5 ],
               power: [ .2, .2 ],
               shieldboost: [ .288, .372 ]
-            }
+            },
+            uuid: "c635934c-8d9d-4d1c-89e4-3a000a972bf2"
           },
           "5": {
             components: {
@@ -21408,7 +21803,8 @@ module.exports = {
               mass: [ 3, 3 ],
               power: [ .25, .25 ],
               shieldboost: [ .372, .456 ]
-            }
+            },
+            uuid: "933e238e-56e0-44d6-b114-49eaab02f033"
           }
         },
         id: 69,
@@ -21426,7 +21822,8 @@ module.exports = {
               explres: [ -.01, -.01 ],
               kinres: [ 0, .07 ],
               thermres: [ -.01, -.01 ]
-            }
+            },
+            uuid: "8252b4bb-3195-4f46-88e8-b79ed5b5ad43"
           },
           "2": {
             components: {
@@ -21437,7 +21834,8 @@ module.exports = {
               explres: [ -.02, -.02 ],
               kinres: [ .07, .12 ],
               thermres: [ -.02, -.02 ]
-            }
+            },
+            uuid: "5f099a0e-0c37-447b-b552-f2e3d8dc1d19"
           },
           "3": {
             components: {
@@ -21449,7 +21847,8 @@ module.exports = {
               explres: [ -.03, -.03 ],
               kinres: [ .12, .17 ],
               thermres: [ -.03, -.03 ]
-            }
+            },
+            uuid: "ab7f39b5-0b0e-45b2-a016-0916026e9633"
           },
           "4": {
             components: {
@@ -21461,7 +21860,8 @@ module.exports = {
               explres: [ -.04, -.04 ],
               kinres: [ .17, .22 ],
               thermres: [ -.04, -.04 ]
-            }
+            },
+            uuid: "59ddbb49-f4fc-466d-84b6-06f0529915a9"
           },
           "5": {
             components: {
@@ -21473,7 +21873,8 @@ module.exports = {
               explres: [ -.05, -.05 ],
               kinres: [ .22, .27 ],
               thermres: [ -.05, -.05 ]
-            }
+            },
+            uuid: "a224e524-7308-46a1-9a6b-a37a82bdc50b"
           }
         },
         id: 70,
@@ -21493,7 +21894,8 @@ module.exports = {
               kinres: [ .05, .05 ],
               power: [ .05, .05 ],
               thermres: [ .05, .05 ]
-            }
+            },
+            uuid: "54f9f0c6-b4e9-4861-86ab-730d800bea54"
           },
           "2": {
             components: {
@@ -21506,7 +21908,8 @@ module.exports = {
               kinres: [ .08, .08 ],
               power: [ .1, .1 ],
               thermres: [ .08, .08 ]
-            }
+            },
+            uuid: "f082652b-7778-4bce-a1f1-f2491b27eb1a"
           },
           "3": {
             components: {
@@ -21520,7 +21923,8 @@ module.exports = {
               kinres: [ .11, .11 ],
               power: [ .15, .15 ],
               thermres: [ .11, .11 ]
-            }
+            },
+            uuid: "cfb01505-ea2b-4a33-aa6b-cbabeb60db7c"
           },
           "4": {
             components: {
@@ -21534,7 +21938,8 @@ module.exports = {
               kinres: [ .14, .14 ],
               power: [ .2, .2 ],
               thermres: [ .14, .14 ]
-            }
+            },
+            uuid: "1d11b8c8-9c16-4bdb-ba33-e52e79fa5999"
           },
           "5": {
             components: {
@@ -21548,7 +21953,8 @@ module.exports = {
               kinres: [ .17, .17 ],
               power: [ .25, .25 ],
               thermres: [ .17, .17 ]
-            }
+            },
+            uuid: "00a2aefc-0698-4c16-a1f1-6a84907e42bc"
           }
         },
         id: 71,
@@ -21566,7 +21972,8 @@ module.exports = {
               explres: [ -.01, -.01 ],
               kinres: [ -.01, -.01 ],
               thermres: [ 0, .07 ]
-            }
+            },
+            uuid: "9316e798-33cd-4ed2-8289-94eb82e41574"
           },
           "2": {
             components: {
@@ -21577,7 +21984,8 @@ module.exports = {
               explres: [ -.02, -.02 ],
               kinres: [ -.02, -.02 ],
               thermres: [ .07, .12 ]
-            }
+            },
+            uuid: "62eaf453-a4dd-42e6-b404-dfb7569afec6"
           },
           "3": {
             components: {
@@ -21589,7 +21997,8 @@ module.exports = {
               explres: [ -.03, -.03 ],
               kinres: [ -.03, -.03 ],
               thermres: [ .12, .17 ]
-            }
+            },
+            uuid: "90cddf76-5636-46ae-8c41-b28c6831549b"
           },
           "4": {
             components: {
@@ -21601,7 +22010,8 @@ module.exports = {
               explres: [ -.04, -.04 ],
               kinres: [ -.04, -.04 ],
               thermres: [ .17, .22 ]
-            }
+            },
+            uuid: "3a922d38-e010-4874-97c9-7459dda8c184"
           },
           "5": {
             components: {
@@ -21613,7 +22023,8 @@ module.exports = {
               explres: [ -.05, -.05 ],
               kinres: [ -.05, -.05 ],
               thermres: [ .22, .27 ]
-            }
+            },
+            uuid: "562f0d31-cefe-4631-939e-53168a9df2ab"
           }
         },
         id: 72,
@@ -21632,7 +22043,8 @@ module.exports = {
               duration: [ -.06, -.06 ],
               shieldreinforcement: [ 0, .05 ],
               spinup: [ 0, -.1 ]
-            }
+            },
+            uuid: "8f315143-e256-41c2-8833-f35d12e47dce"
           },
           "2": {
             components: {
@@ -21644,7 +22056,8 @@ module.exports = {
               duration: [ -.12, -.12 ],
               shieldreinforcement: [ .05, .1 ],
               spinup: [ -.1, -.2 ]
-            }
+            },
+            uuid: "f983d8e1-9a38-425c-a5bb-3881c5e0f14d"
           },
           "3": {
             components: {
@@ -21657,7 +22070,8 @@ module.exports = {
               duration: [ -.18, -.18 ],
               shieldreinforcement: [ .1, .15 ],
               spinup: [ -.2, -.3 ]
-            }
+            },
+            uuid: "f1cc436c-d2f0-4b79-a832-5fafd62ab5d8"
           }
         },
         id: 73,
@@ -21677,7 +22091,8 @@ module.exports = {
               power: [ .1, .1 ],
               shieldreinforcement: [ 0, .04 ],
               thermload: [ 0, -.06 ]
-            }
+            },
+            uuid: "3aa962e3-48f8-4305-829a-717dbead2830"
           },
           "2": {
             components: {
@@ -21690,7 +22105,8 @@ module.exports = {
               power: [ .15, .15 ],
               shieldreinforcement: [ .04, .06 ],
               thermload: [ -.06, -.12 ]
-            }
+            },
+            uuid: "53d40533-967f-4792-b938-421f7a938540"
           },
           "3": {
             components: {
@@ -21704,7 +22120,8 @@ module.exports = {
               power: [ .2, .2 ],
               shieldreinforcement: [ .06, .08 ],
               thermload: [ -.12, -.18 ]
-            }
+            },
+            uuid: "0648b687-cf76-4953-a531-7eca944ec325"
           }
         },
         id: 74,
@@ -21722,7 +22139,8 @@ module.exports = {
               integrity: [ 0, .2 ],
               kinres: [ 0, .06 ],
               thermres: [ -.04, -.04 ]
-            }
+            },
+            uuid: "df87f0c1-bd60-4e18-8a03-76063d635235"
           },
           "2": {
             components: {
@@ -21733,7 +22151,8 @@ module.exports = {
               integrity: [ .2, .25 ],
               kinres: [ .06, .12 ],
               thermres: [ -.07, -.07 ]
-            }
+            },
+            uuid: "b67f86a0-866c-4233-9cd3-f5ea87a572eb"
           },
           "3": {
             components: {
@@ -21745,7 +22164,8 @@ module.exports = {
               integrity: [ .25, .3 ],
               kinres: [ .12, .18 ],
               thermres: [ -.11, -.11 ]
-            }
+            },
+            uuid: "93979fd6-d135-4221-9a60-c9354e02619f"
           },
           "4": {
             components: {
@@ -21757,7 +22177,8 @@ module.exports = {
               integrity: [ .3, .35 ],
               kinres: [ .18, .24 ],
               thermres: [ -.14, -.14 ]
-            }
+            },
+            uuid: "0e14c801-fd35-4bca-b97b-24da20d8c716"
           },
           "5": {
             components: {
@@ -21769,7 +22190,8 @@ module.exports = {
               integrity: [ .35, .4 ],
               kinres: [ .18, .3 ],
               thermres: [ -.18, -.18 ]
-            }
+            },
+            uuid: "dfdb4767-78e1-4e5f-ae1a-aeb6ae2748c9"
           }
         },
         id: 75,
@@ -21789,7 +22211,8 @@ module.exports = {
               optmass: [ -.02, -.02 ],
               optmul: [ 0, .045 ],
               power: [ 0, -.2 ]
-            }
+            },
+            uuid: "598e0c47-ecd2-4cfa-93d1-08bbda4cd765"
           },
           "2": {
             components: {
@@ -21802,7 +22225,8 @@ module.exports = {
               optmass: [ -.03, -.03 ],
               optmul: [ .02, .09 ],
               power: [ -.2, -.25 ]
-            }
+            },
+            uuid: "605d6333-c544-425e-96c6-a76b6b839e2c"
           },
           "3": {
             components: {
@@ -21816,7 +22240,8 @@ module.exports = {
               optmass: [ -.04, -.04 ],
               optmul: [ .09, .135 ],
               power: [ -.25, -.3 ]
-            }
+            },
+            uuid: "db5f0467-5bdc-433e-986d-031bbd48067b"
           },
           "4": {
             components: {
@@ -21830,7 +22255,8 @@ module.exports = {
               optmass: [ -.05, -.05 ],
               optmul: [ .135, .18 ],
               power: [ -.3, -.35 ]
-            }
+            },
+            uuid: "88987ab7-b759-4cda-acbb-726bd0ad17c7"
           },
           "5": {
             components: {
@@ -21844,7 +22270,8 @@ module.exports = {
               optmass: [ -.06, -.06 ],
               optmul: [ .18, .225 ],
               power: [ -.35, -.4 ]
-            }
+            },
+            uuid: "cf878a5a-542b-46e8-8b56-4d179eac3f46"
           }
         },
         id: 76,
@@ -21865,7 +22292,8 @@ module.exports = {
               kinres: [ 0, .027 ],
               optmul: [ 0, .14 ],
               thermres: [ 0, .054 ]
-            }
+            },
+            uuid: "47ad77c0-e49b-44e5-9824-4074b63db369"
           },
           "2": {
             components: {
@@ -21879,7 +22307,8 @@ module.exports = {
               kinres: [ .027, .045 ],
               optmul: [ .14, .2 ],
               thermres: [ .054, .09 ]
-            }
+            },
+            uuid: "823f8f82-745d-4051-8f35-4e38a561932e"
           },
           "3": {
             components: {
@@ -21894,7 +22323,8 @@ module.exports = {
               kinres: [ .045, .063 ],
               optmul: [ .2, .26 ],
               thermres: [ .09, .126 ]
-            }
+            },
+            uuid: "a1a29713-f2e5-4e15-a913-e01dc065f99f"
           },
           "4": {
             components: {
@@ -21909,7 +22339,8 @@ module.exports = {
               kinres: [ .063, .081 ],
               optmul: [ .26, .32 ],
               thermres: [ .126, .162 ]
-            }
+            },
+            uuid: "87ac1315-7904-48f6-a5fe-f044be546490"
           },
           "5": {
             components: {
@@ -21924,7 +22355,8 @@ module.exports = {
               kinres: [ .081, .099 ],
               optmul: [ .32, .38 ],
               thermres: [ .162, .198 ]
-            }
+            },
+            uuid: "1d9af376-c7c9-4b1a-9bc9-e77b4025e328"
           }
         },
         id: 77,
@@ -21942,7 +22374,8 @@ module.exports = {
               integrity: [ 0, .2 ],
               kinres: [ -.02, -.02 ],
               thermres: [ 0, .12 ]
-            }
+            },
+            uuid: "ef5a3026-0777-4715-a1f4-5c65eff85b12"
           },
           "2": {
             components: {
@@ -21953,7 +22386,8 @@ module.exports = {
               integrity: [ .2, .25 ],
               kinres: [ -.05, -.05 ],
               thermres: [ .12, .24 ]
-            }
+            },
+            uuid: "54e6e07a-3281-41aa-afa0-bbf292131c0f"
           },
           "3": {
             components: {
@@ -21965,7 +22399,8 @@ module.exports = {
               integrity: [ .25, .3 ],
               kinres: [ -.07, -.07 ],
               thermres: [ .24, .36 ]
-            }
+            },
+            uuid: "307935bf-60d3-4887-b449-24d712518154"
           },
           "4": {
             components: {
@@ -21977,7 +22412,8 @@ module.exports = {
               integrity: [ .3, .35 ],
               kinres: [ -.1, -.1 ],
               thermres: [ .36, .48 ]
-            }
+            },
+            uuid: "ef6a4d70-9996-4db8-ae22-7c61c3dcaf74"
           },
           "5": {
             components: {
@@ -21989,7 +22425,8 @@ module.exports = {
               integrity: [ .35, .4 ],
               kinres: [ -.12, -.12 ],
               thermres: [ .48, .6 ]
-            }
+            },
+            uuid: "f14e779f-d09a-47e4-8f4e-89c85b730f6b"
           }
         },
         id: 78,
@@ -22006,7 +22443,8 @@ module.exports = {
             features: {
               integrity: [ -.1, -.1 ],
               mass: [ 0, -.45 ]
-            }
+            },
+            uuid: "bb40e7d4-d0f1-46aa-bedd-d946db82012d"
           },
           "2": {
             components: {
@@ -22016,7 +22454,8 @@ module.exports = {
             features: {
               integrity: [ -.2, -.2 ],
               mass: [ -.45, -.55 ]
-            }
+            },
+            uuid: "3d38ce20-64c8-4416-bf8c-a0de02225624"
           },
           "3": {
             components: {
@@ -22027,7 +22466,8 @@ module.exports = {
             features: {
               integrity: [ -.3, -.3 ],
               mass: [ -.55, -.65 ]
-            }
+            },
+            uuid: "86c3114f-e2d5-46a1-963b-a8dcdc4254c3"
           },
           "4": {
             components: {
@@ -22038,7 +22478,8 @@ module.exports = {
             features: {
               integrity: [ -.4, -.4 ],
               mass: [ -.65, -.75 ]
-            }
+            },
+            uuid: "cd80437d-740d-4391-810d-607f7e35202c"
           },
           "5": {
             components: {
@@ -22049,7 +22490,8 @@ module.exports = {
             features: {
               integrity: [ -.5, -.5 ],
               mass: [ -.75, -.85 ]
-            }
+            },
+            uuid: "e6f931fb-2d19-40b0-bfb2-4a0520f0c478"
           }
         },
         id: 79,
@@ -22066,7 +22508,8 @@ module.exports = {
             features: {
               integrity: [ 0, .6 ],
               mass: [ .3, .3 ]
-            }
+            },
+            uuid: "8a71178f-3d2a-4c53-94dc-606d9d43d43a"
           },
           "2": {
             components: {
@@ -22076,7 +22519,8 @@ module.exports = {
             features: {
               integrity: [ .6, 1.2 ],
               mass: [ .6, .6 ]
-            }
+            },
+            uuid: "72595b30-3bbf-47e3-82f7-db29654bef66"
           },
           "3": {
             components: {
@@ -22087,7 +22531,8 @@ module.exports = {
             features: {
               integrity: [ 1.2, 1.8 ],
               mass: [ .9, .9 ]
-            }
+            },
+            uuid: "8cca72b3-f01a-49aa-a979-a72f3412bf6e"
           },
           "4": {
             components: {
@@ -22098,7 +22543,8 @@ module.exports = {
             features: {
               integrity: [ 1.8, 2.4 ],
               mass: [ 1.2, 1.2 ]
-            }
+            },
+            uuid: "89f9e00f-e621-4d34-bb15-4732f29a7f15"
           },
           "5": {
             components: {
@@ -22109,7 +22555,8 @@ module.exports = {
             features: {
               integrity: [ 2.4, 3 ],
               mass: [ 1.5, 1.5 ]
-            }
+            },
+            uuid: "8f0e13ab-c621-4c21-b7a1-f8acd4057007"
           }
         },
         id: 81,
@@ -22126,7 +22573,8 @@ module.exports = {
             features: {
               integrity: [ 0, .6 ],
               power: [ .2, .2 ]
-            }
+            },
+            uuid: "c500da24-7fe5-48f6-8661-593f4caee91a"
           },
           "2": {
             components: {
@@ -22136,7 +22584,8 @@ module.exports = {
             features: {
               integrity: [ .6, 1.2 ],
               power: [ .4, .4 ]
-            }
+            },
+            uuid: "eed60442-f13e-4662-8132-e50a23e2534a"
           },
           "3": {
             components: {
@@ -22147,7 +22596,8 @@ module.exports = {
             features: {
               integrity: [ 1.2, 1.8 ],
               power: [ .6, .6 ]
-            }
+            },
+            uuid: "df8baf0f-01a1-4fea-94e6-e169f71af1c6"
           },
           "4": {
             components: {
@@ -22158,7 +22608,8 @@ module.exports = {
             features: {
               integrity: [ 1.8, 2.4 ],
               power: [ .8, .8 ]
-            }
+            },
+            uuid: "107cbead-888f-4b4c-a57e-324ccfe37006"
           },
           "5": {
             components: {
@@ -22169,7 +22620,8 @@ module.exports = {
             features: {
               integrity: [ 2.4, 3 ],
               power: [ 1, 1 ]
-            }
+            },
+            uuid: "1c08bdca-000b-4e79-89cb-2cab3d5e3ce7"
           }
         },
         id: 80,
@@ -22188,7 +22640,8 @@ module.exports = {
               burstrof: [ 0, 6 ],
               clip: [ .34, .34 ],
               range: [ -.02, -.02 ]
-            }
+            },
+            uuid: "0dad25c2-bbf3-4020-9af5-25f902ec7732"
           },
           "2": {
             components: {
@@ -22200,7 +22653,8 @@ module.exports = {
               burstrof: [ 6, 8 ],
               clip: [ .34, .34 ],
               range: [ -.04, -.04 ]
-            }
+            },
+            uuid: "5cdaf06c-5ecd-40f0-bb8b-54ce8847b4e6"
           },
           "3": {
             components: {
@@ -22213,7 +22667,8 @@ module.exports = {
               burstrof: [ 8, 10 ],
               clip: [ .34, .34 ],
               range: [ -.06, -.06 ]
-            }
+            },
+            uuid: "fca184ef-5346-4f9a-8964-1e158763ab03"
           },
           "4": {
             components: {
@@ -22226,7 +22681,8 @@ module.exports = {
               burstrof: [ 10, 12 ],
               clip: [ .34, .34 ],
               range: [ -.08, -.08 ]
-            }
+            },
+            uuid: "93cc424a-f547-409e-8487-2f73c27d4e47"
           },
           "5": {
             components: {
@@ -22239,7 +22695,8 @@ module.exports = {
               burstrof: [ 12, 14 ],
               clip: [ 1, 1 ],
               range: [ -.1, -.1 ]
-            }
+            },
+            uuid: "0d790580-fc41-4378-b8e9-4feceaebb618"
           }
         },
         id: 82,
@@ -22256,7 +22713,8 @@ module.exports = {
             features: {
               damage: [ 0, .08 ],
               thermload: [ 0, -.38 ]
-            }
+            },
+            uuid: "3fbcc9dc-169a-4cd3-b945-cedc55882cd3"
           },
           "2": {
             components: {
@@ -22268,7 +22726,8 @@ module.exports = {
               distdraw: [ 0, -.15 ],
               power: [ 0, -.12 ],
               thermload: [ -.38, -.43 ]
-            }
+            },
+            uuid: "a35a0c80-784d-4125-b858-fdee45750269"
           },
           "3": {
             components: {
@@ -22281,7 +22740,8 @@ module.exports = {
               distdraw: [ -.15, -.24 ],
               power: [ -.12, -.24 ],
               thermload: [ -.43, -.48 ]
-            }
+            },
+            uuid: "a429328b-11f4-402d-9909-2c6190505966"
           },
           "4": {
             components: {
@@ -22294,7 +22754,8 @@ module.exports = {
               distdraw: [ -.24, -.35 ],
               power: [ -.24, -.36 ],
               thermload: [ -.48, -.52 ]
-            }
+            },
+            uuid: "8c364495-468c-4ab1-9baf-079917a6cf9a"
           },
           "5": {
             components: {
@@ -22307,7 +22768,8 @@ module.exports = {
               distdraw: [ -.35, -.45 ],
               power: [ -.36, -.45 ],
               thermload: [ -.52, -.6 ]
-            }
+            },
+            uuid: "5ac92753-1c19-4ae8-8b12-c6f130bda4a5"
           }
         },
         id: 83,
@@ -22326,7 +22788,8 @@ module.exports = {
               range: [ 0, .36 ],
               rof: [ 0, .36 ],
               thermload: [ .01, .01 ]
-            }
+            },
+            uuid: "fc3e4f2e-04fb-4509-a31f-1121940e1bc6"
           },
           "2": {
             components: {
@@ -22338,7 +22801,8 @@ module.exports = {
               range: [ .36, .52 ],
               rof: [ .36, .52 ],
               thermload: [ .02, .02 ]
-            }
+            },
+            uuid: "437e00b1-a6fd-4d84-9242-075c3ce8adcb"
           },
           "3": {
             components: {
@@ -22351,7 +22815,8 @@ module.exports = {
               range: [ .52, .68 ],
               rof: [ .52, .68 ],
               thermload: [ .03, .03 ]
-            }
+            },
+            uuid: "bfbadc34-e11a-4cc4-80cc-83dde5731e6f"
           },
           "4": {
             components: {
@@ -22364,7 +22829,8 @@ module.exports = {
               range: [ .68, .84 ],
               rof: [ .68, .84 ],
               thermload: [ .04, .04 ]
-            }
+            },
+            uuid: "7c41f9fc-90ec-435e-9d92-6024c32ac40d"
           },
           "5": {
             components: {
@@ -22377,7 +22843,8 @@ module.exports = {
               range: [ .84, 1 ],
               rof: [ .84, 1 ],
               thermload: [ .05, .05 ]
-            }
+            },
+            uuid: "d9306721-43a4-45cd-b225-ac9174da4d13"
           }
         },
         id: 84,
@@ -22397,7 +22864,8 @@ module.exports = {
               mass: [ .2, .2 ],
               power: [ .04, .04 ],
               rof: [ 0, .02 ]
-            }
+            },
+            uuid: "f622da45-ef05-4a9f-bdcb-879b5933b869"
           },
           "2": {
             components: {
@@ -22410,7 +22878,8 @@ module.exports = {
               mass: [ .3, .3 ],
               power: [ .08, .08 ],
               rof: [ .02, .04 ]
-            }
+            },
+            uuid: "c2cf2614-1a13-4b8d-81eb-d4eaf76257d0"
           },
           "3": {
             components: {
@@ -22424,7 +22893,8 @@ module.exports = {
               mass: [ .4, .4 ],
               power: [ .12, .12 ],
               rof: [ .04, .06 ]
-            }
+            },
+            uuid: "e37a6dba-669e-4ce6-bb3d-e831bdd656c0"
           },
           "4": {
             components: {
@@ -22438,7 +22908,8 @@ module.exports = {
               mass: [ .5, .5 ],
               power: [ .16, .16 ],
               rof: [ .06, .08 ]
-            }
+            },
+            uuid: "8800433a-2061-4776-9821-5dc04772b963"
           },
           "5": {
             components: {
@@ -22452,7 +22923,8 @@ module.exports = {
               mass: [ .6, .6 ],
               power: [ .2, .2 ],
               rof: [ .08, .1 ]
-            }
+            },
+            uuid: "4b3f4f18-a517-4354-a02d-de46b3cd4efc"
           }
         },
         id: 85,
@@ -22469,7 +22941,8 @@ module.exports = {
             features: {
               integrity: [ -.2, -.2 ],
               mass: [ 0, -.3 ]
-            }
+            },
+            uuid: "d5a539c5-120a-450f-bb68-e10abbeca8a9"
           },
           "2": {
             components: {
@@ -22481,7 +22954,8 @@ module.exports = {
               integrity: [ -.3, -.3 ],
               mass: [ -.3, -.45 ],
               power: [ 0, -.1 ]
-            }
+            },
+            uuid: "b6a80556-c22a-466e-931c-239c208c9890"
           },
           "3": {
             components: {
@@ -22494,7 +22968,8 @@ module.exports = {
               integrity: [ -.4, -.4 ],
               mass: [ -.45, -.6 ],
               power: [ -.1, -.2 ]
-            }
+            },
+            uuid: "cbec8003-80e4-455a-84fe-257d2018386e"
           },
           "4": {
             components: {
@@ -22507,7 +22982,8 @@ module.exports = {
               integrity: [ -.5, -.5 ],
               mass: [ -.6, -.75 ],
               power: [ -.2, -.3 ]
-            }
+            },
+            uuid: "3a57effa-ccac-448d-8d1c-3e0966042e24"
           },
           "5": {
             components: {
@@ -22520,7 +22996,8 @@ module.exports = {
               integrity: [ -.6, -.6 ],
               mass: [ -.75, -.9 ],
               power: [ -.3, -.4 ]
-            }
+            },
+            uuid: "89f5d8e2-4f4c-4ef0-9e74-9f0691244b22"
           }
         },
         id: 86,
@@ -22540,7 +23017,8 @@ module.exports = {
               power: [ .03, .03 ],
               range: [ 0, .2 ],
               shotspeed: [ 0, .2 ]
-            }
+            },
+            uuid: "356d1457-e52f-4302-8af5-745e103b85e8"
           },
           "2": {
             components: {
@@ -22553,7 +23031,8 @@ module.exports = {
               power: [ .06, .06 ],
               range: [ .2, .4 ],
               shotspeed: [ .2, .4 ]
-            }
+            },
+            uuid: "965e7108-73d5-4f26-95ab-2d261716a80c"
           },
           "3": {
             components: {
@@ -22567,7 +23046,8 @@ module.exports = {
               power: [ .09, .09 ],
               range: [ .4, .6 ],
               shotspeed: [ .4, .6 ]
-            }
+            },
+            uuid: "9d56f79f-9077-4391-8719-67e96c9613dd"
           },
           "4": {
             components: {
@@ -22581,7 +23061,8 @@ module.exports = {
               power: [ .12, .12 ],
               range: [ .6, .8 ],
               shotspeed: [ .6, .8 ]
-            }
+            },
+            uuid: "fbd49a72-d117-4e01-8485-d69b2267c803"
           },
           "5": {
             components: {
@@ -22595,7 +23076,8 @@ module.exports = {
               power: [ .15, .15 ],
               range: [ .8, 1 ],
               shotspeed: [ .8, 1 ]
-            }
+            },
+            uuid: "0d08a432-cfcd-40a7-8000-74a0dee56812"
           }
         },
         id: 87,
@@ -22614,7 +23096,8 @@ module.exports = {
               damage: [ 0, .3 ],
               distdraw: [ 0, .15 ],
               thermload: [ 0, .03 ]
-            }
+            },
+            uuid: "e917ebe3-d5f1-4016-b8a9-2c759e16a7d4"
           },
           "2": {
             components: {
@@ -22626,7 +23109,8 @@ module.exports = {
               damage: [ .3, .4 ],
               distdraw: [ .15, .2 ],
               thermload: [ .03, .06 ]
-            }
+            },
+            uuid: "f5921fc1-fb10-4d2f-8e0a-cd8d8e9e3a84"
           },
           "3": {
             components: {
@@ -22639,7 +23123,8 @@ module.exports = {
               damage: [ .4, .5 ],
               distdraw: [ .2, .25 ],
               thermload: [ .06, .09 ]
-            }
+            },
+            uuid: "4389883f-c2b3-4487-9b1a-b668a761057a"
           },
           "4": {
             components: {
@@ -22652,7 +23137,8 @@ module.exports = {
               damage: [ .5, .6 ],
               distdraw: [ .25, .3 ],
               thermload: [ .09, .12 ]
-            }
+            },
+            uuid: "25ec26dd-63b8-4e83-9a6e-86e5b80c4771"
           },
           "5": {
             components: {
@@ -22665,7 +23151,8 @@ module.exports = {
               damage: [ .6, .7 ],
               distdraw: [ .3, .35 ],
               thermload: [ .12, .15 ]
-            }
+            },
+            uuid: "4dcf6bdc-bcff-448a-92a0-7612de548db7"
           }
         },
         id: 88,
@@ -22684,7 +23171,8 @@ module.exports = {
               jitter: [ .5, .5 ],
               reload: [ 0, -.25 ],
               rof: [ 0, .08 ]
-            }
+            },
+            uuid: "a7ca2bf6-14be-41ed-8bfb-c7348fda7713"
           },
           "2": {
             components: {
@@ -22697,7 +23185,8 @@ module.exports = {
               jitter: [ .5, .5 ],
               reload: [ -.25, -.35 ],
               rof: [ .08, .17 ]
-            }
+            },
+            uuid: "0008257b-ea33-48ea-a18e-56cc6cf98a77"
           },
           "3": {
             components: {
@@ -22711,7 +23200,8 @@ module.exports = {
               jitter: [ .5, .5 ],
               reload: [ -.35, -.45 ],
               rof: [ .17, .26 ]
-            }
+            },
+            uuid: "f3338d38-f944-4841-b350-09755e1b615d"
           },
           "4": {
             components: {
@@ -22725,7 +23215,8 @@ module.exports = {
               jitter: [ .5, .5 ],
               reload: [ -.45, -.55 ],
               rof: [ .26, .35 ]
-            }
+            },
+            uuid: "d2bdb568-725a-44bf-9328-ba72d2988acd"
           },
           "5": {
             components: {
@@ -22739,7 +23230,8 @@ module.exports = {
               jitter: [ .5, .5 ],
               reload: [ -.55, -.65 ],
               rof: [ .35, .44 ]
-            }
+            },
+            uuid: "b1792824-0e96-42a3-9d3a-0b41d5ef83e0"
           }
         },
         id: 89,
@@ -22756,7 +23248,8 @@ module.exports = {
             features: {
               damage: [ .15, .27 ],
               range: [ -.1, -.1 ]
-            }
+            },
+            uuid: "81dca970-1fbf-4017-af46-0c6285c3a728"
           },
           "2": {
             components: {
@@ -22767,7 +23260,8 @@ module.exports = {
               damage: [ .27, .39 ],
               range: [ -.2, -.2 ],
               thermload: [ .1, .1 ]
-            }
+            },
+            uuid: "cf07de84-b794-43fd-a8b6-57ee781e9247"
           },
           "3": {
             components: {
@@ -22779,7 +23273,8 @@ module.exports = {
               damage: [ .39, .51 ],
               range: [ -.3, -.3 ],
               thermload: [ .2, .2 ]
-            }
+            },
+            uuid: "7cd60cfe-e406-4005-a912-a306a69067e0"
           },
           "4": {
             components: {
@@ -22791,7 +23286,8 @@ module.exports = {
               damage: [ .51, .63 ],
               range: [ -.4, -.4 ],
               thermload: [ .3, .3 ]
-            }
+            },
+            uuid: "adae0f67-fd08-47d5-8870-f926cc63353f"
           },
           "5": {
             components: {
@@ -22803,7 +23299,8 @@ module.exports = {
               damage: [ .63, .75 ],
               range: [ -.5, -.5 ],
               thermload: [ .4, .4 ]
-            }
+            },
+            uuid: "ccf0cfd9-6da2-4975-95fa-ea7f0ccda991"
           }
         },
         id: 90,
@@ -22822,7 +23319,8 @@ module.exports = {
               mass: [ .2, .2 ],
               piercing: [ 0, .2 ],
               thermload: [ 0, -.1 ]
-            }
+            },
+            uuid: "3ac55eb7-0a45-440b-8c59-6ead43c7ef49"
           },
           "2": {
             components: {
@@ -22834,7 +23332,8 @@ module.exports = {
               mass: [ .4, .4 ],
               piercing: [ .2, .3 ],
               thermload: [ -.1, -.15 ]
-            }
+            },
+            uuid: "53c131ab-cd66-4919-b49b-c1435362c8ff"
           },
           "3": {
             components: {
@@ -22847,7 +23346,8 @@ module.exports = {
               mass: [ .6, .6 ],
               piercing: [ .3, .4 ],
               thermload: [ -.15, -.2 ]
-            }
+            },
+            uuid: "2d1873d4-6d38-4d39-b4c5-ea199be2bd6a"
           },
           "4": {
             components: {
@@ -22860,7 +23360,8 @@ module.exports = {
               mass: [ .8, .8 ],
               piercing: [ .4, .5 ],
               thermload: [ -.2, -.25 ]
-            }
+            },
+            uuid: "4ceeab9c-7a85-4553-9fa4-81ebc6e88d4f"
           },
           "5": {
             components: {
@@ -22873,7 +23374,8 @@ module.exports = {
               mass: [ 1, 1 ],
               piercing: [ .5, .6 ],
               thermload: [ -.25, -.3 ]
-            }
+            },
+            uuid: "53ab027e-1c5f-404b-82e3-0bc4c55c71af"
           }
         },
         id: 91,
