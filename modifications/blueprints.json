@@ -6277,7 +6277,7 @@
           "Sulphur": 1
         },
         "features": {
-          "fallofffromrange": [ 0, 0.2 ],
+          "fallofffromrange": [ 0.2, 0.2 ],
           "mass": [ 0.1, 0.1 ],
           "power": [ 0.03, 0.03 ],
           "range": [ 0, 0.2 ],

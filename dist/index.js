@@ -22535,7 +22535,7 @@ module.exports = {
               Sulphur: 1
             },
             features: {
-              fallofffromrange: [ 0, .2 ],
+              fallofffromrange: [ .2, .2 ],
               mass: [ .1, .1 ],
               power: [ .03, .03 ],
               range: [ 0, .2 ],
