@@ -101,7 +101,7 @@ module.exports = {
         speed: 230,
         boost: 330,
         boostEnergy: 19,
-        baseShieldStrength: 154,
+        baseShieldStrength: 200,
         baseArmour: 280,
         hardness: 65,
         hullMass: 400,
