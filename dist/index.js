@@ -21802,7 +21802,7 @@ module.exports = {
               integrity: [ .12, .15 ],
               mass: [ 3, 3 ],
               power: [ .25, .25 ],
-              shieldboost: [ .372, .456 ]
+              shieldboost: [ .372, .38 ]
             },
             uuid: "933e238e-56e0-44d6-b114-49eaab02f033"
           }
