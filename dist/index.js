@@ -3728,7 +3728,7 @@ module.exports = {
       }, {
         class: 2,
         cost: 162e3,
-        edID: 128064037,
+        edID: 128833988,
         eddbID: 895,
         eff: .5,
         grp: "pp",
@@ -3742,11 +3742,11 @@ module.exports = {
       }, {
         class: 3,
         cost: 291600,
-        edID: 128064037,
+        edID: 128833989,
         eddbID: 895,
         eff: .5,
         grp: "pp",
-        id: "0B",
+        id: "0T",
         integrity: 70,
         mass: 2.9,
         pgen: 15.8,
@@ -3756,7 +3756,7 @@ module.exports = {
       }, {
         class: 4,
         cost: 524880,
-        edID: 128064037,
+        edID: 128833990,
         eddbID: 895,
         eff: .5,
         grp: "pp",
@@ -3770,7 +3770,7 @@ module.exports = {
       }, {
         class: 5,
         cost: 944790,
-        edID: 128064037,
+        edID: 128833991,
         eddbID: 895,
         eff: .5,
         grp: "pp",
@@ -3784,7 +3784,7 @@ module.exports = {
       }, {
         class: 6,
         cost: 1700610,
-        edID: 128064037,
+        edID: 128833992,
         eddbID: 895,
         eff: .5,
         grp: "pp",
@@ -3798,7 +3798,7 @@ module.exports = {
       }, {
         class: 7,
         cost: 3061100,
-        edID: 128064037,
+        edID: 128833993,
         eddbID: 895,
         eff: .5,
         grp: "pp",
@@ -3812,7 +3812,7 @@ module.exports = {
       }, {
         class: 8,
         cost: 5509980,
-        edID: 128064037,
+        edID: 128833994,
         eddbID: 895,
         eff: .5,
         grp: "pp",
@@ -11282,6 +11282,28 @@ module.exports = {
         name: "Corrosion Resistant",
         rating: "F",
         symbol: "Int_CorrosionProofCargoRack_Size1_Class2"
+      }, {
+        cargo: 4,
+        class: 2,
+        cost: 12563,
+        edID: 128681992,
+        eddbID: 1552,
+        grp: "cr",
+        id: "0V",
+        name: "Corrosion Resistant",
+        rating: "F",
+        symbol: "Int_CorrosionProofCargoRack_Size2_Class1"
+      }, {
+        cargo: 16,
+        class: 4,
+        cost: 94330,
+        edID: 128681992,
+        eddbID: 1552,
+        grp: "cr",
+        id: "0W",
+        name: "Corrosion Resistant",
+        rating: "E",
+        symbol: "Int_CorrosionProofCargoRack_Size4_Class1"
       } ],
       cc: [ {
         class: 1,
