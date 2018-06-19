@@ -22808,7 +22808,6 @@ module.exports = {
             features: {
               piercing: [ 0, .4 ],
               range: [ 0, .36 ],
-              rof: [ 0, .36 ],
               thermload: [ .01, .01 ]
             },
             uuid: "fc3e4f2e-04fb-4509-a31f-1121940e1bc6"
@@ -22821,7 +22820,6 @@ module.exports = {
             features: {
               piercing: [ .4, .6 ],
               range: [ .36, .52 ],
-              rof: [ .36, .52 ],
               thermload: [ .02, .02 ]
             },
             uuid: "437e00b1-a6fd-4d84-9242-075c3ce8adcb"
@@ -22835,7 +22833,6 @@ module.exports = {
             features: {
               piercing: [ .6, .8 ],
               range: [ .52, .68 ],
-              rof: [ .52, .68 ],
               thermload: [ .03, .03 ]
             },
             uuid: "bfbadc34-e11a-4cc4-80cc-83dde5731e6f"
@@ -22849,7 +22846,6 @@ module.exports = {
             features: {
               piercing: [ .8, 1 ],
               range: [ .68, .84 ],
-              rof: [ .68, .84 ],
               thermload: [ .04, .04 ]
             },
             uuid: "7c41f9fc-90ec-435e-9d92-6024c32ac40d"
@@ -22863,7 +22859,6 @@ module.exports = {
             features: {
               piercing: [ 1, 1.2 ],
               range: [ .84, 1 ],
-              rof: [ .84, 1 ],
               thermload: [ .05, .05 ]
             },
             uuid: "d9306721-43a4-45cd-b225-ac9174da4d13"
