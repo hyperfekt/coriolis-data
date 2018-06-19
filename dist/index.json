@@ -147,7 +147,7 @@
 				"speed": 230,
 				"boost": 330,
 				"boostEnergy": 19,
-				"baseShieldStrength": 154,
+				"baseShieldStrength": 200,
 				"baseArmour": 280,
 				"hardness": 65,
 				"hullMass": 400,
@@ -5648,7 +5648,7 @@
 				{
 					"class": 2,
 					"cost": 162000,
-					"edID": 128064037,
+					"edID": 128833988,
 					"eddbID": 895,
 					"eff": 0.5,
 					"grp": "pp",
@@ -5663,11 +5663,11 @@
 				{
 					"class": 3,
 					"cost": 291600,
-					"edID": 128064037,
+					"edID": 128833989,
 					"eddbID": 895,
 					"eff": 0.5,
 					"grp": "pp",
-					"id": "0B",
+					"id": "0T",
 					"integrity": 70,
 					"mass": 2.9,
 					"pgen": 15.8,
@@ -5678,7 +5678,7 @@
 				{
 					"class": 4,
 					"cost": 524880,
-					"edID": 128064037,
+					"edID": 128833990,
 					"eddbID": 895,
 					"eff": 0.5,
 					"grp": "pp",
@@ -5693,7 +5693,7 @@
 				{
 					"class": 5,
 					"cost": 944790,
-					"edID": 128064037,
+					"edID": 128833991,
 					"eddbID": 895,
 					"eff": 0.5,
 					"grp": "pp",
@@ -5708,7 +5708,7 @@
 				{
 					"class": 6,
 					"cost": 1700610,
-					"edID": 128064037,
+					"edID": 128833992,
 					"eddbID": 895,
 					"eff": 0.5,
 					"grp": "pp",
@@ -5723,7 +5723,7 @@
 				{
 					"class": 7,
 					"cost": 3061100,
-					"edID": 128064037,
+					"edID": 128833993,
 					"eddbID": 895,
 					"eff": 0.5,
 					"grp": "pp",
@@ -5738,7 +5738,7 @@
 				{
 					"class": 8,
 					"cost": 5509980,
-					"edID": 128064037,
+					"edID": 128833994,
 					"eddbID": 895,
 					"eff": 0.5,
 					"grp": "pp",
@@ -13634,6 +13634,30 @@
 					"name": "Corrosion Resistant",
 					"rating": "F",
 					"symbol": "Int_CorrosionProofCargoRack_Size1_Class2"
+				},
+				{
+					"cargo": 4,
+					"class": 2,
+					"cost": 12563,
+					"edID": 128681992,
+					"eddbID": 1552,
+					"grp": "cr",
+					"id": "0V",
+					"name": "Corrosion Resistant",
+					"rating": "F",
+					"symbol": "Int_CorrosionProofCargoRack_Size2_Class1"
+				},
+				{
+					"cargo": 16,
+					"class": 4,
+					"cost": 94330,
+					"edID": 128681992,
+					"eddbID": 1552,
+					"grp": "cr",
+					"id": "0W",
+					"name": "Corrosion Resistant",
+					"rating": "E",
+					"symbol": "Int_CorrosionProofCargoRack_Size4_Class1"
 				}
 			],
 			"cc": [
@@ -28227,7 +28251,7 @@
 							],
 							"shieldboost": [
 								0.372,
-								0.456
+								0.38
 							]
 						},
 						"uuid": "933e238e-56e0-44d6-b114-49eaab02f033"
@@ -29962,10 +29986,6 @@
 								0,
 								0.36
 							],
-							"rof": [
-								0,
-								0.36
-							],
 							"thermload": [
 								0.01,
 								0.01
@@ -29984,10 +30004,6 @@
 								0.6
 							],
 							"range": [
-								0.36,
-								0.52
-							],
-							"rof": [
 								0.36,
 								0.52
 							],
@@ -30013,10 +30029,6 @@
 								0.52,
 								0.68
 							],
-							"rof": [
-								0.52,
-								0.68
-							],
 							"thermload": [
 								0.03,
 								0.03
@@ -30039,10 +30051,6 @@
 								0.68,
 								0.84
 							],
-							"rof": [
-								0.68,
-								0.84
-							],
 							"thermload": [
 								0.04,
 								0.04
@@ -30062,10 +30070,6 @@
 								1.2
 							],
 							"range": [
-								0.84,
-								1
-							],
-							"rof": [
 								0.84,
 								1
 							],

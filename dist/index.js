@@ -101,7 +101,7 @@ module.exports = {
         speed: 230,
         boost: 330,
         boostEnergy: 19,
-        baseShieldStrength: 154,
+        baseShieldStrength: 200,
         baseArmour: 280,
         hardness: 65,
         hullMass: 400,
@@ -3728,7 +3728,7 @@ module.exports = {
       }, {
         class: 2,
         cost: 162e3,
-        edID: 128064037,
+        edID: 128833988,
         eddbID: 895,
         eff: .5,
         grp: "pp",
@@ -3742,11 +3742,11 @@ module.exports = {
       }, {
         class: 3,
         cost: 291600,
-        edID: 128064037,
+        edID: 128833989,
         eddbID: 895,
         eff: .5,
         grp: "pp",
-        id: "0B",
+        id: "0T",
         integrity: 70,
         mass: 2.9,
         pgen: 15.8,
@@ -3756,7 +3756,7 @@ module.exports = {
       }, {
         class: 4,
         cost: 524880,
-        edID: 128064037,
+        edID: 128833990,
         eddbID: 895,
         eff: .5,
         grp: "pp",
@@ -3770,7 +3770,7 @@ module.exports = {
       }, {
         class: 5,
         cost: 944790,
-        edID: 128064037,
+        edID: 128833991,
         eddbID: 895,
         eff: .5,
         grp: "pp",
@@ -3784,7 +3784,7 @@ module.exports = {
       }, {
         class: 6,
         cost: 1700610,
-        edID: 128064037,
+        edID: 128833992,
         eddbID: 895,
         eff: .5,
         grp: "pp",
@@ -3798,7 +3798,7 @@ module.exports = {
       }, {
         class: 7,
         cost: 3061100,
-        edID: 128064037,
+        edID: 128833993,
         eddbID: 895,
         eff: .5,
         grp: "pp",
@@ -3812,7 +3812,7 @@ module.exports = {
       }, {
         class: 8,
         cost: 5509980,
-        edID: 128064037,
+        edID: 128833994,
         eddbID: 895,
         eff: .5,
         grp: "pp",
@@ -11282,6 +11282,28 @@ module.exports = {
         name: "Corrosion Resistant",
         rating: "F",
         symbol: "Int_CorrosionProofCargoRack_Size1_Class2"
+      }, {
+        cargo: 4,
+        class: 2,
+        cost: 12563,
+        edID: 128681992,
+        eddbID: 1552,
+        grp: "cr",
+        id: "0V",
+        name: "Corrosion Resistant",
+        rating: "F",
+        symbol: "Int_CorrosionProofCargoRack_Size2_Class1"
+      }, {
+        cargo: 16,
+        class: 4,
+        cost: 94330,
+        edID: 128681992,
+        eddbID: 1552,
+        grp: "cr",
+        id: "0W",
+        name: "Corrosion Resistant",
+        rating: "E",
+        symbol: "Int_CorrosionProofCargoRack_Size4_Class1"
       } ],
       cc: [ {
         class: 1,
@@ -21802,7 +21824,7 @@ module.exports = {
               integrity: [ .12, .15 ],
               mass: [ 3, 3 ],
               power: [ .25, .25 ],
-              shieldboost: [ .372, .456 ]
+              shieldboost: [ .372, .38 ]
             },
             uuid: "933e238e-56e0-44d6-b114-49eaab02f033"
           }
@@ -22786,7 +22808,6 @@ module.exports = {
             features: {
               piercing: [ 0, .4 ],
               range: [ 0, .36 ],
-              rof: [ 0, .36 ],
               thermload: [ .01, .01 ]
             },
             uuid: "fc3e4f2e-04fb-4509-a31f-1121940e1bc6"
@@ -22799,7 +22820,6 @@ module.exports = {
             features: {
               piercing: [ .4, .6 ],
               range: [ .36, .52 ],
-              rof: [ .36, .52 ],
               thermload: [ .02, .02 ]
             },
             uuid: "437e00b1-a6fd-4d84-9242-075c3ce8adcb"
@@ -22813,7 +22833,6 @@ module.exports = {
             features: {
               piercing: [ .6, .8 ],
               range: [ .52, .68 ],
-              rof: [ .52, .68 ],
               thermload: [ .03, .03 ]
             },
             uuid: "bfbadc34-e11a-4cc4-80cc-83dde5731e6f"
@@ -22827,7 +22846,6 @@ module.exports = {
             features: {
               piercing: [ .8, 1 ],
               range: [ .68, .84 ],
-              rof: [ .68, .84 ],
               thermload: [ .04, .04 ]
             },
             uuid: "7c41f9fc-90ec-435e-9d92-6024c32ac40d"
@@ -22841,7 +22859,6 @@ module.exports = {
             features: {
               piercing: [ 1, 1.2 ],
               range: [ .84, 1 ],
-              rof: [ .84, 1 ],
               thermload: [ .05, .05 ]
             },
             uuid: "d9306721-43a4-45cd-b225-ac9174da4d13"
