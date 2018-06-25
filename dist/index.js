@@ -2302,6 +2302,96 @@ module.exports = {
         internal: [ "03", "03", "02", "44", "00", "2h" ]
       }
     },
+    krait_mkii: {
+      edID: 128049339,
+      eddbID: 17,
+      properties: {
+        name: "Krait MkII",
+        manufacturer: "Faulcon DeLacy",
+        class: 2,
+        hullCost: 55171380,
+        speed: 150,
+        boost: 330,
+        boostEnergy: 13,
+        baseShieldStrength: 220,
+        baseArmour: 220,
+        hardness: 65,
+        hullMass: 320,
+        masslock: 17,
+        pipSpeed: .0975,
+        pitch: 26,
+        roll: 90,
+        yaw: 10,
+        crew: 3
+      },
+      retailCost: 56978180,
+      bulkheads: [ {
+        id: "bO",
+        edID: 128049340,
+        eddbID: 808,
+        grp: "bh",
+        cost: 0,
+        mass: 0,
+        explres: -.4,
+        kinres: -.2,
+        thermres: 0,
+        hullboost: .8
+      }, {
+        id: "bP",
+        edID: 128049341,
+        eddbID: 809,
+        grp: "bh",
+        cost: 22791270,
+        mass: 26,
+        explres: -.4,
+        kinres: -.2,
+        thermres: 0,
+        hullboost: 1.52
+      }, {
+        id: "bQ",
+        edID: 128049342,
+        eddbID: 810,
+        grp: "bh",
+        cost: 51280360,
+        mass: 53,
+        explres: -.4,
+        kinres: -.2,
+        thermres: 0,
+        hullboost: 2.5
+      }, {
+        id: "bR",
+        edID: 128049343,
+        eddbID: 811,
+        grp: "bh",
+        cost: 121192590,
+        mass: 53,
+        explres: -.5,
+        kinres: -.75,
+        thermres: .5,
+        hullboost: 2.5
+      }, {
+        id: "bS",
+        edID: 128049344,
+        eddbID: 812,
+        grp: "bh",
+        cost: 134297570,
+        mass: 53,
+        explres: .2,
+        kinres: .25,
+        thermres: -.4,
+        hullboost: 2.5
+      } ],
+      slots: {
+        standard: [ 7, 6, 5, 4, 7, 6, 5 ],
+        hardpoints: [ 3, 3, 3, 2, 2, 0, 0, 0, 0 ],
+        internal: [ 6, 6, 5, 5, 4, 3, 3, 2 ]
+      },
+      defaults: {
+        standard: [ "7E", "6E", "5E", "4E", "7E", "6E", "5C" ],
+        hardpoints: [ 0, 0, 0, 17, 17, 0, 0, 0, 0 ],
+        internal: [ "4h", "04", "04", "03", 0, "2h", 0, "00", "0" ]
+      }
+    },
     orca: {
       edID: 128049327,
       eddbID: 16,
