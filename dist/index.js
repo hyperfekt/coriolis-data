@@ -27204,57 +27204,57 @@ module.exports = {
           Sensor_Sensor_LightWeight: {
             grades: {
               "1": {
-                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Cheung", "Lori Jameson", "Tiana Fortune" ]
               },
               "2": {
-                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Cheung", "Lori Jameson", "Tiana Fortune" ]
               },
               "3": {
-                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Cheung", "Lori Jameson", "Tiana Fortune" ]
               },
               "4": {
-                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Cheung", "Lori Jameson", "Tiana Fortune" ]
               },
               "5": {
-                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Cheung", "Lori Jameson", "Tiana Fortune" ]
               }
             }
           },
           Sensor_Sensor_LongRange: {
             grades: {
               "1": {
-                engineers: [ "Bill Turner", "Felicity Farseer", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Felicity Farseer", "Juri Ishmaak", "Lei Cheung", "Lori Jameson", "Tiana Fortune" ]
               },
               "2": {
-                engineers: [ "Bill Turner", "Felicity Farseer", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Felicity Farseer", "Juri Ishmaak", "Lei Cheung", "Lori Jameson", "Tiana Fortune" ]
               },
               "3": {
-                engineers: [ "Bill Turner", "Felicity Farseer", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Felicity Farseer", "Juri Ishmaak", "Lei Cheung", "Lori Jameson", "Tiana Fortune" ]
               },
               "4": {
-                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Cheung", "Lori Jameson", "Tiana Fortune" ]
               },
               "5": {
-                engineers: [ "Bill Turner", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Lei Cheung", "Lori Jameson", "Tiana Fortune" ]
               }
             }
           },
           Sensor_Sensor_WideAngle: {
             grades: {
               "1": {
-                engineers: [ "Bill Turner", "Felicity Farseer", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Felicity Farseer", "Juri Ishmaak", "Lei Cheung", "Lori Jameson", "Tiana Fortune" ]
               },
               "2": {
-                engineers: [ "Bill Turner", "Felicity Farseer", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Felicity Farseer", "Juri Ishmaak", "Lei Cheung", "Lori Jameson", "Tiana Fortune" ]
               },
               "3": {
-                engineers: [ "Bill Turner", "Felicity Farseer", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Felicity Farseer", "Juri Ishmaak", "Lei Cheung", "Lori Jameson", "Tiana Fortune" ]
               },
               "4": {
-                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Cheung", "Lori Jameson", "Tiana Fortune" ]
               },
               "5": {
-                engineers: [ "Bill Turner", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Lei Cheung", "Lori Jameson", "Tiana Fortune" ]
               }
             }
           }
@@ -27266,13 +27266,13 @@ module.exports = {
           ShieldBooster_Explosive: {
             grades: {
               "1": {
-                engineers: [ "Didi Vatermann", "Felicity Farseer", "Lei Chung" ]
+                engineers: [ "Didi Vatermann", "Felicity Farseer", "Lei Cheung" ]
               },
               "2": {
-                engineers: [ "Didi Vatermann", "Lei Chung" ]
+                engineers: [ "Didi Vatermann", "Lei Cheung" ]
               },
               "3": {
-                engineers: [ "Didi Vatermann", "Lei Chung" ]
+                engineers: [ "Didi Vatermann", "Lei Cheung" ]
               },
               "4": {
                 engineers: [ "Didi Vatermann" ]
@@ -27285,13 +27285,13 @@ module.exports = {
           ShieldBooster_HeavyDuty: {
             grades: {
               "1": {
-                engineers: [ "Didi Vatermann", "Felicity Farseer", "Lei Chung" ]
+                engineers: [ "Didi Vatermann", "Felicity Farseer", "Lei Cheung" ]
               },
               "2": {
-                engineers: [ "Didi Vatermann", "Lei Chung" ]
+                engineers: [ "Didi Vatermann", "Lei Cheung" ]
               },
               "3": {
-                engineers: [ "Didi Vatermann", "Lei Chung" ]
+                engineers: [ "Didi Vatermann", "Lei Cheung" ]
               },
               "4": {
                 engineers: [ "Didi Vatermann" ]
@@ -27304,13 +27304,13 @@ module.exports = {
           ShieldBooster_Kinetic: {
             grades: {
               "1": {
-                engineers: [ "Didi Vatermann", "Felicity Farseer", "Lei Chung" ]
+                engineers: [ "Didi Vatermann", "Felicity Farseer", "Lei Cheung" ]
               },
               "2": {
-                engineers: [ "Didi Vatermann", "Lei Chung" ]
+                engineers: [ "Didi Vatermann", "Lei Cheung" ]
               },
               "3": {
-                engineers: [ "Didi Vatermann", "Lei Chung" ]
+                engineers: [ "Didi Vatermann", "Lei Cheung" ]
               },
               "4": {
                 engineers: [ "Didi Vatermann" ]
@@ -27323,13 +27323,13 @@ module.exports = {
           ShieldBooster_Resistive: {
             grades: {
               "1": {
-                engineers: [ "Didi Vatermann", "Felicity Farseer", "Lei Chung" ]
+                engineers: [ "Didi Vatermann", "Felicity Farseer", "Lei Cheung" ]
               },
               "2": {
-                engineers: [ "Didi Vatermann", "Lei Chung" ]
+                engineers: [ "Didi Vatermann", "Lei Cheung" ]
               },
               "3": {
-                engineers: [ "Didi Vatermann", "Lei Chung" ]
+                engineers: [ "Didi Vatermann", "Lei Cheung" ]
               },
               "4": {
                 engineers: [ "Didi Vatermann" ]
@@ -27342,13 +27342,13 @@ module.exports = {
           ShieldBooster_Thermic: {
             grades: {
               "1": {
-                engineers: [ "Didi Vatermann", "Felicity Farseer", "Lei Chung" ]
+                engineers: [ "Didi Vatermann", "Felicity Farseer", "Lei Cheung" ]
               },
               "2": {
-                engineers: [ "Didi Vatermann", "Lei Chung" ]
+                engineers: [ "Didi Vatermann", "Lei Cheung" ]
               },
               "3": {
-                engineers: [ "Didi Vatermann", "Lei Chung" ]
+                engineers: [ "Didi Vatermann", "Lei Cheung" ]
               },
               "4": {
                 engineers: [ "Didi Vatermann" ]
@@ -27489,57 +27489,57 @@ module.exports = {
           Sensor_SurfaceScanner_FastScan: {
             grades: {
               "1": {
-                engineers: [ "Bill Turner", "Felicity Farseer", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Felicity Farseer", "Juri Ishmaak", "Lei Cheung", "Lori Jameson", "Tiana Fortune" ]
               },
               "2": {
-                engineers: [ "Bill Turner", "Felicity Farseer", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Felicity Farseer", "Juri Ishmaak", "Lei Cheung", "Lori Jameson", "Tiana Fortune" ]
               },
               "3": {
-                engineers: [ "Bill Turner", "Felicity Farseer", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Felicity Farseer", "Juri Ishmaak", "Lei Cheung", "Lori Jameson", "Tiana Fortune" ]
               },
               "4": {
-                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson" ]
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Cheung", "Lori Jameson" ]
               },
               "5": {
-                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson" ]
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Cheung", "Lori Jameson" ]
               }
             }
           },
           Sensor_SurfaceScanner_LongRange: {
             grades: {
               "1": {
-                engineers: [ "Bill Turner", "Felicity Farseer", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Felicity Farseer", "Juri Ishmaak", "Lei Cheung", "Lori Jameson", "Tiana Fortune" ]
               },
               "2": {
-                engineers: [ "Bill Turner", "Felicity Farseer", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Felicity Farseer", "Juri Ishmaak", "Lei Cheung", "Lori Jameson", "Tiana Fortune" ]
               },
               "3": {
-                engineers: [ "Bill Turner", "Felicity Farseer", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Felicity Farseer", "Juri Ishmaak", "Lei Cheung", "Lori Jameson", "Tiana Fortune" ]
               },
               "4": {
-                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson" ]
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Cheung", "Lori Jameson" ]
               },
               "5": {
-                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson" ]
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Cheung", "Lori Jameson" ]
               }
             }
           },
           Sensor_SurfaceScanner_WideAngle: {
             grades: {
               "1": {
-                engineers: [ "Bill Turner", "Felicity Farseer", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Felicity Farseer", "Juri Ishmaak", "Lei Cheung", "Lori Jameson", "Tiana Fortune" ]
               },
               "2": {
-                engineers: [ "Bill Turner", "Felicity Farseer", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Felicity Farseer", "Juri Ishmaak", "Lei Cheung", "Lori Jameson", "Tiana Fortune" ]
               },
               "3": {
-                engineers: [ "Bill Turner", "Felicity Farseer", "Juri Ishmaak", "Lei Chung", "Lori Jameson", "Tiana Fortune" ]
+                engineers: [ "Bill Turner", "Felicity Farseer", "Juri Ishmaak", "Lei Cheung", "Lori Jameson", "Tiana Fortune" ]
               },
               "4": {
-                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson" ]
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Cheung", "Lori Jameson" ]
               },
               "5": {
-                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Chung", "Lori Jameson" ]
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Cheung", "Lori Jameson" ]
               }
             }
           }
