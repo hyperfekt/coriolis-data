@@ -152,7 +152,7 @@
 				"hardness": 65,
 				"hullMass": 400,
 				"masslock": 13,
-				"pipSpeed": 0.03875,
+				"pipSpeed": 0.085,
 				"pitch": 39,
 				"roll": 92,
 				"yaw": 16,
@@ -5667,7 +5667,7 @@
 					"eddbID": 895,
 					"eff": 0.5,
 					"grp": "pp",
-					"id": "0T",
+					"id": "0B",
 					"integrity": 70,
 					"mass": 2.9,
 					"pgen": 15.8,
@@ -8435,6 +8435,166 @@
 					"wepcap": 14,
 					"weprate": 1.8,
 					"symbol": "Int_PowerDistributor_Size1_Class5"
+				},
+				{
+					"class": 1,
+					"cost": 20200,
+					"edID": 128064182,
+					"eddbID": 1040,
+					"engcap": 9,
+					"engrate": 0.8,
+					"grp": "pd",
+					"id": "0T",
+					"integrity": 56,
+					"mass": 1.4,
+					"power": 0.62,
+					"rating": "A",
+					"syscap": 10,
+					"sysrate": 0.8,
+					"wepcap": 10,
+					"weprate": 2.5,
+					"name": "Guardian Power Distributor",
+					"symbol": "Int_GuardianPowerDistributor_Size1"
+				},
+				{
+					"class": 2,
+					"cost": 20200,
+					"edID": 128064182,
+					"eddbID": 1040,
+					"engcap": 9,
+					"engrate": 0.8,
+					"grp": "pd",
+					"id": "0U",
+					"integrity": 56,
+					"mass": 1.4,
+					"power": 0.62,
+					"rating": "A",
+					"syscap": 10,
+					"sysrate": 0.8,
+					"wepcap": 10,
+					"weprate": 2.5,
+					"name": "Guardian Power Distributor",
+					"symbol": "Int_GuardianPowerDistributor_Size2"
+				},
+				{
+					"class": 3,
+					"cost": 20200,
+					"edID": 128064182,
+					"eddbID": 1040,
+					"engcap": 14,
+					"engrate": 1.7,
+					"grp": "pd",
+					"id": "0X",
+					"integrity": 56,
+					"mass": 2.6,
+					"power": 0.62,
+					"rating": "A",
+					"syscap": 14,
+					"sysrate": 1.7,
+					"wepcap": 13,
+					"weprate": 3.1,
+					"name": "Guardian Power Distributor",
+					"symbol": "Int_GuardianPowerDistributor_Size3"
+				},
+				{
+					"class": 4,
+					"cost": 20200,
+					"edID": 128064182,
+					"eddbID": 1040,
+					"engcap": 17,
+					"engrate": 2.5,
+					"grp": "pd",
+					"id": "1A",
+					"integrity": 56,
+					"mass": 2.6,
+					"power": 0.62,
+					"rating": "A",
+					"syscap": 14,
+					"sysrate": 1.7,
+					"wepcap": 22,
+					"weprate": 4.9,
+					"name": "Guardian Power Distributor",
+					"symbol": "Int_GuardianPowerDistributor_Size4"
+				},
+				{
+					"class": 5,
+					"cost": 20200,
+					"edID": 128064182,
+					"eddbID": 1040,
+					"engcap": 22,
+					"engrate": 3.3,
+					"grp": "pd",
+					"id": "1A",
+					"integrity": 56,
+					"mass": 2.6,
+					"power": 0.62,
+					"rating": "A",
+					"syscap": 22,
+					"sysrate": 3.3,
+					"wepcap": 29,
+					"weprate": 6,
+					"name": "Guardian Power Distributor",
+					"symbol": "Int_GuardianPowerDistributor_Size5"
+				},
+				{
+					"class": 6,
+					"cost": 20200,
+					"edID": 128064182,
+					"eddbID": 1040,
+					"engcap": 26,
+					"engrate": 4.2,
+					"grp": "pd",
+					"id": "1B",
+					"integrity": 56,
+					"mass": 2.6,
+					"power": 0.62,
+					"rating": "A",
+					"syscap": 26,
+					"sysrate": 4.2,
+					"wepcap": 35,
+					"weprate": 7.3,
+					"name": "Guardian Power Distributor",
+					"symbol": "Int_GuardianPowerDistributor_Size6"
+				},
+				{
+					"class": 7,
+					"cost": 20200,
+					"edID": 128064182,
+					"eddbID": 1040,
+					"engcap": 31,
+					"engrate": 5.2,
+					"grp": "pd",
+					"id": "1C",
+					"integrity": 56,
+					"mass": 2.6,
+					"power": 0.62,
+					"rating": "A",
+					"syscap": 31,
+					"sysrate": 5.2,
+					"wepcap": 43,
+					"weprate": 8.5,
+					"name": "Guardian Power Distributor",
+					"symbol": "Int_GuardianPowerDistributor_Size7"
+				},
+				{
+					"class": 8,
+					"cost": 20200,
+					"edID": 128064182,
+					"eddbID": 1040,
+					"engcap": 36,
+					"engrate": 6.2,
+					"grp": "pd",
+					"id": "1D",
+					"integrity": 56,
+					"mass": 2.6,
+					"power": 0.62,
+					"rating": "A",
+					"syscap": 36,
+					"sysrate": 6.2,
+					"wepcap": 50,
+					"weprate": 10.1,
+					"name": "Guardian Power Distributor",
+					"symbol": "Int_GuardianPowerDistributor_Size7"
 				}
 			],
 			"s": [
@@ -36997,7 +37157,7 @@
 								"engineers": [
 									"Bill Turner",
 									"Juri Ishmaak",
-									"Lei Chung",
+									"Lei Cheung",
 									"Lori Jameson",
 									"Tiana Fortune"
 								]
@@ -37006,7 +37166,7 @@
 								"engineers": [
 									"Bill Turner",
 									"Juri Ishmaak",
-									"Lei Chung",
+									"Lei Cheung",
 									"Lori Jameson",
 									"Tiana Fortune"
 								]
@@ -37015,7 +37175,7 @@
 								"engineers": [
 									"Bill Turner",
 									"Juri Ishmaak",
-									"Lei Chung",
+									"Lei Cheung",
 									"Lori Jameson",
 									"Tiana Fortune"
 								]
@@ -37024,7 +37184,7 @@
 								"engineers": [
 									"Bill Turner",
 									"Juri Ishmaak",
-									"Lei Chung",
+									"Lei Cheung",
 									"Lori Jameson",
 									"Tiana Fortune"
 								]
@@ -37033,7 +37193,7 @@
 								"engineers": [
 									"Bill Turner",
 									"Juri Ishmaak",
-									"Lei Chung",
+									"Lei Cheung",
 									"Lori Jameson",
 									"Tiana Fortune"
 								]
@@ -37047,7 +37207,7 @@
 									"Bill Turner",
 									"Felicity Farseer",
 									"Juri Ishmaak",
-									"Lei Chung",
+									"Lei Cheung",
 									"Lori Jameson",
 									"Tiana Fortune"
 								]
@@ -37057,7 +37217,7 @@
 									"Bill Turner",
 									"Felicity Farseer",
 									"Juri Ishmaak",
-									"Lei Chung",
+									"Lei Cheung",
 									"Lori Jameson",
 									"Tiana Fortune"
 								]
@@ -37067,7 +37227,7 @@
 									"Bill Turner",
 									"Felicity Farseer",
 									"Juri Ishmaak",
-									"Lei Chung",
+									"Lei Cheung",
 									"Lori Jameson",
 									"Tiana Fortune"
 								]
@@ -37076,7 +37236,7 @@
 								"engineers": [
 									"Bill Turner",
 									"Juri Ishmaak",
-									"Lei Chung",
+									"Lei Cheung",
 									"Lori Jameson",
 									"Tiana Fortune"
 								]
@@ -37084,7 +37244,7 @@
 							"5": {
 								"engineers": [
 									"Bill Turner",
-									"Lei Chung",
+									"Lei Cheung",
 									"Lori Jameson",
 									"Tiana Fortune"
 								]
@@ -37098,7 +37258,7 @@
 									"Bill Turner",
 									"Felicity Farseer",
 									"Juri Ishmaak",
-									"Lei Chung",
+									"Lei Cheung",
 									"Lori Jameson",
 									"Tiana Fortune"
 								]
@@ -37108,7 +37268,7 @@
 									"Bill Turner",
 									"Felicity Farseer",
 									"Juri Ishmaak",
-									"Lei Chung",
+									"Lei Cheung",
 									"Lori Jameson",
 									"Tiana Fortune"
 								]
@@ -37118,7 +37278,7 @@
 									"Bill Turner",
 									"Felicity Farseer",
 									"Juri Ishmaak",
-									"Lei Chung",
+									"Lei Cheung",
 									"Lori Jameson",
 									"Tiana Fortune"
 								]
@@ -37127,7 +37287,7 @@
 								"engineers": [
 									"Bill Turner",
 									"Juri Ishmaak",
-									"Lei Chung",
+									"Lei Cheung",
 									"Lori Jameson",
 									"Tiana Fortune"
 								]
@@ -37135,7 +37295,7 @@
 							"5": {
 								"engineers": [
 									"Bill Turner",
-									"Lei Chung",
+									"Lei Cheung",
 									"Lori Jameson",
 									"Tiana Fortune"
 								]
@@ -37159,19 +37319,19 @@
 								"engineers": [
 									"Didi Vatermann",
 									"Felicity Farseer",
-									"Lei Chung"
+									"Lei Cheung"
 								]
 							},
 							"2": {
 								"engineers": [
 									"Didi Vatermann",
-									"Lei Chung"
+									"Lei Cheung"
 								]
 							},
 							"3": {
 								"engineers": [
 									"Didi Vatermann",
-									"Lei Chung"
+									"Lei Cheung"
 								]
 							},
 							"4": {
@@ -37192,19 +37352,19 @@
 								"engineers": [
 									"Didi Vatermann",
 									"Felicity Farseer",
-									"Lei Chung"
+									"Lei Cheung"
 								]
 							},
 							"2": {
 								"engineers": [
 									"Didi Vatermann",
-									"Lei Chung"
+									"Lei Cheung"
 								]
 							},
 							"3": {
 								"engineers": [
 									"Didi Vatermann",
-									"Lei Chung"
+									"Lei Cheung"
 								]
 							},
 							"4": {
@@ -37225,19 +37385,19 @@
 								"engineers": [
 									"Didi Vatermann",
 									"Felicity Farseer",
-									"Lei Chung"
+									"Lei Cheung"
 								]
 							},
 							"2": {
 								"engineers": [
 									"Didi Vatermann",
-									"Lei Chung"
+									"Lei Cheung"
 								]
 							},
 							"3": {
 								"engineers": [
 									"Didi Vatermann",
-									"Lei Chung"
+									"Lei Cheung"
 								]
 							},
 							"4": {
@@ -37258,19 +37418,19 @@
 								"engineers": [
 									"Didi Vatermann",
 									"Felicity Farseer",
-									"Lei Chung"
+									"Lei Cheung"
 								]
 							},
 							"2": {
 								"engineers": [
 									"Didi Vatermann",
-									"Lei Chung"
+									"Lei Cheung"
 								]
 							},
 							"3": {
 								"engineers": [
 									"Didi Vatermann",
-									"Lei Chung"
+									"Lei Cheung"
 								]
 							},
 							"4": {
@@ -37291,19 +37451,19 @@
 								"engineers": [
 									"Didi Vatermann",
 									"Felicity Farseer",
-									"Lei Chung"
+									"Lei Cheung"
 								]
 							},
 							"2": {
 								"engineers": [
 									"Didi Vatermann",
-									"Lei Chung"
+									"Lei Cheung"
 								]
 							},
 							"3": {
 								"engineers": [
 									"Didi Vatermann",
-									"Lei Chung"
+									"Lei Cheung"
 								]
 							},
 							"4": {
@@ -37586,7 +37746,7 @@
 									"Bill Turner",
 									"Felicity Farseer",
 									"Juri Ishmaak",
-									"Lei Chung",
+									"Lei Cheung",
 									"Lori Jameson",
 									"Tiana Fortune"
 								]
@@ -37596,7 +37756,7 @@
 									"Bill Turner",
 									"Felicity Farseer",
 									"Juri Ishmaak",
-									"Lei Chung",
+									"Lei Cheung",
 									"Lori Jameson",
 									"Tiana Fortune"
 								]
@@ -37606,7 +37766,7 @@
 									"Bill Turner",
 									"Felicity Farseer",
 									"Juri Ishmaak",
-									"Lei Chung",
+									"Lei Cheung",
 									"Lori Jameson",
 									"Tiana Fortune"
 								]
@@ -37615,7 +37775,7 @@
 								"engineers": [
 									"Bill Turner",
 									"Juri Ishmaak",
-									"Lei Chung",
+									"Lei Cheung",
 									"Lori Jameson"
 								]
 							},
@@ -37623,7 +37783,7 @@
 								"engineers": [
 									"Bill Turner",
 									"Juri Ishmaak",
-									"Lei Chung",
+									"Lei Cheung",
 									"Lori Jameson"
 								]
 							}
@@ -37636,7 +37796,7 @@
 									"Bill Turner",
 									"Felicity Farseer",
 									"Juri Ishmaak",
-									"Lei Chung",
+									"Lei Cheung",
 									"Lori Jameson",
 									"Tiana Fortune"
 								]
@@ -37646,7 +37806,7 @@
 									"Bill Turner",
 									"Felicity Farseer",
 									"Juri Ishmaak",
-									"Lei Chung",
+									"Lei Cheung",
 									"Lori Jameson",
 									"Tiana Fortune"
 								]
@@ -37656,7 +37816,7 @@
 									"Bill Turner",
 									"Felicity Farseer",
 									"Juri Ishmaak",
-									"Lei Chung",
+									"Lei Cheung",
 									"Lori Jameson",
 									"Tiana Fortune"
 								]
@@ -37665,7 +37825,7 @@
 								"engineers": [
 									"Bill Turner",
 									"Juri Ishmaak",
-									"Lei Chung",
+									"Lei Cheung",
 									"Lori Jameson"
 								]
 							},
@@ -37673,7 +37833,7 @@
 								"engineers": [
 									"Bill Turner",
 									"Juri Ishmaak",
-									"Lei Chung",
+									"Lei Cheung",
 									"Lori Jameson"
 								]
 							}
@@ -37686,7 +37846,7 @@
 									"Bill Turner",
 									"Felicity Farseer",
 									"Juri Ishmaak",
-									"Lei Chung",
+									"Lei Cheung",
 									"Lori Jameson",
 									"Tiana Fortune"
 								]
@@ -37696,7 +37856,7 @@
 									"Bill Turner",
 									"Felicity Farseer",
 									"Juri Ishmaak",
-									"Lei Chung",
+									"Lei Cheung",
 									"Lori Jameson",
 									"Tiana Fortune"
 								]
@@ -37706,7 +37866,7 @@
 									"Bill Turner",
 									"Felicity Farseer",
 									"Juri Ishmaak",
-									"Lei Chung",
+									"Lei Cheung",
 									"Lori Jameson",
 									"Tiana Fortune"
 								]
@@ -37715,7 +37875,7 @@
 								"engineers": [
 									"Bill Turner",
 									"Juri Ishmaak",
-									"Lei Chung",
+									"Lei Cheung",
 									"Lori Jameson"
 								]
 							},
@@ -37723,7 +37883,7 @@
 								"engineers": [
 									"Bill Turner",
 									"Juri Ishmaak",
-									"Lei Chung",
+									"Lei Cheung",
 									"Lori Jameson"
 								]
 							}
