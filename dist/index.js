@@ -2324,7 +2324,7 @@ module.exports = {
         yaw: 10,
         crew: 3
       },
-      retailCost: 56978180,
+      retailCost: 49727212,
       bulkheads: [ {
         id: "bO",
         edID: 128049340,

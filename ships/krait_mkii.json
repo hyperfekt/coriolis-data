@@ -21,7 +21,7 @@
       "yaw": 10,
       "crew": 3
     },
-    "retailCost": 56978180,
+    "retailCost": 49727212,
     "bulkheads": [
       { "id": "bO", "edID": 128049340, "eddbID": 808, "grp": "bh", "cost": 0, "mass": 0, "explres": -0.4, "kinres": -0.2, "thermres": 0, "hullboost": 0.8 },
       { "id": "bP", "edID": 128049341, "eddbID": 809, "grp": "bh", "cost": 22791270, "mass": 26, "explres": -0.4, "kinres": -0.2, "thermres": 0, "hullboost": 1.52 },
