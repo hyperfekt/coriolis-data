@@ -106,7 +106,7 @@ module.exports = {
         hardness: 65,
         hullMass: 400,
         masslock: 13,
-        pipSpeed: .03875,
+        pipSpeed: .085,
         pitch: 39,
         roll: 92,
         yaw: 16,
