@@ -1,6 +1,6 @@
 {
   "krait_mkii": {
-    "edID": 128049339,
+    "edID": 128816567,
     "eddbID": 17,
     "properties": {
       "name": "Krait MkII",
@@ -12,7 +12,7 @@
       "boostEnergy": 13,
       "baseShieldStrength": 220,
       "baseArmour": 220,
-      "hardness": 65,
+      "hardness": 55,
       "hullMass": 320,
       "masslock": 17,
       "pipSpeed": 0.09375,
