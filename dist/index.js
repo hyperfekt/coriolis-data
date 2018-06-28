@@ -208,7 +208,7 @@ module.exports = {
       }
     },
     alliance_challenger: {
-      edID: 128816574,
+      edID: 128816588,
       eddbID: 33,
       properties: {
         name: "Alliance Challenger",
@@ -2420,7 +2420,7 @@ module.exports = {
       }
     },
     krait_mkii: {
-      edID: 128049339,
+      edID: 128816567,
       eddbID: 17,
       properties: {
         name: "Krait MkII",
@@ -2432,7 +2432,7 @@ module.exports = {
         boostEnergy: 13,
         baseShieldStrength: 220,
         baseArmour: 220,
-        hardness: 65,
+        hardness: 55,
         hullMass: 320,
         masslock: 17,
         pipSpeed: .09375,
@@ -16635,6 +16635,127 @@ module.exports = {
         integrity: 157,
         hacktime: 10,
         symbol: "Int_DroneControl_Recon_Size7_Class1"
+      } ],
+      gsrp: [ {
+        shieldreinforcement: 44,
+        class: 1,
+        cost: 1e4,
+        edID: 128668537,
+        power: .35,
+        eddbID: 1373,
+        grp: "gsrp",
+        id: "0Z",
+        mass: 2,
+        rating: "E",
+        symbol: "Int_GuardianShieldReinforcement_Size1_Class1"
+      }, {
+        shieldreinforcement: 61,
+        class: 1,
+        cost: 24e3,
+        edID: 128668537,
+        power: .46,
+        eddbID: 1373,
+        grp: "gsrp",
+        id: "0y",
+        mass: 1,
+        rating: "D",
+        symbol: "Int_GuardianShieldReinforcement_Size1_Class2"
+      }, {
+        shieldreinforcement: 83,
+        class: 2,
+        cost: 24e3,
+        edID: 128668537,
+        power: .56,
+        eddbID: 1373,
+        grp: "gsrp",
+        id: "0z",
+        mass: 4,
+        rating: "E",
+        symbol: "Int_GuardianShieldReinforcement_Size2_Class1"
+      }, {
+        shieldreinforcement: 105,
+        class: 2,
+        cost: 72621,
+        edID: 128668537,
+        power: .67,
+        eddbID: 1373,
+        grp: "gsrp",
+        id: "1E",
+        mass: 2,
+        rating: "D",
+        symbol: "Int_GuardianShieldReinforcement_Size2_Class2"
+      }, {
+        shieldreinforcement: 143,
+        class: 3,
+        cost: 174290,
+        edID: 128668537,
+        power: .84,
+        eddbID: 1373,
+        grp: "gsrp",
+        id: "1F",
+        mass: 4,
+        rating: "D",
+        symbol: "Int_GuardianShieldReinforcement_Size3_Class2"
+      }, {
+        shieldreinforcement: 127,
+        class: 3,
+        cost: 57600,
+        edID: 128668537,
+        power: .74,
+        eddbID: 1373,
+        grp: "gsrp",
+        id: "1G",
+        mass: 8,
+        rating: "E",
+        symbol: "Int_GuardianShieldReinforcement_Size3_Class1"
+      }, {
+        shieldreinforcement: 165,
+        class: 4,
+        cost: 138240,
+        edID: 128668537,
+        power: .95,
+        eddbID: 1373,
+        grp: "gsrp",
+        id: "1I",
+        mass: 16,
+        rating: "E",
+        symbol: "Int_GuardianShieldReinforcement_Size4_Class1"
+      }, {
+        shieldreinforcement: 182,
+        class: 4,
+        cost: 418295,
+        edID: 128668537,
+        power: .95,
+        eddbID: 1373,
+        grp: "gsrp",
+        id: "1J",
+        mass: 8,
+        rating: "D",
+        symbol: "Int_GuardianShieldReinforcement_Size4_Class2"
+      }, {
+        shieldreinforcement: 215,
+        class: 5,
+        cost: 1003910,
+        edID: 128668537,
+        power: 1.26,
+        eddbID: 1373,
+        grp: "gsrp",
+        id: "1K",
+        mass: 16,
+        rating: "D",
+        symbol: "Int_GuardianShieldReinforcement_Size5_Class2"
+      }, {
+        shieldreinforcement: 198,
+        class: 5,
+        cost: 331778,
+        edID: 128668537,
+        power: 1.16,
+        eddbID: 1373,
+        grp: "gsrp",
+        id: "1L",
+        mass: 32,
+        rating: "E",
+        symbol: "Int_GuardianShieldReinforcement_Size5_Class1"
       } ]
     }
   },
@@ -26538,6 +26659,10 @@ module.exports = {
         modifications: []
       },
       gpl: {
+        blueprints: {},
+        modifications: []
+      },
+      gsrp: {
         blueprints: {},
         modifications: []
       },
