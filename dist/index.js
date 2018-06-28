@@ -2436,6 +2436,7 @@ module.exports = {
         hullMass: 320,
         masslock: 17,
         pipSpeed: .09375,
+        fighterHangars: true,
         pitch: 26,
         roll: 90,
         yaw: 10,
