@@ -16756,6 +16756,67 @@ module.exports = {
         mass: 32,
         rating: "E",
         symbol: "Int_GuardianShieldReinforcement_Size5_Class1"
+      } ],
+      gfsb: [ {
+        jumpboost: 4,
+        class: 1,
+        cost: 1e4,
+        edID: 128668537,
+        power: .35,
+        eddbID: 1373,
+        grp: "gfsb",
+        id: "1H",
+        mass: 1.3,
+        rating: "H",
+        symbol: "Int_GuardianFSDBooster_Size1"
+      }, {
+        jumpboost: 6,
+        class: 2,
+        cost: 1e4,
+        edID: 128668537,
+        power: .35,
+        eddbID: 1373,
+        grp: "gfsb",
+        id: "1M",
+        mass: 1.3,
+        rating: "H",
+        symbol: "Int_GuardianFSDBooster_Size2"
+      }, {
+        jumpboost: 7.75,
+        class: 3,
+        cost: 1e4,
+        edID: 128668537,
+        power: .35,
+        eddbID: 1373,
+        grp: "gfsb",
+        id: "1N",
+        mass: 1.3,
+        rating: "H",
+        symbol: "Int_GuardianFSDBooster_Size3"
+      }, {
+        jumpboost: 9.25,
+        class: 4,
+        cost: 1e4,
+        edID: 128668537,
+        power: .35,
+        eddbID: 1373,
+        grp: "gfsb",
+        id: "1P",
+        mass: 1.3,
+        rating: "H",
+        symbol: "Int_GuardianFSDBooster_Size4"
+      }, {
+        jumpboost: 10.5,
+        class: 5,
+        cost: 1e4,
+        edID: 128668537,
+        power: .35,
+        eddbID: 1373,
+        grp: "gfsb",
+        id: "1O",
+        mass: 1.3,
+        rating: "H",
+        symbol: "Int_GuardianFSDBooster_Size5"
       } ]
     }
   },

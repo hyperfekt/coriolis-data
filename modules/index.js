@@ -66,6 +66,7 @@ module.exports = {
     ss: require('./internal/surface_scanner').ss,
     rpl: require('./internal/repair_limpet_controller').rpl,
     rcpl: require('./internal/recon_limpet_controllers').rcpl,
-    gsrp: require('./internal/guardian_shield_reinforcement_package').gsrp
+    gsrp: require('./internal/guardian_shield_reinforcement_package').gsrp,
+    gfsb: require('./internal/guardian_fsd_booster').gfsb
   }
 }
