@@ -3935,7 +3935,7 @@ module.exports = {
         symbol: "Int_Powerplant_Size2_Class5"
       }, {
         class: 2,
-        cost: 162e3,
+        cost: 187360,
         edID: 128833988,
         eddbID: 895,
         eff: .5,
@@ -3949,7 +3949,7 @@ module.exports = {
         symbol: "Int_GuardianPowerplant_Size2"
       }, {
         class: 3,
-        cost: 291600,
+        cost: 468401,
         edID: 128833989,
         eddbID: 895,
         eff: .5,
@@ -3963,7 +3963,7 @@ module.exports = {
         symbol: "Int_GuardianPowerplant_Size3"
       }, {
         class: 4,
-        cost: 524880,
+        cost: 1686243,
         edID: 128833990,
         eddbID: 895,
         eff: .5,
@@ -3977,7 +3977,7 @@ module.exports = {
         symbol: "Int_GuardianPowerplant_Size4"
       }, {
         class: 5,
-        cost: 944790,
+        cost: 5058729,
         edID: 128833991,
         eddbID: 895,
         eff: .5,
@@ -3991,7 +3991,7 @@ module.exports = {
         symbol: "Int_GuardianPowerplant_Size5"
       }, {
         class: 6,
-        cost: 1700610,
+        cost: 15176184,
         edID: 128833992,
         eddbID: 895,
         eff: .5,
@@ -4005,7 +4005,7 @@ module.exports = {
         symbol: "Int_GuardianPowerplant_Size6"
       }, {
         class: 7,
-        cost: 3061100,
+        cost: 45528551,
         edID: 128833993,
         eddbID: 895,
         eff: .5,
@@ -4019,7 +4019,7 @@ module.exports = {
         symbol: "Int_GuardianPowerplant_Size7"
       }, {
         class: 8,
-        cost: 5509980,
+        cost: 136585652,
         edID: 128833994,
         eddbID: 895,
         eff: .5,
