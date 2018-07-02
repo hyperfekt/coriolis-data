@@ -26741,6 +26741,10 @@ module.exports = {
         blueprints: {},
         modifications: []
       },
+      gfsb: {
+        blueprints: {},
+        modifications: []
+      },
       gpp: {
         blueprints: {},
         modifications: []
@@ -26904,7 +26908,7 @@ module.exports = {
             }
           }
         },
-        modifications: [ "ammo", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "thermload" ],
+        modifications: [ "ammo", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "shotspeed", "rof", "thermload" ],
         specials: [ "special_blinding_shell", "special_dispersal_field", "special_phasing_sequence", "special_plasma_slug", "special_plasma_slug_cooled", "special_lock_breaker", "special_thermal_conduit", "special_weapon_damage", "special_weapon_efficient", "special_weapon_rateoffire", "special_weapon_toughened", "special_weapon_lightweight" ]
       },
       pas: {
