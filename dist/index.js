@@ -214,7 +214,7 @@ module.exports = {
         name: "Alliance Challenger",
         manufacturer: "Lakon",
         class: 2,
-        hullCost: 18182883,
+        hullCost: 28041035,
         speed: 130,
         boost: 310,
         boostEnergy: 19,
@@ -229,7 +229,7 @@ module.exports = {
         yaw: 16,
         crew: 2
       },
-      retailCost: 19382252,
+      retailCost: 30472265,
       requirements: {
         horizons: true
       },
