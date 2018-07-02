@@ -2426,7 +2426,7 @@ module.exports = {
         name: "Krait MkII",
         manufacturer: "Faulcon DeLacy",
         class: 2,
-        hullCost: 55171380,
+        hullCost: 42409425,
         speed: 150,
         boost: 330,
         boostEnergy: 13,
@@ -2442,7 +2442,7 @@ module.exports = {
         yaw: 10,
         crew: 3
       },
-      retailCost: 49727212,
+      retailCost: 45814205,
       bulkheads: [ {
         id: "bO",
         edID: 128816569,
@@ -2507,7 +2507,7 @@ module.exports = {
       defaults: {
         standard: [ "7E", "6E", "5E", "4E", "7E", "6E", "5C" ],
         hardpoints: [ 0, 0, 0, 17, 17, 0, 0, 0, 0 ],
-        internal: [ "4h", "04", "04", "03", 0, "2h", 0, "00", "0" ]
+        internal: [ "4h", "04", "04", "03", 0, "2h", 0, "00" ]
       }
     },
     orca: {
@@ -3099,7 +3099,7 @@ module.exports = {
       },
       retailCost: 121454652,
       bulkheads: [ {
-        id: "Bx",
+        id: "1Q",
         edID: 128785621,
         eddbID: 1627,
         grp: "bh",
@@ -3110,7 +3110,7 @@ module.exports = {
         thermres: 0,
         hullboost: .8
       }, {
-        id: "By",
+        id: "1R",
         edID: 128785622,
         eddbID: 1628,
         grp: "bh",
@@ -3121,7 +3121,7 @@ module.exports = {
         thermres: 0,
         hullboost: 1.52
       }, {
-        id: "Bz",
+        id: "1S",
         edID: 128785623,
         eddbID: 1629,
         grp: "bh",
@@ -3132,7 +3132,7 @@ module.exports = {
         thermres: 0,
         hullboost: 2.5
       }, {
-        id: "BA",
+        id: "1T",
         edID: 128785624,
         eddbID: 1630,
         grp: "bh",
@@ -3143,7 +3143,7 @@ module.exports = {
         thermres: .5,
         hullboost: 2.5
       }, {
-        id: "BB",
+        id: "1U",
         edID: 128785625,
         eddbID: 1631,
         grp: "bh",
@@ -24287,14 +24287,14 @@ module.exports = {
         higherbetter: true
       },
       jumpboost: {
-        id: 40,
+        id: 47,
         name: "jumpboost",
         type: "numeric",
         method: "additive",
         higherbetter: true
       },
       shieldaddition: {
-        id: 41,
+        id: 50,
         name: "shieldaddition",
         type: "numeric",
         method: "additive",
