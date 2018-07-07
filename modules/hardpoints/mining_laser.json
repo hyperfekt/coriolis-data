@@ -77,7 +77,8 @@
       "pp": "Zemina Torval",
       "range": 2000,
       "rating": "D",
-      "thermload": 6
+      "thermload": 6,
+      "symbol": "Hpt_MiningLaser_Fixed_Small_Advanced"
     },
     {
       "breachdmg": 0.6,

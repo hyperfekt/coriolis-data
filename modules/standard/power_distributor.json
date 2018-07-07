@@ -918,7 +918,7 @@
       "wepcap": 50,
       "weprate": 10.1,
       "name": "Guardian Power Distributor",
-      "symbol": "Int_GuardianPowerDistributor_Size7"
+      "symbol": "Int_GuardianPowerDistributor_Size8"
     }
   ]
 }

@@ -6712,7 +6712,7 @@ module.exports = {
         wepcap: 50,
         weprate: 10.1,
         name: "Guardian Power Distributor",
-        symbol: "Int_GuardianPowerDistributor_Size7"
+        symbol: "Int_GuardianPowerDistributor_Size8"
       } ],
       s: [ {
         angle: 30,
@@ -7551,7 +7551,8 @@ module.exports = {
         pp: "Felicia Winters",
         rating: "E",
         rof: 1.664,
-        thermload: 1
+        thermload: 1,
+        symbol: "Hpt_PulseLaser_Fixed_Medium_Disruptor"
       }, {
         breachdmg: 5.1,
         breachmax: .8,
@@ -8448,7 +8449,8 @@ module.exports = {
         reload: 4,
         rof: 4.3,
         shotspeed: 1800,
-        thermload: .2
+        thermload: .2,
+        symbol: "Hpt_MultiCannon_Fixed_Small_Strong"
       }, {
         ammo: 2100,
         breachdmg: 2,
@@ -10254,7 +10256,8 @@ module.exports = {
         pp: "Zemina Torval",
         range: 2e3,
         rating: "D",
-        thermload: 6
+        thermload: 6,
+        symbol: "Hpt_MiningLaser_Fixed_Small_Advanced"
       }, {
         breachdmg: .6,
         breachmax: .2,
