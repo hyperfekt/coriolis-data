@@ -181,7 +181,8 @@ module.exports = {
           eligible: {
             hr: 1,
             scb: 1,
-            mrp: 1
+            mrp: 1,
+            gsrp: 1
           }
         }, {
           class: 4,
@@ -189,7 +190,8 @@ module.exports = {
           eligible: {
             hr: 1,
             scb: 1,
-            mrp: 1
+            mrp: 1,
+            gsrp: 1
           }
         }, {
           class: 4,
@@ -197,7 +199,8 @@ module.exports = {
           eligible: {
             hr: 1,
             scb: 1,
-            mrp: 1
+            mrp: 1,
+            gsrp: 1
           }
         } ]
       },
@@ -298,7 +301,8 @@ module.exports = {
           eligible: {
             hr: 1,
             scb: 1,
-            mrp: 1
+            mrp: 1,
+            gsrp: 1
           }
         }, {
           class: 4,
@@ -306,7 +310,8 @@ module.exports = {
           eligible: {
             hr: 1,
             scb: 1,
-            mrp: 1
+            mrp: 1,
+            gsrp: 1
           }
         }, {
           class: 4,
@@ -314,7 +319,8 @@ module.exports = {
           eligible: {
             hr: 1,
             scb: 1,
-            mrp: 1
+            mrp: 1,
+            gsrp: 1
           }
         } ]
       },
@@ -413,7 +419,8 @@ module.exports = {
           eligible: {
             hr: 1,
             scb: 1,
-            mrp: 1
+            mrp: 1,
+            gsrp: 1
           }
         }, 4, 4, 4, 2 ]
       },
@@ -1298,7 +1305,8 @@ module.exports = {
           eligible: {
             hr: 1,
             scb: 1,
-            mrp: 1
+            mrp: 1,
+            gsrp: 1
           }
         }, 1, 1 ]
       },
@@ -1399,7 +1407,8 @@ module.exports = {
           eligible: {
             hr: 1,
             scb: 1,
-            mrp: 1
+            mrp: 1,
+            gsrp: 1
           }
         }, {
           class: 4,
@@ -1407,7 +1416,8 @@ module.exports = {
           eligible: {
             hr: 1,
             scb: 1,
-            mrp: 1
+            mrp: 1,
+            gsrp: 1
           }
         }, 3, 2, 2 ]
       },
@@ -1509,7 +1519,8 @@ module.exports = {
           eligible: {
             hr: 1,
             scb: 1,
-            mrp: 1
+            mrp: 1,
+            gsrp: 1
           }
         }, {
           class: 5,
@@ -1517,7 +1528,8 @@ module.exports = {
           eligible: {
             hr: 1,
             scb: 1,
-            mrp: 1
+            mrp: 1,
+            gsrp: 1
           }
         }, 4, 4, 3 ]
       },
@@ -1618,7 +1630,8 @@ module.exports = {
           eligible: {
             hr: 1,
             scb: 1,
-            mrp: 1
+            mrp: 1,
+            gsrp: 1
           }
         }, {
           class: 4,
@@ -1626,7 +1639,8 @@ module.exports = {
           eligible: {
             hr: 1,
             scb: 1,
-            mrp: 1
+            mrp: 1,
+            gsrp: 1
           }
         }, 3, 3, 2 ]
       },
@@ -1728,7 +1742,8 @@ module.exports = {
           eligible: {
             hr: 1,
             scb: 1,
-            mrp: 1
+            mrp: 1,
+            gsrp: 1
           }
         }, {
           class: 4,
@@ -1736,7 +1751,8 @@ module.exports = {
           eligible: {
             hr: 1,
             scb: 1,
-            mrp: 1
+            mrp: 1,
+            gsrp: 1
           }
         }, {
           class: 4,
@@ -1744,7 +1760,8 @@ module.exports = {
           eligible: {
             hr: 1,
             scb: 1,
-            mrp: 1
+            mrp: 1,
+            gsrp: 1
           }
         }, 2, 2 ]
       },
@@ -2212,7 +2229,8 @@ module.exports = {
           eligible: {
             hr: 1,
             scb: 1,
-            mrp: 1
+            mrp: 1,
+            gsrp: 1
           }
         }, {
           class: 5,
@@ -2220,7 +2238,8 @@ module.exports = {
           eligible: {
             hr: 1,
             scb: 1,
-            mrp: 1
+            mrp: 1,
+            gsrp: 1
           }
         }, 4, 3 ]
       },
@@ -2318,7 +2337,8 @@ module.exports = {
           eligible: {
             hr: 1,
             scb: 1,
-            mrp: 1
+            mrp: 1,
+            gsrp: 1
           }
         }, 1, 1 ]
       },
@@ -3163,7 +3183,8 @@ module.exports = {
           eligible: {
             hr: 1,
             scb: 1,
-            mrp: 1
+            mrp: 1,
+            gsrp: 1
           }
         }, {
           class: 5,
@@ -3171,7 +3192,8 @@ module.exports = {
           eligible: {
             hr: 1,
             scb: 1,
-            mrp: 1
+            mrp: 1,
+            gsrp: 1
           }
         } ]
       },
@@ -3269,7 +3291,8 @@ module.exports = {
           eligible: {
             hr: 1,
             scb: 1,
-            mrp: 1
+            mrp: 1,
+            gsrp: 1
           }
         }, 2, 1 ]
       },
@@ -3367,7 +3390,8 @@ module.exports = {
           eligible: {
             hr: 1,
             scb: 1,
-            mrp: 1
+            mrp: 1,
+            gsrp: 1
           }
         }, 2, 2, 1 ]
       },
@@ -3465,7 +3489,8 @@ module.exports = {
           eligible: {
             hr: 1,
             scb: 1,
-            mrp: 1
+            mrp: 1,
+            gsrp: 1
           }
         }, 4, 2, 1, 1 ]
       },
