@@ -1,6 +1,7 @@
 module.exports = {
   adder: require('./adder').adder,
   alliance_chieftain: require('./alliance_chieftain').alliance_chieftain,
+  alliance_challenger: require('./alliance_challenger').alliance_challenger,
   anaconda: require('./anaconda').anaconda,
   asp: require('./asp').asp,
   asp_scout: require('./asp_scout').asp_scout,
@@ -22,6 +23,7 @@ module.exports = {
   imperial_cutter: require('./imperial_cutter').imperial_cutter,
   imperial_eagle: require('./imperial_eagle').imperial_eagle,
   keelback: require('./keelback').keelback,
+  krait_mkii: require('./krait_mkii').krait_mkii,
   orca: require('./orca').orca,
   python: require('./python').python,
   sidewinder: require('./sidewinder').sidewinder,

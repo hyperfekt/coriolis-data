@@ -123,7 +123,8 @@
       "reload": 4,
       "rof": 4.3,
       "shotspeed": 1800,
-      "thermload": 0.2
+      "thermload": 0.2,
+      "symbol": "Hpt_MultiCannon_Fixed_Small_Strong"
     },
     {
       "ammo": 2100,

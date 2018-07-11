@@ -3444,6 +3444,18 @@
     "modifications": [
     ]
   },
+  "gsrp": {
+    "blueprints": {
+    },
+    "modifications": [
+    ]
+  },
+  "gfsb": {
+    "blueprints": {
+    },
+    "modifications": [
+    ]
+  },
   "gpp": {
     "blueprints": {
     },
@@ -3721,6 +3733,7 @@
       "power",
       "range",
       "reload",
+      "shotspeed",
       "rof",
       "thermload"
     ],

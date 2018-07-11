@@ -47,5 +47,7 @@
     "thermres": {"id": 36, "name": "thermres", "type": "percentage", "method": "additive", "higherbetter": true},
     "wepcap": {"id": 37, "name": "wepcap", "type": "percentage", "method": "multiplicative", "higherbetter": true},
     "weprate": {"id": 38, "name": "weprate", "type": "percentage", "method": "multiplicative", "higherbetter": true},
-    "shieldreinforcement": {"id": 39, "name": "shieldreinforcement", "type": "percentage", "method": "multiplicative", "higherbetter": true}
+    "shieldreinforcement": {"id": 39, "name": "shieldreinforcement", "type": "percentage", "method": "multiplicative", "higherbetter": true},
+    "jumpboost": {"id": 47, "name": "jumpboost", "type": "numeric", "method": "additive", "higherbetter": true},
+    "shieldaddition": {"id": 50, "name": "shieldaddition", "type": "numeric", "method": "additive", "higherbetter": true}
 }
