@@ -16845,6 +16845,125 @@ module.exports = {
         mass: 1.3,
         rating: "H",
         symbol: "Int_GuardianFSDBooster_Size5"
+      } ],
+      ghrp: [ {
+        rating: "D",
+        size: "1",
+        mass: 1,
+        id: "1V",
+        edID: 128833946,
+        eddbID: 0,
+        power: .56,
+        hullreinforcement: 138,
+        thermres: .02,
+        cost: 3176471,
+        symbol: "Int_GuardianHullReinforcement_Size1_Class2"
+      }, {
+        rating: "E",
+        size: "1",
+        mass: 2,
+        id: "1W",
+        edID: 128833945,
+        eddbID: 0,
+        power: .45,
+        hullreinforcement: 100,
+        thermres: .02,
+        cost: 1058824,
+        symbol: "Int_GuardianHullReinforcement_Size1_Class1"
+      }, {
+        rating: "D",
+        size: "2",
+        mass: 2,
+        id: "1X",
+        edID: 128833948,
+        eddbID: 0,
+        power: .79,
+        hullreinforcement: 238,
+        thermres: .02,
+        cost: 7623529,
+        symbol: "Int_GuardianHullReinforcement_Size2_Class2"
+      }, {
+        rating: "E",
+        size: "2",
+        mass: 4,
+        id: "1Y",
+        edID: 128833947,
+        eddbID: 0,
+        power: .68,
+        hullreinforcement: 188,
+        thermres: .02,
+        cost: 2541176,
+        symbol: "Int_GuardianHullReinforcement_Size2_Class1"
+      }, {
+        rating: "D",
+        size: "3",
+        mass: 4,
+        id: "1Z",
+        edID: 128833948,
+        eddbID: 0,
+        power: 1.01,
+        hullreinforcement: 325,
+        thermres: .02,
+        cost: 18296471
+      }, {
+        rating: "E",
+        size: "3",
+        mass: 8,
+        id: "2A",
+        edID: 128833949,
+        eddbID: 0,
+        power: .9,
+        hullreinforcement: 288,
+        thermres: .02,
+        cost: 6098824,
+        symbol: "Int_GuardianHullReinforcement_Size3_Class1"
+      }, {
+        rating: "D",
+        size: "4",
+        mass: 8,
+        edID: 128833952,
+        eddbID: 0,
+        power: 1.24,
+        hullreinforcement: 413,
+        thermres: .02,
+        cost: 43911554,
+        id: "2A",
+        symbol: "Int_GuardianHullReinforcement_Size4_Class2"
+      }, {
+        rating: "E",
+        size: "4",
+        mass: 16,
+        edID: 128833951,
+        eddbID: 0,
+        power: 1.13,
+        hullreinforcement: 375,
+        thermres: .02,
+        cost: 14637225,
+        id: "2B",
+        symbol: "Int_GuardianHullReinforcement_Size4_Class1"
+      }, {
+        rating: "D",
+        size: "5",
+        mass: 16,
+        edID: 128833953,
+        eddbID: 0,
+        power: 1.46,
+        hullreinforcement: 488,
+        thermres: .02,
+        cost: 105387873,
+        id: "2C",
+        symbol: "Int_GuardianHullReinforcement_Size5_Class1"
+      }, {
+        rating: "E",
+        size: "5",
+        mass: 32,
+        edID: 128833953,
+        eddbID: 0,
+        power: 1.35,
+        hullreinforcement: 450,
+        thermres: .02,
+        cost: 35129412,
+        id: "2D"
       } ]
     }
   },
@@ -26770,6 +26889,10 @@ module.exports = {
         modifications: []
       },
       gfsb: {
+        blueprints: {},
+        modifications: []
+      },
+      ghrp: {
         blueprints: {},
         modifications: []
       },

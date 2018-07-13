@@ -67,6 +67,7 @@ module.exports = {
     rpl: require('./internal/repair_limpet_controller').rpl,
     rcpl: require('./internal/recon_limpet_controllers').rcpl,
     gsrp: require('./internal/guardian_shield_reinforcement_package').gsrp,
-    gfsb: require('./internal/guardian_fsd_booster').gfsb
+    gfsb: require('./internal/guardian_fsd_booster').gfsb,
+    ghrp: require('./internal/guardian_hull_reinforcement_package').ghrp
   }
 }
