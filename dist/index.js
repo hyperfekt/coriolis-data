@@ -2447,7 +2447,7 @@ module.exports = {
         manufacturer: "Faulcon DeLacy",
         class: 2,
         hullCost: 42409425,
-        speed: 150,
+        speed: 240,
         boost: 330,
         boostEnergy: 13,
         baseShieldStrength: 220,
