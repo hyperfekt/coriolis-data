@@ -11,7 +11,8 @@
       "hullreinforcement": 138,
       "thermres": 0.02,
       "cost": 3176471,
-      "symbol": "Int_GuardianHullReinforcement_class1_Class2"
+      "symbol": "Int_GuardianHullReinforcement_class1_Class2",
+      "grp": "ghrp"
     },
     {
       "rating": "E",
@@ -24,7 +25,8 @@
       "hullreinforcement": 100,
       "thermres": 0.02,
       "cost": 1058824,
-      "symbol": "Int_GuardianHullReinforcement_class1_Class1"
+      "symbol": "Int_GuardianHullReinforcement_class1_Class1",
+      "grp": "ghrp"
     },
     {
       "rating": "D",
@@ -37,7 +39,8 @@
       "hullreinforcement": 238,
       "thermres": 0.02,
       "cost": 7623529,
-      "symbol": "Int_GuardianHullReinforcement_class2_Class2"
+      "symbol": "Int_GuardianHullReinforcement_class2_Class2",
+      "grp": "ghrp"
     },
     {
       "rating": "E",
@@ -50,7 +53,8 @@
       "hullreinforcement": 188,
       "thermres": 0.02,
       "cost": 2541176,
-      "symbol": "Int_GuardianHullReinforcement_class2_Class1"
+      "symbol": "Int_GuardianHullReinforcement_class2_Class1",
+      "grp": "ghrp"
     },
     {
       "rating": "D",
@@ -62,7 +66,8 @@
       "power": 1.01,
       "hullreinforcement": 325,
       "thermres": 0.02,
-      "cost": 18296471
+      "cost": 18296471,
+      "grp": "ghrp"
     },
     {
       "rating": "E",
@@ -75,7 +80,8 @@
       "hullreinforcement": 288,
       "thermres": 0.02,
       "cost": 6098824,
-      "symbol": "Int_GuardianHullReinforcement_class3_Class1"
+      "symbol": "Int_GuardianHullReinforcement_class3_Class1",
+      "grp": "ghrp"
     },
     {
       "rating": "D",
@@ -88,7 +94,8 @@
       "thermres": 0.02,
       "cost": 43911554,
       "id": "2A",
-      "symbol": "Int_GuardianHullReinforcement_class4_Class2"
+      "symbol": "Int_GuardianHullReinforcement_class4_Class2",
+      "grp": "ghrp"
     },
     {
       "rating": "E",
@@ -101,7 +108,8 @@
       "thermres": 0.02,
       "cost": 14637225,
       "id": "2B",
-      "symbol": "Int_GuardianHullReinforcement_class4_Class1"
+      "symbol": "Int_GuardianHullReinforcement_class4_Class1",
+      "grp": "ghrp"
     },
     {
       "rating": "D",
@@ -114,7 +122,8 @@
       "thermres": 0.02,
       "cost": 105387873,
       "id": "2C",
-      "symbol": "Int_GuardianHullReinforcement_class5_Class1"
+      "symbol": "Int_GuardianHullReinforcement_class5_Class1",
+      "grp": "ghrp"
     },
     {
       "rating": "E",
@@ -126,7 +135,8 @@
       "hullreinforcement": 450,
       "thermres": 0.02,
       "cost": 35129412,
-      "id": "2D"
+      "id": "2D",
+      "grp": "ghrp"
     }
   ]
 }
