@@ -1,0 +1,132 @@
+{
+  "ghrp": [
+    {
+      "rating": "D",
+      "class": "1",
+      "mass": 1,
+      "id": "1V",
+      "edID": 128833946,
+      "eddbID": 0,
+      "power": 0.56,
+      "hullreinforcement": 138,
+      "thermres": 0.02,
+      "cost": 3176471,
+      "symbol": "Int_GuardianHullReinforcement_class1_Class2"
+    },
+    {
+      "rating": "E",
+      "class": "1",
+      "mass": 2,
+      "id": "1W",
+      "edID": 128833945,
+      "eddbID": 0,
+      "power": 0.45,
+      "hullreinforcement": 100,
+      "thermres": 0.02,
+      "cost": 1058824,
+      "symbol": "Int_GuardianHullReinforcement_class1_Class1"
+    },
+    {
+      "rating": "D",
+      "class": "2",
+      "mass": 2,
+      "id": "1X",
+      "edID": 128833948,
+      "eddbID": 0,
+      "power": 0.79,
+      "hullreinforcement": 238,
+      "thermres": 0.02,
+      "cost": 7623529,
+      "symbol": "Int_GuardianHullReinforcement_class2_Class2"
+    },
+    {
+      "rating": "E",
+      "class": "2",
+      "mass": 4,
+      "id": "1Y",
+      "edID": 128833947,
+      "eddbID": 0,
+      "power": 0.68,
+      "hullreinforcement": 188,
+      "thermres": 0.02,
+      "cost": 2541176,
+      "symbol": "Int_GuardianHullReinforcement_class2_Class1"
+    },
+    {
+      "rating": "D",
+      "class": "3",
+      "mass": 4,
+      "id": "1Z",
+      "edID": 128833948,
+      "eddbID": 0,
+      "power": 1.01,
+      "hullreinforcement": 325,
+      "thermres": 0.02,
+      "cost": 18296471
+    },
+    {
+      "rating": "E",
+      "class": "3",
+      "mass": 8,
+      "id": "2A",
+      "edID": 128833949,
+      "eddbID": 0,
+      "power": 0.9,
+      "hullreinforcement": 288,
+      "thermres": 0.02,
+      "cost": 6098824,
+      "symbol": "Int_GuardianHullReinforcement_class3_Class1"
+    },
+    {
+      "rating": "D",
+      "class": "4",
+      "mass": 8,
+      "edID": 128833952,
+      "eddbID": 0,
+      "power": 1.24,
+      "hullreinforcement": 413,
+      "thermres": 0.02,
+      "cost": 43911554,
+      "id": "2A",
+      "symbol": "Int_GuardianHullReinforcement_class4_Class2"
+    },
+    {
+      "rating": "E",
+      "class": "4",
+      "mass": 16,
+      "edID": 128833951,
+      "eddbID": 0,
+      "power": 1.13,
+      "hullreinforcement": 375,
+      "thermres": 0.02,
+      "cost": 14637225,
+      "id": "2B",
+      "symbol": "Int_GuardianHullReinforcement_class4_Class1"
+    },
+    {
+      "rating": "D",
+      "class": "5",
+      "mass": 16,
+      "edID": 128833953,
+      "eddbID": 0,
+      "power": 1.46,
+      "hullreinforcement": 488,
+      "thermres": 0.02,
+      "cost": 105387873,
+      "id": "2C",
+      "symbol": "Int_GuardianHullReinforcement_class5_Class1"
+    },
+    {
+      "rating": "E",
+      "class": "5",
+      "mass": 32,
+      "edID": 128833953,
+      "eddbID": 0,
+      "power": 1.35,
+      "hullreinforcement": 450,
+      "thermres": 0.02,
+      "cost": 35129412,
+      "id": "2D"
+    }
+  ]
+}
