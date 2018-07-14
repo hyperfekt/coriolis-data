@@ -10851,6 +10851,67 @@ module.exports = {
         scantime: 10,
         angle: 23,
         symbol: "Hpt_XenoScanner_Basic_Tiny"
+      } ],
+      tbsc: [ {
+        rating: "C",
+        class: 3,
+        grp: "tbsc",
+        ammo: 240,
+        mass: 8,
+        eddbID: 0,
+        breachdmg: 10.4,
+        breachmax: .8,
+        breachmin: .4,
+        clip: 16,
+        damage: 14.9,
+        damagedist: {
+          K: 1
+        },
+        distdraw: 1.07,
+        falloff: 2500,
+        integrity: 64,
+        mount: "G",
+        piercing: 95,
+        power: .89,
+        range: 3e3,
+        rof: 10,
+        shotspeed: 1200,
+        thermload: 3.1,
+        cost: 238134781,
+        reload: 6,
+        id: "2N",
+        edID: 128834780,
+        symbol: "Hpt_PlasmaShockCannon_Fixed_Large"
+      }, {
+        rating: "D",
+        class: 2,
+        grp: "tbsc",
+        ammo: 240,
+        mass: 4,
+        eddbID: 0,
+        breachdmg: 7.1,
+        breachmax: .8,
+        breachmin: .4,
+        clip: 16,
+        damage: 14.9,
+        damagedist: {
+          K: 1
+        },
+        distdraw: .58,
+        falloff: 2500,
+        integrity: 51,
+        mount: "G",
+        piercing: 40,
+        power: .89,
+        range: 3e3,
+        rof: 10,
+        reload: 6,
+        shotspeed: 1200,
+        thermload: 2.1,
+        cost: 238134781,
+        id: "2O",
+        edID: 128834003,
+        symbol: "Hpt_PlasmaShockCannon_Gimbal_Medium"
       } ]
     },
     internal: {
@@ -27038,6 +27099,10 @@ module.exports = {
         modifications: []
       },
       gmrp: {
+        blueprints: {},
+        modifications: []
+      },
+      tbsc: {
         blueprints: {},
         modifications: []
       },
