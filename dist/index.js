@@ -10912,6 +10912,69 @@ module.exports = {
         id: "2O",
         edID: 128834003,
         symbol: "Hpt_PlasmaShockCannon_Gimbal_Medium"
+      } ],
+      gsc: [ {
+        rating: "A",
+        class: 2,
+        grp: "gsc",
+        id: "2P",
+        eddbID: 0,
+        edID: 128834e3,
+        mount: "F",
+        cost: 53762896,
+        mass: 4,
+        integrity: 42,
+        power: 1.21,
+        damage: 3.7,
+        distdraw: .65,
+        thermload: 1.2,
+        piercing: 45,
+        range: 1700,
+        shotspeed: 1133,
+        rof: 1.7,
+        roundspershot: 12,
+        clip: 5,
+        ammo: 180,
+        reload: 5,
+        breachdmg: 3,
+        breachmin: .6,
+        breachmax: .8,
+        jitter: 5,
+        damagedist: {
+          T: 1
+        },
+        falloff: 1700
+      }, {
+        rating: "C",
+        class: 3,
+        grp: "gsc",
+        id: "2Q",
+        eddbID: 0,
+        edID: 128834778,
+        mount: "F",
+        cost: 154731222,
+        mass: 8,
+        integrity: 51,
+        power: 1.68,
+        damage: 5.2,
+        distdraw: 1.4,
+        thermload: 2.2,
+        piercing: 60,
+        range: 1700,
+        shotspeed: 1133,
+        rof: 1.7,
+        clip: 5,
+        ammo: 180,
+        roundspershot: 12,
+        reload: 5,
+        breachdmg: 4.2,
+        breachmin: .6,
+        breachmax: .8,
+        jitter: 5,
+        damagedist: {
+          T: 1
+        },
+        falloff: 1700
       } ]
     },
     internal: {
@@ -27103,6 +27166,10 @@ module.exports = {
         modifications: []
       },
       tbsc: {
+        blueprints: {},
+        modifications: []
+      },
+      gsc: {
         blueprints: {},
         modifications: []
       },
