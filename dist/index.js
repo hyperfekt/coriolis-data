@@ -16848,7 +16848,7 @@ module.exports = {
       } ],
       ghrp: [ {
         rating: "D",
-        size: "1",
+        class: "1",
         mass: 1,
         id: "1V",
         edID: 128833946,
@@ -16857,10 +16857,10 @@ module.exports = {
         hullreinforcement: 138,
         thermres: .02,
         cost: 3176471,
-        symbol: "Int_GuardianHullReinforcement_Size1_Class2"
+        symbol: "Int_GuardianHullReinforcement_class1_Class2"
       }, {
         rating: "E",
-        size: "1",
+        class: "1",
         mass: 2,
         id: "1W",
         edID: 128833945,
@@ -16869,10 +16869,10 @@ module.exports = {
         hullreinforcement: 100,
         thermres: .02,
         cost: 1058824,
-        symbol: "Int_GuardianHullReinforcement_Size1_Class1"
+        symbol: "Int_GuardianHullReinforcement_class1_Class1"
       }, {
         rating: "D",
-        size: "2",
+        class: "2",
         mass: 2,
         id: "1X",
         edID: 128833948,
@@ -16881,10 +16881,10 @@ module.exports = {
         hullreinforcement: 238,
         thermres: .02,
         cost: 7623529,
-        symbol: "Int_GuardianHullReinforcement_Size2_Class2"
+        symbol: "Int_GuardianHullReinforcement_class2_Class2"
       }, {
         rating: "E",
-        size: "2",
+        class: "2",
         mass: 4,
         id: "1Y",
         edID: 128833947,
@@ -16893,10 +16893,10 @@ module.exports = {
         hullreinforcement: 188,
         thermres: .02,
         cost: 2541176,
-        symbol: "Int_GuardianHullReinforcement_Size2_Class1"
+        symbol: "Int_GuardianHullReinforcement_class2_Class1"
       }, {
         rating: "D",
-        size: "3",
+        class: "3",
         mass: 4,
         id: "1Z",
         edID: 128833948,
@@ -16907,7 +16907,7 @@ module.exports = {
         cost: 18296471
       }, {
         rating: "E",
-        size: "3",
+        class: "3",
         mass: 8,
         id: "2A",
         edID: 128833949,
@@ -16916,10 +16916,10 @@ module.exports = {
         hullreinforcement: 288,
         thermres: .02,
         cost: 6098824,
-        symbol: "Int_GuardianHullReinforcement_Size3_Class1"
+        symbol: "Int_GuardianHullReinforcement_class3_Class1"
       }, {
         rating: "D",
-        size: "4",
+        class: "4",
         mass: 8,
         edID: 128833952,
         eddbID: 0,
@@ -16928,10 +16928,10 @@ module.exports = {
         thermres: .02,
         cost: 43911554,
         id: "2A",
-        symbol: "Int_GuardianHullReinforcement_Size4_Class2"
+        symbol: "Int_GuardianHullReinforcement_class4_Class2"
       }, {
         rating: "E",
-        size: "4",
+        class: "4",
         mass: 16,
         edID: 128833951,
         eddbID: 0,
@@ -16940,10 +16940,10 @@ module.exports = {
         thermres: .02,
         cost: 14637225,
         id: "2B",
-        symbol: "Int_GuardianHullReinforcement_Size4_Class1"
+        symbol: "Int_GuardianHullReinforcement_class4_Class1"
       }, {
         rating: "D",
-        size: "5",
+        class: "5",
         mass: 16,
         edID: 128833953,
         eddbID: 0,
@@ -16952,10 +16952,10 @@ module.exports = {
         thermres: .02,
         cost: 105387873,
         id: "2C",
-        symbol: "Int_GuardianHullReinforcement_Size5_Class1"
+        symbol: "Int_GuardianHullReinforcement_class5_Class1"
       }, {
         rating: "E",
-        size: "5",
+        class: "5",
         mass: 32,
         edID: 128833953,
         eddbID: 0,
@@ -16967,7 +16967,7 @@ module.exports = {
       } ],
       gmrp: [ {
         rating: "D",
-        size: "1",
+        class: "1",
         mass: 1,
         eddbID: 0,
         power: .34,
@@ -16976,10 +16976,10 @@ module.exports = {
         cost: 3176471,
         id: "2E",
         edID: 128833956,
-        symbol: "Int_GuardianModuleReinforcement_Size1_Class2"
+        symbol: "Int_GuardianModuleReinforcement_class1_Class2"
       }, {
         rating: "E",
-        size: "1",
+        class: "1",
         mass: 2,
         eddbID: 0,
         power: .27,
@@ -16988,10 +16988,10 @@ module.exports = {
         cost: 1058824,
         id: "2F",
         edID: 128833955,
-        symbol: "Int_GuardianModuleReinforcement_Size1_Class1"
+        symbol: "Int_GuardianModuleReinforcement_class1_Class1"
       }, {
         rating: "D",
-        size: "2",
+        class: "2",
         mass: 2,
         eddbID: 0,
         power: .47,
@@ -17000,10 +17000,10 @@ module.exports = {
         cost: 7623529,
         id: "2G",
         edID: 128833958,
-        symbol: "Int_GuardianModuleReinforcement_Size2_Class2"
+        symbol: "Int_GuardianModuleReinforcement_class2_Class2"
       }, {
         rating: "E",
-        size: "2",
+        class: "2",
         mass: 4,
         eddbID: 0,
         power: .41,
@@ -17012,10 +17012,10 @@ module.exports = {
         cost: 2541176,
         id: "2G",
         edID: 128833957,
-        symbol: "Int_GuardianModuleReinforcement_Size2_Class1"
+        symbol: "Int_GuardianModuleReinforcement_class2_Class1"
       }, {
         rating: "D",
-        size: "3",
+        class: "3",
         mass: 4,
         eddbID: 0,
         power: .61,
@@ -17024,10 +17024,10 @@ module.exports = {
         cost: 18296471,
         id: "2H",
         edID: 128833960,
-        symbol: "Int_GuardianModuleReinforcement_Size3_Class2"
+        symbol: "Int_GuardianModuleReinforcement_class3_Class2"
       }, {
         rating: "E",
-        size: "3",
+        class: "3",
         mass: 8,
         eddbID: 0,
         power: .54,
@@ -17036,10 +17036,10 @@ module.exports = {
         cost: 6098824,
         id: "2I",
         edID: 128833959,
-        symbol: "Int_GuardianModuleReinforcement_Size3_Class1"
+        symbol: "Int_GuardianModuleReinforcement_class3_Class1"
       }, {
         rating: "D",
-        size: "4",
+        class: "4",
         mass: 8,
         eddbID: 0,
         power: .74,
@@ -17048,10 +17048,10 @@ module.exports = {
         cost: 43911554,
         id: "2J",
         edID: 128833962,
-        symbol: "Int_GuardianModuleReinforcement_Size4_Class2"
+        symbol: "Int_GuardianModuleReinforcement_class4_Class2"
       }, {
         rating: "E",
-        size: "4",
+        class: "4",
         mass: 16,
         eddbID: 0,
         power: .68,
@@ -17060,10 +17060,10 @@ module.exports = {
         cost: 14637225,
         id: "2K",
         edID: 128833961,
-        symbol: "Int_GuardianModuleReinforcement_Size4_Class1"
+        symbol: "Int_GuardianModuleReinforcement_class4_Class1"
       }, {
         rating: "D",
-        size: "5",
+        class: "5",
         mass: 16,
         eddbID: 0,
         power: .88,
@@ -17072,10 +17072,10 @@ module.exports = {
         cost: 105387873,
         id: "2L",
         edID: 128833964,
-        symbol: "Int_GuardianModuleReinforcement_Size5_Class2"
+        symbol: "Int_GuardianModuleReinforcement_class5_Class2"
       }, {
         rating: "E",
-        size: "5",
+        class: "5",
         mass: 32,
         eddbID: 0,
         power: .81,
@@ -17084,7 +17084,7 @@ module.exports = {
         cost: 35129412,
         id: "2M",
         edID: 128833963,
-        symbol: "Int_GuardianModuleReinforcement_Size5_Class1"
+        symbol: "Int_GuardianModuleReinforcement_class5_Class1"
       } ]
     }
   },
