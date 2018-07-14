@@ -182,7 +182,9 @@ module.exports = {
             hr: 1,
             scb: 1,
             mrp: 1,
-            gsrp: 1
+            gsrp: 1,
+            gmrp: 1,
+            ghrp: 1
           }
         }, {
           class: 4,
@@ -191,7 +193,9 @@ module.exports = {
             hr: 1,
             scb: 1,
             mrp: 1,
-            gsrp: 1
+            gsrp: 1,
+            gmrp: 1,
+            ghrp: 1
           }
         }, {
           class: 4,
@@ -200,7 +204,9 @@ module.exports = {
             hr: 1,
             scb: 1,
             mrp: 1,
-            gsrp: 1
+            gsrp: 1,
+            gmrp: 1,
+            ghrp: 1
           }
         } ]
       },
@@ -302,7 +308,9 @@ module.exports = {
             hr: 1,
             scb: 1,
             mrp: 1,
-            gsrp: 1
+            gsrp: 1,
+            gmrp: 1,
+            ghrp: 1
           }
         }, {
           class: 4,
@@ -311,7 +319,9 @@ module.exports = {
             hr: 1,
             scb: 1,
             mrp: 1,
-            gsrp: 1
+            gsrp: 1,
+            gmrp: 1,
+            ghrp: 1
           }
         }, {
           class: 4,
@@ -320,7 +330,9 @@ module.exports = {
             hr: 1,
             scb: 1,
             mrp: 1,
-            gsrp: 1
+            gsrp: 1,
+            gmrp: 1,
+            ghrp: 1
           }
         } ]
       },
@@ -420,7 +432,9 @@ module.exports = {
             hr: 1,
             scb: 1,
             mrp: 1,
-            gsrp: 1
+            gsrp: 1,
+            gmrp: 1,
+            ghrp: 1
           }
         }, 4, 4, 4, 2 ]
       },
@@ -1306,7 +1320,9 @@ module.exports = {
             hr: 1,
             scb: 1,
             mrp: 1,
-            gsrp: 1
+            gsrp: 1,
+            gmrp: 1,
+            ghrp: 1
           }
         }, 1, 1 ]
       },
@@ -1408,7 +1424,9 @@ module.exports = {
             hr: 1,
             scb: 1,
             mrp: 1,
-            gsrp: 1
+            gsrp: 1,
+            gmrp: 1,
+            ghrp: 1
           }
         }, {
           class: 4,
@@ -1417,7 +1435,9 @@ module.exports = {
             hr: 1,
             scb: 1,
             mrp: 1,
-            gsrp: 1
+            gsrp: 1,
+            gmrp: 1,
+            ghrp: 1
           }
         }, 3, 2, 2 ]
       },
@@ -1520,7 +1540,9 @@ module.exports = {
             hr: 1,
             scb: 1,
             mrp: 1,
-            gsrp: 1
+            gsrp: 1,
+            gmrp: 1,
+            ghrp: 1
           }
         }, {
           class: 5,
@@ -1529,7 +1551,9 @@ module.exports = {
             hr: 1,
             scb: 1,
             mrp: 1,
-            gsrp: 1
+            gsrp: 1,
+            gmrp: 1,
+            ghrp: 1
           }
         }, 4, 4, 3 ]
       },
@@ -1631,7 +1655,9 @@ module.exports = {
             hr: 1,
             scb: 1,
             mrp: 1,
-            gsrp: 1
+            gsrp: 1,
+            gmrp: 1,
+            ghrp: 1
           }
         }, {
           class: 4,
@@ -1640,7 +1666,9 @@ module.exports = {
             hr: 1,
             scb: 1,
             mrp: 1,
-            gsrp: 1
+            gsrp: 1,
+            gmrp: 1,
+            ghrp: 1
           }
         }, 3, 3, 2 ]
       },
@@ -1743,7 +1771,9 @@ module.exports = {
             hr: 1,
             scb: 1,
             mrp: 1,
-            gsrp: 1
+            gsrp: 1,
+            gmrp: 1,
+            ghrp: 1
           }
         }, {
           class: 4,
@@ -1752,7 +1782,9 @@ module.exports = {
             hr: 1,
             scb: 1,
             mrp: 1,
-            gsrp: 1
+            gsrp: 1,
+            gmrp: 1,
+            ghrp: 1
           }
         }, {
           class: 4,
@@ -1761,7 +1793,9 @@ module.exports = {
             hr: 1,
             scb: 1,
             mrp: 1,
-            gsrp: 1
+            gsrp: 1,
+            gmrp: 1,
+            ghrp: 1
           }
         }, 2, 2 ]
       },
@@ -2230,7 +2264,9 @@ module.exports = {
             hr: 1,
             scb: 1,
             mrp: 1,
-            gsrp: 1
+            gsrp: 1,
+            gmrp: 1,
+            ghrp: 1
           }
         }, {
           class: 5,
@@ -2239,7 +2275,9 @@ module.exports = {
             hr: 1,
             scb: 1,
             mrp: 1,
-            gsrp: 1
+            gsrp: 1,
+            gmrp: 1,
+            ghrp: 1
           }
         }, 4, 3 ]
       },
@@ -2338,7 +2376,9 @@ module.exports = {
             hr: 1,
             scb: 1,
             mrp: 1,
-            gsrp: 1
+            gsrp: 1,
+            gmrp: 1,
+            ghrp: 1
           }
         }, 1, 1 ]
       },
@@ -3184,7 +3224,9 @@ module.exports = {
             hr: 1,
             scb: 1,
             mrp: 1,
-            gsrp: 1
+            gsrp: 1,
+            gmrp: 1,
+            ghrp: 1
           }
         }, {
           class: 5,
@@ -3193,7 +3235,9 @@ module.exports = {
             hr: 1,
             scb: 1,
             mrp: 1,
-            gsrp: 1
+            gsrp: 1,
+            gmrp: 1,
+            ghrp: 1
           }
         } ]
       },
@@ -3292,7 +3336,9 @@ module.exports = {
             hr: 1,
             scb: 1,
             mrp: 1,
-            gsrp: 1
+            gsrp: 1,
+            gmrp: 1,
+            ghrp: 1
           }
         }, 2, 1 ]
       },
@@ -3391,7 +3437,9 @@ module.exports = {
             hr: 1,
             scb: 1,
             mrp: 1,
-            gsrp: 1
+            gsrp: 1,
+            gmrp: 1,
+            ghrp: 1
           }
         }, 2, 2, 1 ]
       },
@@ -3490,7 +3538,9 @@ module.exports = {
             hr: 1,
             scb: 1,
             mrp: 1,
-            gsrp: 1
+            gsrp: 1,
+            gmrp: 1,
+            ghrp: 1
           }
         }, 4, 2, 1, 1 ]
       },
@@ -10851,6 +10901,130 @@ module.exports = {
         scantime: 10,
         angle: 23,
         symbol: "Hpt_XenoScanner_Basic_Tiny"
+      } ],
+      tbsc: [ {
+        rating: "C",
+        class: 3,
+        grp: "tbsc",
+        ammo: 240,
+        mass: 8,
+        eddbID: 0,
+        breachdmg: 10.4,
+        breachmax: .8,
+        breachmin: .4,
+        clip: 16,
+        damage: 14.9,
+        damagedist: {
+          K: 1
+        },
+        distdraw: 1.07,
+        falloff: 2500,
+        integrity: 64,
+        mount: "G",
+        piercing: 95,
+        power: .89,
+        range: 3e3,
+        rof: 10,
+        shotspeed: 1200,
+        thermload: 3.1,
+        cost: 238134781,
+        reload: 6,
+        id: "2N",
+        edID: 128834780,
+        symbol: "Hpt_PlasmaShockCannon_Fixed_Large"
+      }, {
+        rating: "D",
+        class: 2,
+        grp: "tbsc",
+        ammo: 240,
+        mass: 4,
+        eddbID: 0,
+        breachdmg: 7.1,
+        breachmax: .8,
+        breachmin: .4,
+        clip: 16,
+        damage: 14.9,
+        damagedist: {
+          K: 1
+        },
+        distdraw: .58,
+        falloff: 2500,
+        integrity: 51,
+        mount: "G",
+        piercing: 40,
+        power: .89,
+        range: 3e3,
+        rof: 10,
+        reload: 6,
+        shotspeed: 1200,
+        thermload: 2.1,
+        cost: 238134781,
+        id: "2O",
+        edID: 128834003,
+        symbol: "Hpt_PlasmaShockCannon_Gimbal_Medium"
+      } ],
+      gsc: [ {
+        rating: "A",
+        class: 2,
+        grp: "gsc",
+        id: "2P",
+        eddbID: 0,
+        edID: 128834e3,
+        mount: "F",
+        cost: 53762896,
+        mass: 4,
+        integrity: 42,
+        power: 1.21,
+        damage: 3.7,
+        distdraw: .65,
+        thermload: 1.2,
+        piercing: 45,
+        range: 1700,
+        shotspeed: 1133,
+        rof: 1.7,
+        roundspershot: 12,
+        clip: 5,
+        ammo: 180,
+        reload: 5,
+        breachdmg: 3,
+        breachmin: .6,
+        breachmax: .8,
+        jitter: 5,
+        damagedist: {
+          T: 1
+        },
+        falloff: 1700
+      }, {
+        rating: "C",
+        class: 3,
+        grp: "gsc",
+        id: "2Q",
+        eddbID: 0,
+        edID: 128834778,
+        mount: "F",
+        cost: 154731222,
+        mass: 8,
+        integrity: 51,
+        power: 1.68,
+        damage: 5.2,
+        distdraw: 1.4,
+        thermload: 2.2,
+        piercing: 60,
+        range: 1700,
+        shotspeed: 1133,
+        rof: 1.7,
+        clip: 5,
+        ammo: 180,
+        roundspershot: 12,
+        reload: 5,
+        breachdmg: 4.2,
+        breachmin: .6,
+        breachmax: .8,
+        jitter: 5,
+        damagedist: {
+          T: 1
+        },
+        falloff: 1700
       } ]
     },
     internal: {
@@ -27038,6 +27212,14 @@ module.exports = {
         modifications: []
       },
       gmrp: {
+        blueprints: {},
+        modifications: []
+      },
+      tbsc: {
+        blueprints: {},
+        modifications: []
+      },
+      gsc: {
         blueprints: {},
         modifications: []
       },

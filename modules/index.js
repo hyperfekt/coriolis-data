@@ -36,7 +36,9 @@ module.exports = {
     gpc: require('./hardpoints/guardian_plasma_charger').gpc,
     ggc: require('./hardpoints/guardian_gauss_cannon').ggc,
     sfn: require('./hardpoints/shutdown_field_neutraliser').sfn,
-    xs: require('./hardpoints/xeno_scanner').xs
+    xs: require('./hardpoints/xeno_scanner').xs,
+    tbsc: require('./hardpoints/shock_cannon').tbsc,
+    gsc: require('./hardpoints/guardian_shard_cannon').gsc
   },
   internal: {
     am: require('./internal/auto_field_maintenance_unit').am,
