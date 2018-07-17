@@ -218,7 +218,7 @@ module.exports = {
     },
     alliance_challenger: {
       edID: 128816588,
-      eddbID: 33,
+      eddbID: 34,
       properties: {
         name: "Alliance Challenger",
         manufacturer: "Lakon",
@@ -2481,7 +2481,7 @@ module.exports = {
     },
     krait_mkii: {
       edID: 128816567,
-      eddbID: 17,
+      eddbID: 35,
       properties: {
         name: "Krait Mk II",
         manufacturer: "Faulcon DeLacy",
