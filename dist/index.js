@@ -2483,7 +2483,7 @@ module.exports = {
       edID: 128816567,
       eddbID: 17,
       properties: {
-        name: "Krait MkII",
+        name: "Krait Mk II",
         manufacturer: "Faulcon DeLacy",
         class: 2,
         hullCost: 42409425,
