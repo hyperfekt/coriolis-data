@@ -4807,7 +4807,7 @@ module.exports = {
         mass: 160,
         maxfuel: 0,
         optmass: 0,
-        power: 0,
+        power: .56,
         rating: "E",
         symbol: "Int_Hyperdrive_Size8_Class1"
       }, {
@@ -4823,7 +4823,7 @@ module.exports = {
         mass: 64,
         maxfuel: 0,
         optmass: 0,
-        power: 0,
+        power: .63,
         rating: "D",
         symbol: "Int_Hyperdrive_Size8_Class2"
       }, {
@@ -4839,7 +4839,7 @@ module.exports = {
         mass: 160,
         maxfuel: 0,
         optmass: 0,
-        power: 0,
+        power: .7,
         rating: "C",
         symbol: "Int_Hyperdrive_Size8_Class3"
       }, {
@@ -4855,7 +4855,7 @@ module.exports = {
         mass: 256,
         maxfuel: 0,
         optmass: 0,
-        power: 0,
+        power: .88,
         rating: "B",
         symbol: "Int_Hyperdrive_Size8_Class4"
       }, {
@@ -4871,7 +4871,7 @@ module.exports = {
         mass: 160,
         maxfuel: 0,
         optmass: 0,
-        power: 0,
+        power: 1.05,
         rating: "A",
         symbol: "Int_Hyperdrive_Size8_Class5"
       }, {
@@ -6666,7 +6666,7 @@ module.exports = {
         id: "0U",
         integrity: 56,
         mass: 2.6,
-        power: .62,
+        power: .73,
         rating: "A",
         syscap: 10,
         sysrate: .8,
@@ -6685,7 +6685,7 @@ module.exports = {
         id: "0X",
         integrity: 56,
         mass: 5.25,
-        power: .62,
+        power: .78,
         rating: "A",
         syscap: 14,
         sysrate: 1.7,
@@ -6704,7 +6704,7 @@ module.exports = {
         id: "1A",
         integrity: 56,
         mass: 10.5,
-        power: .62,
+        power: .87,
         rating: "A",
         syscap: 14,
         sysrate: 1.7,
@@ -6723,7 +6723,7 @@ module.exports = {
         id: "1A",
         integrity: 56,
         mass: 21,
-        power: .62,
+        power: .96,
         rating: "A",
         syscap: 22,
         sysrate: 3.3,
@@ -6742,7 +6742,7 @@ module.exports = {
         id: "1B",
         integrity: 56,
         mass: 42,
-        power: .62,
+        power: 1.07,
         rating: "A",
         syscap: 26,
         sysrate: 4.2,
@@ -6761,7 +6761,7 @@ module.exports = {
         id: "1C",
         integrity: 56,
         mass: 84,
-        power: .62,
+        power: 1.16,
         rating: "A",
         syscap: 31,
         sysrate: 5.2,
@@ -6780,7 +6780,7 @@ module.exports = {
         id: "1D",
         integrity: 56,
         mass: 168,
-        power: .62,
+        power: 1.25,
         rating: "A",
         syscap: 36,
         sysrate: 6.2,
@@ -13564,7 +13564,7 @@ module.exports = {
         eddbID: 1226,
         grp: "hb",
         id: "79",
-        mass: 90,
+        mass: 80,
         maximum: 12,
         power: .98,
         range: 6.02,
