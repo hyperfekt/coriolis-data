@@ -13,7 +13,7 @@
       "mass": 160,
       "maxfuel": 0,
       "optmass": 0,
-      "power": 0,
+      "power": 0.56,
       "rating": "E",
       "symbol": "Int_Hyperdrive_Size8_Class1"
     },
@@ -30,7 +30,7 @@
       "mass": 64,
       "maxfuel": 0,
       "optmass": 0,
-      "power": 0,
+      "power": 0.63,
       "rating": "D",
       "symbol": "Int_Hyperdrive_Size8_Class2"
     },
@@ -47,7 +47,7 @@
       "mass": 160,
       "maxfuel": 0,
       "optmass": 0,
-      "power": 0,
+      "power": 0.7,
       "rating": "C",
       "symbol": "Int_Hyperdrive_Size8_Class3"
     },
@@ -64,7 +64,7 @@
       "mass": 256,
       "maxfuel": 0,
       "optmass": 0,
-      "power": 0,
+      "power": 0.88,
       "rating": "B",
       "symbol": "Int_Hyperdrive_Size8_Class4"
     },
@@ -81,7 +81,7 @@
       "mass": 160,
       "maxfuel": 0,
       "optmass": 0,
-      "power": 0,
+      "power": 1.05,
       "rating": "A",
       "symbol": "Int_Hyperdrive_Size8_Class5"
     },
