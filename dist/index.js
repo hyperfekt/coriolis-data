@@ -25208,15 +25208,15 @@ module.exports = {
         kinres: -2
       },
       special_shieldbooster_thermic: {
-        optmul: -.01,
+        shieldboost: -.01,
         thermres: 2
       },
       special_shieldbooster_kinetic: {
-        optmul: -.01,
+        shieldboost: -.01,
         kinres: 2
       },
       special_shieldbooster_explosive: {
-        optmul: -.01,
+        shieldboost: -.01,
         explres: 2
       },
       special_shieldbooster_efficient: {

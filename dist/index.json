@@ -33057,15 +33057,15 @@
 				"kinres": -2
 			},
 			"special_shieldbooster_thermic": {
-				"optmul": -0.01,
+				"shieldboost": -0.01,
 				"thermres": 2
 			},
 			"special_shieldbooster_kinetic": {
-				"optmul": -0.01,
+				"shieldboost": -0.01,
 				"kinres": 2
 			},
 			"special_shieldbooster_explosive": {
-				"optmul": -0.01,
+				"shieldboost": -0.01,
 				"explres": 2
 			},
 			"special_shieldbooster_efficient": {
