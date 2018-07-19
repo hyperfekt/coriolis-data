@@ -25,7 +25,7 @@
       "rof": 10,
       "shotspeed": 1200,
       "thermload": 3.1,
-      "cost": 238134781,
+      "cost": 2381347,
       "reload": 6,
       "id": "2N",
       "edID": 128834780,
@@ -57,7 +57,7 @@
       "reload": 6,
       "shotspeed": 1200,
       "thermload": 2.1,
-      "cost": 238134781,
+      "cost": 2381347,
       "id": "2O",
       "edID": 128834003,
       "symbol": "Hpt_PlasmaShockCannon_Gimbal_Medium"
