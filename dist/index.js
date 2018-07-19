@@ -22773,7 +22773,7 @@ module.exports = {
               integrity: [ 0, .03 ],
               mass: [ 1, 1 ],
               power: [ .05, .05 ],
-              shieldboost: [ 0, .12 ]
+              shieldboost: [ .03, .1 ]
             },
             uuid: "350e7873-893a-49d2-9057-c00e060178eb"
           },
@@ -22786,7 +22786,7 @@ module.exports = {
               integrity: [ .03, .06 ],
               mass: [ 1.5, 1.5 ],
               power: [ .1, .1 ],
-              shieldboost: [ .12, .204 ]
+              shieldboost: [ .1, .17 ]
             },
             uuid: "636ccc8d-cc59-4366-9934-8b235becc2d7"
           },
@@ -22800,7 +22800,7 @@ module.exports = {
               integrity: [ .06, .09 ],
               mass: [ 2, 2 ],
               power: [ .15, .15 ],
-              shieldboost: [ .204, .288 ]
+              shieldboost: [ .17, .24 ]
             },
             uuid: "82a66c08-1205-4c1a-ab02-1889e8ebcdd8"
           },
@@ -22814,7 +22814,7 @@ module.exports = {
               integrity: [ .09, .12 ],
               mass: [ 2.5, 2.5 ],
               power: [ .2, .2 ],
-              shieldboost: [ .288, .372 ]
+              shieldboost: [ .24, .31 ]
             },
             uuid: "c635934c-8d9d-4d1c-89e4-3a000a972bf2"
           },
@@ -22828,7 +22828,7 @@ module.exports = {
               integrity: [ .12, .15 ],
               mass: [ 3, 3 ],
               power: [ .25, .25 ],
-              shieldboost: [ .372, .38 ]
+              shieldboost: [ .31, .38 ]
             },
             uuid: "933e238e-56e0-44d6-b114-49eaab02f033"
           }
@@ -25226,7 +25226,7 @@ module.exports = {
         integrity: .15
       },
       special_shieldbooster_chunky: {
-        shieldboost: .06,
+        shieldboost: .05,
         thermres: -2,
         kinres: -2,
         explres: -2
