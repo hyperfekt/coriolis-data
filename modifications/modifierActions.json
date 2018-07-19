@@ -448,15 +448,15 @@
     "kinres": -2
   },
   "special_shieldbooster_thermic": {
-    "optmul": -0.01,
+    "shieldboost": -0.01,
     "thermres": 2
   },
   "special_shieldbooster_kinetic": {
-    "optmul": -0.01,
+    "shieldboost": -0.01,
     "kinres": 2
   },
   "special_shieldbooster_explosive": {
-    "optmul": -0.01,
+    "shieldboost": -0.01,
     "explres": 2
   },
   "special_shieldbooster_efficient": {
@@ -466,7 +466,7 @@
     "integrity": 0.15
   },
   "special_shieldbooster_chunky": {
-    "shieldboost": 0.06,
+    "shieldboost": 0.05,
     "thermres": -2,
     "kinres": -2,
     "explres": -2

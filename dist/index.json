@@ -13353,7 +13353,7 @@
 					"rof": 10,
 					"shotspeed": 1200,
 					"thermload": 3.1,
-					"cost": 238134781,
+					"cost": 2381347,
 					"reload": 6,
 					"id": "2N",
 					"edID": 128834780,
@@ -13385,7 +13385,7 @@
 					"reload": 6,
 					"shotspeed": 1200,
 					"thermload": 2.1,
-					"cost": 238134781,
+					"cost": 2381347,
 					"id": "2O",
 					"edID": 128834003,
 					"symbol": "Hpt_PlasmaShockCannon_Gimbal_Medium"
@@ -13400,7 +13400,7 @@
 					"eddbID": 0,
 					"edID": 128834000,
 					"mount": "F",
-					"cost": 53762896,
+					"cost": 537628,
 					"mass": 4,
 					"integrity": 42,
 					"power": 1.21,
@@ -13432,7 +13432,7 @@
 					"eddbID": 0,
 					"edID": 128834778,
 					"mount": "F",
-					"cost": 154731222,
+					"cost": 1547312,
 					"mass": 8,
 					"integrity": 51,
 					"power": 1.68,
@@ -19890,7 +19890,7 @@
 					"power": 0.56,
 					"hullreinforcement": 138,
 					"thermres": 0.02,
-					"cost": 3176471,
+					"cost": 31765,
 					"symbol": "Int_GuardianHullReinforcement_class1_Class2",
 					"grp": "ghrp"
 				},
@@ -19904,7 +19904,7 @@
 					"power": 0.45,
 					"hullreinforcement": 100,
 					"thermres": 0.02,
-					"cost": 1058824,
+					"cost": 10588,
 					"symbol": "Int_GuardianHullReinforcement_class1_Class1",
 					"grp": "ghrp"
 				},
@@ -19918,7 +19918,7 @@
 					"power": 0.79,
 					"hullreinforcement": 238,
 					"thermres": 0.02,
-					"cost": 7623529,
+					"cost": 76235,
 					"symbol": "Int_GuardianHullReinforcement_class2_Class2",
 					"grp": "ghrp"
 				},
@@ -19932,7 +19932,7 @@
 					"power": 0.68,
 					"hullreinforcement": 188,
 					"thermres": 0.02,
-					"cost": 2541176,
+					"cost": 25412,
 					"symbol": "Int_GuardianHullReinforcement_class2_Class1",
 					"grp": "ghrp"
 				},
@@ -19946,7 +19946,7 @@
 					"power": 1.01,
 					"hullreinforcement": 325,
 					"thermres": 0.02,
-					"cost": 18296471,
+					"cost": 182965,
 					"grp": "ghrp"
 				},
 				{
@@ -19959,7 +19959,7 @@
 					"power": 0.9,
 					"hullreinforcement": 288,
 					"thermres": 0.02,
-					"cost": 6098824,
+					"cost": 60988,
 					"symbol": "Int_GuardianHullReinforcement_class3_Class1",
 					"grp": "ghrp"
 				},
@@ -19972,8 +19972,8 @@
 					"power": 1.24,
 					"hullreinforcement": 413,
 					"thermres": 0.02,
-					"cost": 43911554,
-					"id": "2A",
+					"cost": 439116,
+					"id": "2R",
 					"symbol": "Int_GuardianHullReinforcement_class4_Class2",
 					"grp": "ghrp"
 				},
@@ -19986,7 +19986,7 @@
 					"power": 1.13,
 					"hullreinforcement": 375,
 					"thermres": 0.02,
-					"cost": 14637225,
+					"cost": 146372,
 					"id": "2B",
 					"symbol": "Int_GuardianHullReinforcement_class4_Class1",
 					"grp": "ghrp"
@@ -20000,7 +20000,7 @@
 					"power": 1.46,
 					"hullreinforcement": 488,
 					"thermres": 0.02,
-					"cost": 105387873,
+					"cost": 1053879,
 					"id": "2C",
 					"symbol": "Int_GuardianHullReinforcement_class5_Class1",
 					"grp": "ghrp"
@@ -20014,7 +20014,7 @@
 					"power": 1.35,
 					"hullreinforcement": 450,
 					"thermres": 0.02,
-					"cost": 35129412,
+					"cost": 351294,
 					"id": "2D",
 					"grp": "ghrp"
 				}
@@ -29329,8 +29329,8 @@
 								0.05
 							],
 							"shieldboost": [
-								0,
-								0.12
+								0.03,
+								0.1
 							]
 						},
 						"uuid": "350e7873-893a-49d2-9057-c00e060178eb"
@@ -29354,8 +29354,8 @@
 								0.1
 							],
 							"shieldboost": [
-								0.12,
-								0.204
+								0.1,
+								0.17
 							]
 						},
 						"uuid": "636ccc8d-cc59-4366-9934-8b235becc2d7"
@@ -29380,8 +29380,8 @@
 								0.15
 							],
 							"shieldboost": [
-								0.204,
-								0.288
+								0.17,
+								0.24
 							]
 						},
 						"uuid": "82a66c08-1205-4c1a-ab02-1889e8ebcdd8"
@@ -29406,8 +29406,8 @@
 								0.2
 							],
 							"shieldboost": [
-								0.288,
-								0.372
+								0.24,
+								0.31
 							]
 						},
 						"uuid": "c635934c-8d9d-4d1c-89e4-3a000a972bf2"
@@ -29432,7 +29432,7 @@
 								0.25
 							],
 							"shieldboost": [
-								0.372,
+								0.31,
 								0.38
 							]
 						},
@@ -33057,15 +33057,15 @@
 				"kinres": -2
 			},
 			"special_shieldbooster_thermic": {
-				"optmul": -0.01,
+				"shieldboost": -0.01,
 				"thermres": 2
 			},
 			"special_shieldbooster_kinetic": {
-				"optmul": -0.01,
+				"shieldboost": -0.01,
 				"kinres": 2
 			},
 			"special_shieldbooster_explosive": {
-				"optmul": -0.01,
+				"shieldboost": -0.01,
 				"explres": 2
 			},
 			"special_shieldbooster_efficient": {
@@ -33075,7 +33075,7 @@
 				"integrity": 0.15
 			},
 			"special_shieldbooster_chunky": {
-				"shieldboost": 0.06,
+				"shieldboost": 0.05,
 				"thermres": -2,
 				"kinres": -2,
 				"explres": -2

@@ -10,7 +10,7 @@
       "power": 0.56,
       "hullreinforcement": 138,
       "thermres": 0.02,
-      "cost": 3176471,
+      "cost": 31765,
       "symbol": "Int_GuardianHullReinforcement_class1_Class2",
       "grp": "ghrp"
     },
@@ -24,7 +24,7 @@
       "power": 0.45,
       "hullreinforcement": 100,
       "thermres": 0.02,
-      "cost": 1058824,
+      "cost": 10588,
       "symbol": "Int_GuardianHullReinforcement_class1_Class1",
       "grp": "ghrp"
     },
@@ -38,7 +38,7 @@
       "power": 0.79,
       "hullreinforcement": 238,
       "thermres": 0.02,
-      "cost": 7623529,
+      "cost": 76235,
       "symbol": "Int_GuardianHullReinforcement_class2_Class2",
       "grp": "ghrp"
     },
@@ -52,7 +52,7 @@
       "power": 0.68,
       "hullreinforcement": 188,
       "thermres": 0.02,
-      "cost": 2541176,
+      "cost": 25412,
       "symbol": "Int_GuardianHullReinforcement_class2_Class1",
       "grp": "ghrp"
     },
@@ -66,7 +66,7 @@
       "power": 1.01,
       "hullreinforcement": 325,
       "thermres": 0.02,
-      "cost": 18296471,
+      "cost": 182965,
       "grp": "ghrp"
     },
     {
@@ -79,7 +79,7 @@
       "power": 0.9,
       "hullreinforcement": 288,
       "thermres": 0.02,
-      "cost": 6098824,
+      "cost": 60988,
       "symbol": "Int_GuardianHullReinforcement_class3_Class1",
       "grp": "ghrp"
     },
@@ -92,8 +92,8 @@
       "power": 1.24,
       "hullreinforcement": 413,
       "thermres": 0.02,
-      "cost": 43911554,
-      "id": "2A",
+      "cost": 439116,
+      "id": "2R",
       "symbol": "Int_GuardianHullReinforcement_class4_Class2",
       "grp": "ghrp"
     },
@@ -106,7 +106,7 @@
       "power": 1.13,
       "hullreinforcement": 375,
       "thermres": 0.02,
-      "cost": 14637225,
+      "cost": 146372,
       "id": "2B",
       "symbol": "Int_GuardianHullReinforcement_class4_Class1",
       "grp": "ghrp"
@@ -120,7 +120,7 @@
       "power": 1.46,
       "hullreinforcement": 488,
       "thermres": 0.02,
-      "cost": 105387873,
+      "cost": 1053879,
       "id": "2C",
       "symbol": "Int_GuardianHullReinforcement_class5_Class1",
       "grp": "ghrp"
@@ -134,7 +134,7 @@
       "power": 1.35,
       "hullreinforcement": 450,
       "thermres": 0.02,
-      "cost": 35129412,
+      "cost": 351294,
       "id": "2D",
       "grp": "ghrp"
     }

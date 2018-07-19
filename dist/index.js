@@ -10927,7 +10927,7 @@ module.exports = {
         rof: 10,
         shotspeed: 1200,
         thermload: 3.1,
-        cost: 238134781,
+        cost: 2381347,
         reload: 6,
         id: "2N",
         edID: 128834780,
@@ -10958,7 +10958,7 @@ module.exports = {
         reload: 6,
         shotspeed: 1200,
         thermload: 2.1,
-        cost: 238134781,
+        cost: 2381347,
         id: "2O",
         edID: 128834003,
         symbol: "Hpt_PlasmaShockCannon_Gimbal_Medium"
@@ -10971,7 +10971,7 @@ module.exports = {
         eddbID: 0,
         edID: 128834e3,
         mount: "F",
-        cost: 53762896,
+        cost: 537628,
         mass: 4,
         integrity: 42,
         power: 1.21,
@@ -11002,7 +11002,7 @@ module.exports = {
         eddbID: 0,
         edID: 128834778,
         mount: "F",
-        cost: 154731222,
+        cost: 1547312,
         mass: 8,
         integrity: 51,
         power: 1.68,
@@ -17030,7 +17030,7 @@ module.exports = {
         power: .56,
         hullreinforcement: 138,
         thermres: .02,
-        cost: 3176471,
+        cost: 31765,
         symbol: "Int_GuardianHullReinforcement_class1_Class2",
         grp: "ghrp"
       }, {
@@ -17043,7 +17043,7 @@ module.exports = {
         power: .45,
         hullreinforcement: 100,
         thermres: .02,
-        cost: 1058824,
+        cost: 10588,
         symbol: "Int_GuardianHullReinforcement_class1_Class1",
         grp: "ghrp"
       }, {
@@ -17056,7 +17056,7 @@ module.exports = {
         power: .79,
         hullreinforcement: 238,
         thermres: .02,
-        cost: 7623529,
+        cost: 76235,
         symbol: "Int_GuardianHullReinforcement_class2_Class2",
         grp: "ghrp"
       }, {
@@ -17069,7 +17069,7 @@ module.exports = {
         power: .68,
         hullreinforcement: 188,
         thermres: .02,
-        cost: 2541176,
+        cost: 25412,
         symbol: "Int_GuardianHullReinforcement_class2_Class1",
         grp: "ghrp"
       }, {
@@ -17082,7 +17082,7 @@ module.exports = {
         power: 1.01,
         hullreinforcement: 325,
         thermres: .02,
-        cost: 18296471,
+        cost: 182965,
         grp: "ghrp"
       }, {
         rating: "E",
@@ -17094,7 +17094,7 @@ module.exports = {
         power: .9,
         hullreinforcement: 288,
         thermres: .02,
-        cost: 6098824,
+        cost: 60988,
         symbol: "Int_GuardianHullReinforcement_class3_Class1",
         grp: "ghrp"
       }, {
@@ -17106,8 +17106,8 @@ module.exports = {
         power: 1.24,
         hullreinforcement: 413,
         thermres: .02,
-        cost: 43911554,
-        id: "2A",
+        cost: 439116,
+        id: "2R",
         symbol: "Int_GuardianHullReinforcement_class4_Class2",
         grp: "ghrp"
       }, {
@@ -17119,7 +17119,7 @@ module.exports = {
         power: 1.13,
         hullreinforcement: 375,
         thermres: .02,
-        cost: 14637225,
+        cost: 146372,
         id: "2B",
         symbol: "Int_GuardianHullReinforcement_class4_Class1",
         grp: "ghrp"
@@ -17132,7 +17132,7 @@ module.exports = {
         power: 1.46,
         hullreinforcement: 488,
         thermres: .02,
-        cost: 105387873,
+        cost: 1053879,
         id: "2C",
         symbol: "Int_GuardianHullReinforcement_class5_Class1",
         grp: "ghrp"
@@ -17145,7 +17145,7 @@ module.exports = {
         power: 1.35,
         hullreinforcement: 450,
         thermres: .02,
-        cost: 35129412,
+        cost: 351294,
         id: "2D",
         grp: "ghrp"
       } ],
@@ -22773,7 +22773,7 @@ module.exports = {
               integrity: [ 0, .03 ],
               mass: [ 1, 1 ],
               power: [ .05, .05 ],
-              shieldboost: [ 0, .12 ]
+              shieldboost: [ .03, .1 ]
             },
             uuid: "350e7873-893a-49d2-9057-c00e060178eb"
           },
@@ -22786,7 +22786,7 @@ module.exports = {
               integrity: [ .03, .06 ],
               mass: [ 1.5, 1.5 ],
               power: [ .1, .1 ],
-              shieldboost: [ .12, .204 ]
+              shieldboost: [ .1, .17 ]
             },
             uuid: "636ccc8d-cc59-4366-9934-8b235becc2d7"
           },
@@ -22800,7 +22800,7 @@ module.exports = {
               integrity: [ .06, .09 ],
               mass: [ 2, 2 ],
               power: [ .15, .15 ],
-              shieldboost: [ .204, .288 ]
+              shieldboost: [ .17, .24 ]
             },
             uuid: "82a66c08-1205-4c1a-ab02-1889e8ebcdd8"
           },
@@ -22814,7 +22814,7 @@ module.exports = {
               integrity: [ .09, .12 ],
               mass: [ 2.5, 2.5 ],
               power: [ .2, .2 ],
-              shieldboost: [ .288, .372 ]
+              shieldboost: [ .24, .31 ]
             },
             uuid: "c635934c-8d9d-4d1c-89e4-3a000a972bf2"
           },
@@ -22828,7 +22828,7 @@ module.exports = {
               integrity: [ .12, .15 ],
               mass: [ 3, 3 ],
               power: [ .25, .25 ],
-              shieldboost: [ .372, .38 ]
+              shieldboost: [ .31, .38 ]
             },
             uuid: "933e238e-56e0-44d6-b114-49eaab02f033"
           }
@@ -25208,15 +25208,15 @@ module.exports = {
         kinres: -2
       },
       special_shieldbooster_thermic: {
-        optmul: -.01,
+        shieldboost: -.01,
         thermres: 2
       },
       special_shieldbooster_kinetic: {
-        optmul: -.01,
+        shieldboost: -.01,
         kinres: 2
       },
       special_shieldbooster_explosive: {
-        optmul: -.01,
+        shieldboost: -.01,
         explres: 2
       },
       special_shieldbooster_efficient: {
@@ -25226,7 +25226,7 @@ module.exports = {
         integrity: .15
       },
       special_shieldbooster_chunky: {
-        shieldboost: .06,
+        shieldboost: .05,
         thermres: -2,
         kinres: -2,
         explres: -2
