@@ -25226,7 +25226,7 @@ module.exports = {
         integrity: .15
       },
       special_shieldbooster_chunky: {
-        shieldboost: .06,
+        shieldboost: .05,
         thermres: -2,
         kinres: -2,
         explres: -2

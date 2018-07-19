@@ -466,7 +466,7 @@
     "integrity": 0.15
   },
   "special_shieldbooster_chunky": {
-    "shieldboost": 0.06,
+    "shieldboost": 0.05,
     "thermres": -2,
     "kinres": -2,
     "explres": -2
