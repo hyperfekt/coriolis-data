@@ -8,7 +8,7 @@
       "eddbID": 0,
       "edID": 128834000,
       "mount": "F",
-      "cost": 537628,
+      "cost": 507761,
       "mass": 4,
       "integrity": 42,
       "power": 1.21,
@@ -27,6 +27,7 @@
       "breachmin": 0.6,
       "breachmax": 0.8,
       "jitter": 5,
+      "symbol": "Hpt_Guardian_ShardCannon_Fixed_Medium",
       "damagedist": {
         "T": 1
       },
@@ -40,7 +41,7 @@
       "eddbID": 0,
       "edID": 128834778,
       "mount": "F",
-      "cost": 1547312,
+      "cost": 1461350,
       "mass": 8,
       "integrity": 51,
       "power": 1.68,
@@ -59,6 +60,7 @@
       "breachmin": 0.6,
       "breachmax": 0.8,
       "jitter": 5,
+      "symbol": "Hpt_Guardian_ShardCannon_Fixed_Large",
       "damagedist": {
         "T": 1
       },

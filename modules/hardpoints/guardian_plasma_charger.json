@@ -7,13 +7,13 @@
       "breachmin": 0.5,
       "class": 2,
       "clip": 15,
-      "cost": 3051200,
+      "cost": 567761,
       "damage": 5,
       "damagedist": {
         "A": 1
       },
       "distdraw": 13.6,
-      "edID": 128049466,
+      "edID": 128833998,
       "eddbID": 874,
       "falloff": 1000,
       "grp": "gpc",
@@ -38,13 +38,13 @@
       "breachmin": 0.5,
       "class": 2,
       "clip": 15,
-      "cost": 3051200,
+      "cost": 1659200,
       "damage": 4,
       "damagedist": {
         "A": 1
       },
       "distdraw": 13.6,
-      "edID": 128049466,
+      "edID": 128833999,
       "eddbID": 874,
       "falloff": 1000,
       "grp": "gpc",
