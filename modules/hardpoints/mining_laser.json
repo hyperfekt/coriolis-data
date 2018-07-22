@@ -111,7 +111,7 @@
       "breachmax": 0.2,
       "breachmin": 0.1,
       "class": 2,
-      "cost": 32590,
+      "cost": 32578,
       "damage": 4,
       "damagedist": {
         "T": 1

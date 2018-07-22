@@ -2,7 +2,7 @@
   "fsd": [
     {
       "class": 8,
-      "cost": 0,
+      "cost": 2007242,
       "edID": 128064133,
       "eddbID": 991,
       "fuelmul": 0.011,
@@ -19,7 +19,7 @@
     },
     {
       "class": 8,
-      "cost": 0,
+      "cost": 6021723,
       "edID": 128064134,
       "eddbID": 992,
       "fuelmul": 0.01,
@@ -36,7 +36,7 @@
     },
     {
       "class": 8,
-      "cost": 0,
+      "cost": 18065166,
       "edID": 128064135,
       "eddbID": 993,
       "fuelmul": 0.008,
@@ -53,7 +53,7 @@
     },
     {
       "class": 8,
-      "cost": 0,
+      "cost": 54195496,
       "edID": 128064136,
       "eddbID": 994,
       "fuelmul": 0.01,
@@ -70,7 +70,7 @@
     },
     {
       "class": 8,
-      "cost": 0,
+      "cost": 162586488,
       "edID": 128064137,
       "eddbID": 995,
       "fuelmul": 0.012,
