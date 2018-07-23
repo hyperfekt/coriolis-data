@@ -2,7 +2,7 @@
   "pci": [
     {
       "class": 3,
-      "cost": 26720,
+      "cost": 26707,
       "edID": 128734692,
       "eddbID": 1568,
       "grp": "pci",
