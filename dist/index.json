@@ -5565,7 +5565,7 @@
 			"pp": [
 				{
 					"class": 8,
-					"cost": 2007240,
+					"cost": 1441234,
 					"edID": 128064063,
 					"eddbID": 921,
 					"eff": 1,
@@ -5579,7 +5579,7 @@
 				},
 				{
 					"class": 8,
-					"cost": 6021720,
+					"cost": 4323700,
 					"edID": 128064064,
 					"eddbID": 922,
 					"eff": 0.75,
@@ -5593,7 +5593,7 @@
 				},
 				{
 					"class": 8,
-					"cost": 18065170,
+					"cost": 12971099,
 					"edID": 128064065,
 					"eddbID": 923,
 					"eff": 0.5,
@@ -5607,7 +5607,7 @@
 				},
 				{
 					"class": 8,
-					"cost": 54195500,
+					"cost": 38913291,
 					"edID": 128064066,
 					"eddbID": 924,
 					"eff": 0.45,
@@ -5621,7 +5621,7 @@
 				},
 				{
 					"class": 8,
-					"cost": 162586490,
+					"cost": 116739874,
 					"edID": 128064067,
 					"eddbID": 925,
 					"eff": 0.4,
@@ -5635,7 +5635,7 @@
 				},
 				{
 					"class": 7,
-					"cost": 633200,
+					"cost": 480411,
 					"edID": 128064058,
 					"eddbID": 916,
 					"eff": 1,
@@ -5649,7 +5649,7 @@
 				},
 				{
 					"class": 7,
-					"cost": 1899600,
+					"cost": 1441234,
 					"edID": 128064059,
 					"eddbID": 917,
 					"eff": 0.75,
@@ -5663,7 +5663,7 @@
 				},
 				{
 					"class": 7,
-					"cost": 5698790,
+					"cost": 4323700,
 					"edID": 128064060,
 					"eddbID": 918,
 					"eff": 0.5,
@@ -5677,7 +5677,7 @@
 				},
 				{
 					"class": 7,
-					"cost": 17096370,
+					"cost": 12971099,
 					"edID": 128064061,
 					"eddbID": 919,
 					"eff": 0.45,
@@ -5691,7 +5691,7 @@
 				},
 				{
 					"class": 7,
-					"cost": 51289110,
+					"cost": 38913291,
 					"edID": 128064062,
 					"eddbID": 920,
 					"eff": 0.4,
@@ -5705,7 +5705,7 @@
 				},
 				{
 					"class": 6,
-					"cost": 199750,
+					"cost": 160138,
 					"edID": 128064053,
 					"eddbID": 911,
 					"eff": 1,
@@ -5719,7 +5719,7 @@
 				},
 				{
 					"class": 6,
-					"cost": 599240,
+					"cost": 480411,
 					"edID": 128064054,
 					"eddbID": 912,
 					"eff": 0.75,
@@ -5733,7 +5733,7 @@
 				},
 				{
 					"class": 6,
-					"cost": 1797730,
+					"cost": 1441234,
 					"edID": 128064055,
 					"eddbID": 913,
 					"eff": 0.5,
@@ -5747,7 +5747,7 @@
 				},
 				{
 					"class": 6,
-					"cost": 5393180,
+					"cost": 4323700,
 					"edID": 128064056,
 					"eddbID": 914,
 					"eff": 0.45,
@@ -5761,7 +5761,7 @@
 				},
 				{
 					"class": 6,
-					"cost": 16179530,
+					"cost": 12971099,
 					"edID": 128064057,
 					"eddbID": 915,
 					"eff": 0.4,
@@ -5775,7 +5775,7 @@
 				},
 				{
 					"class": 5,
-					"cost": 63010,
+					"cost": 53380,
 					"edID": 128064048,
 					"eddbID": 906,
 					"eff": 1,
@@ -5789,7 +5789,7 @@
 				},
 				{
 					"class": 5,
-					"cost": 189040,
+					"cost": 160138,
 					"edID": 128064049,
 					"eddbID": 907,
 					"eff": 0.75,
@@ -5803,7 +5803,7 @@
 				},
 				{
 					"class": 5,
-					"cost": 567110,
+					"cost": 480411,
 					"edID": 128064050,
 					"eddbID": 908,
 					"eff": 0.5,
@@ -5817,7 +5817,7 @@
 				},
 				{
 					"class": 5,
-					"cost": 1701320,
+					"cost": 1441234,
 					"edID": 128064051,
 					"eddbID": 909,
 					"eff": 0.45,
@@ -5831,7 +5831,7 @@
 				},
 				{
 					"class": 5,
-					"cost": 5103950,
+					"cost": 4323700,
 					"edID": 128064052,
 					"eddbID": 910,
 					"eff": 0.4,
@@ -5845,7 +5845,7 @@
 				},
 				{
 					"class": 4,
-					"cost": 19880,
+					"cost": 17794,
 					"edID": 128064043,
 					"eddbID": 901,
 					"eff": 1,
@@ -5859,7 +5859,7 @@
 				},
 				{
 					"class": 4,
-					"cost": 59630,
+					"cost": 53380,
 					"edID": 128064044,
 					"eddbID": 902,
 					"eff": 0.75,
@@ -5873,7 +5873,7 @@
 				},
 				{
 					"class": 4,
-					"cost": 178900,
+					"cost": 160138,
 					"edID": 128064045,
 					"eddbID": 903,
 					"eff": 0.5,
@@ -5887,7 +5887,7 @@
 				},
 				{
 					"class": 4,
-					"cost": 536690,
+					"cost": 480411,
 					"edID": 128064046,
 					"eddbID": 904,
 					"eff": 0.45,
@@ -5901,7 +5901,7 @@
 				},
 				{
 					"class": 4,
-					"cost": 1610080,
+					"cost": 1441234,
 					"edID": 128064047,
 					"eddbID": 905,
 					"eff": 0.4,
@@ -5915,7 +5915,7 @@
 				},
 				{
 					"class": 3,
-					"cost": 6270,
+					"cost": 5932,
 					"edID": 128064038,
 					"eddbID": 896,
 					"eff": 1,
@@ -5929,7 +5929,7 @@
 				},
 				{
 					"class": 3,
-					"cost": 18810,
+					"cost": 17794,
 					"edID": 128064039,
 					"eddbID": 897,
 					"eff": 0.75,
@@ -5943,7 +5943,7 @@
 				},
 				{
 					"class": 3,
-					"cost": 56440,
+					"cost": 53380,
 					"edID": 128064040,
 					"eddbID": 898,
 					"eff": 0.5,
@@ -5957,7 +5957,7 @@
 				},
 				{
 					"class": 3,
-					"cost": 169300,
+					"cost": 160138,
 					"edID": 128064041,
 					"eddbID": 899,
 					"eff": 0.45,
@@ -5971,7 +5971,7 @@
 				},
 				{
 					"class": 3,
-					"cost": 507910,
+					"cost": 480411,
 					"edID": 128064042,
 					"eddbID": 900,
 					"eff": 0.4,
@@ -6027,7 +6027,7 @@
 				},
 				{
 					"class": 2,
-					"cost": 53410,
+					"cost": 53380,
 					"edID": 128064036,
 					"eddbID": 894,
 					"eff": 0.45,
@@ -6041,7 +6041,7 @@
 				},
 				{
 					"class": 2,
-					"cost": 160220,
+					"cost": 160138,
 					"edID": 128064037,
 					"eddbID": 895,
 					"eff": 0.4,
@@ -6055,7 +6055,7 @@
 				},
 				{
 					"class": 2,
-					"cost": 187360,
+					"cost": 192165,
 					"edID": 128833988,
 					"eddbID": 895,
 					"eff": 0.5,
@@ -6070,7 +6070,7 @@
 				},
 				{
 					"class": 3,
-					"cost": 468401,
+					"cost": 576493,
 					"edID": 128833989,
 					"eddbID": 895,
 					"eff": 0.5,
@@ -6085,7 +6085,7 @@
 				},
 				{
 					"class": 4,
-					"cost": 1686243,
+					"cost": 1729480,
 					"edID": 128833990,
 					"eddbID": 895,
 					"eff": 0.5,
@@ -6100,7 +6100,7 @@
 				},
 				{
 					"class": 5,
-					"cost": 5058729,
+					"cost": 5188441,
 					"edID": 128833991,
 					"eddbID": 895,
 					"eff": 0.5,
@@ -6115,7 +6115,7 @@
 				},
 				{
 					"class": 6,
-					"cost": 15176184,
+					"cost": 15565317,
 					"edID": 128833992,
 					"eddbID": 895,
 					"eff": 0.5,
@@ -6130,7 +6130,7 @@
 				},
 				{
 					"class": 7,
-					"cost": 45528551,
+					"cost": 46695951,
 					"edID": 128833993,
 					"eddbID": 895,
 					"eff": 0.5,
@@ -6145,7 +6145,7 @@
 				},
 				{
 					"class": 8,
-					"cost": 136585652,
+					"cost": 140087850,
 					"edID": 128833994,
 					"eddbID": 895,
 					"eff": 0.5,
@@ -6887,7 +6887,7 @@
 			"fsd": [
 				{
 					"class": 8,
-					"cost": 0,
+					"cost": 2007242,
 					"edID": 128064133,
 					"eddbID": 991,
 					"fuelmul": 0.011,
@@ -6904,7 +6904,7 @@
 				},
 				{
 					"class": 8,
-					"cost": 0,
+					"cost": 6021723,
 					"edID": 128064134,
 					"eddbID": 992,
 					"fuelmul": 0.01,
@@ -6921,7 +6921,7 @@
 				},
 				{
 					"class": 8,
-					"cost": 0,
+					"cost": 18065166,
 					"edID": 128064135,
 					"eddbID": 993,
 					"fuelmul": 0.008,
@@ -6938,7 +6938,7 @@
 				},
 				{
 					"class": 8,
-					"cost": 0,
+					"cost": 54195496,
 					"edID": 128064136,
 					"eddbID": 994,
 					"fuelmul": 0.01,
@@ -6955,7 +6955,7 @@
 				},
 				{
 					"class": 8,
-					"cost": 0,
+					"cost": 162586488,
 					"edID": 128064137,
 					"eddbID": 995,
 					"fuelmul": 0.012,
@@ -7530,7 +7530,7 @@
 				{
 					"boot": 1,
 					"class": 8,
-					"cost": 10899770,
+					"cost": 10899757,
 					"edID": 128064176,
 					"eddbID": 1034,
 					"grp": "ls",
@@ -8846,8 +8846,8 @@
 				},
 				{
 					"class": 1,
-					"cost": 20200,
-					"edID": 128064182,
+					"cost": 40957,
+					"edID": 128833980,
 					"eddbID": 1040,
 					"engcap": 9,
 					"engrate": 0.8,
@@ -8866,8 +8866,8 @@
 				},
 				{
 					"class": 2,
-					"cost": 20200,
-					"edID": 128064182,
+					"cost": 111600,
+					"edID": 128833981,
 					"eddbID": 1040,
 					"engcap": 9,
 					"engrate": 0.8,
@@ -8886,8 +8886,8 @@
 				},
 				{
 					"class": 3,
-					"cost": 20200,
-					"edID": 128064182,
+					"cost": 311365,
+					"edID": 128833982,
 					"eddbID": 1040,
 					"engcap": 14,
 					"engrate": 1.7,
@@ -8906,8 +8906,8 @@
 				},
 				{
 					"class": 4,
-					"cost": 20200,
-					"edID": 128064182,
+					"cost": 868708,
+					"edID": 128833983,
 					"eddbID": 1040,
 					"engcap": 17,
 					"engrate": 2.5,
@@ -8926,13 +8926,13 @@
 				},
 				{
 					"class": 5,
-					"cost": 20200,
-					"edID": 128064182,
+					"cost": 2423690,
+					"edID": 128833984,
 					"eddbID": 1040,
 					"engcap": 22,
 					"engrate": 3.3,
 					"grp": "pd",
-					"id": "1A",
+					"id": "1E",
 					"integrity": 56,
 					"mass": 21,
 					"power": 0.96,
@@ -8946,8 +8946,8 @@
 				},
 				{
 					"class": 6,
-					"cost": 20200,
-					"edID": 128064182,
+					"cost": 6762091,
+					"edID": 128833985,
 					"eddbID": 1040,
 					"engcap": 26,
 					"engrate": 4.2,
@@ -8966,8 +8966,8 @@
 				},
 				{
 					"class": 7,
-					"cost": 20200,
-					"edID": 128064182,
+					"cost": 18866235,
+					"edID": 128833986,
 					"eddbID": 1040,
 					"engcap": 31,
 					"engrate": 5.2,
@@ -8986,8 +8986,8 @@
 				},
 				{
 					"class": 8,
-					"cost": 20200,
-					"edID": 128064182,
+					"cost": 52636793,
+					"edID": 128833987,
 					"eddbID": 1040,
 					"engcap": 36,
 					"engrate": 6.2,
@@ -9687,7 +9687,7 @@
 				},
 				{
 					"class": 8,
-					"cost": 5428400,
+					"cost": 5428431,
 					"edID": 128064353,
 					"eddbID": 1206,
 					"fuel": 256,
@@ -11673,7 +11673,7 @@
 					"breachmin": 0.4,
 					"class": 2,
 					"clip": 3,
-					"cost": 437800,
+					"cost": 437761,
 					"damage": 2.275,
 					"damagedist": {
 						"K": 1
@@ -12746,7 +12746,7 @@
 					"breachmax": 0.2,
 					"breachmin": 0.1,
 					"class": 2,
-					"cost": 32590,
+					"cost": 32578,
 					"damage": 4,
 					"damagedist": {
 						"T": 1
@@ -13193,13 +13193,13 @@
 					"breachmin": 0.5,
 					"class": 2,
 					"clip": 15,
-					"cost": 3051200,
+					"cost": 567761,
 					"damage": 5,
 					"damagedist": {
 						"A": 1
 					},
 					"distdraw": 13.6,
-					"edID": 128049466,
+					"edID": 128833998,
 					"eddbID": 874,
 					"falloff": 1000,
 					"grp": "gpc",
@@ -13224,13 +13224,13 @@
 					"breachmin": 0.5,
 					"class": 2,
 					"clip": 15,
-					"cost": 3051200,
+					"cost": 1659200,
 					"damage": 4,
 					"damagedist": {
 						"A": 1
 					},
 					"distdraw": 13.6,
-					"edID": 128049466,
+					"edID": 128833999,
 					"eddbID": 874,
 					"falloff": 1000,
 					"grp": "gpc",
@@ -13259,7 +13259,7 @@
 					"burstrof": 0.83,
 					"class": 2,
 					"clip": 1,
-					"cost": 0,
+					"cost": 543801,
 					"damage": 70,
 					"damagedist": {
 						"T": 1
@@ -13353,7 +13353,7 @@
 					"rof": 10,
 					"shotspeed": 1200,
 					"thermload": 3.1,
-					"cost": 2381347,
+					"cost": 1015750,
 					"reload": 6,
 					"id": "2N",
 					"edID": 128834780,
@@ -13385,7 +13385,7 @@
 					"reload": 6,
 					"shotspeed": 1200,
 					"thermload": 2.1,
-					"cost": 2381347,
+					"cost": 565200,
 					"id": "2O",
 					"edID": 128834003,
 					"symbol": "Hpt_PlasmaShockCannon_Gimbal_Medium"
@@ -13400,7 +13400,7 @@
 					"eddbID": 0,
 					"edID": 128834000,
 					"mount": "F",
-					"cost": 537628,
+					"cost": 507761,
 					"mass": 4,
 					"integrity": 42,
 					"power": 1.21,
@@ -13419,6 +13419,7 @@
 					"breachmin": 0.6,
 					"breachmax": 0.8,
 					"jitter": 5,
+					"symbol": "Hpt_Guardian_ShardCannon_Fixed_Medium",
 					"damagedist": {
 						"T": 1
 					},
@@ -13432,7 +13433,7 @@
 					"eddbID": 0,
 					"edID": 128834778,
 					"mount": "F",
-					"cost": 1547312,
+					"cost": 1461350,
 					"mass": 8,
 					"integrity": 51,
 					"power": 1.68,
@@ -13451,6 +13452,7 @@
 					"breachmin": 0.6,
 					"breachmax": 0.8,
 					"jitter": 5,
+					"symbol": "Hpt_Guardian_ShardCannon_Fixed_Large",
 					"damagedist": {
 						"T": 1
 					},
@@ -14175,7 +14177,7 @@
 				{
 					"brokenregen": 11,
 					"class": 7,
-					"cost": 8548200,
+					"cost": 8548186,
 					"distdraw": 0.6,
 					"edID": 128671337,
 					"eddbID": 1536,
@@ -14682,7 +14684,7 @@
 				{
 					"bays": 1,
 					"class": 5,
-					"cost": 575660,
+					"cost": 575644,
 					"edID": 128727930,
 					"eddbID": 1562,
 					"fightercost": 1030,
@@ -15521,7 +15523,7 @@
 				},
 				{
 					"class": 8,
-					"cost": 289042540,
+					"cost": 289042642,
 					"edID": 128666683,
 					"eddbID": 1285,
 					"grp": "fs",
@@ -15612,7 +15614,7 @@
 				},
 				{
 					"class": 8,
-					"cost": 5428400,
+					"cost": 5428431,
 					"edID": 128064353,
 					"eddbID": 1206,
 					"fuel": 256,
@@ -17083,7 +17085,7 @@
 				},
 				{
 					"class": 3,
-					"cost": 8670,
+					"cost": 8659,
 					"edID": 128734691,
 					"eddbID": 1564,
 					"grp": "pce",
@@ -17133,7 +17135,7 @@
 			"pci": [
 				{
 					"class": 3,
-					"cost": 26720,
+					"cost": 26707,
 					"edID": 128734692,
 					"eddbID": 1568,
 					"grp": "pci",
@@ -17183,7 +17185,7 @@
 			"pcm": [
 				{
 					"class": 4,
-					"cost": 170600,
+					"cost": 170587,
 					"edID": 128727924,
 					"eddbID": 1572,
 					"grp": "pcm",
@@ -17195,7 +17197,7 @@
 				},
 				{
 					"class": 5,
-					"cost": 340540,
+					"cost": 340528,
 					"edID": 128734695,
 					"eddbID": 1573,
 					"grp": "pcm",
@@ -17233,7 +17235,7 @@
 				},
 				{
 					"class": 6,
-					"cost": 4974300,
+					"cost": 4974288,
 					"edID": 128727929,
 					"eddbID": 1576,
 					"grp": "pcq",
@@ -17826,7 +17828,7 @@
 					"boot": 25,
 					"class": 3,
 					"clip": 1,
-					"cost": 61909,
+					"cost": 63333,
 					"duration": 2,
 					"edID": 128064311,
 					"eddbID": 1164,
@@ -18024,7 +18026,7 @@
 					"boot": 25,
 					"class": 5,
 					"clip": 1,
-					"cost": 194143,
+					"cost": 198612,
 					"duration": 5,
 					"edID": 128064320,
 					"eddbID": 1173,
@@ -18068,7 +18070,7 @@
 					"boot": 25,
 					"class": 5,
 					"clip": 1,
-					"cost": 1210285,
+					"cost": 1241319,
 					"duration": 5,
 					"edID": 128064322,
 					"eddbID": 1175,
@@ -19683,9 +19685,10 @@
 			"gsrp": [
 				{
 					"shieldaddition": 44,
+					"integrity": 36,
 					"class": 1,
 					"cost": 10000,
-					"edID": 128668537,
+					"edID": 128833965,
 					"power": 0.35,
 					"eddbID": 1373,
 					"grp": "gsrp",
@@ -19696,9 +19699,10 @@
 				},
 				{
 					"shieldaddition": 61,
+					"integrity": 36,
 					"class": 1,
-					"cost": 24000,
-					"edID": 128668537,
+					"cost": 30000,
+					"edID": 128833966,
 					"power": 0.46,
 					"eddbID": 1373,
 					"grp": "gsrp",
@@ -19709,9 +19713,10 @@
 				},
 				{
 					"shieldaddition": 83,
+					"integrity": 36,
 					"class": 2,
 					"cost": 24000,
-					"edID": 128668537,
+					"edID": 128833967,
 					"power": 0.56,
 					"eddbID": 1373,
 					"grp": "gsrp",
@@ -19722,9 +19727,10 @@
 				},
 				{
 					"shieldaddition": 105,
+					"integrity": 36,
 					"class": 2,
-					"cost": 72621,
-					"edID": 128668537,
+					"cost": 72000,
+					"edID": 128833968,
 					"power": 0.67,
 					"eddbID": 1373,
 					"grp": "gsrp",
@@ -19735,9 +19741,10 @@
 				},
 				{
 					"shieldaddition": 143,
+					"integrity": 36,
 					"class": 3,
-					"cost": 174290,
-					"edID": 128668537,
+					"cost": 172800,
+					"edID": 128833970,
 					"power": 0.84,
 					"eddbID": 1373,
 					"grp": "gsrp",
@@ -19748,9 +19755,10 @@
 				},
 				{
 					"shieldaddition": 127,
+					"integrity": 36,
 					"class": 3,
 					"cost": 57600,
-					"edID": 128668537,
+					"edID": 128833969,
 					"power": 0.74,
 					"eddbID": 1373,
 					"grp": "gsrp",
@@ -19761,9 +19769,10 @@
 				},
 				{
 					"shieldaddition": 165,
+					"integrity": 36,
 					"class": 4,
 					"cost": 138240,
-					"edID": 128668537,
+					"edID": 128833971,
 					"power": 0.95,
 					"eddbID": 1373,
 					"grp": "gsrp",
@@ -19774,10 +19783,11 @@
 				},
 				{
 					"shieldaddition": 182,
+					"integrity": 36,
 					"class": 4,
-					"cost": 418295,
-					"edID": 128668537,
-					"power": 0.95,
+					"cost": 414720,
+					"edID": 128833972,
+					"power": 1.05,
 					"eddbID": 1373,
 					"grp": "gsrp",
 					"id": "1J",
@@ -19787,9 +19797,10 @@
 				},
 				{
 					"shieldaddition": 215,
+					"integrity": 36,
 					"class": 5,
-					"cost": 1003910,
-					"edID": 128668537,
+					"cost": 995330,
+					"edID": 128833974,
 					"power": 1.26,
 					"eddbID": 1373,
 					"grp": "gsrp",
@@ -19800,9 +19811,10 @@
 				},
 				{
 					"shieldaddition": 198,
+					"integrity": 36,
 					"class": 5,
 					"cost": 331778,
-					"edID": 128668537,
+					"edID": 128833973,
 					"power": 1.16,
 					"eddbID": 1373,
 					"grp": "gsrp",
@@ -19815,9 +19827,10 @@
 			"gfsb": [
 				{
 					"jumpboost": 4,
+					"integrity": 32,
 					"class": 1,
-					"cost": 10000,
-					"edID": 128668537,
+					"cost": 405022,
+					"edID": 128833975,
 					"power": 0.75,
 					"eddbID": 1373,
 					"grp": "gfsb",
@@ -19828,9 +19841,10 @@
 				},
 				{
 					"jumpboost": 6,
+					"integrity": 32,
 					"class": 2,
-					"cost": 10000,
-					"edID": 128668537,
+					"cost": 810521,
+					"edID": 128833976,
 					"power": 0.98,
 					"eddbID": 1373,
 					"grp": "gfsb",
@@ -19841,9 +19855,10 @@
 				},
 				{
 					"jumpboost": 7.75,
+					"integrity": 32,
 					"class": 3,
-					"cost": 10000,
-					"edID": 128668537,
+					"cost": 1620431,
+					"edID": 128833977,
 					"power": 1.27,
 					"eddbID": 1373,
 					"grp": "gfsb",
@@ -19854,9 +19869,10 @@
 				},
 				{
 					"jumpboost": 9.25,
+					"integrity": 32,
 					"class": 4,
-					"cost": 10000,
-					"edID": 128668537,
+					"cost": 3245013,
+					"edID": 128833978,
 					"power": 1.65,
 					"eddbID": 1373,
 					"grp": "gfsb",
@@ -19867,9 +19883,10 @@
 				},
 				{
 					"jumpboost": 10.5,
+					"integrity": 32,
 					"class": 5,
-					"cost": 10000,
-					"edID": 128668537,
+					"cost": 6483101,
+					"edID": 128833979,
 					"power": 2.14,
 					"eddbID": 1373,
 					"grp": "gfsb",
@@ -19890,8 +19907,8 @@
 					"power": 0.56,
 					"hullreinforcement": 138,
 					"thermres": 0.02,
-					"cost": 31765,
-					"symbol": "Int_GuardianHullReinforcement_class1_Class2",
+					"cost": 30000,
+					"symbol": "Int_GuardianHullReinforcement_Size1_Class2",
 					"grp": "ghrp"
 				},
 				{
@@ -19904,8 +19921,8 @@
 					"power": 0.45,
 					"hullreinforcement": 100,
 					"thermres": 0.02,
-					"cost": 10588,
-					"symbol": "Int_GuardianHullReinforcement_class1_Class1",
+					"cost": 10000,
+					"symbol": "Int_GuardianHullReinforcement_Size1_Class1",
 					"grp": "ghrp"
 				},
 				{
@@ -19918,8 +19935,8 @@
 					"power": 0.79,
 					"hullreinforcement": 238,
 					"thermres": 0.02,
-					"cost": 76235,
-					"symbol": "Int_GuardianHullReinforcement_class2_Class2",
+					"cost": 72000,
+					"symbol": "Int_GuardianHullReinforcement_Size2_Class2",
 					"grp": "ghrp"
 				},
 				{
@@ -19932,8 +19949,8 @@
 					"power": 0.68,
 					"hullreinforcement": 188,
 					"thermres": 0.02,
-					"cost": 25412,
-					"symbol": "Int_GuardianHullReinforcement_class2_Class1",
+					"cost": 24000,
+					"symbol": "Int_GuardianHullReinforcement_Size2_Class1",
 					"grp": "ghrp"
 				},
 				{
@@ -19941,12 +19958,13 @@
 					"class": "3",
 					"mass": 4,
 					"id": "1Z",
-					"edID": 128833948,
+					"edID": 128833950,
 					"eddbID": 0,
 					"power": 1.01,
 					"hullreinforcement": 325,
 					"thermres": 0.02,
-					"cost": 182965,
+					"cost": 172800,
+					"symbol": "Int_GuardianHullReinforcement_Size3_Class2",
 					"grp": "ghrp"
 				},
 				{
@@ -19959,8 +19977,8 @@
 					"power": 0.9,
 					"hullreinforcement": 288,
 					"thermres": 0.02,
-					"cost": 60988,
-					"symbol": "Int_GuardianHullReinforcement_class3_Class1",
+					"cost": 57600,
+					"symbol": "Int_GuardianHullReinforcement_Size3_Class1",
 					"grp": "ghrp"
 				},
 				{
@@ -19972,9 +19990,9 @@
 					"power": 1.24,
 					"hullreinforcement": 413,
 					"thermres": 0.02,
-					"cost": 439116,
+					"cost": 414720,
 					"id": "2R",
-					"symbol": "Int_GuardianHullReinforcement_class4_Class2",
+					"symbol": "Int_GuardianHullReinforcement_Size4_Class2",
 					"grp": "ghrp"
 				},
 				{
@@ -19986,23 +20004,23 @@
 					"power": 1.13,
 					"hullreinforcement": 375,
 					"thermres": 0.02,
-					"cost": 146372,
+					"cost": 138240,
 					"id": "2B",
-					"symbol": "Int_GuardianHullReinforcement_class4_Class1",
+					"symbol": "Int_GuardianHullReinforcement_Size4_Class1",
 					"grp": "ghrp"
 				},
 				{
 					"rating": "D",
 					"class": "5",
 					"mass": 16,
-					"edID": 128833953,
+					"edID": 128833954,
 					"eddbID": 0,
 					"power": 1.46,
 					"hullreinforcement": 488,
 					"thermres": 0.02,
-					"cost": 1053879,
+					"cost": 995330,
 					"id": "2C",
-					"symbol": "Int_GuardianHullReinforcement_class5_Class1",
+					"symbol": "Int_GuardianHullReinforcement_Size5_Class2",
 					"grp": "ghrp"
 				},
 				{
@@ -20014,8 +20032,9 @@
 					"power": 1.35,
 					"hullreinforcement": 450,
 					"thermres": 0.02,
-					"cost": 351294,
+					"cost": 331778,
 					"id": "2D",
+					"symbol": "Int_GuardianHullReinforcement_Size5_Class1",
 					"grp": "ghrp"
 				}
 			],
@@ -20028,10 +20047,10 @@
 					"power": 0.34,
 					"protection": 0.6,
 					"integrity": 77,
-					"cost": 3176471,
+					"cost": 30000,
 					"id": "2E",
 					"edID": 128833956,
-					"symbol": "Int_GuardianModuleReinforcement_class1_Class2",
+					"symbol": "Int_GuardianModuleReinforcement_Size1_Class2",
 					"grp": "gmrp"
 				},
 				{
@@ -20042,10 +20061,10 @@
 					"power": 0.27,
 					"protection": 0.3,
 					"integrity": 85,
-					"cost": 1058824,
+					"cost": 10000,
 					"id": "2F",
 					"edID": 128833955,
-					"symbol": "Int_GuardianModuleReinforcement_class1_Class1",
+					"symbol": "Int_GuardianModuleReinforcement_Size1_Class1",
 					"grp": "gmrp"
 				},
 				{
@@ -20056,10 +20075,10 @@
 					"power": 0.47,
 					"protection": 0.6,
 					"integrity": 116,
-					"cost": 7623529,
+					"cost": 72000,
 					"id": "2G",
 					"edID": 128833958,
-					"symbol": "Int_GuardianModuleReinforcement_class2_Class2",
+					"symbol": "Int_GuardianModuleReinforcement_Size2_Class2",
 					"grp": "gmrp"
 				},
 				{
@@ -20070,10 +20089,10 @@
 					"power": 0.41,
 					"protection": 0.3,
 					"integrity": 127,
-					"cost": 2541176,
-					"id": "2G",
+					"cost": 24000,
+					"id": "2S",
 					"edID": 128833957,
-					"symbol": "Int_GuardianModuleReinforcement_class2_Class1",
+					"symbol": "Int_GuardianModuleReinforcement_Size2_Class1",
 					"grp": "gmrp"
 				},
 				{
@@ -20084,10 +20103,10 @@
 					"power": 0.61,
 					"protection": 0.6,
 					"integrity": 171,
-					"cost": 18296471,
+					"cost": 172800,
 					"id": "2H",
 					"edID": 128833960,
-					"symbol": "Int_GuardianModuleReinforcement_class3_Class2",
+					"symbol": "Int_GuardianModuleReinforcement_Size3_Class2",
 					"grp": "gmrp"
 				},
 				{
@@ -20098,10 +20117,10 @@
 					"power": 0.54,
 					"protection": 0.3,
 					"integrity": 187,
-					"cost": 6098824,
+					"cost": 57600,
 					"id": "2I",
 					"edID": 128833959,
-					"symbol": "Int_GuardianModuleReinforcement_class3_Class1",
+					"symbol": "Int_GuardianModuleReinforcement_Size3_Class1",
 					"grp": "gmrp"
 				},
 				{
@@ -20112,10 +20131,10 @@
 					"power": 0.74,
 					"protection": 0.6,
 					"integrity": 259,
-					"cost": 43911554,
+					"cost": 414720,
 					"id": "2J",
 					"edID": 128833962,
-					"symbol": "Int_GuardianModuleReinforcement_class4_Class2",
+					"symbol": "Int_GuardianModuleReinforcement_Size4_Class2",
 					"grp": "gmrp"
 				},
 				{
@@ -20126,10 +20145,10 @@
 					"power": 0.68,
 					"protection": 0.3,
 					"integrity": 286,
-					"cost": 14637225,
+					"cost": 138240,
 					"id": "2K",
 					"edID": 128833961,
-					"symbol": "Int_GuardianModuleReinforcement_class4_Class1",
+					"symbol": "Int_GuardianModuleReinforcement_Size4_Class1",
 					"grp": "gmrp"
 				},
 				{
@@ -20140,10 +20159,10 @@
 					"power": 0.88,
 					"protection": 0.6,
 					"integrity": 385,
-					"cost": 105387873,
+					"cost": 995330,
 					"id": "2L",
 					"edID": 128833964,
-					"symbol": "Int_GuardianModuleReinforcement_class5_Class2",
+					"symbol": "Int_GuardianModuleReinforcement_Size5_Class2",
 					"grp": "gmrp"
 				},
 				{
@@ -20154,10 +20173,10 @@
 					"power": 0.81,
 					"protection": 0.3,
 					"integrity": 424,
-					"cost": 35129412,
+					"cost": 331778,
 					"id": "2M",
 					"edID": 128833963,
-					"symbol": "Int_GuardianModuleReinforcement_class5_Class1",
+					"symbol": "Int_GuardianModuleReinforcement_Size5_Class1",
 					"grp": "gmrp"
 				}
 			]
