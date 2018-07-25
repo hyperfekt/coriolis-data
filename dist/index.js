@@ -3555,7 +3555,7 @@ module.exports = {
     standard: {
       pp: [ {
         class: 8,
-        cost: 2007240,
+        cost: 1441234,
         edID: 128064063,
         eddbID: 921,
         eff: 1,
@@ -3568,7 +3568,7 @@ module.exports = {
         symbol: "Int_Powerplant_Size8_Class1"
       }, {
         class: 8,
-        cost: 6021720,
+        cost: 4323700,
         edID: 128064064,
         eddbID: 922,
         eff: .75,
@@ -3581,7 +3581,7 @@ module.exports = {
         symbol: "Int_Powerplant_Size8_Class2"
       }, {
         class: 8,
-        cost: 18065170,
+        cost: 12971099,
         edID: 128064065,
         eddbID: 923,
         eff: .5,
@@ -3594,7 +3594,7 @@ module.exports = {
         symbol: "Int_Powerplant_Size8_Class3"
       }, {
         class: 8,
-        cost: 54195500,
+        cost: 38913291,
         edID: 128064066,
         eddbID: 924,
         eff: .45,
@@ -3607,7 +3607,7 @@ module.exports = {
         symbol: "Int_Powerplant_Size8_Class4"
       }, {
         class: 8,
-        cost: 162586490,
+        cost: 116739874,
         edID: 128064067,
         eddbID: 925,
         eff: .4,
@@ -3620,7 +3620,7 @@ module.exports = {
         symbol: "Int_Powerplant_Size8_Class5"
       }, {
         class: 7,
-        cost: 633200,
+        cost: 480411,
         edID: 128064058,
         eddbID: 916,
         eff: 1,
@@ -3633,7 +3633,7 @@ module.exports = {
         symbol: "Int_Powerplant_Size7_Class1"
       }, {
         class: 7,
-        cost: 1899600,
+        cost: 1441234,
         edID: 128064059,
         eddbID: 917,
         eff: .75,
@@ -3646,7 +3646,7 @@ module.exports = {
         symbol: "Int_Powerplant_Size7_Class2"
       }, {
         class: 7,
-        cost: 5698790,
+        cost: 4323700,
         edID: 128064060,
         eddbID: 918,
         eff: .5,
@@ -3659,7 +3659,7 @@ module.exports = {
         symbol: "Int_Powerplant_Size7_Class3"
       }, {
         class: 7,
-        cost: 17096370,
+        cost: 12971099,
         edID: 128064061,
         eddbID: 919,
         eff: .45,
@@ -3672,7 +3672,7 @@ module.exports = {
         symbol: "Int_Powerplant_Size7_Class4"
       }, {
         class: 7,
-        cost: 51289110,
+        cost: 38913291,
         edID: 128064062,
         eddbID: 920,
         eff: .4,
@@ -3685,7 +3685,7 @@ module.exports = {
         symbol: "Int_Powerplant_Size7_Class5"
       }, {
         class: 6,
-        cost: 199750,
+        cost: 160138,
         edID: 128064053,
         eddbID: 911,
         eff: 1,
@@ -3698,7 +3698,7 @@ module.exports = {
         symbol: "Int_Powerplant_Size6_Class1"
       }, {
         class: 6,
-        cost: 599240,
+        cost: 480411,
         edID: 128064054,
         eddbID: 912,
         eff: .75,
@@ -3711,7 +3711,7 @@ module.exports = {
         symbol: "Int_Powerplant_Size6_Class2"
       }, {
         class: 6,
-        cost: 1797730,
+        cost: 1441234,
         edID: 128064055,
         eddbID: 913,
         eff: .5,
@@ -3724,7 +3724,7 @@ module.exports = {
         symbol: "Int_Powerplant_Size6_Class3"
       }, {
         class: 6,
-        cost: 5393180,
+        cost: 4323700,
         edID: 128064056,
         eddbID: 914,
         eff: .45,
@@ -3737,7 +3737,7 @@ module.exports = {
         symbol: "Int_Powerplant_Size6_Class4"
       }, {
         class: 6,
-        cost: 16179530,
+        cost: 12971099,
         edID: 128064057,
         eddbID: 915,
         eff: .4,
@@ -3750,7 +3750,7 @@ module.exports = {
         symbol: "Int_Powerplant_Size6_Class5"
       }, {
         class: 5,
-        cost: 63010,
+        cost: 53380,
         edID: 128064048,
         eddbID: 906,
         eff: 1,
@@ -3763,7 +3763,7 @@ module.exports = {
         symbol: "Int_Powerplant_Size5_Class1"
       }, {
         class: 5,
-        cost: 189040,
+        cost: 160138,
         edID: 128064049,
         eddbID: 907,
         eff: .75,
@@ -3776,7 +3776,7 @@ module.exports = {
         symbol: "Int_Powerplant_Size5_Class2"
       }, {
         class: 5,
-        cost: 567110,
+        cost: 480411,
         edID: 128064050,
         eddbID: 908,
         eff: .5,
@@ -3789,7 +3789,7 @@ module.exports = {
         symbol: "Int_Powerplant_Size5_Class3"
       }, {
         class: 5,
-        cost: 1701320,
+        cost: 1441234,
         edID: 128064051,
         eddbID: 909,
         eff: .45,
@@ -3802,7 +3802,7 @@ module.exports = {
         symbol: "Int_Powerplant_Size5_Class4"
       }, {
         class: 5,
-        cost: 5103950,
+        cost: 4323700,
         edID: 128064052,
         eddbID: 910,
         eff: .4,
@@ -3815,7 +3815,7 @@ module.exports = {
         symbol: "Int_Powerplant_Size5_Class5"
       }, {
         class: 4,
-        cost: 19880,
+        cost: 17794,
         edID: 128064043,
         eddbID: 901,
         eff: 1,
@@ -3828,7 +3828,7 @@ module.exports = {
         symbol: "Int_Powerplant_Size4_Class1"
       }, {
         class: 4,
-        cost: 59630,
+        cost: 53380,
         edID: 128064044,
         eddbID: 902,
         eff: .75,
@@ -3841,7 +3841,7 @@ module.exports = {
         symbol: "Int_Powerplant_Size4_Class2"
       }, {
         class: 4,
-        cost: 178900,
+        cost: 160138,
         edID: 128064045,
         eddbID: 903,
         eff: .5,
@@ -3854,7 +3854,7 @@ module.exports = {
         symbol: "Int_Powerplant_Size4_Class3"
       }, {
         class: 4,
-        cost: 536690,
+        cost: 480411,
         edID: 128064046,
         eddbID: 904,
         eff: .45,
@@ -3867,7 +3867,7 @@ module.exports = {
         symbol: "Int_Powerplant_Size4_Class4"
       }, {
         class: 4,
-        cost: 1610080,
+        cost: 1441234,
         edID: 128064047,
         eddbID: 905,
         eff: .4,
@@ -3880,7 +3880,7 @@ module.exports = {
         symbol: "Int_Powerplant_Size4_Class5"
       }, {
         class: 3,
-        cost: 6270,
+        cost: 5932,
         edID: 128064038,
         eddbID: 896,
         eff: 1,
@@ -3893,7 +3893,7 @@ module.exports = {
         symbol: "Int_Powerplant_Size3_Class1"
       }, {
         class: 3,
-        cost: 18810,
+        cost: 17794,
         edID: 128064039,
         eddbID: 897,
         eff: .75,
@@ -3906,7 +3906,7 @@ module.exports = {
         symbol: "Int_Powerplant_Size3_Class2"
       }, {
         class: 3,
-        cost: 56440,
+        cost: 53380,
         edID: 128064040,
         eddbID: 898,
         eff: .5,
@@ -3919,7 +3919,7 @@ module.exports = {
         symbol: "Int_Powerplant_Size3_Class3"
       }, {
         class: 3,
-        cost: 169300,
+        cost: 160138,
         edID: 128064041,
         eddbID: 899,
         eff: .45,
@@ -3932,7 +3932,7 @@ module.exports = {
         symbol: "Int_Powerplant_Size3_Class4"
       }, {
         class: 3,
-        cost: 507910,
+        cost: 480411,
         edID: 128064042,
         eddbID: 900,
         eff: .4,
@@ -3984,7 +3984,7 @@ module.exports = {
         symbol: "Int_Powerplant_Size2_Class3"
       }, {
         class: 2,
-        cost: 53410,
+        cost: 53380,
         edID: 128064036,
         eddbID: 894,
         eff: .45,
@@ -3997,7 +3997,7 @@ module.exports = {
         symbol: "Int_Powerplant_Size2_Class4"
       }, {
         class: 2,
-        cost: 160220,
+        cost: 160138,
         edID: 128064037,
         eddbID: 895,
         eff: .4,
@@ -4010,7 +4010,7 @@ module.exports = {
         symbol: "Int_Powerplant_Size2_Class5"
       }, {
         class: 2,
-        cost: 187360,
+        cost: 192165,
         edID: 128833988,
         eddbID: 895,
         eff: .5,
@@ -4024,7 +4024,7 @@ module.exports = {
         symbol: "Int_GuardianPowerplant_Size2"
       }, {
         class: 3,
-        cost: 468401,
+        cost: 576493,
         edID: 128833989,
         eddbID: 895,
         eff: .5,
@@ -4038,7 +4038,7 @@ module.exports = {
         symbol: "Int_GuardianPowerplant_Size3"
       }, {
         class: 4,
-        cost: 1686243,
+        cost: 1729480,
         edID: 128833990,
         eddbID: 895,
         eff: .5,
@@ -4052,7 +4052,7 @@ module.exports = {
         symbol: "Int_GuardianPowerplant_Size4"
       }, {
         class: 5,
-        cost: 5058729,
+        cost: 5188441,
         edID: 128833991,
         eddbID: 895,
         eff: .5,
@@ -4066,7 +4066,7 @@ module.exports = {
         symbol: "Int_GuardianPowerplant_Size5"
       }, {
         class: 6,
-        cost: 15176184,
+        cost: 15565317,
         edID: 128833992,
         eddbID: 895,
         eff: .5,
@@ -4080,7 +4080,7 @@ module.exports = {
         symbol: "Int_GuardianPowerplant_Size6"
       }, {
         class: 7,
-        cost: 45528551,
+        cost: 46695951,
         edID: 128833993,
         eddbID: 895,
         eff: .5,
@@ -4094,7 +4094,7 @@ module.exports = {
         symbol: "Int_GuardianPowerplant_Size7"
       }, {
         class: 8,
-        cost: 136585652,
+        cost: 140087850,
         edID: 128833994,
         eddbID: 895,
         eff: .5,
@@ -4796,7 +4796,7 @@ module.exports = {
       } ],
       fsd: [ {
         class: 8,
-        cost: 0,
+        cost: 2007242,
         edID: 128064133,
         eddbID: 991,
         fuelmul: .011,
@@ -4812,7 +4812,7 @@ module.exports = {
         symbol: "Int_Hyperdrive_Size8_Class1"
       }, {
         class: 8,
-        cost: 0,
+        cost: 6021723,
         edID: 128064134,
         eddbID: 992,
         fuelmul: .01,
@@ -4828,7 +4828,7 @@ module.exports = {
         symbol: "Int_Hyperdrive_Size8_Class2"
       }, {
         class: 8,
-        cost: 0,
+        cost: 18065166,
         edID: 128064135,
         eddbID: 993,
         fuelmul: .008,
@@ -4844,7 +4844,7 @@ module.exports = {
         symbol: "Int_Hyperdrive_Size8_Class3"
       }, {
         class: 8,
-        cost: 0,
+        cost: 54195496,
         edID: 128064136,
         eddbID: 994,
         fuelmul: .01,
@@ -4860,7 +4860,7 @@ module.exports = {
         symbol: "Int_Hyperdrive_Size8_Class4"
       }, {
         class: 8,
-        cost: 0,
+        cost: 162586488,
         edID: 128064137,
         eddbID: 995,
         fuelmul: .012,
@@ -5400,7 +5400,7 @@ module.exports = {
       }, {
         boot: 1,
         class: 8,
-        cost: 10899770,
+        cost: 10899757,
         edID: 128064176,
         eddbID: 1034,
         grp: "ls",
@@ -6638,8 +6638,8 @@ module.exports = {
         symbol: "Int_PowerDistributor_Size1_Class5"
       }, {
         class: 1,
-        cost: 20200,
-        edID: 128064182,
+        cost: 40957,
+        edID: 128833980,
         eddbID: 1040,
         engcap: 9,
         engrate: .8,
@@ -6657,8 +6657,8 @@ module.exports = {
         symbol: "Int_GuardianPowerDistributor_Size1"
       }, {
         class: 2,
-        cost: 20200,
-        edID: 128064182,
+        cost: 111600,
+        edID: 128833981,
         eddbID: 1040,
         engcap: 9,
         engrate: .8,
@@ -6676,8 +6676,8 @@ module.exports = {
         symbol: "Int_GuardianPowerDistributor_Size2"
       }, {
         class: 3,
-        cost: 20200,
-        edID: 128064182,
+        cost: 311365,
+        edID: 128833982,
         eddbID: 1040,
         engcap: 14,
         engrate: 1.7,
@@ -6695,8 +6695,8 @@ module.exports = {
         symbol: "Int_GuardianPowerDistributor_Size3"
       }, {
         class: 4,
-        cost: 20200,
-        edID: 128064182,
+        cost: 868708,
+        edID: 128833983,
         eddbID: 1040,
         engcap: 17,
         engrate: 2.5,
@@ -6714,13 +6714,13 @@ module.exports = {
         symbol: "Int_GuardianPowerDistributor_Size4"
       }, {
         class: 5,
-        cost: 20200,
-        edID: 128064182,
+        cost: 2423690,
+        edID: 128833984,
         eddbID: 1040,
         engcap: 22,
         engrate: 3.3,
         grp: "pd",
-        id: "1A",
+        id: "1E",
         integrity: 56,
         mass: 21,
         power: .96,
@@ -6733,8 +6733,8 @@ module.exports = {
         symbol: "Int_GuardianPowerDistributor_Size5"
       }, {
         class: 6,
-        cost: 20200,
-        edID: 128064182,
+        cost: 6762091,
+        edID: 128833985,
         eddbID: 1040,
         engcap: 26,
         engrate: 4.2,
@@ -6752,8 +6752,8 @@ module.exports = {
         symbol: "Int_GuardianPowerDistributor_Size6"
       }, {
         class: 7,
-        cost: 20200,
-        edID: 128064182,
+        cost: 18866235,
+        edID: 128833986,
         eddbID: 1040,
         engcap: 31,
         engrate: 5.2,
@@ -6771,8 +6771,8 @@ module.exports = {
         symbol: "Int_GuardianPowerDistributor_Size7"
       }, {
         class: 8,
-        cost: 20200,
-        edID: 128064182,
+        cost: 52636793,
+        edID: 128833987,
         eddbID: 1040,
         engcap: 36,
         engrate: 6.2,
@@ -7422,7 +7422,7 @@ module.exports = {
         symbol: "Int_FuelTank_Size7_Class3"
       }, {
         class: 8,
-        cost: 5428400,
+        cost: 5428431,
         edID: 128064353,
         eddbID: 1206,
         fuel: 256,
@@ -9332,7 +9332,7 @@ module.exports = {
         breachmin: .4,
         class: 2,
         clip: 3,
-        cost: 437800,
+        cost: 437761,
         damage: 2.275,
         damagedist: {
           K: 1
@@ -10363,7 +10363,7 @@ module.exports = {
         breachmax: .2,
         breachmin: .1,
         class: 2,
-        cost: 32590,
+        cost: 32578,
         damage: 4,
         damagedist: {
           T: 1
@@ -10776,13 +10776,13 @@ module.exports = {
         breachmin: .5,
         class: 2,
         clip: 15,
-        cost: 3051200,
+        cost: 567761,
         damage: 5,
         damagedist: {
           A: 1
         },
         distdraw: 13.6,
-        edID: 128049466,
+        edID: 128833998,
         eddbID: 874,
         falloff: 1e3,
         grp: "gpc",
@@ -10806,13 +10806,13 @@ module.exports = {
         breachmin: .5,
         class: 2,
         clip: 15,
-        cost: 3051200,
+        cost: 1659200,
         damage: 4,
         damagedist: {
           A: 1
         },
         distdraw: 13.6,
-        edID: 128049466,
+        edID: 128833999,
         eddbID: 874,
         falloff: 1e3,
         grp: "gpc",
@@ -10839,7 +10839,7 @@ module.exports = {
         burstrof: .83,
         class: 2,
         clip: 1,
-        cost: 0,
+        cost: 543801,
         damage: 70,
         damagedist: {
           T: 1
@@ -10927,7 +10927,7 @@ module.exports = {
         rof: 10,
         shotspeed: 1200,
         thermload: 3.1,
-        cost: 2381347,
+        cost: 1015750,
         reload: 6,
         id: "2N",
         edID: 128834780,
@@ -10958,7 +10958,7 @@ module.exports = {
         reload: 6,
         shotspeed: 1200,
         thermload: 2.1,
-        cost: 2381347,
+        cost: 565200,
         id: "2O",
         edID: 128834003,
         symbol: "Hpt_PlasmaShockCannon_Gimbal_Medium"
@@ -10971,7 +10971,7 @@ module.exports = {
         eddbID: 0,
         edID: 128834e3,
         mount: "F",
-        cost: 537628,
+        cost: 507761,
         mass: 4,
         integrity: 42,
         power: 1.21,
@@ -10990,6 +10990,7 @@ module.exports = {
         breachmin: .6,
         breachmax: .8,
         jitter: 5,
+        symbol: "Hpt_Guardian_ShardCannon_Fixed_Medium",
         damagedist: {
           T: 1
         },
@@ -11002,7 +11003,7 @@ module.exports = {
         eddbID: 0,
         edID: 128834778,
         mount: "F",
-        cost: 1547312,
+        cost: 1461350,
         mass: 8,
         integrity: 51,
         power: 1.68,
@@ -11021,6 +11022,7 @@ module.exports = {
         breachmin: .6,
         breachmax: .8,
         jitter: 5,
+        symbol: "Hpt_Guardian_ShardCannon_Fixed_Large",
         damagedist: {
           T: 1
         },
@@ -11696,7 +11698,7 @@ module.exports = {
       }, {
         brokenregen: 11,
         class: 7,
-        cost: 8548200,
+        cost: 8548186,
         distdraw: .6,
         edID: 128671337,
         eddbID: 1536,
@@ -12164,7 +12166,7 @@ module.exports = {
       fh: [ {
         bays: 1,
         class: 5,
-        cost: 575660,
+        cost: 575644,
         edID: 128727930,
         eddbID: 1562,
         fightercost: 1030,
@@ -12939,7 +12941,7 @@ module.exports = {
         symbol: "Int_FuelScoop_Size8_Class4"
       }, {
         class: 8,
-        cost: 289042540,
+        cost: 289042642,
         edID: 128666683,
         eddbID: 1285,
         grp: "fs",
@@ -13021,7 +13023,7 @@ module.exports = {
         symbol: "Int_FuelTank_Size7_Class3"
       }, {
         class: 8,
-        cost: 5428400,
+        cost: 5428431,
         edID: 128064353,
         eddbID: 1206,
         fuel: 256,
@@ -14388,7 +14390,7 @@ module.exports = {
         symbol: "Int_PassengerCabin_Size2_Class1"
       }, {
         class: 3,
-        cost: 8670,
+        cost: 8659,
         edID: 128734691,
         eddbID: 1564,
         grp: "pce",
@@ -14433,7 +14435,7 @@ module.exports = {
       } ],
       pci: [ {
         class: 3,
-        cost: 26720,
+        cost: 26707,
         edID: 128734692,
         eddbID: 1568,
         grp: "pci",
@@ -14478,7 +14480,7 @@ module.exports = {
       } ],
       pcm: [ {
         class: 4,
-        cost: 170600,
+        cost: 170587,
         edID: 128727924,
         eddbID: 1572,
         grp: "pcm",
@@ -14489,7 +14491,7 @@ module.exports = {
         symbol: "Int_PassengerCabin_Size4_Class3"
       }, {
         class: 5,
-        cost: 340540,
+        cost: 340528,
         edID: 128734695,
         eddbID: 1573,
         grp: "pcm",
@@ -14523,7 +14525,7 @@ module.exports = {
         symbol: "Int_PassengerCabin_Size5_Class4"
       }, {
         class: 6,
-        cost: 4974300,
+        cost: 4974288,
         edID: 128727929,
         eddbID: 1576,
         grp: "pcq",
@@ -15076,7 +15078,7 @@ module.exports = {
         boot: 25,
         class: 3,
         clip: 1,
-        cost: 61909,
+        cost: 63333,
         duration: 2,
         edID: 128064311,
         eddbID: 1164,
@@ -15265,7 +15267,7 @@ module.exports = {
         boot: 25,
         class: 5,
         clip: 1,
-        cost: 194143,
+        cost: 198612,
         duration: 5,
         edID: 128064320,
         eddbID: 1173,
@@ -15307,7 +15309,7 @@ module.exports = {
         boot: 25,
         class: 5,
         clip: 1,
-        cost: 1210285,
+        cost: 1241319,
         duration: 5,
         edID: 128064322,
         eddbID: 1175,
@@ -16840,9 +16842,10 @@ module.exports = {
       } ],
       gsrp: [ {
         shieldaddition: 44,
+        integrity: 36,
         class: 1,
         cost: 1e4,
-        edID: 128668537,
+        edID: 128833965,
         power: .35,
         eddbID: 1373,
         grp: "gsrp",
@@ -16852,9 +16855,10 @@ module.exports = {
         symbol: "Int_GuardianShieldReinforcement_Size1_Class1"
       }, {
         shieldaddition: 61,
+        integrity: 36,
         class: 1,
-        cost: 24e3,
-        edID: 128668537,
+        cost: 3e4,
+        edID: 128833966,
         power: .46,
         eddbID: 1373,
         grp: "gsrp",
@@ -16864,9 +16868,10 @@ module.exports = {
         symbol: "Int_GuardianShieldReinforcement_Size1_Class2"
       }, {
         shieldaddition: 83,
+        integrity: 36,
         class: 2,
         cost: 24e3,
-        edID: 128668537,
+        edID: 128833967,
         power: .56,
         eddbID: 1373,
         grp: "gsrp",
@@ -16876,9 +16881,10 @@ module.exports = {
         symbol: "Int_GuardianShieldReinforcement_Size2_Class1"
       }, {
         shieldaddition: 105,
+        integrity: 36,
         class: 2,
-        cost: 72621,
-        edID: 128668537,
+        cost: 72e3,
+        edID: 128833968,
         power: .67,
         eddbID: 1373,
         grp: "gsrp",
@@ -16888,9 +16894,10 @@ module.exports = {
         symbol: "Int_GuardianShieldReinforcement_Size2_Class2"
       }, {
         shieldaddition: 143,
+        integrity: 36,
         class: 3,
-        cost: 174290,
-        edID: 128668537,
+        cost: 172800,
+        edID: 128833970,
         power: .84,
         eddbID: 1373,
         grp: "gsrp",
@@ -16900,9 +16907,10 @@ module.exports = {
         symbol: "Int_GuardianShieldReinforcement_Size3_Class2"
       }, {
         shieldaddition: 127,
+        integrity: 36,
         class: 3,
         cost: 57600,
-        edID: 128668537,
+        edID: 128833969,
         power: .74,
         eddbID: 1373,
         grp: "gsrp",
@@ -16912,9 +16920,10 @@ module.exports = {
         symbol: "Int_GuardianShieldReinforcement_Size3_Class1"
       }, {
         shieldaddition: 165,
+        integrity: 36,
         class: 4,
         cost: 138240,
-        edID: 128668537,
+        edID: 128833971,
         power: .95,
         eddbID: 1373,
         grp: "gsrp",
@@ -16924,10 +16933,11 @@ module.exports = {
         symbol: "Int_GuardianShieldReinforcement_Size4_Class1"
       }, {
         shieldaddition: 182,
+        integrity: 36,
         class: 4,
-        cost: 418295,
-        edID: 128668537,
-        power: .95,
+        cost: 414720,
+        edID: 128833972,
+        power: 1.05,
         eddbID: 1373,
         grp: "gsrp",
         id: "1J",
@@ -16936,9 +16946,10 @@ module.exports = {
         symbol: "Int_GuardianShieldReinforcement_Size4_Class2"
       }, {
         shieldaddition: 215,
+        integrity: 36,
         class: 5,
-        cost: 1003910,
-        edID: 128668537,
+        cost: 995330,
+        edID: 128833974,
         power: 1.26,
         eddbID: 1373,
         grp: "gsrp",
@@ -16948,9 +16959,10 @@ module.exports = {
         symbol: "Int_GuardianShieldReinforcement_Size5_Class2"
       }, {
         shieldaddition: 198,
+        integrity: 36,
         class: 5,
         cost: 331778,
-        edID: 128668537,
+        edID: 128833973,
         power: 1.16,
         eddbID: 1373,
         grp: "gsrp",
@@ -16961,9 +16973,10 @@ module.exports = {
       } ],
       gfsb: [ {
         jumpboost: 4,
+        integrity: 32,
         class: 1,
-        cost: 1e4,
-        edID: 128668537,
+        cost: 405022,
+        edID: 128833975,
         power: .75,
         eddbID: 1373,
         grp: "gfsb",
@@ -16973,9 +16986,10 @@ module.exports = {
         symbol: "Int_GuardianFSDBooster_Size1"
       }, {
         jumpboost: 6,
+        integrity: 32,
         class: 2,
-        cost: 1e4,
-        edID: 128668537,
+        cost: 810521,
+        edID: 128833976,
         power: .98,
         eddbID: 1373,
         grp: "gfsb",
@@ -16985,9 +16999,10 @@ module.exports = {
         symbol: "Int_GuardianFSDBooster_Size2"
       }, {
         jumpboost: 7.75,
+        integrity: 32,
         class: 3,
-        cost: 1e4,
-        edID: 128668537,
+        cost: 1620431,
+        edID: 128833977,
         power: 1.27,
         eddbID: 1373,
         grp: "gfsb",
@@ -16997,9 +17012,10 @@ module.exports = {
         symbol: "Int_GuardianFSDBooster_Size3"
       }, {
         jumpboost: 9.25,
+        integrity: 32,
         class: 4,
-        cost: 1e4,
-        edID: 128668537,
+        cost: 3245013,
+        edID: 128833978,
         power: 1.65,
         eddbID: 1373,
         grp: "gfsb",
@@ -17009,9 +17025,10 @@ module.exports = {
         symbol: "Int_GuardianFSDBooster_Size4"
       }, {
         jumpboost: 10.5,
+        integrity: 32,
         class: 5,
-        cost: 1e4,
-        edID: 128668537,
+        cost: 6483101,
+        edID: 128833979,
         power: 2.14,
         eddbID: 1373,
         grp: "gfsb",
@@ -17030,8 +17047,8 @@ module.exports = {
         power: .56,
         hullreinforcement: 138,
         thermres: .02,
-        cost: 31765,
-        symbol: "Int_GuardianHullReinforcement_class1_Class2",
+        cost: 3e4,
+        symbol: "Int_GuardianHullReinforcement_Size1_Class2",
         grp: "ghrp"
       }, {
         rating: "E",
@@ -17043,8 +17060,8 @@ module.exports = {
         power: .45,
         hullreinforcement: 100,
         thermres: .02,
-        cost: 10588,
-        symbol: "Int_GuardianHullReinforcement_class1_Class1",
+        cost: 1e4,
+        symbol: "Int_GuardianHullReinforcement_Size1_Class1",
         grp: "ghrp"
       }, {
         rating: "D",
@@ -17056,8 +17073,8 @@ module.exports = {
         power: .79,
         hullreinforcement: 238,
         thermres: .02,
-        cost: 76235,
-        symbol: "Int_GuardianHullReinforcement_class2_Class2",
+        cost: 72e3,
+        symbol: "Int_GuardianHullReinforcement_Size2_Class2",
         grp: "ghrp"
       }, {
         rating: "E",
@@ -17069,20 +17086,21 @@ module.exports = {
         power: .68,
         hullreinforcement: 188,
         thermres: .02,
-        cost: 25412,
-        symbol: "Int_GuardianHullReinforcement_class2_Class1",
+        cost: 24e3,
+        symbol: "Int_GuardianHullReinforcement_Size2_Class1",
         grp: "ghrp"
       }, {
         rating: "D",
         class: "3",
         mass: 4,
         id: "1Z",
-        edID: 128833948,
+        edID: 128833950,
         eddbID: 0,
         power: 1.01,
         hullreinforcement: 325,
         thermres: .02,
-        cost: 182965,
+        cost: 172800,
+        symbol: "Int_GuardianHullReinforcement_Size3_Class2",
         grp: "ghrp"
       }, {
         rating: "E",
@@ -17094,8 +17112,8 @@ module.exports = {
         power: .9,
         hullreinforcement: 288,
         thermres: .02,
-        cost: 60988,
-        symbol: "Int_GuardianHullReinforcement_class3_Class1",
+        cost: 57600,
+        symbol: "Int_GuardianHullReinforcement_Size3_Class1",
         grp: "ghrp"
       }, {
         rating: "D",
@@ -17106,9 +17124,9 @@ module.exports = {
         power: 1.24,
         hullreinforcement: 413,
         thermres: .02,
-        cost: 439116,
+        cost: 414720,
         id: "2R",
-        symbol: "Int_GuardianHullReinforcement_class4_Class2",
+        symbol: "Int_GuardianHullReinforcement_Size4_Class2",
         grp: "ghrp"
       }, {
         rating: "E",
@@ -17119,22 +17137,22 @@ module.exports = {
         power: 1.13,
         hullreinforcement: 375,
         thermres: .02,
-        cost: 146372,
+        cost: 138240,
         id: "2B",
-        symbol: "Int_GuardianHullReinforcement_class4_Class1",
+        symbol: "Int_GuardianHullReinforcement_Size4_Class1",
         grp: "ghrp"
       }, {
         rating: "D",
         class: "5",
         mass: 16,
-        edID: 128833953,
+        edID: 128833954,
         eddbID: 0,
         power: 1.46,
         hullreinforcement: 488,
         thermres: .02,
-        cost: 1053879,
+        cost: 995330,
         id: "2C",
-        symbol: "Int_GuardianHullReinforcement_class5_Class1",
+        symbol: "Int_GuardianHullReinforcement_Size5_Class2",
         grp: "ghrp"
       }, {
         rating: "E",
@@ -17145,8 +17163,9 @@ module.exports = {
         power: 1.35,
         hullreinforcement: 450,
         thermres: .02,
-        cost: 351294,
+        cost: 331778,
         id: "2D",
+        symbol: "Int_GuardianHullReinforcement_Size5_Class1",
         grp: "ghrp"
       } ],
       gmrp: [ {
@@ -17157,10 +17176,10 @@ module.exports = {
         power: .34,
         protection: .6,
         integrity: 77,
-        cost: 3176471,
+        cost: 3e4,
         id: "2E",
         edID: 128833956,
-        symbol: "Int_GuardianModuleReinforcement_class1_Class2",
+        symbol: "Int_GuardianModuleReinforcement_Size1_Class2",
         grp: "gmrp"
       }, {
         rating: "E",
@@ -17170,10 +17189,10 @@ module.exports = {
         power: .27,
         protection: .3,
         integrity: 85,
-        cost: 1058824,
+        cost: 1e4,
         id: "2F",
         edID: 128833955,
-        symbol: "Int_GuardianModuleReinforcement_class1_Class1",
+        symbol: "Int_GuardianModuleReinforcement_Size1_Class1",
         grp: "gmrp"
       }, {
         rating: "D",
@@ -17183,10 +17202,10 @@ module.exports = {
         power: .47,
         protection: .6,
         integrity: 116,
-        cost: 7623529,
+        cost: 72e3,
         id: "2G",
         edID: 128833958,
-        symbol: "Int_GuardianModuleReinforcement_class2_Class2",
+        symbol: "Int_GuardianModuleReinforcement_Size2_Class2",
         grp: "gmrp"
       }, {
         rating: "E",
@@ -17196,10 +17215,10 @@ module.exports = {
         power: .41,
         protection: .3,
         integrity: 127,
-        cost: 2541176,
-        id: "2G",
+        cost: 24e3,
+        id: "2S",
         edID: 128833957,
-        symbol: "Int_GuardianModuleReinforcement_class2_Class1",
+        symbol: "Int_GuardianModuleReinforcement_Size2_Class1",
         grp: "gmrp"
       }, {
         rating: "D",
@@ -17209,10 +17228,10 @@ module.exports = {
         power: .61,
         protection: .6,
         integrity: 171,
-        cost: 18296471,
+        cost: 172800,
         id: "2H",
         edID: 128833960,
-        symbol: "Int_GuardianModuleReinforcement_class3_Class2",
+        symbol: "Int_GuardianModuleReinforcement_Size3_Class2",
         grp: "gmrp"
       }, {
         rating: "E",
@@ -17222,10 +17241,10 @@ module.exports = {
         power: .54,
         protection: .3,
         integrity: 187,
-        cost: 6098824,
+        cost: 57600,
         id: "2I",
         edID: 128833959,
-        symbol: "Int_GuardianModuleReinforcement_class3_Class1",
+        symbol: "Int_GuardianModuleReinforcement_Size3_Class1",
         grp: "gmrp"
       }, {
         rating: "D",
@@ -17235,10 +17254,10 @@ module.exports = {
         power: .74,
         protection: .6,
         integrity: 259,
-        cost: 43911554,
+        cost: 414720,
         id: "2J",
         edID: 128833962,
-        symbol: "Int_GuardianModuleReinforcement_class4_Class2",
+        symbol: "Int_GuardianModuleReinforcement_Size4_Class2",
         grp: "gmrp"
       }, {
         rating: "E",
@@ -17248,10 +17267,10 @@ module.exports = {
         power: .68,
         protection: .3,
         integrity: 286,
-        cost: 14637225,
+        cost: 138240,
         id: "2K",
         edID: 128833961,
-        symbol: "Int_GuardianModuleReinforcement_class4_Class1",
+        symbol: "Int_GuardianModuleReinforcement_Size4_Class1",
         grp: "gmrp"
       }, {
         rating: "D",
@@ -17261,10 +17280,10 @@ module.exports = {
         power: .88,
         protection: .6,
         integrity: 385,
-        cost: 105387873,
+        cost: 995330,
         id: "2L",
         edID: 128833964,
-        symbol: "Int_GuardianModuleReinforcement_class5_Class2",
+        symbol: "Int_GuardianModuleReinforcement_Size5_Class2",
         grp: "gmrp"
       }, {
         rating: "E",
@@ -17274,10 +17293,10 @@ module.exports = {
         power: .81,
         protection: .3,
         integrity: 424,
-        cost: 35129412,
+        cost: 331778,
         id: "2M",
         edID: 128833963,
-        symbol: "Int_GuardianModuleReinforcement_class5_Class1",
+        symbol: "Int_GuardianModuleReinforcement_Size5_Class1",
         grp: "gmrp"
       } ]
     }
