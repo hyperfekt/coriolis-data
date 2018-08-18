@@ -3579,7 +3579,7 @@
 			"eddbID": 15,
 			"properties": {
 				"name": "Imperial Eagle",
-				"manufacturer": "Core Dynamics",
+				"manufacturer": "Gutamaya",
 				"class": 1,
 				"hullCost": 72180,
 				"speed": 300,
@@ -31187,6 +31187,10 @@
 								0,
 								0.36
 							],
+							"shotspeed": [
+								0,
+								0.36
+							],
 							"thermload": [
 								0.01,
 								0.01
@@ -31205,6 +31209,10 @@
 								0.6
 							],
 							"range": [
+								0.36,
+								0.52
+							],
+							"shotspeed": [
 								0.36,
 								0.52
 							],
@@ -31230,6 +31238,10 @@
 								0.52,
 								0.68
 							],
+							"shotspeed": [
+								0.52,
+								0.68
+							],
 							"thermload": [
 								0.03,
 								0.03
@@ -31252,6 +31264,10 @@
 								0.68,
 								0.84
 							],
+							"shotspeed": [
+								0.68,
+								0.84
+							],
 							"thermload": [
 								0.04,
 								0.04
@@ -31271,6 +31287,10 @@
 								1.2
 							],
 							"range": [
+								0.84,
+								1
+							],
+							"shotspeed": [
 								0.84,
 								1
 							],
@@ -32823,8 +32843,7 @@
 				"damage": -0.2
 			},
 			"special_force_shell": {
-				"jitter": 1,
-				"speed": -0.1667
+				"shotspeed": -0.1667
 			},
 			"special_fsd_interrupt": {
 				"damage": -0.3,
