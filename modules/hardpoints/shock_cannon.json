@@ -33,6 +33,37 @@
     },
     {
       "rating": "D",
+      "class": 3,
+      "grp": "tbsc",
+      "symbol": "Hpt_PlasmaShockCannon_Turret_Large",
+      "id": "xz",
+      "eddbID": 0,
+      "edID": 0,
+      "mount": "T",
+      "cost": 6050201,
+      "mass": 8,
+      "integrity": 64,
+      "power": 0.64,
+      "damage": 12.32,
+      "distdraw": 0.79,
+      "thermload": 2.2,
+      "piercing": 60,
+      "range": 3000,
+      "shotspeed": 1200,
+      "rof": 10,
+      "clip": 16,
+      "ammo": 240,
+      "reload": 6,
+      "breachdmg": 8.6,
+      "breachmin": 0.4,
+      "breachmax": 0.8,
+      "damagedist": {
+        "K": 1
+      },
+      "falloff": 2500
+    },
+    {
+      "rating": "D",
       "class": 2,
       "grp": "tbsc",
       "ammo": 240,
@@ -61,6 +92,37 @@
       "id": "2O",
       "edID": 128834003,
       "symbol": "Hpt_PlasmaShockCannon_Gimbal_Medium"
+    },
+    {
+      "grp": "tbsc",
+      "symbol": "Hpt_PlasmaShockCannon_Fixed_Medium",
+      "id": "y0",
+      "eddbID": 0,
+      "edID": 128834003,
+      "class": 2,
+      "rating": "D",
+      "mount": "F",
+      "cost": 367501,
+      "mass": 4,
+      "integrity": 51,
+      "power": 0.57,
+      "damage": 13,
+      "distdraw": 0.47,
+      "thermload": 1.8,
+      "piercing": 40,
+      "range": 3000,
+      "shotspeed": 1200,
+      "rof": 10,
+      "clip": 16,
+      "ammo": 240,
+      "reload": 6,
+      "breachdmg": 9.1,
+      "breachmin": 0.4,
+      "breachmax": 0.6,
+      "damagedist": {
+        "K": 1
+      },
+      "falloff": 2500
     }
   ]
 }

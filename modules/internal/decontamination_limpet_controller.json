@@ -1,0 +1,60 @@
+{
+  "dtl": [
+    {
+      "class": 1,
+      "cost": 3600,
+      "edID": 0,
+      "eddbID": 0,
+      "grp": "dtl",
+      "id": "y1",
+      "mass": 1.3,
+      "maximum": 1,
+      "power": 0.18,
+      "range": 0.6,
+      "rating": "E",
+      "symbol": "Int_DroneControl_Decontamination_Size1_Class1"
+    },
+    {
+      "class": 3,
+      "cost": 16201,
+      "edID": 0,
+      "eddbID": 0,
+      "grp": "dtl",
+      "id": "y2",
+      "mass": 2,
+      "maximum": 2,
+      "power": 0.2,
+      "range": 0.88,
+      "rating": "E",
+      "symbol": "Int_DroneControl_Decontamination_Size3_Class1"
+    },
+    {
+      "class": 5,
+      "cost": 145801,
+      "edID": 0,
+      "eddbID": 0,
+      "grp": "dtl",
+      "id": "y3",
+      "mass": 20,
+      "maximum": 3,
+      "power": 0.5,
+      "range": 1.3,
+      "rating": "E",
+      "symbol": "Int_DroneControl_Decontamination_Size5_Class1"
+    },
+    {
+      "class": 7,
+      "cost": 1312201,
+      "edID": 0,
+      "eddbID": 0,
+      "grp": "dtl",
+      "id": "y4",
+      "mass": 128,
+      "maximum": 4,
+      "power": 0.97,
+      "range": 2.04,
+      "rating": "E",
+      "symbol": "Int_DroneControl_Decontamination_Size7_Class1"
+    }
+  ]
+}
