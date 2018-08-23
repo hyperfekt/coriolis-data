@@ -6584,5 +6584,29 @@
       "range",
       "scantime"
     ]
+  },
+  "tbem": {
+    "blueprints": {
+    },
+    "modifications": [
+    ]
+  },
+  "tbrfl": {
+    "blueprints": {
+    },
+    "modifications": [
+    ]
+  },
+  "dtl": {
+    "blueprints": {
+    },
+    "modifications": [
+    ]
+  },
+  "mahr": {
+    "blueprints": {
+    },
+    "modifications": [
+    ]
   }
 }
