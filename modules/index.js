@@ -38,6 +38,8 @@ module.exports = {
     sfn: require('./hardpoints/shutdown_field_neutraliser').sfn,
     xs: require('./hardpoints/xeno_scanner').xs,
     tbsc: require('./hardpoints/shock_cannon').tbsc,
+    tbem: require('./hardpoints/enzyme_missile_rack.json').tbem,
+    tbrfl: require('./hardpoints/remote_release_flechette_launcher.json').tbrfl,
     gsc: require('./hardpoints/guardian_shard_cannon').gsc
   },
   internal: {
@@ -46,6 +48,7 @@ module.exports = {
     cr: require('./internal/cargo_rack').cr,
     cc: require('./internal/collector_limpet_controllers').cc,
     dc: require('./internal/docking_computer').dc,
+    dtl: require('./internal/decontamination_limpet_controller.json').dtl,
     fh: require('./internal/fighter_hangar').fh,
     fi: require('./internal/frame_shift_drive_interdictor').fi,
     fs: require('./internal/fuel_scoop').fs,
@@ -53,6 +56,7 @@ module.exports = {
     fx: require('./internal/fuel_transfer_limpet_controllers').fx,
     hb: require('./internal/hatch_breaker_limpet_controller').hb,
     hr: require('./internal/hull_reinforcement_package').hr,
+    mahr: require('./internal/meta_alloy_hull_reinforcement_package.json').mahr,
     mrp: require('./internal/module_reinforcement_package').mrp,
     pv: require('./internal/planetary_vehicle_hanger').pv,
     psg: require('./internal/pristmatic_shield_generator').psg,

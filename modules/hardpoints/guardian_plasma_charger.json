@@ -61,6 +61,68 @@
       "shotspeed": 1200,
       "thermload": 5.8,
       "symbol": "Hpt_Guardian_PlasmaLauncher_Turret_Medium"
+    },
+    {
+      "rating": "C",
+      "class": 3,
+      "grp": "gpc",
+      "id": "xu",
+      "eddbID": 0,
+      "edID": 0,
+      "mount": "F",
+      "cost": 1423301,
+      "mass": 8,
+      "integrity": 51,
+      "power": 1.39,
+      "damage": 3.4,
+      "distdraw": 2.42,
+      "thermload": 6.2,
+      "piercing": 95,
+      "range": 3000,
+      "shotspeed": 1200,
+      "rof": 5,
+      "clip": 15,
+      "ammo": 200,
+      "reload": 3,
+      "breachdmg": 1,
+      "breachmin": 0.5,
+      "breachmax": 0.8,
+      "symbol": "Hpt_Guardian_PlasmaLauncher_Fixed_Large",
+      "damagedist": {
+        "A": 1
+      },
+      "falloff": 1000
+    },
+    {
+      "ammo": 200,
+      "breachdmg": 0.8,
+      "breachmax": 0.8,
+      "breachmin": 0.5,
+      "class": 3,
+      "clip": 15,
+      "cost": 5495200,
+      "damage": 3.3,
+      "damagedist": {
+        "A": 1
+      },
+      "distdraw": 2.6,
+      "edID": 0,
+      "eddbID": 0,
+      "falloff": 1000,
+      "grp": "gpc",
+      "id": "xv",
+      "integrity": 51,
+      "mass": 8,
+      "mount": "T",
+      "piercing": 95,
+      "power": 2.53,
+      "range": 3000,
+      "rating": "D",
+      "reload": 3,
+      "rof": 5,
+      "shotspeed": 1200,
+      "thermload": 6.4,
+      "symbol": "Hpt_Guardian_PlasmaLauncher_Turret_Large"
     }
   ]
 }
