@@ -19,17 +19,17 @@
       "falloff": 2500,
       "integrity": 64,
       "mount": "G",
-      "piercing": 95,
+      "piercing": 60,
       "power": 0.89,
       "range": 3000,
       "rof": 10,
       "shotspeed": 1200,
       "thermload": 3.1,
-      "cost": 1015750,
+      "cost": 2249050,
       "reload": 6,
       "id": "2N",
-      "edID": 128834780,
-      "symbol": "Hpt_PlasmaShockCannon_Fixed_Large"
+      "edID": 128834781,
+      "symbol": "Hpt_PlasmaShockCannon_Gimbal_Large"
     },
     {
       "rating": "D",
