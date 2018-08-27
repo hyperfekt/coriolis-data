@@ -3,7 +3,7 @@
     {
       "class": 1,
       "cost": 3600,
-      "edID": 0,
+      "edID": 128793941,
       "eddbID": 0,
       "grp": "dtl",
       "id": "y1",
@@ -17,7 +17,7 @@
     {
       "class": 3,
       "cost": 16201,
-      "edID": 0,
+      "edID": 128793942,
       "eddbID": 0,
       "grp": "dtl",
       "id": "y2",
@@ -31,7 +31,7 @@
     {
       "class": 5,
       "cost": 145801,
-      "edID": 0,
+      "edID": 128793943,
       "eddbID": 0,
       "grp": "dtl",
       "id": "y3",
@@ -45,7 +45,7 @@
     {
       "class": 7,
       "cost": 1312201,
-      "edID": 0,
+      "edID": 128793944,
       "eddbID": 0,
       "grp": "dtl",
       "id": "y4",

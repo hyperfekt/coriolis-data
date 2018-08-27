@@ -68,7 +68,7 @@
       "grp": "gpc",
       "id": "xu",
       "eddbID": 0,
-      "edID": 0,
+      "edID": 128834783,
       "mount": "F",
       "cost": 1423301,
       "mass": 8,
@@ -106,7 +106,7 @@
         "A": 1
       },
       "distdraw": 2.6,
-      "edID": 0,
+      "edID": 128834784,
       "eddbID": 0,
       "falloff": 1000,
       "grp": "gpc",
