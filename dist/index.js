@@ -371,7 +371,7 @@ module.exports = {
       },
       bulkheads: [ {
         id: "CI",
-        edID: 128816576,
+        edID: 128816583,
         eddbID: 1640,
         grp: "bh",
         cost: 0,
@@ -382,7 +382,7 @@ module.exports = {
         hullboost: .8
       }, {
         id: "CJ",
-        edID: 128816577,
+        edID: 128816584,
         eddbID: 1641,
         grp: "bh",
         cost: 6803170,
@@ -393,7 +393,7 @@ module.exports = {
         hullboost: 1.52
       }, {
         id: "CK",
-        edID: 128816578,
+        edID: 128816585,
         eddbID: 1642,
         grp: "bh",
         cost: 15307134,
@@ -404,7 +404,7 @@ module.exports = {
         hullboost: 2.5
       }, {
         id: "CL",
-        edID: 128816579,
+        edID: 128816586,
         eddbID: 1643,
         grp: "bh",
         cost: 36175859,
@@ -415,7 +415,7 @@ module.exports = {
         hullboost: 2.5
       }, {
         id: "CM",
-        edID: 128816580,
+        edID: 128816587,
         eddbID: 1644,
         grp: "bh",
         cost: 40087682,
