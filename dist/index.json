@@ -340,7 +340,7 @@
 				"hardness": 65,
 				"hullMass": 450,
 				"masslock": 13,
-				"pipSpeed": 0.0875,
+				"pipSpeed": 0.088709677419355,
 				"pitch": 32,
 				"roll": 90,
 				"yaw": 16,
@@ -522,7 +522,7 @@
 				"name": "Alliance Crusader",
 				"manufacturer": "Lakon",
 				"class": 2,
-				"hullCost": 18182883,
+				"hullCost": 22866341,
 				"speed": 180,
 				"boost": 300,
 				"boostEnergy": 19,
@@ -13444,7 +13444,7 @@
 					"grp": "gpc",
 					"id": "xu",
 					"eddbID": 0,
-					"edID": 0,
+					"edID": 128834783,
 					"mount": "F",
 					"cost": 1423301,
 					"mass": 8,
@@ -13482,7 +13482,7 @@
 						"A": 1
 					},
 					"distdraw": 2.6,
-					"edID": 0,
+					"edID": 128834784,
 					"eddbID": 0,
 					"falloff": 1000,
 					"grp": "gpc",
@@ -13584,6 +13584,39 @@
 					"rating": "C",
 					"class": 3,
 					"grp": "tbsc",
+					"id": "yG",
+					"eddbID": 0,
+					"edID": 128834780,
+					"mount": "F",
+					"cost": 1015750,
+					"mass": 8,
+					"integrity": 64,
+					"power": 0.89,
+					"damage": 18.1,
+					"distdraw": 0.92,
+					"thermload": 2.7,
+					"piercing": 60,
+					"range": 3000,
+					"shotspeed": 1200,
+					"rof": 10,
+					"roundspershot": 0,
+					"clip": 16,
+					"ammo": 240,
+					"reload": 6,
+					"breachdmg": 12.7,
+					"breachmin": 0.4,
+					"breachmax": 0.8,
+					"jitter": 0,
+					"symbol": "Hpt_PlasmaShockCannon_Fixed_Large",
+					"damagedist": {
+						"K": 1
+					},
+					"falloff": 2500
+				},
+				{
+					"rating": "C",
+					"class": 3,
+					"grp": "tbsc",
 					"ammo": 240,
 					"mass": 8,
 					"eddbID": 0,
@@ -13599,17 +13632,17 @@
 					"falloff": 2500,
 					"integrity": 64,
 					"mount": "G",
-					"piercing": 95,
+					"piercing": 60,
 					"power": 0.89,
 					"range": 3000,
 					"rof": 10,
 					"shotspeed": 1200,
 					"thermload": 3.1,
-					"cost": 1015750,
+					"cost": 2249050,
 					"reload": 6,
 					"id": "2N",
-					"edID": 128834780,
-					"symbol": "Hpt_PlasmaShockCannon_Fixed_Large"
+					"edID": 128834781,
+					"symbol": "Hpt_PlasmaShockCannon_Gimbal_Large"
 				},
 				{
 					"rating": "D",
@@ -13618,7 +13651,7 @@
 					"symbol": "Hpt_PlasmaShockCannon_Turret_Large",
 					"id": "xz",
 					"eddbID": 0,
-					"edID": 0,
+					"edID": 128834782,
 					"mount": "T",
 					"cost": 6050201,
 					"mass": 8,
@@ -13678,7 +13711,7 @@
 					"symbol": "Hpt_PlasmaShockCannon_Fixed_Medium",
 					"id": "y0",
 					"eddbID": 0,
-					"edID": 128834003,
+					"edID": 128834002,
 					"class": 2,
 					"rating": "D",
 					"mount": "F",
@@ -13703,6 +13736,39 @@
 						"K": 1
 					},
 					"falloff": 2500
+				},
+				{
+					"rating": "E",
+					"class": 2,
+					"grp": "tbsc",
+					"id": "0",
+					"eddbID": 0,
+					"edID": 128834004,
+					"mount": "T",
+					"cost": 1359200,
+					"mass": 4,
+					"integrity": 51,
+					"power": 0.5,
+					"damage": 9,
+					"distdraw": 0.39,
+					"thermload": 1.2,
+					"piercing": 40,
+					"range": 3000,
+					"shotspeed": 1200,
+					"rof": 10,
+					"roundspershot": 0,
+					"clip": 16,
+					"ammo": 240,
+					"reload": 6,
+					"breachdmg": 6.3,
+					"breachmin": 0.4,
+					"breachmax": 0.8,
+					"jitter": 0,
+					"symbol": "Hpt_PlasmaShockCannon_Turret_Medium",
+					"damagedist": {
+						"K": 1
+					},
+					"falloff": 2500
 				}
 			],
 			"tbem": [
@@ -13712,7 +13778,7 @@
 					"grp": "tbem",
 					"id": "xt",
 					"eddbID": 0,
-					"edID": 0,
+					"edID": 128833995,
 					"mount": "F",
 					"cost": 480501,
 					"mass": 4,
@@ -13743,7 +13809,7 @@
 					"grp": "tbrfl",
 					"id": "xy",
 					"eddbID": 0,
-					"edID": 0,
+					"edID": 128833996,
 					"mount": "F",
 					"cost": 353761,
 					"mass": 4,
@@ -13752,7 +13818,7 @@
 					"damage": 13,
 					"distdraw": 0.24,
 					"thermload": 3.6,
-					"piercing": 70,
+					"piercing": 80,
 					"shotspeed": 550,
 					"rof": 0.5,
 					"clip": 1,
@@ -13772,7 +13838,7 @@
 					"grp": "tbrfl",
 					"id": "yF",
 					"eddbID": 0,
-					"edID": 0,
+					"edID": 128833997,
 					"mount": "T",
 					"cost": 1279200,
 					"mass": 4,
@@ -13902,7 +13968,7 @@
 					"grp": "gsc",
 					"id": "xx",
 					"eddbID": 0,
-					"edID": 0,
+					"edID": 128834779,
 					"mount": "T",
 					"cost": 5865026,
 					"mass": 8,
@@ -14825,7 +14891,7 @@
 					"cargo": 16,
 					"class": 4,
 					"cost": 94330,
-					"edID": 128681992,
+					"edID": 128833944,
 					"eddbID": 1552,
 					"grp": "cr",
 					"id": "0W",
@@ -15155,7 +15221,7 @@
 				{
 					"class": 1,
 					"cost": 3600,
-					"edID": 0,
+					"edID": 128793941,
 					"eddbID": 0,
 					"grp": "dtl",
 					"id": "y1",
@@ -15169,7 +15235,7 @@
 				{
 					"class": 3,
 					"cost": 16201,
-					"edID": 0,
+					"edID": 128793942,
 					"eddbID": 0,
 					"grp": "dtl",
 					"id": "y2",
@@ -15183,7 +15249,7 @@
 				{
 					"class": 5,
 					"cost": 145801,
-					"edID": 0,
+					"edID": 128793943,
 					"eddbID": 0,
 					"grp": "dtl",
 					"id": "y3",
@@ -15197,7 +15263,7 @@
 				{
 					"class": 7,
 					"cost": 1312201,
-					"edID": 0,
+					"edID": 128793944,
 					"eddbID": 0,
 					"grp": "dtl",
 					"id": "y4",
@@ -16894,7 +16960,7 @@
 					"hullreinforcement": 72,
 					"class": 1,
 					"cost": 7501,
-					"edID": 0,
+					"edID": 128793117,
 					"eddbID": 0,
 					"explres": 0,
 					"grp": "mahr",
@@ -16910,7 +16976,7 @@
 					"hullreinforcement": 99,
 					"class": 1,
 					"cost": 22501,
-					"edID": 0,
+					"edID": 128793118,
 					"eddbID": 0,
 					"explres": 0,
 					"grp": "mahr",
@@ -16926,7 +16992,7 @@
 					"hullreinforcement": 135,
 					"class": 2,
 					"cost": 18000,
-					"edID": 0,
+					"edID": 128793119,
 					"eddbID": 0,
 					"explres": 0,
 					"grp": "mahr",
@@ -16942,7 +17008,7 @@
 					"hullreinforcement": 171,
 					"class": 2,
 					"cost": 54000,
-					"edID": 0,
+					"edID": 128793120,
 					"eddbID": 0,
 					"explres": 0,
 					"grp": "mahr",
@@ -16958,7 +17024,7 @@
 					"hullreinforcement": 207,
 					"class": 3,
 					"cost": 42000,
-					"edID": 0,
+					"edID": 128793121,
 					"eddbID": 0,
 					"explres": 0,
 					"grp": "mahr",
@@ -16974,7 +17040,7 @@
 					"hullreinforcement": 234,
 					"class": 3,
 					"cost": 126000,
-					"edID": 0,
+					"edID": 128793122,
 					"eddbID": 0,
 					"explres": 0,
 					"grp": "mahr",
@@ -16990,7 +17056,7 @@
 					"hullreinforcement": 270,
 					"class": 4,
 					"cost": 97501,
-					"edID": 0,
+					"edID": 128793123,
 					"eddbID": 0,
 					"explres": 0,
 					"grp": "mahr",
@@ -17006,7 +17072,7 @@
 					"hullreinforcement": 297,
 					"class": 4,
 					"cost": 292501,
-					"edID": 0,
+					"edID": 128793124,
 					"eddbID": 0,
 					"explres": 0,
 					"grp": "mahr",
@@ -17022,7 +17088,7 @@
 					"hullreinforcement": 324,
 					"class": 5,
 					"cost": 225001,
-					"edID": 0,
+					"edID": 128793125,
 					"eddbID": 0,
 					"explres": 0,
 					"grp": "mahr",
@@ -17038,7 +17104,7 @@
 					"hullreinforcement": 351,
 					"class": 5,
 					"cost": 675001,
-					"edID": 0,
+					"edID": 128793126,
 					"eddbID": 0,
 					"explres": 0,
 					"grp": "mahr",
@@ -20373,6 +20439,24 @@
 					"symbol": "Int_DroneControl_Recon_Size7_Class1"
 				}
 			],
+			"rsl": [
+				{
+					"rating": "E",
+					"class": 1,
+					"grp": "rsl",
+					"id": "0",
+					"eddbID": 1617,
+					"edID": 128793116,
+					"cost": 1749600,
+					"mass": 1.3,
+					"maximum": 1,
+					"power": 0.4,
+					"range": 2000,
+					"symbol": "Int_DroneControl_UnkVesselResearch",
+					"time": 300,
+					"integrity": 20
+				}
+			],
 			"gsrp": [
 				{
 					"shieldaddition": 44,
@@ -20597,6 +20681,7 @@
 					"eddbID": 0,
 					"power": 0.56,
 					"hullreinforcement": 138,
+					"causres": 0.05,
 					"thermres": 0.02,
 					"cost": 30000,
 					"symbol": "Int_GuardianHullReinforcement_Size1_Class2",
@@ -20611,6 +20696,7 @@
 					"eddbID": 0,
 					"power": 0.45,
 					"hullreinforcement": 100,
+					"causres": 0.05,
 					"thermres": 0.02,
 					"cost": 10000,
 					"symbol": "Int_GuardianHullReinforcement_Size1_Class1",
@@ -20625,6 +20711,7 @@
 					"eddbID": 0,
 					"power": 0.79,
 					"hullreinforcement": 238,
+					"causres": 0.05,
 					"thermres": 0.02,
 					"cost": 72000,
 					"symbol": "Int_GuardianHullReinforcement_Size2_Class2",
@@ -20639,6 +20726,7 @@
 					"eddbID": 0,
 					"power": 0.68,
 					"hullreinforcement": 188,
+					"causres": 0.05,
 					"thermres": 0.02,
 					"cost": 24000,
 					"symbol": "Int_GuardianHullReinforcement_Size2_Class1",
@@ -20653,6 +20741,7 @@
 					"eddbID": 0,
 					"power": 1.01,
 					"hullreinforcement": 325,
+					"causres": 0.05,
 					"thermres": 0.02,
 					"cost": 172800,
 					"symbol": "Int_GuardianHullReinforcement_Size3_Class2",
@@ -20667,6 +20756,7 @@
 					"eddbID": 0,
 					"power": 0.9,
 					"hullreinforcement": 288,
+					"causres": 0.05,
 					"thermres": 0.02,
 					"cost": 57600,
 					"symbol": "Int_GuardianHullReinforcement_Size3_Class1",
@@ -20680,6 +20770,7 @@
 					"eddbID": 0,
 					"power": 1.24,
 					"hullreinforcement": 413,
+					"causres": 0.05,
 					"thermres": 0.02,
 					"cost": 414720,
 					"id": "2R",
@@ -20694,6 +20785,7 @@
 					"eddbID": 0,
 					"power": 1.13,
 					"hullreinforcement": 375,
+					"causres": 0.05,
 					"thermres": 0.02,
 					"cost": 138240,
 					"id": "2B",
@@ -20708,6 +20800,7 @@
 					"eddbID": 0,
 					"power": 1.46,
 					"hullreinforcement": 488,
+					"causres": 0.05,
 					"thermres": 0.02,
 					"cost": 995330,
 					"id": "2C",
@@ -20722,6 +20815,7 @@
 					"eddbID": 0,
 					"power": 1.35,
 					"hullreinforcement": 450,
+					"causres": 0.05,
 					"thermres": 0.02,
 					"cost": 331778,
 					"id": "2D",
@@ -22835,11 +22929,11 @@
 						},
 						"features": {
 							"integrity": [
-								0,
+								-0.03,
 								-0.03
 							],
 							"optmass": [
-								0,
+								-0.03,
 								-0.03
 							],
 							"optmul": [
@@ -22847,11 +22941,11 @@
 								0.12
 							],
 							"power": [
-								0,
+								0.04,
 								0.04
 							],
 							"thermload": [
-								0,
+								0.2,
 								0.2
 							]
 						},
@@ -22864,11 +22958,11 @@
 						},
 						"features": {
 							"integrity": [
-								-0.03,
+								-0.06,
 								-0.06
 							],
 							"optmass": [
-								-0.03,
+								-0.05,
 								-0.05
 							],
 							"optmul": [
@@ -22876,11 +22970,11 @@
 								0.19
 							],
 							"power": [
-								0.04,
+								0.06,
 								0.06
 							],
 							"thermload": [
-								0.2,
+								0.3,
 								0.3
 							]
 						},
@@ -22894,11 +22988,11 @@
 						},
 						"features": {
 							"integrity": [
-								-0.06,
+								-0.09,
 								-0.09
 							],
 							"optmass": [
-								-0.05,
+								-0.08,
 								-0.08
 							],
 							"optmul": [
@@ -22906,11 +23000,11 @@
 								0.26
 							],
 							"power": [
-								0.06,
+								0.08,
 								0.08
 							],
 							"thermload": [
-								0.3,
+								0.4,
 								0.4
 							]
 						},
@@ -22924,11 +23018,11 @@
 						},
 						"features": {
 							"integrity": [
-								-0.09,
+								-0.12,
 								-0.12
 							],
 							"optmass": [
-								-0.08,
+								-0.1,
 								-0.1
 							],
 							"optmul": [
@@ -22936,11 +23030,11 @@
 								0.33
 							],
 							"power": [
-								0.08,
+								0.1,
 								0.1
 							],
 							"thermload": [
-								0.4,
+								0.5,
 								0.5
 							]
 						},
@@ -22954,11 +23048,11 @@
 						},
 						"features": {
 							"integrity": [
-								-0.12,
+								-0.15,
 								-0.15
 							],
 							"optmass": [
-								-0.1,
+								-0.13,
 								-0.13
 							],
 							"optmul": [
@@ -22966,11 +23060,11 @@
 								0.4
 							],
 							"power": [
-								0.1,
+								0.12,
 								0.12
 							],
 							"thermload": [
-								0.5,
+								0.6,
 								0.6
 							]
 						},
@@ -22997,7 +23091,7 @@
 								0.3
 							],
 							"mass": [
-								0,
+								0.05,
 								0.05
 							],
 							"thermload": [
@@ -23018,7 +23112,7 @@
 								0.5
 							],
 							"mass": [
-								0.05,
+								0.1,
 								0.1
 							],
 							"thermload": [
@@ -23040,7 +23134,7 @@
 								0.7
 							],
 							"mass": [
-								0.1,
+								0.15,
 								0.15
 							],
 							"thermload": [
@@ -23062,7 +23156,7 @@
 								0.9
 							],
 							"mass": [
-								0.15,
+								0.2,
 								0.2
 							],
 							"thermload": [
@@ -23084,7 +23178,7 @@
 								1.1
 							],
 							"mass": [
-								0.2,
+								0.25,
 								0.25
 							],
 							"thermload": [
@@ -23111,7 +23205,7 @@
 						},
 						"features": {
 							"optmass": [
-								0,
+								-0.02,
 								-0.02
 							],
 							"optmul": [
@@ -23132,11 +23226,11 @@
 						},
 						"features": {
 							"integrity": [
-								0,
+								-0.04,
 								-0.04
 							],
 							"optmass": [
-								-0.02,
+								-0.04,
 								-0.04
 							],
 							"optmul": [
@@ -23144,7 +23238,7 @@
 								0.13
 							],
 							"power": [
-								0,
+								0.04,
 								0.04
 							],
 							"thermload": [
@@ -23162,11 +23256,11 @@
 						},
 						"features": {
 							"integrity": [
-								-0.04,
+								-0.08,
 								-0.08
 							],
 							"optmass": [
-								-0.04,
+								-0.06,
 								-0.06
 							],
 							"optmul": [
@@ -23174,7 +23268,7 @@
 								0.18
 							],
 							"power": [
-								0.04,
+								0.08,
 								0.08
 							],
 							"thermload": [
@@ -23192,11 +23286,11 @@
 						},
 						"features": {
 							"integrity": [
-								-0.08,
+								-0.12,
 								-0.12
 							],
 							"optmass": [
-								-0.06,
+								-0.08,
 								-0.08
 							],
 							"optmul": [
@@ -23204,7 +23298,7 @@
 								0.23
 							],
 							"power": [
-								0.08,
+								0.12,
 								0.12
 							],
 							"thermload": [
@@ -23222,11 +23316,11 @@
 						},
 						"features": {
 							"integrity": [
-								-0.12,
+								-0.16,
 								-0.16
 							],
 							"optmass": [
-								-0.08,
+								-0.1,
 								-0.1
 							],
 							"optmul": [
@@ -23234,7 +23328,7 @@
 								0.28
 							],
 							"power": [
-								0.12,
+								0.16,
 								0.16
 							],
 							"thermload": [
@@ -23771,7 +23865,7 @@
 						},
 						"features": {
 							"facinglimit": [
-								-0.1,
+								-0.01,
 								-0.01
 							],
 							"mass": [
@@ -25685,7 +25779,7 @@
 								0.2
 							],
 							"angle": [
-								-0.12,
+								-0.15,
 								-0.15
 							],
 							"range": [
@@ -28464,7 +28558,7 @@
 								0.2
 							],
 							"angle": [
-								-0.12,
+								-0.15,
 								-0.15
 							],
 							"range": [
@@ -29032,7 +29126,7 @@
 								0.2
 							],
 							"angle": [
-								0,
+								-0.1,
 								-0.1
 							],
 							"range": [
@@ -29053,7 +29147,7 @@
 								0.4
 							],
 							"angle": [
-								-0.1,
+								-0.15,
 								-0.15
 							],
 							"range": [
@@ -29075,7 +29169,7 @@
 								0.6
 							],
 							"angle": [
-								-0.15,
+								-0.2,
 								-0.2
 							],
 							"range": [
@@ -29097,7 +29191,7 @@
 								0.8
 							],
 							"angle": [
-								-0.2,
+								-0.25,
 								-0.25
 							],
 							"range": [
@@ -29119,7 +29213,7 @@
 								1
 							],
 							"angle": [
-								-0.25,
+								-0.3,
 								-0.3
 							],
 							"range": [
@@ -29699,7 +29793,7 @@
 								0.2
 							],
 							"angle": [
-								-0.12,
+								-0.15,
 								-0.15
 							],
 							"range": [
@@ -32451,7 +32545,7 @@
 						},
 						"features": {
 							"clip": [
-								0,
+								-0.03,
 								-0.03
 							],
 							"damage": [
@@ -32459,11 +32553,11 @@
 								0.3
 							],
 							"distdraw": [
-								0,
+								0.15,
 								0.15
 							],
 							"thermload": [
-								0,
+								0.03,
 								0.03
 							]
 						},
@@ -32476,7 +32570,7 @@
 						},
 						"features": {
 							"clip": [
-								-0.03,
+								-0.06,
 								-0.06
 							],
 							"damage": [
@@ -32484,11 +32578,11 @@
 								0.4
 							],
 							"distdraw": [
-								0.15,
+								0.2,
 								0.2
 							],
 							"thermload": [
-								0.03,
+								0.06,
 								0.06
 							]
 						},
@@ -32502,7 +32596,7 @@
 						},
 						"features": {
 							"clip": [
-								-0.06,
+								-0.09,
 								-0.09
 							],
 							"damage": [
@@ -32510,11 +32604,11 @@
 								0.5
 							],
 							"distdraw": [
-								0.2,
+								0.25,
 								0.25
 							],
 							"thermload": [
-								0.06,
+								0.09,
 								0.09
 							]
 						},
@@ -32528,7 +32622,7 @@
 						},
 						"features": {
 							"clip": [
-								-0.09,
+								-0.12,
 								-0.12
 							],
 							"damage": [
@@ -32536,11 +32630,11 @@
 								0.6
 							],
 							"distdraw": [
-								0.25,
+								0.3,
 								0.3
 							],
 							"thermload": [
-								0.09,
+								0.12,
 								0.12
 							]
 						},
@@ -32554,7 +32648,7 @@
 						},
 						"features": {
 							"clip": [
-								-0.12,
+								-0.15,
 								-0.15
 							],
 							"damage": [
@@ -32562,11 +32656,11 @@
 								0.7
 							],
 							"distdraw": [
-								0.3,
+								0.35,
 								0.35
 							],
 							"thermload": [
-								0.12,
+								0.15,
 								0.15
 							]
 						},
@@ -33017,7 +33111,7 @@
 				"name": "burstrof",
 				"type": "numeric",
 				"method": "overwrite",
-				"higherbetter": false
+				"higherbetter": true
 			},
 			"clip": {
 				"id": 4,
@@ -33227,7 +33321,7 @@
 				"name": "rof",
 				"type": "percentage",
 				"method": "multiplicative",
-				"higherbetter": false
+				"higherbetter": true
 			},
 			"angle": {
 				"id": 46,

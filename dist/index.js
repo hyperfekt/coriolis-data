@@ -232,7 +232,7 @@ module.exports = {
         hardness: 65,
         hullMass: 450,
         masslock: 13,
-        pipSpeed: .0875,
+        pipSpeed: .088709677419355,
         pitch: 32,
         roll: 90,
         yaw: 16,
@@ -349,7 +349,7 @@ module.exports = {
         name: "Alliance Crusader",
         manufacturer: "Lakon",
         class: 2,
-        hullCost: 18182883,
+        hullCost: 22866341,
         speed: 180,
         boost: 300,
         boostEnergy: 19,
@@ -10962,7 +10962,7 @@ module.exports = {
         grp: "gpc",
         id: "xu",
         eddbID: 0,
-        edID: 0,
+        edID: 128834783,
         mount: "F",
         cost: 1423301,
         mass: 8,
@@ -10999,7 +10999,7 @@ module.exports = {
           A: 1
         },
         distdraw: 2.6,
-        edID: 0,
+        edID: 128834784,
         eddbID: 0,
         falloff: 1e3,
         grp: "gpc",
@@ -11093,6 +11093,38 @@ module.exports = {
         rating: "C",
         class: 3,
         grp: "tbsc",
+        id: "yG",
+        eddbID: 0,
+        edID: 128834780,
+        mount: "F",
+        cost: 1015750,
+        mass: 8,
+        integrity: 64,
+        power: .89,
+        damage: 18.1,
+        distdraw: .92,
+        thermload: 2.7,
+        piercing: 60,
+        range: 3e3,
+        shotspeed: 1200,
+        rof: 10,
+        roundspershot: 0,
+        clip: 16,
+        ammo: 240,
+        reload: 6,
+        breachdmg: 12.7,
+        breachmin: .4,
+        breachmax: .8,
+        jitter: 0,
+        symbol: "Hpt_PlasmaShockCannon_Fixed_Large",
+        damagedist: {
+          K: 1
+        },
+        falloff: 2500
+      }, {
+        rating: "C",
+        class: 3,
+        grp: "tbsc",
         ammo: 240,
         mass: 8,
         eddbID: 0,
@@ -11108,17 +11140,17 @@ module.exports = {
         falloff: 2500,
         integrity: 64,
         mount: "G",
-        piercing: 95,
+        piercing: 60,
         power: .89,
         range: 3e3,
         rof: 10,
         shotspeed: 1200,
         thermload: 3.1,
-        cost: 1015750,
+        cost: 2249050,
         reload: 6,
         id: "2N",
-        edID: 128834780,
-        symbol: "Hpt_PlasmaShockCannon_Fixed_Large"
+        edID: 128834781,
+        symbol: "Hpt_PlasmaShockCannon_Gimbal_Large"
       }, {
         rating: "D",
         class: 3,
@@ -11126,7 +11158,7 @@ module.exports = {
         symbol: "Hpt_PlasmaShockCannon_Turret_Large",
         id: "xz",
         eddbID: 0,
-        edID: 0,
+        edID: 128834782,
         mount: "T",
         cost: 6050201,
         mass: 8,
@@ -11184,7 +11216,7 @@ module.exports = {
         symbol: "Hpt_PlasmaShockCannon_Fixed_Medium",
         id: "y0",
         eddbID: 0,
-        edID: 128834003,
+        edID: 128834002,
         class: 2,
         rating: "D",
         mount: "F",
@@ -11209,6 +11241,38 @@ module.exports = {
           K: 1
         },
         falloff: 2500
+      }, {
+        rating: "E",
+        class: 2,
+        grp: "tbsc",
+        id: "0",
+        eddbID: 0,
+        edID: 128834004,
+        mount: "T",
+        cost: 1359200,
+        mass: 4,
+        integrity: 51,
+        power: .5,
+        damage: 9,
+        distdraw: .39,
+        thermload: 1.2,
+        piercing: 40,
+        range: 3e3,
+        shotspeed: 1200,
+        rof: 10,
+        roundspershot: 0,
+        clip: 16,
+        ammo: 240,
+        reload: 6,
+        breachdmg: 6.3,
+        breachmin: .4,
+        breachmax: .8,
+        jitter: 0,
+        symbol: "Hpt_PlasmaShockCannon_Turret_Medium",
+        damagedist: {
+          K: 1
+        },
+        falloff: 2500
       } ],
       tbem: [ {
         rating: "B",
@@ -11216,7 +11280,7 @@ module.exports = {
         grp: "tbem",
         id: "xt",
         eddbID: 0,
-        edID: 0,
+        edID: 128833995,
         mount: "F",
         cost: 480501,
         mass: 4,
@@ -11245,7 +11309,7 @@ module.exports = {
         grp: "tbrfl",
         id: "xy",
         eddbID: 0,
-        edID: 0,
+        edID: 128833996,
         mount: "F",
         cost: 353761,
         mass: 4,
@@ -11254,7 +11318,7 @@ module.exports = {
         damage: 13,
         distdraw: .24,
         thermload: 3.6,
-        piercing: 70,
+        piercing: 80,
         shotspeed: 550,
         rof: .5,
         clip: 1,
@@ -11273,7 +11337,7 @@ module.exports = {
         grp: "tbrfl",
         id: "yF",
         eddbID: 0,
-        edID: 0,
+        edID: 128833997,
         mount: "T",
         cost: 1279200,
         mass: 4,
@@ -11398,7 +11462,7 @@ module.exports = {
         grp: "gsc",
         id: "xx",
         eddbID: 0,
-        edID: 0,
+        edID: 128834779,
         mount: "T",
         cost: 5865026,
         mass: 8,
@@ -12258,7 +12322,7 @@ module.exports = {
         cargo: 16,
         class: 4,
         cost: 94330,
-        edID: 128681992,
+        edID: 128833944,
         eddbID: 1552,
         grp: "cr",
         id: "0W",
@@ -12563,7 +12627,7 @@ module.exports = {
       dtl: [ {
         class: 1,
         cost: 3600,
-        edID: 0,
+        edID: 128793941,
         eddbID: 0,
         grp: "dtl",
         id: "y1",
@@ -12576,7 +12640,7 @@ module.exports = {
       }, {
         class: 3,
         cost: 16201,
-        edID: 0,
+        edID: 128793942,
         eddbID: 0,
         grp: "dtl",
         id: "y2",
@@ -12589,7 +12653,7 @@ module.exports = {
       }, {
         class: 5,
         cost: 145801,
-        edID: 0,
+        edID: 128793943,
         eddbID: 0,
         grp: "dtl",
         id: "y3",
@@ -12602,7 +12666,7 @@ module.exports = {
       }, {
         class: 7,
         cost: 1312201,
-        edID: 0,
+        edID: 128793944,
         eddbID: 0,
         grp: "dtl",
         id: "y4",
@@ -14169,7 +14233,7 @@ module.exports = {
         hullreinforcement: 72,
         class: 1,
         cost: 7501,
-        edID: 0,
+        edID: 128793117,
         eddbID: 0,
         explres: 0,
         grp: "mahr",
@@ -14184,7 +14248,7 @@ module.exports = {
         hullreinforcement: 99,
         class: 1,
         cost: 22501,
-        edID: 0,
+        edID: 128793118,
         eddbID: 0,
         explres: 0,
         grp: "mahr",
@@ -14199,7 +14263,7 @@ module.exports = {
         hullreinforcement: 135,
         class: 2,
         cost: 18e3,
-        edID: 0,
+        edID: 128793119,
         eddbID: 0,
         explres: 0,
         grp: "mahr",
@@ -14214,7 +14278,7 @@ module.exports = {
         hullreinforcement: 171,
         class: 2,
         cost: 54e3,
-        edID: 0,
+        edID: 128793120,
         eddbID: 0,
         explres: 0,
         grp: "mahr",
@@ -14229,7 +14293,7 @@ module.exports = {
         hullreinforcement: 207,
         class: 3,
         cost: 42e3,
-        edID: 0,
+        edID: 128793121,
         eddbID: 0,
         explres: 0,
         grp: "mahr",
@@ -14244,7 +14308,7 @@ module.exports = {
         hullreinforcement: 234,
         class: 3,
         cost: 126e3,
-        edID: 0,
+        edID: 128793122,
         eddbID: 0,
         explres: 0,
         grp: "mahr",
@@ -14259,7 +14323,7 @@ module.exports = {
         hullreinforcement: 270,
         class: 4,
         cost: 97501,
-        edID: 0,
+        edID: 128793123,
         eddbID: 0,
         explres: 0,
         grp: "mahr",
@@ -14274,7 +14338,7 @@ module.exports = {
         hullreinforcement: 297,
         class: 4,
         cost: 292501,
-        edID: 0,
+        edID: 128793124,
         eddbID: 0,
         explres: 0,
         grp: "mahr",
@@ -14289,7 +14353,7 @@ module.exports = {
         hullreinforcement: 324,
         class: 5,
         cost: 225001,
-        edID: 0,
+        edID: 128793125,
         eddbID: 0,
         explres: 0,
         grp: "mahr",
@@ -14304,7 +14368,7 @@ module.exports = {
         hullreinforcement: 351,
         class: 5,
         cost: 675001,
-        edID: 0,
+        edID: 128793126,
         eddbID: 0,
         explres: 0,
         grp: "mahr",
@@ -17441,6 +17505,22 @@ module.exports = {
         hacktime: 10,
         symbol: "Int_DroneControl_Recon_Size7_Class1"
       } ],
+      rsl: [ {
+        rating: "E",
+        class: 1,
+        grp: "rsl",
+        id: "0",
+        eddbID: 1617,
+        edID: 128793116,
+        cost: 1749600,
+        mass: 1.3,
+        maximum: 1,
+        power: .4,
+        range: 2e3,
+        symbol: "Int_DroneControl_UnkVesselResearch",
+        time: 300,
+        integrity: 20
+      } ],
       gsrp: [ {
         shieldaddition: 44,
         integrity: 36,
@@ -17647,6 +17727,7 @@ module.exports = {
         eddbID: 0,
         power: .56,
         hullreinforcement: 138,
+        causres: .05,
         thermres: .02,
         cost: 3e4,
         symbol: "Int_GuardianHullReinforcement_Size1_Class2",
@@ -17660,6 +17741,7 @@ module.exports = {
         eddbID: 0,
         power: .45,
         hullreinforcement: 100,
+        causres: .05,
         thermres: .02,
         cost: 1e4,
         symbol: "Int_GuardianHullReinforcement_Size1_Class1",
@@ -17673,6 +17755,7 @@ module.exports = {
         eddbID: 0,
         power: .79,
         hullreinforcement: 238,
+        causres: .05,
         thermres: .02,
         cost: 72e3,
         symbol: "Int_GuardianHullReinforcement_Size2_Class2",
@@ -17686,6 +17769,7 @@ module.exports = {
         eddbID: 0,
         power: .68,
         hullreinforcement: 188,
+        causres: .05,
         thermres: .02,
         cost: 24e3,
         symbol: "Int_GuardianHullReinforcement_Size2_Class1",
@@ -17699,6 +17783,7 @@ module.exports = {
         eddbID: 0,
         power: 1.01,
         hullreinforcement: 325,
+        causres: .05,
         thermres: .02,
         cost: 172800,
         symbol: "Int_GuardianHullReinforcement_Size3_Class2",
@@ -17712,6 +17797,7 @@ module.exports = {
         eddbID: 0,
         power: .9,
         hullreinforcement: 288,
+        causres: .05,
         thermres: .02,
         cost: 57600,
         symbol: "Int_GuardianHullReinforcement_Size3_Class1",
@@ -17724,6 +17810,7 @@ module.exports = {
         eddbID: 0,
         power: 1.24,
         hullreinforcement: 413,
+        causres: .05,
         thermres: .02,
         cost: 414720,
         id: "2R",
@@ -17737,6 +17824,7 @@ module.exports = {
         eddbID: 0,
         power: 1.13,
         hullreinforcement: 375,
+        causres: .05,
         thermres: .02,
         cost: 138240,
         id: "2B",
@@ -17750,6 +17838,7 @@ module.exports = {
         eddbID: 0,
         power: 1.46,
         hullreinforcement: 488,
+        causres: .05,
         thermres: .02,
         cost: 995330,
         id: "2C",
@@ -17763,6 +17852,7 @@ module.exports = {
         eddbID: 0,
         power: 1.35,
         hullreinforcement: 450,
+        causres: .05,
         thermres: .02,
         cost: 331778,
         id: "2D",
@@ -19135,11 +19225,11 @@ module.exports = {
               "Specialised Legacy Firmware": 1
             },
             features: {
-              integrity: [ 0, -.03 ],
-              optmass: [ 0, -.03 ],
+              integrity: [ -.03, -.03 ],
+              optmass: [ -.03, -.03 ],
               optmul: [ 0, .12 ],
-              power: [ 0, .04 ],
-              thermload: [ 0, .2 ]
+              power: [ .04, .04 ],
+              thermload: [ .2, .2 ]
             },
             uuid: "bbdea125-dd2b-4031-8698-56c922df3b76"
           },
@@ -19149,11 +19239,11 @@ module.exports = {
               "Specialised Legacy Firmware": 1
             },
             features: {
-              integrity: [ -.03, -.06 ],
-              optmass: [ -.03, -.05 ],
+              integrity: [ -.06, -.06 ],
+              optmass: [ -.05, -.05 ],
               optmul: [ .12, .19 ],
-              power: [ .04, .06 ],
-              thermload: [ .2, .3 ]
+              power: [ .06, .06 ],
+              thermload: [ .3, .3 ]
             },
             uuid: "d3ccba04-e0f5-40c3-a6f8-a038d5e5b4bf"
           },
@@ -19164,11 +19254,11 @@ module.exports = {
               "Specialised Legacy Firmware": 1
             },
             features: {
-              integrity: [ -.06, -.09 ],
-              optmass: [ -.05, -.08 ],
+              integrity: [ -.09, -.09 ],
+              optmass: [ -.08, -.08 ],
               optmul: [ .19, .26 ],
-              power: [ .06, .08 ],
-              thermload: [ .3, .4 ]
+              power: [ .08, .08 ],
+              thermload: [ .4, .4 ]
             },
             uuid: "60091d1f-38a9-4d62-bbc0-6332e03c7f3d"
           },
@@ -19179,11 +19269,11 @@ module.exports = {
               Selenium: 1
             },
             features: {
-              integrity: [ -.09, -.12 ],
-              optmass: [ -.08, -.1 ],
+              integrity: [ -.12, -.12 ],
+              optmass: [ -.1, -.1 ],
               optmul: [ .26, .33 ],
-              power: [ .08, .1 ],
-              thermload: [ .4, .5 ]
+              power: [ .1, .1 ],
+              thermload: [ .5, .5 ]
             },
             uuid: "7355e32e-b850-4428-8279-66f234f59c6a"
           },
@@ -19194,11 +19284,11 @@ module.exports = {
               "Pharmaceutical Isolators": 1
             },
             features: {
-              integrity: [ -.12, -.15 ],
-              optmass: [ -.1, -.13 ],
+              integrity: [ -.15, -.15 ],
+              optmass: [ -.13, -.13 ],
               optmul: [ .33, .4 ],
-              power: [ .1, .12 ],
-              thermload: [ .5, .6 ]
+              power: [ .12, .12 ],
+              thermload: [ .6, .6 ]
             },
             uuid: "92514d80-4513-489e-b85f-1b7010b3ae0f"
           }
@@ -19216,7 +19306,7 @@ module.exports = {
             },
             features: {
               integrity: [ 0, .3 ],
-              mass: [ 0, .05 ],
+              mass: [ .05, .05 ],
               thermload: [ -.1, -.1 ]
             },
             uuid: "21503395-f165-4340-91c7-07d062895eae"
@@ -19228,7 +19318,7 @@ module.exports = {
             },
             features: {
               integrity: [ .3, .5 ],
-              mass: [ .05, .1 ],
+              mass: [ .1, .1 ],
               thermload: [ -.1, -.2 ]
             },
             uuid: "452e2359-5804-4de1-94bf-d16c9d512cc4"
@@ -19241,7 +19331,7 @@ module.exports = {
             },
             features: {
               integrity: [ .5, .7 ],
-              mass: [ .1, .15 ],
+              mass: [ .15, .15 ],
               thermload: [ -.2, -.3 ]
             },
             uuid: "ae1a71bb-e025-4268-aa7f-fd4063945beb"
@@ -19254,7 +19344,7 @@ module.exports = {
             },
             features: {
               integrity: [ .7, .9 ],
-              mass: [ .15, .2 ],
+              mass: [ .2, .2 ],
               thermload: [ -.3, -.4 ]
             },
             uuid: "4bc0b925-dd64-41da-a653-f15acf108f23"
@@ -19267,7 +19357,7 @@ module.exports = {
             },
             features: {
               integrity: [ .9, 1.1 ],
-              mass: [ .2, .25 ],
+              mass: [ .25, .25 ],
               thermload: [ -.4, -.5 ]
             },
             uuid: "88aef454-76f6-48a3-a66c-958e50c92e7c"
@@ -19285,7 +19375,7 @@ module.exports = {
               Sulphur: 1
             },
             features: {
-              optmass: [ 0, -.02 ],
+              optmass: [ -.02, -.02 ],
               optmul: [ 0, .08 ],
               thermload: [ 0, -.2 ]
             },
@@ -19297,10 +19387,10 @@ module.exports = {
               "Specialised Legacy Firmware": 1
             },
             features: {
-              integrity: [ 0, -.04 ],
-              optmass: [ -.02, -.04 ],
+              integrity: [ -.04, -.04 ],
+              optmass: [ -.04, -.04 ],
               optmul: [ .08, .13 ],
-              power: [ 0, .04 ],
+              power: [ .04, .04 ],
               thermload: [ -.2, -.3 ]
             },
             uuid: "5382eecb-c840-4613-99c1-9bcbdb8d7760"
@@ -19312,10 +19402,10 @@ module.exports = {
               "Unexpected Emission Data": 1
             },
             features: {
-              integrity: [ -.04, -.08 ],
-              optmass: [ -.04, -.06 ],
+              integrity: [ -.08, -.08 ],
+              optmass: [ -.06, -.06 ],
               optmul: [ .13, .18 ],
-              power: [ .04, .08 ],
+              power: [ .08, .08 ],
               thermload: [ -.3, -.4 ]
             },
             uuid: "0c58a5c8-0bf9-4a2c-baf0-b14228f236df"
@@ -19327,10 +19417,10 @@ module.exports = {
               "Modified Consumer Firmware": 1
             },
             features: {
-              integrity: [ -.08, -.12 ],
-              optmass: [ -.06, -.08 ],
+              integrity: [ -.12, -.12 ],
+              optmass: [ -.08, -.08 ],
               optmul: [ .18, .23 ],
-              power: [ .08, .12 ],
+              power: [ .12, .12 ],
               thermload: [ -.4, -.5 ]
             },
             uuid: "afb2b22e-ab30-4195-8bfe-ae81ea6067f3"
@@ -19342,10 +19432,10 @@ module.exports = {
               Tin: 1
             },
             features: {
-              integrity: [ -.12, -.16 ],
-              optmass: [ -.08, -.1 ],
+              integrity: [ -.16, -.16 ],
+              optmass: [ -.1, -.1 ],
               optmul: [ .23, .28 ],
-              power: [ .12, .16 ],
+              power: [ .16, .16 ],
               thermload: [ -.5, -.6 ]
             },
             uuid: "74e6e223-c709-4c91-88d5-c55f9dfdf722"
@@ -19645,7 +19735,7 @@ module.exports = {
               "Unusual Encrypted Files": 1
             },
             features: {
-              facinglimit: [ -.1, -.01 ],
+              facinglimit: [ -.01, -.01 ],
               mass: [ .1, .1 ],
               power: [ .1, .1 ],
               ranget: [ 0, .2 ]
@@ -20818,7 +20908,7 @@ module.exports = {
             },
             features: {
               power: [ .2, .2 ],
-              angle: [ -.12, -.15 ],
+              angle: [ -.15, -.15 ],
               range: [ .24, .48 ]
             },
             uuid: "c2160767-b03f-491e-9a45-31976fb78899"
@@ -22438,7 +22528,7 @@ module.exports = {
             },
             features: {
               power: [ .2, .2 ],
-              angle: [ -.12, -.15 ],
+              angle: [ -.15, -.15 ],
               range: [ .24, .48 ]
             },
             uuid: "9371ee9f-12a1-4859-9b97-e3c3c87ee0a0"
@@ -22776,7 +22866,7 @@ module.exports = {
             },
             features: {
               mass: [ .2, .2 ],
-              angle: [ 0, -.1 ],
+              angle: [ -.1, -.1 ],
               range: [ 0, .15 ]
             },
             uuid: "92c755ae-690b-442c-bacd-606575987f22"
@@ -22788,7 +22878,7 @@ module.exports = {
             },
             features: {
               mass: [ .4, .4 ],
-              angle: [ -.1, -.15 ],
+              angle: [ -.15, -.15 ],
               range: [ .15, .3 ]
             },
             uuid: "40167259-2960-4072-a135-cba93c87709d"
@@ -22801,7 +22891,7 @@ module.exports = {
             },
             features: {
               mass: [ .6, .6 ],
-              angle: [ -.15, -.2 ],
+              angle: [ -.2, -.2 ],
               range: [ .3, .45 ]
             },
             uuid: "6d422ca1-ebdd-4c87-b2b2-056e36c0cbfb"
@@ -22814,7 +22904,7 @@ module.exports = {
             },
             features: {
               mass: [ .8, .8 ],
-              angle: [ -.2, -.25 ],
+              angle: [ -.25, -.25 ],
               range: [ .45, .6 ]
             },
             uuid: "6b09d91f-919f-4a3a-9900-850b026ab01c"
@@ -22827,7 +22917,7 @@ module.exports = {
             },
             features: {
               mass: [ 1, 1 ],
-              angle: [ -.25, -.3 ],
+              angle: [ -.3, -.3 ],
               range: [ .6, .75 ]
             },
             uuid: "c055cafb-3e8a-4415-8e9b-cfa8be809b75"
@@ -23193,7 +23283,7 @@ module.exports = {
             },
             features: {
               power: [ .2, .2 ],
-              angle: [ -.12, -.15 ],
+              angle: [ -.15, -.15 ],
               range: [ .24, .48 ]
             },
             uuid: "16235231-561b-4efb-a9bc-dcacb18b5651"
@@ -24738,10 +24828,10 @@ module.exports = {
               Nickel: 1
             },
             features: {
-              clip: [ 0, -.03 ],
+              clip: [ -.03, -.03 ],
               damage: [ 0, .3 ],
-              distdraw: [ 0, .15 ],
-              thermload: [ 0, .03 ]
+              distdraw: [ .15, .15 ],
+              thermload: [ .03, .03 ]
             },
             uuid: "e917ebe3-d5f1-4016-b8a9-2c759e16a7d4"
           },
@@ -24751,10 +24841,10 @@ module.exports = {
               Nickel: 1
             },
             features: {
-              clip: [ -.03, -.06 ],
+              clip: [ -.06, -.06 ],
               damage: [ .3, .4 ],
-              distdraw: [ .15, .2 ],
-              thermload: [ .03, .06 ]
+              distdraw: [ .2, .2 ],
+              thermload: [ .06, .06 ]
             },
             uuid: "f5921fc1-fb10-4d2f-8e0a-cd8d8e9e3a84"
           },
@@ -24765,10 +24855,10 @@ module.exports = {
               Nickel: 1
             },
             features: {
-              clip: [ -.06, -.09 ],
+              clip: [ -.09, -.09 ],
               damage: [ .4, .5 ],
-              distdraw: [ .2, .25 ],
-              thermload: [ .06, .09 ]
+              distdraw: [ .25, .25 ],
+              thermload: [ .09, .09 ]
             },
             uuid: "4389883f-c2b3-4487-9b1a-b668a761057a"
           },
@@ -24779,10 +24869,10 @@ module.exports = {
               Zinc: 1
             },
             features: {
-              clip: [ -.09, -.12 ],
+              clip: [ -.12, -.12 ],
               damage: [ .5, .6 ],
-              distdraw: [ .25, .3 ],
-              thermload: [ .09, .12 ]
+              distdraw: [ .3, .3 ],
+              thermload: [ .12, .12 ]
             },
             uuid: "25ec26dd-63b8-4e83-9a6e-86e5b80c4771"
           },
@@ -24793,10 +24883,10 @@ module.exports = {
               Zirconium: 1
             },
             features: {
-              clip: [ -.12, -.15 ],
+              clip: [ -.15, -.15 ],
               damage: [ .6, .7 ],
-              distdraw: [ .3, .35 ],
-              thermload: [ .12, .15 ]
+              distdraw: [ .35, .35 ],
+              thermload: [ .15, .15 ]
             },
             uuid: "4dcf6bdc-bcff-448a-92a0-7612de548db7"
           }
@@ -25063,7 +25153,7 @@ module.exports = {
         name: "burstrof",
         type: "numeric",
         method: "overwrite",
-        higherbetter: false
+        higherbetter: true
       },
       clip: {
         id: 4,
@@ -25273,7 +25363,7 @@ module.exports = {
         name: "rof",
         type: "percentage",
         method: "multiplicative",
-        higherbetter: false
+        higherbetter: true
       },
       angle: {
         id: 46,
