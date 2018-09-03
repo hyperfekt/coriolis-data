@@ -10967,7 +10967,7 @@ module.exports = {
         cost: 1423301,
         mass: 8,
         integrity: 51,
-        power: 1.39,
+        power: 3.1,
         damage: 3.4,
         distdraw: 2.42,
         thermload: 6.2,
