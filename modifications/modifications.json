@@ -15,7 +15,7 @@
     "explres": {"id": 11, "name": "explres", "type": "percentage", "method": "additive", "higherbetter": true},
     "facinglimit": {"id": 12, "name": "facinglimit", "type": "percentage", "method": "multiplicative", "higherbetter": true},
     "falloff": {"id": 45, "name": "falloff", "type": "percentage", "method": "multiplicative", "higherbetter": true},
-    "fallofffromrange": {"id": 42, "name": "fallofffromrange", "type": "numeric", "hidden": true, "method": "overwrite"},
+    "fallofffromrange": {"id": 42, "name": "fallofffromrange", "type": "numeric", "aggregated": true, "method": "overwrite"},
     "hullboost": {"id": 13, "name": "hullboost", "type": "percentage", "method": "multiplicative", "higherbetter": true},
     "hullreinforcement": {"id": 14, "name": "hullreinforcement", "type": "percentage", "method": "multiplicative", "higherbetter": true},
     "integrity": {"id": 15, "name": "integrity", "type": "percentage", "method": "multiplicative", "higherbetter": true},
