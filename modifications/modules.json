@@ -566,7 +566,6 @@
       }
     },
     "modifications": [
-      "boot",
       "brokenregen",
       "distdraw",
       "explres",
@@ -577,7 +576,6 @@
       "optmul",
       "power",
       "regen",
-      "thermload",
       "thermres"
     ],
     "specials": [
@@ -4825,7 +4823,6 @@
       }
     },
     "modifications": [
-      "boot",
       "brokenregen",
       "distdraw",
       "explres",
@@ -4836,7 +4833,6 @@
       "optmul",
       "power",
       "regen",
-      "thermload",
       "thermres"
     ],
     "specials": [
@@ -5421,7 +5417,6 @@
       "kinres",
       "mass",
       "power",
-      "optmul",
       "shieldboost",
       "thermres"
     ],
@@ -5652,7 +5647,6 @@
       }
     },
     "modifications": [
-      "boot",
       "brokenregen",
       "distdraw",
       "explres",
@@ -5663,7 +5657,6 @@
       "optmul",
       "power",
       "regen",
-      "thermload",
       "thermres"
     ],
     "specials": [
