@@ -188,6 +188,7 @@
       }
     },
     "modifications": [
+      "causres",
       "explres",
       "hullboost",
       "kinres",
@@ -2338,6 +2339,7 @@
     },
     "modifications": [
       "hullreinforcement",
+      "causres",
       "explres",
       "hullboost",
       "kinres",
