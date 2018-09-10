@@ -178,6 +178,7 @@
     "ammo": -0.2
   },
   "special_plasma_slug_cooled": {
+    "damage": -0.1,
     "thermload": -0.4
   },
   "special_dispersal_field": {
