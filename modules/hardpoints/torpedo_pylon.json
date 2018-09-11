@@ -59,6 +59,36 @@
       "shotspeed": 250,
       "thermload": 50,
       "symbol": "Hpt_AdvancedTorpPylon_Fixed_Medium"
+    },
+    {
+      "ammo": 4,
+      "breachdmg": 60,
+      "breachmax": 1,
+      "breachmin": 1,
+      "class": 3,
+      "clip": 4,
+      "cost": 157960,
+      "damage": 120,
+      "damagedist": {
+        "E": 1
+      },
+      "distdraw": 0,
+      "edID": 0,
+      "eddbID": 0,
+      "grp": "tp",
+      "id": "yK",
+      "integrity": 64,
+      "mass": 8,
+      "missile": "S",
+      "mount": "F",
+      "piercing": 10000,
+      "power": 0.6,
+      "rating": "I",
+      "reload": 5,
+      "rof": 1,
+      "shotspeed": 250,
+      "thermload": 55,
+      "symbol": "Hpt_AdvancedTorpPylon_Fixed_Large"
     }
   ]
 }

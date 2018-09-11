@@ -190,6 +190,66 @@
       "shotspeed": 600,
       "thermload": 3.6,
       "symbol": "Hpt_DrunkMissileRack_Fixed_Medium"
+    },
+    {
+      "ammo": 96,
+      "breachdmg": 20,
+      "breachmax": 1,
+      "breachmin": 1,
+      "class": 3,
+      "clip": 12,
+      "cost": 1021501,
+      "damage": 50,
+      "damagedist": {
+        "E": 1
+      },
+      "distdraw": 0.24,
+      "edID": 0,
+      "eddbID": 0,
+      "grp": "mr",
+      "id": "yI",
+      "integrity": 64,
+      "mass": 8,
+      "missile": "D",
+      "mount": "F",
+      "piercing": 60,
+      "power": 1.62,
+      "rating": "A",
+      "reload": 5,
+      "rof": 0.5,
+      "shotspeed": 750,
+      "thermload": 3.6,
+      "symbol": "Hpt_DumbfireMissileRack_Fixed_Large"
+    },
+    {
+      "ammo": 36,
+      "breachdmg": 16,
+      "breachmax": 0,
+      "breachmin": 0,
+      "class": 3,
+      "clip": 6,
+      "cost": 1471030,
+      "damage": 40,
+      "damagedist": {
+        "E": 1
+      },
+      "distdraw": 0.24,
+      "edID": 0,
+      "eddbID": 0,
+      "grp": "mr",
+      "id": "yJ",
+      "integrity": 64,
+      "mass": 8,
+      "missile": "S",
+      "mount": "F",
+      "piercing": 60,
+      "power": 1.62,
+      "rating": "A",
+      "reload": 12,
+      "rof": 0.333,
+      "shotspeed": 625,
+      "thermload": 3.6,
+      "symbol": "Hpt_BasicMissileRack_Fixed_Large"
     }
   ]
 }
