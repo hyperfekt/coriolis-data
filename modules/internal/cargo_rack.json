@@ -9,6 +9,7 @@
       "grp": "cr",
       "id": "00",
       "rating": "E",
+      "mass": 0,
       "symbol": "Int_CargoRack_Size1_Class1"
     },
     {
@@ -20,6 +21,7 @@
       "grp": "cr",
       "id": "01",
       "rating": "E",
+      "mass": 0,
       "symbol": "Int_CargoRack_Size2_Class1"
     },
     {
@@ -31,6 +33,7 @@
       "grp": "cr",
       "id": "02",
       "rating": "E",
+      "mass": 0,
       "symbol": "Int_CargoRack_Size3_Class1"
     },
     {
@@ -42,6 +45,7 @@
       "grp": "cr",
       "id": "03",
       "rating": "E",
+      "mass": 0,
       "symbol": "Int_CargoRack_Size4_Class1"
     },
     {
@@ -53,6 +57,7 @@
       "grp": "cr",
       "id": "04",
       "rating": "E",
+      "mass": 0,
       "symbol": "Int_CargoRack_Size5_Class1"
     },
     {
@@ -64,6 +69,7 @@
       "grp": "cr",
       "id": "05",
       "rating": "E",
+      "mass": 0,
       "symbol": "Int_CargoRack_Size6_Class1"
     },
     {
@@ -75,6 +81,7 @@
       "grp": "cr",
       "id": "06",
       "rating": "E",
+      "mass": 0,
       "symbol": "Int_CargoRack_Size7_Class1"
     },
     {
@@ -86,6 +93,7 @@
       "grp": "cr",
       "id": "07",
       "rating": "E",
+      "mass": 0,
       "symbol": "Int_CargoRack_Size8_Class1"
     },
     {
@@ -98,6 +106,7 @@
       "id": "1w",
       "name": "Corrosion Resistant",
       "rating": "E",
+      "mass": 0,
       "symbol": "Int_CorrosionProofCargoRack_Size1_Class1"
     },
     {
@@ -110,6 +119,7 @@
       "id": "1y",
       "name": "Corrosion Resistant",
       "rating": "F",
+      "mass": 0,
       "symbol": "Int_CorrosionProofCargoRack_Size1_Class2"
     },
     {
@@ -122,6 +132,7 @@
       "id": "0V",
       "name": "Corrosion Resistant",
       "rating": "F",
+      "mass": 0,
       "symbol": "Int_CorrosionProofCargoRack_Size2_Class1"
     },
     {
@@ -134,6 +145,7 @@
       "id": "0W",
       "name": "Corrosion Resistant",
       "rating": "E",
+      "mass": 0,
       "symbol": "Int_CorrosionProofCargoRack_Size4_Class1"
     }
   ]
