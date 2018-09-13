@@ -13,6 +13,9 @@
       "power": 0.2,
       "rating": "E",
       "shieldboost": 0.04,
+      "explres": 0,
+      "kinres": 0,
+      "thermres": 0,
       "symbol": "Hpt_ShieldBooster_Size0_Class1"
     },
     {
@@ -28,6 +31,9 @@
       "power": 0.5,
       "rating": "D",
       "shieldboost": 0.08,
+      "explres": 0,
+      "kinres": 0,
+      "thermres": 0,
       "symbol": "Hpt_ShieldBooster_Size0_Class2"
     },
     {
@@ -43,6 +49,9 @@
       "power": 0.7,
       "rating": "C",
       "shieldboost": 0.12,
+      "explres": 0,
+      "kinres": 0,
+      "thermres": 0,
       "symbol": "Hpt_ShieldBooster_Size0_Class3"
     },
     {
@@ -58,6 +67,9 @@
       "power": 1,
       "rating": "B",
       "shieldboost": 0.16,
+      "explres": 0,
+      "kinres": 0,
+      "thermres": 0,
       "symbol": "Hpt_ShieldBooster_Size0_Class4"
     },
     {
@@ -73,6 +85,9 @@
       "power": 1.2,
       "rating": "A",
       "shieldboost": 0.2,
+      "explres": 0,
+      "kinres": 0,
+      "thermres": 0,
       "symbol": "Hpt_ShieldBooster_Size0_Class5"
     }
   ]
