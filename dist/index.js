@@ -179,6 +179,7 @@ module.exports = {
           class: 4,
           name: "Military",
           eligible: {
+            mahr: 1,
             hr: 1,
             scb: 1,
             mrp: 1,
@@ -190,6 +191,7 @@ module.exports = {
           class: 4,
           name: "Military",
           eligible: {
+            mahr: 1,
             hr: 1,
             scb: 1,
             mrp: 1,
@@ -201,6 +203,7 @@ module.exports = {
           class: 4,
           name: "Military",
           eligible: {
+            mahr: 1,
             hr: 1,
             scb: 1,
             mrp: 1,
@@ -305,6 +308,7 @@ module.exports = {
           class: 4,
           name: "Military",
           eligible: {
+            mahr: 1,
             hr: 1,
             scb: 1,
             mrp: 1,
@@ -316,6 +320,7 @@ module.exports = {
           class: 4,
           name: "Military",
           eligible: {
+            mahr: 1,
             hr: 1,
             scb: 1,
             mrp: 1,
@@ -327,6 +332,7 @@ module.exports = {
           class: 4,
           name: "Military",
           eligible: {
+            mahr: 1,
             hr: 1,
             scb: 1,
             mrp: 1,
@@ -432,6 +438,7 @@ module.exports = {
           class: 4,
           name: "Military",
           eligible: {
+            mahr: 1,
             hr: 1,
             scb: 1,
             mrp: 1,
@@ -443,6 +450,7 @@ module.exports = {
           class: 4,
           name: "Military",
           eligible: {
+            mahr: 1,
             hr: 1,
             scb: 1,
             mrp: 1,
@@ -454,6 +462,7 @@ module.exports = {
           class: 4,
           name: "Military",
           eligible: {
+            mahr: 1,
             hr: 1,
             scb: 1,
             mrp: 1,
@@ -556,6 +565,7 @@ module.exports = {
           class: 5,
           name: "Military",
           eligible: {
+            mahr: 1,
             hr: 1,
             scb: 1,
             mrp: 1,
@@ -1444,6 +1454,7 @@ module.exports = {
           class: 2,
           name: "Military",
           eligible: {
+            mahr: 1,
             hr: 1,
             scb: 1,
             mrp: 1,
@@ -1548,6 +1559,7 @@ module.exports = {
           class: 4,
           name: "Military",
           eligible: {
+            mahr: 1,
             hr: 1,
             scb: 1,
             mrp: 1,
@@ -1559,6 +1571,7 @@ module.exports = {
           class: 4,
           name: "Military",
           eligible: {
+            mahr: 1,
             hr: 1,
             scb: 1,
             mrp: 1,
@@ -1664,6 +1677,7 @@ module.exports = {
           class: 5,
           name: "Military",
           eligible: {
+            mahr: 1,
             hr: 1,
             scb: 1,
             mrp: 1,
@@ -1675,6 +1689,7 @@ module.exports = {
           class: 5,
           name: "Military",
           eligible: {
+            mahr: 1,
             hr: 1,
             scb: 1,
             mrp: 1,
@@ -1779,6 +1794,7 @@ module.exports = {
           class: 4,
           name: "Military",
           eligible: {
+            mahr: 1,
             hr: 1,
             scb: 1,
             mrp: 1,
@@ -1790,6 +1806,7 @@ module.exports = {
           class: 4,
           name: "Military",
           eligible: {
+            mahr: 1,
             hr: 1,
             scb: 1,
             mrp: 1,
@@ -1895,6 +1912,7 @@ module.exports = {
           class: 4,
           name: "Military",
           eligible: {
+            mahr: 1,
             hr: 1,
             scb: 1,
             mrp: 1,
@@ -1906,6 +1924,7 @@ module.exports = {
           class: 4,
           name: "Military",
           eligible: {
+            mahr: 1,
             hr: 1,
             scb: 1,
             mrp: 1,
@@ -1917,6 +1936,7 @@ module.exports = {
           class: 4,
           name: "Military",
           eligible: {
+            mahr: 1,
             hr: 1,
             scb: 1,
             mrp: 1,
@@ -2388,6 +2408,7 @@ module.exports = {
           class: 5,
           name: "Military",
           eligible: {
+            mahr: 1,
             hr: 1,
             scb: 1,
             mrp: 1,
@@ -2399,6 +2420,7 @@ module.exports = {
           class: 5,
           name: "Military",
           eligible: {
+            mahr: 1,
             hr: 1,
             scb: 1,
             mrp: 1,
@@ -2500,6 +2522,7 @@ module.exports = {
           class: 2,
           name: "Military",
           eligible: {
+            mahr: 1,
             hr: 1,
             scb: 1,
             mrp: 1,
@@ -3348,6 +3371,7 @@ module.exports = {
           class: 5,
           name: "Military",
           eligible: {
+            mahr: 1,
             hr: 1,
             scb: 1,
             mrp: 1,
@@ -3460,6 +3484,7 @@ module.exports = {
           class: 3,
           name: "Military",
           eligible: {
+            mahr: 1,
             hr: 1,
             scb: 1,
             mrp: 1,
@@ -3561,6 +3586,7 @@ module.exports = {
           class: 3,
           name: "Military",
           eligible: {
+            mahr: 1,
             hr: 1,
             scb: 1,
             mrp: 1,
@@ -3662,6 +3688,7 @@ module.exports = {
           class: 5,
           name: "Military",
           eligible: {
+            mahr: 1,
             hr: 1,
             scb: 1,
             mrp: 1,
