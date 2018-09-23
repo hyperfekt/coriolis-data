@@ -38,8 +38,8 @@
       "hardpoints": [4, 4, 3, 2, 2, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0],
       "internal": [
         7, 7, 7, 6, 6, 5, 5,
-        { "class": 5, "name": "Military", "eligible": { "hr": 1, "scb": 1, "mrp": 1, "gsrp": 1, "gmrp": 1, "ghrp": 1 } },
-        { "class": 5, "name": "Military", "eligible": { "hr": 1, "scb": 1, "mrp": 1, "gsrp": 1, "gmrp": 1, "ghrp": 1 } },
+        { "class": 5, "name": "Military", "eligible": { "mahr":1, "hr": 1, "scb": 1, "mrp": 1, "gsrp": 1, "gmrp": 1, "ghrp": 1 } },
+        { "class": 5, "name": "Military", "eligible": { "mahr":1, "hr": 1, "scb": 1, "mrp": 1, "gsrp": 1, "gmrp": 1, "ghrp": 1 } },
         4, 4, 3
       ]
     },
