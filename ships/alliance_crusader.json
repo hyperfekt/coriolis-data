@@ -27,11 +27,11 @@
       "horizons": true
     },
     "bulkheads": [
-      { "id": "CI", "edID": 128816583, "eddbID": 1640, "grp": "bh", "cost": 0, "mass": 0, "explres": -0.4, "kinres": -0.2, "thermres": 0, "hullboost": 0.8 },
-      { "id": "CJ", "edID": 128816584, "eddbID": 1641, "grp": "bh", "cost": 6803170, "mass": 40, "explres": -0.4, "kinres": -0.2, "thermres": 0, "hullboost": 1.52 },
-      { "id": "CK", "edID": 128816585, "eddbID": 1642, "grp": "bh", "cost": 15307134, "mass": 78, "explres": -0.4, "kinres": -0.2, "thermres": 0, "hullboost": 2.5 },
-      { "id": "CL", "edID": 128816586, "eddbID": 1643, "grp": "bh", "cost": 36175859, "mass": 78, "explres": -0.5, "kinres": -0.75, "thermres": 0.5, "hullboost": 2.5  },
-      { "id": "CM", "edID": 128816587, "eddbID": 1644, "grp": "bh", "cost": 40087682, "mass": 78, "explres": 0.2, "kinres": 0.25, "thermres": -0.4, "hullboost": 2.5 }
+      { "id": "CI", "edID": 128816583, "eddbID": 1640, "grp": "bh", "cost": 0, "mass": 0, "causres": 0, "explres": -0.4, "kinres": -0.2, "thermres": 0, "hullboost": 0.8 },
+      { "id": "CJ", "edID": 128816584, "eddbID": 1641, "grp": "bh", "cost": 6803170, "mass": 40, "causres": 0, "explres": -0.4, "kinres": -0.2, "thermres": 0, "hullboost": 1.52 },
+      { "id": "CK", "edID": 128816585, "eddbID": 1642, "grp": "bh", "cost": 15307134, "mass": 78, "causres": 0, "explres": -0.4, "kinres": -0.2, "thermres": 0, "hullboost": 2.5 },
+      { "id": "CL", "edID": 128816586, "eddbID": 1643, "grp": "bh", "cost": 36175859, "mass": 78, "causres": 0, "explres": -0.5, "kinres": -0.75, "thermres": 0.5, "hullboost": 2.5  },
+      { "id": "CM", "edID": 128816587, "eddbID": 1644, "grp": "bh", "cost": 40087682, "mass": 78, "causres": 0, "explres": 0.2, "kinres": 0.25, "thermres": -0.4, "hullboost": 2.5 }
     ],
     "slots": {
       "standard": [6, 6, 5, 5, 6, 4, 4],

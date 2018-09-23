@@ -188,6 +188,7 @@
       }
     },
     "modifications": [
+      "causres",
       "explres",
       "hullboost",
       "kinres",
@@ -566,7 +567,6 @@
       }
     },
     "modifications": [
-      "boot",
       "brokenregen",
       "distdraw",
       "explres",
@@ -577,7 +577,6 @@
       "optmul",
       "power",
       "regen",
-      "thermload",
       "thermres"
     ],
     "specials": [
@@ -2340,8 +2339,8 @@
     },
     "modifications": [
       "hullreinforcement",
+      "causres",
       "explres",
-      "hullboost",
       "kinres",
       "mass",
       "thermres"
@@ -4825,7 +4824,6 @@
       }
     },
     "modifications": [
-      "boot",
       "brokenregen",
       "distdraw",
       "explres",
@@ -4836,7 +4834,6 @@
       "optmul",
       "power",
       "regen",
-      "thermload",
       "thermres"
     ],
     "specials": [
@@ -5421,7 +5418,6 @@
       "kinres",
       "mass",
       "power",
-      "optmul",
       "shieldboost",
       "thermres"
     ],
@@ -5652,7 +5648,6 @@
       }
     },
     "modifications": [
-      "boot",
       "brokenregen",
       "distdraw",
       "explres",
@@ -5663,7 +5658,6 @@
       "optmul",
       "power",
       "regen",
-      "thermload",
       "thermres"
     ],
     "specials": [
