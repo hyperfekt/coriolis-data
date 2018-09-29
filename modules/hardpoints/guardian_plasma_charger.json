@@ -74,7 +74,7 @@
       "damagedist": {
         "A": 1
       },
-      "distdraw": 13.6,
+      "distdraw": 1.25,
       "edID": 128833998,
       "eddbID": 874,
       "falloff": 1000,
@@ -105,7 +105,7 @@
       "damagedist": {
         "A": 1
       },
-      "distdraw": 13.6,
+      "distdraw": 1.4,
       "edID": 128833999,
       "eddbID": 874,
       "falloff": 1000,

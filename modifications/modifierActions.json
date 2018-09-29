@@ -249,9 +249,7 @@
     "reload": 0.5
   },
   "special_thermal_cascade": {},
-  "special_thermal_conduit": {
-    "damage": -0.2
-  },
+  "special_thermal_conduit": {},
   "special_thermal_vent": {},
   "special_thermalshock": {
     "damage": -0.2
@@ -398,7 +396,7 @@
   },
   "special_weapon_rateoffire": {
     "power": 0.05,
-    "rof": -0.03
+    "rof": 0.03
   },
   "special_weapon_efficient": {
     "power": -0.1
