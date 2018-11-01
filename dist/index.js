@@ -237,7 +237,7 @@ module.exports = {
         manufacturer: "Lakon",
         class: 2,
         hullCost: 28041035,
-        speed: 130,
+        speed: 204,
         boost: 310,
         boostEnergy: 19,
         baseShieldStrength: 220,
@@ -888,51 +888,7 @@ module.exports = {
       slots: {
         standard: [ 6, 7, 7, 8, 6, 5, 7 ],
         hardpoints: [ 2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0 ],
-        internal: [ 6, 6, {
-          class: 6,
-          name: "Passenger",
-          eligible: {
-            cr: 1,
-            hr: 1,
-            pce: 1,
-            pci: 1,
-            pcm: 1,
-            pcq: 1
-          }
-        }, {
-          class: 6,
-          name: "Passenger",
-          eligible: {
-            cr: 1,
-            hr: 1,
-            pce: 1,
-            pci: 1,
-            pcm: 1,
-            pcq: 1
-          }
-        }, {
-          class: 5,
-          name: "Passenger",
-          eligible: {
-            cr: 1,
-            hr: 1,
-            pce: 1,
-            pci: 1,
-            pcm: 1,
-            pcq: 1
-          }
-        }, {
-          class: 5,
-          name: "Passenger",
-          eligible: {
-            cr: 1,
-            hr: 1,
-            pce: 1,
-            pci: 1,
-            pcm: 1,
-            pcq: 1
-          }
-        }, 4, 3, 3, 3, 3 ]
+        internal: [ 6, 6, 5, 5, 4, 3, 3, 3, 3 ]
       },
       defaults: {
         standard: [ "6E", "7E", "7E", "8E", "6E", "5E", "7C" ],
@@ -1414,18 +1370,7 @@ module.exports = {
       slots: {
         standard: [ 4, 5, 4, 4, 3, 3, 4 ],
         hardpoints: [ 1, 1, 0, 0, 0 ],
-        internal: [ {
-          class: 5,
-          name: "Passenger",
-          eligible: {
-            cr: 1,
-            hr: 1,
-            pce: 1,
-            pci: 1,
-            pcm: 1,
-            pcq: 1
-          }
-        }, 4, 4, 3, 2, 2, 2 ]
+        internal: [ 5, 4, 4, 3, 2, 2, 2 ]
       },
       defaults: {
         standard: [ "4E", "5E", "4E", "4E", "3E", "3E", "4C" ],
@@ -2938,29 +2883,7 @@ module.exports = {
       slots: {
         standard: [ 5, 6, 5, 6, 5, 4, 5 ],
         hardpoints: [ 3, 2, 2, 0, 0, 0, 0 ],
-        internal: [ {
-          class: 6,
-          name: "Passenger",
-          eligible: {
-            cr: 1,
-            hr: 1,
-            pce: 1,
-            pci: 1,
-            pcm: 1,
-            pcq: 1
-          }
-        }, {
-          class: 5,
-          name: "Passenger",
-          eligible: {
-            cr: 1,
-            hr: 1,
-            pce: 1,
-            pci: 1,
-            pcm: 1,
-            pcq: 1
-          }
-        }, 5, 5, 4, 3, 2, 2 ]
+        internal: [ 6, 5, 5, 5, 4, 3, 2, 2 ]
       },
       defaults: {
         standard: [ "5E", "6E", "5E", "6E", "5E", "4E", "5C" ],
@@ -3485,7 +3408,7 @@ module.exports = {
         edID: 128785622,
         eddbID: 1628,
         grp: "bh",
-        cost: 30622340,
+        cost: 49902137,
         mass: 75,
         causres: 0,
         explres: -.4,
@@ -3497,7 +3420,7 @@ module.exports = {
         edID: 128785623,
         eddbID: 1629,
         grp: "bh",
-        cost: 68900260,
+        cost: 112279807,
         mass: 150,
         causres: 0,
         explres: -.4,
@@ -3509,7 +3432,7 @@ module.exports = {
         edID: 128785624,
         eddbID: 1630,
         grp: "bh",
-        cost: 162834280,
+        cost: 265354612,
         mass: 150,
         causres: 0,
         explres: -.5,
@@ -3521,7 +3444,7 @@ module.exports = {
         edID: 128785625,
         eddbID: 1631,
         grp: "bh",
-        cost: 180442120,
+        cost: 294048342,
         mass: 150,
         causres: 0,
         explres: .2,
@@ -10179,8 +10102,8 @@ module.exports = {
       mr: [ {
         ammo: 16,
         breachdmg: 20,
-        breachmax: 0,
-        breachmin: 0,
+        breachmax: 1,
+        breachmin: 1,
         class: 1,
         clip: 8,
         cost: 32180,
@@ -10237,8 +10160,8 @@ module.exports = {
       }, {
         ammo: 48,
         breachdmg: 20,
-        breachmax: 0,
-        breachmin: 0,
+        breachmax: 1,
+        breachmin: 1,
         class: 2,
         clip: 12,
         cost: 240400,
@@ -10299,8 +10222,8 @@ module.exports = {
       }, {
         ammo: 48,
         breachdmg: 16,
-        breachmax: 0,
-        breachmin: 0,
+        breachmax: 1,
+        breachmin: 1,
         class: 2,
         clip: 12,
         cost: 1951040,
@@ -11315,7 +11238,7 @@ module.exports = {
         damagedist: {
           A: 1
         },
-        distdraw: 13.6,
+        distdraw: 1.25,
         edID: 128833998,
         eddbID: 874,
         falloff: 1e3,
@@ -11345,7 +11268,7 @@ module.exports = {
         damagedist: {
           A: 1
         },
-        distdraw: 13.6,
+        distdraw: 1.4,
         edID: 128833999,
         eddbID: 874,
         falloff: 1e3,
@@ -25530,6 +25453,76 @@ module.exports = {
         modulename: [ "Weapon" ],
         name: "Overcharged"
       },
+      PA_Overcharged: {
+        fdname: "Weapon_Overcharged",
+        grades: {
+          "1": {
+            components: {
+              Nickel: 1
+            },
+            features: {
+              damage: [ 0, .3 ],
+              distdraw: [ .15, .15 ],
+              thermload: [ .03, .03 ]
+            },
+            uuid: "e917ebe3-d5f1-4016-b8a9-2c759e16a7d4"
+          },
+          "2": {
+            components: {
+              "Conductive Components": 1,
+              Nickel: 1
+            },
+            features: {
+              damage: [ .3, .4 ],
+              distdraw: [ .2, .2 ],
+              thermload: [ .06, .06 ]
+            },
+            uuid: "f5921fc1-fb10-4d2f-8e0a-cd8d8e9e3a84"
+          },
+          "3": {
+            components: {
+              "Conductive Components": 1,
+              "Electrochemical Arrays": 1,
+              Nickel: 1
+            },
+            features: {
+              damage: [ .4, .5 ],
+              distdraw: [ .25, .25 ],
+              thermload: [ .09, .09 ]
+            },
+            uuid: "4389883f-c2b3-4487-9b1a-b668a761057a"
+          },
+          "4": {
+            components: {
+              "Conductive Ceramics": 1,
+              "Polymer Capacitors": 1,
+              Zinc: 1
+            },
+            features: {
+              damage: [ .5, .6 ],
+              distdraw: [ .3, .3 ],
+              thermload: [ .12, .12 ]
+            },
+            uuid: "25ec26dd-63b8-4e83-9a6e-86e5b80c4771"
+          },
+          "5": {
+            components: {
+              "Conductive Polymers": 1,
+              "Modified Embedded Firmware": 1,
+              Zirconium: 1
+            },
+            features: {
+              damage: [ .6, .7 ],
+              distdraw: [ .35, .35 ],
+              thermload: [ .15, .15 ]
+            },
+            uuid: "4dcf6bdc-bcff-448a-92a0-7612de548db7"
+          }
+        },
+        id: 103,
+        modulename: [ "Weapon" ],
+        name: "Overcharged"
+      },
       Weapon_RapidFire: {
         fdname: "Weapon_RapidFire",
         grades: {
@@ -26369,9 +26362,7 @@ module.exports = {
         reload: .5
       },
       special_thermal_cascade: {},
-      special_thermal_conduit: {
-        damage: -.2
-      },
+      special_thermal_conduit: {},
       special_thermal_vent: {},
       special_thermalshock: {
         damage: -.2
@@ -26515,7 +26506,7 @@ module.exports = {
       },
       special_weapon_rateoffire: {
         power: .05,
-        rof: -.03
+        rof: .03
       },
       special_weapon_efficient: {
         power: -.1
@@ -28664,7 +28655,7 @@ module.exports = {
               }
             }
           },
-          Weapon_Overcharged: {
+          PA_Overcharged: {
             grades: {
               "1": {
                 engineers: [ "Bill Turner", "Zacariah Nemo" ]

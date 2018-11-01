@@ -37,8 +37,7 @@
       "standard": [4, 5, 4, 4, 3, 3, 4],
       "hardpoints": [1, 1, 0, 0, 0],
       "internal": [
-        { "class": 5, "name": "Passenger", "eligible": { "cr": 1, "hr": 1, "pce": 1, "pci": 1, "pcm": 1, "pcq": 1 } },
-        4, 4, 3, 2, 2, 2
+        5, 4, 4, 3, 2, 2, 2
       ]
     },
     "defaults": {
