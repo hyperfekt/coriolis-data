@@ -16,7 +16,8 @@
     "jasmine": "jasmine-node spec",
     "jasmine-no-stack": "jasmine-node --noStack spec",
     "test": "npm run lint && npm run jasmine-no-stack",
-    "start": "node generate_distribution.js"
+    "start": "node generate_distribution.js",
+    "build": "node generate_distribution.js"
   },
   "devDependencies": {
     "eslint": "^2.2.0",

@@ -367,7 +367,7 @@
 				{
 					"id": "0K",
 					"edID": 128816590,
-					"eddbID": 1640,
+					"eddbID": 1650,
 					"grp": "bh",
 					"cost": 0,
 					"mass": 0,
@@ -380,7 +380,7 @@
 				{
 					"id": "0P",
 					"edID": 128816591,
-					"eddbID": 1641,
+					"eddbID": 1651,
 					"grp": "bh",
 					"cost": 6803170,
 					"mass": 40,
@@ -393,7 +393,7 @@
 				{
 					"id": "0Q",
 					"edID": 128816592,
-					"eddbID": 1642,
+					"eddbID": 1652,
 					"grp": "bh",
 					"cost": 15307134,
 					"mass": 78,
@@ -406,7 +406,7 @@
 				{
 					"id": "0R",
 					"edID": 128816593,
-					"eddbID": 1643,
+					"eddbID": 1653,
 					"grp": "bh",
 					"cost": 36175859,
 					"mass": 78,
@@ -419,7 +419,7 @@
 				{
 					"id": "0S",
 					"edID": 128816594,
-					"eddbID": 1644,
+					"eddbID": 1654,
 					"grp": "bh",
 					"cost": 40087682,
 					"mass": 78,
@@ -538,7 +538,7 @@
 		},
 		"alliance_crusader": {
 			"edID": 128816581,
-			"eddbID": 0,
+			"eddbID": 36,
 			"properties": {
 				"name": "Alliance Crusader",
 				"manufacturer": "Lakon",
@@ -567,7 +567,7 @@
 				{
 					"id": "CI",
 					"edID": 128816583,
-					"eddbID": 1640,
+					"eddbID": 1659,
 					"grp": "bh",
 					"cost": 0,
 					"mass": 0,
@@ -580,7 +580,7 @@
 				{
 					"id": "CJ",
 					"edID": 128816584,
-					"eddbID": 1641,
+					"eddbID": 1660,
 					"grp": "bh",
 					"cost": 6803170,
 					"mass": 40,
@@ -593,7 +593,7 @@
 				{
 					"id": "CK",
 					"edID": 128816585,
-					"eddbID": 1642,
+					"eddbID": 1661,
 					"grp": "bh",
 					"cost": 15307134,
 					"mass": 78,
@@ -606,7 +606,7 @@
 				{
 					"id": "CL",
 					"edID": 128816586,
-					"eddbID": 1643,
+					"eddbID": 1662,
 					"grp": "bh",
 					"cost": 36175859,
 					"mass": 78,
@@ -619,7 +619,7 @@
 				{
 					"id": "CM",
 					"edID": 128816587,
-					"eddbID": 1644,
+					"eddbID": 1663,
 					"grp": "bh",
 					"cost": 40087682,
 					"mass": 78,
@@ -4169,9 +4169,9 @@
 			"retailCost": 45814205,
 			"bulkheads": [
 				{
-					"id": "bO",
+					"id": "2T",
 					"edID": 128816569,
-					"eddbID": 808,
+					"eddbID": 1645,
 					"grp": "bh",
 					"cost": 0,
 					"mass": 0,
@@ -4182,9 +4182,9 @@
 					"hullboost": 0.8
 				},
 				{
-					"id": "bP",
+					"id": "2U",
 					"edID": 128816570,
-					"eddbID": 809,
+					"eddbID": 1646,
 					"grp": "bh",
 					"cost": 22791270,
 					"mass": 36,
@@ -4195,9 +4195,9 @@
 					"hullboost": 1.52
 				},
 				{
-					"id": "bQ",
+					"id": "2V",
 					"edID": 128816571,
-					"eddbID": 810,
+					"eddbID": 1647,
 					"grp": "bh",
 					"cost": 51280360,
 					"mass": 67,
@@ -4208,9 +4208,9 @@
 					"hullboost": 2.5
 				},
 				{
-					"id": "bR",
+					"id": "2W",
 					"edID": 128816572,
-					"eddbID": 811,
+					"eddbID": 1648,
 					"grp": "bh",
 					"cost": 121192590,
 					"mass": 67,
@@ -4221,9 +4221,9 @@
 					"hullboost": 2.5
 				},
 				{
-					"id": "bS",
+					"id": "2X",
 					"edID": 128816573,
-					"eddbID": 812,
+					"eddbID": 1649,
 					"grp": "bh",
 					"cost": 134297570,
 					"mass": 67,
@@ -11332,8 +11332,8 @@
 						"K": 1
 					},
 					"distdraw": 0.16,
-					"edID": 0,
-					"eddbID": 0,
+					"edID": 128049464,
+					"eddbID": 1658,
 					"falloff": 2000,
 					"grp": "mc",
 					"id": "yH",
@@ -12726,7 +12726,7 @@
 					},
 					"distdraw": 0.24,
 					"edID": 0,
-					"eddbID": 0,
+					"eddbID": 1657,
 					"grp": "mr",
 					"id": "yI",
 					"integrity": 64,
@@ -12755,8 +12755,8 @@
 						"E": 1
 					},
 					"distdraw": 0.24,
-					"edID": 0,
-					"eddbID": 0,
+					"edID": 128049494,
+					"eddbID": 1656,
 					"grp": "mr",
 					"id": "yJ",
 					"integrity": 64,
@@ -12973,8 +12973,8 @@
 						"E": 1
 					},
 					"distdraw": 0,
-					"edID": 0,
-					"eddbID": 0,
+					"edID": 128049511,
+					"eddbID": 1655,
 					"grp": "tp",
 					"id": "yK",
 					"integrity": 64,
@@ -15760,7 +15760,7 @@
 					"class": 1,
 					"cost": 3600,
 					"edID": 128793941,
-					"eddbID": 0,
+					"eddbID": 1632,
 					"grp": "dtl",
 					"id": "y1",
 					"mass": 1.3,
@@ -15774,7 +15774,7 @@
 					"class": 3,
 					"cost": 16201,
 					"edID": 128793942,
-					"eddbID": 0,
+					"eddbID": 1633,
 					"grp": "dtl",
 					"id": "y2",
 					"mass": 2,
@@ -15788,7 +15788,7 @@
 					"class": 5,
 					"cost": 145801,
 					"edID": 128793943,
-					"eddbID": 0,
+					"eddbID": 1634,
 					"grp": "dtl",
 					"id": "y3",
 					"mass": 20,
@@ -15802,7 +15802,7 @@
 					"class": 7,
 					"cost": 1312201,
 					"edID": 128793944,
-					"eddbID": 0,
+					"eddbID": 1635,
 					"grp": "dtl",
 					"id": "y4",
 					"mass": 128,

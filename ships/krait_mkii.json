@@ -24,11 +24,11 @@
     },
     "retailCost": 45814205,
     "bulkheads": [
-      { "id": "bO", "edID": 128816569, "eddbID": 808, "grp": "bh", "cost": 0, "mass": 0, "causres": 0, "explres": -0.4, "kinres": -0.2, "thermres": 0, "hullboost": 0.8 },
-      { "id": "bP", "edID": 128816570, "eddbID": 809, "grp": "bh", "cost": 22791270, "mass": 36, "causres": 0, "explres": -0.4, "kinres": -0.2, "thermres": 0, "hullboost": 1.52 },
-      { "id": "bQ", "edID": 128816571, "eddbID": 810, "grp": "bh", "cost": 51280360, "mass": 67, "causres": 0, "explres": -0.4, "kinres": -0.2, "thermres": 0, "hullboost": 2.5 },
-      { "id": "bR", "edID": 128816572, "eddbID": 811, "grp": "bh", "cost": 121192590, "mass": 67, "causres": 0, "explres": -0.5, "kinres": -0.75, "thermres": 0.5, "hullboost": 2.5  },
-      { "id": "bS", "edID": 128816573, "eddbID": 812, "grp": "bh", "cost": 134297570, "mass": 67, "causres": 0, "explres": 0.2, "kinres": 0.25, "thermres": -0.4, "hullboost": 2.5 }
+      { "id": "2T", "edID": 128816569, "eddbID": 1645, "grp": "bh", "cost": 0, "mass": 0, "causres": 0, "explres": -0.4, "kinres": -0.2, "thermres": 0, "hullboost": 0.8 },
+      { "id": "2U", "edID": 128816570, "eddbID": 1646, "grp": "bh", "cost": 22791270, "mass": 36, "causres": 0, "explres": -0.4, "kinres": -0.2, "thermres": 0, "hullboost": 1.52 },
+      { "id": "2V", "edID": 128816571, "eddbID": 1647, "grp": "bh", "cost": 51280360, "mass": 67, "causres": 0, "explres": -0.4, "kinres": -0.2, "thermres": 0, "hullboost": 2.5 },
+      { "id": "2W", "edID": 128816572, "eddbID": 1648, "grp": "bh", "cost": 121192590, "mass": 67, "causres": 0, "explres": -0.5, "kinres": -0.75, "thermres": 0.5, "hullboost": 2.5  },
+      { "id": "2X", "edID": 128816573, "eddbID": 1649, "grp": "bh", "cost": 134297570, "mass": 67, "causres": 0, "explres": 0.2, "kinres": 0.25, "thermres": -0.4, "hullboost": 2.5 }
     ],
     "slots": {
       "standard": [7, 6, 5, 4, 7, 6, 5],

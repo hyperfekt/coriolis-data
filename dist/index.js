@@ -258,7 +258,7 @@ module.exports = {
       bulkheads: [ {
         id: "0K",
         edID: 128816590,
-        eddbID: 1640,
+        eddbID: 1650,
         grp: "bh",
         cost: 0,
         mass: 0,
@@ -270,7 +270,7 @@ module.exports = {
       }, {
         id: "0P",
         edID: 128816591,
-        eddbID: 1641,
+        eddbID: 1651,
         grp: "bh",
         cost: 6803170,
         mass: 40,
@@ -282,7 +282,7 @@ module.exports = {
       }, {
         id: "0Q",
         edID: 128816592,
-        eddbID: 1642,
+        eddbID: 1652,
         grp: "bh",
         cost: 15307134,
         mass: 78,
@@ -294,7 +294,7 @@ module.exports = {
       }, {
         id: "0R",
         edID: 128816593,
-        eddbID: 1643,
+        eddbID: 1653,
         grp: "bh",
         cost: 36175859,
         mass: 78,
@@ -306,7 +306,7 @@ module.exports = {
       }, {
         id: "0S",
         edID: 128816594,
-        eddbID: 1644,
+        eddbID: 1654,
         grp: "bh",
         cost: 40087682,
         mass: 78,
@@ -365,7 +365,7 @@ module.exports = {
     },
     alliance_crusader: {
       edID: 128816581,
-      eddbID: 0,
+      eddbID: 36,
       properties: {
         name: "Alliance Crusader",
         manufacturer: "Lakon",
@@ -393,7 +393,7 @@ module.exports = {
       bulkheads: [ {
         id: "CI",
         edID: 128816583,
-        eddbID: 1640,
+        eddbID: 1659,
         grp: "bh",
         cost: 0,
         mass: 0,
@@ -405,7 +405,7 @@ module.exports = {
       }, {
         id: "CJ",
         edID: 128816584,
-        eddbID: 1641,
+        eddbID: 1660,
         grp: "bh",
         cost: 6803170,
         mass: 40,
@@ -417,7 +417,7 @@ module.exports = {
       }, {
         id: "CK",
         edID: 128816585,
-        eddbID: 1642,
+        eddbID: 1661,
         grp: "bh",
         cost: 15307134,
         mass: 78,
@@ -429,7 +429,7 @@ module.exports = {
       }, {
         id: "CL",
         edID: 128816586,
-        eddbID: 1643,
+        eddbID: 1662,
         grp: "bh",
         cost: 36175859,
         mass: 78,
@@ -441,7 +441,7 @@ module.exports = {
       }, {
         id: "CM",
         edID: 128816587,
-        eddbID: 1644,
+        eddbID: 1663,
         grp: "bh",
         cost: 40087682,
         mass: 78,
@@ -2724,9 +2724,9 @@ module.exports = {
       },
       retailCost: 45814205,
       bulkheads: [ {
-        id: "bO",
+        id: "2T",
         edID: 128816569,
-        eddbID: 808,
+        eddbID: 1645,
         grp: "bh",
         cost: 0,
         mass: 0,
@@ -2736,9 +2736,9 @@ module.exports = {
         thermres: 0,
         hullboost: .8
       }, {
-        id: "bP",
+        id: "2U",
         edID: 128816570,
-        eddbID: 809,
+        eddbID: 1646,
         grp: "bh",
         cost: 22791270,
         mass: 36,
@@ -2748,9 +2748,9 @@ module.exports = {
         thermres: 0,
         hullboost: 1.52
       }, {
-        id: "bQ",
+        id: "2V",
         edID: 128816571,
-        eddbID: 810,
+        eddbID: 1647,
         grp: "bh",
         cost: 51280360,
         mass: 67,
@@ -2760,9 +2760,9 @@ module.exports = {
         thermres: 0,
         hullboost: 2.5
       }, {
-        id: "bR",
+        id: "2W",
         edID: 128816572,
-        eddbID: 811,
+        eddbID: 1648,
         grp: "bh",
         cost: 121192590,
         mass: 67,
@@ -2772,9 +2772,9 @@ module.exports = {
         thermres: .5,
         hullboost: 2.5
       }, {
-        id: "bS",
+        id: "2X",
         edID: 128816573,
-        eddbID: 812,
+        eddbID: 1649,
         grp: "bh",
         cost: 134297570,
         mass: 67,
@@ -8954,8 +8954,8 @@ module.exports = {
           K: 1
         },
         distdraw: .16,
-        edID: 0,
-        eddbID: 0,
+        edID: 128049464,
+        eddbID: 1658,
         falloff: 2e3,
         grp: "mc",
         id: "yH",
@@ -10298,7 +10298,7 @@ module.exports = {
         },
         distdraw: .24,
         edID: 0,
-        eddbID: 0,
+        eddbID: 1657,
         grp: "mr",
         id: "yI",
         integrity: 64,
@@ -10326,8 +10326,8 @@ module.exports = {
           E: 1
         },
         distdraw: .24,
-        edID: 0,
-        eddbID: 0,
+        edID: 128049494,
+        eddbID: 1656,
         grp: "mr",
         id: "yJ",
         integrity: 64,
@@ -10535,8 +10535,8 @@ module.exports = {
           E: 1
         },
         distdraw: 0,
-        edID: 0,
-        eddbID: 0,
+        edID: 128049511,
+        eddbID: 1655,
         grp: "tp",
         id: "yK",
         integrity: 64,
@@ -13156,7 +13156,7 @@ module.exports = {
         class: 1,
         cost: 3600,
         edID: 128793941,
-        eddbID: 0,
+        eddbID: 1632,
         grp: "dtl",
         id: "y1",
         mass: 1.3,
@@ -13169,7 +13169,7 @@ module.exports = {
         class: 3,
         cost: 16201,
         edID: 128793942,
-        eddbID: 0,
+        eddbID: 1633,
         grp: "dtl",
         id: "y2",
         mass: 2,
@@ -13182,7 +13182,7 @@ module.exports = {
         class: 5,
         cost: 145801,
         edID: 128793943,
-        eddbID: 0,
+        eddbID: 1634,
         grp: "dtl",
         id: "y3",
         mass: 20,
@@ -13195,7 +13195,7 @@ module.exports = {
         class: 7,
         cost: 1312201,
         edID: 128793944,
-        eddbID: 0,
+        eddbID: 1635,
         grp: "dtl",
         id: "y4",
         mass: 128,
@@ -18555,7 +18555,7 @@ module.exports = {
       AFM_Shielded: {
         fdname: "AFM_Shielded",
         grades: {
-          "1": {
+          1: {
             components: {
               "Worn Shield Emitters": 1
             },
@@ -18565,7 +18565,7 @@ module.exports = {
             },
             uuid: "c879e8d2-290a-471e-833c-eaea947a20c1"
           },
-          "2": {
+          2: {
             components: {
               Carbon: 1,
               "Shield Emitters": 1
@@ -18576,7 +18576,7 @@ module.exports = {
             },
             uuid: "90981fc0-8c0e-4b86-a656-9ef1a9a7fa00"
           },
-          "3": {
+          3: {
             components: {
               Carbon: 1,
               "High Density Composites": 1,
@@ -18588,7 +18588,7 @@ module.exports = {
             },
             uuid: "30976550-2ff1-46e2-9687-ae3faa4f4701"
           },
-          "4": {
+          4: {
             components: {
               "Proprietary Composites": 1,
               "Shielding Sensors": 1,
@@ -18608,7 +18608,7 @@ module.exports = {
       Armour_Advanced: {
         fdname: "Armour_Advanced",
         grades: {
-          "1": {
+          1: {
             components: {
               Iron: 1
             },
@@ -18621,7 +18621,7 @@ module.exports = {
             },
             uuid: "fb33c5c9-24e4-48b5-8227-cc7b855572cd"
           },
-          "2": {
+          2: {
             components: {
               "Conductive Components": 1,
               Iron: 1
@@ -18635,7 +18635,7 @@ module.exports = {
             },
             uuid: "a9417081-356c-43d7-bf30-9cc1de0c62a1"
           },
-          "3": {
+          3: {
             components: {
               "Conductive Components": 1,
               "High Density Composites": 1,
@@ -18650,7 +18650,7 @@ module.exports = {
             },
             uuid: "b93f110f-c467-4340-8496-9ea99332ef55"
           },
-          "4": {
+          4: {
             components: {
               "Conductive Ceramics": 1,
               Germanium: 1,
@@ -18665,7 +18665,7 @@ module.exports = {
             },
             uuid: "4b9c30c9-0acf-4b56-bce9-3fc65be95382"
           },
-          "5": {
+          5: {
             components: {
               "Conductive Ceramics": 1,
               "Military Grade Alloys": 1,
@@ -18688,7 +18688,7 @@ module.exports = {
       Armour_Explosive: {
         fdname: "Armour_Explosive",
         grades: {
-          "1": {
+          1: {
             components: {
               Nickel: 1
             },
@@ -18699,7 +18699,7 @@ module.exports = {
             },
             uuid: "c74fe800-a8c1-4ae9-95a1-47a8a9d1f10d"
           },
-          "2": {
+          2: {
             components: {
               Carbon: 1,
               Zinc: 1
@@ -18711,7 +18711,7 @@ module.exports = {
             },
             uuid: "78f76eb3-ac9e-47bd-be6f-a26b4fdf9c57"
           },
-          "3": {
+          3: {
             components: {
               "Salvaged Alloys": 1,
               Vanadium: 1
@@ -18723,7 +18723,7 @@ module.exports = {
             },
             uuid: "83ea4fd2-2eee-4cfb-baa6-d6c314f58b8d"
           },
-          "4": {
+          4: {
             components: {
               "Galvanising Alloys": 1,
               Mercury: 1,
@@ -18736,7 +18736,7 @@ module.exports = {
             },
             uuid: "9656e75a-a8ac-454f-941a-9fe4b4f6a330"
           },
-          "5": {
+          5: {
             components: {
               Molybdenum: 1,
               "Phase Alloys": 1,
@@ -18757,7 +18757,7 @@ module.exports = {
       Armour_HeavyDuty: {
         fdname: "Armour_HeavyDuty",
         grades: {
-          "1": {
+          1: {
             components: {
               Carbon: 1
             },
@@ -18770,7 +18770,7 @@ module.exports = {
             },
             uuid: "f9d519ab-b6f6-4d81-a93b-8f4fb45edd55"
           },
-          "2": {
+          2: {
             components: {
               Carbon: 1,
               "Shield Emitters": 1
@@ -18784,7 +18784,7 @@ module.exports = {
             },
             uuid: "ab58e035-3128-4eec-8974-cbbff022d31e"
           },
-          "3": {
+          3: {
             components: {
               Carbon: 1,
               "High Density Composites": 1,
@@ -18799,7 +18799,7 @@ module.exports = {
             },
             uuid: "20afd6a5-5a72-4825-813d-b660fe796cb3"
           },
-          "4": {
+          4: {
             components: {
               "Proprietary Composites": 1,
               "Shielding Sensors": 1,
@@ -18814,7 +18814,7 @@ module.exports = {
             },
             uuid: "e08d3ec0-79e1-4d9f-ae16-6bd0a7e5b5c4"
           },
-          "5": {
+          5: {
             components: {
               "Compound Shielding": 1,
               "Core Dynamics Composites": 1,
@@ -18837,7 +18837,7 @@ module.exports = {
       Armour_Kinetic: {
         fdname: "Armour_Kinetic",
         grades: {
-          "1": {
+          1: {
             components: {
               Nickel: 1
             },
@@ -18848,7 +18848,7 @@ module.exports = {
             },
             uuid: "285736a7-9677-4875-b425-0704d2c05ee6"
           },
-          "2": {
+          2: {
             components: {
               Nickel: 1,
               Vanadium: 1
@@ -18860,7 +18860,7 @@ module.exports = {
             },
             uuid: "816adb1f-c089-49b6-b52d-a8ca189a4ef5"
           },
-          "3": {
+          3: {
             components: {
               "High Density Composites": 1,
               "Salvaged Alloys": 1,
@@ -18873,7 +18873,7 @@ module.exports = {
             },
             uuid: "54c5cc67-3112-4c77-87f9-c5d6a5f0ae3c"
           },
-          "4": {
+          4: {
             components: {
               "Galvanising Alloys": 1,
               "Proprietary Composites": 1,
@@ -18886,7 +18886,7 @@ module.exports = {
             },
             uuid: "80cdd75d-a574-4092-b45d-77187e52edf5"
           },
-          "5": {
+          5: {
             components: {
               "Core Dynamics Composites": 1,
               Molybdenum: 1,
@@ -18907,7 +18907,7 @@ module.exports = {
       Armour_Thermic: {
         fdname: "Armour_Thermic",
         grades: {
-          "1": {
+          1: {
             components: {
               "Heat Conduction Wiring": 1
             },
@@ -18918,7 +18918,7 @@ module.exports = {
             },
             uuid: "73c3a3c1-da09-4792-a1e9-d0161da6c0f2"
           },
-          "2": {
+          2: {
             components: {
               "Heat Dispersion Plate": 1,
               Nickel: 1
@@ -18930,7 +18930,7 @@ module.exports = {
             },
             uuid: "f3096b56-d6d2-4aa5-a77c-98ce2adc79dc"
           },
-          "3": {
+          3: {
             components: {
               "Heat Exchangers": 1,
               "Salvaged Alloys": 1,
@@ -18943,7 +18943,7 @@ module.exports = {
             },
             uuid: "1aa48c57-d187-4e82-aa88-8b4a7a4bc856"
           },
-          "4": {
+          4: {
             components: {
               "Galvanising Alloys": 1,
               "Heat Vanes": 1,
@@ -18956,7 +18956,7 @@ module.exports = {
             },
             uuid: "afc78426-8570-4ad4-923a-794821c2506f"
           },
-          "5": {
+          5: {
             components: {
               Molybdenum: 1,
               "Phase Alloys": 1,
@@ -18977,7 +18977,7 @@ module.exports = {
       CargoScanner_LightWeight: {
         fdname: "CargoScanner_LightWeight",
         grades: {
-          "1": {
+          1: {
             components: {
               Phosphorus: 1
             },
@@ -18987,7 +18987,7 @@ module.exports = {
             },
             uuid: "5ebd5d76-7bb8-4958-9cc3-f5e2176f2b5e"
           },
-          "2": {
+          2: {
             components: {
               Manganese: 1,
               "Salvaged Alloys": 1
@@ -18998,7 +18998,7 @@ module.exports = {
             },
             uuid: "c49d42a8-cd8f-4576-9c60-85725f635185"
           },
-          "3": {
+          3: {
             components: {
               "Conductive Ceramics": 1,
               Manganese: 1,
@@ -19010,7 +19010,7 @@ module.exports = {
             },
             uuid: "bc048a95-b5aa-4f6c-a696-6c40b87a1606"
           },
-          "4": {
+          4: {
             components: {
               "Conductive Components": 1,
               "Phase Alloys": 1,
@@ -19022,7 +19022,7 @@ module.exports = {
             },
             uuid: "4f9467f7-0c5f-4ab3-856b-aaad019bd79d"
           },
-          "5": {
+          5: {
             components: {
               "Conductive Ceramics": 1,
               "Proto Light Alloys": 1,
@@ -19042,7 +19042,7 @@ module.exports = {
       CargoScanner_Reinforced: {
         fdname: "CargoScanner_Reinforced",
         grades: {
-          "1": {
+          1: {
             components: {
               Nickel: 1
             },
@@ -19052,7 +19052,7 @@ module.exports = {
             },
             uuid: "9b714883-e0e7-46b5-a2bb-5367f2cc9b3f"
           },
-          "2": {
+          2: {
             components: {
               Nickel: 1,
               "Shield Emitters": 1
@@ -19063,7 +19063,7 @@ module.exports = {
             },
             uuid: "9de3e096-fbfa-4694-a2e4-919494d39ee1"
           },
-          "3": {
+          3: {
             components: {
               Nickel: 1,
               "Shield Emitters": 1,
@@ -19075,7 +19075,7 @@ module.exports = {
             },
             uuid: "4a5d7441-2543-4405-8587-9b969fffd3f2"
           },
-          "4": {
+          4: {
             components: {
               Molybdenum: 1,
               Tungsten: 1,
@@ -19087,7 +19087,7 @@ module.exports = {
             },
             uuid: "f4b41ce9-d3a8-4362-9821-0d45f2b975bc"
           },
-          "5": {
+          5: {
             components: {
               "High Density Composites": 1,
               Molybdenum: 1,
@@ -19107,7 +19107,7 @@ module.exports = {
       CargoScanner_Shielded: {
         fdname: "CargoScanner_Shielded",
         grades: {
-          "1": {
+          1: {
             components: {
               "Worn Shield Emitters": 1
             },
@@ -19117,7 +19117,7 @@ module.exports = {
             },
             uuid: "f3684224-dfb1-4b30-81df-827246ccce14"
           },
-          "2": {
+          2: {
             components: {
               Carbon: 1,
               "Shield Emitters": 1
@@ -19128,7 +19128,7 @@ module.exports = {
             },
             uuid: "0fec52b1-3a81-4260-8168-7af698e9ebf3"
           },
-          "3": {
+          3: {
             components: {
               Carbon: 1,
               "High Density Composites": 1,
@@ -19140,7 +19140,7 @@ module.exports = {
             },
             uuid: "6ca69c4f-07b6-43e4-97c9-e9134cb1eaf4"
           },
-          "4": {
+          4: {
             components: {
               "Proprietary Composites": 1,
               "Shielding Sensors": 1,
@@ -19152,7 +19152,7 @@ module.exports = {
             },
             uuid: "e6ebc222-ec93-4f0f-ac8a-e690ab50656d"
           },
-          "5": {
+          5: {
             components: {
               "Compound Shielding": 1,
               "Core Dynamics Composites": 1,
@@ -19172,7 +19172,7 @@ module.exports = {
       ChaffLauncher_ChaffCapacity: {
         fdname: "ChaffLauncher_ChaffCapacity",
         grades: {
-          "3": {
+          3: {
             components: {
               "Mechanical Scrap": 1,
               Niobium: 1,
@@ -19193,7 +19193,7 @@ module.exports = {
       ChaffLauncher_LightWeight: {
         fdname: "ChaffLauncher_LightWeight",
         grades: {
-          "1": {
+          1: {
             components: {
               Phosphorus: 1
             },
@@ -19203,7 +19203,7 @@ module.exports = {
             },
             uuid: "99afdcd4-c7cf-4855-aea8-e35d968d448e"
           },
-          "2": {
+          2: {
             components: {
               Manganese: 1,
               "Salvaged Alloys": 1
@@ -19214,7 +19214,7 @@ module.exports = {
             },
             uuid: "4c0aa103-e0d8-4dce-bb38-067549af7c27"
           },
-          "3": {
+          3: {
             components: {
               "Conductive Ceramics": 1,
               Manganese: 1,
@@ -19226,7 +19226,7 @@ module.exports = {
             },
             uuid: "90ddb40a-8520-4e0a-8e42-5f3f9ecf4c28"
           },
-          "4": {
+          4: {
             components: {
               "Conductive Components": 1,
               "Phase Alloys": 1,
@@ -19238,7 +19238,7 @@ module.exports = {
             },
             uuid: "45047669-536a-4455-8563-b8be46d482e0"
           },
-          "5": {
+          5: {
             components: {
               "Conductive Ceramics": 1,
               "Proto Light Alloys": 1,
@@ -19258,7 +19258,7 @@ module.exports = {
       ChaffLauncher_Reinforced: {
         fdname: "ChaffLauncher_Reinforced",
         grades: {
-          "1": {
+          1: {
             components: {
               Nickel: 1
             },
@@ -19268,7 +19268,7 @@ module.exports = {
             },
             uuid: "c952091e-30de-4b13-8e7e-c59aee4c1466"
           },
-          "2": {
+          2: {
             components: {
               Nickel: 1,
               "Shield Emitters": 1
@@ -19279,7 +19279,7 @@ module.exports = {
             },
             uuid: "5f868185-7351-49ec-95b4-87dab4d08e02"
           },
-          "3": {
+          3: {
             components: {
               Nickel: 1,
               "Shield Emitters": 1,
@@ -19291,7 +19291,7 @@ module.exports = {
             },
             uuid: "33e63006-29ae-4466-b240-7708ddd9804b"
           },
-          "4": {
+          4: {
             components: {
               Molybdenum: 1,
               Tungsten: 1,
@@ -19303,7 +19303,7 @@ module.exports = {
             },
             uuid: "5d0cb508-a654-4dc8-8e04-6cafac0ea86d"
           },
-          "5": {
+          5: {
             components: {
               "High Density Composites": 1,
               Molybdenum: 1,
@@ -19323,7 +19323,7 @@ module.exports = {
       ChaffLauncher_Shielded: {
         fdname: "ChaffLauncher_Shielded",
         grades: {
-          "1": {
+          1: {
             components: {
               "Worn Shield Emitters": 1
             },
@@ -19333,7 +19333,7 @@ module.exports = {
             },
             uuid: "ac3908c2-c5aa-44a1-a847-a9d27c34a326"
           },
-          "2": {
+          2: {
             components: {
               Carbon: 1,
               "Shield Emitters": 1
@@ -19344,7 +19344,7 @@ module.exports = {
             },
             uuid: "ee1ad091-7a25-44ac-b3e4-9ee5e4228483"
           },
-          "3": {
+          3: {
             components: {
               Carbon: 1,
               "High Density Composites": 1,
@@ -19356,7 +19356,7 @@ module.exports = {
             },
             uuid: "eddd7f16-035d-4e9e-96fc-bf82e9ce7397"
           },
-          "4": {
+          4: {
             components: {
               "Proprietary Composites": 1,
               "Shielding Sensors": 1,
@@ -19368,7 +19368,7 @@ module.exports = {
             },
             uuid: "1fef7b64-bf77-4024-a9b4-24146d5cefe3"
           },
-          "5": {
+          5: {
             components: {
               "Compound Shielding": 1,
               "Core Dynamics Composites": 1,
@@ -19388,7 +19388,7 @@ module.exports = {
       CollectionLimpet_LightWeight: {
         fdname: "CollectionLimpet_LightWeight",
         grades: {
-          "1": {
+          1: {
             components: {
               Phosphorus: 1
             },
@@ -19398,7 +19398,7 @@ module.exports = {
             },
             uuid: "40d015c8-e3c3-4e6c-8703-0e5dc0c0ca7a"
           },
-          "2": {
+          2: {
             components: {
               Manganese: 1,
               "Salvaged Alloys": 1
@@ -19409,7 +19409,7 @@ module.exports = {
             },
             uuid: "4f4f23cf-fb43-4542-8d60-c96cf884c3c9"
           },
-          "3": {
+          3: {
             components: {
               "Conductive Ceramics": 1,
               Manganese: 1,
@@ -19421,7 +19421,7 @@ module.exports = {
             },
             uuid: "9c4ebeff-12e1-4f0e-a972-bb8d4d7e4f08"
           },
-          "4": {
+          4: {
             components: {
               "Conductive Components": 1,
               "Phase Alloys": 1,
@@ -19433,7 +19433,7 @@ module.exports = {
             },
             uuid: "befa7711-25fa-49d2-97fb-3f8a4cc8b91e"
           },
-          "5": {
+          5: {
             components: {
               "Conductive Ceramics": 1,
               "Proto Light Alloys": 1,
@@ -19453,7 +19453,7 @@ module.exports = {
       CollectionLimpet_Reinforced: {
         fdname: "CollectionLimpet_Reinforced",
         grades: {
-          "1": {
+          1: {
             components: {
               Nickel: 1
             },
@@ -19463,7 +19463,7 @@ module.exports = {
             },
             uuid: "d0451acd-f57f-46a5-ac1a-c2a2f1919283"
           },
-          "2": {
+          2: {
             components: {
               Nickel: 1,
               "Shield Emitters": 1
@@ -19474,7 +19474,7 @@ module.exports = {
             },
             uuid: "ccbf3b26-6ded-4e86-b2dd-330280ca552f"
           },
-          "3": {
+          3: {
             components: {
               Nickel: 1,
               "Shield Emitters": 1,
@@ -19486,7 +19486,7 @@ module.exports = {
             },
             uuid: "a841e48c-d34b-4dd2-b540-14910224398a"
           },
-          "4": {
+          4: {
             components: {
               Molybdenum: 1,
               Tungsten: 1,
@@ -19498,7 +19498,7 @@ module.exports = {
             },
             uuid: "de78dde7-c159-4d37-91e2-b6562dd754e4"
           },
-          "5": {
+          5: {
             components: {
               "High Density Composites": 1,
               Molybdenum: 1,
@@ -19518,7 +19518,7 @@ module.exports = {
       CollectionLimpet_Shielded: {
         fdname: "CollectionLimpet_Shielded",
         grades: {
-          "1": {
+          1: {
             components: {
               "Worn Shield Emitters": 1
             },
@@ -19528,7 +19528,7 @@ module.exports = {
             },
             uuid: "6e384cd7-1ab5-4a03-849f-d1a6d5711012"
           },
-          "2": {
+          2: {
             components: {
               Carbon: 1,
               "Shield Emitters": 1
@@ -19539,7 +19539,7 @@ module.exports = {
             },
             uuid: "be06b5e7-44c0-4bb4-b084-ca5578cd5b26"
           },
-          "3": {
+          3: {
             components: {
               Carbon: 1,
               "High Density Composites": 1,
@@ -19551,7 +19551,7 @@ module.exports = {
             },
             uuid: "d18a63f6-c96e-4e73-b4a1-70deeb27af9c"
           },
-          "4": {
+          4: {
             components: {
               "Proprietary Composites": 1,
               "Shielding Sensors": 1,
@@ -19563,7 +19563,7 @@ module.exports = {
             },
             uuid: "99d03d5e-1fd6-49b1-a99d-71571c35dca5"
           },
-          "5": {
+          5: {
             components: {
               "Compound Shielding": 1,
               "Core Dynamics Composites": 1,
@@ -19583,7 +19583,7 @@ module.exports = {
       ECM_LightWeight: {
         fdname: "ECM_LightWeight",
         grades: {
-          "1": {
+          1: {
             components: {
               Phosphorus: 1
             },
@@ -19593,7 +19593,7 @@ module.exports = {
             },
             uuid: "123ef1f4-cb7e-4b8e-8dfc-48c3407d0c94"
           },
-          "2": {
+          2: {
             components: {
               Manganese: 1,
               "Salvaged Alloys": 1
@@ -19604,7 +19604,7 @@ module.exports = {
             },
             uuid: "abf6487e-1fac-46e7-9ae3-a46bea977412"
           },
-          "3": {
+          3: {
             components: {
               "Conductive Ceramics": 1,
               Manganese: 1,
@@ -19616,7 +19616,7 @@ module.exports = {
             },
             uuid: "e1bc6bec-da7b-4b5c-aedd-637b753d2e1f"
           },
-          "4": {
+          4: {
             components: {
               "Conductive Components": 1,
               "Phase Alloys": 1,
@@ -19628,7 +19628,7 @@ module.exports = {
             },
             uuid: "ac3a70dc-8759-4f69-8c97-c31be11d9b49"
           },
-          "5": {
+          5: {
             components: {
               "Conductive Ceramics": 1,
               "Proto Light Alloys": 1,
@@ -19648,7 +19648,7 @@ module.exports = {
       ECM_Reinforced: {
         fdname: "ECM_Reinforced",
         grades: {
-          "1": {
+          1: {
             components: {
               Nickel: 1
             },
@@ -19658,7 +19658,7 @@ module.exports = {
             },
             uuid: "6bcb5b84-5e90-4d3d-be7c-6ed6c1f048c4"
           },
-          "2": {
+          2: {
             components: {
               Nickel: 1,
               "Shield Emitters": 1
@@ -19669,7 +19669,7 @@ module.exports = {
             },
             uuid: "8497a12f-becf-499b-8df8-6814cfa93e39"
           },
-          "3": {
+          3: {
             components: {
               Nickel: 1,
               "Shield Emitters": 1,
@@ -19681,7 +19681,7 @@ module.exports = {
             },
             uuid: "2fbadb73-1c89-4d25-9061-43735d4970b3"
           },
-          "4": {
+          4: {
             components: {
               Molybdenum: 1,
               Tungsten: 1,
@@ -19693,7 +19693,7 @@ module.exports = {
             },
             uuid: "a89859a9-1278-40d0-ac77-e3e6bf10de95"
           },
-          "5": {
+          5: {
             components: {
               "High Density Composites": 1,
               Molybdenum: 1,
@@ -19713,7 +19713,7 @@ module.exports = {
       ECM_Shielded: {
         fdname: "ECM_Shielded",
         grades: {
-          "1": {
+          1: {
             components: {
               "Worn Shield Emitters": 1
             },
@@ -19723,7 +19723,7 @@ module.exports = {
             },
             uuid: "0dd69a33-0309-4ab6-bf88-e500db42448c"
           },
-          "2": {
+          2: {
             components: {
               Carbon: 1,
               "Shield Emitters": 1
@@ -19734,7 +19734,7 @@ module.exports = {
             },
             uuid: "297bc1b2-7e2c-4556-b971-b2ff38cbff53"
           },
-          "3": {
+          3: {
             components: {
               Carbon: 1,
               "High Density Composites": 1,
@@ -19746,7 +19746,7 @@ module.exports = {
             },
             uuid: "385a3392-8580-4fa6-a52c-1205f1041b99"
           },
-          "4": {
+          4: {
             components: {
               "Proprietary Composites": 1,
               "Shielding Sensors": 1,
@@ -19758,7 +19758,7 @@ module.exports = {
             },
             uuid: "eb3e8641-031c-4318-9e97-43f27529fd86"
           },
-          "5": {
+          5: {
             components: {
               "Compound Shielding": 1,
               "Core Dynamics Composites": 1,
@@ -19778,7 +19778,7 @@ module.exports = {
       Engine_Dirty: {
         fdname: "Engine_Dirty",
         grades: {
-          "1": {
+          1: {
             components: {
               "Specialised Legacy Firmware": 1
             },
@@ -19791,7 +19791,7 @@ module.exports = {
             },
             uuid: "bbdea125-dd2b-4031-8698-56c922df3b76"
           },
-          "2": {
+          2: {
             components: {
               "Mechanical Equipment": 1,
               "Specialised Legacy Firmware": 1
@@ -19805,7 +19805,7 @@ module.exports = {
             },
             uuid: "d3ccba04-e0f5-40c3-a6f8-a038d5e5b4bf"
           },
-          "3": {
+          3: {
             components: {
               Chromium: 1,
               "Mechanical Components": 1,
@@ -19820,7 +19820,7 @@ module.exports = {
             },
             uuid: "60091d1f-38a9-4d62-bbc0-6332e03c7f3d"
           },
-          "4": {
+          4: {
             components: {
               "Configurable Components": 1,
               "Modified Consumer Firmware": 1,
@@ -19835,7 +19835,7 @@ module.exports = {
             },
             uuid: "7355e32e-b850-4428-8279-66f234f59c6a"
           },
-          "5": {
+          5: {
             components: {
               Cadmium: 1,
               "Cracked Industrial Firmware": 1,
@@ -19858,7 +19858,7 @@ module.exports = {
       Engine_Reinforced: {
         fdname: "Engine_Reinforced",
         grades: {
-          "1": {
+          1: {
             components: {
               Carbon: 1
             },
@@ -19869,7 +19869,7 @@ module.exports = {
             },
             uuid: "21503395-f165-4340-91c7-07d062895eae"
           },
-          "2": {
+          2: {
             components: {
               "Heat Conduction Wiring": 1,
               Vanadium: 1
@@ -19881,7 +19881,7 @@ module.exports = {
             },
             uuid: "452e2359-5804-4de1-94bf-d16c9d512cc4"
           },
-          "3": {
+          3: {
             components: {
               "Heat Conduction Wiring": 1,
               "Shielding Sensors": 1,
@@ -19894,7 +19894,7 @@ module.exports = {
             },
             uuid: "ae1a71bb-e025-4268-aa7f-fd4063945beb"
           },
-          "4": {
+          4: {
             components: {
               "Compound Shielding": 1,
               "Heat Dispersion Plate": 1,
@@ -19907,7 +19907,7 @@ module.exports = {
             },
             uuid: "4bc0b925-dd64-41da-a653-f15acf108f23"
           },
-          "5": {
+          5: {
             components: {
               "Heat Exchangers": 1,
               "Imperial Shielding": 1,
@@ -19928,7 +19928,7 @@ module.exports = {
       Engine_Tuned: {
         fdname: "Engine_Tuned",
         grades: {
-          "1": {
+          1: {
             components: {
               Sulphur: 1
             },
@@ -19939,7 +19939,7 @@ module.exports = {
             },
             uuid: "5b32dae1-7c4a-4760-8c48-0d9a9fa2758d"
           },
-          "2": {
+          2: {
             components: {
               "Conductive Components": 1,
               "Specialised Legacy Firmware": 1
@@ -19953,7 +19953,7 @@ module.exports = {
             },
             uuid: "5382eecb-c840-4613-99c1-9bcbdb8d7760"
           },
-          "3": {
+          3: {
             components: {
               "Conductive Components": 1,
               "Specialised Legacy Firmware": 1,
@@ -19968,7 +19968,7 @@ module.exports = {
             },
             uuid: "0c58a5c8-0bf9-4a2c-baf0-b14228f236df"
           },
-          "4": {
+          4: {
             components: {
               "Conductive Ceramics": 1,
               "Decoded Emission Data": 1,
@@ -19983,7 +19983,7 @@ module.exports = {
             },
             uuid: "afb2b22e-ab30-4195-8bfe-ae81ea6067f3"
           },
-          "5": {
+          5: {
             components: {
               "Abnormal Compact Emissions Data": 1,
               "Conductive Ceramics": 1,
@@ -20006,7 +20006,7 @@ module.exports = {
       FSD_FastBoot: {
         fdname: "FSD_FastBoot",
         grades: {
-          "1": {
+          1: {
             components: {
               "Grid Resistors": 1
             },
@@ -20018,7 +20018,7 @@ module.exports = {
             },
             uuid: "23f08173-4d05-49d2-b126-d9e5ea5ee8b5"
           },
-          "2": {
+          2: {
             components: {
               Chromium: 1,
               "Grid Resistors": 1
@@ -20031,7 +20031,7 @@ module.exports = {
             },
             uuid: "56875992-02ae-4364-934c-88dbfda0cc57"
           },
-          "3": {
+          3: {
             components: {
               "Grid Resistors": 1,
               "Heat Dispersion Plate": 1,
@@ -20045,7 +20045,7 @@ module.exports = {
             },
             uuid: "80c84723-9c37-434b-890e-8723504e5e48"
           },
-          "4": {
+          4: {
             components: {
               Cadmium: 1,
               "Heat Exchangers": 1,
@@ -20059,7 +20059,7 @@ module.exports = {
             },
             uuid: "3747180c-d798-4bc4-bb42-daecf44729cc"
           },
-          "5": {
+          5: {
             components: {
               "Electrochemical Arrays": 1,
               "Heat Vanes": 1,
@@ -20081,7 +20081,7 @@ module.exports = {
       FSD_LongRange: {
         fdname: "FSD_LongRange",
         grades: {
-          "1": {
+          1: {
             components: {
               "Atypical Disrupted Wake Echoes": 1
             },
@@ -20093,7 +20093,7 @@ module.exports = {
             },
             uuid: "bb67b1a2-7a5b-47bc-8ed8-e949b5e3fb16"
           },
-          "2": {
+          2: {
             components: {
               "Atypical Disrupted Wake Echoes": 1,
               "Chemical Processors": 1
@@ -20106,7 +20106,7 @@ module.exports = {
             },
             uuid: "74045351-f348-45f5-8798-487211f19520"
           },
-          "3": {
+          3: {
             components: {
               "Chemical Processors": 1,
               Phosphorus: 1,
@@ -20120,7 +20120,7 @@ module.exports = {
             },
             uuid: "cf196bb9-55a1-457f-893b-84ff2afd4db9"
           },
-          "4": {
+          4: {
             components: {
               "Chemical Distillery": 1,
               "Eccentric Hyperspace Trajectories": 1,
@@ -20134,7 +20134,7 @@ module.exports = {
             },
             uuid: "ecf49fec-32fd-4930-949d-a341bf0fd00c"
           },
-          "5": {
+          5: {
             components: {
               Arsenic: 1,
               "Chemical Manipulators": 1,
@@ -20156,7 +20156,7 @@ module.exports = {
       FSD_Shielded: {
         fdname: "FSD_Shielded",
         grades: {
-          "1": {
+          1: {
             components: {
               Nickel: 1
             },
@@ -20168,7 +20168,7 @@ module.exports = {
             },
             uuid: "0bf46ac9-dfcd-49c3-bcef-db93ba04ed97"
           },
-          "2": {
+          2: {
             components: {
               Carbon: 1,
               "Shield Emitters": 1
@@ -20181,7 +20181,7 @@ module.exports = {
             },
             uuid: "2858e680-b675-4ee9-9c24-04e8dd2bfe85"
           },
-          "3": {
+          3: {
             components: {
               Carbon: 1,
               "Shielding Sensors": 1,
@@ -20195,7 +20195,7 @@ module.exports = {
             },
             uuid: "f836e994-c19f-4ed0-926d-fbcc75f136c0"
           },
-          "4": {
+          4: {
             components: {
               "Compound Shielding": 1,
               "High Density Composites": 1,
@@ -20209,7 +20209,7 @@ module.exports = {
             },
             uuid: "fe30a1a0-3644-4411-af1f-59bae0a565b9"
           },
-          "5": {
+          5: {
             components: {
               "Imperial Shielding": 1,
               "Proprietary Composites": 1,
@@ -20231,7 +20231,7 @@ module.exports = {
       FSDinterdictor_Expanded: {
         fdname: "FSDinterdictor_Expanded",
         grades: {
-          "1": {
+          1: {
             components: {
               "Mechanical Scrap": 1
             },
@@ -20242,7 +20242,7 @@ module.exports = {
             },
             uuid: "da98fe81-8ac1-4c4a-ba1b-76b894dc9de8"
           },
-          "2": {
+          2: {
             components: {
               "Mechanical Equipment": 1,
               "Unusual Encrypted Files": 1
@@ -20254,7 +20254,7 @@ module.exports = {
             },
             uuid: "88bcd4df-3ae3-4e6b-80d8-27bf8815e4d2"
           },
-          "3": {
+          3: {
             components: {
               "Grid Resistors": 1,
               "Mechanical Components": 1,
@@ -20267,7 +20267,7 @@ module.exports = {
             },
             uuid: "1036b38e-676f-4b42-8518-abed6f627fb7"
           },
-          "4": {
+          4: {
             components: {
               "Divergent Scan Data": 1,
               "Mechanical Equipment": 1,
@@ -20288,7 +20288,7 @@ module.exports = {
       FSDinterdictor_LongRange: {
         fdname: "FSDinterdictor_LongRange",
         grades: {
-          "1": {
+          1: {
             components: {
               "Unusual Encrypted Files": 1
             },
@@ -20300,7 +20300,7 @@ module.exports = {
             },
             uuid: "ecec8b3e-891f-4b79-8c07-7836e62424f8"
           },
-          "2": {
+          2: {
             components: {
               "Atypical Disrupted Wake Echoes": 1,
               "Tagged Encryption Codes": 1
@@ -20313,7 +20313,7 @@ module.exports = {
             },
             uuid: "08d02c88-e63f-4d29-86b9-eea6a20b17a1"
           },
-          "3": {
+          3: {
             components: {
               "Anomalous Bulk Scan Data": 1,
               "Anomalous FSD Telemetry": 1,
@@ -20327,7 +20327,7 @@ module.exports = {
             },
             uuid: "a2d4bed7-4326-4776-a17b-6ee746f4c9be"
           },
-          "4": {
+          4: {
             components: {
               "Unidentified Scan Archives": 1,
               "Strange Wake Solutions": 1,
@@ -20349,7 +20349,7 @@ module.exports = {
       FuelScoop_Shielded: {
         fdname: "FuelScoop_Shielded",
         grades: {
-          "1": {
+          1: {
             components: {
               "Worn Shield Emitters": 1
             },
@@ -20359,7 +20359,7 @@ module.exports = {
             },
             uuid: "7b71b0d6-e035-4526-91cf-b16a15d32594"
           },
-          "2": {
+          2: {
             components: {
               Carbon: 1,
               "Shield Emitters": 1
@@ -20370,7 +20370,7 @@ module.exports = {
             },
             uuid: "1c367826-7b57-4beb-9d99-c9a598d29cf9"
           },
-          "3": {
+          3: {
             components: {
               Carbon: 1,
               "High Density Composites": 1,
@@ -20382,7 +20382,7 @@ module.exports = {
             },
             uuid: "b61946ff-9e65-447b-9757-4c37789fc350"
           },
-          "4": {
+          4: {
             components: {
               "Proprietary Composites": 1,
               "Shielding Sensors": 1,
@@ -20402,7 +20402,7 @@ module.exports = {
       FuelTransferLimpet_LightWeight: {
         fdname: "FuelTransferLimpet_LightWeight",
         grades: {
-          "1": {
+          1: {
             components: {
               Phosphorus: 1
             },
@@ -20412,7 +20412,7 @@ module.exports = {
             },
             uuid: "b4abda7b-ac4c-4ddf-ac76-f3d9640e217b"
           },
-          "2": {
+          2: {
             components: {
               Manganese: 1,
               "Salvaged Alloys": 1
@@ -20423,7 +20423,7 @@ module.exports = {
             },
             uuid: "7bae1015-d4b9-4c33-8286-79c93386cf33"
           },
-          "3": {
+          3: {
             components: {
               "Conductive Ceramics": 1,
               Manganese: 1,
@@ -20435,7 +20435,7 @@ module.exports = {
             },
             uuid: "b69e0eb2-67c4-402a-8b4d-69d64c899fdc"
           },
-          "4": {
+          4: {
             components: {
               "Conductive Components": 1,
               "Phase Alloys": 1,
@@ -20447,7 +20447,7 @@ module.exports = {
             },
             uuid: "36d13200-4c1d-4d49-9936-af8562a6fbce"
           },
-          "5": {
+          5: {
             components: {
               "Conductive Ceramics": 1,
               "Proto Light Alloys": 1,
@@ -20467,7 +20467,7 @@ module.exports = {
       FuelTransferLimpet_Reinforced: {
         fdname: "FuelTransferLimpet_Reinforced",
         grades: {
-          "1": {
+          1: {
             components: {
               Nickel: 1
             },
@@ -20477,7 +20477,7 @@ module.exports = {
             },
             uuid: "9d3c40c1-a35c-42a7-8756-68dba821bde1"
           },
-          "2": {
+          2: {
             components: {
               Nickel: 1,
               "Shield Emitters": 1
@@ -20488,7 +20488,7 @@ module.exports = {
             },
             uuid: "c09e8d1b-e78e-43b8-bc8c-8ebf7bd84dc5"
           },
-          "3": {
+          3: {
             components: {
               Nickel: 1,
               "Shield Emitters": 1,
@@ -20500,7 +20500,7 @@ module.exports = {
             },
             uuid: "51e5c01d-191c-446c-8ae1-d91e68da1013"
           },
-          "4": {
+          4: {
             components: {
               Molybdenum: 1,
               Tungsten: 1,
@@ -20512,7 +20512,7 @@ module.exports = {
             },
             uuid: "1a2e3498-d593-4420-ad66-01281648f8c7"
           },
-          "5": {
+          5: {
             components: {
               "High Density Composites": 1,
               Molybdenum: 1,
@@ -20532,7 +20532,7 @@ module.exports = {
       FuelTransferLimpet_Shielded: {
         fdname: "FuelTransferLimpet_Shielded",
         grades: {
-          "1": {
+          1: {
             components: {
               "Worn Shield Emitters": 1
             },
@@ -20542,7 +20542,7 @@ module.exports = {
             },
             uuid: "736aca61-1fd6-4e95-931c-9354434b52ce"
           },
-          "2": {
+          2: {
             components: {
               Carbon: 1,
               "Shield Emitters": 1
@@ -20553,7 +20553,7 @@ module.exports = {
             },
             uuid: "60b7eeba-eaeb-4799-a7ab-c989afc9e74a"
           },
-          "3": {
+          3: {
             components: {
               Carbon: 1,
               "High Density Composites": 1,
@@ -20565,7 +20565,7 @@ module.exports = {
             },
             uuid: "31f3e418-9020-4b01-94ec-cf9d62529f12"
           },
-          "4": {
+          4: {
             components: {
               "Proprietary Composites": 1,
               "Shielding Sensors": 1,
@@ -20577,7 +20577,7 @@ module.exports = {
             },
             uuid: "65e897c7-0bb2-426f-bed2-3162767a80d2"
           },
-          "5": {
+          5: {
             components: {
               "Compound Shielding": 1,
               "Core Dynamics Composites": 1,
@@ -20597,7 +20597,7 @@ module.exports = {
       HatchBreakerLimpet_LightWeight: {
         fdname: "HatchBreakerLimpet_LightWeight",
         grades: {
-          "1": {
+          1: {
             components: {
               Phosphorus: 1
             },
@@ -20607,7 +20607,7 @@ module.exports = {
             },
             uuid: "3434789e-7555-4bca-a901-09ddbae0d323"
           },
-          "2": {
+          2: {
             components: {
               Manganese: 1,
               "Salvaged Alloys": 1
@@ -20618,7 +20618,7 @@ module.exports = {
             },
             uuid: "c62a09da-8157-474e-8b8f-04b43792a372"
           },
-          "3": {
+          3: {
             components: {
               "Conductive Ceramics": 1,
               Manganese: 1,
@@ -20630,7 +20630,7 @@ module.exports = {
             },
             uuid: "ad0166b8-9313-4c7a-a95c-5e4b0e53fc40"
           },
-          "4": {
+          4: {
             components: {
               "Conductive Components": 1,
               "Phase Alloys": 1,
@@ -20642,7 +20642,7 @@ module.exports = {
             },
             uuid: "cf482f0a-de37-4fec-8bcd-f087203e0f2d"
           },
-          "5": {
+          5: {
             components: {
               "Conductive Ceramics": 1,
               "Proto Light Alloys": 1,
@@ -20662,7 +20662,7 @@ module.exports = {
       HatchBreakerLimpet_Reinforced: {
         fdname: "HatchBreakerLimpet_Reinforced",
         grades: {
-          "1": {
+          1: {
             components: {
               Nickel: 1
             },
@@ -20672,7 +20672,7 @@ module.exports = {
             },
             uuid: "f75e88b4-7a5c-40da-9652-a7e91aa174e2"
           },
-          "2": {
+          2: {
             components: {
               Nickel: 1,
               "Shield Emitters": 1
@@ -20683,7 +20683,7 @@ module.exports = {
             },
             uuid: "d794c46b-13e7-4136-b435-bdb96c87c657"
           },
-          "3": {
+          3: {
             components: {
               Nickel: 1,
               "Shield Emitters": 1,
@@ -20695,7 +20695,7 @@ module.exports = {
             },
             uuid: "07acc4c6-724e-4c6b-be15-c9c49d4d95a6"
           },
-          "4": {
+          4: {
             components: {
               Molybdenum: 1,
               Tungsten: 1,
@@ -20707,7 +20707,7 @@ module.exports = {
             },
             uuid: "fe76b519-7695-4618-b71f-4e27f53f9eb4"
           },
-          "5": {
+          5: {
             components: {
               "High Density Composites": 1,
               Molybdenum: 1,
@@ -20727,7 +20727,7 @@ module.exports = {
       HatchBreakerLimpet_Shielded: {
         fdname: "HatchBreakerLimpet_Shielded",
         grades: {
-          "1": {
+          1: {
             components: {
               "Worn Shield Emitters": 1
             },
@@ -20737,7 +20737,7 @@ module.exports = {
             },
             uuid: "952d56cc-0c1c-4a62-a8c4-a4c668181654"
           },
-          "2": {
+          2: {
             components: {
               Carbon: 1,
               "Shield Emitters": 1
@@ -20748,7 +20748,7 @@ module.exports = {
             },
             uuid: "accfd35c-3172-455a-94b6-27be6409970a"
           },
-          "3": {
+          3: {
             components: {
               Carbon: 1,
               "High Density Composites": 1,
@@ -20760,7 +20760,7 @@ module.exports = {
             },
             uuid: "0db2b6bd-df3f-48be-ac6b-a334b79757a1"
           },
-          "4": {
+          4: {
             components: {
               "Proprietary Composites": 1,
               "Shielding Sensors": 1,
@@ -20772,7 +20772,7 @@ module.exports = {
             },
             uuid: "a747942f-d354-4f0d-ad59-323e52823924"
           },
-          "5": {
+          5: {
             components: {
               "Compound Shielding": 1,
               "Core Dynamics Composites": 1,
@@ -20792,7 +20792,7 @@ module.exports = {
       HeatSinkLauncher_HeatSinkCapacity: {
         fdname: "HeatSinkLauncher_HeatSinkCapacity",
         grades: {
-          "3": {
+          3: {
             components: {
               "Mechanical Scrap": 1,
               Niobium: 1,
@@ -20813,7 +20813,7 @@ module.exports = {
       HeatSinkLauncher_LightWeight: {
         fdname: "HeatSinkLauncher_LightWeight",
         grades: {
-          "1": {
+          1: {
             components: {
               Phosphorus: 1
             },
@@ -20823,7 +20823,7 @@ module.exports = {
             },
             uuid: "0a20c246-fe84-43d1-835b-ae74474cdec9"
           },
-          "2": {
+          2: {
             components: {
               Manganese: 1,
               "Salvaged Alloys": 1
@@ -20834,7 +20834,7 @@ module.exports = {
             },
             uuid: "83dc9090-28c5-45b7-a4f5-8e2a76923e90"
           },
-          "3": {
+          3: {
             components: {
               "Conductive Ceramics": 1,
               Manganese: 1,
@@ -20846,7 +20846,7 @@ module.exports = {
             },
             uuid: "777b5a47-9d29-4787-b097-8c4a22c11d20"
           },
-          "4": {
+          4: {
             components: {
               "Conductive Components": 1,
               "Phase Alloys": 1,
@@ -20858,7 +20858,7 @@ module.exports = {
             },
             uuid: "558a1180-e1a0-4c4a-8992-fac17d58860b"
           },
-          "5": {
+          5: {
             components: {
               "Conductive Ceramics": 1,
               "Proto Light Alloys": 1,
@@ -20878,7 +20878,7 @@ module.exports = {
       HeatSinkLauncher_Reinforced: {
         fdname: "HeatSinkLauncher_Reinforced",
         grades: {
-          "1": {
+          1: {
             components: {
               Nickel: 1
             },
@@ -20888,7 +20888,7 @@ module.exports = {
             },
             uuid: "4b8ad4b4-4d42-4014-98ac-2175392ad0c8"
           },
-          "2": {
+          2: {
             components: {
               Nickel: 1,
               "Shield Emitters": 1
@@ -20899,7 +20899,7 @@ module.exports = {
             },
             uuid: "7a7166cf-d789-4cb8-9768-f31cc3159dc5"
           },
-          "3": {
+          3: {
             components: {
               Nickel: 1,
               "Shield Emitters": 1,
@@ -20911,7 +20911,7 @@ module.exports = {
             },
             uuid: "93d33903-1dc8-453a-8bd6-df3198c1eac5"
           },
-          "4": {
+          4: {
             components: {
               Molybdenum: 1,
               Tungsten: 1,
@@ -20923,7 +20923,7 @@ module.exports = {
             },
             uuid: "9a174428-ac75-4bc8-80e0-c1327d0317b8"
           },
-          "5": {
+          5: {
             components: {
               "High Density Composites": 1,
               Molybdenum: 1,
@@ -20943,7 +20943,7 @@ module.exports = {
       HeatSinkLauncher_Shielded: {
         fdname: "HeatSinkLauncher_Shielded",
         grades: {
-          "1": {
+          1: {
             components: {
               "Worn Shield Emitters": 1
             },
@@ -20953,7 +20953,7 @@ module.exports = {
             },
             uuid: "b7bb4a4a-61ee-44b6-b477-e6abf7540240"
           },
-          "2": {
+          2: {
             components: {
               Carbon: 1,
               "Shield Emitters": 1
@@ -20964,7 +20964,7 @@ module.exports = {
             },
             uuid: "69ec3d60-591c-4c65-a6d4-2b2fe83e1819"
           },
-          "3": {
+          3: {
             components: {
               Carbon: 1,
               "High Density Composites": 1,
@@ -20976,7 +20976,7 @@ module.exports = {
             },
             uuid: "beb3c5c1-689c-497d-a1b0-92d7fda93878"
           },
-          "4": {
+          4: {
             components: {
               "Proprietary Composites": 1,
               "Shielding Sensors": 1,
@@ -20988,7 +20988,7 @@ module.exports = {
             },
             uuid: "52f4a6d1-c291-4ac6-84f2-6d39bc54e675"
           },
-          "5": {
+          5: {
             components: {
               "Compound Shielding": 1,
               "Core Dynamics Composites": 1,
@@ -21008,7 +21008,7 @@ module.exports = {
       HullReinforcement_Advanced: {
         fdname: "HullReinforcement_Advanced",
         grades: {
-          "1": {
+          1: {
             components: {
               Iron: 1
             },
@@ -21019,7 +21019,7 @@ module.exports = {
             },
             uuid: "8405c035-bf65-47d1-bdbe-5253b5c0a98b"
           },
-          "2": {
+          2: {
             components: {
               "Conductive Components": 1,
               Iron: 1
@@ -21031,7 +21031,7 @@ module.exports = {
             },
             uuid: "a8dad054-0392-460a-934e-27d40f65e1fc"
           },
-          "3": {
+          3: {
             components: {
               "Conductive Components": 1,
               "High Density Composites": 1,
@@ -21044,7 +21044,7 @@ module.exports = {
             },
             uuid: "ee887ba1-c66f-4002-97cb-5169201324af"
           },
-          "4": {
+          4: {
             components: {
               "Conductive Ceramics": 1,
               Germanium: 1,
@@ -21057,7 +21057,7 @@ module.exports = {
             },
             uuid: "8912615d-e711-4e5d-a08f-739cbf372963"
           },
-          "5": {
+          5: {
             components: {
               "Conductive Ceramics": 1,
               "Military Grade Alloys": 1,
@@ -21078,7 +21078,7 @@ module.exports = {
       HullReinforcement_Explosive: {
         fdname: "HullReinforcement_Explosive",
         grades: {
-          "1": {
+          1: {
             components: {
               Nickel: 1
             },
@@ -21090,7 +21090,7 @@ module.exports = {
             },
             uuid: "ed72014b-4033-413c-8a71-5eac18e085ce"
           },
-          "2": {
+          2: {
             components: {
               Carbon: 1,
               Zinc: 1
@@ -21103,7 +21103,7 @@ module.exports = {
             },
             uuid: "7be2929b-0c89-4059-90d9-4631d90c053b"
           },
-          "3": {
+          3: {
             components: {
               "Salvaged Alloys": 1,
               Vanadium: 1,
@@ -21117,7 +21117,7 @@ module.exports = {
             },
             uuid: "11742116-77d3-40ea-bd1f-71e0558a0ad1"
           },
-          "4": {
+          4: {
             components: {
               "Galvanising Alloys": 1,
               Mercury: 1,
@@ -21131,7 +21131,7 @@ module.exports = {
             },
             uuid: "1f59b0aa-46ab-4eb5-bf07-fe4d8f968c1d"
           },
-          "5": {
+          5: {
             components: {
               Molybdenum: 1,
               "Phase Alloys": 1,
@@ -21153,7 +21153,7 @@ module.exports = {
       HullReinforcement_HeavyDuty: {
         fdname: "HullReinforcement_HeavyDuty",
         grades: {
-          "1": {
+          1: {
             components: {
               Carbon: 1
             },
@@ -21166,7 +21166,7 @@ module.exports = {
             },
             uuid: "e174a927-ab55-4691-be3e-832f6d68d679"
           },
-          "2": {
+          2: {
             components: {
               Carbon: 1,
               "Shield Emitters": 1
@@ -21180,7 +21180,7 @@ module.exports = {
             },
             uuid: "2cd3f87c-5ea3-4bd5-ab6d-70458f29de7e"
           },
-          "3": {
+          3: {
             components: {
               Carbon: 1,
               "High Density Composites": 1,
@@ -21195,7 +21195,7 @@ module.exports = {
             },
             uuid: "251e8773-d06a-4b0e-9e30-a5114a45a5c1"
           },
-          "4": {
+          4: {
             components: {
               "Proprietary Composites": 1,
               "Shielding Sensors": 1,
@@ -21210,7 +21210,7 @@ module.exports = {
             },
             uuid: "d6b14f0e-9a32-4838-b41f-986f4a5abd6d"
           },
-          "5": {
+          5: {
             components: {
               "Compound Shielding": 1,
               "Core Dynamics Composites": 1,
@@ -21233,7 +21233,7 @@ module.exports = {
       HullReinforcement_Kinetic: {
         fdname: "HullReinforcement_Kinetic",
         grades: {
-          "1": {
+          1: {
             components: {
               Nickel: 1
             },
@@ -21245,7 +21245,7 @@ module.exports = {
             },
             uuid: "9d5338ab-031c-40e5-bd13-d3eb057540ab"
           },
-          "2": {
+          2: {
             components: {
               Nickel: 1,
               Vanadium: 1
@@ -21258,7 +21258,7 @@ module.exports = {
             },
             uuid: "238db8e4-99e2-4e70-b4e3-f918294110c7"
           },
-          "3": {
+          3: {
             components: {
               "High Density Composites": 1,
               "Salvaged Alloys": 1,
@@ -21272,7 +21272,7 @@ module.exports = {
             },
             uuid: "cb65ddfa-2fd9-4db5-9558-0770866ea8ee"
           },
-          "4": {
+          4: {
             components: {
               "Galvanising Alloys": 1,
               "Proprietary Composites": 1,
@@ -21286,7 +21286,7 @@ module.exports = {
             },
             uuid: "944cb78e-4da0-43a0-acc8-95c7d67eaf92"
           },
-          "5": {
+          5: {
             components: {
               "Core Dynamics Composites": 1,
               Molybdenum: 1,
@@ -21308,7 +21308,7 @@ module.exports = {
       HullReinforcement_Thermic: {
         fdname: "HullReinforcement_Thermic",
         grades: {
-          "1": {
+          1: {
             components: {
               "Heat Conduction Wiring": 1
             },
@@ -21320,7 +21320,7 @@ module.exports = {
             },
             uuid: "cc3d62d5-9769-480d-9e37-620c61a276ab"
           },
-          "2": {
+          2: {
             components: {
               "Heat Dispersion Plate": 1,
               Nickel: 1
@@ -21333,7 +21333,7 @@ module.exports = {
             },
             uuid: "e4aa2331-7dc5-479c-9959-d90f0e473da9"
           },
-          "3": {
+          3: {
             components: {
               "Heat Exchangers": 1,
               "Salvaged Alloys": 1,
@@ -21347,7 +21347,7 @@ module.exports = {
             },
             uuid: "29f49ae9-e241-4791-a9e3-bfdccd6cdfbb"
           },
-          "4": {
+          4: {
             components: {
               "Galvanising Alloys": 1,
               "Heat Vanes": 1,
@@ -21361,7 +21361,7 @@ module.exports = {
             },
             uuid: "19e30f32-a789-4acf-8f69-f97677ace963"
           },
-          "5": {
+          5: {
             components: {
               Molybdenum: 1,
               "Phase Alloys": 1,
@@ -21383,7 +21383,7 @@ module.exports = {
       KillWarrantScanner_LightWeight: {
         fdname: "KillWarrantScanner_LightWeight",
         grades: {
-          "1": {
+          1: {
             components: {
               Phosphorus: 1
             },
@@ -21393,7 +21393,7 @@ module.exports = {
             },
             uuid: "b56007ba-9351-417e-9da8-def090b31e50"
           },
-          "2": {
+          2: {
             components: {
               Manganese: 1,
               "Salvaged Alloys": 1
@@ -21404,7 +21404,7 @@ module.exports = {
             },
             uuid: "14b2d6f0-5f93-48c9-a04a-b9b1064b4bd1"
           },
-          "3": {
+          3: {
             components: {
               "Conductive Ceramics": 1,
               Manganese: 1,
@@ -21416,7 +21416,7 @@ module.exports = {
             },
             uuid: "d6dc2106-b95e-49fe-bd56-0ab0729045ad"
           },
-          "4": {
+          4: {
             components: {
               "Conductive Components": 1,
               "Phase Alloys": 1,
@@ -21428,7 +21428,7 @@ module.exports = {
             },
             uuid: "fa568ca9-fe6f-4036-89ae-c6659fdc4e33"
           },
-          "5": {
+          5: {
             components: {
               "Conductive Ceramics": 1,
               "Proto Light Alloys": 1,
@@ -21448,7 +21448,7 @@ module.exports = {
       KillWarrantScanner_LongRange: {
         fdname: "KillWarrantScanner_LongRange",
         grades: {
-          "1": {
+          1: {
             components: {
               Iron: 1
             },
@@ -21459,7 +21459,7 @@ module.exports = {
             },
             uuid: "2689c846-02d7-4694-97f1-85cd5437b42f"
           },
-          "2": {
+          2: {
             components: {
               "Hybrid Capacitors": 1,
               Iron: 1
@@ -21471,7 +21471,7 @@ module.exports = {
             },
             uuid: "c2160767-b03f-491e-9a45-31976fb78899"
           },
-          "3": {
+          3: {
             components: {
               "Hybrid Capacitors": 1,
               Iron: 1,
@@ -21484,7 +21484,7 @@ module.exports = {
             },
             uuid: "4d9ccdb6-89cc-4f27-a8c8-584de68dae4b"
           },
-          "4": {
+          4: {
             components: {
               "Decoded Emission Data": 1,
               "Electrochemical Arrays": 1,
@@ -21497,7 +21497,7 @@ module.exports = {
             },
             uuid: "0ecb3bee-4033-4937-a5ed-161f50cb6024"
           },
-          "5": {
+          5: {
             components: {
               "Abnormal Compact Emissions Data": 1,
               Niobium: 1,
@@ -21518,7 +21518,7 @@ module.exports = {
       KillWarrantScanner_Reinforced: {
         fdname: "KillWarrantScanner_Reinforced",
         grades: {
-          "1": {
+          1: {
             components: {
               Nickel: 1
             },
@@ -21528,7 +21528,7 @@ module.exports = {
             },
             uuid: "54cf058d-795d-423c-8923-fdd6971dec29"
           },
-          "2": {
+          2: {
             components: {
               Nickel: 1,
               "Shield Emitters": 1
@@ -21539,7 +21539,7 @@ module.exports = {
             },
             uuid: "3d7eb835-8a30-458d-bbf3-cfd8de5f8cb4"
           },
-          "3": {
+          3: {
             components: {
               Nickel: 1,
               "Shield Emitters": 1,
@@ -21551,7 +21551,7 @@ module.exports = {
             },
             uuid: "200dfa7b-085d-43d8-ae61-f7080feed350"
           },
-          "4": {
+          4: {
             components: {
               Molybdenum: 1,
               Tungsten: 1,
@@ -21563,7 +21563,7 @@ module.exports = {
             },
             uuid: "4fdb0643-c9e0-43f6-8b6b-4613fec1de03"
           },
-          "5": {
+          5: {
             components: {
               "High Density Composites": 1,
               Molybdenum: 1,
@@ -21583,7 +21583,7 @@ module.exports = {
       KillWarrantScanner_Shielded: {
         fdname: "KillWarrantScanner_Shielded",
         grades: {
-          "1": {
+          1: {
             components: {
               "Worn Shield Emitters": 1
             },
@@ -21593,7 +21593,7 @@ module.exports = {
             },
             uuid: "f4426054-f766-4be3-8b26-e9236ff61dd9"
           },
-          "2": {
+          2: {
             components: {
               Carbon: 1,
               "Shield Emitters": 1
@@ -21604,7 +21604,7 @@ module.exports = {
             },
             uuid: "fa7b4b7f-ed0a-401f-a372-1d03c09f9c55"
           },
-          "3": {
+          3: {
             components: {
               Carbon: 1,
               "High Density Composites": 1,
@@ -21616,7 +21616,7 @@ module.exports = {
             },
             uuid: "443fe7e9-e313-457b-8c0f-6eb22e6e91ef"
           },
-          "4": {
+          4: {
             components: {
               "Proprietary Composites": 1,
               "Shielding Sensors": 1,
@@ -21628,7 +21628,7 @@ module.exports = {
             },
             uuid: "b1a0e15d-7164-44f9-85e5-9acc64e56b8b"
           },
-          "5": {
+          5: {
             components: {
               "Compound Shielding": 1,
               "Core Dynamics Composites": 1,
@@ -21648,7 +21648,7 @@ module.exports = {
       LifeSupport_LightWeight: {
         fdname: "LifeSupport_LightWeight",
         grades: {
-          "1": {
+          1: {
             components: {
               Phosphorus: 1
             },
@@ -21658,7 +21658,7 @@ module.exports = {
             },
             uuid: "e1e1bd93-3a3f-4454-bfe3-0e2b6840b43a"
           },
-          "2": {
+          2: {
             components: {
               Manganese: 1,
               "Salvaged Alloys": 1
@@ -21669,7 +21669,7 @@ module.exports = {
             },
             uuid: "aaf29592-df21-4b4c-aeac-20252e75b8aa"
           },
-          "3": {
+          3: {
             components: {
               "Conductive Ceramics": 1,
               Manganese: 1,
@@ -21681,7 +21681,7 @@ module.exports = {
             },
             uuid: "8876b27a-2c31-49f0-8a47-c11acd801c2b"
           },
-          "4": {
+          4: {
             components: {
               "Conductive Components": 1,
               "Phase Alloys": 1,
@@ -21701,7 +21701,7 @@ module.exports = {
       LifeSupport_Reinforced: {
         fdname: "LifeSupport_Reinforced",
         grades: {
-          "1": {
+          1: {
             components: {
               Nickel: 1
             },
@@ -21711,7 +21711,7 @@ module.exports = {
             },
             uuid: "b40b11a1-5f0f-440f-b77d-9abf9833d546"
           },
-          "2": {
+          2: {
             components: {
               Nickel: 1,
               "Shield Emitters": 1
@@ -21722,7 +21722,7 @@ module.exports = {
             },
             uuid: "847b937b-ffa2-4418-9a48-0993a675d43f"
           },
-          "3": {
+          3: {
             components: {
               Nickel: 1,
               "Shield Emitters": 1,
@@ -21734,7 +21734,7 @@ module.exports = {
             },
             uuid: "8303d5f6-da56-41d0-8af3-4620efcc561e"
           },
-          "4": {
+          4: {
             components: {
               Molybdenum: 1,
               Tungsten: 1,
@@ -21746,7 +21746,7 @@ module.exports = {
             },
             uuid: "6c37ca40-0ae6-48e0-a145-c3eea2bf7cce"
           },
-          "5": {
+          5: {
             components: {
               "High Density Composites": 1,
               Molybdenum: 1,
@@ -21766,7 +21766,7 @@ module.exports = {
       LifeSupport_Shielded: {
         fdname: "LifeSupport_Shielded",
         grades: {
-          "1": {
+          1: {
             components: {
               "Worn Shield Emitters": 1
             },
@@ -21776,7 +21776,7 @@ module.exports = {
             },
             uuid: "fcd12382-bbb3-431b-95c5-ae9539a02a54"
           },
-          "2": {
+          2: {
             components: {
               Carbon: 1,
               "Shield Emitters": 1
@@ -21787,7 +21787,7 @@ module.exports = {
             },
             uuid: "9a62eb66-8231-4fa9-9047-284798892e93"
           },
-          "3": {
+          3: {
             components: {
               Carbon: 1,
               "High Density Composites": 1,
@@ -21799,7 +21799,7 @@ module.exports = {
             },
             uuid: "c46b6c89-0a24-4586-865d-76ff5ae35209"
           },
-          "4": {
+          4: {
             components: {
               "Proprietary Composites": 1,
               "Shielding Sensors": 1,
@@ -21819,7 +21819,7 @@ module.exports = {
       PointDefence_LightWeight: {
         fdname: "PointDefence_LightWeight",
         grades: {
-          "1": {
+          1: {
             components: {
               Phosphorus: 1
             },
@@ -21829,7 +21829,7 @@ module.exports = {
             },
             uuid: "b212ba23-880a-46f7-94ef-f276acb068da"
           },
-          "2": {
+          2: {
             components: {
               Manganese: 1,
               "Salvaged Alloys": 1
@@ -21840,7 +21840,7 @@ module.exports = {
             },
             uuid: "17733fc5-6153-406c-b7f6-fbc6904b7223"
           },
-          "3": {
+          3: {
             components: {
               "Conductive Ceramics": 1,
               Manganese: 1,
@@ -21852,7 +21852,7 @@ module.exports = {
             },
             uuid: "428b7f9f-9ab2-4f1f-9e8e-9a54ede9af65"
           },
-          "4": {
+          4: {
             components: {
               "Conductive Components": 1,
               "Phase Alloys": 1,
@@ -21864,7 +21864,7 @@ module.exports = {
             },
             uuid: "6285a7cd-bb8f-427d-b2aa-3c20953c9c9c"
           },
-          "5": {
+          5: {
             components: {
               "Conductive Ceramics": 1,
               "Proto Light Alloys": 1,
@@ -21884,7 +21884,7 @@ module.exports = {
       PointDefence_PointDefenseCapacity: {
         fdname: "PointDefence_PointDefenseCapacity",
         grades: {
-          "3": {
+          3: {
             components: {
               "Mechanical Scrap": 1,
               Niobium: 1,
@@ -21905,7 +21905,7 @@ module.exports = {
       PointDefence_Reinforced: {
         fdname: "PointDefence_Reinforced",
         grades: {
-          "1": {
+          1: {
             components: {
               Nickel: 1
             },
@@ -21915,7 +21915,7 @@ module.exports = {
             },
             uuid: "be6995c8-ffe3-41db-82c7-8a1d876254bd"
           },
-          "2": {
+          2: {
             components: {
               Nickel: 1,
               "Shield Emitters": 1
@@ -21926,7 +21926,7 @@ module.exports = {
             },
             uuid: "b485f4a5-194e-44cd-8a68-d78d87b78749"
           },
-          "3": {
+          3: {
             components: {
               Nickel: 1,
               "Shield Emitters": 1,
@@ -21938,7 +21938,7 @@ module.exports = {
             },
             uuid: "007beb33-2cb2-48fc-b3d3-b5b82fc7c795"
           },
-          "4": {
+          4: {
             components: {
               Molybdenum: 1,
               Tungsten: 1,
@@ -21950,7 +21950,7 @@ module.exports = {
             },
             uuid: "3fbaecf6-2bdf-4c53-b455-d37d0d78571c"
           },
-          "5": {
+          5: {
             components: {
               "High Density Composites": 1,
               Molybdenum: 1,
@@ -21970,7 +21970,7 @@ module.exports = {
       PointDefence_Shielded: {
         fdname: "PointDefence_Shielded",
         grades: {
-          "1": {
+          1: {
             components: {
               "Worn Shield Emitters": 1
             },
@@ -21980,7 +21980,7 @@ module.exports = {
             },
             uuid: "84de52cc-9d50-48b9-94bc-262735f61a27"
           },
-          "2": {
+          2: {
             components: {
               Carbon: 1,
               "Shield Emitters": 1
@@ -21991,7 +21991,7 @@ module.exports = {
             },
             uuid: "94b0ceb5-3f07-4206-aa02-1e69f1059476"
           },
-          "3": {
+          3: {
             components: {
               Carbon: 1,
               "High Density Composites": 1,
@@ -22003,7 +22003,7 @@ module.exports = {
             },
             uuid: "ad2d6c5e-f69d-44cd-94e5-0437a1b77e39"
           },
-          "4": {
+          4: {
             components: {
               "Proprietary Composites": 1,
               "Shielding Sensors": 1,
@@ -22015,7 +22015,7 @@ module.exports = {
             },
             uuid: "718b1c81-ffc9-4097-8969-3805dfab4ce2"
           },
-          "5": {
+          5: {
             components: {
               "Compound Shielding": 1,
               "Core Dynamics Composites": 1,
@@ -22035,7 +22035,7 @@ module.exports = {
       PowerDistributor_HighCapacity: {
         fdname: "PowerDistributor_HighCapacity",
         grades: {
-          "1": {
+          1: {
             components: {
               Sulphur: 1
             },
@@ -22050,7 +22050,7 @@ module.exports = {
             },
             uuid: "e1ae5651-f688-46e2-a94a-9c3bc6e8665b"
           },
-          "2": {
+          2: {
             components: {
               Chromium: 1,
               "Specialised Legacy Firmware": 1
@@ -22066,7 +22066,7 @@ module.exports = {
             },
             uuid: "d5ea6b7b-31eb-44f4-b1f3-8126dd6ea7b5"
           },
-          "3": {
+          3: {
             components: {
               Chromium: 1,
               "High Density Composites": 1,
@@ -22083,7 +22083,7 @@ module.exports = {
             },
             uuid: "b959a87e-a231-46e7-a6a7-65fe6c0464bc"
           },
-          "4": {
+          4: {
             components: {
               "Modified Consumer Firmware": 1,
               "Proprietary Composites": 1,
@@ -22100,7 +22100,7 @@ module.exports = {
             },
             uuid: "5f468c03-ed6d-474f-9e82-601b11d728c8"
           },
-          "5": {
+          5: {
             components: {
               "Cracked Industrial Firmware": 1,
               "Military Supercapacitors": 1,
@@ -22125,7 +22125,7 @@ module.exports = {
       PowerDistributor_HighFrequency: {
         fdname: "PowerDistributor_HighFrequency",
         grades: {
-          "1": {
+          1: {
             components: {
               "Specialised Legacy Firmware": 1
             },
@@ -22139,7 +22139,7 @@ module.exports = {
             },
             uuid: "e8ce47e1-c5d7-46bf-b31e-48dcfe9ab1a5"
           },
-          "2": {
+          2: {
             components: {
               "Chemical Processors": 1,
               "Specialised Legacy Firmware": 1
@@ -22154,7 +22154,7 @@ module.exports = {
             },
             uuid: "528b87b2-157d-471e-9958-831a9962c595"
           },
-          "3": {
+          3: {
             components: {
               "Chemical Distillery": 1,
               "Grid Resistors": 1,
@@ -22170,7 +22170,7 @@ module.exports = {
             },
             uuid: "713b5e19-b7a5-447f-b450-248e771dcd72"
           },
-          "4": {
+          4: {
             components: {
               "Chemical Manipulators": 1,
               "Cracked Industrial Firmware": 1,
@@ -22186,7 +22186,7 @@ module.exports = {
             },
             uuid: "1bfd4836-c69d-4adf-94dd-e7c41da96416"
           },
-          "5": {
+          5: {
             components: {
               "Chemical Manipulators": 1,
               "Cracked Industrial Firmware": 1,
@@ -22210,7 +22210,7 @@ module.exports = {
       PowerDistributor_PriorityEngines: {
         fdname: "PowerDistributor_PriorityEngines",
         grades: {
-          "1": {
+          1: {
             components: {
               Sulphur: 1
             },
@@ -22224,7 +22224,7 @@ module.exports = {
             },
             uuid: "69f1b8a3-c868-452f-bdbd-cfc95e117ab5"
           },
-          "2": {
+          2: {
             components: {
               "Conductive Components": 1,
               Sulphur: 1
@@ -22239,7 +22239,7 @@ module.exports = {
             },
             uuid: "5e91d652-7346-4a22-82c9-79853fdcdf91"
           },
-          "3": {
+          3: {
             components: {
               "Anomalous Bulk Scan Data": 1,
               Chromium: 1,
@@ -22255,7 +22255,7 @@ module.exports = {
             },
             uuid: "4185370a-c4e9-4f58-9b67-a7f46bb2d3c2"
           },
-          "4": {
+          4: {
             components: {
               "Unidentified Scan Archives": 1,
               Selenium: 1,
@@ -22271,7 +22271,7 @@ module.exports = {
             },
             uuid: "6a6a497e-8261-4763-8a15-c78222a00443"
           },
-          "5": {
+          5: {
             components: {
               "Classified Scan Databanks": 1,
               Cadmium: 1,
@@ -22295,7 +22295,7 @@ module.exports = {
       PowerDistributor_PrioritySystems: {
         fdname: "PowerDistributor_PrioritySystems",
         grades: {
-          "1": {
+          1: {
             components: {
               Sulphur: 1
             },
@@ -22309,7 +22309,7 @@ module.exports = {
             },
             uuid: "8138ba35-155d-4b82-86ef-ad4600ab5e03"
           },
-          "2": {
+          2: {
             components: {
               "Conductive Components": 1,
               Sulphur: 1
@@ -22324,7 +22324,7 @@ module.exports = {
             },
             uuid: "91c79b1b-b494-4dd9-98c4-10d58aa5509f"
           },
-          "3": {
+          3: {
             components: {
               "Anomalous Bulk Scan Data": 1,
               Chromium: 1,
@@ -22340,7 +22340,7 @@ module.exports = {
             },
             uuid: "13ab16c7-2456-4387-b536-b28fd2f57d2e"
           },
-          "4": {
+          4: {
             components: {
               "Unidentified Scan Archives": 1,
               Selenium: 1,
@@ -22356,7 +22356,7 @@ module.exports = {
             },
             uuid: "544e6d6b-be89-478d-9b1b-62fae7599d30"
           },
-          "5": {
+          5: {
             components: {
               "Classified Scan Databanks": 1,
               Cadmium: 1,
@@ -22380,7 +22380,7 @@ module.exports = {
       PowerDistributor_PriorityWeapons: {
         fdname: "PowerDistributor_PriorityWeapons",
         grades: {
-          "1": {
+          1: {
             components: {
               Sulphur: 1
             },
@@ -22394,7 +22394,7 @@ module.exports = {
             },
             uuid: "dd023cf4-0b4d-4d18-957f-4b1eecb71c0a"
           },
-          "2": {
+          2: {
             components: {
               "Conductive Components": 1,
               Sulphur: 1
@@ -22409,7 +22409,7 @@ module.exports = {
             },
             uuid: "cac790f3-9852-4673-a219-0f5e4dc6a0ad"
           },
-          "3": {
+          3: {
             components: {
               "Anomalous Bulk Scan Data": 1,
               Chromium: 1,
@@ -22425,7 +22425,7 @@ module.exports = {
             },
             uuid: "cc5507e8-613b-4d43-a7fe-a874be963125"
           },
-          "4": {
+          4: {
             components: {
               "Unidentified Scan Archives": 1,
               Selenium: 1,
@@ -22441,7 +22441,7 @@ module.exports = {
             },
             uuid: "34c9c5e5-8a42-4509-a22a-7313528263f2"
           },
-          "5": {
+          5: {
             components: {
               "Classified Scan Databanks": 1,
               Cadmium: 1,
@@ -22465,7 +22465,7 @@ module.exports = {
       PowerDistributor_Shielded: {
         fdname: "PowerDistributor_Shielded",
         grades: {
-          "1": {
+          1: {
             components: {
               "Worn Shield Emitters": 1
             },
@@ -22476,7 +22476,7 @@ module.exports = {
             },
             uuid: "05883145-2407-46a1-9eea-5a56ac549cfd"
           },
-          "2": {
+          2: {
             components: {
               Carbon: 1,
               "Shield Emitters": 1
@@ -22488,7 +22488,7 @@ module.exports = {
             },
             uuid: "5822ff0c-fa6c-4072-95be-e2534f37be00"
           },
-          "3": {
+          3: {
             components: {
               Carbon: 1,
               "High Density Composites": 1,
@@ -22501,7 +22501,7 @@ module.exports = {
             },
             uuid: "d5040eac-fa75-4613-828d-ea71aefd9051"
           },
-          "4": {
+          4: {
             components: {
               "Proprietary Composites": 1,
               "Shielding Sensors": 1,
@@ -22514,7 +22514,7 @@ module.exports = {
             },
             uuid: "32c94fd6-71c3-461b-80ed-bfe1543f9651"
           },
-          "5": {
+          5: {
             components: {
               "Compound Shielding": 1,
               "Core Dynamics Composites": 1,
@@ -22535,7 +22535,7 @@ module.exports = {
       PowerPlant_Armoured: {
         fdname: "PowerPlant_Armoured",
         grades: {
-          "1": {
+          1: {
             components: {
               "Worn Shield Emitters": 1
             },
@@ -22547,7 +22547,7 @@ module.exports = {
             },
             uuid: "14be2e0d-417b-4cde-834f-b7e8ca14bb85"
           },
-          "2": {
+          2: {
             components: {
               Carbon: 1,
               "Shield Emitters": 1
@@ -22560,7 +22560,7 @@ module.exports = {
             },
             uuid: "14ade730-2a1d-4f48-a619-46be865819ec"
           },
-          "3": {
+          3: {
             components: {
               Carbon: 1,
               "High Density Composites": 1,
@@ -22574,7 +22574,7 @@ module.exports = {
             },
             uuid: "aa9a05c9-f142-40db-b0bf-8f6ca29efba8"
           },
-          "4": {
+          4: {
             components: {
               "Proprietary Composites": 1,
               "Shielding Sensors": 1,
@@ -22588,7 +22588,7 @@ module.exports = {
             },
             uuid: "bfb0ccc8-389e-4df0-9acd-4df91680c5a3"
           },
-          "5": {
+          5: {
             components: {
               "Compound Shielding": 1,
               "Core Dynamics Composites": 1,
@@ -22610,7 +22610,7 @@ module.exports = {
       PowerPlant_Boosted: {
         fdname: "PowerPlant_Boosted",
         grades: {
-          "1": {
+          1: {
             components: {
               Sulphur: 1
             },
@@ -22621,7 +22621,7 @@ module.exports = {
             },
             uuid: "06282764-2821-4604-ad2c-d9b148d562d0"
           },
-          "2": {
+          2: {
             components: {
               "Conductive Components": 1,
               "Heat Conduction Wiring": 1
@@ -22633,7 +22633,7 @@ module.exports = {
             },
             uuid: "feb49620-2df8-4ec6-9a58-13f986aed81f"
           },
-          "3": {
+          3: {
             components: {
               "Conductive Components": 1,
               "Heat Conduction Wiring": 1,
@@ -22646,7 +22646,7 @@ module.exports = {
             },
             uuid: "9325c166-998d-4ea6-8dab-0aafcec76705"
           },
-          "4": {
+          4: {
             components: {
               Cadmium: 1,
               "Conductive Ceramics": 1,
@@ -22659,7 +22659,7 @@ module.exports = {
             },
             uuid: "6dd84c8d-1d21-4bf5-a747-f582ffe49a99"
           },
-          "5": {
+          5: {
             components: {
               "Chemical Manipulators": 1,
               "Conductive Ceramics": 1,
@@ -22680,7 +22680,7 @@ module.exports = {
       PowerPlant_Stealth: {
         fdname: "PowerPlant_Stealth",
         grades: {
-          "1": {
+          1: {
             components: {
               Iron: 1
             },
@@ -22691,7 +22691,7 @@ module.exports = {
             },
             uuid: "92571059-8e76-4473-b3ee-1b50803c75ef"
           },
-          "2": {
+          2: {
             components: {
               Iron: 1,
               "Irregular Emission Data": 1
@@ -22703,7 +22703,7 @@ module.exports = {
             },
             uuid: "5a20a4d0-2d5d-4380-b14d-6099928cd0a7"
           },
-          "3": {
+          3: {
             components: {
               "Heat Exchangers": 1,
               Iron: 1,
@@ -22716,7 +22716,7 @@ module.exports = {
             },
             uuid: "a0283399-56cd-4013-8293-872ad44a1ffd"
           },
-          "4": {
+          4: {
             components: {
               "Heat Vanes": 1,
               Germanium: 1,
@@ -22729,7 +22729,7 @@ module.exports = {
             },
             uuid: "e87a55a5-ddf0-42fe-b919-9a3ef13a7bba"
           },
-          "5": {
+          5: {
             components: {
               "Proto Heat Radiators": 1,
               Niobium: 1,
@@ -22750,7 +22750,7 @@ module.exports = {
       ProspectingLimpet_LightWeight: {
         fdname: "ProspectingLimpet_LightWeight",
         grades: {
-          "1": {
+          1: {
             components: {
               Phosphorus: 1
             },
@@ -22760,7 +22760,7 @@ module.exports = {
             },
             uuid: "bb27a6b6-5c10-41e8-a6b3-3abc8a4ed23e"
           },
-          "2": {
+          2: {
             components: {
               Manganese: 1,
               "Salvaged Alloys": 1
@@ -22771,7 +22771,7 @@ module.exports = {
             },
             uuid: "95af3c55-ec45-4f5d-848d-1639307fee41"
           },
-          "3": {
+          3: {
             components: {
               "Conductive Ceramics": 1,
               Manganese: 1,
@@ -22783,7 +22783,7 @@ module.exports = {
             },
             uuid: "a3b84b26-d67e-4d8c-9653-f23181cce9f8"
           },
-          "4": {
+          4: {
             components: {
               "Conductive Components": 1,
               "Phase Alloys": 1,
@@ -22795,7 +22795,7 @@ module.exports = {
             },
             uuid: "363a9543-4072-4211-8c89-8e9477fa72eb"
           },
-          "5": {
+          5: {
             components: {
               "Conductive Ceramics": 1,
               "Proto Light Alloys": 1,
@@ -22815,7 +22815,7 @@ module.exports = {
       ProspectingLimpet_Reinforced: {
         fdname: "ProspectingLimpet_Reinforced",
         grades: {
-          "1": {
+          1: {
             components: {
               Nickel: 1
             },
@@ -22825,7 +22825,7 @@ module.exports = {
             },
             uuid: "650fdb39-a2fa-4757-bac0-fcad6c7104f9"
           },
-          "2": {
+          2: {
             components: {
               Nickel: 1,
               "Shield Emitters": 1
@@ -22836,7 +22836,7 @@ module.exports = {
             },
             uuid: "ee33e0d9-d8b2-4ac5-9370-7dac2f252570"
           },
-          "3": {
+          3: {
             components: {
               Nickel: 1,
               "Shield Emitters": 1,
@@ -22848,7 +22848,7 @@ module.exports = {
             },
             uuid: "5c8c244e-2f93-4422-8fcb-ad4012020a8a"
           },
-          "4": {
+          4: {
             components: {
               Molybdenum: 1,
               Tungsten: 1,
@@ -22860,7 +22860,7 @@ module.exports = {
             },
             uuid: "31532d5f-6e3c-45a6-95b2-13fb0218aa7a"
           },
-          "5": {
+          5: {
             components: {
               "High Density Composites": 1,
               Molybdenum: 1,
@@ -22880,7 +22880,7 @@ module.exports = {
       ProspectingLimpet_Shielded: {
         fdname: "ProspectingLimpet_Shielded",
         grades: {
-          "1": {
+          1: {
             components: {
               "Worn Shield Emitters": 1
             },
@@ -22890,7 +22890,7 @@ module.exports = {
             },
             uuid: "573d6e16-dc01-4093-a14d-420621279673"
           },
-          "2": {
+          2: {
             components: {
               Carbon: 1,
               "Shield Emitters": 1
@@ -22901,7 +22901,7 @@ module.exports = {
             },
             uuid: "197d4759-f451-4b30-8051-08c5fde05421"
           },
-          "3": {
+          3: {
             components: {
               Carbon: 1,
               "High Density Composites": 1,
@@ -22913,7 +22913,7 @@ module.exports = {
             },
             uuid: "633cafa0-a2c3-436c-867f-aba0205e55b8"
           },
-          "4": {
+          4: {
             components: {
               "Proprietary Composites": 1,
               "Shielding Sensors": 1,
@@ -22925,7 +22925,7 @@ module.exports = {
             },
             uuid: "6a396efb-3aa1-4022-b66d-dd299ff7e4d8"
           },
-          "5": {
+          5: {
             components: {
               "Compound Shielding": 1,
               "Core Dynamics Composites": 1,
@@ -22945,7 +22945,7 @@ module.exports = {
       Refineries_Shielded: {
         fdname: "Refineries_Shielded",
         grades: {
-          "1": {
+          1: {
             components: {
               "Worn Shield Emitters": 1
             },
@@ -22955,7 +22955,7 @@ module.exports = {
             },
             uuid: "58578acb-b652-4a30-8ffe-e4e488325221"
           },
-          "2": {
+          2: {
             components: {
               Carbon: 1,
               "Shield Emitters": 1
@@ -22966,7 +22966,7 @@ module.exports = {
             },
             uuid: "e33c7809-d6cd-4549-8596-9400baabc3cd"
           },
-          "3": {
+          3: {
             components: {
               Carbon: 1,
               "High Density Composites": 1,
@@ -22978,7 +22978,7 @@ module.exports = {
             },
             uuid: "cffa4897-fa7a-44dd-8fe1-1b3702e82f9e"
           },
-          "4": {
+          4: {
             components: {
               "Proprietary Composites": 1,
               "Shielding Sensors": 1,
@@ -22998,7 +22998,7 @@ module.exports = {
       Sensor_CargoScanner_FastScan: {
         fdname: "Sensor_CargoScanner_FastScan",
         grades: {
-          "1": {
+          1: {
             components: {
               Phosphorus: 1
             },
@@ -23009,7 +23009,7 @@ module.exports = {
             },
             uuid: "8e2046eb-06bf-44e4-8fad-981f24d68340"
           },
-          "2": {
+          2: {
             components: {
               "Flawed Focus Crystals": 1,
               Phosphorus: 1
@@ -23021,7 +23021,7 @@ module.exports = {
             },
             uuid: "953bcfbf-a46d-45e2-90c7-f727e641edc3"
           },
-          "3": {
+          3: {
             components: {
               "Flawed Focus Crystals": 1,
               "Open Symmetric Keys": 1,
@@ -23034,7 +23034,7 @@ module.exports = {
             },
             uuid: "bed8bdc6-ef45-450e-aa7f-802cea642b2d"
           },
-          "4": {
+          4: {
             components: {
               "Atypical Encryption Archives": 1,
               "Focus Crystals": 1,
@@ -23047,7 +23047,7 @@ module.exports = {
             },
             uuid: "610ba60e-d0e3-42c2-9269-c67bafb25546"
           },
-          "5": {
+          5: {
             components: {
               "Adaptive Encryptors Capture": 1,
               Arsenic: 1,
@@ -23068,7 +23068,7 @@ module.exports = {
       Sensor_CargoScanner_LongRange: {
         fdname: "Sensor_CargoScanner_LongRange",
         grades: {
-          "1": {
+          1: {
             components: {
               Iron: 1
             },
@@ -23079,7 +23079,7 @@ module.exports = {
             },
             uuid: "1b566f8d-56ef-4b11-bb06-1fd9c603ab1c"
           },
-          "2": {
+          2: {
             components: {
               "Hybrid Capacitors": 1,
               Iron: 1
@@ -23091,7 +23091,7 @@ module.exports = {
             },
             uuid: "9371ee9f-12a1-4859-9b97-e3c3c87ee0a0"
           },
-          "3": {
+          3: {
             components: {
               "Hybrid Capacitors": 1,
               Iron: 1,
@@ -23104,7 +23104,7 @@ module.exports = {
             },
             uuid: "317bbfd2-7b05-4f7a-b6ca-55e0a7d3f147"
           },
-          "4": {
+          4: {
             components: {
               "Decoded Emission Data": 1,
               "Electrochemical Arrays": 1,
@@ -23117,7 +23117,7 @@ module.exports = {
             },
             uuid: "5e3ac270-69ef-4301-9e86-8c9cbc5ada89"
           },
-          "5": {
+          5: {
             components: {
               "Abnormal Compact Emissions Data": 1,
               Niobium: 1,
@@ -23138,7 +23138,7 @@ module.exports = {
       Sensor_CargoScanner_WideAngle: {
         fdname: "Sensor_CargoScanner_WideAngle",
         grades: {
-          "1": {
+          1: {
             components: {
               "Mechanical Scrap": 1
             },
@@ -23149,7 +23149,7 @@ module.exports = {
             },
             uuid: "c034e952-985f-4b04-9d9e-bec4ddc50171"
           },
-          "2": {
+          2: {
             components: {
               Germanium: 1,
               "Mechanical Scrap": 1
@@ -23161,7 +23161,7 @@ module.exports = {
             },
             uuid: "c2dee450-a617-4740-9af9-57cf2ea7de4f"
           },
-          "3": {
+          3: {
             components: {
               "Classified Scan Databanks": 1,
               Germanium: 1,
@@ -23174,7 +23174,7 @@ module.exports = {
             },
             uuid: "181cd2e3-ef3c-4939-b5b9-f6b21090d920"
           },
-          "4": {
+          4: {
             components: {
               "Divergent Scan Data": 1,
               "Mechanical Equipment": 1,
@@ -23187,7 +23187,7 @@ module.exports = {
             },
             uuid: "a93247e8-cbce-4026-9640-6137934614c9"
           },
-          "5": {
+          5: {
             components: {
               "Classified Scan Fragment": 1,
               "Mechanical Components": 1,
@@ -23208,7 +23208,7 @@ module.exports = {
       Sensor_KillWarrantScanner_FastScan: {
         fdname: "Sensor_KillWarrantScanner_FastScan",
         grades: {
-          "1": {
+          1: {
             components: {
               Phosphorus: 1
             },
@@ -23219,7 +23219,7 @@ module.exports = {
             },
             uuid: "37c2d07b-fa12-4ad2-a1cb-a1c9c5cdb348"
           },
-          "2": {
+          2: {
             components: {
               "Flawed Focus Crystals": 1,
               Phosphorus: 1
@@ -23231,7 +23231,7 @@ module.exports = {
             },
             uuid: "a375ac53-e245-4364-8d8a-389e247bc74d"
           },
-          "3": {
+          3: {
             components: {
               "Flawed Focus Crystals": 1,
               "Open Symmetric Keys": 1,
@@ -23244,7 +23244,7 @@ module.exports = {
             },
             uuid: "472ebde0-72d0-4ec1-beda-11cbcbad13f9"
           },
-          "4": {
+          4: {
             components: {
               "Atypical Encryption Archives": 1,
               "Focus Crystals": 1,
@@ -23257,7 +23257,7 @@ module.exports = {
             },
             uuid: "6d8d3ba8-46b3-4482-a65d-b1c6663c543b"
           },
-          "5": {
+          5: {
             components: {
               "Adaptive Encryptors Capture": 1,
               Arsenic: 1,
@@ -23278,7 +23278,7 @@ module.exports = {
       Sensor_KillWarrantScanner_WideAngle: {
         fdname: "Sensor_KillWarrantScanner_WideAngle",
         grades: {
-          "1": {
+          1: {
             components: {
               "Mechanical Scrap": 1
             },
@@ -23289,7 +23289,7 @@ module.exports = {
             },
             uuid: "69ee982f-f925-4e0a-a7a8-cc52ff9bc295"
           },
-          "2": {
+          2: {
             components: {
               Germanium: 1,
               "Mechanical Scrap": 1
@@ -23301,7 +23301,7 @@ module.exports = {
             },
             uuid: "3f0b3cbd-3acf-4a49-a176-6ceb02b958f9"
           },
-          "3": {
+          3: {
             components: {
               "Classified Scan Databanks": 1,
               Germanium: 1,
@@ -23314,7 +23314,7 @@ module.exports = {
             },
             uuid: "5c378d56-97f7-4a75-b113-7e6bc846d53f"
           },
-          "4": {
+          4: {
             components: {
               "Divergent Scan Data": 1,
               "Mechanical Equipment": 1,
@@ -23327,7 +23327,7 @@ module.exports = {
             },
             uuid: "887d9bb6-422f-42ce-8a21-22d1f43a7f64"
           },
-          "5": {
+          5: {
             components: {
               "Classified Scan Fragment": 1,
               "Mechanical Components": 1,
@@ -23348,7 +23348,7 @@ module.exports = {
       Sensor_Sensor_LightWeight: {
         fdname: "Sensor_Sensor_LightWeight",
         grades: {
-          "1": {
+          1: {
             components: {
               Phosphorus: 1
             },
@@ -23359,7 +23359,7 @@ module.exports = {
             },
             uuid: "239cd942-3298-4be0-b032-143961c801a1"
           },
-          "2": {
+          2: {
             components: {
               Manganese: 1,
               "Salvaged Alloys": 1
@@ -23371,7 +23371,7 @@ module.exports = {
             },
             uuid: "8dd41f78-c4f0-4107-a1fe-d1eee78bbd23"
           },
-          "3": {
+          3: {
             components: {
               "Conductive Ceramics": 1,
               Manganese: 1,
@@ -23384,7 +23384,7 @@ module.exports = {
             },
             uuid: "d51697d0-c837-4c0d-a6af-f192ace27e9a"
           },
-          "4": {
+          4: {
             components: {
               "Conductive Components": 1,
               "Phase Alloys": 1,
@@ -23397,7 +23397,7 @@ module.exports = {
             },
             uuid: "01ccf913-c1cb-47a6-9515-1d2ee3e3b2ae"
           },
-          "5": {
+          5: {
             components: {
               "Conductive Ceramics": 1,
               "Proto Light Alloys": 1,
@@ -23418,7 +23418,7 @@ module.exports = {
       Sensor_Sensor_LongRange: {
         fdname: "Sensor_Sensor_LongRange",
         grades: {
-          "1": {
+          1: {
             components: {
               Iron: 1
             },
@@ -23429,7 +23429,7 @@ module.exports = {
             },
             uuid: "92c755ae-690b-442c-bacd-606575987f22"
           },
-          "2": {
+          2: {
             components: {
               "Hybrid Capacitors": 1,
               Iron: 1
@@ -23441,7 +23441,7 @@ module.exports = {
             },
             uuid: "40167259-2960-4072-a135-cba93c87709d"
           },
-          "3": {
+          3: {
             components: {
               "Hybrid Capacitors": 1,
               Iron: 1,
@@ -23454,7 +23454,7 @@ module.exports = {
             },
             uuid: "6d422ca1-ebdd-4c87-b2b2-056e36c0cbfb"
           },
-          "4": {
+          4: {
             components: {
               "Decoded Emission Data": 1,
               "Electrochemical Arrays": 1,
@@ -23467,7 +23467,7 @@ module.exports = {
             },
             uuid: "6b09d91f-919f-4a3a-9900-850b026ab01c"
           },
-          "5": {
+          5: {
             components: {
               "Abnormal Compact Emissions Data": 1,
               Niobium: 1,
@@ -23488,7 +23488,7 @@ module.exports = {
       Sensor_Sensor_WideAngle: {
         fdname: "Sensor_Sensor_WideAngle",
         grades: {
-          "1": {
+          1: {
             components: {
               "Mechanical Scrap": 1
             },
@@ -23499,7 +23499,7 @@ module.exports = {
             },
             uuid: "996dc047-9f07-47a6-8b05-3283ce666fa7"
           },
-          "2": {
+          2: {
             components: {
               Germanium: 1,
               "Mechanical Scrap": 1
@@ -23511,7 +23511,7 @@ module.exports = {
             },
             uuid: "0855a023-3a25-44c1-84fa-c6e4e8ac3384"
           },
-          "3": {
+          3: {
             components: {
               "Classified Scan Databanks": 1,
               Germanium: 1,
@@ -23524,7 +23524,7 @@ module.exports = {
             },
             uuid: "06908f4d-30e8-448f-9652-5051a79713f3"
           },
-          "4": {
+          4: {
             components: {
               "Divergent Scan Data": 1,
               "Mechanical Equipment": 1,
@@ -23537,7 +23537,7 @@ module.exports = {
             },
             uuid: "af874bae-07c3-457a-b525-baeb771b3d72"
           },
-          "5": {
+          5: {
             components: {
               "Classified Scan Fragment": 1,
               "Mechanical Components": 1,
@@ -23558,7 +23558,7 @@ module.exports = {
       Sensor_SurfaceScanner_FastScan: {
         fdname: "Sensor_SurfaceScanner_FastScan",
         grades: {
-          "1": {
+          1: {
             components: {
               Phosphorus: 1
             },
@@ -23568,7 +23568,7 @@ module.exports = {
             },
             uuid: "97940d61-5b9a-4b0e-8cfd-33f2175b956a"
           },
-          "2": {
+          2: {
             components: {
               "Flawed Focus Crystals": 1,
               Phosphorus: 1
@@ -23579,7 +23579,7 @@ module.exports = {
             },
             uuid: "d5c0c74d-a4ff-45ed-a732-3c68aded4e06"
           },
-          "3": {
+          3: {
             components: {
               "Flawed Focus Crystals": 1,
               "Open Symmetric Keys": 1,
@@ -23591,7 +23591,7 @@ module.exports = {
             },
             uuid: "ca9fc2bb-948e-43f4-b2f2-7bea95509d63"
           },
-          "4": {
+          4: {
             components: {
               "Atypical Encryption Archives": 1,
               "Focus Crystals": 1,
@@ -23603,7 +23603,7 @@ module.exports = {
             },
             uuid: "ef254d05-630e-41b4-9e0f-d6ea0002b1fc"
           },
-          "5": {
+          5: {
             components: {
               "Adaptive Encryptors Capture": 1,
               Arsenic: 1,
@@ -23623,7 +23623,7 @@ module.exports = {
       Sensor_SurfaceScanner_LongRange: {
         fdname: "Sensor_SurfaceScanner_LongRange",
         grades: {
-          "1": {
+          1: {
             components: {
               Iron: 1
             },
@@ -23633,7 +23633,7 @@ module.exports = {
             },
             uuid: "c35f597e-dac8-4e38-8648-e2cb0018006c"
           },
-          "2": {
+          2: {
             components: {
               "Hybrid Capacitors": 1,
               Iron: 1
@@ -23644,7 +23644,7 @@ module.exports = {
             },
             uuid: "5d607664-6ec6-4fdd-b692-4d3621c76150"
           },
-          "3": {
+          3: {
             components: {
               "Hybrid Capacitors": 1,
               Iron: 1,
@@ -23656,7 +23656,7 @@ module.exports = {
             },
             uuid: "e438dda9-1b0d-47e0-be07-295c17b56c2b"
           },
-          "4": {
+          4: {
             components: {
               "Decoded Emission Data": 1,
               "Electrochemical Arrays": 1,
@@ -23668,7 +23668,7 @@ module.exports = {
             },
             uuid: "07ea5b4c-8ea7-44fb-8b0b-d38149dff798"
           },
-          "5": {
+          5: {
             components: {
               "Abnormal Compact Emissions Data": 1,
               Niobium: 1,
@@ -23688,7 +23688,7 @@ module.exports = {
       Sensor_SurfaceScanner_WideAngle: {
         fdname: "Sensor_SurfaceScanner_WideAngle",
         grades: {
-          "1": {
+          1: {
             components: {
               "Mechanical Scrap": 1
             },
@@ -23698,7 +23698,7 @@ module.exports = {
             },
             uuid: "74d12e8c-a62a-4812-b7f4-9e3356963206"
           },
-          "2": {
+          2: {
             components: {
               Germanium: 1,
               "Mechanical Scrap": 1
@@ -23709,7 +23709,7 @@ module.exports = {
             },
             uuid: "4e76da64-72ea-4112-a5e8-4c14fc2efe57"
           },
-          "3": {
+          3: {
             components: {
               "Classified Scan Databanks": 1,
               Germanium: 1,
@@ -23721,7 +23721,7 @@ module.exports = {
             },
             uuid: "e09980d9-b243-4d0f-8645-441552acb58e"
           },
-          "4": {
+          4: {
             components: {
               "Divergent Scan Data": 1,
               "Mechanical Equipment": 1,
@@ -23733,7 +23733,7 @@ module.exports = {
             },
             uuid: "ed5c2046-bb49-4e48-8799-8c96db420359"
           },
-          "5": {
+          5: {
             components: {
               "Classified Scan Fragment": 1,
               "Mechanical Components": 1,
@@ -23753,7 +23753,7 @@ module.exports = {
       Sensor_WakeScanner_FastScan: {
         fdname: "Sensor_WakeScanner_FastScan",
         grades: {
-          "1": {
+          1: {
             components: {
               Phosphorus: 1
             },
@@ -23764,7 +23764,7 @@ module.exports = {
             },
             uuid: "c7abe4af-26f0-460c-8df7-71412f12d5f8"
           },
-          "2": {
+          2: {
             components: {
               "Flawed Focus Crystals": 1,
               Phosphorus: 1
@@ -23776,7 +23776,7 @@ module.exports = {
             },
             uuid: "940b832d-2dac-4671-9ada-4bede831342e"
           },
-          "3": {
+          3: {
             components: {
               "Flawed Focus Crystals": 1,
               "Open Symmetric Keys": 1,
@@ -23789,7 +23789,7 @@ module.exports = {
             },
             uuid: "223a0854-036f-495d-afa1-69253f2b87c3"
           },
-          "4": {
+          4: {
             components: {
               "Atypical Encryption Archives": 1,
               "Focus Crystals": 1,
@@ -23802,7 +23802,7 @@ module.exports = {
             },
             uuid: "992ffcbe-26c5-4f41-bc2d-81bb6565ac27"
           },
-          "5": {
+          5: {
             components: {
               "Adaptive Encryptors Capture": 1,
               Arsenic: 1,
@@ -23823,7 +23823,7 @@ module.exports = {
       Sensor_WakeScanner_LongRange: {
         fdname: "Sensor_WakeScanner_LongRange",
         grades: {
-          "1": {
+          1: {
             components: {
               Iron: 1
             },
@@ -23834,7 +23834,7 @@ module.exports = {
             },
             uuid: "11521a5e-0b00-4efe-9433-b0d4b5168c11"
           },
-          "2": {
+          2: {
             components: {
               "Hybrid Capacitors": 1,
               Iron: 1
@@ -23846,7 +23846,7 @@ module.exports = {
             },
             uuid: "16235231-561b-4efb-a9bc-dcacb18b5651"
           },
-          "3": {
+          3: {
             components: {
               "Hybrid Capacitors": 1,
               Iron: 1,
@@ -23859,7 +23859,7 @@ module.exports = {
             },
             uuid: "8dcbfbd5-748e-46ee-b179-4e2d213e518c"
           },
-          "4": {
+          4: {
             components: {
               "Decoded Emission Data": 1,
               "Electrochemical Arrays": 1,
@@ -23872,7 +23872,7 @@ module.exports = {
             },
             uuid: "44a348b1-979f-498e-bf61-22b38cb6f53b"
           },
-          "5": {
+          5: {
             components: {
               "Abnormal Compact Emissions Data": 1,
               Niobium: 1,
@@ -23893,7 +23893,7 @@ module.exports = {
       Sensor_WakeScanner_WideAngle: {
         fdname: "Sensor_WakeScanner_WideAngle",
         grades: {
-          "1": {
+          1: {
             components: {
               "Mechanical Scrap": 1
             },
@@ -23904,7 +23904,7 @@ module.exports = {
             },
             uuid: "1b76dc7a-d52c-4cdd-93c6-6857f509519b"
           },
-          "2": {
+          2: {
             components: {
               Germanium: 1,
               "Mechanical Scrap": 1
@@ -23916,7 +23916,7 @@ module.exports = {
             },
             uuid: "9e143db0-83e9-49ff-ba53-04927287190b"
           },
-          "3": {
+          3: {
             components: {
               "Classified Scan Databanks": 1,
               Germanium: 1,
@@ -23929,7 +23929,7 @@ module.exports = {
             },
             uuid: "d2b0776c-9e74-4fe9-be1c-e49e104dcad6"
           },
-          "4": {
+          4: {
             components: {
               "Divergent Scan Data": 1,
               "Mechanical Equipment": 1,
@@ -23942,7 +23942,7 @@ module.exports = {
             },
             uuid: "a00e7425-0828-41ea-9e11-e44bc391dd6f"
           },
-          "5": {
+          5: {
             components: {
               "Classified Scan Fragment": 1,
               "Mechanical Components": 1,
@@ -23963,7 +23963,7 @@ module.exports = {
       ShieldBooster_Explosive: {
         fdname: "ShieldBooster_Explosive",
         grades: {
-          "1": {
+          1: {
             components: {
               Iron: 1
             },
@@ -23974,7 +23974,7 @@ module.exports = {
             },
             uuid: "b6dd19e6-60e4-4307-a34f-c7e0e6182d44"
           },
-          "2": {
+          2: {
             components: {
               "Conductive Components": 1,
               Iron: 1
@@ -23986,7 +23986,7 @@ module.exports = {
             },
             uuid: "3dd5f8fb-8399-4c4c-96d7-87c3840cfdeb"
           },
-          "3": {
+          3: {
             components: {
               "Conductive Components": 1,
               "Focus Crystals": 1,
@@ -23999,7 +23999,7 @@ module.exports = {
             },
             uuid: "640409d8-6cb5-4624-b2b6-f435c9d8453b"
           },
-          "4": {
+          4: {
             components: {
               Germanium: 1,
               "Refined Focus Crystals": 1,
@@ -24012,7 +24012,7 @@ module.exports = {
             },
             uuid: "8a311709-54f6-4a5f-a1cc-94c109d947df"
           },
-          "5": {
+          5: {
             components: {
               "Aberrant Shield Pattern Analysis": 1,
               "Exquisite Focus Crystals": 1,
@@ -24033,7 +24033,7 @@ module.exports = {
       ShieldBooster_HeavyDuty: {
         fdname: "ShieldBooster_HeavyDuty",
         grades: {
-          "1": {
+          1: {
             components: {
               "Grid Resistors": 1
             },
@@ -24045,7 +24045,7 @@ module.exports = {
             },
             uuid: "350e7873-893a-49d2-9057-c00e060178eb"
           },
-          "2": {
+          2: {
             components: {
               "Distorted Shield Cycle Recordings": 1,
               "Hybrid Capacitors": 1
@@ -24058,7 +24058,7 @@ module.exports = {
             },
             uuid: "636ccc8d-cc59-4366-9934-8b235becc2d7"
           },
-          "3": {
+          3: {
             components: {
               "Distorted Shield Cycle Recordings": 1,
               "Hybrid Capacitors": 1,
@@ -24072,7 +24072,7 @@ module.exports = {
             },
             uuid: "82a66c08-1205-4c1a-ab02-1889e8ebcdd8"
           },
-          "4": {
+          4: {
             components: {
               "Electrochemical Arrays": 1,
               "Inconsistent Shield Soak Analysis": 1,
@@ -24086,7 +24086,7 @@ module.exports = {
             },
             uuid: "c635934c-8d9d-4d1c-89e4-3a000a972bf2"
           },
-          "5": {
+          5: {
             components: {
               Antimony: 1,
               "Polymer Capacitors": 1,
@@ -24108,7 +24108,7 @@ module.exports = {
       ShieldBooster_Kinetic: {
         fdname: "ShieldBooster_Kinetic",
         grades: {
-          "1": {
+          1: {
             components: {
               Iron: 1
             },
@@ -24119,7 +24119,7 @@ module.exports = {
             },
             uuid: "8252b4bb-3195-4f46-88e8-b79ed5b5ad43"
           },
-          "2": {
+          2: {
             components: {
               Germanium: 1,
               "Grid Resistors": 1
@@ -24131,7 +24131,7 @@ module.exports = {
             },
             uuid: "5f099a0e-0c37-447b-b552-f2e3d8dc1d19"
           },
-          "3": {
+          3: {
             components: {
               "Focus Crystals": 1,
               "Hybrid Capacitors": 1,
@@ -24144,7 +24144,7 @@ module.exports = {
             },
             uuid: "ab7f39b5-0b0e-45b2-a016-0916026e9633"
           },
-          "4": {
+          4: {
             components: {
               "Galvanising Alloys": 1,
               "Refined Focus Crystals": 1,
@@ -24157,7 +24157,7 @@ module.exports = {
             },
             uuid: "59ddbb49-f4fc-466d-84b6-06f0529915a9"
           },
-          "5": {
+          5: {
             components: {
               "Aberrant Shield Pattern Analysis": 1,
               "Exquisite Focus Crystals": 1,
@@ -24178,7 +24178,7 @@ module.exports = {
       ShieldBooster_Resistive: {
         fdname: "ShieldBooster_Resistive",
         grades: {
-          "1": {
+          1: {
             components: {
               Phosphorus: 1
             },
@@ -24191,7 +24191,7 @@ module.exports = {
             },
             uuid: "54f9f0c6-b4e9-4861-86ab-730d800bea54"
           },
-          "2": {
+          2: {
             components: {
               "Conductive Components": 1,
               Phosphorus: 1
@@ -24205,7 +24205,7 @@ module.exports = {
             },
             uuid: "f082652b-7778-4bce-a1f1-f2491b27eb1a"
           },
-          "3": {
+          3: {
             components: {
               "Conductive Components": 1,
               "Focus Crystals": 1,
@@ -24220,7 +24220,7 @@ module.exports = {
             },
             uuid: "cfb01505-ea2b-4a33-aa6b-cbabeb60db7c"
           },
-          "4": {
+          4: {
             components: {
               "Conductive Ceramics": 1,
               Manganese: 1,
@@ -24235,7 +24235,7 @@ module.exports = {
             },
             uuid: "1d11b8c8-9c16-4bdb-ba33-e52e79fa5999"
           },
-          "5": {
+          5: {
             components: {
               "Conductive Ceramics": 1,
               "Imperial Shielding": 1,
@@ -24258,7 +24258,7 @@ module.exports = {
       ShieldBooster_Thermic: {
         fdname: "ShieldBooster_Thermic",
         grades: {
-          "1": {
+          1: {
             components: {
               Iron: 1
             },
@@ -24269,7 +24269,7 @@ module.exports = {
             },
             uuid: "9316e798-33cd-4ed2-8289-94eb82e41574"
           },
-          "2": {
+          2: {
             components: {
               Germanium: 1,
               "Heat Conduction Wiring": 1
@@ -24281,7 +24281,7 @@ module.exports = {
             },
             uuid: "62eaf453-a4dd-42e6-b404-dfb7569afec6"
           },
-          "3": {
+          3: {
             components: {
               "Focus Crystals": 1,
               "Heat Conduction Wiring": 1,
@@ -24294,7 +24294,7 @@ module.exports = {
             },
             uuid: "90cddf76-5636-46ae-8c41-b28c6831549b"
           },
-          "4": {
+          4: {
             components: {
               "Heat Dispersion Plate": 1,
               "Refined Focus Crystals": 1,
@@ -24307,7 +24307,7 @@ module.exports = {
             },
             uuid: "3a922d38-e010-4874-97c9-7459dda8c184"
           },
-          "5": {
+          5: {
             components: {
               "Aberrant Shield Pattern Analysis": 1,
               "Exquisite Focus Crystals": 1,
@@ -24328,7 +24328,7 @@ module.exports = {
       ShieldCellBank_Rapid: {
         fdname: "ShieldCellBank_Rapid",
         grades: {
-          "1": {
+          1: {
             components: {
               Sulphur: 1
             },
@@ -24340,7 +24340,7 @@ module.exports = {
             },
             uuid: "8f315143-e256-41c2-8833-f35d12e47dce"
           },
-          "2": {
+          2: {
             components: {
               Chromium: 1,
               "Grid Resistors": 1
@@ -24353,7 +24353,7 @@ module.exports = {
             },
             uuid: "f983d8e1-9a38-425c-a5bb-3881c5e0f14d"
           },
-          "3": {
+          3: {
             components: {
               "Hybrid Capacitors": 1,
               "Precipitated Alloys": 1,
@@ -24375,7 +24375,7 @@ module.exports = {
       ShieldCellBank_Specialised: {
         fdname: "ShieldCellBank_Specialised",
         grades: {
-          "1": {
+          1: {
             components: {
               "Specialised Legacy Firmware": 1
             },
@@ -24388,7 +24388,7 @@ module.exports = {
             },
             uuid: "3aa962e3-48f8-4305-829a-717dbead2830"
           },
-          "2": {
+          2: {
             components: {
               "Conductive Components": 1,
               "Specialised Legacy Firmware": 1
@@ -24402,7 +24402,7 @@ module.exports = {
             },
             uuid: "53d40533-967f-4792-b938-421f7a938540"
           },
-          "3": {
+          3: {
             components: {
               "Conductive Components": 1,
               "Cracked Industrial Firmware": 1,
@@ -24425,7 +24425,7 @@ module.exports = {
       ShieldGenerator_Kinetic: {
         fdname: "ShieldGenerator_Kinetic",
         grades: {
-          "1": {
+          1: {
             components: {
               "Distorted Shield Cycle Recordings": 1
             },
@@ -24436,7 +24436,7 @@ module.exports = {
             },
             uuid: "df87f0c1-bd60-4e18-8a03-76063d635235"
           },
-          "2": {
+          2: {
             components: {
               "Distorted Shield Cycle Recordings": 1,
               "Modified Consumer Firmware": 1
@@ -24448,7 +24448,7 @@ module.exports = {
             },
             uuid: "b67f86a0-866c-4233-9cd3-f5ea87a572eb"
           },
-          "3": {
+          3: {
             components: {
               "Distorted Shield Cycle Recordings": 1,
               "Modified Consumer Firmware": 1,
@@ -24461,7 +24461,7 @@ module.exports = {
             },
             uuid: "93979fd6-d135-4221-9a60-c9354e02619f"
           },
-          "4": {
+          4: {
             components: {
               "Focus Crystals": 1,
               "Inconsistent Shield Soak Analysis": 1,
@@ -24474,7 +24474,7 @@ module.exports = {
             },
             uuid: "0e14c801-fd35-4bca-b97b-24da20d8c716"
           },
-          "5": {
+          5: {
             components: {
               "Refined Focus Crystals": 1,
               Ruthenium: 1,
@@ -24495,7 +24495,7 @@ module.exports = {
       ShieldGenerator_Optimised: {
         fdname: "ShieldGenerator_Optimised",
         grades: {
-          "1": {
+          1: {
             components: {
               "Distorted Shield Cycle Recordings": 1
             },
@@ -24508,7 +24508,7 @@ module.exports = {
             },
             uuid: "598e0c47-ecd2-4cfa-93d1-08bbda4cd765"
           },
-          "2": {
+          2: {
             components: {
               "Distorted Shield Cycle Recordings": 1,
               Germanium: 1
@@ -24522,7 +24522,7 @@ module.exports = {
             },
             uuid: "605d6333-c544-425e-96c6-a76b6b839e2c"
           },
-          "3": {
+          3: {
             components: {
               "Distorted Shield Cycle Recordings": 1,
               Germanium: 1,
@@ -24537,7 +24537,7 @@ module.exports = {
             },
             uuid: "db5f0467-5bdc-433e-986d-031bbd48067b"
           },
-          "4": {
+          4: {
             components: {
               "Inconsistent Shield Soak Analysis": 1,
               Niobium: 1,
@@ -24552,7 +24552,7 @@ module.exports = {
             },
             uuid: "88987ab7-b759-4cda-acbb-726bd0ad17c7"
           },
-          "5": {
+          5: {
             components: {
               "Military Grade Alloys": 1,
               Tin: 1,
@@ -24575,7 +24575,7 @@ module.exports = {
       ShieldGenerator_Reinforced: {
         fdname: "ShieldGenerator_Reinforced",
         grades: {
-          "1": {
+          1: {
             components: {
               Phosphorus: 1
             },
@@ -24589,7 +24589,7 @@ module.exports = {
             },
             uuid: "47ad77c0-e49b-44e5-9824-4074b63db369"
           },
-          "2": {
+          2: {
             components: {
               "Conductive Components": 1,
               Phosphorus: 1
@@ -24604,7 +24604,7 @@ module.exports = {
             },
             uuid: "823f8f82-745d-4051-8f35-4e38a561932e"
           },
-          "3": {
+          3: {
             components: {
               "Conductive Components": 1,
               "Mechanical Components": 1,
@@ -24620,7 +24620,7 @@ module.exports = {
             },
             uuid: "a1a29713-f2e5-4e15-a913-e01dc065f99f"
           },
-          "4": {
+          4: {
             components: {
               "Conductive Ceramics": 1,
               "Configurable Components": 1,
@@ -24636,7 +24636,7 @@ module.exports = {
             },
             uuid: "87ac1315-7904-48f6-a5fe-f044be546490"
           },
-          "5": {
+          5: {
             components: {
               Arsenic: 1,
               "Conductive Polymers": 1,
@@ -24660,7 +24660,7 @@ module.exports = {
       ShieldGenerator_Thermic: {
         fdname: "ShieldGenerator_Thermic",
         grades: {
-          "1": {
+          1: {
             components: {
               "Distorted Shield Cycle Recordings": 1
             },
@@ -24671,7 +24671,7 @@ module.exports = {
             },
             uuid: "ef5a3026-0777-4715-a1f4-5c65eff85b12"
           },
-          "2": {
+          2: {
             components: {
               "Distorted Shield Cycle Recordings": 1,
               Germanium: 1
@@ -24683,7 +24683,7 @@ module.exports = {
             },
             uuid: "54e6e07a-3281-41aa-afa0-bbf292131c0f"
           },
-          "3": {
+          3: {
             components: {
               "Distorted Shield Cycle Recordings": 1,
               Germanium: 1,
@@ -24696,7 +24696,7 @@ module.exports = {
             },
             uuid: "307935bf-60d3-4887-b449-24d712518154"
           },
-          "4": {
+          4: {
             components: {
               "Focus Crystals": 1,
               "Inconsistent Shield Soak Analysis": 1,
@@ -24709,7 +24709,7 @@ module.exports = {
             },
             uuid: "ef6a4d70-9996-4db8-ae22-7c61c3dcaf74"
           },
-          "5": {
+          5: {
             components: {
               "Refined Focus Crystals": 1,
               Ruthenium: 1,
@@ -24730,7 +24730,7 @@ module.exports = {
       WakeScanner_LightWeight: {
         fdname: "WakeScanner_LightWeight",
         grades: {
-          "1": {
+          1: {
             components: {
               Phosphorus: 1
             },
@@ -24740,7 +24740,7 @@ module.exports = {
             },
             uuid: "bb40e7d4-d0f1-46aa-bedd-d946db82012d"
           },
-          "2": {
+          2: {
             components: {
               Manganese: 1,
               "Salvaged Alloys": 1
@@ -24751,7 +24751,7 @@ module.exports = {
             },
             uuid: "3d38ce20-64c8-4416-bf8c-a0de02225624"
           },
-          "3": {
+          3: {
             components: {
               "Conductive Ceramics": 1,
               Manganese: 1,
@@ -24763,7 +24763,7 @@ module.exports = {
             },
             uuid: "86c3114f-e2d5-46a1-963b-a8dcdc4254c3"
           },
-          "4": {
+          4: {
             components: {
               "Conductive Components": 1,
               "Phase Alloys": 1,
@@ -24775,7 +24775,7 @@ module.exports = {
             },
             uuid: "cd80437d-740d-4391-810d-607f7e35202c"
           },
-          "5": {
+          5: {
             components: {
               "Conductive Ceramics": 1,
               "Proto Light Alloys": 1,
@@ -24795,7 +24795,7 @@ module.exports = {
       WakeScanner_Reinforced: {
         fdname: "WakeScanner_Reinforced",
         grades: {
-          "1": {
+          1: {
             components: {
               Nickel: 1
             },
@@ -24805,7 +24805,7 @@ module.exports = {
             },
             uuid: "8a71178f-3d2a-4c53-94dc-606d9d43d43a"
           },
-          "2": {
+          2: {
             components: {
               Nickel: 1,
               "Shield Emitters": 1
@@ -24816,7 +24816,7 @@ module.exports = {
             },
             uuid: "72595b30-3bbf-47e3-82f7-db29654bef66"
           },
-          "3": {
+          3: {
             components: {
               Nickel: 1,
               "Shield Emitters": 1,
@@ -24828,7 +24828,7 @@ module.exports = {
             },
             uuid: "8cca72b3-f01a-49aa-a979-a72f3412bf6e"
           },
-          "4": {
+          4: {
             components: {
               Molybdenum: 1,
               Tungsten: 1,
@@ -24840,7 +24840,7 @@ module.exports = {
             },
             uuid: "89f9e00f-e621-4d34-bb15-4732f29a7f15"
           },
-          "5": {
+          5: {
             components: {
               "High Density Composites": 1,
               Molybdenum: 1,
@@ -24860,7 +24860,7 @@ module.exports = {
       WakeScanner_Shielded: {
         fdname: "WakeScanner_Shielded",
         grades: {
-          "1": {
+          1: {
             components: {
               "Worn Shield Emitters": 1
             },
@@ -24870,7 +24870,7 @@ module.exports = {
             },
             uuid: "c500da24-7fe5-48f6-8661-593f4caee91a"
           },
-          "2": {
+          2: {
             components: {
               Carbon: 1,
               "Shield Emitters": 1
@@ -24881,7 +24881,7 @@ module.exports = {
             },
             uuid: "eed60442-f13e-4662-8132-e50a23e2534a"
           },
-          "3": {
+          3: {
             components: {
               Carbon: 1,
               "High Density Composites": 1,
@@ -24893,7 +24893,7 @@ module.exports = {
             },
             uuid: "df8baf0f-01a1-4fea-94e6-e169f71af1c6"
           },
-          "4": {
+          4: {
             components: {
               "Proprietary Composites": 1,
               "Shielding Sensors": 1,
@@ -24905,7 +24905,7 @@ module.exports = {
             },
             uuid: "107cbead-888f-4b4c-a57e-324ccfe37006"
           },
-          "5": {
+          5: {
             components: {
               "Compound Shielding": 1,
               "Core Dynamics Composites": 1,
@@ -24925,7 +24925,7 @@ module.exports = {
       Weapon_DoubleShot: {
         fdname: "Weapon_DoubleShot",
         grades: {
-          "1": {
+          1: {
             components: {
               Carbon: 1
             },
@@ -24937,7 +24937,7 @@ module.exports = {
             },
             uuid: "0dad25c2-bbf3-4020-9af5-25f902ec7732"
           },
-          "2": {
+          2: {
             components: {
               Carbon: 1,
               "Mechanical Equipment": 1
@@ -24950,7 +24950,7 @@ module.exports = {
             },
             uuid: "5cdaf06c-5ecd-40f0-bb8b-54ce8847b4e6"
           },
-          "3": {
+          3: {
             components: {
               Carbon: 1,
               "Cracked Industrial Firmware": 1,
@@ -24964,7 +24964,7 @@ module.exports = {
             },
             uuid: "fca184ef-5346-4f9a-8964-1e158763ab03"
           },
-          "4": {
+          4: {
             components: {
               "Mechanical Components": 1,
               "Security Firmware Patch": 1,
@@ -24978,7 +24978,7 @@ module.exports = {
             },
             uuid: "93cc424a-f547-409e-8487-2f73c27d4e47"
           },
-          "5": {
+          5: {
             components: {
               "Configurable Components": 1,
               "High Density Composites": 1,
@@ -25000,7 +25000,7 @@ module.exports = {
       Weapon_Efficient: {
         fdname: "Weapon_Efficient",
         grades: {
-          "1": {
+          1: {
             components: {
               Sulphur: 1
             },
@@ -25010,7 +25010,7 @@ module.exports = {
             },
             uuid: "3fbcc9dc-169a-4cd3-b945-cedc55882cd3"
           },
-          "2": {
+          2: {
             components: {
               "Heat Dispersion Plate": 1,
               Sulphur: 1
@@ -25023,7 +25023,7 @@ module.exports = {
             },
             uuid: "a35a0c80-784d-4125-b858-fdee45750269"
           },
-          "3": {
+          3: {
             components: {
               Chromium: 1,
               "Exceptional Scrambled Emission Data": 1,
@@ -25037,7 +25037,7 @@ module.exports = {
             },
             uuid: "a429328b-11f4-402d-9909-2c6190505966"
           },
-          "4": {
+          4: {
             components: {
               "Heat Vanes": 1,
               "Irregular Emission Data": 1,
@@ -25051,7 +25051,7 @@ module.exports = {
             },
             uuid: "8c364495-468c-4ab1-9baf-079917a6cf9a"
           },
-          "5": {
+          5: {
             components: {
               Cadmium: 1,
               "Proto Heat Radiators": 1,
@@ -25073,7 +25073,7 @@ module.exports = {
       Weapon_Focused: {
         fdname: "Weapon_Focused",
         grades: {
-          "1": {
+          1: {
             components: {
               Iron: 1
             },
@@ -25085,7 +25085,7 @@ module.exports = {
             },
             uuid: "fc3e4f2e-04fb-4509-a31f-1121940e1bc6"
           },
-          "2": {
+          2: {
             components: {
               "Conductive Components": 1,
               Iron: 1
@@ -25098,7 +25098,7 @@ module.exports = {
             },
             uuid: "437e00b1-a6fd-4d84-9242-075c3ce8adcb"
           },
-          "3": {
+          3: {
             components: {
               Chromium: 1,
               "Conductive Ceramics": 1,
@@ -25112,7 +25112,7 @@ module.exports = {
             },
             uuid: "bfbadc34-e11a-4cc4-80cc-83dde5731e6f"
           },
-          "4": {
+          4: {
             components: {
               "Focus Crystals": 1,
               Germanium: 1,
@@ -25126,7 +25126,7 @@ module.exports = {
             },
             uuid: "7c41f9fc-90ec-435e-9d92-6024c32ac40d"
           },
-          "5": {
+          5: {
             components: {
               "Military Supercapacitors": 1,
               Niobium: 1,
@@ -25148,7 +25148,7 @@ module.exports = {
       Weapon_HighCapacity: {
         fdname: "Weapon_HighCapacity",
         grades: {
-          "1": {
+          1: {
             components: {
               "Mechanical Scrap": 1
             },
@@ -25161,7 +25161,7 @@ module.exports = {
             },
             uuid: "f622da45-ef05-4a9f-bdcb-879b5933b869"
           },
-          "2": {
+          2: {
             components: {
               "Mechanical Scrap": 1,
               Vanadium: 1
@@ -25175,7 +25175,7 @@ module.exports = {
             },
             uuid: "c2cf2614-1a13-4b8d-81eb-d4eaf76257d0"
           },
-          "3": {
+          3: {
             components: {
               "Mechanical Scrap": 1,
               Niobium: 1,
@@ -25190,7 +25190,7 @@ module.exports = {
             },
             uuid: "e37a6dba-669e-4ce6-bb3d-e831bdd656c0"
           },
-          "4": {
+          4: {
             components: {
               "High Density Composites": 1,
               "Mechanical Equipment": 1,
@@ -25205,7 +25205,7 @@ module.exports = {
             },
             uuid: "8800433a-2061-4776-9821-5dc04772b963"
           },
-          "5": {
+          5: {
             components: {
               "Mechanical Components": 1,
               "Military Supercapacitors": 1,
@@ -25228,7 +25228,7 @@ module.exports = {
       Weapon_LightWeight: {
         fdname: "Weapon_LightWeight",
         grades: {
-          "1": {
+          1: {
             components: {
               Phosphorus: 1
             },
@@ -25238,7 +25238,7 @@ module.exports = {
             },
             uuid: "d5a539c5-120a-450f-bb68-e10abbeca8a9"
           },
-          "2": {
+          2: {
             components: {
               Manganese: 1,
               "Salvaged Alloys": 1
@@ -25251,7 +25251,7 @@ module.exports = {
             },
             uuid: "b6a80556-c22a-466e-931c-239c208c9890"
           },
-          "3": {
+          3: {
             components: {
               "Conductive Ceramics": 1,
               Manganese: 1,
@@ -25265,7 +25265,7 @@ module.exports = {
             },
             uuid: "cbec8003-80e4-455a-84fe-257d2018386e"
           },
-          "4": {
+          4: {
             components: {
               "Conductive Components": 1,
               "Phase Alloys": 1,
@@ -25279,7 +25279,7 @@ module.exports = {
             },
             uuid: "3a57effa-ccac-448d-8d1c-3e0966042e24"
           },
-          "5": {
+          5: {
             components: {
               "Conductive Ceramics": 1,
               "Proto Light Alloys": 1,
@@ -25301,7 +25301,7 @@ module.exports = {
       Weapon_LongRange: {
         fdname: "Weapon_LongRange",
         grades: {
-          "1": {
+          1: {
             components: {
               Sulphur: 1
             },
@@ -25314,7 +25314,7 @@ module.exports = {
             },
             uuid: "356d1457-e52f-4302-8af5-745e103b85e8"
           },
-          "2": {
+          2: {
             components: {
               "Modified Consumer Firmware": 1,
               Sulphur: 1
@@ -25328,7 +25328,7 @@ module.exports = {
             },
             uuid: "965e7108-73d5-4f26-95ab-2d261716a80c"
           },
-          "3": {
+          3: {
             components: {
               "Focus Crystals": 1,
               "Modified Consumer Firmware": 1,
@@ -25343,7 +25343,7 @@ module.exports = {
             },
             uuid: "9d56f79f-9077-4391-8719-67e96c9613dd"
           },
-          "4": {
+          4: {
             components: {
               "Conductive Polymers": 1,
               "Focus Crystals": 1,
@@ -25358,7 +25358,7 @@ module.exports = {
             },
             uuid: "fbd49a72-d117-4e01-8485-d69b2267c803"
           },
-          "5": {
+          5: {
             components: {
               "Biotech Conductors": 1,
               "Cracked Industrial Firmware": 1,
@@ -25381,7 +25381,7 @@ module.exports = {
       Weapon_Overcharged: {
         fdname: "Weapon_Overcharged",
         grades: {
-          "1": {
+          1: {
             components: {
               Nickel: 1
             },
@@ -25393,7 +25393,7 @@ module.exports = {
             },
             uuid: "e917ebe3-d5f1-4016-b8a9-2c759e16a7d4"
           },
-          "2": {
+          2: {
             components: {
               "Conductive Components": 1,
               Nickel: 1
@@ -25406,7 +25406,7 @@ module.exports = {
             },
             uuid: "f5921fc1-fb10-4d2f-8e0a-cd8d8e9e3a84"
           },
-          "3": {
+          3: {
             components: {
               "Conductive Components": 1,
               "Electrochemical Arrays": 1,
@@ -25420,7 +25420,7 @@ module.exports = {
             },
             uuid: "4389883f-c2b3-4487-9b1a-b668a761057a"
           },
-          "4": {
+          4: {
             components: {
               "Conductive Ceramics": 1,
               "Polymer Capacitors": 1,
@@ -25434,7 +25434,7 @@ module.exports = {
             },
             uuid: "25ec26dd-63b8-4e83-9a6e-86e5b80c4771"
           },
-          "5": {
+          5: {
             components: {
               "Conductive Polymers": 1,
               "Modified Embedded Firmware": 1,
@@ -25456,7 +25456,7 @@ module.exports = {
       PA_Overcharged: {
         fdname: "Weapon_Overcharged",
         grades: {
-          "1": {
+          1: {
             components: {
               Nickel: 1
             },
@@ -25467,7 +25467,7 @@ module.exports = {
             },
             uuid: "e917ebe3-d5f1-4016-b8a9-2c759e16a7d4"
           },
-          "2": {
+          2: {
             components: {
               "Conductive Components": 1,
               Nickel: 1
@@ -25479,7 +25479,7 @@ module.exports = {
             },
             uuid: "f5921fc1-fb10-4d2f-8e0a-cd8d8e9e3a84"
           },
-          "3": {
+          3: {
             components: {
               "Conductive Components": 1,
               "Electrochemical Arrays": 1,
@@ -25492,7 +25492,7 @@ module.exports = {
             },
             uuid: "4389883f-c2b3-4487-9b1a-b668a761057a"
           },
-          "4": {
+          4: {
             components: {
               "Conductive Ceramics": 1,
               "Polymer Capacitors": 1,
@@ -25505,7 +25505,7 @@ module.exports = {
             },
             uuid: "25ec26dd-63b8-4e83-9a6e-86e5b80c4771"
           },
-          "5": {
+          5: {
             components: {
               "Conductive Polymers": 1,
               "Modified Embedded Firmware": 1,
@@ -25526,7 +25526,7 @@ module.exports = {
       Weapon_RapidFire: {
         fdname: "Weapon_RapidFire",
         grades: {
-          "1": {
+          1: {
             components: {
               "Mechanical Scrap": 1
             },
@@ -25538,7 +25538,7 @@ module.exports = {
             },
             uuid: "a7ca2bf6-14be-41ed-8bfb-c7348fda7713"
           },
-          "2": {
+          2: {
             components: {
               "Heat Dispersion Plate": 1,
               "Mechanical Scrap": 1
@@ -25552,7 +25552,7 @@ module.exports = {
             },
             uuid: "0008257b-ea33-48ea-a18e-56cc6cf98a77"
           },
-          "3": {
+          3: {
             components: {
               "Mechanical Equipment": 1,
               "Precipitated Alloys": 1,
@@ -25567,7 +25567,7 @@ module.exports = {
             },
             uuid: "f3338d38-f944-4841-b350-09755e1b615d"
           },
-          "4": {
+          4: {
             components: {
               "Mechanical Components": 1,
               "Modified Consumer Firmware": 1,
@@ -25582,7 +25582,7 @@ module.exports = {
             },
             uuid: "d2bdb568-725a-44bf-9328-ba72d2988acd"
           },
-          "5": {
+          5: {
             components: {
               "Configurable Components": 1,
               "Precipitated Alloys": 1,
@@ -25605,7 +25605,7 @@ module.exports = {
       Weapon_ShortRange: {
         fdname: "Weapon_ShortRange",
         grades: {
-          "1": {
+          1: {
             components: {
               Nickel: 1
             },
@@ -25615,7 +25615,7 @@ module.exports = {
             },
             uuid: "81dca970-1fbf-4017-af46-0c6285c3a728"
           },
-          "2": {
+          2: {
             components: {
               "Modified Consumer Firmware": 1,
               Nickel: 1
@@ -25627,7 +25627,7 @@ module.exports = {
             },
             uuid: "cf07de84-b794-43fd-a8b6-57ee781e9247"
           },
-          "3": {
+          3: {
             components: {
               "Electrochemical Arrays": 1,
               "Modified Consumer Firmware": 1,
@@ -25640,7 +25640,7 @@ module.exports = {
             },
             uuid: "7cd60cfe-e406-4005-a912-a306a69067e0"
           },
-          "4": {
+          4: {
             components: {
               "Conductive Polymers": 1,
               "Electrochemical Arrays": 1,
@@ -25653,7 +25653,7 @@ module.exports = {
             },
             uuid: "adae0f67-fd08-47d5-8870-f926cc63353f"
           },
-          "5": {
+          5: {
             components: {
               "Biotech Conductors": 1,
               "Configurable Components": 1,
@@ -25674,7 +25674,7 @@ module.exports = {
       Weapon_Sturdy: {
         fdname: "Weapon_Sturdy",
         grades: {
-          "1": {
+          1: {
             components: {
               Nickel: 1
             },
@@ -25686,7 +25686,7 @@ module.exports = {
             },
             uuid: "3ac55eb7-0a45-440b-8c59-6ead43c7ef49"
           },
-          "2": {
+          2: {
             components: {
               Nickel: 1,
               "Shield Emitters": 1
@@ -25699,7 +25699,7 @@ module.exports = {
             },
             uuid: "53c131ab-cd66-4919-b49b-c1435362c8ff"
           },
-          "3": {
+          3: {
             components: {
               Nickel: 1,
               "Shield Emitters": 1,
@@ -25713,7 +25713,7 @@ module.exports = {
             },
             uuid: "2d1873d4-6d38-4d39-b4c5-ea199be2bd6a"
           },
-          "4": {
+          4: {
             components: {
               Molybdenum: 1,
               Tungsten: 1,
@@ -25727,7 +25727,7 @@ module.exports = {
             },
             uuid: "4ceeab9c-7a85-4553-9fa4-81ebc6e88d4f"
           },
-          "5": {
+          5: {
             components: {
               "High Density Composites": 1,
               Molybdenum: 1,
@@ -26677,16 +26677,16 @@ module.exports = {
         blueprints: {
           AFM_Shielded: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Bill Turner", "Lori Jameson" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Bill Turner", "Lori Jameson" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Bill Turner", "Lori Jameson" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Lori Jameson" ]
               }
             }
@@ -26698,95 +26698,95 @@ module.exports = {
         blueprints: {
           Armour_Advanced: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Liz Ryder", "Selene Jean" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Selene Jean" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Selene Jean" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Selene Jean" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Selene Jean" ]
               }
             }
           },
           Armour_Explosive: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Liz Ryder", "Selene Jean" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Selene Jean" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Selene Jean" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Selene Jean" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Selene Jean" ]
               }
             }
           },
           Armour_HeavyDuty: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Liz Ryder", "Selene Jean" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Selene Jean" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Selene Jean" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Selene Jean" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Selene Jean" ]
               }
             }
           },
           Armour_Kinetic: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Liz Ryder", "Selene Jean" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Selene Jean" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Selene Jean" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Selene Jean" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Selene Jean" ]
               }
             }
           },
           Armour_Thermic: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Liz Ryder", "Selene Jean" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Selene Jean" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Selene Jean" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Selene Jean" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Selene Jean" ]
               }
             }
@@ -26799,114 +26799,114 @@ module.exports = {
         blueprints: {
           Weapon_Efficient: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Broo Tarquin" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Broo Tarquin" ]
               }
             }
           },
           Weapon_LightWeight: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Broo Tarquin" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Broo Tarquin" ]
               }
             }
           },
           Weapon_LongRange: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Broo Tarquin" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Broo Tarquin" ]
               }
             }
           },
           Weapon_Overcharged: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Broo Tarquin" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Broo Tarquin" ]
               }
             }
           },
           Weapon_ShortRange: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Broo Tarquin" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Broo Tarquin" ]
               }
             }
           },
           Weapon_Sturdy: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Broo Tarquin" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Broo Tarquin" ]
               }
             }
@@ -26919,76 +26919,76 @@ module.exports = {
         blueprints: {
           ShieldGenerator_Kinetic: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Lei Cheung" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Lei Cheung" ]
               }
             }
           },
           ShieldGenerator_Optimised: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Lei Cheung" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Lei Cheung" ]
               }
             }
           },
           ShieldGenerator_Reinforced: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Lei Cheung" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Lei Cheung" ]
               }
             }
           },
           ShieldGenerator_Thermic: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Lei Cheung" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Lei Cheung" ]
               }
             }
@@ -27001,133 +27001,133 @@ module.exports = {
         blueprints: {
           Weapon_Efficient: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "The Sarge", "Tod McQuinn" ]
               },
-              "2": {
+              2: {
                 engineers: [ "The Sarge", "Tod McQuinn" ]
               },
-              "3": {
+              3: {
                 engineers: [ "The Sarge" ]
               },
-              "4": {
+              4: {
                 engineers: [ "The Sarge" ]
               },
-              "5": {
+              5: {
                 engineers: [ "The Sarge" ]
               }
             }
           },
           Weapon_HighCapacity: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "The Sarge", "Tod McQuinn" ]
               },
-              "2": {
+              2: {
                 engineers: [ "The Sarge", "Tod McQuinn" ]
               },
-              "3": {
+              3: {
                 engineers: [ "The Sarge" ]
               },
-              "4": {
+              4: {
                 engineers: [ "The Sarge" ]
               },
-              "5": {
+              5: {
                 engineers: [ "The Sarge" ]
               }
             }
           },
           Weapon_LightWeight: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "The Sarge", "Tod McQuinn" ]
               },
-              "2": {
+              2: {
                 engineers: [ "The Sarge", "Tod McQuinn" ]
               },
-              "3": {
+              3: {
                 engineers: [ "The Sarge" ]
               },
-              "4": {
+              4: {
                 engineers: [ "The Sarge" ]
               },
-              "5": {
+              5: {
                 engineers: [ "The Sarge" ]
               }
             }
           },
           Weapon_LongRange: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "The Sarge", "Tod McQuinn" ]
               },
-              "2": {
+              2: {
                 engineers: [ "The Sarge", "Tod McQuinn" ]
               },
-              "3": {
+              3: {
                 engineers: [ "The Sarge" ]
               },
-              "4": {
+              4: {
                 engineers: [ "The Sarge" ]
               },
-              "5": {
+              5: {
                 engineers: [ "The Sarge" ]
               }
             }
           },
           Weapon_Overcharged: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "The Sarge", "Tod McQuinn" ]
               },
-              "2": {
+              2: {
                 engineers: [ "The Sarge", "Tod McQuinn" ]
               },
-              "3": {
+              3: {
                 engineers: [ "The Sarge" ]
               },
-              "4": {
+              4: {
                 engineers: [ "The Sarge" ]
               },
-              "5": {
+              5: {
                 engineers: [ "The Sarge" ]
               }
             }
           },
           Weapon_ShortRange: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "The Sarge", "Tod McQuinn" ]
               },
-              "2": {
+              2: {
                 engineers: [ "The Sarge", "Tod McQuinn" ]
               },
-              "3": {
+              3: {
                 engineers: [ "The Sarge" ]
               },
-              "4": {
+              4: {
                 engineers: [ "The Sarge" ]
               },
-              "5": {
+              5: {
                 engineers: [ "The Sarge" ]
               }
             }
           },
           Weapon_Sturdy: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "The Sarge", "Tod McQuinn" ]
               },
-              "2": {
+              2: {
                 engineers: [ "The Sarge", "Tod McQuinn" ]
               },
-              "3": {
+              3: {
                 engineers: [ "The Sarge" ]
               },
-              "4": {
+              4: {
                 engineers: [ "The Sarge" ]
               },
-              "5": {
+              5: {
                 engineers: [ "The Sarge" ]
               }
             }
@@ -27140,57 +27140,57 @@ module.exports = {
         blueprints: {
           CollectionLimpet_LightWeight: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
               },
-              "5": {
+              5: {
                 engineers: [ "The Sarge", "Tiana Fortune" ]
               }
             }
           },
           CollectionLimpet_Reinforced: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
               },
-              "5": {
+              5: {
                 engineers: [ "The Sarge", "Tiana Fortune" ]
               }
             }
           },
           CollectionLimpet_Shielded: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
               },
-              "5": {
+              5: {
                 engineers: [ "The Sarge", "Tiana Fortune" ]
               }
             }
@@ -27202,64 +27202,64 @@ module.exports = {
         blueprints: {
           ChaffLauncher_ChaffCapacity: {
             grades: {
-              "3": {
+              3: {
                 engineers: [ "Ram Tah" ]
               }
             }
           },
           ChaffLauncher_LightWeight: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Ram Tah" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Ram Tah" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Ram Tah" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Ram Tah" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Ram Tah" ]
               }
             }
           },
           ChaffLauncher_Reinforced: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Ram Tah" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Ram Tah" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Ram Tah" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Ram Tah" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Ram Tah" ]
               }
             }
           },
           ChaffLauncher_Shielded: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Ram Tah" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Ram Tah" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Ram Tah" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Ram Tah" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Ram Tah" ]
               }
             }
@@ -27279,114 +27279,114 @@ module.exports = {
         blueprints: {
           Sensor_CargoScanner_FastScan: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Tiana Fortune" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Tiana Fortune" ]
               }
             }
           },
           CargoScanner_LightWeight: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Tiana Fortune" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Tiana Fortune" ]
               }
             }
           },
           Sensor_CargoScanner_LongRange: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Tiana Fortune" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Tiana Fortune" ]
               }
             }
           },
           CargoScanner_Reinforced: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Tiana Fortune" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Tiana Fortune" ]
               }
             }
           },
           CargoScanner_Shielded: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Tiana Fortune" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Tiana Fortune" ]
               }
             }
           },
           Sensor_CargoScanner_WideAngle: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Tiana Fortune" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Tiana Fortune" ]
               }
             }
@@ -27402,57 +27402,57 @@ module.exports = {
         blueprints: {
           ECM_LightWeight: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Ram Tah" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Ram Tah" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Ram Tah" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Ram Tah" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Ram Tah" ]
               }
             }
           },
           ECM_Reinforced: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Ram Tah" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Ram Tah" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Ram Tah" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Ram Tah" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Ram Tah" ]
               }
             }
           },
           ECM_Shielded: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Ram Tah" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Ram Tah" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Ram Tah" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Ram Tah" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Ram Tah" ]
               }
             }
@@ -27464,133 +27464,133 @@ module.exports = {
         blueprints: {
           Weapon_DoubleShot: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Zacariah Nemo" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Zacariah Nemo" ]
               }
             }
           },
           Weapon_Efficient: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Zacariah Nemo" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Zacariah Nemo" ]
               }
             }
           },
           Weapon_HighCapacity: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Zacariah Nemo" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Zacariah Nemo" ]
               }
             }
           },
           Weapon_LightWeight: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Zacariah Nemo" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Zacariah Nemo" ]
               }
             }
           },
           Weapon_Overcharged: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Zacariah Nemo" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Zacariah Nemo" ]
               }
             }
           },
           Weapon_RapidFire: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Zacariah Nemo" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Zacariah Nemo" ]
               }
             }
           },
           Weapon_Sturdy: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Zacariah Nemo" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Zacariah Nemo" ]
               }
             }
@@ -27611,32 +27611,32 @@ module.exports = {
         blueprints: {
           FSDinterdictor_Expanded: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Colonel Bris Dekker", "Felicity Farseer", "Tiana Fortune" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Colonel Bris Dekker", "Tiana Fortune" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Colonel Bris Dekker", "Tiana Fortune" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Colonel Bris Dekker" ]
               }
             }
           },
           FSDinterdictor_LongRange: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Colonel Bris Dekker", "Felicity Farseer", "Tiana Fortune" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Colonel Bris Dekker", "Tiana Fortune" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Colonel Bris Dekker", "Tiana Fortune" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Colonel Bris Dekker" ]
               }
             }
@@ -27648,16 +27648,16 @@ module.exports = {
         blueprints: {
           FuelScoop_Shielded: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Bill Turner", "Lori Jameson" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Bill Turner", "Lori Jameson" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Bill Turner", "Lori Jameson" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Lori Jameson" ]
               }
             }
@@ -27669,57 +27669,57 @@ module.exports = {
         blueprints: {
           FSD_FastBoot: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Colonel Bris Dekker", "Elvira Martuuk", "Felicity Farseer", "Professor Palin" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Colonel Bris Dekker", "Elvira Martuuk", "Felicity Farseer", "Professor Palin" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Colonel Bris Dekker", "Elvira Martuuk", "Felicity Farseer", "Professor Palin" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Elvira Martuuk", "Felicity Farseer" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Elvira Martuuk", "Felicity Farseer" ]
               }
             }
           },
           FSD_LongRange: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Colonel Bris Dekker", "Elvira Martuuk", "Felicity Farseer", "Professor Palin" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Colonel Bris Dekker", "Elvira Martuuk", "Felicity Farseer", "Professor Palin" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Colonel Bris Dekker", "Elvira Martuuk", "Felicity Farseer", "Professor Palin" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Elvira Martuuk", "Felicity Farseer" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Elvira Martuuk", "Felicity Farseer" ]
               }
             }
           },
           FSD_Shielded: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Colonel Bris Dekker", "Elvira Martuuk", "Felicity Farseer", "Professor Palin" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Colonel Bris Dekker", "Elvira Martuuk", "Felicity Farseer", "Professor Palin" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Colonel Bris Dekker", "Elvira Martuuk", "Felicity Farseer", "Professor Palin" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Elvira Martuuk", "Felicity Farseer" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Elvira Martuuk", "Felicity Farseer" ]
               }
             }
@@ -27736,57 +27736,57 @@ module.exports = {
         blueprints: {
           FuelTransferLimpet_LightWeight: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
               },
-              "5": {
+              5: {
                 engineers: [ "The Sarge", "Tiana Fortune" ]
               }
             }
           },
           FuelTransferLimpet_Reinforced: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
               },
-              "5": {
+              5: {
                 engineers: [ "The Sarge", "Tiana Fortune" ]
               }
             }
           },
           FuelTransferLimpet_Shielded: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
               },
-              "5": {
+              5: {
                 engineers: [ "The Sarge", "Tiana Fortune" ]
               }
             }
@@ -27798,57 +27798,57 @@ module.exports = {
         blueprints: {
           HatchBreakerLimpet_LightWeight: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
               },
-              "5": {
+              5: {
                 engineers: [ "The Sarge", "Tiana Fortune" ]
               }
             }
           },
           HatchBreakerLimpet_Reinforced: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
               },
-              "5": {
+              5: {
                 engineers: [ "The Sarge", "Tiana Fortune" ]
               }
             }
           },
           HatchBreakerLimpet_Shielded: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
               },
-              "5": {
+              5: {
                 engineers: [ "The Sarge", "Tiana Fortune" ]
               }
             }
@@ -27860,95 +27860,95 @@ module.exports = {
         blueprints: {
           HullReinforcement_Advanced: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Liz Ryder", "Selene Jean" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Selene Jean" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Selene Jean" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Selene Jean" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Selene Jean" ]
               }
             }
           },
           HullReinforcement_Explosive: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Liz Ryder", "Selene Jean" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Selene Jean" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Selene Jean" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Selene Jean" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Selene Jean" ]
               }
             }
           },
           HullReinforcement_HeavyDuty: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Liz Ryder", "Selene Jean" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Selene Jean" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Selene Jean" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Selene Jean" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Selene Jean" ]
               }
             }
           },
           HullReinforcement_Kinetic: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Liz Ryder", "Selene Jean" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Selene Jean" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Selene Jean" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Selene Jean" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Selene Jean" ]
               }
             }
           },
           HullReinforcement_Thermic: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Liz Ryder", "Selene Jean" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Selene Jean" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Selene Jean" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Selene Jean" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Selene Jean" ]
               }
             }
@@ -27961,64 +27961,64 @@ module.exports = {
         blueprints: {
           HeatSinkLauncher_HeatSinkCapacity: {
             grades: {
-              "3": {
+              3: {
                 engineers: [ "Ram Tah" ]
               }
             }
           },
           HeatSinkLauncher_LightWeight: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Ram Tah" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Ram Tah" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Ram Tah" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Ram Tah" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Ram Tah" ]
               }
             }
           },
           HeatSinkLauncher_Reinforced: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Ram Tah" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Ram Tah" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Ram Tah" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Ram Tah" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Ram Tah" ]
               }
             }
           },
           HeatSinkLauncher_Shielded: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Ram Tah" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Ram Tah" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Ram Tah" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Ram Tah" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Ram Tah" ]
               }
             }
@@ -28030,114 +28030,114 @@ module.exports = {
         blueprints: {
           Sensor_KillWarrantScanner_FastScan: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Tiana Fortune" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Tiana Fortune" ]
               }
             }
           },
           KillWarrantScanner_LightWeight: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Tiana Fortune" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Tiana Fortune" ]
               }
             }
           },
           KillWarrantScanner_LongRange: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Tiana Fortune" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Tiana Fortune" ]
               }
             }
           },
           KillWarrantScanner_Reinforced: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Tiana Fortune" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Tiana Fortune" ]
               }
             }
           },
           KillWarrantScanner_Shielded: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Tiana Fortune" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Tiana Fortune" ]
               }
             }
           },
           Sensor_KillWarrantScanner_WideAngle: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Tiana Fortune" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Tiana Fortune" ]
               }
             }
@@ -28149,48 +28149,48 @@ module.exports = {
         blueprints: {
           LifeSupport_LightWeight: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Bill Turner", "Lori Jameson" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Bill Turner", "Lori Jameson" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Bill Turner", "Lori Jameson" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Lori Jameson" ]
               }
             }
           },
           LifeSupport_Reinforced: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Bill Turner", "Lori Jameson" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Bill Turner", "Lori Jameson" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Bill Turner", "Lori Jameson" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Lori Jameson" ]
               }
             }
           },
           LifeSupport_Shielded: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Bill Turner", "Lori Jameson" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Bill Turner", "Lori Jameson" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Bill Turner", "Lori Jameson" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Lori Jameson" ]
               }
             }
@@ -28202,152 +28202,152 @@ module.exports = {
         blueprints: {
           Weapon_Efficient: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Tod McQuinn" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Tod McQuinn" ]
               }
             }
           },
           Weapon_HighCapacity: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Tod McQuinn" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Tod McQuinn" ]
               }
             }
           },
           Weapon_LightWeight: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Tod McQuinn" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Tod McQuinn" ]
               }
             }
           },
           Weapon_LongRange: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Tod McQuinn" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Tod McQuinn" ]
               }
             }
           },
           Weapon_Overcharged: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Tod McQuinn" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Tod McQuinn" ]
               }
             }
           },
           Weapon_RapidFire: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Tod McQuinn" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Tod McQuinn" ]
               }
             }
           },
           Weapon_ShortRange: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Tod McQuinn" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Tod McQuinn" ]
               }
             }
           },
           Weapon_Sturdy: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Tod McQuinn", "Zacariah Nemo" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Tod McQuinn" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Tod McQuinn" ]
               }
             }
@@ -28368,76 +28368,76 @@ module.exports = {
         blueprints: {
           Weapon_HighCapacity: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Juri Ishmaak", "Liz Ryder" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Juri Ishmaak", "Liz Ryder" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Juri Ishmaak", "Liz Ryder" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Liz Ryder" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Liz Ryder" ]
               }
             }
           },
           Weapon_LightWeight: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Juri Ishmaak", "Liz Ryder" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Juri Ishmaak", "Liz Ryder" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Juri Ishmaak", "Liz Ryder" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Liz Ryder" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Liz Ryder" ]
               }
             }
           },
           Weapon_RapidFire: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Juri Ishmaak", "Liz Ryder" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Juri Ishmaak", "Liz Ryder" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Juri Ishmaak", "Liz Ryder" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Liz Ryder" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Liz Ryder" ]
               }
             }
           },
           Weapon_Sturdy: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Juri Ishmaak", "Liz Ryder" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Juri Ishmaak", "Liz Ryder" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Juri Ishmaak", "Liz Ryder" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Liz Ryder" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Liz Ryder" ]
               }
             }
@@ -28459,76 +28459,76 @@ module.exports = {
         blueprints: {
           Weapon_HighCapacity: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Juri Ishmaak", "Liz Ryder" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Juri Ishmaak", "Liz Ryder" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Juri Ishmaak", "Liz Ryder" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Juri Ishmaak" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Juri Ishmaak" ]
               }
             }
           },
           Weapon_LightWeight: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Juri Ishmaak", "Liz Ryder" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Juri Ishmaak", "Liz Ryder" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Juri Ishmaak", "Liz Ryder" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Juri Ishmaak" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Juri Ishmaak" ]
               }
             }
           },
           Weapon_RapidFire: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Juri Ishmaak", "Liz Ryder" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Juri Ishmaak", "Liz Ryder" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Juri Ishmaak", "Liz Ryder" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Juri Ishmaak" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Juri Ishmaak" ]
               }
             }
           },
           Weapon_Sturdy: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Juri Ishmaak", "Liz Ryder" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Juri Ishmaak", "Liz Ryder" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Juri Ishmaak", "Liz Ryder" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Juri Ishmaak" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Juri Ishmaak" ]
               }
             }
@@ -28581,152 +28581,152 @@ module.exports = {
         blueprints: {
           Weapon_Efficient: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Bill Turner", "Zacariah Nemo" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Bill Turner", "Zacariah Nemo" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Bill Turner" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Bill Turner" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Bill Turner" ]
               }
             }
           },
           Weapon_Focused: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Bill Turner", "Zacariah Nemo" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Bill Turner", "Zacariah Nemo" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Bill Turner" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Bill Turner" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Bill Turner" ]
               }
             }
           },
           Weapon_LightWeight: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Bill Turner", "Zacariah Nemo" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Bill Turner", "Zacariah Nemo" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Bill Turner" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Bill Turner" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Bill Turner" ]
               }
             }
           },
           Weapon_LongRange: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Bill Turner", "Zacariah Nemo" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Bill Turner", "Zacariah Nemo" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Bill Turner" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Bill Turner" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Bill Turner" ]
               }
             }
           },
           PA_Overcharged: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Bill Turner", "Zacariah Nemo" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Bill Turner", "Zacariah Nemo" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Bill Turner" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Bill Turner" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Bill Turner" ]
               }
             }
           },
           Weapon_RapidFire: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Bill Turner", "Zacariah Nemo" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Bill Turner", "Zacariah Nemo" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Bill Turner" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Bill Turner" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Bill Turner" ]
               }
             }
           },
           Weapon_ShortRange: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Bill Turner", "Zacariah Nemo" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Bill Turner", "Zacariah Nemo" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Bill Turner" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Bill Turner" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Bill Turner" ]
               }
             }
           },
           Weapon_Sturdy: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Bill Turner", "Zacariah Nemo" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Bill Turner", "Zacariah Nemo" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Bill Turner" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Bill Turner" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Bill Turner" ]
               }
             }
@@ -28743,57 +28743,57 @@ module.exports = {
         blueprints: {
           ProspectingLimpet_LightWeight: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
               },
-              "5": {
+              5: {
                 engineers: [ "The Sarge", "Tiana Fortune" ]
               }
             }
           },
           ProspectingLimpet_Reinforced: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
               },
-              "5": {
+              5: {
                 engineers: [ "The Sarge", "Tiana Fortune" ]
               }
             }
           },
           ProspectingLimpet_Shielded: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Ram Tah", "The Sarge", "Tiana Fortune" ]
               },
-              "5": {
+              5: {
                 engineers: [ "The Sarge", "Tiana Fortune" ]
               }
             }
@@ -28821,114 +28821,114 @@ module.exports = {
         blueprints: {
           PowerDistributor_HighFrequency: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Hera Tani", "Marco Qwent", "The Dweller" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Hera Tani", "Marco Qwent", "The Dweller" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Hera Tani", "Marco Qwent", "The Dweller" ]
               },
-              "4": {
+              4: {
                 engineers: [ "The Dweller" ]
               },
-              "5": {
+              5: {
                 engineers: [ "The Dweller" ]
               }
             }
           },
           PowerDistributor_PriorityEngines: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Hera Tani", "Marco Qwent", "The Dweller" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Hera Tani", "Marco Qwent", "The Dweller" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Hera Tani", "Marco Qwent", "The Dweller" ]
               },
-              "4": {
+              4: {
                 engineers: [ "The Dweller" ]
               },
-              "5": {
+              5: {
                 engineers: [ "The Dweller" ]
               }
             }
           },
           PowerDistributor_HighCapacity: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Hera Tani", "Marco Qwent", "The Dweller" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Hera Tani", "Marco Qwent", "The Dweller" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Hera Tani", "Marco Qwent", "The Dweller" ]
               },
-              "4": {
+              4: {
                 engineers: [ "The Dweller" ]
               },
-              "5": {
+              5: {
                 engineers: [ "The Dweller" ]
               }
             }
           },
           PowerDistributor_Shielded: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Hera Tani", "Marco Qwent", "The Dweller" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Hera Tani", "Marco Qwent", "The Dweller" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Hera Tani", "Marco Qwent", "The Dweller" ]
               },
-              "4": {
+              4: {
                 engineers: [ "The Dweller" ]
               },
-              "5": {
+              5: {
                 engineers: [ "The Dweller" ]
               }
             }
           },
           PowerDistributor_PrioritySystems: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Hera Tani", "Marco Qwent", "The Dweller" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Hera Tani", "Marco Qwent", "The Dweller" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Hera Tani", "Marco Qwent", "The Dweller" ]
               },
-              "4": {
+              4: {
                 engineers: [ "The Dweller" ]
               },
-              "5": {
+              5: {
                 engineers: [ "The Dweller" ]
               }
             }
           },
           PowerDistributor_PriorityWeapons: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Hera Tani", "Marco Qwent", "The Dweller" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Hera Tani", "Marco Qwent", "The Dweller" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Hera Tani", "Marco Qwent", "The Dweller" ]
               },
-              "4": {
+              4: {
                 engineers: [ "The Dweller" ]
               },
-              "5": {
+              5: {
                 engineers: [ "The Dweller" ]
               }
             }
@@ -28941,152 +28941,152 @@ module.exports = {
         blueprints: {
           Weapon_Efficient: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Broo Tarquin" ]
               }
             }
           },
           Weapon_Focused: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Broo Tarquin" ]
               }
             }
           },
           Weapon_LightWeight: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Broo Tarquin" ]
               }
             }
           },
           Weapon_LongRange: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Broo Tarquin" ]
               }
             }
           },
           Weapon_Overcharged: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Broo Tarquin" ]
               }
             }
           },
           Weapon_RapidFire: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Broo Tarquin" ]
               }
             }
           },
           Weapon_ShortRange: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Broo Tarquin" ]
               }
             }
           },
           Weapon_Sturdy: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Broo Tarquin" ]
               }
             }
@@ -29099,64 +29099,64 @@ module.exports = {
         blueprints: {
           PointDefence_PointDefenseCapacity: {
             grades: {
-              "3": {
+              3: {
                 engineers: [ "Ram Tah" ]
               }
             }
           },
           PointDefence_LightWeight: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Ram Tah" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Ram Tah" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Ram Tah" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Ram Tah" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Ram Tah" ]
               }
             }
           },
           PointDefence_Reinforced: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Ram Tah" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Ram Tah" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Ram Tah" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Ram Tah" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Ram Tah" ]
               }
             }
           },
           PointDefence_Shielded: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Ram Tah" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Ram Tah" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Ram Tah" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Ram Tah" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Ram Tah" ]
               }
             }
@@ -29168,57 +29168,57 @@ module.exports = {
         blueprints: {
           PowerPlant_Armoured: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Felicity Farseer", "Hera Tani", "Marco Qwent" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Hera Tani", "Marco Qwent" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Hera Tani", "Marco Qwent" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Hera Tani", "Marco Qwent" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Hera Tani" ]
               }
             }
           },
           PowerPlant_Stealth: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Felicity Farseer", "Hera Tani", "Marco Qwent" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Hera Tani", "Marco Qwent" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Hera Tani", "Marco Qwent" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Hera Tani", "Marco Qwent" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Hera Tani" ]
               }
             }
           },
           PowerPlant_Boosted: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Felicity Farseer", "Hera Tani", "Marco Qwent" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Hera Tani", "Marco Qwent" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Hera Tani", "Marco Qwent" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Hera Tani", "Marco Qwent" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Hera Tani" ]
               }
             }
@@ -29231,76 +29231,76 @@ module.exports = {
         blueprints: {
           ShieldGenerator_Kinetic: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Lei Cheung" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Lei Cheung" ]
               }
             }
           },
           ShieldGenerator_Optimised: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Lei Cheung" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Lei Cheung" ]
               }
             }
           },
           ShieldGenerator_Reinforced: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Lei Cheung" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Lei Cheung" ]
               }
             }
           },
           ShieldGenerator_Thermic: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Lei Cheung" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Lei Cheung" ]
               }
             }
@@ -29317,16 +29317,16 @@ module.exports = {
         blueprints: {
           Refineries_Shielded: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Bill Turner", "Lori Jameson" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Bill Turner", "Lori Jameson" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Bill Turner", "Lori Jameson" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Lori Jameson" ]
               }
             }
@@ -29338,95 +29338,95 @@ module.exports = {
         blueprints: {
           Weapon_HighCapacity: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "The Sarge", "Tod McQuinn" ]
               },
-              "2": {
+              2: {
                 engineers: [ "The Sarge", "Tod McQuinn" ]
               },
-              "3": {
+              3: {
                 engineers: [ "The Sarge", "Tod McQuinn" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Tod McQuinn" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Tod McQuinn" ]
               }
             }
           },
           Weapon_LightWeight: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "The Sarge", "Tod McQuinn" ]
               },
-              "2": {
+              2: {
                 engineers: [ "The Sarge", "Tod McQuinn" ]
               },
-              "3": {
+              3: {
                 engineers: [ "The Sarge", "Tod McQuinn" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Tod McQuinn" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Tod McQuinn" ]
               }
             }
           },
           Weapon_LongRange: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "The Sarge", "Tod McQuinn" ]
               },
-              "2": {
+              2: {
                 engineers: [ "The Sarge", "Tod McQuinn" ]
               },
-              "3": {
+              3: {
                 engineers: [ "The Sarge", "Tod McQuinn" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Tod McQuinn" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Tod McQuinn" ]
               }
             }
           },
           Weapon_ShortRange: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "The Sarge", "Tod McQuinn" ]
               },
-              "2": {
+              2: {
                 engineers: [ "The Sarge", "Tod McQuinn" ]
               },
-              "3": {
+              3: {
                 engineers: [ "The Sarge", "Tod McQuinn" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Tod McQuinn" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Tod McQuinn" ]
               }
             }
           },
           Weapon_Sturdy: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "The Sarge", "Tod McQuinn" ]
               },
-              "2": {
+              2: {
                 engineers: [ "The Sarge", "Tod McQuinn" ]
               },
-              "3": {
+              3: {
                 engineers: [ "The Sarge", "Tod McQuinn" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Tod McQuinn" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Tod McQuinn" ]
               }
             }
@@ -29439,57 +29439,57 @@ module.exports = {
         blueprints: {
           Sensor_Sensor_LightWeight: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Cheung", "Lori Jameson", "Tiana Fortune" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Cheung", "Lori Jameson", "Tiana Fortune" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Cheung", "Lori Jameson", "Tiana Fortune" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Cheung", "Lori Jameson", "Tiana Fortune" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Cheung", "Lori Jameson", "Tiana Fortune" ]
               }
             }
           },
           Sensor_Sensor_LongRange: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Bill Turner", "Felicity Farseer", "Juri Ishmaak", "Lei Cheung", "Lori Jameson", "Tiana Fortune" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Bill Turner", "Felicity Farseer", "Juri Ishmaak", "Lei Cheung", "Lori Jameson", "Tiana Fortune" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Bill Turner", "Felicity Farseer", "Juri Ishmaak", "Lei Cheung", "Lori Jameson", "Tiana Fortune" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Cheung", "Lori Jameson", "Tiana Fortune" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Bill Turner", "Lei Cheung", "Lori Jameson", "Tiana Fortune" ]
               }
             }
           },
           Sensor_Sensor_WideAngle: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Bill Turner", "Felicity Farseer", "Juri Ishmaak", "Lei Cheung", "Lori Jameson", "Tiana Fortune" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Bill Turner", "Felicity Farseer", "Juri Ishmaak", "Lei Cheung", "Lori Jameson", "Tiana Fortune" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Bill Turner", "Felicity Farseer", "Juri Ishmaak", "Lei Cheung", "Lori Jameson", "Tiana Fortune" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Cheung", "Lori Jameson", "Tiana Fortune" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Bill Turner", "Lei Cheung", "Lori Jameson", "Tiana Fortune" ]
               }
             }
@@ -29501,95 +29501,95 @@ module.exports = {
         blueprints: {
           ShieldBooster_Explosive: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Didi Vatermann", "Felicity Farseer", "Lei Cheung" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Didi Vatermann", "Lei Cheung" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Didi Vatermann", "Lei Cheung" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Didi Vatermann" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Didi Vatermann" ]
               }
             }
           },
           ShieldBooster_HeavyDuty: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Didi Vatermann", "Felicity Farseer", "Lei Cheung" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Didi Vatermann", "Lei Cheung" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Didi Vatermann", "Lei Cheung" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Didi Vatermann" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Didi Vatermann" ]
               }
             }
           },
           ShieldBooster_Kinetic: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Didi Vatermann", "Felicity Farseer", "Lei Cheung" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Didi Vatermann", "Lei Cheung" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Didi Vatermann", "Lei Cheung" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Didi Vatermann" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Didi Vatermann" ]
               }
             }
           },
           ShieldBooster_Resistive: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Didi Vatermann", "Felicity Farseer", "Lei Cheung" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Didi Vatermann", "Lei Cheung" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Didi Vatermann", "Lei Cheung" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Didi Vatermann" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Didi Vatermann" ]
               }
             }
           },
           ShieldBooster_Thermic: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Didi Vatermann", "Felicity Farseer", "Lei Cheung" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Didi Vatermann", "Lei Cheung" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Didi Vatermann", "Lei Cheung" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Didi Vatermann" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Didi Vatermann" ]
               }
             }
@@ -29610,26 +29610,26 @@ module.exports = {
         blueprints: {
           ShieldCellBank_Rapid: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Elvira Martuuk", "Lori Jameson" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Lori Jameson" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Lori Jameson" ]
               }
             }
           },
           ShieldCellBank_Specialised: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Elvira Martuuk", "Lori Jameson" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Lori Jameson" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Lori Jameson" ]
               }
             }
@@ -29642,76 +29642,76 @@ module.exports = {
         blueprints: {
           ShieldGenerator_Kinetic: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Lei Cheung" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Lei Cheung" ]
               }
             }
           },
           ShieldGenerator_Optimised: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Lei Cheung" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Lei Cheung" ]
               }
             }
           },
           ShieldGenerator_Reinforced: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Lei Cheung" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Lei Cheung" ]
               }
             }
           },
           ShieldGenerator_Thermic: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Didi Vatermann", "Elvira Martuuk", "Lei Cheung" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Lei Cheung" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Lei Cheung" ]
               }
             }
@@ -29724,57 +29724,57 @@ module.exports = {
         blueprints: {
           Sensor_SurfaceScanner_FastScan: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Bill Turner", "Felicity Farseer", "Juri Ishmaak", "Lei Cheung", "Lori Jameson", "Tiana Fortune" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Bill Turner", "Felicity Farseer", "Juri Ishmaak", "Lei Cheung", "Lori Jameson", "Tiana Fortune" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Bill Turner", "Felicity Farseer", "Juri Ishmaak", "Lei Cheung", "Lori Jameson", "Tiana Fortune" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Cheung", "Lori Jameson" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Cheung", "Lori Jameson" ]
               }
             }
           },
           Sensor_SurfaceScanner_LongRange: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Bill Turner", "Felicity Farseer", "Juri Ishmaak", "Lei Cheung", "Lori Jameson", "Tiana Fortune" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Bill Turner", "Felicity Farseer", "Juri Ishmaak", "Lei Cheung", "Lori Jameson", "Tiana Fortune" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Bill Turner", "Felicity Farseer", "Juri Ishmaak", "Lei Cheung", "Lori Jameson", "Tiana Fortune" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Cheung", "Lori Jameson" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Cheung", "Lori Jameson" ]
               }
             }
           },
           Sensor_SurfaceScanner_WideAngle: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Bill Turner", "Felicity Farseer", "Juri Ishmaak", "Lei Cheung", "Lori Jameson", "Tiana Fortune" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Bill Turner", "Felicity Farseer", "Juri Ishmaak", "Lei Cheung", "Lori Jameson", "Tiana Fortune" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Bill Turner", "Felicity Farseer", "Juri Ishmaak", "Lei Cheung", "Lori Jameson", "Tiana Fortune" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Cheung", "Lori Jameson" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Cheung", "Lori Jameson" ]
               }
             }
@@ -29790,57 +29790,57 @@ module.exports = {
         blueprints: {
           Engine_Dirty: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Elvira Martuuk", "Felicty Farseer", "Professor Palin" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Elvira Martuuk", "Felicty Farseer", "Professor Palin" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Felicty Farseer", "Professor Palin" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Professor Palin" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Professor Palin" ]
               }
             }
           },
           Engine_Reinforced: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Elvira Martuuk", "Felicty Farseer", "Professor Palin" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Elvira Martuuk", "Felicty Farseer", "Professor Palin" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Felicty Farseer", "Professor Palin" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Professor Palin" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Professor Palin" ]
               }
             }
           },
           Engine_Tuned: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Elvira Martuuk", "Felicty Farseer", "Professor Palin" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Elvira Martuuk", "Felicty Farseer", "Professor Palin" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Felicty Farseer", "Professor Palin" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Professor Palin" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Professor Palin" ]
               }
             }
@@ -29853,38 +29853,38 @@ module.exports = {
         blueprints: {
           Weapon_LightWeight: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Juri Ishmaak", "Liz Ryder" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Juri Ishmaak", "Liz Ryder" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Juri Ishmaak", "Liz Ryder" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Liz Ryder" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Liz Ryder" ]
               }
             }
           },
           Weapon_Sturdy: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Juri Ishmaak", "Liz Ryder" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Juri Ishmaak", "Liz Ryder" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Juri Ishmaak", "Liz Ryder" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Liz Ryder" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Liz Ryder" ]
               }
             }
@@ -29897,152 +29897,152 @@ module.exports = {
         blueprints: {
           Weapon_Efficient: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Broo Tarquin" ]
               }
             }
           },
           Weapon_Focused: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Broo Tarquin" ]
               }
             }
           },
           Weapon_LightWeight: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Broo Tarquin" ]
               }
             }
           },
           Weapon_LongRange: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Broo Tarquin" ]
               }
             }
           },
           Weapon_Overcharged: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Broo Tarquin" ]
               }
             }
           },
           Weapon_RapidFire: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Broo Tarquin" ]
               }
             }
           },
           Weapon_ShortRange: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Broo Tarquin" ]
               }
             }
           },
           Weapon_Sturdy: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Broo Tarquin", "The Dweller" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Broo Tarquin" ]
               }
             }
@@ -30055,114 +30055,114 @@ module.exports = {
         blueprints: {
           Sensor_WakeScanner_FastScan: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Tiana Fortune" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Tiana Fortune" ]
               }
             }
           },
           WakeScanner_LightWeight: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Tiana Fortune" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Tiana Fortune" ]
               }
             }
           },
           Sensor_WakeScanner_LongRange: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Tiana Fortune" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Tiana Fortune" ]
               }
             }
           },
           WakeScanner_Reinforced: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Tiana Fortune" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Tiana Fortune" ]
               }
             }
           },
           WakeScanner_Shielded: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Bill Turner", "Lori Jameson", "Tiana Fortune" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Tiana Fortune" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Tiana Fortune" ]
               }
             }
           },
           Sensor_WakeScanner_WideAngle: {
             grades: {
-              "1": {
+              1: {
                 engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
               },
-              "2": {
+              2: {
                 engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
               },
-              "3": {
+              3: {
                 engineers: [ "Bill Turner", "Juri Ishmaak", "Lori Jameson", "Tiana Fortune" ]
               },
-              "4": {
+              4: {
                 engineers: [ "Tiana Fortune" ]
               },
-              "5": {
+              5: {
                 engineers: [ "Tiana Fortune" ]
               }
             }
