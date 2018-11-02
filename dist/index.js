@@ -888,7 +888,7 @@ module.exports = {
       slots: {
         standard: [ 6, 7, 7, 8, 6, 5, 7 ],
         hardpoints: [ 2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0 ],
-        internal: [ 6, 6, 5, 5, 4, 3, 3, 3, 3 ]
+        internal: [ 6, 6, 6, 6, 5, 5, 4, 3, 3, 3, 3 ]
       },
       defaults: {
         standard: [ "6E", "7E", "7E", "8E", "6E", "5E", "7C" ],
