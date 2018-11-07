@@ -66,7 +66,6 @@ module.exports = {
     pcm: require('./internal/first_passenger_cabin').pcm,
     pcq: require('./internal/luxury_passenger_cabin').pcq,
     rf: require('./internal/refinery').rf,
-    sc: require('./internal/scanner').sc,
     scb: require('./internal/shield_cell_bank').scb,
     sg: require('./internal/shield_generator').sg,
     ss: require('./internal/surface_scanner').ss,
