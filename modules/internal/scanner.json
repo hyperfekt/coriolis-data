@@ -2,36 +2,6 @@
   "sc": [
     {
       "class": 1,
-      "cost": 1545000,
-      "edID": 128663561,
-      "eddbID": 1244,
-      "grp": "sc",
-      "id": "2f",
-      "integrity": 40,
-      "mass": 2,
-      "name": "Advanced Discovery Scanner",
-      "power": 0,
-      "rangeLS": null,
-      "rating": "C",
-      "symbol": "Int_StellarBodyDiscoveryScanner_Advanced"
-    },
-    {
-      "class": 1,
-      "cost": 505000,
-      "edID": 128663560,
-      "eddbID": 1243,
-      "grp": "sc",
-      "id": "2g",
-      "integrity": 40,
-      "mass": 2,
-      "name": "Intermediate Discovery Scanner",
-      "power": 0,
-      "rangeLS": 1000,
-      "rating": "D",
-      "symbol": "Int_StellarBodyDiscoveryScanner_Intermediate"
-    },
-    {
-      "class": 1,
       "cost": 1000,
       "edID": 128662535,
       "eddbID": 1242,
@@ -39,9 +9,11 @@
       "id": "2h",
       "integrity": 40,
       "mass": 2,
-      "name": "Basic Discovery Scanner",
+      "name": "Discovery Scanner",
       "power": 0,
-      "rangeLS": 500,
+      "passiveRangeLS": 33.36,
+      "activeRangeLS": null,
+      "scanTimeSec": 5,
       "rating": "E",
       "symbol": "Int_StellarBodyDiscoveryScanner_Standard"
     }
