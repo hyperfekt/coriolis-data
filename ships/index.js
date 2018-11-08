@@ -26,6 +26,7 @@ module.exports = {
   keelback: require('./keelback').keelback,
   krait_mkii: require('./krait_mkii').krait_mkii,
   orca: require('./orca').orca,
+  mamba: require('./mamba').mamba,
   python: require('./python').python,
   sidewinder: require('./sidewinder').sidewinder,
   type_6_transporter: require('./type_6_transporter').type_6_transporter,
