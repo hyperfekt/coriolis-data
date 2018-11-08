@@ -2795,6 +2795,102 @@ module.exports = {
         internal: [ "4h", "04", "04", "03", 0, "2h", 0, "00" ]
       }
     },
+    krait_phantom: {
+      edID: 128149376,
+      eddbID: 35,
+      properties: {
+        name: "Krait Phantom",
+        manufacturer: "Faulcon DeLacy",
+        class: 2,
+        hullCost: 42409425,
+        speed: 256,
+        boost: 358,
+        boostEnergy: 14,
+        baseShieldStrength: 220,
+        baseArmour: 360,
+        hardness: 60,
+        hullMass: 280,
+        masslock: 17,
+        pipSpeed: .07122905027933,
+        fighterHangars: true,
+        pitch: 32,
+        roll: 80,
+        yaw: 16,
+        crew: 2
+      },
+      retailCost: 45814205,
+      bulkheads: [ {
+        id: "2T",
+        edID: 128816569,
+        eddbID: 1645,
+        grp: "bh",
+        cost: 0,
+        mass: 0,
+        causres: 0,
+        explres: -.4,
+        kinres: -.2,
+        thermres: 0,
+        hullboost: .8
+      }, {
+        id: "2U",
+        edID: 128816570,
+        eddbID: 1646,
+        grp: "bh",
+        cost: 22791270,
+        mass: 36,
+        causres: 0,
+        explres: -.4,
+        kinres: -.2,
+        thermres: 0,
+        hullboost: 1.52
+      }, {
+        id: "2V",
+        edID: 128816571,
+        eddbID: 1647,
+        grp: "bh",
+        cost: 51280360,
+        mass: 67,
+        causres: 0,
+        explres: -.4,
+        kinres: -.2,
+        thermres: 0,
+        hullboost: 2.5
+      }, {
+        id: "2W",
+        edID: 128816572,
+        eddbID: 1648,
+        grp: "bh",
+        cost: 121192590,
+        mass: 67,
+        causres: 0,
+        explres: -.5,
+        kinres: -.75,
+        thermres: .5,
+        hullboost: 2.5
+      }, {
+        id: "2X",
+        edID: 128816573,
+        eddbID: 1649,
+        grp: "bh",
+        cost: 134297570,
+        mass: 67,
+        causres: 0,
+        explres: .2,
+        kinres: .25,
+        thermres: -.4,
+        hullboost: 2.5
+      } ],
+      slots: {
+        standard: [ 6, 6, 5, 5, 6, 4, 4 ],
+        hardpoints: [ 3, 3, 2, 2, 0, 0, 0, 0 ],
+        internal: [ 6, 5, 4, 4, 3, 3, 2, 2 ]
+      },
+      defaults: {
+        standard: [ "7E", "6E", "5E", "4E", "7E", "6E", "5C" ],
+        hardpoints: [ 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+        internal: [ "4h", "04", "04", "03", 0, "2h", 0, "00" ]
+      }
+    },
     orca: {
       edID: 128049327,
       eddbID: 16,
@@ -2907,7 +3003,7 @@ module.exports = {
         hardness: 65,
         hullMass: 280,
         masslock: 12,
-        pipSpeed: .038461538461538,
+        pipSpeed: .019409937888199,
         pitch: 35,
         roll: 80,
         yaw: 12,
@@ -2982,7 +3078,7 @@ module.exports = {
       },
       defaults: {
         standard: [ "5E", "5E", "4E", "4E", "6E", "4E", "3C" ],
-        hardpoints: [ 0, 17, 17, 0, 0, 0, 0, 0, 0, 0, 0 ],
+        hardpoints: [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
         internal: [ "03", "49", "02", 0, "2h" ]
       }
     },
