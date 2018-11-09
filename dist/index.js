@@ -2886,7 +2886,7 @@ module.exports = {
         internal: [ 6, 5, 4, 4, 3, 3, 2, 2 ]
       },
       defaults: {
-        standard: [ "7E", "6E", "5E", "4E", "7E", "6E", "5C" ],
+        standard: [ "6E", "6E", "5E", "4E", "7E", "6E", "5C" ],
         hardpoints: [ 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
         internal: [ "4h", "04", "04", "03", 0, "2h", 0, "00" ]
       }
