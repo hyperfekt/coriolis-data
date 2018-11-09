@@ -2,6 +2,7 @@
 	"krait_phantom": {
 		"edID": 128149376,
 		"eddbID": 35,
+		"beta": true,
 		"properties": {
 			"name": "Krait Phantom",
 			"manufacturer": "Faulcon DeLacy",
