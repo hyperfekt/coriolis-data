@@ -2798,7 +2798,6 @@ module.exports = {
     krait_phantom: {
       edID: 128149376,
       eddbID: 35,
-      beta: true,
       properties: {
         name: "Krait Phantom",
         manufacturer: "Faulcon DeLacy",
@@ -2990,7 +2989,6 @@ module.exports = {
     mamba: {
       edID: 128149376,
       eddbID: 11,
-      beta: true,
       properties: {
         name: "Mamba",
         manufacturer: "Zorgon Peterson",
