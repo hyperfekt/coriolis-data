@@ -1,104 +1,156 @@
 {
-	"mamba": {
-		"edID": 128149376,
-		"eddbID": 11,
-		"beta": true,
-		"properties": {
-			"name": "Mamba",
-			"manufacturer": "Zorgon Peterson",
-			"class": 2,
-			"hullCost": 55866341,
-			"speed": 316,
-			"boost": 390,
-			"boostEnergy": 19,
-			"baseShieldStrength": 280,
-			"baseArmour": 150,
-			"hardness": 65,
-			"hullMass": 280,
-			"masslock": 12,
-			"pipSpeed": 0.019409937888199,
-			"pitch": 35,
-			"roll": 80,
-			"yaw": 12,
-			"crew": 2
-		},
-		"retailCost": 55382252,
-		"bulkheads": [
-			{
-				"id": "2T",
-				"edID": 128049376,
-				"eddbID": 813,
-				"grp": "bh",
-				"cost": 0,
-				"mass": 0,
-				"causres": 0,
-				"explres": -0.4,
-				"kinres": -0.2,
-				"thermres": 0,
-				"hullboost": 0.8
-			},
-			{
-				"id": "2U",
-				"edID": 128049377,
-				"eddbID": 814,
-				"grp": "bh",
-				"cost": 20626820,
-				"mass": 19,
-				"causres": 0,
-				"explres": -0.4,
-				"kinres": -0.2,
-				"thermres": 0,
-				"hullboost": 1.52
-			},
-			{
-				"id": "2V",
-				"edID": 128049378,
-				"eddbID": 815,
-				"grp": "bh",
-				"cost": 46410340,
-				"mass": 38,
-				"causres": 0,
-				"explres": -0.4,
-				"kinres": -0.2,
-				"thermres": 0,
-				"hullboost": 2.5
-			},
-			{
-				"id": "2W",
-				"edID": 128049379,
-				"eddbID": 816,
-				"grp": "bh",
-				"cost": 109683090,
-				"mass": 38,
-				"causres": 0,
-				"explres": -0.5,
-				"kinres": -0.75,
-				"thermres": 0.5,
-				"hullboost": 2.5
-			},
-			{
-				"id": "2X",
-				"edID": 128049380,
-				"eddbID": 817,
-				"grp": "bh",
-				"cost": 121543510,
-				"mass": 38,
-				"causres": 0,
-				"explres": 0.2,
-				"kinres": 0.25,
-				"thermres": -0.4,
-				"hullboost": 2.5
-			}
-		],
-		"slots": {
-			"standard": [6, 5, 4, 4, 6, 4, 3],
-			"hardpoints": [4, 3, 3, 1, 1, 0, 0, 0, 0, 0, 0],
-			"internal": [5, 4, 3, 2, 2]
-		},
-		"defaults": {
-			"standard": ["5E", "5E", "4E", "4E", "6E", "4E", "3C"],
-			"hardpoints": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-			"internal": ["03", "49", "02", 0, "2h"]
-		}
-	}
+  "mamba": {
+    "edID": 128149376,
+    "eddbID": 11,
+    "beta": true,
+    "properties": {
+      "name": "Mamba",
+      "manufacturer": "Zorgon Peterson",
+      "class": 2,
+      "hullCost": 55866341,
+      "speed": 310,
+      "boost": 380,
+      "boostEnergy": 10,
+      "baseShieldStrength": 270,
+      "baseArmour": 230,
+      "hardness": 65,
+      "hullMass": 250,
+      "masslock": 12,
+      "pipSpeed": 0.046052631578947,
+      "pitch": 27,
+      "roll": 80,
+      "yaw": 10,
+      "crew": 2
+    },
+    "retailCost": 55382252,
+    "bulkheads": [
+      {
+        "id": "2T",
+        "edID": 128049376,
+        "eddbID": 813,
+        "grp": "bh",
+        "cost": 0,
+        "mass": 0,
+        "causres": 0,
+        "explres": -0.4,
+        "kinres": -0.2,
+        "thermres": 0,
+        "hullboost": 0.8
+      },
+      {
+        "id": "2U",
+        "edID": 128049377,
+        "eddbID": 814,
+        "grp": "bh",
+        "cost": 20626820,
+        "mass": 19,
+        "causres": 0,
+        "explres": -0.4,
+        "kinres": -0.2,
+        "thermres": 0,
+        "hullboost": 1.52
+      },
+      {
+        "id": "2V",
+        "edID": 128049378,
+        "eddbID": 815,
+        "grp": "bh",
+        "cost": 46410340,
+        "mass": 38,
+        "causres": 0,
+        "explres": -0.4,
+        "kinres": -0.2,
+        "thermres": 0,
+        "hullboost": 2.5
+      },
+      {
+        "id": "2W",
+        "edID": 128049379,
+        "eddbID": 816,
+        "grp": "bh",
+        "cost": 109683090,
+        "mass": 38,
+        "causres": 0,
+        "explres": -0.5,
+        "kinres": -0.75,
+        "thermres": 0.5,
+        "hullboost": 2.5
+      },
+      {
+        "id": "2X",
+        "edID": 128049380,
+        "eddbID": 817,
+        "grp": "bh",
+        "cost": 121543510,
+        "mass": 38,
+        "causres": 0,
+        "explres": 0.2,
+        "kinres": 0.25,
+        "thermres": -0.4,
+        "hullboost": 2.5
+      }
+    ],
+    "slots": {
+      "standard": [
+        6,
+        5,
+        4,
+        4,
+        6,
+        4,
+        3
+      ],
+      "hardpoints": [
+        4,
+        3,
+        3,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "internal": [
+        5,
+        4,
+        3,
+        2,
+        2
+      ]
+    },
+    "defaults": {
+      "standard": [
+        "5E",
+        "5E",
+        "4E",
+        "4E",
+        "6E",
+        "4E",
+        "3C"
+      ],
+      "hardpoints": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "internal": [
+        "03",
+        "49",
+        "02",
+        0,
+        "2h"
+      ]
+    }
+  }
 }
