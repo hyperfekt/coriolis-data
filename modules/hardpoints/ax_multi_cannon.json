@@ -10,7 +10,8 @@
       "cost": 379000,
       "damage": 3.3,
       "damagedist": {
-        "X": 1
+        "X": 1,
+        "K": 1
       },
       "distdraw": 0.11,
       "edID": 128788701,
@@ -41,7 +42,8 @@
       "cost": 1826500,
       "damage": 1.7,
       "damagedist": {
-        "X": 1
+        "X": 1,
+        "K": 1
       },
       "distdraw": 0.06,
       "edID": 128793059,
@@ -72,7 +74,8 @@
       "cost": 1181500,
       "damage": 6.1,
       "damagedist": {
-        "X": 1
+        "X": 1,
+        "K": 1
       },
       "distdraw": 0.18,
       "edID": 128788702,
@@ -103,7 +106,8 @@
       "cost": 3821600,
       "damage": 3.3,
       "damagedist": {
-        "X": 1
+        "X": 1,
+        "K": 1
       },
       "distdraw": 0.06,
       "edID": 128793060,
