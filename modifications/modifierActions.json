@@ -263,9 +263,9 @@
   "special_shield_regenerative": {
     "brokenregen": 0.15,
     "regen": 0.15,
-    "thermres": -1,
-    "kinres": -1,
-    "explres": -1
+    "thermres": -1.5,
+    "kinres": -1.5,
+    "explres": -1.5
   },
   "special_shield_resistive": {
     "thermres": 3,
