@@ -33,7 +33,7 @@
       "standard": [4, 5, 4, 3, 5, 4, 3],
       "hardpoints": [3, 3, 0, 0, 0, 0],
       "internal": [
-        5, 
+        5,
         { "class": 5, "name": "Military", "eligible": { "mahr":1, "hr": 1, "scb": 1, "mrp": 1, "gsrp": 1, "gmrp": 1, "ghrp": 1 } },
         4, 2, 1, 1
       ]
@@ -41,7 +41,7 @@
     "defaults": {
       "standard": ["4E", "5E", "4E", "3E", "5E", "4E", "3C"],
       "hardpoints": [17, 17, 0, 0, 0, 0],
-      "internal": ["4e", 0, "02", 0, 0, "2h"]
+      "internal": ["4e", 0, "02", 0, 0, ""]
     }
   }
 }
