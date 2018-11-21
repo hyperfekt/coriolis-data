@@ -11,6 +11,7 @@
 				"speed": 220,
 				"boost": 320,
 				"boostEnergy": 9,
+				"heatCapacity": 170,
 				"baseShieldStrength": 60,
 				"baseArmour": 90,
 				"hardness": 35,
@@ -137,7 +138,7 @@
 					"44",
 					"00",
 					0,
-					"2h"
+					""
 				]
 			}
 		},
@@ -153,6 +154,7 @@
 				"boost": 330,
 				"boostEnergy": 19,
 				"baseShieldStrength": 200,
+				"heatCapacity": 289,
 				"baseArmour": 280,
 				"hardness": 65,
 				"hullMass": 400,
@@ -330,7 +332,7 @@
 					"4e",
 					"02",
 					"",
-					"2h",
+					"",
 					"",
 					"",
 					""
@@ -348,6 +350,7 @@
 				"speed": 204,
 				"boost": 310,
 				"boostEnergy": 19,
+				"heatCapacity": 316,
 				"baseShieldStrength": 220,
 				"baseArmour": 300,
 				"hardness": 65,
@@ -528,7 +531,7 @@
 					"4h",
 					"01",
 					"01",
-					"2h",
+					"",
 					"",
 					"",
 					"",
@@ -549,6 +552,7 @@
 				"boostEnergy": 19,
 				"baseShieldStrength": 200,
 				"baseArmour": 300,
+				"heatCapacity": 316,
 				"hardness": 65,
 				"hullMass": 500,
 				"masslock": 13,
@@ -727,7 +731,7 @@
 					"4e",
 					"02",
 					"",
-					"2h",
+					"",
 					"",
 					"",
 					""
@@ -747,6 +751,7 @@
 				"boostEnergy": 27,
 				"baseShieldStrength": 350,
 				"baseArmour": 525,
+				"heatCapacity": 334,
 				"hardness": 65,
 				"hullMass": 400,
 				"masslock": 23,
@@ -919,7 +924,7 @@
 					0,
 					0,
 					0,
-					"2h",
+					"",
 					"00"
 				]
 			}
@@ -936,6 +941,7 @@
 				"boost": 340,
 				"boostEnergy": 13,
 				"baseShieldStrength": 140,
+				"heatCapacity": 272,
 				"baseArmour": 210,
 				"hardness": 52,
 				"hullMass": 280,
@@ -1075,7 +1081,7 @@
 					0,
 					0,
 					"00",
-					"2h"
+					""
 				]
 			}
 		},
@@ -1091,6 +1097,7 @@
 				"boost": 300,
 				"boostEnergy": 13,
 				"baseShieldStrength": 120,
+				"heatCapacity": 210,
 				"baseArmour": 180,
 				"hardness": 52,
 				"hullMass": 150,
@@ -1236,6 +1243,7 @@
 				"boost": 280,
 				"boostEnergy": 19,
 				"baseShieldStrength": 280,
+				"heatCapacity": 283,
 				"baseArmour": 280,
 				"hardness": 60,
 				"hullMass": 950,
@@ -1390,7 +1398,7 @@
 					"01",
 					0,
 					0,
-					"2h"
+					""
 				]
 			}
 		},
@@ -1407,6 +1415,7 @@
 				"boostEnergy": 10,
 				"baseShieldStrength": 80,
 				"baseArmour": 120,
+				"heatCapacity": 225,
 				"hardness": 35,
 				"hullMass": 180,
 				"masslock": 8,
@@ -1535,7 +1544,7 @@
 					"49",
 					"00",
 					0,
-					"2h"
+					""
 				]
 			}
 		},
@@ -1551,6 +1560,7 @@
 				"boost": 300,
 				"boostEnergy": 10,
 				"baseShieldStrength": 120,
+				"heatCapacity": 228,
 				"baseArmour": 120,
 				"hardness": 35,
 				"hullMass": 210,
@@ -1689,7 +1699,7 @@
 					0,
 					0,
 					"00",
-					"2h"
+					""
 				]
 			}
 		},
@@ -1707,6 +1717,7 @@
 				"baseShieldStrength": 150,
 				"baseArmour": 150,
 				"hardness": 42,
+				"heatCapacity": 351,
 				"hullMass": 260,
 				"masslock": 10,
 				"pipSpeed": 0.098214285714286,
@@ -1835,7 +1846,7 @@
 					"02",
 					"01",
 					0,
-					"2h",
+					"",
 					0
 				]
 			}
@@ -1854,6 +1865,7 @@
 				"baseShieldStrength": 120,
 				"baseArmour": 120,
 				"hardness": 40,
+				"heatCapacity": 346,
 				"hullMass": 170,
 				"masslock": 8,
 				"pipSpeed": 0.096153846153846,
@@ -1981,7 +1993,7 @@
 					"44",
 					0,
 					0,
-					"2h"
+					""
 				]
 			}
 		},
@@ -2000,6 +2012,7 @@
 				"baseArmour": 110,
 				"hardness": 35,
 				"hullMass": 140,
+				"heatCapacity": 165,
 				"masslock": 9,
 				"pipSpeed": 0.13,
 				"luxuryCabins": true,
@@ -2130,7 +2143,7 @@
 					"01",
 					"00",
 					0,
-					"2h"
+					""
 				]
 			}
 		},
@@ -2149,6 +2162,7 @@
 				"baseArmour": 40,
 				"hardness": 28,
 				"hullMass": 50,
+				"heatCapacity": 165,
 				"masslock": 6,
 				"pipSpeed": 0.0625,
 				"pitch": 50,
@@ -2280,7 +2294,7 @@
 					"44",
 					"00",
 					0,
-					"2h",
+					"",
 					0
 				]
 			}
@@ -2300,6 +2314,7 @@
 				"baseArmour": 300,
 				"hardness": 60,
 				"hullMass": 480,
+				"heatCapacity": 286,
 				"masslock": 14,
 				"pipSpeed": 0.071428571428571,
 				"pitch": 38,
@@ -2481,6 +2496,7 @@
 				"hardness": 70,
 				"hullMass": 900,
 				"masslock": 24,
+				"heatCapacity": 333,
 				"pipSpeed": 0.125,
 				"fighterHangars": true,
 				"pitch": 28,
@@ -2664,7 +2680,7 @@
 					0,
 					"02",
 					"01",
-					"2h"
+					""
 				]
 			}
 		},
@@ -2683,6 +2699,7 @@
 				"baseArmour": 300,
 				"hardness": 60,
 				"hullMass": 580,
+				"heatCapacity": 331,
 				"masslock": 14,
 				"pipSpeed": 0.11111111111111,
 				"pitch": 30,
@@ -2848,7 +2865,7 @@
 					0,
 					0,
 					0,
-					"2h"
+					""
 				]
 			}
 		},
@@ -2867,6 +2884,7 @@
 				"baseArmour": 350,
 				"hardness": 60,
 				"hullMass": 580,
+				"heatCapacity": 325,
 				"masslock": 14,
 				"pipSpeed": 0.10294117647059,
 				"fighterHangars": true,
@@ -3047,7 +3065,7 @@
 					0,
 					0,
 					0,
-					"2h"
+					""
 				]
 			}
 		},
@@ -3066,6 +3084,7 @@
 				"baseArmour": 225,
 				"hardness": 70,
 				"hullMass": 250,
+				"heatCapacity": 224,
 				"masslock": 12,
 				"pipSpeed": 0.038461538461538,
 				"pitch": 38,
@@ -3200,7 +3219,7 @@
 					"49",
 					"02",
 					0,
-					"2h"
+					""
 				]
 			}
 		},
@@ -3218,6 +3237,7 @@
 				"baseShieldStrength": 50,
 				"baseArmour": 100,
 				"hardness": 20,
+				"heatCapacity": 123,
 				"hullMass": 14,
 				"masslock": 6,
 				"pipSpeed": 0.1625,
@@ -3335,7 +3355,7 @@
 					"01",
 					"01",
 					"3v",
-					"2h"
+					""
 				]
 			}
 		},
@@ -3355,6 +3375,7 @@
 				"hardness": 60,
 				"hullMass": 400,
 				"masslock": 12,
+				"heatCapacity": 304,
 				"pipSpeed": 0.1,
 				"pitch": 40,
 				"roll": 80,
@@ -3491,7 +3512,7 @@
 					0,
 					0,
 					"00",
-					"2h"
+					""
 				]
 			}
 		},
@@ -3511,6 +3532,7 @@
 				"hardness": 30,
 				"hullMass": 35,
 				"masslock": 7,
+				"heatCapacity": 230,
 				"pipSpeed": 0.053571428571429,
 				"pitch": 38,
 				"roll": 90,
@@ -3641,7 +3663,7 @@
 					"3v",
 					"00",
 					"00",
-					"2h"
+					""
 				]
 			}
 		},
@@ -3660,6 +3682,7 @@
 				"baseArmour": 400,
 				"hardness": 70,
 				"hullMass": 1100,
+				"heatCapacity": 327,
 				"masslock": 27,
 				"pipSpeed": 0.05,
 				"fighterHangars": true,
@@ -3842,7 +3865,7 @@
 					0,
 					0,
 					"01",
-					"2h"
+					""
 				]
 			}
 		},
@@ -3860,6 +3883,7 @@
 				"baseShieldStrength": 80,
 				"baseArmour": 60,
 				"hardness": 28,
+				"heatCapacity": 163,
 				"hullMass": 50,
 				"masslock": 6,
 				"pipSpeed": 0.075,
@@ -3992,7 +4016,7 @@
 					"44",
 					"00",
 					0,
-					"2h",
+					"",
 					0
 				]
 			}
@@ -4011,6 +4035,7 @@
 				"baseShieldStrength": 135,
 				"baseArmour": 270,
 				"hardness": 45,
+				"heatCapacity": 215,
 				"hullMass": 180,
 				"masslock": 8,
 				"pipSpeed": 0.1375,
@@ -4141,7 +4166,7 @@
 					"02",
 					"44",
 					"00",
-					"2h"
+					""
 				]
 			}
 		},
@@ -4157,6 +4182,7 @@
 				"boost": 330,
 				"boostEnergy": 13,
 				"baseShieldStrength": 220,
+				"heatCapacity": 300,
 				"baseArmour": 220,
 				"hardness": 55,
 				"hullMass": 320,
@@ -4295,7 +4321,7 @@
 					"04",
 					"03",
 					0,
-					"2h",
+					"",
 					0,
 					"00"
 				]
@@ -4311,6 +4337,7 @@
 				"hullCost": 42409425,
 				"speed": 250,
 				"boost": 350,
+				"heatCapacity": 300,
 				"boostEnergy": 13,
 				"baseShieldStrength": 200,
 				"baseArmour": 180,
@@ -4449,7 +4476,7 @@
 					"04",
 					"04",
 					0,
-					"2h",
+					"",
 					0,
 					"00"
 				]
@@ -4468,6 +4495,7 @@
 				"boostEnergy": 16,
 				"baseShieldStrength": 220,
 				"baseArmour": 220,
+				"heatCapacity": 262,
 				"hardness": 55,
 				"hullMass": 290,
 				"masslock": 16,
@@ -4603,7 +4631,7 @@
 					"02",
 					0,
 					0,
-					"2h"
+					""
 				]
 			}
 		},
@@ -4619,6 +4647,7 @@
 				"boost": 380,
 				"boostEnergy": 10,
 				"baseShieldStrength": 270,
+				"heatCapacity": 165,
 				"baseArmour": 230,
 				"hardness": 65,
 				"hullMass": 250,
@@ -4773,6 +4802,7 @@
 				"boostEnergy": 23,
 				"baseShieldStrength": 260,
 				"baseArmour": 260,
+				"heatCapacity": 300,
 				"hardness": 65,
 				"hullMass": 350,
 				"masslock": 17,
@@ -4913,7 +4943,7 @@
 					0,
 					0,
 					"00",
-					"2h"
+					""
 				]
 			}
 		},
@@ -4928,6 +4958,7 @@
 				"speed": 220,
 				"boost": 320,
 				"boostEnergy": 7,
+				"heatCapacity": 140,
 				"baseShieldStrength": 40,
 				"baseArmour": 60,
 				"hardness": 20,
@@ -5049,7 +5080,7 @@
 				"internal": [
 					"3v",
 					"01",
-					"2h",
+					"",
 					0
 				]
 			}
@@ -5064,6 +5095,7 @@
 				"hullCost": 865790,
 				"speed": 220,
 				"boost": 350,
+				"heatCapacity": 179,
 				"boostEnergy": 10,
 				"baseShieldStrength": 90,
 				"baseArmour": 180,
@@ -5195,7 +5227,7 @@
 					"02",
 					"44",
 					"00",
-					"2h"
+					""
 				]
 			}
 		},
@@ -5208,6 +5240,7 @@
 				"class": 3,
 				"hullCost": 16780510,
 				"speed": 180,
+				"heatCapacity": 226,
 				"boost": 300,
 				"boostEnergy": 10,
 				"baseShieldStrength": 155,
@@ -5350,7 +5383,7 @@
 					"49",
 					0,
 					0,
-					"2h"
+					""
 				]
 			}
 		},
@@ -5365,6 +5398,7 @@
 				"speed": 130,
 				"boost": 200,
 				"boostEnergy": 19,
+				"heatCapacity": 289,
 				"baseShieldStrength": 240,
 				"baseArmour": 480,
 				"hardness": 65,
@@ -5510,7 +5544,7 @@
 					0,
 					"01",
 					0,
-					"2h"
+					""
 				]
 			}
 		},
@@ -5529,6 +5563,7 @@
 				"baseArmour": 580,
 				"hardness": 75,
 				"hullMass": 1200,
+				"heatCapacity": 335,
 				"masslock": 26,
 				"pipSpeed": 0.041666666666667,
 				"fighterHangars": true,
@@ -5709,7 +5744,7 @@
 					0,
 					"01",
 					0,
-					"2h",
+					"",
 					0,
 					0
 				]
@@ -5730,6 +5765,7 @@
 				"baseArmour": 70,
 				"hardness": 35,
 				"hullMass": 50,
+				"heatCapacity": 195,
 				"masslock": 7,
 				"pipSpeed": 0.09375,
 				"pitch": 35,
@@ -5866,7 +5902,7 @@
 					"44",
 					0,
 					0,
-					"2h"
+					""
 				]
 			}
 		},
@@ -5885,6 +5921,7 @@
 				"baseArmour": 150,
 				"hardness": 35,
 				"hullMass": 190,
+				"heatCapacity": 209,
 				"masslock": 7,
 				"pipSpeed": 0.087962962962963,
 				"pitch": 30,
@@ -6025,7 +6062,7 @@
 					0,
 					"00",
 					0,
-					"2h"
+					""
 				]
 			}
 		},
@@ -6042,6 +6079,7 @@
 				"boostEnergy": 16,
 				"baseShieldStrength": 240,
 				"baseArmour": 160,
+				"heatCapacity": 237,
 				"hardness": 55,
 				"hullMass": 230,
 				"masslock": 10,
@@ -6182,7 +6220,7 @@
 					"02",
 					0,
 					0,
-					"2h"
+					""
 				]
 			}
 		}
@@ -10782,14 +10820,14 @@
 					"grp": "ul",
 					"id": "cy",
 					"integrity": 40,
-					"jitter": 3.5,
+					"jitter": 1.7,
 					"mass": 2,
 					"mount": "F",
 					"name": "Cytoscrambler",
 					"piercing": 1,
 					"power": 0.8,
 					"pp": "Archon Delaine",
-					"range": 3000,
+					"range": 1000,
 					"rating": "F",
 					"rof": 7.6,
 					"thermload": 0.3,
@@ -11735,7 +11773,8 @@
 					"cost": 379000,
 					"damage": 3.3,
 					"damagedist": {
-						"X": 1
+						"X": 1,
+						"K": 1
 					},
 					"distdraw": 0.11,
 					"edID": 128788701,
@@ -11766,7 +11805,8 @@
 					"cost": 1826500,
 					"damage": 1.7,
 					"damagedist": {
-						"X": 1
+						"X": 1,
+						"K": 1
 					},
 					"distdraw": 0.06,
 					"edID": 128793059,
@@ -11797,7 +11837,8 @@
 					"cost": 1181500,
 					"damage": 6.1,
 					"damagedist": {
-						"X": 1
+						"X": 1,
+						"K": 1
 					},
 					"distdraw": 0.18,
 					"edID": 128788702,
@@ -11828,7 +11869,8 @@
 					"cost": 3821600,
 					"damage": 3.3,
 					"damagedist": {
-						"X": 1
+						"X": 1,
+						"K": 1
 					},
 					"distdraw": 0.06,
 					"edID": 128793060,
@@ -13093,7 +13135,8 @@
 					"cost": 540900,
 					"damage": 64,
 					"damagedist": {
-						"X": 1
+						"X": 1,
+						"E": 1
 					},
 					"distdraw": 0.14,
 					"edID": 128788699,
@@ -13124,7 +13167,8 @@
 					"cost": 2022700,
 					"damage": 50,
 					"damagedist": {
-						"X": 1
+						"X": 1,
+						"E": 1
 					},
 					"distdraw": 0.08,
 					"edID": 128788704,
@@ -13155,7 +13199,8 @@
 					"cost": 1352250,
 					"damage": 64,
 					"damagedist": {
-						"X": 1
+						"X": 1,
+						"E": 1
 					},
 					"distdraw": 0.24,
 					"edID": 128788700,
@@ -13186,7 +13231,8 @@
 					"cost": 4056750,
 					"damage": 64,
 					"damagedist": {
-						"X": 1
+						"X": 1,
+						"E": 1
 					},
 					"distdraw": 0.14,
 					"edID": 128788705,
@@ -21889,7 +21935,7 @@
 						"features": {
 							"explres": [
 								0,
-								0.042
+								0.03
 							],
 							"hullboost": [
 								-0.01,
@@ -21897,7 +21943,7 @@
 							],
 							"kinres": [
 								0,
-								0.036
+								0.03
 							],
 							"mass": [
 								0,
@@ -21917,16 +21963,16 @@
 						},
 						"features": {
 							"explres": [
-								0.042,
-								0.084
+								0.03,
+								0.06
 							],
 							"hullboost": [
 								-0.02,
 								-0.02
 							],
 							"kinres": [
-								0.036,
-								0.072
+								0.03,
+								0.06
 							],
 							"mass": [
 								-0.15,
@@ -21947,16 +21993,16 @@
 						},
 						"features": {
 							"explres": [
-								0.084,
-								0.126
+								0.06,
+								0.09
 							],
 							"hullboost": [
 								-0.03,
 								-0.03
 							],
 							"kinres": [
-								0.072,
-								0.108
+								0.06,
+								0.09
 							],
 							"mass": [
 								-0.25,
@@ -21977,16 +22023,16 @@
 						},
 						"features": {
 							"explres": [
-								0.126,
-								0.168
+								0.09,
+								0.12
 							],
 							"hullboost": [
 								-0.04,
 								-0.04
 							],
 							"kinres": [
-								0.108,
-								0.144
+								0.09,
+								0.12
 							],
 							"mass": [
 								-0.35,
@@ -22007,16 +22053,16 @@
 						},
 						"features": {
 							"explres": [
-								0.168,
-								0.21
+								0.12,
+								0.15
 							],
 							"hullboost": [
 								-0.05,
 								-0.05
 							],
 							"kinres": [
-								0.144,
-								0.18
+								0.12,
+								0.15
 							],
 							"mass": [
 								-0.45,
@@ -22047,11 +22093,11 @@
 						"features": {
 							"explres": [
 								0,
-								0.168
+								0.12
 							],
 							"kinres": [
-								-0.05,
-								-0.05
+								-0.04,
+								-0.04
 							],
 							"thermres": [
 								-0.04,
@@ -22067,12 +22113,12 @@
 						},
 						"features": {
 							"explres": [
-								0.168,
-								0.266
+								0.12,
+								0.19
 							],
 							"kinres": [
-								-0.07,
-								-0.07
+								-0.06,
+								-0.06
 							],
 							"thermres": [
 								-0.06,
@@ -22088,12 +22134,12 @@
 						},
 						"features": {
 							"explres": [
-								0.366,
-								0.364
+								0.19,
+								0.26
 							],
 							"kinres": [
-								-0.1,
-								-0.1
+								-0.08,
+								-0.08
 							],
 							"thermres": [
 								-0.08,
@@ -22110,12 +22156,12 @@
 						},
 						"features": {
 							"explres": [
-								0.364,
-								0.462
+								0.26,
+								0.33
 							],
 							"kinres": [
-								-0.12,
-								-0.12
+								-0.1,
+								-0.1
 							],
 							"thermres": [
 								-0.1,
@@ -22132,12 +22178,12 @@
 						},
 						"features": {
 							"explres": [
-								0.462,
-								0.56
+								0.33,
+								0.4
 							],
 							"kinres": [
-								-0.14,
-								-0.14
+								-0.12,
+								-0.12
 							],
 							"thermres": [
 								-0.12,
@@ -22164,7 +22210,7 @@
 						"features": {
 							"explres": [
 								0,
-								0.014
+								0.01
 							],
 							"hullboost": [
 								0,
@@ -22172,7 +22218,7 @@
 							],
 							"kinres": [
 								0,
-								0.012
+								0.01
 							],
 							"mass": [
 								0.1,
@@ -22192,16 +22238,16 @@
 						},
 						"features": {
 							"explres": [
-								0.014,
-								0.028
+								0.01,
+								0.02
 							],
 							"hullboost": [
 								0.12,
 								0.17
 							],
 							"kinres": [
-								0.012,
-								0.024
+								0.01,
+								0.02
 							],
 							"mass": [
 								0.15,
@@ -22222,16 +22268,16 @@
 						},
 						"features": {
 							"explres": [
-								0.028,
-								0.042
+								0.02,
+								0.03
 							],
 							"hullboost": [
 								0.17,
 								0.22
 							],
 							"kinres": [
-								0.024,
-								0.036
+								0.02,
+								0.03
 							],
 							"mass": [
 								0.2,
@@ -22252,16 +22298,16 @@
 						},
 						"features": {
 							"explres": [
-								0.042,
-								0.056
+								0.03,
+								0.04
 							],
 							"hullboost": [
 								0.22,
 								0.27
 							],
 							"kinres": [
-								0.036,
-								0.048
+								0.03,
+								0.04
 							],
 							"mass": [
 								0.25,
@@ -22282,16 +22328,16 @@
 						},
 						"features": {
 							"explres": [
-								0.056,
-								0.07
+								0.04,
+								0.05
 							],
 							"hullboost": [
 								0.27,
 								0.32
 							],
 							"kinres": [
-								0.048,
-								0.06
+								0.04,
+								0.05
 							],
 							"mass": [
 								0.3,
@@ -22321,12 +22367,12 @@
 						},
 						"features": {
 							"explres": [
-								-0.06,
-								-0.06
+								-0.04,
+								-0.04
 							],
 							"kinres": [
 								0,
-								0.144
+								0.12
 							],
 							"thermres": [
 								-0.04,
@@ -22342,12 +22388,12 @@
 						},
 						"features": {
 							"explres": [
-								-0.08,
-								-0.08
+								-0.06,
+								-0.06
 							],
 							"kinres": [
-								0.144,
-								0.228
+								0.12,
+								0.19
 							],
 							"thermres": [
 								-0.06,
@@ -22364,12 +22410,12 @@
 						},
 						"features": {
 							"explres": [
-								-0.11,
-								-0.11
+								-0.08,
+								-0.08
 							],
 							"kinres": [
-								0.228,
-								0.312
+								0.19,
+								0.26
 							],
 							"thermres": [
 								-0.08,
@@ -22386,12 +22432,12 @@
 						},
 						"features": {
 							"explres": [
-								-0.14,
-								-0.14
+								-0.1,
+								-0.1
 							],
 							"kinres": [
-								0.312,
-								0.396
+								0.26,
+								0.33
 							],
 							"thermres": [
 								-0.1,
@@ -22408,12 +22454,12 @@
 						},
 						"features": {
 							"explres": [
-								-0.17,
-								-0.17
+								-0.12,
+								-0.12
 							],
 							"kinres": [
-								0.396,
-								0.48
+								0.33,
+								0.4
 							],
 							"thermres": [
 								-0.12,
@@ -22439,12 +22485,12 @@
 						},
 						"features": {
 							"explres": [
-								-0.06,
-								-0.06
+								-0.04,
+								-0.04
 							],
 							"kinres": [
-								-0.05,
-								-0.05
+								-0.04,
+								-0.04
 							],
 							"thermres": [
 								0,
@@ -22460,12 +22506,12 @@
 						},
 						"features": {
 							"explres": [
-								-0.08,
-								-0.08
+								-0.06,
+								-0.06
 							],
 							"kinres": [
-								-0.07,
-								-0.07
+								-0.06,
+								-0.06
 							],
 							"thermres": [
 								0.12,
@@ -22482,12 +22528,12 @@
 						},
 						"features": {
 							"explres": [
-								-0.11,
-								-0.11
+								-0.08,
+								-0.08
 							],
 							"kinres": [
-								-0.1,
-								-0.1
+								-0.08,
+								-0.08
 							],
 							"thermres": [
 								0.19,
@@ -22504,12 +22550,12 @@
 						},
 						"features": {
 							"explres": [
-								-0.14,
-								-0.14
+								-0.1,
+								-0.1
 							],
 							"kinres": [
-								-0.12,
-								-0.12
+								-0.1,
+								-0.1
 							],
 							"thermres": [
 								0.26,
@@ -22526,12 +22572,12 @@
 						},
 						"features": {
 							"explres": [
-								-0.17,
-								-0.17
+								-0.12,
+								-0.12
 							],
 							"kinres": [
-								-0.14,
-								-0.14
+								-0.12,
+								-0.12
 							],
 							"thermres": [
 								0.33,
@@ -25911,7 +25957,7 @@
 						"features": {
 							"explres": [
 								0,
-								0.117
+								0.12
 							],
 							"hullreinforcement": [
 								0,
@@ -25935,8 +25981,8 @@
 						},
 						"features": {
 							"explres": [
-								0.117,
-								0.185
+								0.12,
+								0.19
 							],
 							"hullreinforcement": [
 								0.03,
@@ -25961,8 +26007,8 @@
 						},
 						"features": {
 							"explres": [
-								0.185,
-								0.254
+								0.19,
+								0.26
 							],
 							"hullreinforcement": [
 								0.06,
@@ -25987,8 +26033,8 @@
 						},
 						"features": {
 							"explres": [
-								0.254,
-								0.322
+								0.26,
+								0.33
 							],
 							"hullreinforcement": [
 								0.09,
@@ -26013,8 +26059,8 @@
 						},
 						"features": {
 							"explres": [
-								0.322,
-								0.39
+								0.33,
+								0.4
 							],
 							"hullreinforcement": [
 								0.12,
@@ -26217,7 +26263,7 @@
 							],
 							"kinres": [
 								0,
-								0.117
+								0.12
 							],
 							"thermres": [
 								-0.02,
@@ -26241,8 +26287,8 @@
 								0.06
 							],
 							"kinres": [
-								0.117,
-								0.185
+								0.12,
+								0.19
 							],
 							"thermres": [
 								-0.04,
@@ -26267,8 +26313,8 @@
 								0.09
 							],
 							"kinres": [
-								0.185,
-								0.254
+								0.19,
+								0.26
 							],
 							"thermres": [
 								-0.06,
@@ -26293,8 +26339,8 @@
 								0.12
 							],
 							"kinres": [
-								0.254,
-								0.322
+								0.26,
+								0.33
 							],
 							"thermres": [
 								-0.08,
@@ -26319,8 +26365,8 @@
 								0.15
 							],
 							"kinres": [
-								0.322,
-								0.29
+								0.33,
+								0.4
 							],
 							"thermres": [
 								-0.1,
@@ -26360,7 +26406,7 @@
 							],
 							"thermres": [
 								0,
-								0.117
+								0.12
 							]
 						},
 						"uuid": "cc3d62d5-9769-480d-9e37-620c61a276ab"
@@ -26384,8 +26430,8 @@
 								-0.04
 							],
 							"thermres": [
-								0.117,
-								0.185
+								0.12,
+								0.19
 							]
 						},
 						"uuid": "e4aa2331-7dc5-479c-9959-d90f0e473da9"
@@ -26410,8 +26456,8 @@
 								-0.06
 							],
 							"thermres": [
-								0.185,
-								0.254
+								0.19,
+								0.26
 							]
 						},
 						"uuid": "29f49ae9-e241-4791-a9e3-bfdccd6cdfbb"
@@ -26436,8 +26482,8 @@
 								-0.08
 							],
 							"thermres": [
-								0.254,
-								0.322
+								0.26,
+								0.33
 							]
 						},
 						"uuid": "19e30f32-a789-4acf-8f69-f97677ace963"
@@ -26462,8 +26508,8 @@
 								-0.1
 							],
 							"thermres": [
-								0.322,
-								0.39
+								0.33,
+								0.4
 							]
 						},
 						"uuid": "e6151657-1317-4aec-9e49-2d7e7a093d74"
@@ -31668,11 +31714,11 @@
 							],
 							"kinres": [
 								0,
-								0.06
+								0.1
 							],
 							"thermres": [
-								-0.04,
-								-0.04
+								-0.03,
+								-0.03
 							]
 						},
 						"uuid": "df87f0c1-bd60-4e18-8a03-76063d635235"
@@ -31688,12 +31734,12 @@
 								0.25
 							],
 							"kinres": [
-								0.06,
-								0.12
+								0.1,
+								0.2
 							],
 							"thermres": [
-								-0.07,
-								-0.07
+								-0.06,
+								-0.06
 							]
 						},
 						"uuid": "b67f86a0-866c-4233-9cd3-f5ea87a572eb"
@@ -31710,12 +31756,12 @@
 								0.3
 							],
 							"kinres": [
-								0.12,
-								0.18
+								0.2,
+								0.3
 							],
 							"thermres": [
-								-0.11,
-								-0.11
+								-0.09,
+								-0.09
 							]
 						},
 						"uuid": "93979fd6-d135-4221-9a60-c9354e02619f"
@@ -31732,12 +31778,12 @@
 								0.35
 							],
 							"kinres": [
-								0.18,
-								0.24
+								0.3,
+								0.4
 							],
 							"thermres": [
-								-0.14,
-								-0.14
+								-0.12,
+								-0.12
 							]
 						},
 						"uuid": "0e14c801-fd35-4bca-b97b-24da20d8c716"
@@ -31754,12 +31800,12 @@
 								0.4
 							],
 							"kinres": [
-								0.18,
-								0.3
+								0.4,
+								0.5
 							],
 							"thermres": [
-								-0.18,
-								-0.18
+								-0.15,
+								-0.15
 							]
 						},
 						"uuid": "dfdb4767-78e1-4e5f-ae1a-aeb6ae2748c9"
@@ -31948,11 +31994,11 @@
 							],
 							"explres": [
 								0,
-								0.0225
+								0.045
 							],
 							"kinres": [
 								0,
-								0.027
+								0.045
 							],
 							"optmul": [
 								0,
@@ -31960,7 +32006,7 @@
 							],
 							"thermres": [
 								0,
-								0.054
+								0.045
 							]
 						},
 						"uuid": "47ad77c0-e49b-44e5-9824-4074b63db369"
@@ -31980,20 +32026,20 @@
 								0.06
 							],
 							"explres": [
-								0.0225,
-								0.0375
+								0.045,
+								0.075
 							],
 							"kinres": [
-								0.027,
-								0.045
+								0.045,
+								0.075
 							],
 							"optmul": [
 								0.14,
 								0.2
 							],
 							"thermres": [
-								0.054,
-								0.09
+								0.045,
+								0.075
 							]
 						},
 						"uuid": "823f8f82-745d-4051-8f35-4e38a561932e"
@@ -32014,20 +32060,20 @@
 								0.08
 							],
 							"explres": [
-								0.0375,
-								0.0525
+								0.075,
+								0.105
 							],
 							"kinres": [
-								0.045,
-								0.063
+								0.075,
+								0.105
 							],
 							"optmul": [
 								0.2,
 								0.26
 							],
 							"thermres": [
-								0.09,
-								0.126
+								0.075,
+								0.105
 							]
 						},
 						"uuid": "a1a29713-f2e5-4e15-a913-e01dc065f99f"
@@ -32048,20 +32094,20 @@
 								0.1
 							],
 							"explres": [
-								0.0525,
-								0.0675
+								0.105,
+								0.135
 							],
 							"kinres": [
-								0.063,
-								0.081
+								0.105,
+								0.135
 							],
 							"optmul": [
 								0.26,
 								0.32
 							],
 							"thermres": [
-								0.126,
-								0.162
+								0.105,
+								0.135
 							]
 						},
 						"uuid": "87ac1315-7904-48f6-a5fe-f044be546490"
@@ -32082,20 +32128,20 @@
 								0.12
 							],
 							"explres": [
-								0.0675,
-								0.0825
+								0.135,
+								0.165
 							],
 							"kinres": [
-								0.081,
-								0.099
+								0.135,
+								0.165
 							],
 							"optmul": [
 								0.32,
 								0.38
 							],
 							"thermres": [
-								0.162,
-								0.198
+								0.135,
+								0.165
 							]
 						},
 						"uuid": "1d9af376-c7c9-4b1a-9bc9-e77b4025e328"
@@ -32121,12 +32167,12 @@
 								0.2
 							],
 							"kinres": [
-								-0.02,
-								-0.02
+								-0.04,
+								-0.04
 							],
 							"thermres": [
 								0,
-								0.12
+								0.1
 							]
 						},
 						"uuid": "ef5a3026-0777-4715-a1f4-5c65eff85b12"
@@ -32142,12 +32188,12 @@
 								0.25
 							],
 							"kinres": [
-								-0.05,
-								-0.05
+								-0.08,
+								-0.08
 							],
 							"thermres": [
-								0.12,
-								0.24
+								0.1,
+								0.2
 							]
 						},
 						"uuid": "54e6e07a-3281-41aa-afa0-bbf292131c0f"
@@ -32164,12 +32210,12 @@
 								0.3
 							],
 							"kinres": [
-								-0.07,
-								-0.07
+								-0.12,
+								-0.12
 							],
 							"thermres": [
-								0.24,
-								0.36
+								0.2,
+								0.3
 							]
 						},
 						"uuid": "307935bf-60d3-4887-b449-24d712518154"
@@ -32186,12 +32232,12 @@
 								0.35
 							],
 							"kinres": [
-								-0.1,
-								-0.1
+								-0.16,
+								-0.16
 							],
 							"thermres": [
-								0.36,
-								0.48
+								0.3,
+								0.4
 							]
 						},
 						"uuid": "ef6a4d70-9996-4db8-ae22-7c61c3dcaf74"
@@ -32208,12 +32254,12 @@
 								0.4
 							],
 							"kinres": [
-								-0.12,
-								-0.12
+								-0.2,
+								-0.2
 							],
 							"thermres": [
-								0.48,
-								0.6
+								0.4,
+								0.5
 							]
 						},
 						"uuid": "f14e779f-d09a-47e4-8f4e-89c85b730f6b"
@@ -34650,9 +34696,9 @@
 			"special_shield_regenerative": {
 				"brokenregen": 0.15,
 				"regen": 0.15,
-				"thermres": -1,
-				"kinres": -1,
-				"explres": -1
+				"thermres": -1.5,
+				"kinres": -1.5,
+				"explres": -1.5
 			},
 			"special_shield_resistive": {
 				"thermres": 3,

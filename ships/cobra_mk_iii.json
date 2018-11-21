@@ -12,6 +12,7 @@
       "boostEnergy": 10,
       "baseShieldStrength": 80,
       "baseArmour": 120,
+      "heatCapacity": 225,
       "hardness": 35,
       "hullMass": 180,
       "masslock": 8,

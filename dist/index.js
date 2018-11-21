@@ -11,6 +11,7 @@ module.exports = {
         speed: 220,
         boost: 320,
         boostEnergy: 9,
+        heatCapacity: 170,
         baseShieldStrength: 60,
         baseArmour: 90,
         hardness: 35,
@@ -92,7 +93,7 @@ module.exports = {
       defaults: {
         standard: [ "3E", "3E", "3E", "1E", "2E", "3E", "3C" ],
         hardpoints: [ 0, 17, 17, 0, 0 ],
-        internal: [ "01", "44", "00", 0, "2h" ]
+        internal: [ "01", "44", "00", 0, "" ]
       }
     },
     alliance_chieftain: {
@@ -107,6 +108,7 @@ module.exports = {
         boost: 330,
         boostEnergy: 19,
         baseShieldStrength: 200,
+        heatCapacity: 289,
         baseArmour: 280,
         hardness: 65,
         hullMass: 400,
@@ -226,7 +228,7 @@ module.exports = {
       defaults: {
         standard: [ "6E", "6E", "5E", "5E", "6E", "4E", "4C" ],
         hardpoints: [ 17, 0, 17, 0, 0, 0, 0, 0, 0, 0 ],
-        internal: [ "04", "4e", "02", "", "2h", "", "", "" ]
+        internal: [ "04", "4e", "02", "", "", "", "", "" ]
       }
     },
     alliance_challenger: {
@@ -240,6 +242,7 @@ module.exports = {
         speed: 204,
         boost: 310,
         boostEnergy: 19,
+        heatCapacity: 316,
         baseShieldStrength: 220,
         baseArmour: 300,
         hardness: 65,
@@ -360,7 +363,7 @@ module.exports = {
       defaults: {
         standard: [ "6E", "6E", "5E", "5E", "6E", "4E", "4C" ],
         hardpoints: [ 17, 0, 17, 0, 0, 0, 0, 0, 0, 0 ],
-        internal: [ "04", "4h", "01", "01", "2h", "", "", "", "" ]
+        internal: [ "04", "4h", "01", "01", "", "", "", "", "" ]
       }
     },
     alliance_crusader: {
@@ -376,6 +379,7 @@ module.exports = {
         boostEnergy: 19,
         baseShieldStrength: 200,
         baseArmour: 300,
+        heatCapacity: 316,
         hardness: 65,
         hullMass: 500,
         masslock: 13,
@@ -495,7 +499,7 @@ module.exports = {
       defaults: {
         standard: [ "6E", "6E", "5E", "5E", "6E", "4E", "4C" ],
         hardpoints: [ 17, 0, 17, 0, 0, 0, 0, 0, 0, 0 ],
-        internal: [ "04", "4e", "02", "", "2h", "", "", "" ]
+        internal: [ "04", "4e", "02", "", "", "", "", "" ]
       }
     },
     anaconda: {
@@ -511,6 +515,7 @@ module.exports = {
         boostEnergy: 27,
         baseShieldStrength: 350,
         baseArmour: 525,
+        heatCapacity: 334,
         hardness: 65,
         hullMass: 400,
         masslock: 23,
@@ -603,7 +608,7 @@ module.exports = {
       defaults: {
         standard: [ "8E", "7E", "6E", "5E", "8E", "8E", "5C" ],
         hardpoints: [ 0, 0, 0, 0, 0, 0, 17, 17, 0, 0, 0, 0, 0, 0, 0, 0 ],
-        internal: [ "05", "04", "4j", 0, "03", 0, 0, 0, 0, 0, "2h", "00" ]
+        internal: [ "05", "04", "4j", 0, "03", 0, 0, 0, 0, 0, "", "00" ]
       }
     },
     asp: {
@@ -618,6 +623,7 @@ module.exports = {
         boost: 340,
         boostEnergy: 13,
         baseShieldStrength: 140,
+        heatCapacity: 272,
         baseArmour: 210,
         hardness: 52,
         hullMass: 280,
@@ -698,7 +704,7 @@ module.exports = {
       defaults: {
         standard: [ "5E", "5E", "5E", "4E", "4E", "5E", "5C" ],
         hardpoints: [ 0, 0, 17, 17, 0, 0, 0, 0, 0, 0 ],
-        internal: [ "04", "4e", "01", 0, 0, "00", "2h" ]
+        internal: [ "04", "4e", "01", 0, 0, "00", "" ]
       }
     },
     asp_scout: {
@@ -713,6 +719,7 @@ module.exports = {
         boost: 300,
         boostEnergy: 13,
         baseShieldStrength: 120,
+        heatCapacity: 210,
         baseArmour: 180,
         hardness: 52,
         hullMass: 150,
@@ -808,6 +815,7 @@ module.exports = {
         boost: 280,
         boostEnergy: 19,
         baseShieldStrength: 280,
+        heatCapacity: 283,
         baseArmour: 280,
         hardness: 60,
         hullMass: 950,
@@ -893,7 +901,7 @@ module.exports = {
       defaults: {
         standard: [ "6E", "7E", "7E", "8E", "6E", "5E", "7C" ],
         hardpoints: [ 17, 17, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
-        internal: [ "4j", "04", "mi", "mi", "mg", "mg", "02", "01", 0, 0, "2h" ]
+        internal: [ "4j", "04", "mi", "mi", "mg", "mg", "02", "01", 0, 0, "" ]
       }
     },
     cobra_mk_iii: {
@@ -909,6 +917,7 @@ module.exports = {
         boostEnergy: 10,
         baseShieldStrength: 80,
         baseArmour: 120,
+        heatCapacity: 225,
         hardness: 35,
         hullMass: 180,
         masslock: 8,
@@ -988,7 +997,7 @@ module.exports = {
       defaults: {
         standard: [ "4E", "4E", "4E", "3E", "3E", "3E", "4C" ],
         hardpoints: [ 17, 17, 0, 0, 0, 0 ],
-        internal: [ "02", "02", "49", "00", 0, "2h" ]
+        internal: [ "02", "02", "49", "00", 0, "" ]
       }
     },
     cobra_mk_iv: {
@@ -1003,6 +1012,7 @@ module.exports = {
         boost: 300,
         boostEnergy: 10,
         baseShieldStrength: 120,
+        heatCapacity: 228,
         baseArmour: 120,
         hardness: 35,
         hullMass: 210,
@@ -1086,7 +1096,7 @@ module.exports = {
       defaults: {
         standard: [ "4E", "4E", "4E", "3E", "3E", "3E", "4C" ],
         hardpoints: [ 17, 17, 0, 0, 0, 0, 0 ],
-        internal: [ "02", "02", "49", 0, 0, 0, "00", "2h" ]
+        internal: [ "02", "02", "49", 0, 0, 0, "00", "" ]
       }
     },
     diamondback_explorer: {
@@ -1103,6 +1113,7 @@ module.exports = {
         baseShieldStrength: 150,
         baseArmour: 150,
         hardness: 42,
+        heatCapacity: 351,
         hullMass: 260,
         masslock: 10,
         pipSpeed: .098214285714286,
@@ -1181,7 +1192,7 @@ module.exports = {
       defaults: {
         standard: [ "4E", "4E", "5E", "3E", "4E", "3E", "5C" ],
         hardpoints: [ 0, 17, 17, 0, 0, 0, 0 ],
-        internal: [ "49", "02", "01", 0, "2h", 0 ]
+        internal: [ "49", "02", "01", 0, "", 0 ]
       }
     },
     diamondback: {
@@ -1198,6 +1209,7 @@ module.exports = {
         baseShieldStrength: 120,
         baseArmour: 120,
         hardness: 40,
+        heatCapacity: 346,
         hullMass: 170,
         masslock: 8,
         pipSpeed: .096153846153846,
@@ -1276,7 +1288,7 @@ module.exports = {
       defaults: {
         standard: [ "4E", "4E", "4E", "2E", "3E", "2E", "4C" ],
         hardpoints: [ 17, 17, 0, 0, 0, 0, 0, 0 ],
-        internal: [ "44", 0, 0, "2h" ]
+        internal: [ "44", 0, 0, "" ]
       }
     },
     dolphin: {
@@ -1294,6 +1306,7 @@ module.exports = {
         baseArmour: 110,
         hardness: 35,
         hullMass: 140,
+        heatCapacity: 165,
         masslock: 9,
         pipSpeed: .13,
         luxuryCabins: true,
@@ -1375,7 +1388,7 @@ module.exports = {
       defaults: {
         standard: [ "4E", "5E", "4E", "4E", "3E", "3E", "4C" ],
         hardpoints: [ 17, 17, 0, 0, 0 ],
-        internal: [ "md", "02", "49", "01", "00", 0, "2h" ]
+        internal: [ "md", "02", "49", "01", "00", 0, "" ]
       }
     },
     eagle: {
@@ -1393,6 +1406,7 @@ module.exports = {
         baseArmour: 40,
         hardness: 28,
         hullMass: 50,
+        heatCapacity: 165,
         masslock: 6,
         pipSpeed: .0625,
         pitch: 50,
@@ -1482,7 +1496,7 @@ module.exports = {
       defaults: {
         standard: [ "2E", "3E", "3E", "1E", "2E", "2E", "2C" ],
         hardpoints: [ 17, 17, 0, 0 ],
-        internal: [ "44", "00", 0, "2h", 0 ]
+        internal: [ "44", "00", 0, "", 0 ]
       }
     },
     federal_assault_ship: {
@@ -1500,6 +1514,7 @@ module.exports = {
         baseArmour: 300,
         hardness: 60,
         hullMass: 480,
+        heatCapacity: 286,
         masslock: 14,
         pipSpeed: .071428571428571,
         pitch: 38,
@@ -1623,6 +1638,7 @@ module.exports = {
         hardness: 70,
         hullMass: 900,
         masslock: 24,
+        heatCapacity: 333,
         pipSpeed: .125,
         fighterHangars: true,
         pitch: 28,
@@ -1727,7 +1743,7 @@ module.exports = {
       defaults: {
         standard: [ "8E", "7E", "6E", "5E", "8E", "8E", "5C" ],
         hardpoints: [ 0, 0, 0, 17, 17, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
-        internal: [ "4o", "05", 0, 0, 0, 0, 0, 0, 0, "02", "01", "2h" ]
+        internal: [ "4o", "05", 0, 0, 0, 0, 0, 0, 0, "02", "01", "" ]
       }
     },
     federal_dropship: {
@@ -1745,6 +1761,7 @@ module.exports = {
         baseArmour: 300,
         hardness: 60,
         hullMass: 580,
+        heatCapacity: 331,
         masslock: 14,
         pipSpeed: .11111111111111,
         pitch: 30,
@@ -1849,7 +1866,7 @@ module.exports = {
       defaults: {
         standard: [ "6E", "6E", "5E", "5E", "6E", "4E", "4C" ],
         hardpoints: [ 0, 17, 17, 0, 0, 0, 0, 0, 0 ],
-        internal: [ "04", "03", "4e", "02", 0, 0, 0, 0, "2h" ]
+        internal: [ "04", "03", "4e", "02", 0, 0, 0, 0, "" ]
       }
     },
     federal_gunship: {
@@ -1867,6 +1884,7 @@ module.exports = {
         baseArmour: 350,
         hardness: 60,
         hullMass: 580,
+        heatCapacity: 325,
         masslock: 14,
         pipSpeed: .10294117647059,
         fighterHangars: true,
@@ -1984,7 +2002,7 @@ module.exports = {
       defaults: {
         standard: [ "6E", "6E", "5E", "5E", "7E", "5E", "4C" ],
         hardpoints: [ 0, 17, 17, 0, 0, 0, 0, 0, 0, 0, 0 ],
-        internal: [ 0, "4j", "03", 0, 0, 0, 0, "2h" ]
+        internal: [ 0, "4j", "03", 0, 0, 0, 0, "" ]
       }
     },
     fer_de_lance: {
@@ -2002,6 +2020,7 @@ module.exports = {
         baseArmour: 225,
         hardness: 70,
         hullMass: 250,
+        heatCapacity: 224,
         masslock: 12,
         pipSpeed: .038461538461538,
         pitch: 38,
@@ -2079,7 +2098,7 @@ module.exports = {
       defaults: {
         standard: [ "5E", "5E", "4E", "4E", "6E", "4E", "3C" ],
         hardpoints: [ 0, 17, 17, 0, 0, 0, 0, 0, 0, 0, 0 ],
-        internal: [ "03", "49", "02", 0, "2h" ]
+        internal: [ "03", "49", "02", 0, "" ]
       }
     },
     hauler: {
@@ -2096,6 +2115,7 @@ module.exports = {
         baseShieldStrength: 50,
         baseArmour: 100,
         hardness: 20,
+        heatCapacity: 123,
         hullMass: 14,
         masslock: 6,
         pipSpeed: .1625,
@@ -2174,7 +2194,7 @@ module.exports = {
       defaults: {
         standard: [ "2E", "2E", "2E", "1E", "1E", "1E", "2C" ],
         hardpoints: [ 17, 0, 0 ],
-        internal: [ "01", "01", "3v", "2h" ]
+        internal: [ "01", "01", "3v", "" ]
       }
     },
     imperial_clipper: {
@@ -2193,6 +2213,7 @@ module.exports = {
         hardness: 60,
         hullMass: 400,
         masslock: 12,
+        heatCapacity: 304,
         pipSpeed: .1,
         pitch: 40,
         roll: 80,
@@ -2272,7 +2293,7 @@ module.exports = {
       defaults: {
         standard: [ "6E", "6E", "5E", "5E", "6E", "5E", "4C" ],
         hardpoints: [ 0, 0, 17, 17, 0, 0, 0, 0 ],
-        internal: [ "05", "4j", "02", 0, 0, 0, "00", "2h" ]
+        internal: [ "05", "4j", "02", 0, 0, 0, "00", "" ]
       }
     },
     imperial_courier: {
@@ -2291,6 +2312,7 @@ module.exports = {
         hardness: 30,
         hullMass: 35,
         masslock: 7,
+        heatCapacity: 230,
         pipSpeed: .053571428571429,
         pitch: 38,
         roll: 90,
@@ -2370,7 +2392,7 @@ module.exports = {
       defaults: {
         standard: [ "4E", "3E", "3E", "1E", "3E", "2E", "3C" ],
         hardpoints: [ 17, 17, 0, 0, 0, 0, 0 ],
-        internal: [ "01", "01", "3v", "00", "00", "2h" ]
+        internal: [ "01", "01", "3v", "00", "00", "" ]
       }
     },
     imperial_cutter: {
@@ -2388,6 +2410,7 @@ module.exports = {
         baseArmour: 400,
         hardness: 70,
         hullMass: 1100,
+        heatCapacity: 327,
         masslock: 27,
         pipSpeed: .05,
         fighterHangars: true,
@@ -2493,7 +2516,7 @@ module.exports = {
       defaults: {
         standard: [ "8E", "8E", "7E", "7E", "7E", "7E", "6C" ],
         hardpoints: [ 0, 0, 0, 17, 17, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
-        internal: [ "4t", "06", "04", 0, 0, 0, 0, 0, 0, "01", "2h" ]
+        internal: [ "4t", "06", "04", 0, 0, 0, 0, 0, 0, "01", "" ]
       }
     },
     imperial_eagle: {
@@ -2510,6 +2533,7 @@ module.exports = {
         baseShieldStrength: 80,
         baseArmour: 60,
         hardness: 28,
+        heatCapacity: 163,
         hullMass: 50,
         masslock: 6,
         pipSpeed: .075,
@@ -2600,7 +2624,7 @@ module.exports = {
       defaults: {
         standard: [ "3E", "3E", "3E", "1E", "2E", "2E", "2C" ],
         hardpoints: [ 0, 17, 17, 0 ],
-        internal: [ "44", "00", 0, "2h", 0 ]
+        internal: [ "44", "00", 0, "", 0 ]
       }
     },
     keelback: {
@@ -2617,6 +2641,7 @@ module.exports = {
         baseShieldStrength: 135,
         baseArmour: 270,
         hardness: 45,
+        heatCapacity: 215,
         hullMass: 180,
         masslock: 8,
         pipSpeed: .1375,
@@ -2696,7 +2721,7 @@ module.exports = {
       defaults: {
         standard: [ "4E", "4E", "4E", "1E", "3E", "2E", "4C" ],
         hardpoints: [ 0, 0, 17, 17, 0, 0, 0 ],
-        internal: [ "03", "03", "02", "44", "00", "2h" ]
+        internal: [ "03", "03", "02", "44", "00", "" ]
       }
     },
     krait_mkii: {
@@ -2711,6 +2736,7 @@ module.exports = {
         boost: 330,
         boostEnergy: 13,
         baseShieldStrength: 220,
+        heatCapacity: 300,
         baseArmour: 220,
         hardness: 55,
         hullMass: 320,
@@ -2792,7 +2818,7 @@ module.exports = {
       defaults: {
         standard: [ "7E", "6E", "5E", "4E", "7E", "6E", "5C" ],
         hardpoints: [ 0, 0, 0, 17, 17, 0, 0, 0, 0 ],
-        internal: [ "4h", "04", "04", "03", 0, "2h", 0, "00" ]
+        internal: [ "4h", "04", "04", "03", 0, "", 0, "00" ]
       }
     },
     krait_phantom: {
@@ -2805,6 +2831,7 @@ module.exports = {
         hullCost: 42409425,
         speed: 250,
         boost: 350,
+        heatCapacity: 300,
         boostEnergy: 13,
         baseShieldStrength: 200,
         baseArmour: 180,
@@ -2887,7 +2914,7 @@ module.exports = {
       defaults: {
         standard: [ "7E", "6E", "5E", "4E", "7E", "6E", "5C" ],
         hardpoints: [ 0, 0, "17", "17", 0, 0, 0, 0, 0 ],
-        internal: [ "4j", "04", "04", "04", 0, "2h", 0, "00" ]
+        internal: [ "4j", "04", "04", "04", 0, "", 0, "00" ]
       }
     },
     orca: {
@@ -2903,6 +2930,7 @@ module.exports = {
         boostEnergy: 16,
         baseShieldStrength: 220,
         baseArmour: 220,
+        heatCapacity: 262,
         hardness: 55,
         hullMass: 290,
         masslock: 16,
@@ -2983,7 +3011,7 @@ module.exports = {
       defaults: {
         standard: [ "5E", "6E", "5E", "6E", "5E", "4E", "5C" ],
         hardpoints: [ 0, 17, 17, 0, 0, 0, 0 ],
-        internal: [ "me", "mc", "03", "4e", "02", 0, 0, "2h" ]
+        internal: [ "me", "mc", "03", "4e", "02", 0, 0, "" ]
       }
     },
     mamba: {
@@ -2998,6 +3026,7 @@ module.exports = {
         boost: 380,
         boostEnergy: 10,
         baseShieldStrength: 270,
+        heatCapacity: 165,
         baseArmour: 230,
         hardness: 65,
         hullMass: 250,
@@ -3094,6 +3123,7 @@ module.exports = {
         boostEnergy: 23,
         baseShieldStrength: 260,
         baseArmour: 260,
+        heatCapacity: 300,
         hardness: 65,
         hullMass: 350,
         masslock: 17,
@@ -3173,7 +3203,7 @@ module.exports = {
       defaults: {
         standard: [ "7E", "6E", "5E", "4E", "7E", "6E", "5C" ],
         hardpoints: [ 0, 0, 0, 17, 17, 0, 0, 0, 0 ],
-        internal: [ "04", "04", "4j", "03", 0, 0, 0, "00", "2h" ]
+        internal: [ "04", "04", "4j", "03", 0, 0, 0, "00", "" ]
       }
     },
     sidewinder: {
@@ -3187,6 +3217,7 @@ module.exports = {
         speed: 220,
         boost: 320,
         boostEnergy: 7,
+        heatCapacity: 140,
         baseShieldStrength: 40,
         baseArmour: 60,
         hardness: 20,
@@ -3268,7 +3299,7 @@ module.exports = {
       defaults: {
         standard: [ "2E", "2E", "2E", "1E", "1E", "1E", "1C" ],
         hardpoints: [ 18, 18, 0, 0 ],
-        internal: [ "3v", "01", "2h", 0 ]
+        internal: [ "3v", "01", "", 0 ]
       }
     },
     type_6_transporter: {
@@ -3281,6 +3312,7 @@ module.exports = {
         hullCost: 865790,
         speed: 220,
         boost: 350,
+        heatCapacity: 179,
         boostEnergy: 10,
         baseShieldStrength: 90,
         baseArmour: 180,
@@ -3363,7 +3395,7 @@ module.exports = {
       defaults: {
         standard: [ "3E", "4E", "4E", "2E", "3E", "2E", "4C" ],
         hardpoints: [ 17, 17, 0, 0, 0 ],
-        internal: [ "03", "03", "02", "02", "44", "00", "2h" ]
+        internal: [ "03", "03", "02", "02", "44", "00", "" ]
       }
     },
     type_7_transport: {
@@ -3375,6 +3407,7 @@ module.exports = {
         class: 3,
         hullCost: 16780510,
         speed: 180,
+        heatCapacity: 226,
         boost: 300,
         boostEnergy: 10,
         baseShieldStrength: 155,
@@ -3458,7 +3491,7 @@ module.exports = {
       defaults: {
         standard: [ "4E", "5E", "5E", "4E", "3E", "3E", "5C" ],
         hardpoints: [ 17, 17, 0, 0, 0, 0, 0, 0 ],
-        internal: [ "04", "04", "04", "03", "03", "49", 0, 0, "2h" ]
+        internal: [ "04", "04", "04", "03", "03", "49", 0, 0, "" ]
       }
     },
     type_9_heavy: {
@@ -3472,6 +3505,7 @@ module.exports = {
         speed: 130,
         boost: 200,
         boostEnergy: 19,
+        heatCapacity: 289,
         baseShieldStrength: 240,
         baseArmour: 480,
         hardness: 65,
@@ -3554,7 +3588,7 @@ module.exports = {
       defaults: {
         standard: [ "6E", "7E", "6E", "5E", "6E", "4E", "6C" ],
         hardpoints: [ 17, 17, 0, 0, 0, 0, 0, 0, 0 ],
-        internal: [ "06", "06", "05", "4j", "03", "02", 0, "01", 0, "2h" ]
+        internal: [ "06", "06", "05", "4j", "03", "02", 0, "01", 0, "" ]
       }
     },
     type_10_defender: {
@@ -3572,6 +3606,7 @@ module.exports = {
         baseArmour: 580,
         hardness: 75,
         hullMass: 1200,
+        heatCapacity: 335,
         masslock: 26,
         pipSpeed: .041666666666667,
         fighterHangars: true,
@@ -3673,7 +3708,7 @@ module.exports = {
       defaults: {
         standard: [ "6E", "7E", "6E", "5E", "7E", "4E", "6C" ],
         hardpoints: [ 0, 0, 0, 0, 17, 17, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
-        internal: [ "06", "05", "4j", "03", "02", 0, "01", 0, "2h", 0, 0 ]
+        internal: [ "06", "05", "4j", "03", "02", 0, "01", 0, "", 0, 0 ]
       }
     },
     viper: {
@@ -3691,6 +3726,7 @@ module.exports = {
         baseArmour: 70,
         hardness: 35,
         hullMass: 50,
+        heatCapacity: 195,
         masslock: 7,
         pipSpeed: .09375,
         pitch: 35,
@@ -3780,7 +3816,7 @@ module.exports = {
       defaults: {
         standard: [ "3E", "3E", "3E", "2E", "3E", "3E", "2C" ],
         hardpoints: [ 17, 17, 0, 0, 0, 0 ],
-        internal: [ "01", "44", 0, 0, "2h" ]
+        internal: [ "01", "44", 0, 0, "" ]
       }
     },
     viper_mk_iv: {
@@ -3798,6 +3834,7 @@ module.exports = {
         baseArmour: 150,
         hardness: 35,
         hullMass: 190,
+        heatCapacity: 209,
         masslock: 7,
         pipSpeed: .087962962962963,
         pitch: 30,
@@ -3887,7 +3924,7 @@ module.exports = {
       defaults: {
         standard: [ "4E", "4E", "4E", "2E", "3E", "3E", "4C" ],
         hardpoints: [ 0, 0, 17, 17, 0, 0 ],
-        internal: [ "02", "02", "44", 0, "00", 0, "2h" ]
+        internal: [ "02", "02", "44", 0, "00", 0, "" ]
       }
     },
     vulture: {
@@ -3903,6 +3940,7 @@ module.exports = {
         boostEnergy: 16,
         baseShieldStrength: 240,
         baseArmour: 160,
+        heatCapacity: 237,
         hardness: 55,
         hullMass: 230,
         masslock: 10,
@@ -3994,7 +4032,7 @@ module.exports = {
       defaults: {
         standard: [ "4E", "5E", "4E", "3E", "5E", "4E", "3C" ],
         hardpoints: [ 17, 17, 0, 0, 0, 0 ],
-        internal: [ "4e", 0, "02", 0, 0, "2h" ]
+        internal: [ "4e", 0, "02", 0, 0, "" ]
       }
     }
   },
@@ -8317,14 +8355,14 @@ module.exports = {
         grp: "ul",
         id: "cy",
         integrity: 40,
-        jitter: 3.5,
+        jitter: 1.7,
         mass: 2,
         mount: "F",
         name: "Cytoscrambler",
         piercing: 1,
         power: .8,
         pp: "Archon Delaine",
-        range: 3e3,
+        range: 1e3,
         rating: "F",
         rof: 7.6,
         thermload: .3,
@@ -9234,7 +9272,8 @@ module.exports = {
         cost: 379e3,
         damage: 3.3,
         damagedist: {
-          X: 1
+          X: 1,
+          K: 1
         },
         distdraw: .11,
         edID: 128788701,
@@ -9264,7 +9303,8 @@ module.exports = {
         cost: 1826500,
         damage: 1.7,
         damagedist: {
-          X: 1
+          X: 1,
+          K: 1
         },
         distdraw: .06,
         edID: 128793059,
@@ -9294,7 +9334,8 @@ module.exports = {
         cost: 1181500,
         damage: 6.1,
         damagedist: {
-          X: 1
+          X: 1,
+          K: 1
         },
         distdraw: .18,
         edID: 128788702,
@@ -9324,7 +9365,8 @@ module.exports = {
         cost: 3821600,
         damage: 3.3,
         damagedist: {
-          X: 1
+          X: 1,
+          K: 1
         },
         distdraw: .06,
         edID: 128793060,
@@ -10543,7 +10585,8 @@ module.exports = {
         cost: 540900,
         damage: 64,
         damagedist: {
-          X: 1
+          X: 1,
+          E: 1
         },
         distdraw: .14,
         edID: 128788699,
@@ -10573,7 +10616,8 @@ module.exports = {
         cost: 2022700,
         damage: 50,
         damagedist: {
-          X: 1
+          X: 1,
+          E: 1
         },
         distdraw: .08,
         edID: 128788704,
@@ -10603,7 +10647,8 @@ module.exports = {
         cost: 1352250,
         damage: 64,
         damagedist: {
-          X: 1
+          X: 1,
+          E: 1
         },
         distdraw: .24,
         edID: 128788700,
@@ -10633,7 +10678,8 @@ module.exports = {
         cost: 4056750,
         damage: 64,
         damagedist: {
-          X: 1
+          X: 1,
+          E: 1
         },
         distdraw: .14,
         edID: 128788705,
@@ -18760,9 +18806,9 @@ module.exports = {
               Iron: 1
             },
             features: {
-              explres: [ 0, .042 ],
+              explres: [ 0, .03 ],
               hullboost: [ -.01, -.01 ],
-              kinres: [ 0, .036 ],
+              kinres: [ 0, .03 ],
               mass: [ 0, -.15 ],
               thermres: [ 0, .03 ]
             },
@@ -18774,9 +18820,9 @@ module.exports = {
               Iron: 1
             },
             features: {
-              explres: [ .042, .084 ],
+              explres: [ .03, .06 ],
               hullboost: [ -.02, -.02 ],
-              kinres: [ .036, .072 ],
+              kinres: [ .03, .06 ],
               mass: [ -.15, -.25 ],
               thermres: [ .03, .06 ]
             },
@@ -18789,9 +18835,9 @@ module.exports = {
               Iron: 1
             },
             features: {
-              explres: [ .084, .126 ],
+              explres: [ .06, .09 ],
               hullboost: [ -.03, -.03 ],
-              kinres: [ .072, .108 ],
+              kinres: [ .06, .09 ],
               mass: [ -.25, -.35 ],
               thermres: [ .06, .09 ]
             },
@@ -18804,9 +18850,9 @@ module.exports = {
               "Proprietary Composites": 1
             },
             features: {
-              explres: [ .126, .168 ],
+              explres: [ .09, .12 ],
               hullboost: [ -.04, -.04 ],
-              kinres: [ .108, .144 ],
+              kinres: [ .09, .12 ],
               mass: [ -.35, -.45 ],
               thermres: [ .09, .12 ]
             },
@@ -18819,9 +18865,9 @@ module.exports = {
               Tin: 1
             },
             features: {
-              explres: [ .168, .21 ],
+              explres: [ .12, .15 ],
               hullboost: [ -.05, -.05 ],
-              kinres: [ .144, .18 ],
+              kinres: [ .12, .15 ],
               mass: [ -.45, -.55 ],
               thermres: [ .12, .15 ]
             },
@@ -18840,8 +18886,8 @@ module.exports = {
               Nickel: 1
             },
             features: {
-              explres: [ 0, .168 ],
-              kinres: [ -.05, -.05 ],
+              explres: [ 0, .12 ],
+              kinres: [ -.04, -.04 ],
               thermres: [ -.04, -.04 ]
             },
             uuid: "c74fe800-a8c1-4ae9-95a1-47a8a9d1f10d"
@@ -18852,8 +18898,8 @@ module.exports = {
               Zinc: 1
             },
             features: {
-              explres: [ .168, .266 ],
-              kinres: [ -.07, -.07 ],
+              explres: [ .12, .19 ],
+              kinres: [ -.06, -.06 ],
               thermres: [ -.06, -.06 ]
             },
             uuid: "78f76eb3-ac9e-47bd-be6f-a26b4fdf9c57"
@@ -18864,8 +18910,8 @@ module.exports = {
               Vanadium: 1
             },
             features: {
-              explres: [ .366, .364 ],
-              kinres: [ -.1, -.1 ],
+              explres: [ .19, .26 ],
+              kinres: [ -.08, -.08 ],
               thermres: [ -.08, -.08 ]
             },
             uuid: "83ea4fd2-2eee-4cfb-baa6-d6c314f58b8d"
@@ -18877,8 +18923,8 @@ module.exports = {
               Tungsten: 1
             },
             features: {
-              explres: [ .364, .462 ],
-              kinres: [ -.12, -.12 ],
+              explres: [ .26, .33 ],
+              kinres: [ -.1, -.1 ],
               thermres: [ -.1, -.1 ]
             },
             uuid: "9656e75a-a8ac-454f-941a-9fe4b4f6a330"
@@ -18890,8 +18936,8 @@ module.exports = {
               Ruthenium: 1
             },
             features: {
-              explres: [ .462, .56 ],
-              kinres: [ -.14, -.14 ],
+              explres: [ .33, .4 ],
+              kinres: [ -.12, -.12 ],
               thermres: [ -.12, -.12 ]
             },
             uuid: "37e0788b-6f7d-43c8-89ca-decaff5f3653"
@@ -18909,9 +18955,9 @@ module.exports = {
               Carbon: 1
             },
             features: {
-              explres: [ 0, .014 ],
+              explres: [ 0, .01 ],
               hullboost: [ 0, .12 ],
-              kinres: [ 0, .012 ],
+              kinres: [ 0, .01 ],
               mass: [ .1, .1 ],
               thermres: [ 0, .01 ]
             },
@@ -18923,9 +18969,9 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              explres: [ .014, .028 ],
+              explres: [ .01, .02 ],
               hullboost: [ .12, .17 ],
-              kinres: [ .012, .024 ],
+              kinres: [ .01, .02 ],
               mass: [ .15, .15 ],
               thermres: [ .01, .02 ]
             },
@@ -18938,9 +18984,9 @@ module.exports = {
               "Shield Emitters": 1
             },
             features: {
-              explres: [ .028, .042 ],
+              explres: [ .02, .03 ],
               hullboost: [ .17, .22 ],
-              kinres: [ .024, .036 ],
+              kinres: [ .02, .03 ],
               mass: [ .2, .2 ],
               thermres: [ .02, .03 ]
             },
@@ -18953,9 +18999,9 @@ module.exports = {
               Vanadium: 1
             },
             features: {
-              explres: [ .042, .056 ],
+              explres: [ .03, .04 ],
               hullboost: [ .22, .27 ],
-              kinres: [ .036, .048 ],
+              kinres: [ .03, .04 ],
               mass: [ .25, .25 ],
               thermres: [ .03, .04 ]
             },
@@ -18968,9 +19014,9 @@ module.exports = {
               Tungsten: 1
             },
             features: {
-              explres: [ .056, .07 ],
+              explres: [ .04, .05 ],
               hullboost: [ .27, .32 ],
-              kinres: [ .048, .06 ],
+              kinres: [ .04, .05 ],
               mass: [ .3, .3 ],
               thermres: [ .04, .05 ]
             },
@@ -18989,8 +19035,8 @@ module.exports = {
               Nickel: 1
             },
             features: {
-              explres: [ -.06, -.06 ],
-              kinres: [ 0, .144 ],
+              explres: [ -.04, -.04 ],
+              kinres: [ 0, .12 ],
               thermres: [ -.04, -.04 ]
             },
             uuid: "285736a7-9677-4875-b425-0704d2c05ee6"
@@ -19001,8 +19047,8 @@ module.exports = {
               Vanadium: 1
             },
             features: {
-              explres: [ -.08, -.08 ],
-              kinres: [ .144, .228 ],
+              explres: [ -.06, -.06 ],
+              kinres: [ .12, .19 ],
               thermres: [ -.06, -.06 ]
             },
             uuid: "816adb1f-c089-49b6-b52d-a8ca189a4ef5"
@@ -19014,8 +19060,8 @@ module.exports = {
               Vanadium: 1
             },
             features: {
-              explres: [ -.11, -.11 ],
-              kinres: [ .228, .312 ],
+              explres: [ -.08, -.08 ],
+              kinres: [ .19, .26 ],
               thermres: [ -.08, -.08 ]
             },
             uuid: "54c5cc67-3112-4c77-87f9-c5d6a5f0ae3c"
@@ -19027,8 +19073,8 @@ module.exports = {
               Tungsten: 1
             },
             features: {
-              explres: [ -.14, -.14 ],
-              kinres: [ .312, .396 ],
+              explres: [ -.1, -.1 ],
+              kinres: [ .26, .33 ],
               thermres: [ -.1, -.1 ]
             },
             uuid: "80cdd75d-a574-4092-b45d-77187e52edf5"
@@ -19040,8 +19086,8 @@ module.exports = {
               "Phase Alloys": 1
             },
             features: {
-              explres: [ -.17, -.17 ],
-              kinres: [ .396, .48 ],
+              explres: [ -.12, -.12 ],
+              kinres: [ .33, .4 ],
               thermres: [ -.12, -.12 ]
             },
             uuid: "f56d18cc-3eca-4bec-8238-4a0105947e4e"
@@ -19059,8 +19105,8 @@ module.exports = {
               "Heat Conduction Wiring": 1
             },
             features: {
-              explres: [ -.06, -.06 ],
-              kinres: [ -.05, -.05 ],
+              explres: [ -.04, -.04 ],
+              kinres: [ -.04, -.04 ],
               thermres: [ 0, .12 ]
             },
             uuid: "73c3a3c1-da09-4792-a1e9-d0161da6c0f2"
@@ -19071,8 +19117,8 @@ module.exports = {
               Nickel: 1
             },
             features: {
-              explres: [ -.08, -.08 ],
-              kinres: [ -.07, -.07 ],
+              explres: [ -.06, -.06 ],
+              kinres: [ -.06, -.06 ],
               thermres: [ .12, .19 ]
             },
             uuid: "f3096b56-d6d2-4aa5-a77c-98ce2adc79dc"
@@ -19084,8 +19130,8 @@ module.exports = {
               Vanadium: 1
             },
             features: {
-              explres: [ -.11, -.11 ],
-              kinres: [ -.1, -.1 ],
+              explres: [ -.08, -.08 ],
+              kinres: [ -.08, -.08 ],
               thermres: [ .19, .26 ]
             },
             uuid: "1aa48c57-d187-4e82-aa88-8b4a7a4bc856"
@@ -19097,8 +19143,8 @@ module.exports = {
               Tungsten: 1
             },
             features: {
-              explres: [ -.14, -.14 ],
-              kinres: [ -.12, -.12 ],
+              explres: [ -.1, -.1 ],
+              kinres: [ -.1, -.1 ],
               thermres: [ .26, .33 ]
             },
             uuid: "afc78426-8570-4ad4-923a-794821c2506f"
@@ -19110,8 +19156,8 @@ module.exports = {
               "Proto Heat Radiators": 1
             },
             features: {
-              explres: [ -.17, -.17 ],
-              kinres: [ -.14, -.14 ],
+              explres: [ -.12, -.12 ],
+              kinres: [ -.12, -.12 ],
               thermres: [ .33, .4 ]
             },
             uuid: "12abc854-37c9-4f20-874d-dca8755e76fc"
@@ -21230,7 +21276,7 @@ module.exports = {
               Nickel: 1
             },
             features: {
-              explres: [ 0, .117 ],
+              explres: [ 0, .12 ],
               hullreinforcement: [ 0, .03 ],
               kinres: [ -.02, -.02 ],
               thermres: [ -.02, -.02 ]
@@ -21243,7 +21289,7 @@ module.exports = {
               Zinc: 1
             },
             features: {
-              explres: [ .117, .185 ],
+              explres: [ .12, .19 ],
               hullreinforcement: [ .03, .06 ],
               kinres: [ -.04, -.04 ],
               thermres: [ -.04, -.04 ]
@@ -21257,7 +21303,7 @@ module.exports = {
               Zirconium: 1
             },
             features: {
-              explres: [ .185, .254 ],
+              explres: [ .19, .26 ],
               hullreinforcement: [ .06, .09 ],
               kinres: [ -.06, -.06 ],
               thermres: [ -.06, -.06 ]
@@ -21271,7 +21317,7 @@ module.exports = {
               Tungsten: 1
             },
             features: {
-              explres: [ .254, .322 ],
+              explres: [ .26, .33 ],
               hullreinforcement: [ .09, .12 ],
               kinres: [ -.08, -.08 ],
               thermres: [ -.08, -.08 ]
@@ -21285,7 +21331,7 @@ module.exports = {
               Ruthenium: 1
             },
             features: {
-              explres: [ .322, .39 ],
+              explres: [ .33, .4 ],
               hullreinforcement: [ .12, .15 ],
               kinres: [ -.1, -.1 ],
               thermres: [ -.1, -.1 ]
@@ -21387,7 +21433,7 @@ module.exports = {
             features: {
               explres: [ -.02, -.02 ],
               hullreinforcement: [ 0, .03 ],
-              kinres: [ 0, .117 ],
+              kinres: [ 0, .12 ],
               thermres: [ -.02, -.02 ]
             },
             uuid: "9d5338ab-031c-40e5-bd13-d3eb057540ab"
@@ -21400,7 +21446,7 @@ module.exports = {
             features: {
               explres: [ -.04, -.04 ],
               hullreinforcement: [ .03, .06 ],
-              kinres: [ .117, .185 ],
+              kinres: [ .12, .19 ],
               thermres: [ -.04, -.04 ]
             },
             uuid: "238db8e4-99e2-4e70-b4e3-f918294110c7"
@@ -21414,7 +21460,7 @@ module.exports = {
             features: {
               explres: [ -.06, -.06 ],
               hullreinforcement: [ .06, .09 ],
-              kinres: [ .185, .254 ],
+              kinres: [ .19, .26 ],
               thermres: [ -.06, -.06 ]
             },
             uuid: "cb65ddfa-2fd9-4db5-9558-0770866ea8ee"
@@ -21428,7 +21474,7 @@ module.exports = {
             features: {
               explres: [ -.08, -.08 ],
               hullreinforcement: [ .09, .12 ],
-              kinres: [ .254, .322 ],
+              kinres: [ .26, .33 ],
               thermres: [ -.08, -.08 ]
             },
             uuid: "944cb78e-4da0-43a0-acc8-95c7d67eaf92"
@@ -21442,7 +21488,7 @@ module.exports = {
             features: {
               explres: [ -.1, -.1 ],
               hullreinforcement: [ .12, .15 ],
-              kinres: [ .322, .29 ],
+              kinres: [ .33, .4 ],
               thermres: [ -.1, -.1 ]
             },
             uuid: "bd68edc4-6ed5-4704-9682-28b51a18591f"
@@ -21463,7 +21509,7 @@ module.exports = {
               explres: [ -.02, -.02 ],
               hullreinforcement: [ 0, .03 ],
               kinres: [ -.02, -.02 ],
-              thermres: [ 0, .117 ]
+              thermres: [ 0, .12 ]
             },
             uuid: "cc3d62d5-9769-480d-9e37-620c61a276ab"
           },
@@ -21476,7 +21522,7 @@ module.exports = {
               explres: [ -.04, -.04 ],
               hullreinforcement: [ .03, .06 ],
               kinres: [ -.04, -.04 ],
-              thermres: [ .117, .185 ]
+              thermres: [ .12, .19 ]
             },
             uuid: "e4aa2331-7dc5-479c-9959-d90f0e473da9"
           },
@@ -21490,7 +21536,7 @@ module.exports = {
               explres: [ -.06, -.06 ],
               hullreinforcement: [ .06, .09 ],
               kinres: [ -.06, -.06 ],
-              thermres: [ .185, .254 ]
+              thermres: [ .19, .26 ]
             },
             uuid: "29f49ae9-e241-4791-a9e3-bfdccd6cdfbb"
           },
@@ -21504,7 +21550,7 @@ module.exports = {
               explres: [ -.08, -.08 ],
               hullreinforcement: [ .09, .12 ],
               kinres: [ -.08, -.08 ],
-              thermres: [ .254, .322 ]
+              thermres: [ .26, .33 ]
             },
             uuid: "19e30f32-a789-4acf-8f69-f97677ace963"
           },
@@ -21518,7 +21564,7 @@ module.exports = {
               explres: [ -.1, -.1 ],
               hullreinforcement: [ .12, .15 ],
               kinres: [ -.1, -.1 ],
-              thermres: [ .322, .39 ]
+              thermres: [ .33, .4 ]
             },
             uuid: "e6151657-1317-4aec-9e49-2d7e7a093d74"
           }
@@ -24578,8 +24624,8 @@ module.exports = {
             },
             features: {
               integrity: [ 0, .2 ],
-              kinres: [ 0, .06 ],
-              thermres: [ -.04, -.04 ]
+              kinres: [ 0, .1 ],
+              thermres: [ -.03, -.03 ]
             },
             uuid: "df87f0c1-bd60-4e18-8a03-76063d635235"
           },
@@ -24590,8 +24636,8 @@ module.exports = {
             },
             features: {
               integrity: [ .2, .25 ],
-              kinres: [ .06, .12 ],
-              thermres: [ -.07, -.07 ]
+              kinres: [ .1, .2 ],
+              thermres: [ -.06, -.06 ]
             },
             uuid: "b67f86a0-866c-4233-9cd3-f5ea87a572eb"
           },
@@ -24603,8 +24649,8 @@ module.exports = {
             },
             features: {
               integrity: [ .25, .3 ],
-              kinres: [ .12, .18 ],
-              thermres: [ -.11, -.11 ]
+              kinres: [ .2, .3 ],
+              thermres: [ -.09, -.09 ]
             },
             uuid: "93979fd6-d135-4221-9a60-c9354e02619f"
           },
@@ -24616,8 +24662,8 @@ module.exports = {
             },
             features: {
               integrity: [ .3, .35 ],
-              kinres: [ .18, .24 ],
-              thermres: [ -.14, -.14 ]
+              kinres: [ .3, .4 ],
+              thermres: [ -.12, -.12 ]
             },
             uuid: "0e14c801-fd35-4bca-b97b-24da20d8c716"
           },
@@ -24629,8 +24675,8 @@ module.exports = {
             },
             features: {
               integrity: [ .35, .4 ],
-              kinres: [ .18, .3 ],
-              thermres: [ -.18, -.18 ]
+              kinres: [ .4, .5 ],
+              thermres: [ -.15, -.15 ]
             },
             uuid: "dfdb4767-78e1-4e5f-ae1a-aeb6ae2748c9"
           }
@@ -24729,10 +24775,10 @@ module.exports = {
             features: {
               brokenregen: [ -.1, -.1 ],
               distdraw: [ .04, .04 ],
-              explres: [ 0, .0225 ],
-              kinres: [ 0, .027 ],
+              explres: [ 0, .045 ],
+              kinres: [ 0, .045 ],
               optmul: [ 0, .14 ],
-              thermres: [ 0, .054 ]
+              thermres: [ 0, .045 ]
             },
             uuid: "47ad77c0-e49b-44e5-9824-4074b63db369"
           },
@@ -24744,10 +24790,10 @@ module.exports = {
             features: {
               brokenregen: [ -.1, -.1 ],
               distdraw: [ .06, .06 ],
-              explres: [ .0225, .0375 ],
-              kinres: [ .027, .045 ],
+              explres: [ .045, .075 ],
+              kinres: [ .045, .075 ],
               optmul: [ .14, .2 ],
-              thermres: [ .054, .09 ]
+              thermres: [ .045, .075 ]
             },
             uuid: "823f8f82-745d-4051-8f35-4e38a561932e"
           },
@@ -24760,10 +24806,10 @@ module.exports = {
             features: {
               brokenregen: [ -.1, -.1 ],
               distdraw: [ .08, .08 ],
-              explres: [ .0375, .0525 ],
-              kinres: [ .045, .063 ],
+              explres: [ .075, .105 ],
+              kinres: [ .075, .105 ],
               optmul: [ .2, .26 ],
-              thermres: [ .09, .126 ]
+              thermres: [ .075, .105 ]
             },
             uuid: "a1a29713-f2e5-4e15-a913-e01dc065f99f"
           },
@@ -24776,10 +24822,10 @@ module.exports = {
             features: {
               brokenregen: [ -.1, -.1 ],
               distdraw: [ .1, .1 ],
-              explres: [ .0525, .0675 ],
-              kinres: [ .063, .081 ],
+              explres: [ .105, .135 ],
+              kinres: [ .105, .135 ],
               optmul: [ .26, .32 ],
-              thermres: [ .126, .162 ]
+              thermres: [ .105, .135 ]
             },
             uuid: "87ac1315-7904-48f6-a5fe-f044be546490"
           },
@@ -24792,10 +24838,10 @@ module.exports = {
             features: {
               brokenregen: [ -.1, -.1 ],
               distdraw: [ .12, .12 ],
-              explres: [ .0675, .0825 ],
-              kinres: [ .081, .099 ],
+              explres: [ .135, .165 ],
+              kinres: [ .135, .165 ],
               optmul: [ .32, .38 ],
-              thermres: [ .162, .198 ]
+              thermres: [ .135, .165 ]
             },
             uuid: "1d9af376-c7c9-4b1a-9bc9-e77b4025e328"
           }
@@ -24813,8 +24859,8 @@ module.exports = {
             },
             features: {
               integrity: [ 0, .2 ],
-              kinres: [ -.02, -.02 ],
-              thermres: [ 0, .12 ]
+              kinres: [ -.04, -.04 ],
+              thermres: [ 0, .1 ]
             },
             uuid: "ef5a3026-0777-4715-a1f4-5c65eff85b12"
           },
@@ -24825,8 +24871,8 @@ module.exports = {
             },
             features: {
               integrity: [ .2, .25 ],
-              kinres: [ -.05, -.05 ],
-              thermres: [ .12, .24 ]
+              kinres: [ -.08, -.08 ],
+              thermres: [ .1, .2 ]
             },
             uuid: "54e6e07a-3281-41aa-afa0-bbf292131c0f"
           },
@@ -24838,8 +24884,8 @@ module.exports = {
             },
             features: {
               integrity: [ .25, .3 ],
-              kinres: [ -.07, -.07 ],
-              thermres: [ .24, .36 ]
+              kinres: [ -.12, -.12 ],
+              thermres: [ .2, .3 ]
             },
             uuid: "307935bf-60d3-4887-b449-24d712518154"
           },
@@ -24851,8 +24897,8 @@ module.exports = {
             },
             features: {
               integrity: [ .3, .35 ],
-              kinres: [ -.1, -.1 ],
-              thermres: [ .36, .48 ]
+              kinres: [ -.16, -.16 ],
+              thermres: [ .3, .4 ]
             },
             uuid: "ef6a4d70-9996-4db8-ae22-7c61c3dcaf74"
           },
@@ -24864,8 +24910,8 @@ module.exports = {
             },
             features: {
               integrity: [ .35, .4 ],
-              kinres: [ -.12, -.12 ],
-              thermres: [ .48, .6 ]
+              kinres: [ -.2, -.2 ],
+              thermres: [ .4, .5 ]
             },
             uuid: "f14e779f-d09a-47e4-8f4e-89c85b730f6b"
           }
@@ -26520,9 +26566,9 @@ module.exports = {
       special_shield_regenerative: {
         brokenregen: .15,
         regen: .15,
-        thermres: -1,
-        kinres: -1,
-        explres: -1
+        thermres: -1.5,
+        kinres: -1.5,
+        explres: -1.5
       },
       special_shield_resistive: {
         thermres: 3,

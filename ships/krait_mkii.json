@@ -11,6 +11,7 @@
       "boost": 330,
       "boostEnergy": 13,
       "baseShieldStrength": 220,
+      "heatCapacity": 300,
       "baseArmour": 220,
       "hardness": 55,
       "hullMass": 320,

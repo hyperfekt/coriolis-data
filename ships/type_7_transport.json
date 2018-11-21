@@ -8,6 +8,7 @@
       "class": 3,
       "hullCost": 16780510,
       "speed": 180,
+      "heatCapacity": 226,
       "boost": 300,
       "boostEnergy": 10,
       "baseShieldStrength": 155,
