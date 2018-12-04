@@ -11,6 +11,7 @@
       "boost": 300,
       "boostEnergy": 10,
       "baseShieldStrength": 120,
+      "heatCapacity": 228,
       "baseArmour": 120,
       "hardness": 35,
       "hullMass": 210,
@@ -40,7 +41,7 @@
     "defaults": {
       "standard": ["4E", "4E", "4E", "3E", "3E", "3E", "4C"],
       "hardpoints": [17, 17, 0, 0, 0, 0, 0 ],
-      "internal": ["02", "02", "49", 0, 0, 0, "00", "2h"]
+      "internal": ["02", "02", "49", 0, 0, 0, "00", ""]
     }
   }
 }

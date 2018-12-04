@@ -11,6 +11,7 @@
       "boost": 280,
       "boostEnergy": 19,
       "baseShieldStrength": 280,
+      "heatCapacity": 283,
       "baseArmour": 280,
       "hardness": 60,
       "hullMass": 950,
@@ -38,18 +39,16 @@
       "standard": [6, 7, 7, 8, 6, 5, 7],
       "hardpoints": [2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0],
       "internal": [
-        6, 6,
-        { "class": 6, "name": "Passenger", "eligible": { "cr": 1, "hr": 1, "pce": 1, "pci": 1, "pcm": 1, "pcq": 1 } },
-        { "class": 6, "name": "Passenger", "eligible": { "cr": 1, "hr": 1, "pce": 1, "pci": 1, "pcm": 1, "pcq": 1 } },
-        { "class": 5, "name": "Passenger", "eligible": { "cr": 1, "hr": 1, "pce": 1, "pci": 1, "pcm": 1, "pcq": 1 } },
-        { "class": 5, "name": "Passenger", "eligible": { "cr": 1, "hr": 1, "pce": 1, "pci": 1, "pcm": 1, "pcq": 1 } },
+		6, 6,
+		6, 6,
+        5, 5,
         4, 3, 3, 3, 3
       ]
     },
     "defaults": {
       "standard": ["6E", "7E", "7E", "8E", "6E", "5E", "7C"],
       "hardpoints": [17, 17, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-      "internal": ["4j", "04", "mi", "mi", "mg", "mg", "02", "01", 0, 0, "2h"]
+      "internal": ["4j", "04", "mi", "mi", "mg", "mg", "02", "01", 0, 0, ""]
     }
   }
 }

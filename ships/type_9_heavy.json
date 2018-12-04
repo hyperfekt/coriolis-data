@@ -10,6 +10,7 @@
       "speed": 130,
       "boost": 200,
       "boostEnergy": 19,
+      "heatCapacity": 289,
       "baseShieldStrength": 240,
       "baseArmour": 480,
       "hardness": 65,
@@ -38,7 +39,7 @@
     "defaults": {
       "standard": ["6E", "7E", "6E", "5E", "6E", "4E", "6C"],
       "hardpoints": [17, 17, 0, 0, 0, 0, 0, 0, 0],
-      "internal": ["06", "06", "05", "4j", "03", "02", 0, "01", 0, "2h"]
+      "internal": ["06", "06", "05", "4j", "03", "02", 0, "01", 0, ""]
     }
   }
 }

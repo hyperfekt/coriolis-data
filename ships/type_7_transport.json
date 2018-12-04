@@ -8,6 +8,7 @@
       "class": 3,
       "hullCost": 16780510,
       "speed": 180,
+      "heatCapacity": 226,
       "boost": 300,
       "boostEnergy": 10,
       "baseShieldStrength": 155,
@@ -37,7 +38,7 @@
     "defaults": {
       "standard": ["4E", "5E", "5E", "4E", "3E", "3E", "5C"],
       "hardpoints": [17, 17, 0, 0, 0, 0, 0, 0],
-      "internal": ["04", "04", "04", "03", "03", "49", 0, 0, "2h"]
+      "internal": ["04", "04", "04", "03", "03", "49", 0, 0, ""]
     }
   }
 }
