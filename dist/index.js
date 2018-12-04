@@ -18240,7 +18240,7 @@ module.exports = {
         rating: "E",
         class: 1,
         grp: "rsl",
-        id: "0",
+        id: "2w",
         eddbID: 1617,
         edID: 128793116,
         cost: 1749600,
