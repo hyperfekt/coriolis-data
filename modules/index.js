@@ -27,6 +27,7 @@ module.exports = {
     ml: require('./hardpoints/mining_laser').ml,
     cs: require('./hardpoints/cargo_scanner').cs,
     ws: require('./hardpoints/frame_shift_wake_scanner').ws,
+    pwa: require('./hardpoints/pulse_wave_analyser').pwa,
     kw: require('./hardpoints/kill_warrant_scanner').kw,
     sb: require('./hardpoints/shield_booster').sb,
     ch: require('./hardpoints/chaff_launcher').ch,

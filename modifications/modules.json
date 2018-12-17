@@ -6602,5 +6602,11 @@
     },
     "modifications": [
     ]
+  },
+  "pwa": {
+    "blueprints": {
+    },
+    "modifications": [
+    ]
   }
 }

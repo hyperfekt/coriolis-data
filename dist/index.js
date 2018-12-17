@@ -11149,6 +11149,87 @@ module.exports = {
         scantime: 10,
         symbol: "Hpt_CloudScanner_Size0_Class5"
       } ],
+      pwa: [ {
+        rating: "A",
+        class: "0",
+        mass: 1.3,
+        eddbID: 0,
+        power: 3.2,
+        integrity: 48,
+        cost: 3e4,
+        id: "2x",
+        maxangle: 15,
+        scanrange: 24e3,
+        scantime: 3,
+        grp: "pwa",
+        boot: 3,
+        edID: 0,
+        symbol: ""
+      }, {
+        rating: "B",
+        class: "0",
+        mass: 1.3,
+        eddbID: 0,
+        power: 1.6,
+        integrity: 56,
+        cost: 3e4,
+        id: "2y",
+        maxangle: 15,
+        boot: 3,
+        scanrange: 21e3,
+        scantime: 3.08,
+        grp: "pwa",
+        edID: 0,
+        symbol: ""
+      }, {
+        rating: "C",
+        class: "0",
+        mass: 1.3,
+        eddbID: 0,
+        power: .8,
+        integrity: 40,
+        cost: 3e4,
+        id: "2z",
+        maxangle: 15,
+        boot: 3,
+        scanrange: 18e3,
+        scantime: 3,
+        grp: "pwa",
+        edID: 0,
+        symbol: ""
+      }, {
+        rating: "D",
+        class: "0",
+        mass: 1.3,
+        eddbID: 0,
+        power: .8,
+        integrity: 24,
+        cost: 3e4,
+        id: "3J",
+        maxangle: 15,
+        boot: 3,
+        scanrange: 15e3,
+        scantime: 3,
+        grp: "pwa",
+        edID: 0,
+        symbol: ""
+      }, {
+        rating: "E",
+        class: "0",
+        mass: 1.3,
+        eddbID: 0,
+        power: .8,
+        integrity: 24,
+        cost: 3e4,
+        id: "3K",
+        maxangle: 15,
+        boot: 3,
+        scanrange: 12e3,
+        scantime: 3,
+        grp: "pwa",
+        edID: 0,
+        symbol: ""
+      } ],
       kw: [ {
         class: 0,
         cost: 13540,
@@ -26304,6 +26385,20 @@ module.exports = {
         type: "numeric",
         method: "additive",
         higherbetter: true
+      },
+      scanrange: {
+        id: 51,
+        name: "scanrange",
+        type: "numeric",
+        method: "additive",
+        higherbetter: true
+      },
+      maxangle: {
+        id: 51,
+        name: "maxangle",
+        type: "numeric",
+        method: "additive",
+        higherbetter: true
       }
     },
     modifierActions: {
@@ -30376,6 +30471,10 @@ module.exports = {
         modifications: []
       },
       mahr: {
+        blueprints: {},
+        modifications: []
+      },
+      pwa: {
         blueprints: {},
         modifications: []
       }
