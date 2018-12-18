@@ -52,5 +52,6 @@
     "jumpboost": {"id": 47, "name": "jumpboost", "type": "numeric", "method": "additive", "higherbetter": true},
     "shieldaddition": {"id": 50, "name": "shieldaddition", "type": "numeric", "method": "additive", "higherbetter": true},
     "scanrange": {"id": 51, "name": "scanrange", "type": "numeric", "method": "additive", "higherbetter": true},
-    "maxangle": {"id": 51, "name": "maxangle", "type": "numeric", "method": "additive", "higherbetter": true}
+    "maxangle": {"id": 51, "name": "maxangle", "type": "numeric", "method": "additive", "higherbetter": true},
+    "chargetime": {"id": 52, "name": "chargetime", "type": "percentage", "method": "multiplicative", "higherbetter": false}
 }

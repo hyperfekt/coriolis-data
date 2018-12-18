@@ -11230,6 +11230,67 @@ module.exports = {
         edID: 0,
         symbol: ""
       } ],
+      scl: [ {
+        breachdmg: 3,
+        breachmax: 0,
+        shotspeed: 350,
+        breachmin: 0,
+        class: 2,
+        cost: 2200,
+        damage: 15,
+        chargetime: 2,
+        damagedist: {
+          E: 1
+        },
+        distdraw: .24,
+        edID: 128049381,
+        eddbID: 823,
+        falloff: 500,
+        ammo: 72,
+        clip: 1,
+        grp: "scl",
+        id: "3L",
+        integrity: 51,
+        mass: 4,
+        mount: "T",
+        piercing: 35,
+        power: 1.2,
+        range: 3e3,
+        rating: "B",
+        rof: 1,
+        thermload: 3.6,
+        symbol: ""
+      }, {
+        breachdmg: 3,
+        breachmax: 0,
+        shotspeed: 350,
+        breachmin: 0,
+        class: 2,
+        cost: 2200,
+        damage: 15,
+        chargetime: 2,
+        damagedist: {
+          E: 1
+        },
+        distdraw: .24,
+        edID: 128049381,
+        eddbID: 823,
+        falloff: 500,
+        ammo: 72,
+        clip: 1,
+        grp: "scl",
+        id: "3M",
+        integrity: 51,
+        mass: 4,
+        mount: "F",
+        piercing: 35,
+        power: 1.01,
+        range: 3e3,
+        rating: "B",
+        rof: 1,
+        thermload: 3.6,
+        symbol: ""
+      } ],
       kw: [ {
         class: 0,
         cost: 13540,
@@ -26399,6 +26460,13 @@ module.exports = {
         type: "numeric",
         method: "additive",
         higherbetter: true
+      },
+      chargetime: {
+        id: 52,
+        name: "chargetime",
+        type: "percentage",
+        method: "multiplicative",
+        higherbetter: false
       }
     },
     modifierActions: {
@@ -30475,6 +30543,10 @@ module.exports = {
         modifications: []
       },
       pwa: {
+        blueprints: {},
+        modifications: []
+      },
+      scl: {
         blueprints: {},
         modifications: []
       }
