@@ -11163,8 +11163,8 @@ module.exports = {
         scantime: 3,
         grp: "pwa",
         boot: 3,
-        edID: 0,
-        symbol: ""
+        edID: 128915722,
+        symbol: "hpt_mrascanner_size0_class5"
       }, {
         rating: "B",
         class: "0",
@@ -11179,8 +11179,8 @@ module.exports = {
         scanrange: 21e3,
         scantime: 3.08,
         grp: "pwa",
-        edID: 0,
-        symbol: ""
+        edID: 128915721,
+        symbol: "hpt_mrascanner_size0_class4"
       }, {
         rating: "C",
         class: "0",
@@ -11195,8 +11195,8 @@ module.exports = {
         scanrange: 18e3,
         scantime: 3,
         grp: "pwa",
-        edID: 0,
-        symbol: ""
+        edID: 128915720,
+        symbol: "hpt_mrascanner_size0_class3"
       }, {
         rating: "D",
         class: "0",
@@ -11211,8 +11211,8 @@ module.exports = {
         scanrange: 15e3,
         scantime: 3,
         grp: "pwa",
-        edID: 0,
-        symbol: ""
+        edID: 128915719,
+        symbol: "hpt_mrascanner_size0_class2"
       }, {
         rating: "E",
         class: "0",
@@ -11227,8 +11227,8 @@ module.exports = {
         scanrange: 12e3,
         scantime: 3,
         grp: "pwa",
-        edID: 0,
-        symbol: ""
+        edID: 128915718,
+        symbol: "hpt_mrascanner_size0_class1"
       } ],
       scl: [ {
         breachdmg: 3,
@@ -11259,7 +11259,7 @@ module.exports = {
         rating: "B",
         rof: 1,
         thermload: 3.6,
-        symbol: ""
+        symbol: "Hpt_Mining_SeismChrgWarhd_Turret_Medium"
       }, {
         breachdmg: 3,
         breachmax: 0,
@@ -11289,7 +11289,7 @@ module.exports = {
         rating: "B",
         rof: 1,
         thermload: 3.6,
-        symbol: ""
+        symbol: "Hpt_Mining_SeismChrgWarhd_Fixed_Medium"
       } ],
       kw: [ {
         class: 0,

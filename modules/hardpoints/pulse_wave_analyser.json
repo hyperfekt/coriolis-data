@@ -14,8 +14,8 @@
       "scantime": 3,
       "grp": "pwa",
       "boot": 3,
-      "edID": 0,
-      "symbol": ""
+      "edID": 128915722,
+      "symbol": "hpt_mrascanner_size0_class5"
     },
     {
       "rating": "B",
@@ -31,8 +31,8 @@
       "scanrange": 21000,
       "scantime": 3.08,
       "grp": "pwa",
-      "edID": 0,
-      "symbol": ""
+      "edID": 128915721,
+      "symbol": "hpt_mrascanner_size0_class4"
     },
     {
       "rating": "C",
@@ -48,8 +48,8 @@
       "scanrange": 18000,
       "scantime": 3,
       "grp": "pwa",
-      "edID": 0,
-      "symbol": ""
+      "edID": 128915720,
+      "symbol": "hpt_mrascanner_size0_class3"
     },
     {
       "rating": "D",
@@ -65,8 +65,8 @@
       "scanrange": 15000,
       "scantime": 3,
       "grp": "pwa",
-      "edID": 0,
-      "symbol": ""
+      "edID": 128915719,
+      "symbol": "hpt_mrascanner_size0_class2"
     },
     {
       "rating": "E",
@@ -82,8 +82,8 @@
       "scanrange": 12000,
       "scantime": 3,
       "grp": "pwa",
-      "edID": 0,
-      "symbol": ""
+      "edID": 128915718,
+      "symbol": "hpt_mrascanner_size0_class1"
     }
   ]
 }
