@@ -3024,14 +3024,14 @@ module.exports = {
         hullCost: 55866341,
         speed: 300,
         boost: 370,
-        boostEnergy: 19,
+        boostEnergy: 17,
         baseShieldStrength: 270,
         heatCapacity: 165,
         baseArmour: 230,
         hardness: 65,
         hullMass: 250,
         masslock: 12,
-        pipSpeed: .047297297297297,
+        pipSpeed: .056451612903226,
         pitch: 27,
         roll: 80,
         yaw: 10,
@@ -11148,6 +11148,148 @@ module.exports = {
         rating: "A",
         scantime: 10,
         symbol: "Hpt_CloudScanner_Size0_Class5"
+      } ],
+      pwa: [ {
+        rating: "A",
+        class: "0",
+        mass: 1.3,
+        eddbID: 0,
+        power: 3.2,
+        integrity: 48,
+        cost: 3e4,
+        id: "2x",
+        maxangle: 15,
+        scanrange: 24e3,
+        scantime: 3,
+        grp: "pwa",
+        boot: 3,
+        edID: 128915722,
+        symbol: "hpt_mrascanner_size0_class5"
+      }, {
+        rating: "B",
+        class: "0",
+        mass: 1.3,
+        eddbID: 0,
+        power: 1.6,
+        integrity: 56,
+        cost: 3e4,
+        id: "2y",
+        maxangle: 15,
+        boot: 3,
+        scanrange: 21e3,
+        scantime: 3.08,
+        grp: "pwa",
+        edID: 128915721,
+        symbol: "hpt_mrascanner_size0_class4"
+      }, {
+        rating: "C",
+        class: "0",
+        mass: 1.3,
+        eddbID: 0,
+        power: .8,
+        integrity: 40,
+        cost: 3e4,
+        id: "2z",
+        maxangle: 15,
+        boot: 3,
+        scanrange: 18e3,
+        scantime: 3,
+        grp: "pwa",
+        edID: 128915720,
+        symbol: "hpt_mrascanner_size0_class3"
+      }, {
+        rating: "D",
+        class: "0",
+        mass: 1.3,
+        eddbID: 0,
+        power: .8,
+        integrity: 24,
+        cost: 3e4,
+        id: "3J",
+        maxangle: 15,
+        boot: 3,
+        scanrange: 15e3,
+        scantime: 3,
+        grp: "pwa",
+        edID: 128915719,
+        symbol: "hpt_mrascanner_size0_class2"
+      }, {
+        rating: "E",
+        class: "0",
+        mass: 1.3,
+        eddbID: 0,
+        power: .8,
+        integrity: 24,
+        cost: 3e4,
+        id: "3K",
+        maxangle: 15,
+        boot: 3,
+        scanrange: 12e3,
+        scantime: 3,
+        grp: "pwa",
+        edID: 128915718,
+        symbol: "hpt_mrascanner_size0_class1"
+      } ],
+      scl: [ {
+        breachdmg: 3,
+        breachmax: 0,
+        shotspeed: 350,
+        breachmin: 0,
+        class: 2,
+        cost: 2200,
+        damage: 15,
+        chargetime: 2,
+        damagedist: {
+          E: 1
+        },
+        distdraw: .24,
+        edID: 128049381,
+        eddbID: 823,
+        falloff: 500,
+        ammo: 72,
+        clip: 1,
+        grp: "scl",
+        id: "3L",
+        integrity: 51,
+        mass: 4,
+        mount: "T",
+        piercing: 35,
+        power: 1.2,
+        range: 3e3,
+        rating: "B",
+        rof: 1,
+        thermload: 3.6,
+        symbol: "Hpt_Mining_SeismChrgWarhd_Turret_Medium"
+      }, {
+        breachdmg: 3,
+        breachmax: 0,
+        shotspeed: 350,
+        breachmin: 0,
+        class: 2,
+        cost: 2200,
+        damage: 15,
+        chargetime: 2,
+        damagedist: {
+          E: 1
+        },
+        distdraw: .24,
+        edID: 128049381,
+        eddbID: 823,
+        falloff: 500,
+        ammo: 72,
+        clip: 1,
+        grp: "scl",
+        id: "3M",
+        integrity: 51,
+        mass: 4,
+        mount: "F",
+        piercing: 35,
+        power: 1.01,
+        range: 3e3,
+        rating: "B",
+        rof: 1,
+        thermload: 3.6,
+        symbol: "Hpt_Mining_SeismChrgWarhd_Fixed_Medium"
       } ],
       kw: [ {
         class: 0,
@@ -26304,6 +26446,27 @@ module.exports = {
         type: "numeric",
         method: "additive",
         higherbetter: true
+      },
+      scanrange: {
+        id: 51,
+        name: "scanrange",
+        type: "numeric",
+        method: "additive",
+        higherbetter: true
+      },
+      maxangle: {
+        id: 51,
+        name: "maxangle",
+        type: "numeric",
+        method: "additive",
+        higherbetter: true
+      },
+      chargetime: {
+        id: 52,
+        name: "chargetime",
+        type: "percentage",
+        method: "multiplicative",
+        higherbetter: false
       }
     },
     modifierActions: {
@@ -30376,6 +30539,14 @@ module.exports = {
         modifications: []
       },
       mahr: {
+        blueprints: {},
+        modifications: []
+      },
+      pwa: {
+        blueprints: {},
+        modifications: []
+      },
+      scl: {
         blueprints: {},
         modifications: []
       }
