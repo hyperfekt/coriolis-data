@@ -11156,7 +11156,7 @@ module.exports = {
         eddbID: 0,
         power: 3.2,
         integrity: 48,
-        cost: 3e4,
+        cost: 1097096,
         id: "2x",
         maxangle: 15,
         scanrange: 24e3,
@@ -11172,7 +11172,7 @@ module.exports = {
         eddbID: 0,
         power: 1.6,
         integrity: 56,
-        cost: 3e4,
+        cost: 406332,
         id: "2y",
         maxangle: 15,
         boot: 3,
@@ -11188,7 +11188,7 @@ module.exports = {
         eddbID: 0,
         power: .8,
         integrity: 40,
-        cost: 3e4,
+        cost: 121901,
         id: "2z",
         maxangle: 15,
         boot: 3,
@@ -11204,7 +11204,7 @@ module.exports = {
         eddbID: 0,
         power: .8,
         integrity: 24,
-        cost: 3e4,
+        cost: 40634,
         id: "3J",
         maxangle: 15,
         boot: 3,
@@ -11220,7 +11220,7 @@ module.exports = {
         eddbID: 0,
         power: .8,
         integrity: 24,
-        cost: 3e4,
+        cost: 13545,
         id: "3K",
         maxangle: 15,
         boot: 3,
@@ -11236,7 +11236,7 @@ module.exports = {
         shotspeed: 350,
         breachmin: 0,
         class: 2,
-        cost: 2200,
+        cost: 445570,
         damage: 15,
         chargetime: 2,
         damagedist: {
@@ -11266,7 +11266,7 @@ module.exports = {
         shotspeed: 350,
         breachmin: 0,
         class: 2,
-        cost: 2200,
+        cost: 170123,
         damage: 15,
         chargetime: 2,
         damagedist: {
@@ -11810,6 +11810,38 @@ module.exports = {
         duration: 1,
         range: 3e3,
         symbol: "Hpt_AntiUnknownShutdown_Tiny"
+      } ],
+      sdm: [ {
+        breachdmg: .5,
+        breachmax: .2,
+        shotspeed: 550,
+        breachmin: .1,
+        class: 2,
+        cost: 381750,
+        damage: 5,
+        chargetime: 2,
+        damagedist: {
+          E: 1
+        },
+        distdraw: .24,
+        edID: 128049381,
+        eddbID: 823,
+        falloff: 500,
+        ammo: 96,
+        clip: 1,
+        grp: "sdm",
+        id: "3N",
+        reload: 2,
+        integrity: 51,
+        mass: 4,
+        mount: "F",
+        piercing: 25,
+        power: .93,
+        range: 3e3,
+        rating: "B",
+        rof: .5,
+        thermload: 2.9,
+        symbol: "Hpt_Mining_Subsurfdispmisle_Fixed_Medium"
       } ],
       xs: [ {
         class: 0,
@@ -30547,6 +30579,10 @@ module.exports = {
         modifications: []
       },
       scl: {
+        blueprints: {},
+        modifications: []
+      },
+      sdm: {
         blueprints: {},
         modifications: []
       }

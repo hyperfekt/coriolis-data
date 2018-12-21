@@ -38,6 +38,7 @@ module.exports = {
     gpc: require('./hardpoints/guardian_plasma_charger').gpc,
     ggc: require('./hardpoints/guardian_gauss_cannon').ggc,
     sfn: require('./hardpoints/shutdown_field_neutraliser').sfn,
+    sdm: require('./hardpoints/sub_surface_displacement_missile.json').sdm,
     xs: require('./hardpoints/xeno_scanner').xs,
     tbsc: require('./hardpoints/shock_cannon').tbsc,
     tbem: require('./hardpoints/enzyme_missile_rack.json').tbem,

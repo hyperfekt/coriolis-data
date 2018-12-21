@@ -13737,7 +13737,7 @@
 					"eddbID": 0,
 					"power": 3.2,
 					"integrity": 48,
-					"cost": 30000,
+					"cost": 1097096,
 					"id": "2x",
 					"maxangle": 15,
 					"scanrange": 24000,
@@ -13754,7 +13754,7 @@
 					"eddbID": 0,
 					"power": 1.6,
 					"integrity": 56,
-					"cost": 30000,
+					"cost": 406332,
 					"id": "2y",
 					"maxangle": 15,
 					"boot": 3,
@@ -13771,7 +13771,7 @@
 					"eddbID": 0,
 					"power": 0.8,
 					"integrity": 40,
-					"cost": 30000,
+					"cost": 121901,
 					"id": "2z",
 					"maxangle": 15,
 					"boot": 3,
@@ -13788,7 +13788,7 @@
 					"eddbID": 0,
 					"power": 0.8,
 					"integrity": 24,
-					"cost": 30000,
+					"cost": 40634,
 					"id": "3J",
 					"maxangle": 15,
 					"boot": 3,
@@ -13805,7 +13805,7 @@
 					"eddbID": 0,
 					"power": 0.8,
 					"integrity": 24,
-					"cost": 30000,
+					"cost": 13545,
 					"id": "3K",
 					"maxangle": 15,
 					"boot": 3,
@@ -13823,7 +13823,7 @@
 					"shotspeed": 350,
 					"breachmin": 0,
 					"class": 2,
-					"cost": 2200,
+					"cost": 445570,
 					"damage": 15,
 					"chargetime": 2,
 					"damagedist": {
@@ -13854,7 +13854,7 @@
 					"shotspeed": 350,
 					"breachmin": 0,
 					"class": 2,
-					"cost": 2200,
+					"cost": 170123,
 					"damage": 15,
 					"chargetime": 2,
 					"damagedist": {
@@ -14430,6 +14430,40 @@
 					"duration": 1,
 					"range": 3000,
 					"symbol": "Hpt_AntiUnknownShutdown_Tiny"
+				}
+			],
+			"sdm": [
+				{
+					"breachdmg": 0.5,
+					"breachmax": 0.2,
+					"shotspeed": 550,
+					"breachmin": 0.1,
+					"class": 2,
+					"cost": 381750,
+					"damage": 5,
+					"chargetime": 2,
+					"damagedist": {
+						"E": 1
+					},
+					"distdraw": 0.24,
+					"edID": 128049381,
+					"eddbID": 823,
+					"falloff": 500,
+					"ammo": 96,
+					"clip": 1,
+					"grp": "sdm",
+					"id": "3N",
+					"reload": 2,
+					"integrity": 51,
+					"mass": 4,
+					"mount": "F",
+					"piercing": 25,
+					"power": 0.93,
+					"range": 3000,
+					"rating": "B",
+					"rof": 0.5,
+					"thermload": 2.9,
+					"symbol": "Hpt_Mining_Subsurfdispmisle_Fixed_Medium"
 				}
 			],
 			"xs": [
@@ -41711,6 +41745,10 @@
 				"modifications": []
 			},
 			"scl": {
+				"blueprints": {},
+				"modifications": []
+			},
+			"sdm": {
 				"blueprints": {},
 				"modifications": []
 			}
