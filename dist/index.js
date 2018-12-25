@@ -11230,6 +11230,67 @@ module.exports = {
         edID: 128915718,
         symbol: "hpt_mrascanner_size0_class1"
       } ],
+      abl: [ {
+        breachdmg: .6,
+        breachmax: .2,
+        shotspeed: 667,
+        breachmin: .1,
+        class: 1,
+        cost: 9700,
+        damage: 4,
+        chargetime: 0,
+        damagedist: {
+          T: 1
+        },
+        distdraw: 2,
+        edID: 128915458,
+        eddbID: 823,
+        falloff: 1e3,
+        clip: 1,
+        grp: "abl",
+        id: "3R",
+        reload: 2,
+        integrity: 40,
+        mass: 2,
+        mount: "F",
+        piercing: 18,
+        power: .34,
+        range: 1e3,
+        rating: "D",
+        rof: 5,
+        thermload: 1.8,
+        symbol: "Hpt_Mining_Abrblstr_Fixed_Small"
+      }, {
+        breachdmg: .6,
+        breachmax: .2,
+        shotspeed: 667,
+        breachmin: .1,
+        class: 1,
+        cost: 27480,
+        damage: 4,
+        chargetime: 0,
+        damagedist: {
+          T: 1
+        },
+        distdraw: 2,
+        edID: 128915459,
+        eddbID: 823,
+        falloff: 1e3,
+        clip: 1,
+        grp: "abl",
+        id: "3S",
+        reload: 2,
+        integrity: 40,
+        mass: 2,
+        mount: "T",
+        piercing: 18,
+        power: .47,
+        range: 1e3,
+        rating: "D",
+        rof: 5,
+        thermload: 1.8,
+        symbol: "Hpt_Mining_Abrblstr_Turret_Small"
+      } ],
       scl: [ {
         breachdmg: 3,
         breachmax: 0,
@@ -30676,6 +30737,10 @@ module.exports = {
         modifications: []
       },
       sdm: {
+        blueprints: {},
+        modifications: []
+      },
+      abl: {
         blueprints: {},
         modifications: []
       }
