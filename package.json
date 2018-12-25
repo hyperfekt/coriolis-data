@@ -6,7 +6,7 @@
     "url": "https://github.com/EDCD/coriolis-data"
   },
   "main": "index.js",
-  "homepage": "https://coriolis.edcd.io",
+  "homepage": "https://coriolis.io",
   "bugs": "https://github.com/EDCD/coriolis/issues",
   "private": true,
   "engine": "node >= 4.0.0",
