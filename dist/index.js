@@ -18236,7 +18236,7 @@ module.exports = {
         eddbID: 1245,
         grp: "ss",
         id: "2i",
-        mass: 1.3,
+        mass: 0,
         name: "Detailed Surface Scanner",
         power: 0,
         rating: "C",
