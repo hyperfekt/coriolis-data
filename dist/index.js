@@ -24141,6 +24141,71 @@ module.exports = {
         modulename: [ "Detailed surface scanner", "DSS" ],
         name: "Fast scan"
       },
+      SurfaceScanner_Expanded: {
+        fdname: "SurfaceScanner_Expanded",
+        grades: {
+          "1": {
+            components: {
+              Phosphorus: 1
+            },
+            features: {
+              mass: [ .2, .2 ],
+              proberadius: [ 0, .1 ]
+            },
+            uuid: "d2f404d2-a8b9-4dfb-ae3c-43f0208123cb"
+          },
+          "2": {
+            components: {
+              "Flawed Focus Crystals": 1,
+              Phosphorus: 1
+            },
+            features: {
+              mass: [ .4, .4 ],
+              proberadius: [ .1, .2 ]
+            },
+            uuid: "2a077c82-5671-4c22-b3cb-caff4979c644"
+          },
+          "3": {
+            components: {
+              "Flawed Focus Crystals": 1,
+              "Open Symmetric Keys": 1,
+              Phosphorus: 1
+            },
+            features: {
+              mass: [ .6, .6 ],
+              proberadius: [ .2, .3 ]
+            },
+            uuid: "081990f9-99d3-435a-9428-ad26471576de"
+          },
+          "4": {
+            components: {
+              "Atypical Encryption Archives": 1,
+              "Focus Crystals": 1,
+              Manganese: 1
+            },
+            features: {
+              mass: [ .8, .8 ],
+              proberadius: [ .3, .4 ]
+            },
+            uuid: "aa10c84d-1409-48d5-ac02-d0a100d27555"
+          },
+          "5": {
+            components: {
+              "Adaptive Encryptors Capture": 1,
+              Arsenic: 1,
+              "Refined Focus Crystals": 1
+            },
+            features: {
+              mass: [ 1, 1 ],
+              proberadius: [ .4, .5 ]
+            },
+            uuid: "ea7dfe28-95d0-4939-bcf2-282dbed7d80f\n"
+          }
+        },
+        id: 93,
+        modulename: [ "Detailed surface scanner", "DSS" ],
+        name: "Expanded Probe Scanning Radius"
+      },
       Sensor_SurfaceScanner_LongRange: {
         fdname: "Sensor_SurfaceScanner_LongRange",
         grades: {
@@ -26653,6 +26718,13 @@ module.exports = {
         type: "percentage",
         method: "multiplicative",
         higherbetter: false
+      },
+      proberadius: {
+        id: 53,
+        name: "proberadius",
+        type: "percentage",
+        method: "additive",
+        higherbetter: true
       }
     },
     modifierActions: {
@@ -30320,9 +30392,28 @@ module.exports = {
                 engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Cheung", "Lori Jameson" ]
               }
             }
+          },
+          SurfaceScanner_Expanded: {
+            grades: {
+              "1": {
+                engineers: [ "Bill Turner", "Felicity Farseer", "Juri Ishmaak", "Lei Cheung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "2": {
+                engineers: [ "Bill Turner", "Felicity Farseer", "Juri Ishmaak", "Lei Cheung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "3": {
+                engineers: [ "Bill Turner", "Felicity Farseer", "Juri Ishmaak", "Lei Cheung", "Lori Jameson", "Tiana Fortune" ]
+              },
+              "4": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Cheung", "Lori Jameson" ]
+              },
+              "5": {
+                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Cheung", "Lori Jameson" ]
+              }
+            }
           }
         },
-        modifications: [ "mass", "angle", "range", "scanrate" ]
+        modifications: [ "mass", "angle", "range", "scanrate", "proberadius" ]
       },
       xs: {
         blueprints: {},
