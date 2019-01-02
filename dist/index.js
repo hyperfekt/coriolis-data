@@ -18236,7 +18236,7 @@ module.exports = {
         eddbID: 1245,
         grp: "ss",
         id: "2i",
-        mass: 1.3,
+        mass: 0,
         name: "Detailed Surface Scanner",
         power: 0,
         rating: "C",
@@ -24076,71 +24076,6 @@ module.exports = {
         modulename: [ "Sensors" ],
         name: "Wide angle"
       },
-      Sensor_SurfaceScanner_FastScan: {
-        fdname: "Sensor_SurfaceScanner_FastScan",
-        grades: {
-          "1": {
-            components: {
-              Phosphorus: 1
-            },
-            features: {
-              mass: [ .2, .2 ],
-              scanrate: [ 0, .2 ]
-            },
-            uuid: "97940d61-5b9a-4b0e-8cfd-33f2175b956a"
-          },
-          "2": {
-            components: {
-              "Flawed Focus Crystals": 1,
-              Phosphorus: 1
-            },
-            features: {
-              mass: [ .4, .4 ],
-              scanrate: [ .2, .35 ]
-            },
-            uuid: "d5c0c74d-a4ff-45ed-a732-3c68aded4e06"
-          },
-          "3": {
-            components: {
-              "Flawed Focus Crystals": 1,
-              "Open Symmetric Keys": 1,
-              Phosphorus: 1
-            },
-            features: {
-              mass: [ .6, .6 ],
-              scanrate: [ .35, .5 ]
-            },
-            uuid: "ca9fc2bb-948e-43f4-b2f2-7bea95509d63"
-          },
-          "4": {
-            components: {
-              "Atypical Encryption Archives": 1,
-              "Focus Crystals": 1,
-              Manganese: 1
-            },
-            features: {
-              mass: [ .8, .8 ],
-              scanrate: [ .5, .65 ]
-            },
-            uuid: "ef254d05-630e-41b4-9e0f-d6ea0002b1fc"
-          },
-          "5": {
-            components: {
-              "Adaptive Encryptors Capture": 1,
-              Arsenic: 1,
-              "Refined Focus Crystals": 1
-            },
-            features: {
-              mass: [ 1, 1 ],
-              scanrate: [ .65, .8 ]
-            },
-            uuid: "5938bc5c-cd01-4429-a04c-33f53b6b7027"
-          }
-        },
-        id: 95,
-        modulename: [ "Detailed surface scanner", "DSS" ],
-        name: "Fast scan"
-      },
       SurfaceScanner_Expanded: {
         fdname: "SurfaceScanner_Expanded",
         grades: {
@@ -24205,136 +24140,6 @@ module.exports = {
         id: 93,
         modulename: [ "Detailed surface scanner", "DSS" ],
         name: "Expanded Probe Scanning Radius"
-      },
-      Sensor_SurfaceScanner_LongRange: {
-        fdname: "Sensor_SurfaceScanner_LongRange",
-        grades: {
-          "1": {
-            components: {
-              Iron: 1
-            },
-            features: {
-              mass: [ .2, .2 ],
-              range: [ 0, .4 ]
-            },
-            uuid: "c35f597e-dac8-4e38-8648-e2cb0018006c"
-          },
-          "2": {
-            components: {
-              "Hybrid Capacitors": 1,
-              Iron: 1
-            },
-            features: {
-              mass: [ .4, .4 ],
-              range: [ .4, .8 ]
-            },
-            uuid: "5d607664-6ec6-4fdd-b692-4d3621c76150"
-          },
-          "3": {
-            components: {
-              "Hybrid Capacitors": 1,
-              Iron: 1,
-              "Unexpected Emission Data": 1
-            },
-            features: {
-              mass: [ .6, .6 ],
-              range: [ .8, 1.2 ]
-            },
-            uuid: "e438dda9-1b0d-47e0-be07-295c17b56c2b"
-          },
-          "4": {
-            components: {
-              "Decoded Emission Data": 1,
-              "Electrochemical Arrays": 1,
-              Germanium: 1
-            },
-            features: {
-              mass: [ .8, .8 ],
-              range: [ 1.2, 1.6 ]
-            },
-            uuid: "07ea5b4c-8ea7-44fb-8b0b-d38149dff798"
-          },
-          "5": {
-            components: {
-              "Abnormal Compact Emissions Data": 1,
-              Niobium: 1,
-              "Polymer Capacitors": 1
-            },
-            features: {
-              mass: [ 1, 1 ],
-              range: [ 1.6, 2 ]
-            },
-            uuid: "885ea8d3-3b00-481c-894c-e8ea8dd9f7e5"
-          }
-        },
-        id: 93,
-        modulename: [ "Detailed surface scanner", "DSS" ],
-        name: "Long range"
-      },
-      Sensor_SurfaceScanner_WideAngle: {
-        fdname: "Sensor_SurfaceScanner_WideAngle",
-        grades: {
-          "1": {
-            components: {
-              "Mechanical Scrap": 1
-            },
-            features: {
-              mass: [ .2, .2 ],
-              angle: [ 0, .4 ]
-            },
-            uuid: "74d12e8c-a62a-4812-b7f4-9e3356963206"
-          },
-          "2": {
-            components: {
-              Germanium: 1,
-              "Mechanical Scrap": 1
-            },
-            features: {
-              mass: [ .4, .4 ],
-              angle: [ .4, .8 ]
-            },
-            uuid: "4e76da64-72ea-4112-a5e8-4c14fc2efe57"
-          },
-          "3": {
-            components: {
-              "Classified Scan Databanks": 1,
-              Germanium: 1,
-              "Mechanical Scrap": 1
-            },
-            features: {
-              mass: [ .6, .6 ],
-              angle: [ .8, 1.2 ]
-            },
-            uuid: "e09980d9-b243-4d0f-8645-441552acb58e"
-          },
-          "4": {
-            components: {
-              "Divergent Scan Data": 1,
-              "Mechanical Equipment": 1,
-              Niobium: 1
-            },
-            features: {
-              mass: [ .8, .8 ],
-              angle: [ 1.2, 1.6 ]
-            },
-            uuid: "ed5c2046-bb49-4e48-8799-8c96db420359"
-          },
-          "5": {
-            components: {
-              "Classified Scan Fragment": 1,
-              "Mechanical Components": 1,
-              Tin: 1
-            },
-            features: {
-              mass: [ 1, 1 ],
-              angle: [ 1.6, 2 ]
-            },
-            uuid: "2b315099-a97d-43a8-958e-3c26c97b4421"
-          }
-        },
-        id: 94,
-        modulename: [ "Detailed surface scanner", "DSS" ],
-        name: "Wide angle"
       },
       Sensor_WakeScanner_FastScan: {
         fdname: "Sensor_WakeScanner_FastScan",
