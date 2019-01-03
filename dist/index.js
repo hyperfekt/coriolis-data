@@ -30141,63 +30141,6 @@ module.exports = {
       },
       ss: {
         blueprints: {
-          Sensor_SurfaceScanner_FastScan: {
-            grades: {
-              "1": {
-                engineers: [ "Bill Turner", "Felicity Farseer", "Juri Ishmaak", "Lei Cheung", "Lori Jameson", "Tiana Fortune" ]
-              },
-              "2": {
-                engineers: [ "Bill Turner", "Felicity Farseer", "Juri Ishmaak", "Lei Cheung", "Lori Jameson", "Tiana Fortune" ]
-              },
-              "3": {
-                engineers: [ "Bill Turner", "Felicity Farseer", "Juri Ishmaak", "Lei Cheung", "Lori Jameson", "Tiana Fortune" ]
-              },
-              "4": {
-                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Cheung", "Lori Jameson" ]
-              },
-              "5": {
-                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Cheung", "Lori Jameson" ]
-              }
-            }
-          },
-          Sensor_SurfaceScanner_LongRange: {
-            grades: {
-              "1": {
-                engineers: [ "Bill Turner", "Felicity Farseer", "Juri Ishmaak", "Lei Cheung", "Lori Jameson", "Tiana Fortune" ]
-              },
-              "2": {
-                engineers: [ "Bill Turner", "Felicity Farseer", "Juri Ishmaak", "Lei Cheung", "Lori Jameson", "Tiana Fortune" ]
-              },
-              "3": {
-                engineers: [ "Bill Turner", "Felicity Farseer", "Juri Ishmaak", "Lei Cheung", "Lori Jameson", "Tiana Fortune" ]
-              },
-              "4": {
-                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Cheung", "Lori Jameson" ]
-              },
-              "5": {
-                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Cheung", "Lori Jameson" ]
-              }
-            }
-          },
-          Sensor_SurfaceScanner_WideAngle: {
-            grades: {
-              "1": {
-                engineers: [ "Bill Turner", "Felicity Farseer", "Juri Ishmaak", "Lei Cheung", "Lori Jameson", "Tiana Fortune" ]
-              },
-              "2": {
-                engineers: [ "Bill Turner", "Felicity Farseer", "Juri Ishmaak", "Lei Cheung", "Lori Jameson", "Tiana Fortune" ]
-              },
-              "3": {
-                engineers: [ "Bill Turner", "Felicity Farseer", "Juri Ishmaak", "Lei Cheung", "Lori Jameson", "Tiana Fortune" ]
-              },
-              "4": {
-                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Cheung", "Lori Jameson" ]
-              },
-              "5": {
-                engineers: [ "Bill Turner", "Juri Ishmaak", "Lei Cheung", "Lori Jameson" ]
-              }
-            }
-          },
           SurfaceScanner_Expanded: {
             grades: {
               "1": {
