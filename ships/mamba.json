@@ -1,7 +1,7 @@
 {
   "mamba": {
     "edID": 128915979,
-    "eddbID": 11,
+    "eddbID": 38,
     "properties": {
       "name": "Mamba",
       "manufacturer": "Zorgon Peterson",
@@ -25,9 +25,9 @@
     "retailCost": 55867041,
     "bulkheads": [
       {
-        "id": "2T",
+        "id": "1A",
         "edID": 128915981,
-        "eddbID": 813,
+        "eddbID": 1798,
         "grp": "bh",
         "cost": 0,
         "mass": 0,
@@ -38,9 +38,9 @@
         "hullboost": 0.8
       },
       {
-        "id": "2U",
+        "id": "1B",
         "edID": 128915982,
-        "eddbID": 814,
+        "eddbID": 1799,
         "grp": "bh",
         "cost": 20626820,
         "mass": 19,
@@ -51,9 +51,9 @@
         "hullboost": 1.52
       },
       {
-        "id": "2V",
+        "id": "1C",
         "edID": 128915983,
-        "eddbID": 815,
+        "eddbID": 1800,
         "grp": "bh",
         "cost": 46410340,
         "mass": 38,
@@ -64,9 +64,9 @@
         "hullboost": 2.5
       },
       {
-        "id": "2W",
+        "id": "1D",
         "edID": 128915984,
-        "eddbID": 816,
+        "eddbID": 1801,
         "grp": "bh",
         "cost": 109683090,
         "mass": 38,
@@ -77,9 +77,9 @@
         "hullboost": 2.5
       },
       {
-        "id": "2X",
+        "id": "3A",
         "edID": 128915985,
-        "eddbID": 817,
+        "eddbID": 1802,
         "grp": "bh",
         "cost": 121543510,
         "mass": 38,
