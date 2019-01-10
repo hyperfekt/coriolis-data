@@ -3016,7 +3016,7 @@ module.exports = {
     },
     mamba: {
       edID: 128915979,
-      eddbID: 11,
+      eddbID: 38,
       properties: {
         name: "Mamba",
         manufacturer: "Zorgon Peterson",
@@ -20334,7 +20334,7 @@ module.exports = {
             },
             features: {
               integrity: [ -.09, -.09 ],
-              optmass: [ -.08, -.08 ],
+              optmass: [ -.08, -.075 ],
               optmul: [ .19, .26 ],
               power: [ .08, .08 ],
               thermload: [ .4, .4 ]
