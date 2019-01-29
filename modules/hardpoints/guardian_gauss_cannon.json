@@ -13,7 +13,7 @@
         "T": 1
       },
       "distdraw": 3.8,
-      "edID": 0,
+      "edID": 128891610,
       "eddbID": 0,
       "falloff": 1500,
       "grp": "ggc",
@@ -47,7 +47,7 @@
       "damagedist": {
         "T": 1
       },
-      "distdraw": 7.20,
+      "distdraw": 7.2,
       "edID": 128833687,
       "eddbID": 876,
       "falloff": 1500,
