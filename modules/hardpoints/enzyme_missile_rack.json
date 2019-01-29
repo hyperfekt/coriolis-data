@@ -26,7 +26,7 @@
       "breachmax": 1,
       "symbol": "Hpt_CausticMissile_Fixed_Medium",
       "damagedist": {
-          "E": 1
+        "E": 1
       }
     }
   ]

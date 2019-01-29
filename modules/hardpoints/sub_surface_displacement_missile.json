@@ -13,7 +13,7 @@
         "E": 1
       },
       "distdraw": 0.18,
-      "edID": 128049381,
+      "edID": 128915457,
       "eddbID": 823,
       "falloff": 500,
       "ammo": 96,
@@ -30,7 +30,7 @@
       "rating": "B",
       "rof": 0.5,
       "thermload": 2.9,
-      "symbol": "Hpt_Mining_Subsurfdispmisle_Fixed_Medium"
+      "symbol": "Hpt_Mining_SubSurfDispMisle_Turret_Medium"
     },
     {
       "breachdmg": 0.5,
@@ -77,7 +77,7 @@
         "E": 1
       },
       "distdraw": 0.18,
-      "edID": 128049381,
+      "edID": 128915455,
       "eddbID": 823,
       "falloff": 500,
       "ammo": 32,
@@ -94,7 +94,7 @@
       "rating": "B",
       "rof": 0.5,
       "thermload": 2.2,
-      "symbol": "Hpt_Mining_Subsurfdispmisle_Fixed_Small"
+      "symbol": "Hpt_Mining_SubSurfDispMisle_Turret_Small"
     },
     {
       "breachdmg": 0.5,

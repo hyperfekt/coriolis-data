@@ -13,7 +13,7 @@
         "A": 1
       },
       "distdraw": 0.68,
-      "edID": 0,
+      "edID": 128891607,
       "eddbID": 0,
       "falloff": 1000,
       "grp": "gpc",
@@ -44,7 +44,7 @@
         "A": 1
       },
       "distdraw": 0.8,
-      "edID": 0,
+      "edID": 128891606,
       "eddbID": 0,
       "falloff": 1000,
       "grp": "gpc",
@@ -95,7 +95,7 @@
     },
     {
       "ammo": 200,
-      "breachdmg": 1.0,
+      "breachdmg": 1,
       "breachmax": 0.8,
       "breachmin": 0.5,
       "class": 2,
@@ -135,7 +135,7 @@
       "cost": 1423301,
       "mass": 8,
       "integrity": 51,
-      "power": 3.10,
+      "power": 3.1,
       "damage": 3.4,
       "distdraw": 2.42,
       "thermload": 6.2,
