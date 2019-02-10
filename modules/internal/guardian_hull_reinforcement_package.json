@@ -15,7 +15,9 @@
       "thermres": 0.02,
       "cost": 30000,
       "symbol": "Int_GuardianHullReinforcement_Size1_Class2",
-      "grp": "ghrp"
+      "grp": "ghrp",
+      "ukName": "Guardian Hull Reinforcement",
+      "ukDiscript": "Powered module that increases the ship's hull integrity and resistance to Thargoid, caustic and thermic damage."
     },
     {
       "rating": "E",
@@ -32,7 +34,9 @@
       "thermres": 0.02,
       "cost": 10000,
       "symbol": "Int_GuardianHullReinforcement_Size1_Class1",
-      "grp": "ghrp"
+      "grp": "ghrp",
+      "ukName": "Guardian Hull Reinforcement",
+      "ukDiscript": "Powered module that increases the ship's hull integrity and resistance to Thargoid, caustic and thermic damage."
     },
     {
       "rating": "D",
@@ -49,7 +53,9 @@
       "thermres": 0.02,
       "cost": 72000,
       "symbol": "Int_GuardianHullReinforcement_Size2_Class2",
-      "grp": "ghrp"
+      "grp": "ghrp",
+      "ukName": "Guardian Hull Reinforcement",
+      "ukDiscript": "Powered module that increases the ship's hull integrity and resistance to Thargoid, caustic and thermic damage."
     },
     {
       "rating": "E",
@@ -66,7 +72,9 @@
       "thermres": 0.02,
       "cost": 24000,
       "symbol": "Int_GuardianHullReinforcement_Size2_Class1",
-      "grp": "ghrp"
+      "grp": "ghrp",
+      "ukName": "Guardian Hull Reinforcement",
+      "ukDiscript": "Powered module that increases the ship's hull integrity and resistance to Thargoid, caustic and thermic damage."
     },
     {
       "rating": "D",
@@ -83,7 +91,9 @@
       "thermres": 0.02,
       "cost": 172800,
       "symbol": "Int_GuardianHullReinforcement_Size3_Class2",
-      "grp": "ghrp"
+      "grp": "ghrp",
+      "ukName": "Guardian Hull Reinforcement",
+      "ukDiscript": "Powered module that increases the ship's hull integrity and resistance to Thargoid, caustic and thermic damage."
     },
     {
       "rating": "E",
@@ -100,7 +110,9 @@
       "thermres": 0.02,
       "cost": 57600,
       "symbol": "Int_GuardianHullReinforcement_Size3_Class1",
-      "grp": "ghrp"
+      "grp": "ghrp",
+      "ukName": "Guardian Hull Reinforcement",
+      "ukDiscript": "Powered module that increases the ship's hull integrity and resistance to Thargoid, caustic and thermic damage."
     },
     {
       "rating": "D",
@@ -117,7 +129,9 @@
       "cost": 414720,
       "id": "2R",
       "symbol": "Int_GuardianHullReinforcement_Size4_Class2",
-      "grp": "ghrp"
+      "grp": "ghrp",
+      "ukName": "Guardian Hull Reinforcement",
+      "ukDiscript": "Powered module that increases the ship's hull integrity and resistance to Thargoid, caustic and thermic damage."
     },
     {
       "rating": "E",
@@ -134,7 +148,9 @@
       "cost": 138240,
       "id": "2B",
       "symbol": "Int_GuardianHullReinforcement_Size4_Class1",
-      "grp": "ghrp"
+      "grp": "ghrp",
+      "ukName": "Guardian Hull Reinforcement",
+      "ukDiscript": "Powered module that increases the ship's hull integrity and resistance to Thargoid, caustic and thermic damage."
     },
     {
       "rating": "D",
@@ -151,7 +167,9 @@
       "cost": 995330,
       "id": "2C",
       "symbol": "Int_GuardianHullReinforcement_Size5_Class2",
-      "grp": "ghrp"
+      "grp": "ghrp",
+      "ukName": "Guardian Hull Reinforcement",
+      "ukDiscript": "Powered module that increases the ship's hull integrity and resistance to Thargoid, caustic and thermic damage."
     },
     {
       "rating": "E",
@@ -168,7 +186,9 @@
       "cost": 331778,
       "id": "2D",
       "symbol": "Int_GuardianHullReinforcement_Size5_Class1",
-      "grp": "ghrp"
+      "grp": "ghrp",
+      "ukName": "Guardian Hull Reinforcement",
+      "ukDiscript": "Powered module that increases the ship's hull integrity and resistance to Thargoid, caustic and thermic damage."
     }
   ]
 }

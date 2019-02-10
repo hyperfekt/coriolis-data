@@ -10,7 +10,9 @@
       "mass": 20,
       "passengers": 4,
       "rating": "B",
-      "symbol": "Int_PassengerCabin_Size5_Class4"
+      "symbol": "Int_PassengerCabin_Size5_Class4",
+      "ukName": "LC Passenger Cabin",
+      "ukDiscript": "Luxury Class Passenger Cabin."
     },
     {
       "class": 6,
@@ -22,7 +24,9 @@
       "mass": 40,
       "passengers": 8,
       "rating": "B",
-      "symbol": "Int_PassengerCabin_Size6_Class4"
+      "symbol": "Int_PassengerCabin_Size6_Class4",
+      "ukName": "LC Passenger Cabin",
+      "ukDiscript": "Luxury Class Passenger Cabin."
     }
   ]
 }

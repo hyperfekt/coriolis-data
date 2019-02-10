@@ -11,7 +11,9 @@
       "name": "Detailed Surface Scanner",
       "power": 0,
       "rating": "C",
-      "symbol": "Int_DetailedSurfaceScanner_Tiny"
+      "symbol": "Int_DetailedSurfaceScanner_Tiny",
+      "ukName": "Surface Scanner",
+      "ukDiscript": "Advanced stellar body scanner used during exploration."
     }
   ]
 }

@@ -11,7 +11,9 @@
       "name": "Standard Docking Computer",
       "power": 0.39,
       "rating": "E",
-      "symbol": "Int_DockingComputer_Standard"
+      "symbol": "Int_DockingComputer_Standard",
+      "ukName": "Docking Computer",
+      "ukDiscript": "Allows automated docking sequence at all starports and outposts."
     }
   ]
 }

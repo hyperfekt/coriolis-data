@@ -12,7 +12,9 @@
       "id": "1H",
       "mass": 1.3,
       "rating": "H",
-      "symbol": "Int_GuardianFSDBooster_Size1"
+      "symbol": "Int_GuardianFSDBooster_Size1",
+      "ukName": "Guardian FSD Booster",
+      "ukDiscript": "Used to boost the output of Frame Shift Drives, but at the cost of overall fuel efficiency."
     },
     {
       "jumpboost": 6,
@@ -26,7 +28,9 @@
       "id": "1M",
       "mass": 1.3,
       "rating": "H",
-      "symbol": "Int_GuardianFSDBooster_Size2"
+      "symbol": "Int_GuardianFSDBooster_Size2",
+      "ukName": "Guardian FSD Booster",
+      "ukDiscript": "Used to boost the output of Frame Shift Drives, but at the cost of overall fuel efficiency."
     },
     {
       "jumpboost": 7.75,
@@ -40,7 +44,9 @@
       "id": "1N",
       "mass": 1.3,
       "rating": "H",
-      "symbol": "Int_GuardianFSDBooster_Size3"
+      "symbol": "Int_GuardianFSDBooster_Size3",
+      "ukName": "Guardian FSD Booster",
+      "ukDiscript": "Used to boost the output of Frame Shift Drives, but at the cost of overall fuel efficiency."
     },
     {
       "jumpboost": 9.25,
@@ -54,7 +60,9 @@
       "id": "1P",
       "mass": 1.3,
       "rating": "H",
-      "symbol": "Int_GuardianFSDBooster_Size4"
+      "symbol": "Int_GuardianFSDBooster_Size4",
+      "ukName": "Guardian FSD Booster",
+      "ukDiscript": "Used to boost the output of Frame Shift Drives, but at the cost of overall fuel efficiency."
     },
     {
       "jumpboost": 10.5,
@@ -68,7 +76,9 @@
       "id": "1O",
       "mass": 1.3,
       "rating": "H",
-      "symbol": "Int_GuardianFSDBooster_Size5"
+      "symbol": "Int_GuardianFSDBooster_Size5",
+      "ukName": "Guardian FSD Booster",
+      "ukDiscript": "Used to boost the output of Frame Shift Drives, but at the cost of overall fuel efficiency."
     }
   ]
 }

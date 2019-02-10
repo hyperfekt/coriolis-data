@@ -10,7 +10,9 @@
       "power": 0.14,
       "rate": 18,
       "rating": "E",
-      "symbol": "Int_FuelScoop_Size1_Class1"
+      "symbol": "Int_FuelScoop_Size1_Class1",
+      "ukName": "Fuel Scoop",
+      "ukDiscript": "Fly close to the sun with an active fuel scoop to collect fuel."
     },
     {
       "class": 1,
@@ -22,7 +24,9 @@
       "power": 0.18,
       "rate": 24,
       "rating": "D",
-      "symbol": "Int_FuelScoop_Size1_Class2"
+      "symbol": "Int_FuelScoop_Size1_Class2",
+      "ukName": "Fuel Scoop",
+      "ukDiscript": "Fly close to the sun with an active fuel scoop to collect fuel."
     },
     {
       "class": 1,
@@ -34,7 +38,9 @@
       "power": 0.23,
       "rate": 30,
       "rating": "C",
-      "symbol": "Int_FuelScoop_Size1_Class3"
+      "symbol": "Int_FuelScoop_Size1_Class3",
+      "ukName": "Fuel Scoop",
+      "ukDiscript": "Fly close to the sun with an active fuel scoop to collect fuel."
     },
     {
       "class": 1,
@@ -46,7 +52,9 @@
       "power": 0.28,
       "rate": 36,
       "rating": "B",
-      "symbol": "Int_FuelScoop_Size1_Class4"
+      "symbol": "Int_FuelScoop_Size1_Class4",
+      "ukName": "Fuel Scoop",
+      "ukDiscript": "Fly close to the sun with an active fuel scoop to collect fuel."
     },
     {
       "class": 1,
@@ -58,7 +66,9 @@
       "power": 0.32,
       "rate": 42,
       "rating": "A",
-      "symbol": "Int_FuelScoop_Size1_Class5"
+      "symbol": "Int_FuelScoop_Size1_Class5",
+      "ukName": "Fuel Scoop",
+      "ukDiscript": "Fly close to the sun with an active fuel scoop to collect fuel."
     },
     {
       "class": 2,
@@ -70,7 +80,9 @@
       "power": 0.17,
       "rate": 32,
       "rating": "E",
-      "symbol": "Int_FuelScoop_Size2_Class1"
+      "symbol": "Int_FuelScoop_Size2_Class1",
+      "ukName": "Fuel Scoop",
+      "ukDiscript": "Fly close to the sun with an active fuel scoop to collect fuel."
     },
     {
       "class": 2,
@@ -82,7 +94,9 @@
       "power": 0.22,
       "rate": 43,
       "rating": "D",
-      "symbol": "Int_FuelScoop_Size2_Class2"
+      "symbol": "Int_FuelScoop_Size2_Class2",
+      "ukName": "Fuel Scoop",
+      "ukDiscript": "Fly close to the sun with an active fuel scoop to collect fuel."
     },
     {
       "class": 2,
@@ -94,7 +108,9 @@
       "power": 0.28,
       "rate": 54,
       "rating": "C",
-      "symbol": "Int_FuelScoop_Size2_Class3"
+      "symbol": "Int_FuelScoop_Size2_Class3",
+      "ukName": "Fuel Scoop",
+      "ukDiscript": "Fly close to the sun with an active fuel scoop to collect fuel."
     },
     {
       "class": 2,
@@ -106,7 +122,9 @@
       "power": 0.34,
       "rate": 65,
       "rating": "B",
-      "symbol": "Int_FuelScoop_Size2_Class4"
+      "symbol": "Int_FuelScoop_Size2_Class4",
+      "ukName": "Fuel Scoop",
+      "ukDiscript": "Fly close to the sun with an active fuel scoop to collect fuel."
     },
     {
       "class": 2,
@@ -118,7 +136,9 @@
       "power": 0.39,
       "rate": 75,
       "rating": "A",
-      "symbol": "Int_FuelScoop_Size2_Class5"
+      "symbol": "Int_FuelScoop_Size2_Class5",
+      "ukName": "Fuel Scoop",
+      "ukDiscript": "Fly close to the sun with an active fuel scoop to collect fuel."
     },
     {
       "class": 3,
@@ -130,7 +150,9 @@
       "power": 0.2,
       "rate": 75,
       "rating": "E",
-      "symbol": "Int_FuelScoop_Size3_Class1"
+      "symbol": "Int_FuelScoop_Size3_Class1",
+      "ukName": "Fuel Scoop",
+      "ukDiscript": "Fly close to the sun with an active fuel scoop to collect fuel."
     },
     {
       "class": 3,
@@ -142,7 +164,9 @@
       "power": 0.27,
       "rate": 100,
       "rating": "D",
-      "symbol": "Int_FuelScoop_Size3_Class2"
+      "symbol": "Int_FuelScoop_Size3_Class2",
+      "ukName": "Fuel Scoop",
+      "ukDiscript": "Fly close to the sun with an active fuel scoop to collect fuel."
     },
     {
       "class": 3,
@@ -154,7 +178,9 @@
       "power": 0.34,
       "rate": 126,
       "rating": "C",
-      "symbol": "Int_FuelScoop_Size3_Class3"
+      "symbol": "Int_FuelScoop_Size3_Class3",
+      "ukName": "Fuel Scoop",
+      "ukDiscript": "Fly close to the sun with an active fuel scoop to collect fuel."
     },
     {
       "class": 3,
@@ -166,7 +192,9 @@
       "power": 0.41,
       "rate": 151,
       "rating": "B",
-      "symbol": "Int_FuelScoop_Size3_Class4"
+      "symbol": "Int_FuelScoop_Size3_Class4",
+      "ukName": "Fuel Scoop",
+      "ukDiscript": "Fly close to the sun with an active fuel scoop to collect fuel."
     },
     {
       "class": 3,
@@ -178,7 +206,9 @@
       "power": 0.48,
       "rate": 176,
       "rating": "A",
-      "symbol": "Int_FuelScoop_Size3_Class5"
+      "symbol": "Int_FuelScoop_Size3_Class5",
+      "ukName": "Fuel Scoop",
+      "ukDiscript": "Fly close to the sun with an active fuel scoop to collect fuel."
     },
     {
       "class": 4,
@@ -190,7 +220,9 @@
       "power": 0.25,
       "rate": 147,
       "rating": "E",
-      "symbol": "Int_FuelScoop_Size4_Class1"
+      "symbol": "Int_FuelScoop_Size4_Class1",
+      "ukName": "Fuel Scoop",
+      "ukDiscript": "Fly close to the sun with an active fuel scoop to collect fuel."
     },
     {
       "class": 4,
@@ -202,7 +234,9 @@
       "power": 0.33,
       "rate": 196,
       "rating": "D",
-      "symbol": "Int_FuelScoop_Size4_Class2"
+      "symbol": "Int_FuelScoop_Size4_Class2",
+      "ukName": "Fuel Scoop",
+      "ukDiscript": "Fly close to the sun with an active fuel scoop to collect fuel."
     },
     {
       "class": 4,
@@ -214,7 +248,9 @@
       "power": 0.41,
       "rate": 245,
       "rating": "C",
-      "symbol": "Int_FuelScoop_Size4_Class3"
+      "symbol": "Int_FuelScoop_Size4_Class3",
+      "ukName": "Fuel Scoop",
+      "ukDiscript": "Fly close to the sun with an active fuel scoop to collect fuel."
     },
     {
       "class": 4,
@@ -226,7 +262,9 @@
       "power": 0.49,
       "rate": 294,
       "rating": "B",
-      "symbol": "Int_FuelScoop_Size4_Class4"
+      "symbol": "Int_FuelScoop_Size4_Class4",
+      "ukName": "Fuel Scoop",
+      "ukDiscript": "Fly close to the sun with an active fuel scoop to collect fuel."
     },
     {
       "class": 4,
@@ -238,7 +276,9 @@
       "power": 0.57,
       "rate": 342,
       "rating": "A",
-      "symbol": "Int_FuelScoop_Size4_Class5"
+      "symbol": "Int_FuelScoop_Size4_Class5",
+      "ukName": "Fuel Scoop",
+      "ukDiscript": "Fly close to the sun with an active fuel scoop to collect fuel."
     },
     {
       "class": 5,
@@ -250,7 +290,9 @@
       "power": 0.3,
       "rate": 247,
       "rating": "E",
-      "symbol": "Int_FuelScoop_Size5_Class1"
+      "symbol": "Int_FuelScoop_Size5_Class1",
+      "ukName": "Fuel Scoop",
+      "ukDiscript": "Fly close to the sun with an active fuel scoop to collect fuel."
     },
     {
       "class": 5,
@@ -262,7 +304,9 @@
       "power": 0.4,
       "rate": 330,
       "rating": "D",
-      "symbol": "Int_FuelScoop_Size5_Class2"
+      "symbol": "Int_FuelScoop_Size5_Class2",
+      "ukName": "Fuel Scoop",
+      "ukDiscript": "Fly close to the sun with an active fuel scoop to collect fuel."
     },
     {
       "class": 5,
@@ -274,7 +318,9 @@
       "power": 0.5,
       "rate": 412,
       "rating": "C",
-      "symbol": "Int_FuelScoop_Size5_Class3"
+      "symbol": "Int_FuelScoop_Size5_Class3",
+      "ukName": "Fuel Scoop",
+      "ukDiscript": "Fly close to the sun with an active fuel scoop to collect fuel."
     },
     {
       "class": 5,
@@ -286,7 +332,9 @@
       "power": 0.6,
       "rate": 494,
       "rating": "B",
-      "symbol": "Int_FuelScoop_Size5_Class4"
+      "symbol": "Int_FuelScoop_Size5_Class4",
+      "ukName": "Fuel Scoop",
+      "ukDiscript": "Fly close to the sun with an active fuel scoop to collect fuel."
     },
     {
       "class": 5,
@@ -298,7 +346,9 @@
       "power": 0.7,
       "rate": 577,
       "rating": "A",
-      "symbol": "Int_FuelScoop_Size5_Class5"
+      "symbol": "Int_FuelScoop_Size5_Class5",
+      "ukName": "Fuel Scoop",
+      "ukDiscript": "Fly close to the sun with an active fuel scoop to collect fuel."
     },
     {
       "class": 6,
@@ -310,7 +360,9 @@
       "power": 0.35,
       "rate": 376,
       "rating": "E",
-      "symbol": "Int_FuelScoop_Size6_Class1"
+      "symbol": "Int_FuelScoop_Size6_Class1",
+      "ukName": "Fuel Scoop",
+      "ukDiscript": "Fly close to the sun with an active fuel scoop to collect fuel."
     },
     {
       "class": 6,
@@ -322,7 +374,9 @@
       "power": 0.47,
       "rate": 502,
       "rating": "D",
-      "symbol": "Int_FuelScoop_Size6_Class2"
+      "symbol": "Int_FuelScoop_Size6_Class2",
+      "ukName": "Fuel Scoop",
+      "ukDiscript": "Fly close to the sun with an active fuel scoop to collect fuel."
     },
     {
       "class": 6,
@@ -334,7 +388,9 @@
       "power": 0.59,
       "rate": 627,
       "rating": "C",
-      "symbol": "Int_FuelScoop_Size6_Class3"
+      "symbol": "Int_FuelScoop_Size6_Class3",
+      "ukName": "Fuel Scoop",
+      "ukDiscript": "Fly close to the sun with an active fuel scoop to collect fuel."
     },
     {
       "class": 6,
@@ -346,7 +402,9 @@
       "power": 0.71,
       "rate": 752,
       "rating": "B",
-      "symbol": "Int_FuelScoop_Size6_Class4"
+      "symbol": "Int_FuelScoop_Size6_Class4",
+      "ukName": "Fuel Scoop",
+      "ukDiscript": "Fly close to the sun with an active fuel scoop to collect fuel."
     },
     {
       "class": 6,
@@ -358,7 +416,9 @@
       "power": 0.83,
       "rate": 878,
       "rating": "A",
-      "symbol": "Int_FuelScoop_Size6_Class5"
+      "symbol": "Int_FuelScoop_Size6_Class5",
+      "ukName": "Fuel Scoop",
+      "ukDiscript": "Fly close to the sun with an active fuel scoop to collect fuel."
     },
     {
       "class": 7,
@@ -370,7 +430,9 @@
       "power": 0.41,
       "rate": 534,
       "rating": "E",
-      "symbol": "Int_FuelScoop_Size7_Class1"
+      "symbol": "Int_FuelScoop_Size7_Class1",
+      "ukName": "Fuel Scoop",
+      "ukDiscript": "Fly close to the sun with an active fuel scoop to collect fuel."
     },
     {
       "class": 7,
@@ -382,7 +444,9 @@
       "power": 0.55,
       "rate": 712,
       "rating": "D",
-      "symbol": "Int_FuelScoop_Size7_Class2"
+      "symbol": "Int_FuelScoop_Size7_Class2",
+      "ukName": "Fuel Scoop",
+      "ukDiscript": "Fly close to the sun with an active fuel scoop to collect fuel."
     },
     {
       "class": 7,
@@ -394,7 +458,9 @@
       "power": 0.69,
       "rate": 890,
       "rating": "C",
-      "symbol": "Int_FuelScoop_Size7_Class3"
+      "symbol": "Int_FuelScoop_Size7_Class3",
+      "ukName": "Fuel Scoop",
+      "ukDiscript": "Fly close to the sun with an active fuel scoop to collect fuel."
     },
     {
       "class": 7,
@@ -406,7 +472,9 @@
       "power": 0.83,
       "rate": 1068,
       "rating": "B",
-      "symbol": "Int_FuelScoop_Size7_Class4"
+      "symbol": "Int_FuelScoop_Size7_Class4",
+      "ukName": "Fuel Scoop",
+      "ukDiscript": "Fly close to the sun with an active fuel scoop to collect fuel."
     },
     {
       "class": 7,
@@ -418,7 +486,9 @@
       "power": 0.97,
       "rate": 1245,
       "rating": "A",
-      "symbol": "Int_FuelScoop_Size7_Class5"
+      "symbol": "Int_FuelScoop_Size7_Class5",
+      "ukName": "Fuel Scoop",
+      "ukDiscript": "Fly close to the sun with an active fuel scoop to collect fuel."
     },
     {
       "class": 8,
@@ -430,7 +500,9 @@
       "power": 0.48,
       "rate": 720,
       "rating": "E",
-      "symbol": "Int_FuelScoop_Size8_Class1"
+      "symbol": "Int_FuelScoop_Size8_Class1",
+      "ukName": "Fuel Scoop",
+      "ukDiscript": "Fly close to the sun with an active fuel scoop to collect fuel."
     },
     {
       "class": 8,
@@ -442,7 +514,9 @@
       "power": 0.64,
       "rate": 960,
       "rating": "D",
-      "symbol": "Int_FuelScoop_Size8_Class2"
+      "symbol": "Int_FuelScoop_Size8_Class2",
+      "ukName": "Fuel Scoop",
+      "ukDiscript": "Fly close to the sun with an active fuel scoop to collect fuel."
     },
     {
       "class": 8,
@@ -454,7 +528,9 @@
       "power": 0.8,
       "rate": 1200,
       "rating": "C",
-      "symbol": "Int_FuelScoop_Size8_Class3"
+      "symbol": "Int_FuelScoop_Size8_Class3",
+      "ukName": "Fuel Scoop",
+      "ukDiscript": "Fly close to the sun with an active fuel scoop to collect fuel."
     },
     {
       "class": 8,
@@ -466,7 +542,9 @@
       "power": 0.96,
       "rate": 1440,
       "rating": "B",
-      "symbol": "Int_FuelScoop_Size8_Class4"
+      "symbol": "Int_FuelScoop_Size8_Class4",
+      "ukName": "Fuel Scoop",
+      "ukDiscript": "Fly close to the sun with an active fuel scoop to collect fuel."
     },
     {
       "class": 8,
@@ -478,7 +556,9 @@
       "power": 1.12,
       "rate": 1680,
       "rating": "A",
-      "symbol": "Int_FuelScoop_Size8_Class5"
+      "symbol": "Int_FuelScoop_Size8_Class5",
+      "ukName": "Fuel Scoop",
+      "ukDiscript": "Fly close to the sun with an active fuel scoop to collect fuel."
     }
   ]
 }

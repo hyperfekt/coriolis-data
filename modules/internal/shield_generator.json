@@ -23,7 +23,9 @@
       "rating": "A",
       "regen": 1,
       "thermres": -0.2,
-      "symbol": "Int_ShieldGenerator_Size1_Class5"
+      "symbol": "Int_ShieldGenerator_Size1_Class5",
+      "ukName": "Shield Generator",
+      "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     },
     {
       "brokenregen": 1.6,
@@ -48,7 +50,9 @@
       "rating": "E",
       "regen": 1,
       "thermres": -0.2,
-      "symbol": "Int_ShieldGenerator_Size2_Class1"
+      "symbol": "Int_ShieldGenerator_Size2_Class1",
+      "ukName": "Shield Generator",
+      "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     },
     {
       "brokenregen": 1.6,
@@ -73,7 +77,9 @@
       "rating": "D",
       "regen": 1,
       "thermres": -0.2,
-      "symbol": "Int_ShieldGenerator_Size2_Class2"
+      "symbol": "Int_ShieldGenerator_Size2_Class2",
+      "ukName": "Shield Generator",
+      "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     },
     {
       "brokenregen": 1.6,
@@ -98,7 +104,9 @@
       "rating": "C",
       "regen": 1,
       "thermres": -0.2,
-      "symbol": "Int_ShieldGenerator_Size2_Class3"
+      "symbol": "Int_ShieldGenerator_Size2_Class3",
+      "ukName": "Shield Generator",
+      "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     },
     {
       "brokenregen": 1.6,
@@ -123,7 +131,9 @@
       "rating": "B",
       "regen": 1,
       "thermres": -0.2,
-      "symbol": "Int_ShieldGenerator_Size2_Class4"
+      "symbol": "Int_ShieldGenerator_Size2_Class4",
+      "ukName": "Shield Generator",
+      "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     },
     {
       "brokenregen": 1.6,
@@ -148,7 +158,9 @@
       "rating": "A",
       "regen": 1,
       "thermres": -0.2,
-      "symbol": "Int_ShieldGenerator_Size2_Class5"
+      "symbol": "Int_ShieldGenerator_Size2_Class5",
+      "ukName": "Shield Generator",
+      "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     },
     {
       "brokenregen": 1.9,
@@ -173,7 +185,9 @@
       "rating": "E",
       "regen": 1,
       "thermres": -0.2,
-      "symbol": "Int_ShieldGenerator_Size3_Class1"
+      "symbol": "Int_ShieldGenerator_Size3_Class1",
+      "ukName": "Shield Generator",
+      "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     },
     {
       "brokenregen": 1.9,
@@ -198,7 +212,9 @@
       "rating": "D",
       "regen": 1,
       "thermres": -0.2,
-      "symbol": "Int_ShieldGenerator_Size3_Class2"
+      "symbol": "Int_ShieldGenerator_Size3_Class2",
+      "ukName": "Shield Generator",
+      "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     },
     {
       "brokenregen": 1.9,
@@ -223,7 +239,9 @@
       "rating": "C",
       "regen": 1,
       "thermres": -0.2,
-      "symbol": "Int_ShieldGenerator_Size3_Class3"
+      "symbol": "Int_ShieldGenerator_Size3_Class3",
+      "ukName": "Shield Generator",
+      "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     },
     {
       "brokenregen": 1.9,
@@ -248,7 +266,9 @@
       "rating": "B",
       "regen": 1,
       "thermres": -0.2,
-      "symbol": "Int_ShieldGenerator_Size3_Class4"
+      "symbol": "Int_ShieldGenerator_Size3_Class4",
+      "ukName": "Shield Generator",
+      "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     },
     {
       "brokenregen": 1.9,
@@ -273,7 +293,9 @@
       "rating": "A",
       "regen": 1,
       "thermres": -0.2,
-      "symbol": "Int_ShieldGenerator_Size3_Class5"
+      "symbol": "Int_ShieldGenerator_Size3_Class5",
+      "ukName": "Shield Generator",
+      "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     },
     {
       "brokenregen": 2.5,
@@ -298,7 +320,9 @@
       "rating": "E",
       "regen": 1,
       "thermres": -0.2,
-      "symbol": "Int_ShieldGenerator_Size4_Class1"
+      "symbol": "Int_ShieldGenerator_Size4_Class1",
+      "ukName": "Shield Generator",
+      "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     },
     {
       "brokenregen": 2.5,
@@ -323,7 +347,9 @@
       "rating": "D",
       "regen": 1,
       "thermres": -0.2,
-      "symbol": "Int_ShieldGenerator_Size4_Class2"
+      "symbol": "Int_ShieldGenerator_Size4_Class2",
+      "ukName": "Shield Generator",
+      "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     },
     {
       "brokenregen": 2.5,
@@ -348,7 +374,9 @@
       "rating": "C",
       "regen": 1,
       "thermres": -0.2,
-      "symbol": "Int_ShieldGenerator_Size4_Class3"
+      "symbol": "Int_ShieldGenerator_Size4_Class3",
+      "ukName": "Shield Generator",
+      "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     },
     {
       "brokenregen": 2.5,
@@ -373,7 +401,9 @@
       "rating": "B",
       "regen": 1,
       "thermres": -0.2,
-      "symbol": "Int_ShieldGenerator_Size4_Class4"
+      "symbol": "Int_ShieldGenerator_Size4_Class4",
+      "ukName": "Shield Generator",
+      "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     },
     {
       "brokenregen": 2.5,
@@ -398,7 +428,9 @@
       "rating": "A",
       "regen": 1,
       "thermres": -0.2,
-      "symbol": "Int_ShieldGenerator_Size4_Class5"
+      "symbol": "Int_ShieldGenerator_Size4_Class5",
+      "ukName": "Shield Generator",
+      "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     },
     {
       "brokenregen": 3.7,
@@ -423,7 +455,9 @@
       "rating": "E",
       "regen": 1,
       "thermres": -0.2,
-      "symbol": "Int_ShieldGenerator_Size5_Class1"
+      "symbol": "Int_ShieldGenerator_Size5_Class1",
+      "ukName": "Shield Generator",
+      "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     },
     {
       "brokenregen": 3.7,
@@ -448,7 +482,9 @@
       "rating": "D",
       "regen": 1,
       "thermres": -0.2,
-      "symbol": "Int_ShieldGenerator_Size5_Class2"
+      "symbol": "Int_ShieldGenerator_Size5_Class2",
+      "ukName": "Shield Generator",
+      "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     },
     {
       "brokenregen": 3.7,
@@ -473,7 +509,9 @@
       "rating": "C",
       "regen": 1,
       "thermres": -0.2,
-      "symbol": "Int_ShieldGenerator_Size5_Class3"
+      "symbol": "Int_ShieldGenerator_Size5_Class3",
+      "ukName": "Shield Generator",
+      "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     },
     {
       "brokenregen": 3.7,
@@ -498,7 +536,9 @@
       "rating": "B",
       "regen": 1,
       "thermres": -0.2,
-      "symbol": "Int_ShieldGenerator_Size5_Class4"
+      "symbol": "Int_ShieldGenerator_Size5_Class4",
+      "ukName": "Shield Generator",
+      "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     },
     {
       "brokenregen": 3.7,
@@ -523,7 +563,9 @@
       "rating": "A",
       "regen": 1,
       "thermres": -0.2,
-      "symbol": "Int_ShieldGenerator_Size5_Class5"
+      "symbol": "Int_ShieldGenerator_Size5_Class5",
+      "ukName": "Shield Generator",
+      "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     },
     {
       "brokenregen": 5.3,
@@ -548,7 +590,9 @@
       "rating": "E",
       "regen": 1.3,
       "thermres": -0.2,
-      "symbol": "Int_ShieldGenerator_Size6_Class1"
+      "symbol": "Int_ShieldGenerator_Size6_Class1",
+      "ukName": "Shield Generator",
+      "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     },
     {
       "brokenregen": 5.3,
@@ -573,7 +617,9 @@
       "rating": "D",
       "regen": 1.3,
       "thermres": -0.2,
-      "symbol": "Int_ShieldGenerator_Size6_Class2"
+      "symbol": "Int_ShieldGenerator_Size6_Class2",
+      "ukName": "Shield Generator",
+      "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     },
     {
       "brokenregen": 5.3,
@@ -598,7 +644,9 @@
       "rating": "C",
       "regen": 1.3,
       "thermres": -0.2,
-      "symbol": "Int_ShieldGenerator_Size6_Class3"
+      "symbol": "Int_ShieldGenerator_Size6_Class3",
+      "ukName": "Shield Generator",
+      "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     },
     {
       "brokenregen": 5.3,
@@ -623,7 +671,9 @@
       "rating": "B",
       "regen": 1.3,
       "thermres": -0.2,
-      "symbol": "Int_ShieldGenerator_Size6_Class4"
+      "symbol": "Int_ShieldGenerator_Size6_Class4",
+      "ukName": "Shield Generator",
+      "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     },
     {
       "brokenregen": 5.3,
@@ -648,7 +698,9 @@
       "rating": "A",
       "regen": 1.3,
       "thermres": -0.2,
-      "symbol": "Int_ShieldGenerator_Size6_Class5"
+      "symbol": "Int_ShieldGenerator_Size6_Class5",
+      "ukName": "Shield Generator",
+      "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     },
     {
       "brokenregen": 7.3,
@@ -673,7 +725,9 @@
       "rating": "E",
       "regen": 1.8,
       "thermres": -0.2,
-      "symbol": "Int_ShieldGenerator_Size7_Class1"
+      "symbol": "Int_ShieldGenerator_Size7_Class1",
+      "ukName": "Shield Generator",
+      "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     },
     {
       "brokenregen": 7.3,
@@ -698,7 +752,9 @@
       "rating": "D",
       "regen": 1.8,
       "thermres": -0.2,
-      "symbol": "Int_ShieldGenerator_Size7_Class2"
+      "symbol": "Int_ShieldGenerator_Size7_Class2",
+      "ukName": "Shield Generator",
+      "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     },
     {
       "brokenregen": 7.3,
@@ -723,7 +779,9 @@
       "rating": "C",
       "regen": 1.8,
       "thermres": -0.2,
-      "symbol": "Int_ShieldGenerator_Size7_Class3"
+      "symbol": "Int_ShieldGenerator_Size7_Class3",
+      "ukName": "Shield Generator",
+      "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     },
     {
       "brokenregen": 7.3,
@@ -748,7 +806,9 @@
       "rating": "B",
       "regen": 1.8,
       "thermres": -0.2,
-      "symbol": "Int_ShieldGenerator_Size7_Class4"
+      "symbol": "Int_ShieldGenerator_Size7_Class4",
+      "ukName": "Shield Generator",
+      "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     },
     {
       "brokenregen": 7.3,
@@ -773,7 +833,9 @@
       "rating": "A",
       "regen": 1.8,
       "thermres": -0.2,
-      "symbol": "Int_ShieldGenerator_Size7_Class5"
+      "symbol": "Int_ShieldGenerator_Size7_Class5",
+      "ukName": "Shield Generator",
+      "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     },
     {
       "brokenregen": 9.6,
@@ -798,7 +860,9 @@
       "rating": "E",
       "regen": 2.4,
       "thermres": -0.2,
-      "symbol": "Int_ShieldGenerator_Size8_Class1"
+      "symbol": "Int_ShieldGenerator_Size8_Class1",
+      "ukName": "Shield Generator",
+      "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     },
     {
       "brokenregen": 9.6,
@@ -823,7 +887,9 @@
       "rating": "D",
       "regen": 2.4,
       "thermres": -0.2,
-      "symbol": "Int_ShieldGenerator_Size8_Class2"
+      "symbol": "Int_ShieldGenerator_Size8_Class2",
+      "ukName": "Shield Generator",
+      "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     },
     {
       "brokenregen": 9.6,
@@ -848,7 +914,9 @@
       "rating": "C",
       "regen": 2.4,
       "thermres": -0.2,
-      "symbol": "Int_ShieldGenerator_Size8_Class3"
+      "symbol": "Int_ShieldGenerator_Size8_Class3",
+      "ukName": "Shield Generator",
+      "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     },
     {
       "brokenregen": 9.6,
@@ -873,7 +941,9 @@
       "rating": "B",
       "regen": 2.4,
       "thermres": -0.2,
-      "symbol": "Int_ShieldGenerator_Size8_Class4"
+      "symbol": "Int_ShieldGenerator_Size8_Class4",
+      "ukName": "Shield Generator",
+      "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     },
     {
       "brokenregen": 9.6,
@@ -898,7 +968,9 @@
       "rating": "A",
       "regen": 2.4,
       "thermres": -0.2,
-      "symbol": "Int_ShieldGenerator_Size8_Class5"
+      "symbol": "Int_ShieldGenerator_Size8_Class5",
+      "ukName": "Shield Generator",
+      "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     }
   ]
 }

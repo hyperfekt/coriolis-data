@@ -13,7 +13,9 @@
       "power": 0.8,
       "rating": "E",
       "time": 300,
-      "symbol": "Int_LifeSupport_Size8_Class1"
+      "symbol": "Int_LifeSupport_Size8_Class1",
+      "ukName": "Life Support",
+      "ukDiscript": "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
     },
     {
       "boot": 1,
@@ -28,7 +30,9 @@
       "power": 0.9,
       "rating": "D",
       "time": 450,
-      "symbol": "Int_LifeSupport_Size8_Class2"
+      "symbol": "Int_LifeSupport_Size8_Class2",
+      "ukName": "Life Support",
+      "ukDiscript": "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
     },
     {
       "boot": 1,
@@ -43,7 +47,9 @@
       "power": 1,
       "rating": "C",
       "time": 600,
-      "symbol": "Int_LifeSupport_Size8_Class3"
+      "symbol": "Int_LifeSupport_Size8_Class3",
+      "ukName": "Life Support",
+      "ukDiscript": "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
     },
     {
       "boot": 1,
@@ -58,7 +64,9 @@
       "power": 1.1,
       "rating": "B",
       "time": 900,
-      "symbol": "Int_LifeSupport_Size8_Class4"
+      "symbol": "Int_LifeSupport_Size8_Class4",
+      "ukName": "Life Support",
+      "ukDiscript": "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
     },
     {
       "boot": 1,
@@ -73,7 +81,9 @@
       "power": 1.2,
       "rating": "A",
       "time": 1500,
-      "symbol": "Int_LifeSupport_Size8_Class5"
+      "symbol": "Int_LifeSupport_Size8_Class5",
+      "ukName": "Life Support",
+      "ukDiscript": "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
     },
     {
       "boot": 1,
@@ -88,7 +98,9 @@
       "power": 0.72,
       "rating": "E",
       "time": 300,
-      "symbol": "Int_LifeSupport_Size7_Class1"
+      "symbol": "Int_LifeSupport_Size7_Class1",
+      "ukName": "Life Support",
+      "ukDiscript": "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
     },
     {
       "boot": 1,
@@ -103,7 +115,9 @@
       "power": 0.81,
       "rating": "D",
       "time": 450,
-      "symbol": "Int_LifeSupport_Size7_Class2"
+      "symbol": "Int_LifeSupport_Size7_Class2",
+      "ukName": "Life Support",
+      "ukDiscript": "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
     },
     {
       "boot": 1,
@@ -118,7 +132,9 @@
       "power": 0.9,
       "rating": "C",
       "time": 600,
-      "symbol": "Int_LifeSupport_Size7_Class3"
+      "symbol": "Int_LifeSupport_Size7_Class3",
+      "ukName": "Life Support",
+      "ukDiscript": "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
     },
     {
       "boot": 1,
@@ -133,7 +149,9 @@
       "power": 0.99,
       "rating": "B",
       "time": 900,
-      "symbol": "Int_LifeSupport_Size7_Class4"
+      "symbol": "Int_LifeSupport_Size7_Class4",
+      "ukName": "Life Support",
+      "ukDiscript": "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
     },
     {
       "boot": 1,
@@ -148,7 +166,9 @@
       "power": 1.08,
       "rating": "A",
       "time": 1500,
-      "symbol": "Int_LifeSupport_Size7_Class5"
+      "symbol": "Int_LifeSupport_Size7_Class5",
+      "ukName": "Life Support",
+      "ukDiscript": "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
     },
     {
       "boot": 1,
@@ -163,7 +183,9 @@
       "power": 0.64,
       "rating": "E",
       "time": 300,
-      "symbol": "Int_LifeSupport_Size6_Class1"
+      "symbol": "Int_LifeSupport_Size6_Class1",
+      "ukName": "Life Support",
+      "ukDiscript": "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
     },
     {
       "boot": 1,
@@ -178,7 +200,9 @@
       "power": 0.72,
       "rating": "D",
       "time": 450,
-      "symbol": "Int_LifeSupport_Size6_Class2"
+      "symbol": "Int_LifeSupport_Size6_Class2",
+      "ukName": "Life Support",
+      "ukDiscript": "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
     },
     {
       "boot": 1,
@@ -193,7 +217,9 @@
       "power": 0.8,
       "rating": "C",
       "time": 600,
-      "symbol": "Int_LifeSupport_Size6_Class3"
+      "symbol": "Int_LifeSupport_Size6_Class3",
+      "ukName": "Life Support",
+      "ukDiscript": "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
     },
     {
       "boot": 1,
@@ -208,7 +234,9 @@
       "power": 0.88,
       "rating": "B",
       "time": 900,
-      "symbol": "Int_LifeSupport_Size6_Class4"
+      "symbol": "Int_LifeSupport_Size6_Class4",
+      "ukName": "Life Support",
+      "ukDiscript": "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
     },
     {
       "boot": 1,
@@ -223,7 +251,9 @@
       "power": 0.96,
       "rating": "A",
       "time": 1500,
-      "symbol": "Int_LifeSupport_Size6_Class5"
+      "symbol": "Int_LifeSupport_Size6_Class5",
+      "ukName": "Life Support",
+      "ukDiscript": "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
     },
     {
       "boot": 1,
@@ -238,7 +268,9 @@
       "power": 0.57,
       "rating": "E",
       "time": 300,
-      "symbol": "Int_LifeSupport_Size5_Class1"
+      "symbol": "Int_LifeSupport_Size5_Class1",
+      "ukName": "Life Support",
+      "ukDiscript": "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
     },
     {
       "boot": 1,
@@ -253,7 +285,9 @@
       "power": 0.64,
       "rating": "D",
       "time": 450,
-      "symbol": "Int_LifeSupport_Size5_Class2"
+      "symbol": "Int_LifeSupport_Size5_Class2",
+      "ukName": "Life Support",
+      "ukDiscript": "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
     },
     {
       "boot": 1,
@@ -268,7 +302,9 @@
       "power": 0.71,
       "rating": "C",
       "time": 600,
-      "symbol": "Int_LifeSupport_Size5_Class3"
+      "symbol": "Int_LifeSupport_Size5_Class3",
+      "ukName": "Life Support",
+      "ukDiscript": "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
     },
     {
       "boot": 1,
@@ -283,7 +319,9 @@
       "power": 0.78,
       "rating": "B",
       "time": 900,
-      "symbol": "Int_LifeSupport_Size5_Class4"
+      "symbol": "Int_LifeSupport_Size5_Class4",
+      "ukName": "Life Support",
+      "ukDiscript": "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
     },
     {
       "boot": 1,
@@ -298,7 +336,9 @@
       "power": 0.85,
       "rating": "A",
       "time": 1500,
-      "symbol": "Int_LifeSupport_Size5_Class5"
+      "symbol": "Int_LifeSupport_Size5_Class5",
+      "ukName": "Life Support",
+      "ukDiscript": "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
     },
     {
       "boot": 1,
@@ -313,7 +353,9 @@
       "power": 0.5,
       "rating": "E",
       "time": 300,
-      "symbol": "Int_LifeSupport_Size4_Class1"
+      "symbol": "Int_LifeSupport_Size4_Class1",
+      "ukName": "Life Support",
+      "ukDiscript": "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
     },
     {
       "boot": 1,
@@ -328,7 +370,9 @@
       "power": 0.56,
       "rating": "D",
       "time": 450,
-      "symbol": "Int_LifeSupport_Size4_Class2"
+      "symbol": "Int_LifeSupport_Size4_Class2",
+      "ukName": "Life Support",
+      "ukDiscript": "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
     },
     {
       "boot": 1,
@@ -343,7 +387,9 @@
       "power": 0.62,
       "rating": "C",
       "time": 600,
-      "symbol": "Int_LifeSupport_Size4_Class3"
+      "symbol": "Int_LifeSupport_Size4_Class3",
+      "ukName": "Life Support",
+      "ukDiscript": "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
     },
     {
       "boot": 1,
@@ -358,7 +404,9 @@
       "power": 0.68,
       "rating": "B",
       "time": 900,
-      "symbol": "Int_LifeSupport_Size4_Class4"
+      "symbol": "Int_LifeSupport_Size4_Class4",
+      "ukName": "Life Support",
+      "ukDiscript": "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
     },
     {
       "boot": 1,
@@ -373,7 +421,9 @@
       "power": 0.74,
       "rating": "A",
       "time": 1500,
-      "symbol": "Int_LifeSupport_Size4_Class5"
+      "symbol": "Int_LifeSupport_Size4_Class5",
+      "ukName": "Life Support",
+      "ukDiscript": "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
     },
     {
       "boot": 1,
@@ -388,7 +438,9 @@
       "power": 0.42,
       "rating": "E",
       "time": 300,
-      "symbol": "Int_LifeSupport_Size3_Class1"
+      "symbol": "Int_LifeSupport_Size3_Class1",
+      "ukName": "Life Support",
+      "ukDiscript": "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
     },
     {
       "boot": 1,
@@ -403,7 +455,9 @@
       "power": 0.48,
       "rating": "D",
       "time": 450,
-      "symbol": "Int_LifeSupport_Size3_Class2"
+      "symbol": "Int_LifeSupport_Size3_Class2",
+      "ukName": "Life Support",
+      "ukDiscript": "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
     },
     {
       "boot": 1,
@@ -418,7 +472,9 @@
       "power": 0.53,
       "rating": "C",
       "time": 600,
-      "symbol": "Int_LifeSupport_Size3_Class3"
+      "symbol": "Int_LifeSupport_Size3_Class3",
+      "ukName": "Life Support",
+      "ukDiscript": "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
     },
     {
       "boot": 1,
@@ -433,7 +489,9 @@
       "power": 0.58,
       "rating": "B",
       "time": 900,
-      "symbol": "Int_LifeSupport_Size3_Class4"
+      "symbol": "Int_LifeSupport_Size3_Class4",
+      "ukName": "Life Support",
+      "ukDiscript": "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
     },
     {
       "boot": 1,
@@ -448,7 +506,9 @@
       "power": 0.64,
       "rating": "A",
       "time": 1500,
-      "symbol": "Int_LifeSupport_Size3_Class5"
+      "symbol": "Int_LifeSupport_Size3_Class5",
+      "ukName": "Life Support",
+      "ukDiscript": "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
     },
     {
       "boot": 1,
@@ -463,7 +523,9 @@
       "power": 0.37,
       "rating": "E",
       "time": 300,
-      "symbol": "Int_LifeSupport_Size2_Class1"
+      "symbol": "Int_LifeSupport_Size2_Class1",
+      "ukName": "Life Support",
+      "ukDiscript": "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
     },
     {
       "boot": 1,
@@ -478,7 +540,9 @@
       "power": 0.41,
       "rating": "D",
       "time": 450,
-      "symbol": "Int_LifeSupport_Size2_Class2"
+      "symbol": "Int_LifeSupport_Size2_Class2",
+      "ukName": "Life Support",
+      "ukDiscript": "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
     },
     {
       "boot": 1,
@@ -493,7 +557,9 @@
       "power": 0.46,
       "rating": "C",
       "time": 600,
-      "symbol": "Int_LifeSupport_Size2_Class3"
+      "symbol": "Int_LifeSupport_Size2_Class3",
+      "ukName": "Life Support",
+      "ukDiscript": "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
     },
     {
       "boot": 1,
@@ -508,7 +574,9 @@
       "power": 0.51,
       "rating": "B",
       "time": 900,
-      "symbol": "Int_LifeSupport_Size2_Class4"
+      "symbol": "Int_LifeSupport_Size2_Class4",
+      "ukName": "Life Support",
+      "ukDiscript": "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
     },
     {
       "boot": 1,
@@ -523,7 +591,9 @@
       "power": 0.55,
       "rating": "A",
       "time": 1500,
-      "symbol": "Int_LifeSupport_Size2_Class5"
+      "symbol": "Int_LifeSupport_Size2_Class5",
+      "ukName": "Life Support",
+      "ukDiscript": "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
     },
     {
       "boot": 1,
@@ -538,7 +608,9 @@
       "power": 0.32,
       "rating": "E",
       "time": 300,
-      "symbol": "Int_LifeSupport_Size1_Class1"
+      "symbol": "Int_LifeSupport_Size1_Class1",
+      "ukName": "Life Support",
+      "ukDiscript": "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
     },
     {
       "boot": 1,
@@ -553,7 +625,9 @@
       "power": 0.36,
       "rating": "D",
       "time": 450,
-      "symbol": "Int_LifeSupport_Size1_Class2"
+      "symbol": "Int_LifeSupport_Size1_Class2",
+      "ukName": "Life Support",
+      "ukDiscript": "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
     },
     {
       "boot": 1,
@@ -568,7 +642,9 @@
       "power": 0.4,
       "rating": "C",
       "time": 600,
-      "symbol": "Int_LifeSupport_Size1_Class3"
+      "symbol": "Int_LifeSupport_Size1_Class3",
+      "ukName": "Life Support",
+      "ukDiscript": "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
     },
     {
       "boot": 1,
@@ -583,7 +659,9 @@
       "power": 0.44,
       "rating": "B",
       "time": 900,
-      "symbol": "Int_LifeSupport_Size1_Class4"
+      "symbol": "Int_LifeSupport_Size1_Class4",
+      "ukName": "Life Support",
+      "ukDiscript": "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
     },
     {
       "boot": 1,
@@ -598,7 +676,9 @@
       "power": 0.48,
       "rating": "A",
       "time": 1500,
-      "symbol": "Int_LifeSupport_Size1_Class5"
+      "symbol": "Int_LifeSupport_Size1_Class5",
+      "ukName": "Life Support",
+      "ukDiscript": "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
     }
   ]
 }

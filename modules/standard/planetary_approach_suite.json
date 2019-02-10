@@ -10,7 +10,9 @@
       "mass": 0,
       "power": 0,
       "rating": "I",
-      "symbol": "Int_PlanetApproachSuite"
+      "symbol": "Int_PlanetApproachSuite",
+      "ukName": "Planetary Approach Suite",
+      "ukDiscript": "The required Thruster modifications, sensor package and avionics to allow a ship to fly effectively in close proximity to planets."
     }
   ]
 }

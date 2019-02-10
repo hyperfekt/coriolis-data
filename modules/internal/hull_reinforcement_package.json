@@ -14,7 +14,9 @@
       "mass": 2,
       "rating": "E",
       "thermres": 0.005,
-      "symbol": "Int_HullReinforcement_Size1_Class1"
+      "symbol": "Int_HullReinforcement_Size1_Class1",
+      "ukName": "Hull Reinforcement",
+      "ukDiscript": "Increases the ship's hull integrity and resistance to damage."
     },
     {
       "hullreinforcement": 110,
@@ -30,7 +32,9 @@
       "mass": 1,
       "rating": "D",
       "thermres": 0.005,
-      "symbol": "Int_HullReinforcement_Size1_Class2"
+      "symbol": "Int_HullReinforcement_Size1_Class2",
+      "ukName": "Hull Reinforcement",
+      "ukDiscript": "Increases the ship's hull integrity and resistance to damage."
     },
     {
       "hullreinforcement": 150,
@@ -46,7 +50,9 @@
       "mass": 4,
       "rating": "E",
       "thermres": 0.01,
-      "symbol": "Int_HullReinforcement_Size2_Class1"
+      "symbol": "Int_HullReinforcement_Size2_Class1",
+      "ukName": "Hull Reinforcement",
+      "ukDiscript": "Increases the ship's hull integrity and resistance to damage."
     },
     {
       "hullreinforcement": 190,
@@ -62,7 +68,9 @@
       "mass": 2,
       "rating": "D",
       "thermres": 0.01,
-      "symbol": "Int_HullReinforcement_Size2_Class2"
+      "symbol": "Int_HullReinforcement_Size2_Class2",
+      "ukName": "Hull Reinforcement",
+      "ukDiscript": "Increases the ship's hull integrity and resistance to damage."
     },
     {
       "hullreinforcement": 230,
@@ -78,7 +86,9 @@
       "mass": 8,
       "rating": "E",
       "thermres": 0.015,
-      "symbol": "Int_HullReinforcement_Size3_Class1"
+      "symbol": "Int_HullReinforcement_Size3_Class1",
+      "ukName": "Hull Reinforcement",
+      "ukDiscript": "Increases the ship's hull integrity and resistance to damage."
     },
     {
       "hullreinforcement": 260,
@@ -94,7 +104,9 @@
       "mass": 4,
       "rating": "D",
       "thermres": 0.015,
-      "symbol": "Int_HullReinforcement_Size3_Class2"
+      "symbol": "Int_HullReinforcement_Size3_Class2",
+      "ukName": "Hull Reinforcement",
+      "ukDiscript": "Increases the ship's hull integrity and resistance to damage."
     },
     {
       "hullreinforcement": 300,
@@ -110,7 +122,9 @@
       "mass": 16,
       "rating": "E",
       "thermres": 0.02,
-      "symbol": "Int_HullReinforcement_Size4_Class1"
+      "symbol": "Int_HullReinforcement_Size4_Class1",
+      "ukName": "Hull Reinforcement",
+      "ukDiscript": "Increases the ship's hull integrity and resistance to damage."
     },
     {
       "hullreinforcement": 330,
@@ -126,7 +140,9 @@
       "mass": 8,
       "rating": "D",
       "thermres": 0.02,
-      "symbol": "Int_HullReinforcement_Size4_Class2"
+      "symbol": "Int_HullReinforcement_Size4_Class2",
+      "ukName": "Hull Reinforcement",
+      "ukDiscript": "Increases the ship's hull integrity and resistance to damage."
     },
     {
       "hullreinforcement": 360,
@@ -142,7 +158,9 @@
       "mass": 32,
       "rating": "E",
       "thermres": 0.025,
-      "symbol": "Int_HullReinforcement_Size5_Class1"
+      "symbol": "Int_HullReinforcement_Size5_Class1",
+      "ukName": "Hull Reinforcement",
+      "ukDiscript": "Increases the ship's hull integrity and resistance to damage."
     },
     {
       "hullreinforcement": 390,
@@ -158,7 +176,9 @@
       "mass": 16,
       "rating": "D",
       "thermres": 0.025,
-      "symbol": "Int_HullReinforcement_Size5_Class2"
+      "symbol": "Int_HullReinforcement_Size5_Class2",
+      "ukName": "Hull Reinforcement",
+      "ukDiscript": "Increases the ship's hull integrity and resistance to damage."
     }
   ]
 }

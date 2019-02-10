@@ -15,7 +15,9 @@
       "optmass": 0,
       "power": 0.56,
       "rating": "E",
-      "symbol": "Int_Hyperdrive_Size8_Class1"
+      "symbol": "Int_Hyperdrive_Size8_Class1",
+      "ukName": "FSD",
+      "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
     {
       "class": 8,
@@ -32,7 +34,9 @@
       "optmass": 0,
       "power": 0.63,
       "rating": "D",
-      "symbol": "Int_Hyperdrive_Size8_Class2"
+      "symbol": "Int_Hyperdrive_Size8_Class2",
+      "ukName": "FSD",
+      "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
     {
       "class": 8,
@@ -49,7 +53,9 @@
       "optmass": 0,
       "power": 0.7,
       "rating": "C",
-      "symbol": "Int_Hyperdrive_Size8_Class3"
+      "symbol": "Int_Hyperdrive_Size8_Class3",
+      "ukName": "FSD",
+      "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
     {
       "class": 8,
@@ -66,7 +72,9 @@
       "optmass": 0,
       "power": 0.88,
       "rating": "B",
-      "symbol": "Int_Hyperdrive_Size8_Class4"
+      "symbol": "Int_Hyperdrive_Size8_Class4",
+      "ukName": "FSD",
+      "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
     {
       "class": 8,
@@ -83,7 +91,9 @@
       "optmass": 0,
       "power": 1.05,
       "rating": "A",
-      "symbol": "Int_Hyperdrive_Size8_Class5"
+      "symbol": "Int_Hyperdrive_Size8_Class5",
+      "ukName": "FSD",
+      "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
     {
       "class": 7,
@@ -100,7 +110,9 @@
       "optmass": 1440,
       "power": 0.48,
       "rating": "E",
-      "symbol": "Int_Hyperdrive_Size7_Class1"
+      "symbol": "Int_Hyperdrive_Size7_Class1",
+      "ukName": "FSD",
+      "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
     {
       "class": 7,
@@ -117,7 +129,9 @@
       "optmass": 1620,
       "power": 0.54,
       "rating": "D",
-      "symbol": "Int_Hyperdrive_Size7_Class2"
+      "symbol": "Int_Hyperdrive_Size7_Class2",
+      "ukName": "FSD",
+      "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
     {
       "class": 7,
@@ -134,7 +148,9 @@
       "optmass": 1800,
       "power": 0.6,
       "rating": "C",
-      "symbol": "Int_Hyperdrive_Size7_Class3"
+      "symbol": "Int_Hyperdrive_Size7_Class3",
+      "ukName": "FSD",
+      "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
     {
       "class": 7,
@@ -151,7 +167,9 @@
       "optmass": 2250,
       "power": 0.75,
       "rating": "B",
-      "symbol": "Int_Hyperdrive_Size7_Class4"
+      "symbol": "Int_Hyperdrive_Size7_Class4",
+      "ukName": "FSD",
+      "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
     {
       "class": 7,
@@ -168,7 +186,9 @@
       "optmass": 2700,
       "power": 0.9,
       "rating": "A",
-      "symbol": "Int_Hyperdrive_Size7_Class5"
+      "symbol": "Int_Hyperdrive_Size7_Class5",
+      "ukName": "FSD",
+      "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
     {
       "class": 6,
@@ -185,7 +205,9 @@
       "optmass": 960,
       "power": 0.4,
       "rating": "E",
-      "symbol": "Int_Hyperdrive_Size6_Class1"
+      "symbol": "Int_Hyperdrive_Size6_Class1",
+      "ukName": "FSD",
+      "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
     {
       "class": 6,
@@ -202,7 +224,9 @@
       "optmass": 1080,
       "power": 0.45,
       "rating": "D",
-      "symbol": "Int_Hyperdrive_Size6_Class2"
+      "symbol": "Int_Hyperdrive_Size6_Class2",
+      "ukName": "FSD",
+      "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
     {
       "class": 6,
@@ -219,7 +243,9 @@
       "optmass": 1200,
       "power": 0.5,
       "rating": "C",
-      "symbol": "Int_Hyperdrive_Size6_Class3"
+      "symbol": "Int_Hyperdrive_Size6_Class3",
+      "ukName": "FSD",
+      "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
     {
       "class": 6,
@@ -236,7 +262,9 @@
       "optmass": 1500,
       "power": 0.63,
       "rating": "B",
-      "symbol": "Int_Hyperdrive_Size6_Class4"
+      "symbol": "Int_Hyperdrive_Size6_Class4",
+      "ukName": "FSD",
+      "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
     {
       "class": 6,
@@ -253,7 +281,9 @@
       "optmass": 1800,
       "power": 0.75,
       "rating": "A",
-      "symbol": "Int_Hyperdrive_Size6_Class5"
+      "symbol": "Int_Hyperdrive_Size6_Class5",
+      "ukName": "FSD",
+      "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
     {
       "class": 5,
@@ -270,7 +300,9 @@
       "optmass": 560,
       "power": 0.32,
       "rating": "E",
-      "symbol": "Int_Hyperdrive_Size5_Class1"
+      "symbol": "Int_Hyperdrive_Size5_Class1",
+      "ukName": "FSD",
+      "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
     {
       "class": 5,
@@ -287,7 +319,9 @@
       "optmass": 630,
       "power": 0.36,
       "rating": "D",
-      "symbol": "Int_Hyperdrive_Size5_Class2"
+      "symbol": "Int_Hyperdrive_Size5_Class2",
+      "ukName": "FSD",
+      "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
     {
       "class": 5,
@@ -304,7 +338,9 @@
       "optmass": 700,
       "power": 0.4,
       "rating": "C",
-      "symbol": "Int_Hyperdrive_Size5_Class3"
+      "symbol": "Int_Hyperdrive_Size5_Class3",
+      "ukName": "FSD",
+      "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
     {
       "class": 5,
@@ -321,7 +357,9 @@
       "optmass": 875,
       "power": 0.5,
       "rating": "B",
-      "symbol": "Int_Hyperdrive_Size5_Class4"
+      "symbol": "Int_Hyperdrive_Size5_Class4",
+      "ukName": "FSD",
+      "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
     {
       "class": 5,
@@ -338,7 +376,9 @@
       "optmass": 1050,
       "power": 0.6,
       "rating": "A",
-      "symbol": "Int_Hyperdrive_Size5_Class5"
+      "symbol": "Int_Hyperdrive_Size5_Class5",
+      "ukName": "FSD",
+      "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
     {
       "class": 4,
@@ -355,7 +395,9 @@
       "optmass": 280,
       "power": 0.24,
       "rating": "E",
-      "symbol": "Int_Hyperdrive_Size4_Class1"
+      "symbol": "Int_Hyperdrive_Size4_Class1",
+      "ukName": "FSD",
+      "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
     {
       "class": 4,
@@ -372,7 +414,9 @@
       "optmass": 315,
       "power": 0.27,
       "rating": "D",
-      "symbol": "Int_Hyperdrive_Size4_Class2"
+      "symbol": "Int_Hyperdrive_Size4_Class2",
+      "ukName": "FSD",
+      "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
     {
       "class": 4,
@@ -389,7 +433,9 @@
       "optmass": 350,
       "power": 0.3,
       "rating": "C",
-      "symbol": "Int_Hyperdrive_Size4_Class3"
+      "symbol": "Int_Hyperdrive_Size4_Class3",
+      "ukName": "FSD",
+      "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
     {
       "class": 4,
@@ -406,7 +452,9 @@
       "optmass": 437.5,
       "power": 0.38,
       "rating": "B",
-      "symbol": "Int_Hyperdrive_Size4_Class4"
+      "symbol": "Int_Hyperdrive_Size4_Class4",
+      "ukName": "FSD",
+      "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
     {
       "class": 4,
@@ -423,7 +471,9 @@
       "optmass": 525,
       "power": 0.45,
       "rating": "A",
-      "symbol": "Int_Hyperdrive_Size4_Class5"
+      "symbol": "Int_Hyperdrive_Size4_Class5",
+      "ukName": "FSD",
+      "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
     {
       "class": 3,
@@ -440,7 +490,9 @@
       "optmass": 80,
       "power": 0.24,
       "rating": "E",
-      "symbol": "Int_Hyperdrive_Size3_Class1"
+      "symbol": "Int_Hyperdrive_Size3_Class1",
+      "ukName": "FSD",
+      "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
     {
       "class": 3,
@@ -457,7 +509,9 @@
       "optmass": 90,
       "power": 0.27,
       "rating": "D",
-      "symbol": "Int_Hyperdrive_Size3_Class2"
+      "symbol": "Int_Hyperdrive_Size3_Class2",
+      "ukName": "FSD",
+      "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
     {
       "class": 3,
@@ -474,7 +528,9 @@
       "optmass": 100,
       "power": 0.3,
       "rating": "C",
-      "symbol": "Int_Hyperdrive_Size3_Class3"
+      "symbol": "Int_Hyperdrive_Size3_Class3",
+      "ukName": "FSD",
+      "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
     {
       "class": 3,
@@ -491,7 +547,9 @@
       "optmass": 125,
       "power": 0.38,
       "rating": "B",
-      "symbol": "Int_Hyperdrive_Size3_Class4"
+      "symbol": "Int_Hyperdrive_Size3_Class4",
+      "ukName": "FSD",
+      "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
     {
       "class": 3,
@@ -508,7 +566,9 @@
       "optmass": 150,
       "power": 0.45,
       "rating": "A",
-      "symbol": "Int_Hyperdrive_Size3_Class5"
+      "symbol": "Int_Hyperdrive_Size3_Class5",
+      "ukName": "FSD",
+      "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
     {
       "class": 2,
@@ -525,7 +585,9 @@
       "optmass": 48,
       "power": 0.16,
       "rating": "E",
-      "symbol": "Int_Hyperdrive_Size2_Class1"
+      "symbol": "Int_Hyperdrive_Size2_Class1",
+      "ukName": "FSD",
+      "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
     {
       "class": 2,
@@ -542,7 +604,9 @@
       "optmass": 54,
       "power": 0.18,
       "rating": "D",
-      "symbol": "Int_Hyperdrive_Size2_Class2"
+      "symbol": "Int_Hyperdrive_Size2_Class2",
+      "ukName": "FSD",
+      "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
     {
       "class": 2,
@@ -559,7 +623,9 @@
       "optmass": 60,
       "power": 0.2,
       "rating": "C",
-      "symbol": "Int_Hyperdrive_Size2_Class3"
+      "symbol": "Int_Hyperdrive_Size2_Class3",
+      "ukName": "FSD",
+      "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
     {
       "class": 2,
@@ -576,7 +642,9 @@
       "optmass": 75,
       "power": 0.25,
       "rating": "B",
-      "symbol": "Int_Hyperdrive_Size2_Class4"
+      "symbol": "Int_Hyperdrive_Size2_Class4",
+      "ukName": "FSD",
+      "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
     {
       "class": 2,
@@ -593,7 +661,9 @@
       "optmass": 90,
       "power": 0.3,
       "rating": "A",
-      "symbol": "Int_Hyperdrive_Size2_Class5"
+      "symbol": "Int_Hyperdrive_Size2_Class5",
+      "ukName": "FSD",
+      "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     }
   ]
 }

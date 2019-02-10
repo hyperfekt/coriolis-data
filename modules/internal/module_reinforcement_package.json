@@ -11,7 +11,9 @@
       "mass": 2,
       "protection": 0.3,
       "rating": "E",
-      "symbol": "Int_ModuleReinforcement_Size1_Class1"
+      "symbol": "Int_ModuleReinforcement_Size1_Class1",
+      "ukName": "Module Reinforcement",
+      "ukDiscript": "Protects modules against weapons fire that penetrates the hull. This version of the module has high damage capacity but low absorption of module damage. I.e. it can absorb a small proportion of module damage each time over a long period before running out of damage capacity."
     },
     {
       "class": 1,
@@ -24,7 +26,9 @@
       "mass": 1,
       "protection": 0.6,
       "rating": "D",
-      "symbol": "Int_ModuleReinforcement_Size1_Class2"
+      "symbol": "Int_ModuleReinforcement_Size1_Class2",
+      "ukName": "Module Reinforcement",
+      "ukDiscript": "Protects modules against weapons fire that penetrates the hull. This version of the module has low damage capacity but high absorption of module damage. I.e. it can absorb a large proportion of module damage each time over a short period before running out of damage capacity."
     },
     {
       "class": 2,
@@ -37,7 +41,9 @@
       "mass": 4,
       "protection": 0.3,
       "rating": "E",
-      "symbol": "Int_ModuleReinforcement_Size2_Class1"
+      "symbol": "Int_ModuleReinforcement_Size2_Class1",
+      "ukName": "Module Reinforcement",
+      "ukDiscript": "Protects modules against weapons fire that penetrates the hull. This version of the module has high damage capacity but low absorption of module damage. I.e. it can absorb a small proportion of module damage each time over a long period before running out of damage capacity."
     },
     {
       "class": 2,
@@ -50,7 +56,9 @@
       "mass": 2,
       "protection": 0.6,
       "rating": "D",
-      "symbol": "Int_ModuleReinforcement_Size2_Class2"
+      "symbol": "Int_ModuleReinforcement_Size2_Class2",
+      "ukName": "Module Reinforcement",
+      "ukDiscript": "Protects modules against weapons fire that penetrates the hull. This version of the module has low damage capacity but high absorption of module damage. I.e. it can absorb a large proportion of module damage each time over a short period before running out of damage capacity."
     },
     {
       "class": 3,
@@ -63,7 +71,9 @@
       "mass": 8,
       "protection": 0.3,
       "rating": "E",
-      "symbol": "Int_ModuleReinforcement_Size3_Class1"
+      "symbol": "Int_ModuleReinforcement_Size3_Class1",
+      "ukName": "Module Reinforcement",
+      "ukDiscript": "Protects modules against weapons fire that penetrates the hull. This version of the module has high damage capacity but low absorption of module damage. I.e. it can absorb a small proportion of module damage each time over a long period before running out of damage capacity."
     },
     {
       "class": 3,
@@ -76,7 +86,9 @@
       "mass": 4,
       "protection": 0.6,
       "rating": "D",
-      "symbol": "Int_ModuleReinforcement_Size3_Class2"
+      "symbol": "Int_ModuleReinforcement_Size3_Class2",
+      "ukName": "Module Reinforcement",
+      "ukDiscript": "Protects modules against weapons fire that penetrates the hull. This version of the module has low damage capacity but high absorption of module damage. I.e. it can absorb a large proportion of module damage each time over a short period before running out of damage capacity."
     },
     {
       "class": 4,
@@ -89,7 +101,9 @@
       "mass": 16,
       "protection": 0.3,
       "rating": "E",
-      "symbol": "Int_ModuleReinforcement_Size4_Class1"
+      "symbol": "Int_ModuleReinforcement_Size4_Class1",
+      "ukName": "Module Reinforcement",
+      "ukDiscript": "Protects modules against weapons fire that penetrates the hull. This version of the module has high damage capacity but low absorption of module damage. I.e. it can absorb a small proportion of module damage each time over a long period before running out of damage capacity."
     },
     {
       "class": 4,
@@ -102,7 +116,9 @@
       "mass": 8,
       "protection": 0.6,
       "rating": "D",
-      "symbol": "Int_ModuleReinforcement_Size4_Class2"
+      "symbol": "Int_ModuleReinforcement_Size4_Class2",
+      "ukName": "Module Reinforcement",
+      "ukDiscript": "Protects modules against weapons fire that penetrates the hull. This version of the module has low damage capacity but high absorption of module damage. I.e. it can absorb a large proportion of module damage each time over a short period before running out of damage capacity."
     },
     {
       "class": 5,
@@ -115,7 +131,9 @@
       "mass": 32,
       "protection": 0.3,
       "rating": "E",
-      "symbol": "Int_ModuleReinforcement_Size5_Class1"
+      "symbol": "Int_ModuleReinforcement_Size5_Class1",
+      "ukName": "Module Reinforcement",
+      "ukDiscript": "Protects modules against weapons fire that penetrates the hull. This version of the module has high damage capacity but low absorption of module damage. I.e. it can absorb a small proportion of module damage each time over a long period before running out of damage capacity."
     },
     {
       "class": 5,
@@ -128,7 +146,9 @@
       "mass": 16,
       "protection": 0.6,
       "rating": "D",
-      "symbol": "Int_ModuleReinforcement_Size5_Class2"
+      "symbol": "Int_ModuleReinforcement_Size5_Class2",
+      "ukName": "Module Reinforcement",
+      "ukDiscript": "Protects modules against weapons fire that penetrates the hull. This version of the module has low damage capacity but high absorption of module damage. I.e. it can absorb a large proportion of module damage each time over a short period before running out of damage capacity."
     }
   ]
 }

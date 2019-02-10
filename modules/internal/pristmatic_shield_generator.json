@@ -24,7 +24,9 @@
       "rating": "A",
       "regen": 1,
       "thermres": -0.2,
-      "symbol": "Int_ShieldGenerator_Size1_Class5_Strong"
+      "symbol": "Int_ShieldGenerator_Size1_Class5_Strong",
+      "ukName": "Prismatic Shield",
+      "ukDiscript": "An alternative shield generator that has higher than normal strength but requires a higher power draw and weight allowance."
     },
     {
       "brokenregen": 1.2,
@@ -50,7 +52,9 @@
       "rating": "A",
       "regen": 1,
       "thermres": -0.2,
-      "symbol": "Int_ShieldGenerator_Size2_Class5_Strong"
+      "symbol": "Int_ShieldGenerator_Size2_Class5_Strong",
+      "ukName": "Prismatic Shield",
+      "ukDiscript": "An alternative shield generator that has higher than normal strength but requires a higher power draw and weight allowance."
     },
     {
       "brokenregen": 1.3,
@@ -76,7 +80,9 @@
       "rating": "A",
       "regen": 1,
       "thermres": -0.2,
-      "symbol": "Int_ShieldGenerator_Size3_Class5_Strong"
+      "symbol": "Int_ShieldGenerator_Size3_Class5_Strong",
+      "ukName": "Prismatic Shield",
+      "ukDiscript": "An alternative shield generator that has higher than normal strength but requires a higher power draw and weight allowance."
     },
     {
       "brokenregen": 1.7,
@@ -102,7 +108,9 @@
       "rating": "A",
       "regen": 1,
       "thermres": -0.2,
-      "symbol": "Int_ShieldGenerator_Size4_Class5_Strong"
+      "symbol": "Int_ShieldGenerator_Size4_Class5_Strong",
+      "ukName": "Prismatic Shield",
+      "ukDiscript": "An alternative shield generator that has higher than normal strength but requires a higher power draw and weight allowance."
     },
     {
       "brokenregen": 2.3,
@@ -128,7 +136,9 @@
       "rating": "A",
       "regen": 1,
       "thermres": -0.2,
-      "symbol": "Int_ShieldGenerator_Size5_Class5_Strong"
+      "symbol": "Int_ShieldGenerator_Size5_Class5_Strong",
+      "ukName": "Prismatic Shield",
+      "ukDiscript": "An alternative shield generator that has higher than normal strength but requires a higher power draw and weight allowance."
     },
     {
       "brokenregen": 3.2,
@@ -154,7 +164,9 @@
       "rating": "A",
       "regen": 1,
       "thermres": -0.2,
-      "symbol": "Int_ShieldGenerator_Size6_Class5_Strong"
+      "symbol": "Int_ShieldGenerator_Size6_Class5_Strong",
+      "ukName": "Prismatic Shield",
+      "ukDiscript": "An alternative shield generator that has higher than normal strength but requires a higher power draw and weight allowance."
     },
     {
       "brokenregen": 4.2,
@@ -180,7 +192,9 @@
       "rating": "A",
       "regen": 1.1,
       "thermres": -0.2,
-      "symbol": "Int_ShieldGenerator_Size7_Class5_Strong"
+      "symbol": "Int_ShieldGenerator_Size7_Class5_Strong",
+      "ukName": "Prismatic Shield",
+      "ukDiscript": "An alternative shield generator that has higher than normal strength but requires a higher power draw and weight allowance."
     },
     {
       "brokenregen": 5.4,
@@ -206,7 +220,9 @@
       "rating": "A",
       "regen": 1.4,
       "thermres": -0.2,
-      "symbol": "Int_ShieldGenerator_Size8_Class5_Strong"
+      "symbol": "Int_ShieldGenerator_Size8_Class5_Strong",
+      "ukName": "Prismatic Shield",
+      "ukDiscript": "An alternative shield generator that has higher than normal strength but requires a higher power draw and weight allowance."
     }
   ]
 }

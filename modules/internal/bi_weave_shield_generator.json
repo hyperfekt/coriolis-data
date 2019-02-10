@@ -23,7 +23,9 @@
       "rating": "C",
       "regen": 1.8,
       "thermres": -0.2,
-      "symbol": "Int_ShieldGenerator_Size1_Class3_Fast"
+      "symbol": "Int_ShieldGenerator_Size1_Class3_Fast",
+      "ukName": "Bi-Weave Shield",
+      "ukDiscript": "An alternative shield generator that sacrifices overall shield strength for a much faster recharge rate."
     },
     {
       "brokenregen": 2.4,
@@ -48,7 +50,9 @@
       "rating": "C",
       "regen": 1.8,
       "thermres": -0.2,
-      "symbol": "Int_ShieldGenerator_Size2_Class3_Fast"
+      "symbol": "Int_ShieldGenerator_Size2_Class3_Fast",
+      "ukName": "Bi-Weave Shield",
+      "ukDiscript": "An alternative shield generator that sacrifices overall shield strength for a much faster recharge rate."
     },
     {
       "brokenregen": 2.8,
@@ -73,7 +77,9 @@
       "rating": "C",
       "regen": 1.8,
       "thermres": -0.2,
-      "symbol": "Int_ShieldGenerator_Size3_Class3_Fast"
+      "symbol": "Int_ShieldGenerator_Size3_Class3_Fast",
+      "ukName": "Bi-Weave Shield",
+      "ukDiscript": "An alternative shield generator that sacrifices overall shield strength for a much faster recharge rate."
     },
     {
       "brokenregen": 3.8,
@@ -98,7 +104,9 @@
       "rating": "C",
       "regen": 1.8,
       "thermres": -0.2,
-      "symbol": "Int_ShieldGenerator_Size4_Class3_Fast"
+      "symbol": "Int_ShieldGenerator_Size4_Class3_Fast",
+      "ukName": "Bi-Weave Shield",
+      "ukDiscript": "An alternative shield generator that sacrifices overall shield strength for a much faster recharge rate."
     },
     {
       "brokenregen": 5.6,
@@ -123,7 +131,9 @@
       "rating": "C",
       "regen": 2.2,
       "thermres": -0.2,
-      "symbol": "Int_ShieldGenerator_Size5_Class3_Fast"
+      "symbol": "Int_ShieldGenerator_Size5_Class3_Fast",
+      "ukName": "Bi-Weave Shield",
+      "ukDiscript": "An alternative shield generator that sacrifices overall shield strength for a much faster recharge rate."
     },
     {
       "brokenregen": 8,
@@ -148,7 +158,9 @@
       "rating": "C",
       "regen": 3.2,
       "thermres": -0.2,
-      "symbol": "Int_ShieldGenerator_Size6_Class3_Fast"
+      "symbol": "Int_ShieldGenerator_Size6_Class3_Fast",
+      "ukName": "Bi-Weave Shield",
+      "ukDiscript": "An alternative shield generator that sacrifices overall shield strength for a much faster recharge rate."
     },
     {
       "brokenregen": 11,
@@ -173,7 +185,9 @@
       "rating": "C",
       "regen": 4.4,
       "thermres": -0.2,
-      "symbol": "Int_ShieldGenerator_Size7_Class3_Fast"
+      "symbol": "Int_ShieldGenerator_Size7_Class3_Fast",
+      "ukName": "Bi-Weave Shield",
+      "ukDiscript": "An alternative shield generator that sacrifices overall shield strength for a much faster recharge rate."
     },
     {
       "brokenregen": 14.4,
@@ -198,7 +212,9 @@
       "rating": "C",
       "regen": 5.8,
       "thermres": -0.2,
-      "symbol": "Int_ShieldGenerator_Size8_Class3_Fast"
+      "symbol": "Int_ShieldGenerator_Size8_Class3_Fast",
+      "ukName": "Bi-Weave Shield",
+      "ukDiscript": "An alternative shield generator that sacrifices overall shield strength for a much faster recharge rate."
     }
   ]
 }

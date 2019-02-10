@@ -13,7 +13,9 @@
       "range": 1.5,
       "rating": "E",
       "time": 42,
-      "symbol": "Int_DroneControl_ResourceSiphon_Size1_Class1"
+      "symbol": "Int_DroneControl_ResourceSiphon_Size1_Class1",
+      "ukName": "Hatch Breaker",
+      "ukDiscript": "Control unit that can program a blank limpet to hack a target's hold, causing cargo ejection."
     },
     {
       "class": 1,
@@ -28,7 +30,9 @@
       "range": 2,
       "rating": "D",
       "time": 36,
-      "symbol": "Int_DroneControl_ResourceSiphon_Size1_Class2"
+      "symbol": "Int_DroneControl_ResourceSiphon_Size1_Class2",
+      "ukName": "Hatch Breaker",
+      "ukDiscript": "Control unit that can program a blank limpet to hack a target's hold, causing cargo ejection."
     },
     {
       "class": 1,
@@ -43,7 +47,9 @@
       "range": 2.5,
       "rating": "C",
       "time": 30,
-      "symbol": "Int_DroneControl_ResourceSiphon_Size1_Class3"
+      "symbol": "Int_DroneControl_ResourceSiphon_Size1_Class3",
+      "ukName": "Hatch Breaker",
+      "ukDiscript": "Control unit that can program a blank limpet to hack a target's hold, causing cargo ejection."
     },
     {
       "class": 1,
@@ -58,7 +64,9 @@
       "range": 3,
       "rating": "B",
       "time": 24,
-      "symbol": "Int_DroneControl_ResourceSiphon_Size1_Class4"
+      "symbol": "Int_DroneControl_ResourceSiphon_Size1_Class4",
+      "ukName": "Hatch Breaker",
+      "ukDiscript": "Control unit that can program a blank limpet to hack a target's hold, causing cargo ejection."
     },
     {
       "class": 1,
@@ -73,7 +81,9 @@
       "range": 3.5,
       "rating": "A",
       "time": 18,
-      "symbol": "Int_DroneControl_ResourceSiphon_Size1_Class5"
+      "symbol": "Int_DroneControl_ResourceSiphon_Size1_Class5",
+      "ukName": "Hatch Breaker",
+      "ukDiscript": "Control unit that can program a blank limpet to hack a target's hold, causing cargo ejection."
     },
     {
       "class": 3,
@@ -88,7 +98,9 @@
       "range": 1.62,
       "rating": "E",
       "time": 36,
-      "symbol": "Int_DroneControl_ResourceSiphon_Size3_Class1"
+      "symbol": "Int_DroneControl_ResourceSiphon_Size3_Class1",
+      "ukName": "Hatch Breaker",
+      "ukDiscript": "Control unit that can program a blank limpet to hack a target's hold, causing cargo ejection."
     },
     {
       "class": 3,
@@ -103,7 +115,9 @@
       "range": 2.16,
       "rating": "D",
       "time": 31,
-      "symbol": "Int_DroneControl_ResourceSiphon_Size3_Class2"
+      "symbol": "Int_DroneControl_ResourceSiphon_Size3_Class2",
+      "ukName": "Hatch Breaker",
+      "ukDiscript": "Control unit that can program a blank limpet to hack a target's hold, causing cargo ejection."
     },
     {
       "class": 3,
@@ -118,7 +132,9 @@
       "range": 2.7,
       "rating": "C",
       "time": 26,
-      "symbol": "Int_DroneControl_ResourceSiphon_Size3_Class3"
+      "symbol": "Int_DroneControl_ResourceSiphon_Size3_Class3",
+      "ukName": "Hatch Breaker",
+      "ukDiscript": "Control unit that can program a blank limpet to hack a target's hold, causing cargo ejection."
     },
     {
       "class": 3,
@@ -133,7 +149,9 @@
       "range": 3.24,
       "rating": "B",
       "time": 21,
-      "symbol": "Int_DroneControl_ResourceSiphon_Size3_Class4"
+      "symbol": "Int_DroneControl_ResourceSiphon_Size3_Class4",
+      "ukName": "Hatch Breaker",
+      "ukDiscript": "Control unit that can program a blank limpet to hack a target's hold, causing cargo ejection."
     },
     {
       "class": 3,
@@ -148,7 +166,9 @@
       "range": 3.78,
       "rating": "A",
       "time": 16,
-      "symbol": "Int_DroneControl_ResourceSiphon_Size3_Class5"
+      "symbol": "Int_DroneControl_ResourceSiphon_Size3_Class5",
+      "ukName": "Hatch Breaker",
+      "ukDiscript": "Control unit that can program a blank limpet to hack a target's hold, causing cargo ejection."
     },
     {
       "class": 5,
@@ -163,7 +183,9 @@
       "range": 1.98,
       "rating": "E",
       "time": 31,
-      "symbol": "Int_DroneControl_ResourceSiphon_Size5_Class1"
+      "symbol": "Int_DroneControl_ResourceSiphon_Size5_Class1",
+      "ukName": "Hatch Breaker",
+      "ukDiscript": "Control unit that can program a blank limpet to hack a target's hold, causing cargo ejection."
     },
     {
       "class": 5,
@@ -178,7 +200,9 @@
       "range": 2.64,
       "rating": "D",
       "time": 26,
-      "symbol": "Int_DroneControl_ResourceSiphon_Size5_Class2"
+      "symbol": "Int_DroneControl_ResourceSiphon_Size5_Class2",
+      "ukName": "Hatch Breaker",
+      "ukDiscript": "Control unit that can program a blank limpet to hack a target's hold, causing cargo ejection."
     },
     {
       "class": 5,
@@ -193,7 +217,9 @@
       "range": 3.3,
       "rating": "C",
       "time": 22,
-      "symbol": "Int_DroneControl_ResourceSiphon_Size5_Class3"
+      "symbol": "Int_DroneControl_ResourceSiphon_Size5_Class3",
+      "ukName": "Hatch Breaker",
+      "ukDiscript": "Control unit that can program a blank limpet to hack a target's hold, causing cargo ejection."
     },
     {
       "class": 5,
@@ -208,7 +234,9 @@
       "range": 3.96,
       "rating": "B",
       "time": 18,
-      "symbol": "Int_DroneControl_ResourceSiphon_Size5_Class4"
+      "symbol": "Int_DroneControl_ResourceSiphon_Size5_Class4",
+      "ukName": "Hatch Breaker",
+      "ukDiscript": "Control unit that can program a blank limpet to hack a target's hold, causing cargo ejection."
     },
     {
       "class": 5,
@@ -223,7 +251,9 @@
       "range": 4.62,
       "rating": "A",
       "time": 13,
-      "symbol": "Int_DroneControl_ResourceSiphon_Size5_Class5"
+      "symbol": "Int_DroneControl_ResourceSiphon_Size5_Class5",
+      "ukName": "Hatch Breaker",
+      "ukDiscript": "Control unit that can program a blank limpet to hack a target's hold, causing cargo ejection."
     },
     {
       "class": 7,
@@ -238,7 +268,9 @@
       "range": 2.58,
       "rating": "E",
       "time": 25,
-      "symbol": "Int_DroneControl_ResourceSiphon_Size7_Class1"
+      "symbol": "Int_DroneControl_ResourceSiphon_Size7_Class1",
+      "ukName": "Hatch Breaker",
+      "ukDiscript": "Control unit that can program a blank limpet to hack a target's hold, causing cargo ejection."
     },
     {
       "class": 7,
@@ -253,7 +285,9 @@
       "range": 3.44,
       "rating": "D",
       "time": 22,
-      "symbol": "Int_DroneControl_ResourceSiphon_Size7_Class2"
+      "symbol": "Int_DroneControl_ResourceSiphon_Size7_Class2",
+      "ukName": "Hatch Breaker",
+      "ukDiscript": "Control unit that can program a blank limpet to hack a target's hold, causing cargo ejection."
     },
     {
       "class": 7,
@@ -268,7 +302,9 @@
       "range": 4.3,
       "rating": "C",
       "time": 18,
-      "symbol": "Int_DroneControl_ResourceSiphon_Size7_Class3"
+      "symbol": "Int_DroneControl_ResourceSiphon_Size7_Class3",
+      "ukName": "Hatch Breaker",
+      "ukDiscript": "Control unit that can program a blank limpet to hack a target's hold, causing cargo ejection."
     },
     {
       "class": 7,
@@ -283,7 +319,9 @@
       "range": 5.16,
       "rating": "B",
       "time": 14,
-      "symbol": "Int_DroneControl_ResourceSiphon_Size7_Class4"
+      "symbol": "Int_DroneControl_ResourceSiphon_Size7_Class4",
+      "ukName": "Hatch Breaker",
+      "ukDiscript": "Control unit that can program a blank limpet to hack a target's hold, causing cargo ejection."
     },
     {
       "class": 7,
@@ -298,7 +336,9 @@
       "range": 6.02,
       "rating": "A",
       "time": 11,
-      "symbol": "Int_DroneControl_ResourceSiphon_Size7_Class5"
+      "symbol": "Int_DroneControl_ResourceSiphon_Size7_Class5",
+      "ukName": "Hatch Breaker",
+      "ukDiscript": "Control unit that can program a blank limpet to hack a target's hold, causing cargo ejection."
     }
   ]
 }

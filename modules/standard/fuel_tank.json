@@ -10,7 +10,9 @@
       "grp": "ft",
       "id": "f1",
       "rating": "C",
-      "symbol": "Int_FuelTank_Size1_Class3"
+      "symbol": "Int_FuelTank_Size1_Class3",
+      "ukName": "Fuel Tank",
+      "ukDiscript": "Storage container for fuel used by ship's power plant."
     },
     {
       "class": 2,
@@ -22,7 +24,9 @@
       "grp": "ft",
       "id": "f2",
       "rating": "C",
-      "symbol": "Int_FuelTank_Size2_Class3"
+      "symbol": "Int_FuelTank_Size2_Class3",
+      "ukName": "Fuel Tank",
+      "ukDiscript": "Storage container for fuel used by ship's power plant."
     },
     {
       "class": 3,
@@ -34,7 +38,9 @@
       "grp": "ft",
       "id": "f3",
       "rating": "C",
-      "symbol": "Int_FuelTank_Size3_Class3"
+      "symbol": "Int_FuelTank_Size3_Class3",
+      "ukName": "Fuel Tank",
+      "ukDiscript": "Storage container for fuel used by ship's power plant."
     },
     {
       "class": 4,
@@ -46,7 +52,9 @@
       "grp": "ft",
       "id": "f4",
       "rating": "C",
-      "symbol": "Int_FuelTank_Size4_Class3"
+      "symbol": "Int_FuelTank_Size4_Class3",
+      "ukName": "Fuel Tank",
+      "ukDiscript": "Storage container for fuel used by ship's power plant."
     },
     {
       "class": 5,
@@ -58,7 +66,9 @@
       "grp": "ft",
       "id": "f5",
       "rating": "C",
-      "symbol": "Int_FuelTank_Size5_Class3"
+      "symbol": "Int_FuelTank_Size5_Class3",
+      "ukName": "Fuel Tank",
+      "ukDiscript": "Storage container for fuel used by ship's power plant."
     },
     {
       "class": 6,
@@ -70,7 +80,9 @@
       "grp": "ft",
       "id": "f6",
       "rating": "C",
-      "symbol": "Int_FuelTank_Size6_Class3"
+      "symbol": "Int_FuelTank_Size6_Class3",
+      "ukName": "Fuel Tank",
+      "ukDiscript": "Storage container for fuel used by ship's power plant."
     },
     {
       "class": 7,
@@ -82,7 +94,9 @@
       "grp": "ft",
       "id": "f7",
       "rating": "C",
-      "symbol": "Int_FuelTank_Size7_Class3"
+      "symbol": "Int_FuelTank_Size7_Class3",
+      "ukName": "Fuel Tank",
+      "ukDiscript": "Storage container for fuel used by ship's power plant."
     },
     {
       "class": 8,
@@ -94,7 +108,9 @@
       "grp": "ft",
       "id": "f8",
       "rating": "C",
-      "symbol": "Int_FuelTank_Size8_Class3"
+      "symbol": "Int_FuelTank_Size8_Class3",
+      "ukName": "Fuel Tank",
+      "ukDiscript": "Storage container for fuel used by ship's power plant."
     }
   ]
 }

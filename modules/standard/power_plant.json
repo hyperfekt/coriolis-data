@@ -12,7 +12,9 @@
       "mass": 160,
       "pgen": 24,
       "rating": "E",
-      "symbol": "Int_Powerplant_Size8_Class1"
+      "symbol": "Int_Powerplant_Size8_Class1",
+      "ukName": "Power Plant",
+      "ukDiscript": "Consumes fuel to power all ship modules."
     },
     {
       "class": 8,
@@ -26,7 +28,9 @@
       "mass": 64,
       "pgen": 27,
       "rating": "D",
-      "symbol": "Int_Powerplant_Size8_Class2"
+      "symbol": "Int_Powerplant_Size8_Class2",
+      "ukName": "Power Plant",
+      "ukDiscript": "Consumes fuel to power all ship modules."
     },
     {
       "class": 8,
@@ -40,7 +44,9 @@
       "mass": 80,
       "pgen": 30,
       "rating": "C",
-      "symbol": "Int_Powerplant_Size8_Class3"
+      "symbol": "Int_Powerplant_Size8_Class3",
+      "ukName": "Power Plant",
+      "ukDiscript": "Consumes fuel to power all ship modules."
     },
     {
       "class": 8,
@@ -54,7 +60,9 @@
       "mass": 128,
       "pgen": 33,
       "rating": "B",
-      "symbol": "Int_Powerplant_Size8_Class4"
+      "symbol": "Int_Powerplant_Size8_Class4",
+      "ukName": "Power Plant",
+      "ukDiscript": "Consumes fuel to power all ship modules."
     },
     {
       "class": 8,
@@ -68,7 +76,9 @@
       "mass": 80,
       "pgen": 36,
       "rating": "A",
-      "symbol": "Int_Powerplant_Size8_Class5"
+      "symbol": "Int_Powerplant_Size8_Class5",
+      "ukName": "Power Plant",
+      "ukDiscript": "Consumes fuel to power all ship modules."
     },
     {
       "class": 7,
@@ -82,7 +92,9 @@
       "mass": 80,
       "pgen": 20,
       "rating": "E",
-      "symbol": "Int_Powerplant_Size7_Class1"
+      "symbol": "Int_Powerplant_Size7_Class1",
+      "ukName": "Power Plant",
+      "ukDiscript": "Consumes fuel to power all ship modules."
     },
     {
       "class": 7,
@@ -96,7 +108,9 @@
       "mass": 32,
       "pgen": 22.5,
       "rating": "D",
-      "symbol": "Int_Powerplant_Size7_Class2"
+      "symbol": "Int_Powerplant_Size7_Class2",
+      "ukName": "Power Plant",
+      "ukDiscript": "Consumes fuel to power all ship modules."
     },
     {
       "class": 7,
@@ -110,7 +124,9 @@
       "mass": 40,
       "pgen": 25,
       "rating": "C",
-      "symbol": "Int_Powerplant_Size7_Class3"
+      "symbol": "Int_Powerplant_Size7_Class3",
+      "ukName": "Power Plant",
+      "ukDiscript": "Consumes fuel to power all ship modules."
     },
     {
       "class": 7,
@@ -124,7 +140,9 @@
       "mass": 64,
       "pgen": 27.5,
       "rating": "B",
-      "symbol": "Int_Powerplant_Size7_Class4"
+      "symbol": "Int_Powerplant_Size7_Class4",
+      "ukName": "Power Plant",
+      "ukDiscript": "Consumes fuel to power all ship modules."
     },
     {
       "class": 7,
@@ -138,7 +156,9 @@
       "mass": 40,
       "pgen": 30,
       "rating": "A",
-      "symbol": "Int_Powerplant_Size7_Class5"
+      "symbol": "Int_Powerplant_Size7_Class5",
+      "ukName": "Power Plant",
+      "ukDiscript": "Consumes fuel to power all ship modules."
     },
     {
       "class": 6,
@@ -152,7 +172,9 @@
       "mass": 40,
       "pgen": 16.8,
       "rating": "E",
-      "symbol": "Int_Powerplant_Size6_Class1"
+      "symbol": "Int_Powerplant_Size6_Class1",
+      "ukName": "Power Plant",
+      "ukDiscript": "Consumes fuel to power all ship modules."
     },
     {
       "class": 6,
@@ -166,7 +188,9 @@
       "mass": 16,
       "pgen": 18.9,
       "rating": "D",
-      "symbol": "Int_Powerplant_Size6_Class2"
+      "symbol": "Int_Powerplant_Size6_Class2",
+      "ukName": "Power Plant",
+      "ukDiscript": "Consumes fuel to power all ship modules."
     },
     {
       "class": 6,
@@ -180,7 +204,9 @@
       "mass": 20,
       "pgen": 21,
       "rating": "C",
-      "symbol": "Int_Powerplant_Size6_Class3"
+      "symbol": "Int_Powerplant_Size6_Class3",
+      "ukName": "Power Plant",
+      "ukDiscript": "Consumes fuel to power all ship modules."
     },
     {
       "class": 6,
@@ -194,7 +220,9 @@
       "mass": 32,
       "pgen": 23.1,
       "rating": "B",
-      "symbol": "Int_Powerplant_Size6_Class4"
+      "symbol": "Int_Powerplant_Size6_Class4",
+      "ukName": "Power Plant",
+      "ukDiscript": "Consumes fuel to power all ship modules."
     },
     {
       "class": 6,
@@ -208,7 +236,9 @@
       "mass": 20,
       "pgen": 25.2,
       "rating": "A",
-      "symbol": "Int_Powerplant_Size6_Class5"
+      "symbol": "Int_Powerplant_Size6_Class5",
+      "ukName": "Power Plant",
+      "ukDiscript": "Consumes fuel to power all ship modules."
     },
     {
       "class": 5,
@@ -222,7 +252,9 @@
       "mass": 20,
       "pgen": 13.6,
       "rating": "E",
-      "symbol": "Int_Powerplant_Size5_Class1"
+      "symbol": "Int_Powerplant_Size5_Class1",
+      "ukName": "Power Plant",
+      "ukDiscript": "Consumes fuel to power all ship modules."
     },
     {
       "class": 5,
@@ -236,7 +268,9 @@
       "mass": 8,
       "pgen": 15.3,
       "rating": "D",
-      "symbol": "Int_Powerplant_Size5_Class2"
+      "symbol": "Int_Powerplant_Size5_Class2",
+      "ukName": "Power Plant",
+      "ukDiscript": "Consumes fuel to power all ship modules."
     },
     {
       "class": 5,
@@ -250,7 +284,9 @@
       "mass": 10,
       "pgen": 17,
       "rating": "C",
-      "symbol": "Int_Powerplant_Size5_Class3"
+      "symbol": "Int_Powerplant_Size5_Class3",
+      "ukName": "Power Plant",
+      "ukDiscript": "Consumes fuel to power all ship modules."
     },
     {
       "class": 5,
@@ -264,7 +300,9 @@
       "mass": 16,
       "pgen": 18.7,
       "rating": "B",
-      "symbol": "Int_Powerplant_Size5_Class4"
+      "symbol": "Int_Powerplant_Size5_Class4",
+      "ukName": "Power Plant",
+      "ukDiscript": "Consumes fuel to power all ship modules."
     },
     {
       "class": 5,
@@ -278,7 +316,9 @@
       "mass": 10,
       "pgen": 20.4,
       "rating": "A",
-      "symbol": "Int_Powerplant_Size5_Class5"
+      "symbol": "Int_Powerplant_Size5_Class5",
+      "ukName": "Power Plant",
+      "ukDiscript": "Consumes fuel to power all ship modules."
     },
     {
       "class": 4,
@@ -292,7 +332,9 @@
       "mass": 10,
       "pgen": 10.4,
       "rating": "E",
-      "symbol": "Int_Powerplant_Size4_Class1"
+      "symbol": "Int_Powerplant_Size4_Class1",
+      "ukName": "Power Plant",
+      "ukDiscript": "Consumes fuel to power all ship modules."
     },
     {
       "class": 4,
@@ -306,7 +348,9 @@
       "mass": 4,
       "pgen": 11.7,
       "rating": "D",
-      "symbol": "Int_Powerplant_Size4_Class2"
+      "symbol": "Int_Powerplant_Size4_Class2",
+      "ukName": "Power Plant",
+      "ukDiscript": "Consumes fuel to power all ship modules."
     },
     {
       "class": 4,
@@ -320,7 +364,9 @@
       "mass": 5,
       "pgen": 13,
       "rating": "C",
-      "symbol": "Int_Powerplant_Size4_Class3"
+      "symbol": "Int_Powerplant_Size4_Class3",
+      "ukName": "Power Plant",
+      "ukDiscript": "Consumes fuel to power all ship modules."
     },
     {
       "class": 4,
@@ -334,7 +380,9 @@
       "mass": 8,
       "pgen": 14.3,
       "rating": "B",
-      "symbol": "Int_Powerplant_Size4_Class4"
+      "symbol": "Int_Powerplant_Size4_Class4",
+      "ukName": "Power Plant",
+      "ukDiscript": "Consumes fuel to power all ship modules."
     },
     {
       "class": 4,
@@ -348,7 +396,9 @@
       "mass": 5,
       "pgen": 15.6,
       "rating": "A",
-      "symbol": "Int_Powerplant_Size4_Class5"
+      "symbol": "Int_Powerplant_Size4_Class5",
+      "ukName": "Power Plant",
+      "ukDiscript": "Consumes fuel to power all ship modules."
     },
     {
       "class": 3,
@@ -362,7 +412,9 @@
       "mass": 5,
       "pgen": 8,
       "rating": "E",
-      "symbol": "Int_Powerplant_Size3_Class1"
+      "symbol": "Int_Powerplant_Size3_Class1",
+      "ukName": "Power Plant",
+      "ukDiscript": "Consumes fuel to power all ship modules."
     },
     {
       "class": 3,
@@ -376,7 +428,9 @@
       "mass": 2,
       "pgen": 9,
       "rating": "D",
-      "symbol": "Int_Powerplant_Size3_Class2"
+      "symbol": "Int_Powerplant_Size3_Class2",
+      "ukName": "Power Plant",
+      "ukDiscript": "Consumes fuel to power all ship modules."
     },
     {
       "class": 3,
@@ -390,7 +444,9 @@
       "mass": 2.5,
       "pgen": 10,
       "rating": "C",
-      "symbol": "Int_Powerplant_Size3_Class3"
+      "symbol": "Int_Powerplant_Size3_Class3",
+      "ukName": "Power Plant",
+      "ukDiscript": "Consumes fuel to power all ship modules."
     },
     {
       "class": 3,
@@ -404,7 +460,9 @@
       "mass": 4,
       "pgen": 11,
       "rating": "B",
-      "symbol": "Int_Powerplant_Size3_Class4"
+      "symbol": "Int_Powerplant_Size3_Class4",
+      "ukName": "Power Plant",
+      "ukDiscript": "Consumes fuel to power all ship modules."
     },
     {
       "class": 3,
@@ -418,7 +476,9 @@
       "mass": 2.5,
       "pgen": 12,
       "rating": "A",
-      "symbol": "Int_Powerplant_Size3_Class5"
+      "symbol": "Int_Powerplant_Size3_Class5",
+      "ukName": "Power Plant",
+      "ukDiscript": "Consumes fuel to power all ship modules."
     },
     {
       "class": 2,
@@ -432,7 +492,9 @@
       "mass": 2.5,
       "pgen": 6.4,
       "rating": "E",
-      "symbol": "Int_Powerplant_Size2_Class1"
+      "symbol": "Int_Powerplant_Size2_Class1",
+      "ukName": "Power Plant",
+      "ukDiscript": "Consumes fuel to power all ship modules."
     },
     {
       "class": 2,
@@ -446,7 +508,9 @@
       "mass": 1,
       "pgen": 7.2,
       "rating": "D",
-      "symbol": "Int_Powerplant_Size2_Class2"
+      "symbol": "Int_Powerplant_Size2_Class2",
+      "ukName": "Power Plant",
+      "ukDiscript": "Consumes fuel to power all ship modules."
     },
     {
       "class": 2,
@@ -460,7 +524,9 @@
       "mass": 1.3,
       "pgen": 8,
       "rating": "C",
-      "symbol": "Int_Powerplant_Size2_Class3"
+      "symbol": "Int_Powerplant_Size2_Class3",
+      "ukName": "Power Plant",
+      "ukDiscript": "Consumes fuel to power all ship modules."
     },
     {
       "class": 2,
@@ -474,7 +540,9 @@
       "mass": 2,
       "pgen": 8.8,
       "rating": "B",
-      "symbol": "Int_Powerplant_Size2_Class4"
+      "symbol": "Int_Powerplant_Size2_Class4",
+      "ukName": "Power Plant",
+      "ukDiscript": "Consumes fuel to power all ship modules."
     },
     {
       "class": 2,
@@ -488,7 +556,9 @@
       "mass": 1.3,
       "pgen": 9.6,
       "rating": "A",
-      "symbol": "Int_Powerplant_Size2_Class5"
+      "symbol": "Int_Powerplant_Size2_Class5",
+      "ukName": "Power Plant",
+      "ukDiscript": "Consumes fuel to power all ship modules."
     },
     {
       "class": 2,
@@ -503,7 +573,9 @@
       "pgen": 12.7,
       "rating": "A",
       "name": "Guardian Hybrid Power Plant",
-      "symbol": "Int_GuardianPowerplant_Size2"
+      "symbol": "Int_GuardianPowerplant_Size2",
+      "ukName": "Guardian Power Plant",
+      "ukDiscript": "Consumes fuel to power all ship modules. Enhanced with Guardian technology to produce greater power output, at the cost of heat generated and mass."
     },
     {
       "class": 3,
@@ -518,7 +590,9 @@
       "pgen": 15.8,
       "rating": "A",
       "name": "Guardian Hybrid Power Plant",
-      "symbol": "Int_GuardianPowerplant_Size3"
+      "symbol": "Int_GuardianPowerplant_Size3",
+      "ukName": "Guardian Power Plant",
+      "ukDiscript": "Consumes fuel to power all ship modules. Enhanced with Guardian technology to produce greater power output, at the cost of heat generated and mass."
     },
     {
       "class": 4,
@@ -533,7 +607,9 @@
       "pgen": 20.6,
       "rating": "A",
       "name": "Guardian Hybrid Power Plant",
-      "symbol": "Int_GuardianPowerplant_Size4"
+      "symbol": "Int_GuardianPowerplant_Size4",
+      "ukName": "Guardian Power Plant",
+      "ukDiscript": "Consumes fuel to power all ship modules. Enhanced with Guardian technology to produce greater power output, at the cost of heat generated and mass."
     },
     {
       "class": 5,
@@ -548,7 +624,9 @@
       "pgen": 26.9,
       "rating": "A",
       "name": "Guardian Hybrid Power Plant",
-      "symbol": "Int_GuardianPowerplant_Size5"
+      "symbol": "Int_GuardianPowerplant_Size5",
+      "ukName": "Guardian Power Plant",
+      "ukDiscript": "Consumes fuel to power all ship modules. Enhanced with Guardian technology to produce greater power output, at the cost of heat generated and mass."
     },
     {
       "class": 6,
@@ -563,7 +641,9 @@
       "pgen": 33.3,
       "rating": "A",
       "name": "Guardian Hybrid Power Plant",
-      "symbol": "Int_GuardianPowerplant_Size6"
+      "symbol": "Int_GuardianPowerplant_Size6",
+      "ukName": "Guardian Power Plant",
+      "ukDiscript": "Consumes fuel to power all ship modules. Enhanced with Guardian technology to produce greater power output, at the cost of heat generated and mass."
     },
     {
       "class": 7,
@@ -578,7 +658,9 @@
       "pgen": 39.6,
       "rating": "A",
       "name": "Guardian Hybrid Power Plant",
-      "symbol": "Int_GuardianPowerplant_Size7"
+      "symbol": "Int_GuardianPowerplant_Size7",
+      "ukName": "Guardian Power Plant",
+      "ukDiscript": "Consumes fuel to power all ship modules. Enhanced with Guardian technology to produce greater power output, at the cost of heat generated and mass."
     },
     {
       "class": 8,
@@ -593,7 +675,9 @@
       "pgen": 47.5,
       "rating": "A",
       "name": "Guardian Hybrid Power Plant",
-      "symbol": "Int_GuardianPowerplant_Size8"
+      "symbol": "Int_GuardianPowerplant_Size8",
+      "ukName": "Guardian Power Plant",
+      "ukDiscript": "Consumes fuel to power all ship modules. Enhanced with Guardian technology to produce greater power output, at the cost of heat generated and mass."
     }
   ]
 }

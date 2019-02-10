@@ -14,7 +14,9 @@
       "power": 0.25,
       "rating": "D",
       "rebuildsperbay": 6,
-      "symbol": "Int_FighterBay_Size5_Class1"
+      "symbol": "Int_FighterBay_Size5_Class1",
+      "ukName": "Fighter Hangar",
+      "ukDiscript": "A module designed to house ship launched vehicles."
     },
     {
       "bays": 2,
@@ -30,7 +32,9 @@
       "power": 0.35,
       "rating": "D",
       "rebuildsperbay": 8,
-      "symbol": "Int_FighterBay_Size6_Class1"
+      "symbol": "Int_FighterBay_Size6_Class1",
+      "ukName": "Fighter Hangar",
+      "ukDiscript": "A module designed to house ship launched vehicles."
     },
     {
       "bays": 2,
@@ -46,7 +50,9 @@
       "power": 0.35,
       "rating": "D",
       "rebuildsperbay": 15,
-      "symbol": "Int_FighterBay_Size7_Class1"
+      "symbol": "Int_FighterBay_Size7_Class1",
+      "ukName": "Fighter Hangar",
+      "ukDiscript": "A module designed to house ship launched vehicles."
     }
   ]
 }

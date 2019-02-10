@@ -14,7 +14,9 @@
       "rating": "E",
       "integrity": 24,
       "hacktime": 22,
-      "symbol": "Int_DroneControl_Recon_Size1_Class1"
+      "symbol": "Int_DroneControl_Recon_Size1_Class1",
+      "ukName": "Recon",
+      "ukDiscript": "Controls a limpet that can hack into data points."
     },
     {
       "class": 3,
@@ -30,7 +32,9 @@
       "rating": "E",
       "integrity": 51,
       "hacktime": 17,
-      "symbol": "Int_DroneControl_Recon_Size3_Class1"
+      "symbol": "Int_DroneControl_Recon_Size3_Class1",
+      "ukName": "Recon",
+      "ukDiscript": "Controls a limpet that can hack into data points."
     },
     {
       "class": 5,
@@ -46,7 +50,9 @@
       "rating": "E",
       "integrity": 96,
       "hacktime": 13,
-      "symbol": "Int_DroneControl_Recon_Size5_Class1"
+      "symbol": "Int_DroneControl_Recon_Size5_Class1",
+      "ukName": "Recon",
+      "ukDiscript": "Controls a limpet that can hack into data points."
     },
     {
       "class": 7,
@@ -62,7 +68,9 @@
       "rating": "E",
       "integrity": 157,
       "hacktime": 10,
-      "symbol": "Int_DroneControl_Recon_Size7_Class1"
+      "symbol": "Int_DroneControl_Recon_Size7_Class1",
+      "ukName": "Recon",
+      "ukDiscript": "Controls a limpet that can hack into data points."
     }
   ]
 }

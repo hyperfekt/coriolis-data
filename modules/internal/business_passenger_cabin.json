@@ -10,7 +10,9 @@
       "mass": 5,
       "passengers": 3,
       "rating": "D",
-      "symbol": "Int_PassengerCabin_Size3_Class2"
+      "symbol": "Int_PassengerCabin_Size3_Class2",
+      "ukName": "BC Passenger Cabin",
+      "ukDiscript": "Business Class Passenger Cabin."
     },
     {
       "class": 4,
@@ -22,7 +24,9 @@
       "mass": 10,
       "passengers": 6,
       "rating": "D",
-      "symbol": "Int_PassengerCabin_Size4_Class2"
+      "symbol": "Int_PassengerCabin_Size4_Class2",
+      "ukName": "BC Passenger Cabin",
+      "ukDiscript": "Business Class Passenger Cabin."
     },
     {
       "class": 5,
@@ -34,7 +38,9 @@
       "mass": 20,
       "passengers": 10,
       "rating": "D",
-      "symbol": "Int_PassengerCabin_Size5_Class2"
+      "symbol": "Int_PassengerCabin_Size5_Class2",
+      "ukName": "BC Passenger Cabin",
+      "ukDiscript": "Business Class Passenger Cabin."
     },
     {
       "class": 6,
@@ -46,7 +52,9 @@
       "mass": 40,
       "passengers": 16,
       "rating": "D",
-      "symbol": "Int_PassengerCabin_Size6_Class2"
+      "symbol": "Int_PassengerCabin_Size6_Class2",
+      "ukName": "BC Passenger Cabin",
+      "ukDiscript": "Business Class Passenger Cabin."
     }
   ]
 }

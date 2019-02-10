@@ -10,7 +10,9 @@
       "mass": 2.5,
       "passengers": 2,
       "rating": "E",
-      "symbol": "Int_PassengerCabin_Size2_Class1"
+      "symbol": "Int_PassengerCabin_Size2_Class1",
+      "ukName": "EC Passenger Cabin",
+      "ukDiscript": "Economy Class Passenger Cabin."
     },
     {
       "class": 3,
@@ -22,7 +24,9 @@
       "mass": 5,
       "passengers": 4,
       "rating": "E",
-      "symbol": "Int_PassengerCabin_Size3_Class1"
+      "symbol": "Int_PassengerCabin_Size3_Class1",
+      "ukName": "EC Passenger Cabin",
+      "ukDiscript": "Economy Class Passenger Cabin."
     },
     {
       "class": 4,
@@ -34,7 +38,9 @@
       "mass": 10,
       "passengers": 8,
       "rating": "E",
-      "symbol": "Int_PassengerCabin_Size4_Class1"
+      "symbol": "Int_PassengerCabin_Size4_Class1",
+      "ukName": "EC Passenger Cabin",
+      "ukDiscript": "Economy Class Passenger Cabin."
     },
     {
       "class": 5,
@@ -46,7 +52,9 @@
       "mass": 20,
       "passengers": 16,
       "rating": "E",
-      "symbol": "Int_PassengerCabin_Size5_Class1"
+      "symbol": "Int_PassengerCabin_Size5_Class1",
+      "ukName": "EC Passenger Cabin",
+      "ukDiscript": "Economy Class Passenger Cabin."
     },
     {
       "class": 6,
@@ -58,7 +66,9 @@
       "mass": 40,
       "passengers": 32,
       "rating": "E",
-      "symbol": "Int_PassengerCabin_Size6_Class1"
+      "symbol": "Int_PassengerCabin_Size6_Class1",
+      "ukName": "EC Passenger Cabin",
+      "ukDiscript": "Economy Class Passenger Cabin."
     }
   ]
 }

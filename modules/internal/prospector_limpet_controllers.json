@@ -12,7 +12,9 @@
       "power": 0.18,
       "range": 3,
       "rating": "E",
-      "symbol": "Int_DroneControl_Prospector_Size1_Class1"
+      "symbol": "Int_DroneControl_Prospector_Size1_Class1",
+      "ukName": "Prospector",
+      "ukDiscript": "Controls a limpet to prospect an asteroid to discover its composition."
     },
     {
       "class": 1,
@@ -26,7 +28,9 @@
       "power": 0.14,
       "range": 4,
       "rating": "D",
-      "symbol": "Int_DroneControl_Prospector_Size1_Class2"
+      "symbol": "Int_DroneControl_Prospector_Size1_Class2",
+      "ukName": "Prospector",
+      "ukDiscript": "Controls a limpet to prospect an asteroid to discover its composition."
     },
     {
       "class": 1,
@@ -40,7 +44,9 @@
       "power": 0.23,
       "range": 5,
       "rating": "C",
-      "symbol": "Int_DroneControl_Prospector_Size1_Class3"
+      "symbol": "Int_DroneControl_Prospector_Size1_Class3",
+      "ukName": "Prospector",
+      "ukDiscript": "Controls a limpet to prospect an asteroid to discover its composition."
     },
     {
       "class": 1,
@@ -54,7 +60,9 @@
       "power": 0.32,
       "range": 6,
       "rating": "B",
-      "symbol": "Int_DroneControl_Prospector_Size1_Class4"
+      "symbol": "Int_DroneControl_Prospector_Size1_Class4",
+      "ukName": "Prospector",
+      "ukDiscript": "Controls a limpet to prospect an asteroid to discover its composition."
     },
     {
       "class": 1,
@@ -68,7 +76,9 @@
       "power": 0.28,
       "range": 7,
       "rating": "A",
-      "symbol": "Int_DroneControl_Prospector_Size1_Class5"
+      "symbol": "Int_DroneControl_Prospector_Size1_Class5",
+      "ukName": "Prospector",
+      "ukDiscript": "Controls a limpet to prospect an asteroid to discover its composition."
     },
     {
       "class": 3,
@@ -82,7 +92,9 @@
       "power": 0.27,
       "range": 3.3,
       "rating": "E",
-      "symbol": "Int_DroneControl_Prospector_Size3_Class1"
+      "symbol": "Int_DroneControl_Prospector_Size3_Class1",
+      "ukName": "Prospector",
+      "ukDiscript": "Controls a limpet to prospect an asteroid to discover its composition."
     },
     {
       "class": 3,
@@ -96,7 +108,9 @@
       "power": 0.2,
       "range": 4.4,
       "rating": "D",
-      "symbol": "Int_DroneControl_Prospector_Size3_Class2"
+      "symbol": "Int_DroneControl_Prospector_Size3_Class2",
+      "ukName": "Prospector",
+      "ukDiscript": "Controls a limpet to prospect an asteroid to discover its composition."
     },
     {
       "class": 3,
@@ -110,7 +124,9 @@
       "power": 0.34,
       "range": 5.5,
       "rating": "C",
-      "symbol": "Int_DroneControl_Prospector_Size3_Class3"
+      "symbol": "Int_DroneControl_Prospector_Size3_Class3",
+      "ukName": "Prospector",
+      "ukDiscript": "Controls a limpet to prospect an asteroid to discover its composition."
     },
     {
       "class": 3,
@@ -124,7 +140,9 @@
       "power": 0.48,
       "range": 6.6,
       "rating": "B",
-      "symbol": "Int_DroneControl_Prospector_Size3_Class4"
+      "symbol": "Int_DroneControl_Prospector_Size3_Class4",
+      "ukName": "Prospector",
+      "ukDiscript": "Controls a limpet to prospect an asteroid to discover its composition."
     },
     {
       "class": 3,
@@ -138,7 +156,9 @@
       "power": 0.41,
       "range": 7.7,
       "rating": "A",
-      "symbol": "Int_DroneControl_Prospector_Size3_Class5"
+      "symbol": "Int_DroneControl_Prospector_Size3_Class5",
+      "ukName": "Prospector",
+      "ukDiscript": "Controls a limpet to prospect an asteroid to discover its composition."
     },
     {
       "class": 5,
@@ -152,7 +172,9 @@
       "power": 0.4,
       "range": 3.9,
       "rating": "E",
-      "symbol": "Int_DroneControl_Prospector_Size5_Class1"
+      "symbol": "Int_DroneControl_Prospector_Size5_Class1",
+      "ukName": "Prospector",
+      "ukDiscript": "Controls a limpet to prospect an asteroid to discover its composition."
     },
     {
       "class": 5,
@@ -166,7 +188,9 @@
       "power": 0.3,
       "range": 5.2,
       "rating": "D",
-      "symbol": "Int_DroneControl_Prospector_Size5_Class2"
+      "symbol": "Int_DroneControl_Prospector_Size5_Class2",
+      "ukName": "Prospector",
+      "ukDiscript": "Controls a limpet to prospect an asteroid to discover its composition."
     },
     {
       "class": 5,
@@ -180,7 +204,9 @@
       "power": 0.5,
       "range": 6.5,
       "rating": "C",
-      "symbol": "Int_DroneControl_Prospector_Size5_Class3"
+      "symbol": "Int_DroneControl_Prospector_Size5_Class3",
+      "ukName": "Prospector",
+      "ukDiscript": "Controls a limpet to prospect an asteroid to discover its composition."
     },
     {
       "class": 5,
@@ -194,7 +220,9 @@
       "power": 0.97,
       "range": 7.8,
       "rating": "B",
-      "symbol": "Int_DroneControl_Prospector_Size5_Class4"
+      "symbol": "Int_DroneControl_Prospector_Size5_Class4",
+      "ukName": "Prospector",
+      "ukDiscript": "Controls a limpet to prospect an asteroid to discover its composition."
     },
     {
       "class": 5,
@@ -208,7 +236,9 @@
       "power": 0.6,
       "range": 9.1,
       "rating": "A",
-      "symbol": "Int_DroneControl_Prospector_Size5_Class5"
+      "symbol": "Int_DroneControl_Prospector_Size5_Class5",
+      "ukName": "Prospector",
+      "ukDiscript": "Controls a limpet to prospect an asteroid to discover its composition."
     },
     {
       "class": 7,
@@ -222,7 +252,9 @@
       "power": 0.55,
       "range": 5.1,
       "rating": "E",
-      "symbol": "Int_DroneControl_Prospector_Size7_Class1"
+      "symbol": "Int_DroneControl_Prospector_Size7_Class1",
+      "ukName": "Prospector",
+      "ukDiscript": "Controls a limpet to prospect an asteroid to discover its composition."
     },
     {
       "class": 7,
@@ -236,7 +268,9 @@
       "power": 0.41,
       "range": 6.8,
       "rating": "D",
-      "symbol": "Int_DroneControl_Prospector_Size7_Class2"
+      "symbol": "Int_DroneControl_Prospector_Size7_Class2",
+      "ukName": "Prospector",
+      "ukDiscript": "Controls a limpet to prospect an asteroid to discover its composition."
     },
     {
       "class": 7,
@@ -250,7 +284,9 @@
       "power": 0.69,
       "range": 8.5,
       "rating": "C",
-      "symbol": "Int_DroneControl_Prospector_Size7_Class3"
+      "symbol": "Int_DroneControl_Prospector_Size7_Class3",
+      "ukName": "Prospector",
+      "ukDiscript": "Controls a limpet to prospect an asteroid to discover its composition."
     },
     {
       "class": 7,
@@ -264,7 +300,9 @@
       "power": 0.97,
       "range": 10.2,
       "rating": "B",
-      "symbol": "Int_DroneControl_Prospector_Size7_Class4"
+      "symbol": "Int_DroneControl_Prospector_Size7_Class4",
+      "ukName": "Prospector",
+      "ukDiscript": "Controls a limpet to prospect an asteroid to discover its composition."
     },
     {
       "class": 7,
@@ -278,7 +316,9 @@
       "power": 0.83,
       "range": 11.9,
       "rating": "A",
-      "symbol": "Int_DroneControl_Prospector_Size7_Class5"
+      "symbol": "Int_DroneControl_Prospector_Size7_Class5",
+      "ukName": "Prospector",
+      "ukDiscript": "Controls a limpet to prospect an asteroid to discover its composition."
     }
   ]
 }

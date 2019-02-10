@@ -20,7 +20,9 @@
       "rechargerating": "E",
       "spinup": 5,
       "thermload": 170,
-      "symbol": "Int_ShieldCellBank_Size1_Class1"
+      "symbol": "Int_ShieldCellBank_Size1_Class1",
+      "ukName": "Shield Cell Bank",
+      "ukDiscript": "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
     },
     {
       "ammo": 0,
@@ -42,7 +44,9 @@
       "rechargerating": "D",
       "spinup": 5,
       "thermload": 170,
-      "symbol": "Int_ShieldCellBank_Size1_Class2"
+      "symbol": "Int_ShieldCellBank_Size1_Class2",
+      "ukName": "Shield Cell Bank",
+      "ukDiscript": "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
     },
     {
       "ammo": 2,
@@ -64,7 +68,9 @@
       "rechargerating": "C",
       "spinup": 5,
       "thermload": 170,
-      "symbol": "Int_ShieldCellBank_Size1_Class3"
+      "symbol": "Int_ShieldCellBank_Size1_Class3",
+      "ukName": "Shield Cell Bank",
+      "ukDiscript": "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
     },
     {
       "ammo": 3,
@@ -86,7 +92,9 @@
       "rechargerating": "B",
       "spinup": 5,
       "thermload": 170,
-      "symbol": "Int_ShieldCellBank_Size1_Class4"
+      "symbol": "Int_ShieldCellBank_Size1_Class4",
+      "ukName": "Shield Cell Bank",
+      "ukDiscript": "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
     },
     {
       "ammo": 2,
@@ -108,7 +116,9 @@
       "rechargerating": "A",
       "spinup": 5,
       "thermload": 170,
-      "symbol": "Int_ShieldCellBank_Size1_Class5"
+      "symbol": "Int_ShieldCellBank_Size1_Class5",
+      "ukName": "Shield Cell Bank",
+      "ukDiscript": "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
     },
     {
       "ammo": 4,
@@ -130,7 +140,9 @@
       "rechargerating": "E",
       "spinup": 5,
       "thermload": 240,
-      "symbol": "Int_ShieldCellBank_Size2_Class1"
+      "symbol": "Int_ShieldCellBank_Size2_Class1",
+      "ukName": "Shield Cell Bank",
+      "ukDiscript": "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
     },
     {
       "ammo": 2,
@@ -152,7 +164,9 @@
       "rechargerating": "D",
       "spinup": 5,
       "thermload": 240,
-      "symbol": "Int_ShieldCellBank_Size2_Class2"
+      "symbol": "Int_ShieldCellBank_Size2_Class2",
+      "ukName": "Shield Cell Bank",
+      "ukDiscript": "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
     },
     {
       "ammo": 3,
@@ -174,7 +188,9 @@
       "rechargerating": "C",
       "spinup": 5,
       "thermload": 240,
-      "symbol": "Int_ShieldCellBank_Size2_Class3"
+      "symbol": "Int_ShieldCellBank_Size2_Class3",
+      "ukName": "Shield Cell Bank",
+      "ukDiscript": "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
     },
     {
       "ammo": 4,
@@ -196,7 +212,9 @@
       "rechargerating": "B",
       "spinup": 5,
       "thermload": 240,
-      "symbol": "Int_ShieldCellBank_Size2_Class4"
+      "symbol": "Int_ShieldCellBank_Size2_Class4",
+      "ukName": "Shield Cell Bank",
+      "ukDiscript": "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
     },
     {
       "ammo": 3,
@@ -218,7 +236,9 @@
       "rechargerating": "A",
       "spinup": 5,
       "thermload": 240,
-      "symbol": "Int_ShieldCellBank_Size2_Class5"
+      "symbol": "Int_ShieldCellBank_Size2_Class5",
+      "ukName": "Shield Cell Bank",
+      "ukDiscript": "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
     },
     {
       "ammo": 4,
@@ -240,7 +260,9 @@
       "rechargerating": "E",
       "spinup": 5,
       "thermload": 340,
-      "symbol": "Int_ShieldCellBank_Size3_Class1"
+      "symbol": "Int_ShieldCellBank_Size3_Class1",
+      "ukName": "Shield Cell Bank",
+      "ukDiscript": "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
     },
     {
       "ammo": 2,
@@ -262,7 +284,9 @@
       "rechargerating": "D",
       "spinup": 5,
       "thermload": 340,
-      "symbol": "Int_ShieldCellBank_Size3_Class2"
+      "symbol": "Int_ShieldCellBank_Size3_Class2",
+      "ukName": "Shield Cell Bank",
+      "ukDiscript": "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
     },
     {
       "ammo": 3,
@@ -284,7 +308,9 @@
       "rechargerating": "C",
       "spinup": 5,
       "thermload": 340,
-      "symbol": "Int_ShieldCellBank_Size3_Class3"
+      "symbol": "Int_ShieldCellBank_Size3_Class3",
+      "ukName": "Shield Cell Bank",
+      "ukDiscript": "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
     },
     {
       "ammo": 4,
@@ -306,7 +332,9 @@
       "rechargerating": "B",
       "spinup": 5,
       "thermload": 340,
-      "symbol": "Int_ShieldCellBank_Size3_Class4"
+      "symbol": "Int_ShieldCellBank_Size3_Class4",
+      "ukName": "Shield Cell Bank",
+      "ukDiscript": "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
     },
     {
       "ammo": 3,
@@ -328,7 +356,9 @@
       "rechargerating": "A",
       "spinup": 5,
       "thermload": 340,
-      "symbol": "Int_ShieldCellBank_Size3_Class5"
+      "symbol": "Int_ShieldCellBank_Size3_Class5",
+      "ukName": "Shield Cell Bank",
+      "ukDiscript": "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
     },
     {
       "ammo": 4,
@@ -350,7 +380,9 @@
       "rechargerating": "E",
       "spinup": 5,
       "thermload": 410,
-      "symbol": "Int_ShieldCellBank_Size4_Class1"
+      "symbol": "Int_ShieldCellBank_Size4_Class1",
+      "ukName": "Shield Cell Bank",
+      "ukDiscript": "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
     },
     {
       "ammo": 2,
@@ -372,7 +404,9 @@
       "rechargerating": "D",
       "spinup": 5,
       "thermload": 410,
-      "symbol": "Int_ShieldCellBank_Size4_Class2"
+      "symbol": "Int_ShieldCellBank_Size4_Class2",
+      "ukName": "Shield Cell Bank",
+      "ukDiscript": "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
     },
     {
       "ammo": 3,
@@ -394,7 +428,9 @@
       "rechargerating": "C",
       "spinup": 5,
       "thermload": 410,
-      "symbol": "Int_ShieldCellBank_Size4_Class3"
+      "symbol": "Int_ShieldCellBank_Size4_Class3",
+      "ukName": "Shield Cell Bank",
+      "ukDiscript": "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
     },
     {
       "ammo": 4,
@@ -416,7 +452,9 @@
       "rechargerating": "B",
       "spinup": 5,
       "thermload": 410,
-      "symbol": "Int_ShieldCellBank_Size4_Class4"
+      "symbol": "Int_ShieldCellBank_Size4_Class4",
+      "ukName": "Shield Cell Bank",
+      "ukDiscript": "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
     },
     {
       "ammo": 3,
@@ -438,7 +476,9 @@
       "rechargerating": "A",
       "spinup": 5,
       "thermload": 410,
-      "symbol": "Int_ShieldCellBank_Size4_Class5"
+      "symbol": "Int_ShieldCellBank_Size4_Class5",
+      "ukName": "Shield Cell Bank",
+      "ukDiscript": "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
     },
     {
       "ammo": 4,
@@ -460,7 +500,9 @@
       "rechargerating": "E",
       "spinup": 5,
       "thermload": 540,
-      "symbol": "Int_ShieldCellBank_Size5_Class1"
+      "symbol": "Int_ShieldCellBank_Size5_Class1",
+      "ukName": "Shield Cell Bank",
+      "ukDiscript": "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
     },
     {
       "ammo": 2,
@@ -482,7 +524,9 @@
       "rechargerating": "D",
       "spinup": 5,
       "thermload": 540,
-      "symbol": "Int_ShieldCellBank_Size5_Class2"
+      "symbol": "Int_ShieldCellBank_Size5_Class2",
+      "ukName": "Shield Cell Bank",
+      "ukDiscript": "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
     },
     {
       "ammo": 3,
@@ -504,7 +548,9 @@
       "rechargerating": "C",
       "spinup": 5,
       "thermload": 540,
-      "symbol": "Int_ShieldCellBank_Size5_Class3"
+      "symbol": "Int_ShieldCellBank_Size5_Class3",
+      "ukName": "Shield Cell Bank",
+      "ukDiscript": "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
     },
     {
       "ammo": 4,
@@ -526,7 +572,9 @@
       "rechargerating": "B",
       "spinup": 5,
       "thermload": 540,
-      "symbol": "Int_ShieldCellBank_Size5_Class4"
+      "symbol": "Int_ShieldCellBank_Size5_Class4",
+      "ukName": "Shield Cell Bank",
+      "ukDiscript": "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
     },
     {
       "ammo": 3,
@@ -548,7 +596,9 @@
       "rechargerating": "A",
       "spinup": 5,
       "thermload": 540,
-      "symbol": "Int_ShieldCellBank_Size5_Class5"
+      "symbol": "Int_ShieldCellBank_Size5_Class5",
+      "ukName": "Shield Cell Bank",
+      "ukDiscript": "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
     },
     {
       "ammo": 5,
@@ -570,7 +620,9 @@
       "rechargerating": "E",
       "spinup": 5,
       "thermload": 640,
-      "symbol": "Int_ShieldCellBank_Size6_Class1"
+      "symbol": "Int_ShieldCellBank_Size6_Class1",
+      "ukName": "Shield Cell Bank",
+      "ukDiscript": "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
     },
     {
       "ammo": 3,
@@ -592,7 +644,9 @@
       "rechargerating": "D",
       "spinup": 5,
       "thermload": 640,
-      "symbol": "Int_ShieldCellBank_Size6_Class2"
+      "symbol": "Int_ShieldCellBank_Size6_Class2",
+      "ukName": "Shield Cell Bank",
+      "ukDiscript": "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
     },
     {
       "ammo": 4,
@@ -614,7 +668,9 @@
       "rechargerating": "C",
       "spinup": 5,
       "thermload": 640,
-      "symbol": "Int_ShieldCellBank_Size6_Class3"
+      "symbol": "Int_ShieldCellBank_Size6_Class3",
+      "ukName": "Shield Cell Bank",
+      "ukDiscript": "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
     },
     {
       "ammo": 5,
@@ -636,7 +692,9 @@
       "rechargerating": "B",
       "spinup": 5,
       "thermload": 640,
-      "symbol": "Int_ShieldCellBank_Size6_Class4"
+      "symbol": "Int_ShieldCellBank_Size6_Class4",
+      "ukName": "Shield Cell Bank",
+      "ukDiscript": "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
     },
     {
       "ammo": 4,
@@ -658,7 +716,9 @@
       "rechargerating": "A",
       "spinup": 5,
       "thermload": 640,
-      "symbol": "Int_ShieldCellBank_Size6_Class5"
+      "symbol": "Int_ShieldCellBank_Size6_Class5",
+      "ukName": "Shield Cell Bank",
+      "ukDiscript": "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
     },
     {
       "ammo": 5,
@@ -680,7 +740,9 @@
       "rechargerating": "E",
       "spinup": 5,
       "thermload": 720,
-      "symbol": "Int_ShieldCellBank_Size7_Class1"
+      "symbol": "Int_ShieldCellBank_Size7_Class1",
+      "ukName": "Shield Cell Bank",
+      "ukDiscript": "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
     },
     {
       "ammo": 3,
@@ -702,7 +764,9 @@
       "rechargerating": "D",
       "spinup": 5,
       "thermload": 720,
-      "symbol": "Int_ShieldCellBank_Size7_Class2"
+      "symbol": "Int_ShieldCellBank_Size7_Class2",
+      "ukName": "Shield Cell Bank",
+      "ukDiscript": "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
     },
     {
       "ammo": 4,
@@ -724,7 +788,9 @@
       "rechargerating": "C",
       "spinup": 5,
       "thermload": 720,
-      "symbol": "Int_ShieldCellBank_Size7_Class3"
+      "symbol": "Int_ShieldCellBank_Size7_Class3",
+      "ukName": "Shield Cell Bank",
+      "ukDiscript": "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
     },
     {
       "ammo": 5,
@@ -746,7 +812,9 @@
       "rechargerating": "B",
       "spinup": 5,
       "thermload": 720,
-      "symbol": "Int_ShieldCellBank_Size7_Class4"
+      "symbol": "Int_ShieldCellBank_Size7_Class4",
+      "ukName": "Shield Cell Bank",
+      "ukDiscript": "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
     },
     {
       "ammo": 4,
@@ -768,7 +836,9 @@
       "rechargerating": "A",
       "spinup": 5,
       "thermload": 720,
-      "symbol": "Int_ShieldCellBank_Size7_Class5"
+      "symbol": "Int_ShieldCellBank_Size7_Class5",
+      "ukName": "Shield Cell Bank",
+      "ukDiscript": "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
     },
     {
       "ammo": 5,
@@ -790,7 +860,9 @@
       "rechargerating": "C",
       "spinup": 5,
       "thermload": 800,
-      "symbol": "Int_ShieldCellBank_Size8_Class1"
+      "symbol": "Int_ShieldCellBank_Size8_Class1",
+      "ukName": "Shield Cell Bank",
+      "ukDiscript": "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
     },
     {
       "ammo": 3,
@@ -812,7 +884,9 @@
       "rechargerating": "D",
       "spinup": 5,
       "thermload": 800,
-      "symbol": "Int_ShieldCellBank_Size8_Class2"
+      "symbol": "Int_ShieldCellBank_Size8_Class2",
+      "ukName": "Shield Cell Bank",
+      "ukDiscript": "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
     },
     {
       "ammo": 4,
@@ -834,7 +908,9 @@
       "rechargerating": "C",
       "spinup": 5,
       "thermload": 800,
-      "symbol": "Int_ShieldCellBank_Size8_Class3"
+      "symbol": "Int_ShieldCellBank_Size8_Class3",
+      "ukName": "Shield Cell Bank",
+      "ukDiscript": "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
     },
     {
       "ammo": 5,
@@ -856,7 +932,9 @@
       "rechargerating": "B",
       "spinup": 5,
       "thermload": 800,
-      "symbol": "Int_ShieldCellBank_Size8_Class4"
+      "symbol": "Int_ShieldCellBank_Size8_Class4",
+      "ukName": "Shield Cell Bank",
+      "ukDiscript": "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
     },
     {
       "ammo": 4,
@@ -878,7 +956,9 @@
       "rechargerating": "A",
       "spinup": 5,
       "thermload": 800,
-      "symbol": "Int_ShieldCellBank_Size8_Class5"
+      "symbol": "Int_ShieldCellBank_Size8_Class5",
+      "ukName": "Shield Cell Bank",
+      "ukDiscript": "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
     }
   ]
 }

@@ -17,7 +17,9 @@
       "optmul": 1,
       "power": 7.2,
       "rating": "E",
-      "symbol": "Int_Engine_Size8_Class1"
+      "symbol": "Int_Engine_Size8_Class1",
+      "ukName": "Thrusters",
+      "ukDiscript": "Normal-space propulsion system. "
     },
     {
       "class": 8,
@@ -36,7 +38,9 @@
       "optmul": 1,
       "power": 8.1,
       "rating": "D",
-      "symbol": "Int_Engine_Size8_Class2"
+      "symbol": "Int_Engine_Size8_Class2",
+      "ukName": "Thrusters",
+      "ukDiscript": "Normal-space propulsion system. "
     },
     {
       "class": 8,
@@ -55,7 +59,9 @@
       "optmul": 1,
       "power": 9,
       "rating": "C",
-      "symbol": "Int_Engine_Size8_Class3"
+      "symbol": "Int_Engine_Size8_Class3",
+      "ukName": "Thrusters",
+      "ukDiscript": "Normal-space propulsion system. "
     },
     {
       "class": 8,
@@ -74,7 +80,9 @@
       "optmul": 1,
       "power": 9.9,
       "rating": "B",
-      "symbol": "Int_Engine_Size8_Class4"
+      "symbol": "Int_Engine_Size8_Class4",
+      "ukName": "Thrusters",
+      "ukDiscript": "Normal-space propulsion system. "
     },
     {
       "class": 8,
@@ -93,7 +101,9 @@
       "optmul": 1,
       "power": 10.8,
       "rating": "A",
-      "symbol": "Int_Engine_Size8_Class5"
+      "symbol": "Int_Engine_Size8_Class5",
+      "ukName": "Thrusters",
+      "ukDiscript": "Normal-space propulsion system. "
     },
     {
       "class": 7,
@@ -112,7 +122,9 @@
       "optmul": 1,
       "power": 6.08,
       "rating": "E",
-      "symbol": "Int_Engine_Size7_Class1"
+      "symbol": "Int_Engine_Size7_Class1",
+      "ukName": "Thrusters",
+      "ukDiscript": "Normal-space propulsion system. "
     },
     {
       "class": 7,
@@ -131,7 +143,9 @@
       "optmul": 1,
       "power": 6.84,
       "rating": "D",
-      "symbol": "Int_Engine_Size7_Class2"
+      "symbol": "Int_Engine_Size7_Class2",
+      "ukName": "Thrusters",
+      "ukDiscript": "Normal-space propulsion system. "
     },
     {
       "class": 7,
@@ -150,7 +164,9 @@
       "optmul": 1,
       "power": 7.6,
       "rating": "C",
-      "symbol": "Int_Engine_Size7_Class3"
+      "symbol": "Int_Engine_Size7_Class3",
+      "ukName": "Thrusters",
+      "ukDiscript": "Normal-space propulsion system. "
     },
     {
       "class": 7,
@@ -169,7 +185,9 @@
       "optmul": 1,
       "power": 8.36,
       "rating": "B",
-      "symbol": "Int_Engine_Size7_Class4"
+      "symbol": "Int_Engine_Size7_Class4",
+      "ukName": "Thrusters",
+      "ukDiscript": "Normal-space propulsion system. "
     },
     {
       "class": 7,
@@ -188,7 +206,9 @@
       "optmul": 1,
       "power": 9.12,
       "rating": "A",
-      "symbol": "Int_Engine_Size7_Class5"
+      "symbol": "Int_Engine_Size7_Class5",
+      "ukName": "Thrusters",
+      "ukDiscript": "Normal-space propulsion system. "
     },
     {
       "class": 6,
@@ -207,7 +227,9 @@
       "optmul": 1,
       "power": 5.04,
       "rating": "E",
-      "symbol": "Int_Engine_Size6_Class1"
+      "symbol": "Int_Engine_Size6_Class1",
+      "ukName": "Thrusters",
+      "ukDiscript": "Normal-space propulsion system. "
     },
     {
       "class": 6,
@@ -226,7 +248,9 @@
       "optmul": 1,
       "power": 5.67,
       "rating": "D",
-      "symbol": "Int_Engine_Size6_Class2"
+      "symbol": "Int_Engine_Size6_Class2",
+      "ukName": "Thrusters",
+      "ukDiscript": "Normal-space propulsion system. "
     },
     {
       "class": 6,
@@ -245,7 +269,9 @@
       "optmul": 1,
       "power": 6.3,
       "rating": "C",
-      "symbol": "Int_Engine_Size6_Class3"
+      "symbol": "Int_Engine_Size6_Class3",
+      "ukName": "Thrusters",
+      "ukDiscript": "Normal-space propulsion system. "
     },
     {
       "class": 6,
@@ -264,7 +290,9 @@
       "optmul": 1,
       "power": 6.93,
       "rating": "B",
-      "symbol": "Int_Engine_Size6_Class4"
+      "symbol": "Int_Engine_Size6_Class4",
+      "ukName": "Thrusters",
+      "ukDiscript": "Normal-space propulsion system. "
     },
     {
       "class": 6,
@@ -283,7 +311,9 @@
       "optmul": 1,
       "power": 7.56,
       "rating": "A",
-      "symbol": "Int_Engine_Size6_Class5"
+      "symbol": "Int_Engine_Size6_Class5",
+      "ukName": "Thrusters",
+      "ukDiscript": "Normal-space propulsion system. "
     },
     {
       "class": 5,
@@ -302,7 +332,9 @@
       "optmul": 1,
       "power": 4.08,
       "rating": "E",
-      "symbol": "Int_Engine_Size5_Class1"
+      "symbol": "Int_Engine_Size5_Class1",
+      "ukName": "Thrusters",
+      "ukDiscript": "Normal-space propulsion system. "
     },
     {
       "class": 5,
@@ -321,7 +353,9 @@
       "optmul": 1,
       "power": 4.59,
       "rating": "D",
-      "symbol": "Int_Engine_Size5_Class2"
+      "symbol": "Int_Engine_Size5_Class2",
+      "ukName": "Thrusters",
+      "ukDiscript": "Normal-space propulsion system. "
     },
     {
       "class": 5,
@@ -340,7 +374,9 @@
       "optmul": 1,
       "power": 5.1,
       "rating": "C",
-      "symbol": "Int_Engine_Size5_Class3"
+      "symbol": "Int_Engine_Size5_Class3",
+      "ukName": "Thrusters",
+      "ukDiscript": "Normal-space propulsion system. "
     },
     {
       "class": 5,
@@ -359,7 +395,9 @@
       "optmul": 1,
       "power": 5.61,
       "rating": "B",
-      "symbol": "Int_Engine_Size5_Class4"
+      "symbol": "Int_Engine_Size5_Class4",
+      "ukName": "Thrusters",
+      "ukDiscript": "Normal-space propulsion system. "
     },
     {
       "class": 5,
@@ -378,7 +416,9 @@
       "optmul": 1,
       "power": 6.12,
       "rating": "A",
-      "symbol": "Int_Engine_Size5_Class5"
+      "symbol": "Int_Engine_Size5_Class5",
+      "ukName": "Thrusters",
+      "ukDiscript": "Normal-space propulsion system. "
     },
     {
       "class": 4,
@@ -397,7 +437,9 @@
       "optmul": 1,
       "power": 3.28,
       "rating": "E",
-      "symbol": "Int_Engine_Size4_Class1"
+      "symbol": "Int_Engine_Size4_Class1",
+      "ukName": "Thrusters",
+      "ukDiscript": "Normal-space propulsion system. "
     },
     {
       "class": 4,
@@ -416,7 +458,9 @@
       "optmul": 1,
       "power": 3.69,
       "rating": "D",
-      "symbol": "Int_Engine_Size4_Class2"
+      "symbol": "Int_Engine_Size4_Class2",
+      "ukName": "Thrusters",
+      "ukDiscript": "Normal-space propulsion system. "
     },
     {
       "class": 4,
@@ -435,7 +479,9 @@
       "optmul": 1,
       "power": 4.1,
       "rating": "C",
-      "symbol": "Int_Engine_Size4_Class3"
+      "symbol": "Int_Engine_Size4_Class3",
+      "ukName": "Thrusters",
+      "ukDiscript": "Normal-space propulsion system. "
     },
     {
       "class": 4,
@@ -454,7 +500,9 @@
       "optmul": 1,
       "power": 4.51,
       "rating": "B",
-      "symbol": "Int_Engine_Size4_Class4"
+      "symbol": "Int_Engine_Size4_Class4",
+      "ukName": "Thrusters",
+      "ukDiscript": "Normal-space propulsion system. "
     },
     {
       "class": 4,
@@ -473,7 +521,9 @@
       "optmul": 1,
       "power": 4.92,
       "rating": "A",
-      "symbol": "Int_Engine_Size4_Class5"
+      "symbol": "Int_Engine_Size4_Class5",
+      "ukName": "Thrusters",
+      "ukDiscript": "Normal-space propulsion system. "
     },
     {
       "class": 3,
@@ -492,7 +542,9 @@
       "optmul": 1,
       "power": 2.48,
       "rating": "E",
-      "symbol": "Int_Engine_Size3_Class1"
+      "symbol": "Int_Engine_Size3_Class1",
+      "ukName": "Thrusters",
+      "ukDiscript": "Normal-space propulsion system. "
     },
     {
       "class": 3,
@@ -511,7 +563,9 @@
       "optmul": 1,
       "power": 2.79,
       "rating": "D",
-      "symbol": "Int_Engine_Size3_Class2"
+      "symbol": "Int_Engine_Size3_Class2",
+      "ukName": "Thrusters",
+      "ukDiscript": "Normal-space propulsion system. "
     },
     {
       "class": 3,
@@ -530,7 +584,9 @@
       "optmul": 1,
       "power": 3.1,
       "rating": "C",
-      "symbol": "Int_Engine_Size3_Class3"
+      "symbol": "Int_Engine_Size3_Class3",
+      "ukName": "Thrusters",
+      "ukDiscript": "Normal-space propulsion system. "
     },
     {
       "class": 3,
@@ -549,7 +605,9 @@
       "optmul": 1,
       "power": 3.41,
       "rating": "B",
-      "symbol": "Int_Engine_Size3_Class4"
+      "symbol": "Int_Engine_Size3_Class4",
+      "ukName": "Thrusters",
+      "ukDiscript": "Normal-space propulsion system. "
     },
     {
       "class": 3,
@@ -568,7 +626,9 @@
       "optmul": 1,
       "power": 3.72,
       "rating": "A",
-      "symbol": "Int_Engine_Size3_Class5"
+      "symbol": "Int_Engine_Size3_Class5",
+      "ukName": "Thrusters",
+      "ukDiscript": "Normal-space propulsion system. "
     },
     {
       "class": 2,
@@ -587,7 +647,9 @@
       "optmul": 1,
       "power": 2,
       "rating": "E",
-      "symbol": "Int_Engine_Size2_Class1"
+      "symbol": "Int_Engine_Size2_Class1",
+      "ukName": "Thrusters",
+      "ukDiscript": "Normal-space propulsion system. "
     },
     {
       "class": 2,
@@ -606,7 +668,9 @@
       "optmul": 1,
       "power": 2.25,
       "rating": "D",
-      "symbol": "Int_Engine_Size2_Class2"
+      "symbol": "Int_Engine_Size2_Class2",
+      "ukName": "Thrusters",
+      "ukDiscript": "Normal-space propulsion system. "
     },
     {
       "class": 2,
@@ -625,7 +689,9 @@
       "optmul": 1,
       "power": 2.5,
       "rating": "C",
-      "symbol": "Int_Engine_Size2_Class3"
+      "symbol": "Int_Engine_Size2_Class3",
+      "ukName": "Thrusters",
+      "ukDiscript": "Normal-space propulsion system. "
     },
     {
       "class": 2,
@@ -644,7 +710,9 @@
       "optmul": 1,
       "power": 2.75,
       "rating": "B",
-      "symbol": "Int_Engine_Size2_Class4"
+      "symbol": "Int_Engine_Size2_Class4",
+      "ukName": "Thrusters",
+      "ukDiscript": "Normal-space propulsion system. "
     },
     {
       "class": 2,
@@ -663,7 +731,9 @@
       "optmul": 1,
       "power": 3,
       "rating": "A",
-      "symbol": "Int_Engine_Size2_Class5"
+      "symbol": "Int_Engine_Size2_Class5",
+      "ukName": "Thrusters",
+      "ukDiscript": "Normal-space propulsion system. "
     },
     {
       "class": 3,
@@ -692,7 +762,9 @@
       "optmulspeed": 1.25,
       "power": 5,
       "rating": "A",
-      "symbol": "Int_Engine_Size3_Class5_Fast"
+      "symbol": "Int_Engine_Size3_Class5_Fast",
+      "ukName": "Thrusters",
+      "ukDiscript": "Enhanced performance normal-space propulsion system."
     },
     {
       "class": 2,
@@ -721,7 +793,9 @@
       "optmulspeed": 1.25,
       "power": 4,
       "rating": "A",
-      "symbol": "Int_Engine_Size2_Class5_Fast"
+      "symbol": "Int_Engine_Size2_Class5_Fast",
+      "ukName": "Thrusters",
+      "ukDiscript": "Enhanced performance normal-space propulsion system."
     }
   ]
 }

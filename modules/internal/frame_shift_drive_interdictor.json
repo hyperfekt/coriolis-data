@@ -14,7 +14,9 @@
       "power": 0.14,
       "ranget": 3,
       "rating": "E",
-      "symbol": "Int_FSDInterdictor_Size1_Class1"
+      "symbol": "Int_FSDInterdictor_Size1_Class1",
+      "ukName": "FSD Interdictor",
+      "ukDiscript": "Used to pull targets out of supercruise."
     },
     {
       "boot": 15,
@@ -30,7 +32,9 @@
       "power": 0.18,
       "ranget": 4,
       "rating": "D",
-      "symbol": "Int_FSDInterdictor_Size1_Class2"
+      "symbol": "Int_FSDInterdictor_Size1_Class2",
+      "ukName": "FSD Interdictor",
+      "ukDiscript": "Used to pull targets out of supercruise."
     },
     {
       "boot": 15,
@@ -46,7 +50,9 @@
       "power": 0.23,
       "ranget": 5,
       "rating": "C",
-      "symbol": "Int_FSDInterdictor_Size1_Class3"
+      "symbol": "Int_FSDInterdictor_Size1_Class3",
+      "ukName": "FSD Interdictor",
+      "ukDiscript": "Used to pull targets out of supercruise."
     },
     {
       "boot": 15,
@@ -62,7 +68,9 @@
       "power": 0.28,
       "ranget": 6,
       "rating": "B",
-      "symbol": "Int_FSDInterdictor_Size1_Class4"
+      "symbol": "Int_FSDInterdictor_Size1_Class4",
+      "ukName": "FSD Interdictor",
+      "ukDiscript": "Used to pull targets out of supercruise."
     },
     {
       "boot": 15,
@@ -78,7 +86,9 @@
       "power": 0.32,
       "ranget": 7,
       "rating": "A",
-      "symbol": "Int_FSDInterdictor_Size1_Class5"
+      "symbol": "Int_FSDInterdictor_Size1_Class5",
+      "ukName": "FSD Interdictor",
+      "ukDiscript": "Used to pull targets out of supercruise."
     },
     {
       "boot": 15,
@@ -94,7 +104,9 @@
       "power": 0.17,
       "ranget": 6,
       "rating": "E",
-      "symbol": "Int_FSDInterdictor_Size2_Class1"
+      "symbol": "Int_FSDInterdictor_Size2_Class1",
+      "ukName": "FSD Interdictor",
+      "ukDiscript": "Used to pull targets out of supercruise."
     },
     {
       "boot": 15,
@@ -110,7 +122,9 @@
       "power": 0.22,
       "ranget": 7,
       "rating": "D",
-      "symbol": "Int_FSDInterdictor_Size2_Class2"
+      "symbol": "Int_FSDInterdictor_Size2_Class2",
+      "ukName": "FSD Interdictor",
+      "ukDiscript": "Used to pull targets out of supercruise."
     },
     {
       "boot": 15,
@@ -126,7 +140,9 @@
       "power": 0.28,
       "ranget": 8,
       "rating": "C",
-      "symbol": "Int_FSDInterdictor_Size2_Class3"
+      "symbol": "Int_FSDInterdictor_Size2_Class3",
+      "ukName": "FSD Interdictor",
+      "ukDiscript": "Used to pull targets out of supercruise."
     },
     {
       "boot": 15,
@@ -142,7 +158,9 @@
       "power": 0.34,
       "ranget": 9,
       "rating": "B",
-      "symbol": "Int_FSDInterdictor_Size2_Class4"
+      "symbol": "Int_FSDInterdictor_Size2_Class4",
+      "ukName": "FSD Interdictor",
+      "ukDiscript": "Used to pull targets out of supercruise."
     },
     {
       "boot": 15,
@@ -158,7 +176,9 @@
       "power": 0.39,
       "ranget": 10,
       "rating": "A",
-      "symbol": "Int_FSDInterdictor_Size2_Class5"
+      "symbol": "Int_FSDInterdictor_Size2_Class5",
+      "ukName": "FSD Interdictor",
+      "ukDiscript": "Used to pull targets out of supercruise."
     },
     {
       "boot": 15,
@@ -174,7 +194,9 @@
       "power": 0.2,
       "ranget": 9,
       "rating": "E",
-      "symbol": "Int_FSDInterdictor_Size3_Class1"
+      "symbol": "Int_FSDInterdictor_Size3_Class1",
+      "ukName": "FSD Interdictor",
+      "ukDiscript": "Used to pull targets out of supercruise."
     },
     {
       "boot": 15,
@@ -190,7 +212,9 @@
       "power": 0.27,
       "ranget": 10,
       "rating": "D",
-      "symbol": "Int_FSDInterdictor_Size3_Class2"
+      "symbol": "Int_FSDInterdictor_Size3_Class2",
+      "ukName": "FSD Interdictor",
+      "ukDiscript": "Used to pull targets out of supercruise."
     },
     {
       "boot": 15,
@@ -206,7 +230,9 @@
       "power": 0.34,
       "ranget": 11,
       "rating": "C",
-      "symbol": "Int_FSDInterdictor_Size3_Class3"
+      "symbol": "Int_FSDInterdictor_Size3_Class3",
+      "ukName": "FSD Interdictor",
+      "ukDiscript": "Used to pull targets out of supercruise."
     },
     {
       "boot": 15,
@@ -222,7 +248,9 @@
       "power": 0.41,
       "ranget": 12,
       "rating": "B",
-      "symbol": "Int_FSDInterdictor_Size3_Class4"
+      "symbol": "Int_FSDInterdictor_Size3_Class4",
+      "ukName": "FSD Interdictor",
+      "ukDiscript": "Used to pull targets out of supercruise."
     },
     {
       "boot": 15,
@@ -238,7 +266,9 @@
       "power": 0.48,
       "ranget": 13,
       "rating": "A",
-      "symbol": "Int_FSDInterdictor_Size3_Class5"
+      "symbol": "Int_FSDInterdictor_Size3_Class5",
+      "ukName": "FSD Interdictor",
+      "ukDiscript": "Used to pull targets out of supercruise."
     },
     {
       "boot": 15,
@@ -254,7 +284,9 @@
       "power": 0.25,
       "ranget": 12,
       "rating": "E",
-      "symbol": "Int_FSDInterdictor_Size4_Class1"
+      "symbol": "Int_FSDInterdictor_Size4_Class1",
+      "ukName": "FSD Interdictor",
+      "ukDiscript": "Used to pull targets out of supercruise."
     },
     {
       "boot": 15,
@@ -270,7 +302,9 @@
       "power": 0.33,
       "ranget": 13,
       "rating": "D",
-      "symbol": "Int_FSDInterdictor_Size4_Class2"
+      "symbol": "Int_FSDInterdictor_Size4_Class2",
+      "ukName": "FSD Interdictor",
+      "ukDiscript": "Used to pull targets out of supercruise."
     },
     {
       "boot": 15,
@@ -286,7 +320,9 @@
       "power": 0.41,
       "ranget": 14,
       "rating": "C",
-      "symbol": "Int_FSDInterdictor_Size4_Class3"
+      "symbol": "Int_FSDInterdictor_Size4_Class3",
+      "ukName": "FSD Interdictor",
+      "ukDiscript": "Used to pull targets out of supercruise."
     },
     {
       "boot": 15,
@@ -302,7 +338,9 @@
       "power": 0.49,
       "ranget": 15,
       "rating": "B",
-      "symbol": "Int_FSDInterdictor_Size4_Class4"
+      "symbol": "Int_FSDInterdictor_Size4_Class4",
+      "ukName": "FSD Interdictor",
+      "ukDiscript": "Used to pull targets out of supercruise."
     },
     {
       "boot": 15,
@@ -318,7 +356,9 @@
       "power": 0.57,
       "ranget": 16,
       "rating": "A",
-      "symbol": "Int_FSDInterdictor_Size4_Class5"
+      "symbol": "Int_FSDInterdictor_Size4_Class5",
+      "ukName": "FSD Interdictor",
+      "ukDiscript": "Used to pull targets out of supercruise."
     }
   ]
 }

@@ -10,7 +10,9 @@
       "mass": 10,
       "passengers": 3,
       "rating": "C",
-      "symbol": "Int_PassengerCabin_Size4_Class3"
+      "symbol": "Int_PassengerCabin_Size4_Class3",
+      "ukName": "FC Passenger Cabin",
+      "ukDiscript": "First Class Passenger Cabin."
     },
     {
       "class": 5,
@@ -22,7 +24,9 @@
       "mass": 20,
       "passengers": 6,
       "rating": "C",
-      "symbol": "Int_PassengerCabin_Size5_Class3"
+      "symbol": "Int_PassengerCabin_Size5_Class3",
+      "ukName": "FC Passenger Cabin",
+      "ukDiscript": "First Class Passenger Cabin."
     },
     {
       "class": 6,
@@ -34,7 +38,9 @@
       "mass": 40,
       "passengers": 12,
       "rating": "C",
-      "symbol": "Int_PassengerCabin_Size6_Class3"
+      "symbol": "Int_PassengerCabin_Size6_Class3",
+      "ukName": "FC Passenger Cabin",
+      "ukDiscript": "First Class Passenger Cabin."
     }
   ]
 }

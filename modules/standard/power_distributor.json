@@ -17,7 +17,9 @@
       "sysrate": 3.2,
       "wepcap": 48,
       "weprate": 4.8,
-      "symbol": "Int_PowerDistributor_Size8_Class1"
+      "symbol": "Int_PowerDistributor_Size8_Class1",
+      "ukName": "Power Distributor",
+      "ukDiscript": "Distribution system for ENG, SYS and WEP capacitors."
     },
     {
       "class": 8,
@@ -36,7 +38,9 @@
       "sysrate": 3.6,
       "wepcap": 54,
       "weprate": 5.4,
-      "symbol": "Int_PowerDistributor_Size8_Class2"
+      "symbol": "Int_PowerDistributor_Size8_Class2",
+      "ukName": "Power Distributor",
+      "ukDiscript": "Distribution system for ENG, SYS and WEP capacitors."
     },
     {
       "class": 8,
@@ -55,7 +59,9 @@
       "sysrate": 4,
       "wepcap": 60,
       "weprate": 6,
-      "symbol": "Int_PowerDistributor_Size8_Class3"
+      "symbol": "Int_PowerDistributor_Size8_Class3",
+      "ukName": "Power Distributor",
+      "ukDiscript": "Distribution system for ENG, SYS and WEP capacitors."
     },
     {
       "class": 8,
@@ -74,7 +80,9 @@
       "sysrate": 4.4,
       "wepcap": 66,
       "weprate": 6.6,
-      "symbol": "Int_PowerDistributor_Size8_Class4"
+      "symbol": "Int_PowerDistributor_Size8_Class4",
+      "ukName": "Power Distributor",
+      "ukDiscript": "Distribution system for ENG, SYS and WEP capacitors."
     },
     {
       "class": 8,
@@ -93,7 +101,9 @@
       "sysrate": 4.8,
       "wepcap": 72,
       "weprate": 7.2,
-      "symbol": "Int_PowerDistributor_Size8_Class5"
+      "symbol": "Int_PowerDistributor_Size8_Class5",
+      "ukName": "Power Distributor",
+      "ukDiscript": "Distribution system for ENG, SYS and WEP capacitors."
     },
     {
       "class": 7,
@@ -112,7 +122,9 @@
       "sysrate": 2.6,
       "wepcap": 41,
       "weprate": 4.1,
-      "symbol": "Int_PowerDistributor_Size7_Class1"
+      "symbol": "Int_PowerDistributor_Size7_Class1",
+      "ukName": "Power Distributor",
+      "ukDiscript": "Distribution system for ENG, SYS and WEP capacitors."
     },
     {
       "class": 7,
@@ -131,7 +143,9 @@
       "sysrate": 3,
       "wepcap": 46,
       "weprate": 4.6,
-      "symbol": "Int_PowerDistributor_Size7_Class2"
+      "symbol": "Int_PowerDistributor_Size7_Class2",
+      "ukName": "Power Distributor",
+      "ukDiscript": "Distribution system for ENG, SYS and WEP capacitors."
     },
     {
       "class": 7,
@@ -150,7 +164,9 @@
       "sysrate": 3.3,
       "wepcap": 51,
       "weprate": 5.1,
-      "symbol": "Int_PowerDistributor_Size7_Class3"
+      "symbol": "Int_PowerDistributor_Size7_Class3",
+      "ukName": "Power Distributor",
+      "ukDiscript": "Distribution system for ENG, SYS and WEP capacitors."
     },
     {
       "class": 7,
@@ -169,7 +185,9 @@
       "sysrate": 3.6,
       "wepcap": 56,
       "weprate": 5.6,
-      "symbol": "Int_PowerDistributor_Size7_Class4"
+      "symbol": "Int_PowerDistributor_Size7_Class4",
+      "ukName": "Power Distributor",
+      "ukDiscript": "Distribution system for ENG, SYS and WEP capacitors."
     },
     {
       "class": 7,
@@ -188,7 +206,9 @@
       "sysrate": 4,
       "wepcap": 61,
       "weprate": 6.1,
-      "symbol": "Int_PowerDistributor_Size7_Class5"
+      "symbol": "Int_PowerDistributor_Size7_Class5",
+      "ukName": "Power Distributor",
+      "ukDiscript": "Distribution system for ENG, SYS and WEP capacitors."
     },
     {
       "class": 6,
@@ -207,7 +227,9 @@
       "sysrate": 2.2,
       "wepcap": 34,
       "weprate": 3.4,
-      "symbol": "Int_PowerDistributor_Size6_Class1"
+      "symbol": "Int_PowerDistributor_Size6_Class1",
+      "ukName": "Power Distributor",
+      "ukDiscript": "Distribution system for ENG, SYS and WEP capacitors."
     },
     {
       "class": 6,
@@ -226,7 +248,9 @@
       "sysrate": 2.4,
       "wepcap": 38,
       "weprate": 3.9,
-      "symbol": "Int_PowerDistributor_Size6_Class2"
+      "symbol": "Int_PowerDistributor_Size6_Class2",
+      "ukName": "Power Distributor",
+      "ukDiscript": "Distribution system for ENG, SYS and WEP capacitors."
     },
     {
       "class": 6,
@@ -245,7 +269,9 @@
       "sysrate": 2.7,
       "wepcap": 42,
       "weprate": 4.3,
-      "symbol": "Int_PowerDistributor_Size6_Class3"
+      "symbol": "Int_PowerDistributor_Size6_Class3",
+      "ukName": "Power Distributor",
+      "ukDiscript": "Distribution system for ENG, SYS and WEP capacitors."
     },
     {
       "class": 6,
@@ -264,7 +290,9 @@
       "sysrate": 3,
       "wepcap": 46,
       "weprate": 4.7,
-      "symbol": "Int_PowerDistributor_Size6_Class4"
+      "symbol": "Int_PowerDistributor_Size6_Class4",
+      "ukName": "Power Distributor",
+      "ukDiscript": "Distribution system for ENG, SYS and WEP capacitors."
     },
     {
       "class": 6,
@@ -283,7 +311,9 @@
       "sysrate": 3.2,
       "wepcap": 50,
       "weprate": 5.2,
-      "symbol": "Int_PowerDistributor_Size6_Class5"
+      "symbol": "Int_PowerDistributor_Size6_Class5",
+      "ukName": "Power Distributor",
+      "ukDiscript": "Distribution system for ENG, SYS and WEP capacitors."
     },
     {
       "class": 5,
@@ -302,7 +332,9 @@
       "sysrate": 1.7,
       "wepcap": 27,
       "weprate": 2.9,
-      "symbol": "Int_PowerDistributor_Size5_Class1"
+      "symbol": "Int_PowerDistributor_Size5_Class1",
+      "ukName": "Power Distributor",
+      "ukDiscript": "Distribution system for ENG, SYS and WEP capacitors."
     },
     {
       "class": 5,
@@ -321,7 +353,9 @@
       "sysrate": 1.9,
       "wepcap": 31,
       "weprate": 3.2,
-      "symbol": "Int_PowerDistributor_Size5_Class2"
+      "symbol": "Int_PowerDistributor_Size5_Class2",
+      "ukName": "Power Distributor",
+      "ukDiscript": "Distribution system for ENG, SYS and WEP capacitors."
     },
     {
       "class": 5,
@@ -340,7 +374,9 @@
       "sysrate": 2.1,
       "wepcap": 34,
       "weprate": 3.6,
-      "symbol": "Int_PowerDistributor_Size5_Class3"
+      "symbol": "Int_PowerDistributor_Size5_Class3",
+      "ukName": "Power Distributor",
+      "ukDiscript": "Distribution system for ENG, SYS and WEP capacitors."
     },
     {
       "class": 5,
@@ -359,7 +395,9 @@
       "sysrate": 2.3,
       "wepcap": 37,
       "weprate": 4,
-      "symbol": "Int_PowerDistributor_Size5_Class4"
+      "symbol": "Int_PowerDistributor_Size5_Class4",
+      "ukName": "Power Distributor",
+      "ukDiscript": "Distribution system for ENG, SYS and WEP capacitors."
     },
     {
       "class": 5,
@@ -378,7 +416,9 @@
       "sysrate": 2.5,
       "wepcap": 41,
       "weprate": 4.3,
-      "symbol": "Int_PowerDistributor_Size5_Class5"
+      "symbol": "Int_PowerDistributor_Size5_Class5",
+      "ukName": "Power Distributor",
+      "ukDiscript": "Distribution system for ENG, SYS and WEP capacitors."
     },
     {
       "class": 4,
@@ -397,7 +437,9 @@
       "sysrate": 1.3,
       "wepcap": 22,
       "weprate": 2.3,
-      "symbol": "Int_PowerDistributor_Size4_Class1"
+      "symbol": "Int_PowerDistributor_Size4_Class1",
+      "ukName": "Power Distributor",
+      "ukDiscript": "Distribution system for ENG, SYS and WEP capacitors."
     },
     {
       "class": 4,
@@ -416,7 +458,9 @@
       "sysrate": 1.4,
       "wepcap": 24,
       "weprate": 2.6,
-      "symbol": "Int_PowerDistributor_Size4_Class2"
+      "symbol": "Int_PowerDistributor_Size4_Class2",
+      "ukName": "Power Distributor",
+      "ukDiscript": "Distribution system for ENG, SYS and WEP capacitors."
     },
     {
       "class": 4,
@@ -435,7 +479,9 @@
       "sysrate": 1.6,
       "wepcap": 27,
       "weprate": 2.9,
-      "symbol": "Int_PowerDistributor_Size4_Class3"
+      "symbol": "Int_PowerDistributor_Size4_Class3",
+      "ukName": "Power Distributor",
+      "ukDiscript": "Distribution system for ENG, SYS and WEP capacitors."
     },
     {
       "class": 4,
@@ -454,7 +500,9 @@
       "sysrate": 1.8,
       "wepcap": 30,
       "weprate": 3.2,
-      "symbol": "Int_PowerDistributor_Size4_Class4"
+      "symbol": "Int_PowerDistributor_Size4_Class4",
+      "ukName": "Power Distributor",
+      "ukDiscript": "Distribution system for ENG, SYS and WEP capacitors."
     },
     {
       "class": 4,
@@ -473,7 +521,9 @@
       "sysrate": 1.9,
       "wepcap": 32,
       "weprate": 3.5,
-      "symbol": "Int_PowerDistributor_Size4_Class5"
+      "symbol": "Int_PowerDistributor_Size4_Class5",
+      "ukName": "Power Distributor",
+      "ukDiscript": "Distribution system for ENG, SYS and WEP capacitors."
     },
     {
       "class": 3,
@@ -492,7 +542,9 @@
       "sysrate": 0.9,
       "wepcap": 16,
       "weprate": 1.8,
-      "symbol": "Int_PowerDistributor_Size3_Class1"
+      "symbol": "Int_PowerDistributor_Size3_Class1",
+      "ukName": "Power Distributor",
+      "ukDiscript": "Distribution system for ENG, SYS and WEP capacitors."
     },
     {
       "class": 3,
@@ -511,7 +563,9 @@
       "sysrate": 1,
       "wepcap": 18,
       "weprate": 2.1,
-      "symbol": "Int_PowerDistributor_Size3_Class2"
+      "symbol": "Int_PowerDistributor_Size3_Class2",
+      "ukName": "Power Distributor",
+      "ukDiscript": "Distribution system for ENG, SYS and WEP capacitors."
     },
     {
       "class": 3,
@@ -530,7 +584,9 @@
       "sysrate": 1.1,
       "wepcap": 20,
       "weprate": 2.3,
-      "symbol": "Int_PowerDistributor_Size3_Class3"
+      "symbol": "Int_PowerDistributor_Size3_Class3",
+      "ukName": "Power Distributor",
+      "ukDiscript": "Distribution system for ENG, SYS and WEP capacitors."
     },
     {
       "class": 3,
@@ -549,7 +605,9 @@
       "sysrate": 1.2,
       "wepcap": 22,
       "weprate": 2.5,
-      "symbol": "Int_PowerDistributor_Size3_Class4"
+      "symbol": "Int_PowerDistributor_Size3_Class4",
+      "ukName": "Power Distributor",
+      "ukDiscript": "Distribution system for ENG, SYS and WEP capacitors."
     },
     {
       "class": 3,
@@ -568,7 +626,9 @@
       "sysrate": 1.3,
       "wepcap": 24,
       "weprate": 2.8,
-      "symbol": "Int_PowerDistributor_Size3_Class5"
+      "symbol": "Int_PowerDistributor_Size3_Class5",
+      "ukName": "Power Distributor",
+      "ukDiscript": "Distribution system for ENG, SYS and WEP capacitors."
     },
     {
       "class": 2,
@@ -587,7 +647,9 @@
       "sysrate": 0.6,
       "wepcap": 12,
       "weprate": 1.4,
-      "symbol": "Int_PowerDistributor_Size2_Class1"
+      "symbol": "Int_PowerDistributor_Size2_Class1",
+      "ukName": "Power Distributor",
+      "ukDiscript": "Distribution system for ENG, SYS and WEP capacitors."
     },
     {
       "class": 2,
@@ -606,7 +668,9 @@
       "sysrate": 0.6,
       "wepcap": 14,
       "weprate": 1.6,
-      "symbol": "Int_PowerDistributor_Size2_Class2"
+      "symbol": "Int_PowerDistributor_Size2_Class2",
+      "ukName": "Power Distributor",
+      "ukDiscript": "Distribution system for ENG, SYS and WEP capacitors."
     },
     {
       "class": 2,
@@ -625,7 +689,9 @@
       "sysrate": 0.7,
       "wepcap": 15,
       "weprate": 1.8,
-      "symbol": "Int_PowerDistributor_Size2_Class3"
+      "symbol": "Int_PowerDistributor_Size2_Class3",
+      "ukName": "Power Distributor",
+      "ukDiscript": "Distribution system for ENG, SYS and WEP capacitors."
     },
     {
       "class": 2,
@@ -644,7 +710,9 @@
       "sysrate": 0.8,
       "wepcap": 17,
       "weprate": 2,
-      "symbol": "Int_PowerDistributor_Size2_Class4"
+      "symbol": "Int_PowerDistributor_Size2_Class4",
+      "ukName": "Power Distributor",
+      "ukDiscript": "Distribution system for ENG, SYS and WEP capacitors."
     },
     {
       "class": 2,
@@ -663,7 +731,9 @@
       "sysrate": 0.8,
       "wepcap": 18,
       "weprate": 2.2,
-      "symbol": "Int_PowerDistributor_Size2_Class5"
+      "symbol": "Int_PowerDistributor_Size2_Class5",
+      "ukName": "Power Distributor",
+      "ukDiscript": "Distribution system for ENG, SYS and WEP capacitors."
     },
     {
       "class": 1,
@@ -682,7 +752,9 @@
       "sysrate": 0.4,
       "wepcap": 10,
       "weprate": 1.2,
-      "symbol": "Int_PowerDistributor_Size1_Class1"
+      "symbol": "Int_PowerDistributor_Size1_Class1",
+      "ukName": "Power Distributor",
+      "ukDiscript": "Distribution system for ENG, SYS and WEP capacitors."
     },
     {
       "class": 1,
@@ -701,7 +773,9 @@
       "sysrate": 0.5,
       "wepcap": 11,
       "weprate": 1.4,
-      "symbol": "Int_PowerDistributor_Size1_Class2"
+      "symbol": "Int_PowerDistributor_Size1_Class2",
+      "ukName": "Power Distributor",
+      "ukDiscript": "Distribution system for ENG, SYS and WEP capacitors."
     },
     {
       "class": 1,
@@ -720,7 +794,9 @@
       "sysrate": 0.5,
       "wepcap": 12,
       "weprate": 1.5,
-      "symbol": "Int_PowerDistributor_Size1_Class3"
+      "symbol": "Int_PowerDistributor_Size1_Class3",
+      "ukName": "Power Distributor",
+      "ukDiscript": "Distribution system for ENG, SYS and WEP capacitors."
     },
     {
       "class": 1,
@@ -739,7 +815,9 @@
       "sysrate": 0.6,
       "wepcap": 13,
       "weprate": 1.7,
-      "symbol": "Int_PowerDistributor_Size1_Class4"
+      "symbol": "Int_PowerDistributor_Size1_Class4",
+      "ukName": "Power Distributor",
+      "ukDiscript": "Distribution system for ENG, SYS and WEP capacitors."
     },
     {
       "class": 1,
@@ -758,7 +836,9 @@
       "sysrate": 0.6,
       "wepcap": 14,
       "weprate": 1.8,
-      "symbol": "Int_PowerDistributor_Size1_Class5"
+      "symbol": "Int_PowerDistributor_Size1_Class5",
+      "ukName": "Power Distributor",
+      "ukDiscript": "Distribution system for ENG, SYS and WEP capacitors."
     },
     {
       "class": 1,
@@ -778,7 +858,9 @@
       "wepcap": 10,
       "weprate": 2.5,
       "name": "Guardian Power Distributor",
-      "symbol": "Int_GuardianPowerDistributor_Size1"
+      "symbol": "Int_GuardianPowerDistributor_Size1",
+      "ukName": "Guardian Power Distributor",
+      "ukDiscript": "Distribution system for ENG, SYS and WEP capacitors. Enhanced with Guardian technology to speed up capacitor recharge rates, at the cost of smaller capacitors and increased heat generation. Also boosts overall power output of any power plant it is hooked into."
     },
     {
       "class": 2,
@@ -798,7 +880,9 @@
       "wepcap": 10,
       "weprate": 2.5,
       "name": "Guardian Power Distributor",
-      "symbol": "Int_GuardianPowerDistributor_Size2"
+      "symbol": "Int_GuardianPowerDistributor_Size2",
+      "ukName": "Guardian Power Distributor",
+      "ukDiscript": "Distribution system for ENG, SYS and WEP capacitors. Enhanced with Guardian technology to speed up capacitor recharge rates, at the cost of smaller capacitors and increased heat generation. Also boosts overall power output of any power plant it is hooked into."
     },
     {
       "class": 3,
@@ -818,7 +902,9 @@
       "wepcap": 13,
       "weprate": 3.1,
       "name": "Guardian Power Distributor",
-      "symbol": "Int_GuardianPowerDistributor_Size3"
+      "symbol": "Int_GuardianPowerDistributor_Size3",
+      "ukName": "Guardian Power Distributor",
+      "ukDiscript": "Distribution system for ENG, SYS and WEP capacitors. Enhanced with Guardian technology to speed up capacitor recharge rates, at the cost of smaller capacitors and increased heat generation. Also boosts overall power output of any power plant it is hooked into."
     },
     {
       "class": 4,
@@ -838,7 +924,9 @@
       "wepcap": 22,
       "weprate": 4.9,
       "name": "Guardian Power Distributor",
-      "symbol": "Int_GuardianPowerDistributor_Size4"
+      "symbol": "Int_GuardianPowerDistributor_Size4",
+      "ukName": "Guardian Power Distributor",
+      "ukDiscript": "Distribution system for ENG, SYS and WEP capacitors. Enhanced with Guardian technology to speed up capacitor recharge rates, at the cost of smaller capacitors and increased heat generation. Also boosts overall power output of any power plant it is hooked into."
     },
     {
       "class": 5,
@@ -858,7 +946,9 @@
       "wepcap": 29,
       "weprate": 6,
       "name": "Guardian Power Distributor",
-      "symbol": "Int_GuardianPowerDistributor_Size5"
+      "symbol": "Int_GuardianPowerDistributor_Size5",
+      "ukName": "Guardian Power Distributor",
+      "ukDiscript": "Distribution system for ENG, SYS and WEP capacitors. Enhanced with Guardian technology to speed up capacitor recharge rates, at the cost of smaller capacitors and increased heat generation. Also boosts overall power output of any power plant it is hooked into."
     },
     {
       "class": 6,
@@ -878,7 +968,9 @@
       "wepcap": 35,
       "weprate": 7.3,
       "name": "Guardian Power Distributor",
-      "symbol": "Int_GuardianPowerDistributor_Size6"
+      "symbol": "Int_GuardianPowerDistributor_Size6",
+      "ukName": "Guardian Power Distributor",
+      "ukDiscript": "Distribution system for ENG, SYS and WEP capacitors. Enhanced with Guardian technology to speed up capacitor recharge rates, at the cost of smaller capacitors and increased heat generation. Also boosts overall power output of any power plant it is hooked into."
     },
     {
       "class": 7,
@@ -898,7 +990,9 @@
       "wepcap": 43,
       "weprate": 8.5,
       "name": "Guardian Power Distributor",
-      "symbol": "Int_GuardianPowerDistributor_Size7"
+      "symbol": "Int_GuardianPowerDistributor_Size7",
+      "ukName": "Guardian Power Distributor",
+      "ukDiscript": "Distribution system for ENG, SYS and WEP capacitors. Enhanced with Guardian technology to speed up capacitor recharge rates, at the cost of smaller capacitors and increased heat generation. Also boosts overall power output of any power plant it is hooked into."
     },
     {
       "class": 8,
@@ -918,7 +1012,9 @@
       "wepcap": 50,
       "weprate": 10.1,
       "name": "Guardian Power Distributor",
-      "symbol": "Int_GuardianPowerDistributor_Size8"
+      "symbol": "Int_GuardianPowerDistributor_Size8",
+      "ukName": "Guardian Power Distributor",
+      "ukDiscript": "Distribution system for ENG, SYS and WEP capacitors. Enhanced with Guardian technology to speed up capacitor recharge rates, at the cost of smaller capacitors and increased heat generation. Also boosts overall power output of any power plant it is hooked into."
     }
   ]
 }

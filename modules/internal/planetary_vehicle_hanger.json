@@ -12,7 +12,9 @@
       "mass": 12,
       "power": 0.25,
       "rating": "H",
-      "symbol": "Int_BuggyBay_Size2_Class1"
+      "symbol": "Int_BuggyBay_Size2_Class1",
+      "ukName": "Planetary Vehicle Hangar",
+      "ukDiscript": "A module designed to house ground-based vehicles."
     },
     {
       "bays": 1,
@@ -26,7 +28,9 @@
       "mass": 6,
       "power": 0.75,
       "rating": "G",
-      "symbol": "Int_BuggyBay_Size2_Class2"
+      "symbol": "Int_BuggyBay_Size2_Class2",
+      "ukName": "Planetary Vehicle Hangar",
+      "ukDiscript": "A module designed to house ground-based vehicles."
     },
     {
       "bays": 2,
@@ -40,7 +44,9 @@
       "mass": 20,
       "power": 0.4,
       "rating": "H",
-      "symbol": "Int_BuggyBay_Size4_Class1"
+      "symbol": "Int_BuggyBay_Size4_Class1",
+      "ukName": "Planetary Vehicle Hangar",
+      "ukDiscript": "A module designed to house ground-based vehicles."
     },
     {
       "bays": 2,
@@ -54,7 +60,9 @@
       "mass": 10,
       "power": 1.2,
       "rating": "G",
-      "symbol": "Int_BuggyBay_Size4_Class2"
+      "symbol": "Int_BuggyBay_Size4_Class2",
+      "ukName": "Planetary Vehicle Hangar",
+      "ukDiscript": "A module designed to house ground-based vehicles."
     },
     {
       "bays": 4,
@@ -68,7 +76,9 @@
       "mass": 34,
       "power": 0.6,
       "rating": "H",
-      "symbol": "Int_BuggyBay_Size6_Class1"
+      "symbol": "Int_BuggyBay_Size6_Class1",
+      "ukName": "Planetary Vehicle Hangar",
+      "ukDiscript": "A module designed to house ground-based vehicles."
     },
     {
       "bays": 4,
@@ -82,7 +92,9 @@
       "mass": 17,
       "power": 1.8,
       "rating": "G",
-      "symbol": "Int_BuggyBay_Size6_Class2"
+      "symbol": "Int_BuggyBay_Size6_Class2",
+      "ukName": "Planetary Vehicle Hangar",
+      "ukDiscript": "A module designed to house ground-based vehicles."
     }
   ]
 }
