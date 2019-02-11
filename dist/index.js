@@ -2823,7 +2823,7 @@ module.exports = {
     },
     krait_phantom: {
       edID: 128839281,
-      eddbID: 35,
+      eddbID: 37,
       properties: {
         name: "Krait Phantom",
         manufacturer: "Faulcon DeLacy",
@@ -4050,7 +4050,9 @@ module.exports = {
         mass: 160,
         pgen: 24,
         rating: "E",
-        symbol: "Int_Powerplant_Size8_Class1"
+        symbol: "Int_Powerplant_Size8_Class1",
+        ukName: "Power Plant",
+        ukDiscript: "Consumes fuel to power all ship modules."
       }, {
         class: 8,
         cost: 4323700,
@@ -4063,7 +4065,9 @@ module.exports = {
         mass: 64,
         pgen: 27,
         rating: "D",
-        symbol: "Int_Powerplant_Size8_Class2"
+        symbol: "Int_Powerplant_Size8_Class2",
+        ukName: "Power Plant",
+        ukDiscript: "Consumes fuel to power all ship modules."
       }, {
         class: 8,
         cost: 12971099,
@@ -4076,7 +4080,9 @@ module.exports = {
         mass: 80,
         pgen: 30,
         rating: "C",
-        symbol: "Int_Powerplant_Size8_Class3"
+        symbol: "Int_Powerplant_Size8_Class3",
+        ukName: "Power Plant",
+        ukDiscript: "Consumes fuel to power all ship modules."
       }, {
         class: 8,
         cost: 38913291,
@@ -4089,7 +4095,9 @@ module.exports = {
         mass: 128,
         pgen: 33,
         rating: "B",
-        symbol: "Int_Powerplant_Size8_Class4"
+        symbol: "Int_Powerplant_Size8_Class4",
+        ukName: "Power Plant",
+        ukDiscript: "Consumes fuel to power all ship modules."
       }, {
         class: 8,
         cost: 116739874,
@@ -4102,7 +4110,9 @@ module.exports = {
         mass: 80,
         pgen: 36,
         rating: "A",
-        symbol: "Int_Powerplant_Size8_Class5"
+        symbol: "Int_Powerplant_Size8_Class5",
+        ukName: "Power Plant",
+        ukDiscript: "Consumes fuel to power all ship modules."
       }, {
         class: 7,
         cost: 480411,
@@ -4115,7 +4125,9 @@ module.exports = {
         mass: 80,
         pgen: 20,
         rating: "E",
-        symbol: "Int_Powerplant_Size7_Class1"
+        symbol: "Int_Powerplant_Size7_Class1",
+        ukName: "Power Plant",
+        ukDiscript: "Consumes fuel to power all ship modules."
       }, {
         class: 7,
         cost: 1441234,
@@ -4128,7 +4140,9 @@ module.exports = {
         mass: 32,
         pgen: 22.5,
         rating: "D",
-        symbol: "Int_Powerplant_Size7_Class2"
+        symbol: "Int_Powerplant_Size7_Class2",
+        ukName: "Power Plant",
+        ukDiscript: "Consumes fuel to power all ship modules."
       }, {
         class: 7,
         cost: 4323700,
@@ -4141,7 +4155,9 @@ module.exports = {
         mass: 40,
         pgen: 25,
         rating: "C",
-        symbol: "Int_Powerplant_Size7_Class3"
+        symbol: "Int_Powerplant_Size7_Class3",
+        ukName: "Power Plant",
+        ukDiscript: "Consumes fuel to power all ship modules."
       }, {
         class: 7,
         cost: 12971099,
@@ -4154,7 +4170,9 @@ module.exports = {
         mass: 64,
         pgen: 27.5,
         rating: "B",
-        symbol: "Int_Powerplant_Size7_Class4"
+        symbol: "Int_Powerplant_Size7_Class4",
+        ukName: "Power Plant",
+        ukDiscript: "Consumes fuel to power all ship modules."
       }, {
         class: 7,
         cost: 38913291,
@@ -4167,7 +4185,9 @@ module.exports = {
         mass: 40,
         pgen: 30,
         rating: "A",
-        symbol: "Int_Powerplant_Size7_Class5"
+        symbol: "Int_Powerplant_Size7_Class5",
+        ukName: "Power Plant",
+        ukDiscript: "Consumes fuel to power all ship modules."
       }, {
         class: 6,
         cost: 160138,
@@ -4180,7 +4200,9 @@ module.exports = {
         mass: 40,
         pgen: 16.8,
         rating: "E",
-        symbol: "Int_Powerplant_Size6_Class1"
+        symbol: "Int_Powerplant_Size6_Class1",
+        ukName: "Power Plant",
+        ukDiscript: "Consumes fuel to power all ship modules."
       }, {
         class: 6,
         cost: 480411,
@@ -4193,7 +4215,9 @@ module.exports = {
         mass: 16,
         pgen: 18.9,
         rating: "D",
-        symbol: "Int_Powerplant_Size6_Class2"
+        symbol: "Int_Powerplant_Size6_Class2",
+        ukName: "Power Plant",
+        ukDiscript: "Consumes fuel to power all ship modules."
       }, {
         class: 6,
         cost: 1441234,
@@ -4206,7 +4230,9 @@ module.exports = {
         mass: 20,
         pgen: 21,
         rating: "C",
-        symbol: "Int_Powerplant_Size6_Class3"
+        symbol: "Int_Powerplant_Size6_Class3",
+        ukName: "Power Plant",
+        ukDiscript: "Consumes fuel to power all ship modules."
       }, {
         class: 6,
         cost: 4323700,
@@ -4219,7 +4245,9 @@ module.exports = {
         mass: 32,
         pgen: 23.1,
         rating: "B",
-        symbol: "Int_Powerplant_Size6_Class4"
+        symbol: "Int_Powerplant_Size6_Class4",
+        ukName: "Power Plant",
+        ukDiscript: "Consumes fuel to power all ship modules."
       }, {
         class: 6,
         cost: 12971099,
@@ -4232,7 +4260,9 @@ module.exports = {
         mass: 20,
         pgen: 25.2,
         rating: "A",
-        symbol: "Int_Powerplant_Size6_Class5"
+        symbol: "Int_Powerplant_Size6_Class5",
+        ukName: "Power Plant",
+        ukDiscript: "Consumes fuel to power all ship modules."
       }, {
         class: 5,
         cost: 53380,
@@ -4245,7 +4275,9 @@ module.exports = {
         mass: 20,
         pgen: 13.6,
         rating: "E",
-        symbol: "Int_Powerplant_Size5_Class1"
+        symbol: "Int_Powerplant_Size5_Class1",
+        ukName: "Power Plant",
+        ukDiscript: "Consumes fuel to power all ship modules."
       }, {
         class: 5,
         cost: 160138,
@@ -4258,7 +4290,9 @@ module.exports = {
         mass: 8,
         pgen: 15.3,
         rating: "D",
-        symbol: "Int_Powerplant_Size5_Class2"
+        symbol: "Int_Powerplant_Size5_Class2",
+        ukName: "Power Plant",
+        ukDiscript: "Consumes fuel to power all ship modules."
       }, {
         class: 5,
         cost: 480411,
@@ -4271,7 +4305,9 @@ module.exports = {
         mass: 10,
         pgen: 17,
         rating: "C",
-        symbol: "Int_Powerplant_Size5_Class3"
+        symbol: "Int_Powerplant_Size5_Class3",
+        ukName: "Power Plant",
+        ukDiscript: "Consumes fuel to power all ship modules."
       }, {
         class: 5,
         cost: 1441234,
@@ -4284,7 +4320,9 @@ module.exports = {
         mass: 16,
         pgen: 18.7,
         rating: "B",
-        symbol: "Int_Powerplant_Size5_Class4"
+        symbol: "Int_Powerplant_Size5_Class4",
+        ukName: "Power Plant",
+        ukDiscript: "Consumes fuel to power all ship modules."
       }, {
         class: 5,
         cost: 4323700,
@@ -4297,7 +4335,9 @@ module.exports = {
         mass: 10,
         pgen: 20.4,
         rating: "A",
-        symbol: "Int_Powerplant_Size5_Class5"
+        symbol: "Int_Powerplant_Size5_Class5",
+        ukName: "Power Plant",
+        ukDiscript: "Consumes fuel to power all ship modules."
       }, {
         class: 4,
         cost: 17794,
@@ -4310,7 +4350,9 @@ module.exports = {
         mass: 10,
         pgen: 10.4,
         rating: "E",
-        symbol: "Int_Powerplant_Size4_Class1"
+        symbol: "Int_Powerplant_Size4_Class1",
+        ukName: "Power Plant",
+        ukDiscript: "Consumes fuel to power all ship modules."
       }, {
         class: 4,
         cost: 53380,
@@ -4323,7 +4365,9 @@ module.exports = {
         mass: 4,
         pgen: 11.7,
         rating: "D",
-        symbol: "Int_Powerplant_Size4_Class2"
+        symbol: "Int_Powerplant_Size4_Class2",
+        ukName: "Power Plant",
+        ukDiscript: "Consumes fuel to power all ship modules."
       }, {
         class: 4,
         cost: 160138,
@@ -4336,7 +4380,9 @@ module.exports = {
         mass: 5,
         pgen: 13,
         rating: "C",
-        symbol: "Int_Powerplant_Size4_Class3"
+        symbol: "Int_Powerplant_Size4_Class3",
+        ukName: "Power Plant",
+        ukDiscript: "Consumes fuel to power all ship modules."
       }, {
         class: 4,
         cost: 480411,
@@ -4349,7 +4395,9 @@ module.exports = {
         mass: 8,
         pgen: 14.3,
         rating: "B",
-        symbol: "Int_Powerplant_Size4_Class4"
+        symbol: "Int_Powerplant_Size4_Class4",
+        ukName: "Power Plant",
+        ukDiscript: "Consumes fuel to power all ship modules."
       }, {
         class: 4,
         cost: 1441234,
@@ -4362,7 +4410,9 @@ module.exports = {
         mass: 5,
         pgen: 15.6,
         rating: "A",
-        symbol: "Int_Powerplant_Size4_Class5"
+        symbol: "Int_Powerplant_Size4_Class5",
+        ukName: "Power Plant",
+        ukDiscript: "Consumes fuel to power all ship modules."
       }, {
         class: 3,
         cost: 5932,
@@ -4375,7 +4425,9 @@ module.exports = {
         mass: 5,
         pgen: 8,
         rating: "E",
-        symbol: "Int_Powerplant_Size3_Class1"
+        symbol: "Int_Powerplant_Size3_Class1",
+        ukName: "Power Plant",
+        ukDiscript: "Consumes fuel to power all ship modules."
       }, {
         class: 3,
         cost: 17794,
@@ -4388,7 +4440,9 @@ module.exports = {
         mass: 2,
         pgen: 9,
         rating: "D",
-        symbol: "Int_Powerplant_Size3_Class2"
+        symbol: "Int_Powerplant_Size3_Class2",
+        ukName: "Power Plant",
+        ukDiscript: "Consumes fuel to power all ship modules."
       }, {
         class: 3,
         cost: 53380,
@@ -4401,7 +4455,9 @@ module.exports = {
         mass: 2.5,
         pgen: 10,
         rating: "C",
-        symbol: "Int_Powerplant_Size3_Class3"
+        symbol: "Int_Powerplant_Size3_Class3",
+        ukName: "Power Plant",
+        ukDiscript: "Consumes fuel to power all ship modules."
       }, {
         class: 3,
         cost: 160138,
@@ -4414,7 +4470,9 @@ module.exports = {
         mass: 4,
         pgen: 11,
         rating: "B",
-        symbol: "Int_Powerplant_Size3_Class4"
+        symbol: "Int_Powerplant_Size3_Class4",
+        ukName: "Power Plant",
+        ukDiscript: "Consumes fuel to power all ship modules."
       }, {
         class: 3,
         cost: 480411,
@@ -4427,7 +4485,9 @@ module.exports = {
         mass: 2.5,
         pgen: 12,
         rating: "A",
-        symbol: "Int_Powerplant_Size3_Class5"
+        symbol: "Int_Powerplant_Size3_Class5",
+        ukName: "Power Plant",
+        ukDiscript: "Consumes fuel to power all ship modules."
       }, {
         class: 2,
         cost: 1980,
@@ -4440,7 +4500,9 @@ module.exports = {
         mass: 2.5,
         pgen: 6.4,
         rating: "E",
-        symbol: "Int_Powerplant_Size2_Class1"
+        symbol: "Int_Powerplant_Size2_Class1",
+        ukName: "Power Plant",
+        ukDiscript: "Consumes fuel to power all ship modules."
       }, {
         class: 2,
         cost: 5930,
@@ -4453,7 +4515,9 @@ module.exports = {
         mass: 1,
         pgen: 7.2,
         rating: "D",
-        symbol: "Int_Powerplant_Size2_Class2"
+        symbol: "Int_Powerplant_Size2_Class2",
+        ukName: "Power Plant",
+        ukDiscript: "Consumes fuel to power all ship modules."
       }, {
         class: 2,
         cost: 17800,
@@ -4466,7 +4530,9 @@ module.exports = {
         mass: 1.3,
         pgen: 8,
         rating: "C",
-        symbol: "Int_Powerplant_Size2_Class3"
+        symbol: "Int_Powerplant_Size2_Class3",
+        ukName: "Power Plant",
+        ukDiscript: "Consumes fuel to power all ship modules."
       }, {
         class: 2,
         cost: 53380,
@@ -4479,7 +4545,9 @@ module.exports = {
         mass: 2,
         pgen: 8.8,
         rating: "B",
-        symbol: "Int_Powerplant_Size2_Class4"
+        symbol: "Int_Powerplant_Size2_Class4",
+        ukName: "Power Plant",
+        ukDiscript: "Consumes fuel to power all ship modules."
       }, {
         class: 2,
         cost: 160138,
@@ -4492,7 +4560,9 @@ module.exports = {
         mass: 1.3,
         pgen: 9.6,
         rating: "A",
-        symbol: "Int_Powerplant_Size2_Class5"
+        symbol: "Int_Powerplant_Size2_Class5",
+        ukName: "Power Plant",
+        ukDiscript: "Consumes fuel to power all ship modules."
       }, {
         class: 2,
         cost: 192165,
@@ -4506,7 +4576,9 @@ module.exports = {
         pgen: 12.7,
         rating: "A",
         name: "Guardian Hybrid Power Plant",
-        symbol: "Int_GuardianPowerplant_Size2"
+        symbol: "Int_GuardianPowerplant_Size2",
+        ukName: "Guardian Power Plant",
+        ukDiscript: "Consumes fuel to power all ship modules. Enhanced with Guardian technology to produce greater power output, at the cost of heat generated and mass."
       }, {
         class: 3,
         cost: 576493,
@@ -4520,7 +4592,9 @@ module.exports = {
         pgen: 15.8,
         rating: "A",
         name: "Guardian Hybrid Power Plant",
-        symbol: "Int_GuardianPowerplant_Size3"
+        symbol: "Int_GuardianPowerplant_Size3",
+        ukName: "Guardian Power Plant",
+        ukDiscript: "Consumes fuel to power all ship modules. Enhanced with Guardian technology to produce greater power output, at the cost of heat generated and mass."
       }, {
         class: 4,
         cost: 1729480,
@@ -4534,7 +4608,9 @@ module.exports = {
         pgen: 20.6,
         rating: "A",
         name: "Guardian Hybrid Power Plant",
-        symbol: "Int_GuardianPowerplant_Size4"
+        symbol: "Int_GuardianPowerplant_Size4",
+        ukName: "Guardian Power Plant",
+        ukDiscript: "Consumes fuel to power all ship modules. Enhanced with Guardian technology to produce greater power output, at the cost of heat generated and mass."
       }, {
         class: 5,
         cost: 5188441,
@@ -4548,7 +4624,9 @@ module.exports = {
         pgen: 26.9,
         rating: "A",
         name: "Guardian Hybrid Power Plant",
-        symbol: "Int_GuardianPowerplant_Size5"
+        symbol: "Int_GuardianPowerplant_Size5",
+        ukName: "Guardian Power Plant",
+        ukDiscript: "Consumes fuel to power all ship modules. Enhanced with Guardian technology to produce greater power output, at the cost of heat generated and mass."
       }, {
         class: 6,
         cost: 15565317,
@@ -4562,7 +4640,9 @@ module.exports = {
         pgen: 33.3,
         rating: "A",
         name: "Guardian Hybrid Power Plant",
-        symbol: "Int_GuardianPowerplant_Size6"
+        symbol: "Int_GuardianPowerplant_Size6",
+        ukName: "Guardian Power Plant",
+        ukDiscript: "Consumes fuel to power all ship modules. Enhanced with Guardian technology to produce greater power output, at the cost of heat generated and mass."
       }, {
         class: 7,
         cost: 46695951,
@@ -4576,7 +4656,9 @@ module.exports = {
         pgen: 39.6,
         rating: "A",
         name: "Guardian Hybrid Power Plant",
-        symbol: "Int_GuardianPowerplant_Size7"
+        symbol: "Int_GuardianPowerplant_Size7",
+        ukName: "Guardian Power Plant",
+        ukDiscript: "Consumes fuel to power all ship modules. Enhanced with Guardian technology to produce greater power output, at the cost of heat generated and mass."
       }, {
         class: 8,
         cost: 140087850,
@@ -4590,7 +4672,9 @@ module.exports = {
         pgen: 47.5,
         rating: "A",
         name: "Guardian Hybrid Power Plant",
-        symbol: "Int_GuardianPowerplant_Size8"
+        symbol: "Int_GuardianPowerplant_Size8",
+        ukName: "Guardian Power Plant",
+        ukDiscript: "Consumes fuel to power all ship modules. Enhanced with Guardian technology to produce greater power output, at the cost of heat generated and mass."
       } ],
       t: [ {
         class: 8,
@@ -4609,7 +4693,9 @@ module.exports = {
         optmul: 1,
         power: 7.2,
         rating: "E",
-        symbol: "Int_Engine_Size8_Class1"
+        symbol: "Int_Engine_Size8_Class1",
+        ukName: "Thrusters",
+        ukDiscript: "Normal-space propulsion system. "
       }, {
         class: 8,
         cost: 6021720,
@@ -4627,7 +4713,9 @@ module.exports = {
         optmul: 1,
         power: 8.1,
         rating: "D",
-        symbol: "Int_Engine_Size8_Class2"
+        symbol: "Int_Engine_Size8_Class2",
+        ukName: "Thrusters",
+        ukDiscript: "Normal-space propulsion system. "
       }, {
         class: 8,
         cost: 18065170,
@@ -4645,7 +4733,9 @@ module.exports = {
         optmul: 1,
         power: 9,
         rating: "C",
-        symbol: "Int_Engine_Size8_Class3"
+        symbol: "Int_Engine_Size8_Class3",
+        ukName: "Thrusters",
+        ukDiscript: "Normal-space propulsion system. "
       }, {
         class: 8,
         cost: 54195500,
@@ -4663,7 +4753,9 @@ module.exports = {
         optmul: 1,
         power: 9.9,
         rating: "B",
-        symbol: "Int_Engine_Size8_Class4"
+        symbol: "Int_Engine_Size8_Class4",
+        ukName: "Thrusters",
+        ukDiscript: "Normal-space propulsion system. "
       }, {
         class: 8,
         cost: 162586490,
@@ -4681,7 +4773,9 @@ module.exports = {
         optmul: 1,
         power: 10.8,
         rating: "A",
-        symbol: "Int_Engine_Size8_Class5"
+        symbol: "Int_Engine_Size8_Class5",
+        ukName: "Thrusters",
+        ukDiscript: "Normal-space propulsion system. "
       }, {
         class: 7,
         cost: 633200,
@@ -4699,7 +4793,9 @@ module.exports = {
         optmul: 1,
         power: 6.08,
         rating: "E",
-        symbol: "Int_Engine_Size7_Class1"
+        symbol: "Int_Engine_Size7_Class1",
+        ukName: "Thrusters",
+        ukDiscript: "Normal-space propulsion system. "
       }, {
         class: 7,
         cost: 1899600,
@@ -4717,7 +4813,9 @@ module.exports = {
         optmul: 1,
         power: 6.84,
         rating: "D",
-        symbol: "Int_Engine_Size7_Class2"
+        symbol: "Int_Engine_Size7_Class2",
+        ukName: "Thrusters",
+        ukDiscript: "Normal-space propulsion system. "
       }, {
         class: 7,
         cost: 5698790,
@@ -4735,7 +4833,9 @@ module.exports = {
         optmul: 1,
         power: 7.6,
         rating: "C",
-        symbol: "Int_Engine_Size7_Class3"
+        symbol: "Int_Engine_Size7_Class3",
+        ukName: "Thrusters",
+        ukDiscript: "Normal-space propulsion system. "
       }, {
         class: 7,
         cost: 17096370,
@@ -4753,7 +4853,9 @@ module.exports = {
         optmul: 1,
         power: 8.36,
         rating: "B",
-        symbol: "Int_Engine_Size7_Class4"
+        symbol: "Int_Engine_Size7_Class4",
+        ukName: "Thrusters",
+        ukDiscript: "Normal-space propulsion system. "
       }, {
         class: 7,
         cost: 51289110,
@@ -4771,7 +4873,9 @@ module.exports = {
         optmul: 1,
         power: 9.12,
         rating: "A",
-        symbol: "Int_Engine_Size7_Class5"
+        symbol: "Int_Engine_Size7_Class5",
+        ukName: "Thrusters",
+        ukDiscript: "Normal-space propulsion system. "
       }, {
         class: 6,
         cost: 199750,
@@ -4789,7 +4893,9 @@ module.exports = {
         optmul: 1,
         power: 5.04,
         rating: "E",
-        symbol: "Int_Engine_Size6_Class1"
+        symbol: "Int_Engine_Size6_Class1",
+        ukName: "Thrusters",
+        ukDiscript: "Normal-space propulsion system. "
       }, {
         class: 6,
         cost: 599240,
@@ -4807,7 +4913,9 @@ module.exports = {
         optmul: 1,
         power: 5.67,
         rating: "D",
-        symbol: "Int_Engine_Size6_Class2"
+        symbol: "Int_Engine_Size6_Class2",
+        ukName: "Thrusters",
+        ukDiscript: "Normal-space propulsion system. "
       }, {
         class: 6,
         cost: 1797730,
@@ -4825,7 +4933,9 @@ module.exports = {
         optmul: 1,
         power: 6.3,
         rating: "C",
-        symbol: "Int_Engine_Size6_Class3"
+        symbol: "Int_Engine_Size6_Class3",
+        ukName: "Thrusters",
+        ukDiscript: "Normal-space propulsion system. "
       }, {
         class: 6,
         cost: 5393180,
@@ -4843,7 +4953,9 @@ module.exports = {
         optmul: 1,
         power: 6.93,
         rating: "B",
-        symbol: "Int_Engine_Size6_Class4"
+        symbol: "Int_Engine_Size6_Class4",
+        ukName: "Thrusters",
+        ukDiscript: "Normal-space propulsion system. "
       }, {
         class: 6,
         cost: 16179530,
@@ -4861,7 +4973,9 @@ module.exports = {
         optmul: 1,
         power: 7.56,
         rating: "A",
-        symbol: "Int_Engine_Size6_Class5"
+        symbol: "Int_Engine_Size6_Class5",
+        ukName: "Thrusters",
+        ukDiscript: "Normal-space propulsion system. "
       }, {
         class: 5,
         cost: 63010,
@@ -4879,7 +4993,9 @@ module.exports = {
         optmul: 1,
         power: 4.08,
         rating: "E",
-        symbol: "Int_Engine_Size5_Class1"
+        symbol: "Int_Engine_Size5_Class1",
+        ukName: "Thrusters",
+        ukDiscript: "Normal-space propulsion system. "
       }, {
         class: 5,
         cost: 189040,
@@ -4897,7 +5013,9 @@ module.exports = {
         optmul: 1,
         power: 4.59,
         rating: "D",
-        symbol: "Int_Engine_Size5_Class2"
+        symbol: "Int_Engine_Size5_Class2",
+        ukName: "Thrusters",
+        ukDiscript: "Normal-space propulsion system. "
       }, {
         class: 5,
         cost: 567110,
@@ -4915,7 +5033,9 @@ module.exports = {
         optmul: 1,
         power: 5.1,
         rating: "C",
-        symbol: "Int_Engine_Size5_Class3"
+        symbol: "Int_Engine_Size5_Class3",
+        ukName: "Thrusters",
+        ukDiscript: "Normal-space propulsion system. "
       }, {
         class: 5,
         cost: 1701320,
@@ -4933,7 +5053,9 @@ module.exports = {
         optmul: 1,
         power: 5.61,
         rating: "B",
-        symbol: "Int_Engine_Size5_Class4"
+        symbol: "Int_Engine_Size5_Class4",
+        ukName: "Thrusters",
+        ukDiscript: "Normal-space propulsion system. "
       }, {
         class: 5,
         cost: 5103950,
@@ -4951,7 +5073,9 @@ module.exports = {
         optmul: 1,
         power: 6.12,
         rating: "A",
-        symbol: "Int_Engine_Size5_Class5"
+        symbol: "Int_Engine_Size5_Class5",
+        ukName: "Thrusters",
+        ukDiscript: "Normal-space propulsion system. "
       }, {
         class: 4,
         cost: 19880,
@@ -4969,7 +5093,9 @@ module.exports = {
         optmul: 1,
         power: 3.28,
         rating: "E",
-        symbol: "Int_Engine_Size4_Class1"
+        symbol: "Int_Engine_Size4_Class1",
+        ukName: "Thrusters",
+        ukDiscript: "Normal-space propulsion system. "
       }, {
         class: 4,
         cost: 59630,
@@ -4987,7 +5113,9 @@ module.exports = {
         optmul: 1,
         power: 3.69,
         rating: "D",
-        symbol: "Int_Engine_Size4_Class2"
+        symbol: "Int_Engine_Size4_Class2",
+        ukName: "Thrusters",
+        ukDiscript: "Normal-space propulsion system. "
       }, {
         class: 4,
         cost: 178900,
@@ -5005,7 +5133,9 @@ module.exports = {
         optmul: 1,
         power: 4.1,
         rating: "C",
-        symbol: "Int_Engine_Size4_Class3"
+        symbol: "Int_Engine_Size4_Class3",
+        ukName: "Thrusters",
+        ukDiscript: "Normal-space propulsion system. "
       }, {
         class: 4,
         cost: 536690,
@@ -5023,7 +5153,9 @@ module.exports = {
         optmul: 1,
         power: 4.51,
         rating: "B",
-        symbol: "Int_Engine_Size4_Class4"
+        symbol: "Int_Engine_Size4_Class4",
+        ukName: "Thrusters",
+        ukDiscript: "Normal-space propulsion system. "
       }, {
         class: 4,
         cost: 1610080,
@@ -5041,7 +5173,9 @@ module.exports = {
         optmul: 1,
         power: 4.92,
         rating: "A",
-        symbol: "Int_Engine_Size4_Class5"
+        symbol: "Int_Engine_Size4_Class5",
+        ukName: "Thrusters",
+        ukDiscript: "Normal-space propulsion system. "
       }, {
         class: 3,
         cost: 6270,
@@ -5059,7 +5193,9 @@ module.exports = {
         optmul: 1,
         power: 2.48,
         rating: "E",
-        symbol: "Int_Engine_Size3_Class1"
+        symbol: "Int_Engine_Size3_Class1",
+        ukName: "Thrusters",
+        ukDiscript: "Normal-space propulsion system. "
       }, {
         class: 3,
         cost: 18810,
@@ -5077,7 +5213,9 @@ module.exports = {
         optmul: 1,
         power: 2.79,
         rating: "D",
-        symbol: "Int_Engine_Size3_Class2"
+        symbol: "Int_Engine_Size3_Class2",
+        ukName: "Thrusters",
+        ukDiscript: "Normal-space propulsion system. "
       }, {
         class: 3,
         cost: 56440,
@@ -5095,7 +5233,9 @@ module.exports = {
         optmul: 1,
         power: 3.1,
         rating: "C",
-        symbol: "Int_Engine_Size3_Class3"
+        symbol: "Int_Engine_Size3_Class3",
+        ukName: "Thrusters",
+        ukDiscript: "Normal-space propulsion system. "
       }, {
         class: 3,
         cost: 169300,
@@ -5113,7 +5253,9 @@ module.exports = {
         optmul: 1,
         power: 3.41,
         rating: "B",
-        symbol: "Int_Engine_Size3_Class4"
+        symbol: "Int_Engine_Size3_Class4",
+        ukName: "Thrusters",
+        ukDiscript: "Normal-space propulsion system. "
       }, {
         class: 3,
         cost: 507910,
@@ -5131,7 +5273,9 @@ module.exports = {
         optmul: 1,
         power: 3.72,
         rating: "A",
-        symbol: "Int_Engine_Size3_Class5"
+        symbol: "Int_Engine_Size3_Class5",
+        ukName: "Thrusters",
+        ukDiscript: "Normal-space propulsion system. "
       }, {
         class: 2,
         cost: 1980,
@@ -5149,7 +5293,9 @@ module.exports = {
         optmul: 1,
         power: 2,
         rating: "E",
-        symbol: "Int_Engine_Size2_Class1"
+        symbol: "Int_Engine_Size2_Class1",
+        ukName: "Thrusters",
+        ukDiscript: "Normal-space propulsion system. "
       }, {
         class: 2,
         cost: 5930,
@@ -5167,7 +5313,9 @@ module.exports = {
         optmul: 1,
         power: 2.25,
         rating: "D",
-        symbol: "Int_Engine_Size2_Class2"
+        symbol: "Int_Engine_Size2_Class2",
+        ukName: "Thrusters",
+        ukDiscript: "Normal-space propulsion system. "
       }, {
         class: 2,
         cost: 17800,
@@ -5185,7 +5333,9 @@ module.exports = {
         optmul: 1,
         power: 2.5,
         rating: "C",
-        symbol: "Int_Engine_Size2_Class3"
+        symbol: "Int_Engine_Size2_Class3",
+        ukName: "Thrusters",
+        ukDiscript: "Normal-space propulsion system. "
       }, {
         class: 2,
         cost: 53410,
@@ -5203,7 +5353,9 @@ module.exports = {
         optmul: 1,
         power: 2.75,
         rating: "B",
-        symbol: "Int_Engine_Size2_Class4"
+        symbol: "Int_Engine_Size2_Class4",
+        ukName: "Thrusters",
+        ukDiscript: "Normal-space propulsion system. "
       }, {
         class: 2,
         cost: 160220,
@@ -5221,7 +5373,9 @@ module.exports = {
         optmul: 1,
         power: 3,
         rating: "A",
-        symbol: "Int_Engine_Size2_Class5"
+        symbol: "Int_Engine_Size2_Class5",
+        ukName: "Thrusters",
+        ukDiscript: "Normal-space propulsion system. "
       }, {
         class: 3,
         cost: 5103950,
@@ -5249,7 +5403,9 @@ module.exports = {
         optmulspeed: 1.25,
         power: 5,
         rating: "A",
-        symbol: "Int_Engine_Size3_Class5_Fast"
+        symbol: "Int_Engine_Size3_Class5_Fast",
+        ukName: "Thrusters",
+        ukDiscript: "Enhanced performance normal-space propulsion system."
       }, {
         class: 2,
         cost: 1610080,
@@ -5277,7 +5433,9 @@ module.exports = {
         optmulspeed: 1.25,
         power: 4,
         rating: "A",
-        symbol: "Int_Engine_Size2_Class5_Fast"
+        symbol: "Int_Engine_Size2_Class5_Fast",
+        ukName: "Thrusters",
+        ukDiscript: "Enhanced performance normal-space propulsion system."
       } ],
       fsd: [ {
         class: 8,
@@ -5294,7 +5452,9 @@ module.exports = {
         optmass: 0,
         power: .56,
         rating: "E",
-        symbol: "Int_Hyperdrive_Size8_Class1"
+        symbol: "Int_Hyperdrive_Size8_Class1",
+        ukName: "FSD",
+        ukDiscript: "Device that allows supercruise travel and hyperspace jumps between star systems."
       }, {
         class: 8,
         cost: 6021723,
@@ -5310,7 +5470,9 @@ module.exports = {
         optmass: 0,
         power: .63,
         rating: "D",
-        symbol: "Int_Hyperdrive_Size8_Class2"
+        symbol: "Int_Hyperdrive_Size8_Class2",
+        ukName: "FSD",
+        ukDiscript: "Device that allows supercruise travel and hyperspace jumps between star systems."
       }, {
         class: 8,
         cost: 18065166,
@@ -5326,7 +5488,9 @@ module.exports = {
         optmass: 0,
         power: .7,
         rating: "C",
-        symbol: "Int_Hyperdrive_Size8_Class3"
+        symbol: "Int_Hyperdrive_Size8_Class3",
+        ukName: "FSD",
+        ukDiscript: "Device that allows supercruise travel and hyperspace jumps between star systems."
       }, {
         class: 8,
         cost: 54195496,
@@ -5342,7 +5506,9 @@ module.exports = {
         optmass: 0,
         power: .88,
         rating: "B",
-        symbol: "Int_Hyperdrive_Size8_Class4"
+        symbol: "Int_Hyperdrive_Size8_Class4",
+        ukName: "FSD",
+        ukDiscript: "Device that allows supercruise travel and hyperspace jumps between star systems."
       }, {
         class: 8,
         cost: 162586488,
@@ -5358,7 +5524,9 @@ module.exports = {
         optmass: 0,
         power: 1.05,
         rating: "A",
-        symbol: "Int_Hyperdrive_Size8_Class5"
+        symbol: "Int_Hyperdrive_Size8_Class5",
+        ukName: "FSD",
+        ukDiscript: "Device that allows supercruise travel and hyperspace jumps between star systems."
       }, {
         class: 7,
         cost: 633200,
@@ -5374,7 +5542,9 @@ module.exports = {
         optmass: 1440,
         power: .48,
         rating: "E",
-        symbol: "Int_Hyperdrive_Size7_Class1"
+        symbol: "Int_Hyperdrive_Size7_Class1",
+        ukName: "FSD",
+        ukDiscript: "Device that allows supercruise travel and hyperspace jumps between star systems."
       }, {
         class: 7,
         cost: 1899600,
@@ -5390,7 +5560,9 @@ module.exports = {
         optmass: 1620,
         power: .54,
         rating: "D",
-        symbol: "Int_Hyperdrive_Size7_Class2"
+        symbol: "Int_Hyperdrive_Size7_Class2",
+        ukName: "FSD",
+        ukDiscript: "Device that allows supercruise travel and hyperspace jumps between star systems."
       }, {
         class: 7,
         cost: 5698790,
@@ -5406,7 +5578,9 @@ module.exports = {
         optmass: 1800,
         power: .6,
         rating: "C",
-        symbol: "Int_Hyperdrive_Size7_Class3"
+        symbol: "Int_Hyperdrive_Size7_Class3",
+        ukName: "FSD",
+        ukDiscript: "Device that allows supercruise travel and hyperspace jumps between star systems."
       }, {
         class: 7,
         cost: 17096370,
@@ -5422,7 +5596,9 @@ module.exports = {
         optmass: 2250,
         power: .75,
         rating: "B",
-        symbol: "Int_Hyperdrive_Size7_Class4"
+        symbol: "Int_Hyperdrive_Size7_Class4",
+        ukName: "FSD",
+        ukDiscript: "Device that allows supercruise travel and hyperspace jumps between star systems."
       }, {
         class: 7,
         cost: 51289110,
@@ -5438,7 +5614,9 @@ module.exports = {
         optmass: 2700,
         power: .9,
         rating: "A",
-        symbol: "Int_Hyperdrive_Size7_Class5"
+        symbol: "Int_Hyperdrive_Size7_Class5",
+        ukName: "FSD",
+        ukDiscript: "Device that allows supercruise travel and hyperspace jumps between star systems."
       }, {
         class: 6,
         cost: 199750,
@@ -5454,7 +5632,9 @@ module.exports = {
         optmass: 960,
         power: .4,
         rating: "E",
-        symbol: "Int_Hyperdrive_Size6_Class1"
+        symbol: "Int_Hyperdrive_Size6_Class1",
+        ukName: "FSD",
+        ukDiscript: "Device that allows supercruise travel and hyperspace jumps between star systems."
       }, {
         class: 6,
         cost: 599240,
@@ -5470,7 +5650,9 @@ module.exports = {
         optmass: 1080,
         power: .45,
         rating: "D",
-        symbol: "Int_Hyperdrive_Size6_Class2"
+        symbol: "Int_Hyperdrive_Size6_Class2",
+        ukName: "FSD",
+        ukDiscript: "Device that allows supercruise travel and hyperspace jumps between star systems."
       }, {
         class: 6,
         cost: 1797730,
@@ -5486,7 +5668,9 @@ module.exports = {
         optmass: 1200,
         power: .5,
         rating: "C",
-        symbol: "Int_Hyperdrive_Size6_Class3"
+        symbol: "Int_Hyperdrive_Size6_Class3",
+        ukName: "FSD",
+        ukDiscript: "Device that allows supercruise travel and hyperspace jumps between star systems."
       }, {
         class: 6,
         cost: 5393180,
@@ -5502,7 +5686,9 @@ module.exports = {
         optmass: 1500,
         power: .63,
         rating: "B",
-        symbol: "Int_Hyperdrive_Size6_Class4"
+        symbol: "Int_Hyperdrive_Size6_Class4",
+        ukName: "FSD",
+        ukDiscript: "Device that allows supercruise travel and hyperspace jumps between star systems."
       }, {
         class: 6,
         cost: 16179530,
@@ -5518,7 +5704,9 @@ module.exports = {
         optmass: 1800,
         power: .75,
         rating: "A",
-        symbol: "Int_Hyperdrive_Size6_Class5"
+        symbol: "Int_Hyperdrive_Size6_Class5",
+        ukName: "FSD",
+        ukDiscript: "Device that allows supercruise travel and hyperspace jumps between star systems."
       }, {
         class: 5,
         cost: 63010,
@@ -5534,7 +5722,9 @@ module.exports = {
         optmass: 560,
         power: .32,
         rating: "E",
-        symbol: "Int_Hyperdrive_Size5_Class1"
+        symbol: "Int_Hyperdrive_Size5_Class1",
+        ukName: "FSD",
+        ukDiscript: "Device that allows supercruise travel and hyperspace jumps between star systems."
       }, {
         class: 5,
         cost: 189040,
@@ -5550,7 +5740,9 @@ module.exports = {
         optmass: 630,
         power: .36,
         rating: "D",
-        symbol: "Int_Hyperdrive_Size5_Class2"
+        symbol: "Int_Hyperdrive_Size5_Class2",
+        ukName: "FSD",
+        ukDiscript: "Device that allows supercruise travel and hyperspace jumps between star systems."
       }, {
         class: 5,
         cost: 567110,
@@ -5566,7 +5758,9 @@ module.exports = {
         optmass: 700,
         power: .4,
         rating: "C",
-        symbol: "Int_Hyperdrive_Size5_Class3"
+        symbol: "Int_Hyperdrive_Size5_Class3",
+        ukName: "FSD",
+        ukDiscript: "Device that allows supercruise travel and hyperspace jumps between star systems."
       }, {
         class: 5,
         cost: 1701320,
@@ -5582,7 +5776,9 @@ module.exports = {
         optmass: 875,
         power: .5,
         rating: "B",
-        symbol: "Int_Hyperdrive_Size5_Class4"
+        symbol: "Int_Hyperdrive_Size5_Class4",
+        ukName: "FSD",
+        ukDiscript: "Device that allows supercruise travel and hyperspace jumps between star systems."
       }, {
         class: 5,
         cost: 5103950,
@@ -5598,7 +5794,9 @@ module.exports = {
         optmass: 1050,
         power: .6,
         rating: "A",
-        symbol: "Int_Hyperdrive_Size5_Class5"
+        symbol: "Int_Hyperdrive_Size5_Class5",
+        ukName: "FSD",
+        ukDiscript: "Device that allows supercruise travel and hyperspace jumps between star systems."
       }, {
         class: 4,
         cost: 19880,
@@ -5614,7 +5812,9 @@ module.exports = {
         optmass: 280,
         power: .24,
         rating: "E",
-        symbol: "Int_Hyperdrive_Size4_Class1"
+        symbol: "Int_Hyperdrive_Size4_Class1",
+        ukName: "FSD",
+        ukDiscript: "Device that allows supercruise travel and hyperspace jumps between star systems."
       }, {
         class: 4,
         cost: 59630,
@@ -5630,7 +5830,9 @@ module.exports = {
         optmass: 315,
         power: .27,
         rating: "D",
-        symbol: "Int_Hyperdrive_Size4_Class2"
+        symbol: "Int_Hyperdrive_Size4_Class2",
+        ukName: "FSD",
+        ukDiscript: "Device that allows supercruise travel and hyperspace jumps between star systems."
       }, {
         class: 4,
         cost: 178900,
@@ -5646,7 +5848,9 @@ module.exports = {
         optmass: 350,
         power: .3,
         rating: "C",
-        symbol: "Int_Hyperdrive_Size4_Class3"
+        symbol: "Int_Hyperdrive_Size4_Class3",
+        ukName: "FSD",
+        ukDiscript: "Device that allows supercruise travel and hyperspace jumps between star systems."
       }, {
         class: 4,
         cost: 536690,
@@ -5662,7 +5866,9 @@ module.exports = {
         optmass: 437.5,
         power: .38,
         rating: "B",
-        symbol: "Int_Hyperdrive_Size4_Class4"
+        symbol: "Int_Hyperdrive_Size4_Class4",
+        ukName: "FSD",
+        ukDiscript: "Device that allows supercruise travel and hyperspace jumps between star systems."
       }, {
         class: 4,
         cost: 1610080,
@@ -5678,7 +5884,9 @@ module.exports = {
         optmass: 525,
         power: .45,
         rating: "A",
-        symbol: "Int_Hyperdrive_Size4_Class5"
+        symbol: "Int_Hyperdrive_Size4_Class5",
+        ukName: "FSD",
+        ukDiscript: "Device that allows supercruise travel and hyperspace jumps between star systems."
       }, {
         class: 3,
         cost: 6270,
@@ -5694,7 +5902,9 @@ module.exports = {
         optmass: 80,
         power: .24,
         rating: "E",
-        symbol: "Int_Hyperdrive_Size3_Class1"
+        symbol: "Int_Hyperdrive_Size3_Class1",
+        ukName: "FSD",
+        ukDiscript: "Device that allows supercruise travel and hyperspace jumps between star systems."
       }, {
         class: 3,
         cost: 18810,
@@ -5710,7 +5920,9 @@ module.exports = {
         optmass: 90,
         power: .27,
         rating: "D",
-        symbol: "Int_Hyperdrive_Size3_Class2"
+        symbol: "Int_Hyperdrive_Size3_Class2",
+        ukName: "FSD",
+        ukDiscript: "Device that allows supercruise travel and hyperspace jumps between star systems."
       }, {
         class: 3,
         cost: 56440,
@@ -5726,7 +5938,9 @@ module.exports = {
         optmass: 100,
         power: .3,
         rating: "C",
-        symbol: "Int_Hyperdrive_Size3_Class3"
+        symbol: "Int_Hyperdrive_Size3_Class3",
+        ukName: "FSD",
+        ukDiscript: "Device that allows supercruise travel and hyperspace jumps between star systems."
       }, {
         class: 3,
         cost: 169300,
@@ -5742,7 +5956,9 @@ module.exports = {
         optmass: 125,
         power: .38,
         rating: "B",
-        symbol: "Int_Hyperdrive_Size3_Class4"
+        symbol: "Int_Hyperdrive_Size3_Class4",
+        ukName: "FSD",
+        ukDiscript: "Device that allows supercruise travel and hyperspace jumps between star systems."
       }, {
         class: 3,
         cost: 507910,
@@ -5758,7 +5974,9 @@ module.exports = {
         optmass: 150,
         power: .45,
         rating: "A",
-        symbol: "Int_Hyperdrive_Size3_Class5"
+        symbol: "Int_Hyperdrive_Size3_Class5",
+        ukName: "FSD",
+        ukDiscript: "Device that allows supercruise travel and hyperspace jumps between star systems."
       }, {
         class: 2,
         cost: 1980,
@@ -5774,7 +5992,9 @@ module.exports = {
         optmass: 48,
         power: .16,
         rating: "E",
-        symbol: "Int_Hyperdrive_Size2_Class1"
+        symbol: "Int_Hyperdrive_Size2_Class1",
+        ukName: "FSD",
+        ukDiscript: "Device that allows supercruise travel and hyperspace jumps between star systems."
       }, {
         class: 2,
         cost: 5930,
@@ -5790,7 +6010,9 @@ module.exports = {
         optmass: 54,
         power: .18,
         rating: "D",
-        symbol: "Int_Hyperdrive_Size2_Class2"
+        symbol: "Int_Hyperdrive_Size2_Class2",
+        ukName: "FSD",
+        ukDiscript: "Device that allows supercruise travel and hyperspace jumps between star systems."
       }, {
         class: 2,
         cost: 17800,
@@ -5806,7 +6028,9 @@ module.exports = {
         optmass: 60,
         power: .2,
         rating: "C",
-        symbol: "Int_Hyperdrive_Size2_Class3"
+        symbol: "Int_Hyperdrive_Size2_Class3",
+        ukName: "FSD",
+        ukDiscript: "Device that allows supercruise travel and hyperspace jumps between star systems."
       }, {
         class: 2,
         cost: 53410,
@@ -5822,7 +6046,9 @@ module.exports = {
         optmass: 75,
         power: .25,
         rating: "B",
-        symbol: "Int_Hyperdrive_Size2_Class4"
+        symbol: "Int_Hyperdrive_Size2_Class4",
+        ukName: "FSD",
+        ukDiscript: "Device that allows supercruise travel and hyperspace jumps between star systems."
       }, {
         class: 2,
         cost: 160220,
@@ -5838,7 +6064,9 @@ module.exports = {
         optmass: 90,
         power: .3,
         rating: "A",
-        symbol: "Int_Hyperdrive_Size2_Class5"
+        symbol: "Int_Hyperdrive_Size2_Class5",
+        ukName: "FSD",
+        ukDiscript: "Device that allows supercruise travel and hyperspace jumps between star systems."
       } ],
       ls: [ {
         boot: 1,
@@ -5853,7 +6081,9 @@ module.exports = {
         power: .8,
         rating: "E",
         time: 300,
-        symbol: "Int_LifeSupport_Size8_Class1"
+        symbol: "Int_LifeSupport_Size8_Class1",
+        ukName: "Life Support",
+        ukDiscript: "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
       }, {
         boot: 1,
         class: 8,
@@ -5867,7 +6097,9 @@ module.exports = {
         power: .9,
         rating: "D",
         time: 450,
-        symbol: "Int_LifeSupport_Size8_Class2"
+        symbol: "Int_LifeSupport_Size8_Class2",
+        ukName: "Life Support",
+        ukDiscript: "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
       }, {
         boot: 1,
         class: 8,
@@ -5881,7 +6113,9 @@ module.exports = {
         power: 1,
         rating: "C",
         time: 600,
-        symbol: "Int_LifeSupport_Size8_Class3"
+        symbol: "Int_LifeSupport_Size8_Class3",
+        ukName: "Life Support",
+        ukDiscript: "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
       }, {
         boot: 1,
         class: 8,
@@ -5895,7 +6129,9 @@ module.exports = {
         power: 1.1,
         rating: "B",
         time: 900,
-        symbol: "Int_LifeSupport_Size8_Class4"
+        symbol: "Int_LifeSupport_Size8_Class4",
+        ukName: "Life Support",
+        ukDiscript: "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
       }, {
         boot: 1,
         class: 8,
@@ -5909,7 +6145,9 @@ module.exports = {
         power: 1.2,
         rating: "A",
         time: 1500,
-        symbol: "Int_LifeSupport_Size8_Class5"
+        symbol: "Int_LifeSupport_Size8_Class5",
+        ukName: "Life Support",
+        ukDiscript: "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
       }, {
         boot: 1,
         class: 7,
@@ -5923,7 +6161,9 @@ module.exports = {
         power: .72,
         rating: "E",
         time: 300,
-        symbol: "Int_LifeSupport_Size7_Class1"
+        symbol: "Int_LifeSupport_Size7_Class1",
+        ukName: "Life Support",
+        ukDiscript: "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
       }, {
         boot: 1,
         class: 7,
@@ -5937,7 +6177,9 @@ module.exports = {
         power: .81,
         rating: "D",
         time: 450,
-        symbol: "Int_LifeSupport_Size7_Class2"
+        symbol: "Int_LifeSupport_Size7_Class2",
+        ukName: "Life Support",
+        ukDiscript: "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
       }, {
         boot: 1,
         class: 7,
@@ -5951,7 +6193,9 @@ module.exports = {
         power: .9,
         rating: "C",
         time: 600,
-        symbol: "Int_LifeSupport_Size7_Class3"
+        symbol: "Int_LifeSupport_Size7_Class3",
+        ukName: "Life Support",
+        ukDiscript: "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
       }, {
         boot: 1,
         class: 7,
@@ -5965,7 +6209,9 @@ module.exports = {
         power: .99,
         rating: "B",
         time: 900,
-        symbol: "Int_LifeSupport_Size7_Class4"
+        symbol: "Int_LifeSupport_Size7_Class4",
+        ukName: "Life Support",
+        ukDiscript: "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
       }, {
         boot: 1,
         class: 7,
@@ -5979,7 +6225,9 @@ module.exports = {
         power: 1.08,
         rating: "A",
         time: 1500,
-        symbol: "Int_LifeSupport_Size7_Class5"
+        symbol: "Int_LifeSupport_Size7_Class5",
+        ukName: "Life Support",
+        ukDiscript: "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
       }, {
         boot: 1,
         class: 6,
@@ -5993,7 +6241,9 @@ module.exports = {
         power: .64,
         rating: "E",
         time: 300,
-        symbol: "Int_LifeSupport_Size6_Class1"
+        symbol: "Int_LifeSupport_Size6_Class1",
+        ukName: "Life Support",
+        ukDiscript: "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
       }, {
         boot: 1,
         class: 6,
@@ -6007,7 +6257,9 @@ module.exports = {
         power: .72,
         rating: "D",
         time: 450,
-        symbol: "Int_LifeSupport_Size6_Class2"
+        symbol: "Int_LifeSupport_Size6_Class2",
+        ukName: "Life Support",
+        ukDiscript: "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
       }, {
         boot: 1,
         class: 6,
@@ -6021,7 +6273,9 @@ module.exports = {
         power: .8,
         rating: "C",
         time: 600,
-        symbol: "Int_LifeSupport_Size6_Class3"
+        symbol: "Int_LifeSupport_Size6_Class3",
+        ukName: "Life Support",
+        ukDiscript: "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
       }, {
         boot: 1,
         class: 6,
@@ -6035,7 +6289,9 @@ module.exports = {
         power: .88,
         rating: "B",
         time: 900,
-        symbol: "Int_LifeSupport_Size6_Class4"
+        symbol: "Int_LifeSupport_Size6_Class4",
+        ukName: "Life Support",
+        ukDiscript: "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
       }, {
         boot: 1,
         class: 6,
@@ -6049,7 +6305,9 @@ module.exports = {
         power: .96,
         rating: "A",
         time: 1500,
-        symbol: "Int_LifeSupport_Size6_Class5"
+        symbol: "Int_LifeSupport_Size6_Class5",
+        ukName: "Life Support",
+        ukDiscript: "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
       }, {
         boot: 1,
         class: 5,
@@ -6063,7 +6321,9 @@ module.exports = {
         power: .57,
         rating: "E",
         time: 300,
-        symbol: "Int_LifeSupport_Size5_Class1"
+        symbol: "Int_LifeSupport_Size5_Class1",
+        ukName: "Life Support",
+        ukDiscript: "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
       }, {
         boot: 1,
         class: 5,
@@ -6077,7 +6337,9 @@ module.exports = {
         power: .64,
         rating: "D",
         time: 450,
-        symbol: "Int_LifeSupport_Size5_Class2"
+        symbol: "Int_LifeSupport_Size5_Class2",
+        ukName: "Life Support",
+        ukDiscript: "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
       }, {
         boot: 1,
         class: 5,
@@ -6091,7 +6353,9 @@ module.exports = {
         power: .71,
         rating: "C",
         time: 600,
-        symbol: "Int_LifeSupport_Size5_Class3"
+        symbol: "Int_LifeSupport_Size5_Class3",
+        ukName: "Life Support",
+        ukDiscript: "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
       }, {
         boot: 1,
         class: 5,
@@ -6105,7 +6369,9 @@ module.exports = {
         power: .78,
         rating: "B",
         time: 900,
-        symbol: "Int_LifeSupport_Size5_Class4"
+        symbol: "Int_LifeSupport_Size5_Class4",
+        ukName: "Life Support",
+        ukDiscript: "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
       }, {
         boot: 1,
         class: 5,
@@ -6119,7 +6385,9 @@ module.exports = {
         power: .85,
         rating: "A",
         time: 1500,
-        symbol: "Int_LifeSupport_Size5_Class5"
+        symbol: "Int_LifeSupport_Size5_Class5",
+        ukName: "Life Support",
+        ukDiscript: "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
       }, {
         boot: 1,
         class: 4,
@@ -6133,7 +6401,9 @@ module.exports = {
         power: .5,
         rating: "E",
         time: 300,
-        symbol: "Int_LifeSupport_Size4_Class1"
+        symbol: "Int_LifeSupport_Size4_Class1",
+        ukName: "Life Support",
+        ukDiscript: "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
       }, {
         boot: 1,
         class: 4,
@@ -6147,7 +6417,9 @@ module.exports = {
         power: .56,
         rating: "D",
         time: 450,
-        symbol: "Int_LifeSupport_Size4_Class2"
+        symbol: "Int_LifeSupport_Size4_Class2",
+        ukName: "Life Support",
+        ukDiscript: "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
       }, {
         boot: 1,
         class: 4,
@@ -6161,7 +6433,9 @@ module.exports = {
         power: .62,
         rating: "C",
         time: 600,
-        symbol: "Int_LifeSupport_Size4_Class3"
+        symbol: "Int_LifeSupport_Size4_Class3",
+        ukName: "Life Support",
+        ukDiscript: "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
       }, {
         boot: 1,
         class: 4,
@@ -6175,7 +6449,9 @@ module.exports = {
         power: .68,
         rating: "B",
         time: 900,
-        symbol: "Int_LifeSupport_Size4_Class4"
+        symbol: "Int_LifeSupport_Size4_Class4",
+        ukName: "Life Support",
+        ukDiscript: "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
       }, {
         boot: 1,
         class: 4,
@@ -6189,7 +6465,9 @@ module.exports = {
         power: .74,
         rating: "A",
         time: 1500,
-        symbol: "Int_LifeSupport_Size4_Class5"
+        symbol: "Int_LifeSupport_Size4_Class5",
+        ukName: "Life Support",
+        ukDiscript: "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
       }, {
         boot: 1,
         class: 3,
@@ -6203,7 +6481,9 @@ module.exports = {
         power: .42,
         rating: "E",
         time: 300,
-        symbol: "Int_LifeSupport_Size3_Class1"
+        symbol: "Int_LifeSupport_Size3_Class1",
+        ukName: "Life Support",
+        ukDiscript: "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
       }, {
         boot: 1,
         class: 3,
@@ -6217,7 +6497,9 @@ module.exports = {
         power: .48,
         rating: "D",
         time: 450,
-        symbol: "Int_LifeSupport_Size3_Class2"
+        symbol: "Int_LifeSupport_Size3_Class2",
+        ukName: "Life Support",
+        ukDiscript: "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
       }, {
         boot: 1,
         class: 3,
@@ -6231,7 +6513,9 @@ module.exports = {
         power: .53,
         rating: "C",
         time: 600,
-        symbol: "Int_LifeSupport_Size3_Class3"
+        symbol: "Int_LifeSupport_Size3_Class3",
+        ukName: "Life Support",
+        ukDiscript: "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
       }, {
         boot: 1,
         class: 3,
@@ -6245,7 +6529,9 @@ module.exports = {
         power: .58,
         rating: "B",
         time: 900,
-        symbol: "Int_LifeSupport_Size3_Class4"
+        symbol: "Int_LifeSupport_Size3_Class4",
+        ukName: "Life Support",
+        ukDiscript: "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
       }, {
         boot: 1,
         class: 3,
@@ -6259,7 +6545,9 @@ module.exports = {
         power: .64,
         rating: "A",
         time: 1500,
-        symbol: "Int_LifeSupport_Size3_Class5"
+        symbol: "Int_LifeSupport_Size3_Class5",
+        ukName: "Life Support",
+        ukDiscript: "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
       }, {
         boot: 1,
         class: 2,
@@ -6273,7 +6561,9 @@ module.exports = {
         power: .37,
         rating: "E",
         time: 300,
-        symbol: "Int_LifeSupport_Size2_Class1"
+        symbol: "Int_LifeSupport_Size2_Class1",
+        ukName: "Life Support",
+        ukDiscript: "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
       }, {
         boot: 1,
         class: 2,
@@ -6287,7 +6577,9 @@ module.exports = {
         power: .41,
         rating: "D",
         time: 450,
-        symbol: "Int_LifeSupport_Size2_Class2"
+        symbol: "Int_LifeSupport_Size2_Class2",
+        ukName: "Life Support",
+        ukDiscript: "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
       }, {
         boot: 1,
         class: 2,
@@ -6301,7 +6593,9 @@ module.exports = {
         power: .46,
         rating: "C",
         time: 600,
-        symbol: "Int_LifeSupport_Size2_Class3"
+        symbol: "Int_LifeSupport_Size2_Class3",
+        ukName: "Life Support",
+        ukDiscript: "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
       }, {
         boot: 1,
         class: 2,
@@ -6315,7 +6609,9 @@ module.exports = {
         power: .51,
         rating: "B",
         time: 900,
-        symbol: "Int_LifeSupport_Size2_Class4"
+        symbol: "Int_LifeSupport_Size2_Class4",
+        ukName: "Life Support",
+        ukDiscript: "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
       }, {
         boot: 1,
         class: 2,
@@ -6329,7 +6625,9 @@ module.exports = {
         power: .55,
         rating: "A",
         time: 1500,
-        symbol: "Int_LifeSupport_Size2_Class5"
+        symbol: "Int_LifeSupport_Size2_Class5",
+        ukName: "Life Support",
+        ukDiscript: "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
       }, {
         boot: 1,
         class: 1,
@@ -6343,7 +6641,9 @@ module.exports = {
         power: .32,
         rating: "E",
         time: 300,
-        symbol: "Int_LifeSupport_Size1_Class1"
+        symbol: "Int_LifeSupport_Size1_Class1",
+        ukName: "Life Support",
+        ukDiscript: "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
       }, {
         boot: 1,
         class: 1,
@@ -6357,7 +6657,9 @@ module.exports = {
         power: .36,
         rating: "D",
         time: 450,
-        symbol: "Int_LifeSupport_Size1_Class2"
+        symbol: "Int_LifeSupport_Size1_Class2",
+        ukName: "Life Support",
+        ukDiscript: "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
       }, {
         boot: 1,
         class: 1,
@@ -6371,7 +6673,9 @@ module.exports = {
         power: .4,
         rating: "C",
         time: 600,
-        symbol: "Int_LifeSupport_Size1_Class3"
+        symbol: "Int_LifeSupport_Size1_Class3",
+        ukName: "Life Support",
+        ukDiscript: "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
       }, {
         boot: 1,
         class: 1,
@@ -6385,7 +6689,9 @@ module.exports = {
         power: .44,
         rating: "B",
         time: 900,
-        symbol: "Int_LifeSupport_Size1_Class4"
+        symbol: "Int_LifeSupport_Size1_Class4",
+        ukName: "Life Support",
+        ukDiscript: "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
       }, {
         boot: 1,
         class: 1,
@@ -6399,7 +6705,9 @@ module.exports = {
         power: .48,
         rating: "A",
         time: 1500,
-        symbol: "Int_LifeSupport_Size1_Class5"
+        symbol: "Int_LifeSupport_Size1_Class5",
+        ukName: "Life Support",
+        ukDiscript: "Regulates habitable ship atmosphere and provides emergency reservoir for pilot's Remlock system. "
       } ],
       pd: [ {
         class: 8,
@@ -6418,7 +6726,9 @@ module.exports = {
         sysrate: 3.2,
         wepcap: 48,
         weprate: 4.8,
-        symbol: "Int_PowerDistributor_Size8_Class1"
+        symbol: "Int_PowerDistributor_Size8_Class1",
+        ukName: "Power Distributor",
+        ukDiscript: "Distribution system for ENG, SYS and WEP capacitors."
       }, {
         class: 8,
         cost: 1743960,
@@ -6436,7 +6746,9 @@ module.exports = {
         sysrate: 3.6,
         wepcap: 54,
         weprate: 5.4,
-        symbol: "Int_PowerDistributor_Size8_Class2"
+        symbol: "Int_PowerDistributor_Size8_Class2",
+        ukName: "Power Distributor",
+        ukDiscript: "Distribution system for ENG, SYS and WEP capacitors."
       }, {
         class: 8,
         cost: 4359900,
@@ -6454,7 +6766,9 @@ module.exports = {
         sysrate: 4,
         wepcap: 60,
         weprate: 6,
-        symbol: "Int_PowerDistributor_Size8_Class3"
+        symbol: "Int_PowerDistributor_Size8_Class3",
+        ukName: "Power Distributor",
+        ukDiscript: "Distribution system for ENG, SYS and WEP capacitors."
       }, {
         class: 8,
         cost: 10899760,
@@ -6472,7 +6786,9 @@ module.exports = {
         sysrate: 4.4,
         wepcap: 66,
         weprate: 6.6,
-        symbol: "Int_PowerDistributor_Size8_Class4"
+        symbol: "Int_PowerDistributor_Size8_Class4",
+        ukName: "Power Distributor",
+        ukDiscript: "Distribution system for ENG, SYS and WEP capacitors."
       }, {
         class: 8,
         cost: 27249390,
@@ -6490,7 +6806,9 @@ module.exports = {
         sysrate: 4.8,
         wepcap: 72,
         weprate: 7.2,
-        symbol: "Int_PowerDistributor_Size8_Class5"
+        symbol: "Int_PowerDistributor_Size8_Class5",
+        ukName: "Power Distributor",
+        ukDiscript: "Distribution system for ENG, SYS and WEP capacitors."
       }, {
         class: 7,
         cost: 249140,
@@ -6508,7 +6826,9 @@ module.exports = {
         sysrate: 2.6,
         wepcap: 41,
         weprate: 4.1,
-        symbol: "Int_PowerDistributor_Size7_Class1"
+        symbol: "Int_PowerDistributor_Size7_Class1",
+        ukName: "Power Distributor",
+        ukDiscript: "Distribution system for ENG, SYS and WEP capacitors."
       }, {
         class: 7,
         cost: 622840,
@@ -6526,7 +6846,9 @@ module.exports = {
         sysrate: 3,
         wepcap: 46,
         weprate: 4.6,
-        symbol: "Int_PowerDistributor_Size7_Class2"
+        symbol: "Int_PowerDistributor_Size7_Class2",
+        ukName: "Power Distributor",
+        ukDiscript: "Distribution system for ENG, SYS and WEP capacitors."
       }, {
         class: 7,
         cost: 1557110,
@@ -6544,7 +6866,9 @@ module.exports = {
         sysrate: 3.3,
         wepcap: 51,
         weprate: 5.1,
-        symbol: "Int_PowerDistributor_Size7_Class3"
+        symbol: "Int_PowerDistributor_Size7_Class3",
+        ukName: "Power Distributor",
+        ukDiscript: "Distribution system for ENG, SYS and WEP capacitors."
       }, {
         class: 7,
         cost: 3892770,
@@ -6562,7 +6886,9 @@ module.exports = {
         sysrate: 3.6,
         wepcap: 56,
         weprate: 5.6,
-        symbol: "Int_PowerDistributor_Size7_Class4"
+        symbol: "Int_PowerDistributor_Size7_Class4",
+        ukName: "Power Distributor",
+        ukDiscript: "Distribution system for ENG, SYS and WEP capacitors."
       }, {
         class: 7,
         cost: 9731930,
@@ -6580,7 +6906,9 @@ module.exports = {
         sysrate: 4,
         wepcap: 61,
         weprate: 6.1,
-        symbol: "Int_PowerDistributor_Size7_Class5"
+        symbol: "Int_PowerDistributor_Size7_Class5",
+        ukName: "Power Distributor",
+        ukDiscript: "Distribution system for ENG, SYS and WEP capacitors."
       }, {
         class: 6,
         cost: 88980,
@@ -6598,7 +6926,9 @@ module.exports = {
         sysrate: 2.2,
         wepcap: 34,
         weprate: 3.4,
-        symbol: "Int_PowerDistributor_Size6_Class1"
+        symbol: "Int_PowerDistributor_Size6_Class1",
+        ukName: "Power Distributor",
+        ukDiscript: "Distribution system for ENG, SYS and WEP capacitors."
       }, {
         class: 6,
         cost: 222440,
@@ -6616,7 +6946,9 @@ module.exports = {
         sysrate: 2.4,
         wepcap: 38,
         weprate: 3.9,
-        symbol: "Int_PowerDistributor_Size6_Class2"
+        symbol: "Int_PowerDistributor_Size6_Class2",
+        ukName: "Power Distributor",
+        ukDiscript: "Distribution system for ENG, SYS and WEP capacitors."
       }, {
         class: 6,
         cost: 556110,
@@ -6634,7 +6966,9 @@ module.exports = {
         sysrate: 2.7,
         wepcap: 42,
         weprate: 4.3,
-        symbol: "Int_PowerDistributor_Size6_Class3"
+        symbol: "Int_PowerDistributor_Size6_Class3",
+        ukName: "Power Distributor",
+        ukDiscript: "Distribution system for ENG, SYS and WEP capacitors."
       }, {
         class: 6,
         cost: 1390280,
@@ -6652,7 +6986,9 @@ module.exports = {
         sysrate: 3,
         wepcap: 46,
         weprate: 4.7,
-        symbol: "Int_PowerDistributor_Size6_Class4"
+        symbol: "Int_PowerDistributor_Size6_Class4",
+        ukName: "Power Distributor",
+        ukDiscript: "Distribution system for ENG, SYS and WEP capacitors."
       }, {
         class: 6,
         cost: 3475690,
@@ -6670,7 +7006,9 @@ module.exports = {
         sysrate: 3.2,
         wepcap: 50,
         weprate: 5.2,
-        symbol: "Int_PowerDistributor_Size6_Class5"
+        symbol: "Int_PowerDistributor_Size6_Class5",
+        ukName: "Power Distributor",
+        ukDiscript: "Distribution system for ENG, SYS and WEP capacitors."
       }, {
         class: 5,
         cost: 31780,
@@ -6688,7 +7026,9 @@ module.exports = {
         sysrate: 1.7,
         wepcap: 27,
         weprate: 2.9,
-        symbol: "Int_PowerDistributor_Size5_Class1"
+        symbol: "Int_PowerDistributor_Size5_Class1",
+        ukName: "Power Distributor",
+        ukDiscript: "Distribution system for ENG, SYS and WEP capacitors."
       }, {
         class: 5,
         cost: 79440,
@@ -6706,7 +7046,9 @@ module.exports = {
         sysrate: 1.9,
         wepcap: 31,
         weprate: 3.2,
-        symbol: "Int_PowerDistributor_Size5_Class2"
+        symbol: "Int_PowerDistributor_Size5_Class2",
+        ukName: "Power Distributor",
+        ukDiscript: "Distribution system for ENG, SYS and WEP capacitors."
       }, {
         class: 5,
         cost: 198610,
@@ -6724,7 +7066,9 @@ module.exports = {
         sysrate: 2.1,
         wepcap: 34,
         weprate: 3.6,
-        symbol: "Int_PowerDistributor_Size5_Class3"
+        symbol: "Int_PowerDistributor_Size5_Class3",
+        ukName: "Power Distributor",
+        ukDiscript: "Distribution system for ENG, SYS and WEP capacitors."
       }, {
         class: 5,
         cost: 496530,
@@ -6742,7 +7086,9 @@ module.exports = {
         sysrate: 2.3,
         wepcap: 37,
         weprate: 4,
-        symbol: "Int_PowerDistributor_Size5_Class4"
+        symbol: "Int_PowerDistributor_Size5_Class4",
+        ukName: "Power Distributor",
+        ukDiscript: "Distribution system for ENG, SYS and WEP capacitors."
       }, {
         class: 5,
         cost: 1241320,
@@ -6760,7 +7106,9 @@ module.exports = {
         sysrate: 2.5,
         wepcap: 41,
         weprate: 4.3,
-        symbol: "Int_PowerDistributor_Size5_Class5"
+        symbol: "Int_PowerDistributor_Size5_Class5",
+        ukName: "Power Distributor",
+        ukDiscript: "Distribution system for ENG, SYS and WEP capacitors."
       }, {
         class: 4,
         cost: 11350,
@@ -6778,7 +7126,9 @@ module.exports = {
         sysrate: 1.3,
         wepcap: 22,
         weprate: 2.3,
-        symbol: "Int_PowerDistributor_Size4_Class1"
+        symbol: "Int_PowerDistributor_Size4_Class1",
+        ukName: "Power Distributor",
+        ukDiscript: "Distribution system for ENG, SYS and WEP capacitors."
       }, {
         class: 4,
         cost: 28370,
@@ -6796,7 +7146,9 @@ module.exports = {
         sysrate: 1.4,
         wepcap: 24,
         weprate: 2.6,
-        symbol: "Int_PowerDistributor_Size4_Class2"
+        symbol: "Int_PowerDistributor_Size4_Class2",
+        ukName: "Power Distributor",
+        ukDiscript: "Distribution system for ENG, SYS and WEP capacitors."
       }, {
         class: 4,
         cost: 70930,
@@ -6814,7 +7166,9 @@ module.exports = {
         sysrate: 1.6,
         wepcap: 27,
         weprate: 2.9,
-        symbol: "Int_PowerDistributor_Size4_Class3"
+        symbol: "Int_PowerDistributor_Size4_Class3",
+        ukName: "Power Distributor",
+        ukDiscript: "Distribution system for ENG, SYS and WEP capacitors."
       }, {
         class: 4,
         cost: 177330,
@@ -6832,7 +7186,9 @@ module.exports = {
         sysrate: 1.8,
         wepcap: 30,
         weprate: 3.2,
-        symbol: "Int_PowerDistributor_Size4_Class4"
+        symbol: "Int_PowerDistributor_Size4_Class4",
+        ukName: "Power Distributor",
+        ukDiscript: "Distribution system for ENG, SYS and WEP capacitors."
       }, {
         class: 4,
         cost: 443330,
@@ -6850,7 +7206,9 @@ module.exports = {
         sysrate: 1.9,
         wepcap: 32,
         weprate: 3.5,
-        symbol: "Int_PowerDistributor_Size4_Class5"
+        symbol: "Int_PowerDistributor_Size4_Class5",
+        ukName: "Power Distributor",
+        ukDiscript: "Distribution system for ENG, SYS and WEP capacitors."
       }, {
         class: 3,
         cost: 4050,
@@ -6868,7 +7226,9 @@ module.exports = {
         sysrate: .9,
         wepcap: 16,
         weprate: 1.8,
-        symbol: "Int_PowerDistributor_Size3_Class1"
+        symbol: "Int_PowerDistributor_Size3_Class1",
+        ukName: "Power Distributor",
+        ukDiscript: "Distribution system for ENG, SYS and WEP capacitors."
       }, {
         class: 3,
         cost: 10130,
@@ -6886,7 +7246,9 @@ module.exports = {
         sysrate: 1,
         wepcap: 18,
         weprate: 2.1,
-        symbol: "Int_PowerDistributor_Size3_Class2"
+        symbol: "Int_PowerDistributor_Size3_Class2",
+        ukName: "Power Distributor",
+        ukDiscript: "Distribution system for ENG, SYS and WEP capacitors."
       }, {
         class: 3,
         cost: 25330,
@@ -6904,7 +7266,9 @@ module.exports = {
         sysrate: 1.1,
         wepcap: 20,
         weprate: 2.3,
-        symbol: "Int_PowerDistributor_Size3_Class3"
+        symbol: "Int_PowerDistributor_Size3_Class3",
+        ukName: "Power Distributor",
+        ukDiscript: "Distribution system for ENG, SYS and WEP capacitors."
       }, {
         class: 3,
         cost: 63330,
@@ -6922,7 +7286,9 @@ module.exports = {
         sysrate: 1.2,
         wepcap: 22,
         weprate: 2.5,
-        symbol: "Int_PowerDistributor_Size3_Class4"
+        symbol: "Int_PowerDistributor_Size3_Class4",
+        ukName: "Power Distributor",
+        ukDiscript: "Distribution system for ENG, SYS and WEP capacitors."
       }, {
         class: 3,
         cost: 158330,
@@ -6940,7 +7306,9 @@ module.exports = {
         sysrate: 1.3,
         wepcap: 24,
         weprate: 2.8,
-        symbol: "Int_PowerDistributor_Size3_Class5"
+        symbol: "Int_PowerDistributor_Size3_Class5",
+        ukName: "Power Distributor",
+        ukDiscript: "Distribution system for ENG, SYS and WEP capacitors."
       }, {
         class: 2,
         cost: 1450,
@@ -6958,7 +7326,9 @@ module.exports = {
         sysrate: .6,
         wepcap: 12,
         weprate: 1.4,
-        symbol: "Int_PowerDistributor_Size2_Class1"
+        symbol: "Int_PowerDistributor_Size2_Class1",
+        ukName: "Power Distributor",
+        ukDiscript: "Distribution system for ENG, SYS and WEP capacitors."
       }, {
         class: 2,
         cost: 3620,
@@ -6976,7 +7346,9 @@ module.exports = {
         sysrate: .6,
         wepcap: 14,
         weprate: 1.6,
-        symbol: "Int_PowerDistributor_Size2_Class2"
+        symbol: "Int_PowerDistributor_Size2_Class2",
+        ukName: "Power Distributor",
+        ukDiscript: "Distribution system for ENG, SYS and WEP capacitors."
       }, {
         class: 2,
         cost: 9050,
@@ -6994,7 +7366,9 @@ module.exports = {
         sysrate: .7,
         wepcap: 15,
         weprate: 1.8,
-        symbol: "Int_PowerDistributor_Size2_Class3"
+        symbol: "Int_PowerDistributor_Size2_Class3",
+        ukName: "Power Distributor",
+        ukDiscript: "Distribution system for ENG, SYS and WEP capacitors."
       }, {
         class: 2,
         cost: 22620,
@@ -7012,7 +7386,9 @@ module.exports = {
         sysrate: .8,
         wepcap: 17,
         weprate: 2,
-        symbol: "Int_PowerDistributor_Size2_Class4"
+        symbol: "Int_PowerDistributor_Size2_Class4",
+        ukName: "Power Distributor",
+        ukDiscript: "Distribution system for ENG, SYS and WEP capacitors."
       }, {
         class: 2,
         cost: 56550,
@@ -7030,7 +7406,9 @@ module.exports = {
         sysrate: .8,
         wepcap: 18,
         weprate: 2.2,
-        symbol: "Int_PowerDistributor_Size2_Class5"
+        symbol: "Int_PowerDistributor_Size2_Class5",
+        ukName: "Power Distributor",
+        ukDiscript: "Distribution system for ENG, SYS and WEP capacitors."
       }, {
         class: 1,
         cost: 520,
@@ -7048,7 +7426,9 @@ module.exports = {
         sysrate: .4,
         wepcap: 10,
         weprate: 1.2,
-        symbol: "Int_PowerDistributor_Size1_Class1"
+        symbol: "Int_PowerDistributor_Size1_Class1",
+        ukName: "Power Distributor",
+        ukDiscript: "Distribution system for ENG, SYS and WEP capacitors."
       }, {
         class: 1,
         cost: 1290,
@@ -7066,7 +7446,9 @@ module.exports = {
         sysrate: .5,
         wepcap: 11,
         weprate: 1.4,
-        symbol: "Int_PowerDistributor_Size1_Class2"
+        symbol: "Int_PowerDistributor_Size1_Class2",
+        ukName: "Power Distributor",
+        ukDiscript: "Distribution system for ENG, SYS and WEP capacitors."
       }, {
         class: 1,
         cost: 3230,
@@ -7084,7 +7466,9 @@ module.exports = {
         sysrate: .5,
         wepcap: 12,
         weprate: 1.5,
-        symbol: "Int_PowerDistributor_Size1_Class3"
+        symbol: "Int_PowerDistributor_Size1_Class3",
+        ukName: "Power Distributor",
+        ukDiscript: "Distribution system for ENG, SYS and WEP capacitors."
       }, {
         class: 1,
         cost: 8080,
@@ -7102,7 +7486,9 @@ module.exports = {
         sysrate: .6,
         wepcap: 13,
         weprate: 1.7,
-        symbol: "Int_PowerDistributor_Size1_Class4"
+        symbol: "Int_PowerDistributor_Size1_Class4",
+        ukName: "Power Distributor",
+        ukDiscript: "Distribution system for ENG, SYS and WEP capacitors."
       }, {
         class: 1,
         cost: 20200,
@@ -7120,7 +7506,9 @@ module.exports = {
         sysrate: .6,
         wepcap: 14,
         weprate: 1.8,
-        symbol: "Int_PowerDistributor_Size1_Class5"
+        symbol: "Int_PowerDistributor_Size1_Class5",
+        ukName: "Power Distributor",
+        ukDiscript: "Distribution system for ENG, SYS and WEP capacitors."
       }, {
         class: 1,
         cost: 40957,
@@ -7139,7 +7527,9 @@ module.exports = {
         wepcap: 10,
         weprate: 2.5,
         name: "Guardian Power Distributor",
-        symbol: "Int_GuardianPowerDistributor_Size1"
+        symbol: "Int_GuardianPowerDistributor_Size1",
+        ukName: "Guardian Power Distributor",
+        ukDiscript: "Distribution system for ENG, SYS and WEP capacitors. Enhanced with Guardian technology to speed up capacitor recharge rates, at the cost of smaller capacitors and increased heat generation. Also boosts overall power output of any power plant it is hooked into."
       }, {
         class: 2,
         cost: 111600,
@@ -7158,7 +7548,9 @@ module.exports = {
         wepcap: 10,
         weprate: 2.5,
         name: "Guardian Power Distributor",
-        symbol: "Int_GuardianPowerDistributor_Size2"
+        symbol: "Int_GuardianPowerDistributor_Size2",
+        ukName: "Guardian Power Distributor",
+        ukDiscript: "Distribution system for ENG, SYS and WEP capacitors. Enhanced with Guardian technology to speed up capacitor recharge rates, at the cost of smaller capacitors and increased heat generation. Also boosts overall power output of any power plant it is hooked into."
       }, {
         class: 3,
         cost: 311365,
@@ -7177,7 +7569,9 @@ module.exports = {
         wepcap: 13,
         weprate: 3.1,
         name: "Guardian Power Distributor",
-        symbol: "Int_GuardianPowerDistributor_Size3"
+        symbol: "Int_GuardianPowerDistributor_Size3",
+        ukName: "Guardian Power Distributor",
+        ukDiscript: "Distribution system for ENG, SYS and WEP capacitors. Enhanced with Guardian technology to speed up capacitor recharge rates, at the cost of smaller capacitors and increased heat generation. Also boosts overall power output of any power plant it is hooked into."
       }, {
         class: 4,
         cost: 868708,
@@ -7196,7 +7590,9 @@ module.exports = {
         wepcap: 22,
         weprate: 4.9,
         name: "Guardian Power Distributor",
-        symbol: "Int_GuardianPowerDistributor_Size4"
+        symbol: "Int_GuardianPowerDistributor_Size4",
+        ukName: "Guardian Power Distributor",
+        ukDiscript: "Distribution system for ENG, SYS and WEP capacitors. Enhanced with Guardian technology to speed up capacitor recharge rates, at the cost of smaller capacitors and increased heat generation. Also boosts overall power output of any power plant it is hooked into."
       }, {
         class: 5,
         cost: 2423690,
@@ -7215,7 +7611,9 @@ module.exports = {
         wepcap: 29,
         weprate: 6,
         name: "Guardian Power Distributor",
-        symbol: "Int_GuardianPowerDistributor_Size5"
+        symbol: "Int_GuardianPowerDistributor_Size5",
+        ukName: "Guardian Power Distributor",
+        ukDiscript: "Distribution system for ENG, SYS and WEP capacitors. Enhanced with Guardian technology to speed up capacitor recharge rates, at the cost of smaller capacitors and increased heat generation. Also boosts overall power output of any power plant it is hooked into."
       }, {
         class: 6,
         cost: 6762091,
@@ -7234,7 +7632,9 @@ module.exports = {
         wepcap: 35,
         weprate: 7.3,
         name: "Guardian Power Distributor",
-        symbol: "Int_GuardianPowerDistributor_Size6"
+        symbol: "Int_GuardianPowerDistributor_Size6",
+        ukName: "Guardian Power Distributor",
+        ukDiscript: "Distribution system for ENG, SYS and WEP capacitors. Enhanced with Guardian technology to speed up capacitor recharge rates, at the cost of smaller capacitors and increased heat generation. Also boosts overall power output of any power plant it is hooked into."
       }, {
         class: 7,
         cost: 18866235,
@@ -7253,7 +7653,9 @@ module.exports = {
         wepcap: 43,
         weprate: 8.5,
         name: "Guardian Power Distributor",
-        symbol: "Int_GuardianPowerDistributor_Size7"
+        symbol: "Int_GuardianPowerDistributor_Size7",
+        ukName: "Guardian Power Distributor",
+        ukDiscript: "Distribution system for ENG, SYS and WEP capacitors. Enhanced with Guardian technology to speed up capacitor recharge rates, at the cost of smaller capacitors and increased heat generation. Also boosts overall power output of any power plant it is hooked into."
       }, {
         class: 8,
         cost: 52636793,
@@ -7272,7 +7674,9 @@ module.exports = {
         wepcap: 50,
         weprate: 10.1,
         name: "Guardian Power Distributor",
-        symbol: "Int_GuardianPowerDistributor_Size8"
+        symbol: "Int_GuardianPowerDistributor_Size8",
+        ukName: "Guardian Power Distributor",
+        ukDiscript: "Distribution system for ENG, SYS and WEP capacitors. Enhanced with Guardian technology to speed up capacitor recharge rates, at the cost of smaller capacitors and increased heat generation. Also boosts overall power output of any power plant it is hooked into."
       } ],
       s: [ {
         angle: 30,
@@ -7287,7 +7691,9 @@ module.exports = {
         power: .55,
         range: 5.12,
         rating: "E",
-        symbol: "Int_Sensors_Size8_Class1"
+        symbol: "Int_Sensors_Size8_Class1",
+        ukName: "Sensors",
+        ukDiscript: "Standard suite providing basic detection, identification and targeting capabilities."
       }, {
         angle: 30,
         class: 8,
@@ -7301,7 +7707,9 @@ module.exports = {
         power: .62,
         range: 5.76,
         rating: "D",
-        symbol: "Int_Sensors_Size8_Class2"
+        symbol: "Int_Sensors_Size8_Class2",
+        ukName: "Sensors",
+        ukDiscript: "Standard suite providing basic detection, identification and targeting capabilities."
       }, {
         angle: 30,
         class: 8,
@@ -7315,7 +7723,9 @@ module.exports = {
         power: .69,
         range: 6.4,
         rating: "C",
-        symbol: "Int_Sensors_Size8_Class3"
+        symbol: "Int_Sensors_Size8_Class3",
+        ukName: "Sensors",
+        ukDiscript: "Standard suite providing basic detection, identification and targeting capabilities."
       }, {
         angle: 30,
         class: 8,
@@ -7329,7 +7739,9 @@ module.exports = {
         power: 1.14,
         range: 7.04,
         rating: "B",
-        symbol: "Int_Sensors_Size8_Class4"
+        symbol: "Int_Sensors_Size8_Class4",
+        ukName: "Sensors",
+        ukDiscript: "Standard suite providing basic detection, identification and targeting capabilities."
       }, {
         angle: 30,
         class: 8,
@@ -7343,7 +7755,9 @@ module.exports = {
         power: 2.07,
         range: 7.68,
         rating: "A",
-        symbol: "Int_Sensors_Size8_Class5"
+        symbol: "Int_Sensors_Size8_Class5",
+        ukName: "Sensors",
+        ukDiscript: "Standard suite providing basic detection, identification and targeting capabilities."
       }, {
         angle: 30,
         class: 7,
@@ -7357,7 +7771,9 @@ module.exports = {
         power: .47,
         range: 4.96,
         rating: "E",
-        symbol: "Int_Sensors_Size7_Class1"
+        symbol: "Int_Sensors_Size7_Class1",
+        ukName: "Sensors",
+        ukDiscript: "Standard suite providing basic detection, identification and targeting capabilities."
       }, {
         angle: 30,
         class: 7,
@@ -7371,7 +7787,9 @@ module.exports = {
         power: .53,
         range: 5.58,
         rating: "D",
-        symbol: "Int_Sensors_Size7_Class2"
+        symbol: "Int_Sensors_Size7_Class2",
+        ukName: "Sensors",
+        ukDiscript: "Standard suite providing basic detection, identification and targeting capabilities."
       }, {
         angle: 30,
         class: 7,
@@ -7385,7 +7803,9 @@ module.exports = {
         power: .59,
         range: 6.2,
         rating: "C",
-        symbol: "Int_Sensors_Size7_Class3"
+        symbol: "Int_Sensors_Size7_Class3",
+        ukName: "Sensors",
+        ukDiscript: "Standard suite providing basic detection, identification and targeting capabilities."
       }, {
         angle: 30,
         class: 7,
@@ -7399,7 +7819,9 @@ module.exports = {
         power: .97,
         range: 6.82,
         rating: "B",
-        symbol: "Int_Sensors_Size7_Class4"
+        symbol: "Int_Sensors_Size7_Class4",
+        ukName: "Sensors",
+        ukDiscript: "Standard suite providing basic detection, identification and targeting capabilities."
       }, {
         angle: 30,
         class: 7,
@@ -7413,7 +7835,9 @@ module.exports = {
         power: 1.77,
         range: 7.44,
         rating: "A",
-        symbol: "Int_Sensors_Size7_Class5"
+        symbol: "Int_Sensors_Size7_Class5",
+        ukName: "Sensors",
+        ukDiscript: "Standard suite providing basic detection, identification and targeting capabilities."
       }, {
         angle: 30,
         class: 6,
@@ -7427,7 +7851,9 @@ module.exports = {
         power: .4,
         range: 4.8,
         rating: "E",
-        symbol: "Int_Sensors_Size6_Class1"
+        symbol: "Int_Sensors_Size6_Class1",
+        ukName: "Sensors",
+        ukDiscript: "Standard suite providing basic detection, identification and targeting capabilities."
       }, {
         angle: 30,
         class: 6,
@@ -7441,7 +7867,9 @@ module.exports = {
         power: .45,
         range: 5.4,
         rating: "D",
-        symbol: "Int_Sensors_Size6_Class2"
+        symbol: "Int_Sensors_Size6_Class2",
+        ukName: "Sensors",
+        ukDiscript: "Standard suite providing basic detection, identification and targeting capabilities."
       }, {
         angle: 30,
         class: 6,
@@ -7455,7 +7883,9 @@ module.exports = {
         power: .5,
         range: 6,
         rating: "C",
-        symbol: "Int_Sensors_Size6_Class3"
+        symbol: "Int_Sensors_Size6_Class3",
+        ukName: "Sensors",
+        ukDiscript: "Standard suite providing basic detection, identification and targeting capabilities."
       }, {
         angle: 30,
         class: 6,
@@ -7469,7 +7899,9 @@ module.exports = {
         power: .83,
         range: 6.6,
         rating: "B",
-        symbol: "Int_Sensors_Size6_Class4"
+        symbol: "Int_Sensors_Size6_Class4",
+        ukName: "Sensors",
+        ukDiscript: "Standard suite providing basic detection, identification and targeting capabilities."
       }, {
         angle: 30,
         class: 6,
@@ -7483,7 +7915,9 @@ module.exports = {
         power: 1.5,
         range: 7.2,
         rating: "A",
-        symbol: "Int_Sensors_Size6_Class5"
+        symbol: "Int_Sensors_Size6_Class5",
+        ukName: "Sensors",
+        ukDiscript: "Standard suite providing basic detection, identification and targeting capabilities."
       }, {
         angle: 30,
         class: 5,
@@ -7497,7 +7931,9 @@ module.exports = {
         power: .33,
         range: 4.64,
         rating: "E",
-        symbol: "Int_Sensors_Size5_Class1"
+        symbol: "Int_Sensors_Size5_Class1",
+        ukName: "Sensors",
+        ukDiscript: "Standard suite providing basic detection, identification and targeting capabilities."
       }, {
         angle: 30,
         class: 5,
@@ -7511,7 +7947,9 @@ module.exports = {
         power: .37,
         range: 5.22,
         rating: "D",
-        symbol: "Int_Sensors_Size5_Class2"
+        symbol: "Int_Sensors_Size5_Class2",
+        ukName: "Sensors",
+        ukDiscript: "Standard suite providing basic detection, identification and targeting capabilities."
       }, {
         angle: 30,
         class: 5,
@@ -7525,7 +7963,9 @@ module.exports = {
         power: .41,
         range: 5.8,
         rating: "C",
-        symbol: "Int_Sensors_Size5_Class3"
+        symbol: "Int_Sensors_Size5_Class3",
+        ukName: "Sensors",
+        ukDiscript: "Standard suite providing basic detection, identification and targeting capabilities."
       }, {
         angle: 30,
         class: 5,
@@ -7539,7 +7979,9 @@ module.exports = {
         power: .68,
         range: 6.38,
         rating: "B",
-        symbol: "Int_Sensors_Size5_Class4"
+        symbol: "Int_Sensors_Size5_Class4",
+        ukName: "Sensors",
+        ukDiscript: "Standard suite providing basic detection, identification and targeting capabilities."
       }, {
         angle: 30,
         class: 5,
@@ -7553,7 +7995,9 @@ module.exports = {
         power: 1.23,
         range: 6.96,
         rating: "A",
-        symbol: "Int_Sensors_Size5_Class5"
+        symbol: "Int_Sensors_Size5_Class5",
+        ukName: "Sensors",
+        ukDiscript: "Standard suite providing basic detection, identification and targeting capabilities."
       }, {
         angle: 30,
         class: 4,
@@ -7567,7 +8011,9 @@ module.exports = {
         power: .27,
         range: 4.48,
         rating: "E",
-        symbol: "Int_Sensors_Size4_Class1"
+        symbol: "Int_Sensors_Size4_Class1",
+        ukName: "Sensors",
+        ukDiscript: "Standard suite providing basic detection, identification and targeting capabilities."
       }, {
         angle: 30,
         class: 4,
@@ -7581,7 +8027,9 @@ module.exports = {
         power: .31,
         range: 5.04,
         rating: "D",
-        symbol: "Int_Sensors_Size4_Class2"
+        symbol: "Int_Sensors_Size4_Class2",
+        ukName: "Sensors",
+        ukDiscript: "Standard suite providing basic detection, identification and targeting capabilities."
       }, {
         angle: 30,
         class: 4,
@@ -7595,7 +8043,9 @@ module.exports = {
         power: .34,
         range: 5.6,
         rating: "C",
-        symbol: "Int_Sensors_Size4_Class3"
+        symbol: "Int_Sensors_Size4_Class3",
+        ukName: "Sensors",
+        ukDiscript: "Standard suite providing basic detection, identification and targeting capabilities."
       }, {
         angle: 30,
         class: 4,
@@ -7609,7 +8059,9 @@ module.exports = {
         power: .56,
         range: 6.16,
         rating: "B",
-        symbol: "Int_Sensors_Size4_Class4"
+        symbol: "Int_Sensors_Size4_Class4",
+        ukName: "Sensors",
+        ukDiscript: "Standard suite providing basic detection, identification and targeting capabilities."
       }, {
         angle: 30,
         class: 4,
@@ -7623,7 +8075,9 @@ module.exports = {
         power: 1.02,
         range: 6.72,
         rating: "A",
-        symbol: "Int_Sensors_Size4_Class5"
+        symbol: "Int_Sensors_Size4_Class5",
+        ukName: "Sensors",
+        ukDiscript: "Standard suite providing basic detection, identification and targeting capabilities."
       }, {
         angle: 30,
         class: 3,
@@ -7637,7 +8091,9 @@ module.exports = {
         power: .22,
         range: 4.32,
         rating: "E",
-        symbol: "Int_Sensors_Size3_Class1"
+        symbol: "Int_Sensors_Size3_Class1",
+        ukName: "Sensors",
+        ukDiscript: "Standard suite providing basic detection, identification and targeting capabilities."
       }, {
         angle: 30,
         class: 3,
@@ -7651,7 +8107,9 @@ module.exports = {
         power: .25,
         range: 4.86,
         rating: "D",
-        symbol: "Int_Sensors_Size3_Class2"
+        symbol: "Int_Sensors_Size3_Class2",
+        ukName: "Sensors",
+        ukDiscript: "Standard suite providing basic detection, identification and targeting capabilities."
       }, {
         angle: 30,
         class: 3,
@@ -7665,7 +8123,9 @@ module.exports = {
         power: .28,
         range: 5.4,
         rating: "C",
-        symbol: "Int_Sensors_Size3_Class3"
+        symbol: "Int_Sensors_Size3_Class3",
+        ukName: "Sensors",
+        ukDiscript: "Standard suite providing basic detection, identification and targeting capabilities."
       }, {
         angle: 30,
         class: 3,
@@ -7679,7 +8139,9 @@ module.exports = {
         power: .46,
         range: 5.94,
         rating: "B",
-        symbol: "Int_Sensors_Size3_Class4"
+        symbol: "Int_Sensors_Size3_Class4",
+        ukName: "Sensors",
+        ukDiscript: "Standard suite providing basic detection, identification and targeting capabilities."
       }, {
         angle: 30,
         class: 3,
@@ -7693,7 +8155,9 @@ module.exports = {
         power: .84,
         range: 6.48,
         rating: "A",
-        symbol: "Int_Sensors_Size3_Class5"
+        symbol: "Int_Sensors_Size3_Class5",
+        ukName: "Sensors",
+        ukDiscript: "Standard suite providing basic detection, identification and targeting capabilities."
       }, {
         angle: 30,
         class: 2,
@@ -7707,7 +8171,9 @@ module.exports = {
         power: .18,
         range: 4.16,
         rating: "E",
-        symbol: "Int_Sensors_Size2_Class1"
+        symbol: "Int_Sensors_Size2_Class1",
+        ukName: "Sensors",
+        ukDiscript: "Standard suite providing basic detection, identification and targeting capabilities."
       }, {
         angle: 30,
         class: 2,
@@ -7721,7 +8187,9 @@ module.exports = {
         power: .21,
         range: 4.68,
         rating: "D",
-        symbol: "Int_Sensors_Size2_Class2"
+        symbol: "Int_Sensors_Size2_Class2",
+        ukName: "Sensors",
+        ukDiscript: "Standard suite providing basic detection, identification and targeting capabilities."
       }, {
         angle: 30,
         class: 2,
@@ -7735,7 +8203,9 @@ module.exports = {
         power: .23,
         range: 5.2,
         rating: "C",
-        symbol: "Int_Sensors_Size2_Class3"
+        symbol: "Int_Sensors_Size2_Class3",
+        ukName: "Sensors",
+        ukDiscript: "Standard suite providing basic detection, identification and targeting capabilities."
       }, {
         angle: 30,
         class: 2,
@@ -7749,7 +8219,9 @@ module.exports = {
         power: .38,
         range: 5.72,
         rating: "B",
-        symbol: "Int_Sensors_Size2_Class4"
+        symbol: "Int_Sensors_Size2_Class4",
+        ukName: "Sensors",
+        ukDiscript: "Standard suite providing basic detection, identification and targeting capabilities."
       }, {
         angle: 30,
         class: 2,
@@ -7763,7 +8235,9 @@ module.exports = {
         power: .69,
         range: 6.24,
         rating: "A",
-        symbol: "Int_Sensors_Size2_Class5"
+        symbol: "Int_Sensors_Size2_Class5",
+        ukName: "Sensors",
+        ukDiscript: "Standard suite providing basic detection, identification and targeting capabilities."
       }, {
         angle: 30,
         class: 1,
@@ -7777,7 +8251,9 @@ module.exports = {
         power: .16,
         range: 4,
         rating: "E",
-        symbol: "Int_Sensors_Size1_Class1"
+        symbol: "Int_Sensors_Size1_Class1",
+        ukName: "Sensors",
+        ukDiscript: "Standard suite providing basic detection, identification and targeting capabilities."
       }, {
         angle: 30,
         class: 1,
@@ -7791,7 +8267,9 @@ module.exports = {
         power: .18,
         range: 4.5,
         rating: "D",
-        symbol: "Int_Sensors_Size1_Class2"
+        symbol: "Int_Sensors_Size1_Class2",
+        ukName: "Sensors",
+        ukDiscript: "Standard suite providing basic detection, identification and targeting capabilities."
       }, {
         angle: 30,
         class: 1,
@@ -7805,7 +8283,9 @@ module.exports = {
         power: .2,
         range: 5,
         rating: "C",
-        symbol: "Int_Sensors_Size1_Class3"
+        symbol: "Int_Sensors_Size1_Class3",
+        ukName: "Sensors",
+        ukDiscript: "Standard suite providing basic detection, identification and targeting capabilities."
       }, {
         angle: 30,
         class: 1,
@@ -7819,7 +8299,9 @@ module.exports = {
         power: .33,
         range: 5.5,
         rating: "B",
-        symbol: "Int_Sensors_Size1_Class4"
+        symbol: "Int_Sensors_Size1_Class4",
+        ukName: "Sensors",
+        ukDiscript: "Standard suite providing basic detection, identification and targeting capabilities."
       }, {
         angle: 30,
         class: 1,
@@ -7833,7 +8315,9 @@ module.exports = {
         power: .6,
         range: 6,
         rating: "A",
-        symbol: "Int_Sensors_Size1_Class5"
+        symbol: "Int_Sensors_Size1_Class5",
+        ukName: "Sensors",
+        ukDiscript: "Standard suite providing basic detection, identification and targeting capabilities."
       } ],
       ft: [ {
         class: 1,
@@ -7845,7 +8329,9 @@ module.exports = {
         grp: "ft",
         id: "f1",
         rating: "C",
-        symbol: "Int_FuelTank_Size1_Class3"
+        symbol: "Int_FuelTank_Size1_Class3",
+        ukName: "Fuel Tank",
+        ukDiscript: "Storage container for fuel used by ship's power plant."
       }, {
         class: 2,
         cost: 3750,
@@ -7856,7 +8342,9 @@ module.exports = {
         grp: "ft",
         id: "f2",
         rating: "C",
-        symbol: "Int_FuelTank_Size2_Class3"
+        symbol: "Int_FuelTank_Size2_Class3",
+        ukName: "Fuel Tank",
+        ukDiscript: "Storage container for fuel used by ship's power plant."
       }, {
         class: 3,
         cost: 7060,
@@ -7867,7 +8355,9 @@ module.exports = {
         grp: "ft",
         id: "f3",
         rating: "C",
-        symbol: "Int_FuelTank_Size3_Class3"
+        symbol: "Int_FuelTank_Size3_Class3",
+        ukName: "Fuel Tank",
+        ukDiscript: "Storage container for fuel used by ship's power plant."
       }, {
         class: 4,
         cost: 24730,
@@ -7878,7 +8368,9 @@ module.exports = {
         grp: "ft",
         id: "f4",
         rating: "C",
-        symbol: "Int_FuelTank_Size4_Class3"
+        symbol: "Int_FuelTank_Size4_Class3",
+        ukName: "Fuel Tank",
+        ukDiscript: "Storage container for fuel used by ship's power plant."
       }, {
         class: 5,
         cost: 97750,
@@ -7889,7 +8381,9 @@ module.exports = {
         grp: "ft",
         id: "f5",
         rating: "C",
-        symbol: "Int_FuelTank_Size5_Class3"
+        symbol: "Int_FuelTank_Size5_Class3",
+        ukName: "Fuel Tank",
+        ukDiscript: "Storage container for fuel used by ship's power plant."
       }, {
         class: 6,
         cost: 341580,
@@ -7900,7 +8394,9 @@ module.exports = {
         grp: "ft",
         id: "f6",
         rating: "C",
-        symbol: "Int_FuelTank_Size6_Class3"
+        symbol: "Int_FuelTank_Size6_Class3",
+        ukName: "Fuel Tank",
+        ukDiscript: "Storage container for fuel used by ship's power plant."
       }, {
         class: 7,
         cost: 1780910,
@@ -7911,7 +8407,9 @@ module.exports = {
         grp: "ft",
         id: "f7",
         rating: "C",
-        symbol: "Int_FuelTank_Size7_Class3"
+        symbol: "Int_FuelTank_Size7_Class3",
+        ukName: "Fuel Tank",
+        ukDiscript: "Storage container for fuel used by ship's power plant."
       }, {
         class: 8,
         cost: 5428431,
@@ -7922,7 +8420,9 @@ module.exports = {
         grp: "ft",
         id: "f8",
         rating: "C",
-        symbol: "Int_FuelTank_Size8_Class3"
+        symbol: "Int_FuelTank_Size8_Class3",
+        ukName: "Fuel Tank",
+        ukDiscript: "Storage container for fuel used by ship's power plant."
       } ],
       pas: [ {
         class: 1,
@@ -7934,7 +8434,9 @@ module.exports = {
         mass: 0,
         power: 0,
         rating: "I",
-        symbol: "Int_PlanetApproachSuite"
+        symbol: "Int_PlanetApproachSuite",
+        ukName: "Planetary Approach Suite",
+        ukDiscript: "The required Thruster modifications, sensor package and avionics to allow a ship to fly effectively in close proximity to planets."
       } ]
     },
     hardpoints: {
@@ -10529,7 +11031,7 @@ module.exports = {
           E: 1
         },
         distdraw: .24,
-        edID: 0,
+        edID: 128891602,
         eddbID: 1657,
         grp: "mr",
         id: "yI",
@@ -10935,7 +11437,7 @@ module.exports = {
           T: 1
         },
         distdraw: 1.75,
-        edID: 128671347,
+        edID: 128671340,
         eddbID: 1479,
         falloff: 400,
         grp: "ml",
@@ -11164,7 +11666,7 @@ module.exports = {
         grp: "pwa",
         boot: 3,
         edID: 128915722,
-        symbol: "hpt_mrascanner_size0_class5"
+        symbol: "Hpt_MRAScanner_Size0_Class5"
       }, {
         rating: "B",
         class: "0",
@@ -11259,7 +11761,7 @@ module.exports = {
         rating: "D",
         rof: 5,
         thermload: 1.8,
-        symbol: "Hpt_Mining_Abrblstr_Fixed_Small"
+        symbol: "Hpt_Mining_AbrBlstr_Fixed_Small"
       }, {
         breachdmg: .6,
         breachmax: .2,
@@ -11304,7 +11806,7 @@ module.exports = {
           E: 1
         },
         distdraw: .24,
-        edID: 128049381,
+        edID: 128915461,
         eddbID: 823,
         falloff: 500,
         ammo: 72,
@@ -11345,7 +11847,7 @@ module.exports = {
         mass: 4,
         mount: "F",
         piercing: 35,
-        power: 1.01,
+        power: 1.2,
         range: 3e3,
         rating: "B",
         rof: 1,
@@ -11618,7 +12120,7 @@ module.exports = {
           A: 1
         },
         distdraw: .68,
-        edID: 0,
+        edID: 128891607,
         eddbID: 0,
         falloff: 1e3,
         grp: "gpc",
@@ -11648,7 +12150,7 @@ module.exports = {
           A: 1
         },
         distdraw: .8,
-        edID: 0,
+        edID: 128891606,
         eddbID: 0,
         falloff: 1e3,
         grp: "gpc",
@@ -11799,7 +12301,7 @@ module.exports = {
           T: 1
         },
         distdraw: 3.8,
-        edID: 0,
+        edID: 128891610,
         eddbID: 0,
         falloff: 1500,
         grp: "ggc",
@@ -11885,7 +12387,7 @@ module.exports = {
           E: 1
         },
         distdraw: .18,
-        edID: 128049381,
+        edID: 128915457,
         eddbID: 823,
         falloff: 500,
         ammo: 96,
@@ -11902,7 +12404,7 @@ module.exports = {
         rating: "B",
         rof: .5,
         thermload: 2.9,
-        symbol: "Hpt_Mining_Subsurfdispmisle_Fixed_Medium"
+        symbol: "Hpt_Mining_SubSurfDispMisle_Turret_Medium"
       }, {
         breachdmg: .5,
         breachmax: .2,
@@ -11947,7 +12449,7 @@ module.exports = {
           E: 1
         },
         distdraw: .18,
-        edID: 128049381,
+        edID: 128915455,
         eddbID: 823,
         falloff: 500,
         ammo: 32,
@@ -11964,7 +12466,7 @@ module.exports = {
         rating: "B",
         rof: .5,
         thermload: 2.2,
-        symbol: "Hpt_Mining_Subsurfdispmisle_Fixed_Small"
+        symbol: "Hpt_Mining_SubSurfDispMisle_Turret_Small"
       }, {
         breachdmg: .5,
         breachmax: .2,
@@ -12205,7 +12707,7 @@ module.exports = {
         grp: "tbsc",
         id: "yQ",
         eddbID: 0,
-        edID: 0,
+        edID: 128891605,
         mount: "F",
         cost: 65941,
         mass: 2,
@@ -12257,7 +12759,7 @@ module.exports = {
         cost: 137501,
         reload: 6,
         id: "yR",
-        edID: 0,
+        edID: 128891604,
         symbol: "Hpt_PlasmaShockCannon_Gimbal_Small"
       }, {
         rating: "F",
@@ -12266,7 +12768,7 @@ module.exports = {
         symbol: "Hpt_PlasmaShockCannon_Turret_Small",
         id: "yS",
         eddbID: 0,
-        edID: 0,
+        edID: 128891603,
         mount: "T",
         cost: 364e3,
         mass: 2,
@@ -12382,7 +12884,7 @@ module.exports = {
         grp: "gsc",
         id: "yO",
         eddbID: 0,
-        edID: 0,
+        edID: 128891609,
         mount: "F",
         cost: 151650,
         mass: 2,
@@ -12414,7 +12916,7 @@ module.exports = {
         grp: "gsc",
         id: "yP",
         eddbID: 0,
-        edID: 0,
+        edID: 128891608,
         mount: "T",
         cost: 502e3,
         mass: 2,
@@ -12478,7 +12980,7 @@ module.exports = {
         grp: "gsc",
         id: "xw",
         eddbID: 0,
-        edID: 0,
+        edID: 128834001,
         mount: "T",
         cost: 1767001,
         mass: 4,
@@ -12499,7 +13001,7 @@ module.exports = {
         breachmin: .6,
         breachmax: .8,
         jitter: 5,
-        symbol: "Hpt_Guardian_ShardCannon_Turret_Medium",
+        symbol: "Hpt_Guardian_ShardCannon_Turret_medium",
         damagedist: {
           T: 1
         },
@@ -12583,7 +13085,9 @@ module.exports = {
         power: .54,
         rating: "E",
         repair: 12,
-        symbol: "Int_Repairer_Size1_Class1"
+        symbol: "Int_Repairer_Size1_Class1",
+        ukName: "AFM Unit",
+        ukDiscript: "Allows in-flight repair of internal ship modules. Can restore broken modules. Requires ammunition."
       }, {
         ammo: 900,
         ammocost: 1,
@@ -12596,7 +13100,9 @@ module.exports = {
         power: .72,
         rating: "D",
         repair: 14.4,
-        symbol: "Int_Repairer_Size1_Class2"
+        symbol: "Int_Repairer_Size1_Class2",
+        ukName: "AFM Unit",
+        ukDiscript: "Allows in-flight repair of internal ship modules. Can restore broken modules. Requires ammunition."
       }, {
         ammo: 1e3,
         ammocost: 1,
@@ -12609,7 +13115,9 @@ module.exports = {
         power: .9,
         rating: "C",
         repair: 20,
-        symbol: "Int_Repairer_Size1_Class3"
+        symbol: "Int_Repairer_Size1_Class3",
+        ukName: "AFM Unit",
+        ukDiscript: "Allows in-flight repair of internal ship modules. Can restore broken modules. Requires ammunition."
       }, {
         ammo: 1200,
         ammocost: 1,
@@ -12622,7 +13130,9 @@ module.exports = {
         power: 1.04,
         rating: "B",
         repair: 27.6,
-        symbol: "Int_Repairer_Size1_Class4"
+        symbol: "Int_Repairer_Size1_Class4",
+        ukName: "AFM Unit",
+        ukDiscript: "Allows in-flight repair of internal ship modules. Can restore broken modules. Requires ammunition."
       }, {
         ammo: 1100,
         ammocost: 1,
@@ -12635,7 +13145,9 @@ module.exports = {
         power: 1.26,
         rating: "A",
         repair: 30.8,
-        symbol: "Int_Repairer_Size1_Class5"
+        symbol: "Int_Repairer_Size1_Class5",
+        ukName: "AFM Unit",
+        ukDiscript: "Allows in-flight repair of internal ship modules. Can restore broken modules. Requires ammunition."
       }, {
         ammo: 2300,
         ammocost: 1,
@@ -12648,7 +13160,9 @@ module.exports = {
         power: .68,
         rating: "E",
         repair: 27.6,
-        symbol: "Int_Repairer_Size2_Class1"
+        symbol: "Int_Repairer_Size2_Class1",
+        ukName: "AFM Unit",
+        ukDiscript: "Allows in-flight repair of internal ship modules. Can restore broken modules. Requires ammunition."
       }, {
         ammo: 2100,
         ammocost: 1,
@@ -12661,7 +13175,9 @@ module.exports = {
         power: .9,
         rating: "D",
         repair: 33.6,
-        symbol: "Int_Repairer_Size2_Class2"
+        symbol: "Int_Repairer_Size2_Class2",
+        ukName: "AFM Unit",
+        ukDiscript: "Allows in-flight repair of internal ship modules. Can restore broken modules. Requires ammunition."
       }, {
         ammo: 2300,
         ammocost: 1,
@@ -12674,7 +13190,9 @@ module.exports = {
         power: 1.13,
         rating: "C",
         repair: 46,
-        symbol: "Int_Repairer_Size2_Class3"
+        symbol: "Int_Repairer_Size2_Class3",
+        ukName: "AFM Unit",
+        ukDiscript: "Allows in-flight repair of internal ship modules. Can restore broken modules. Requires ammunition."
       }, {
         ammo: 2800,
         ammocost: 1,
@@ -12687,7 +13205,9 @@ module.exports = {
         power: 1.29,
         rating: "B",
         repair: 64.4,
-        symbol: "Int_Repairer_Size2_Class4"
+        symbol: "Int_Repairer_Size2_Class4",
+        ukName: "AFM Unit",
+        ukDiscript: "Allows in-flight repair of internal ship modules. Can restore broken modules. Requires ammunition."
       }, {
         ammo: 2500,
         ammocost: 1,
@@ -12700,7 +13220,9 @@ module.exports = {
         power: 1.58,
         rating: "A",
         repair: 70,
-        symbol: "Int_Repairer_Size2_Class5"
+        symbol: "Int_Repairer_Size2_Class5",
+        ukName: "AFM Unit",
+        ukDiscript: "Allows in-flight repair of internal ship modules. Can restore broken modules. Requires ammunition."
       }, {
         ammo: 3600,
         ammocost: 1,
@@ -12713,7 +13235,9 @@ module.exports = {
         power: .81,
         rating: "E",
         repair: 43.2,
-        symbol: "Int_Repairer_Size3_Class1"
+        symbol: "Int_Repairer_Size3_Class1",
+        ukName: "AFM Unit",
+        ukDiscript: "Allows in-flight repair of internal ship modules. Can restore broken modules. Requires ammunition."
       }, {
         ammo: 3200,
         ammocost: 1,
@@ -12726,7 +13250,9 @@ module.exports = {
         power: 1.08,
         rating: "D",
         repair: 51.2,
-        symbol: "Int_Repairer_Size3_Class2"
+        symbol: "Int_Repairer_Size3_Class2",
+        ukName: "AFM Unit",
+        ukDiscript: "Allows in-flight repair of internal ship modules. Can restore broken modules. Requires ammunition."
       }, {
         ammo: 3600,
         ammocost: 1,
@@ -12739,7 +13265,9 @@ module.exports = {
         power: 1.35,
         rating: "C",
         repair: 72,
-        symbol: "Int_Repairer_Size3_Class3"
+        symbol: "Int_Repairer_Size3_Class3",
+        ukName: "AFM Unit",
+        ukDiscript: "Allows in-flight repair of internal ship modules. Can restore broken modules. Requires ammunition."
       }, {
         ammo: 4300,
         ammocost: 1,
@@ -12752,7 +13280,9 @@ module.exports = {
         power: 1.55,
         rating: "B",
         repair: 98.9,
-        symbol: "Int_Repairer_Size3_Class4"
+        symbol: "Int_Repairer_Size3_Class4",
+        ukName: "AFM Unit",
+        ukDiscript: "Allows in-flight repair of internal ship modules. Can restore broken modules. Requires ammunition."
       }, {
         ammo: 4e3,
         ammocost: 1,
@@ -12765,7 +13295,9 @@ module.exports = {
         power: 1.89,
         rating: "A",
         repair: 112,
-        symbol: "Int_Repairer_Size3_Class5"
+        symbol: "Int_Repairer_Size3_Class5",
+        ukName: "AFM Unit",
+        ukDiscript: "Allows in-flight repair of internal ship modules. Can restore broken modules. Requires ammunition."
       }, {
         ammo: 4900,
         ammocost: 1,
@@ -12778,7 +13310,9 @@ module.exports = {
         power: .99,
         rating: "E",
         repair: 58.8,
-        symbol: "Int_Repairer_Size4_Class1"
+        symbol: "Int_Repairer_Size4_Class1",
+        ukName: "AFM Unit",
+        ukDiscript: "Allows in-flight repair of internal ship modules. Can restore broken modules. Requires ammunition."
       }, {
         ammo: 4400,
         ammocost: 1,
@@ -12791,7 +13325,9 @@ module.exports = {
         power: 1.32,
         rating: "D",
         repair: 70.4,
-        symbol: "Int_Repairer_Size4_Class2"
+        symbol: "Int_Repairer_Size4_Class2",
+        ukName: "AFM Unit",
+        ukDiscript: "Allows in-flight repair of internal ship modules. Can restore broken modules. Requires ammunition."
       }, {
         ammo: 4900,
         ammocost: 1,
@@ -12804,7 +13340,9 @@ module.exports = {
         power: 1.65,
         rating: "C",
         repair: 98,
-        symbol: "Int_Repairer_Size4_Class3"
+        symbol: "Int_Repairer_Size4_Class3",
+        ukName: "AFM Unit",
+        ukDiscript: "Allows in-flight repair of internal ship modules. Can restore broken modules. Requires ammunition."
       }, {
         ammo: 5900,
         ammocost: 1,
@@ -12817,7 +13355,9 @@ module.exports = {
         power: 1.9,
         rating: "B",
         repair: 135.7,
-        symbol: "Int_Repairer_Size4_Class4"
+        symbol: "Int_Repairer_Size4_Class4",
+        ukName: "AFM Unit",
+        ukDiscript: "Allows in-flight repair of internal ship modules. Can restore broken modules. Requires ammunition."
       }, {
         ammo: 5400,
         ammocost: 1,
@@ -12830,7 +13370,9 @@ module.exports = {
         power: 2.31,
         rating: "A",
         repair: 151.2,
-        symbol: "Int_Repairer_Size4_Class5"
+        symbol: "Int_Repairer_Size4_Class5",
+        ukName: "AFM Unit",
+        ukDiscript: "Allows in-flight repair of internal ship modules. Can restore broken modules. Requires ammunition."
       }, {
         ammo: 6100,
         ammocost: 1,
@@ -12843,7 +13385,9 @@ module.exports = {
         power: 1.17,
         rating: "E",
         repair: 73.2,
-        symbol: "Int_Repairer_Size5_Class1"
+        symbol: "Int_Repairer_Size5_Class1",
+        ukName: "AFM Unit",
+        ukDiscript: "Allows in-flight repair of internal ship modules. Can restore broken modules. Requires ammunition."
       }, {
         ammo: 5500,
         ammocost: 1,
@@ -12856,7 +13400,9 @@ module.exports = {
         power: 1.56,
         rating: "D",
         repair: 88,
-        symbol: "Int_Repairer_Size5_Class2"
+        symbol: "Int_Repairer_Size5_Class2",
+        ukName: "AFM Unit",
+        ukDiscript: "Allows in-flight repair of internal ship modules. Can restore broken modules. Requires ammunition."
       }, {
         ammo: 6100,
         ammocost: 1,
@@ -12869,7 +13415,9 @@ module.exports = {
         power: 1.95,
         rating: "C",
         repair: 122,
-        symbol: "Int_Repairer_Size5_Class3"
+        symbol: "Int_Repairer_Size5_Class3",
+        ukName: "AFM Unit",
+        ukDiscript: "Allows in-flight repair of internal ship modules. Can restore broken modules. Requires ammunition."
       }, {
         ammo: 7300,
         ammocost: 1,
@@ -12882,7 +13430,9 @@ module.exports = {
         power: 2.24,
         rating: "B",
         repair: 167.9,
-        symbol: "Int_Repairer_Size5_Class4"
+        symbol: "Int_Repairer_Size5_Class4",
+        ukName: "AFM Unit",
+        ukDiscript: "Allows in-flight repair of internal ship modules. Can restore broken modules. Requires ammunition."
       }, {
         ammo: 6700,
         ammocost: 1,
@@ -12895,7 +13445,9 @@ module.exports = {
         power: 2.73,
         rating: "A",
         repair: 187.6,
-        symbol: "Int_Repairer_Size5_Class5"
+        symbol: "Int_Repairer_Size5_Class5",
+        ukName: "AFM Unit",
+        ukDiscript: "Allows in-flight repair of internal ship modules. Can restore broken modules. Requires ammunition."
       }, {
         ammo: 7400,
         ammocost: 1,
@@ -12908,7 +13460,9 @@ module.exports = {
         power: 1.4,
         rating: "E",
         repair: 88.8,
-        symbol: "Int_Repairer_Size6_Class1"
+        symbol: "Int_Repairer_Size6_Class1",
+        ukName: "AFM Unit",
+        ukDiscript: "Allows in-flight repair of internal ship modules. Can restore broken modules. Requires ammunition."
       }, {
         ammo: 6700,
         ammocost: 1,
@@ -12921,7 +13475,9 @@ module.exports = {
         power: 1.86,
         rating: "D",
         repair: 107.2,
-        symbol: "Int_Repairer_Size6_Class2"
+        symbol: "Int_Repairer_Size6_Class2",
+        ukName: "AFM Unit",
+        ukDiscript: "Allows in-flight repair of internal ship modules. Can restore broken modules. Requires ammunition."
       }, {
         ammo: 7400,
         ammocost: 1,
@@ -12934,7 +13490,9 @@ module.exports = {
         power: 2.33,
         rating: "C",
         repair: 148,
-        symbol: "Int_Repairer_Size6_Class3"
+        symbol: "Int_Repairer_Size6_Class3",
+        ukName: "AFM Unit",
+        ukDiscript: "Allows in-flight repair of internal ship modules. Can restore broken modules. Requires ammunition."
       }, {
         ammo: 8900,
         ammocost: 1,
@@ -12947,7 +13505,9 @@ module.exports = {
         power: 2.67,
         rating: "B",
         repair: 204.7,
-        symbol: "Int_Repairer_Size6_Class4"
+        symbol: "Int_Repairer_Size6_Class4",
+        ukName: "AFM Unit",
+        ukDiscript: "Allows in-flight repair of internal ship modules. Can restore broken modules. Requires ammunition."
       }, {
         ammo: 8100,
         ammocost: 1,
@@ -12960,7 +13520,9 @@ module.exports = {
         power: 3.26,
         rating: "A",
         repair: 226.8,
-        symbol: "Int_Repairer_Size6_Class5"
+        symbol: "Int_Repairer_Size6_Class5",
+        ukName: "AFM Unit",
+        ukDiscript: "Allows in-flight repair of internal ship modules. Can restore broken modules. Requires ammunition."
       }, {
         ammo: 8700,
         ammocost: 1,
@@ -12973,7 +13535,9 @@ module.exports = {
         power: 1.58,
         rating: "E",
         repair: 104.4,
-        symbol: "Int_Repairer_Size7_Class1"
+        symbol: "Int_Repairer_Size7_Class1",
+        ukName: "AFM Unit",
+        ukDiscript: "Allows in-flight repair of internal ship modules. Can restore broken modules. Requires ammunition."
       }, {
         ammo: 7800,
         ammocost: 1,
@@ -12986,7 +13550,9 @@ module.exports = {
         power: 2.1,
         rating: "D",
         repair: 124.8,
-        symbol: "Int_Repairer_Size7_Class2"
+        symbol: "Int_Repairer_Size7_Class2",
+        ukName: "AFM Unit",
+        ukDiscript: "Allows in-flight repair of internal ship modules. Can restore broken modules. Requires ammunition."
       }, {
         ammo: 8700,
         ammocost: 1,
@@ -12999,7 +13565,9 @@ module.exports = {
         power: 2.63,
         rating: "C",
         repair: 174,
-        symbol: "Int_Repairer_Size7_Class3"
+        symbol: "Int_Repairer_Size7_Class3",
+        ukName: "AFM Unit",
+        ukDiscript: "Allows in-flight repair of internal ship modules. Can restore broken modules. Requires ammunition."
       }, {
         ammo: 10400,
         ammocost: 1,
@@ -13012,7 +13580,9 @@ module.exports = {
         power: 3.02,
         rating: "B",
         repair: 239.2,
-        symbol: "Int_Repairer_Size7_Class4"
+        symbol: "Int_Repairer_Size7_Class4",
+        ukName: "AFM Unit",
+        ukDiscript: "Allows in-flight repair of internal ship modules. Can restore broken modules. Requires ammunition."
       }, {
         ammo: 9600,
         ammocost: 1,
@@ -13025,7 +13595,9 @@ module.exports = {
         power: 3.68,
         rating: "A",
         repair: 268.8,
-        symbol: "Int_Repairer_Size7_Class5"
+        symbol: "Int_Repairer_Size7_Class5",
+        ukName: "AFM Unit",
+        ukDiscript: "Allows in-flight repair of internal ship modules. Can restore broken modules. Requires ammunition."
       }, {
         ammo: 1e4,
         ammocost: 1,
@@ -13038,7 +13610,9 @@ module.exports = {
         power: 1.8,
         rating: "E",
         repair: 120,
-        symbol: "Int_Repairer_Size8_Class1"
+        symbol: "Int_Repairer_Size8_Class1",
+        ukName: "AFM Unit",
+        ukDiscript: "Allows in-flight repair of internal ship modules. Can restore broken modules. Requires ammunition."
       }, {
         ammo: 9e3,
         ammocost: 1,
@@ -13051,7 +13625,9 @@ module.exports = {
         power: 2.4,
         rating: "D",
         repair: 144,
-        symbol: "Int_Repairer_Size8_Class2"
+        symbol: "Int_Repairer_Size8_Class2",
+        ukName: "AFM Unit",
+        ukDiscript: "Allows in-flight repair of internal ship modules. Can restore broken modules. Requires ammunition."
       }, {
         ammo: 1e4,
         ammocost: 1,
@@ -13064,7 +13640,9 @@ module.exports = {
         power: 3,
         rating: "C",
         repair: 200,
-        symbol: "Int_Repairer_Size8_Class3"
+        symbol: "Int_Repairer_Size8_Class3",
+        ukName: "AFM Unit",
+        ukDiscript: "Allows in-flight repair of internal ship modules. Can restore broken modules. Requires ammunition."
       }, {
         ammo: 12e3,
         ammocost: 1,
@@ -13077,7 +13655,9 @@ module.exports = {
         power: 3.45,
         rating: "B",
         repair: 276,
-        symbol: "Int_Repairer_Size8_Class4"
+        symbol: "Int_Repairer_Size8_Class4",
+        ukName: "AFM Unit",
+        ukDiscript: "Allows in-flight repair of internal ship modules. Can restore broken modules. Requires ammunition."
       }, {
         ammo: 11e3,
         ammocost: 1,
@@ -13090,7 +13670,9 @@ module.exports = {
         power: 4.2,
         rating: "A",
         repair: 308,
-        symbol: "Int_Repairer_Size8_Class5"
+        symbol: "Int_Repairer_Size8_Class5",
+        ukName: "AFM Unit",
+        ukDiscript: "Allows in-flight repair of internal ship modules. Can restore broken modules. Requires ammunition."
       } ],
       bsg: [ {
         brokenregen: 2.4,
@@ -13115,7 +13697,9 @@ module.exports = {
         rating: "C",
         regen: 1.8,
         thermres: -.2,
-        symbol: "Int_ShieldGenerator_Size1_Class3_Fast"
+        symbol: "Int_ShieldGenerator_Size1_Class3_Fast",
+        ukName: "Bi-Weave Shield",
+        ukDiscript: "An alternative shield generator that sacrifices overall shield strength for a much faster recharge rate."
       }, {
         brokenregen: 2.4,
         class: 2,
@@ -13139,7 +13723,9 @@ module.exports = {
         rating: "C",
         regen: 1.8,
         thermres: -.2,
-        symbol: "Int_ShieldGenerator_Size2_Class3_Fast"
+        symbol: "Int_ShieldGenerator_Size2_Class3_Fast",
+        ukName: "Bi-Weave Shield",
+        ukDiscript: "An alternative shield generator that sacrifices overall shield strength for a much faster recharge rate."
       }, {
         brokenregen: 2.8,
         class: 3,
@@ -13163,7 +13749,9 @@ module.exports = {
         rating: "C",
         regen: 1.8,
         thermres: -.2,
-        symbol: "Int_ShieldGenerator_Size3_Class3_Fast"
+        symbol: "Int_ShieldGenerator_Size3_Class3_Fast",
+        ukName: "Bi-Weave Shield",
+        ukDiscript: "An alternative shield generator that sacrifices overall shield strength for a much faster recharge rate."
       }, {
         brokenregen: 3.8,
         class: 4,
@@ -13187,7 +13775,9 @@ module.exports = {
         rating: "C",
         regen: 1.8,
         thermres: -.2,
-        symbol: "Int_ShieldGenerator_Size4_Class3_Fast"
+        symbol: "Int_ShieldGenerator_Size4_Class3_Fast",
+        ukName: "Bi-Weave Shield",
+        ukDiscript: "An alternative shield generator that sacrifices overall shield strength for a much faster recharge rate."
       }, {
         brokenregen: 5.6,
         class: 5,
@@ -13211,7 +13801,9 @@ module.exports = {
         rating: "C",
         regen: 2.2,
         thermres: -.2,
-        symbol: "Int_ShieldGenerator_Size5_Class3_Fast"
+        symbol: "Int_ShieldGenerator_Size5_Class3_Fast",
+        ukName: "Bi-Weave Shield",
+        ukDiscript: "An alternative shield generator that sacrifices overall shield strength for a much faster recharge rate."
       }, {
         brokenregen: 8,
         class: 6,
@@ -13235,7 +13827,9 @@ module.exports = {
         rating: "C",
         regen: 3.2,
         thermres: -.2,
-        symbol: "Int_ShieldGenerator_Size6_Class3_Fast"
+        symbol: "Int_ShieldGenerator_Size6_Class3_Fast",
+        ukName: "Bi-Weave Shield",
+        ukDiscript: "An alternative shield generator that sacrifices overall shield strength for a much faster recharge rate."
       }, {
         brokenregen: 11,
         class: 7,
@@ -13259,7 +13853,9 @@ module.exports = {
         rating: "C",
         regen: 4.4,
         thermres: -.2,
-        symbol: "Int_ShieldGenerator_Size7_Class3_Fast"
+        symbol: "Int_ShieldGenerator_Size7_Class3_Fast",
+        ukName: "Bi-Weave Shield",
+        ukDiscript: "An alternative shield generator that sacrifices overall shield strength for a much faster recharge rate."
       }, {
         brokenregen: 14.4,
         class: 8,
@@ -13283,7 +13879,9 @@ module.exports = {
         rating: "C",
         regen: 5.8,
         thermres: -.2,
-        symbol: "Int_ShieldGenerator_Size8_Class3_Fast"
+        symbol: "Int_ShieldGenerator_Size8_Class3_Fast",
+        ukName: "Bi-Weave Shield",
+        ukDiscript: "An alternative shield generator that sacrifices overall shield strength for a much faster recharge rate."
       } ],
       cr: [ {
         cargo: 2,
@@ -13295,7 +13893,9 @@ module.exports = {
         id: "00",
         rating: "E",
         mass: 0,
-        symbol: "Int_CargoRack_Size1_Class1"
+        symbol: "Int_CargoRack_Size1_Class1",
+        ukName: "Cargo Rack",
+        ukDiscript: "Standardised storage rack for use in automated cargo transfer system."
       }, {
         cargo: 4,
         class: 2,
@@ -13306,7 +13906,9 @@ module.exports = {
         id: "01",
         rating: "E",
         mass: 0,
-        symbol: "Int_CargoRack_Size2_Class1"
+        symbol: "Int_CargoRack_Size2_Class1",
+        ukName: "Cargo Rack",
+        ukDiscript: "Standardised storage rack for use in automated cargo transfer system."
       }, {
         cargo: 8,
         class: 3,
@@ -13317,7 +13919,9 @@ module.exports = {
         id: "02",
         rating: "E",
         mass: 0,
-        symbol: "Int_CargoRack_Size3_Class1"
+        symbol: "Int_CargoRack_Size3_Class1",
+        ukName: "Cargo Rack",
+        ukDiscript: "Standardised storage rack for use in automated cargo transfer system."
       }, {
         cargo: 16,
         class: 4,
@@ -13328,7 +13932,9 @@ module.exports = {
         id: "03",
         rating: "E",
         mass: 0,
-        symbol: "Int_CargoRack_Size4_Class1"
+        symbol: "Int_CargoRack_Size4_Class1",
+        ukName: "Cargo Rack",
+        ukDiscript: "Standardised storage rack for use in automated cargo transfer system."
       }, {
         cargo: 32,
         class: 5,
@@ -13339,7 +13945,9 @@ module.exports = {
         id: "04",
         rating: "E",
         mass: 0,
-        symbol: "Int_CargoRack_Size5_Class1"
+        symbol: "Int_CargoRack_Size5_Class1",
+        ukName: "Cargo Rack",
+        ukDiscript: "Standardised storage rack for use in automated cargo transfer system."
       }, {
         cargo: 64,
         class: 6,
@@ -13350,7 +13958,9 @@ module.exports = {
         id: "05",
         rating: "E",
         mass: 0,
-        symbol: "Int_CargoRack_Size6_Class1"
+        symbol: "Int_CargoRack_Size6_Class1",
+        ukName: "Cargo Rack",
+        ukDiscript: "Standardised storage rack for use in automated cargo transfer system."
       }, {
         cargo: 128,
         class: 7,
@@ -13361,7 +13971,9 @@ module.exports = {
         id: "06",
         rating: "E",
         mass: 0,
-        symbol: "Int_CargoRack_Size7_Class1"
+        symbol: "Int_CargoRack_Size7_Class1",
+        ukName: "Cargo Rack",
+        ukDiscript: "Standardised storage rack for use in automated cargo transfer system."
       }, {
         cargo: 256,
         class: 8,
@@ -13372,7 +13984,9 @@ module.exports = {
         id: "07",
         rating: "E",
         mass: 0,
-        symbol: "Int_CargoRack_Size8_Class1"
+        symbol: "Int_CargoRack_Size8_Class1",
+        ukName: "Cargo Rack",
+        ukDiscript: "Standardised storage rack for use in automated cargo transfer system."
       }, {
         cargo: 1,
         class: 1,
@@ -13384,7 +13998,9 @@ module.exports = {
         name: "Corrosion Resistant",
         rating: "E",
         mass: 0,
-        symbol: "Int_CorrosionProofCargoRack_Size1_Class1"
+        symbol: "Int_CorrosionProofCargoRack_Size1_Class1",
+        ukName: "Corrosion Resistant Cargo Rack",
+        ukDiscript: "Specialised storage rack for use in automated cargo transfer system that can resist the effects of corrosive cargo."
       }, {
         cargo: 2,
         class: 1,
@@ -13396,7 +14012,9 @@ module.exports = {
         name: "Corrosion Resistant",
         rating: "F",
         mass: 0,
-        symbol: "Int_CorrosionProofCargoRack_Size1_Class2"
+        symbol: "Int_CorrosionProofCargoRack_Size1_Class2",
+        ukName: "Corrosion Resistant Cargo Rack",
+        ukDiscript: "Specialised storage rack for use in automated cargo transfer system that can resist the effects of corrosive cargo."
       }, {
         cargo: 4,
         class: 2,
@@ -13408,7 +14026,9 @@ module.exports = {
         name: "Corrosion Resistant",
         rating: "F",
         mass: 0,
-        symbol: "Int_CorrosionProofCargoRack_Size2_Class1"
+        symbol: "Int_CorrosionProofCargoRack_Size2_Class1",
+        ukName: "Corrosion Resistant Cargo Rack",
+        ukDiscript: "Specialised storage rack for use in automated cargo transfer system that can resist the effects of corrosive cargo."
       }, {
         cargo: 16,
         class: 4,
@@ -13420,7 +14040,9 @@ module.exports = {
         name: "Corrosion Resistant",
         rating: "E",
         mass: 0,
-        symbol: "Int_CorrosionProofCargoRack_Size4_Class1"
+        symbol: "Int_CorrosionProofCargoRack_Size4_Class1",
+        ukName: "Corrosion Resistant Cargo Rack",
+        ukDiscript: "Specialised storage rack for use in automated cargo transfer system that can resist the effects of corrosive cargo."
       } ],
       cc: [ {
         class: 1,
@@ -13435,7 +14057,9 @@ module.exports = {
         range: .8,
         rating: "E",
         time: 300,
-        symbol: "Int_DroneControl_Collection_Size1_Class1"
+        symbol: "Int_DroneControl_Collection_Size1_Class1",
+        ukName: "Collector",
+        ukDiscript: "Controls limpets to collect canisters and asteroid chunks automatically."
       }, {
         class: 1,
         cost: 1200,
@@ -13449,7 +14073,9 @@ module.exports = {
         range: .6,
         rating: "D",
         time: 600,
-        symbol: "Int_DroneControl_Collection_Size1_Class2"
+        symbol: "Int_DroneControl_Collection_Size1_Class2",
+        ukName: "Collector",
+        ukDiscript: "Controls limpets to collect canisters and asteroid chunks automatically."
       }, {
         class: 1,
         cost: 2400,
@@ -13463,7 +14089,9 @@ module.exports = {
         range: 1,
         rating: "C",
         time: 510,
-        symbol: "Int_DroneControl_Collection_Size1_Class3"
+        symbol: "Int_DroneControl_Collection_Size1_Class3",
+        ukName: "Collector",
+        ukDiscript: "Controls limpets to collect canisters and asteroid chunks automatically."
       }, {
         class: 1,
         cost: 4800,
@@ -13477,7 +14105,9 @@ module.exports = {
         range: 1.4,
         rating: "B",
         time: 420,
-        symbol: "Int_DroneControl_Collection_Size1_Class4"
+        symbol: "Int_DroneControl_Collection_Size1_Class4",
+        ukName: "Collector",
+        ukDiscript: "Controls limpets to collect canisters and asteroid chunks automatically."
       }, {
         class: 1,
         cost: 9600,
@@ -13491,7 +14121,9 @@ module.exports = {
         range: 1.2,
         rating: "A",
         time: 720,
-        symbol: "Int_DroneControl_Collection_Size1_Class5"
+        symbol: "Int_DroneControl_Collection_Size1_Class5",
+        ukName: "Collector",
+        ukDiscript: "Controls limpets to collect canisters and asteroid chunks automatically."
       }, {
         class: 3,
         cost: 5400,
@@ -13505,7 +14137,9 @@ module.exports = {
         range: .88,
         rating: "E",
         time: 300,
-        symbol: "Int_DroneControl_Collection_Size3_Class1"
+        symbol: "Int_DroneControl_Collection_Size3_Class1",
+        ukName: "Collector",
+        ukDiscript: "Controls limpets to collect canisters and asteroid chunks automatically."
       }, {
         class: 3,
         cost: 10800,
@@ -13519,7 +14153,9 @@ module.exports = {
         range: .66,
         rating: "D",
         time: 600,
-        symbol: "Int_DroneControl_Collection_Size3_Class2"
+        symbol: "Int_DroneControl_Collection_Size3_Class2",
+        ukName: "Collector",
+        ukDiscript: "Controls limpets to collect canisters and asteroid chunks automatically."
       }, {
         class: 3,
         cost: 21600,
@@ -13533,7 +14169,9 @@ module.exports = {
         range: 1.1,
         rating: "C",
         time: 510,
-        symbol: "Int_DroneControl_Collection_Size3_Class3"
+        symbol: "Int_DroneControl_Collection_Size3_Class3",
+        ukName: "Collector",
+        ukDiscript: "Controls limpets to collect canisters and asteroid chunks automatically."
       }, {
         class: 3,
         cost: 43200,
@@ -13547,7 +14185,9 @@ module.exports = {
         range: 1.54,
         rating: "B",
         time: 420,
-        symbol: "Int_DroneControl_Collection_Size3_Class4"
+        symbol: "Int_DroneControl_Collection_Size3_Class4",
+        ukName: "Collector",
+        ukDiscript: "Controls limpets to collect canisters and asteroid chunks automatically."
       }, {
         class: 3,
         cost: 86400,
@@ -13561,7 +14201,9 @@ module.exports = {
         range: 1.32,
         rating: "A",
         time: 720,
-        symbol: "Int_DroneControl_Collection_Size3_Class5"
+        symbol: "Int_DroneControl_Collection_Size3_Class5",
+        ukName: "Collector",
+        ukDiscript: "Controls limpets to collect canisters and asteroid chunks automatically."
       }, {
         class: 5,
         cost: 48600,
@@ -13575,7 +14217,9 @@ module.exports = {
         range: 1.04,
         rating: "E",
         time: 300,
-        symbol: "Int_DroneControl_Collection_Size5_Class1"
+        symbol: "Int_DroneControl_Collection_Size5_Class1",
+        ukName: "Collector",
+        ukDiscript: "Controls limpets to collect canisters and asteroid chunks automatically."
       }, {
         class: 5,
         cost: 97200,
@@ -13589,7 +14233,9 @@ module.exports = {
         range: .78,
         rating: "D",
         time: 600,
-        symbol: "Int_DroneControl_Collection_Size5_Class2"
+        symbol: "Int_DroneControl_Collection_Size5_Class2",
+        ukName: "Collector",
+        ukDiscript: "Controls limpets to collect canisters and asteroid chunks automatically."
       }, {
         class: 5,
         cost: 194400,
@@ -13603,7 +14249,9 @@ module.exports = {
         range: 1.3,
         rating: "C",
         time: 510,
-        symbol: "Int_DroneControl_Collection_Size5_Class3"
+        symbol: "Int_DroneControl_Collection_Size5_Class3",
+        ukName: "Collector",
+        ukDiscript: "Controls limpets to collect canisters and asteroid chunks automatically."
       }, {
         class: 5,
         cost: 388800,
@@ -13617,7 +14265,9 @@ module.exports = {
         range: 1.82,
         rating: "B",
         time: 420,
-        symbol: "Int_DroneControl_Collection_Size5_Class4"
+        symbol: "Int_DroneControl_Collection_Size5_Class4",
+        ukName: "Collector",
+        ukDiscript: "Controls limpets to collect canisters and asteroid chunks automatically."
       }, {
         class: 5,
         cost: 777600,
@@ -13631,7 +14281,9 @@ module.exports = {
         range: 1.56,
         rating: "A",
         time: 720,
-        symbol: "Int_DroneControl_Collection_Size5_Class5"
+        symbol: "Int_DroneControl_Collection_Size5_Class5",
+        ukName: "Collector",
+        ukDiscript: "Controls limpets to collect canisters and asteroid chunks automatically."
       }, {
         class: 7,
         cost: 437400,
@@ -13645,7 +14297,9 @@ module.exports = {
         range: 1.36,
         rating: "E",
         time: 300,
-        symbol: "Int_DroneControl_Collection_Size7_Class1"
+        symbol: "Int_DroneControl_Collection_Size7_Class1",
+        ukName: "Collector",
+        ukDiscript: "Controls limpets to collect canisters and asteroid chunks automatically."
       }, {
         class: 7,
         cost: 874800,
@@ -13659,7 +14313,9 @@ module.exports = {
         range: 1.02,
         rating: "D",
         time: 600,
-        symbol: "Int_DroneControl_Collection_Size7_Class2"
+        symbol: "Int_DroneControl_Collection_Size7_Class2",
+        ukName: "Collector",
+        ukDiscript: "Controls limpets to collect canisters and asteroid chunks automatically."
       }, {
         class: 7,
         cost: 1749600,
@@ -13673,7 +14329,9 @@ module.exports = {
         range: 1.7,
         rating: "C",
         time: 510,
-        symbol: "Int_DroneControl_Collection_Size7_Class3"
+        symbol: "Int_DroneControl_Collection_Size7_Class3",
+        ukName: "Collector",
+        ukDiscript: "Controls limpets to collect canisters and asteroid chunks automatically."
       }, {
         class: 7,
         cost: 3499200,
@@ -13687,7 +14345,9 @@ module.exports = {
         range: 2.38,
         rating: "B",
         time: 420,
-        symbol: "Int_DroneControl_Collection_Size7_Class4"
+        symbol: "Int_DroneControl_Collection_Size7_Class4",
+        ukName: "Collector",
+        ukDiscript: "Controls limpets to collect canisters and asteroid chunks automatically."
       }, {
         class: 7,
         cost: 6998400,
@@ -13701,7 +14361,9 @@ module.exports = {
         range: 2.04,
         rating: "A",
         time: 720,
-        symbol: "Int_DroneControl_Collection_Size7_Class5"
+        symbol: "Int_DroneControl_Collection_Size7_Class5",
+        ukName: "Collector",
+        ukDiscript: "Controls limpets to collect canisters and asteroid chunks automatically."
       } ],
       dc: [ {
         class: 1,
@@ -13714,7 +14376,9 @@ module.exports = {
         name: "Standard Docking Computer",
         power: .39,
         rating: "E",
-        symbol: "Int_DockingComputer_Standard"
+        symbol: "Int_DockingComputer_Standard",
+        ukName: "Docking Computer",
+        ukDiscript: "Allows automated docking sequence at all starports and outposts."
       } ],
       dtl: [ {
         class: 1,
@@ -13728,7 +14392,9 @@ module.exports = {
         power: .18,
         range: .6,
         rating: "E",
-        symbol: "Int_DroneControl_Decontamination_Size1_Class1"
+        symbol: "Int_DroneControl_Decontamination_Size1_Class1",
+        ukName: "Decontamination",
+        ukDiscript: "Controls a limpet that removes caustic chemicals affecting a ship's hull, as well as applying a small amount of hull repair."
       }, {
         class: 3,
         cost: 16201,
@@ -13741,7 +14407,9 @@ module.exports = {
         power: .2,
         range: .88,
         rating: "E",
-        symbol: "Int_DroneControl_Decontamination_Size3_Class1"
+        symbol: "Int_DroneControl_Decontamination_Size3_Class1",
+        ukName: "Decontamination",
+        ukDiscript: "Controls a limpet that removes caustic chemicals affecting a ship's hull, as well as applying a small amount of hull repair."
       }, {
         class: 5,
         cost: 145801,
@@ -13754,7 +14422,9 @@ module.exports = {
         power: .5,
         range: 1.3,
         rating: "E",
-        symbol: "Int_DroneControl_Decontamination_Size5_Class1"
+        symbol: "Int_DroneControl_Decontamination_Size5_Class1",
+        ukName: "Decontamination",
+        ukDiscript: "Controls a limpet that removes caustic chemicals affecting a ship's hull, as well as applying a small amount of hull repair."
       }, {
         class: 7,
         cost: 1312201,
@@ -13767,7 +14437,9 @@ module.exports = {
         power: .97,
         range: 2.04,
         rating: "E",
-        symbol: "Int_DroneControl_Decontamination_Size7_Class1"
+        symbol: "Int_DroneControl_Decontamination_Size7_Class1",
+        ukName: "Decontamination",
+        ukDiscript: "Controls a limpet that removes caustic chemicals affecting a ship's hull, as well as applying a small amount of hull repair."
       } ],
       fh: [ {
         bays: 1,
@@ -13783,7 +14455,9 @@ module.exports = {
         power: .25,
         rating: "D",
         rebuildsperbay: 6,
-        symbol: "Int_FighterBay_Size5_Class1"
+        symbol: "Int_FighterBay_Size5_Class1",
+        ukName: "Fighter Hangar",
+        ukDiscript: "A module designed to house ship launched vehicles."
       }, {
         bays: 2,
         class: 6,
@@ -13798,7 +14472,9 @@ module.exports = {
         power: .35,
         rating: "D",
         rebuildsperbay: 8,
-        symbol: "Int_FighterBay_Size6_Class1"
+        symbol: "Int_FighterBay_Size6_Class1",
+        ukName: "Fighter Hangar",
+        ukDiscript: "A module designed to house ship launched vehicles."
       }, {
         bays: 2,
         class: 7,
@@ -13813,7 +14489,9 @@ module.exports = {
         power: .35,
         rating: "D",
         rebuildsperbay: 15,
-        symbol: "Int_FighterBay_Size7_Class1"
+        symbol: "Int_FighterBay_Size7_Class1",
+        ukName: "Fighter Hangar",
+        ukDiscript: "A module designed to house ship launched vehicles."
       } ],
       fi: [ {
         boot: 15,
@@ -13829,7 +14507,9 @@ module.exports = {
         power: .14,
         ranget: 3,
         rating: "E",
-        symbol: "Int_FSDInterdictor_Size1_Class1"
+        symbol: "Int_FSDInterdictor_Size1_Class1",
+        ukName: "FSD Interdictor",
+        ukDiscript: "Used to pull targets out of supercruise."
       }, {
         boot: 15,
         class: 1,
@@ -13844,7 +14524,9 @@ module.exports = {
         power: .18,
         ranget: 4,
         rating: "D",
-        symbol: "Int_FSDInterdictor_Size1_Class2"
+        symbol: "Int_FSDInterdictor_Size1_Class2",
+        ukName: "FSD Interdictor",
+        ukDiscript: "Used to pull targets out of supercruise."
       }, {
         boot: 15,
         class: 1,
@@ -13859,7 +14541,9 @@ module.exports = {
         power: .23,
         ranget: 5,
         rating: "C",
-        symbol: "Int_FSDInterdictor_Size1_Class3"
+        symbol: "Int_FSDInterdictor_Size1_Class3",
+        ukName: "FSD Interdictor",
+        ukDiscript: "Used to pull targets out of supercruise."
       }, {
         boot: 15,
         class: 1,
@@ -13874,7 +14558,9 @@ module.exports = {
         power: .28,
         ranget: 6,
         rating: "B",
-        symbol: "Int_FSDInterdictor_Size1_Class4"
+        symbol: "Int_FSDInterdictor_Size1_Class4",
+        ukName: "FSD Interdictor",
+        ukDiscript: "Used to pull targets out of supercruise."
       }, {
         boot: 15,
         class: 1,
@@ -13889,7 +14575,9 @@ module.exports = {
         power: .32,
         ranget: 7,
         rating: "A",
-        symbol: "Int_FSDInterdictor_Size1_Class5"
+        symbol: "Int_FSDInterdictor_Size1_Class5",
+        ukName: "FSD Interdictor",
+        ukDiscript: "Used to pull targets out of supercruise."
       }, {
         boot: 15,
         class: 2,
@@ -13904,7 +14592,9 @@ module.exports = {
         power: .17,
         ranget: 6,
         rating: "E",
-        symbol: "Int_FSDInterdictor_Size2_Class1"
+        symbol: "Int_FSDInterdictor_Size2_Class1",
+        ukName: "FSD Interdictor",
+        ukDiscript: "Used to pull targets out of supercruise."
       }, {
         boot: 15,
         class: 2,
@@ -13919,7 +14609,9 @@ module.exports = {
         power: .22,
         ranget: 7,
         rating: "D",
-        symbol: "Int_FSDInterdictor_Size2_Class2"
+        symbol: "Int_FSDInterdictor_Size2_Class2",
+        ukName: "FSD Interdictor",
+        ukDiscript: "Used to pull targets out of supercruise."
       }, {
         boot: 15,
         class: 2,
@@ -13934,7 +14626,9 @@ module.exports = {
         power: .28,
         ranget: 8,
         rating: "C",
-        symbol: "Int_FSDInterdictor_Size2_Class3"
+        symbol: "Int_FSDInterdictor_Size2_Class3",
+        ukName: "FSD Interdictor",
+        ukDiscript: "Used to pull targets out of supercruise."
       }, {
         boot: 15,
         class: 2,
@@ -13949,7 +14643,9 @@ module.exports = {
         power: .34,
         ranget: 9,
         rating: "B",
-        symbol: "Int_FSDInterdictor_Size2_Class4"
+        symbol: "Int_FSDInterdictor_Size2_Class4",
+        ukName: "FSD Interdictor",
+        ukDiscript: "Used to pull targets out of supercruise."
       }, {
         boot: 15,
         class: 2,
@@ -13964,7 +14660,9 @@ module.exports = {
         power: .39,
         ranget: 10,
         rating: "A",
-        symbol: "Int_FSDInterdictor_Size2_Class5"
+        symbol: "Int_FSDInterdictor_Size2_Class5",
+        ukName: "FSD Interdictor",
+        ukDiscript: "Used to pull targets out of supercruise."
       }, {
         boot: 15,
         class: 3,
@@ -13979,7 +14677,9 @@ module.exports = {
         power: .2,
         ranget: 9,
         rating: "E",
-        symbol: "Int_FSDInterdictor_Size3_Class1"
+        symbol: "Int_FSDInterdictor_Size3_Class1",
+        ukName: "FSD Interdictor",
+        ukDiscript: "Used to pull targets out of supercruise."
       }, {
         boot: 15,
         class: 3,
@@ -13994,7 +14694,9 @@ module.exports = {
         power: .27,
         ranget: 10,
         rating: "D",
-        symbol: "Int_FSDInterdictor_Size3_Class2"
+        symbol: "Int_FSDInterdictor_Size3_Class2",
+        ukName: "FSD Interdictor",
+        ukDiscript: "Used to pull targets out of supercruise."
       }, {
         boot: 15,
         class: 3,
@@ -14009,7 +14711,9 @@ module.exports = {
         power: .34,
         ranget: 11,
         rating: "C",
-        symbol: "Int_FSDInterdictor_Size3_Class3"
+        symbol: "Int_FSDInterdictor_Size3_Class3",
+        ukName: "FSD Interdictor",
+        ukDiscript: "Used to pull targets out of supercruise."
       }, {
         boot: 15,
         class: 3,
@@ -14024,7 +14728,9 @@ module.exports = {
         power: .41,
         ranget: 12,
         rating: "B",
-        symbol: "Int_FSDInterdictor_Size3_Class4"
+        symbol: "Int_FSDInterdictor_Size3_Class4",
+        ukName: "FSD Interdictor",
+        ukDiscript: "Used to pull targets out of supercruise."
       }, {
         boot: 15,
         class: 3,
@@ -14039,7 +14745,9 @@ module.exports = {
         power: .48,
         ranget: 13,
         rating: "A",
-        symbol: "Int_FSDInterdictor_Size3_Class5"
+        symbol: "Int_FSDInterdictor_Size3_Class5",
+        ukName: "FSD Interdictor",
+        ukDiscript: "Used to pull targets out of supercruise."
       }, {
         boot: 15,
         class: 4,
@@ -14054,7 +14762,9 @@ module.exports = {
         power: .25,
         ranget: 12,
         rating: "E",
-        symbol: "Int_FSDInterdictor_Size4_Class1"
+        symbol: "Int_FSDInterdictor_Size4_Class1",
+        ukName: "FSD Interdictor",
+        ukDiscript: "Used to pull targets out of supercruise."
       }, {
         boot: 15,
         class: 4,
@@ -14069,7 +14779,9 @@ module.exports = {
         power: .33,
         ranget: 13,
         rating: "D",
-        symbol: "Int_FSDInterdictor_Size4_Class2"
+        symbol: "Int_FSDInterdictor_Size4_Class2",
+        ukName: "FSD Interdictor",
+        ukDiscript: "Used to pull targets out of supercruise."
       }, {
         boot: 15,
         class: 4,
@@ -14084,7 +14796,9 @@ module.exports = {
         power: .41,
         ranget: 14,
         rating: "C",
-        symbol: "Int_FSDInterdictor_Size4_Class3"
+        symbol: "Int_FSDInterdictor_Size4_Class3",
+        ukName: "FSD Interdictor",
+        ukDiscript: "Used to pull targets out of supercruise."
       }, {
         boot: 15,
         class: 4,
@@ -14099,7 +14813,9 @@ module.exports = {
         power: .49,
         ranget: 15,
         rating: "B",
-        symbol: "Int_FSDInterdictor_Size4_Class4"
+        symbol: "Int_FSDInterdictor_Size4_Class4",
+        ukName: "FSD Interdictor",
+        ukDiscript: "Used to pull targets out of supercruise."
       }, {
         boot: 15,
         class: 4,
@@ -14114,7 +14830,9 @@ module.exports = {
         power: .57,
         ranget: 16,
         rating: "A",
-        symbol: "Int_FSDInterdictor_Size4_Class5"
+        symbol: "Int_FSDInterdictor_Size4_Class5",
+        ukName: "FSD Interdictor",
+        ukDiscript: "Used to pull targets out of supercruise."
       } ],
       fs: [ {
         class: 1,
@@ -14126,7 +14844,9 @@ module.exports = {
         power: .14,
         rate: 18,
         rating: "E",
-        symbol: "Int_FuelScoop_Size1_Class1"
+        symbol: "Int_FuelScoop_Size1_Class1",
+        ukName: "Fuel Scoop",
+        ukDiscript: "Fly close to the sun with an active fuel scoop to collect fuel."
       }, {
         class: 1,
         cost: 1290,
@@ -14137,7 +14857,9 @@ module.exports = {
         power: .18,
         rate: 24,
         rating: "D",
-        symbol: "Int_FuelScoop_Size1_Class2"
+        symbol: "Int_FuelScoop_Size1_Class2",
+        ukName: "Fuel Scoop",
+        ukDiscript: "Fly close to the sun with an active fuel scoop to collect fuel."
       }, {
         class: 1,
         cost: 5140,
@@ -14148,7 +14870,9 @@ module.exports = {
         power: .23,
         rate: 30,
         rating: "C",
-        symbol: "Int_FuelScoop_Size1_Class3"
+        symbol: "Int_FuelScoop_Size1_Class3",
+        ukName: "Fuel Scoop",
+        ukDiscript: "Fly close to the sun with an active fuel scoop to collect fuel."
       }, {
         class: 1,
         cost: 20570,
@@ -14159,7 +14883,9 @@ module.exports = {
         power: .28,
         rate: 36,
         rating: "B",
-        symbol: "Int_FuelScoop_Size1_Class4"
+        symbol: "Int_FuelScoop_Size1_Class4",
+        ukName: "Fuel Scoop",
+        ukDiscript: "Fly close to the sun with an active fuel scoop to collect fuel."
       }, {
         class: 1,
         cost: 82270,
@@ -14170,7 +14896,9 @@ module.exports = {
         power: .32,
         rate: 42,
         rating: "A",
-        symbol: "Int_FuelScoop_Size1_Class5"
+        symbol: "Int_FuelScoop_Size1_Class5",
+        ukName: "Fuel Scoop",
+        ukDiscript: "Fly close to the sun with an active fuel scoop to collect fuel."
       }, {
         class: 2,
         cost: 1070,
@@ -14181,7 +14909,9 @@ module.exports = {
         power: .17,
         rate: 32,
         rating: "E",
-        symbol: "Int_FuelScoop_Size2_Class1"
+        symbol: "Int_FuelScoop_Size2_Class1",
+        ukName: "Fuel Scoop",
+        ukDiscript: "Fly close to the sun with an active fuel scoop to collect fuel."
       }, {
         class: 2,
         cost: 4450,
@@ -14192,7 +14922,9 @@ module.exports = {
         power: .22,
         rate: 43,
         rating: "D",
-        symbol: "Int_FuelScoop_Size2_Class2"
+        symbol: "Int_FuelScoop_Size2_Class2",
+        ukName: "Fuel Scoop",
+        ukDiscript: "Fly close to the sun with an active fuel scoop to collect fuel."
       }, {
         class: 2,
         cost: 17800,
@@ -14203,7 +14935,9 @@ module.exports = {
         power: .28,
         rate: 54,
         rating: "C",
-        symbol: "Int_FuelScoop_Size2_Class3"
+        symbol: "Int_FuelScoop_Size2_Class3",
+        ukName: "Fuel Scoop",
+        ukDiscript: "Fly close to the sun with an active fuel scoop to collect fuel."
       }, {
         class: 2,
         cost: 71210,
@@ -14214,7 +14948,9 @@ module.exports = {
         power: .34,
         rate: 65,
         rating: "B",
-        symbol: "Int_FuelScoop_Size2_Class4"
+        symbol: "Int_FuelScoop_Size2_Class4",
+        ukName: "Fuel Scoop",
+        ukDiscript: "Fly close to the sun with an active fuel scoop to collect fuel."
       }, {
         class: 2,
         cost: 284840,
@@ -14225,7 +14961,9 @@ module.exports = {
         power: .39,
         rate: 75,
         rating: "A",
-        symbol: "Int_FuelScoop_Size2_Class5"
+        symbol: "Int_FuelScoop_Size2_Class5",
+        ukName: "Fuel Scoop",
+        ukDiscript: "Fly close to the sun with an active fuel scoop to collect fuel."
       }, {
         class: 3,
         cost: 3390,
@@ -14236,7 +14974,9 @@ module.exports = {
         power: .2,
         rate: 75,
         rating: "E",
-        symbol: "Int_FuelScoop_Size3_Class1"
+        symbol: "Int_FuelScoop_Size3_Class1",
+        ukName: "Fuel Scoop",
+        ukDiscript: "Fly close to the sun with an active fuel scoop to collect fuel."
       }, {
         class: 3,
         cost: 14110,
@@ -14247,7 +14987,9 @@ module.exports = {
         power: .27,
         rate: 100,
         rating: "D",
-        symbol: "Int_FuelScoop_Size3_Class2"
+        symbol: "Int_FuelScoop_Size3_Class2",
+        ukName: "Fuel Scoop",
+        ukDiscript: "Fly close to the sun with an active fuel scoop to collect fuel."
       }, {
         class: 3,
         cost: 56440,
@@ -14258,7 +15000,9 @@ module.exports = {
         power: .34,
         rate: 126,
         rating: "C",
-        symbol: "Int_FuelScoop_Size3_Class3"
+        symbol: "Int_FuelScoop_Size3_Class3",
+        ukName: "Fuel Scoop",
+        ukDiscript: "Fly close to the sun with an active fuel scoop to collect fuel."
       }, {
         class: 3,
         cost: 225740,
@@ -14269,7 +15013,9 @@ module.exports = {
         power: .41,
         rate: 151,
         rating: "B",
-        symbol: "Int_FuelScoop_Size3_Class4"
+        symbol: "Int_FuelScoop_Size3_Class4",
+        ukName: "Fuel Scoop",
+        ukDiscript: "Fly close to the sun with an active fuel scoop to collect fuel."
       }, {
         class: 3,
         cost: 902950,
@@ -14280,7 +15026,9 @@ module.exports = {
         power: .48,
         rate: 176,
         rating: "A",
-        symbol: "Int_FuelScoop_Size3_Class5"
+        symbol: "Int_FuelScoop_Size3_Class5",
+        ukName: "Fuel Scoop",
+        ukDiscript: "Fly close to the sun with an active fuel scoop to collect fuel."
       }, {
         class: 4,
         cost: 10730,
@@ -14291,7 +15039,9 @@ module.exports = {
         power: .25,
         rate: 147,
         rating: "E",
-        symbol: "Int_FuelScoop_Size4_Class1"
+        symbol: "Int_FuelScoop_Size4_Class1",
+        ukName: "Fuel Scoop",
+        ukDiscript: "Fly close to the sun with an active fuel scoop to collect fuel."
       }, {
         class: 4,
         cost: 44720,
@@ -14302,7 +15052,9 @@ module.exports = {
         power: .33,
         rate: 196,
         rating: "D",
-        symbol: "Int_FuelScoop_Size4_Class2"
+        symbol: "Int_FuelScoop_Size4_Class2",
+        ukName: "Fuel Scoop",
+        ukDiscript: "Fly close to the sun with an active fuel scoop to collect fuel."
       }, {
         class: 4,
         cost: 178900,
@@ -14313,7 +15065,9 @@ module.exports = {
         power: .41,
         rate: 245,
         rating: "C",
-        symbol: "Int_FuelScoop_Size4_Class3"
+        symbol: "Int_FuelScoop_Size4_Class3",
+        ukName: "Fuel Scoop",
+        ukDiscript: "Fly close to the sun with an active fuel scoop to collect fuel."
       }, {
         class: 4,
         cost: 715590,
@@ -14324,7 +15078,9 @@ module.exports = {
         power: .49,
         rate: 294,
         rating: "B",
-        symbol: "Int_FuelScoop_Size4_Class4"
+        symbol: "Int_FuelScoop_Size4_Class4",
+        ukName: "Fuel Scoop",
+        ukDiscript: "Fly close to the sun with an active fuel scoop to collect fuel."
       }, {
         class: 4,
         cost: 2862360,
@@ -14335,7 +15091,9 @@ module.exports = {
         power: .57,
         rate: 342,
         rating: "A",
-        symbol: "Int_FuelScoop_Size4_Class5"
+        symbol: "Int_FuelScoop_Size4_Class5",
+        ukName: "Fuel Scoop",
+        ukDiscript: "Fly close to the sun with an active fuel scoop to collect fuel."
       }, {
         class: 5,
         cost: 34030,
@@ -14346,7 +15104,9 @@ module.exports = {
         power: .3,
         rate: 247,
         rating: "E",
-        symbol: "Int_FuelScoop_Size5_Class1"
+        symbol: "Int_FuelScoop_Size5_Class1",
+        ukName: "Fuel Scoop",
+        ukDiscript: "Fly close to the sun with an active fuel scoop to collect fuel."
       }, {
         class: 5,
         cost: 141780,
@@ -14357,7 +15117,9 @@ module.exports = {
         power: .4,
         rate: 330,
         rating: "D",
-        symbol: "Int_FuelScoop_Size5_Class2"
+        symbol: "Int_FuelScoop_Size5_Class2",
+        ukName: "Fuel Scoop",
+        ukDiscript: "Fly close to the sun with an active fuel scoop to collect fuel."
       }, {
         class: 5,
         cost: 567110,
@@ -14368,7 +15130,9 @@ module.exports = {
         power: .5,
         rate: 412,
         rating: "C",
-        symbol: "Int_FuelScoop_Size5_Class3"
+        symbol: "Int_FuelScoop_Size5_Class3",
+        ukName: "Fuel Scoop",
+        ukDiscript: "Fly close to the sun with an active fuel scoop to collect fuel."
       }, {
         class: 5,
         cost: 2268420,
@@ -14379,7 +15143,9 @@ module.exports = {
         power: .6,
         rate: 494,
         rating: "B",
-        symbol: "Int_FuelScoop_Size5_Class4"
+        symbol: "Int_FuelScoop_Size5_Class4",
+        ukName: "Fuel Scoop",
+        ukDiscript: "Fly close to the sun with an active fuel scoop to collect fuel."
       }, {
         class: 5,
         cost: 9073690,
@@ -14390,7 +15156,9 @@ module.exports = {
         power: .7,
         rate: 577,
         rating: "A",
-        symbol: "Int_FuelScoop_Size5_Class5"
+        symbol: "Int_FuelScoop_Size5_Class5",
+        ukName: "Fuel Scoop",
+        ukDiscript: "Fly close to the sun with an active fuel scoop to collect fuel."
       }, {
         class: 6,
         cost: 107860,
@@ -14401,7 +15169,9 @@ module.exports = {
         power: .35,
         rate: 376,
         rating: "E",
-        symbol: "Int_FuelScoop_Size6_Class1"
+        symbol: "Int_FuelScoop_Size6_Class1",
+        ukName: "Fuel Scoop",
+        ukDiscript: "Fly close to the sun with an active fuel scoop to collect fuel."
       }, {
         class: 6,
         cost: 449430,
@@ -14412,7 +15182,9 @@ module.exports = {
         power: .47,
         rate: 502,
         rating: "D",
-        symbol: "Int_FuelScoop_Size6_Class2"
+        symbol: "Int_FuelScoop_Size6_Class2",
+        ukName: "Fuel Scoop",
+        ukDiscript: "Fly close to the sun with an active fuel scoop to collect fuel."
       }, {
         class: 6,
         cost: 1797730,
@@ -14423,7 +15195,9 @@ module.exports = {
         power: .59,
         rate: 627,
         rating: "C",
-        symbol: "Int_FuelScoop_Size6_Class3"
+        symbol: "Int_FuelScoop_Size6_Class3",
+        ukName: "Fuel Scoop",
+        ukDiscript: "Fly close to the sun with an active fuel scoop to collect fuel."
       }, {
         class: 6,
         cost: 7190900,
@@ -14434,7 +15208,9 @@ module.exports = {
         power: .71,
         rate: 752,
         rating: "B",
-        symbol: "Int_FuelScoop_Size6_Class4"
+        symbol: "Int_FuelScoop_Size6_Class4",
+        ukName: "Fuel Scoop",
+        ukDiscript: "Fly close to the sun with an active fuel scoop to collect fuel."
       }, {
         class: 6,
         cost: 28763610,
@@ -14445,7 +15221,9 @@ module.exports = {
         power: .83,
         rate: 878,
         rating: "A",
-        symbol: "Int_FuelScoop_Size6_Class5"
+        symbol: "Int_FuelScoop_Size6_Class5",
+        ukName: "Fuel Scoop",
+        ukDiscript: "Fly close to the sun with an active fuel scoop to collect fuel."
       }, {
         class: 7,
         cost: 341930,
@@ -14456,7 +15234,9 @@ module.exports = {
         power: .41,
         rate: 534,
         rating: "E",
-        symbol: "Int_FuelScoop_Size7_Class1"
+        symbol: "Int_FuelScoop_Size7_Class1",
+        ukName: "Fuel Scoop",
+        ukDiscript: "Fly close to the sun with an active fuel scoop to collect fuel."
       }, {
         class: 7,
         cost: 1424700,
@@ -14467,7 +15247,9 @@ module.exports = {
         power: .55,
         rate: 712,
         rating: "D",
-        symbol: "Int_FuelScoop_Size7_Class2"
+        symbol: "Int_FuelScoop_Size7_Class2",
+        ukName: "Fuel Scoop",
+        ukDiscript: "Fly close to the sun with an active fuel scoop to collect fuel."
       }, {
         class: 7,
         cost: 5698790,
@@ -14478,7 +15260,9 @@ module.exports = {
         power: .69,
         rate: 890,
         rating: "C",
-        symbol: "Int_FuelScoop_Size7_Class3"
+        symbol: "Int_FuelScoop_Size7_Class3",
+        ukName: "Fuel Scoop",
+        ukDiscript: "Fly close to the sun with an active fuel scoop to collect fuel."
       }, {
         class: 7,
         cost: 22795160,
@@ -14489,7 +15273,9 @@ module.exports = {
         power: .83,
         rate: 1068,
         rating: "B",
-        symbol: "Int_FuelScoop_Size7_Class4"
+        symbol: "Int_FuelScoop_Size7_Class4",
+        ukName: "Fuel Scoop",
+        ukDiscript: "Fly close to the sun with an active fuel scoop to collect fuel."
       }, {
         class: 7,
         cost: 91180640,
@@ -14500,7 +15286,9 @@ module.exports = {
         power: .97,
         rate: 1245,
         rating: "A",
-        symbol: "Int_FuelScoop_Size7_Class5"
+        symbol: "Int_FuelScoop_Size7_Class5",
+        ukName: "Fuel Scoop",
+        ukDiscript: "Fly close to the sun with an active fuel scoop to collect fuel."
       }, {
         class: 8,
         cost: 1083910,
@@ -14511,7 +15299,9 @@ module.exports = {
         power: .48,
         rate: 720,
         rating: "E",
-        symbol: "Int_FuelScoop_Size8_Class1"
+        symbol: "Int_FuelScoop_Size8_Class1",
+        ukName: "Fuel Scoop",
+        ukDiscript: "Fly close to the sun with an active fuel scoop to collect fuel."
       }, {
         class: 8,
         cost: 4516290,
@@ -14522,7 +15312,9 @@ module.exports = {
         power: .64,
         rate: 960,
         rating: "D",
-        symbol: "Int_FuelScoop_Size8_Class2"
+        symbol: "Int_FuelScoop_Size8_Class2",
+        ukName: "Fuel Scoop",
+        ukDiscript: "Fly close to the sun with an active fuel scoop to collect fuel."
       }, {
         class: 8,
         cost: 18065160,
@@ -14533,7 +15325,9 @@ module.exports = {
         power: .8,
         rate: 1200,
         rating: "C",
-        symbol: "Int_FuelScoop_Size8_Class3"
+        symbol: "Int_FuelScoop_Size8_Class3",
+        ukName: "Fuel Scoop",
+        ukDiscript: "Fly close to the sun with an active fuel scoop to collect fuel."
       }, {
         class: 8,
         cost: 72260660,
@@ -14544,7 +15338,9 @@ module.exports = {
         power: .96,
         rate: 1440,
         rating: "B",
-        symbol: "Int_FuelScoop_Size8_Class4"
+        symbol: "Int_FuelScoop_Size8_Class4",
+        ukName: "Fuel Scoop",
+        ukDiscript: "Fly close to the sun with an active fuel scoop to collect fuel."
       }, {
         class: 8,
         cost: 289042642,
@@ -14555,7 +15351,9 @@ module.exports = {
         power: 1.12,
         rate: 1680,
         rating: "A",
-        symbol: "Int_FuelScoop_Size8_Class5"
+        symbol: "Int_FuelScoop_Size8_Class5",
+        ukName: "Fuel Scoop",
+        ukDiscript: "Fly close to the sun with an active fuel scoop to collect fuel."
       } ],
       ft: [ {
         class: 1,
@@ -14566,7 +15364,9 @@ module.exports = {
         grp: "ft",
         id: "f1",
         rating: "C",
-        symbol: "Int_FuelTank_Size1_Class3"
+        symbol: "Int_FuelTank_Size1_Class3",
+        ukName: "Fuel Tank",
+        ukDiscript: "Storage container for fuel used by ship's power plant."
       }, {
         class: 2,
         cost: 3750,
@@ -14576,7 +15376,9 @@ module.exports = {
         grp: "ft",
         id: "f2",
         rating: "C",
-        symbol: "Int_FuelTank_Size2_Class3"
+        symbol: "Int_FuelTank_Size2_Class3",
+        ukName: "Fuel Tank",
+        ukDiscript: "Storage container for fuel used by ship's power plant."
       }, {
         class: 3,
         cost: 7060,
@@ -14586,7 +15388,9 @@ module.exports = {
         grp: "ft",
         id: "f3",
         rating: "C",
-        symbol: "Int_FuelTank_Size3_Class3"
+        symbol: "Int_FuelTank_Size3_Class3",
+        ukName: "Fuel Tank",
+        ukDiscript: "Storage container for fuel used by ship's power plant."
       }, {
         class: 4,
         cost: 24730,
@@ -14596,7 +15400,9 @@ module.exports = {
         grp: "ft",
         id: "f4",
         rating: "C",
-        symbol: "Int_FuelTank_Size4_Class3"
+        symbol: "Int_FuelTank_Size4_Class3",
+        ukName: "Fuel Tank",
+        ukDiscript: "Storage container for fuel used by ship's power plant."
       }, {
         class: 5,
         cost: 97750,
@@ -14606,7 +15412,9 @@ module.exports = {
         grp: "ft",
         id: "f5",
         rating: "C",
-        symbol: "Int_FuelTank_Size5_Class3"
+        symbol: "Int_FuelTank_Size5_Class3",
+        ukName: "Fuel Tank",
+        ukDiscript: "Storage container for fuel used by ship's power plant."
       }, {
         class: 6,
         cost: 341580,
@@ -14616,7 +15424,9 @@ module.exports = {
         grp: "ft",
         id: "f6",
         rating: "C",
-        symbol: "Int_FuelTank_Size6_Class3"
+        symbol: "Int_FuelTank_Size6_Class3",
+        ukName: "Fuel Tank",
+        ukDiscript: "Storage container for fuel used by ship's power plant."
       }, {
         class: 7,
         cost: 1780910,
@@ -14626,7 +15436,9 @@ module.exports = {
         grp: "ft",
         id: "f7",
         rating: "C",
-        symbol: "Int_FuelTank_Size7_Class3"
+        symbol: "Int_FuelTank_Size7_Class3",
+        ukName: "Fuel Tank",
+        ukDiscript: "Storage container for fuel used by ship's power plant."
       }, {
         class: 8,
         cost: 5428431,
@@ -14636,7 +15448,9 @@ module.exports = {
         grp: "ft",
         id: "f8",
         rating: "C",
-        symbol: "Int_FuelTank_Size8_Class3"
+        symbol: "Int_FuelTank_Size8_Class3",
+        ukName: "Fuel Tank",
+        ukDiscript: "Storage container for fuel used by ship's power plant."
       } ],
       fx: [ {
         class: 1,
@@ -14650,7 +15464,9 @@ module.exports = {
         power: .18,
         range: .6,
         rating: "E",
-        symbol: "Int_DroneControl_FuelTransfer_Size1_Class1"
+        symbol: "Int_DroneControl_FuelTransfer_Size1_Class1",
+        ukName: "Fuel Transfer",
+        ukDiscript: "Controls a limpet to transfer 1 ton of fuel to a targeted ship."
       }, {
         class: 1,
         cost: 1200,
@@ -14663,7 +15479,9 @@ module.exports = {
         power: .14,
         range: .8,
         rating: "D",
-        symbol: "Int_DroneControl_FuelTransfer_Size1_Class2"
+        symbol: "Int_DroneControl_FuelTransfer_Size1_Class2",
+        ukName: "Fuel Transfer",
+        ukDiscript: "Controls a limpet to transfer 1 ton of fuel to a targeted ship."
       }, {
         class: 1,
         cost: 2400,
@@ -14676,7 +15494,9 @@ module.exports = {
         power: .23,
         range: 1,
         rating: "C",
-        symbol: "Int_DroneControl_FuelTransfer_Size1_Class3"
+        symbol: "Int_DroneControl_FuelTransfer_Size1_Class3",
+        ukName: "Fuel Transfer",
+        ukDiscript: "Controls a limpet to transfer 1 ton of fuel to a targeted ship."
       }, {
         class: 1,
         cost: 4800,
@@ -14689,7 +15509,9 @@ module.exports = {
         power: .32,
         range: 1.2,
         rating: "B",
-        symbol: "Int_DroneControl_FuelTransfer_Size1_Class4"
+        symbol: "Int_DroneControl_FuelTransfer_Size1_Class4",
+        ukName: "Fuel Transfer",
+        ukDiscript: "Controls a limpet to transfer 1 ton of fuel to a targeted ship."
       }, {
         class: 1,
         cost: 9600,
@@ -14702,7 +15524,9 @@ module.exports = {
         power: .28,
         range: 1.4,
         rating: "A",
-        symbol: "Int_DroneControl_FuelTransfer_Size1_Class5"
+        symbol: "Int_DroneControl_FuelTransfer_Size1_Class5",
+        ukName: "Fuel Transfer",
+        ukDiscript: "Controls a limpet to transfer 1 ton of fuel to a targeted ship."
       }, {
         class: 3,
         cost: 5400,
@@ -14715,7 +15539,9 @@ module.exports = {
         power: .27,
         range: .66,
         rating: "E",
-        symbol: "Int_DroneControl_FuelTransfer_Size3_Class1"
+        symbol: "Int_DroneControl_FuelTransfer_Size3_Class1",
+        ukName: "Fuel Transfer",
+        ukDiscript: "Controls a limpet to transfer 1 ton of fuel to a targeted ship."
       }, {
         class: 3,
         cost: 10800,
@@ -14728,7 +15554,9 @@ module.exports = {
         power: .2,
         range: .88,
         rating: "D",
-        symbol: "Int_DroneControl_FuelTransfer_Size3_Class2"
+        symbol: "Int_DroneControl_FuelTransfer_Size3_Class2",
+        ukName: "Fuel Transfer",
+        ukDiscript: "Controls a limpet to transfer 1 ton of fuel to a targeted ship."
       }, {
         class: 3,
         cost: 21600,
@@ -14741,7 +15569,9 @@ module.exports = {
         power: .34,
         range: 1.1,
         rating: "C",
-        symbol: "Int_DroneControl_FuelTransfer_Size3_Class3"
+        symbol: "Int_DroneControl_FuelTransfer_Size3_Class3",
+        ukName: "Fuel Transfer",
+        ukDiscript: "Controls a limpet to transfer 1 ton of fuel to a targeted ship."
       }, {
         class: 3,
         cost: 43200,
@@ -14754,7 +15584,9 @@ module.exports = {
         power: .48,
         range: 1.32,
         rating: "B",
-        symbol: "Int_DroneControl_FuelTransfer_Size3_Class4"
+        symbol: "Int_DroneControl_FuelTransfer_Size3_Class4",
+        ukName: "Fuel Transfer",
+        ukDiscript: "Controls a limpet to transfer 1 ton of fuel to a targeted ship."
       }, {
         class: 3,
         cost: 86400,
@@ -14767,7 +15599,9 @@ module.exports = {
         power: .41,
         range: 1.54,
         rating: "A",
-        symbol: "Int_DroneControl_FuelTransfer_Size3_Class5"
+        symbol: "Int_DroneControl_FuelTransfer_Size3_Class5",
+        ukName: "Fuel Transfer",
+        ukDiscript: "Controls a limpet to transfer 1 ton of fuel to a targeted ship."
       }, {
         class: 5,
         cost: 48600,
@@ -14780,7 +15614,9 @@ module.exports = {
         power: .4,
         range: .78,
         rating: "E",
-        symbol: "Int_DroneControl_FuelTransfer_Size5_Class1"
+        symbol: "Int_DroneControl_FuelTransfer_Size5_Class1",
+        ukName: "Fuel Transfer",
+        ukDiscript: "Controls a limpet to transfer 1 ton of fuel to a targeted ship."
       }, {
         class: 5,
         cost: 97200,
@@ -14793,7 +15629,9 @@ module.exports = {
         power: .3,
         range: 1.04,
         rating: "D",
-        symbol: "Int_DroneControl_FuelTransfer_Size5_Class2"
+        symbol: "Int_DroneControl_FuelTransfer_Size5_Class2",
+        ukName: "Fuel Transfer",
+        ukDiscript: "Controls a limpet to transfer 1 ton of fuel to a targeted ship."
       }, {
         class: 5,
         cost: 194400,
@@ -14806,7 +15644,9 @@ module.exports = {
         power: .5,
         range: 1.3,
         rating: "C",
-        symbol: "Int_DroneControl_FuelTransfer_Size5_Class3"
+        symbol: "Int_DroneControl_FuelTransfer_Size5_Class3",
+        ukName: "Fuel Transfer",
+        ukDiscript: "Controls a limpet to transfer 1 ton of fuel to a targeted ship."
       }, {
         class: 5,
         cost: 388800,
@@ -14819,7 +15659,9 @@ module.exports = {
         power: .97,
         range: 1.56,
         rating: "B",
-        symbol: "Int_DroneControl_FuelTransfer_Size5_Class4"
+        symbol: "Int_DroneControl_FuelTransfer_Size5_Class4",
+        ukName: "Fuel Transfer",
+        ukDiscript: "Controls a limpet to transfer 1 ton of fuel to a targeted ship."
       }, {
         class: 5,
         cost: 777600,
@@ -14832,7 +15674,9 @@ module.exports = {
         power: .6,
         range: 1.82,
         rating: "A",
-        symbol: "Int_DroneControl_FuelTransfer_Size5_Class5"
+        symbol: "Int_DroneControl_FuelTransfer_Size5_Class5",
+        ukName: "Fuel Transfer",
+        ukDiscript: "Controls a limpet to transfer 1 ton of fuel to a targeted ship."
       }, {
         class: 7,
         cost: 437400,
@@ -14845,7 +15689,9 @@ module.exports = {
         power: .55,
         range: 1.02,
         rating: "E",
-        symbol: "Int_DroneControl_FuelTransfer_Size7_Class1"
+        symbol: "Int_DroneControl_FuelTransfer_Size7_Class1",
+        ukName: "Fuel Transfer",
+        ukDiscript: "Controls a limpet to transfer 1 ton of fuel to a targeted ship."
       }, {
         class: 7,
         cost: 874800,
@@ -14858,7 +15704,9 @@ module.exports = {
         power: .41,
         range: 1.36,
         rating: "D",
-        symbol: "Int_DroneControl_FuelTransfer_Size7_Class2"
+        symbol: "Int_DroneControl_FuelTransfer_Size7_Class2",
+        ukName: "Fuel Transfer",
+        ukDiscript: "Controls a limpet to transfer 1 ton of fuel to a targeted ship."
       }, {
         class: 7,
         cost: 1749600,
@@ -14871,7 +15719,9 @@ module.exports = {
         power: .69,
         range: 1.7,
         rating: "C",
-        symbol: "Int_DroneControl_FuelTransfer_Size7_Class3"
+        symbol: "Int_DroneControl_FuelTransfer_Size7_Class3",
+        ukName: "Fuel Transfer",
+        ukDiscript: "Controls a limpet to transfer 1 ton of fuel to a targeted ship."
       }, {
         class: 7,
         cost: 3499200,
@@ -14884,7 +15734,9 @@ module.exports = {
         power: .97,
         range: 2.04,
         rating: "B",
-        symbol: "Int_DroneControl_FuelTransfer_Size7_Class4"
+        symbol: "Int_DroneControl_FuelTransfer_Size7_Class4",
+        ukName: "Fuel Transfer",
+        ukDiscript: "Controls a limpet to transfer 1 ton of fuel to a targeted ship."
       }, {
         class: 7,
         cost: 6998400,
@@ -14897,7 +15749,9 @@ module.exports = {
         power: .83,
         range: 2.38,
         rating: "A",
-        symbol: "Int_DroneControl_FuelTransfer_Size7_Class5"
+        symbol: "Int_DroneControl_FuelTransfer_Size7_Class5",
+        ukName: "Fuel Transfer",
+        ukDiscript: "Controls a limpet to transfer 1 ton of fuel to a targeted ship."
       } ],
       hb: [ {
         class: 1,
@@ -14912,7 +15766,9 @@ module.exports = {
         range: 1.5,
         rating: "E",
         time: 42,
-        symbol: "Int_DroneControl_ResourceSiphon_Size1_Class1"
+        symbol: "Int_DroneControl_ResourceSiphon_Size1_Class1",
+        ukName: "Hatch Breaker",
+        ukDiscript: "Control unit that can program a blank limpet to hack a target's hold, causing cargo ejection."
       }, {
         class: 1,
         cost: 1200,
@@ -14926,7 +15782,9 @@ module.exports = {
         range: 2,
         rating: "D",
         time: 36,
-        symbol: "Int_DroneControl_ResourceSiphon_Size1_Class2"
+        symbol: "Int_DroneControl_ResourceSiphon_Size1_Class2",
+        ukName: "Hatch Breaker",
+        ukDiscript: "Control unit that can program a blank limpet to hack a target's hold, causing cargo ejection."
       }, {
         class: 1,
         cost: 2400,
@@ -14940,7 +15798,9 @@ module.exports = {
         range: 2.5,
         rating: "C",
         time: 30,
-        symbol: "Int_DroneControl_ResourceSiphon_Size1_Class3"
+        symbol: "Int_DroneControl_ResourceSiphon_Size1_Class3",
+        ukName: "Hatch Breaker",
+        ukDiscript: "Control unit that can program a blank limpet to hack a target's hold, causing cargo ejection."
       }, {
         class: 1,
         cost: 4800,
@@ -14954,7 +15814,9 @@ module.exports = {
         range: 3,
         rating: "B",
         time: 24,
-        symbol: "Int_DroneControl_ResourceSiphon_Size1_Class4"
+        symbol: "Int_DroneControl_ResourceSiphon_Size1_Class4",
+        ukName: "Hatch Breaker",
+        ukDiscript: "Control unit that can program a blank limpet to hack a target's hold, causing cargo ejection."
       }, {
         class: 1,
         cost: 9600,
@@ -14968,7 +15830,9 @@ module.exports = {
         range: 3.5,
         rating: "A",
         time: 18,
-        symbol: "Int_DroneControl_ResourceSiphon_Size1_Class5"
+        symbol: "Int_DroneControl_ResourceSiphon_Size1_Class5",
+        ukName: "Hatch Breaker",
+        ukDiscript: "Control unit that can program a blank limpet to hack a target's hold, causing cargo ejection."
       }, {
         class: 3,
         cost: 5400,
@@ -14982,7 +15846,9 @@ module.exports = {
         range: 1.62,
         rating: "E",
         time: 36,
-        symbol: "Int_DroneControl_ResourceSiphon_Size3_Class1"
+        symbol: "Int_DroneControl_ResourceSiphon_Size3_Class1",
+        ukName: "Hatch Breaker",
+        ukDiscript: "Control unit that can program a blank limpet to hack a target's hold, causing cargo ejection."
       }, {
         class: 3,
         cost: 10800,
@@ -14996,7 +15862,9 @@ module.exports = {
         range: 2.16,
         rating: "D",
         time: 31,
-        symbol: "Int_DroneControl_ResourceSiphon_Size3_Class2"
+        symbol: "Int_DroneControl_ResourceSiphon_Size3_Class2",
+        ukName: "Hatch Breaker",
+        ukDiscript: "Control unit that can program a blank limpet to hack a target's hold, causing cargo ejection."
       }, {
         class: 3,
         cost: 21600,
@@ -15010,7 +15878,9 @@ module.exports = {
         range: 2.7,
         rating: "C",
         time: 26,
-        symbol: "Int_DroneControl_ResourceSiphon_Size3_Class3"
+        symbol: "Int_DroneControl_ResourceSiphon_Size3_Class3",
+        ukName: "Hatch Breaker",
+        ukDiscript: "Control unit that can program a blank limpet to hack a target's hold, causing cargo ejection."
       }, {
         class: 3,
         cost: 43200,
@@ -15024,7 +15894,9 @@ module.exports = {
         range: 3.24,
         rating: "B",
         time: 21,
-        symbol: "Int_DroneControl_ResourceSiphon_Size3_Class4"
+        symbol: "Int_DroneControl_ResourceSiphon_Size3_Class4",
+        ukName: "Hatch Breaker",
+        ukDiscript: "Control unit that can program a blank limpet to hack a target's hold, causing cargo ejection."
       }, {
         class: 3,
         cost: 86400,
@@ -15038,7 +15910,9 @@ module.exports = {
         range: 3.78,
         rating: "A",
         time: 16,
-        symbol: "Int_DroneControl_ResourceSiphon_Size3_Class5"
+        symbol: "Int_DroneControl_ResourceSiphon_Size3_Class5",
+        ukName: "Hatch Breaker",
+        ukDiscript: "Control unit that can program a blank limpet to hack a target's hold, causing cargo ejection."
       }, {
         class: 5,
         cost: 48600,
@@ -15052,7 +15926,9 @@ module.exports = {
         range: 1.98,
         rating: "E",
         time: 31,
-        symbol: "Int_DroneControl_ResourceSiphon_Size5_Class1"
+        symbol: "Int_DroneControl_ResourceSiphon_Size5_Class1",
+        ukName: "Hatch Breaker",
+        ukDiscript: "Control unit that can program a blank limpet to hack a target's hold, causing cargo ejection."
       }, {
         class: 5,
         cost: 97200,
@@ -15066,7 +15942,9 @@ module.exports = {
         range: 2.64,
         rating: "D",
         time: 26,
-        symbol: "Int_DroneControl_ResourceSiphon_Size5_Class2"
+        symbol: "Int_DroneControl_ResourceSiphon_Size5_Class2",
+        ukName: "Hatch Breaker",
+        ukDiscript: "Control unit that can program a blank limpet to hack a target's hold, causing cargo ejection."
       }, {
         class: 5,
         cost: 194400,
@@ -15080,7 +15958,9 @@ module.exports = {
         range: 3.3,
         rating: "C",
         time: 22,
-        symbol: "Int_DroneControl_ResourceSiphon_Size5_Class3"
+        symbol: "Int_DroneControl_ResourceSiphon_Size5_Class3",
+        ukName: "Hatch Breaker",
+        ukDiscript: "Control unit that can program a blank limpet to hack a target's hold, causing cargo ejection."
       }, {
         class: 5,
         cost: 388800,
@@ -15094,7 +15974,9 @@ module.exports = {
         range: 3.96,
         rating: "B",
         time: 18,
-        symbol: "Int_DroneControl_ResourceSiphon_Size5_Class4"
+        symbol: "Int_DroneControl_ResourceSiphon_Size5_Class4",
+        ukName: "Hatch Breaker",
+        ukDiscript: "Control unit that can program a blank limpet to hack a target's hold, causing cargo ejection."
       }, {
         class: 5,
         cost: 777600,
@@ -15108,7 +15990,9 @@ module.exports = {
         range: 4.62,
         rating: "A",
         time: 13,
-        symbol: "Int_DroneControl_ResourceSiphon_Size5_Class5"
+        symbol: "Int_DroneControl_ResourceSiphon_Size5_Class5",
+        ukName: "Hatch Breaker",
+        ukDiscript: "Control unit that can program a blank limpet to hack a target's hold, causing cargo ejection."
       }, {
         class: 7,
         cost: 437400,
@@ -15122,7 +16006,9 @@ module.exports = {
         range: 2.58,
         rating: "E",
         time: 25,
-        symbol: "Int_DroneControl_ResourceSiphon_Size7_Class1"
+        symbol: "Int_DroneControl_ResourceSiphon_Size7_Class1",
+        ukName: "Hatch Breaker",
+        ukDiscript: "Control unit that can program a blank limpet to hack a target's hold, causing cargo ejection."
       }, {
         class: 7,
         cost: 874800,
@@ -15136,7 +16022,9 @@ module.exports = {
         range: 3.44,
         rating: "D",
         time: 22,
-        symbol: "Int_DroneControl_ResourceSiphon_Size7_Class2"
+        symbol: "Int_DroneControl_ResourceSiphon_Size7_Class2",
+        ukName: "Hatch Breaker",
+        ukDiscript: "Control unit that can program a blank limpet to hack a target's hold, causing cargo ejection."
       }, {
         class: 7,
         cost: 1749600,
@@ -15150,7 +16038,9 @@ module.exports = {
         range: 4.3,
         rating: "C",
         time: 18,
-        symbol: "Int_DroneControl_ResourceSiphon_Size7_Class3"
+        symbol: "Int_DroneControl_ResourceSiphon_Size7_Class3",
+        ukName: "Hatch Breaker",
+        ukDiscript: "Control unit that can program a blank limpet to hack a target's hold, causing cargo ejection."
       }, {
         class: 7,
         cost: 3499200,
@@ -15164,7 +16054,9 @@ module.exports = {
         range: 5.16,
         rating: "B",
         time: 14,
-        symbol: "Int_DroneControl_ResourceSiphon_Size7_Class4"
+        symbol: "Int_DroneControl_ResourceSiphon_Size7_Class4",
+        ukName: "Hatch Breaker",
+        ukDiscript: "Control unit that can program a blank limpet to hack a target's hold, causing cargo ejection."
       }, {
         class: 7,
         cost: 6998400,
@@ -15178,7 +16070,9 @@ module.exports = {
         range: 6.02,
         rating: "A",
         time: 11,
-        symbol: "Int_DroneControl_ResourceSiphon_Size7_Class5"
+        symbol: "Int_DroneControl_ResourceSiphon_Size7_Class5",
+        ukName: "Hatch Breaker",
+        ukDiscript: "Control unit that can program a blank limpet to hack a target's hold, causing cargo ejection."
       } ],
       hr: [ {
         hullreinforcement: 80,
@@ -15194,7 +16088,9 @@ module.exports = {
         mass: 2,
         rating: "E",
         thermres: .005,
-        symbol: "Int_HullReinforcement_Size1_Class1"
+        symbol: "Int_HullReinforcement_Size1_Class1",
+        ukName: "Hull Reinforcement",
+        ukDiscript: "Increases the ship's hull integrity and resistance to damage."
       }, {
         hullreinforcement: 110,
         class: 1,
@@ -15209,7 +16105,9 @@ module.exports = {
         mass: 1,
         rating: "D",
         thermres: .005,
-        symbol: "Int_HullReinforcement_Size1_Class2"
+        symbol: "Int_HullReinforcement_Size1_Class2",
+        ukName: "Hull Reinforcement",
+        ukDiscript: "Increases the ship's hull integrity and resistance to damage."
       }, {
         hullreinforcement: 150,
         class: 2,
@@ -15224,7 +16122,9 @@ module.exports = {
         mass: 4,
         rating: "E",
         thermres: .01,
-        symbol: "Int_HullReinforcement_Size2_Class1"
+        symbol: "Int_HullReinforcement_Size2_Class1",
+        ukName: "Hull Reinforcement",
+        ukDiscript: "Increases the ship's hull integrity and resistance to damage."
       }, {
         hullreinforcement: 190,
         class: 2,
@@ -15239,7 +16139,9 @@ module.exports = {
         mass: 2,
         rating: "D",
         thermres: .01,
-        symbol: "Int_HullReinforcement_Size2_Class2"
+        symbol: "Int_HullReinforcement_Size2_Class2",
+        ukName: "Hull Reinforcement",
+        ukDiscript: "Increases the ship's hull integrity and resistance to damage."
       }, {
         hullreinforcement: 230,
         class: 3,
@@ -15254,7 +16156,9 @@ module.exports = {
         mass: 8,
         rating: "E",
         thermres: .015,
-        symbol: "Int_HullReinforcement_Size3_Class1"
+        symbol: "Int_HullReinforcement_Size3_Class1",
+        ukName: "Hull Reinforcement",
+        ukDiscript: "Increases the ship's hull integrity and resistance to damage."
       }, {
         hullreinforcement: 260,
         class: 3,
@@ -15269,7 +16173,9 @@ module.exports = {
         mass: 4,
         rating: "D",
         thermres: .015,
-        symbol: "Int_HullReinforcement_Size3_Class2"
+        symbol: "Int_HullReinforcement_Size3_Class2",
+        ukName: "Hull Reinforcement",
+        ukDiscript: "Increases the ship's hull integrity and resistance to damage."
       }, {
         hullreinforcement: 300,
         class: 4,
@@ -15284,7 +16190,9 @@ module.exports = {
         mass: 16,
         rating: "E",
         thermres: .02,
-        symbol: "Int_HullReinforcement_Size4_Class1"
+        symbol: "Int_HullReinforcement_Size4_Class1",
+        ukName: "Hull Reinforcement",
+        ukDiscript: "Increases the ship's hull integrity and resistance to damage."
       }, {
         hullreinforcement: 330,
         class: 4,
@@ -15299,7 +16207,9 @@ module.exports = {
         mass: 8,
         rating: "D",
         thermres: .02,
-        symbol: "Int_HullReinforcement_Size4_Class2"
+        symbol: "Int_HullReinforcement_Size4_Class2",
+        ukName: "Hull Reinforcement",
+        ukDiscript: "Increases the ship's hull integrity and resistance to damage."
       }, {
         hullreinforcement: 360,
         class: 5,
@@ -15314,7 +16224,9 @@ module.exports = {
         mass: 32,
         rating: "E",
         thermres: .025,
-        symbol: "Int_HullReinforcement_Size5_Class1"
+        symbol: "Int_HullReinforcement_Size5_Class1",
+        ukName: "Hull Reinforcement",
+        ukDiscript: "Increases the ship's hull integrity and resistance to damage."
       }, {
         hullreinforcement: 390,
         class: 5,
@@ -15329,7 +16241,9 @@ module.exports = {
         mass: 16,
         rating: "D",
         thermres: .025,
-        symbol: "Int_HullReinforcement_Size5_Class2"
+        symbol: "Int_HullReinforcement_Size5_Class2",
+        ukName: "Hull Reinforcement",
+        ukDiscript: "Increases the ship's hull integrity and resistance to damage."
       } ],
       mahr: [ {
         hullreinforcement: 72,
@@ -15345,7 +16259,9 @@ module.exports = {
         rating: "E",
         thermres: 0,
         causres: .03,
-        symbol: "Int_MetaAlloyHullReinforcement_Size1_Class1"
+        symbol: "Int_MetaAlloyHullReinforcement_Size1_Class1",
+        ukName: "Meta Alloy Hull Reinforcement",
+        ukDiscript: "Increases the ship's hull integrity and resistance to caustic damage."
       }, {
         hullreinforcement: 99,
         class: 1,
@@ -15360,7 +16276,9 @@ module.exports = {
         rating: "D",
         thermres: 0,
         causres: .03,
-        symbol: "Int_MetaAlloyHullReinforcement_Size1_Class2"
+        symbol: "Int_MetaAlloyHullReinforcement_Size1_Class2",
+        ukName: "Meta Alloy Hull Reinforcement",
+        ukDiscript: "Increases the ship's hull integrity and resistance to caustic damage."
       }, {
         hullreinforcement: 135,
         class: 2,
@@ -15375,7 +16293,9 @@ module.exports = {
         rating: "E",
         thermres: 0,
         causres: .03,
-        symbol: "Int_MetaAlloyHullReinforcement_Size2_Class1"
+        symbol: "Int_MetaAlloyHullReinforcement_Size2_Class1",
+        ukName: "Meta Alloy Hull Reinforcement",
+        ukDiscript: "Increases the ship's hull integrity and resistance to caustic damage."
       }, {
         hullreinforcement: 171,
         class: 2,
@@ -15390,7 +16310,9 @@ module.exports = {
         rating: "D",
         thermres: 0,
         causres: .03,
-        symbol: "Int_MetaAlloyHullReinforcement_Size2_Class2"
+        symbol: "Int_MetaAlloyHullReinforcement_Size2_Class2",
+        ukName: "Meta Alloy Hull Reinforcement",
+        ukDiscript: "Increases the ship's hull integrity and resistance to caustic damage."
       }, {
         hullreinforcement: 207,
         class: 3,
@@ -15405,7 +16327,9 @@ module.exports = {
         rating: "E",
         thermres: 0,
         causres: .03,
-        symbol: "Int_MetaAlloyHullReinforcement_Size3_Class1"
+        symbol: "Int_MetaAlloyHullReinforcement_Size3_Class1",
+        ukName: "Meta Alloy Hull Reinforcement",
+        ukDiscript: "Increases the ship's hull integrity and resistance to caustic damage."
       }, {
         hullreinforcement: 234,
         class: 3,
@@ -15420,7 +16344,9 @@ module.exports = {
         rating: "D",
         thermres: 0,
         causres: .03,
-        symbol: "Int_MetaAlloyHullReinforcement_Size3_Class2"
+        symbol: "Int_MetaAlloyHullReinforcement_Size3_Class2",
+        ukName: "Meta Alloy Hull Reinforcement",
+        ukDiscript: "Increases the ship's hull integrity and resistance to caustic damage."
       }, {
         hullreinforcement: 270,
         class: 4,
@@ -15435,7 +16361,9 @@ module.exports = {
         rating: "E",
         thermres: 0,
         causres: .03,
-        symbol: "Int_MetaAlloyHullReinforcement_Size4_Class1"
+        symbol: "Int_MetaAlloyHullReinforcement_Size4_Class1",
+        ukName: "Meta Alloy Hull Reinforcement",
+        ukDiscript: "Increases the ship's hull integrity and resistance to caustic damage."
       }, {
         hullreinforcement: 297,
         class: 4,
@@ -15450,7 +16378,9 @@ module.exports = {
         rating: "D",
         thermres: 0,
         causres: .03,
-        symbol: "Int_MetaAlloyHullReinforcement_Size4_Class2"
+        symbol: "Int_MetaAlloyHullReinforcement_Size4_Class2",
+        ukName: "Meta Alloy Hull Reinforcement",
+        ukDiscript: "Increases the ship's hull integrity and resistance to caustic damage."
       }, {
         hullreinforcement: 324,
         class: 5,
@@ -15465,7 +16395,9 @@ module.exports = {
         rating: "E",
         thermres: 0,
         causres: .03,
-        symbol: "Int_MetaAlloyHullReinforcement_Size5_Class1"
+        symbol: "Int_MetaAlloyHullReinforcement_Size5_Class1",
+        ukName: "Meta Alloy Hull Reinforcement",
+        ukDiscript: "Increases the ship's hull integrity and resistance to caustic damage."
       }, {
         hullreinforcement: 351,
         class: 5,
@@ -15480,7 +16412,9 @@ module.exports = {
         rating: "D",
         thermres: 0,
         causres: .03,
-        symbol: "Int_MetaAlloyHullReinforcement_Size5_Class2"
+        symbol: "Int_MetaAlloyHullReinforcement_Size5_Class2",
+        ukName: "Meta Alloy Hull Reinforcement",
+        ukDiscript: "Increases the ship's hull integrity and resistance to caustic damage."
       } ],
       mrp: [ {
         class: 1,
@@ -15493,7 +16427,9 @@ module.exports = {
         mass: 2,
         protection: .3,
         rating: "E",
-        symbol: "Int_ModuleReinforcement_Size1_Class1"
+        symbol: "Int_ModuleReinforcement_Size1_Class1",
+        ukName: "Module Reinforcement",
+        ukDiscript: "Protects modules against weapons fire that penetrates the hull. This version of the module has high damage capacity but low absorption of module damage. I.e. it can absorb a small proportion of module damage each time over a long period before running out of damage capacity."
       }, {
         class: 1,
         cost: 15e3,
@@ -15505,7 +16441,9 @@ module.exports = {
         mass: 1,
         protection: .6,
         rating: "D",
-        symbol: "Int_ModuleReinforcement_Size1_Class2"
+        symbol: "Int_ModuleReinforcement_Size1_Class2",
+        ukName: "Module Reinforcement",
+        ukDiscript: "Protects modules against weapons fire that penetrates the hull. This version of the module has low damage capacity but high absorption of module damage. I.e. it can absorb a large proportion of module damage each time over a short period before running out of damage capacity."
       }, {
         class: 2,
         cost: 12e3,
@@ -15517,7 +16455,9 @@ module.exports = {
         mass: 4,
         protection: .3,
         rating: "E",
-        symbol: "Int_ModuleReinforcement_Size2_Class1"
+        symbol: "Int_ModuleReinforcement_Size2_Class1",
+        ukName: "Module Reinforcement",
+        ukDiscript: "Protects modules against weapons fire that penetrates the hull. This version of the module has high damage capacity but low absorption of module damage. I.e. it can absorb a small proportion of module damage each time over a long period before running out of damage capacity."
       }, {
         class: 2,
         cost: 36e3,
@@ -15529,7 +16469,9 @@ module.exports = {
         mass: 2,
         protection: .6,
         rating: "D",
-        symbol: "Int_ModuleReinforcement_Size2_Class2"
+        symbol: "Int_ModuleReinforcement_Size2_Class2",
+        ukName: "Module Reinforcement",
+        ukDiscript: "Protects modules against weapons fire that penetrates the hull. This version of the module has low damage capacity but high absorption of module damage. I.e. it can absorb a large proportion of module damage each time over a short period before running out of damage capacity."
       }, {
         class: 3,
         cost: 28e3,
@@ -15541,7 +16483,9 @@ module.exports = {
         mass: 8,
         protection: .3,
         rating: "E",
-        symbol: "Int_ModuleReinforcement_Size3_Class1"
+        symbol: "Int_ModuleReinforcement_Size3_Class1",
+        ukName: "Module Reinforcement",
+        ukDiscript: "Protects modules against weapons fire that penetrates the hull. This version of the module has high damage capacity but low absorption of module damage. I.e. it can absorb a small proportion of module damage each time over a long period before running out of damage capacity."
       }, {
         class: 3,
         cost: 84e3,
@@ -15553,7 +16497,9 @@ module.exports = {
         mass: 4,
         protection: .6,
         rating: "D",
-        symbol: "Int_ModuleReinforcement_Size3_Class2"
+        symbol: "Int_ModuleReinforcement_Size3_Class2",
+        ukName: "Module Reinforcement",
+        ukDiscript: "Protects modules against weapons fire that penetrates the hull. This version of the module has low damage capacity but high absorption of module damage. I.e. it can absorb a large proportion of module damage each time over a short period before running out of damage capacity."
       }, {
         class: 4,
         cost: 65e3,
@@ -15565,7 +16511,9 @@ module.exports = {
         mass: 16,
         protection: .3,
         rating: "E",
-        symbol: "Int_ModuleReinforcement_Size4_Class1"
+        symbol: "Int_ModuleReinforcement_Size4_Class1",
+        ukName: "Module Reinforcement",
+        ukDiscript: "Protects modules against weapons fire that penetrates the hull. This version of the module has high damage capacity but low absorption of module damage. I.e. it can absorb a small proportion of module damage each time over a long period before running out of damage capacity."
       }, {
         class: 4,
         cost: 195e3,
@@ -15577,7 +16525,9 @@ module.exports = {
         mass: 8,
         protection: .6,
         rating: "D",
-        symbol: "Int_ModuleReinforcement_Size4_Class2"
+        symbol: "Int_ModuleReinforcement_Size4_Class2",
+        ukName: "Module Reinforcement",
+        ukDiscript: "Protects modules against weapons fire that penetrates the hull. This version of the module has low damage capacity but high absorption of module damage. I.e. it can absorb a large proportion of module damage each time over a short period before running out of damage capacity."
       }, {
         class: 5,
         cost: 15e4,
@@ -15589,7 +16539,9 @@ module.exports = {
         mass: 32,
         protection: .3,
         rating: "E",
-        symbol: "Int_ModuleReinforcement_Size5_Class1"
+        symbol: "Int_ModuleReinforcement_Size5_Class1",
+        ukName: "Module Reinforcement",
+        ukDiscript: "Protects modules against weapons fire that penetrates the hull. This version of the module has high damage capacity but low absorption of module damage. I.e. it can absorb a small proportion of module damage each time over a long period before running out of damage capacity."
       }, {
         class: 5,
         cost: 45e4,
@@ -15601,7 +16553,9 @@ module.exports = {
         mass: 16,
         protection: .6,
         rating: "D",
-        symbol: "Int_ModuleReinforcement_Size5_Class2"
+        symbol: "Int_ModuleReinforcement_Size5_Class2",
+        ukName: "Module Reinforcement",
+        ukDiscript: "Protects modules against weapons fire that penetrates the hull. This version of the module has low damage capacity but high absorption of module damage. I.e. it can absorb a large proportion of module damage each time over a short period before running out of damage capacity."
       } ],
       pv: [ {
         bays: 1,
@@ -15615,7 +16569,9 @@ module.exports = {
         mass: 12,
         power: .25,
         rating: "H",
-        symbol: "Int_BuggyBay_Size2_Class1"
+        symbol: "Int_BuggyBay_Size2_Class1",
+        ukName: "Planetary Vehicle Hangar",
+        ukDiscript: "A module designed to house ground-based vehicles."
       }, {
         bays: 1,
         class: 2,
@@ -15628,7 +16584,9 @@ module.exports = {
         mass: 6,
         power: .75,
         rating: "G",
-        symbol: "Int_BuggyBay_Size2_Class2"
+        symbol: "Int_BuggyBay_Size2_Class2",
+        ukName: "Planetary Vehicle Hangar",
+        ukDiscript: "A module designed to house ground-based vehicles."
       }, {
         bays: 2,
         class: 4,
@@ -15641,7 +16599,9 @@ module.exports = {
         mass: 20,
         power: .4,
         rating: "H",
-        symbol: "Int_BuggyBay_Size4_Class1"
+        symbol: "Int_BuggyBay_Size4_Class1",
+        ukName: "Planetary Vehicle Hangar",
+        ukDiscript: "A module designed to house ground-based vehicles."
       }, {
         bays: 2,
         class: 4,
@@ -15654,7 +16614,9 @@ module.exports = {
         mass: 10,
         power: 1.2,
         rating: "G",
-        symbol: "Int_BuggyBay_Size4_Class2"
+        symbol: "Int_BuggyBay_Size4_Class2",
+        ukName: "Planetary Vehicle Hangar",
+        ukDiscript: "A module designed to house ground-based vehicles."
       }, {
         bays: 4,
         class: 6,
@@ -15667,7 +16629,9 @@ module.exports = {
         mass: 34,
         power: .6,
         rating: "H",
-        symbol: "Int_BuggyBay_Size6_Class1"
+        symbol: "Int_BuggyBay_Size6_Class1",
+        ukName: "Planetary Vehicle Hangar",
+        ukDiscript: "A module designed to house ground-based vehicles."
       }, {
         bays: 4,
         class: 6,
@@ -15680,7 +16644,9 @@ module.exports = {
         mass: 17,
         power: 1.8,
         rating: "G",
-        symbol: "Int_BuggyBay_Size6_Class2"
+        symbol: "Int_BuggyBay_Size6_Class2",
+        ukName: "Planetary Vehicle Hangar",
+        ukDiscript: "A module designed to house ground-based vehicles."
       } ],
       psg: [ {
         brokenregen: 1.2,
@@ -15706,7 +16672,9 @@ module.exports = {
         rating: "A",
         regen: 1,
         thermres: -.2,
-        symbol: "Int_ShieldGenerator_Size1_Class5_Strong"
+        symbol: "Int_ShieldGenerator_Size1_Class5_Strong",
+        ukName: "Prismatic Shield",
+        ukDiscript: "An alternative shield generator that has higher than normal strength but requires a higher power draw and weight allowance."
       }, {
         brokenregen: 1.2,
         class: 2,
@@ -15731,7 +16699,9 @@ module.exports = {
         rating: "A",
         regen: 1,
         thermres: -.2,
-        symbol: "Int_ShieldGenerator_Size2_Class5_Strong"
+        symbol: "Int_ShieldGenerator_Size2_Class5_Strong",
+        ukName: "Prismatic Shield",
+        ukDiscript: "An alternative shield generator that has higher than normal strength but requires a higher power draw and weight allowance."
       }, {
         brokenregen: 1.3,
         class: 3,
@@ -15756,7 +16726,9 @@ module.exports = {
         rating: "A",
         regen: 1,
         thermres: -.2,
-        symbol: "Int_ShieldGenerator_Size3_Class5_Strong"
+        symbol: "Int_ShieldGenerator_Size3_Class5_Strong",
+        ukName: "Prismatic Shield",
+        ukDiscript: "An alternative shield generator that has higher than normal strength but requires a higher power draw and weight allowance."
       }, {
         brokenregen: 1.7,
         class: 4,
@@ -15781,7 +16753,9 @@ module.exports = {
         rating: "A",
         regen: 1,
         thermres: -.2,
-        symbol: "Int_ShieldGenerator_Size4_Class5_Strong"
+        symbol: "Int_ShieldGenerator_Size4_Class5_Strong",
+        ukName: "Prismatic Shield",
+        ukDiscript: "An alternative shield generator that has higher than normal strength but requires a higher power draw and weight allowance."
       }, {
         brokenregen: 2.3,
         class: 5,
@@ -15806,7 +16780,9 @@ module.exports = {
         rating: "A",
         regen: 1,
         thermres: -.2,
-        symbol: "Int_ShieldGenerator_Size5_Class5_Strong"
+        symbol: "Int_ShieldGenerator_Size5_Class5_Strong",
+        ukName: "Prismatic Shield",
+        ukDiscript: "An alternative shield generator that has higher than normal strength but requires a higher power draw and weight allowance."
       }, {
         brokenregen: 3.2,
         class: 6,
@@ -15831,7 +16807,9 @@ module.exports = {
         rating: "A",
         regen: 1,
         thermres: -.2,
-        symbol: "Int_ShieldGenerator_Size6_Class5_Strong"
+        symbol: "Int_ShieldGenerator_Size6_Class5_Strong",
+        ukName: "Prismatic Shield",
+        ukDiscript: "An alternative shield generator that has higher than normal strength but requires a higher power draw and weight allowance."
       }, {
         brokenregen: 4.2,
         class: 7,
@@ -15856,7 +16834,9 @@ module.exports = {
         rating: "A",
         regen: 1.1,
         thermres: -.2,
-        symbol: "Int_ShieldGenerator_Size7_Class5_Strong"
+        symbol: "Int_ShieldGenerator_Size7_Class5_Strong",
+        ukName: "Prismatic Shield",
+        ukDiscript: "An alternative shield generator that has higher than normal strength but requires a higher power draw and weight allowance."
       }, {
         brokenregen: 5.4,
         class: 8,
@@ -15881,7 +16861,9 @@ module.exports = {
         rating: "A",
         regen: 1.4,
         thermres: -.2,
-        symbol: "Int_ShieldGenerator_Size8_Class5_Strong"
+        symbol: "Int_ShieldGenerator_Size8_Class5_Strong",
+        ukName: "Prismatic Shield",
+        ukDiscript: "An alternative shield generator that has higher than normal strength but requires a higher power draw and weight allowance."
       } ],
       pc: [ {
         class: 1,
@@ -15895,7 +16877,9 @@ module.exports = {
         power: .18,
         range: 3,
         rating: "E",
-        symbol: "Int_DroneControl_Prospector_Size1_Class1"
+        symbol: "Int_DroneControl_Prospector_Size1_Class1",
+        ukName: "Prospector",
+        ukDiscript: "Controls a limpet to prospect an asteroid to discover its composition."
       }, {
         class: 1,
         cost: 1200,
@@ -15908,7 +16892,9 @@ module.exports = {
         power: .14,
         range: 4,
         rating: "D",
-        symbol: "Int_DroneControl_Prospector_Size1_Class2"
+        symbol: "Int_DroneControl_Prospector_Size1_Class2",
+        ukName: "Prospector",
+        ukDiscript: "Controls a limpet to prospect an asteroid to discover its composition."
       }, {
         class: 1,
         cost: 2400,
@@ -15921,7 +16907,9 @@ module.exports = {
         power: .23,
         range: 5,
         rating: "C",
-        symbol: "Int_DroneControl_Prospector_Size1_Class3"
+        symbol: "Int_DroneControl_Prospector_Size1_Class3",
+        ukName: "Prospector",
+        ukDiscript: "Controls a limpet to prospect an asteroid to discover its composition."
       }, {
         class: 1,
         cost: 4800,
@@ -15934,7 +16922,9 @@ module.exports = {
         power: .32,
         range: 6,
         rating: "B",
-        symbol: "Int_DroneControl_Prospector_Size1_Class4"
+        symbol: "Int_DroneControl_Prospector_Size1_Class4",
+        ukName: "Prospector",
+        ukDiscript: "Controls a limpet to prospect an asteroid to discover its composition."
       }, {
         class: 1,
         cost: 9600,
@@ -15947,7 +16937,9 @@ module.exports = {
         power: .28,
         range: 7,
         rating: "A",
-        symbol: "Int_DroneControl_Prospector_Size1_Class5"
+        symbol: "Int_DroneControl_Prospector_Size1_Class5",
+        ukName: "Prospector",
+        ukDiscript: "Controls a limpet to prospect an asteroid to discover its composition."
       }, {
         class: 3,
         cost: 5400,
@@ -15960,7 +16952,9 @@ module.exports = {
         power: .27,
         range: 3.3,
         rating: "E",
-        symbol: "Int_DroneControl_Prospector_Size3_Class1"
+        symbol: "Int_DroneControl_Prospector_Size3_Class1",
+        ukName: "Prospector",
+        ukDiscript: "Controls a limpet to prospect an asteroid to discover its composition."
       }, {
         class: 3,
         cost: 10800,
@@ -15973,7 +16967,9 @@ module.exports = {
         power: .2,
         range: 4.4,
         rating: "D",
-        symbol: "Int_DroneControl_Prospector_Size3_Class2"
+        symbol: "Int_DroneControl_Prospector_Size3_Class2",
+        ukName: "Prospector",
+        ukDiscript: "Controls a limpet to prospect an asteroid to discover its composition."
       }, {
         class: 3,
         cost: 21600,
@@ -15986,7 +16982,9 @@ module.exports = {
         power: .34,
         range: 5.5,
         rating: "C",
-        symbol: "Int_DroneControl_Prospector_Size3_Class3"
+        symbol: "Int_DroneControl_Prospector_Size3_Class3",
+        ukName: "Prospector",
+        ukDiscript: "Controls a limpet to prospect an asteroid to discover its composition."
       }, {
         class: 3,
         cost: 43200,
@@ -15999,7 +16997,9 @@ module.exports = {
         power: .48,
         range: 6.6,
         rating: "B",
-        symbol: "Int_DroneControl_Prospector_Size3_Class4"
+        symbol: "Int_DroneControl_Prospector_Size3_Class4",
+        ukName: "Prospector",
+        ukDiscript: "Controls a limpet to prospect an asteroid to discover its composition."
       }, {
         class: 3,
         cost: 86400,
@@ -16012,7 +17012,9 @@ module.exports = {
         power: .41,
         range: 7.7,
         rating: "A",
-        symbol: "Int_DroneControl_Prospector_Size3_Class5"
+        symbol: "Int_DroneControl_Prospector_Size3_Class5",
+        ukName: "Prospector",
+        ukDiscript: "Controls a limpet to prospect an asteroid to discover its composition."
       }, {
         class: 5,
         cost: 48600,
@@ -16025,7 +17027,9 @@ module.exports = {
         power: .4,
         range: 3.9,
         rating: "E",
-        symbol: "Int_DroneControl_Prospector_Size5_Class1"
+        symbol: "Int_DroneControl_Prospector_Size5_Class1",
+        ukName: "Prospector",
+        ukDiscript: "Controls a limpet to prospect an asteroid to discover its composition."
       }, {
         class: 5,
         cost: 97200,
@@ -16038,7 +17042,9 @@ module.exports = {
         power: .3,
         range: 5.2,
         rating: "D",
-        symbol: "Int_DroneControl_Prospector_Size5_Class2"
+        symbol: "Int_DroneControl_Prospector_Size5_Class2",
+        ukName: "Prospector",
+        ukDiscript: "Controls a limpet to prospect an asteroid to discover its composition."
       }, {
         class: 5,
         cost: 194400,
@@ -16051,7 +17057,9 @@ module.exports = {
         power: .5,
         range: 6.5,
         rating: "C",
-        symbol: "Int_DroneControl_Prospector_Size5_Class3"
+        symbol: "Int_DroneControl_Prospector_Size5_Class3",
+        ukName: "Prospector",
+        ukDiscript: "Controls a limpet to prospect an asteroid to discover its composition."
       }, {
         class: 5,
         cost: 388800,
@@ -16064,7 +17072,9 @@ module.exports = {
         power: .97,
         range: 7.8,
         rating: "B",
-        symbol: "Int_DroneControl_Prospector_Size5_Class4"
+        symbol: "Int_DroneControl_Prospector_Size5_Class4",
+        ukName: "Prospector",
+        ukDiscript: "Controls a limpet to prospect an asteroid to discover its composition."
       }, {
         class: 5,
         cost: 777600,
@@ -16077,7 +17087,9 @@ module.exports = {
         power: .6,
         range: 9.1,
         rating: "A",
-        symbol: "Int_DroneControl_Prospector_Size5_Class5"
+        symbol: "Int_DroneControl_Prospector_Size5_Class5",
+        ukName: "Prospector",
+        ukDiscript: "Controls a limpet to prospect an asteroid to discover its composition."
       }, {
         class: 7,
         cost: 437400,
@@ -16090,7 +17102,9 @@ module.exports = {
         power: .55,
         range: 5.1,
         rating: "E",
-        symbol: "Int_DroneControl_Prospector_Size7_Class1"
+        symbol: "Int_DroneControl_Prospector_Size7_Class1",
+        ukName: "Prospector",
+        ukDiscript: "Controls a limpet to prospect an asteroid to discover its composition."
       }, {
         class: 7,
         cost: 874800,
@@ -16103,7 +17117,9 @@ module.exports = {
         power: .41,
         range: 6.8,
         rating: "D",
-        symbol: "Int_DroneControl_Prospector_Size7_Class2"
+        symbol: "Int_DroneControl_Prospector_Size7_Class2",
+        ukName: "Prospector",
+        ukDiscript: "Controls a limpet to prospect an asteroid to discover its composition."
       }, {
         class: 7,
         cost: 1749600,
@@ -16116,7 +17132,9 @@ module.exports = {
         power: .69,
         range: 8.5,
         rating: "C",
-        symbol: "Int_DroneControl_Prospector_Size7_Class3"
+        symbol: "Int_DroneControl_Prospector_Size7_Class3",
+        ukName: "Prospector",
+        ukDiscript: "Controls a limpet to prospect an asteroid to discover its composition."
       }, {
         class: 7,
         cost: 3499200,
@@ -16129,7 +17147,9 @@ module.exports = {
         power: .97,
         range: 10.2,
         rating: "B",
-        symbol: "Int_DroneControl_Prospector_Size7_Class4"
+        symbol: "Int_DroneControl_Prospector_Size7_Class4",
+        ukName: "Prospector",
+        ukDiscript: "Controls a limpet to prospect an asteroid to discover its composition."
       }, {
         class: 7,
         cost: 6998400,
@@ -16142,7 +17162,9 @@ module.exports = {
         power: .83,
         range: 11.9,
         rating: "A",
-        symbol: "Int_DroneControl_Prospector_Size7_Class5"
+        symbol: "Int_DroneControl_Prospector_Size7_Class5",
+        ukName: "Prospector",
+        ukDiscript: "Controls a limpet to prospect an asteroid to discover its composition."
       } ],
       pce: [ {
         class: 2,
@@ -16154,7 +17176,9 @@ module.exports = {
         mass: 2.5,
         passengers: 2,
         rating: "E",
-        symbol: "Int_PassengerCabin_Size2_Class1"
+        symbol: "Int_PassengerCabin_Size2_Class1",
+        ukName: "EC Passenger Cabin",
+        ukDiscript: "Economy Class Passenger Cabin."
       }, {
         class: 3,
         cost: 8659,
@@ -16165,7 +17189,9 @@ module.exports = {
         mass: 5,
         passengers: 4,
         rating: "E",
-        symbol: "Int_PassengerCabin_Size3_Class1"
+        symbol: "Int_PassengerCabin_Size3_Class1",
+        ukName: "EC Passenger Cabin",
+        ukDiscript: "Economy Class Passenger Cabin."
       }, {
         class: 4,
         cost: 18960,
@@ -16176,7 +17202,9 @@ module.exports = {
         mass: 10,
         passengers: 8,
         rating: "E",
-        symbol: "Int_PassengerCabin_Size4_Class1"
+        symbol: "Int_PassengerCabin_Size4_Class1",
+        ukName: "EC Passenger Cabin",
+        ukDiscript: "Economy Class Passenger Cabin."
       }, {
         class: 5,
         cost: 34960,
@@ -16187,7 +17215,9 @@ module.exports = {
         mass: 20,
         passengers: 16,
         rating: "E",
-        symbol: "Int_PassengerCabin_Size5_Class1"
+        symbol: "Int_PassengerCabin_Size5_Class1",
+        ukName: "EC Passenger Cabin",
+        ukDiscript: "Economy Class Passenger Cabin."
       }, {
         class: 6,
         cost: 61420,
@@ -16198,7 +17228,9 @@ module.exports = {
         mass: 40,
         passengers: 32,
         rating: "E",
-        symbol: "Int_PassengerCabin_Size6_Class1"
+        symbol: "Int_PassengerCabin_Size6_Class1",
+        ukName: "EC Passenger Cabin",
+        ukDiscript: "Economy Class Passenger Cabin."
       } ],
       pci: [ {
         class: 3,
@@ -16210,7 +17242,9 @@ module.exports = {
         mass: 5,
         passengers: 3,
         rating: "D",
-        symbol: "Int_PassengerCabin_Size3_Class2"
+        symbol: "Int_PassengerCabin_Size3_Class2",
+        ukName: "BC Passenger Cabin",
+        ukDiscript: "Business Class Passenger Cabin."
       }, {
         class: 4,
         cost: 56870,
@@ -16221,7 +17255,9 @@ module.exports = {
         mass: 10,
         passengers: 6,
         rating: "D",
-        symbol: "Int_PassengerCabin_Size4_Class2"
+        symbol: "Int_PassengerCabin_Size4_Class2",
+        ukName: "BC Passenger Cabin",
+        ukDiscript: "Business Class Passenger Cabin."
       }, {
         class: 5,
         cost: 92370,
@@ -16232,7 +17268,9 @@ module.exports = {
         mass: 20,
         passengers: 10,
         rating: "D",
-        symbol: "Int_PassengerCabin_Size5_Class2"
+        symbol: "Int_PassengerCabin_Size5_Class2",
+        ukName: "BC Passenger Cabin",
+        ukDiscript: "Business Class Passenger Cabin."
       }, {
         class: 6,
         cost: 184240,
@@ -16243,7 +17281,9 @@ module.exports = {
         mass: 40,
         passengers: 16,
         rating: "D",
-        symbol: "Int_PassengerCabin_Size6_Class2"
+        symbol: "Int_PassengerCabin_Size6_Class2",
+        ukName: "BC Passenger Cabin",
+        ukDiscript: "Business Class Passenger Cabin."
       } ],
       pcm: [ {
         class: 4,
@@ -16255,7 +17295,9 @@ module.exports = {
         mass: 10,
         passengers: 3,
         rating: "C",
-        symbol: "Int_PassengerCabin_Size4_Class3"
+        symbol: "Int_PassengerCabin_Size4_Class3",
+        ukName: "FC Passenger Cabin",
+        ukDiscript: "First Class Passenger Cabin."
       }, {
         class: 5,
         cost: 340528,
@@ -16266,7 +17308,9 @@ module.exports = {
         mass: 20,
         passengers: 6,
         rating: "C",
-        symbol: "Int_PassengerCabin_Size5_Class3"
+        symbol: "Int_PassengerCabin_Size5_Class3",
+        ukName: "FC Passenger Cabin",
+        ukDiscript: "First Class Passenger Cabin."
       }, {
         class: 6,
         cost: 552700,
@@ -16277,7 +17321,9 @@ module.exports = {
         mass: 40,
         passengers: 12,
         rating: "C",
-        symbol: "Int_PassengerCabin_Size6_Class3"
+        symbol: "Int_PassengerCabin_Size6_Class3",
+        ukName: "FC Passenger Cabin",
+        ukDiscript: "First Class Passenger Cabin."
       } ],
       pcq: [ {
         class: 5,
@@ -16289,7 +17335,9 @@ module.exports = {
         mass: 20,
         passengers: 4,
         rating: "B",
-        symbol: "Int_PassengerCabin_Size5_Class4"
+        symbol: "Int_PassengerCabin_Size5_Class4",
+        ukName: "LC Passenger Cabin",
+        ukDiscript: "Luxury Class Passenger Cabin."
       }, {
         class: 6,
         cost: 4974288,
@@ -16300,7 +17348,9 @@ module.exports = {
         mass: 40,
         passengers: 8,
         rating: "B",
-        symbol: "Int_PassengerCabin_Size6_Class4"
+        symbol: "Int_PassengerCabin_Size6_Class4",
+        ukName: "LC Passenger Cabin",
+        ukDiscript: "Luxury Class Passenger Cabin."
       } ],
       rf: [ {
         bins: 1,
@@ -16312,7 +17362,9 @@ module.exports = {
         id: "1k",
         power: .14,
         rating: "E",
-        symbol: "Int_Refinery_Size1_Class1"
+        symbol: "Int_Refinery_Size1_Class1",
+        ukName: "Refinery",
+        ukDiscript: "Converts scooped fragments into usable resources (requires mining laser)."
       }, {
         bins: 1,
         class: 1,
@@ -16323,7 +17375,9 @@ module.exports = {
         id: "1j",
         power: .18,
         rating: "D",
-        symbol: "Int_Refinery_Size1_Class2"
+        symbol: "Int_Refinery_Size1_Class2",
+        ukName: "Refinery",
+        ukDiscript: "Converts scooped fragments into usable resources (requires mining laser)."
       }, {
         bins: 2,
         class: 1,
@@ -16334,7 +17388,9 @@ module.exports = {
         id: "1i",
         power: .23,
         rating: "C",
-        symbol: "Int_Refinery_Size1_Class3"
+        symbol: "Int_Refinery_Size1_Class3",
+        ukName: "Refinery",
+        ukDiscript: "Converts scooped fragments into usable resources (requires mining laser)."
       }, {
         bins: 3,
         class: 1,
@@ -16345,7 +17401,9 @@ module.exports = {
         id: "1h",
         power: .28,
         rating: "B",
-        symbol: "Int_Refinery_Size1_Class4"
+        symbol: "Int_Refinery_Size1_Class4",
+        ukName: "Refinery",
+        ukDiscript: "Converts scooped fragments into usable resources (requires mining laser)."
       }, {
         bins: 4,
         class: 1,
@@ -16356,7 +17414,9 @@ module.exports = {
         id: "1g",
         power: .32,
         rating: "A",
-        symbol: "Int_Refinery_Size1_Class5"
+        symbol: "Int_Refinery_Size1_Class5",
+        ukName: "Refinery",
+        ukDiscript: "Converts scooped fragments into usable resources (requires mining laser)."
       }, {
         bins: 2,
         class: 2,
@@ -16367,7 +17427,9 @@ module.exports = {
         id: "1p",
         power: .17,
         rating: "E",
-        symbol: "Int_Refinery_Size2_Class1"
+        symbol: "Int_Refinery_Size2_Class1",
+        ukName: "Refinery",
+        ukDiscript: "Converts scooped fragments into usable resources (requires mining laser)."
       }, {
         bins: 3,
         class: 2,
@@ -16378,7 +17440,9 @@ module.exports = {
         id: "1o",
         power: .22,
         rating: "D",
-        symbol: "Int_Refinery_Size2_Class2"
+        symbol: "Int_Refinery_Size2_Class2",
+        ukName: "Refinery",
+        ukDiscript: "Converts scooped fragments into usable resources (requires mining laser)."
       }, {
         bins: 4,
         class: 2,
@@ -16389,7 +17453,9 @@ module.exports = {
         id: "1n",
         power: .28,
         rating: "C",
-        symbol: "Int_Refinery_Size2_Class3"
+        symbol: "Int_Refinery_Size2_Class3",
+        ukName: "Refinery",
+        ukDiscript: "Converts scooped fragments into usable resources (requires mining laser)."
       }, {
         bins: 5,
         class: 2,
@@ -16400,7 +17466,9 @@ module.exports = {
         id: "1m",
         power: .34,
         rating: "B",
-        symbol: "Int_Refinery_Size2_Class4"
+        symbol: "Int_Refinery_Size2_Class4",
+        ukName: "Refinery",
+        ukDiscript: "Converts scooped fragments into usable resources (requires mining laser)."
       }, {
         bins: 6,
         class: 2,
@@ -16411,7 +17479,9 @@ module.exports = {
         id: "1l",
         power: .39,
         rating: "A",
-        symbol: "Int_Refinery_Size2_Class5"
+        symbol: "Int_Refinery_Size2_Class5",
+        ukName: "Refinery",
+        ukDiscript: "Converts scooped fragments into usable resources (requires mining laser)."
       }, {
         bins: 3,
         class: 3,
@@ -16422,7 +17492,9 @@ module.exports = {
         id: "1u",
         power: .2,
         rating: "E",
-        symbol: "Int_Refinery_Size3_Class1"
+        symbol: "Int_Refinery_Size3_Class1",
+        ukName: "Refinery",
+        ukDiscript: "Converts scooped fragments into usable resources (requires mining laser)."
       }, {
         bins: 4,
         class: 3,
@@ -16433,7 +17505,9 @@ module.exports = {
         id: "1t",
         power: .27,
         rating: "D",
-        symbol: "Int_Refinery_Size3_Class2"
+        symbol: "Int_Refinery_Size3_Class2",
+        ukName: "Refinery",
+        ukDiscript: "Converts scooped fragments into usable resources (requires mining laser)."
       }, {
         bins: 6,
         class: 3,
@@ -16444,7 +17518,9 @@ module.exports = {
         id: "1s",
         power: .34,
         rating: "C",
-        symbol: "Int_Refinery_Size3_Class3"
+        symbol: "Int_Refinery_Size3_Class3",
+        ukName: "Refinery",
+        ukDiscript: "Converts scooped fragments into usable resources (requires mining laser)."
       }, {
         bins: 7,
         class: 3,
@@ -16455,7 +17531,9 @@ module.exports = {
         id: "1r",
         power: .41,
         rating: "B",
-        symbol: "Int_Refinery_Size3_Class4"
+        symbol: "Int_Refinery_Size3_Class4",
+        ukName: "Refinery",
+        ukDiscript: "Converts scooped fragments into usable resources (requires mining laser)."
       }, {
         bins: 8,
         class: 3,
@@ -16466,7 +17544,9 @@ module.exports = {
         id: "1q",
         power: .48,
         rating: "A",
-        symbol: "Int_Refinery_Size3_Class5"
+        symbol: "Int_Refinery_Size3_Class5",
+        ukName: "Refinery",
+        ukDiscript: "Converts scooped fragments into usable resources (requires mining laser)."
       }, {
         bins: 4,
         class: 4,
@@ -16477,7 +17557,9 @@ module.exports = {
         id: "23",
         power: .25,
         rating: "E",
-        symbol: "Int_Refinery_Size4_Class1"
+        symbol: "Int_Refinery_Size4_Class1",
+        ukName: "Refinery",
+        ukDiscript: "Converts scooped fragments into usable resources (requires mining laser)."
       }, {
         bins: 5,
         class: 4,
@@ -16488,7 +17570,9 @@ module.exports = {
         id: "22",
         power: .33,
         rating: "D",
-        symbol: "Int_Refinery_Size4_Class2"
+        symbol: "Int_Refinery_Size4_Class2",
+        ukName: "Refinery",
+        ukDiscript: "Converts scooped fragments into usable resources (requires mining laser)."
       }, {
         bins: 7,
         class: 4,
@@ -16499,7 +17583,9 @@ module.exports = {
         id: "21",
         power: .41,
         rating: "C",
-        symbol: "Int_Refinery_Size4_Class3"
+        symbol: "Int_Refinery_Size4_Class3",
+        ukName: "Refinery",
+        ukDiscript: "Converts scooped fragments into usable resources (requires mining laser)."
       }, {
         bins: 9,
         class: 4,
@@ -16510,7 +17596,9 @@ module.exports = {
         id: "20",
         power: .49,
         rating: "B",
-        symbol: "Int_Refinery_Size4_Class4"
+        symbol: "Int_Refinery_Size4_Class4",
+        ukName: "Refinery",
+        ukDiscript: "Converts scooped fragments into usable resources (requires mining laser)."
       }, {
         bins: 10,
         class: 4,
@@ -16521,7 +17609,9 @@ module.exports = {
         id: "1v",
         power: .57,
         rating: "A",
-        symbol: "Int_Refinery_Size4_Class5"
+        symbol: "Int_Refinery_Size4_Class5",
+        ukName: "Refinery",
+        ukDiscript: "Converts scooped fragments into usable resources (requires mining laser)."
       } ],
       scb: [ {
         ammo: 3,
@@ -16543,7 +17633,9 @@ module.exports = {
         rechargerating: "E",
         spinup: 5,
         thermload: 170,
-        symbol: "Int_ShieldCellBank_Size1_Class1"
+        symbol: "Int_ShieldCellBank_Size1_Class1",
+        ukName: "Shield Cell Bank",
+        ukDiscript: "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
       }, {
         ammo: 0,
         ammocost: 300,
@@ -16564,7 +17656,9 @@ module.exports = {
         rechargerating: "D",
         spinup: 5,
         thermload: 170,
-        symbol: "Int_ShieldCellBank_Size1_Class2"
+        symbol: "Int_ShieldCellBank_Size1_Class2",
+        ukName: "Shield Cell Bank",
+        ukDiscript: "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
       }, {
         ammo: 2,
         ammocost: 300,
@@ -16585,7 +17679,9 @@ module.exports = {
         rechargerating: "C",
         spinup: 5,
         thermload: 170,
-        symbol: "Int_ShieldCellBank_Size1_Class3"
+        symbol: "Int_ShieldCellBank_Size1_Class3",
+        ukName: "Shield Cell Bank",
+        ukDiscript: "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
       }, {
         ammo: 3,
         ammocost: 300,
@@ -16606,7 +17702,9 @@ module.exports = {
         rechargerating: "B",
         spinup: 5,
         thermload: 170,
-        symbol: "Int_ShieldCellBank_Size1_Class4"
+        symbol: "Int_ShieldCellBank_Size1_Class4",
+        ukName: "Shield Cell Bank",
+        ukDiscript: "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
       }, {
         ammo: 2,
         ammocost: 300,
@@ -16627,7 +17725,9 @@ module.exports = {
         rechargerating: "A",
         spinup: 5,
         thermload: 170,
-        symbol: "Int_ShieldCellBank_Size1_Class5"
+        symbol: "Int_ShieldCellBank_Size1_Class5",
+        ukName: "Shield Cell Bank",
+        ukDiscript: "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
       }, {
         ammo: 4,
         ammocost: 300,
@@ -16648,7 +17748,9 @@ module.exports = {
         rechargerating: "E",
         spinup: 5,
         thermload: 240,
-        symbol: "Int_ShieldCellBank_Size2_Class1"
+        symbol: "Int_ShieldCellBank_Size2_Class1",
+        ukName: "Shield Cell Bank",
+        ukDiscript: "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
       }, {
         ammo: 2,
         ammocost: 300,
@@ -16669,7 +17771,9 @@ module.exports = {
         rechargerating: "D",
         spinup: 5,
         thermload: 240,
-        symbol: "Int_ShieldCellBank_Size2_Class2"
+        symbol: "Int_ShieldCellBank_Size2_Class2",
+        ukName: "Shield Cell Bank",
+        ukDiscript: "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
       }, {
         ammo: 3,
         ammocost: 300,
@@ -16690,7 +17794,9 @@ module.exports = {
         rechargerating: "C",
         spinup: 5,
         thermload: 240,
-        symbol: "Int_ShieldCellBank_Size2_Class3"
+        symbol: "Int_ShieldCellBank_Size2_Class3",
+        ukName: "Shield Cell Bank",
+        ukDiscript: "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
       }, {
         ammo: 4,
         ammocost: 300,
@@ -16711,7 +17817,9 @@ module.exports = {
         rechargerating: "B",
         spinup: 5,
         thermload: 240,
-        symbol: "Int_ShieldCellBank_Size2_Class4"
+        symbol: "Int_ShieldCellBank_Size2_Class4",
+        ukName: "Shield Cell Bank",
+        ukDiscript: "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
       }, {
         ammo: 3,
         ammocost: 300,
@@ -16732,7 +17840,9 @@ module.exports = {
         rechargerating: "A",
         spinup: 5,
         thermload: 240,
-        symbol: "Int_ShieldCellBank_Size2_Class5"
+        symbol: "Int_ShieldCellBank_Size2_Class5",
+        ukName: "Shield Cell Bank",
+        ukDiscript: "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
       }, {
         ammo: 4,
         ammocost: 300,
@@ -16753,7 +17863,9 @@ module.exports = {
         rechargerating: "E",
         spinup: 5,
         thermload: 340,
-        symbol: "Int_ShieldCellBank_Size3_Class1"
+        symbol: "Int_ShieldCellBank_Size3_Class1",
+        ukName: "Shield Cell Bank",
+        ukDiscript: "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
       }, {
         ammo: 2,
         ammocost: 300,
@@ -16774,7 +17886,9 @@ module.exports = {
         rechargerating: "D",
         spinup: 5,
         thermload: 340,
-        symbol: "Int_ShieldCellBank_Size3_Class2"
+        symbol: "Int_ShieldCellBank_Size3_Class2",
+        ukName: "Shield Cell Bank",
+        ukDiscript: "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
       }, {
         ammo: 3,
         ammocost: 300,
@@ -16795,7 +17909,9 @@ module.exports = {
         rechargerating: "C",
         spinup: 5,
         thermload: 340,
-        symbol: "Int_ShieldCellBank_Size3_Class3"
+        symbol: "Int_ShieldCellBank_Size3_Class3",
+        ukName: "Shield Cell Bank",
+        ukDiscript: "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
       }, {
         ammo: 4,
         ammocost: 300,
@@ -16816,7 +17932,9 @@ module.exports = {
         rechargerating: "B",
         spinup: 5,
         thermload: 340,
-        symbol: "Int_ShieldCellBank_Size3_Class4"
+        symbol: "Int_ShieldCellBank_Size3_Class4",
+        ukName: "Shield Cell Bank",
+        ukDiscript: "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
       }, {
         ammo: 3,
         ammocost: 300,
@@ -16837,7 +17955,9 @@ module.exports = {
         rechargerating: "A",
         spinup: 5,
         thermload: 340,
-        symbol: "Int_ShieldCellBank_Size3_Class5"
+        symbol: "Int_ShieldCellBank_Size3_Class5",
+        ukName: "Shield Cell Bank",
+        ukDiscript: "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
       }, {
         ammo: 4,
         ammocost: 300,
@@ -16858,7 +17978,9 @@ module.exports = {
         rechargerating: "E",
         spinup: 5,
         thermload: 410,
-        symbol: "Int_ShieldCellBank_Size4_Class1"
+        symbol: "Int_ShieldCellBank_Size4_Class1",
+        ukName: "Shield Cell Bank",
+        ukDiscript: "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
       }, {
         ammo: 2,
         ammocost: 300,
@@ -16879,7 +18001,9 @@ module.exports = {
         rechargerating: "D",
         spinup: 5,
         thermload: 410,
-        symbol: "Int_ShieldCellBank_Size4_Class2"
+        symbol: "Int_ShieldCellBank_Size4_Class2",
+        ukName: "Shield Cell Bank",
+        ukDiscript: "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
       }, {
         ammo: 3,
         ammocost: 300,
@@ -16900,7 +18024,9 @@ module.exports = {
         rechargerating: "C",
         spinup: 5,
         thermload: 410,
-        symbol: "Int_ShieldCellBank_Size4_Class3"
+        symbol: "Int_ShieldCellBank_Size4_Class3",
+        ukName: "Shield Cell Bank",
+        ukDiscript: "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
       }, {
         ammo: 4,
         ammocost: 300,
@@ -16921,7 +18047,9 @@ module.exports = {
         rechargerating: "B",
         spinup: 5,
         thermload: 410,
-        symbol: "Int_ShieldCellBank_Size4_Class4"
+        symbol: "Int_ShieldCellBank_Size4_Class4",
+        ukName: "Shield Cell Bank",
+        ukDiscript: "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
       }, {
         ammo: 3,
         ammocost: 300,
@@ -16942,7 +18070,9 @@ module.exports = {
         rechargerating: "A",
         spinup: 5,
         thermload: 410,
-        symbol: "Int_ShieldCellBank_Size4_Class5"
+        symbol: "Int_ShieldCellBank_Size4_Class5",
+        ukName: "Shield Cell Bank",
+        ukDiscript: "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
       }, {
         ammo: 4,
         ammocost: 300,
@@ -16963,7 +18093,9 @@ module.exports = {
         rechargerating: "E",
         spinup: 5,
         thermload: 540,
-        symbol: "Int_ShieldCellBank_Size5_Class1"
+        symbol: "Int_ShieldCellBank_Size5_Class1",
+        ukName: "Shield Cell Bank",
+        ukDiscript: "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
       }, {
         ammo: 2,
         ammocost: 300,
@@ -16984,7 +18116,9 @@ module.exports = {
         rechargerating: "D",
         spinup: 5,
         thermload: 540,
-        symbol: "Int_ShieldCellBank_Size5_Class2"
+        symbol: "Int_ShieldCellBank_Size5_Class2",
+        ukName: "Shield Cell Bank",
+        ukDiscript: "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
       }, {
         ammo: 3,
         ammocost: 300,
@@ -17005,7 +18139,9 @@ module.exports = {
         rechargerating: "C",
         spinup: 5,
         thermload: 540,
-        symbol: "Int_ShieldCellBank_Size5_Class3"
+        symbol: "Int_ShieldCellBank_Size5_Class3",
+        ukName: "Shield Cell Bank",
+        ukDiscript: "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
       }, {
         ammo: 4,
         ammocost: 300,
@@ -17026,7 +18162,9 @@ module.exports = {
         rechargerating: "B",
         spinup: 5,
         thermload: 540,
-        symbol: "Int_ShieldCellBank_Size5_Class4"
+        symbol: "Int_ShieldCellBank_Size5_Class4",
+        ukName: "Shield Cell Bank",
+        ukDiscript: "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
       }, {
         ammo: 3,
         ammocost: 300,
@@ -17047,7 +18185,9 @@ module.exports = {
         rechargerating: "A",
         spinup: 5,
         thermload: 540,
-        symbol: "Int_ShieldCellBank_Size5_Class5"
+        symbol: "Int_ShieldCellBank_Size5_Class5",
+        ukName: "Shield Cell Bank",
+        ukDiscript: "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
       }, {
         ammo: 5,
         ammocost: 300,
@@ -17068,7 +18208,9 @@ module.exports = {
         rechargerating: "E",
         spinup: 5,
         thermload: 640,
-        symbol: "Int_ShieldCellBank_Size6_Class1"
+        symbol: "Int_ShieldCellBank_Size6_Class1",
+        ukName: "Shield Cell Bank",
+        ukDiscript: "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
       }, {
         ammo: 3,
         ammocost: 300,
@@ -17089,7 +18231,9 @@ module.exports = {
         rechargerating: "D",
         spinup: 5,
         thermload: 640,
-        symbol: "Int_ShieldCellBank_Size6_Class2"
+        symbol: "Int_ShieldCellBank_Size6_Class2",
+        ukName: "Shield Cell Bank",
+        ukDiscript: "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
       }, {
         ammo: 4,
         ammocost: 300,
@@ -17110,7 +18254,9 @@ module.exports = {
         rechargerating: "C",
         spinup: 5,
         thermload: 640,
-        symbol: "Int_ShieldCellBank_Size6_Class3"
+        symbol: "Int_ShieldCellBank_Size6_Class3",
+        ukName: "Shield Cell Bank",
+        ukDiscript: "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
       }, {
         ammo: 5,
         ammocost: 300,
@@ -17131,7 +18277,9 @@ module.exports = {
         rechargerating: "B",
         spinup: 5,
         thermload: 640,
-        symbol: "Int_ShieldCellBank_Size6_Class4"
+        symbol: "Int_ShieldCellBank_Size6_Class4",
+        ukName: "Shield Cell Bank",
+        ukDiscript: "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
       }, {
         ammo: 4,
         ammocost: 300,
@@ -17152,7 +18300,9 @@ module.exports = {
         rechargerating: "A",
         spinup: 5,
         thermload: 640,
-        symbol: "Int_ShieldCellBank_Size6_Class5"
+        symbol: "Int_ShieldCellBank_Size6_Class5",
+        ukName: "Shield Cell Bank",
+        ukDiscript: "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
       }, {
         ammo: 5,
         ammocost: 300,
@@ -17173,7 +18323,9 @@ module.exports = {
         rechargerating: "E",
         spinup: 5,
         thermload: 720,
-        symbol: "Int_ShieldCellBank_Size7_Class1"
+        symbol: "Int_ShieldCellBank_Size7_Class1",
+        ukName: "Shield Cell Bank",
+        ukDiscript: "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
       }, {
         ammo: 3,
         ammocost: 300,
@@ -17194,7 +18346,9 @@ module.exports = {
         rechargerating: "D",
         spinup: 5,
         thermload: 720,
-        symbol: "Int_ShieldCellBank_Size7_Class2"
+        symbol: "Int_ShieldCellBank_Size7_Class2",
+        ukName: "Shield Cell Bank",
+        ukDiscript: "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
       }, {
         ammo: 4,
         ammocost: 300,
@@ -17215,7 +18369,9 @@ module.exports = {
         rechargerating: "C",
         spinup: 5,
         thermload: 720,
-        symbol: "Int_ShieldCellBank_Size7_Class3"
+        symbol: "Int_ShieldCellBank_Size7_Class3",
+        ukName: "Shield Cell Bank",
+        ukDiscript: "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
       }, {
         ammo: 5,
         ammocost: 300,
@@ -17236,7 +18392,9 @@ module.exports = {
         rechargerating: "B",
         spinup: 5,
         thermload: 720,
-        symbol: "Int_ShieldCellBank_Size7_Class4"
+        symbol: "Int_ShieldCellBank_Size7_Class4",
+        ukName: "Shield Cell Bank",
+        ukDiscript: "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
       }, {
         ammo: 4,
         ammocost: 300,
@@ -17257,7 +18415,9 @@ module.exports = {
         rechargerating: "A",
         spinup: 5,
         thermload: 720,
-        symbol: "Int_ShieldCellBank_Size7_Class5"
+        symbol: "Int_ShieldCellBank_Size7_Class5",
+        ukName: "Shield Cell Bank",
+        ukDiscript: "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
       }, {
         ammo: 5,
         ammocost: 300,
@@ -17278,7 +18438,9 @@ module.exports = {
         rechargerating: "C",
         spinup: 5,
         thermload: 800,
-        symbol: "Int_ShieldCellBank_Size8_Class1"
+        symbol: "Int_ShieldCellBank_Size8_Class1",
+        ukName: "Shield Cell Bank",
+        ukDiscript: "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
       }, {
         ammo: 3,
         ammocost: 300,
@@ -17299,7 +18461,9 @@ module.exports = {
         rechargerating: "D",
         spinup: 5,
         thermload: 800,
-        symbol: "Int_ShieldCellBank_Size8_Class2"
+        symbol: "Int_ShieldCellBank_Size8_Class2",
+        ukName: "Shield Cell Bank",
+        ukDiscript: "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
       }, {
         ammo: 4,
         ammocost: 300,
@@ -17320,7 +18484,9 @@ module.exports = {
         rechargerating: "C",
         spinup: 5,
         thermload: 800,
-        symbol: "Int_ShieldCellBank_Size8_Class3"
+        symbol: "Int_ShieldCellBank_Size8_Class3",
+        ukName: "Shield Cell Bank",
+        ukDiscript: "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
       }, {
         ammo: 5,
         ammocost: 300,
@@ -17341,7 +18507,9 @@ module.exports = {
         rechargerating: "B",
         spinup: 5,
         thermload: 800,
-        symbol: "Int_ShieldCellBank_Size8_Class4"
+        symbol: "Int_ShieldCellBank_Size8_Class4",
+        ukName: "Shield Cell Bank",
+        ukDiscript: "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
       }, {
         ammo: 4,
         ammocost: 300,
@@ -17362,7 +18530,9 @@ module.exports = {
         rechargerating: "A",
         spinup: 5,
         thermload: 800,
-        symbol: "Int_ShieldCellBank_Size8_Class5"
+        symbol: "Int_ShieldCellBank_Size8_Class5",
+        ukName: "Shield Cell Bank",
+        ukDiscript: "Device that uses pre-charged cells to rapidly repair active shields. No effect on collapsed shields."
       } ],
       sg: [ {
         brokenregen: 1.6,
@@ -17387,7 +18557,9 @@ module.exports = {
         rating: "A",
         regen: 1,
         thermres: -.2,
-        symbol: "Int_ShieldGenerator_Size1_Class5"
+        symbol: "Int_ShieldGenerator_Size1_Class5",
+        ukName: "Shield Generator",
+        ukDiscript: "Forms a continually regenerating protective energy shield around the vessel."
       }, {
         brokenregen: 1.6,
         class: 2,
@@ -17411,7 +18583,9 @@ module.exports = {
         rating: "E",
         regen: 1,
         thermres: -.2,
-        symbol: "Int_ShieldGenerator_Size2_Class1"
+        symbol: "Int_ShieldGenerator_Size2_Class1",
+        ukName: "Shield Generator",
+        ukDiscript: "Forms a continually regenerating protective energy shield around the vessel."
       }, {
         brokenregen: 1.6,
         class: 2,
@@ -17435,7 +18609,9 @@ module.exports = {
         rating: "D",
         regen: 1,
         thermres: -.2,
-        symbol: "Int_ShieldGenerator_Size2_Class2"
+        symbol: "Int_ShieldGenerator_Size2_Class2",
+        ukName: "Shield Generator",
+        ukDiscript: "Forms a continually regenerating protective energy shield around the vessel."
       }, {
         brokenregen: 1.6,
         class: 2,
@@ -17459,7 +18635,9 @@ module.exports = {
         rating: "C",
         regen: 1,
         thermres: -.2,
-        symbol: "Int_ShieldGenerator_Size2_Class3"
+        symbol: "Int_ShieldGenerator_Size2_Class3",
+        ukName: "Shield Generator",
+        ukDiscript: "Forms a continually regenerating protective energy shield around the vessel."
       }, {
         brokenregen: 1.6,
         class: 2,
@@ -17483,7 +18661,9 @@ module.exports = {
         rating: "B",
         regen: 1,
         thermres: -.2,
-        symbol: "Int_ShieldGenerator_Size2_Class4"
+        symbol: "Int_ShieldGenerator_Size2_Class4",
+        ukName: "Shield Generator",
+        ukDiscript: "Forms a continually regenerating protective energy shield around the vessel."
       }, {
         brokenregen: 1.6,
         class: 2,
@@ -17507,7 +18687,9 @@ module.exports = {
         rating: "A",
         regen: 1,
         thermres: -.2,
-        symbol: "Int_ShieldGenerator_Size2_Class5"
+        symbol: "Int_ShieldGenerator_Size2_Class5",
+        ukName: "Shield Generator",
+        ukDiscript: "Forms a continually regenerating protective energy shield around the vessel."
       }, {
         brokenregen: 1.9,
         class: 3,
@@ -17531,7 +18713,9 @@ module.exports = {
         rating: "E",
         regen: 1,
         thermres: -.2,
-        symbol: "Int_ShieldGenerator_Size3_Class1"
+        symbol: "Int_ShieldGenerator_Size3_Class1",
+        ukName: "Shield Generator",
+        ukDiscript: "Forms a continually regenerating protective energy shield around the vessel."
       }, {
         brokenregen: 1.9,
         class: 3,
@@ -17555,7 +18739,9 @@ module.exports = {
         rating: "D",
         regen: 1,
         thermres: -.2,
-        symbol: "Int_ShieldGenerator_Size3_Class2"
+        symbol: "Int_ShieldGenerator_Size3_Class2",
+        ukName: "Shield Generator",
+        ukDiscript: "Forms a continually regenerating protective energy shield around the vessel."
       }, {
         brokenregen: 1.9,
         class: 3,
@@ -17579,7 +18765,9 @@ module.exports = {
         rating: "C",
         regen: 1,
         thermres: -.2,
-        symbol: "Int_ShieldGenerator_Size3_Class3"
+        symbol: "Int_ShieldGenerator_Size3_Class3",
+        ukName: "Shield Generator",
+        ukDiscript: "Forms a continually regenerating protective energy shield around the vessel."
       }, {
         brokenregen: 1.9,
         class: 3,
@@ -17603,7 +18791,9 @@ module.exports = {
         rating: "B",
         regen: 1,
         thermres: -.2,
-        symbol: "Int_ShieldGenerator_Size3_Class4"
+        symbol: "Int_ShieldGenerator_Size3_Class4",
+        ukName: "Shield Generator",
+        ukDiscript: "Forms a continually regenerating protective energy shield around the vessel."
       }, {
         brokenregen: 1.9,
         class: 3,
@@ -17627,7 +18817,9 @@ module.exports = {
         rating: "A",
         regen: 1,
         thermres: -.2,
-        symbol: "Int_ShieldGenerator_Size3_Class5"
+        symbol: "Int_ShieldGenerator_Size3_Class5",
+        ukName: "Shield Generator",
+        ukDiscript: "Forms a continually regenerating protective energy shield around the vessel."
       }, {
         brokenregen: 2.5,
         class: 4,
@@ -17651,7 +18843,9 @@ module.exports = {
         rating: "E",
         regen: 1,
         thermres: -.2,
-        symbol: "Int_ShieldGenerator_Size4_Class1"
+        symbol: "Int_ShieldGenerator_Size4_Class1",
+        ukName: "Shield Generator",
+        ukDiscript: "Forms a continually regenerating protective energy shield around the vessel."
       }, {
         brokenregen: 2.5,
         class: 4,
@@ -17675,7 +18869,9 @@ module.exports = {
         rating: "D",
         regen: 1,
         thermres: -.2,
-        symbol: "Int_ShieldGenerator_Size4_Class2"
+        symbol: "Int_ShieldGenerator_Size4_Class2",
+        ukName: "Shield Generator",
+        ukDiscript: "Forms a continually regenerating protective energy shield around the vessel."
       }, {
         brokenregen: 2.5,
         class: 4,
@@ -17699,7 +18895,9 @@ module.exports = {
         rating: "C",
         regen: 1,
         thermres: -.2,
-        symbol: "Int_ShieldGenerator_Size4_Class3"
+        symbol: "Int_ShieldGenerator_Size4_Class3",
+        ukName: "Shield Generator",
+        ukDiscript: "Forms a continually regenerating protective energy shield around the vessel."
       }, {
         brokenregen: 2.5,
         class: 4,
@@ -17723,7 +18921,9 @@ module.exports = {
         rating: "B",
         regen: 1,
         thermres: -.2,
-        symbol: "Int_ShieldGenerator_Size4_Class4"
+        symbol: "Int_ShieldGenerator_Size4_Class4",
+        ukName: "Shield Generator",
+        ukDiscript: "Forms a continually regenerating protective energy shield around the vessel."
       }, {
         brokenregen: 2.5,
         class: 4,
@@ -17747,7 +18947,9 @@ module.exports = {
         rating: "A",
         regen: 1,
         thermres: -.2,
-        symbol: "Int_ShieldGenerator_Size4_Class5"
+        symbol: "Int_ShieldGenerator_Size4_Class5",
+        ukName: "Shield Generator",
+        ukDiscript: "Forms a continually regenerating protective energy shield around the vessel."
       }, {
         brokenregen: 3.7,
         class: 5,
@@ -17771,7 +18973,9 @@ module.exports = {
         rating: "E",
         regen: 1,
         thermres: -.2,
-        symbol: "Int_ShieldGenerator_Size5_Class1"
+        symbol: "Int_ShieldGenerator_Size5_Class1",
+        ukName: "Shield Generator",
+        ukDiscript: "Forms a continually regenerating protective energy shield around the vessel."
       }, {
         brokenregen: 3.7,
         class: 5,
@@ -17795,7 +18999,9 @@ module.exports = {
         rating: "D",
         regen: 1,
         thermres: -.2,
-        symbol: "Int_ShieldGenerator_Size5_Class2"
+        symbol: "Int_ShieldGenerator_Size5_Class2",
+        ukName: "Shield Generator",
+        ukDiscript: "Forms a continually regenerating protective energy shield around the vessel."
       }, {
         brokenregen: 3.7,
         class: 5,
@@ -17819,7 +19025,9 @@ module.exports = {
         rating: "C",
         regen: 1,
         thermres: -.2,
-        symbol: "Int_ShieldGenerator_Size5_Class3"
+        symbol: "Int_ShieldGenerator_Size5_Class3",
+        ukName: "Shield Generator",
+        ukDiscript: "Forms a continually regenerating protective energy shield around the vessel."
       }, {
         brokenregen: 3.7,
         class: 5,
@@ -17843,7 +19051,9 @@ module.exports = {
         rating: "B",
         regen: 1,
         thermres: -.2,
-        symbol: "Int_ShieldGenerator_Size5_Class4"
+        symbol: "Int_ShieldGenerator_Size5_Class4",
+        ukName: "Shield Generator",
+        ukDiscript: "Forms a continually regenerating protective energy shield around the vessel."
       }, {
         brokenregen: 3.7,
         class: 5,
@@ -17867,7 +19077,9 @@ module.exports = {
         rating: "A",
         regen: 1,
         thermres: -.2,
-        symbol: "Int_ShieldGenerator_Size5_Class5"
+        symbol: "Int_ShieldGenerator_Size5_Class5",
+        ukName: "Shield Generator",
+        ukDiscript: "Forms a continually regenerating protective energy shield around the vessel."
       }, {
         brokenregen: 5.3,
         class: 6,
@@ -17891,7 +19103,9 @@ module.exports = {
         rating: "E",
         regen: 1.3,
         thermres: -.2,
-        symbol: "Int_ShieldGenerator_Size6_Class1"
+        symbol: "Int_ShieldGenerator_Size6_Class1",
+        ukName: "Shield Generator",
+        ukDiscript: "Forms a continually regenerating protective energy shield around the vessel."
       }, {
         brokenregen: 5.3,
         class: 6,
@@ -17915,7 +19129,9 @@ module.exports = {
         rating: "D",
         regen: 1.3,
         thermres: -.2,
-        symbol: "Int_ShieldGenerator_Size6_Class2"
+        symbol: "Int_ShieldGenerator_Size6_Class2",
+        ukName: "Shield Generator",
+        ukDiscript: "Forms a continually regenerating protective energy shield around the vessel."
       }, {
         brokenregen: 5.3,
         class: 6,
@@ -17939,7 +19155,9 @@ module.exports = {
         rating: "C",
         regen: 1.3,
         thermres: -.2,
-        symbol: "Int_ShieldGenerator_Size6_Class3"
+        symbol: "Int_ShieldGenerator_Size6_Class3",
+        ukName: "Shield Generator",
+        ukDiscript: "Forms a continually regenerating protective energy shield around the vessel."
       }, {
         brokenregen: 5.3,
         class: 6,
@@ -17963,7 +19181,9 @@ module.exports = {
         rating: "B",
         regen: 1.3,
         thermres: -.2,
-        symbol: "Int_ShieldGenerator_Size6_Class4"
+        symbol: "Int_ShieldGenerator_Size6_Class4",
+        ukName: "Shield Generator",
+        ukDiscript: "Forms a continually regenerating protective energy shield around the vessel."
       }, {
         brokenregen: 5.3,
         class: 6,
@@ -17987,7 +19207,9 @@ module.exports = {
         rating: "A",
         regen: 1.3,
         thermres: -.2,
-        symbol: "Int_ShieldGenerator_Size6_Class5"
+        symbol: "Int_ShieldGenerator_Size6_Class5",
+        ukName: "Shield Generator",
+        ukDiscript: "Forms a continually regenerating protective energy shield around the vessel."
       }, {
         brokenregen: 7.3,
         class: 7,
@@ -18011,7 +19233,9 @@ module.exports = {
         rating: "E",
         regen: 1.8,
         thermres: -.2,
-        symbol: "Int_ShieldGenerator_Size7_Class1"
+        symbol: "Int_ShieldGenerator_Size7_Class1",
+        ukName: "Shield Generator",
+        ukDiscript: "Forms a continually regenerating protective energy shield around the vessel."
       }, {
         brokenregen: 7.3,
         class: 7,
@@ -18035,7 +19259,9 @@ module.exports = {
         rating: "D",
         regen: 1.8,
         thermres: -.2,
-        symbol: "Int_ShieldGenerator_Size7_Class2"
+        symbol: "Int_ShieldGenerator_Size7_Class2",
+        ukName: "Shield Generator",
+        ukDiscript: "Forms a continually regenerating protective energy shield around the vessel."
       }, {
         brokenregen: 7.3,
         class: 7,
@@ -18059,7 +19285,9 @@ module.exports = {
         rating: "C",
         regen: 1.8,
         thermres: -.2,
-        symbol: "Int_ShieldGenerator_Size7_Class3"
+        symbol: "Int_ShieldGenerator_Size7_Class3",
+        ukName: "Shield Generator",
+        ukDiscript: "Forms a continually regenerating protective energy shield around the vessel."
       }, {
         brokenregen: 7.3,
         class: 7,
@@ -18083,7 +19311,9 @@ module.exports = {
         rating: "B",
         regen: 1.8,
         thermres: -.2,
-        symbol: "Int_ShieldGenerator_Size7_Class4"
+        symbol: "Int_ShieldGenerator_Size7_Class4",
+        ukName: "Shield Generator",
+        ukDiscript: "Forms a continually regenerating protective energy shield around the vessel."
       }, {
         brokenregen: 7.3,
         class: 7,
@@ -18107,7 +19337,9 @@ module.exports = {
         rating: "A",
         regen: 1.8,
         thermres: -.2,
-        symbol: "Int_ShieldGenerator_Size7_Class5"
+        symbol: "Int_ShieldGenerator_Size7_Class5",
+        ukName: "Shield Generator",
+        ukDiscript: "Forms a continually regenerating protective energy shield around the vessel."
       }, {
         brokenregen: 9.6,
         class: 8,
@@ -18131,7 +19363,9 @@ module.exports = {
         rating: "E",
         regen: 2.4,
         thermres: -.2,
-        symbol: "Int_ShieldGenerator_Size8_Class1"
+        symbol: "Int_ShieldGenerator_Size8_Class1",
+        ukName: "Shield Generator",
+        ukDiscript: "Forms a continually regenerating protective energy shield around the vessel."
       }, {
         brokenregen: 9.6,
         class: 8,
@@ -18155,7 +19389,9 @@ module.exports = {
         rating: "D",
         regen: 2.4,
         thermres: -.2,
-        symbol: "Int_ShieldGenerator_Size8_Class2"
+        symbol: "Int_ShieldGenerator_Size8_Class2",
+        ukName: "Shield Generator",
+        ukDiscript: "Forms a continually regenerating protective energy shield around the vessel."
       }, {
         brokenregen: 9.6,
         class: 8,
@@ -18179,7 +19415,9 @@ module.exports = {
         rating: "C",
         regen: 2.4,
         thermres: -.2,
-        symbol: "Int_ShieldGenerator_Size8_Class3"
+        symbol: "Int_ShieldGenerator_Size8_Class3",
+        ukName: "Shield Generator",
+        ukDiscript: "Forms a continually regenerating protective energy shield around the vessel."
       }, {
         brokenregen: 9.6,
         class: 8,
@@ -18203,7 +19441,9 @@ module.exports = {
         rating: "B",
         regen: 2.4,
         thermres: -.2,
-        symbol: "Int_ShieldGenerator_Size8_Class4"
+        symbol: "Int_ShieldGenerator_Size8_Class4",
+        ukName: "Shield Generator",
+        ukDiscript: "Forms a continually regenerating protective energy shield around the vessel."
       }, {
         brokenregen: 9.6,
         class: 8,
@@ -18227,7 +19467,9 @@ module.exports = {
         rating: "A",
         regen: 2.4,
         thermres: -.2,
-        symbol: "Int_ShieldGenerator_Size8_Class5"
+        symbol: "Int_ShieldGenerator_Size8_Class5",
+        ukName: "Shield Generator",
+        ukDiscript: "Forms a continually regenerating protective energy shield around the vessel."
       } ],
       ss: [ {
         class: 1,
@@ -18240,7 +19482,9 @@ module.exports = {
         name: "Detailed Surface Scanner",
         power: 0,
         rating: "C",
-        symbol: "Int_DetailedSurfaceScanner_Tiny"
+        symbol: "Int_DetailedSurfaceScanner_Tiny",
+        ukName: "Surface Scanner",
+        ukDiscript: "Advanced stellar body scanner used during exploration."
       } ],
       rpl: [ {
         class: 1,
@@ -18254,7 +19498,9 @@ module.exports = {
         power: .18,
         range: .6,
         rating: "E",
-        symbol: "Int_DroneControl_Repair_Size1_Class1"
+        symbol: "Int_DroneControl_Repair_Size1_Class1",
+        ukName: "Repair",
+        ukDiscript: "Controls a limpet that repairs an amount of damage to the hull of a targeted ship."
       }, {
         class: 1,
         cost: 1200,
@@ -18267,7 +19513,9 @@ module.exports = {
         power: .14,
         range: .8,
         rating: "D",
-        symbol: "Int_DroneControl_Repair_Size1_Class2"
+        symbol: "Int_DroneControl_Repair_Size1_Class2",
+        ukName: "Repair",
+        ukDiscript: "Controls a limpet that repairs an amount of damage to the hull of a targeted ship."
       }, {
         class: 1,
         cost: 2400,
@@ -18280,7 +19528,9 @@ module.exports = {
         power: .23,
         range: 1,
         rating: "C",
-        symbol: "Int_DroneControl_Repair_Size1_Class3"
+        symbol: "Int_DroneControl_Repair_Size1_Class3",
+        ukName: "Repair",
+        ukDiscript: "Controls a limpet that repairs an amount of damage to the hull of a targeted ship."
       }, {
         class: 1,
         cost: 4800,
@@ -18293,7 +19543,9 @@ module.exports = {
         power: .32,
         range: 1.2,
         rating: "B",
-        symbol: "Int_DroneControl_Repair_Size1_Class4"
+        symbol: "Int_DroneControl_Repair_Size1_Class4",
+        ukName: "Repair",
+        ukDiscript: "Controls a limpet that repairs an amount of damage to the hull of a targeted ship."
       }, {
         class: 1,
         cost: 9600,
@@ -18306,7 +19558,9 @@ module.exports = {
         power: .28,
         range: 1.4,
         rating: "A",
-        symbol: "Int_DroneControl_Repair_Size1_Class5"
+        symbol: "Int_DroneControl_Repair_Size1_Class5",
+        ukName: "Repair",
+        ukDiscript: "Controls a limpet that repairs an amount of damage to the hull of a targeted ship."
       }, {
         class: 3,
         cost: 5400,
@@ -18319,7 +19573,9 @@ module.exports = {
         power: .27,
         range: .66,
         rating: "E",
-        symbol: "Int_DroneControl_Repair_Size3_Class1"
+        symbol: "Int_DroneControl_Repair_Size3_Class1",
+        ukName: "Repair",
+        ukDiscript: "Controls a limpet that repairs an amount of damage to the hull of a targeted ship."
       }, {
         class: 3,
         cost: 10800,
@@ -18332,7 +19588,9 @@ module.exports = {
         power: .2,
         range: .88,
         rating: "D",
-        symbol: "Int_DroneControl_Repair_Size3_Class2"
+        symbol: "Int_DroneControl_Repair_Size3_Class2",
+        ukName: "Repair",
+        ukDiscript: "Controls a limpet that repairs an amount of damage to the hull of a targeted ship."
       }, {
         class: 3,
         cost: 21600,
@@ -18345,7 +19603,9 @@ module.exports = {
         power: .34,
         range: 1.1,
         rating: "C",
-        symbol: "Int_DroneControl_Repair_Size3_Class3"
+        symbol: "Int_DroneControl_Repair_Size3_Class3",
+        ukName: "Repair",
+        ukDiscript: "Controls a limpet that repairs an amount of damage to the hull of a targeted ship."
       }, {
         class: 3,
         cost: 43200,
@@ -18358,7 +19618,9 @@ module.exports = {
         power: .48,
         range: 1.32,
         rating: "B",
-        symbol: "Int_DroneControl_Repair_Size3_Class4"
+        symbol: "Int_DroneControl_Repair_Size3_Class4",
+        ukName: "Repair",
+        ukDiscript: "Controls a limpet that repairs an amount of damage to the hull of a targeted ship."
       }, {
         class: 3,
         cost: 86400,
@@ -18371,7 +19633,9 @@ module.exports = {
         power: .41,
         range: 1.54,
         rating: "A",
-        symbol: "Int_DroneControl_Repair_Size3_Class5"
+        symbol: "Int_DroneControl_Repair_Size3_Class5",
+        ukName: "Repair",
+        ukDiscript: "Controls a limpet that repairs an amount of damage to the hull of a targeted ship."
       }, {
         class: 5,
         cost: 48600,
@@ -18384,7 +19648,9 @@ module.exports = {
         power: .4,
         range: .78,
         rating: "E",
-        symbol: "Int_DroneControl_Repair_Size5_Class1"
+        symbol: "Int_DroneControl_Repair_Size5_Class1",
+        ukName: "Repair",
+        ukDiscript: "Controls a limpet that repairs an amount of damage to the hull of a targeted ship."
       }, {
         class: 5,
         cost: 97200,
@@ -18397,7 +19663,9 @@ module.exports = {
         power: .3,
         range: 1.04,
         rating: "D",
-        symbol: "Int_DroneControl_Repair_Size5_Class2"
+        symbol: "Int_DroneControl_Repair_Size5_Class2",
+        ukName: "Repair",
+        ukDiscript: "Controls a limpet that repairs an amount of damage to the hull of a targeted ship."
       }, {
         class: 5,
         cost: 194400,
@@ -18410,7 +19678,9 @@ module.exports = {
         power: .5,
         range: 1.3,
         rating: "C",
-        symbol: "Int_DroneControl_Repair_Size5_Class3"
+        symbol: "Int_DroneControl_Repair_Size5_Class3",
+        ukName: "Repair",
+        ukDiscript: "Controls a limpet that repairs an amount of damage to the hull of a targeted ship."
       }, {
         class: 5,
         cost: 388800,
@@ -18423,7 +19693,9 @@ module.exports = {
         power: .97,
         range: 1.56,
         rating: "B",
-        symbol: "Int_DroneControl_Repair_Size5_Class4"
+        symbol: "Int_DroneControl_Repair_Size5_Class4",
+        ukName: "Repair",
+        ukDiscript: "Controls a limpet that repairs an amount of damage to the hull of a targeted ship."
       }, {
         class: 5,
         cost: 777600,
@@ -18436,7 +19708,9 @@ module.exports = {
         power: .6,
         range: 1.82,
         rating: "A",
-        symbol: "Int_DroneControl_Repair_Size5_Class5"
+        symbol: "Int_DroneControl_Repair_Size5_Class5",
+        ukName: "Repair",
+        ukDiscript: "Controls a limpet that repairs an amount of damage to the hull of a targeted ship."
       }, {
         class: 7,
         cost: 437400,
@@ -18449,7 +19723,9 @@ module.exports = {
         power: .55,
         range: 1.02,
         rating: "E",
-        symbol: "Int_DroneControl_Repair_Size7_Class1"
+        symbol: "Int_DroneControl_Repair_Size7_Class1",
+        ukName: "Repair",
+        ukDiscript: "Controls a limpet that repairs an amount of damage to the hull of a targeted ship."
       }, {
         class: 7,
         cost: 874800,
@@ -18462,7 +19738,9 @@ module.exports = {
         power: .41,
         range: 1.36,
         rating: "D",
-        symbol: "Int_DroneControl_Repair_Size7_Class2"
+        symbol: "Int_DroneControl_Repair_Size7_Class2",
+        ukName: "Repair",
+        ukDiscript: "Controls a limpet that repairs an amount of damage to the hull of a targeted ship."
       }, {
         class: 7,
         cost: 1749600,
@@ -18475,7 +19753,9 @@ module.exports = {
         power: .69,
         range: 1.7,
         rating: "C",
-        symbol: "Int_DroneControl_Repair_Size7_Class3"
+        symbol: "Int_DroneControl_Repair_Size7_Class3",
+        ukName: "Repair",
+        ukDiscript: "Controls a limpet that repairs an amount of damage to the hull of a targeted ship."
       }, {
         class: 7,
         cost: 3499200,
@@ -18488,7 +19768,9 @@ module.exports = {
         power: .97,
         range: 2.04,
         rating: "B",
-        symbol: "Int_DroneControl_Repair_Size7_Class4"
+        symbol: "Int_DroneControl_Repair_Size7_Class4",
+        ukName: "Repair",
+        ukDiscript: "Controls a limpet that repairs an amount of damage to the hull of a targeted ship."
       }, {
         class: 7,
         cost: 6998400,
@@ -18501,7 +19783,9 @@ module.exports = {
         power: .83,
         range: 2.38,
         rating: "A",
-        symbol: "Int_DroneControl_Repair_Size7_Class5"
+        symbol: "Int_DroneControl_Repair_Size7_Class5",
+        ukName: "Repair",
+        ukDiscript: "Controls a limpet that repairs an amount of damage to the hull of a targeted ship."
       } ],
       rcpl: [ {
         class: 1,
@@ -18517,7 +19801,9 @@ module.exports = {
         rating: "E",
         integrity: 24,
         hacktime: 22,
-        symbol: "Int_DroneControl_Recon_Size1_Class1"
+        symbol: "Int_DroneControl_Recon_Size1_Class1",
+        ukName: "Recon",
+        ukDiscript: "Controls a limpet that can hack into data points."
       }, {
         class: 3,
         cost: 8200,
@@ -18532,7 +19818,9 @@ module.exports = {
         rating: "E",
         integrity: 51,
         hacktime: 17,
-        symbol: "Int_DroneControl_Recon_Size3_Class1"
+        symbol: "Int_DroneControl_Recon_Size3_Class1",
+        ukName: "Recon",
+        ukDiscript: "Controls a limpet that can hack into data points."
       }, {
         class: 5,
         cost: 75800,
@@ -18547,7 +19835,9 @@ module.exports = {
         rating: "E",
         integrity: 96,
         hacktime: 13,
-        symbol: "Int_DroneControl_Recon_Size5_Class1"
+        symbol: "Int_DroneControl_Recon_Size5_Class1",
+        ukName: "Recon",
+        ukDiscript: "Controls a limpet that can hack into data points."
       }, {
         class: 7,
         cost: 612200,
@@ -18562,7 +19852,9 @@ module.exports = {
         rating: "E",
         integrity: 157,
         hacktime: 10,
-        symbol: "Int_DroneControl_Recon_Size7_Class1"
+        symbol: "Int_DroneControl_Recon_Size7_Class1",
+        ukName: "Recon",
+        ukDiscript: "Controls a limpet that can hack into data points."
       } ],
       rsl: [ {
         rating: "E",
@@ -18592,7 +19884,9 @@ module.exports = {
         id: "0Z",
         mass: 2,
         rating: "E",
-        symbol: "Int_GuardianShieldReinforcement_Size1_Class1"
+        symbol: "Int_GuardianShieldReinforcement_Size1_Class1",
+        ukName: "Guardian Shield Reinforcement",
+        ukDiscript: ""
       }, {
         shieldaddition: 61,
         integrity: 36,
@@ -18605,7 +19899,9 @@ module.exports = {
         id: "0y",
         mass: 1,
         rating: "D",
-        symbol: "Int_GuardianShieldReinforcement_Size1_Class2"
+        symbol: "Int_GuardianShieldReinforcement_Size1_Class2",
+        ukName: "Guardian Shield Reinforcement",
+        ukDiscript: ""
       }, {
         shieldaddition: 83,
         integrity: 36,
@@ -18618,7 +19914,9 @@ module.exports = {
         id: "0z",
         mass: 4,
         rating: "E",
-        symbol: "Int_GuardianShieldReinforcement_Size2_Class1"
+        symbol: "Int_GuardianShieldReinforcement_Size2_Class1",
+        ukName: "Guardian Shield Reinforcement",
+        ukDiscript: ""
       }, {
         shieldaddition: 105,
         integrity: 36,
@@ -18631,7 +19929,9 @@ module.exports = {
         id: "1E",
         mass: 2,
         rating: "D",
-        symbol: "Int_GuardianShieldReinforcement_Size2_Class2"
+        symbol: "Int_GuardianShieldReinforcement_Size2_Class2",
+        ukName: "Guardian Shield Reinforcement",
+        ukDiscript: ""
       }, {
         shieldaddition: 143,
         integrity: 36,
@@ -18644,7 +19944,9 @@ module.exports = {
         id: "1F",
         mass: 4,
         rating: "D",
-        symbol: "Int_GuardianShieldReinforcement_Size3_Class2"
+        symbol: "Int_GuardianShieldReinforcement_Size3_Class2",
+        ukName: "Guardian Shield Reinforcement",
+        ukDiscript: ""
       }, {
         shieldaddition: 127,
         integrity: 36,
@@ -18657,7 +19959,9 @@ module.exports = {
         id: "1G",
         mass: 8,
         rating: "E",
-        symbol: "Int_GuardianShieldReinforcement_Size3_Class1"
+        symbol: "Int_GuardianShieldReinforcement_Size3_Class1",
+        ukName: "Guardian Shield Reinforcement",
+        ukDiscript: ""
       }, {
         shieldaddition: 165,
         integrity: 36,
@@ -18670,7 +19974,9 @@ module.exports = {
         id: "1I",
         mass: 16,
         rating: "E",
-        symbol: "Int_GuardianShieldReinforcement_Size4_Class1"
+        symbol: "Int_GuardianShieldReinforcement_Size4_Class1",
+        ukName: "Guardian Shield Reinforcement",
+        ukDiscript: ""
       }, {
         shieldaddition: 182,
         integrity: 36,
@@ -18683,7 +19989,9 @@ module.exports = {
         id: "1J",
         mass: 8,
         rating: "D",
-        symbol: "Int_GuardianShieldReinforcement_Size4_Class2"
+        symbol: "Int_GuardianShieldReinforcement_Size4_Class2",
+        ukName: "Guardian Shield Reinforcement",
+        ukDiscript: ""
       }, {
         shieldaddition: 215,
         integrity: 36,
@@ -18696,7 +20004,9 @@ module.exports = {
         id: "1K",
         mass: 16,
         rating: "D",
-        symbol: "Int_GuardianShieldReinforcement_Size5_Class2"
+        symbol: "Int_GuardianShieldReinforcement_Size5_Class2",
+        ukName: "Guardian Shield Reinforcement",
+        ukDiscript: ""
       }, {
         shieldaddition: 198,
         integrity: 36,
@@ -18709,7 +20019,9 @@ module.exports = {
         id: "1L",
         mass: 32,
         rating: "E",
-        symbol: "Int_GuardianShieldReinforcement_Size5_Class1"
+        symbol: "Int_GuardianShieldReinforcement_Size5_Class1",
+        ukName: "Guardian Shield Reinforcement",
+        ukDiscript: ""
       } ],
       gfsb: [ {
         jumpboost: 4,
@@ -18723,7 +20035,9 @@ module.exports = {
         id: "1H",
         mass: 1.3,
         rating: "H",
-        symbol: "Int_GuardianFSDBooster_Size1"
+        symbol: "Int_GuardianFSDBooster_Size1",
+        ukName: "Guardian FSD Booster",
+        ukDiscript: "Used to boost the output of Frame Shift Drives, but at the cost of overall fuel efficiency."
       }, {
         jumpboost: 6,
         integrity: 32,
@@ -18736,7 +20050,9 @@ module.exports = {
         id: "1M",
         mass: 1.3,
         rating: "H",
-        symbol: "Int_GuardianFSDBooster_Size2"
+        symbol: "Int_GuardianFSDBooster_Size2",
+        ukName: "Guardian FSD Booster",
+        ukDiscript: "Used to boost the output of Frame Shift Drives, but at the cost of overall fuel efficiency."
       }, {
         jumpboost: 7.75,
         integrity: 32,
@@ -18749,7 +20065,9 @@ module.exports = {
         id: "1N",
         mass: 1.3,
         rating: "H",
-        symbol: "Int_GuardianFSDBooster_Size3"
+        symbol: "Int_GuardianFSDBooster_Size3",
+        ukName: "Guardian FSD Booster",
+        ukDiscript: "Used to boost the output of Frame Shift Drives, but at the cost of overall fuel efficiency."
       }, {
         jumpboost: 9.25,
         integrity: 32,
@@ -18762,7 +20080,9 @@ module.exports = {
         id: "1P",
         mass: 1.3,
         rating: "H",
-        symbol: "Int_GuardianFSDBooster_Size4"
+        symbol: "Int_GuardianFSDBooster_Size4",
+        ukName: "Guardian FSD Booster",
+        ukDiscript: "Used to boost the output of Frame Shift Drives, but at the cost of overall fuel efficiency."
       }, {
         jumpboost: 10.5,
         integrity: 32,
@@ -18775,7 +20095,9 @@ module.exports = {
         id: "1O",
         mass: 1.3,
         rating: "H",
-        symbol: "Int_GuardianFSDBooster_Size5"
+        symbol: "Int_GuardianFSDBooster_Size5",
+        ukName: "Guardian FSD Booster",
+        ukDiscript: "Used to boost the output of Frame Shift Drives, but at the cost of overall fuel efficiency."
       } ],
       ghrp: [ {
         rating: "D",
@@ -18792,7 +20114,9 @@ module.exports = {
         thermres: .02,
         cost: 3e4,
         symbol: "Int_GuardianHullReinforcement_Size1_Class2",
-        grp: "ghrp"
+        grp: "ghrp",
+        ukName: "Guardian Hull Reinforcement",
+        ukDiscript: "Powered module that increases the ship's hull integrity and resistance to Thargoid, caustic and thermic damage."
       }, {
         rating: "E",
         class: "1",
@@ -18808,7 +20132,9 @@ module.exports = {
         thermres: .02,
         cost: 1e4,
         symbol: "Int_GuardianHullReinforcement_Size1_Class1",
-        grp: "ghrp"
+        grp: "ghrp",
+        ukName: "Guardian Hull Reinforcement",
+        ukDiscript: "Powered module that increases the ship's hull integrity and resistance to Thargoid, caustic and thermic damage."
       }, {
         rating: "D",
         class: "2",
@@ -18824,7 +20150,9 @@ module.exports = {
         thermres: .02,
         cost: 72e3,
         symbol: "Int_GuardianHullReinforcement_Size2_Class2",
-        grp: "ghrp"
+        grp: "ghrp",
+        ukName: "Guardian Hull Reinforcement",
+        ukDiscript: "Powered module that increases the ship's hull integrity and resistance to Thargoid, caustic and thermic damage."
       }, {
         rating: "E",
         class: "2",
@@ -18840,7 +20168,9 @@ module.exports = {
         thermres: .02,
         cost: 24e3,
         symbol: "Int_GuardianHullReinforcement_Size2_Class1",
-        grp: "ghrp"
+        grp: "ghrp",
+        ukName: "Guardian Hull Reinforcement",
+        ukDiscript: "Powered module that increases the ship's hull integrity and resistance to Thargoid, caustic and thermic damage."
       }, {
         rating: "D",
         class: "3",
@@ -18856,7 +20186,9 @@ module.exports = {
         thermres: .02,
         cost: 172800,
         symbol: "Int_GuardianHullReinforcement_Size3_Class2",
-        grp: "ghrp"
+        grp: "ghrp",
+        ukName: "Guardian Hull Reinforcement",
+        ukDiscript: "Powered module that increases the ship's hull integrity and resistance to Thargoid, caustic and thermic damage."
       }, {
         rating: "E",
         class: "3",
@@ -18872,7 +20204,9 @@ module.exports = {
         thermres: .02,
         cost: 57600,
         symbol: "Int_GuardianHullReinforcement_Size3_Class1",
-        grp: "ghrp"
+        grp: "ghrp",
+        ukName: "Guardian Hull Reinforcement",
+        ukDiscript: "Powered module that increases the ship's hull integrity and resistance to Thargoid, caustic and thermic damage."
       }, {
         rating: "D",
         class: "4",
@@ -18888,7 +20222,9 @@ module.exports = {
         cost: 414720,
         id: "2R",
         symbol: "Int_GuardianHullReinforcement_Size4_Class2",
-        grp: "ghrp"
+        grp: "ghrp",
+        ukName: "Guardian Hull Reinforcement",
+        ukDiscript: "Powered module that increases the ship's hull integrity and resistance to Thargoid, caustic and thermic damage."
       }, {
         rating: "E",
         class: "4",
@@ -18904,7 +20240,9 @@ module.exports = {
         cost: 138240,
         id: "2B",
         symbol: "Int_GuardianHullReinforcement_Size4_Class1",
-        grp: "ghrp"
+        grp: "ghrp",
+        ukName: "Guardian Hull Reinforcement",
+        ukDiscript: "Powered module that increases the ship's hull integrity and resistance to Thargoid, caustic and thermic damage."
       }, {
         rating: "D",
         class: "5",
@@ -18920,7 +20258,9 @@ module.exports = {
         cost: 995330,
         id: "2C",
         symbol: "Int_GuardianHullReinforcement_Size5_Class2",
-        grp: "ghrp"
+        grp: "ghrp",
+        ukName: "Guardian Hull Reinforcement",
+        ukDiscript: "Powered module that increases the ship's hull integrity and resistance to Thargoid, caustic and thermic damage."
       }, {
         rating: "E",
         class: "5",
@@ -18936,7 +20276,9 @@ module.exports = {
         cost: 331778,
         id: "2D",
         symbol: "Int_GuardianHullReinforcement_Size5_Class1",
-        grp: "ghrp"
+        grp: "ghrp",
+        ukName: "Guardian Hull Reinforcement",
+        ukDiscript: "Powered module that increases the ship's hull integrity and resistance to Thargoid, caustic and thermic damage."
       } ],
       gmrp: [ {
         rating: "D",
@@ -18950,7 +20292,9 @@ module.exports = {
         id: "2E",
         edID: 128833956,
         symbol: "Int_GuardianModuleReinforcement_Size1_Class2",
-        grp: "gmrp"
+        grp: "gmrp",
+        ukName: "Guardian Module Reinforcement",
+        ukDiscript: "Powered module that protects a ships modules from any weapons fire penetrating the hull. It utilises it's own damage capacity to absorb a proportion of the damage applied to modules, eventually burning out when it's capacity reaches zero. This version is based on Guardian research and has resistances to Thargoid specific disruption technology."
       }, {
         rating: "E",
         class: "1",
@@ -18963,7 +20307,9 @@ module.exports = {
         id: "2F",
         edID: 128833955,
         symbol: "Int_GuardianModuleReinforcement_Size1_Class1",
-        grp: "gmrp"
+        grp: "gmrp",
+        ukName: "Guardian Module Reinforcement",
+        ukDiscript: "Powered module that protects a ships modules from any weapons fire penetrating the hull. It utilises it's own damage capacity to absorb a proportion of the damage applied to modules, eventually burning out when it's capacity reaches zero. This version is based on Guardian research and has resistances to Thargoid specific disruption technology."
       }, {
         rating: "D",
         class: "2",
@@ -18976,7 +20322,9 @@ module.exports = {
         id: "2G",
         edID: 128833958,
         symbol: "Int_GuardianModuleReinforcement_Size2_Class2",
-        grp: "gmrp"
+        grp: "gmrp",
+        ukName: "Guardian Module Reinforcement",
+        ukDiscript: "Powered module that protects a ships modules from any weapons fire penetrating the hull. It utilises it's own damage capacity to absorb a proportion of the damage applied to modules, eventually burning out when it's capacity reaches zero. This version is based on Guardian research and has resistances to Thargoid specific disruption technology."
       }, {
         rating: "E",
         class: "2",
@@ -18989,7 +20337,9 @@ module.exports = {
         id: "2S",
         edID: 128833957,
         symbol: "Int_GuardianModuleReinforcement_Size2_Class1",
-        grp: "gmrp"
+        grp: "gmrp",
+        ukName: "Guardian Module Reinforcement",
+        ukDiscript: "Powered module that protects a ships modules from any weapons fire penetrating the hull. It utilises it's own damage capacity to absorb a proportion of the damage applied to modules, eventually burning out when it's capacity reaches zero. This version is based on Guardian research and has resistances to Thargoid specific disruption technology."
       }, {
         rating: "D",
         class: "3",
@@ -19002,7 +20352,9 @@ module.exports = {
         id: "2H",
         edID: 128833960,
         symbol: "Int_GuardianModuleReinforcement_Size3_Class2",
-        grp: "gmrp"
+        grp: "gmrp",
+        ukName: "Guardian Module Reinforcement",
+        ukDiscript: "Powered module that protects a ships modules from any weapons fire penetrating the hull. It utilises it's own damage capacity to absorb a proportion of the damage applied to modules, eventually burning out when it's capacity reaches zero. This version is based on Guardian research and has resistances to Thargoid specific disruption technology."
       }, {
         rating: "E",
         class: "3",
@@ -19015,7 +20367,9 @@ module.exports = {
         id: "2I",
         edID: 128833959,
         symbol: "Int_GuardianModuleReinforcement_Size3_Class1",
-        grp: "gmrp"
+        grp: "gmrp",
+        ukName: "Guardian Module Reinforcement",
+        ukDiscript: "Powered module that protects a ships modules from any weapons fire penetrating the hull. It utilises it's own damage capacity to absorb a proportion of the damage applied to modules, eventually burning out when it's capacity reaches zero. This version is based on Guardian research and has resistances to Thargoid specific disruption technology."
       }, {
         rating: "D",
         class: "4",
@@ -19028,7 +20382,9 @@ module.exports = {
         id: "2J",
         edID: 128833962,
         symbol: "Int_GuardianModuleReinforcement_Size4_Class2",
-        grp: "gmrp"
+        grp: "gmrp",
+        ukName: "Guardian Module Reinforcement",
+        ukDiscript: "Powered module that protects a ships modules from any weapons fire penetrating the hull. It utilises it's own damage capacity to absorb a proportion of the damage applied to modules, eventually burning out when it's capacity reaches zero. This version is based on Guardian research and has resistances to Thargoid specific disruption technology."
       }, {
         rating: "E",
         class: "4",
@@ -19041,7 +20397,9 @@ module.exports = {
         id: "2K",
         edID: 128833961,
         symbol: "Int_GuardianModuleReinforcement_Size4_Class1",
-        grp: "gmrp"
+        grp: "gmrp",
+        ukName: "Guardian Module Reinforcement",
+        ukDiscript: "Powered module that protects a ships modules from any weapons fire penetrating the hull. It utilises it's own damage capacity to absorb a proportion of the damage applied to modules, eventually burning out when it's capacity reaches zero. This version is based on Guardian research and has resistances to Thargoid specific disruption technology."
       }, {
         rating: "D",
         class: "5",
@@ -19054,7 +20412,9 @@ module.exports = {
         id: "2L",
         edID: 128833964,
         symbol: "Int_GuardianModuleReinforcement_Size5_Class2",
-        grp: "gmrp"
+        grp: "gmrp",
+        ukName: "Guardian Module Reinforcement",
+        ukDiscript: "Powered module that protects a ships modules from any weapons fire penetrating the hull. It utilises it's own damage capacity to absorb a proportion of the damage applied to modules, eventually burning out when it's capacity reaches zero. This version is based on Guardian research and has resistances to Thargoid specific disruption technology."
       }, {
         rating: "E",
         class: "5",
@@ -19067,7 +20427,9 @@ module.exports = {
         id: "2M",
         edID: 128833963,
         symbol: "Int_GuardianModuleReinforcement_Size5_Class1",
-        grp: "gmrp"
+        grp: "gmrp",
+        ukName: "Guardian Module Reinforcement",
+        ukDiscript: "Powered module that protects a ships modules from any weapons fire penetrating the hull. It utilises it's own damage capacity to absorb a proportion of the damage applied to modules, eventually burning out when it's capacity reaches zero. This version is based on Guardian research and has resistances to Thargoid specific disruption technology."
       } ]
     }
   },
