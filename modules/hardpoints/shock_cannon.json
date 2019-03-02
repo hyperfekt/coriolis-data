@@ -106,7 +106,7 @@
       "breachmax": 0.8,
       "breachmin": 0.4,
       "clip": 16,
-      "damage": 14.9,
+      "damage": 10.2,
       "damagedist": {
         "K": 1
       },
