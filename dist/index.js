@@ -96,141 +96,6 @@ module.exports = {
         internal: [ "01", "44", "00", 0, "" ]
       }
     },
-    alliance_chieftain: {
-      edID: 128816574,
-      eddbID: 33,
-      properties: {
-        name: "Alliance Chieftain",
-        manufacturer: "Lakon",
-        class: 2,
-        hullCost: 18182883,
-        speed: 230,
-        boost: 330,
-        boostEnergy: 19,
-        baseShieldStrength: 200,
-        heatCapacity: 289,
-        baseArmour: 280,
-        hardness: 65,
-        hullMass: 400,
-        masslock: 13,
-        pipSpeed: .08695652173913,
-        pitch: 39,
-        roll: 92,
-        yaw: 16,
-        crew: 2
-      },
-      retailCost: 19382252,
-      requirements: {
-        horizons: true
-      },
-      bulkheads: [ {
-        id: "CI",
-        edID: 128816576,
-        eddbID: 1640,
-        grp: "bh",
-        cost: 0,
-        mass: 0,
-        causres: 0,
-        explres: -.4,
-        kinres: -.2,
-        thermres: 0,
-        hullboost: .8
-      }, {
-        id: "CJ",
-        edID: 128816577,
-        eddbID: 1641,
-        grp: "bh",
-        cost: 6803170,
-        mass: 40,
-        causres: 0,
-        explres: -.4,
-        kinres: -.2,
-        thermres: 0,
-        hullboost: 1.52
-      }, {
-        id: "CK",
-        edID: 128816578,
-        eddbID: 1642,
-        grp: "bh",
-        cost: 15307134,
-        mass: 78,
-        causres: 0,
-        explres: -.4,
-        kinres: -.2,
-        thermres: 0,
-        hullboost: 2.5
-      }, {
-        id: "CL",
-        edID: 128816579,
-        eddbID: 1643,
-        grp: "bh",
-        cost: 36175859,
-        mass: 78,
-        causres: 0,
-        explres: -.5,
-        kinres: -.75,
-        thermres: .5,
-        hullboost: 2.5
-      }, {
-        id: "CM",
-        edID: 128816580,
-        eddbID: 1644,
-        grp: "bh",
-        cost: 40087682,
-        mass: 78,
-        causres: 0,
-        explres: .2,
-        kinres: .25,
-        thermres: -.4,
-        hullboost: 2.5
-      } ],
-      slots: {
-        standard: [ 6, 6, 5, 5, 6, 4, 4 ],
-        hardpoints: [ 3, 3, 2, 1, 1, 1, 0, 0, 0, 0 ],
-        internal: [ 6, 5, 4, 2, 2, {
-          class: 4,
-          name: "Military",
-          eligible: {
-            mahr: 1,
-            hr: 1,
-            scb: 1,
-            mrp: 1,
-            gsrp: 1,
-            gmrp: 1,
-            ghrp: 1
-          }
-        }, {
-          class: 4,
-          name: "Military",
-          eligible: {
-            mahr: 1,
-            hr: 1,
-            scb: 1,
-            mrp: 1,
-            gsrp: 1,
-            gmrp: 1,
-            ghrp: 1
-          }
-        }, {
-          class: 4,
-          name: "Military",
-          eligible: {
-            mahr: 1,
-            hr: 1,
-            scb: 1,
-            mrp: 1,
-            gsrp: 1,
-            gmrp: 1,
-            ghrp: 1
-          }
-        } ]
-      },
-      defaults: {
-        standard: [ "6E", "6E", "5E", "5E", "6E", "4E", "4C" ],
-        hardpoints: [ 17, 0, 17, 0, 0, 0, 0, 0, 0, 0 ],
-        internal: [ "04", "4e", "02", "", "", "", "", "" ]
-      }
-    },
     alliance_challenger: {
       edID: 128816588,
       eddbID: 34,
@@ -364,6 +229,141 @@ module.exports = {
         standard: [ "6E", "6E", "5E", "5E", "6E", "4E", "4C" ],
         hardpoints: [ 17, 0, 17, 0, 0, 0, 0, 0, 0, 0 ],
         internal: [ "04", "4h", "01", "01", "", "", "", "", "" ]
+      }
+    },
+    alliance_chieftain: {
+      edID: 128816574,
+      eddbID: 33,
+      properties: {
+        name: "Alliance Chieftain",
+        manufacturer: "Lakon",
+        class: 2,
+        hullCost: 18182883,
+        speed: 230,
+        boost: 330,
+        boostEnergy: 19,
+        baseShieldStrength: 200,
+        heatCapacity: 289,
+        baseArmour: 280,
+        hardness: 65,
+        hullMass: 400,
+        masslock: 13,
+        pipSpeed: .08695652173913,
+        pitch: 39,
+        roll: 92,
+        yaw: 16,
+        crew: 2
+      },
+      retailCost: 19382252,
+      requirements: {
+        horizons: true
+      },
+      bulkheads: [ {
+        id: "CI",
+        edID: 128816576,
+        eddbID: 1640,
+        grp: "bh",
+        cost: 0,
+        mass: 0,
+        causres: 0,
+        explres: -.4,
+        kinres: -.2,
+        thermres: 0,
+        hullboost: .8
+      }, {
+        id: "CJ",
+        edID: 128816577,
+        eddbID: 1641,
+        grp: "bh",
+        cost: 6803170,
+        mass: 40,
+        causres: 0,
+        explres: -.4,
+        kinres: -.2,
+        thermres: 0,
+        hullboost: 1.52
+      }, {
+        id: "CK",
+        edID: 128816578,
+        eddbID: 1642,
+        grp: "bh",
+        cost: 15307134,
+        mass: 78,
+        causres: 0,
+        explres: -.4,
+        kinres: -.2,
+        thermres: 0,
+        hullboost: 2.5
+      }, {
+        id: "CL",
+        edID: 128816579,
+        eddbID: 1643,
+        grp: "bh",
+        cost: 36175859,
+        mass: 78,
+        causres: 0,
+        explres: -.5,
+        kinres: -.75,
+        thermres: .5,
+        hullboost: 2.5
+      }, {
+        id: "CM",
+        edID: 128816580,
+        eddbID: 1644,
+        grp: "bh",
+        cost: 40087682,
+        mass: 78,
+        causres: 0,
+        explres: .2,
+        kinres: .25,
+        thermres: -.4,
+        hullboost: 2.5
+      } ],
+      slots: {
+        standard: [ 6, 6, 5, 5, 6, 4, 4 ],
+        hardpoints: [ 3, 3, 2, 1, 1, 1, 0, 0, 0, 0 ],
+        internal: [ 6, 5, 4, 2, 2, {
+          class: 4,
+          name: "Military",
+          eligible: {
+            mahr: 1,
+            hr: 1,
+            scb: 1,
+            mrp: 1,
+            gsrp: 1,
+            gmrp: 1,
+            ghrp: 1
+          }
+        }, {
+          class: 4,
+          name: "Military",
+          eligible: {
+            mahr: 1,
+            hr: 1,
+            scb: 1,
+            mrp: 1,
+            gsrp: 1,
+            gmrp: 1,
+            ghrp: 1
+          }
+        }, {
+          class: 4,
+          name: "Military",
+          eligible: {
+            mahr: 1,
+            hr: 1,
+            scb: 1,
+            mrp: 1,
+            gsrp: 1,
+            gmrp: 1,
+            ghrp: 1
+          }
+        } ]
+      },
+      defaults: {
+        standard: [ "6E", "6E", "5E", "5E", "6E", "4E", "4C" ],
+        hardpoints: [ 17, 0, 17, 0, 0, 0, 0, 0, 0, 0 ],
+        internal: [ "04", "4e", "02", "", "", "", "", "" ]
       }
     },
     alliance_crusader: {
@@ -12620,7 +12620,7 @@ module.exports = {
         breachmax: .8,
         breachmin: .4,
         clip: 16,
-        damage: 14.9,
+        damage: 10.2,
         damagedist: {
           K: 1
         },
