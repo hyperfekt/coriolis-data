@@ -1,7 +1,7 @@
 module.exports = {
   adder: require('./adder').adder,
-  alliance_chieftain: require('./alliance_chieftain').alliance_chieftain,
   alliance_challenger: require('./alliance_challenger').alliance_challenger,
+  alliance_chieftain: require('./alliance_chieftain').alliance_chieftain,
   alliance_crusader: require('./alliance_crusader').alliance_crusader,
   anaconda: require('./anaconda').anaconda,
   asp: require('./asp').asp,
