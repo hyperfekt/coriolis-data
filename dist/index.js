@@ -26119,6 +26119,20 @@ module.exports = {
               spinup: [ -.2, -.3 ]
             },
             uuid: "f1cc436c-d2f0-4b79-a832-5fafd62ab5d8"
+          },
+          "4": {
+            components: {
+              "Hybrid Capacitors": 1,
+              "Precipitated Alloys": 1,
+              Sulphur: 1
+            },
+            features: {
+              boot: [ .25, .25 ],
+              duration: [ -.24, -.24 ],
+              shieldreinforcement: [ .15, .2 ],
+              spinup: [ -.3, -.4 ]
+            },
+            uuid: "3f4ce660-9aea-4fe3-abe8-00b9408b4a66"
           }
         },
         id: 73,
@@ -26169,6 +26183,21 @@ module.exports = {
               thermload: [ -.12, -.18 ]
             },
             uuid: "0648b687-cf76-4953-a531-7eca944ec325"
+          },
+          "4": {
+            components: {
+              "Conductive Components": 1,
+              "Cracked Industrial Firmware": 1,
+              Yttrium: 1
+            },
+            features: {
+              boot: [ -.24, -.32 ],
+              integrity: [ -.2, -.2 ],
+              power: [ .25, .25 ],
+              shieldreinforcement: [ .08, .1 ],
+              thermload: [ -.18, -.24 ]
+            },
+            uuid: "4766533c-3dff-4871-8c5f-3a1338c88cd2"
           }
         },
         id: 74,
@@ -31399,6 +31428,9 @@ module.exports = {
               },
               "3": {
                 engineers: [ "Lori Jameson" ]
+              },
+              "4": {
+                engineers: [ "Mel Brandon" ]
               }
             }
           },
@@ -31412,6 +31444,9 @@ module.exports = {
               },
               "3": {
                 engineers: [ "Lori Jameson" ]
+              },
+              "4": {
+                engineers: [ "Mel Brandon" ]
               }
             }
           }
