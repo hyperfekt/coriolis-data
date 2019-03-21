@@ -23575,6 +23575,18 @@ module.exports = {
               mass: [ -.65, -.75 ]
             },
             uuid: "b7672f07-e10e-4371-989c-dd49e28c4b79"
+          },
+          "5": {
+            components: {
+              "Conductive Ceramics": 1,
+              "Proto Radiolic Alloys": 1,
+              "Proto Light Alloys": 1
+            },
+            features: {
+              integrity: [ -.5, -.5 ],
+              mass: [ -.75, -.85 ]
+            },
+            uuid: "ec9b7ac2-7a99-4f96-8bf1-061df58dba79"
           }
         },
         id: 49,
@@ -23639,7 +23651,7 @@ module.exports = {
               integrity: [ 2.4, 3 ],
               mass: [ 1.5, 1.5 ]
             },
-            uuid: "dd40a1d9-9c29-424f-8362-0b76f2ef63a5"
+            uuid: "d0ff95ad-123a-4fd0-ae88-c46209068e3a"
           }
         },
         id: 50,
@@ -23691,6 +23703,18 @@ module.exports = {
             features: {
               integrity: [ 1.8, 2.4 ],
               power: [ .8, .8 ]
+            },
+            uuid: "89f25da8-029a-4f3e-828d-393b36f0d7b3"
+          },
+          "5": {
+            components: {
+              Tungsten: 1,
+              "Compound Shielding": 1,
+              "Core Dynamics Composites": 1
+            },
+            features: {
+              integrity: [ 2.4, 3 ],
+              power: [ 1.12, 1.12 ]
             },
             uuid: "89f25da8-029a-4f3e-828d-393b36f0d7b3"
           }
@@ -27236,7 +27260,7 @@ module.exports = {
         name: "Overcharged"
       },
       PA_Overcharged: {
-        fdname: "Weapon_Overcharged",
+        fdname: "PA_Overcharged",
         grades: {
           "1": {
             components: {
@@ -27381,6 +27405,85 @@ module.exports = {
           }
         },
         id: 89,
+        modulename: [ "Weapon" ],
+        name: "Rapid fire"
+      },
+      C_RapidFire: {
+        fdname: "Weapon_RapidFire",
+        grades: {
+          "1": {
+            components: {
+              "Mechanical Scrap": 1
+            },
+            features: {
+              damage: [ -.01, -.01 ],
+              jitter: [ .5, .5 ],
+              reload: [ 0, -.25 ],
+              rof: [ 0, .08 ]
+            },
+            uuid: "a7ca2bf6-14be-41ed-8bfb-c7348fda7713"
+          },
+          "2": {
+            components: {
+              "Heat Dispersion Plate": 1,
+              "Mechanical Scrap": 1
+            },
+            features: {
+              damage: [ -.02, -.02 ],
+              distdraw: [ 0, -.05 ],
+              jitter: [ .5, .5 ],
+              reload: [ -.25, -.35 ],
+              rof: [ .08, .17 ]
+            },
+            uuid: "0008257b-ea33-48ea-a18e-56cc6cf98a77"
+          },
+          "3": {
+            components: {
+              "Mechanical Equipment": 1,
+              "Precipitated Alloys": 1,
+              "Specialised Legacy Firmware": 1
+            },
+            features: {
+              damage: [ -.03, -.03 ],
+              distdraw: [ -.05, -.15 ],
+              jitter: [ .5, .5 ],
+              reload: [ -.35, -.45 ],
+              rof: [ .17, .26 ]
+            },
+            uuid: "f3338d38-f944-4841-b350-09755e1b615d"
+          },
+          "4": {
+            components: {
+              "Mechanical Components": 1,
+              "Modified Consumer Firmware": 1,
+              "Thermic Alloys": 1
+            },
+            features: {
+              damage: [ -.04, -.04 ],
+              distdraw: [ -.15, -.25 ],
+              jitter: [ .5, .5 ],
+              reload: [ -.45, -.55 ],
+              rof: [ .26, .35 ]
+            },
+            uuid: "d2bdb568-725a-44bf-9328-ba72d2988acd"
+          },
+          "5": {
+            components: {
+              "Configurable Components": 1,
+              "Precipitated Alloys": 1,
+              Technetium: 1
+            },
+            features: {
+              damage: [ -.05, -.05 ],
+              distdraw: [ -.25, -.35 ],
+              jitter: [ .5, .5 ],
+              reload: [ -.55, -.65 ],
+              rof: [ .35, .44 ]
+            },
+            uuid: "b1792824-0e96-42a3-9d3a-0b41d5ef83e0"
+          }
+        },
+        id: 105,
         modulename: [ "Weapon" ],
         name: "Rapid fire"
       },
@@ -28941,6 +29044,25 @@ module.exports = {
                 engineers: [ "The Sarge" ]
               }
             }
+          },
+          Weapon_RapidFire: {
+            grades: {
+              "1": {
+                engineers: [ "The Sarge", 'Tod "The Blaster" McQuinn', "Marsha Hicks" ]
+              },
+              "2": {
+                engineers: [ "The Sarge", 'Tod "The Blaster" McQuinn', "Marsha Hicks" ]
+              },
+              "3": {
+                engineers: [ "The Sarge" ]
+              },
+              "4": {
+                engineers: [ "The Sarge" ]
+              },
+              "5": {
+                engineers: [ "The Sarge" ]
+              }
+            }
           }
         },
         modifications: [ "ammo", "clip", "damage", "damagedist", "distdraw", "fallofffromrange", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "shotspeed", "thermload" ],
@@ -29970,6 +30092,9 @@ module.exports = {
               },
               "4": {
                 engineers: [ "Lori Jameson" ]
+              },
+              "5": {
+                engineers: [ "Etienne Dorn" ]
               }
             }
           },
@@ -29986,6 +30111,9 @@ module.exports = {
               },
               "4": {
                 engineers: [ "Lori Jameson" ]
+              },
+              "5": {
+                engineers: [ "Etienne Dorn" ]
               }
             }
           },
@@ -30002,6 +30130,9 @@ module.exports = {
               },
               "4": {
                 engineers: [ "Lori Jameson" ]
+              },
+              "5": {
+                engineers: [ "Etienne Dorn" ]
               }
             }
           }

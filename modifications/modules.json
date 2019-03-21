@@ -808,6 +808,39 @@
             ]
           }
         }
+      },
+      "Weapon_RapidFire": {
+        "grades": {
+          "1": {
+            "engineers": [
+              "The Sarge",
+              "Tod \"The Blaster\" McQuinn",
+              "Marsha Hicks"
+            ]
+          },
+          "2": {
+            "engineers": [
+              "The Sarge",
+              "Tod \"The Blaster\" McQuinn",
+              "Marsha Hicks"
+            ]
+          },
+          "3": {
+            "engineers": [
+              "The Sarge"
+            ]
+          },
+          "4": {
+            "engineers": [
+              "The Sarge"
+            ]
+          },
+          "5": {
+            "engineers": [
+              "The Sarge"
+            ]
+          }
+        }
       }
     },
     "modifications": [
@@ -2716,6 +2749,11 @@
             "engineers": [
               "Lori Jameson"
             ]
+          },
+          "5": {
+            "engineers": [
+              "Etienne Dorn"
+            ]
           }
         }
       },
@@ -2743,6 +2781,11 @@
             "engineers": [
               "Lori Jameson"
             ]
+          },
+          "5": {
+            "engineers": [
+              "Etienne Dorn"
+            ]
           }
         }
       },
@@ -2769,6 +2812,11 @@
           "4": {
             "engineers": [
               "Lori Jameson"
+            ]
+          },
+          "5": {
+            "engineers": [
+              "Etienne Dorn"
             ]
           }
         }
