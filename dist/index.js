@@ -88,12 +88,12 @@ module.exports = {
       slots: {
         standard: [ 3, 3, 3, 1, 2, 3, 3 ],
         hardpoints: [ 2, 1, 1, 0, 0 ],
-        internal: [ 3, 3, 2, 2, 1 ]
+        internal: [ 3, 3, 2, 2, 1, 1, 1 ]
       },
       defaults: {
         standard: [ "3E", "3E", "3E", "1E", "2E", "3E", "3C" ],
         hardpoints: [ 0, 17, 17, 0, 0 ],
-        internal: [ "01", "44", "00", 0, "" ]
+        internal: [ "01", "44", "00", 0, "", 0, 0 ]
       }
     },
     alliance_challenger: {
@@ -223,12 +223,12 @@ module.exports = {
             gmrp: 1,
             ghrp: 1
           }
-        } ]
+        }, 1 ]
       },
       defaults: {
         standard: [ "6E", "6E", "5E", "5E", "6E", "4E", "4C" ],
         hardpoints: [ 17, 0, 17, 0, 0, 0, 0, 0, 0, 0 ],
-        internal: [ "04", "4h", "01", "01", "", "", "", "", "" ]
+        internal: [ "04", "4h", "01", "01", "", "", "", "", "", 0 ]
       }
     },
     alliance_chieftain: {
@@ -358,12 +358,12 @@ module.exports = {
             gmrp: 1,
             ghrp: 1
           }
-        } ]
+        }, 1 ]
       },
       defaults: {
         standard: [ "6E", "6E", "5E", "5E", "6E", "4E", "4C" ],
         hardpoints: [ 17, 0, 17, 0, 0, 0, 0, 0, 0, 0 ],
-        internal: [ "04", "4e", "02", "", "", "", "", "" ]
+        internal: [ "04", "4e", "02", "", "", "", "", "", 0 ]
       }
     },
     alliance_crusader: {
@@ -494,12 +494,12 @@ module.exports = {
             gmrp: 1,
             ghrp: 1
           }
-        } ]
+        }, 1 ]
       },
       defaults: {
         standard: [ "6E", "6E", "5E", "5E", "6E", "4E", "4C" ],
         hardpoints: [ 17, 0, 17, 0, 0, 0, 0, 0, 0 ],
-        internal: [ "04", "4e", "02", "", "", "", "", "" ]
+        internal: [ "04", "4e", "02", "", "", "", "", "", 0 ]
       }
     },
     anaconda: {
@@ -603,12 +603,12 @@ module.exports = {
             gmrp: 1,
             ghrp: 1
           }
-        }, 4, 4, 4, 2 ]
+        }, 4, 4, 4, 2, 1 ]
       },
       defaults: {
         standard: [ "8E", "7E", "6E", "5E", "8E", "8E", "5C" ],
         hardpoints: [ 0, 0, 0, 0, 0, 0, 17, 17, 0, 0, 0, 0, 0, 0, 0, 0 ],
-        internal: [ "05", "04", "4j", 0, "03", 0, 0, 0, 0, 0, "", "00" ]
+        internal: [ "05", "04", "4j", 0, "03", 0, 0, 0, 0, 0, "", "00", 0 ]
       }
     },
     asp: {
@@ -699,12 +699,12 @@ module.exports = {
       slots: {
         standard: [ 5, 5, 5, 4, 4, 5, 5 ],
         hardpoints: [ 2, 2, 1, 1, 1, 1, 0, 0, 0, 0 ],
-        internal: [ 6, 5, 3, 3, 3, 2, 2 ]
+        internal: [ 6, 5, 3, 3, 3, 2, 2, 1 ]
       },
       defaults: {
         standard: [ "5E", "5E", "5E", "4E", "4E", "5E", "5C" ],
         hardpoints: [ 0, 0, 17, 17, 0, 0, 0, 0, 0, 0 ],
-        internal: [ "04", "4e", "01", 0, 0, "00", "" ]
+        internal: [ "04", "4e", "01", 0, 0, "00", "", 0 ]
       }
     },
     asp_scout: {
@@ -795,12 +795,12 @@ module.exports = {
       slots: {
         standard: [ 4, 4, 4, 3, 4, 4, 4 ],
         hardpoints: [ 2, 2, 1, 1, 0, 0 ],
-        internal: [ 5, 4, 3, 3, 2, 2 ]
+        internal: [ 5, 4, 3, 3, 2, 2, 1 ]
       },
       defaults: {
         standard: [ "4E", "4E", "4E", "3E", "4E", "4E", "4C" ],
         hardpoints: [ 0, 0, 17, 17, 0, 0 ],
-        internal: [ "02", "02", "44", 0, 0, 0 ]
+        internal: [ "02", "02", "44", 0, 0, 0, 0 ]
       }
     },
     beluga: {
@@ -896,12 +896,12 @@ module.exports = {
       slots: {
         standard: [ 6, 7, 7, 8, 6, 5, 7 ],
         hardpoints: [ 2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0 ],
-        internal: [ 6, 6, 6, 6, 5, 5, 4, 3, 3, 3, 3 ]
+        internal: [ 6, 6, 6, 6, 5, 5, 4, 3, 3, 3, 3, 1 ]
       },
       defaults: {
         standard: [ "6E", "7E", "7E", "8E", "6E", "5E", "7C" ],
         hardpoints: [ 17, 17, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
-        internal: [ "4j", "04", "mi", "mi", "mg", "mg", "02", "01", 0, 0, "" ]
+        internal: [ "4j", "04", "mi", "mi", "mg", "mg", "02", "01", 0, 0, "", 0 ]
       }
     },
     cobra_mk_iii: {
@@ -992,12 +992,12 @@ module.exports = {
       slots: {
         standard: [ 4, 4, 4, 3, 3, 3, 4 ],
         hardpoints: [ 2, 2, 1, 1, 0, 0 ],
-        internal: [ 4, 4, 4, 2, 2, 2 ]
+        internal: [ 4, 4, 4, 2, 2, 2, 1, 1 ]
       },
       defaults: {
         standard: [ "4E", "4E", "4E", "3E", "3E", "3E", "4C" ],
         hardpoints: [ 17, 17, 0, 0, 0, 0 ],
-        internal: [ "02", "02", "49", "00", 0, "" ]
+        internal: [ "02", "02", "49", "00", 0, "", 0, 0 ]
       }
     },
     cobra_mk_iv: {
@@ -1091,12 +1091,12 @@ module.exports = {
       slots: {
         standard: [ 4, 4, 4, 3, 3, 3, 4 ],
         hardpoints: [ 2, 2, 1, 1, 1, 0, 0 ],
-        internal: [ 4, 4, 4, 4, 3, 3, 2, 2 ]
+        internal: [ 4, 4, 4, 4, 3, 3, 2, 2, 1, 1 ]
       },
       defaults: {
         standard: [ "4E", "4E", "4E", "3E", "3E", "3E", "4C" ],
         hardpoints: [ 17, 17, 0, 0, 0, 0, 0 ],
-        internal: [ "02", "02", "49", 0, 0, 0, "00", "" ]
+        internal: [ "02", "02", "49", 0, 0, 0, "00", "", 0, 0 ]
       }
     },
     diamondback_explorer: {
@@ -1187,12 +1187,12 @@ module.exports = {
       slots: {
         standard: [ 4, 4, 5, 3, 4, 3, 5 ],
         hardpoints: [ 3, 2, 2, 0, 0, 0, 0 ],
-        internal: [ 4, 4, 3, 3, 2, 2 ]
+        internal: [ 4, 4, 3, 3, 2, 2, 1, 1 ]
       },
       defaults: {
         standard: [ "4E", "4E", "5E", "3E", "4E", "3E", "5C" ],
         hardpoints: [ 0, 17, 17, 0, 0, 0, 0 ],
-        internal: [ "49", "02", "01", 0, "", 0 ]
+        internal: [ "49", "02", "01", 0, "", 0, 0, 0 ]
       }
     },
     diamondback: {
@@ -1283,12 +1283,12 @@ module.exports = {
       slots: {
         standard: [ 4, 4, 4, 2, 3, 2, 4 ],
         hardpoints: [ 2, 2, 1, 1, 0, 0, 0, 0 ],
-        internal: [ 3, 3, 3, 2 ]
+        internal: [ 3, 3, 3, 2, 1, 1 ]
       },
       defaults: {
         standard: [ "4E", "4E", "4E", "2E", "3E", "2E", "4C" ],
         hardpoints: [ 17, 17, 0, 0, 0, 0, 0, 0 ],
-        internal: [ "44", 0, 0, "" ]
+        internal: [ "44", 0, 0, "", 0, 0 ]
       }
     },
     dolphin: {
@@ -1383,12 +1383,12 @@ module.exports = {
       slots: {
         standard: [ 4, 5, 4, 4, 3, 3, 4 ],
         hardpoints: [ 1, 1, 0, 0, 0 ],
-        internal: [ 5, 4, 4, 3, 2, 2, 2 ]
+        internal: [ 5, 4, 4, 3, 2, 2, 2, 1, 1 ]
       },
       defaults: {
         standard: [ "4E", "5E", "4E", "4E", "3E", "3E", "4C" ],
         hardpoints: [ 17, 17, 0, 0, 0 ],
-        internal: [ "md", "02", "49", "01", "00", 0, "" ]
+        internal: [ "md", "02", "49", "01", "00", 0, "", 0, 0 ]
       }
     },
     eagle: {
@@ -1491,12 +1491,12 @@ module.exports = {
             gmrp: 1,
             ghrp: 1
           }
-        }, 1, 1 ]
+        }, 1, 1, 1, 1 ]
       },
       defaults: {
         standard: [ "2E", "3E", "3E", "1E", "2E", "2E", "2C" ],
         hardpoints: [ 17, 17, 0, 0 ],
-        internal: [ "44", "00", 0, "", 0 ]
+        internal: [ "44", "00", 0, "", 0, 0, 0 ]
       }
     },
     federal_assault_ship: {
@@ -1614,12 +1614,12 @@ module.exports = {
             gmrp: 1,
             ghrp: 1
           }
-        }, 3, 2, 2 ]
+        }, 3, 2, 2, 1 ]
       },
       defaults: {
         standard: [ "6E", "6E", "5E", "5E", "6E", "4E", "4C" ],
         hardpoints: [ 0, 0, 17, 17, 0, 0, 0, 0 ],
-        internal: [ "4e", "03", "02", 0, 0, "02", 0, 0 ]
+        internal: [ "4e", "03", "02", 0, 0, "02", 0, 0, 0 ]
       }
     },
     federal_corvette: {
@@ -1738,12 +1738,12 @@ module.exports = {
             gmrp: 1,
             ghrp: 1
           }
-        }, 4, 4, 3 ]
+        }, 4, 4, 3, 1 ]
       },
       defaults: {
         standard: [ "8E", "7E", "6E", "5E", "8E", "8E", "5C" ],
         hardpoints: [ 0, 0, 0, 17, 17, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
-        internal: [ "4o", "05", 0, 0, 0, 0, 0, 0, 0, "02", "01", "" ]
+        internal: [ "4o", "05", 0, 0, 0, 0, 0, 0, 0, "02", "01", "", 0 ]
       }
     },
     federal_dropship: {
@@ -1861,12 +1861,12 @@ module.exports = {
             gmrp: 1,
             ghrp: 1
           }
-        }, 3, 3, 2 ]
+        }, 3, 3, 2, 1 ]
       },
       defaults: {
         standard: [ "6E", "6E", "5E", "5E", "6E", "4E", "4C" ],
         hardpoints: [ 0, 17, 17, 0, 0, 0, 0, 0, 0 ],
-        internal: [ "04", "03", "4e", "02", 0, 0, 0, 0, "" ]
+        internal: [ "04", "03", "4e", "02", 0, 0, 0, 0, "", 0 ]
       }
     },
     federal_gunship: {
@@ -1997,12 +1997,12 @@ module.exports = {
             gmrp: 1,
             ghrp: 1
           }
-        }, 2, 2 ]
+        }, 2, 2, 1 ]
       },
       defaults: {
         standard: [ "6E", "6E", "5E", "5E", "7E", "5E", "4C" ],
         hardpoints: [ 0, 17, 17, 0, 0, 0, 0, 0, 0, 0, 0 ],
-        internal: [ 0, "4j", "03", 0, 0, 0, 0, "" ]
+        internal: [ 0, "4j", "03", 0, 0, 0, 0, "", 0 ]
       }
     },
     fer_de_lance: {
@@ -2093,12 +2093,12 @@ module.exports = {
       slots: {
         standard: [ 6, 5, 4, 4, 6, 4, 3 ],
         hardpoints: [ 4, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0 ],
-        internal: [ 5, 4, 4, 2, 1 ]
+        internal: [ 5, 4, 4, 2, 1, 1 ]
       },
       defaults: {
         standard: [ "5E", "5E", "4E", "4E", "6E", "4E", "3C" ],
         hardpoints: [ 0, 17, 17, 0, 0, 0, 0, 0, 0, 0, 0 ],
-        internal: [ "03", "49", "02", 0, "" ]
+        internal: [ "03", "49", "02", 0, "", 0 ]
       }
     },
     hauler: {
@@ -2189,12 +2189,12 @@ module.exports = {
       slots: {
         standard: [ 2, 2, 2, 1, 1, 1, 2 ],
         hardpoints: [ 1, 0, 0 ],
-        internal: [ 3, 3, 2, 1 ]
+        internal: [ 3, 3, 2, 1, 1, 1 ]
       },
       defaults: {
         standard: [ "2E", "2E", "2E", "1E", "1E", "1E", "2C" ],
         hardpoints: [ 17, 0, 0 ],
-        internal: [ "01", "01", "3v", "" ]
+        internal: [ "01", "01", "3v", "", 0, 0 ]
       }
     },
     imperial_clipper: {
@@ -2288,12 +2288,12 @@ module.exports = {
       slots: {
         standard: [ 6, 6, 5, 5, 6, 5, 4 ],
         hardpoints: [ 3, 3, 2, 2, 0, 0, 0, 0 ],
-        internal: [ 7, 6, 4, 4, 3, 3, 2, 2 ]
+        internal: [ 7, 6, 4, 4, 3, 3, 2, 2, 1 ]
       },
       defaults: {
         standard: [ "6E", "6E", "5E", "5E", "6E", "5E", "4C" ],
         hardpoints: [ 0, 0, 17, 17, 0, 0, 0, 0 ],
-        internal: [ "05", "4j", "02", 0, 0, 0, "00", "" ]
+        internal: [ "05", "4j", "02", 0, 0, 0, "00", "", 0 ]
       }
     },
     imperial_courier: {
@@ -2387,12 +2387,12 @@ module.exports = {
       slots: {
         standard: [ 4, 3, 3, 1, 3, 2, 3 ],
         hardpoints: [ 2, 2, 2, 0, 0, 0, 0 ],
-        internal: [ 3, 3, 2, 2, 2, 1 ]
+        internal: [ 3, 3, 2, 2, 2, 1, 1, 1 ]
       },
       defaults: {
         standard: [ "4E", "3E", "3E", "1E", "3E", "2E", "3C" ],
         hardpoints: [ 17, 17, 0, 0, 0, 0, 0 ],
-        internal: [ "01", "01", "3v", "00", "00", "" ]
+        internal: [ "01", "01", "3v", "00", "00", "", 0, 0 ]
       }
     },
     imperial_cutter: {
@@ -2511,12 +2511,12 @@ module.exports = {
             gmrp: 1,
             ghrp: 1
           }
-        }, 4, 3 ]
+        }, 4, 3, 1 ]
       },
       defaults: {
         standard: [ "8E", "8E", "7E", "7E", "7E", "7E", "6C" ],
         hardpoints: [ 0, 0, 0, 17, 17, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
-        internal: [ "4t", "06", "04", 0, 0, 0, 0, 0, 0, "01", "" ]
+        internal: [ "4t", "06", "04", 0, 0, 0, 0, 0, 0, "01", "", 0 ]
       }
     },
     imperial_eagle: {
@@ -2619,12 +2619,12 @@ module.exports = {
             gmrp: 1,
             ghrp: 1
           }
-        }, 1, 1 ]
+        }, 1, 1, 1, 1 ]
       },
       defaults: {
         standard: [ "3E", "3E", "3E", "1E", "2E", "2E", "2C" ],
         hardpoints: [ 0, 17, 17, 0 ],
-        internal: [ "44", "00", 0, "", 0 ]
+        internal: [ "44", "00", 0, "", 0, 0, 0 ]
       }
     },
     keelback: {
@@ -2716,12 +2716,12 @@ module.exports = {
       slots: {
         standard: [ 4, 4, 4, 1, 3, 2, 4 ],
         hardpoints: [ 2, 2, 1, 1, 0, 0, 0 ],
-        internal: [ 5, 5, 4, 3, 2, 2 ]
+        internal: [ 5, 5, 4, 3, 2, 2, 1 ]
       },
       defaults: {
         standard: [ "4E", "4E", "4E", "1E", "3E", "2E", "4C" ],
         hardpoints: [ 0, 0, 17, 17, 0, 0, 0 ],
-        internal: [ "03", "03", "02", "44", "00", "" ]
+        internal: [ "03", "03", "02", "44", "00", "", 0 ]
       }
     },
     krait_mkii: {
@@ -2813,12 +2813,12 @@ module.exports = {
       slots: {
         standard: [ 7, 6, 5, 4, 7, 6, 5 ],
         hardpoints: [ 3, 3, 3, 2, 2, 0, 0, 0, 0 ],
-        internal: [ 6, 6, 5, 5, 4, 3, 3, 2 ]
+        internal: [ 6, 6, 5, 5, 4, 3, 3, 2, 1 ]
       },
       defaults: {
         standard: [ "7E", "6E", "5E", "4E", "7E", "6E", "5C" ],
         hardpoints: [ 0, 0, 0, 17, 17, 0, 0, 0, 0 ],
-        internal: [ "4h", "04", "04", "03", 0, "", 0, "00" ]
+        internal: [ "4h", "04", "04", "03", 0, "", 0, "00", 0 ]
       }
     },
     krait_phantom: {
@@ -2909,12 +2909,12 @@ module.exports = {
       slots: {
         standard: [ 7, 6, 5, 4, 7, 6, 5 ],
         hardpoints: [ 3, 3, 2, 2, 0, 0, 0, 0 ],
-        internal: [ 6, 5, 5, 5, 3, 3, 3, 2 ]
+        internal: [ 6, 5, 5, 5, 3, 3, 3, 2, 1 ]
       },
       defaults: {
         standard: [ "7E", "6E", "5E", "4E", "7E", "6E", "5C" ],
         hardpoints: [ 0, 0, "17", "17", 0, 0, 0, 0 ],
-        internal: [ "4j", "04", "04", "04", 0, "", 0, "00" ]
+        internal: [ "4j", "04", "04", "04", 0, "", 0, "00", 0 ]
       }
     },
     orca: {
@@ -3006,12 +3006,12 @@ module.exports = {
       slots: {
         standard: [ 5, 6, 5, 6, 5, 4, 5 ],
         hardpoints: [ 3, 2, 2, 0, 0, 0, 0 ],
-        internal: [ 6, 5, 5, 5, 4, 3, 2, 2 ]
+        internal: [ 6, 5, 5, 5, 4, 3, 2, 2, 1 ]
       },
       defaults: {
         standard: [ "5E", "6E", "5E", "6E", "5E", "4E", "5C" ],
         hardpoints: [ 0, 17, 17, 0, 0, 0, 0 ],
-        internal: [ "me", "mc", "03", "4e", "02", 0, 0, "" ]
+        internal: [ "me", "mc", "03", "4e", "02", 0, 0, "", 0 ]
       }
     },
     mamba: {
@@ -3102,12 +3102,12 @@ module.exports = {
       slots: {
         standard: [ 6, 5, 4, 4, 6, 4, 3 ],
         hardpoints: [ 4, 3, 3, 1, 1, 0, 0, 0, 0, 0, 0 ],
-        internal: [ 5, 4, 3, 2, 2 ]
+        internal: [ 5, 4, 3, 2, 2, 1 ]
       },
       defaults: {
         standard: [ "6E", "5E", "4E", "4E", "6E", "4E", "3C" ],
         hardpoints: [ 0, 0, 0, "17", "17", 0, 0, 0, 0, 0, 0 ],
-        internal: [ "03", "49", "01", 0, 0 ]
+        internal: [ "03", "49", "01", 0, 0, 0 ]
       }
     },
     python: {
@@ -3198,12 +3198,12 @@ module.exports = {
       slots: {
         standard: [ 7, 6, 5, 4, 7, 6, 5 ],
         hardpoints: [ 3, 3, 3, 2, 2, 0, 0, 0, 0 ],
-        internal: [ 6, 6, 6, 5, 5, 4, 3, 3, 2 ]
+        internal: [ 6, 6, 6, 5, 5, 4, 3, 3, 2, 1 ]
       },
       defaults: {
         standard: [ "7E", "6E", "5E", "4E", "7E", "6E", "5C" ],
         hardpoints: [ 0, 0, 0, 17, 17, 0, 0, 0, 0 ],
-        internal: [ "04", "04", "4j", "03", 0, 0, 0, "00", "" ]
+        internal: [ "04", "04", "4j", "03", 0, 0, 0, "00", "", 0 ]
       }
     },
     sidewinder: {
@@ -3294,12 +3294,12 @@ module.exports = {
       slots: {
         standard: [ 2, 2, 2, 1, 1, 1, 1 ],
         hardpoints: [ 1, 1, 0, 0 ],
-        internal: [ 2, 2, 1, 1 ]
+        internal: [ 2, 2, 1, 1, 1, 1 ]
       },
       defaults: {
         standard: [ "2E", "2E", "2E", "1E", "1E", "1E", "1C" ],
         hardpoints: [ 18, 18, 0, 0 ],
-        internal: [ "3v", "01", "", 0 ]
+        internal: [ "3v", "01", "", 0, 0, 0 ]
       }
     },
     type_6_transporter: {
@@ -3390,12 +3390,12 @@ module.exports = {
       slots: {
         standard: [ 3, 4, 4, 2, 3, 2, 4 ],
         hardpoints: [ 1, 1, 0, 0, 0 ],
-        internal: [ 5, 5, 4, 4, 3, 2, 2 ]
+        internal: [ 5, 5, 4, 4, 3, 2, 2, 1 ]
       },
       defaults: {
         standard: [ "3E", "4E", "4E", "2E", "3E", "2E", "4C" ],
         hardpoints: [ 17, 17, 0, 0, 0 ],
-        internal: [ "03", "03", "02", "02", "44", "00", "" ]
+        internal: [ "03", "03", "02", "02", "44", "00", "", 0 ]
       }
     },
     type_7_transport: {
@@ -3486,12 +3486,12 @@ module.exports = {
       slots: {
         standard: [ 5, 5, 5, 4, 4, 3, 5 ],
         hardpoints: [ 1, 1, 1, 1, 0, 0, 0, 0 ],
-        internal: [ 6, 6, 6, 5, 5, 5, 3, 3, 2 ]
+        internal: [ 6, 6, 6, 5, 5, 5, 3, 3, 2, 1 ]
       },
       defaults: {
         standard: [ "4E", "5E", "5E", "4E", "3E", "3E", "5C" ],
         hardpoints: [ 17, 17, 0, 0, 0, 0, 0, 0 ],
-        internal: [ "04", "04", "04", "03", "03", "49", 0, 0, "" ]
+        internal: [ "04", "04", "04", "03", "03", "49", 0, 0, "", 0 ]
       }
     },
     type_9_heavy: {
@@ -3583,12 +3583,12 @@ module.exports = {
       slots: {
         standard: [ 6, 7, 6, 5, 6, 4, 6 ],
         hardpoints: [ 2, 2, 2, 1, 1, 0, 0, 0, 0 ],
-        internal: [ 8, 8, 7, 6, 5, 4, 4, 3, 3, 2 ]
+        internal: [ 8, 8, 7, 6, 5, 4, 4, 3, 3, 2, 1 ]
       },
       defaults: {
         standard: [ "6E", "7E", "6E", "5E", "6E", "4E", "6C" ],
         hardpoints: [ 17, 17, 0, 0, 0, 0, 0, 0, 0 ],
-        internal: [ "06", "06", "05", "4j", "03", "02", 0, "01", 0, "" ]
+        internal: [ "06", "06", "05", "4j", "03", "02", 0, "01", 0, "", 0 ]
       }
     },
     type_10_defender: {
@@ -3703,12 +3703,12 @@ module.exports = {
             gmrp: 1,
             ghrp: 1
           }
-        } ]
+        }, 1 ]
       },
       defaults: {
         standard: [ "6E", "7E", "6E", "5E", "7E", "4E", "6C" ],
         hardpoints: [ 0, 0, 0, 0, 17, 17, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
-        internal: [ "06", "05", "4j", "03", "02", 0, "01", 0, "", 0, 0 ]
+        internal: [ "06", "05", "4j", "03", "02", 0, "01", 0, "", 0, 0, 0 ]
       }
     },
     viper: {
@@ -3811,12 +3811,12 @@ module.exports = {
             gmrp: 1,
             ghrp: 1
           }
-        }, 2, 1 ]
+        }, 2, 1, 1, 1 ]
       },
       defaults: {
         standard: [ "3E", "3E", "3E", "2E", "3E", "3E", "2C" ],
         hardpoints: [ 17, 17, 0, 0, 0, 0 ],
-        internal: [ "01", "44", 0, 0, "" ]
+        internal: [ "01", "44", 0, 0, "", 0, 0 ]
       }
     },
     viper_mk_iv: {
@@ -3919,12 +3919,12 @@ module.exports = {
             gmrp: 1,
             ghrp: 1
           }
-        }, 2, 2, 1 ]
+        }, 2, 2, 1, 1, 1 ]
       },
       defaults: {
         standard: [ "4E", "4E", "4E", "2E", "3E", "3E", "4C" ],
         hardpoints: [ 0, 0, 17, 17, 0, 0 ],
-        internal: [ "02", "02", "44", 0, "00", 0, "" ]
+        internal: [ "02", "02", "44", 0, "00", 0, "", 0, 0 ]
       }
     },
     vulture: {
@@ -4027,12 +4027,12 @@ module.exports = {
             gmrp: 1,
             ghrp: 1
           }
-        }, 4, 2, 1, 1 ]
+        }, 4, 2, 1, 1, 1, 1 ]
       },
       defaults: {
         standard: [ "4E", "5E", "4E", "3E", "5E", "4E", "3C" ],
         hardpoints: [ 17, 17, 0, 0, 0, 0 ],
-        internal: [ "4e", 0, "02", 0, 0, "" ]
+        internal: [ "4e", 0, "02", 0, 0, "", 0, 0 ]
       }
     }
   },

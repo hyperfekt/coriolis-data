@@ -25,23 +25,133 @@
     },
     "retailCost": 48539900,
     "bulkheads": [
-      { "id": "BM", "edID": 128049328, "eddbID": 798, "grp": "bh", "cost": 0, "mass": 0, "causres": 0, "explres": -0.4, "kinres": -0.2, "thermres": 0, "hullboost": 0.8 },
-      { "id": "BN", "edID": 128049329, "eddbID": 799, "grp": "bh", "cost": 19415950, "mass": 21, "causres": 0, "explres": -0.4, "kinres": -0.2, "thermres": 0, "hullboost": 1.52 },
-      { "id": "BO", "edID": 128049330, "eddbID": 800, "grp": "bh", "cost": 43685900, "mass": 87, "causres": 0, "explres": -0.4, "kinres": -0.2, "thermres": 0, "hullboost": 2.5 },
-      { "id": "BP", "edID": 128049331, "eddbID": 801, "grp": "bh", "cost": 103244340, "mass": 87, "causres": 0, "explres": -0.5, "kinres": -0.75, "thermres": 0.5, "hullboost": 2.5  },
-      { "id": "BQ", "edID": 128049332, "eddbID": 802, "grp": "bh", "cost": 114408510, "mass": 87, "causres": 0, "explres": 0.2, "kinres": 0.25, "thermres": -0.4, "hullboost": 2.5 }
+      {
+        "id": "BM",
+        "edID": 128049328,
+        "eddbID": 798,
+        "grp": "bh",
+        "cost": 0,
+        "mass": 0,
+        "causres": 0,
+        "explres": -0.4,
+        "kinres": -0.2,
+        "thermres": 0,
+        "hullboost": 0.8
+      },
+      {
+        "id": "BN",
+        "edID": 128049329,
+        "eddbID": 799,
+        "grp": "bh",
+        "cost": 19415950,
+        "mass": 21,
+        "causres": 0,
+        "explres": -0.4,
+        "kinres": -0.2,
+        "thermres": 0,
+        "hullboost": 1.52
+      },
+      {
+        "id": "BO",
+        "edID": 128049330,
+        "eddbID": 800,
+        "grp": "bh",
+        "cost": 43685900,
+        "mass": 87,
+        "causres": 0,
+        "explres": -0.4,
+        "kinres": -0.2,
+        "thermres": 0,
+        "hullboost": 2.5
+      },
+      {
+        "id": "BP",
+        "edID": 128049331,
+        "eddbID": 801,
+        "grp": "bh",
+        "cost": 103244340,
+        "mass": 87,
+        "causres": 0,
+        "explres": -0.5,
+        "kinres": -0.75,
+        "thermres": 0.5,
+        "hullboost": 2.5
+      },
+      {
+        "id": "BQ",
+        "edID": 128049332,
+        "eddbID": 802,
+        "grp": "bh",
+        "cost": 114408510,
+        "mass": 87,
+        "causres": 0,
+        "explres": 0.2,
+        "kinres": 0.25,
+        "thermres": -0.4,
+        "hullboost": 2.5
+      }
     ],
     "slots": {
-      "standard": [5, 6, 5, 6, 5, 4, 5],
-      "hardpoints": [3, 2, 2, 0, 0, 0, 0],
+      "standard": [
+        5,
+        6,
+        5,
+        6,
+        5,
+        4,
+        5
+      ],
+      "hardpoints": [
+        3,
+        2,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
       "internal": [
-        6, 5, 5, 5, 4, 3, 2, 2
+        6,
+        5,
+        5,
+        5,
+        4,
+        3,
+        2,
+        2,
+        1
       ]
     },
     "defaults": {
-      "standard": ["5E", "6E", "5E", "6E", "5E", "4E", "5C"],
-      "hardpoints": [0, 17, 17, 0, 0, 0, 0],
-      "internal": ["me", "mc", "03", "4e", "02", 0, 0, ""]
+      "standard": [
+        "5E",
+        "6E",
+        "5E",
+        "6E",
+        "5E",
+        "4E",
+        "5C"
+      ],
+      "hardpoints": [
+        0,
+        17,
+        17,
+        0,
+        0,
+        0,
+        0
+      ],
+      "internal": [
+        "me",
+        "mc",
+        "03",
+        "4e",
+        "02",
+        0,
+        0,
+        "",
+        0
+      ]
     }
   }
 }
