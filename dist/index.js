@@ -14378,7 +14378,7 @@ module.exports = {
         rating: "E",
         symbol: "Int_DockingComputer_Standard",
         ukName: "Docking Computer",
-        ukDiscript: "Allows automated docking sequence at all starports and outposts."
+        ukDiscript: "Allows assisted docking sequence at all starports and outposts."
       }, {
         class: 1,
         cost: 13509,
@@ -14388,11 +14388,11 @@ module.exports = {
         id: "3x",
         integrity: 10,
         name: "Advanced Docking Computer",
-        power: .39,
+        power: .45,
         rating: "E",
         symbol: "Int_DockingComputer_Advanced",
         ukName: "Advanced Docking Computer",
-        ukDiscript: "TODO"
+        ukDiscript: "Allows assisted docking and launch at all starports and outposts."
       } ],
       dtl: [ {
         class: 1,
@@ -20453,12 +20453,12 @@ module.exports = {
         grp: "sua",
         id: "3w",
         mass: 0,
-        power: 0,
-        rating: "I",
+        power: .3,
+        rating: "E",
         symbol: "Int_SupercruiseAssist",
         name: "Supercruise Assist",
         ukName: "Supercruise Assist",
-        ukDiscript: "TODO"
+        ukDiscript: "Provides additional supercruise guidance to a predetermined destination."
       } ]
     }
   },

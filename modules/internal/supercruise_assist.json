@@ -8,12 +8,12 @@
       "grp": "sua",
       "id": "3w",
       "mass": 0,
-      "power": 0,
-      "rating": "I",
+      "power": 0.3,
+      "rating": "E",
       "symbol": "Int_SupercruiseAssist",
       "name": "Supercruise Assist",
       "ukName": "Supercruise Assist",
-      "ukDiscript": "TODO"
+      "ukDiscript": "Provides additional supercruise guidance to a predetermined destination."
     }
   ]
 }
