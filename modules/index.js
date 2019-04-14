@@ -79,6 +79,7 @@ module.exports = {
     gsrp: require('./internal/guardian_shield_reinforcement_package').gsrp,
     gfsb: require('./internal/guardian_fsd_booster').gfsb,
     ghrp: require('./internal/guardian_hull_reinforcement_package').ghrp,
-    gmrp: require('./internal/guardian_module_reinforcement_package').gmrp
+    gmrp: require('./internal/guardian_module_reinforcement_package').gmrp,
+    sua: require('./internal/supercruise_assist').sua,
   }
 }

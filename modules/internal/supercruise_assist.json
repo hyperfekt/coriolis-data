@@ -1,0 +1,19 @@
+{
+  "sua": [
+    {
+      "class": 1,
+      "cost": 500,
+      "edID": 128672317,
+      "eddbID": 1538,
+      "grp": "sua",
+      "id": "3w",
+      "mass": 0,
+      "power": 0,
+      "rating": "I",
+      "symbol": "Int_SupercruiseAssist",
+      "name": "Supercruise Assist",
+      "ukName": "Supercruise Assist",
+      "ukDiscript": "TODO"
+    }
+  ]
+}

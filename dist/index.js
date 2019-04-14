@@ -14379,6 +14379,20 @@ module.exports = {
         symbol: "Int_DockingComputer_Standard",
         ukName: "Docking Computer",
         ukDiscript: "Allows automated docking sequence at all starports and outposts."
+      }, {
+        class: 1,
+        cost: 4500,
+        edID: 128049549,
+        eddbID: 890,
+        grp: "dc",
+        id: "3x",
+        integrity: 10,
+        name: "Advanced Docking Computer",
+        power: .39,
+        rating: "E",
+        symbol: "Int_DockingComputer_Advanced",
+        ukName: "Advanced Docking Computer",
+        ukDiscript: "TODO"
       } ],
       dtl: [ {
         class: 1,
@@ -20430,6 +20444,21 @@ module.exports = {
         grp: "gmrp",
         ukName: "Guardian Module Reinforcement",
         ukDiscript: "Powered module that protects a ships modules from any weapons fire penetrating the hull. It utilises it's own damage capacity to absorb a proportion of the damage applied to modules, eventually burning out when it's capacity reaches zero. This version is based on Guardian research and has resistances to Thargoid specific disruption technology."
+      } ],
+      sua: [ {
+        class: 1,
+        cost: 500,
+        edID: 128672317,
+        eddbID: 1538,
+        grp: "sua",
+        id: "3w",
+        mass: 0,
+        power: 0,
+        rating: "I",
+        symbol: "Int_SupercruiseAssist",
+        name: "Supercruise Assist",
+        ukName: "Supercruise Assist",
+        ukDiscript: "TODO"
       } ]
     }
   },
