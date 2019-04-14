@@ -14381,8 +14381,8 @@ module.exports = {
         ukDiscript: "Allows automated docking sequence at all starports and outposts."
       }, {
         class: 1,
-        cost: 4500,
-        edID: 128049549,
+        cost: 13509,
+        edID: 128935155,
         eddbID: 890,
         grp: "dc",
         id: "3x",
@@ -20447,8 +20447,8 @@ module.exports = {
       } ],
       sua: [ {
         class: 1,
-        cost: 500,
-        edID: 128672317,
+        cost: 9121,
+        edID: 128932273,
         eddbID: 1538,
         grp: "sua",
         id: "3w",
