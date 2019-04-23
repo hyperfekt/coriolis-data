@@ -13,7 +13,22 @@
       "rating": "E",
       "symbol": "Int_DockingComputer_Standard",
       "ukName": "Docking Computer",
-      "ukDiscript": "Allows automated docking sequence at all starports and outposts."
+      "ukDiscript": "Allows assisted docking sequence at all starports and outposts."
+    },
+    {
+      "class": 1,
+      "cost": 13509,
+      "edID": 128935155,
+      "eddbID": 890,
+      "grp": "dc",
+      "id": "3x",
+      "integrity": 10,
+      "name": "Advanced Docking Computer",
+      "power": 0.45,
+      "rating": "E",
+      "symbol": "Int_DockingComputer_Advanced",
+      "ukName": "Advanced Docking Computer",
+      "ukDiscript": "Allows assisted docking and launch at all starports and outposts."
     }
   ]
 }
