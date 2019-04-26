@@ -13,6 +13,7 @@
       },
       "edID": 128049522,
       "eddbID": 887,
+      "fireint": 0.2,
       "grp": "po",
       "id": "03",
       "integrity": 30,
@@ -24,7 +25,6 @@
       "range": 2500,
       "rating": "I",
       "reload": 0.4,
-      "rof": 10,
       "shotspeed": 1000,
       "thermload": 0.1,
       "symbol": "Hpt_PlasmaPointDefence_Turret_Tiny"

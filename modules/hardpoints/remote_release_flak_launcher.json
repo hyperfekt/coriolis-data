@@ -16,6 +16,7 @@
       "edID": 128785626,
       "eddbID": 1620,
       "falloff": 100000,
+      "fireint": 2.0,
       "grp": "rfl",
       "id": "x8",
       "integrity": 51,
@@ -25,7 +26,6 @@
       "power": 1.2,
       "rating": "B",
       "reload": 2,
-      "rof": 0.5,
       "shotspeed": 550,
       "thermload": 3.6,
       "symbol": "Hpt_FlakMortar_Fixed_Medium"
@@ -46,6 +46,7 @@
       "edID": 128793058,
       "eddbID": 1621,
       "falloff": 100000,
+      "fireint": 2.0,
       "grp": "rfl",
       "id": "x9",
       "integrity": 51,
@@ -55,7 +56,6 @@
       "power": 1.2,
       "rating": "B",
       "reload": 2,
-      "rof": 0.5,
       "shotspeed": 550,
       "thermload": 3.6,
       "symbol": "Hpt_FlakMortar_Turret_Medium"

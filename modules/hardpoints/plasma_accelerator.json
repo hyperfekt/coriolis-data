@@ -18,6 +18,7 @@
       "edID": 128049465,
       "eddbID": 873,
       "falloff": 2000,
+      "fireint": 3.03,
       "grp": "pa",
       "id": "1g",
       "integrity": 51,
@@ -28,7 +29,6 @@
       "range": 3500,
       "rating": "C",
       "reload": 6,
-      "rof": 0.33,
       "shotspeed": 875,
       "thermload": 15.6,
       "symbol": "Hpt_PlasmaAccelerator_Fixed_Medium"
@@ -51,6 +51,7 @@
       "edID": 128049466,
       "eddbID": 874,
       "falloff": 2000,
+      "fireint": 3.45,
       "grp": "pa",
       "id": "2b",
       "integrity": 64,
@@ -61,7 +62,6 @@
       "range": 3500,
       "rating": "B",
       "reload": 6,
-      "rof": 0.29,
       "shotspeed": 875,
       "thermload": 21.8,
       "symbol": "Hpt_PlasmaAccelerator_Fixed_Large"
@@ -84,6 +84,7 @@
       "edID": 128671339,
       "eddbID": 1482,
       "falloff": 2000,
+      "fireint": 1.25,
       "grp": "pa",
       "id": "Ap",
       "integrity": 64,
@@ -96,7 +97,6 @@
       "range": 3500,
       "rating": "B",
       "reload": 6,
-      "rof": 0.8,
       "shotspeed": 875,
       "thermload": 11,
       "symbol": "Hpt_PlasmaAccelerator_Fixed_Large_Advanced"
@@ -119,6 +119,7 @@
       "edID": 128049467,
       "eddbID": 875,
       "falloff": 2000,
+      "fireint": 4.0,
       "grp": "pa",
       "id": "2c",
       "integrity": 80,
@@ -129,7 +130,6 @@
       "range": 3500,
       "rating": "A",
       "reload": 6,
-      "rof": 0.25,
       "shotspeed": 875,
       "thermload": 29.5,
       "symbol": "Hpt_PlasmaAccelerator_Fixed_Huge"

@@ -17,6 +17,7 @@
       "edID": 128049488,
       "eddbID": 876,
       "falloff": 1000,
+      "fireint": 0.625,
       "grp": "rg",
       "id": "29",
       "integrity": 40,
@@ -27,7 +28,6 @@
       "range": 3000,
       "rating": "D",
       "reload": 1,
-      "rof": 1.6,
       "thermload": 12,
       "symbol": "Hpt_Railgun_Fixed_Small"
     },
@@ -48,6 +48,7 @@
       "edID": 128049489,
       "eddbID": 877,
       "falloff": 1000,
+      "fireint": 0.83,
       "grp": "rg",
       "id": "2a",
       "integrity": 51,
@@ -58,7 +59,6 @@
       "range": 3000,
       "rating": "B",
       "reload": 1,
-      "rof": 1.2,
       "thermload": 20,
       "symbol": "Hpt_Railgun_Fixed_Medium"
     },
@@ -81,6 +81,7 @@
       "edID": 128671341,
       "eddbID": 1484,
       "falloff": 1000,
+      "fireint": 0.4,
       "grp": "rg",
       "id": "ih",
       "integrity": 51,
@@ -93,7 +94,6 @@
       "range": 3000,
       "rating": "B",
       "reload": 1,
-      "rof": 4.1,
       "thermload": 11,
       "symbol": "Hpt_Railgun_Fixed_Medium_Burst"
     }

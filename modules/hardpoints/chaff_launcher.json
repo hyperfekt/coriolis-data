@@ -10,6 +10,7 @@
       "duration": 20,
       "edID": 128049513,
       "eddbID": 884,
+      "fireint": 1.0,
       "grp": "ch",
       "id": "00",
       "integrity": 20,
@@ -19,7 +20,6 @@
       "power": 0.2,
       "rating": "I",
       "reload": 10,
-      "rof": 1,
       "thermload": 4,
       "symbol": "Hpt_ChaffLauncher_Tiny"
     }

@@ -17,6 +17,7 @@
       "edID": 128788701,
       "eddbID": 1618,
       "falloff": 2000,
+      "fireint": 0.14,
       "grp": "axmc",
       "id": "x0",
       "integrity": 51,
@@ -27,7 +28,6 @@
       "range": 4000,
       "rating": "E",
       "reload": 4,
-      "rof": 7.1,
       "shotspeed": 1600,
       "thermload": 0.2,
       "symbol": "Hpt_ATMultiCannon_Fixed_Medium"
@@ -49,6 +49,7 @@
       "edID": 128793059,
       "eddbID": 1619,
       "falloff": 2000,
+      "fireint": 0.16,
       "grp": "axmc",
       "id": "x1",
       "integrity": 51,
@@ -59,7 +60,6 @@
       "range": 4000,
       "rating": "F",
       "reload": 4,
-      "rof": 6.2,
       "shotspeed": 1600,
       "thermload": 0.1,
       "symbol": "Hpt_ATMultiCannon_Turret_Medium"
@@ -81,6 +81,7 @@
       "edID": 128788702,
       "eddbID": 1625,
       "falloff": 2000,
+      "fireint": 0.17,
       "grp": "axmc",
       "id": "x2",
       "integrity": 64,
@@ -91,7 +92,6 @@
       "range": 4000,
       "rating": "C",
       "reload": 4,
-      "rof": 5.9,
       "shotspeed": 1600,
       "thermload": 0.3,
       "symbol": "Hpt_ATMultiCannon_Fixed_Large"
@@ -113,6 +113,7 @@
       "edID": 128793060,
       "eddbID": 1626,
       "falloff": 2000,
+      "fireint": 0.16,
       "grp": "axmc",
       "id": "x3",
       "integrity": 64,
@@ -123,7 +124,6 @@
       "range": 4000,
       "rating": "E",
       "reload": 4,
-      "rof": 6.2,
       "shotspeed": 1600,
       "thermload": 0.1,
       "symbol": "Hpt_ATMultiCannon_Turret_Large"
