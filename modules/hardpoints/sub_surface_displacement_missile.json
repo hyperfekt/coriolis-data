@@ -30,7 +30,7 @@
       "rating": "B",
       "rof": 0.5,
       "thermload": 2.9,
-      "symbol": "Hpt_Mining_SubSurfDispMisle_Turret_Medium"
+      "symbol": "Hpt_Mining_SubSurfDispMisle_Fixed_Medium"
     },
     {
       "breachdmg": 0.5,
@@ -94,7 +94,7 @@
       "rating": "B",
       "rof": 0.5,
       "thermload": 2.2,
-      "symbol": "Hpt_Mining_SubSurfDispMisle_Turret_Small"
+      "symbol": "Hpt_Mining_SubSurfDispMisle_Fixed_Small"
     },
     {
       "breachdmg": 0.5,
