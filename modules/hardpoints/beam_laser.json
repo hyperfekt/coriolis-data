@@ -154,7 +154,7 @@
       "mass": 4,
       "mount": "G",
       "piercing": 35,
-      "power": 0.99,
+      "power": 1,
       "range": 3000,
       "rating": "D",
       "thermload": 5.3,
