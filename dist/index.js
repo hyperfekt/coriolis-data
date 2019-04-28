@@ -3028,7 +3028,7 @@ module.exports = {
         baseShieldStrength: 270,
         heatCapacity: 165,
         baseArmour: 230,
-        hardness: 65,
+        hardness: 70,
         hullMass: 250,
         masslock: 12,
         pipSpeed: .056451612903226,
