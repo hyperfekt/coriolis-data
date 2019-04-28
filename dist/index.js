@@ -8454,6 +8454,7 @@ module.exports = {
         edID: 128049381,
         eddbID: 823,
         falloff: 500,
+        fireint: .26,
         grp: "pl",
         id: "17",
         integrity: 40,
@@ -8463,7 +8464,6 @@ module.exports = {
         power: .39,
         range: 3e3,
         rating: "F",
-        rof: 3.85,
         thermload: .33,
         symbol: "Hpt_PulseLaser_Fixed_Small"
       }, {
@@ -8480,6 +8480,7 @@ module.exports = {
         edID: 128049385,
         eddbID: 826,
         falloff: 500,
+        fireint: .25,
         grp: "pl",
         id: "18",
         integrity: 40,
@@ -8489,7 +8490,6 @@ module.exports = {
         power: .39,
         range: 3e3,
         rating: "G",
-        rof: 4,
         thermload: .31,
         symbol: "Hpt_PulseLaser_Gimbal_Small"
       }, {
@@ -8506,6 +8506,7 @@ module.exports = {
         edID: 128049388,
         eddbID: 829,
         falloff: 500,
+        fireint: .3,
         grp: "pl",
         id: "19",
         integrity: 40,
@@ -8515,7 +8516,6 @@ module.exports = {
         power: .38,
         range: 3e3,
         rating: "G",
-        rof: 3.33,
         thermload: .19,
         symbol: "Hpt_PulseLaser_Turret_Small"
       }, {
@@ -8532,6 +8532,7 @@ module.exports = {
         edID: 128049382,
         eddbID: 824,
         falloff: 500,
+        fireint: .29,
         grp: "pl",
         id: "1a",
         integrity: 51,
@@ -8541,7 +8542,6 @@ module.exports = {
         power: .6,
         range: 3e3,
         rating: "E",
-        rof: 3.45,
         thermload: .56,
         symbol: "Hpt_PulseLaser_Fixed_Medium"
       }, {
@@ -8558,6 +8558,7 @@ module.exports = {
         edID: 128049386,
         eddbID: 827,
         falloff: 500,
+        fireint: .28,
         grp: "pl",
         id: "1b",
         integrity: 51,
@@ -8567,7 +8568,6 @@ module.exports = {
         power: .6,
         range: 3e3,
         rating: "F",
-        rof: 3.57,
         thermload: .54,
         symbol: "Hpt_PulseLaser_Gimbal_Medium"
       }, {
@@ -8584,6 +8584,7 @@ module.exports = {
         edID: 128049389,
         eddbID: 830,
         falloff: 500,
+        fireint: .33,
         grp: "pl",
         id: "1c",
         integrity: 51,
@@ -8593,7 +8594,6 @@ module.exports = {
         power: .58,
         range: 3e3,
         rating: "F",
-        rof: 3.03,
         thermload: .33,
         symbol: "Hpt_PulseLaser_Turret_Medium"
       }, {
@@ -8610,6 +8610,7 @@ module.exports = {
         edID: 128671342,
         eddbID: 1483,
         falloff: 500,
+        fireint: .6,
         grp: "pl",
         id: "PL",
         integrity: 51,
@@ -8620,7 +8621,6 @@ module.exports = {
         power: .7,
         pp: "Felicia Winters",
         rating: "E",
-        rof: 1.664,
         thermload: 1,
         symbol: "Hpt_PulseLaser_Fixed_Medium_Disruptor"
       }, {
@@ -8637,6 +8637,7 @@ module.exports = {
         edID: 128049383,
         eddbID: 825,
         falloff: 500,
+        fireint: .33,
         grp: "pl",
         id: "1d",
         integrity: 64,
@@ -8646,7 +8647,6 @@ module.exports = {
         power: .9,
         range: 3e3,
         rating: "D",
-        rof: 3.03,
         thermload: .96,
         symbol: "Hpt_PulseLaser_Fixed_Large"
       }, {
@@ -8663,6 +8663,7 @@ module.exports = {
         edID: 128049387,
         eddbID: 828,
         falloff: 500,
+        fireint: .31,
         grp: "pl",
         id: "1e",
         integrity: 64,
@@ -8672,7 +8673,6 @@ module.exports = {
         power: .92,
         range: 3e3,
         rating: "E",
-        rof: 3.23,
         thermload: .92,
         symbol: "Hpt_PulseLaser_Gimbal_Large"
       }, {
@@ -8689,6 +8689,7 @@ module.exports = {
         edID: 128049390,
         eddbID: 831,
         falloff: 500,
+        fireint: .37,
         grp: "pl",
         id: "1f",
         integrity: 64,
@@ -8698,7 +8699,6 @@ module.exports = {
         power: .89,
         range: 3e3,
         rating: "F",
-        rof: 2.7,
         thermload: .56,
         symbol: "Hpt_PulseLaser_Turret_Large"
       }, {
@@ -8715,6 +8715,7 @@ module.exports = {
         edID: 128049384,
         eddbID: 1539,
         falloff: 500,
+        fireint: .38,
         grp: "pl",
         id: "7q",
         integrity: 80,
@@ -8724,7 +8725,6 @@ module.exports = {
         power: 1.33,
         range: 3e3,
         rating: "A",
-        rof: 2.63,
         thermload: 1.64,
         symbol: "Hpt_PulseLaser_Fixed_Huge"
       }, {
@@ -8741,6 +8741,7 @@ module.exports = {
         edID: 128681995,
         eddbID: 1545,
         falloff: 500,
+        fireint: .36,
         grp: "pl",
         id: "7r",
         integrity: 80,
@@ -8750,7 +8751,6 @@ module.exports = {
         power: 1.37,
         range: 3e3,
         rating: "A",
-        rof: 2.78,
         thermload: 1.56,
         symbol: "Hpt_PulseLaser_Gimbal_Huge"
       } ],
@@ -8770,6 +8770,7 @@ module.exports = {
         edID: 128049400,
         eddbID: 832,
         falloff: 500,
+        fireint: .5,
         grp: "ul",
         id: "11",
         integrity: 40,
@@ -8779,7 +8780,6 @@ module.exports = {
         power: .65,
         range: 3e3,
         rating: "F",
-        rof: 2,
         thermload: .38,
         symbol: "Hpt_PulseLaserBurst_Fixed_Small"
       }, {
@@ -8795,6 +8795,7 @@ module.exports = {
           T: 1
         },
         distdraw: .24,
+        fireint: .45,
         edID: 128049404,
         eddbID: 835,
         falloff: 500,
@@ -8807,7 +8808,6 @@ module.exports = {
         power: .64,
         range: 3e3,
         rating: "G",
-        rof: 2.23,
         thermload: .34,
         symbol: "Hpt_PulseLaserBurst_Gimbal_Small"
       }, {
@@ -8826,6 +8826,7 @@ module.exports = {
         edID: 128049407,
         eddbID: 838,
         falloff: 500,
+        fireint: .52,
         grp: "ul",
         id: "13",
         integrity: 40,
@@ -8835,7 +8836,6 @@ module.exports = {
         power: .6,
         range: 3e3,
         rating: "G",
-        rof: 1.92,
         thermload: .19,
         symbol: "Hpt_PulseLaserBurst_Turret_Small"
       }, {
@@ -8854,6 +8854,7 @@ module.exports = {
         edID: 128671449,
         eddbID: 1477,
         falloff: 600,
+        fireint: .7,
         grp: "ul",
         id: "cy",
         integrity: 40,
@@ -8866,7 +8867,6 @@ module.exports = {
         pp: "Archon Delaine",
         range: 1e3,
         rating: "F",
-        rof: 7.6,
         thermload: .3,
         symbol: "Hpt_PulseLaserBurst_Fixed_Small_Scatter"
       }, {
@@ -8885,6 +8885,7 @@ module.exports = {
         edID: 128049401,
         eddbID: 833,
         falloff: 500,
+        fireint: .63,
         grp: "ul",
         id: "7h",
         integrity: 40,
@@ -8894,7 +8895,6 @@ module.exports = {
         power: 1.05,
         range: 3e3,
         rating: "E",
-        rof: 1.6,
         thermload: .78,
         symbol: "Hpt_PulseLaserBurst_Fixed_Medium"
       }, {
@@ -8913,6 +8913,7 @@ module.exports = {
         edID: 128049405,
         eddbID: 836,
         falloff: 500,
+        fireint: .56,
         grp: "ul",
         id: "7i",
         integrity: 40,
@@ -8922,7 +8923,6 @@ module.exports = {
         power: 1.04,
         range: 3e3,
         rating: "F",
-        rof: 1.78,
         thermload: .67,
         symbol: "Hpt_PulseLaserBurst_Gimbal_Medium"
       }, {
@@ -8941,6 +8941,7 @@ module.exports = {
         edID: 128049408,
         eddbID: 839,
         falloff: 500,
+        fireint: .63,
         grp: "ul",
         id: "7j",
         integrity: 40,
@@ -8950,7 +8951,6 @@ module.exports = {
         power: .98,
         range: 3e3,
         rating: "F",
-        rof: 1.57,
         thermload: .38,
         symbol: "Hpt_PulseLaserBurst_Turret_Medium"
       }, {
@@ -8969,6 +8969,7 @@ module.exports = {
         edID: 128049402,
         eddbID: 834,
         falloff: 500,
+        fireint: .83,
         grp: "ul",
         id: "14",
         integrity: 64,
@@ -8978,7 +8979,6 @@ module.exports = {
         power: 1.66,
         range: 3e3,
         rating: "D",
-        rof: 1.2,
         thermload: 1.7,
         symbol: "Hpt_PulseLaserBurst_Fixed_Large"
       }, {
@@ -8997,6 +8997,7 @@ module.exports = {
         edID: 128049406,
         eddbID: 837,
         falloff: 500,
+        fireint: .71,
         grp: "ul",
         id: "15",
         integrity: 64,
@@ -9006,7 +9007,6 @@ module.exports = {
         power: 1.65,
         range: 3e3,
         rating: "E",
-        rof: 1.4,
         thermload: 1.42,
         symbol: "Hpt_PulseLaserBurst_Gimbal_Large"
       }, {
@@ -9025,6 +9025,7 @@ module.exports = {
         edID: 128049409,
         eddbID: 840,
         falloff: 500,
+        fireint: .78,
         grp: "ul",
         id: "16",
         integrity: 64,
@@ -9034,7 +9035,6 @@ module.exports = {
         power: 1.57,
         range: 3e3,
         rating: "E",
-        rof: 1.272,
         thermload: .78,
         symbol: "Hpt_PulseLaserBurst_Turret_Large"
       }, {
@@ -9053,6 +9053,7 @@ module.exports = {
         edID: 128049403,
         eddbID: 1549,
         falloff: 500,
+        fireint: 1.25,
         grp: "ul",
         id: "7s",
         integrity: 80,
@@ -9062,7 +9063,6 @@ module.exports = {
         power: 2.58,
         range: 3e3,
         rating: "E",
-        rof: .8,
         thermload: 4.53,
         symbol: "Hpt_PulseLaserBurst_Fixed_Huge"
       }, {
@@ -9081,6 +9081,7 @@ module.exports = {
         edID: 128727920,
         eddbID: 1550,
         falloff: 500,
+        fireint: 1,
         grp: "ul",
         id: "7t",
         integrity: 80,
@@ -9090,7 +9091,6 @@ module.exports = {
         power: 2.59,
         range: 3e3,
         rating: "E",
-        rof: 1,
         thermload: 3.33,
         symbol: "Hpt_PulseLaserBurst_Gimbal_Huge"
       } ],
@@ -9243,7 +9243,7 @@ module.exports = {
         mass: 4,
         mount: "G",
         piercing: 35,
-        power: .99,
+        power: 1,
         range: 3e3,
         rating: "D",
         thermload: 5.3,
@@ -9415,6 +9415,7 @@ module.exports = {
         edID: 128049455,
         eddbID: 867,
         falloff: 1800,
+        fireint: .13,
         grp: "mc",
         id: "23",
         integrity: 40,
@@ -9425,7 +9426,6 @@ module.exports = {
         range: 4e3,
         rating: "F",
         reload: 4,
-        rof: 7.69,
         shotspeed: 1600,
         thermload: .09,
         symbol: "Hpt_MultiCannon_Fixed_Small"
@@ -9445,6 +9445,7 @@ module.exports = {
         edID: 128049459,
         eddbID: 869,
         falloff: 1800,
+        fireint: .12,
         grp: "mc",
         id: "24",
         integrity: 40,
@@ -9455,7 +9456,6 @@ module.exports = {
         range: 4e3,
         rating: "G",
         reload: 5,
-        rof: 8.33,
         shotspeed: 1600,
         thermload: .1,
         symbol: "Hpt_MultiCannon_Gimbal_Small"
@@ -9475,6 +9475,7 @@ module.exports = {
         edID: 128049462,
         eddbID: 871,
         falloff: 1800,
+        fireint: .14,
         grp: "mc",
         id: "25",
         integrity: 40,
@@ -9485,7 +9486,6 @@ module.exports = {
         range: 4e3,
         rating: "G",
         reload: 4,
-        rof: 7.14,
         shotspeed: 1600,
         thermload: .04,
         symbol: "Hpt_MultiCannon_Turret_Small"
@@ -9505,6 +9505,7 @@ module.exports = {
         edID: 128671345,
         eddbID: 1481,
         falloff: 1800,
+        fireint: .23,
         grp: "mc",
         id: "e0",
         integrity: 40,
@@ -9517,7 +9518,6 @@ module.exports = {
         range: 4500,
         rating: "F",
         reload: 4,
-        rof: 4.3,
         shotspeed: 1800,
         thermload: .2,
         symbol: "Hpt_MultiCannon_Fixed_Small_Strong"
@@ -9537,6 +9537,7 @@ module.exports = {
         edID: 128049456,
         eddbID: 868,
         falloff: 1800,
+        fireint: .14,
         grp: "mc",
         id: "26",
         integrity: 51,
@@ -9547,7 +9548,6 @@ module.exports = {
         range: 4e3,
         rating: "E",
         reload: 4,
-        rof: 7.14,
         shotspeed: 1600,
         thermload: .18,
         symbol: "Hpt_MultiCannon_Fixed_Medium"
@@ -9567,6 +9567,7 @@ module.exports = {
         edID: 128049460,
         eddbID: 870,
         falloff: 1800,
+        fireint: .13,
         grp: "mc",
         id: "27",
         integrity: 51,
@@ -9577,7 +9578,6 @@ module.exports = {
         range: 4e3,
         rating: "F",
         reload: 5,
-        rof: 7.69,
         shotspeed: 1600,
         thermload: .2,
         symbol: "Hpt_MultiCannon_Gimbal_Medium"
@@ -9597,6 +9597,7 @@ module.exports = {
         edID: 128049463,
         eddbID: 872,
         falloff: 1800,
+        fireint: .16,
         grp: "mc",
         id: "28",
         integrity: 51,
@@ -9607,7 +9608,6 @@ module.exports = {
         range: 4e3,
         rating: "F",
         reload: 4,
-        rof: 6.25,
         shotspeed: 1600,
         thermload: .09,
         symbol: "Hpt_MultiCannon_Turret_Medium"
@@ -9627,6 +9627,7 @@ module.exports = {
         edID: 128049457,
         eddbID: 1541,
         falloff: 1800,
+        fireint: .17,
         grp: "mc",
         id: "7k",
         integrity: 64,
@@ -9637,7 +9638,6 @@ module.exports = {
         range: 4e3,
         rating: "C",
         reload: 4,
-        rof: 5.884,
         shotspeed: 1600,
         thermload: .28,
         symbol: "Hpt_MultiCannon_Fixed_Large"
@@ -9657,6 +9657,7 @@ module.exports = {
         edID: 128049461,
         eddbID: 1543,
         falloff: 1800,
+        fireint: .15,
         grp: "mc",
         id: "7l",
         integrity: 64,
@@ -9667,7 +9668,6 @@ module.exports = {
         range: 4e3,
         rating: "C",
         reload: 5,
-        rof: 6.665,
         shotspeed: 1600,
         thermload: .34,
         symbol: "Hpt_MultiCannon_Gimbal_Large"
@@ -9687,6 +9687,7 @@ module.exports = {
         edID: 128049464,
         eddbID: 1658,
         falloff: 2e3,
+        fireint: .19,
         grp: "mc",
         id: "yH",
         integrity: 64,
@@ -9697,7 +9698,6 @@ module.exports = {
         range: 4e3,
         rating: "E",
         reload: 4,
-        rof: 5.3,
         shotspeed: 1600,
         thermload: .2,
         symbol: "Hpt_MultiCannon_Turret_Large"
@@ -9717,6 +9717,7 @@ module.exports = {
         edID: 128049458,
         eddbID: 1542,
         falloff: 1800,
+        fireint: .33,
         grp: "mc",
         id: "7n",
         integrity: 80,
@@ -9727,7 +9728,6 @@ module.exports = {
         range: 4e3,
         rating: "A",
         reload: 4,
-        rof: 3.03,
         roundspershot: 2,
         shotspeed: 1600,
         thermload: .39,
@@ -9748,6 +9748,7 @@ module.exports = {
         edID: 128681996,
         eddbID: 1546,
         falloff: 1800,
+        fireint: .297,
         grp: "mc",
         id: "7o",
         integrity: 80,
@@ -9758,7 +9759,6 @@ module.exports = {
         range: 4e3,
         rating: "A",
         reload: 5,
-        rof: 3.365,
         roundspershot: 2,
         shotspeed: 1600,
         thermload: .51,
@@ -9781,6 +9781,7 @@ module.exports = {
         edID: 128788701,
         eddbID: 1618,
         falloff: 2e3,
+        fireint: .14,
         grp: "axmc",
         id: "x0",
         integrity: 51,
@@ -9791,7 +9792,6 @@ module.exports = {
         range: 4e3,
         rating: "E",
         reload: 4,
-        rof: 7.1,
         shotspeed: 1600,
         thermload: .2,
         symbol: "Hpt_ATMultiCannon_Fixed_Medium"
@@ -9812,6 +9812,7 @@ module.exports = {
         edID: 128793059,
         eddbID: 1619,
         falloff: 2e3,
+        fireint: .16,
         grp: "axmc",
         id: "x1",
         integrity: 51,
@@ -9822,7 +9823,6 @@ module.exports = {
         range: 4e3,
         rating: "F",
         reload: 4,
-        rof: 6.2,
         shotspeed: 1600,
         thermload: .1,
         symbol: "Hpt_ATMultiCannon_Turret_Medium"
@@ -9843,6 +9843,7 @@ module.exports = {
         edID: 128788702,
         eddbID: 1625,
         falloff: 2e3,
+        fireint: .17,
         grp: "axmc",
         id: "x2",
         integrity: 64,
@@ -9853,7 +9854,6 @@ module.exports = {
         range: 4e3,
         rating: "C",
         reload: 4,
-        rof: 5.9,
         shotspeed: 1600,
         thermload: .3,
         symbol: "Hpt_ATMultiCannon_Fixed_Large"
@@ -9874,6 +9874,7 @@ module.exports = {
         edID: 128793060,
         eddbID: 1626,
         falloff: 2e3,
+        fireint: .16,
         grp: "axmc",
         id: "x3",
         integrity: 64,
@@ -9884,7 +9885,6 @@ module.exports = {
         range: 4e3,
         rating: "E",
         reload: 4,
-        rof: 6.2,
         shotspeed: 1600,
         thermload: .1,
         symbol: "Hpt_ATMultiCannon_Turret_Large"
@@ -9905,6 +9905,7 @@ module.exports = {
         edID: 128049438,
         eddbID: 850,
         falloff: 3e3,
+        fireint: 2,
         grp: "c",
         id: "1h",
         integrity: 40,
@@ -9915,7 +9916,6 @@ module.exports = {
         range: 3e3,
         rating: "D",
         reload: 3,
-        rof: .5,
         shotspeed: 1200,
         thermload: 1.4,
         symbol: "Hpt_Cannon_Fixed_Small"
@@ -9935,6 +9935,7 @@ module.exports = {
         edID: 128049442,
         eddbID: 854,
         falloff: 3e3,
+        fireint: 1.92,
         grp: "c",
         id: "1i",
         integrity: 40,
@@ -9945,7 +9946,6 @@ module.exports = {
         range: 3e3,
         rating: "E",
         reload: 4,
-        rof: .52,
         shotspeed: 1e3,
         thermload: 1.3,
         symbol: "Hpt_Cannon_Gimbal_Small"
@@ -9965,6 +9965,7 @@ module.exports = {
         edID: 128049445,
         eddbID: 857,
         falloff: 3e3,
+        fireint: 2.31,
         grp: "c",
         id: "1j",
         integrity: 40,
@@ -9975,7 +9976,6 @@ module.exports = {
         range: 3e3,
         rating: "F",
         reload: 4,
-        rof: .435,
         shotspeed: 1e3,
         thermload: .7,
         symbol: "Hpt_Cannon_Turret_Small"
@@ -9995,6 +9995,7 @@ module.exports = {
         edID: 128049439,
         eddbID: 851,
         falloff: 3500,
+        fireint: 2.17,
         grp: "c",
         id: "1k",
         integrity: 51,
@@ -10005,7 +10006,6 @@ module.exports = {
         range: 3500,
         rating: "D",
         reload: 3,
-        rof: .465,
         shotspeed: 1051,
         thermload: 2.1,
         symbol: "Hpt_Cannon_Fixed_Medium"
@@ -10025,6 +10025,7 @@ module.exports = {
         edID: 128049443,
         eddbID: 855,
         falloff: 3500,
+        fireint: 2.08,
         grp: "c",
         id: "1l",
         integrity: 51,
@@ -10035,7 +10036,6 @@ module.exports = {
         range: 3500,
         rating: "D",
         reload: 4,
-        rof: .485,
         shotspeed: 875,
         thermload: 1.9,
         symbol: "Hpt_Cannon_Gimbal_Medium"
@@ -10055,6 +10055,7 @@ module.exports = {
         edID: 128049446,
         eddbID: 858,
         falloff: 3500,
+        fireint: 2.5,
         grp: "c",
         id: "1m",
         integrity: 51,
@@ -10065,7 +10066,6 @@ module.exports = {
         range: 3500,
         rating: "E",
         reload: 4,
-        rof: .405,
         shotspeed: 875,
         thermload: 1,
         symbol: "Hpt_Cannon_Turret_Medium"
@@ -10085,6 +10085,7 @@ module.exports = {
         edID: 128049440,
         eddbID: 852,
         falloff: 4e3,
+        fireint: 2.38,
         grp: "c",
         id: "1n",
         integrity: 64,
@@ -10095,7 +10096,6 @@ module.exports = {
         range: 4e3,
         rating: "C",
         reload: 3,
-        rof: .425,
         shotspeed: 959,
         thermload: 3.2,
         symbol: "Hpt_Cannon_Fixed_Large"
@@ -10115,6 +10115,7 @@ module.exports = {
         edID: 128671120,
         eddbID: 1383,
         falloff: 4e3,
+        fireint: 2.27,
         eps: .456,
         grp: "c",
         hps: 1.16,
@@ -10127,7 +10128,6 @@ module.exports = {
         range: 4e3,
         rating: "C",
         reload: 4,
-        rof: .445,
         shotspeed: 800,
         thermload: 2.9,
         symbol: "Hpt_Cannon_Gimbal_Large"
@@ -10147,6 +10147,7 @@ module.exports = {
         edID: 128049447,
         eddbID: 859,
         falloff: 4e3,
+        fireint: 2.72,
         grp: "c",
         id: "1p",
         integrity: 64,
@@ -10157,7 +10158,6 @@ module.exports = {
         range: 4e3,
         rating: "D",
         reload: 4,
-        rof: .37,
         shotspeed: 800,
         thermload: 1.6,
         symbol: "Hpt_Cannon_Turret_Large"
@@ -10177,6 +10177,7 @@ module.exports = {
         edID: 128049441,
         eddbID: 853,
         falloff: 4500,
+        fireint: 2.63,
         eps: .644,
         grp: "c",
         hps: 1.92,
@@ -10189,7 +10190,6 @@ module.exports = {
         range: 4500,
         rating: "B",
         reload: 3,
-        rof: .385,
         shotspeed: 900,
         thermload: 4.8,
         symbol: "Hpt_Cannon_Fixed_Huge"
@@ -10209,6 +10209,7 @@ module.exports = {
         edID: 128049444,
         eddbID: 856,
         falloff: 4500,
+        fireint: 2.5,
         eps: .688,
         grp: "c",
         hps: 1.76,
@@ -10221,7 +10222,6 @@ module.exports = {
         range: 4500,
         rating: "B",
         reload: 4,
-        rof: .4,
         shotspeed: 750,
         thermload: 4.4,
         symbol: "Hpt_Cannon_Gimbal_Huge"
@@ -10242,6 +10242,7 @@ module.exports = {
         edID: 128049448,
         eddbID: 860,
         falloff: 1800,
+        fireint: .18,
         grp: "fc",
         id: "20",
         integrity: 40,
@@ -10253,7 +10254,6 @@ module.exports = {
         range: 2e3,
         rating: "E",
         reload: 5,
-        rof: 5.555,
         roundspershot: 12,
         shotspeed: 667,
         thermload: .4,
@@ -10274,6 +10274,7 @@ module.exports = {
         edID: 128049451,
         eddbID: 863,
         falloff: 1800,
+        fireint: .17,
         grp: "fc",
         id: "21",
         integrity: 40,
@@ -10285,7 +10286,6 @@ module.exports = {
         range: 2e3,
         rating: "E",
         reload: 5,
-        rof: 5.88,
         roundspershot: 12,
         shotspeed: 667,
         thermload: .4,
@@ -10306,6 +10306,7 @@ module.exports = {
         edID: 128049453,
         eddbID: 865,
         falloff: 1800,
+        fireint: .21,
         grp: "fc",
         id: "22",
         integrity: 40,
@@ -10317,7 +10318,6 @@ module.exports = {
         range: 2e3,
         rating: "E",
         reload: 5,
-        rof: 4.76,
         roundspershot: 12,
         shotspeed: 667,
         thermload: .2,
@@ -10338,6 +10338,7 @@ module.exports = {
         edID: 128049449,
         eddbID: 861,
         falloff: 1800,
+        fireint: .2,
         grp: "fc",
         id: "1s",
         integrity: 80,
@@ -10349,7 +10350,6 @@ module.exports = {
         range: 2e3,
         rating: "A",
         reload: 5,
-        rof: 4.975,
         roundspershot: 12,
         shotspeed: 667,
         thermload: .7,
@@ -10370,6 +10370,7 @@ module.exports = {
         edID: 128049452,
         eddbID: 864,
         falloff: 1800,
+        fireint: .19,
         grp: "fc",
         id: "7e",
         integrity: 80,
@@ -10381,7 +10382,6 @@ module.exports = {
         range: 2e3,
         rating: "D",
         reload: 5,
-        rof: 5.26,
         roundspershot: 12,
         shotspeed: 667,
         thermload: .8,
@@ -10402,6 +10402,7 @@ module.exports = {
         edID: 128049454,
         eddbID: 866,
         falloff: 1800,
+        fireint: .23,
         grp: "fc",
         id: "7f",
         integrity: 80,
@@ -10413,7 +10414,6 @@ module.exports = {
         range: 2e3,
         rating: "D",
         reload: 5,
-        rof: 4.26,
         roundspershot: 12,
         shotspeed: 667,
         thermload: .4,
@@ -10434,6 +10434,7 @@ module.exports = {
         edID: 128049450,
         eddbID: 862,
         falloff: 1800,
+        fireint: .22,
         grp: "fc",
         id: "1t",
         integrity: 80,
@@ -10445,7 +10446,6 @@ module.exports = {
         range: 2e3,
         rating: "C",
         reload: 5,
-        rof: 4.545,
         roundspershot: 12,
         shotspeed: 667,
         thermload: 1.1,
@@ -10466,6 +10466,7 @@ module.exports = {
         edID: 128671321,
         eddbID: 1454,
         falloff: 1800,
+        fireint: .21,
         grp: "fc",
         id: "1u",
         integrity: 80,
@@ -10477,7 +10478,6 @@ module.exports = {
         range: 2e3,
         rating: "C",
         reload: 5,
-        rof: 4.76,
         roundspershot: 12,
         shotspeed: 667,
         thermload: 1.4,
@@ -10498,6 +10498,7 @@ module.exports = {
         edID: 128671322,
         eddbID: 1455,
         falloff: 1800,
+        fireint: .25,
         grp: "fc",
         id: "1v",
         integrity: 80,
@@ -10509,7 +10510,6 @@ module.exports = {
         range: 2e3,
         rating: "C",
         reload: 5,
-        rof: 4,
         roundspershot: 12,
         shotspeed: 667,
         thermload: .7,
@@ -10530,6 +10530,7 @@ module.exports = {
         edID: 128671343,
         eddbID: 1478,
         falloff: 1800,
+        fireint: .22,
         grp: "fc",
         id: "pa",
         integrity: 64,
@@ -10542,7 +10543,6 @@ module.exports = {
         pp: "Zachary Hudson",
         rating: "C",
         reload: 5,
-        rof: 4.5,
         roundspershot: 12,
         shotspeed: 1e3,
         thermload: 1.1,
@@ -10564,6 +10564,7 @@ module.exports = {
         edID: 128785626,
         eddbID: 1620,
         falloff: 1e5,
+        fireint: 2,
         grp: "rfl",
         id: "x8",
         integrity: 51,
@@ -10573,7 +10574,6 @@ module.exports = {
         power: 1.2,
         rating: "B",
         reload: 2,
-        rof: .5,
         shotspeed: 550,
         thermload: 3.6,
         symbol: "Hpt_FlakMortar_Fixed_Medium"
@@ -10593,6 +10593,7 @@ module.exports = {
         edID: 128793058,
         eddbID: 1621,
         falloff: 1e5,
+        fireint: 2,
         grp: "rfl",
         id: "x9",
         integrity: 51,
@@ -10602,7 +10603,6 @@ module.exports = {
         power: 1.2,
         rating: "B",
         reload: 2,
-        rof: .5,
         shotspeed: 550,
         thermload: 3.6,
         symbol: "Hpt_FlakMortar_Turret_Medium"
@@ -10624,6 +10624,7 @@ module.exports = {
         edID: 128049488,
         eddbID: 876,
         falloff: 1e3,
+        fireint: .625,
         grp: "rg",
         id: "29",
         integrity: 40,
@@ -10634,7 +10635,6 @@ module.exports = {
         range: 3e3,
         rating: "D",
         reload: 1,
-        rof: 1.6,
         thermload: 12,
         symbol: "Hpt_Railgun_Fixed_Small"
       }, {
@@ -10654,6 +10654,7 @@ module.exports = {
         edID: 128049489,
         eddbID: 877,
         falloff: 1e3,
+        fireint: .83,
         grp: "rg",
         id: "2a",
         integrity: 51,
@@ -10664,7 +10665,6 @@ module.exports = {
         range: 3e3,
         rating: "B",
         reload: 1,
-        rof: 1.2,
         thermload: 20,
         symbol: "Hpt_Railgun_Fixed_Medium"
       }, {
@@ -10686,6 +10686,7 @@ module.exports = {
         edID: 128671341,
         eddbID: 1484,
         falloff: 1e3,
+        fireint: .4,
         grp: "rg",
         id: "ih",
         integrity: 51,
@@ -10698,7 +10699,6 @@ module.exports = {
         range: 3e3,
         rating: "B",
         reload: 1,
-        rof: 4.1,
         thermload: 11,
         symbol: "Hpt_Railgun_Fixed_Medium_Burst"
       } ],
@@ -10720,6 +10720,7 @@ module.exports = {
         edID: 128049465,
         eddbID: 873,
         falloff: 2e3,
+        fireint: 3.03,
         grp: "pa",
         id: "1g",
         integrity: 51,
@@ -10730,7 +10731,6 @@ module.exports = {
         range: 3500,
         rating: "C",
         reload: 6,
-        rof: .33,
         shotspeed: 875,
         thermload: 15.6,
         symbol: "Hpt_PlasmaAccelerator_Fixed_Medium"
@@ -10752,6 +10752,7 @@ module.exports = {
         edID: 128049466,
         eddbID: 874,
         falloff: 2e3,
+        fireint: 3.45,
         grp: "pa",
         id: "2b",
         integrity: 64,
@@ -10762,7 +10763,6 @@ module.exports = {
         range: 3500,
         rating: "B",
         reload: 6,
-        rof: .29,
         shotspeed: 875,
         thermload: 21.8,
         symbol: "Hpt_PlasmaAccelerator_Fixed_Large"
@@ -10784,6 +10784,7 @@ module.exports = {
         edID: 128671339,
         eddbID: 1482,
         falloff: 2e3,
+        fireint: 1.25,
         grp: "pa",
         id: "Ap",
         integrity: 64,
@@ -10796,7 +10797,6 @@ module.exports = {
         range: 3500,
         rating: "B",
         reload: 6,
-        rof: .8,
         shotspeed: 875,
         thermload: 11,
         symbol: "Hpt_PlasmaAccelerator_Fixed_Large_Advanced"
@@ -10818,6 +10818,7 @@ module.exports = {
         edID: 128049467,
         eddbID: 875,
         falloff: 2e3,
+        fireint: 4,
         grp: "pa",
         id: "2c",
         integrity: 80,
@@ -10828,7 +10829,6 @@ module.exports = {
         range: 3500,
         rating: "A",
         reload: 6,
-        rof: .25,
         shotspeed: 875,
         thermload: 29.5,
         symbol: "Hpt_PlasmaAccelerator_Fixed_Huge"
@@ -10848,6 +10848,7 @@ module.exports = {
         distdraw: .24,
         edID: 128666724,
         eddbID: 1326,
+        fireint: 2,
         grp: "mr",
         id: "2d",
         integrity: 40,
@@ -10858,7 +10859,6 @@ module.exports = {
         power: .4,
         rating: "B",
         reload: 5,
-        rof: .5,
         shotspeed: 750,
         thermload: 3.6,
         symbol: "Hpt_DumbfireMissileRack_Fixed_Small"
@@ -10877,6 +10877,7 @@ module.exports = {
         distdraw: .24,
         edID: 128049492,
         eddbID: 878,
+        fireint: 3,
         grp: "mr",
         id: "2e",
         integrity: 40,
@@ -10887,7 +10888,6 @@ module.exports = {
         power: .6,
         rating: "B",
         reload: 12,
-        rof: .333,
         shotspeed: 625,
         thermload: 3.6,
         symbol: "Hpt_BasicMissileRack_Fixed_Small"
@@ -10907,6 +10907,7 @@ module.exports = {
         edID: 128666725,
         eddbID: 1327,
         eps: .12,
+        fireint: 2,
         grp: "mr",
         hps: 1.8,
         id: "2f",
@@ -10918,7 +10919,6 @@ module.exports = {
         power: 1.2,
         rating: "B",
         reload: 5,
-        rof: .5,
         shotspeed: 750,
         thermload: 3.6,
         symbol: "Hpt_DumbfireMissileRack_Fixed_Medium"
@@ -10938,6 +10938,7 @@ module.exports = {
         edID: 128049493,
         eddbID: 879,
         eps: .07,
+        fireint: 3,
         grp: "mr",
         hps: 1.08,
         id: "2g",
@@ -10949,7 +10950,6 @@ module.exports = {
         power: 1.2,
         rating: "B",
         reload: 12,
-        rof: .333,
         shotspeed: 625,
         thermload: 3.6,
         symbol: "Hpt_BasicMissileRack_Fixed_Medium"
@@ -10969,6 +10969,7 @@ module.exports = {
         eddbID: 1559,
         grp: "mr",
         edID: 128732552,
+        fireint: 3,
         id: "1z",
         integrity: 51,
         mass: 4,
@@ -10980,7 +10981,6 @@ module.exports = {
         pp: "Yuri Grom",
         rating: "B",
         reload: 5,
-        rof: .333,
         shotspeed: 750,
         thermload: 3.6,
         symbol: "Hpt_DumbfireMissileRack_Fixed_Medium_Lasso"
@@ -11000,6 +11000,7 @@ module.exports = {
         edID: 128671344,
         eddbID: 1480,
         eps: 1.92,
+        fireint: .5,
         grp: "mr",
         hps: 28.8,
         id: "Ph",
@@ -11013,7 +11014,6 @@ module.exports = {
         pp: "Li Yong-Rui",
         rating: "B",
         reload: 5,
-        rof: 2,
         roundspershot: 4,
         shotspeed: 600,
         thermload: 3.6,
@@ -11033,6 +11033,7 @@ module.exports = {
         distdraw: .24,
         edID: 128891602,
         eddbID: 1657,
+        fireint: 2,
         grp: "mr",
         id: "yI",
         integrity: 64,
@@ -11043,7 +11044,6 @@ module.exports = {
         power: 1.62,
         rating: "A",
         reload: 5,
-        rof: .5,
         shotspeed: 750,
         thermload: 3.6,
         symbol: "Hpt_DumbfireMissileRack_Fixed_Large"
@@ -11062,6 +11062,7 @@ module.exports = {
         distdraw: .24,
         edID: 128049494,
         eddbID: 1656,
+        fireint: 3,
         grp: "mr",
         id: "yJ",
         integrity: 64,
@@ -11072,7 +11073,6 @@ module.exports = {
         power: 1.62,
         rating: "A",
         reload: 12,
-        rof: .333,
         shotspeed: 625,
         thermload: 3.6,
         symbol: "Hpt_BasicMissileRack_Fixed_Large"
@@ -11094,6 +11094,7 @@ module.exports = {
         edID: 128788699,
         eddbID: 1614,
         falloff: 1e4,
+        fireint: 2,
         grp: "axmr",
         id: "x4",
         integrity: 51,
@@ -11104,7 +11105,6 @@ module.exports = {
         power: 1.2,
         rating: "B",
         reload: 5,
-        rof: .5,
         shotspeed: 750,
         thermload: 2.4,
         symbol: "Hpt_ATDumbfireMissile_Fixed_Medium"
@@ -11125,6 +11125,7 @@ module.exports = {
         edID: 128788704,
         eddbID: 1615,
         falloff: 1e4,
+        fireint: 2,
         grp: "axmr",
         id: "x5",
         integrity: 51,
@@ -11135,7 +11136,6 @@ module.exports = {
         power: 1.2,
         rating: "B",
         reload: 5,
-        rof: .5,
         shotspeed: 750,
         thermload: 1.5,
         symbol: "Hpt_ATDumbfireMissile_Turret_Medium"
@@ -11156,6 +11156,7 @@ module.exports = {
         edID: 128788700,
         eddbID: 1623,
         falloff: 1e4,
+        fireint: 2,
         grp: "axmr",
         id: "x6",
         integrity: 64,
@@ -11166,7 +11167,6 @@ module.exports = {
         power: 1.62,
         rating: "A",
         reload: 5,
-        rof: .5,
         shotspeed: 750,
         thermload: 3.6,
         symbol: "Hpt_ATDumbfireMissile_Fixed_Large"
@@ -11187,6 +11187,7 @@ module.exports = {
         edID: 128788705,
         eddbID: 1624,
         falloff: 1e4,
+        fireint: 2,
         grp: "axmr",
         id: "x7",
         integrity: 64,
@@ -11197,7 +11198,6 @@ module.exports = {
         power: 1.75,
         rating: "A",
         reload: 5,
-        rof: .5,
         shotspeed: 750,
         thermload: 1.9,
         symbol: "Hpt_ATDumbfireMissile_Turret_Large"
@@ -11217,6 +11217,7 @@ module.exports = {
         distdraw: 0,
         edID: 128049509,
         eddbID: 882,
+        fireint: 1,
         grp: "tp",
         id: "2h",
         integrity: 40,
@@ -11227,7 +11228,6 @@ module.exports = {
         power: .4,
         rating: "I",
         reload: 5,
-        rof: 1,
         shotspeed: 250,
         thermload: 45,
         symbol: "Hpt_AdvancedTorpPylon_Fixed_Small"
@@ -11246,6 +11246,7 @@ module.exports = {
         distdraw: 0,
         edID: 128049510,
         eddbID: 883,
+        fireint: 1,
         grp: "tp",
         id: "2i",
         integrity: 51,
@@ -11256,7 +11257,6 @@ module.exports = {
         power: .4,
         rating: "I",
         reload: 5,
-        rof: 1,
         shotspeed: 250,
         thermload: 50,
         symbol: "Hpt_AdvancedTorpPylon_Fixed_Medium"
@@ -11275,6 +11275,7 @@ module.exports = {
         distdraw: 0,
         edID: 128049511,
         eddbID: 1655,
+        fireint: 1,
         grp: "tp",
         id: "yK",
         integrity: 64,
@@ -11285,7 +11286,6 @@ module.exports = {
         power: .6,
         rating: "I",
         reload: 5,
-        rof: 1,
         shotspeed: 250,
         thermload: 55,
         symbol: "Hpt_AdvancedTorpPylon_Fixed_Large"
@@ -11306,6 +11306,7 @@ module.exports = {
         distdraw: 0,
         edID: 128049500,
         eddbID: 880,
+        fireint: 1,
         grp: "nl",
         id: "2j",
         integrity: 40,
@@ -11315,7 +11316,6 @@ module.exports = {
         power: .4,
         rating: "I",
         reload: 2,
-        rof: 1,
         thermload: 5,
         symbol: "Hpt_MineLauncher_Fixed_Small"
       }, {
@@ -11334,6 +11334,7 @@ module.exports = {
         distdraw: 0,
         edID: 128671448,
         eddbID: 1523,
+        fireint: 1,
         grp: "nl",
         id: "kp",
         integrity: 40,
@@ -11344,7 +11345,6 @@ module.exports = {
         power: .4,
         rating: "I",
         reload: 2,
-        rof: 1,
         thermload: 5,
         symbol: "Hpt_MineLauncher_Fixed_Small_Impulse"
       }, {
@@ -11363,6 +11363,7 @@ module.exports = {
         distdraw: 0,
         edID: 128049501,
         eddbID: 881,
+        fireint: 1,
         grp: "nl",
         id: "2k",
         integrity: 51,
@@ -11372,7 +11373,6 @@ module.exports = {
         power: .4,
         rating: "I",
         reload: 6.6,
-        rof: 1,
         thermload: 7.5,
         symbol: "Hpt_MineLauncher_Fixed_Medium"
       } ],
@@ -11748,6 +11748,7 @@ module.exports = {
         edID: 128915458,
         eddbID: 823,
         falloff: 1e3,
+        fireint: .2,
         clip: 1,
         grp: "abl",
         id: "3R",
@@ -11759,7 +11760,6 @@ module.exports = {
         power: .34,
         range: 1e3,
         rating: "D",
-        rof: 5,
         thermload: 1.8,
         symbol: "Hpt_Mining_AbrBlstr_Fixed_Small"
       }, {
@@ -11778,6 +11778,7 @@ module.exports = {
         edID: 128915459,
         eddbID: 823,
         falloff: 1e3,
+        fireint: .2,
         clip: 1,
         grp: "abl",
         id: "3S",
@@ -11789,7 +11790,6 @@ module.exports = {
         power: .47,
         range: 1e3,
         rating: "D",
-        rof: 5,
         thermload: 1.8,
         symbol: "Hpt_Mining_Abrblstr_Turret_Small"
       } ],
@@ -11809,6 +11809,7 @@ module.exports = {
         edID: 128915461,
         eddbID: 823,
         falloff: 500,
+        fireint: 1,
         ammo: 72,
         clip: 1,
         grp: "scl",
@@ -11820,7 +11821,6 @@ module.exports = {
         power: 1.2,
         range: 3e3,
         rating: "B",
-        rof: 1,
         thermload: 3.6,
         symbol: "Hpt_Mining_SeismChrgWarhd_Turret_Medium"
       }, {
@@ -11839,6 +11839,7 @@ module.exports = {
         edID: 128049381,
         eddbID: 823,
         falloff: 500,
+        fireint: 1,
         ammo: 72,
         clip: 1,
         grp: "scl",
@@ -11850,7 +11851,6 @@ module.exports = {
         power: 1.2,
         range: 3e3,
         rating: "B",
-        rof: 1,
         thermload: 3.6,
         symbol: "Hpt_Mining_SeismChrgWarhd_Fixed_Medium"
       } ],
@@ -12021,6 +12021,7 @@ module.exports = {
         duration: 20,
         edID: 128049513,
         eddbID: 884,
+        fireint: 1,
         grp: "ch",
         id: "00",
         integrity: 20,
@@ -12030,7 +12031,6 @@ module.exports = {
         power: .2,
         rating: "I",
         reload: 10,
-        rof: 1,
         thermload: 4,
         symbol: "Hpt_ChaffLauncher_Tiny"
       } ],
@@ -12066,6 +12066,7 @@ module.exports = {
         edID: 128049519,
         eddbID: 886,
         eps: .4,
+        fireint: 5,
         grp: "hs",
         id: "02",
         integrity: 20,
@@ -12075,7 +12076,6 @@ module.exports = {
         power: .2,
         rating: "I",
         reload: 10,
-        rof: .2,
         symbol: "Hpt_HeatSinkLauncher_Turret_Tiny"
       } ],
       po: [ {
@@ -12091,6 +12091,7 @@ module.exports = {
         },
         edID: 128049522,
         eddbID: 887,
+        fireint: .2,
         grp: "po",
         id: "03",
         integrity: 30,
@@ -12102,7 +12103,6 @@ module.exports = {
         range: 2500,
         rating: "I",
         reload: .4,
-        rof: 10,
         shotspeed: 1e3,
         thermload: .1,
         symbol: "Hpt_PlasmaPointDefence_Turret_Tiny"
@@ -12123,6 +12123,7 @@ module.exports = {
         edID: 128891607,
         eddbID: 0,
         falloff: 1e3,
+        fireint: .2,
         grp: "gpc",
         id: "yN",
         integrity: 34,
@@ -12133,7 +12134,6 @@ module.exports = {
         range: 3e3,
         rating: "D",
         reload: 3,
-        rof: 5,
         shotspeed: 1200,
         thermload: 4.2,
         symbol: "Hpt_Guardian_PlasmaLauncher_Fixed_Small"
@@ -12153,6 +12153,7 @@ module.exports = {
         edID: 128891606,
         eddbID: 0,
         falloff: 1e3,
+        fireint: .2,
         grp: "gpc",
         id: "yM",
         integrity: 34,
@@ -12163,7 +12164,6 @@ module.exports = {
         range: 3e3,
         rating: "F",
         reload: 3,
-        rof: 5,
         shotspeed: 1200,
         thermload: 5,
         symbol: "Hpt_Guardian_PlasmaLauncher_Turret_Small"
@@ -12183,6 +12183,7 @@ module.exports = {
         edID: 128833998,
         eddbID: 874,
         falloff: 1e3,
+        fireint: .2,
         grp: "gpc",
         id: "0J",
         integrity: 42,
@@ -12193,7 +12194,6 @@ module.exports = {
         range: 3500,
         rating: "B",
         reload: 3,
-        rof: 5,
         shotspeed: 1200,
         thermload: 5.2,
         symbol: "Hpt_Guardian_PlasmaLauncher_Fixed_Medium"
@@ -12213,6 +12213,7 @@ module.exports = {
         edID: 128833999,
         eddbID: 874,
         falloff: 1e3,
+        fireint: .2,
         grp: "gpc",
         id: "0I",
         integrity: 42,
@@ -12223,7 +12224,6 @@ module.exports = {
         range: 3500,
         rating: "E",
         reload: 3,
-        rof: 5,
         shotspeed: 1200,
         thermload: 5.8,
         symbol: "Hpt_Guardian_PlasmaLauncher_Turret_Medium"
@@ -12241,11 +12241,11 @@ module.exports = {
         power: 3.1,
         damage: 3.4,
         distdraw: 2.42,
+        fireint: .2,
         thermload: 6.2,
         piercing: 95,
         range: 3e3,
         shotspeed: 1200,
-        rof: 5,
         clip: 15,
         ammo: 200,
         reload: 3,
@@ -12273,6 +12273,7 @@ module.exports = {
         edID: 128834784,
         eddbID: 0,
         falloff: 1e3,
+        fireint: .2,
         grp: "gpc",
         id: "xv",
         integrity: 51,
@@ -12283,7 +12284,6 @@ module.exports = {
         range: 3e3,
         rating: "D",
         reload: 3,
-        rof: 5,
         shotspeed: 1200,
         thermload: 6.4,
         symbol: "Hpt_Guardian_PlasmaLauncher_Turret_Large"
@@ -12304,6 +12304,7 @@ module.exports = {
         edID: 128891610,
         eddbID: 0,
         falloff: 1500,
+        fireint: .83,
         grp: "ggc",
         id: "yL",
         integrity: 40,
@@ -12314,7 +12315,6 @@ module.exports = {
         range: 3e3,
         rating: "D",
         reload: 1,
-        rof: 1.2,
         thermload: 15,
         symbol: "Hpt_Guardian_GaussCannon_Fixed_Small",
         requirements: {
@@ -12326,7 +12326,6 @@ module.exports = {
         breachmax: .4,
         breachmin: .2,
         burst: 1,
-        burstrof: .83,
         class: 2,
         clip: 1,
         cost: 543801,
@@ -12338,6 +12337,7 @@ module.exports = {
         edID: 128833687,
         eddbID: 876,
         falloff: 1500,
+        fireint: .83,
         grp: "ggc",
         id: "0H",
         integrity: 42,
@@ -12348,7 +12348,6 @@ module.exports = {
         range: 3e3,
         rating: "B",
         reload: 1,
-        rof: 1.205,
         thermload: 25,
         symbol: "Hpt_Guardian_GaussCannon_Fixed_Medium",
         requirements: {
@@ -12390,6 +12389,7 @@ module.exports = {
         edID: 128915457,
         eddbID: 823,
         falloff: 500,
+        fireint: 2,
         ammo: 96,
         clip: 1,
         grp: "sdm",
@@ -12399,12 +12399,11 @@ module.exports = {
         mass: 4,
         mount: "F",
         piercing: 25,
-        power: .93,
+        power: 1.01,
         range: 3e3,
         rating: "B",
-        rof: .5,
         thermload: 2.9,
-        symbol: "Hpt_Mining_SubSurfDispMisle_Turret_Medium"
+        symbol: "Hpt_Mining_SubSurfDispMisle_Fixed_Medium"
       }, {
         breachdmg: .5,
         breachmax: .2,
@@ -12421,6 +12420,7 @@ module.exports = {
         edID: 128049381,
         eddbID: 823,
         falloff: 500,
+        fireint: 2,
         ammo: 96,
         clip: 1,
         grp: "sdm",
@@ -12433,7 +12433,6 @@ module.exports = {
         power: .93,
         range: 3e3,
         rating: "B",
-        rof: .5,
         thermload: 2.9,
         symbol: "Hpt_Mining_Subsurfdispmisle_Turret_Medium"
       }, {
@@ -12452,6 +12451,7 @@ module.exports = {
         edID: 128915455,
         eddbID: 823,
         falloff: 500,
+        fireint: 2,
         ammo: 32,
         clip: 1,
         grp: "sdm",
@@ -12464,9 +12464,8 @@ module.exports = {
         power: .42,
         range: 3e3,
         rating: "B",
-        rof: .5,
         thermload: 2.2,
-        symbol: "Hpt_Mining_SubSurfDispMisle_Turret_Small"
+        symbol: "Hpt_Mining_SubSurfDispMisle_Fixed_Small"
       }, {
         breachdmg: .5,
         breachmax: .2,
@@ -12483,6 +12482,7 @@ module.exports = {
         edID: 128049381,
         eddbID: 823,
         falloff: 500,
+        fireint: 2,
         ammo: 32,
         clip: 1,
         grp: "sdm",
@@ -12495,7 +12495,6 @@ module.exports = {
         power: .42,
         range: 3e3,
         rating: "B",
-        rof: .5,
         thermload: 2.2,
         symbol: "Hpt_Mining_Subsurfdispmisle_Turret_Small"
       } ],
@@ -12531,11 +12530,11 @@ module.exports = {
         power: .89,
         damage: 18.1,
         distdraw: .92,
+        fireint: .1,
         thermload: 2.7,
         piercing: 60,
         range: 3e3,
         shotspeed: 1200,
-        rof: 10,
         roundspershot: 0,
         clip: 16,
         ammo: 240,
@@ -12566,12 +12565,12 @@ module.exports = {
         },
         distdraw: 1.07,
         falloff: 2500,
+        fireint: .1,
         integrity: 64,
         mount: "G",
         piercing: 60,
         power: .89,
         range: 3e3,
-        rof: 10,
         shotspeed: 1200,
         thermload: 3.1,
         cost: 2249050,
@@ -12594,11 +12593,11 @@ module.exports = {
         power: .64,
         damage: 12.32,
         distdraw: .79,
+        fireint: .1,
         thermload: 2.2,
         piercing: 60,
         range: 3e3,
         shotspeed: 1200,
-        rof: 10,
         clip: 16,
         ammo: 240,
         reload: 6,
@@ -12626,12 +12625,12 @@ module.exports = {
         },
         distdraw: .58,
         falloff: 2500,
+        fireint: .1,
         integrity: 51,
         mount: "G",
         piercing: 40,
         power: .89,
         range: 3e3,
-        rof: 10,
         reload: 6,
         shotspeed: 1200,
         thermload: 2.1,
@@ -12654,11 +12653,11 @@ module.exports = {
         power: .57,
         damage: 13,
         distdraw: .47,
+        fireint: .1,
         thermload: 1.8,
         piercing: 40,
         range: 3e3,
         shotspeed: 1200,
-        rof: 10,
         clip: 16,
         ammo: 240,
         reload: 6,
@@ -12683,11 +12682,11 @@ module.exports = {
         power: .5,
         damage: 9,
         distdraw: .39,
+        fireint: .1,
         thermload: 1.2,
         piercing: 40,
         range: 3e3,
         shotspeed: 1200,
-        rof: 10,
         roundspershot: 0,
         clip: 16,
         ammo: 240,
@@ -12715,11 +12714,11 @@ module.exports = {
         power: .41,
         damage: 8.6,
         distdraw: .27,
+        fireint: .1,
         thermload: 1.1,
         piercing: 25,
         range: 3e3,
         shotspeed: 1200,
-        rof: 10,
         clip: 16,
         ammo: 240,
         reload: 6,
@@ -12747,13 +12746,13 @@ module.exports = {
           K: 1
         },
         distdraw: .39,
+        fireint: .1,
         falloff: 2500,
         integrity: 40,
         mount: "G",
         piercing: 25,
         power: .47,
         range: 3e3,
-        rof: 10,
         shotspeed: 1200,
         thermload: 1.5,
         cost: 137501,
@@ -12776,11 +12775,11 @@ module.exports = {
         power: .54,
         damage: 4.5,
         distdraw: .21,
+        fireint: .1,
         thermload: .7,
         piercing: 25,
         range: 3e3,
         shotspeed: 1200,
-        rof: 10,
         clip: 16,
         ammo: 240,
         reload: 6,
@@ -12799,6 +12798,7 @@ module.exports = {
         id: "xt",
         eddbID: 0,
         edID: 128833995,
+        fireint: 2,
         mount: "F",
         cost: 480501,
         mass: 4,
@@ -12809,7 +12809,6 @@ module.exports = {
         thermload: 1.5,
         piercing: 60,
         shotspeed: 750,
-        rof: .5,
         clip: 8,
         ammo: 64,
         reload: 5,
@@ -12835,10 +12834,10 @@ module.exports = {
         power: 1.2,
         damage: 13,
         distdraw: .24,
+        fireint: 2,
         thermload: 3.6,
         piercing: 80,
         shotspeed: 550,
-        rof: .5,
         clip: 1,
         ammo: 72,
         reload: 2,
@@ -12863,10 +12862,10 @@ module.exports = {
         power: 1.2,
         damage: 13,
         distdraw: .24,
+        fireint: 2,
         thermload: 3.6,
         piercing: 70,
         shotspeed: 550,
-        rof: .5,
         clip: 1,
         ammo: 72,
         reload: 2,
@@ -12892,11 +12891,11 @@ module.exports = {
         power: .87,
         damage: 2,
         distdraw: .42,
+        fireint: .6,
         thermload: .7,
         piercing: 30,
         range: 1700,
         shotspeed: 1133,
-        rof: 1.7,
         roundspershot: 12,
         clip: 5,
         ammo: 180,
@@ -12924,11 +12923,11 @@ module.exports = {
         power: .72,
         damage: 1.1,
         distdraw: .36,
+        fireint: .6,
         thermload: .6,
         piercing: 30,
         range: 1700,
         shotspeed: 1133,
-        rof: 1.7,
         roundspershot: 12,
         clip: 5,
         ammo: 180,
@@ -12956,11 +12955,11 @@ module.exports = {
         power: 1.21,
         damage: 3.7,
         distdraw: .65,
+        fireint: .6,
         thermload: 1.2,
         piercing: 45,
         range: 1700,
         shotspeed: 1133,
-        rof: 1.7,
         roundspershot: 12,
         clip: 5,
         ammo: 180,
@@ -12988,11 +12987,11 @@ module.exports = {
         power: 1.16,
         damage: 2.4,
         distdraw: .57,
+        fireint: .6,
         thermload: 1.1,
         piercing: 45,
         range: 1700,
         shotspeed: 1133,
-        rof: 1.7,
         roundspershot: 12,
         clip: 5,
         ammo: 180,
@@ -13020,11 +13019,11 @@ module.exports = {
         power: 1.68,
         damage: 5.2,
         distdraw: 1.4,
+        fireint: .6,
         thermload: 2.2,
         piercing: 60,
         range: 1700,
         shotspeed: 1133,
-        rof: 1.7,
         clip: 5,
         ammo: 180,
         roundspershot: 12,
@@ -13052,11 +13051,11 @@ module.exports = {
         power: 1.39,
         damage: 3.4,
         distdraw: 1.2,
+        fireint: .6,
         thermload: 2,
         piercing: 60,
         range: 1700,
         shotspeed: 1133,
-        rof: 1.7,
         clip: 5,
         ammo: 180,
         roundspershot: 12,
@@ -26992,7 +26991,7 @@ module.exports = {
               clip: [ 0, .36 ],
               mass: [ .2, .2 ],
               power: [ .04, .04 ],
-              rof: [ 0, .02 ]
+              rof: [ 0, -.02 ]
             },
             uuid: "f622da45-ef05-4a9f-bdcb-879b5933b869"
           },
@@ -27006,7 +27005,7 @@ module.exports = {
               clip: [ .36, .52 ],
               mass: [ .3, .3 ],
               power: [ .08, .08 ],
-              rof: [ .02, .04 ]
+              rof: [ -.02, -.04 ]
             },
             uuid: "c2cf2614-1a13-4b8d-81eb-d4eaf76257d0"
           },
@@ -27021,7 +27020,7 @@ module.exports = {
               clip: [ .52, .68 ],
               mass: [ .4, .4 ],
               power: [ .12, .12 ],
-              rof: [ .04, .06 ]
+              rof: [ -.04, -.06 ]
             },
             uuid: "e37a6dba-669e-4ce6-bb3d-e831bdd656c0"
           },
@@ -27036,7 +27035,7 @@ module.exports = {
               clip: [ .68, .84 ],
               mass: [ .5, .5 ],
               power: [ .16, .16 ],
-              rof: [ .06, .08 ]
+              rof: [ -.06, -.08 ]
             },
             uuid: "8800433a-2061-4776-9821-5dc04772b963"
           },
@@ -27051,7 +27050,7 @@ module.exports = {
               clip: [ .84, 1 ],
               mass: [ .6, .6 ],
               power: [ .2, .2 ],
-              rof: [ .08, .1 ]
+              rof: [ -.08, -.1 ]
             },
             uuid: "4b3f4f18-a517-4354-a02d-de46b3cd4efc"
           }
@@ -27369,7 +27368,7 @@ module.exports = {
               damage: [ -.01, -.01 ],
               jitter: [ .5, .5 ],
               reload: [ 0, -.25 ],
-              rof: [ 0, .08 ]
+              rof: [ 0, -.08 ]
             },
             uuid: "a7ca2bf6-14be-41ed-8bfb-c7348fda7713"
           },
@@ -27383,7 +27382,7 @@ module.exports = {
               distdraw: [ 0, -.05 ],
               jitter: [ .5, .5 ],
               reload: [ -.25, -.35 ],
-              rof: [ .08, .17 ]
+              rof: [ -.08, -.17 ]
             },
             uuid: "0008257b-ea33-48ea-a18e-56cc6cf98a77"
           },
@@ -27398,7 +27397,7 @@ module.exports = {
               distdraw: [ -.05, -.15 ],
               jitter: [ .5, .5 ],
               reload: [ -.35, -.45 ],
-              rof: [ .17, .26 ]
+              rof: [ -.17, -.26 ]
             },
             uuid: "f3338d38-f944-4841-b350-09755e1b615d"
           },
@@ -27413,7 +27412,7 @@ module.exports = {
               distdraw: [ -.15, -.25 ],
               jitter: [ .5, .5 ],
               reload: [ -.45, -.55 ],
-              rof: [ .26, .35 ]
+              rof: [ -.26, -.35 ]
             },
             uuid: "d2bdb568-725a-44bf-9328-ba72d2988acd"
           },
@@ -27428,7 +27427,7 @@ module.exports = {
               distdraw: [ -.25, -.35 ],
               jitter: [ .5, .5 ],
               reload: [ -.55, -.65 ],
-              rof: [ .35, .44 ]
+              rof: [ -.35, -.44 ]
             },
             uuid: "b1792824-0e96-42a3-9d3a-0b41d5ef83e0"
           }
@@ -27448,7 +27447,7 @@ module.exports = {
               damage: [ -.01, -.01 ],
               jitter: [ .5, .5 ],
               reload: [ 0, -.25 ],
-              rof: [ 0, .08 ]
+              rof: [ 0, -.08 ]
             },
             uuid: "a7ca2bf6-14be-41ed-8bfb-c7348fda7713"
           },
@@ -27462,7 +27461,7 @@ module.exports = {
               distdraw: [ 0, -.05 ],
               jitter: [ .5, .5 ],
               reload: [ -.25, -.35 ],
-              rof: [ .08, .17 ]
+              rof: [ -.08, -.17 ]
             },
             uuid: "0008257b-ea33-48ea-a18e-56cc6cf98a77"
           },
@@ -27477,7 +27476,7 @@ module.exports = {
               distdraw: [ -.05, -.15 ],
               jitter: [ .5, .5 ],
               reload: [ -.35, -.45 ],
-              rof: [ .17, .26 ]
+              rof: [ -.17, -.26 ]
             },
             uuid: "f3338d38-f944-4841-b350-09755e1b615d"
           },
@@ -27492,7 +27491,7 @@ module.exports = {
               distdraw: [ -.15, -.25 ],
               jitter: [ .5, .5 ],
               reload: [ -.45, -.55 ],
-              rof: [ .26, .35 ]
+              rof: [ -.26, -.35 ]
             },
             uuid: "d2bdb568-725a-44bf-9328-ba72d2988acd"
           },
@@ -27507,7 +27506,7 @@ module.exports = {
               distdraw: [ -.25, -.35 ],
               jitter: [ .5, .5 ],
               reload: [ -.55, -.65 ],
-              rof: [ .35, .44 ]
+              rof: [ -.35, -.44 ]
             },
             uuid: "b1792824-0e96-42a3-9d3a-0b41d5ef83e0"
           }
@@ -27912,7 +27911,7 @@ module.exports = {
         name: "rof",
         type: "percentage",
         method: "multiplicative",
-        higherbetter: true
+        higherbetter: false
       },
       angle: {
         id: 46,
@@ -28448,7 +28447,7 @@ module.exports = {
       },
       special_weapon_rateoffire: {
         power: .05,
-        rof: .03
+        rof: -.02912621359223301
       },
       special_weapon_efficient: {
         power: -.1
