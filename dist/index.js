@@ -228,7 +228,7 @@ module.exports = {
       defaults: {
         standard: [ "6E", "6E", "5E", "5E", "6E", "4E", "4C" ],
         hardpoints: [ 17, 0, 17, 0, 0, 0, 0, 0, 0, 0 ],
-        internal: [ "04", "4h", "01", "01", "", "", "", "", "", 0 ]
+        internal: [ "04", "4j", "01", "01", "", "", "", "", "", 0 ]
       }
     },
     alliance_chieftain: {
