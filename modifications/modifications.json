@@ -34,7 +34,7 @@
     "ranget": {"id": 26, "name": "ranget", "type": "percentage", "method": "multiplicative", "higherbetter": true},
     "regen": {"id": 27, "name": "regen", "type": "percentage", "method": "multiplicative", "higherbetter": true},
     "reload": {"id": 28, "name": "reload", "type": "percentage", "method": "multiplicative", "higherbetter": false},
-    "rof": {"id": 29, "name": "rof", "type": "percentage", "method": "multiplicative", "higherbetter": true},
+    "rof": {"id": 29, "name": "rof", "type": "percentage", "method": "multiplicative", "higherbetter": false},
     "angle": {"id": 46, "name": "angle", "type": "percentage", "method": "multiplicative", "higherbetter": true},
     "scanrate": {"id": 49, "name": "scanrate", "type": "percentage", "method": "multiplicative", "higherbetter": true},
     "scantime": {"id": 48, "name": "scantime", "type": "percentage", "method": "multiplicative", "higherbetter": false},

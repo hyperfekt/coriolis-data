@@ -12,6 +12,7 @@
       "edID": 128049519,
       "eddbID": 886,
       "eps": 0.4,
+      "fireint": 5.0,
       "grp": "hs",
       "id": "02",
       "integrity": 20,
@@ -21,7 +22,6 @@
       "power": 0.2,
       "rating": "I",
       "reload": 10,
-      "rof": 0.2,
       "symbol": "Hpt_HeatSinkLauncher_Turret_Tiny"
     }
   ]

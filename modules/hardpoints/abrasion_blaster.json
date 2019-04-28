@@ -16,6 +16,7 @@
       "edID": 128915458,
       "eddbID": 823,
       "falloff": 1000,
+      "fireint": 0.2,
       "clip": 1,
       "grp": "abl",
       "id": "3R",
@@ -27,7 +28,6 @@
       "power": 0.34,
       "range": 1000,
       "rating": "D",
-      "rof": 5,
       "thermload": 1.8,
       "symbol": "Hpt_Mining_AbrBlstr_Fixed_Small"
     },
@@ -47,6 +47,7 @@
       "edID": 128915459,
       "eddbID": 823,
       "falloff": 1000,
+      "fireint": 0.2,
       "clip": 1,
       "grp": "abl",
       "id": "3S",
@@ -58,7 +59,6 @@
       "power": 0.47,
       "range": 1000,
       "rating": "D",
-      "rof": 5,
       "thermload": 1.8,
       "symbol": "Hpt_Mining_Abrblstr_Turret_Small"
     }

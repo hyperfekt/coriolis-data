@@ -16,6 +16,7 @@
       "edID": 128049400,
       "eddbID": 832,
       "falloff": 500,
+      "fireint": 0.5,
       "grp": "ul",
       "id": "11",
       "integrity": 40,
@@ -25,7 +26,6 @@
       "power": 0.65,
       "range": 3000,
       "rating": "F",
-      "rof": 2,
       "thermload": 0.38,
       "symbol": "Hpt_PulseLaserBurst_Fixed_Small"
     },
@@ -42,6 +42,7 @@
         "T": 1
       },
       "distdraw": 0.24,
+      "fireint": 0.45,
       "edID": 128049404,
       "eddbID": 835,
       "falloff": 500,
@@ -54,7 +55,6 @@
       "power": 0.64,
       "range": 3000,
       "rating": "G",
-      "rof": 2.23,
       "thermload": 0.34,
       "symbol": "Hpt_PulseLaserBurst_Gimbal_Small"
     },
@@ -74,6 +74,7 @@
       "edID": 128049407,
       "eddbID": 838,
       "falloff": 500,
+      "fireint": 0.52,
       "grp": "ul",
       "id": "13",
       "integrity": 40,
@@ -83,7 +84,6 @@
       "power": 0.6,
       "range": 3000,
       "rating": "G",
-      "rof": 1.92,
       "thermload": 0.19,
       "symbol": "Hpt_PulseLaserBurst_Turret_Small"
     },
@@ -103,6 +103,7 @@
       "edID": 128671449,
       "eddbID": 1477,
       "falloff": 600,
+      "fireint": 0.7,
       "grp": "ul",
       "id": "cy",
       "integrity": 40,
@@ -115,7 +116,6 @@
       "pp": "Archon Delaine",
       "range": 1000,
       "rating": "F",
-      "rof": 7.6,
       "thermload": 0.3,
       "symbol": "Hpt_PulseLaserBurst_Fixed_Small_Scatter"
     },
@@ -135,6 +135,7 @@
       "edID": 128049401,
       "eddbID": 833,
       "falloff": 500,
+      "fireint": 0.63,
       "grp": "ul",
       "id": "7h",
       "integrity": 40,
@@ -144,7 +145,6 @@
       "power": 1.05,
       "range": 3000,
       "rating": "E",
-      "rof": 1.6,
       "thermload": 0.78,
       "symbol": "Hpt_PulseLaserBurst_Fixed_Medium"
     },
@@ -164,6 +164,7 @@
       "edID": 128049405,
       "eddbID": 836,
       "falloff": 500,
+      "fireint": 0.56,
       "grp": "ul",
       "id": "7i",
       "integrity": 40,
@@ -173,7 +174,6 @@
       "power": 1.04,
       "range": 3000,
       "rating": "F",
-      "rof": 1.78,
       "thermload": 0.67,
       "symbol": "Hpt_PulseLaserBurst_Gimbal_Medium"
     },
@@ -193,6 +193,7 @@
       "edID": 128049408,
       "eddbID": 839,
       "falloff": 500,
+      "fireint": 0.63,
       "grp": "ul",
       "id": "7j",
       "integrity": 40,
@@ -202,7 +203,6 @@
       "power": 0.98,
       "range": 3000,
       "rating": "F",
-      "rof": 1.57,
       "thermload": 0.38,
       "symbol": "Hpt_PulseLaserBurst_Turret_Medium"
     },
@@ -222,6 +222,7 @@
       "edID": 128049402,
       "eddbID": 834,
       "falloff": 500,
+      "fireint": 0.83,
       "grp": "ul",
       "id": "14",
       "integrity": 64,
@@ -231,7 +232,6 @@
       "power": 1.66,
       "range": 3000,
       "rating": "D",
-      "rof": 1.2,
       "thermload": 1.7,
       "symbol": "Hpt_PulseLaserBurst_Fixed_Large"
     },
@@ -251,6 +251,7 @@
       "edID": 128049406,
       "eddbID": 837,
       "falloff": 500,
+      "fireint": 0.71,
       "grp": "ul",
       "id": "15",
       "integrity": 64,
@@ -260,7 +261,6 @@
       "power": 1.65,
       "range": 3000,
       "rating": "E",
-      "rof": 1.4,
       "thermload": 1.42,
       "symbol": "Hpt_PulseLaserBurst_Gimbal_Large"
     },
@@ -280,6 +280,7 @@
       "edID": 128049409,
       "eddbID": 840,
       "falloff": 500,
+      "fireint": 0.78,
       "grp": "ul",
       "id": "16",
       "integrity": 64,
@@ -289,7 +290,6 @@
       "power": 1.57,
       "range": 3000,
       "rating": "E",
-      "rof": 1.272,
       "thermload": 0.78,
       "symbol": "Hpt_PulseLaserBurst_Turret_Large"
     },
@@ -309,6 +309,7 @@
       "edID": 128049403,
       "eddbID": 1549,
       "falloff": 500,
+      "fireint": 1.25,
       "grp": "ul",
       "id": "7s",
       "integrity": 80,
@@ -318,7 +319,6 @@
       "power": 2.58,
       "range": 3000,
       "rating": "E",
-      "rof": 0.8,
       "thermload": 4.53,
       "symbol": "Hpt_PulseLaserBurst_Fixed_Huge"
     },
@@ -338,6 +338,7 @@
       "edID": 128727920,
       "eddbID": 1550,
       "falloff": 500,
+      "fireint": 1.0,
       "grp": "ul",
       "id": "7t",
       "integrity": 80,
@@ -347,7 +348,6 @@
       "power": 2.59,
       "range": 3000,
       "rating": "E",
-      "rof": 1,
       "thermload": 3.33,
       "symbol": "Hpt_PulseLaserBurst_Gimbal_Huge"
     }

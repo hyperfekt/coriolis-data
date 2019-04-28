@@ -16,6 +16,7 @@
       "edID": 128915457,
       "eddbID": 823,
       "falloff": 500,
+      "fireint": 2.0,
       "ammo": 96,
       "clip": 1,
       "grp": "sdm",
@@ -28,7 +29,6 @@
       "power": 1.01,
       "range": 3000,
       "rating": "B",
-      "rof": 0.5,
       "thermload": 2.9,
       "symbol": "Hpt_Mining_SubSurfDispMisle_Fixed_Medium"
     },
@@ -48,6 +48,7 @@
       "edID": 128049381,
       "eddbID": 823,
       "falloff": 500,
+      "fireint": 2.0,
       "ammo": 96,
       "clip": 1,
       "grp": "sdm",
@@ -60,7 +61,6 @@
       "power": 0.93,
       "range": 3000,
       "rating": "B",
-      "rof": 0.5,
       "thermload": 2.9,
       "symbol": "Hpt_Mining_Subsurfdispmisle_Turret_Medium"
     },
@@ -80,6 +80,7 @@
       "edID": 128915455,
       "eddbID": 823,
       "falloff": 500,
+      "fireint": 2.0,
       "ammo": 32,
       "clip": 1,
       "grp": "sdm",
@@ -92,7 +93,6 @@
       "power": 0.42,
       "range": 3000,
       "rating": "B",
-      "rof": 0.5,
       "thermload": 2.2,
       "symbol": "Hpt_Mining_SubSurfDispMisle_Fixed_Small"
     },
@@ -112,6 +112,7 @@
       "edID": 128049381,
       "eddbID": 823,
       "falloff": 500,
+      "fireint": 2.0,
       "ammo": 32,
       "clip": 1,
       "grp": "sdm",
@@ -124,7 +125,6 @@
       "power": 0.42,
       "range": 3000,
       "rating": "B",
-      "rof": 0.5,
       "thermload": 2.2,
       "symbol": "Hpt_Mining_Subsurfdispmisle_Turret_Small"
     }

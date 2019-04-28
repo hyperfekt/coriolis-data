@@ -16,6 +16,7 @@
       "edID": 128915461,
       "eddbID": 823,
       "falloff": 500,
+      "fireint": 1.0,
       "ammo": 72,
       "clip": 1,
       "grp": "scl",
@@ -27,7 +28,6 @@
       "power": 1.2,
       "range": 3000,
       "rating": "B",
-      "rof": 1,
       "thermload": 3.6,
       "symbol": "Hpt_Mining_SeismChrgWarhd_Turret_Medium"
     },
@@ -47,6 +47,7 @@
       "edID": 128049381,
       "eddbID": 823,
       "falloff": 500,
+      "fireint": 1.0,
       "ammo": 72,
       "clip": 1,
       "grp": "scl",
@@ -58,7 +59,6 @@
       "power": 1.2,
       "range": 3000,
       "rating": "B",
-      "rof": 1,
       "thermload": 3.6,
       "symbol": "Hpt_Mining_SeismChrgWarhd_Fixed_Medium"
     }
