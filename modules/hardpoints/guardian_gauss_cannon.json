@@ -1,6 +1,7 @@
 {
   "ggc": [
     {
+      "experimental": true,
       "ammo": 80,
       "breachdmg": 11,
       "breachmax": 0.4,
@@ -34,6 +35,7 @@
       }
     },
     {
+      "experimental": true,
       "ammo": 80,
       "breachdmg": 35,
       "breachmax": 0.4,

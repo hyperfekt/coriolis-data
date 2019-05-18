@@ -1,6 +1,7 @@
 {
   "axmr": [
     {
+      "experimental": true,
       "ammo": 64,
       "breachdmg": 0.1,
       "breachmax": 0.8,
@@ -33,6 +34,7 @@
       "symbol": "Hpt_ATDumbfireMissile_Fixed_Medium"
     },
     {
+      "experimental": true,
       "ammo": 64,
       "breachdmg": 0.1,
       "breachmax": 0.8,
@@ -65,6 +67,7 @@
       "symbol": "Hpt_ATDumbfireMissile_Turret_Medium"
     },
     {
+      "experimental": true,
       "ammo": 128,
       "breachdmg": 0.1,
       "breachmax": 0.8,
@@ -97,6 +100,7 @@
       "symbol": "Hpt_ATDumbfireMissile_Fixed_Large"
     },
     {
+      "experimental": true,
       "ammo": 128,
       "breachdmg": 0.1,
       "breachmax": 0.8,

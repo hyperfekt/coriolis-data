@@ -1,6 +1,7 @@
 {
   "gpc": [
     {
+      "experimental": true,
       "ammo": 200,
       "breachdmg": 0.4,
       "breachmax": 0.8,
@@ -32,6 +33,7 @@
       "symbol": "Hpt_Guardian_PlasmaLauncher_Fixed_Small"
     },
     {
+      "experimental": true,
       "ammo": 200,
       "breachdmg": 0.3,
       "breachmax": 0.8,
@@ -63,6 +65,7 @@
       "symbol": "Hpt_Guardian_PlasmaLauncher_Turret_Small"
     },
     {
+      "experimental": true,
       "ammo": 200,
       "breachdmg": 0.7,
       "breachmax": 0.8,
@@ -94,6 +97,7 @@
       "symbol": "Hpt_Guardian_PlasmaLauncher_Fixed_Medium"
     },
     {
+      "experimental": true,
       "ammo": 200,
       "breachdmg": 1,
       "breachmax": 0.8,
@@ -125,6 +129,7 @@
       "symbol": "Hpt_Guardian_PlasmaLauncher_Turret_Medium"
     },
     {
+      "experimental": true,
       "rating": "C",
       "class": 3,
       "grp": "gpc",
@@ -156,6 +161,7 @@
       "falloff": 1000
     },
     {
+      "experimental": true,
       "ammo": 200,
       "breachdmg": 0.8,
       "breachmax": 0.8,

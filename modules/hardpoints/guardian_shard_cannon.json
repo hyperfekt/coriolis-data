@@ -1,6 +1,7 @@
 {
   "gsc": [
     {
+      "experimental": true,
       "rating": "D",
       "class": 1,
       "grp": "gsc",
@@ -34,6 +35,7 @@
       "falloff": 1700
     },
     {
+      "experimental": true,
       "rating": "F",
       "class": 1,
       "grp": "gsc",
@@ -67,6 +69,7 @@
       "falloff": 1700
     },
     {
+      "experimental": true,
       "rating": "A",
       "class": 2,
       "grp": "gsc",
@@ -100,6 +103,7 @@
       "falloff": 1700
     },
     {
+      "experimental": true,
       "rating": "D",
       "class": 2,
       "grp": "gsc",
@@ -133,6 +137,7 @@
       "falloff": 1700
     },
     {
+      "experimental": true,
       "rating": "C",
       "class": 3,
       "grp": "gsc",
@@ -166,6 +171,7 @@
       "falloff": 1700
     },
     {
+      "experimental": true,
       "rating": "D",
       "class": 3,
       "grp": "gsc",

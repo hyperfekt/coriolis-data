@@ -200,13 +200,18 @@
     "rof": 0.5
   },
   "special_high_yield_shell": {
-    "rof": 0.1111111111111111
+    "rof": 0.1111111111111111,
+    "damagedist": {
+      "K": 0.5,
+      "E": 0.5
+    }
   },
   "special_incendiary_rounds": {
     "rof": 0.05263157894736842,
     "thermload": 2,
     "damagedist": {
-      "T": 1
+      "T": 0.9,
+      "K": 0.1
     }
   },
   "special_inertial_impact": {
