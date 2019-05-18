@@ -1,6 +1,7 @@
 {
   "tbrfl": [
     {
+      "experimental": true,
       "rating": "B",
       "class": 2,
       "grp": "tbrfl",
@@ -30,6 +31,7 @@
       }
     },
     {
+      "experimental": true,
       "rating": "B",
       "class": 2,
       "grp": "tbrfl",
