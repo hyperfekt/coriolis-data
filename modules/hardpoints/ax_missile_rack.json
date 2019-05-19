@@ -1,6 +1,7 @@
 {
   "axmr": [
     {
+      "experimental": true,
       "ammo": 64,
       "breachdmg": 0.1,
       "breachmax": 0.8,
@@ -17,6 +18,7 @@
       "edID": 128788699,
       "eddbID": 1614,
       "falloff": 10000,
+      "fireint": 2.0,
       "grp": "axmr",
       "id": "x4",
       "integrity": 51,
@@ -27,12 +29,12 @@
       "power": 1.2,
       "rating": "B",
       "reload": 5,
-      "rof": 0.5,
       "shotspeed": 750,
       "thermload": 2.4,
       "symbol": "Hpt_ATDumbfireMissile_Fixed_Medium"
     },
     {
+      "experimental": true,
       "ammo": 64,
       "breachdmg": 0.1,
       "breachmax": 0.8,
@@ -49,6 +51,7 @@
       "edID": 128788704,
       "eddbID": 1615,
       "falloff": 10000,
+      "fireint": 2.0,
       "grp": "axmr",
       "id": "x5",
       "integrity": 51,
@@ -59,12 +62,12 @@
       "power": 1.2,
       "rating": "B",
       "reload": 5,
-      "rof": 0.5,
       "shotspeed": 750,
       "thermload": 1.5,
       "symbol": "Hpt_ATDumbfireMissile_Turret_Medium"
     },
     {
+      "experimental": true,
       "ammo": 128,
       "breachdmg": 0.1,
       "breachmax": 0.8,
@@ -81,6 +84,7 @@
       "edID": 128788700,
       "eddbID": 1623,
       "falloff": 10000,
+      "fireint": 2.0,
       "grp": "axmr",
       "id": "x6",
       "integrity": 64,
@@ -91,12 +95,12 @@
       "power": 1.62,
       "rating": "A",
       "reload": 5,
-      "rof": 0.5,
       "shotspeed": 750,
       "thermload": 3.6,
       "symbol": "Hpt_ATDumbfireMissile_Fixed_Large"
     },
     {
+      "experimental": true,
       "ammo": 128,
       "breachdmg": 0.1,
       "breachmax": 0.8,
@@ -113,6 +117,7 @@
       "edID": 128788705,
       "eddbID": 1624,
       "falloff": 10000,
+      "fireint": 2.0,
       "grp": "axmr",
       "id": "x7",
       "integrity": 64,
@@ -123,7 +128,6 @@
       "power": 1.75,
       "rating": "A",
       "reload": 5,
-      "rof": 0.5,
       "shotspeed": 750,
       "thermload": 1.9,
       "symbol": "Hpt_ATDumbfireMissile_Turret_Large"

@@ -1,12 +1,14 @@
 {
   "tbem": [
     {
+      "experimental": true,
       "rating": "B",
       "class": 2,
       "grp": "tbem",
       "id": "xt",
       "eddbID": 0,
       "edID": 128833995,
+      "fireint": 2.0,
       "mount": "F",
       "cost": 480501,
       "mass": 4,
@@ -17,7 +19,6 @@
       "thermload": 1.5,
       "piercing": 60,
       "shotspeed": 750,
-      "rof": 0.5,
       "clip": 8,
       "ammo": 64,
       "reload": 5,

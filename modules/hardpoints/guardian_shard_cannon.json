@@ -1,6 +1,7 @@
 {
   "gsc": [
     {
+      "experimental": true,
       "rating": "D",
       "class": 1,
       "grp": "gsc",
@@ -14,11 +15,11 @@
       "power": 0.87,
       "damage": 2,
       "distdraw": 0.42,
+      "fireint": 0.6,
       "thermload": 0.7,
       "piercing": 30,
       "range": 1700,
       "shotspeed": 1133,
-      "rof": 1.7,
       "roundspershot": 12,
       "clip": 5,
       "ammo": 180,
@@ -34,6 +35,7 @@
       "falloff": 1700
     },
     {
+      "experimental": true,
       "rating": "F",
       "class": 1,
       "grp": "gsc",
@@ -47,11 +49,11 @@
       "power": 0.72,
       "damage": 1.1,
       "distdraw": 0.36,
+      "fireint": 0.6,
       "thermload": 0.6,
       "piercing": 30,
       "range": 1700,
       "shotspeed": 1133,
-      "rof": 1.7,
       "roundspershot": 12,
       "clip": 5,
       "ammo": 180,
@@ -67,6 +69,7 @@
       "falloff": 1700
     },
     {
+      "experimental": true,
       "rating": "A",
       "class": 2,
       "grp": "gsc",
@@ -80,11 +83,11 @@
       "power": 1.21,
       "damage": 3.7,
       "distdraw": 0.65,
+      "fireint": 0.6,
       "thermload": 1.2,
       "piercing": 45,
       "range": 1700,
       "shotspeed": 1133,
-      "rof": 1.7,
       "roundspershot": 12,
       "clip": 5,
       "ammo": 180,
@@ -100,6 +103,7 @@
       "falloff": 1700
     },
     {
+      "experimental": true,
       "rating": "D",
       "class": 2,
       "grp": "gsc",
@@ -113,11 +117,11 @@
       "power": 1.16,
       "damage": 2.4,
       "distdraw": 0.57,
+      "fireint": 0.6,
       "thermload": 1.1,
       "piercing": 45,
       "range": 1700,
       "shotspeed": 1133,
-      "rof": 1.7,
       "roundspershot": 12,
       "clip": 5,
       "ammo": 180,
@@ -133,6 +137,7 @@
       "falloff": 1700
     },
     {
+      "experimental": true,
       "rating": "C",
       "class": 3,
       "grp": "gsc",
@@ -146,11 +151,11 @@
       "power": 1.68,
       "damage": 5.2,
       "distdraw": 1.4,
+      "fireint": 0.6,
       "thermload": 2.2,
       "piercing": 60,
       "range": 1700,
       "shotspeed": 1133,
-      "rof": 1.7,
       "clip": 5,
       "ammo": 180,
       "roundspershot": 12,
@@ -166,6 +171,7 @@
       "falloff": 1700
     },
     {
+      "experimental": true,
       "rating": "D",
       "class": 3,
       "grp": "gsc",
@@ -179,11 +185,11 @@
       "power": 1.39,
       "damage": 3.4,
       "distdraw": 1.2,
+      "fireint": 0.6,
       "thermload": 2,
       "piercing": 60,
       "range": 1700,
       "shotspeed": 1133,
-      "rof": 1.7,
       "clip": 5,
       "ammo": 180,
       "roundspershot": 12,

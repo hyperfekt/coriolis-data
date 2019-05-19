@@ -1,6 +1,7 @@
 {
   "ggc": [
     {
+      "experimental": true,
       "ammo": 80,
       "breachdmg": 11,
       "breachmax": 0.4,
@@ -16,6 +17,7 @@
       "edID": 128891610,
       "eddbID": 0,
       "falloff": 1500,
+      "fireint": 0.83,
       "grp": "ggc",
       "id": "yL",
       "integrity": 40,
@@ -26,7 +28,6 @@
       "range": 3000,
       "rating": "D",
       "reload": 1,
-      "rof": 1.2,
       "thermload": 15,
       "symbol": "Hpt_Guardian_GaussCannon_Fixed_Small",
       "requirements": {
@@ -34,12 +35,12 @@
       }
     },
     {
+      "experimental": true,
       "ammo": 80,
       "breachdmg": 35,
       "breachmax": 0.4,
       "breachmin": 0.2,
       "burst": 1,
-      "burstrof": 0.83,
       "class": 2,
       "clip": 1,
       "cost": 543801,
@@ -51,6 +52,7 @@
       "edID": 128833687,
       "eddbID": 876,
       "falloff": 1500,
+      "fireint": 0.83,
       "grp": "ggc",
       "id": "0H",
       "integrity": 42,
@@ -61,7 +63,6 @@
       "range": 3000,
       "rating": "B",
       "reload": 1,
-      "rof": 1.205,
       "thermload": 25,
       "symbol": "Hpt_Guardian_GaussCannon_Fixed_Medium",
       "requirements": {

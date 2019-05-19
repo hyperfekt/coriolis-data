@@ -16,6 +16,7 @@
       "distdraw": 0,
       "edID": 128049500,
       "eddbID": 880,
+      "fireint": 1.0,
       "grp": "nl",
       "id": "2j",
       "integrity": 40,
@@ -25,7 +26,6 @@
       "power": 0.4,
       "rating": "I",
       "reload": 2,
-      "rof": 1,
       "thermload": 5,
       "symbol": "Hpt_MineLauncher_Fixed_Small"
     },
@@ -45,6 +45,7 @@
       "distdraw": 0,
       "edID": 128671448,
       "eddbID": 1523,
+      "fireint": 1.0,
       "grp": "nl",
       "id": "kp",
       "integrity": 40,
@@ -55,7 +56,6 @@
       "power": 0.4,
       "rating": "I",
       "reload": 2,
-      "rof": 1,
       "thermload": 5,
       "symbol": "Hpt_MineLauncher_Fixed_Small_Impulse"
     },
@@ -75,6 +75,7 @@
       "distdraw": 0,
       "edID": 128049501,
       "eddbID": 881,
+      "fireint": 1.0,
       "grp": "nl",
       "id": "2k",
       "integrity": 51,
@@ -84,7 +85,6 @@
       "power": 0.4,
       "rating": "I",
       "reload": 6.6,
-      "rof": 1,
       "thermload": 7.5,
       "symbol": "Hpt_MineLauncher_Fixed_Medium"
     }

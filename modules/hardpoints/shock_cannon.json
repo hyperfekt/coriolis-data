@@ -1,6 +1,7 @@
 {
   "tbsc": [
     {
+      "experimental": true,
       "rating": "C",
       "class": 3,
       "grp": "tbsc",
@@ -14,11 +15,11 @@
       "power": 0.89,
       "damage": 18.1,
       "distdraw": 0.92,
+      "fireint": 0.1,
       "thermload": 2.7,
       "piercing": 60,
       "range": 3000,
       "shotspeed": 1200,
-      "rof": 10,
       "roundspershot": 0,
       "clip": 16,
       "ammo": 240,
@@ -34,6 +35,7 @@
       "falloff": 2500
     },
     {
+      "experimental": true,
       "rating": "C",
       "class": 3,
       "grp": "tbsc",
@@ -50,12 +52,12 @@
       },
       "distdraw": 1.07,
       "falloff": 2500,
+      "fireint": 0.1,
       "integrity": 64,
       "mount": "G",
       "piercing": 60,
       "power": 0.89,
       "range": 3000,
-      "rof": 10,
       "shotspeed": 1200,
       "thermload": 3.1,
       "cost": 2249050,
@@ -65,6 +67,7 @@
       "symbol": "Hpt_PlasmaShockCannon_Gimbal_Large"
     },
     {
+      "experimental": true,
       "rating": "D",
       "class": 3,
       "grp": "tbsc",
@@ -79,11 +82,11 @@
       "power": 0.64,
       "damage": 12.32,
       "distdraw": 0.79,
+      "fireint": 0.1,
       "thermload": 2.2,
       "piercing": 60,
       "range": 3000,
       "shotspeed": 1200,
-      "rof": 10,
       "clip": 16,
       "ammo": 240,
       "reload": 6,
@@ -96,6 +99,7 @@
       "falloff": 2500
     },
     {
+      "experimental": true,
       "rating": "D",
       "class": 2,
       "grp": "tbsc",
@@ -112,12 +116,12 @@
       },
       "distdraw": 0.58,
       "falloff": 2500,
+      "fireint": 0.1,
       "integrity": 51,
       "mount": "G",
       "piercing": 40,
       "power": 0.89,
       "range": 3000,
-      "rof": 10,
       "reload": 6,
       "shotspeed": 1200,
       "thermload": 2.1,
@@ -127,6 +131,7 @@
       "symbol": "Hpt_PlasmaShockCannon_Gimbal_Medium"
     },
     {
+      "experimental": true,
       "grp": "tbsc",
       "symbol": "Hpt_PlasmaShockCannon_Fixed_Medium",
       "id": "y0",
@@ -141,11 +146,11 @@
       "power": 0.57,
       "damage": 13,
       "distdraw": 0.47,
+      "fireint": 0.1,
       "thermload": 1.8,
       "piercing": 40,
       "range": 3000,
       "shotspeed": 1200,
-      "rof": 10,
       "clip": 16,
       "ammo": 240,
       "reload": 6,
@@ -158,6 +163,7 @@
       "falloff": 2500
     },
     {
+      "experimental": true,
       "rating": "E",
       "class": 2,
       "grp": "tbsc",
@@ -171,11 +177,11 @@
       "power": 0.5,
       "damage": 9,
       "distdraw": 0.39,
+      "fireint": 0.1,
       "thermload": 1.2,
       "piercing": 40,
       "range": 3000,
       "shotspeed": 1200,
-      "rof": 10,
       "roundspershot": 0,
       "clip": 16,
       "ammo": 240,
@@ -191,6 +197,7 @@
       "falloff": 2500
     },
     {
+      "experimental": true,
       "rating": "D",
       "class": 1,
       "grp": "tbsc",
@@ -204,11 +211,11 @@
       "power": 0.41,
       "damage": 8.6,
       "distdraw": 0.27,
+      "fireint": 0.1,
       "thermload": 1.1,
       "piercing": 25,
       "range": 3000,
       "shotspeed": 1200,
-      "rof": 10,
       "clip": 16,
       "ammo": 240,
       "reload": 6,
@@ -222,6 +229,7 @@
       "falloff": 2500
     },
     {
+      "experimental": true,
       "rating": "E",
       "class": 1,
       "grp": "tbsc",
@@ -237,13 +245,13 @@
         "K": 1
       },
       "distdraw": 0.39,
+      "fireint": 0.1,
       "falloff": 2500,
       "integrity": 40,
       "mount": "G",
       "piercing": 25,
       "power": 0.47,
       "range": 3000,
-      "rof": 10,
       "shotspeed": 1200,
       "thermload": 1.5,
       "cost": 137501,
@@ -253,6 +261,7 @@
       "symbol": "Hpt_PlasmaShockCannon_Gimbal_Small"
     },
     {
+      "experimental": true,
       "rating": "F",
       "class": 1,
       "grp": "tbsc",
@@ -267,11 +276,11 @@
       "power": 0.54,
       "damage": 4.5,
       "distdraw": 0.21,
+      "fireint": 0.1,
       "thermload": 0.7,
       "piercing": 25,
       "range": 3000,
       "shotspeed": 1200,
-      "rof": 10,
       "clip": 16,
       "ammo": 240,
       "reload": 6,

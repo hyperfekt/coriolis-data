@@ -1,6 +1,7 @@
 {
   "tbrfl": [
     {
+      "experimental": true,
       "rating": "B",
       "class": 2,
       "grp": "tbrfl",
@@ -14,10 +15,10 @@
       "power": 1.2,
       "damage": 13,
       "distdraw": 0.24,
+      "fireint": 2.0,
       "thermload": 3.6,
       "piercing": 80,
       "shotspeed": 550,
-      "rof": 0.5,
       "clip": 1,
       "ammo": 72,
       "reload": 2,
@@ -30,6 +31,7 @@
       }
     },
     {
+      "experimental": true,
       "rating": "B",
       "class": 2,
       "grp": "tbrfl",
@@ -43,10 +45,10 @@
       "power": 1.2,
       "damage": 13,
       "distdraw": 0.24,
+      "fireint": 2.0,
       "thermload": 3.6,
       "piercing": 70,
       "shotspeed": 550,
-      "rof": 0.5,
       "clip": 1,
       "ammo": 72,
       "reload": 2,
