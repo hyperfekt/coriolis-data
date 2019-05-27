@@ -5,6 +5,10 @@ JSON Data modelling Elite Dangerous ships and components.
 
 See [the wiki](https://github.com/edcd/coriolis-data/wiki) for more details
 
+## Hosted Versions
+
+You can find hosted and compiled versions of the data-json under https://coriolis.io/data/ and https://beta.coriolis.io/data/.
+You might want to load these as depedency instead of reyling on the npm-dependency.
 
 ## Development
 
