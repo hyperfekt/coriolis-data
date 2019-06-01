@@ -2959,7 +2959,7 @@
           }
         }
       },
-      "Weapon_Overcharged": {
+      "MC_Overcharged": {
         "grades": {
           "1": {
             "engineers": [
@@ -3665,7 +3665,7 @@
           }
         }
       },
-      "PA_Overcharged": {
+      "Weapon_Overcharged": {
         "grades": {
           "1": {
             "engineers": [
