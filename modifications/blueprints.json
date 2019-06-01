@@ -749,7 +749,7 @@
     "name": "Thermal resistant"
   },
   "CargoScanner_LightWeight": {
-    "fdname": "CargoScanner_LightWeight",
+    "fdname": "Sensor_LightWeight",
     "grades": {
       "1": {
         "components": {
@@ -847,7 +847,7 @@
     "name": "Lightweight"
   },
   "CargoScanner_Reinforced": {
-    "fdname": "CargoScanner_Reinforced",
+    "fdname": "Sensor_Reinforced",
     "grades": {
       "1": {
         "components": {
@@ -945,7 +945,7 @@
     "name": "Reinforced"
   },
   "CargoScanner_Shielded": {
-    "fdname": "CargoScanner_Shielded",
+    "fdname": "Sensor_Shielded",
     "grades": {
       "1": {
         "components": {
@@ -1042,8 +1042,8 @@
     ],
     "name": "Shielded"
   },
-  "ChaffLauncher_ChaffCapacity": {
-    "fdname": "ChaffLauncher_ChaffCapacity",
+  "Misc_ChaffCapacity": {
+    "fdname": "Misc_ChaffCapacity",
     "grades": {
       "3": {
         "components": {
@@ -1075,7 +1075,7 @@
     "name": "Ammo capacity"
   },
   "ChaffLauncher_LightWeight": {
-    "fdname": "ChaffLauncher_LightWeight",
+    "fdname": "Misc_LightWeight",
     "grades": {
       "1": {
         "components": {
@@ -1172,7 +1172,7 @@
     "name": "Lightweight"
   },
   "ChaffLauncher_Reinforced": {
-    "fdname": "ChaffLauncher_Reinforced",
+    "fdname": "Misc_Reinforced",
     "grades": {
       "1": {
         "components": {
@@ -1269,7 +1269,7 @@
     "name": "Reinforced"
   },
   "ChaffLauncher_Shielded": {
-    "fdname": "ChaffLauncher_Shielded",
+    "fdname": "Misc_Shielded",
     "grades": {
       "1": {
         "components": {
@@ -1657,7 +1657,7 @@
     "name": "Shielded"
   },
   "ECM_LightWeight": {
-    "fdname": "ECM_LightWeight",
+    "fdname": "Misc_LightWeight",
     "grades": {
       "1": {
         "components": {
@@ -1755,7 +1755,7 @@
     "name": "Lightweight"
   },
   "ECM_Reinforced": {
-    "fdname": "ECM_Reinforced",
+    "fdname": "Misc_Reinforced",
     "grades": {
       "1": {
         "components": {
@@ -1853,7 +1853,7 @@
     "name": "Reinforced"
   },
   "ECM_Shielded": {
-    "fdname": "ECM_Shielded",
+    "fdname": "Misc_Shielded",
     "grades": {
       "1": {
         "components": {
@@ -3659,8 +3659,8 @@
     ],
     "name": "Shielded"
   },
-  "HeatSinkLauncher_HeatSinkCapacity": {
-    "fdname": "HeatSinkLauncher_HeatSinkCapacity",
+  "Misc_HeatSinkCapacity": {
+    "fdname": "Misc_HeatSinkCapacity",
     "grades": {
       "3": {
         "components": {
@@ -3692,7 +3692,7 @@
     "name": "Ammo capacity"
   },
   "HeatSinkLauncher_LightWeight": {
-    "fdname": "HeatSinkLauncher_LightWeight",
+    "fdname": "Misc_LightWeight",
     "grades": {
       "1": {
         "components": {
@@ -3789,7 +3789,7 @@
     "name": "Lightweight"
   },
   "HeatSinkLauncher_Reinforced": {
-    "fdname": "HeatSinkLauncher_Reinforced",
+    "fdname": "Misc_Reinforced",
     "grades": {
       "1": {
         "components": {
@@ -3886,7 +3886,7 @@
     "name": "Reinforced"
   },
   "HeatSinkLauncher_Shielded": {
-    "fdname": "HeatSinkLauncher_Shielded",
+    "fdname": "Misc_Shielded",
     "grades": {
       "1": {
         "components": {
@@ -4678,7 +4678,7 @@
     "name": "Thermal resistant"
   },
   "KillWarrantScanner_LightWeight": {
-    "fdname": "KillWarrantScanner_LightWeight",
+    "fdname": "Sensor_LightWeight",
     "grades": {
       "1": {
         "components": {
@@ -4776,7 +4776,7 @@
     "name": "Lightweight"
   },
   "KillWarrantScanner_LongRange": {
-    "fdname": "KillWarrantScanner_LongRange",
+    "fdname": "Sensor_LongRange",
     "grades": {
       "1": {
         "components": {
@@ -4894,7 +4894,7 @@
     "name": "Long range"
   },
   "KillWarrantScanner_Reinforced": {
-    "fdname": "KillWarrantScanner_Reinforced",
+    "fdname": "Sensor_Reinforced",
     "grades": {
       "1": {
         "components": {
@@ -4992,7 +4992,7 @@
     "name": "Reinforced"
   },
   "KillWarrantScanner_Shielded": {
-    "fdname": "KillWarrantScanner_Shielded",
+    "fdname": "Sensor_Shielded",
     "grades": {
       "1": {
         "components": {
@@ -5381,7 +5381,7 @@
     "name": "Shielded"
   },
   "PointDefence_LightWeight": {
-    "fdname": "PointDefence_LightWeight",
+    "fdname": "Misc_LightWeight",
     "grades": {
       "1": {
         "components": {
@@ -5477,8 +5477,8 @@
     ],
     "name": "Lightweight"
   },
-  "PointDefence_PointDefenseCapacity": {
-    "fdname": "PointDefence_PointDefenseCapacity",
+  "Misc_PointDefenseCapacity": {
+    "fdname": "Misc_PointDefenseCapacity",
     "grades": {
       "3": {
         "components": {
@@ -5510,7 +5510,7 @@
     "name": "Ammo capacity"
   },
   "PointDefence_Reinforced": {
-    "fdname": "PointDefence_Reinforced",
+    "fdname": "Misc_Reinforced",
     "grades": {
       "1": {
         "components": {
@@ -5607,7 +5607,7 @@
     "name": "Reinforced"
   },
   "PointDefence_Shielded": {
-    "fdname": "PointDefence_Shielded",
+    "fdname": "Misc_Shielded",
     "grades": {
       "1": {
         "components": {
@@ -7473,7 +7473,7 @@
     "name": "Shielded"
   },
   "Sensor_CargoScanner_FastScan": {
-    "fdname": "Sensor_CargoScanner_FastScan",
+    "fdname": "Sensor_FastScan",
     "grades": {
       "1": {
         "components": {
@@ -7591,7 +7591,7 @@
     "name": "Fast scan"
   },
   "Sensor_CargoScanner_LongRange": {
-    "fdname": "Sensor_CargoScanner_LongRange",
+    "fdname": "Sensor_LongRange",
     "grades": {
       "1": {
         "components": {
@@ -7709,7 +7709,7 @@
     "name": "Long range"
   },
   "Sensor_CargoScanner_WideAngle": {
-    "fdname": "Sensor_CargoScanner_WideAngle",
+    "fdname": "Sensor_WideAngle",
     "grades": {
       "1": {
         "components": {
@@ -7827,7 +7827,7 @@
     "name": "Wide angle"
   },
   "Sensor_KillWarrantScanner_FastScan": {
-    "fdname": "Sensor_KillWarrantScanner_FastScan",
+    "fdname": "Sensor_FastScan",
     "grades": {
       "1": {
         "components": {
@@ -7945,7 +7945,7 @@
     "name": "Fast scan"
   },
   "Sensor_KillWarrantScanner_WideAngle": {
-    "fdname": "Sensor_KillWarrantScanner_WideAngle",
+    "fdname": "Sensor_WideAngle",
     "grades": {
       "1": {
         "components": {
@@ -8062,8 +8062,8 @@
     ],
     "name": "Wide angle"
   },
-  "Sensor_Sensor_LightWeight": {
-    "fdname": "Sensor_Sensor_LightWeight",
+  "Sensor_LightWeight": {
+    "fdname": "Sensor_LightWeight",
     "grades": {
       "1": {
         "components": {
@@ -8179,8 +8179,8 @@
     ],
     "name": "Lightweight"
   },
-  "Sensor_Sensor_LongRange": {
-    "fdname": "Sensor_Sensor_LongRange",
+  "Sensor_LongRange": {
+    "fdname": "Sensor_LongRange",
     "grades": {
       "1": {
         "components": {
@@ -8296,8 +8296,8 @@
     ],
     "name": "Long range"
   },
-  "Sensor_Sensor_WideAngle": {
-    "fdname": "Sensor_Sensor_WideAngle",
+  "Sensor_WideAngle": {
+    "fdname": "Sensor_WideAngle",
     "grades": {
       "1": {
         "components": {
@@ -8413,8 +8413,8 @@
     ],
     "name": "Wide angle"
   },
-  "SurfaceScanner_Expanded": {
-    "fdname": "SurfaceScanner_Expanded",
+  "Sensor_Expanded": {
+    "fdname": "Sensor_Expanded",
     "grades": {
       "1": {
         "components": {
@@ -8512,7 +8512,7 @@
     "name": "Expanded Probe Scanning Radius"
   },
   "Sensor_WakeScanner_FastScan": {
-    "fdname": "Sensor_WakeScanner_FastScan",
+    "fdname": "Sensor_FastScan",
     "grades": {
       "1": {
         "components": {
@@ -8630,7 +8630,7 @@
     "name": "Fast scan"
   },
   "Sensor_WakeScanner_LongRange": {
-    "fdname": "Sensor_WakeScanner_LongRange",
+    "fdname": "Sensor_LongRange",
     "grades": {
       "1": {
         "components": {
@@ -8748,7 +8748,7 @@
     "name": "Long range"
   },
   "Sensor_WakeScanner_WideAngle": {
-    "fdname": "Sensor_WakeScanner_WideAngle",
+    "fdname": "Sensor_WideAngle",
     "grades": {
       "1": {
         "components": {
@@ -10323,7 +10323,7 @@
     "name": "Thermal resistant"
   },
   "WakeScanner_LightWeight": {
-    "fdname": "WakeScanner_LightWeight",
+    "fdname": "Sensor_LightWeight",
     "grades": {
       "1": {
         "components": {
@@ -10421,7 +10421,7 @@
     "name": "Lightweight"
   },
   "WakeScanner_Reinforced": {
-    "fdname": "WakeScanner_Reinforced",
+    "fdname": "Sensor_Reinforced",
     "grades": {
       "1": {
         "components": {
@@ -10519,7 +10519,7 @@
     "name": "Reinforced"
   },
   "WakeScanner_Shielded": {
-    "fdname": "WakeScanner_Shielded",
+    "fdname": "Sensor_Shielded",
     "grades": {
       "1": {
         "components": {

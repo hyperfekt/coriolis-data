@@ -1000,7 +1000,7 @@
   },
   "ch": {
     "blueprints": {
-      "ChaffLauncher_ChaffCapacity": {
+      "Misc_ChaffCapacity": {
         "grades": {
           "3": {
             "engineers": [
@@ -2387,7 +2387,7 @@
   },
   "hs": {
     "blueprints": {
-      "HeatSinkLauncher_HeatSinkCapacity": {
+      "Misc_HeatSinkCapacity": {
         "grades": {
           "3": {
             "engineers": [
@@ -4505,7 +4505,7 @@
   },
   "po": {
     "blueprints": {
-      "PointDefence_PointDefenseCapacity": {
+      "Misc_PointDefenseCapacity": {
         "grades": {
           "3": {
             "engineers": [
@@ -5132,7 +5132,7 @@
   },
   "s": {
     "blueprints": {
-      "Sensor_Sensor_LightWeight": {
+      "Sensor_LightWeight": {
         "grades": {
           "1": {
             "engineers": [
@@ -5181,7 +5181,7 @@
           }
         }
       },
-      "Sensor_Sensor_LongRange": {
+      "Sensor_LongRange": {
         "grades": {
           "1": {
             "engineers": [
@@ -5232,7 +5232,7 @@
           }
         }
       },
-      "Sensor_Sensor_WideAngle": {
+      "Sensor_WideAngle": {
         "grades": {
           "1": {
             "engineers": [
@@ -5731,7 +5731,7 @@
   },
   "ss": {
     "blueprints": {
-      "SurfaceScanner_Expanded": {
+      "Sensor_Expanded": {
         "grades": {
           "1": {
             "engineers": [
