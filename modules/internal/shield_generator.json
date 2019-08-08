@@ -163,7 +163,7 @@
       "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     },
     {
-      "brokenregen": 1.9,
+      "brokenregen": 1.87,
       "class": 3,
       "cost": 6270,
       "distdraw": 0.6,
@@ -190,7 +190,7 @@
       "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     },
     {
-      "brokenregen": 1.9,
+      "brokenregen": 1.87,
       "class": 3,
       "cost": 18810,
       "distdraw": 0.6,
@@ -217,7 +217,7 @@
       "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     },
     {
-      "brokenregen": 1.9,
+      "brokenregen": 1.87,
       "class": 3,
       "cost": 56440,
       "distdraw": 0.6,
@@ -244,7 +244,7 @@
       "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     },
     {
-      "brokenregen": 1.9,
+      "brokenregen": 1.87,
       "class": 3,
       "cost": 169300,
       "distdraw": 0.6,
@@ -271,7 +271,7 @@
       "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     },
     {
-      "brokenregen": 1.9,
+      "brokenregen": 1.87,
       "class": 3,
       "cost": 507910,
       "distdraw": 0.6,
@@ -298,7 +298,7 @@
       "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     },
     {
-      "brokenregen": 2.5,
+      "brokenregen": 2.53,
       "class": 4,
       "cost": 19880,
       "distdraw": 0.6,
@@ -325,7 +325,7 @@
       "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     },
     {
-      "brokenregen": 2.5,
+      "brokenregen": 2.53,
       "class": 4,
       "cost": 59630,
       "distdraw": 0.6,
@@ -352,7 +352,7 @@
       "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     },
     {
-      "brokenregen": 2.5,
+      "brokenregen": 2.53,
       "class": 4,
       "cost": 178900,
       "distdraw": 0.6,
@@ -379,7 +379,7 @@
       "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     },
     {
-      "brokenregen": 2.5,
+      "brokenregen": 2.53,
       "class": 4,
       "cost": 536690,
       "distdraw": 0.6,
@@ -406,7 +406,7 @@
       "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     },
     {
-      "brokenregen": 2.5,
+      "brokenregen": 2.53,
       "class": 4,
       "cost": 1610080,
       "distdraw": 0.6,
@@ -433,7 +433,7 @@
       "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     },
     {
-      "brokenregen": 3.7,
+      "brokenregen": 3.75,
       "class": 5,
       "cost": 63010,
       "distdraw": 0.6,
@@ -460,7 +460,7 @@
       "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     },
     {
-      "brokenregen": 3.7,
+      "brokenregen": 3.75,
       "class": 5,
       "cost": 189040,
       "distdraw": 0.6,
@@ -487,7 +487,7 @@
       "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     },
     {
-      "brokenregen": 3.7,
+      "brokenregen": 3.75,
       "class": 5,
       "cost": 567110,
       "distdraw": 0.6,
@@ -514,7 +514,7 @@
       "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     },
     {
-      "brokenregen": 3.7,
+      "brokenregen": 3.75,
       "class": 5,
       "cost": 1701320,
       "distdraw": 0.6,
@@ -541,7 +541,7 @@
       "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     },
     {
-      "brokenregen": 3.7,
+      "brokenregen": 3.75,
       "class": 5,
       "cost": 5103950,
       "distdraw": 0.6,
@@ -568,7 +568,7 @@
       "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     },
     {
-      "brokenregen": 5.3,
+      "brokenregen": 5.33,
       "class": 6,
       "cost": 199750,
       "distdraw": 0.6,
@@ -595,7 +595,7 @@
       "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     },
     {
-      "brokenregen": 5.3,
+      "brokenregen": 5.33,
       "class": 6,
       "cost": 599240,
       "distdraw": 0.6,
@@ -622,7 +622,7 @@
       "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     },
     {
-      "brokenregen": 5.3,
+      "brokenregen": 5.33,
       "class": 6,
       "cost": 1797730,
       "distdraw": 0.6,
@@ -649,7 +649,7 @@
       "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     },
     {
-      "brokenregen": 5.3,
+      "brokenregen": 5.33,
       "class": 6,
       "cost": 5393180,
       "distdraw": 0.6,
@@ -676,7 +676,7 @@
       "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     },
     {
-      "brokenregen": 5.3,
+      "brokenregen": 5.33,
       "class": 6,
       "cost": 16179530,
       "distdraw": 0.6,
@@ -703,7 +703,7 @@
       "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     },
     {
-      "brokenregen": 7.3,
+      "brokenregen": 7.33,
       "class": 7,
       "cost": 633200,
       "distdraw": 0.6,
@@ -730,7 +730,7 @@
       "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     },
     {
-      "brokenregen": 7.3,
+      "brokenregen": 7.33,
       "class": 7,
       "cost": 1899600,
       "distdraw": 0.6,
@@ -757,7 +757,7 @@
       "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     },
     {
-      "brokenregen": 7.3,
+      "brokenregen": 7.33,
       "class": 7,
       "cost": 5698790,
       "distdraw": 0.6,
@@ -784,7 +784,7 @@
       "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     },
     {
-      "brokenregen": 7.3,
+      "brokenregen": 7.33,
       "class": 7,
       "cost": 17096370,
       "distdraw": 0.6,
@@ -811,7 +811,7 @@
       "ukDiscript": "Forms a continually regenerating protective energy shield around the vessel."
     },
     {
-      "brokenregen": 7.3,
+      "brokenregen": 7.33,
       "class": 7,
       "cost": 51289110,
       "distdraw": 0.6,
