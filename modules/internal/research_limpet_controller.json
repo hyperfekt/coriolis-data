@@ -11,7 +11,7 @@
       "mass": 1.3,
       "maximum": 1,
       "power": 0.4,
-      "range": 2000,
+      "range": 2,
       "symbol": "Int_DroneControl_UnkVesselResearch",
       "time": 300,
       "integrity": 20
