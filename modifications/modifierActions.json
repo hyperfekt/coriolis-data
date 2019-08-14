@@ -198,7 +198,7 @@
     "damage": -0.2
   },
   "special_force_shell": {
-    "shotspeed": -0.1667
+    "shotspeed": -0.1666666666666667
   },
   "special_fsd_interrupt": {
     "damage": -0.3,
