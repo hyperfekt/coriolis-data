@@ -312,7 +312,7 @@
     "mass": -0.1
   },
   "special_engine_cooled": {
-    "mass": 0.1,
+    "mass": 0.05,
     "thermload": -0.1
   },
   "special_engine_haulage": {
