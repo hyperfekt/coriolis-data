@@ -120,7 +120,7 @@
       "range": 3500,
       "rating": "D",
       "reload": 3,
-      "shotspeed": 1051,
+      "shotspeed": 1051.051025,
       "thermload": 2.1,
       "symbol": "Hpt_Cannon_Fixed_Medium"
     },
@@ -213,7 +213,7 @@
       "range": 4000,
       "rating": "C",
       "reload": 3,
-      "shotspeed": 959,
+      "shotspeed": 959.232605,
       "thermload": 3.2,
       "symbol": "Hpt_Cannon_Fixed_Large"
     },
