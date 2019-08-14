@@ -10890,6 +10890,10 @@
           "Iron": 1
         },
         "features": {
+          "falloff": [
+            0,
+            0.36
+          ],
           "piercing": [
             0,
             0.4
@@ -10915,6 +10919,10 @@
           "Iron": 1
         },
         "features": {
+          "falloff": [
+            0.36,
+            0.52
+          ],
           "piercing": [
             0.4,
             0.6
@@ -10941,6 +10949,10 @@
           "Iron": 1
         },
         "features": {
+          "falloff": [
+            0.52,
+            0.68
+          ],
           "piercing": [
             0.6,
             0.8
@@ -10967,6 +10979,10 @@
           "Polymer Capacitors": 1
         },
         "features": {
+          "falloff": [
+            0.68,
+            0.84
+          ],
           "piercing": [
             0.8,
             1
@@ -10993,6 +11009,10 @@
           "Refined Focus Crystals": 1
         },
         "features": {
+          "falloff": [
+            0.84,
+            1
+          ],
           "piercing": [
             1,
             1.2
