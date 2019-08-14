@@ -345,6 +345,7 @@
   "special_fsd_cooled": {
     "thermload": -0.1
   },
+  "special_lock_breaker": {},
   "special_powerplant_highcharge": {
     "mass": 0.1,
     "pgen": 0.05
