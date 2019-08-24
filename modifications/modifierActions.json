@@ -122,6 +122,9 @@
   "OutfittingFieldType_ShieldBankSpinUp": {
     "spinup": 1
   },
+  "OutfittingFieldType_ShotSpeed": {
+    "shotspeed": 1
+  },
   "OutfittingFieldType_ThermalLoad": {
     "thermload": 1
   },
@@ -149,7 +152,8 @@
   "OutfittingFieldType_Damage": {
     "damage": 1
   },
-  "OutfittingFieldType_weapon_falloffrange_from_range": {
+  "OutfittingFieldType_DamageFalloffRange": {
+    "fallofffromrange": 1
   },
   "OutfittingFieldType_ArmourPenetration": {
     "piercing": 1
