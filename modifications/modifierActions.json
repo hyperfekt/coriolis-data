@@ -170,6 +170,7 @@
   "special_auto_loader": {},
   "special_choke_canister": {},
   "special_feedback_cascade_cooled": {
+    "damage": -0.2,
     "thermload": -0.4
   },
   "special_super_penetrator_cooled": {
