@@ -5,6 +5,10 @@ JSON Data modelling Elite Dangerous ships and components.
 
 See [the wiki](https://github.com/edcd/coriolis-data/wiki) for more details
 
+## Issues
+
+If you want to report an issue for this repository, please do this in the main repository of the coriolis project: https://github.com/EDCD/coriolis/issues
+
 ## Hosted Versions
 
 You can find hosted and compiled versions of the data-json under https://coriolis.io/data/ and https://beta.coriolis.io/data/.
