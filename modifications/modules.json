@@ -3325,7 +3325,6 @@
       "special_drag_munitions",
       "special_emissive_munitions",
       "special_overload_munitions",
-      "special_penetrator_payload",
       "special_thermal_cascade",
       "special_weapon_damage",
       "special_weapon_efficient",
@@ -3334,7 +3333,6 @@
       "special_weapon_lightweight"
     ],
     "specials_D": [
-      "special_drag_munitions",
       "special_emissive_munitions",
       "special_fsd_interrupt",
       "special_overload_munitions",
