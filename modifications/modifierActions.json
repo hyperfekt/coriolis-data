@@ -187,6 +187,9 @@
     "damage": -0.1,
     "thermload": -0.4
   },
+  "special_plasma_slug_pa": {
+    "damage": -0.1
+  },
   "special_dispersal_field": {
   },
   "special_distortion_field": {},
