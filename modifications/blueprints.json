@@ -748,8 +748,8 @@
     ],
     "name": "Thermal resistant"
   },
-  "CargoScanner_LightWeight": {
-    "fdname": "CargoScanner_LightWeight",
+  "Misc_LightWeight": {
+    "fdname": "Misc_LightWeight",
     "grades": {
       "1": {
         "components": {
@@ -841,13 +841,22 @@
     },
     "id": 9,
     "modulename": [
+      "Chaff launcher",
+      "Electronic counter measures",
+      "ECM",
+      "Wake scanner",
+      "Frame shift wake scanner",
+      "Heat sink launcher",
+      "Kill warrant scanner",
+      "KWS",
       "Cargo scanner",
-      "Manifest scanner"
+      "Manifest scanner",
+      "Point defence"
     ],
     "name": "Lightweight"
   },
-  "CargoScanner_Reinforced": {
-    "fdname": "CargoScanner_Reinforced",
+  "Misc_Reinforced": {
+    "fdname": "Misc_Reinforced",
     "grades": {
       "1": {
         "components": {
@@ -939,13 +948,22 @@
     },
     "id": 10,
     "modulename": [
+      "Chaff launcher",
+      "Electronic counter measures",
+      "ECM",
+      "Wake scanner",
+      "Frame shift wake scanner",
+      "Heat sink launcher",
+      "Kill warrant scanner",
+      "KWS",
       "Cargo scanner",
-      "Manifest scanner"
+      "Manifest scanner",
+      "Point defence"
     ],
     "name": "Reinforced"
   },
-  "CargoScanner_Shielded": {
-    "fdname": "CargoScanner_Shielded",
+  "Misc_Shielded": {
+    "fdname": "Misc_Shielded",
     "grades": {
       "1": {
         "components": {
@@ -1037,13 +1055,22 @@
     },
     "id": 11,
     "modulename": [
+      "Chaff launcher",
+      "Electronic counter measures",
+      "ECM",
+      "Wake scanner",
+      "Frame shift wake scanner",
+      "Heat sink launcher",
+      "Kill warrant scanner",
+      "KWS",
       "Cargo scanner",
-      "Manifest scanner"
+      "Manifest scanner",
+      "Point defence"
     ],
     "name": "Shielded"
   },
-  "ChaffLauncher_ChaffCapacity": {
-    "fdname": "ChaffLauncher_ChaffCapacity",
+  "Misc_ChaffCapacity": {
+    "fdname": "Misc_ChaffCapacity",
     "grades": {
       "3": {
         "components": {
@@ -1073,297 +1100,6 @@
       "Chaff launcher"
     ],
     "name": "Ammo capacity"
-  },
-  "ChaffLauncher_LightWeight": {
-    "fdname": "ChaffLauncher_LightWeight",
-    "grades": {
-      "1": {
-        "components": {
-          "Phosphorus": 1
-        },
-        "features": {
-          "integrity": [
-            -0.1,
-            -0.1
-          ],
-          "mass": [
-            0,
-            -0.45
-          ]
-        },
-        "uuid": "99afdcd4-c7cf-4855-aea8-e35d968d448e"
-      },
-      "2": {
-        "components": {
-          "Manganese": 1,
-          "Salvaged Alloys": 1
-        },
-        "features": {
-          "integrity": [
-            -0.2,
-            -0.2
-          ],
-          "mass": [
-            -0.45,
-            -0.55
-          ]
-        },
-        "uuid": "4c0aa103-e0d8-4dce-bb38-067549af7c27"
-      },
-      "3": {
-        "components": {
-          "Conductive Ceramics": 1,
-          "Manganese": 1,
-          "Salvaged Alloys": 1
-        },
-        "features": {
-          "integrity": [
-            -0.3,
-            -0.3
-          ],
-          "mass": [
-            -0.55,
-            -0.65
-          ]
-        },
-        "uuid": "90ddb40a-8520-4e0a-8e42-5f3f9ecf4c28"
-      },
-      "4": {
-        "components": {
-          "Conductive Components": 1,
-          "Phase Alloys": 1,
-          "Proto Light Alloys": 1
-        },
-        "features": {
-          "integrity": [
-            -0.4,
-            -0.4
-          ],
-          "mass": [
-            -0.65,
-            -0.75
-          ]
-        },
-        "uuid": "45047669-536a-4455-8563-b8be46d482e0"
-      },
-      "5": {
-        "components": {
-          "Conductive Ceramics": 1,
-          "Proto Light Alloys": 1,
-          "Proto Radiolic Alloys": 1
-        },
-        "features": {
-          "integrity": [
-            -0.5,
-            -0.5
-          ],
-          "mass": [
-            -0.75,
-            -0.85
-          ]
-        },
-        "uuid": "ab6cc0b2-73eb-4aa5-a2a3-2b662e38b7d8"
-      }
-    },
-    "id": 13,
-    "modulename": [
-      "Chaff launcher"
-    ],
-    "name": "Lightweight"
-  },
-  "ChaffLauncher_Reinforced": {
-    "fdname": "ChaffLauncher_Reinforced",
-    "grades": {
-      "1": {
-        "components": {
-          "Nickel": 1
-        },
-        "features": {
-          "integrity": [
-            0,
-            0.6
-          ],
-          "mass": [
-            0.3,
-            0.3
-          ]
-        },
-        "uuid": "c952091e-30de-4b13-8e7e-c59aee4c1466"
-      },
-      "2": {
-        "components": {
-          "Nickel": 1,
-          "Shield Emitters": 1
-        },
-        "features": {
-          "integrity": [
-            0.6,
-            1.2
-          ],
-          "mass": [
-            0.6,
-            0.6
-          ]
-        },
-        "uuid": "5f868185-7351-49ec-95b4-87dab4d08e02"
-      },
-      "3": {
-        "components": {
-          "Nickel": 1,
-          "Shield Emitters": 1,
-          "Tungsten": 1
-        },
-        "features": {
-          "integrity": [
-            1.2,
-            1.8
-          ],
-          "mass": [
-            0.9,
-            0.9
-          ]
-        },
-        "uuid": "33e63006-29ae-4466-b240-7708ddd9804b"
-      },
-      "4": {
-        "components": {
-          "Molybdenum": 1,
-          "Tungsten": 1,
-          "Zinc": 1
-        },
-        "features": {
-          "integrity": [
-            1.8,
-            2.4
-          ],
-          "mass": [
-            1.2,
-            1.2
-          ]
-        },
-        "uuid": "5d0cb508-a654-4dc8-8e04-6cafac0ea86d"
-      },
-      "5": {
-        "components": {
-          "High Density Composites": 1,
-          "Molybdenum": 1,
-          "Technetium": 1
-        },
-        "features": {
-          "integrity": [
-            2.4,
-            3
-          ],
-          "mass": [
-            1.5,
-            1.5
-          ]
-        },
-        "uuid": "06a5631b-036b-47ac-9d41-4c1728a5d34e"
-      }
-    },
-    "id": 14,
-    "modulename": [
-      "Chaff launcher"
-    ],
-    "name": "Reinforced"
-  },
-  "ChaffLauncher_Shielded": {
-    "fdname": "ChaffLauncher_Shielded",
-    "grades": {
-      "1": {
-        "components": {
-          "Worn Shield Emitters": 1
-        },
-        "features": {
-          "integrity": [
-            0,
-            0.6
-          ],
-          "power": [
-            0.2,
-            0.2
-          ]
-        },
-        "uuid": "ac3908c2-c5aa-44a1-a847-a9d27c34a326"
-      },
-      "2": {
-        "components": {
-          "Carbon": 1,
-          "Shield Emitters": 1
-        },
-        "features": {
-          "integrity": [
-            0.6,
-            1.2
-          ],
-          "power": [
-            0.4,
-            0.4
-          ]
-        },
-        "uuid": "ee1ad091-7a25-44ac-b3e4-9ee5e4228483"
-      },
-      "3": {
-        "components": {
-          "Carbon": 1,
-          "High Density Composites": 1,
-          "Shield Emitters": 1
-        },
-        "features": {
-          "integrity": [
-            1.2,
-            1.8
-          ],
-          "power": [
-            0.6,
-            0.6
-          ]
-        },
-        "uuid": "eddd7f16-035d-4e9e-96fc-bf82e9ce7397"
-      },
-      "4": {
-        "components": {
-          "Proprietary Composites": 1,
-          "Shielding Sensors": 1,
-          "Vanadium": 1
-        },
-        "features": {
-          "integrity": [
-            1.8,
-            2.4
-          ],
-          "power": [
-            0.8,
-            0.8
-          ]
-        },
-        "uuid": "1fef7b64-bf77-4024-a9b4-24146d5cefe3"
-      },
-      "5": {
-        "components": {
-          "Compound Shielding": 1,
-          "Core Dynamics Composites": 1,
-          "Tungsten": 1
-        },
-        "features": {
-          "integrity": [
-            2.4,
-            3
-          ],
-          "power": [
-            1,
-            1
-          ]
-        },
-        "uuid": "f6df4a5b-58f4-4854-843c-a99b2f106154"
-      }
-    },
-    "id": 15,
-    "modulename": [
-      "Chaff launcher"
-    ],
-    "name": "Shielded"
   },
   "CollectionLimpet_LightWeight": {
     "fdname": "CollectionLimpet_LightWeight",
@@ -1656,300 +1392,6 @@
     ],
     "name": "Shielded"
   },
-  "ECM_LightWeight": {
-    "fdname": "ECM_LightWeight",
-    "grades": {
-      "1": {
-        "components": {
-          "Phosphorus": 1
-        },
-        "features": {
-          "integrity": [
-            -0.1,
-            -0.1
-          ],
-          "mass": [
-            0,
-            -0.45
-          ]
-        },
-        "uuid": "123ef1f4-cb7e-4b8e-8dfc-48c3407d0c94"
-      },
-      "2": {
-        "components": {
-          "Manganese": 1,
-          "Salvaged Alloys": 1
-        },
-        "features": {
-          "integrity": [
-            -0.2,
-            -0.2
-          ],
-          "mass": [
-            -0.45,
-            -0.55
-          ]
-        },
-        "uuid": "abf6487e-1fac-46e7-9ae3-a46bea977412"
-      },
-      "3": {
-        "components": {
-          "Conductive Ceramics": 1,
-          "Manganese": 1,
-          "Salvaged Alloys": 1
-        },
-        "features": {
-          "integrity": [
-            -0.3,
-            -0.3
-          ],
-          "mass": [
-            -0.55,
-            -0.65
-          ]
-        },
-        "uuid": "e1bc6bec-da7b-4b5c-aedd-637b753d2e1f"
-      },
-      "4": {
-        "components": {
-          "Conductive Components": 1,
-          "Phase Alloys": 1,
-          "Proto Light Alloys": 1
-        },
-        "features": {
-          "integrity": [
-            -0.4,
-            -0.4
-          ],
-          "mass": [
-            -0.65,
-            -0.75
-          ]
-        },
-        "uuid": "ac3a70dc-8759-4f69-8c97-c31be11d9b49"
-      },
-      "5": {
-        "components": {
-          "Conductive Ceramics": 1,
-          "Proto Light Alloys": 1,
-          "Proto Radiolic Alloys": 1
-        },
-        "features": {
-          "integrity": [
-            -0.5,
-            -0.5
-          ],
-          "mass": [
-            -0.75,
-            -0.85
-          ]
-        },
-        "uuid": "1ca34b8b-ce91-44a5-b210-ab7ce9333657"
-      }
-    },
-    "id": 19,
-    "modulename": [
-      "Electronic counter measures",
-      "ECM"
-    ],
-    "name": "Lightweight"
-  },
-  "ECM_Reinforced": {
-    "fdname": "ECM_Reinforced",
-    "grades": {
-      "1": {
-        "components": {
-          "Nickel": 1
-        },
-        "features": {
-          "integrity": [
-            0,
-            0.6
-          ],
-          "mass": [
-            0.3,
-            0.3
-          ]
-        },
-        "uuid": "6bcb5b84-5e90-4d3d-be7c-6ed6c1f048c4"
-      },
-      "2": {
-        "components": {
-          "Nickel": 1,
-          "Shield Emitters": 1
-        },
-        "features": {
-          "integrity": [
-            0.6,
-            1.2
-          ],
-          "mass": [
-            0.6,
-            0.6
-          ]
-        },
-        "uuid": "8497a12f-becf-499b-8df8-6814cfa93e39"
-      },
-      "3": {
-        "components": {
-          "Nickel": 1,
-          "Shield Emitters": 1,
-          "Tungsten": 1
-        },
-        "features": {
-          "integrity": [
-            1.2,
-            1.8
-          ],
-          "mass": [
-            0.9,
-            0.9
-          ]
-        },
-        "uuid": "2fbadb73-1c89-4d25-9061-43735d4970b3"
-      },
-      "4": {
-        "components": {
-          "Molybdenum": 1,
-          "Tungsten": 1,
-          "Zinc": 1
-        },
-        "features": {
-          "integrity": [
-            1.8,
-            2.4
-          ],
-          "mass": [
-            1.2,
-            1.2
-          ]
-        },
-        "uuid": "a89859a9-1278-40d0-ac77-e3e6bf10de95"
-      },
-      "5": {
-        "components": {
-          "High Density Composites": 1,
-          "Molybdenum": 1,
-          "Technetium": 1
-        },
-        "features": {
-          "integrity": [
-            2.4,
-            3
-          ],
-          "mass": [
-            1.5,
-            1.5
-          ]
-        },
-        "uuid": "7ab56e9d-f02d-4562-b1e1-82168f482a3e"
-      }
-    },
-    "id": 20,
-    "modulename": [
-      "Electronic counter measures",
-      "ECM"
-    ],
-    "name": "Reinforced"
-  },
-  "ECM_Shielded": {
-    "fdname": "ECM_Shielded",
-    "grades": {
-      "1": {
-        "components": {
-          "Worn Shield Emitters": 1
-        },
-        "features": {
-          "integrity": [
-            0,
-            0.6
-          ],
-          "power": [
-            0.2,
-            0.2
-          ]
-        },
-        "uuid": "0dd69a33-0309-4ab6-bf88-e500db42448c"
-      },
-      "2": {
-        "components": {
-          "Carbon": 1,
-          "Shield Emitters": 1
-        },
-        "features": {
-          "integrity": [
-            0.6,
-            1.2
-          ],
-          "power": [
-            0.4,
-            0.4
-          ]
-        },
-        "uuid": "297bc1b2-7e2c-4556-b971-b2ff38cbff53"
-      },
-      "3": {
-        "components": {
-          "Carbon": 1,
-          "High Density Composites": 1,
-          "Shield Emitters": 1
-        },
-        "features": {
-          "integrity": [
-            1.2,
-            1.8
-          ],
-          "power": [
-            0.6,
-            0.6
-          ]
-        },
-        "uuid": "385a3392-8580-4fa6-a52c-1205f1041b99"
-      },
-      "4": {
-        "components": {
-          "Proprietary Composites": 1,
-          "Shielding Sensors": 1,
-          "Vanadium": 1
-        },
-        "features": {
-          "integrity": [
-            1.8,
-            2.4
-          ],
-          "power": [
-            0.8,
-            0.8
-          ]
-        },
-        "uuid": "eb3e8641-031c-4318-9e97-43f27529fd86"
-      },
-      "5": {
-        "components": {
-          "Compound Shielding": 1,
-          "Core Dynamics Composites": 1,
-          "Tungsten": 1
-        },
-        "features": {
-          "integrity": [
-            2.4,
-            3
-          ],
-          "power": [
-            1,
-            1
-          ]
-        },
-        "uuid": "7d291eef-55fa-4ffd-8d5c-1b4e46669333"
-      }
-    },
-    "id": 21,
-    "modulename": [
-      "Electronic counter measures",
-      "ECM"
-    ],
-    "name": "Shielded"
-  },
   "Engine_Dirty": {
     "fdname": "Engine_Dirty",
     "grades": {
@@ -1963,8 +1405,8 @@
             -0.03
           ],
           "optmass": [
-            -0.03,
-            -0.03
+            -0.025,
+            -0.025
           ],
           "optmul": [
             0,
@@ -2022,7 +1464,7 @@
             -0.09
           ],
           "optmass": [
-            -0.08,
+            -0.075,
             -0.075
           ],
           "optmul": [
@@ -2082,8 +1524,8 @@
             -0.15
           ],
           "optmass": [
-            -0.13,
-            -0.13
+            -0.125,
+            -0.125
           ],
           "optmul": [
             0.33,
@@ -3659,8 +3101,8 @@
     ],
     "name": "Shielded"
   },
-  "HeatSinkLauncher_HeatSinkCapacity": {
-    "fdname": "HeatSinkLauncher_HeatSinkCapacity",
+  "Misc_HeatSinkCapacity": {
+    "fdname": "Misc_HeatSinkCapacity",
     "grades": {
       "3": {
         "components": {
@@ -3690,297 +3132,6 @@
       "Heat sink launcher"
     ],
     "name": "Ammo capacity"
-  },
-  "HeatSinkLauncher_LightWeight": {
-    "fdname": "HeatSinkLauncher_LightWeight",
-    "grades": {
-      "1": {
-        "components": {
-          "Phosphorus": 1
-        },
-        "features": {
-          "integrity": [
-            -0.1,
-            -0.1
-          ],
-          "mass": [
-            0,
-            -0.45
-          ]
-        },
-        "uuid": "0a20c246-fe84-43d1-835b-ae74474cdec9"
-      },
-      "2": {
-        "components": {
-          "Manganese": 1,
-          "Salvaged Alloys": 1
-        },
-        "features": {
-          "integrity": [
-            -0.2,
-            -0.2
-          ],
-          "mass": [
-            -0.45,
-            -0.55
-          ]
-        },
-        "uuid": "83dc9090-28c5-45b7-a4f5-8e2a76923e90"
-      },
-      "3": {
-        "components": {
-          "Conductive Ceramics": 1,
-          "Manganese": 1,
-          "Salvaged Alloys": 1
-        },
-        "features": {
-          "integrity": [
-            -0.3,
-            -0.3
-          ],
-          "mass": [
-            -0.55,
-            -0.65
-          ]
-        },
-        "uuid": "777b5a47-9d29-4787-b097-8c4a22c11d20"
-      },
-      "4": {
-        "components": {
-          "Conductive Components": 1,
-          "Phase Alloys": 1,
-          "Proto Light Alloys": 1
-        },
-        "features": {
-          "integrity": [
-            -0.4,
-            -0.4
-          ],
-          "mass": [
-            -0.65,
-            -0.75
-          ]
-        },
-        "uuid": "558a1180-e1a0-4c4a-8992-fac17d58860b"
-      },
-      "5": {
-        "components": {
-          "Conductive Ceramics": 1,
-          "Proto Light Alloys": 1,
-          "Proto Radiolic Alloys": 1
-        },
-        "features": {
-          "integrity": [
-            -0.5,
-            -0.5
-          ],
-          "mass": [
-            -0.75,
-            -0.85
-          ]
-        },
-        "uuid": "732d7fd3-4ba6-4402-8260-75a2d26c8dc9"
-      }
-    },
-    "id": 38,
-    "modulename": [
-      "Heat sink launcher"
-    ],
-    "name": "Lightweight"
-  },
-  "HeatSinkLauncher_Reinforced": {
-    "fdname": "HeatSinkLauncher_Reinforced",
-    "grades": {
-      "1": {
-        "components": {
-          "Nickel": 1
-        },
-        "features": {
-          "integrity": [
-            0,
-            0.6
-          ],
-          "mass": [
-            0.3,
-            0.3
-          ]
-        },
-        "uuid": "4b8ad4b4-4d42-4014-98ac-2175392ad0c8"
-      },
-      "2": {
-        "components": {
-          "Nickel": 1,
-          "Shield Emitters": 1
-        },
-        "features": {
-          "integrity": [
-            0.6,
-            1.2
-          ],
-          "mass": [
-            0.6,
-            0.6
-          ]
-        },
-        "uuid": "7a7166cf-d789-4cb8-9768-f31cc3159dc5"
-      },
-      "3": {
-        "components": {
-          "Nickel": 1,
-          "Shield Emitters": 1,
-          "Tungsten": 1
-        },
-        "features": {
-          "integrity": [
-            1.2,
-            1.8
-          ],
-          "mass": [
-            0.9,
-            0.9
-          ]
-        },
-        "uuid": "93d33903-1dc8-453a-8bd6-df3198c1eac5"
-      },
-      "4": {
-        "components": {
-          "Molybdenum": 1,
-          "Tungsten": 1,
-          "Zinc": 1
-        },
-        "features": {
-          "integrity": [
-            1.8,
-            2.4
-          ],
-          "mass": [
-            1.2,
-            1.2
-          ]
-        },
-        "uuid": "9a174428-ac75-4bc8-80e0-c1327d0317b8"
-      },
-      "5": {
-        "components": {
-          "High Density Composites": 1,
-          "Molybdenum": 1,
-          "Technetium": 1
-        },
-        "features": {
-          "integrity": [
-            2.4,
-            3
-          ],
-          "mass": [
-            1.5,
-            1.5
-          ]
-        },
-        "uuid": "2b450008-60f9-4473-8e2d-563e1f0ded00"
-      }
-    },
-    "id": 39,
-    "modulename": [
-      "Heat sink launcher"
-    ],
-    "name": "Reinforced"
-  },
-  "HeatSinkLauncher_Shielded": {
-    "fdname": "HeatSinkLauncher_Shielded",
-    "grades": {
-      "1": {
-        "components": {
-          "Worn Shield Emitters": 1
-        },
-        "features": {
-          "integrity": [
-            0,
-            0.6
-          ],
-          "power": [
-            0.2,
-            0.2
-          ]
-        },
-        "uuid": "b7bb4a4a-61ee-44b6-b477-e6abf7540240"
-      },
-      "2": {
-        "components": {
-          "Carbon": 1,
-          "Shield Emitters": 1
-        },
-        "features": {
-          "integrity": [
-            0.6,
-            1.2
-          ],
-          "power": [
-            0.4,
-            0.4
-          ]
-        },
-        "uuid": "69ec3d60-591c-4c65-a6d4-2b2fe83e1819"
-      },
-      "3": {
-        "components": {
-          "Carbon": 1,
-          "High Density Composites": 1,
-          "Shield Emitters": 1
-        },
-        "features": {
-          "integrity": [
-            1.2,
-            1.8
-          ],
-          "power": [
-            0.6,
-            0.6
-          ]
-        },
-        "uuid": "beb3c5c1-689c-497d-a1b0-92d7fda93878"
-      },
-      "4": {
-        "components": {
-          "Proprietary Composites": 1,
-          "Shielding Sensors": 1,
-          "Vanadium": 1
-        },
-        "features": {
-          "integrity": [
-            1.8,
-            2.4
-          ],
-          "power": [
-            0.8,
-            0.8
-          ]
-        },
-        "uuid": "52f4a6d1-c291-4ac6-84f2-6d39bc54e675"
-      },
-      "5": {
-        "components": {
-          "Compound Shielding": 1,
-          "Core Dynamics Composites": 1,
-          "Tungsten": 1
-        },
-        "features": {
-          "integrity": [
-            2.4,
-            3
-          ],
-          "power": [
-            1,
-            1
-          ]
-        },
-        "uuid": "aa1707cb-c9e3-425f-91cf-98ab482317ca"
-      }
-    },
-    "id": 40,
-    "modulename": [
-      "Heat sink launcher"
-    ],
-    "name": "Shielded"
   },
   "HullReinforcement_Advanced": {
     "fdname": "HullReinforcement_Advanced",
@@ -4677,418 +3828,6 @@
     ],
     "name": "Thermal resistant"
   },
-  "KillWarrantScanner_LightWeight": {
-    "fdname": "KillWarrantScanner_LightWeight",
-    "grades": {
-      "1": {
-        "components": {
-          "Phosphorus": 1
-        },
-        "features": {
-          "integrity": [
-            -0.1,
-            -0.1
-          ],
-          "mass": [
-            0,
-            -0.45
-          ]
-        },
-        "uuid": "b56007ba-9351-417e-9da8-def090b31e50"
-      },
-      "2": {
-        "components": {
-          "Manganese": 1,
-          "Salvaged Alloys": 1
-        },
-        "features": {
-          "integrity": [
-            -0.2,
-            -0.2
-          ],
-          "mass": [
-            -0.45,
-            -0.55
-          ]
-        },
-        "uuid": "14b2d6f0-5f93-48c9-a04a-b9b1064b4bd1"
-      },
-      "3": {
-        "components": {
-          "Conductive Ceramics": 1,
-          "Manganese": 1,
-          "Salvaged Alloys": 1
-        },
-        "features": {
-          "integrity": [
-            -0.3,
-            -0.3
-          ],
-          "mass": [
-            -0.55,
-            -0.65
-          ]
-        },
-        "uuid": "d6dc2106-b95e-49fe-bd56-0ab0729045ad"
-      },
-      "4": {
-        "components": {
-          "Conductive Components": 1,
-          "Phase Alloys": 1,
-          "Proto Light Alloys": 1
-        },
-        "features": {
-          "integrity": [
-            -0.4,
-            -0.4
-          ],
-          "mass": [
-            -0.65,
-            -0.75
-          ]
-        },
-        "uuid": "fa568ca9-fe6f-4036-89ae-c6659fdc4e33"
-      },
-      "5": {
-        "components": {
-          "Conductive Ceramics": 1,
-          "Proto Light Alloys": 1,
-          "Proto Radiolic Alloys": 1
-        },
-        "features": {
-          "integrity": [
-            -0.5,
-            -0.5
-          ],
-          "mass": [
-            -0.75,
-            -0.85
-          ]
-        },
-        "uuid": "caadbd5f-2b31-42bb-b3ee-754d44d34938"
-      }
-    },
-    "id": 46,
-    "modulename": [
-      "Kill warrant scanner",
-      "KWS"
-    ],
-    "name": "Lightweight"
-  },
-  "KillWarrantScanner_LongRange": {
-    "fdname": "KillWarrantScanner_LongRange",
-    "grades": {
-      "1": {
-        "components": {
-          "Iron": 1
-        },
-        "features": {
-          "power": [
-            0.1,
-            0.1
-          ],
-          "angle": [
-            -0.1,
-            -0.1
-          ],
-          "range": [
-            0,
-            0.24
-          ]
-        },
-        "uuid": "2689c846-02d7-4694-97f1-85cd5437b42f"
-      },
-      "2": {
-        "components": {
-          "Hybrid Capacitors": 1,
-          "Iron": 1
-        },
-        "features": {
-          "power": [
-            0.2,
-            0.2
-          ],
-          "angle": [
-            -0.15,
-            -0.15
-          ],
-          "range": [
-            0.24,
-            0.48
-          ]
-        },
-        "uuid": "c2160767-b03f-491e-9a45-31976fb78899"
-      },
-      "3": {
-        "components": {
-          "Hybrid Capacitors": 1,
-          "Iron": 1,
-          "Unexpected Emission Data": 1
-        },
-        "features": {
-          "power": [
-            0.3,
-            0.3
-          ],
-          "angle": [
-            -0.2,
-            -0.2
-          ],
-          "range": [
-            0.48,
-            0.72
-          ]
-        },
-        "uuid": "4d9ccdb6-89cc-4f27-a8c8-584de68dae4b"
-      },
-      "4": {
-        "components": {
-          "Decoded Emission Data": 1,
-          "Electrochemical Arrays": 1,
-          "Germanium": 1
-        },
-        "features": {
-          "power": [
-            0.4,
-            0.4
-          ],
-          "angle": [
-            -0.25,
-            -0.25
-          ],
-          "range": [
-            0.72,
-            0.96
-          ]
-        },
-        "uuid": "0ecb3bee-4033-4937-a5ed-161f50cb6024"
-      },
-      "5": {
-        "components": {
-          "Abnormal Compact Emissions Data": 1,
-          "Niobium": 1,
-          "Polymer Capacitors": 1
-        },
-        "features": {
-          "power": [
-            0.5,
-            0.5
-          ],
-          "angle": [
-            -0.3,
-            -0.3
-          ],
-          "range": [
-            0.96,
-            1.2
-          ]
-        },
-        "uuid": "8ec2cbd4-b944-448b-b230-d9de87aea5b8"
-      }
-    },
-    "id": 99,
-    "modulename": [
-      "Kill warrant scanner",
-      "KWS"
-    ],
-    "name": "Long range"
-  },
-  "KillWarrantScanner_Reinforced": {
-    "fdname": "KillWarrantScanner_Reinforced",
-    "grades": {
-      "1": {
-        "components": {
-          "Nickel": 1
-        },
-        "features": {
-          "integrity": [
-            0,
-            0.6
-          ],
-          "mass": [
-            0.3,
-            0.3
-          ]
-        },
-        "uuid": "54cf058d-795d-423c-8923-fdd6971dec29"
-      },
-      "2": {
-        "components": {
-          "Nickel": 1,
-          "Shield Emitters": 1
-        },
-        "features": {
-          "integrity": [
-            0.6,
-            1.2
-          ],
-          "mass": [
-            0.6,
-            0.6
-          ]
-        },
-        "uuid": "3d7eb835-8a30-458d-bbf3-cfd8de5f8cb4"
-      },
-      "3": {
-        "components": {
-          "Nickel": 1,
-          "Shield Emitters": 1,
-          "Tungsten": 1
-        },
-        "features": {
-          "integrity": [
-            1.2,
-            1.8
-          ],
-          "mass": [
-            0.9,
-            0.9
-          ]
-        },
-        "uuid": "200dfa7b-085d-43d8-ae61-f7080feed350"
-      },
-      "4": {
-        "components": {
-          "Molybdenum": 1,
-          "Tungsten": 1,
-          "Zinc": 1
-        },
-        "features": {
-          "integrity": [
-            1.8,
-            2.4
-          ],
-          "mass": [
-            1.2,
-            1.2
-          ]
-        },
-        "uuid": "4fdb0643-c9e0-43f6-8b6b-4613fec1de03"
-      },
-      "5": {
-        "components": {
-          "High Density Composites": 1,
-          "Molybdenum": 1,
-          "Technetium": 1
-        },
-        "features": {
-          "integrity": [
-            2.4,
-            3
-          ],
-          "mass": [
-            1.5,
-            1.5
-          ]
-        },
-        "uuid": "b5787172-ca08-43bd-8d57-b00a26c3d6c8"
-      }
-    },
-    "id": 47,
-    "modulename": [
-      "Kill warrant scanner",
-      "KWS"
-    ],
-    "name": "Reinforced"
-  },
-  "KillWarrantScanner_Shielded": {
-    "fdname": "KillWarrantScanner_Shielded",
-    "grades": {
-      "1": {
-        "components": {
-          "Worn Shield Emitters": 1
-        },
-        "features": {
-          "integrity": [
-            0,
-            0.6
-          ],
-          "power": [
-            0.2,
-            0.2
-          ]
-        },
-        "uuid": "f4426054-f766-4be3-8b26-e9236ff61dd9"
-      },
-      "2": {
-        "components": {
-          "Carbon": 1,
-          "Shield Emitters": 1
-        },
-        "features": {
-          "integrity": [
-            0.6,
-            1.2
-          ],
-          "power": [
-            0.4,
-            0.4
-          ]
-        },
-        "uuid": "fa7b4b7f-ed0a-401f-a372-1d03c09f9c55"
-      },
-      "3": {
-        "components": {
-          "Carbon": 1,
-          "High Density Composites": 1,
-          "Shield Emitters": 1
-        },
-        "features": {
-          "integrity": [
-            1.2,
-            1.8
-          ],
-          "power": [
-            0.6,
-            0.6
-          ]
-        },
-        "uuid": "443fe7e9-e313-457b-8c0f-6eb22e6e91ef"
-      },
-      "4": {
-        "components": {
-          "Proprietary Composites": 1,
-          "Shielding Sensors": 1,
-          "Vanadium": 1
-        },
-        "features": {
-          "integrity": [
-            1.8,
-            2.4
-          ],
-          "power": [
-            0.8,
-            0.8
-          ]
-        },
-        "uuid": "b1a0e15d-7164-44f9-85e5-9acc64e56b8b"
-      },
-      "5": {
-        "components": {
-          "Compound Shielding": 1,
-          "Core Dynamics Composites": 1,
-          "Tungsten": 1
-        },
-        "features": {
-          "integrity": [
-            2.4,
-            3
-          ],
-          "power": [
-            1,
-            1
-          ]
-        },
-        "uuid": "499f1881-9448-4df5-a734-cc3876f23790"
-      }
-    },
-    "id": 48,
-    "modulename": [
-      "Kill warrant scanner",
-      "KWS"
-    ],
-    "name": "Shielded"
-  },
   "LifeSupport_LightWeight": {
     "fdname": "LifeSupport_LightWeight",
     "grades": {
@@ -5380,105 +4119,8 @@
     ],
     "name": "Shielded"
   },
-  "PointDefence_LightWeight": {
-    "fdname": "PointDefence_LightWeight",
-    "grades": {
-      "1": {
-        "components": {
-          "Phosphorus": 1
-        },
-        "features": {
-          "integrity": [
-            -0.1,
-            -0.1
-          ],
-          "mass": [
-            0,
-            -0.45
-          ]
-        },
-        "uuid": "b212ba23-880a-46f7-94ef-f276acb068da"
-      },
-      "2": {
-        "components": {
-          "Manganese": 1,
-          "Salvaged Alloys": 1
-        },
-        "features": {
-          "integrity": [
-            -0.2,
-            -0.2
-          ],
-          "mass": [
-            -0.45,
-            -0.55
-          ]
-        },
-        "uuid": "17733fc5-6153-406c-b7f6-fbc6904b7223"
-      },
-      "3": {
-        "components": {
-          "Conductive Ceramics": 1,
-          "Manganese": 1,
-          "Salvaged Alloys": 1
-        },
-        "features": {
-          "integrity": [
-            -0.3,
-            -0.3
-          ],
-          "mass": [
-            -0.55,
-            -0.65
-          ]
-        },
-        "uuid": "428b7f9f-9ab2-4f1f-9e8e-9a54ede9af65"
-      },
-      "4": {
-        "components": {
-          "Conductive Components": 1,
-          "Phase Alloys": 1,
-          "Proto Light Alloys": 1
-        },
-        "features": {
-          "integrity": [
-            -0.4,
-            -0.4
-          ],
-          "mass": [
-            -0.65,
-            -0.75
-          ]
-        },
-        "uuid": "6285a7cd-bb8f-427d-b2aa-3c20953c9c9c"
-      },
-      "5": {
-        "components": {
-          "Conductive Ceramics": 1,
-          "Proto Light Alloys": 1,
-          "Proto Radiolic Alloys": 1
-        },
-        "features": {
-          "integrity": [
-            -0.5,
-            -0.5
-          ],
-          "mass": [
-            -0.75,
-            -0.85
-          ]
-        },
-        "uuid": "1e819178-49c2-4aad-bf17-723061cb3f95"
-      }
-    },
-    "id": 52,
-    "modulename": [
-      "Point defence"
-    ],
-    "name": "Lightweight"
-  },
-  "PointDefence_PointDefenseCapacity": {
-    "fdname": "PointDefence_PointDefenseCapacity",
+  "Misc_PointDefenseCapacity": {
+    "fdname": "Misc_PointDefenseCapacity",
     "grades": {
       "3": {
         "components": {
@@ -5508,398 +4150,6 @@
       "Point defence"
     ],
     "name": "Ammo capacity"
-  },
-  "PointDefence_Reinforced": {
-    "fdname": "PointDefence_Reinforced",
-    "grades": {
-      "1": {
-        "components": {
-          "Nickel": 1
-        },
-        "features": {
-          "integrity": [
-            0,
-            0.6
-          ],
-          "mass": [
-            0.3,
-            0.3
-          ]
-        },
-        "uuid": "be6995c8-ffe3-41db-82c7-8a1d876254bd"
-      },
-      "2": {
-        "components": {
-          "Nickel": 1,
-          "Shield Emitters": 1
-        },
-        "features": {
-          "integrity": [
-            0.6,
-            1.2
-          ],
-          "mass": [
-            0.6,
-            0.6
-          ]
-        },
-        "uuid": "b485f4a5-194e-44cd-8a68-d78d87b78749"
-      },
-      "3": {
-        "components": {
-          "Nickel": 1,
-          "Shield Emitters": 1,
-          "Tungsten": 1
-        },
-        "features": {
-          "integrity": [
-            1.2,
-            1.8
-          ],
-          "mass": [
-            0.9,
-            0.9
-          ]
-        },
-        "uuid": "007beb33-2cb2-48fc-b3d3-b5b82fc7c795"
-      },
-      "4": {
-        "components": {
-          "Molybdenum": 1,
-          "Tungsten": 1,
-          "Zinc": 1
-        },
-        "features": {
-          "integrity": [
-            1.8,
-            2.4
-          ],
-          "mass": [
-            1.2,
-            1.2
-          ]
-        },
-        "uuid": "3fbaecf6-2bdf-4c53-b455-d37d0d78571c"
-      },
-      "5": {
-        "components": {
-          "High Density Composites": 1,
-          "Molybdenum": 1,
-          "Technetium": 1
-        },
-        "features": {
-          "integrity": [
-            2.4,
-            3
-          ],
-          "mass": [
-            1.5,
-            1.5
-          ]
-        },
-        "uuid": "e6c7a828-4c26-44e6-80ed-e39978850532"
-      }
-    },
-    "id": 53,
-    "modulename": [
-      "Point defence"
-    ],
-    "name": "Reinforced"
-  },
-  "PointDefence_Shielded": {
-    "fdname": "PointDefence_Shielded",
-    "grades": {
-      "1": {
-        "components": {
-          "Worn Shield Emitters": 1
-        },
-        "features": {
-          "integrity": [
-            0,
-            0.6
-          ],
-          "power": [
-            0.2,
-            0.2
-          ]
-        },
-        "uuid": "84de52cc-9d50-48b9-94bc-262735f61a27"
-      },
-      "2": {
-        "components": {
-          "Carbon": 1,
-          "Shield Emitters": 1
-        },
-        "features": {
-          "integrity": [
-            0.6,
-            1.2
-          ],
-          "power": [
-            0.4,
-            0.4
-          ]
-        },
-        "uuid": "94b0ceb5-3f07-4206-aa02-1e69f1059476"
-      },
-      "3": {
-        "components": {
-          "Carbon": 1,
-          "High Density Composites": 1,
-          "Shield Emitters": 1
-        },
-        "features": {
-          "integrity": [
-            1.2,
-            1.8
-          ],
-          "power": [
-            0.6,
-            0.6
-          ]
-        },
-        "uuid": "ad2d6c5e-f69d-44cd-94e5-0437a1b77e39"
-      },
-      "4": {
-        "components": {
-          "Proprietary Composites": 1,
-          "Shielding Sensors": 1,
-          "Vanadium": 1
-        },
-        "features": {
-          "integrity": [
-            1.8,
-            2.4
-          ],
-          "power": [
-            0.8,
-            0.8
-          ]
-        },
-        "uuid": "718b1c81-ffc9-4097-8969-3805dfab4ce2"
-      },
-      "5": {
-        "components": {
-          "Compound Shielding": 1,
-          "Core Dynamics Composites": 1,
-          "Tungsten": 1
-        },
-        "features": {
-          "integrity": [
-            2.4,
-            3
-          ],
-          "power": [
-            1,
-            1
-          ]
-        },
-        "uuid": "4a89d7e7-fb6d-4d65-aca6-641b634d2cbb"
-      }
-    },
-    "id": 54,
-    "modulename": [
-      "Point defence"
-    ],
-    "name": "Shielded"
-  },
-  "PowerDistributor_HighCapacity": {
-    "fdname": "PowerDistributor_HighCapacity",
-    "grades": {
-      "1": {
-        "components": {
-          "Sulphur": 1
-        },
-        "features": {
-          "engcap": [
-            0,
-            0.1
-          ],
-          "engrate": [
-            -0.02,
-            -0.02
-          ],
-          "integrity": [
-            0,
-            0.1
-          ],
-          "syscap": [
-            0,
-            0.1
-          ],
-          "sysrate": [
-            -0.02,
-            -0.02
-          ],
-          "wepcap": [
-            0,
-            0.1
-          ],
-          "weprate": [
-            -0.02,
-            -0.02
-          ]
-        },
-        "uuid": "e1ae5651-f688-46e2-a94a-9c3bc6e8665b"
-      },
-      "2": {
-        "components": {
-          "Chromium": 1,
-          "Specialised Legacy Firmware": 1
-        },
-        "features": {
-          "engcap": [
-            0.1,
-            0.18
-          ],
-          "engrate": [
-            -0.06,
-            -0.06
-          ],
-          "integrity": [
-            0.1,
-            0.18
-          ],
-          "syscap": [
-            0.08,
-            0.1
-          ],
-          "sysrate": [
-            -0.06,
-            -0.06
-          ],
-          "wepcap": [
-            0.1,
-            0.18
-          ],
-          "weprate": [
-            -0.06,
-            -0.06
-          ]
-        },
-        "uuid": "d5ea6b7b-31eb-44f4-b1f3-8126dd6ea7b5"
-      },
-      "3": {
-        "components": {
-          "Chromium": 1,
-          "High Density Composites": 1,
-          "Specialised Legacy Firmware": 1
-        },
-        "features": {
-          "engcap": [
-            0.18,
-            0.26
-          ],
-          "engrate": [
-            -0.1,
-            -0.1
-          ],
-          "integrity": [
-            0.15,
-            0.2
-          ],
-          "syscap": [
-            0.18,
-            0.26
-          ],
-          "sysrate": [
-            -0.1,
-            -0.1
-          ],
-          "wepcap": [
-            0.18,
-            0.26
-          ],
-          "weprate": [
-            -0.1,
-            -0.1
-          ]
-        },
-        "uuid": "b959a87e-a231-46e7-a6a7-65fe6c0464bc"
-      },
-      "4": {
-        "components": {
-          "Modified Consumer Firmware": 1,
-          "Proprietary Composites": 1,
-          "Selenium": 1
-        },
-        "features": {
-          "engcap": [
-            0.26,
-            0.34
-          ],
-          "engrate": [
-            -0.14,
-            -0.14
-          ],
-          "integrity": [
-            0.2,
-            0.25
-          ],
-          "syscap": [
-            0.26,
-            0.34
-          ],
-          "sysrate": [
-            -0.14,
-            -0.14
-          ],
-          "wepcap": [
-            0.26,
-            0.34
-          ],
-          "weprate": [
-            -0.14,
-            -0.14
-          ]
-        },
-        "uuid": "5f468c03-ed6d-474f-9e82-601b11d728c8"
-      },
-      "5": {
-        "components": {
-          "Cracked Industrial Firmware": 1,
-          "Military Supercapacitors": 1,
-          "Proprietary Composites": 1
-        },
-        "features": {
-          "engcap": [
-            0.34,
-            0.42
-          ],
-          "engrate": [
-            -0.18,
-            -0.18
-          ],
-          "integrity": [
-            0.25,
-            0.3
-          ],
-          "syscap": [
-            0.34,
-            0.42
-          ],
-          "sysrate": [
-            -0.18,
-            -0.18
-          ],
-          "wepcap": [
-            0.34,
-            0.42
-          ],
-          "weprate": [
-            -0.18,
-            -0.18
-          ]
-        },
-        "uuid": "50b4cbc5-9445-43e3-a9a8-b1320fc0b27e"
-      }
-    },
-    "id": 56,
-    "modulename": [
-      "Power distributor",
-      "Distributor"
-    ],
-    "name": "High charge capacity"
   },
   "PowerDistributor_HighFrequency": {
     "fdname": "PowerDistributor_HighFrequency",
@@ -7472,8 +5722,8 @@
     ],
     "name": "Shielded"
   },
-  "Sensor_CargoScanner_FastScan": {
-    "fdname": "Sensor_CargoScanner_FastScan",
+  "Sensor_FastScan": {
+    "fdname": "Sensor_FastScan",
     "grades": {
       "1": {
         "components": {
@@ -7585,13 +5835,17 @@
     },
     "id": 102,
     "modulename": [
+      "Wake scanner",
+      "Frame shift wake scanner",
+      "Kill warrant scanner",
+      "KWS",
       "Cargo scanner",
       "Manifest scanner"
     ],
     "name": "Fast scan"
   },
-  "Sensor_CargoScanner_LongRange": {
-    "fdname": "Sensor_CargoScanner_LongRange",
+  "Sensor_LongRange_Scanner": {
+    "fdname": "Sensor_LongRange",
     "grades": {
       "1": {
         "components": {
@@ -7703,13 +5957,17 @@
     },
     "id": 104,
     "modulename": [
+      "Wake scanner",
+      "Frame shift wake scanner",
+      "Kill warrant scanner",
+      "KWS",
       "Cargo scanner",
       "Manifest scanner"
     ],
     "name": "Long range"
   },
-  "Sensor_CargoScanner_WideAngle": {
-    "fdname": "Sensor_CargoScanner_WideAngle",
+  "Sensor_WideAngle_Scanner": {
+    "fdname": "Sensor_WideAngle",
     "grades": {
       "1": {
         "components": {
@@ -7821,249 +6079,17 @@
     },
     "id": 105,
     "modulename": [
+      "Wake scanner",
+      "Frame shift wake scanner",
+      "Kill warrant scanner",
+      "KWS",
       "Cargo scanner",
       "Manifest scanner"
     ],
     "name": "Wide angle"
   },
-  "Sensor_KillWarrantScanner_FastScan": {
-    "fdname": "Sensor_KillWarrantScanner_FastScan",
-    "grades": {
-      "1": {
-        "components": {
-          "Phosphorus": 1
-        },
-        "features": {
-          "integrity": [
-            -0.1,
-            -0.1
-          ],
-          "range": [
-            -0.05,
-            -0.05
-          ],
-          "scantime": [
-            0,
-            -0.2
-          ]
-        },
-        "uuid": "37c2d07b-fa12-4ad2-a1cb-a1c9c5cdb348"
-      },
-      "2": {
-        "components": {
-          "Flawed Focus Crystals": 1,
-          "Phosphorus": 1
-        },
-        "features": {
-          "integrity": [
-            -0.2,
-            -0.2
-          ],
-          "range": [
-            -0.1,
-            -0.1
-          ],
-          "scantime": [
-            -0.2,
-            -0.35
-          ]
-        },
-        "uuid": "a375ac53-e245-4364-8d8a-389e247bc74d"
-      },
-      "3": {
-        "components": {
-          "Flawed Focus Crystals": 1,
-          "Open Symmetric Keys": 1,
-          "Phosphorus": 1
-        },
-        "features": {
-          "integrity": [
-            -0.3,
-            -0.3
-          ],
-          "range": [
-            -0.15,
-            -0.15
-          ],
-          "scantime": [
-            -0.35,
-            -0.5
-          ]
-        },
-        "uuid": "472ebde0-72d0-4ec1-beda-11cbcbad13f9"
-      },
-      "4": {
-        "components": {
-          "Atypical Encryption Archives": 1,
-          "Focus Crystals": 1,
-          "Manganese": 1
-        },
-        "features": {
-          "integrity": [
-            -0.4,
-            -0.4
-          ],
-          "range": [
-            -0.2,
-            -0.2
-          ],
-          "scantime": [
-            -0.5,
-            -0.65
-          ]
-        },
-        "uuid": "6d8d3ba8-46b3-4482-a65d-b1c6663c543b"
-      },
-      "5": {
-        "components": {
-          "Adaptive Encryptors Capture": 1,
-          "Arsenic": 1,
-          "Refined Focus Crystals": 1
-        },
-        "features": {
-          "integrity": [
-            -0.5,
-            -0.5
-          ],
-          "range": [
-            -0.25,
-            -0.25
-          ],
-          "scantime": [
-            -0.8,
-            -0.8
-          ]
-        },
-        "uuid": "fb2433bb-5493-43d8-a1ec-e57e43951751"
-      }
-    },
-    "id": 101,
-    "modulename": [
-      "Kill warrant scanner",
-      "KWS"
-    ],
-    "name": "Fast scan"
-  },
-  "Sensor_KillWarrantScanner_WideAngle": {
-    "fdname": "Sensor_KillWarrantScanner_WideAngle",
-    "grades": {
-      "1": {
-        "components": {
-          "Mechanical Scrap": 1
-        },
-        "features": {
-          "mass": [
-            0.2,
-            0.2
-          ],
-          "angle": [
-            0,
-            0.4
-          ],
-          "scantime": [
-            0.1,
-            0.1
-          ]
-        },
-        "uuid": "69ee982f-f925-4e0a-a7a8-cc52ff9bc295"
-      },
-      "2": {
-        "components": {
-          "Germanium": 1,
-          "Mechanical Scrap": 1
-        },
-        "features": {
-          "mass": [
-            0.4,
-            0.4
-          ],
-          "angle": [
-            0.4,
-            0.8
-          ],
-          "scantime": [
-            0.2,
-            0.2
-          ]
-        },
-        "uuid": "3f0b3cbd-3acf-4a49-a176-6ceb02b958f9"
-      },
-      "3": {
-        "components": {
-          "Classified Scan Databanks": 1,
-          "Germanium": 1,
-          "Mechanical Scrap": 1
-        },
-        "features": {
-          "mass": [
-            0.6,
-            0.6
-          ],
-          "angle": [
-            0.8,
-            1.2
-          ],
-          "scantime": [
-            0.3,
-            0.3
-          ]
-        },
-        "uuid": "5c378d56-97f7-4a75-b113-7e6bc846d53f"
-      },
-      "4": {
-        "components": {
-          "Divergent Scan Data": 1,
-          "Mechanical Equipment": 1,
-          "Niobium": 1
-        },
-        "features": {
-          "mass": [
-            0.8,
-            0.8
-          ],
-          "angle": [
-            1.2,
-            1.6
-          ],
-          "scantime": [
-            0.4,
-            0.4
-          ]
-        },
-        "uuid": "887d9bb6-422f-42ce-8a21-22d1f43a7f64"
-      },
-      "5": {
-        "components": {
-          "Classified Scan Fragment": 1,
-          "Mechanical Components": 1,
-          "Tin": 1
-        },
-        "features": {
-          "mass": [
-            1,
-            1
-          ],
-          "angle": [
-            1.6,
-            2
-          ],
-          "scantime": [
-            0.5,
-            0.5
-          ]
-        },
-        "uuid": "0f0f8c7e-e9d4-4264-88a6-668372ad9d47"
-      }
-    },
-    "id": 107,
-    "modulename": [
-      "Kill warrant scanner",
-      "KWS"
-    ],
-    "name": "Wide angle"
-  },
-  "Sensor_Sensor_LightWeight": {
-    "fdname": "Sensor_Sensor_LightWeight",
+  "Sensor_LightWeight": {
+    "fdname": "Sensor_LightWeight",
     "grades": {
       "1": {
         "components": {
@@ -8179,8 +6205,8 @@
     ],
     "name": "Lightweight"
   },
-  "Sensor_Sensor_LongRange": {
-    "fdname": "Sensor_Sensor_LongRange",
+  "Sensor_LongRange": {
+    "fdname": "Sensor_LongRange",
     "grades": {
       "1": {
         "components": {
@@ -8296,8 +6322,8 @@
     ],
     "name": "Long range"
   },
-  "Sensor_Sensor_WideAngle": {
-    "fdname": "Sensor_Sensor_WideAngle",
+  "Sensor_WideAngle": {
+    "fdname": "Sensor_WideAngle",
     "grades": {
       "1": {
         "components": {
@@ -8413,8 +6439,8 @@
     ],
     "name": "Wide angle"
   },
-  "SurfaceScanner_Expanded": {
-    "fdname": "SurfaceScanner_Expanded",
+  "Sensor_Expanded": {
+    "fdname": "Sensor_Expanded",
     "grades": {
       "1": {
         "components": {
@@ -8511,360 +6537,6 @@
     ],
     "name": "Expanded Probe Scanning Radius"
   },
-  "Sensor_WakeScanner_FastScan": {
-    "fdname": "Sensor_WakeScanner_FastScan",
-    "grades": {
-      "1": {
-        "components": {
-          "Phosphorus": 1
-        },
-        "features": {
-          "integrity": [
-            -0.1,
-            -0.1
-          ],
-          "range": [
-            -0.05,
-            -0.05
-          ],
-          "scantime": [
-            0,
-            -0.2
-          ]
-        },
-        "uuid": "c7abe4af-26f0-460c-8df7-71412f12d5f8"
-      },
-      "2": {
-        "components": {
-          "Flawed Focus Crystals": 1,
-          "Phosphorus": 1
-        },
-        "features": {
-          "integrity": [
-            -0.2,
-            -0.2
-          ],
-          "range": [
-            -0.1,
-            -0.1
-          ],
-          "scantime": [
-            -0.2,
-            -0.35
-          ]
-        },
-        "uuid": "940b832d-2dac-4671-9ada-4bede831342e"
-      },
-      "3": {
-        "components": {
-          "Flawed Focus Crystals": 1,
-          "Open Symmetric Keys": 1,
-          "Phosphorus": 1
-        },
-        "features": {
-          "integrity": [
-            -0.3,
-            -0.3
-          ],
-          "range": [
-            -0.15,
-            -0.15
-          ],
-          "scantime": [
-            -0.35,
-            -0.5
-          ]
-        },
-        "uuid": "223a0854-036f-495d-afa1-69253f2b87c3"
-      },
-      "4": {
-        "components": {
-          "Atypical Encryption Archives": 1,
-          "Focus Crystals": 1,
-          "Manganese": 1
-        },
-        "features": {
-          "integrity": [
-            -0.4,
-            -0.4
-          ],
-          "range": [
-            -0.2,
-            -0.2
-          ],
-          "scantime": [
-            -0.5,
-            -0.65
-          ]
-        },
-        "uuid": "992ffcbe-26c5-4f41-bc2d-81bb6565ac27"
-      },
-      "5": {
-        "components": {
-          "Adaptive Encryptors Capture": 1,
-          "Arsenic": 1,
-          "Refined Focus Crystals": 1
-        },
-        "features": {
-          "integrity": [
-            -0.5,
-            -0.5
-          ],
-          "range": [
-            -0.25,
-            -0.25
-          ],
-          "scantime": [
-            -0.8,
-            -0.8
-          ]
-        },
-        "uuid": "d2af32a6-ffdb-4c28-89ee-88f331e678d3"
-      }
-    },
-    "id": 109,
-    "modulename": [
-      "Wake scanner",
-      "Frame shift wake scanner"
-    ],
-    "name": "Fast scan"
-  },
-  "Sensor_WakeScanner_LongRange": {
-    "fdname": "Sensor_WakeScanner_LongRange",
-    "grades": {
-      "1": {
-        "components": {
-          "Iron": 1
-        },
-        "features": {
-          "power": [
-            0.1,
-            0.1
-          ],
-          "angle": [
-            -0.1,
-            -0.1
-          ],
-          "range": [
-            0,
-            0.24
-          ]
-        },
-        "uuid": "11521a5e-0b00-4efe-9433-b0d4b5168c11"
-      },
-      "2": {
-        "components": {
-          "Hybrid Capacitors": 1,
-          "Iron": 1
-        },
-        "features": {
-          "power": [
-            0.2,
-            0.2
-          ],
-          "angle": [
-            -0.15,
-            -0.15
-          ],
-          "range": [
-            0.24,
-            0.48
-          ]
-        },
-        "uuid": "16235231-561b-4efb-a9bc-dcacb18b5651"
-      },
-      "3": {
-        "components": {
-          "Hybrid Capacitors": 1,
-          "Iron": 1,
-          "Unexpected Emission Data": 1
-        },
-        "features": {
-          "power": [
-            0.3,
-            0.3
-          ],
-          "angle": [
-            -0.2,
-            -0.2
-          ],
-          "range": [
-            0.48,
-            0.72
-          ]
-        },
-        "uuid": "8dcbfbd5-748e-46ee-b179-4e2d213e518c"
-      },
-      "4": {
-        "components": {
-          "Decoded Emission Data": 1,
-          "Electrochemical Arrays": 1,
-          "Germanium": 1
-        },
-        "features": {
-          "power": [
-            0.4,
-            0.4
-          ],
-          "angle": [
-            -0.25,
-            -0.25
-          ],
-          "range": [
-            0.72,
-            0.96
-          ]
-        },
-        "uuid": "44a348b1-979f-498e-bf61-22b38cb6f53b"
-      },
-      "5": {
-        "components": {
-          "Abnormal Compact Emissions Data": 1,
-          "Niobium": 1,
-          "Polymer Capacitors": 1
-        },
-        "features": {
-          "power": [
-            0.5,
-            0.5
-          ],
-          "angle": [
-            -0.3,
-            -0.3
-          ],
-          "range": [
-            0.96,
-            1.2
-          ]
-        },
-        "uuid": "ee756b0e-c36f-4ea5-a46b-13291522feea"
-      }
-    },
-    "id": 108,
-    "modulename": [
-      "Wake scanner",
-      "Frame shift wake scanner"
-    ],
-    "name": "Long range"
-  },
-  "Sensor_WakeScanner_WideAngle": {
-    "fdname": "Sensor_WakeScanner_WideAngle",
-    "grades": {
-      "1": {
-        "components": {
-          "Mechanical Scrap": 1
-        },
-        "features": {
-          "mass": [
-            0.2,
-            0.2
-          ],
-          "angle": [
-            0,
-            0.4
-          ],
-          "scantime": [
-            0.1,
-            0.1
-          ]
-        },
-        "uuid": "1b76dc7a-d52c-4cdd-93c6-6857f509519b"
-      },
-      "2": {
-        "components": {
-          "Germanium": 1,
-          "Mechanical Scrap": 1
-        },
-        "features": {
-          "mass": [
-            0.4,
-            0.4
-          ],
-          "angle": [
-            0.4,
-            0.8
-          ],
-          "scantime": [
-            0.2,
-            0.2
-          ]
-        },
-        "uuid": "9e143db0-83e9-49ff-ba53-04927287190b"
-      },
-      "3": {
-        "components": {
-          "Classified Scan Databanks": 1,
-          "Germanium": 1,
-          "Mechanical Scrap": 1
-        },
-        "features": {
-          "mass": [
-            0.6,
-            0.6
-          ],
-          "angle": [
-            0.8,
-            1.2
-          ],
-          "scantime": [
-            0.3,
-            0.3
-          ]
-        },
-        "uuid": "d2b0776c-9e74-4fe9-be1c-e49e104dcad6"
-      },
-      "4": {
-        "components": {
-          "Divergent Scan Data": 1,
-          "Mechanical Equipment": 1,
-          "Niobium": 1
-        },
-        "features": {
-          "mass": [
-            0.8,
-            0.8
-          ],
-          "angle": [
-            1.2,
-            1.6
-          ],
-          "scantime": [
-            0.4,
-            0.4
-          ]
-        },
-        "uuid": "a00e7425-0828-41ea-9e11-e44bc391dd6f"
-      },
-      "5": {
-        "components": {
-          "Classified Scan Fragment": 1,
-          "Mechanical Components": 1,
-          "Tin": 1
-        },
-        "features": {
-          "mass": [
-            1,
-            1
-          ],
-          "angle": [
-            1.6,
-            2
-          ],
-          "scantime": [
-            0.5,
-            0.5
-          ]
-        },
-        "uuid": "7835c40b-1612-49ac-9a41-230cfff63daa"
-      }
-    },
-    "id": 106,
-    "modulename": [
-      "Wake scanner",
-      "Frame shift wake scanner"
-    ],
-    "name": "Wide angle"
-  },
   "ShieldBooster_Explosive": {
     "fdname": "ShieldBooster_Explosive",
     "grades": {
@@ -8899,12 +6571,12 @@
             0.12
           ],
           "kinres": [
-            -0.02,
-            -0.02
+            -0.0175,
+            -0.0175
           ],
           "thermres": [
-            -0.02,
-            -0.02
+            -0.0175,
+            -0.0175
           ]
         },
         "uuid": "3dd5f8fb-8399-4c4c-96d7-87c3840cfdeb"
@@ -8921,12 +6593,12 @@
             0.17
           ],
           "kinres": [
-            -0.03,
-            -0.03
+            -0.025,
+            -0.025
           ],
           "thermres": [
-            -0.03,
-            -0.03
+            -0.025,
+            -0.025
           ]
         },
         "uuid": "640409d8-6cb5-4624-b2b6-f435c9d8453b"
@@ -8943,12 +6615,12 @@
             0.22
           ],
           "kinres": [
-            -0.04,
-            -0.04
+            -0.0325,
+            -0.0325
           ],
           "thermres": [
-            -0.04,
-            -0.04
+            -0.0325,
+            -0.0325
           ]
         },
         "uuid": "8a311709-54f6-4a5f-a1cc-94c109d947df"
@@ -8965,12 +6637,12 @@
             0.27
           ],
           "kinres": [
-            -0.05,
-            -0.05
+            -0.04,
+            -0.04
           ],
           "thermres": [
-            -0.05,
-            -0.05
+            -0.04,
+            -0.04
           ]
         },
         "uuid": "4f120562-e421-4ed8-b0ed-0be8e27548bb"
@@ -9149,16 +6821,16 @@
         },
         "features": {
           "explres": [
-            -0.02,
-            -0.02
+            -0.0175,
+            -0.0175
           ],
           "kinres": [
             0.07,
             0.12
           ],
           "thermres": [
-            -0.02,
-            -0.02
+            -0.0175,
+            -0.0175
           ]
         },
         "uuid": "5f099a0e-0c37-447b-b552-f2e3d8dc1d19"
@@ -9171,16 +6843,16 @@
         },
         "features": {
           "explres": [
-            -0.03,
-            -0.03
+            -0.025,
+            -0.025
           ],
           "kinres": [
             0.12,
             0.17
           ],
           "thermres": [
-            -0.03,
-            -0.03
+            -0.025,
+            -0.025
           ]
         },
         "uuid": "ab7f39b5-0b0e-45b2-a016-0916026e9633"
@@ -9193,16 +6865,16 @@
         },
         "features": {
           "explres": [
-            -0.04,
-            -0.04
+            -0.0325,
+            -0.0325
           ],
           "kinres": [
             0.17,
             0.22
           ],
           "thermres": [
-            -0.04,
-            -0.04
+            -0.0325,
+            -0.0325
           ]
         },
         "uuid": "59ddbb49-f4fc-466d-84b6-06f0529915a9"
@@ -9215,16 +6887,16 @@
         },
         "features": {
           "explres": [
-            -0.05,
-            -0.05
+            -0.04,
+            -0.04
           ],
           "kinres": [
             0.22,
             0.27
           ],
           "thermres": [
-            -0.05,
-            -0.05
+            -0.04,
+            -0.04
           ]
         },
         "uuid": "a224e524-7308-46a1-9a6b-a37a82bdc50b"
@@ -9423,12 +7095,12 @@
         },
         "features": {
           "explres": [
-            -0.02,
-            -0.02
+            -0.0175,
+            -0.0175
           ],
           "kinres": [
-            -0.02,
-            -0.02
+            -0.0175,
+            -0.0175
           ],
           "thermres": [
             0.07,
@@ -9445,12 +7117,12 @@
         },
         "features": {
           "explres": [
-            -0.03,
-            -0.03
+            -0.025,
+            -0.025
           ],
           "kinres": [
-            -0.03,
-            -0.03
+            -0.025,
+            -0.025
           ],
           "thermres": [
             0.12,
@@ -9467,12 +7139,12 @@
         },
         "features": {
           "explres": [
-            -0.04,
-            -0.04
+            -0.0325,
+            -0.0325
           ],
           "kinres": [
-            -0.04,
-            -0.04
+            -0.0325,
+            -0.0325
           ],
           "thermres": [
             0.17,
@@ -9489,12 +7161,12 @@
         },
         "features": {
           "explres": [
-            -0.05,
-            -0.05
+            -0.04,
+            -0.04
           ],
           "kinres": [
-            -0.05,
-            -0.05
+            -0.04,
+            -0.04
           ],
           "thermres": [
             0.22,
@@ -10322,300 +7994,6 @@
     ],
     "name": "Thermal resistant"
   },
-  "WakeScanner_LightWeight": {
-    "fdname": "WakeScanner_LightWeight",
-    "grades": {
-      "1": {
-        "components": {
-          "Phosphorus": 1
-        },
-        "features": {
-          "integrity": [
-            -0.1,
-            -0.1
-          ],
-          "mass": [
-            0,
-            -0.45
-          ]
-        },
-        "uuid": "bb40e7d4-d0f1-46aa-bedd-d946db82012d"
-      },
-      "2": {
-        "components": {
-          "Manganese": 1,
-          "Salvaged Alloys": 1
-        },
-        "features": {
-          "integrity": [
-            -0.2,
-            -0.2
-          ],
-          "mass": [
-            -0.45,
-            -0.55
-          ]
-        },
-        "uuid": "3d38ce20-64c8-4416-bf8c-a0de02225624"
-      },
-      "3": {
-        "components": {
-          "Conductive Ceramics": 1,
-          "Manganese": 1,
-          "Salvaged Alloys": 1
-        },
-        "features": {
-          "integrity": [
-            -0.3,
-            -0.3
-          ],
-          "mass": [
-            -0.55,
-            -0.65
-          ]
-        },
-        "uuid": "86c3114f-e2d5-46a1-963b-a8dcdc4254c3"
-      },
-      "4": {
-        "components": {
-          "Conductive Components": 1,
-          "Phase Alloys": 1,
-          "Proto Light Alloys": 1
-        },
-        "features": {
-          "integrity": [
-            -0.4,
-            -0.4
-          ],
-          "mass": [
-            -0.65,
-            -0.75
-          ]
-        },
-        "uuid": "cd80437d-740d-4391-810d-607f7e35202c"
-      },
-      "5": {
-        "components": {
-          "Conductive Ceramics": 1,
-          "Proto Light Alloys": 1,
-          "Proto Radiolic Alloys": 1
-        },
-        "features": {
-          "integrity": [
-            -0.5,
-            -0.5
-          ],
-          "mass": [
-            -0.75,
-            -0.85
-          ]
-        },
-        "uuid": "e6f931fb-2d19-40b0-bfb2-4a0520f0c478"
-      }
-    },
-    "id": 79,
-    "modulename": [
-      "Frame shift wake scanner",
-      "Wake scanner"
-    ],
-    "name": "Lightweight"
-  },
-  "WakeScanner_Reinforced": {
-    "fdname": "WakeScanner_Reinforced",
-    "grades": {
-      "1": {
-        "components": {
-          "Nickel": 1
-        },
-        "features": {
-          "integrity": [
-            0,
-            0.6
-          ],
-          "mass": [
-            0.3,
-            0.3
-          ]
-        },
-        "uuid": "8a71178f-3d2a-4c53-94dc-606d9d43d43a"
-      },
-      "2": {
-        "components": {
-          "Nickel": 1,
-          "Shield Emitters": 1
-        },
-        "features": {
-          "integrity": [
-            0.6,
-            1.2
-          ],
-          "mass": [
-            0.6,
-            0.6
-          ]
-        },
-        "uuid": "72595b30-3bbf-47e3-82f7-db29654bef66"
-      },
-      "3": {
-        "components": {
-          "Nickel": 1,
-          "Shield Emitters": 1,
-          "Tungsten": 1
-        },
-        "features": {
-          "integrity": [
-            1.2,
-            1.8
-          ],
-          "mass": [
-            0.9,
-            0.9
-          ]
-        },
-        "uuid": "8cca72b3-f01a-49aa-a979-a72f3412bf6e"
-      },
-      "4": {
-        "components": {
-          "Molybdenum": 1,
-          "Tungsten": 1,
-          "Zinc": 1
-        },
-        "features": {
-          "integrity": [
-            1.8,
-            2.4
-          ],
-          "mass": [
-            1.2,
-            1.2
-          ]
-        },
-        "uuid": "89f9e00f-e621-4d34-bb15-4732f29a7f15"
-      },
-      "5": {
-        "components": {
-          "High Density Composites": 1,
-          "Molybdenum": 1,
-          "Technetium": 1
-        },
-        "features": {
-          "integrity": [
-            2.4,
-            3
-          ],
-          "mass": [
-            1.5,
-            1.5
-          ]
-        },
-        "uuid": "8f0e13ab-c621-4c21-b7a1-f8acd4057007"
-      }
-    },
-    "id": 81,
-    "modulename": [
-      "Frame shift wake scanner",
-      "Wake scanner"
-    ],
-    "name": "Reinforced"
-  },
-  "WakeScanner_Shielded": {
-    "fdname": "WakeScanner_Shielded",
-    "grades": {
-      "1": {
-        "components": {
-          "Worn Shield Emitters": 1
-        },
-        "features": {
-          "integrity": [
-            0,
-            0.6
-          ],
-          "power": [
-            0.2,
-            0.2
-          ]
-        },
-        "uuid": "c500da24-7fe5-48f6-8661-593f4caee91a"
-      },
-      "2": {
-        "components": {
-          "Carbon": 1,
-          "Shield Emitters": 1
-        },
-        "features": {
-          "integrity": [
-            0.6,
-            1.2
-          ],
-          "power": [
-            0.4,
-            0.4
-          ]
-        },
-        "uuid": "eed60442-f13e-4662-8132-e50a23e2534a"
-      },
-      "3": {
-        "components": {
-          "Carbon": 1,
-          "High Density Composites": 1,
-          "Shield Emitters": 1
-        },
-        "features": {
-          "integrity": [
-            1.2,
-            1.8
-          ],
-          "power": [
-            0.6,
-            0.6
-          ]
-        },
-        "uuid": "df8baf0f-01a1-4fea-94e6-e169f71af1c6"
-      },
-      "4": {
-        "components": {
-          "Proprietary Composites": 1,
-          "Shielding Sensors": 1,
-          "Vanadium": 1
-        },
-        "features": {
-          "integrity": [
-            1.8,
-            2.4
-          ],
-          "power": [
-            0.8,
-            0.8
-          ]
-        },
-        "uuid": "107cbead-888f-4b4c-a57e-324ccfe37006"
-      },
-      "5": {
-        "components": {
-          "Compound Shielding": 1,
-          "Core Dynamics Composites": 1,
-          "Tungsten": 1
-        },
-        "features": {
-          "integrity": [
-            2.4,
-            3
-          ],
-          "power": [
-            1,
-            1
-          ]
-        },
-        "uuid": "1c08bdca-000b-4e79-89cb-2cab3d5e3ce7"
-      }
-    },
-    "id": 80,
-    "modulename": [
-      "Frame shift wake scanner",
-      "Wake scanner"
-    ],
-    "name": "Shielded"
-  },
   "Weapon_DoubleShot": {
     "fdname": "Weapon_DoubleShot",
     "grades": {
@@ -10890,6 +8268,10 @@
           "Iron": 1
         },
         "features": {
+          "falloff": [
+            0,
+            0.36
+          ],
           "piercing": [
             0,
             0.4
@@ -10915,6 +8297,10 @@
           "Iron": 1
         },
         "features": {
+          "falloff": [
+            0.36,
+            0.52
+          ],
           "piercing": [
             0.4,
             0.6
@@ -10941,6 +8327,10 @@
           "Iron": 1
         },
         "features": {
+          "falloff": [
+            0.52,
+            0.68
+          ],
           "piercing": [
             0.6,
             0.8
@@ -10967,6 +8357,10 @@
           "Polymer Capacitors": 1
         },
         "features": {
+          "falloff": [
+            0.68,
+            0.84
+          ],
           "piercing": [
             0.8,
             1
@@ -10993,6 +8387,10 @@
           "Refined Focus Crystals": 1
         },
         "features": {
+          "falloff": [
+            0.84,
+            1
+          ],
           "piercing": [
             1,
             1.2
@@ -11462,7 +8860,7 @@
     ],
     "name": "Long range"
   },
-  "Weapon_Overcharged": {
+  "MC_Overcharged": {
     "fdname": "Weapon_Overcharged",
     "grades": {
       "1": {
@@ -11599,8 +8997,8 @@
     ],
     "name": "Overcharged"
   },
-  "PA_Overcharged": {
-    "fdname": "PA_Overcharged",
+  "Weapon_Overcharged": {
+    "fdname": "Weapon_Overcharged",
     "grades": {
       "1": {
         "components": {
@@ -11864,159 +9262,6 @@
       }
     },
     "id": 89,
-    "modulename": [
-      "Weapon"
-    ],
-    "name": "Rapid fire"
-  },
-  "C_RapidFire": {
-    "fdname": "Weapon_RapidFire",
-    "grades": {
-      "1": {
-        "components": {
-          "Mechanical Scrap": 1
-        },
-        "features": {
-          "damage": [
-            -0.01,
-            -0.01
-          ],
-          "jitter": [
-            0.5,
-            0.5
-          ],
-          "reload": [
-            0,
-            -0.25
-          ],
-          "rof": [
-            0,
-            -0.08
-          ]
-        },
-        "uuid": "a7ca2bf6-14be-41ed-8bfb-c7348fda7713"
-      },
-      "2": {
-        "components": {
-          "Heat Dispersion Plate": 1,
-          "Mechanical Scrap": 1
-        },
-        "features": {
-          "damage": [
-            -0.02,
-            -0.02
-          ],
-          "distdraw": [
-            0,
-            -0.05
-          ],
-          "jitter": [
-            0.5,
-            0.5
-          ],
-          "reload": [
-            -0.25,
-            -0.35
-          ],
-          "rof": [
-            -0.08,
-            -0.17
-          ]
-        },
-        "uuid": "0008257b-ea33-48ea-a18e-56cc6cf98a77"
-      },
-      "3": {
-        "components": {
-          "Mechanical Equipment": 1,
-          "Precipitated Alloys": 1,
-          "Specialised Legacy Firmware": 1
-        },
-        "features": {
-          "damage": [
-            -0.03,
-            -0.03
-          ],
-          "distdraw": [
-            -0.05,
-            -0.15
-          ],
-          "jitter": [
-            0.5,
-            0.5
-          ],
-          "reload": [
-            -0.35,
-            -0.45
-          ],
-          "rof": [
-            -0.17,
-            -0.26
-          ]
-        },
-        "uuid": "f3338d38-f944-4841-b350-09755e1b615d"
-      },
-      "4": {
-        "components": {
-          "Mechanical Components": 1,
-          "Modified Consumer Firmware": 1,
-          "Thermic Alloys": 1
-        },
-        "features": {
-          "damage": [
-            -0.04,
-            -0.04
-          ],
-          "distdraw": [
-            -0.15,
-            -0.25
-          ],
-          "jitter": [
-            0.5,
-            0.5
-          ],
-          "reload": [
-            -0.45,
-            -0.55
-          ],
-          "rof": [
-            -0.26,
-            -0.35
-          ]
-        },
-        "uuid": "d2bdb568-725a-44bf-9328-ba72d2988acd"
-      },
-      "5": {
-        "components": {
-          "Configurable Components": 1,
-          "Precipitated Alloys": 1,
-          "Technetium": 1
-        },
-        "features": {
-          "damage": [
-            -0.05,
-            -0.05
-          ],
-          "distdraw": [
-            -0.25,
-            -0.35
-          ],
-          "jitter": [
-            0.5,
-            0.5
-          ],
-          "reload": [
-            -0.55,
-            -0.65
-          ],
-          "rof": [
-            -0.35,
-            -0.44
-          ]
-        },
-        "uuid": "b1792824-0e96-42a3-9d3a-0b41d5ef83e0"
-      }
-    },
-    "id": 105,
     "modulename": [
       "Weapon"
     ],

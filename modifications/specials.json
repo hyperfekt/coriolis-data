@@ -221,6 +221,11 @@
         "edname": "special_plasma_slug_cooled",
         "uuid": "58a7b1b6-57b9-40f2-9a5a-712a5388a5eb"
     },
+    "special_plasma_slug_pa": {
+        "name": "Plasma Slug",
+        "id": 157,
+        "edname": "special_plasma_slug_pa"
+    },
     "special_penetrator_munitions": {
         "name": "Penetrator Munitions",
         "id": 103,

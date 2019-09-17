@@ -122,6 +122,9 @@
   "OutfittingFieldType_ShieldBankSpinUp": {
     "spinup": 1
   },
+  "OutfittingFieldType_ShotSpeed": {
+    "shotspeed": 1
+  },
   "OutfittingFieldType_ThermalLoad": {
     "thermload": 1
   },
@@ -149,7 +152,8 @@
   "OutfittingFieldType_Damage": {
     "damage": 1
   },
-  "OutfittingFieldType_weapon_falloffrange_from_range": {
+  "OutfittingFieldType_DamageFalloffRange": {
+    "fallofffromrange": 1
   },
   "OutfittingFieldType_ArmourPenetration": {
     "piercing": 1
@@ -166,9 +170,11 @@
   "special_auto_loader": {},
   "special_choke_canister": {},
   "special_feedback_cascade_cooled": {
+    "damage": -0.2,
     "thermload": -0.4
   },
   "special_super_penetrator_cooled": {
+    "reload": 0.5,
     "thermload": -0.4
   },
   "special_concordant_sequence": {
@@ -180,6 +186,9 @@
   "special_plasma_slug_cooled": {
     "damage": -0.1,
     "thermload": -0.4
+  },
+  "special_plasma_slug_pa": {
+    "damage": -0.1
   },
   "special_dispersal_field": {
   },
@@ -193,7 +202,7 @@
     "damage": -0.2
   },
   "special_force_shell": {
-    "shotspeed": -0.1667
+    "shotspeed": -0.1666666666666667
   },
   "special_fsd_interrupt": {
     "damage": -0.3,
@@ -307,7 +316,7 @@
     "mass": -0.1
   },
   "special_engine_cooled": {
-    "mass": 0.1,
+    "mass": 0.05,
     "thermload": -0.1
   },
   "special_engine_haulage": {
@@ -340,6 +349,7 @@
   "special_fsd_cooled": {
     "thermload": -0.1
   },
+  "special_lock_breaker": {},
   "special_powerplant_highcharge": {
     "mass": 0.1,
     "pgen": 0.05

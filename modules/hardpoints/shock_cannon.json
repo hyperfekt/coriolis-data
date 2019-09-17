@@ -1,7 +1,6 @@
 {
   "tbsc": [
     {
-      "experimental": true,
       "rating": "C",
       "class": 3,
       "grp": "tbsc",
@@ -35,7 +34,6 @@
       "falloff": 2500
     },
     {
-      "experimental": true,
       "rating": "C",
       "class": 3,
       "grp": "tbsc",
@@ -67,7 +65,6 @@
       "symbol": "Hpt_PlasmaShockCannon_Gimbal_Large"
     },
     {
-      "experimental": true,
       "rating": "D",
       "class": 3,
       "grp": "tbsc",
@@ -99,7 +96,6 @@
       "falloff": 2500
     },
     {
-      "experimental": true,
       "rating": "D",
       "class": 2,
       "grp": "tbsc",
@@ -120,7 +116,7 @@
       "integrity": 51,
       "mount": "G",
       "piercing": 40,
-      "power": 0.89,
+      "power": 0.61,
       "range": 3000,
       "reload": 6,
       "shotspeed": 1200,
@@ -131,7 +127,6 @@
       "symbol": "Hpt_PlasmaShockCannon_Gimbal_Medium"
     },
     {
-      "experimental": true,
       "grp": "tbsc",
       "symbol": "Hpt_PlasmaShockCannon_Fixed_Medium",
       "id": "y0",
@@ -163,7 +158,6 @@
       "falloff": 2500
     },
     {
-      "experimental": true,
       "rating": "E",
       "class": 2,
       "grp": "tbsc",
@@ -197,7 +191,6 @@
       "falloff": 2500
     },
     {
-      "experimental": true,
       "rating": "D",
       "class": 1,
       "grp": "tbsc",
@@ -229,7 +222,6 @@
       "falloff": 2500
     },
     {
-      "experimental": true,
       "rating": "E",
       "class": 1,
       "grp": "tbsc",
@@ -261,7 +253,6 @@
       "symbol": "Hpt_PlasmaShockCannon_Gimbal_Small"
     },
     {
-      "experimental": true,
       "rating": "F",
       "class": 1,
       "grp": "tbsc",

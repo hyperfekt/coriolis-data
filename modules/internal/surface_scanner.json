@@ -10,6 +10,7 @@
       "mass": 0,
       "name": "Detailed Surface Scanner",
       "power": 0,
+      "proberadius": 0.2,
       "rating": "I",
       "symbol": "Int_DetailedSurfaceScanner_Tiny",
       "ukName": "Surface Scanner",

@@ -1000,7 +1000,7 @@
   },
   "ch": {
     "blueprints": {
-      "ChaffLauncher_ChaffCapacity": {
+      "Misc_ChaffCapacity": {
         "grades": {
           "3": {
             "engineers": [
@@ -1009,36 +1009,7 @@
           }
         }
       },
-      "ChaffLauncher_LightWeight": {
-        "grades": {
-          "1": {
-            "engineers": [
-              "Ram Tah"
-            ]
-          },
-          "2": {
-            "engineers": [
-              "Ram Tah"
-            ]
-          },
-          "3": {
-            "engineers": [
-              "Ram Tah"
-            ]
-          },
-          "4": {
-            "engineers": [
-              "Ram Tah"
-            ]
-          },
-          "5": {
-            "engineers": [
-              "Ram Tah"
-            ]
-          }
-        }
-      },
-      "ChaffLauncher_Reinforced": {
+      "Misc_LightWeight": {
         "grades": {
           "1": {
             "engineers": [
@@ -1067,7 +1038,36 @@
           }
         }
       },
-      "ChaffLauncher_Shielded": {
+      "Misc_Reinforced": {
+        "grades": {
+          "1": {
+            "engineers": [
+              "Ram Tah"
+            ]
+          },
+          "2": {
+            "engineers": [
+              "Ram Tah"
+            ]
+          },
+          "3": {
+            "engineers": [
+              "Ram Tah"
+            ]
+          },
+          "4": {
+            "engineers": [
+              "Ram Tah"
+            ]
+          },
+          "5": {
+            "engineers": [
+              "Ram Tah"
+            ]
+          }
+        }
+      },
+      "Misc_Shielded": {
         "grades": {
           "1": {
             "engineers": [
@@ -1119,30 +1119,32 @@
   },
   "cs": {
     "blueprints": {
-      "Sensor_CargoScanner_FastScan": {
+      "Sensor_FastScan": {
         "grades": {
           "1": {
             "engineers": [
               "Bill Turner",
-              "Juri Ishmaak",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Juri Ishmaak",
+              "Etienne Dorn"
             ]
           },
           "2": {
             "engineers": [
               "Bill Turner",
-              "Juri Ishmaak",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Juri Ishmaak",
+              "Etienne Dorn"
             ]
           },
           "3": {
             "engineers": [
               "Bill Turner",
-              "Juri Ishmaak",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Juri Ishmaak"
             ]
           },
           "4": {
@@ -1157,27 +1159,32 @@
           }
         }
       },
-      "CargoScanner_LightWeight": {
+      "Misc_LightWeight": {
         "grades": {
           "1": {
             "engineers": [
               "Bill Turner",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Juri Ishmaak",
+              "Etienne Dorn"
             ]
           },
           "2": {
             "engineers": [
               "Bill Turner",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Juri Ishmaak",
+              "Etienne Dorn"
             ]
           },
           "3": {
             "engineers": [
               "Bill Turner",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Juri Ishmaak"
             ]
           },
           "4": {
@@ -1192,30 +1199,32 @@
           }
         }
       },
-      "Sensor_CargoScanner_LongRange": {
+      "Sensor_LongRange_Scanner": {
         "grades": {
           "1": {
             "engineers": [
               "Bill Turner",
-              "Juri Ishmaak",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Juri Ishmaak",
+              "Etienne Dorn"
             ]
           },
           "2": {
             "engineers": [
               "Bill Turner",
-              "Juri Ishmaak",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Juri Ishmaak",
+              "Etienne Dorn"
             ]
           },
           "3": {
             "engineers": [
               "Bill Turner",
-              "Juri Ishmaak",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Juri Ishmaak"
             ]
           },
           "4": {
@@ -1230,27 +1239,32 @@
           }
         }
       },
-      "CargoScanner_Reinforced": {
+      "Misc_Reinforced": {
         "grades": {
           "1": {
             "engineers": [
               "Bill Turner",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Juri Ishmaak",
+              "Etienne Dorn"
             ]
           },
           "2": {
             "engineers": [
               "Bill Turner",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Juri Ishmaak",
+              "Etienne Dorn"
             ]
           },
           "3": {
             "engineers": [
               "Bill Turner",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Juri Ishmaak"
             ]
           },
           "4": {
@@ -1265,27 +1279,32 @@
           }
         }
       },
-      "CargoScanner_Shielded": {
+      "Misc_Shielded": {
         "grades": {
           "1": {
             "engineers": [
               "Bill Turner",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Juri Ishmaak",
+              "Etienne Dorn"
             ]
           },
           "2": {
             "engineers": [
               "Bill Turner",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Juri Ishmaak",
+              "Etienne Dorn"
             ]
           },
           "3": {
             "engineers": [
               "Bill Turner",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Juri Ishmaak"
             ]
           },
           "4": {
@@ -1300,30 +1319,32 @@
           }
         }
       },
-      "Sensor_CargoScanner_WideAngle": {
+      "Sensor_WideAngle_Scanner": {
         "grades": {
           "1": {
             "engineers": [
               "Bill Turner",
-              "Juri Ishmaak",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Juri Ishmaak",
+              "Etienne Dorn"
             ]
           },
           "2": {
             "engineers": [
               "Bill Turner",
-              "Juri Ishmaak",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Juri Ishmaak",
+              "Etienne Dorn"
             ]
           },
           "3": {
             "engineers": [
               "Bill Turner",
-              "Juri Ishmaak",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Juri Ishmaak"
             ]
           },
           "4": {
@@ -1356,7 +1377,7 @@
   },
   "ec": {
     "blueprints": {
-      "ECM_LightWeight": {
+      "Misc_LightWeight": {
         "grades": {
           "1": {
             "engineers": [
@@ -1385,7 +1406,7 @@
           }
         }
       },
-      "ECM_Reinforced": {
+      "Misc_Reinforced": {
         "grades": {
           "1": {
             "engineers": [
@@ -1414,7 +1435,7 @@
           }
         }
       },
-      "ECM_Shielded": {
+      "Misc_Shielded": {
         "grades": {
           "1": {
             "engineers": [
@@ -2387,7 +2408,7 @@
   },
   "hs": {
     "blueprints": {
-      "HeatSinkLauncher_HeatSinkCapacity": {
+      "Misc_HeatSinkCapacity": {
         "grades": {
           "3": {
             "engineers": [
@@ -2396,36 +2417,7 @@
           }
         }
       },
-      "HeatSinkLauncher_LightWeight": {
-        "grades": {
-          "1": {
-            "engineers": [
-              "Ram Tah"
-            ]
-          },
-          "2": {
-            "engineers": [
-              "Ram Tah"
-            ]
-          },
-          "3": {
-            "engineers": [
-              "Ram Tah"
-            ]
-          },
-          "4": {
-            "engineers": [
-              "Ram Tah"
-            ]
-          },
-          "5": {
-            "engineers": [
-              "Ram Tah"
-            ]
-          }
-        }
-      },
-      "HeatSinkLauncher_Reinforced": {
+      "Misc_LightWeight": {
         "grades": {
           "1": {
             "engineers": [
@@ -2454,7 +2446,36 @@
           }
         }
       },
-      "HeatSinkLauncher_Shielded": {
+      "Misc_Reinforced": {
+        "grades": {
+          "1": {
+            "engineers": [
+              "Ram Tah"
+            ]
+          },
+          "2": {
+            "engineers": [
+              "Ram Tah"
+            ]
+          },
+          "3": {
+            "engineers": [
+              "Ram Tah"
+            ]
+          },
+          "4": {
+            "engineers": [
+              "Ram Tah"
+            ]
+          },
+          "5": {
+            "engineers": [
+              "Ram Tah"
+            ]
+          }
+        }
+      },
+      "Misc_Shielded": {
         "grades": {
           "1": {
             "engineers": [
@@ -2494,30 +2515,32 @@
   },
   "kw": {
     "blueprints": {
-      "Sensor_KillWarrantScanner_FastScan": {
+      "Sensor_FastScan": {
         "grades": {
           "1": {
             "engineers": [
               "Bill Turner",
-              "Juri Ishmaak",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Juri Ishmaak",
+              "Etienne Dorn"
             ]
           },
           "2": {
             "engineers": [
               "Bill Turner",
-              "Juri Ishmaak",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Juri Ishmaak",
+              "Etienne Dorn"
             ]
           },
           "3": {
             "engineers": [
               "Bill Turner",
-              "Juri Ishmaak",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Juri Ishmaak"
             ]
           },
           "4": {
@@ -2532,27 +2555,32 @@
           }
         }
       },
-      "KillWarrantScanner_LightWeight": {
+      "Misc_LightWeight": {
         "grades": {
           "1": {
             "engineers": [
               "Bill Turner",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Juri Ishmaak",
+              "Etienne Dorn"
             ]
           },
           "2": {
             "engineers": [
               "Bill Turner",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Juri Ishmaak",
+              "Etienne Dorn"
             ]
           },
           "3": {
             "engineers": [
               "Bill Turner",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Juri Ishmaak"
             ]
           },
           "4": {
@@ -2567,30 +2595,32 @@
           }
         }
       },
-      "KillWarrantScanner_LongRange": {
+      "Sensor_LongRange_Scanner": {
         "grades": {
           "1": {
             "engineers": [
               "Bill Turner",
-              "Juri Ishmaak",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Juri Ishmaak",
+              "Etienne Dorn"
             ]
           },
           "2": {
             "engineers": [
               "Bill Turner",
-              "Juri Ishmaak",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Juri Ishmaak",
+              "Etienne Dorn"
             ]
           },
           "3": {
             "engineers": [
               "Bill Turner",
-              "Juri Ishmaak",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Juri Ishmaak"
             ]
           },
           "4": {
@@ -2605,27 +2635,32 @@
           }
         }
       },
-      "KillWarrantScanner_Reinforced": {
+      "Misc_Reinforced": {
         "grades": {
           "1": {
             "engineers": [
               "Bill Turner",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Juri Ishmaak",
+              "Etienne Dorn"
             ]
           },
           "2": {
             "engineers": [
               "Bill Turner",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Juri Ishmaak",
+              "Etienne Dorn"
             ]
           },
           "3": {
             "engineers": [
               "Bill Turner",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Juri Ishmaak"
             ]
           },
           "4": {
@@ -2640,27 +2675,32 @@
           }
         }
       },
-      "KillWarrantScanner_Shielded": {
+      "Misc_Shielded": {
         "grades": {
           "1": {
             "engineers": [
               "Bill Turner",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Juri Ishmaak",
+              "Etienne Dorn"
             ]
           },
           "2": {
             "engineers": [
               "Bill Turner",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Juri Ishmaak",
+              "Etienne Dorn"
             ]
           },
           "3": {
             "engineers": [
               "Bill Turner",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Juri Ishmaak"
             ]
           },
           "4": {
@@ -2675,30 +2715,32 @@
           }
         }
       },
-      "Sensor_KillWarrantScanner_WideAngle": {
+      "Sensor_WideAngle_Scanner": {
         "grades": {
           "1": {
             "engineers": [
               "Bill Turner",
-              "Juri Ishmaak",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Juri Ishmaak",
+              "Etienne Dorn"
             ]
           },
           "2": {
             "engineers": [
               "Bill Turner",
-              "Juri Ishmaak",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Juri Ishmaak",
+              "Etienne Dorn"
             ]
           },
           "3": {
             "engineers": [
               "Bill Turner",
-              "Juri Ishmaak",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Juri Ishmaak"
             ]
           },
           "4": {
@@ -2959,7 +3001,7 @@
           }
         }
       },
-      "Weapon_Overcharged": {
+      "MC_Overcharged": {
         "grades": {
           "1": {
             "engineers": [
@@ -3283,7 +3325,6 @@
       "special_drag_munitions",
       "special_emissive_munitions",
       "special_overload_munitions",
-      "special_penetrator_payload",
       "special_thermal_cascade",
       "special_weapon_damage",
       "special_weapon_efficient",
@@ -3292,7 +3333,6 @@
       "special_weapon_lightweight"
     ],
     "specials_D": [
-      "special_drag_munitions",
       "special_emissive_munitions",
       "special_fsd_interrupt",
       "special_overload_munitions",
@@ -3665,7 +3705,7 @@
           }
         }
       },
-      "PA_Overcharged": {
+      "Weapon_Overcharged": {
         "grades": {
           "1": {
             "engineers": [
@@ -3813,7 +3853,7 @@
       "special_dispersal_field",
       "special_phasing_sequence",
       "special_plasma_slug",
-      "special_plasma_slug_cooled",
+      "special_plasma_slug_pa",
       "special_lock_breaker",
       "special_thermal_conduit",
       "special_weapon_damage",
@@ -4505,7 +4545,7 @@
   },
   "po": {
     "blueprints": {
-      "PointDefence_PointDefenseCapacity": {
+      "Misc_PointDefenseCapacity": {
         "grades": {
           "3": {
             "engineers": [
@@ -4514,36 +4554,7 @@
           }
         }
       },
-      "PointDefence_LightWeight": {
-        "grades": {
-          "1": {
-            "engineers": [
-              "Ram Tah"
-            ]
-          },
-          "2": {
-            "engineers": [
-              "Ram Tah"
-            ]
-          },
-          "3": {
-            "engineers": [
-              "Ram Tah"
-            ]
-          },
-          "4": {
-            "engineers": [
-              "Ram Tah"
-            ]
-          },
-          "5": {
-            "engineers": [
-              "Ram Tah"
-            ]
-          }
-        }
-      },
-      "PointDefence_Reinforced": {
+      "Misc_LightWeight": {
         "grades": {
           "1": {
             "engineers": [
@@ -4572,7 +4583,36 @@
           }
         }
       },
-      "PointDefence_Shielded": {
+      "Misc_Reinforced": {
+        "grades": {
+          "1": {
+            "engineers": [
+              "Ram Tah"
+            ]
+          },
+          "2": {
+            "engineers": [
+              "Ram Tah"
+            ]
+          },
+          "3": {
+            "engineers": [
+              "Ram Tah"
+            ]
+          },
+          "4": {
+            "engineers": [
+              "Ram Tah"
+            ]
+          },
+          "5": {
+            "engineers": [
+              "Ram Tah"
+            ]
+          }
+        }
+      },
+      "Misc_Shielded": {
         "grades": {
           "1": {
             "engineers": [
@@ -5132,7 +5172,7 @@
   },
   "s": {
     "blueprints": {
-      "Sensor_Sensor_LightWeight": {
+      "Sensor_LightWeight": {
         "grades": {
           "1": {
             "engineers": [
@@ -5140,7 +5180,10 @@
               "Juri Ishmaak",
               "Lei Cheung",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Felicity Farseer",
+              "Hera Tani",
+              "Etienne Dorn"
             ]
           },
           "2": {
@@ -5149,7 +5192,10 @@
               "Juri Ishmaak",
               "Lei Cheung",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Felicity Farseer",
+              "Hera Tani",
+              "Etienne Dorn"
             ]
           },
           "3": {
@@ -5158,7 +5204,10 @@
               "Juri Ishmaak",
               "Lei Cheung",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Felicity Farseer",
+              "Hera Tani",
+              "Etienne Dorn"
             ]
           },
           "4": {
@@ -5181,36 +5230,42 @@
           }
         }
       },
-      "Sensor_Sensor_LongRange": {
+      "Sensor_LongRange": {
         "grades": {
           "1": {
             "engineers": [
               "Bill Turner",
-              "Felicity Farseer",
               "Juri Ishmaak",
               "Lei Cheung",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Felicity Farseer",
+              "Hera Tani",
+              "Etienne Dorn"
             ]
           },
           "2": {
             "engineers": [
               "Bill Turner",
-              "Felicity Farseer",
               "Juri Ishmaak",
               "Lei Cheung",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Felicity Farseer",
+              "Hera Tani",
+              "Etienne Dorn"
             ]
           },
           "3": {
             "engineers": [
               "Bill Turner",
-              "Felicity Farseer",
               "Juri Ishmaak",
               "Lei Cheung",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Felicity Farseer",
+              "Hera Tani",
+              "Etienne Dorn"
             ]
           },
           "4": {
@@ -5225,6 +5280,7 @@
           "5": {
             "engineers": [
               "Bill Turner",
+              "Juri Ishmaak",
               "Lei Cheung",
               "Lori Jameson",
               "Tiana Fortune"
@@ -5232,36 +5288,42 @@
           }
         }
       },
-      "Sensor_Sensor_WideAngle": {
+      "Sensor_WideAngle": {
         "grades": {
           "1": {
             "engineers": [
               "Bill Turner",
-              "Felicity Farseer",
               "Juri Ishmaak",
               "Lei Cheung",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Felicity Farseer",
+              "Hera Tani",
+              "Etienne Dorn"
             ]
           },
           "2": {
             "engineers": [
               "Bill Turner",
-              "Felicity Farseer",
               "Juri Ishmaak",
               "Lei Cheung",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Felicity Farseer",
+              "Hera Tani",
+              "Etienne Dorn"
             ]
           },
           "3": {
             "engineers": [
               "Bill Turner",
-              "Felicity Farseer",
               "Juri Ishmaak",
               "Lei Cheung",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Felicity Farseer",
+              "Hera Tani",
+              "Etienne Dorn"
             ]
           },
           "4": {
@@ -5276,6 +5338,7 @@
           "5": {
             "engineers": [
               "Bill Turner",
+              "Juri Ishmaak",
               "Lei Cheung",
               "Lori Jameson",
               "Tiana Fortune"
@@ -5731,7 +5794,7 @@
   },
   "ss": {
     "blueprints": {
-      "SurfaceScanner_Expanded": {
+      "Sensor_Expanded": {
         "grades": {
           "1": {
             "engineers": [
@@ -6035,8 +6098,7 @@
           },
           "4": {
             "engineers": [
-              "Broo Tarquin",
-              "The Dweller"
+              "Broo Tarquin"
             ]
           },
           "5": {
@@ -6068,8 +6130,7 @@
           },
           "4": {
             "engineers": [
-              "Broo Tarquin",
-              "The Dweller"
+              "Broo Tarquin"
             ]
           },
           "5": {
@@ -6101,8 +6162,7 @@
           },
           "4": {
             "engineers": [
-              "Broo Tarquin",
-              "The Dweller"
+              "Broo Tarquin"
             ]
           },
           "5": {
@@ -6134,8 +6194,7 @@
           },
           "4": {
             "engineers": [
-              "Broo Tarquin",
-              "The Dweller"
+              "Broo Tarquin"
             ]
           },
           "5": {
@@ -6167,8 +6226,7 @@
           },
           "4": {
             "engineers": [
-              "Broo Tarquin",
-              "The Dweller"
+              "Broo Tarquin"
             ]
           },
           "5": {
@@ -6200,8 +6258,7 @@
           },
           "4": {
             "engineers": [
-              "Broo Tarquin",
-              "The Dweller"
+              "Broo Tarquin"
             ]
           },
           "5": {
@@ -6233,8 +6290,7 @@
           },
           "4": {
             "engineers": [
-              "Broo Tarquin",
-              "The Dweller"
+              "Broo Tarquin"
             ]
           },
           "5": {
@@ -6266,8 +6322,7 @@
           },
           "4": {
             "engineers": [
-              "Broo Tarquin",
-              "The Dweller"
+              "Broo Tarquin"
             ]
           },
           "5": {
@@ -6309,30 +6364,32 @@
   },
   "ws": {
     "blueprints": {
-      "Sensor_WakeScanner_FastScan": {
+      "Sensor_FastScan": {
         "grades": {
           "1": {
             "engineers": [
               "Bill Turner",
-              "Juri Ishmaak",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Juri Ishmaak",
+              "Etienne Dorn"
             ]
           },
           "2": {
             "engineers": [
               "Bill Turner",
-              "Juri Ishmaak",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Juri Ishmaak",
+              "Etienne Dorn"
             ]
           },
           "3": {
             "engineers": [
               "Bill Turner",
-              "Juri Ishmaak",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Juri Ishmaak"
             ]
           },
           "4": {
@@ -6347,27 +6404,32 @@
           }
         }
       },
-      "WakeScanner_LightWeight": {
+      "Misc_LightWeight": {
         "grades": {
           "1": {
             "engineers": [
               "Bill Turner",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Juri Ishmaak",
+              "Etienne Dorn"
             ]
           },
           "2": {
             "engineers": [
               "Bill Turner",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Juri Ishmaak",
+              "Etienne Dorn"
             ]
           },
           "3": {
             "engineers": [
               "Bill Turner",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Juri Ishmaak"
             ]
           },
           "4": {
@@ -6382,30 +6444,32 @@
           }
         }
       },
-      "Sensor_WakeScanner_LongRange": {
+      "Sensor_LongRange_Scanner": {
         "grades": {
           "1": {
             "engineers": [
               "Bill Turner",
-              "Juri Ishmaak",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Juri Ishmaak",
+              "Etienne Dorn"
             ]
           },
           "2": {
             "engineers": [
               "Bill Turner",
-              "Juri Ishmaak",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Juri Ishmaak",
+              "Etienne Dorn"
             ]
           },
           "3": {
             "engineers": [
               "Bill Turner",
-              "Juri Ishmaak",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Juri Ishmaak"
             ]
           },
           "4": {
@@ -6420,27 +6484,32 @@
           }
         }
       },
-      "WakeScanner_Reinforced": {
+      "Misc_Reinforced": {
         "grades": {
           "1": {
             "engineers": [
               "Bill Turner",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Juri Ishmaak",
+              "Etienne Dorn"
             ]
           },
           "2": {
             "engineers": [
               "Bill Turner",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Juri Ishmaak",
+              "Etienne Dorn"
             ]
           },
           "3": {
             "engineers": [
               "Bill Turner",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Juri Ishmaak"
             ]
           },
           "4": {
@@ -6455,27 +6524,32 @@
           }
         }
       },
-      "WakeScanner_Shielded": {
+      "Misc_Shielded": {
         "grades": {
           "1": {
             "engineers": [
               "Bill Turner",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Juri Ishmaak",
+              "Etienne Dorn"
             ]
           },
           "2": {
             "engineers": [
               "Bill Turner",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Juri Ishmaak",
+              "Etienne Dorn"
             ]
           },
           "3": {
             "engineers": [
               "Bill Turner",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Juri Ishmaak"
             ]
           },
           "4": {
@@ -6490,30 +6564,32 @@
           }
         }
       },
-      "Sensor_WakeScanner_WideAngle": {
+      "Sensor_WideAngle_Scanner": {
         "grades": {
           "1": {
             "engineers": [
               "Bill Turner",
-              "Juri Ishmaak",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Juri Ishmaak",
+              "Etienne Dorn"
             ]
           },
           "2": {
             "engineers": [
               "Bill Turner",
-              "Juri Ishmaak",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Juri Ishmaak",
+              "Etienne Dorn"
             ]
           },
           "3": {
             "engineers": [
               "Bill Turner",
-              "Juri Ishmaak",
               "Lori Jameson",
-              "Tiana Fortune"
+              "Tiana Fortune",
+              "Juri Ishmaak"
             ]
           },
           "4": {
