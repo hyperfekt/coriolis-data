@@ -4151,6 +4151,204 @@
     ],
     "name": "Ammo capacity"
   },
+  "PowerDistributor_HighCapacity": {
+    "fdname": "PowerDistributor_HighCapacity",
+    "grades": {
+      "1": {
+        "components": {
+          "Sulphur": 1
+        },
+        "features": {
+          "engcap": [
+            0,
+            0.1
+          ],
+          "engrate": [
+            -0.02,
+            -0.02
+          ],
+          "integrity": [
+            0,
+            0.1
+          ],
+          "syscap": [
+            0,
+            0.1
+          ],
+          "sysrate": [
+            -0.02,
+            -0.02
+          ],
+          "wepcap": [
+            0,
+            0.1
+          ],
+          "weprate": [
+            -0.02,
+            -0.02
+          ]
+        },
+        "uuid": "e1ae5651-f688-46e2-a94a-9c3bc6e8665b"
+      },
+      "2": {
+        "components": {
+          "Chromium": 1,
+          "Specialised Legacy Firmware": 1
+        },
+        "features": {
+          "engcap": [
+            0.1,
+            0.18
+          ],
+          "engrate": [
+            -0.06,
+            -0.06
+          ],
+          "integrity": [
+            0.1,
+            0.18
+          ],
+          "syscap": [
+            0.08,
+            0.1
+          ],
+          "sysrate": [
+            -0.06,
+            -0.06
+          ],
+          "wepcap": [
+            0.1,
+            0.18
+          ],
+          "weprate": [
+            -0.06,
+            -0.06
+          ]
+        },
+        "uuid": "d5ea6b7b-31eb-44f4-b1f3-8126dd6ea7b5"
+      },
+      "3": {
+        "components": {
+          "Chromium": 1,
+          "High Density Composites": 1,
+          "Specialised Legacy Firmware": 1
+        },
+        "features": {
+          "engcap": [
+            0.18,
+            0.26
+          ],
+          "engrate": [
+            -0.1,
+            -0.1
+          ],
+          "integrity": [
+            0.15,
+            0.2
+          ],
+          "syscap": [
+            0.18,
+            0.26
+          ],
+          "sysrate": [
+            -0.1,
+            -0.1
+          ],
+          "wepcap": [
+            0.18,
+            0.26
+          ],
+          "weprate": [
+            -0.1,
+            -0.1
+          ]
+        },
+        "uuid": "b959a87e-a231-46e7-a6a7-65fe6c0464bc"
+      },
+      "4": {
+        "components": {
+          "Modified Consumer Firmware": 1,
+          "Proprietary Composites": 1,
+          "Selenium": 1
+        },
+        "features": {
+          "engcap": [
+            0.26,
+            0.34
+          ],
+          "engrate": [
+            -0.14,
+            -0.14
+          ],
+          "integrity": [
+            0.2,
+            0.25
+          ],
+          "syscap": [
+            0.26,
+            0.34
+          ],
+          "sysrate": [
+            -0.14,
+            -0.14
+          ],
+          "wepcap": [
+            0.26,
+            0.34
+          ],
+          "weprate": [
+            -0.14,
+            -0.14
+          ]
+        },
+        "uuid": "5f468c03-ed6d-474f-9e82-601b11d728c8"
+      },
+      "5": {
+        "components": {
+          "Cracked Industrial Firmware": 1,
+          "Military Supercapacitors": 1,
+          "Proprietary Composites": 1
+        },
+        "features": {
+          "engcap": [
+            0.34,
+            0.42
+          ],
+          "engrate": [
+            -0.18,
+            -0.18
+          ],
+          "integrity": [
+            0.25,
+            0.3
+          ],
+          "syscap": [
+            0.34,
+            0.42
+          ],
+          "sysrate": [
+            -0.18,
+            -0.18
+          ],
+          "wepcap": [
+            0.34,
+            0.42
+          ],
+          "weprate": [
+            -0.18,
+            -0.18
+          ]
+        },
+        "uuid": "50b4cbc5-9445-43e3-a9a8-b1320fc0b27e"
+      }
+    },
+    "id": 56,
+    "modulename": [
+      "Power distributor",
+      "Distributor"
+    ],
+    "name": "High charge capacity"
+  },
   "PowerDistributor_HighFrequency": {
     "fdname": "PowerDistributor_HighFrequency",
     "grades": {
