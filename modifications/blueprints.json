@@ -9059,7 +9059,7 @@
     "name": "Long range"
   },
   "MC_Overcharged": {
-    "fdname": "Weapon_Overcharged",
+    "fdname": "MC_Overcharged",
     "grades": {
       "1": {
         "components": {
