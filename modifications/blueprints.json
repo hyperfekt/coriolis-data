@@ -6042,8 +6042,8 @@
     ],
     "name": "Fast scan"
   },
-  "Sensor_LongRange_Scanner": {
-    "fdname": "Sensor_LongRange",
+  "Scanner_LongRange": {
+    "fdname": "Scanner_LongRange",
     "grades": {
       "1": {
         "components": {
@@ -6164,8 +6164,8 @@
     ],
     "name": "Long range"
   },
-  "Sensor_WideAngle_Scanner": {
-    "fdname": "Sensor_WideAngle",
+  "Scanner_WideAngle": {
+    "fdname": "Scanner_WideAngle",
     "grades": {
       "1": {
         "components": {

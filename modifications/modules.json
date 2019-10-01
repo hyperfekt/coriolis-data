@@ -1199,7 +1199,7 @@
           }
         }
       },
-      "Sensor_LongRange_Scanner": {
+      "Scanner_LongRange": {
         "grades": {
           "1": {
             "engineers": [
@@ -1319,7 +1319,7 @@
           }
         }
       },
-      "Sensor_WideAngle_Scanner": {
+      "Scanner_WideAngle": {
         "grades": {
           "1": {
             "engineers": [
@@ -2595,7 +2595,7 @@
           }
         }
       },
-      "Sensor_LongRange_Scanner": {
+      "Scanner_LongRange": {
         "grades": {
           "1": {
             "engineers": [
@@ -2715,7 +2715,7 @@
           }
         }
       },
-      "Sensor_WideAngle_Scanner": {
+      "Scanner_WideAngle": {
         "grades": {
           "1": {
             "engineers": [
@@ -6444,7 +6444,7 @@
           }
         }
       },
-      "Sensor_LongRange_Scanner": {
+      "Scanner_LongRange": {
         "grades": {
           "1": {
             "engineers": [
@@ -6564,7 +6564,7 @@
           }
         }
       },
-      "Sensor_WideAngle_Scanner": {
+      "Scanner_WideAngle": {
         "grades": {
           "1": {
             "engineers": [
