@@ -3,6 +3,7 @@
     {
       "experimental": true,
       "ammo": 2100,
+      "ammocost": 1,
       "breachdmg": 2.8,
       "breachmax": 0.5,
       "breachmin": 0.8,
@@ -37,6 +38,7 @@
     {
       "experimental": true,
       "ammo": 2100,
+      "ammocost": 1,
       "breachdmg": 0.4,
       "breachmax": 0.5,
       "breachmin": 0.5,
@@ -70,6 +72,7 @@
     {
       "experimental": true,
       "ammo": 2100,
+      "ammocost": 1,
       "breachdmg": 5.2,
       "breachmax": 0.5,
       "breachmin": 0.8,
@@ -103,6 +106,7 @@
     {
       "experimental": true,
       "ammo": 2100,
+      "ammocost": 1,
       "breachdmg": 0.8,
       "breachmax": 0.5,
       "breachmin": 0.5,

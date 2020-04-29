@@ -2,6 +2,7 @@
   "po": [
     {
       "ammo": 10000,
+      "ammocost": 1,
       "burst": 4,
       "burstrof": 15,
       "class": 0,

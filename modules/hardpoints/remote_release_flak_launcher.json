@@ -2,6 +2,7 @@
   "rfl": [
     {
       "ammo": 32,
+      "ammocost": 125,
       "breachdmg": 1.7,
       "breachmax": 1,
       "breachmin": 1,
@@ -32,6 +33,7 @@
     },
     {
       "ammo": 32,
+      "ammocost": 125,
       "breachdmg": 1.7,
       "breachmax": 1,
       "breachmin": 1,

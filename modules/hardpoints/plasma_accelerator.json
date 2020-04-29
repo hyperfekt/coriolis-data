@@ -2,6 +2,7 @@
   "pa": [
     {
       "ammo": 100,
+      "ammocost": 200,
       "breachdmg": 44.2,
       "breachmax": 0.8,
       "breachmin": 0.4,
@@ -35,6 +36,7 @@
     },
     {
       "ammo": 100,
+      "ammocost": 200,
       "breachdmg": 68,
       "breachmax": 0.8,
       "breachmin": 0.4,
@@ -68,6 +70,7 @@
     },
     {
       "ammo": 300,
+      "ammocost": 200,
       "breachdmg": 30.9,
       "breachmax": 0.8,
       "breachmin": 0.4,
@@ -103,6 +106,7 @@
     },
     {
       "ammo": 100,
+      "ammocost": 200,
       "breachdmg": 102,
       "breachmax": 0.8,
       "breachmin": 0.4,

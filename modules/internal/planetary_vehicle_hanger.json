@@ -1,6 +1,7 @@
 {
   "pv": [
     {
+      "ammocost": 1030,
       "bays": 1,
       "class": 2,
       "cost": 18000,

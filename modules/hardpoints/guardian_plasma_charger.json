@@ -3,6 +3,7 @@
     {
       "experimental": true,
       "ammo": 200,
+      "ammocost": 100,
       "breachdmg": 0.4,
       "breachmax": 0.8,
       "breachmin": 0.5,
@@ -35,6 +36,7 @@
     {
       "experimental": true,
       "ammo": 200,
+      "ammocost": 100,
       "breachdmg": 0.3,
       "breachmax": 0.8,
       "breachmin": 0.5,
@@ -67,6 +69,7 @@
     {
       "experimental": true,
       "ammo": 200,
+      "ammocost": 100,
       "breachdmg": 0.7,
       "breachmax": 0.8,
       "breachmin": 0.5,
@@ -99,6 +102,7 @@
     {
       "experimental": true,
       "ammo": 200,
+      "ammocost": 100,
       "breachdmg": 1,
       "breachmax": 0.8,
       "breachmin": 0.5,
@@ -150,6 +154,7 @@
       "shotspeed": 1200,
       "clip": 15,
       "ammo": 200,
+      "ammocost": 100,
       "reload": 3,
       "breachdmg": 1,
       "breachmin": 0.5,
@@ -163,6 +168,7 @@
     {
       "experimental": true,
       "ammo": 200,
+      "ammocost": 100,
       "breachdmg": 0.8,
       "breachmax": 0.8,
       "breachmin": 0.5,

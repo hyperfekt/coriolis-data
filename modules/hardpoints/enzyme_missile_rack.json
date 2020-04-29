@@ -21,6 +21,7 @@
       "shotspeed": 750,
       "clip": 8,
       "ammo": 64,
+      "ammocost": 235,
       "reload": 5,
       "breachdmg": 0,
       "breachmin": 0.8,

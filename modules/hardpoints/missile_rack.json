@@ -2,6 +2,7 @@
   "mr": [
     {
       "ammo": 16,
+      "ammocost": 500,
       "breachdmg": 20,
       "breachmax": 1,
       "breachmin": 1,
@@ -32,6 +33,7 @@
     },
     {
       "ammo": 6,
+      "ammocost": 500,
       "breachdmg": 16,
       "breachmax": 0,
       "breachmin": 0,
@@ -62,6 +64,7 @@
     },
     {
       "ammo": 48,
+      "ammocost": 500,
       "breachdmg": 20,
       "breachmax": 1,
       "breachmin": 1,
@@ -94,6 +97,7 @@
     },
     {
       "ammo": 18,
+      "ammocost": 500,
       "breachdmg": 16,
       "breachmax": 0,
       "breachmin": 0,
@@ -126,6 +130,7 @@
     },
     {
       "ammo": 48,
+      "ammocost": 500,
       "breachdmg": 16,
       "breachmax": 1,
       "breachmin": 1,
@@ -158,6 +163,7 @@
     },
     {
       "ammo": 120,
+      "ammocost": 500,
       "breachdmg": 3,
       "breachmax": 0,
       "breachmin": 0,
@@ -193,6 +199,7 @@
     },
     {
       "ammo": 96,
+      "ammocost": 500,
       "breachdmg": 20,
       "breachmax": 1,
       "breachmin": 1,
@@ -223,6 +230,7 @@
     },
     {
       "ammo": 36,
+      "ammocost": 500,
       "breachdmg": 16,
       "breachmax": 0,
       "breachmin": 0,

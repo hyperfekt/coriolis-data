@@ -2,6 +2,7 @@
   "rg": [
     {
       "ammo": 80,
+      "ammocost": 75,
       "breachdmg": 22.2,
       "breachmax": 0.8,
       "breachmin": 0.4,
@@ -33,6 +34,7 @@
     },
     {
       "ammo": 80,
+      "ammocost": 75,
       "breachdmg": 39.5,
       "breachmax": 0.8,
       "breachmin": 0.4,
@@ -64,6 +66,7 @@
     },
     {
       "ammo": 240,
+      "ammocost": 75,
       "breachdmg": 14.3,
       "breachmax": 0.8,
       "breachmin": 0.4,

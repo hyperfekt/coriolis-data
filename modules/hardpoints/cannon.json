@@ -2,6 +2,7 @@
   "c": [
     {
       "ammo": 120,
+      "ammocost": 20,
       "breachdmg": 17.1,
       "breachmax": 0.8,
       "breachmin": 0.6,
@@ -33,6 +34,7 @@
     },
     {
       "ammo": 100,
+      "ammocost": 20,
       "breachdmg": 13.2,
       "breachmax": 0.9,
       "breachmin": 0.6,
@@ -64,6 +66,7 @@
     },
     {
       "ammo": 100,
+      "ammocost": 20,
       "breachdmg": 10.6,
       "breachmax": 0.8,
       "breachmin": 0.6,
@@ -95,6 +98,7 @@
     },
     {
       "ammo": 120,
+      "ammocost": 20,
       "breachdmg": 28,
       "breachmax": 0.8,
       "breachmin": 0.6,
@@ -126,6 +130,7 @@
     },
     {
       "ammo": 100,
+      "ammocost": 20,
       "breachdmg": 20.3,
       "breachmax": 0.8,
       "breachmin": 0.6,
@@ -157,6 +162,7 @@
     },
     {
       "ammo": 100,
+      "ammocost": 20,
       "breachdmg": 16.3,
       "breachmax": 0.8,
       "breachmin": 0.6,
@@ -188,6 +194,7 @@
     },
     {
       "ammo": 120,
+      "ammocost": 20,
       "breachdmg": 42.3,
       "breachmax": 0.8,
       "breachmin": 0.6,
@@ -219,6 +226,7 @@
     },
     {
       "ammo": 100,
+      "ammocost": 20,
       "breachdmg": 30.9,
       "breachmax": 0.8,
       "breachmin": 0.6,
@@ -252,6 +260,7 @@
     },
     {
       "ammo": 100,
+      "ammocost": 20,
       "breachdmg": 25.14,
       "breachmax": 0.8,
       "breachmin": 0.6,
@@ -283,6 +292,7 @@
     },
     {
       "ammo": 120,
+      "ammocost": 20,
       "breachdmg": 63.2,
       "breachmax": 0.8,
       "breachmin": 0.6,
@@ -316,6 +326,7 @@
     },
     {
       "ammo": 100,
+      "ammocost": 20,
       "breachdmg": 46.7,
       "breachmax": 0.8,
       "breachmin": 0.6,
